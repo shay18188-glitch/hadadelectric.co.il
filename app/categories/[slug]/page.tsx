@@ -17,7 +17,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 import { getCategoryContent } from "@/content/categoryContent";
 
-export const revalidate = 3 * 60 * 60;
+export const revalidate = 10800; // 3 hours
 
 interface CategoryPageProps {
   params: Promise<{ slug: string }>;

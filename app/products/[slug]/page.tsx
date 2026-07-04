@@ -20,7 +20,7 @@ import { productJsonLd } from "@/lib/schema/jsonld";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS, cx } from "@/lib/utils";
 
-export const revalidate = 3 * 60 * 60;
+export const revalidate = 10800; // 3 hours
 
 interface ProductPageProps {
   params: Promise<{ slug: string }>;

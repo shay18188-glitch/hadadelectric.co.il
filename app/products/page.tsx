@@ -10,7 +10,7 @@ import { CategorySuggestions } from "@/components/CategorySuggestions";
 import { buildMetadata } from "@/lib/seo/metadata";
 import type { Product } from "@/types/product";
 
-export const revalidate = 3 * 60 * 60;
+export const revalidate = 10800; // 3 hours
 
 interface ProductsSearchParams {
   q?: string;

@@ -6,7 +6,7 @@ import { generateBrandMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductGrid } from "@/components/ProductGrid";
 
-export const revalidate = 3 * 60 * 60;
+export const revalidate = 10800; // 3 hours
 
 interface BrandPageProps {
   params: Promise<{ slug: string }>;

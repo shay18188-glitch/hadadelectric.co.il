@@ -11,7 +11,7 @@ import { getCategories, getBrands, getFeaturedProducts, getPopularProducts } fro
 import { FAQ_ITEMS } from "@/content/faq";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 
-export const revalidate = 3 * 60 * 60;
+export const revalidate = 10800; // 3 hours
 
 const WHY_CHOOSE = [
   { title: "חנות פיזית בנהריה", desc: "ניתן להגיע, לראות ולהתייעץ עם הצוות במקום." },

@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 
 const content = LOCAL_PAGES.find((p) => p.path === "/electric-appliances-krayot")!;
 
-export const revalidate = 3 * 60 * 60;
+export const revalidate = 10800; // 3 hours
 
 export const metadata: Metadata = buildMetadata({
   title: content.metaTitle,
