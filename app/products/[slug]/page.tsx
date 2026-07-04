@@ -18,7 +18,7 @@ import { ProductStickyCta } from "@/components/ProductStickyCta";
 import { JsonLd } from "@/components/JsonLd";
 import { productJsonLd } from "@/lib/schema/jsonld";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
-import { BUSINESS } from "@/lib/utils";
+import { BUSINESS, cx } from "@/lib/utils";
 
 export const revalidate = 1800;
 
@@ -63,7 +63,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         ]}
       />
 
-      <div className="container-page pb-8 md:pb-16">
+      <div className="container-page pb-20 md:pb-16">
         <div className="grid gap-6 md:grid-cols-2 md:gap-10">
           <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface md:rounded-3xl">
             <Image
@@ -71,7 +71,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               alt={`${product.name} - חדד יובל אלקטריק בע״מ`}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-contain p-6 md:p-8"
+              className={cx("object-contain p-6 md:p-8", !product.imageUrl && "opacity-40")}
               priority
             />
           </div>

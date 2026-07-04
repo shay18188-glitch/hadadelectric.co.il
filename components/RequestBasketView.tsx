@@ -7,6 +7,8 @@ import { useRequestBasket } from "@/components/RequestBasketProvider";
 import { trackEvent } from "@/lib/analytics";
 import { buildWhatsAppBasketMessage, buildWhatsAppUrl } from "@/lib/whatsapp/messages";
 
+import { cx } from "@/lib/utils";
+
 export function RequestBasketView() {
   const { items, removeItem, clear, isReady } = useRequestBasket();
   const [name, setName] = useState("");
@@ -48,7 +50,7 @@ export function RequestBasketView() {
                   alt=""
                   fill
                   sizes="64px"
-                  className="object-contain p-1.5"
+                  className={cx("object-contain p-1.5", !item.imageUrl && "opacity-40")}
                 />
               </span>
               <div className="min-w-0 flex-1">
@@ -112,8 +114,7 @@ export function RequestBasketView() {
           שלח בקשה מרוכזת בוואטסאפ
         </a>
         <p className="mt-3 text-xs text-graphite-soft/60">
-          אין באתר מחירים או סליקה. לבדיקת זמינות והזמנה ניתן לפנות בוואטסאפ או בטלפון — זמינות המלאי כפופה לאישור
-          החנות.
+          האתר משמש כקטלוג דיגיטלי להתרשמות. להצעת מחיר ורכישה נשמח לעמוד לשירותכם בוואטסאפ או בטלפון — זמינות המלאי כפופה לאישור החנות.
         </p>
       </div>
     </div>

@@ -8,6 +8,8 @@ import { useRequestBasket } from "@/components/RequestBasketProvider";
 import { trackEvent } from "@/lib/analytics";
 import { buildWhatsAppUrl, buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
 
+import { cx } from "@/lib/utils";
+
 export function ProductCard({ product }: { product: Product }) {
   const { addItem, removeItem, isInBasket } = useRequestBasket();
   const inBasket = isInBasket(product.modelNumber);
@@ -40,7 +42,7 @@ export function ProductCard({ product }: { product: Product }) {
           alt={`${product.name} - חדד יובל אלקטריק בע״מ`}
           fill
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className="object-contain p-3 transition-transform duration-300 sm:p-4 sm:group-hover:scale-105"
+          className={cx("object-contain p-3 transition-transform duration-300 sm:p-4 sm:group-hover:scale-105", !product.imageUrl && "opacity-40")}
         />
         <AvailabilityBadge availability={product.availability} className="absolute right-2 top-2 sm:right-3 sm:top-3" />
       </Link>

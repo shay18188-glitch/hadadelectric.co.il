@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
+import { cx } from "@/lib/utils";
 import type { CategorySuggestionItem } from "@/components/CategorySuggestions";
 
 interface Suggestion {
@@ -206,15 +207,15 @@ export function SearchBar({
                         idx === activeIndex ? "bg-surface" : ""
                       }`}
                     >
-                      <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl bg-surface">
-                        <Image
-                          src={s.imageUrl || "/images/product-placeholder.svg"}
-                          alt=""
-                          fill
-                          sizes="40px"
-                          className="object-contain p-1"
-                        />
-                      </span>
+              <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl bg-surface">
+                <Image
+                  src={s.imageUrl || "/images/product-placeholder.svg"}
+                  alt=""
+                  fill
+                  sizes="40px"
+                  className={cx("object-contain p-1", !s.imageUrl && "opacity-40")}
+                />
+              </span>
                       <span className="flex flex-col overflow-hidden">
                         <span className="truncate font-medium text-graphite">{s.name}</span>
                         <span className="truncate text-xs text-graphite-soft/70">

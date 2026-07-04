@@ -3,7 +3,6 @@ import { Rubik } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { StickyMobileCta } from "@/components/StickyMobileCta";
 import { RequestBasketProvider } from "@/components/RequestBasketProvider";
 import { Analytics } from "@/components/Analytics";
 import { JsonLd } from "@/components/JsonLd";
@@ -58,11 +57,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <JsonLd data={[organizationJsonLd(), localBusinessJsonLd(), websiteJsonLd()]} />
         <RequestBasketProvider>
           <Header />
-          <main id="main-content" className="flex-1 pb-24 md:pb-0">
+          <main id="main-content" className="flex-1">
             {children}
           </main>
           <Footer />
-          <StickyMobileCta />
         </RequestBasketProvider>
         <Analytics />
       </body>

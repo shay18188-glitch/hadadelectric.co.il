@@ -16,6 +16,9 @@ import { NAV_LINKS } from "@/lib/nav";
 import { BUSINESS, cx } from "@/lib/utils";
 import { useScrollDirection } from "@/lib/useScrollDirection";
 
+const MOBILE_ICON_BTN =
+  "inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-graphite transition-colors";
+
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
@@ -40,7 +43,7 @@ export function Header() {
       <div className="header-anchor md:sticky md:top-0 md:z-50">
         <div
           className={cx(
-            "header-float-wrap safe-top fixed inset-x-0 top-0 z-50 px-3 pt-2 md:static md:px-0 md:pt-0",
+            "header-float-wrap safe-top fixed inset-x-0 top-0 z-50 px-2 pt-2 sm:px-3 md:static md:px-0 md:pt-0",
             hidden && "header-float-wrap--hidden"
           )}
         >
@@ -59,20 +62,8 @@ export function Header() {
                 compact ? "h-12 py-1" : "h-14 py-0"
               )}
             >
-              <div className="flex flex-1 items-center gap-2">
-                <button
-                  type="button"
-                  aria-label="פתח תפריט"
-                  aria-expanded={mobileOpen}
-                  onClick={openMenu}
-                  className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-graphite transition-colors hover:bg-surface/80 active:bg-surface lg:hidden"
-                >
-                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-6 w-6 fill-none stroke-current stroke-[1.8]">
-                    <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
-                <Logo compact={compact} />
-              </div>
+              {/* Desktop */}
+              <Logo compact={compact} className="hidden lg:flex" />
 
               <nav aria-label="ניווט ראשי" className="hidden items-center gap-1 lg:flex">
                 {NAV_LINKS.map((link) => {
@@ -96,44 +87,58 @@ export function Header() {
                 <SearchBar />
               </div>
 
-              <div className="flex items-center gap-1 sm:gap-2">
-                <LanguageSwitcher iconOnly className="md:hidden" />
-                <LanguageSwitcher className="hidden md:block" />
+              <div className="hidden items-center gap-2 lg:flex">
+                <LanguageSwitcher />
+                <RequestBasketIcon />
+                <WhatsAppButton
+                  message={buildWhatsAppGeneralMessage()}
+                  trackAs="whatsapp_click_header"
+                  size="sm"
+                />
+                <PhoneButton phone={BUSINESS.phoneDisplay} size="sm" />
+              </div>
 
+              {/* Mobile — actions on the right (RTL start), logo + menu on the left (RTL end) */}
+              <div className="flex min-w-0 flex-1 items-center gap-0.5 sm:gap-1 lg:hidden">
+                <LanguageSwitcher iconOnly />
                 <button
                   type="button"
                   aria-label="חיפוש"
                   aria-expanded={mobileSearchOpen}
                   onClick={openSearch}
                   className={cx(
-                    "inline-flex h-10 w-10 items-center justify-center rounded-full text-graphite transition-colors md:hidden",
+                    MOBILE_ICON_BTN,
                     mobileSearchOpen ? "bg-brand-blue-light text-brand-blue" : "hover:bg-surface/80 active:bg-surface"
                   )}
                 >
-                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-current stroke-[1.8] sm:h-6 sm:w-6">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-current stroke-[1.8]">
                     <circle cx="11" cy="11" r="7" />
                     <path strokeLinecap="round" d="m20 20-3.5-3.5" />
                   </svg>
                 </button>
-                
-                <PhoneButton phone={BUSINESS.phoneDisplay} className="lg:hidden" variant="ghost" iconOnly />
+                <PhoneButton phone={BUSINESS.phoneDisplay} variant="ghost" iconOnly />
                 <WhatsAppButton
                   message={buildWhatsAppGeneralMessage()}
                   trackAs="whatsapp_click_header"
-                  className="lg:hidden"
                   variant="primary"
                   iconOnly
                 />
-                
                 <RequestBasketIcon />
-                
-                <WhatsAppButton
-                  message={buildWhatsAppGeneralMessage()}
-                  trackAs="whatsapp_click_header"
-                  className="hidden lg:inline-flex"
-                  size="sm"
-                />
-                <PhoneButton phone={BUSINESS.phoneDisplay} className="hidden lg:inline-flex" size="sm" />
+              </div>
+
+              <div className="flex shrink-0 items-center gap-1 lg:hidden">
+                <Logo compact={compact} iconOnly />
+                <button
+                  type="button"
+                  aria-label="פתח תפריט"
+                  aria-expanded={mobileOpen}
+                  onClick={openMenu}
+                  className={cx(MOBILE_ICON_BTN, "hover:bg-surface/80 active:bg-surface")}
+                >
+                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-6 w-6 fill-none stroke-current stroke-[1.8]">
+                    <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
               </div>
             </div>
           </header>

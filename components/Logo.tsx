@@ -2,7 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { cx } from "@/lib/utils";
 
-export function Logo({ className, compact = false }: { className?: string; compact?: boolean }) {
+export function Logo({
+  className,
+  compact = false,
+  iconOnly = false,
+}: {
+  className?: string;
+  compact?: boolean;
+  iconOnly?: boolean;
+}) {
   return (
     <Link
       href="/"
@@ -27,7 +35,7 @@ export function Logo({ className, compact = false }: { className?: string; compa
           priority
         />
       </span>
-      <span className={cx("hidden flex-col leading-tight sm:flex", compact && "sm:hidden")}>
+      <span className={cx("hidden flex-col leading-tight", !iconOnly && "sm:flex", compact && !iconOnly && "sm:hidden")}>
         <span className="text-sm font-bold text-graphite md:text-base">חדד יובל אלקטריק</span>
         <span className="text-[11px] text-graphite-soft/70">מוצרי חשמל בנהריה והצפון</span>
       </span>
