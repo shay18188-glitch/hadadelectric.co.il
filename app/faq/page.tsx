@@ -19,9 +19,9 @@ export default function FaqPage() {
   return (
     <>
       <Breadcrumbs items={[{ name: "שאלות נפוצות", path: "/faq" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">שאלות נפוצות</h1>
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-graphite-soft/90">
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">שאלות נפוצות</h1>
+        <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-base">
           כאן תמצאו תשובות לשאלות נפוצות על הקטלוג, בדיקת זמינות, הזמנה בוואטסאפ, אזור השירות שלנו בנהריה והצפון,
           ועוד. לא מצאתם תשובה?{" "}
           <Link href="/contact" className="font-medium text-brand-blue hover:underline">
@@ -34,10 +34,10 @@ export default function FaqPage() {
           .
         </p>
 
-        <div className="mt-10 max-w-3xl space-y-10">
+        <div className="mt-8 max-w-3xl space-y-8 md:mt-10 md:space-y-10">
           {FAQ_CATEGORIES.map((category) => (
             <section key={category.title} aria-labelledby={`faq-${category.title}`}>
-              <h2 id={`faq-${category.title}`} className="mb-4 text-xl font-bold text-graphite md:text-2xl">
+              <h2 id={`faq-${category.title}`} className="mb-3 text-lg font-bold text-graphite md:mb-4 md:text-2xl">
                 {category.title}
               </h2>
               <FaqAccordion items={category.items} />
@@ -45,7 +45,7 @@ export default function FaqPage() {
           ))}
         </div>
 
-        <div className="mt-14">
+        <div className="mt-10 md:mt-14">
           <ContactStrip />
         </div>
 

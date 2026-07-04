@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
+import type { CategorySuggestionItem } from "@/components/CategorySuggestions";
 
 interface Suggestion {
   name: string;
@@ -18,18 +19,23 @@ export function SearchBar({
   size = "md",
   autoFocus = false,
   placeholder = "חפשו מקרר, מכונת כביסה, מותג, מק״ט או קטגוריה…",
+  onNavigate,
 }: {
   size?: "md" | "lg";
   autoFocus?: boolean;
   placeholder?: string;
+  onNavigate?: () => void;
 }) {
   const router = useRouter();
   const [value, setValue] = useState("");
   const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
+  const [categorySuggestions, setCategorySuggestions] = useState<CategorySuggestionItem[]>([]);
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const containerRef = useRef<HTMLDivElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const submitIndex = categorySuggestions.length + suggestions.length;
 
   useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
@@ -37,6 +43,7 @@ export function SearchBar({
     debounceRef.current = setTimeout(async () => {
       if (value.trim().length < 2) {
         setSuggestions([]);
+        setCategorySuggestions([]);
         return;
       }
       try {
@@ -44,6 +51,7 @@ export function SearchBar({
         if (!res.ok) return;
         const json = await res.json();
         setSuggestions(json.results ?? []);
+        setCategorySuggestions(json.categories ?? []);
         setOpen(true);
       } catch {
         // Search suggestions are a progressive enhancement; fail silently.
@@ -65,42 +73,60 @@ export function SearchBar({
     return () => document.removeEventListener("click", handleClick);
   }, []);
 
+  function closeAndNavigate() {
+    setOpen(false);
+    onNavigate?.();
+  }
+
   function submitSearch(query: string) {
     const trimmed = query.trim();
     trackEvent("search_query", { query: trimmed });
     setOpen(false);
+    onNavigate?.();
     router.push(`/products?q=${encodeURIComponent(trimmed)}`);
   }
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
-    if (!open || suggestions.length === 0) {
-      if (e.key === "Enter") {
+    const navigableCount = submitIndex + (value.trim().length >= 2 ? 1 : 0);
+
+    if (e.key === "ArrowDown") {
+      if (navigableCount > 0 && open) {
         e.preventDefault();
+        setActiveIndex((i) => Math.min(i + 1, navigableCount - 1));
+      }
+      return;
+    }
+
+    if (e.key === "ArrowUp") {
+      if (navigableCount > 0 && open) {
+        e.preventDefault();
+        setActiveIndex((i) => Math.max(i - 1, -1));
+      }
+      return;
+    }
+
+    if (e.key === "Enter") {
+      e.preventDefault();
+      if (activeIndex >= 0 && activeIndex < categorySuggestions.length) {
+        router.push(`/categories/${encodeURIComponent(categorySuggestions[activeIndex].slug)}`);
+        closeAndNavigate();
+      } else if (activeIndex >= categorySuggestions.length && activeIndex < submitIndex) {
+        const product = suggestions[activeIndex - categorySuggestions.length];
+        router.push(`/products/${encodeURIComponent(product.slug)}`);
+        closeAndNavigate();
+      } else {
         submitSearch(value);
       }
       return;
     }
 
-    if (e.key === "ArrowDown") {
-      e.preventDefault();
-      setActiveIndex((i) => Math.min(i + 1, suggestions.length - 1));
-    } else if (e.key === "ArrowUp") {
-      e.preventDefault();
-      setActiveIndex((i) => Math.max(i - 1, -1));
-    } else if (e.key === "Enter") {
-      e.preventDefault();
-      if (activeIndex >= 0 && suggestions[activeIndex]) {
-        router.push(`/products/${encodeURIComponent(suggestions[activeIndex].slug)}`);
-        setOpen(false);
-      } else {
-        submitSearch(value);
-      }
-    } else if (e.key === "Escape") {
+    if (e.key === "Escape") {
       setOpen(false);
     }
   }
 
-  const sizeClasses = size === "lg" ? "py-4 text-base md:py-5 md:text-lg" : "py-2.5 text-sm";
+  const sizeClasses = size === "lg" ? "py-3.5 text-base md:py-5 md:text-lg" : "py-2.5 text-sm md:py-2.5";
+  const showDropdown = open && (suggestions.length > 0 || categorySuggestions.length > 0 || value.trim().length >= 2);
 
   return (
     <div ref={containerRef} className="relative w-full">
@@ -132,60 +158,88 @@ export function SearchBar({
             setValue(e.target.value);
             setActiveIndex(-1);
           }}
-          onFocus={() => suggestions.length > 0 && setOpen(true)}
+          onFocus={() => (suggestions.length > 0 || categorySuggestions.length > 0 || value.trim().length >= 2) && setOpen(true)}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
           role="combobox"
-          aria-expanded={open}
+          aria-expanded={showDropdown}
           aria-controls="search-suggestions"
           aria-autocomplete="list"
           className={`w-full rounded-full border border-line bg-white pe-12 ps-4 text-graphite shadow-sm outline-none placeholder:text-graphite-soft/50 focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 ${sizeClasses}`}
         />
       </form>
 
-      {open && suggestions.length > 0 && (
-        <ul
-          id="search-suggestions"
-          role="listbox"
-          className="absolute z-40 mt-2 w-full overflow-hidden rounded-2xl border border-line bg-white shadow-lg"
-        >
-          {suggestions.map((s, index) => (
-            <li key={s.slug} role="option" aria-selected={index === activeIndex}>
-              <Link
-                href={`/products/${encodeURIComponent(s.slug)}`}
-                onClick={() => setOpen(false)}
-                className={`flex items-center gap-3 px-4 py-2.5 text-sm hover:bg-surface ${
-                  index === activeIndex ? "bg-surface" : ""
-                }`}
-              >
-                <span className="relative h-9 w-9 shrink-0 overflow-hidden rounded-lg bg-surface">
-                  <Image
-                    src={s.imageUrl || "/images/product-placeholder.svg"}
-                    alt=""
-                    fill
-                    sizes="36px"
-                    className="object-contain p-1"
-                  />
-                </span>
-                <span className="flex flex-col overflow-hidden">
-                  <span className="truncate font-medium text-graphite">{s.name}</span>
-                  <span className="truncate text-xs text-graphite-soft/70">
-                    {[s.brand, s.category].filter(Boolean).join(" · ")}
-                  </span>
-                </span>
-              </Link>
-            </li>
-          ))}
-          <li>
+      {showDropdown && (
+        <div className="absolute z-40 mt-2 max-h-[min(70vh,420px)] w-full overflow-y-auto rounded-3xl border border-line bg-white shadow-xl">
+          {categorySuggestions.length > 0 && (
+            <div className="border-b border-line px-3 py-3">
+              <p className="px-1.5 pb-2 text-xs font-semibold text-graphite-soft/60">קטגוריות שמתאימות לחיפוש שלך</p>
+              <div className="scroll-x-fade flex gap-2 md:flex-wrap">
+                {categorySuggestions.map((category, index) => (
+                  <Link
+                    key={category.slug}
+                    href={`/categories/${category.slug}`}
+                    onClick={closeAndNavigate}
+                    className={`tap-target inline-flex shrink-0 items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-semibold transition-colors ${
+                      activeIndex === index
+                        ? "bg-brand-blue text-white"
+                        : "bg-brand-blue-light text-brand-blue hover:bg-brand-blue hover:text-white"
+                    }`}
+                  >
+                    {category.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {suggestions.length > 0 && (
+            <ul id="search-suggestions" role="listbox">
+              {suggestions.map((s, index) => {
+                const idx = categorySuggestions.length + index;
+                return (
+                  <li key={s.slug} role="option" aria-selected={idx === activeIndex}>
+                    <Link
+                      href={`/products/${encodeURIComponent(s.slug)}`}
+                      onClick={closeAndNavigate}
+                      className={`flex items-center gap-3 px-4 py-3 text-sm hover:bg-surface ${
+                        idx === activeIndex ? "bg-surface" : ""
+                      }`}
+                    >
+                      <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl bg-surface">
+                        <Image
+                          src={s.imageUrl || "/images/product-placeholder.svg"}
+                          alt=""
+                          fill
+                          sizes="40px"
+                          className="object-contain p-1"
+                        />
+                      </span>
+                      <span className="flex flex-col overflow-hidden">
+                        <span className="truncate font-medium text-graphite">{s.name}</span>
+                        <span className="truncate text-xs text-graphite-soft/70">
+                          {[s.brand, s.category].filter(Boolean).join(" · ")}
+                        </span>
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+
+          {value.trim().length >= 2 && (
             <button
               type="button"
               onClick={() => submitSearch(value)}
-              className="block w-full px-4 py-3 text-start text-sm font-semibold text-brand-blue hover:bg-surface"
+              className={`tap-target block w-full px-4 py-3.5 text-start text-sm font-semibold text-brand-blue hover:bg-surface ${
+                activeIndex === submitIndex ? "bg-surface" : ""
+              }`}
             >
               הצג את כל התוצאות עבור &quot;{value}&quot;
             </button>
-          </li>
-        </ul>
+          )}
+        </div>
       )}
     </div>
   );

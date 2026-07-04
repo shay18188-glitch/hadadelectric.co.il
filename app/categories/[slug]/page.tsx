@@ -9,6 +9,7 @@ import {
 } from "@/lib/base44/catalog";
 import { generateCategoryMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CategorySearchBox } from "@/components/CategorySearchBox";
 import { ProductGrid } from "@/components/ProductGrid";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -48,16 +49,16 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const content = getCategoryContent(slug);
   const relatedBrandSlugs = new Set(products.map((p) => p.brandSlug).filter(Boolean));
   const relatedBrands = allBrands.filter((b) => relatedBrandSlugs.has(b.slug));
-  const otherCategories = allCategories.filter((c) => c.slug !== slug).slice(0, 6);
+  const otherCategories = allCategories.filter((c) => c.slug !== slug);
 
   return (
     <>
       <Breadcrumbs items={[{ name: "קטגוריות", path: "/categories" }, { name: category.name, path: `/categories/${slug}` }]} />
 
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">{category.name} בחדד יובל אלקטריק</h1>
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">{category.name} בחדד יובל אלקטריק</h1>
 
-        <div className="mt-4 max-w-3xl">
+        <div className="mt-3 max-w-3xl md:mt-4">
           <SeoTextBlock>
             {content.intro.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
@@ -66,12 +67,12 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         </div>
 
         {relatedBrands.length > 0 && (
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="scroll-x-fade mt-5 flex gap-2 md:mt-6 md:flex-wrap">
             {relatedBrands.map((brand) => (
               <Link
                 key={brand.slug}
                 href={`/brands/${brand.slug}`}
-                className="rounded-full border border-line bg-white px-4 py-1.5 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
+                className="shrink-0 rounded-full border border-line bg-white px-4 py-1.5 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
               >
                 {brand.name}
               </Link>
@@ -79,17 +80,17 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           </div>
         )}
 
-        <p className="mt-6 text-sm text-graphite-soft/70">{products.length} מוצרים</p>
-        <div className="mt-4">
+        <p className="mt-5 text-sm text-graphite-soft/70 md:mt-6">{products.length} מוצרים</p>
+        <div className="mt-3 md:mt-4">
           <ProductGrid products={products} emptyMessage="לא נמצאו מוצרים זמינים בקטגוריה זו כרגע." />
         </div>
 
         {content.faq.length > 0 && (
-          <section className="mt-14" aria-labelledby="category-faq-heading">
-            <h2 id="category-faq-heading" className="text-xl font-bold text-graphite md:text-2xl">
+          <section className="mt-10 md:mt-14" aria-labelledby="category-faq-heading">
+            <h2 id="category-faq-heading" className="text-lg font-bold text-graphite md:text-2xl">
               שאלות נפוצות
             </h2>
-            <div className="mt-4">
+            <div className="mt-3 md:mt-4">
               <FaqAccordion items={content.faq} />
             </div>
             <JsonLd data={faqJsonLd(content.faq)} />
@@ -97,20 +98,12 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         )}
 
         {otherCategories.length > 0 && (
-          <section className="mt-14" aria-labelledby="other-categories-heading">
-            <h2 id="other-categories-heading" className="text-xl font-bold text-graphite md:text-2xl">
+          <section className="mt-8 md:mt-14" aria-labelledby="other-categories-heading">
+            <h2 id="other-categories-heading" className="text-lg font-bold text-graphite md:text-2xl">
               קטגוריות נוספות
             </h2>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {otherCategories.map((c) => (
-                <Link
-                  key={c.slug}
-                  href={`/categories/${c.slug}`}
-                  className="rounded-full border border-line bg-white px-4 py-1.5 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
-                >
-                  {c.name}
-                </Link>
-              ))}
+            <div className="mt-3 md:mt-4">
+              <CategorySearchBox categories={otherCategories} limit={8} placeholder="חפשו קטגוריה…" />
             </div>
           </section>
         )}

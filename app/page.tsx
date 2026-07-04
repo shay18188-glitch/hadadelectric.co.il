@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { Hero } from "@/components/Hero";
-import { CategoryTiles } from "@/components/CategoryTiles";
+import { CategorySearchBox } from "@/components/CategorySearchBox";
 import { ProductGrid } from "@/components/ProductGrid";
 import { BrandStrip } from "@/components/BrandStrip";
 import { ContactStrip } from "@/components/ContactStrip";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
+import { Reveal } from "@/components/Reveal";
 import { getCategories, getBrands, getFeaturedProducts, getPopularProducts } from "@/lib/base44/catalog";
 import { FAQ_ITEMS } from "@/content/faq";
 import { faqJsonLd } from "@/lib/schema/jsonld";
@@ -33,22 +34,28 @@ export default async function HomePage() {
     <>
       <Hero />
 
-      <section className="container-page py-14 md:py-20" aria-labelledby="explore-heading">
-        <div className="mb-8 flex items-end justify-between gap-4">
-          <h2 id="explore-heading" className="text-2xl font-bold text-graphite md:text-3xl">
+      <section className="container-page py-8 md:py-20" aria-labelledby="explore-heading">
+        <div className="mb-5 flex items-end justify-between gap-4 md:mb-8">
+          <h2 id="explore-heading" className="text-xl font-bold text-graphite md:text-3xl">
             גלו לפי קטגוריה
           </h2>
-          <Link href="/products" className="hidden text-sm font-semibold text-brand-blue hover:underline md:block">
+          <Link href="/categories" className="hidden text-sm font-semibold text-brand-blue hover:underline md:block">
             לכל הקטגוריות
           </Link>
         </div>
-        <CategoryTiles categories={categories.slice(0, 12)} />
+        <CategorySearchBox categories={categories} limit={12} />
+        <Link
+          href="/categories"
+          className="mt-4 inline-flex text-sm font-semibold text-brand-blue hover:underline md:hidden"
+        >
+          לכל הקטגוריות ←
+        </Link>
       </section>
 
-      <section className="bg-surface py-14 md:py-20" aria-labelledby="featured-heading">
+      <section className="bg-surface py-8 md:py-20" aria-labelledby="featured-heading">
         <div className="container-page">
-          <div className="mb-8 flex items-end justify-between gap-4">
-            <h2 id="featured-heading" className="text-2xl font-bold text-graphite md:text-3xl">
+          <div className="mb-5 flex items-end justify-between gap-4 md:mb-8">
+            <h2 id="featured-heading" className="text-xl font-bold text-graphite md:text-3xl">
               מוצרים נבחרים
             </h2>
             <Link href="/products" className="hidden text-sm font-semibold text-brand-blue hover:underline md:block">
@@ -59,13 +66,13 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="container-page py-14 md:py-20" aria-labelledby="popular-heading">
-        <div className="mb-8 flex items-end justify-between gap-4">
-          <h2 id="popular-heading" className="text-2xl font-bold text-graphite md:text-3xl">
+      <section className="container-page py-8 md:py-20" aria-labelledby="popular-heading">
+        <div className="mb-5 flex items-end justify-between gap-4 md:mb-8">
+          <h2 id="popular-heading" className="text-xl font-bold text-graphite md:text-3xl">
             מוצרים זמינים במלאי
           </h2>
           <Link
-            href="/products?availability=in_stock"
+            href="/products?inStock=true"
             className="hidden text-sm font-semibold text-brand-blue hover:underline md:block"
           >
             לכל המוצרים הזמינים
@@ -74,40 +81,42 @@ export default async function HomePage() {
         <ProductGrid products={popularProducts} />
       </section>
 
-      <section className="bg-surface py-14 md:py-20" aria-labelledby="brands-heading">
+      <section className="bg-surface py-10 md:py-20" aria-labelledby="brands-heading">
         <div className="container-page">
-          <h2 id="brands-heading" className="mb-8 text-2xl font-bold text-graphite md:text-3xl">
+          <h2 id="brands-heading" className="mb-5 text-xl font-bold text-graphite md:mb-8 md:text-3xl">
             מותגים מובילים
           </h2>
-          <BrandStrip brands={brands.slice(0, 14)} />
+          <Reveal>
+            <BrandStrip brands={brands.slice(0, 14)} />
+          </Reveal>
         </div>
       </section>
 
-      <section className="container-page py-14 md:py-20" aria-labelledby="why-heading">
-        <h2 id="why-heading" className="mb-8 text-2xl font-bold text-graphite md:text-3xl">
+      <section className="container-page py-10 md:py-20" aria-labelledby="why-heading">
+        <h2 id="why-heading" className="mb-5 text-xl font-bold text-graphite md:mb-8 md:text-3xl">
           למה לקנות אצל חדד יובל אלקטריק?
         </h2>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <Reveal stagger className="grid gap-3 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
           {WHY_CHOOSE.map((item) => (
-            <div key={item.title} className="rounded-2xl border border-line bg-white p-6">
-              <h3 className="text-base font-bold text-graphite">{item.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-graphite-soft/80">{item.desc}</p>
+            <div key={item.title} className="rounded-2xl border border-line bg-white p-5 md:p-6">
+              <h3 className="text-[15px] font-bold text-graphite md:text-base">{item.title}</h3>
+              <p className="mt-1.5 text-sm leading-relaxed text-graphite-soft/80 md:mt-2">{item.desc}</p>
             </div>
           ))}
-        </div>
+        </Reveal>
       </section>
 
-      <section className="bg-surface py-14 md:py-20" aria-labelledby="local-heading">
+      <section className="bg-surface py-10 md:py-20" aria-labelledby="local-heading">
         <div className="container-page">
-          <h2 id="local-heading" className="text-2xl font-bold text-graphite md:text-3xl">
+          <h2 id="local-heading" className="text-xl font-bold text-graphite md:text-3xl">
             מוצרי חשמל בנהריה והצפון
           </h2>
-          <p className="mt-4 max-w-3xl text-base leading-relaxed text-graphite-soft/90">
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-graphite-soft/90 md:mt-4 md:text-base">
             החנות שלנו ממוקמת בלוחמי הגטאות 3, נהריה, ומשרתת לקוחות פרטיים מכל אזור הצפון — מקו חיפה ועד הגבול עם
             לבנון, כולל עכו, קריות, כרמיאל, מעלות-תרשיחא, שלומי וקריית שמונה. ניתן לעיין בקטלוג המוצרים באתר, לבדוק
             זמינות כללית ולפנות לצוות החנות לתיאום הזמנה או ביקור בחנות.
           </p>
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="scroll-x-fade mt-5 flex gap-2 md:mt-6 md:flex-wrap">
             {[
               { href: "/electric-appliances-nahariya", label: "נהריה" },
               { href: "/electric-appliances-north", label: "הצפון" },
@@ -122,7 +131,7 @@ export default async function HomePage() {
               <Link
                 key={area.href}
                 href={area.href}
-                className="rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
+                className="shrink-0 rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
               >
                 {area.label}
               </Link>
@@ -131,16 +140,16 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="container-page py-10">
-        <div className="rounded-2xl border border-line bg-brand-blue-light px-6 py-6 text-center text-sm text-graphite md:text-base">
+      <section className="container-page py-8 md:py-10">
+        <div className="rounded-2xl border border-line bg-brand-blue-light px-5 py-5 text-center text-sm text-graphite md:px-6 md:py-6 md:text-base">
           האתר מציג קטלוג מוצרים וזמינות כללית בלבד. אין באתר מחירים או סליקה. לבדיקת זמינות והזמנה ניתן לפנות
           בוואטסאפ או בטלפון — זמינות המלאי כפופה לאישור החנות.
         </div>
       </section>
 
-      <section className="container-page py-14 md:py-20" aria-labelledby="faq-heading">
-        <div className="mb-8 flex items-end justify-between gap-4">
-          <h2 id="faq-heading" className="text-2xl font-bold text-graphite md:text-3xl">
+      <section className="container-page py-10 md:py-20" aria-labelledby="faq-heading">
+        <div className="mb-5 flex items-end justify-between gap-4 md:mb-8">
+          <h2 id="faq-heading" className="text-xl font-bold text-graphite md:text-3xl">
             שאלות נפוצות
           </h2>
           <Link href="/faq" className="hidden text-sm font-semibold text-brand-blue hover:underline md:block">
@@ -151,7 +160,7 @@ export default async function HomePage() {
         <JsonLd data={faqJsonLd(FAQ_ITEMS.slice(0, 4))} />
       </section>
 
-      <div className="container-page pb-16">
+      <div className="container-page pb-12 md:pb-16">
         <ContactStrip />
       </div>
     </>

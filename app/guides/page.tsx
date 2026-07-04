@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Reveal } from "@/components/Reveal";
 import { GUIDES } from "@/content/guides";
 import { buildMetadata } from "@/lib/seo/metadata";
 
@@ -14,25 +15,25 @@ export default function GuidesIndexPage() {
   return (
     <>
       <Breadcrumbs items={[{ name: "מדריכים", path: "/guides" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">מדריכים למוצרי חשמל</h1>
-        <p className="mt-3 max-w-2xl text-sm text-graphite-soft/80 md:text-base">
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">מדריכים למוצרי חשמל</h1>
+        <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
           טיפים מעשיים שיעזרו לכם לבחור את מוצר החשמל המתאים לבית שלכם.
         </p>
 
-        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <Reveal as="div" stagger className="mt-6 grid gap-4 sm:grid-cols-2 sm:gap-5 md:mt-8 lg:grid-cols-3">
           {GUIDES.map((guide) => (
             <Link
               key={guide.slug}
               href={`/guides/${guide.slug}`}
-              className="flex flex-col rounded-2xl border border-line bg-white p-6 transition-shadow hover:shadow-md"
+              className="tap-scale flex flex-col rounded-2xl border border-line bg-white p-5 transition-shadow md:p-6 md:hover:shadow-md"
             >
-              <h2 className="text-lg font-bold text-graphite">{guide.title}</h2>
+              <h2 className="text-base font-bold text-graphite md:text-lg">{guide.title}</h2>
               <p className="mt-2 line-clamp-3 text-sm text-graphite-soft/80">{guide.description}</p>
               <span className="mt-4 text-sm font-semibold text-brand-blue">קראו עוד ←</span>
             </Link>
           ))}
-        </div>
+        </Reveal>
       </div>
     </>
   );

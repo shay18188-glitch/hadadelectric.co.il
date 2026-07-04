@@ -29,10 +29,10 @@ export function ProductCard({ product }: { product: Product }) {
   }
 
   return (
-    <div className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white transition-shadow hover:shadow-md">
+    <div className="group flex h-full flex-col overflow-hidden rounded-xl border border-line bg-white transition-shadow sm:rounded-2xl sm:hover:shadow-md">
       <Link
         href={`/products/${encodeURIComponent(product.slug)}`}
-        className="relative block aspect-square overflow-hidden bg-surface"
+        className="tap-scale relative block aspect-square overflow-hidden bg-surface"
         onClick={() => trackEvent("product_view", { model_number: product.modelNumber })}
       >
         <Image
@@ -40,33 +40,33 @@ export function ProductCard({ product }: { product: Product }) {
           alt={`${product.name} - חדד יובל אלקטריק בע״מ`}
           fill
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className="object-contain p-4 transition-transform duration-300 group-hover:scale-105"
+          className="object-contain p-3 transition-transform duration-300 sm:p-4 sm:group-hover:scale-105"
         />
-        <AvailabilityBadge availability={product.availability} className="absolute right-3 top-3" />
+        <AvailabilityBadge availability={product.availability} className="absolute right-2 top-2 sm:right-3 sm:top-3" />
       </Link>
 
-      <div className="flex flex-1 flex-col gap-2 p-4">
-        {product.brand && <p className="text-xs font-medium text-brand-blue">{product.brand}</p>}
+      <div className="flex flex-1 flex-col gap-1.5 p-3 sm:gap-2 sm:p-4">
+        {product.brand && <p className="text-[11px] font-medium text-brand-blue sm:text-xs">{product.brand}</p>}
         <Link href={`/products/${encodeURIComponent(product.slug)}`} className="focus-visible:outline-none">
-          <h3 className="line-clamp-2 text-sm font-semibold text-graphite hover:underline md:text-base">
+          <h3 className="line-clamp-2 text-[13px] font-semibold leading-snug text-graphite hover:underline sm:text-sm md:text-base">
             {product.name}
           </h3>
         </Link>
-        {product.category && <p className="text-xs text-graphite-soft/70">{product.category}</p>}
+        {product.category && <p className="text-[11px] text-graphite-soft/70 sm:text-xs">{product.category}</p>}
 
-        <div className="mt-auto flex flex-col gap-2 pt-3">
-          <div className="flex gap-2">
+        <div className="mt-auto flex flex-col gap-1.5 pt-2 sm:gap-2 sm:pt-3">
+          <div className="flex gap-1.5 sm:gap-2">
             <button
               type="button"
               onClick={handleToggleBasket}
               aria-pressed={inBasket}
-              className="flex-1 rounded-full border border-line px-3 py-2 text-xs font-semibold text-graphite transition-colors hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue"
+              className="tap-scale flex-1 rounded-full border border-line px-2 py-2 text-[11px] font-semibold text-graphite transition-colors hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue sm:px-3 sm:text-xs"
             >
-              {inBasket ? "הוסר מהבקשה ✓" : "הוסף לבקשה"}
+              {inBasket ? "הוסר ✓" : "הוסף לבקשה"}
             </button>
             <Link
               href={`/products/${encodeURIComponent(product.slug)}`}
-              className="flex-1 rounded-full bg-graphite px-3 py-2 text-center text-xs font-semibold text-white transition-colors hover:bg-graphite-soft"
+              className="tap-scale flex-1 rounded-full bg-graphite px-2 py-2 text-center text-[11px] font-semibold text-white transition-colors hover:bg-graphite-soft sm:px-3 sm:text-xs"
             >
               לפרטים
             </Link>
@@ -76,7 +76,7 @@ export function ProductCard({ product }: { product: Product }) {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => trackEvent("whatsapp_click_product", { model_number: product.modelNumber })}
-            className="inline-flex items-center justify-center gap-1.5 rounded-full bg-[#25D366]/10 px-3 py-2 text-xs font-semibold text-[#128C4A] transition-colors hover:bg-[#25D366]/20"
+            className="tap-scale inline-flex items-center justify-center gap-1.5 rounded-full bg-[#25D366]/10 px-2 py-2 text-[11px] font-semibold text-[#128C4A] transition-colors hover:bg-[#25D366]/20 sm:px-3 sm:text-xs"
           >
             הזמן בוואטסאפ
           </a>

@@ -36,11 +36,11 @@ export default async function GuidePage({ params }: GuidePageProps) {
     <>
       <Breadcrumbs items={[{ name: "מדריכים", path: "/guides" }, { name: guide.title, path: `/guides/${slug}` }]} />
 
-      <article className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">{guide.title}</h1>
-        <p className="mt-3 max-w-2xl text-base text-graphite-soft/80">{guide.description}</p>
+      <article className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">{guide.title}</h1>
+        <p className="mt-2 max-w-2xl text-[15px] text-graphite-soft/80 md:mt-3 md:text-base">{guide.description}</p>
 
-        <div className="mt-8 max-w-3xl">
+        <div className="mt-6 max-w-3xl md:mt-8">
           <SeoTextBlock>
             {guide.sections.map((section, index) => (
               <div key={index}>
@@ -54,7 +54,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
         </div>
 
         {relatedCategory && (
-          <div className="mt-8 rounded-2xl border border-line bg-brand-blue-light p-5">
+          <div className="mt-6 rounded-2xl border border-line bg-brand-blue-light p-4 md:mt-8 md:p-5">
             <p className="text-sm text-graphite">
               רוצים לעיין בקטלוג?{" "}
               <Link href={`/categories/${relatedCategory.slug}`} className="font-semibold text-brand-blue hover:underline">
@@ -65,11 +65,11 @@ export default async function GuidePage({ params }: GuidePageProps) {
         )}
 
         {guide.faq && guide.faq.length > 0 && (
-          <section className="mt-12 max-w-3xl" aria-labelledby="guide-faq-heading">
-            <h2 id="guide-faq-heading" className="text-xl font-bold text-graphite md:text-2xl">
+          <section className="mt-10 max-w-3xl md:mt-12" aria-labelledby="guide-faq-heading">
+            <h2 id="guide-faq-heading" className="text-lg font-bold text-graphite md:text-2xl">
               שאלות נפוצות
             </h2>
-            <div className="mt-4">
+            <div className="mt-3 md:mt-4">
               <FaqAccordion items={guide.faq} />
             </div>
             <JsonLd data={faqJsonLd(guide.faq)} />

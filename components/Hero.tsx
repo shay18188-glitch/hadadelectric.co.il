@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { SearchBar } from "@/components/SearchBar";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -8,44 +9,48 @@ import { BUSINESS } from "@/lib/utils";
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-brand-blue-light/70 via-white to-white">
-      <div className="container-page grid gap-10 py-14 md:grid-cols-2 md:items-center md:py-24">
+      <div className="container-page grid gap-8 py-10 md:grid-cols-2 md:items-center md:gap-10 md:py-24">
         <div>
-          <p className="mb-3 inline-flex items-center rounded-full bg-white px-3 py-1 text-xs font-semibold text-brand-blue ring-1 ring-brand-blue/20">
+          <p className="mb-2.5 inline-flex items-center rounded-full bg-white px-3 py-1 text-[11px] font-semibold text-brand-blue ring-1 ring-brand-blue/20 md:mb-3 md:text-xs">
             {BUSINESS.nameHe}
           </p>
-          <h1 className="text-3xl font-extrabold leading-tight text-graphite md:text-5xl">
+          <h1 className="text-[1.65rem] font-extrabold leading-tight text-graphite md:text-5xl">
             מוצרי חשמל בנהריה והצפון
           </h1>
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-graphite-soft/90 md:text-lg">
+          <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-lg">
             קטלוג מוצרי חשמל לבית, בדיקת זמינות מהירה והזמנה ישירה בוואטסאפ או בטלפון — ללא מחירים וללא סליקה באתר.
           </p>
 
-          <div className="mt-7 max-w-lg">
+          <div className="mt-5 max-w-lg md:mt-7">
             <SearchBar size="lg" />
           </div>
 
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-5 flex flex-wrap gap-2.5 md:mt-6 md:gap-3">
             <Link
               href="/products"
-              className="inline-flex items-center justify-center rounded-full bg-graphite px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-graphite-soft"
+              className="tap-target inline-flex items-center justify-center rounded-full bg-graphite px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-graphite-soft md:px-6 md:py-3"
             >
               צפו בקטלוג
             </Link>
-            <WhatsAppButton message={buildWhatsAppGeneralMessage()} trackAs="whatsapp_click_header" />
-            <PhoneButton phone={BUSINESS.phoneDisplay} />
+            <WhatsAppButton message={buildWhatsAppGeneralMessage()} trackAs="whatsapp_click_header" size="sm" />
+            <PhoneButton phone={BUSINESS.phoneDisplay} size="sm" className="hidden min-[380px]:inline-flex" />
           </div>
         </div>
 
-        <div className="relative mx-auto hidden aspect-square w-full max-w-md items-center justify-center rounded-[2.5rem] bg-white shadow-xl ring-1 ring-line md:flex">
-          <div className="grid grid-cols-2 gap-4 p-8">
-            {["מקררים", "מכונות כביסה", "תנורים", "מזגנים"].map((label) => (
-              <div
-                key={label}
-                className="flex h-28 w-28 flex-col items-center justify-center gap-2 rounded-2xl bg-surface text-graphite-soft"
-              >
-                <span className="text-xs font-semibold">{label}</span>
-              </div>
-            ))}
+        <div className="relative mx-auto w-full max-w-md">
+          <div
+            className="pointer-events-none absolute -inset-4 rounded-[2.5rem] bg-brand-blue/15 blur-3xl md:-inset-6 md:rounded-[3rem]"
+            aria-hidden="true"
+          />
+          <div className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] bg-white shadow-xl ring-1 ring-line md:aspect-square md:rounded-[2.5rem]">
+            <Image
+              src="/images/hero-appliances.png"
+              alt="מוצרי חשמל לבית — מקרר, מכונת כביסה, תנור, מזגן וטלוויזיה"
+              fill
+              sizes="(max-width: 768px) 90vw, 448px"
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </div>

@@ -1,15 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getProducts } from "@/lib/base44/catalog";
+import { getCategories, getProducts } from "@/lib/base44/catalog";
 import { createFuseIndex, searchProducts } from "@/lib/search/fuse";
+import { matchCategories } from "@/lib/search/categorySearch";
 
 export async function GET(request: NextRequest) {
   const q = request.nextUrl.searchParams.get("q")?.trim() ?? "";
 
   if (!q || q.length < 2) {
-    return NextResponse.json({ results: [] });
+    return NextResponse.json({ results: [], categories: [] });
   }
 
-  const products = await getProducts();
+  const [products, categories] = await Promise.all([getProducts(), getCategories()]);
+
   const fuse = createFuseIndex(products);
   const results = searchProducts(fuse, q, 8).map((p) => ({
     name: p.name,
@@ -20,5 +22,11 @@ export async function GET(request: NextRequest) {
     availability: p.availability,
   }));
 
-  return NextResponse.json({ results });
+  const matchedCategories = matchCategories(categories, q, 4).map((c) => ({
+    name: c.name,
+    slug: c.slug,
+    productCount: c.productCount,
+  }));
+
+  return NextResponse.json({ results, categories: matchedCategories });
 }

@@ -14,6 +14,7 @@ import { ProductGrid } from "@/components/ProductGrid";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { PhoneButton } from "@/components/PhoneButton";
 import { AddToRequestButton } from "@/components/AddToRequestButton";
+import { ProductStickyCta } from "@/components/ProductStickyCta";
 import { JsonLd } from "@/components/JsonLd";
 import { productJsonLd } from "@/lib/schema/jsonld";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
@@ -62,24 +63,24 @@ export default async function ProductPage({ params }: ProductPageProps) {
         ]}
       />
 
-      <div className="container-page pb-16">
-        <div className="grid gap-10 md:grid-cols-2">
-          <div className="relative aspect-square overflow-hidden rounded-3xl border border-line bg-surface">
+      <div className="container-page pb-8 md:pb-16">
+        <div className="grid gap-6 md:grid-cols-2 md:gap-10">
+          <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface md:rounded-3xl">
             <Image
               src={product.imageUrl || "/images/product-placeholder.svg"}
               alt={`${product.name} - חדד יובל אלקטריק בע״מ`}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-contain p-8"
+              className="object-contain p-6 md:p-8"
               priority
             />
           </div>
 
           <div>
             {product.brand && <p className="text-sm font-semibold text-brand-blue">{product.brand}</p>}
-            <h1 className="mt-1 text-2xl font-bold text-graphite md:text-3xl">{product.name}</h1>
+            <h1 className="mt-1 text-xl font-bold text-graphite md:text-3xl">{product.name}</h1>
 
-            <div className="mt-3 flex flex-wrap items-center gap-3">
+            <div className="mt-2.5 flex flex-wrap items-center gap-2.5 md:mt-3 md:gap-3">
               <AvailabilityBadge availability={product.availability} />
               {product.category && <span className="text-sm text-graphite-soft/70">{product.category}</span>}
             </div>
@@ -97,9 +98,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
               )}
             </dl>
 
-            <p className="mt-5 text-base leading-relaxed text-graphite-soft/90">{product.description}</p>
+            <p className="mt-4 text-[15px] leading-relaxed text-graphite-soft/90 md:mt-5 md:text-base">
+              {product.description}
+            </p>
 
-            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-6 hidden flex-col gap-3 sm:flex-row md:mt-7 md:flex">
               <AddToRequestButton product={product} className="flex-1" />
               <WhatsAppButton
                 message={whatsappMessage}
@@ -108,7 +111,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 trackAs="whatsapp_click_product"
               />
             </div>
-            <PhoneButton phone={BUSINESS.phoneDisplay} label="התקשר להזמנה" className="mt-3 w-full sm:w-auto" />
+            <PhoneButton
+              phone={BUSINESS.phoneDisplay}
+              label="התקשר להזמנה"
+              className="mt-3 hidden w-full sm:w-auto md:flex"
+            />
 
             <p className="mt-4 text-xs text-graphite-soft/60">
               האתר מציג מידע כללי בלבד, ללא מחיר. זמינות המלאי כפופה לאישור החנות.
@@ -117,24 +124,24 @@ export default async function ProductPage({ params }: ProductPageProps) {
         </div>
 
         {product.specs.length > 0 && (
-          <section className="mt-14" aria-labelledby="specs-heading">
-            <h2 id="specs-heading" className="text-xl font-bold text-graphite md:text-2xl">
+          <section className="mt-10 md:mt-14" aria-labelledby="specs-heading">
+            <h2 id="specs-heading" className="text-lg font-bold text-graphite md:text-2xl">
               מפרט טכני
             </h2>
-            <div className="mt-4 overflow-hidden rounded-2xl border border-line">
-              <table className="w-full text-sm">
+            <div className="mt-3 overflow-hidden rounded-2xl border border-line md:mt-4">
+              <table className="w-full text-[13px] md:text-sm">
                 <tbody>
                   {product.specs.map((spec, index) => (
                     <tr key={index} className={index % 2 === 0 ? "bg-white" : "bg-surface"}>
                       {spec.label ? (
                         <>
-                          <th scope="row" className="w-1/3 px-4 py-3 text-start font-medium text-graphite-soft/70">
+                          <th scope="row" className="w-2/5 px-3 py-2.5 text-start font-medium text-graphite-soft/70 md:w-1/3 md:px-4 md:py-3">
                             {spec.label}
                           </th>
-                          <td className="px-4 py-3 text-graphite">{spec.value}</td>
+                          <td className="px-3 py-2.5 text-graphite md:px-4 md:py-3">{spec.value}</td>
                         </>
                       ) : (
-                        <td colSpan={2} className="px-4 py-3 text-graphite">
+                        <td colSpan={2} className="px-3 py-2.5 text-graphite md:px-4 md:py-3">
                           {spec.value}
                         </td>
                       )}
@@ -147,11 +154,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
         )}
 
         {product.capabilities.length > 0 && (
-          <section className="mt-10" aria-labelledby="capabilities-heading">
-            <h2 id="capabilities-heading" className="text-xl font-bold text-graphite md:text-2xl">
+          <section className="mt-8 md:mt-10" aria-labelledby="capabilities-heading">
+            <h2 id="capabilities-heading" className="text-lg font-bold text-graphite md:text-2xl">
               יכולות ומאפיינים
             </h2>
-            <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+            <ul className="mt-3 grid gap-2 sm:grid-cols-2 md:mt-4">
               {product.capabilities.map((capability, index) => (
                 <li key={index} className="flex items-start gap-2 text-sm text-graphite-soft/90">
                   <span aria-hidden="true" className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-blue" />
@@ -163,28 +170,29 @@ export default async function ProductPage({ params }: ProductPageProps) {
         )}
 
         {related.length > 0 && (
-          <section className="mt-14" aria-labelledby="related-heading">
-            <h2 id="related-heading" className="text-xl font-bold text-graphite md:text-2xl">
+          <section className="mt-10 md:mt-14" aria-labelledby="related-heading">
+            <h2 id="related-heading" className="text-lg font-bold text-graphite md:text-2xl">
               מוצרים נוספים מאותה קטגוריה
             </h2>
-            <div className="mt-4">
+            <div className="mt-3 md:mt-4">
               <ProductGrid products={related} />
             </div>
           </section>
         )}
 
         {sameBrand.length > 0 && (
-          <section className="mt-14" aria-labelledby="brand-heading">
-            <h2 id="brand-heading" className="text-xl font-bold text-graphite md:text-2xl">
+          <section className="mt-10 md:mt-14" aria-labelledby="brand-heading">
+            <h2 id="brand-heading" className="text-lg font-bold text-graphite md:text-2xl">
               מוצרים נוספים של {product.brand}
             </h2>
-            <div className="mt-4">
+            <div className="mt-3 md:mt-4">
               <ProductGrid products={sameBrand} />
             </div>
           </section>
         )}
       </div>
 
+      <ProductStickyCta product={product} />
       <JsonLd data={productJsonLd(product)} />
     </>
   );

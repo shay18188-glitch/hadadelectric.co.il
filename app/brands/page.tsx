@@ -18,17 +18,17 @@ export default async function BrandsPage() {
   return (
     <>
       <Breadcrumbs items={[{ name: "מותגים", path: "/brands" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">מותגי מוצרי חשמל</h1>
-        <p className="mt-3 max-w-2xl text-sm text-graphite-soft/80 md:text-base">
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">מותגי מוצרי חשמל</h1>
+        <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
           בחרו מותג כדי לגלות את כל המוצרים הזמינים בקטלוג שלנו.
         </p>
-        <div className="mt-8 flex flex-wrap gap-3">
+        <div className="mt-6 flex flex-wrap gap-2 md:mt-8 md:gap-3">
           {brands.map((brand) => (
             <Link
               key={brand.slug}
               href={`/brands/${brand.slug}`}
-              className="rounded-full border border-line bg-white px-5 py-2.5 text-sm font-semibold text-graphite transition-colors hover:border-brand-blue/40 hover:bg-brand-blue-light hover:text-brand-blue"
+              className="tap-target rounded-full border border-line bg-white px-4 py-2.5 text-sm font-semibold text-graphite transition-colors hover:border-brand-blue/40 hover:bg-brand-blue-light hover:text-brand-blue md:px-5"
             >
               {brand.name}
               <span className="ms-1.5 text-xs text-graphite-soft/50">({brand.productCount})</span>

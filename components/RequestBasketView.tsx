@@ -34,15 +34,15 @@ export function RequestBasketView() {
   const whatsappMessage = buildWhatsAppBasketMessage(items, { name, phone, notes });
 
   return (
-    <div className="grid gap-8 lg:grid-cols-3">
+    <div className="grid gap-6 lg:grid-cols-3 lg:gap-8">
       <div className="lg:col-span-2">
-        <ul className="flex flex-col gap-3">
+        <ul className="flex flex-col gap-2.5 md:gap-3">
           {items.map((item) => (
             <li
               key={item.modelNumber}
-              className="flex items-center gap-4 rounded-2xl border border-line bg-white p-3"
+              className="flex items-center gap-3 rounded-2xl border border-line bg-white p-2.5 md:gap-4 md:p-3"
             >
-              <span className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-surface">
+              <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-surface md:h-16 md:w-16">
                 <Image
                   src={item.imageUrl || "/images/product-placeholder.svg"}
                   alt=""
@@ -52,7 +52,7 @@ export function RequestBasketView() {
                 />
               </span>
               <div className="min-w-0 flex-1">
-                <Link href={`/products/${encodeURIComponent(item.slug)}`} className="font-semibold text-graphite hover:underline">
+                <Link href={`/products/${encodeURIComponent(item.slug)}`} className="text-[15px] font-semibold text-graphite hover:underline md:text-base">
                   {item.name}
                 </Link>
                 <p className="text-xs text-graphite-soft/60">
@@ -66,7 +66,7 @@ export function RequestBasketView() {
                   trackEvent("product_remove_from_request", { model_number: item.modelNumber });
                 }}
                 aria-label={`הסרת ${item.name} מהבקשה`}
-                className="shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold text-graphite-soft/70 hover:bg-surface hover:text-graphite"
+                className="tap-target shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold text-graphite-soft/70 hover:bg-surface hover:text-graphite"
               >
                 הסרה
               </button>
@@ -77,14 +77,14 @@ export function RequestBasketView() {
         <button
           type="button"
           onClick={clear}
-          className="mt-4 text-sm font-semibold text-graphite-soft/70 hover:text-graphite hover:underline"
+          className="tap-target mt-4 text-sm font-semibold text-graphite-soft/70 hover:text-graphite hover:underline"
         >
           ניקוי הבקשה
         </button>
       </div>
 
-      <div className="rounded-2xl border border-line bg-white p-5 lg:sticky lg:top-24 lg:h-fit">
-        <h2 className="text-lg font-bold text-graphite">פרטים לשליחה (לא חובה)</h2>
+      <div className="rounded-2xl border border-line bg-white p-4 md:p-5 lg:sticky lg:top-24 lg:h-fit">
+        <h2 className="text-base font-bold text-graphite md:text-lg">פרטים לשליחה (לא חובה)</h2>
         <div className="mt-4 flex flex-col gap-3">
           <Field label="שם מלא" value={name} onChange={setName} autoComplete="name" />
           <Field label="טלפון" value={phone} onChange={setPhone} type="tel" autoComplete="tel" />
@@ -107,7 +107,7 @@ export function RequestBasketView() {
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => trackEvent("whatsapp_click_basket", { items_count: items.length })}
-          className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3.5 text-sm font-bold text-white transition-colors hover:bg-[#1fbd5a]"
+          className="tap-target mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-5 py-3.5 text-sm font-bold text-white transition-colors hover:bg-[#1fbd5a]"
         >
           שלח בקשה מרוכזת בוואטסאפ
         </a>

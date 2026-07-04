@@ -17,10 +17,10 @@ export default function TermsPage() {
   return (
     <>
       <Breadcrumbs items={[{ name: "תנאי שימוש", path: "/terms" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">תנאי שימוש</h1>
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">תנאי שימוש</h1>
         <p className="mt-2 text-sm text-graphite-soft/60">עודכן לאחרונה: {TERMS_LAST_UPDATED}</p>
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-graphite-soft/90">{TERMS_INTRO}</p>
+        <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-base">{TERMS_INTRO}</p>
 
         <div className="mt-6 max-w-3xl">
           <SeoTextBlock>

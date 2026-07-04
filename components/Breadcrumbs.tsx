@@ -6,19 +6,19 @@ export function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
   const allItems: BreadcrumbItem[] = [{ name: "בית", path: "/" }, ...items];
 
   return (
-    <nav aria-label="פירורי לחם" className="container-page py-3 text-sm text-graphite-soft/80">
-      <ol className="flex flex-wrap items-center gap-1.5">
+    <nav aria-label="פירורי לחם" className="container-page py-2 text-xs text-graphite-soft/80 md:py-3 md:text-sm">
+      <ol className="flex flex-wrap items-center gap-1">
         {allItems.map((item, index) => {
           const isLast = index === allItems.length - 1;
           return (
-            <li key={item.path} className="flex items-center gap-1.5">
+            <li key={item.path} className="flex items-center gap-1">
               {index > 0 && (
                 <span aria-hidden="true" className="text-line">
                   /
                 </span>
               )}
               {isLast ? (
-                <span aria-current="page" className="font-medium text-graphite">
+                <span aria-current="page" className="line-clamp-1 max-w-[12rem] font-medium text-graphite sm:max-w-none">
                   {item.name}
                 </span>
               ) : (

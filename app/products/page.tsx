@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { getBrands, getCategories, getProducts } from "@/lib/base44/catalog";
 import { createFuseIndex, searchProducts } from "@/lib/search/fuse";
+import { matchCategories } from "@/lib/search/categorySearch";
 import { ProductGrid } from "@/components/ProductGrid";
 import { Filters } from "@/components/Filters";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CategorySuggestions } from "@/components/CategorySuggestions";
 import { buildMetadata } from "@/lib/seo/metadata";
 import type { Product } from "@/types/product";
 
@@ -73,9 +75,15 @@ export default async function ProductsPage({
     filtered = filtered.filter((p) => p.availability === "in_stock");
   }
 
+  let categorySuggestions: ReturnType<typeof matchCategories> = [];
+
   if (params.q) {
     const fuse = createFuseIndex(filtered);
     filtered = searchProducts(fuse, params.q, 200);
+    // Only surface category suggestions when the user typed a free-text
+    // query — never for category/brand filter selections, so this stays a
+    // progressive-enhancement layer on top of the existing filter UX.
+    categorySuggestions = matchCategories(categories, params.q, 4);
   } else {
     filtered = sortProducts(filtered, params.sort);
   }
@@ -83,22 +91,28 @@ export default async function ProductsPage({
   return (
     <>
       <Breadcrumbs items={[{ name: "קטלוג", path: "/products" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">קטלוג מוצרי חשמל</h1>
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">קטלוג מוצרי חשמל</h1>
         <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:text-base">
           קטלוג מלא של מוצרי חשמל לבית. ניתן לסנן לפי קטגוריה, מותג וזמינות, ולפנות לצוות החנות לבדיקת זמינות
           מדויקת והזמנה.
         </p>
 
-        <div className="mt-6">
+        <div className="mt-5 md:mt-6">
           <Suspense fallback={null}>
             <Filters categories={categories} brands={brands} />
           </Suspense>
         </div>
 
+        {categorySuggestions.length > 0 && (
+          <div className="mt-5">
+            <CategorySuggestions categories={categorySuggestions} />
+          </div>
+        )}
+
         <p className="mt-4 text-sm text-graphite-soft/70">{filtered.length} מוצרים</p>
 
-        <div className="mt-4">
+        <div className="mt-3 md:mt-4">
           <ProductGrid products={filtered} />
         </div>
       </div>

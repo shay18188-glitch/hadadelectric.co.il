@@ -10,7 +10,7 @@ export function RequestBasketIcon({ className }: { className?: string }) {
     <Link
       href="/request"
       aria-label={`הבקשה שלי, ${count} מוצרים`}
-      className={`relative inline-flex h-10 w-10 items-center justify-center rounded-full text-graphite transition-colors hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue ${className ?? ""}`}
+      className={`tap-target relative inline-flex h-10 w-10 items-center justify-center rounded-full text-graphite transition-colors hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue ${className ?? ""}`}
     >
       <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-current stroke-[1.8]">
         <path

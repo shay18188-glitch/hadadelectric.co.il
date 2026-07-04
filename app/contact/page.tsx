@@ -21,14 +21,14 @@ export default function ContactPage() {
   return (
     <>
       <Breadcrumbs items={[{ name: "צור קשר", path: "/contact" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">צור קשר</h1>
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-graphite-soft/90">
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">צור קשר</h1>
+        <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-base">
           נשמח לעזור בבדיקת זמינות מוצר, ייעוץ מקצועי בבחירת מוצר חשמל לבית, או תיאום הזמנה. ניתן לפנות אלינו בטלפון,
           בוואטסאפ, בטופס למטה, או בביקור בחנות בנהריה.
         </p>
 
-        <div className="mt-6 max-w-3xl">
+        <div className="mt-5 max-w-3xl md:mt-6">
           <SeoTextBlock>
             <p>
               {BUSINESS.nameHe} ממוקמת ב{BUSINESS.addressStreet}, {BUSINESS.addressCity}. אנו משרתים לקוחות פרטיים
@@ -38,9 +38,9 @@ export default function ContactPage() {
           </SeoTextBlock>
         </div>
 
-        <div className="mt-10 grid gap-10 lg:grid-cols-2">
-          <div className="space-y-6">
-            <div className="rounded-2xl border border-line bg-white p-6">
+        <div className="mt-8 grid gap-6 lg:grid-cols-2 lg:gap-10 md:mt-10">
+          <div className="space-y-5 md:space-y-6">
+            <div className="rounded-2xl border border-line bg-white p-5 md:p-6">
               <h2 className="text-lg font-bold text-graphite">פרטי התקשרות</h2>
               <address className="mt-3 space-y-2 text-sm not-italic text-graphite-soft/80">
                 <p className="font-medium text-graphite">{BUSINESS.nameHe}</p>
@@ -77,7 +77,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="rounded-2xl border border-line bg-white p-6">
+            <div className="rounded-2xl border border-line bg-white p-5 md:p-6">
               <h2 className="text-lg font-bold text-graphite">שעות פעילות</h2>
               <ul className="mt-3 space-y-1.5 text-sm text-graphite-soft/80">
                 {BUSINESS_HOURS.map((entry) => (
@@ -93,7 +93,7 @@ export default function ContactPage() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-line bg-surface p-6">
+            <div className="rounded-2xl border border-line bg-surface p-5 md:p-6">
               <h2 className="text-lg font-bold text-graphite">קישורים שימושיים</h2>
               <ul className="mt-3 space-y-2 text-sm">
                 <li>
@@ -132,7 +132,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-line bg-white p-6 lg:sticky lg:top-24 lg:h-fit">
+          <div className="rounded-2xl border border-line bg-white p-5 md:p-6 lg:sticky lg:top-24 lg:h-fit">
             <h2 className="text-lg font-bold text-graphite">שליחת הודעה</h2>
             <p className="mt-1 text-sm text-graphite-soft/70">
               מלאו את הפרטים ונחזור אליכם בהקדם. השדות המסומנים ב-* הם חובה.

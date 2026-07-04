@@ -41,19 +41,19 @@ export default async function BrandPage({ params }: BrandPageProps) {
     <>
       <Breadcrumbs items={[{ name: "מותגים", path: "/brands" }, { name: brand.name, path: `/brands/${slug}` }]} />
 
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">מוצרי {brand.name} בחדד יובל אלקטריק</h1>
-        <p className="mt-3 max-w-2xl text-sm text-graphite-soft/80 md:text-base">
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">מוצרי {brand.name} בחדד יובל אלקטריק</h1>
+        <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
           קטלוג מוצרי {brand.name} הזמינים אצלנו, עם אפשרות לבדוק זמינות ולפנות לצוות החנות בנהריה להזמנה או ייעוץ.
         </p>
 
         {relatedCategories.length > 0 && (
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="scroll-x-fade mt-5 flex gap-2 md:mt-6 md:flex-wrap">
             {relatedCategories.map((c) => (
               <Link
                 key={c.slug}
                 href={`/categories/${c.slug}`}
-                className="rounded-full border border-line bg-white px-4 py-1.5 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
+                className="shrink-0 rounded-full border border-line bg-white px-4 py-1.5 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
               >
                 {c.name}
               </Link>
@@ -61,8 +61,8 @@ export default async function BrandPage({ params }: BrandPageProps) {
           </div>
         )}
 
-        <p className="mt-6 text-sm text-graphite-soft/70">{products.length} מוצרים</p>
-        <div className="mt-4">
+        <p className="mt-5 text-sm text-graphite-soft/70 md:mt-6">{products.length} מוצרים</p>
+        <div className="mt-3 md:mt-4">
           <ProductGrid products={products} emptyMessage="לא נמצאו מוצרים זמינים ממותג זה כרגע." />
         </div>
       </div>

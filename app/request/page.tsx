@@ -14,12 +14,12 @@ export default function RequestPage() {
   return (
     <>
       <Breadcrumbs items={[{ name: "הבקשה שלי", path: "/request" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">הבקשה שלי</h1>
-        <p className="mt-3 max-w-2xl text-sm text-graphite-soft/80 md:text-base">
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">הבקשה שלי</h1>
+        <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
           המוצרים שבחרתם. ניתן להוסיף שם, טלפון והערות ולשלוח בקשה מרוכזת אחת בוואטסאפ לצוות החנות.
         </p>
-        <div className="mt-8">
+        <div className="mt-6 md:mt-8">
           <RequestBasketView />
         </div>
       </div>

@@ -21,33 +21,35 @@ export default function AboutPage() {
   return (
     <>
       <Breadcrumbs items={[{ name: "אודות", path: "/about" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">אודות {BUSINESS.nameHe}</h1>
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-graphite-soft/90 md:text-lg">{ABOUT_INTRO}</p>
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">אודות {BUSINESS.nameHe}</h1>
+        <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-lg">
+          {ABOUT_INTRO}
+        </p>
 
-        <div className="mt-8 max-w-3xl">
+        <div className="mt-6 max-w-3xl md:mt-8">
           <SeoTextBlock>
             <AboutSections sections={ABOUT_SECTIONS} />
           </SeoTextBlock>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-3">
+        <div className="scroll-x-fade mt-8 flex gap-2.5 md:mt-10 md:flex-wrap md:gap-3">
           <Link
             href="/products"
-            className="inline-flex items-center justify-center rounded-full bg-graphite px-6 py-3 text-sm font-semibold text-white hover:bg-graphite-soft"
+            className="tap-target shrink-0 inline-flex items-center justify-center rounded-full bg-graphite px-5 py-3 text-sm font-semibold text-white hover:bg-graphite-soft md:px-6"
           >
             צפו בקטלוג מוצרי החשמל
           </Link>
-          <WhatsAppButton message={buildWhatsAppGeneralMessage()} trackAs="whatsapp_click_header" />
+          <WhatsAppButton message={buildWhatsAppGeneralMessage()} trackAs="whatsapp_click_header" className="shrink-0" />
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center rounded-full border border-line bg-white px-6 py-3 text-sm font-semibold text-graphite hover:bg-surface"
+            className="tap-target shrink-0 inline-flex items-center justify-center rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-graphite hover:bg-surface md:px-6"
           >
             צור קשר
           </Link>
           <Link
             href="/electric-appliances-nahariya"
-            className="inline-flex items-center justify-center rounded-full border border-line bg-white px-6 py-3 text-sm font-semibold text-graphite hover:bg-surface"
+            className="tap-target shrink-0 inline-flex items-center justify-center rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-graphite hover:bg-surface md:px-6"
           >
             מוצרי חשמל בנהריה
           </Link>
@@ -55,13 +57,13 @@ export default function AboutPage() {
             href={BUSINESS.facebookUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-full border border-line bg-white px-6 py-3 text-sm font-semibold text-graphite hover:bg-surface"
+            className="tap-target shrink-0 inline-flex items-center justify-center rounded-full border border-line bg-white px-5 py-3 text-sm font-semibold text-graphite hover:bg-surface md:px-6"
           >
             עמוד הפייסבוק שלנו
           </a>
         </div>
 
-        <div className="mt-14">
+        <div className="mt-10 md:mt-14">
           <ContactStrip />
         </div>
       </div>

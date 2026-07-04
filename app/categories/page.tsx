@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getCategories } from "@/lib/base44/catalog";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { CategoryTiles } from "@/components/CategoryTiles";
+import { CategorySearchBox } from "@/components/CategorySearchBox";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const revalidate = 1800;
@@ -18,13 +18,13 @@ export default async function CategoriesPage() {
   return (
     <>
       <Breadcrumbs items={[{ name: "קטגוריות", path: "/categories" }]} />
-      <div className="container-page pb-16">
-        <h1 className="text-2xl font-bold text-graphite md:text-4xl">קטגוריות מוצרי חשמל</h1>
-        <p className="mt-3 max-w-2xl text-sm text-graphite-soft/80 md:text-base">
-          עיינו במגוון קטגוריות מוצרי החשמל שלנו ובחרו את הקטגוריה המתאימה לכם כדי לגלות את הדגמים הזמינים.
+      <div className="container-page pb-12 md:pb-16">
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">קטגוריות מוצרי חשמל</h1>
+        <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
+          חפשו או עיינו במגוון קטגוריות מוצרי החשמל שלנו ובחרו את הקטגוריה המתאימה לכם כדי לגלות את הדגמים הזמינים.
         </p>
-        <div className="mt-8">
-          <CategoryTiles categories={categories} />
+        <div className="mt-6 md:mt-8">
+          <CategorySearchBox categories={categories} />
         </div>
       </div>
     </>
