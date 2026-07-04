@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { cx } from "@/lib/utils";
 
 const LANGUAGES = [
   { code: "he", label: "עברית", href: "/", enabled: true },
