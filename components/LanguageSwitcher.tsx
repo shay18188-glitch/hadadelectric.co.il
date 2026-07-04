@@ -33,10 +33,10 @@ export function LanguageSwitcher({ className, iconOnly = false }: { className?: 
         className={cx(
           "flex items-center justify-center rounded-full text-graphite transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue",
           open ? "bg-surface" : "hover:bg-surface",
-          iconOnly ? "h-8 w-8 p-0 sm:h-9 sm:w-9 md:h-10 md:w-10" : "h-10 gap-1.5 px-2 text-sm font-medium md:px-3"
+          iconOnly ? "h-10 w-10 p-0" : "h-10 gap-1.5 px-2 text-sm font-medium md:px-3"
         )}
       >
-        <svg aria-hidden="true" viewBox="0 0 24 24" className={cx("shrink-0 fill-none stroke-current stroke-[1.6]", iconOnly ? "h-4 w-4 sm:h-4.5 sm:w-4.5 md:h-5 md:w-5" : "h-5 w-5")}>
+        <svg aria-hidden="true" viewBox="0 0 24 24" className={cx("shrink-0 fill-none stroke-current stroke-[1.6]", iconOnly ? "h-5 w-5 sm:h-6 sm:w-6" : "h-5 w-5")}>
           <circle cx="12" cy="12" r="9" />
           <path d="M3 12h18M12 3c2.5 2.7 4 6 4 9s-1.5 6.3-4 9c-2.5-2.7-4-6-4-9s1.5-6.3 4-9Z" />
         </svg>

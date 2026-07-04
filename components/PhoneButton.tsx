@@ -42,11 +42,11 @@ export function PhoneButton({
       className={cx(
         "inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue",
         VARIANT_CLASSES[variant],
-        iconOnly ? "h-8 w-8 p-0 sm:h-9 sm:w-9 md:h-10 md:w-10" : SIZE_CLASSES[size],
+        iconOnly ? "h-10 w-10 p-0" : SIZE_CLASSES[size],
         className
       )}
     >
-      <svg aria-hidden="true" viewBox="0 0 24 24" className={cx("shrink-0 fill-current", iconOnly ? "h-4 w-4 sm:h-4.5 sm:w-4.5 md:h-5 md:w-5" : "h-4 w-4")}>
+      <svg aria-hidden="true" viewBox="0 0 24 24" className={cx("shrink-0 fill-current", iconOnly ? "h-5 w-5 sm:h-6 sm:w-6" : "h-4 w-4")}>
         <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z" />
       </svg>
       {iconOnly ? <span className="sr-only">{label}</span> : label}

@@ -12,11 +12,11 @@ export function RequestBasketIcon({ className }: { className?: string }) {
       href="/request"
       aria-label={`הבקשה שלי, ${count} מוצרים`}
       className={cx(
-        "relative inline-flex items-center justify-center rounded-full text-graphite transition-colors hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue h-8 w-8 sm:h-9 sm:w-9 md:h-10 md:w-10",
+        "relative inline-flex items-center justify-center rounded-full text-graphite transition-colors hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue h-10 w-10",
         className
       )}
     >
-      <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4 sm:h-4.5 sm:w-4.5 md:h-5 md:w-5 fill-none stroke-current stroke-[1.8]">
+      <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 sm:h-6 sm:w-6 fill-none stroke-current stroke-[1.8]">
         <path
           strokeLinecap="round"
           strokeLinejoin="round"

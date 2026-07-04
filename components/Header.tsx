@@ -59,7 +59,20 @@ export function Header() {
                 compact ? "h-12 py-1" : "h-14 py-0"
               )}
             >
-              <Logo compact={compact} />
+              <div className="flex flex-1 items-center gap-2">
+                <button
+                  type="button"
+                  aria-label="פתח תפריט"
+                  aria-expanded={mobileOpen}
+                  onClick={openMenu}
+                  className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-graphite transition-colors hover:bg-surface/80 active:bg-surface lg:hidden"
+                >
+                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-6 w-6 fill-none stroke-current stroke-[1.8]">
+                    <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
+                <Logo compact={compact} />
+              </div>
 
               <nav aria-label="ניווט ראשי" className="hidden items-center gap-1 lg:flex">
                 {NAV_LINKS.map((link) => {
@@ -83,7 +96,7 @@ export function Header() {
                 <SearchBar />
               </div>
 
-              <div className="flex items-center gap-0.5 sm:gap-1.5 md:gap-2">
+              <div className="flex items-center gap-1 sm:gap-2">
                 <LanguageSwitcher iconOnly className="md:hidden" />
                 <LanguageSwitcher className="hidden md:block" />
 
@@ -93,11 +106,11 @@ export function Header() {
                   aria-expanded={mobileSearchOpen}
                   onClick={openSearch}
                   className={cx(
-                    "inline-flex h-8 w-8 items-center justify-center rounded-full text-graphite transition-colors sm:h-9 sm:w-9 md:hidden",
+                    "inline-flex h-10 w-10 items-center justify-center rounded-full text-graphite transition-colors md:hidden",
                     mobileSearchOpen ? "bg-brand-blue-light text-brand-blue" : "hover:bg-surface/80 active:bg-surface"
                   )}
                 >
-                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4 fill-none stroke-current stroke-[1.8] sm:h-4.5 sm:w-4.5">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-current stroke-[1.8] sm:h-6 sm:w-6">
                     <circle cx="11" cy="11" r="7" />
                     <path strokeLinecap="round" d="m20 20-3.5-3.5" />
                   </svg>
@@ -121,18 +134,6 @@ export function Header() {
                   size="sm"
                 />
                 <PhoneButton phone={BUSINESS.phoneDisplay} className="hidden lg:inline-flex" size="sm" />
-                
-                <button
-                  type="button"
-                  aria-label="פתח תפריט"
-                  aria-expanded={mobileOpen}
-                  onClick={openMenu}
-                  className="inline-flex h-8 w-8 items-center justify-center rounded-full text-graphite transition-colors hover:bg-surface/80 active:bg-surface sm:h-9 sm:w-9 md:h-10 md:w-10 lg:hidden"
-                >
-                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4 fill-none stroke-current stroke-[1.8] sm:h-4.5 sm:w-4.5 md:h-5 md:w-5">
-                    <path strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
               </div>
             </div>
           </header>
