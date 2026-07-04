@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CategorySearchBox } from "@/components/CategorySearchBox";
 import { buildMetadata } from "@/lib/seo/metadata";
 
-export const revalidate = 1800;
+export const revalidate = 3 * 60 * 60;
 
 export const metadata: Metadata = buildMetadata({
   title: "קטגוריות מוצרי חשמל",

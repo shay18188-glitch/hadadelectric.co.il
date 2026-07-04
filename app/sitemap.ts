@@ -4,7 +4,7 @@ import { GUIDES } from "@/content/guides";
 import { LOCAL_PAGES } from "@/content/localPages";
 import { SITE_URL } from "@/lib/utils";
 
-export const revalidate = 1800;
+export const revalidate = 3 * 60 * 60;
 
 const STATIC_PATHS = [
   "",

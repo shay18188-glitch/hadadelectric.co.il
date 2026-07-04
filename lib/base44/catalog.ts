@@ -20,8 +20,8 @@ const DEFAULT_BASE_URL = `https://base44.app/api/apps/${
 const BASE44_APP_BASE_URL = process.env.BASE44_APP_BASE_URL || DEFAULT_BASE_URL;
 const CATALOG_ENDPOINT = `${BASE44_APP_BASE_URL}/functions/getProductCatalog`;
 
-// Revalidate the catalog every 30 minutes (per spec section 11).
-const CATALOG_REVALIDATE_SECONDS = 30 * 60;
+// Revalidate the catalog every 3 hours to limit Vercel CPU from ISR refreshes.
+const CATALOG_REVALIDATE_SECONDS = 3 * 60 * 60;
 
 /** Only ever forward these two safe filter params to Base44. */
 function buildQueryString(params?: CatalogFetchParams): string {

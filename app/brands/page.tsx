@@ -4,7 +4,7 @@ import { getBrands } from "@/lib/base44/catalog";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildMetadata } from "@/lib/seo/metadata";
 
-export const revalidate = 1800;
+export const revalidate = 3 * 60 * 60;
 
 export const metadata: Metadata = buildMetadata({
   title: "מותגי מוצרי חשמל",
