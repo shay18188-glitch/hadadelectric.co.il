@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContactForm } from "@/components/ContactForm";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { PhoneButton } from "@/components/PhoneButton";
+import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS } from "@/lib/utils";
 import { BUSINESS_HOURS } from "@/content/businessHours";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "צור קשר",
-  description: "פרטי יצירת קשר עם חדד יובל אלקטריק בע״מ בנהריה — טלפון, וואטסאפ, כתובת ופייסבוק.",
+  title: "צור קשר — חדד יובל אלקטריק בנהריה",
+  description:
+    "יצירת קשר עם חדד יובל אלקטריק בע״מ — טלפון 04-9920948, וואטסאפ 052-2692235, כתובת בנהריה, שעות פעילות וטופס פנייה. בדיקת זמינות והזמנת מוצרי חשמל.",
   path: "/contact",
 });
 
@@ -20,22 +23,49 @@ export default function ContactPage() {
       <Breadcrumbs items={[{ name: "צור קשר", path: "/contact" }]} />
       <div className="container-page pb-16">
         <h1 className="text-2xl font-bold text-graphite md:text-4xl">צור קשר</h1>
-        <p className="mt-3 max-w-2xl text-sm text-graphite-soft/80 md:text-base">
-          נשמח לעזור בבדיקת זמינות, ייעוץ מקצועי או תיאום הזמנה. ניתן לפנות בכל אחד מהאמצעים הבאים.
+        <p className="mt-4 max-w-3xl text-base leading-relaxed text-graphite-soft/90">
+          נשמח לעזור בבדיקת זמינות מוצר, ייעוץ מקצועי בבחירת מוצר חשמל לבית, או תיאום הזמנה. ניתן לפנות אלינו בטלפון,
+          בוואטסאפ, בטופס למטה, או בביקור בחנות בנהריה.
         </p>
+
+        <div className="mt-6 max-w-3xl">
+          <SeoTextBlock>
+            <p>
+              {BUSINESS.nameHe} ממוקמת ב{BUSINESS.addressStreet}, {BUSINESS.addressCity}. אנו משרתים לקוחות פרטיים
+              מנהריה ומכל אזור הצפון — מקו חיפה והקריות ועד הגבול עם לבנון. האתר מציג קטלוג מוצרי חשמל ללא מחירים;
+              לקבלת הצעה והזמנה — פנו אלינו ישירות.
+            </p>
+          </SeoTextBlock>
+        </div>
 
         <div className="mt-10 grid gap-10 lg:grid-cols-2">
           <div className="space-y-6">
             <div className="rounded-2xl border border-line bg-white p-6">
-              <h2 className="text-lg font-bold text-graphite">{BUSINESS.nameHe}</h2>
+              <h2 className="text-lg font-bold text-graphite">פרטי התקשרות</h2>
               <address className="mt-3 space-y-2 text-sm not-italic text-graphite-soft/80">
+                <p className="font-medium text-graphite">{BUSINESS.nameHe}</p>
                 <p>
                   {BUSINESS.addressStreet}, {BUSINESS.addressCity}
                 </p>
-                <p>טלפון: {BUSINESS.phoneDisplay}</p>
-                <p>וואטסאפ: {BUSINESS.mobileDisplay}</p>
                 <p>
-                  <a href={BUSINESS.facebookUrl} target="_blank" rel="noopener noreferrer" className="text-brand-blue hover:underline">
+                  טלפון:{" "}
+                  <a href={BUSINESS.phoneHref} className="text-brand-blue hover:underline">
+                    {BUSINESS.phoneDisplay}
+                  </a>
+                </p>
+                <p>
+                  וואטסאפ:{" "}
+                  <a href="tel:0522692235" className="text-brand-blue hover:underline">
+                    {BUSINESS.mobileDisplay}
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href={BUSINESS.facebookUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand-blue hover:underline"
+                  >
                     עמוד הפייסבוק שלנו
                   </a>
                 </p>
@@ -58,8 +88,35 @@ export default function ContactPage() {
                 ))}
               </ul>
               <p className="mt-3 text-xs text-graphite-soft/50">
-                * שעות הפעילות המדויקות בכפוף לאישור החנות — מומלץ לתאם מראש בטלפון או בוואטסאפ.
+                שעות הפעילות המדויקות בכפוף לאישור החנות — מומלץ לתאם מראש בטלפון או בוואטסאפ, במיוחד בערבי חג
+                ושבתות.
               </p>
+            </div>
+
+            <div className="rounded-2xl border border-line bg-surface p-6">
+              <h2 className="text-lg font-bold text-graphite">קישורים שימושיים</h2>
+              <ul className="mt-3 space-y-2 text-sm">
+                <li>
+                  <Link href="/products" className="text-brand-blue hover:underline">
+                    קטלוג מוצרי חשמל
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/faq" className="text-brand-blue hover:underline">
+                    שאלות נפוצות
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/about" className="text-brand-blue hover:underline">
+                    אודות החנות
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/electric-appliances-nahariya" className="text-brand-blue hover:underline">
+                    מוצרי חשמל בנהריה
+                  </Link>
+                </li>
+              </ul>
             </div>
 
             <div className="overflow-hidden rounded-2xl border border-line">
@@ -75,12 +132,21 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-line bg-white p-6">
+          <div className="rounded-2xl border border-line bg-white p-6 lg:sticky lg:top-24 lg:h-fit">
             <h2 className="text-lg font-bold text-graphite">שליחת הודעה</h2>
-            <p className="mt-1 text-sm text-graphite-soft/70">נחזור אליכם בהקדם האפשרי.</p>
+            <p className="mt-1 text-sm text-graphite-soft/70">
+              מלאו את הפרטים ונחזור אליכם בהקדם. השדות המסומנים ב-* הם חובה.
+            </p>
             <div className="mt-5">
               <ContactForm />
             </div>
+            <p className="mt-4 text-xs text-graphite-soft/60">
+              שליחת הטופס מהווה הסכמה ל{" "}
+              <Link href="/privacy-policy" className="text-brand-blue hover:underline">
+                מדיניות הפרטיות
+              </Link>
+              .
+            </p>
           </div>
         </div>
       </div>
