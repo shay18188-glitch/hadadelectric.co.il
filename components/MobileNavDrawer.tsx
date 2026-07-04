@@ -4,11 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { BottomSheet } from "@/components/BottomSheet";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { PhoneButton } from "@/components/PhoneButton";
-import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { MOBILE_NAV_ICONS, NAV_LINKS } from "@/lib/nav";
-import { BUSINESS, cx } from "@/lib/utils";
+import { cx } from "@/lib/utils";
 
 export function MobileNavDrawer({ open, onClose }: { open: boolean; onClose: () => void }) {
   const pathname = usePathname();
@@ -57,24 +54,6 @@ export function MobileNavDrawer({ open, onClose }: { open: boolean; onClose: () 
       <div className="mt-3 border-t border-line px-5 py-4">
         <p className="mb-2 text-xs font-semibold text-graphite-soft/60">שפה</p>
         <LanguageSwitcher />
-      </div>
-
-      <div className="border-t border-line px-5 py-5">
-        <p className="mb-3 text-xs font-semibold text-graphite-soft/60">יצירת קשר מהירה</p>
-        <div className="flex flex-col gap-2.5">
-          <WhatsAppButton
-            message={buildWhatsAppGeneralMessage()}
-            trackAs="whatsapp_click_header"
-            className="w-full justify-center py-3.5"
-            size="lg"
-          />
-          <PhoneButton
-            phone={BUSINESS.phoneDisplay}
-            variant="primary"
-            className="w-full justify-center py-3.5"
-            size="lg"
-          />
-        </div>
       </div>
     </BottomSheet>
   );

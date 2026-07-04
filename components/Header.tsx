@@ -103,10 +103,10 @@ export function Header() {
                 <WhatsAppButton
                   message={buildWhatsAppGeneralMessage()}
                   trackAs="whatsapp_click_header"
-                  className="md:hidden"
-                  variant="ghost"
+                  className="lg:hidden"
                   iconOnly
                 />
+                <PhoneButton phone={BUSINESS.phoneDisplay} className="lg:hidden" iconOnly />
                 <RequestBasketIcon />
                 <WhatsAppButton
                   message={buildWhatsAppGeneralMessage()}
