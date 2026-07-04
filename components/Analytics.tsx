@@ -1,9 +1,10 @@
 import Script from "next/script";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
 
 /**
- * Loads GA4/GTM only when their env vars are configured, and only
- * `afterInteractive` so it never blocks initial render/LCP.
- * Set NEXT_PUBLIC_GA_ID / NEXT_PUBLIC_GTM_ID in your environment to enable.
+ * Vercel Web Analytics (always on when deployed on Vercel) plus optional
+ * GA4/GTM when their env vars are configured — loaded `afterInteractive`
+ * so third-party scripts never block initial render/LCP.
  */
 export function Analytics() {
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
@@ -11,6 +12,7 @@ export function Analytics() {
 
   return (
     <>
+      <VercelAnalytics />
       {gaId && (
         <>
           <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
