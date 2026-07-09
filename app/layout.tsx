@@ -5,6 +5,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { RequestBasketProvider } from "@/components/RequestBasketProvider";
 import { Analytics } from "@/components/Analytics";
+import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import { A11Y_BOOTSTRAP_SCRIPT } from "@/lib/a11y/apply";
 import { JsonLd } from "@/components/JsonLd";
 import { localBusinessJsonLd, organizationJsonLd, websiteJsonLd } from "@/lib/schema/jsonld";
 import { absoluteUrl } from "@/lib/utils";
@@ -51,6 +53,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="he-IL" dir="rtl" data-scroll-behavior="smooth" className={`${rubik.variable}`}>
       <body className="flex min-h-screen flex-col font-sans antialiased">
+        <script dangerouslySetInnerHTML={{ __html: A11Y_BOOTSTRAP_SCRIPT }} />
         <a href="#main-content" className="skip-link">
           דלג לתוכן הראשי
         </a>
@@ -62,6 +65,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           </main>
           <Footer />
         </RequestBasketProvider>
+        <AccessibilityWidget />
         <Analytics />
       </body>
     </html>

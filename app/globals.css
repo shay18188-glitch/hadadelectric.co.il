@@ -313,3 +313,84 @@ body {
   min-height: 44px;
   min-width: 44px;
 }
+
+/* ---------------------------------------------------------------------- */
+/* Accessibility widget — user-selectable display modes (IS 5568 / WCAG)  */
+/* Applied as classes on <html> by lib/a11y. Avoids CSS `filter` on        */
+/* ancestors so fixed/sticky elements keep their positioning.              */
+/* ---------------------------------------------------------------------- */
+
+/* Dark high-contrast */
+html.a11y-contrast-dark body {
+  background: #000 !important;
+}
+html.a11y-contrast-dark body *:not(svg):not(path):not(circle):not(image) {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #fff !important;
+  border-color: #fff !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+html.a11y-contrast-dark a,
+html.a11y-contrast-dark a * {
+  color: #ffea00 !important;
+}
+
+/* Light high-contrast */
+html.a11y-contrast-light body {
+  background: #fff !important;
+}
+html.a11y-contrast-light body *:not(svg):not(path):not(circle):not(image) {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+html.a11y-contrast-light a,
+html.a11y-contrast-light a * {
+  color: #0000cc !important;
+  text-decoration: underline !important;
+}
+
+/* Legible font + wider spacing */
+html.a11y-readable body,
+html.a11y-readable body *:not(svg):not(path):not(circle):not(image) {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.7 !important;
+  word-spacing: 0.08em !important;
+}
+
+/* Highlight every link */
+html.a11y-links a {
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+  outline: 2px solid var(--color-brand-blue);
+  outline-offset: 1px;
+}
+
+/* Enlarged cursor */
+html.a11y-cursor,
+html.a11y-cursor * {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M8 4 8 40 18 30 24 44 30 41 24 27 38 27 Z" fill="black" stroke="white" stroke-width="2"/></svg>') 4 4, auto !important;
+}
+
+/* Freeze animations & transitions */
+html.a11y-noanim *,
+html.a11y-noanim *::before,
+html.a11y-noanim *::after {
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+  scroll-behavior: auto !important;
+}
+html.a11y-noanim .reveal,
+html.a11y-noanim .reveal-stagger > * {
+  opacity: 1 !important;
+  transform: none !important;
+}
