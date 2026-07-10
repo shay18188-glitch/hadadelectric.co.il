@@ -1,27 +1,12 @@
 /**
  * Slug helpers for products/categories/brands.
  *
- * The Base44 catalog API does not provide slugs, so we generate
- * stable, readable, URL-safe slugs ourselves. Hebrew text is kept
- * (Hebrew URLs are indexed fine by Google) but normalized so the
- * same input always produces the same slug.
+ * All public URLs use English/Latin slugs. Legacy Hebrew slugs are
+ * redirected via middleware and page-level canonical redirects.
  */
 
-const KNOWN_CATEGORY_SLUGS: Record<string, string> = {
-  "מקררים": "refrigerators",
-  "מקפיאים": "freezers",
-  "מכונות כביסה": "washing-machines",
-  "מייבשי כביסה": "dryers",
-  "מדיחי כלים": "dishwashers",
-  "תנורים": "ovens",
-  "כיריים": "cooktops",
-  "קולטי אדים": "range-hoods",
-  "מיקרוגלים": "microwaves",
-  "טלוויזיות": "tvs",
-  "מזגנים": "air-conditioners",
-  "מוצרי חשמל קטנים": "small-appliances",
-  "אביזרים נלווים": "accessories",
-};
+import { CATEGORY_SLUGS } from "@/lib/slug/categorySlugs";
+import { transliterateToLatin } from "@/lib/slug/transliterate";
 
 const KNOWN_BRAND_SLUGS: Record<string, string> = {
   LG: "lg",
@@ -30,14 +15,28 @@ const KNOWN_BRAND_SLUGS: Record<string, string> = {
   Electrolux: "electrolux",
   TCL: "tcl",
   Bosch: "bosch",
+  BOSCH: "bosch",
 };
 
-function baseSlugify(input: string): string {
+/** Old slugify that kept Hebrew characters — used only for legacy redirects. */
+export function legacySlugify(input: string): string {
   return input
     .trim()
     .replace(/["'׳״]/g, "")
     .replace(/[\s]+/g, "-")
     .replace(/[^\p{L}\p{N}-]+/gu, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "")
+    .toLowerCase();
+}
+
+function baseSlugify(input: string): string {
+  const latin = transliterateToLatin(input);
+  return latin
+    .trim()
+    .replace(/["'׳״]/g, "")
+    .replace(/[\s]+/g, "-")
+    .replace(/[^a-zA-Z0-9-]+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
 }
@@ -47,15 +46,17 @@ export function slugify(input: string): string {
 }
 
 export function generateCategorySlug(category: string): string {
-  const known = KNOWN_CATEGORY_SLUGS[category.trim()];
+  const trimmed = category.trim();
+  const known = CATEGORY_SLUGS[trimmed];
   if (known) return known;
-  return slugify(category);
+  return slugify(trimmed);
 }
 
 export function generateBrandSlug(brand: string): string {
-  const known = KNOWN_BRAND_SLUGS[brand.trim()];
+  const trimmed = brand.trim();
+  const known = KNOWN_BRAND_SLUGS[trimmed];
   if (known) return known;
-  return slugify(brand);
+  return slugify(trimmed);
 }
 
 export function categorySlugToName(
@@ -76,6 +77,13 @@ export function generateProductSlug(name: string, modelNumber: string): string {
   return namePart ? `${namePart}-${modelPart}` : modelPart;
 }
 
+/** Previous slug format that kept Hebrew in the readable name segment. */
+export function generateLegacyProductSlug(name: string, modelNumber: string): string {
+  const namePart = legacySlugify(name);
+  const modelPart = legacySlugify(modelNumber).toUpperCase();
+  return namePart ? `${namePart}-${modelPart}` : modelPart;
+}
+
 /**
  * Extract the trailing model-number token from a product slug so we
  * can look products up reliably even if the readable name part
@@ -84,4 +92,8 @@ export function generateProductSlug(name: string, modelNumber: string): string {
 export function extractModelNumberFromSlug(slug: string): string {
   const parts = slug.split("-");
   return parts[parts.length - 1] ?? slug;
+}
+
+export function containsHebrew(text: string): boolean {
+  return /[\u0590-\u05FF]/.test(text);
 }

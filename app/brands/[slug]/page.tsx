@@ -5,6 +5,8 @@ import { getBrandBySlug, getBrands, getCategories, getProductsByBrand } from "@/
 import { generateBrandMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductGrid } from "@/components/ProductGrid";
+import { SeoTextBlock } from "@/components/SeoTextBlock";
+import { getBrandContent } from "@/content/brandContent";
 
 export const revalidate = 10800; // 3 hours
 
@@ -34,6 +36,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
 
   if (!brand) notFound();
 
+  const brandContent = getBrandContent(brand.slug);
   const categorySlugsInBrand = new Set(products.map((p) => p.categorySlug).filter(Boolean));
   const relatedCategories = allCategories.filter((c) => categorySlugsInBrand.has(c.slug));
 
@@ -42,10 +45,21 @@ export default async function BrandPage({ params }: BrandPageProps) {
       <Breadcrumbs items={[{ name: "מותגים", path: "/brands" }, { name: brand.name, path: `/brands/${slug}` }]} />
 
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">מוצרי {brand.name} בחדד יובל אלקטריק</h1>
-        <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
-          קטלוג מוצרי {brand.name} הזמינים אצלנו, עם אפשרות לבדוק זמינות ולפנות לצוות החנות בנהריה להזמנה או ייעוץ.
-        </p>
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">מוצרי {brand.name} בנהריה והצפון</h1>
+        {brandContent ? (
+          <div className="mt-3 max-w-3xl md:mt-4">
+            <SeoTextBlock>
+              {brandContent.intro.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </SeoTextBlock>
+          </div>
+        ) : (
+          <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
+            קטלוג מוצרי {brand.name} הזמינים אצלנו — בדיקת זמינות באתר, ייעוץ אישי מצוות החנות בנהריה, ומשלוח
+            עד בית הלקוח בכל אזור הצפון.
+          </p>
+        )}
 
         {relatedCategories.length > 0 && (
           <div className="scroll-x-fade mt-5 flex gap-2 md:mt-6 md:flex-wrap">

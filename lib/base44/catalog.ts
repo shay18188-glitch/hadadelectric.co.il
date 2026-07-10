@@ -10,7 +10,13 @@ import type { Category } from "@/types/category";
 import type { Brand } from "@/types/brand";
 import { MOCK_CATALOG } from "@/lib/base44/mockCatalog";
 import { normalizeProduct } from "@/lib/normalize";
-import { generateBrandSlug, generateCategorySlug } from "@/lib/slug/slugify";
+import {
+  extractModelNumberFromSlug,
+  generateBrandSlug,
+  generateCategorySlug,
+  generateLegacyProductSlug,
+} from "@/lib/slug/slugify";
+import { resolveLegacyCategorySlug } from "@/lib/slug/legacyRedirects";
 
 const DEFAULT_APP_ID = "697dbf6bdde569f5ea050a4e";
 const DEFAULT_BASE_URL = `https://base44.app/api/apps/${
@@ -112,8 +118,17 @@ export async function getProducts(): Promise<Product[]> {
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | null> {
+  const decoded = decodeURIComponent(slug).trim();
   const products = await getProducts();
-  return products.find((p) => p.slug === slug) ?? null;
+
+  const exact = products.find((p) => p.slug === decoded);
+  if (exact) return exact;
+
+  const legacy = products.find((p) => generateLegacyProductSlug(p.name, p.modelNumber) === decoded);
+  if (legacy) return legacy;
+
+  const modelToken = extractModelNumberFromSlug(decoded);
+  return products.find((p) => p.modelNumber.toUpperCase() === modelToken.toUpperCase()) ?? null;
 }
 
 export async function getCategories(): Promise<Category[]> {
@@ -133,8 +148,17 @@ export async function getCategories(): Promise<Category[]> {
 }
 
 export async function getCategoryBySlug(slug: string): Promise<Category | null> {
+  const decoded = decodeURIComponent(slug).trim();
   const categories = await getCategories();
-  return categories.find((c) => c.slug === slug) ?? null;
+  const direct = categories.find((c) => c.slug === decoded);
+  if (direct) return direct;
+
+  const canonical = resolveLegacyCategorySlug(decoded);
+  if (canonical) {
+    return categories.find((c) => c.slug === canonical) ?? null;
+  }
+
+  return null;
 }
 
 export async function getBrands(): Promise<Brand[]> {

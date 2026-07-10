@@ -12,6 +12,7 @@ const STATIC_PATHS = [
   "/categories",
   "/brands",
   "/guides",
+  "/services/delivery",
   "/about",
   "/contact",
   "/faq",

@@ -15,10 +15,11 @@ export function Hero() {
             {BUSINESS.nameHe}
           </p>
           <h1 className="text-[1.65rem] font-extrabold leading-tight text-graphite md:text-5xl">
-            מוצרי חשמל לבית בנהריה והצפון
+            חנות מוצרי חשמל בנהריה — שירות אישי לכל הצפון
           </h1>
           <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-lg">
-            קטלוג נוח, בדיקת זמינות מהירה ושירות אישי ברמה הגבוהה ביותר, עם הזמנה ישירה בוואטסאפ או בטלפון.
+            קטלוג נוח, בדיקת זמינות מהירה והזמנה ישירה בוואטסאפ או בטלפון — עם משלוח והתקנה עד בית הלקוח בכל
+            אזור הצפון.
           </p>
 
           <div className="mt-5 max-w-lg md:mt-7">

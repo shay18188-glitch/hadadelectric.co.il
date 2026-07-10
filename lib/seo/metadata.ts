@@ -66,16 +66,16 @@ export function generateProductMetadata(product: Product): Metadata {
 
 export function generateCategoryMetadata(category: Category): Metadata {
   return buildMetadata({
-    title: `${category.name} בנהריה והצפון`,
-    description: `קטלוג ${category.name} בחדד יובל אלקטריק — בדיקת זמינות ומידע מלא, עם אפשרות להזמנה ישירה בוואטסאפ או בטלפון לחנות בנהריה.`,
+    title: `${category.name} בנהריה והצפון — קטלוג, זמינות והזמנה`,
+    description: `${category.name} בחדד יובל אלקטריק בנהריה — מותגים מובילים, בדיקת זמינות באתר והזמנה בוואטסאפ או בטלפון, עם משלוח והתקנה עד בית הלקוח בכל הצפון.`,
     path: `/categories/${category.slug}`,
   });
 }
 
 export function generateBrandMetadata(brand: Brand): Metadata {
   return buildMetadata({
-    title: `מוצרי ${brand.name}`,
-    description: `מוצרי ${brand.name} בחדד יובל אלקטריק בנהריה — קטלוג, זמינות והזמנה ישירה בוואטסאפ או בטלפון.`,
+    title: `מוצרי ${brand.name} בנהריה והצפון`,
+    description: `מוצרי ${brand.name} בחדד יובל אלקטריק בנהריה — קטלוג, זמינות והזמנה בוואטסאפ או בטלפון, עם משלוח והתקנה עד בית הלקוח בכל הצפון.`,
     path: `/brands/${brand.slug}`,
   });
 }

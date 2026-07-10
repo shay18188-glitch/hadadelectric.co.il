@@ -13,7 +13,9 @@ export interface Guide {
   faq?: { question: string; answer: string }[];
 }
 
-export const GUIDES: Guide[] = [
+import { EXTRA_GUIDES } from "@/content/guides.extra";
+
+const BASE_GUIDES: Guide[] = [
   {
     slug: "how-to-choose-a-refrigerator",
     title: "איך לבחור מקרר לבית",
@@ -210,6 +212,8 @@ export const GUIDES: Guide[] = [
     ],
   },
 ];
+
+export const GUIDES: Guide[] = [...BASE_GUIDES, ...EXTRA_GUIDES];
 
 export function getGuideBySlug(slug: string): Guide | null {
   return GUIDES.find((g) => g.slug === slug) ?? null;

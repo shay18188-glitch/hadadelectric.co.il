@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import {
   getProductBySlug,
   getProducts,
@@ -40,9 +40,13 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
 export default async function ProductPage({ params }: ProductPageProps) {
   const { slug } = await params;
-  const product = await getProductBySlug(decodeURIComponent(slug));
+  const decodedSlug = decodeURIComponent(slug);
+  const product = await getProductBySlug(decodedSlug);
 
   if (!product) notFound();
+  if (product.slug !== decodedSlug) {
+    permanentRedirect(`/products/${product.slug}`);
+  }
 
   const [related, sameBrand] = await Promise.all([
     getRelatedProducts(product, 4),

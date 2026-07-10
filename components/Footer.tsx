@@ -15,13 +15,20 @@ const COMPANY_LINKS = [
   { href: "/about", label: "אודות" },
   { href: "/contact", label: "צור קשר" },
   { href: "/faq", label: "שאלות נפוצות" },
+  { href: "/services/delivery", label: "משלוחים והתקנה בצפון" },
 ];
 
 const LOCAL_LINKS = [
   { href: "/electric-appliances-nahariya", label: "מוצרי חשמל בנהריה" },
-  { href: "/electric-appliances-north", label: "מוצרי חשמל בצפון" },
-  { href: "/electric-appliances-haifa", label: "מוצרי חשמל בחיפה והצפון" },
-  { href: "/electric-appliances-acre", label: "מוצרי חשמל בעכו והגליל המערבי" },
+  { href: "/electric-appliances-acre", label: "מוצרי חשמל בעכו" },
+  { href: "/electric-appliances-krayot", label: "מוצרי חשמל בקריות" },
+  { href: "/electric-appliances-haifa", label: "מוצרי חשמל בחיפה" },
+  { href: "/electric-appliances-carmiel", label: "מוצרי חשמל בכרמיאל" },
+  { href: "/electric-appliances-maalot", label: "מוצרי חשמל במעלות-תרשיחא" },
+  { href: "/electric-appliances-nazareth", label: "מוצרי חשמל בנצרת" },
+  { href: "/electric-appliances-safed", label: "מוצרי חשמל בצפת" },
+  { href: "/electric-appliances-tiberias", label: "מוצרי חשמל בטבריה" },
+  { href: "/electric-appliances-north", label: "כל אזורי השירות בצפון" },
 ];
 
 const LEGAL_LINKS = [
@@ -45,7 +52,9 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-graphite-soft/80">
-            חנות מוצרי חשמל בנהריה, משרתת לקוחות פרטיים בנהריה והצפון — מקו חיפה ועד הגבול עם לבנון. האתר משמש כקטלוג להתרשמות נוחה, בדיקת זמינות ראשונית, וקשר ישיר מול צוות החנות.
+            חנות מוצרי חשמל בנהריה, משרתת לקוחות פרטיים בכל הצפון — מקו חיפה ועד הגבול הצפוני — עם משלוח
+            והתקנה עד בית הלקוח ויחס אישי. האתר משמש כקטלוג להתרשמות נוחה, בדיקת זמינות ראשונית, וקשר ישיר מול
+            צוות החנות.
           </p>
           <address className="mt-4 space-y-1 text-sm not-italic text-graphite-soft/80">
             <p>

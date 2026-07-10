@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import {
   getBrands,
@@ -16,6 +16,7 @@ import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 import { getCategoryContent } from "@/content/categoryContent";
+import { getGuideBySlug } from "@/content/guides";
 
 export const revalidate = 10800; // 3 hours
 
@@ -37,26 +38,32 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { slug } = await params;
-  const [category, products, allCategories, allBrands] = await Promise.all([
-    getCategoryBySlug(slug),
-    getProductsByCategory(slug),
+  const decodedSlug = decodeURIComponent(slug);
+  const category = await getCategoryBySlug(decodedSlug);
+
+  if (!category) notFound();
+  if (category.slug !== decodedSlug) {
+    permanentRedirect(`/categories/${category.slug}`);
+  }
+
+  const [products, allCategories, allBrands] = await Promise.all([
+    getProductsByCategory(category.slug),
     getCategories(),
     getBrands(),
   ]);
 
-  if (!category) notFound();
-
-  const content = getCategoryContent(slug);
+  const content = getCategoryContent(category.slug);
+  const relatedGuide = content.guideSlug ? getGuideBySlug(content.guideSlug) : null;
   const relatedBrandSlugs = new Set(products.map((p) => p.brandSlug).filter(Boolean));
   const relatedBrands = allBrands.filter((b) => relatedBrandSlugs.has(b.slug));
-  const otherCategories = allCategories.filter((c) => c.slug !== slug);
+  const otherCategories = allCategories.filter((c) => c.slug !== category.slug);
 
   return (
     <>
-      <Breadcrumbs items={[{ name: "קטגוריות", path: "/categories" }, { name: category.name, path: `/categories/${slug}` }]} />
+      <Breadcrumbs items={[{ name: "קטגוריות", path: "/categories" }, { name: category.name, path: `/categories/${category.slug}` }]} />
 
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">{category.name} בחדד יובל אלקטריק</h1>
+        <h1 className="text-xl font-bold text-graphite md:text-4xl">{content.h1 ?? `${category.name} בחדד יובל אלקטריק`}</h1>
 
         <div className="mt-3 max-w-3xl md:mt-4">
           <SeoTextBlock>
@@ -83,6 +90,40 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         <p className="mt-5 text-sm text-graphite-soft/70 md:mt-6">{products.length} מוצרים</p>
         <div className="mt-3 md:mt-4">
           <ProductGrid products={products} emptyMessage="לא נמצאו מוצרים זמינים בקטגוריה זו כרגע." />
+        </div>
+
+        {content.buyingGuide && (
+          <section className="mt-10 md:mt-14" aria-labelledby="category-guide-heading">
+            <h2 id="category-guide-heading" className="text-lg font-bold text-graphite md:text-2xl">
+              {content.buyingGuide.heading}
+            </h2>
+            <div className="mt-3 max-w-3xl md:mt-4">
+              <SeoTextBlock>
+                {content.buyingGuide.paragraphs.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </SeoTextBlock>
+            </div>
+            {relatedGuide && (
+              <div className="mt-4 rounded-2xl border border-line bg-brand-blue-light p-4 md:p-5">
+                <p className="text-sm text-graphite">
+                  רוצים להעמיק לפני ההחלטה?{" "}
+                  <Link href={`/guides/${relatedGuide.slug}`} className="font-semibold text-brand-blue hover:underline">
+                    {relatedGuide.title} — למדריך המלא
+                  </Link>
+                </p>
+              </div>
+            )}
+          </section>
+        )}
+
+        <div className="mt-8 rounded-2xl border border-line bg-surface px-5 py-4 text-sm text-graphite md:mt-10 md:text-[15px]">
+          <span className="font-semibold">משלוח והתקנה בכל הצפון: </span>
+          אנחנו מספקים ומתקינים {category.name} בבית הלקוח — בנהריה, עכו, הקריות, כרמיאל, מעלות-תרשיחא ובכל אזור
+          הצפון, בתיאום אישי מול צוות החנות.{" "}
+          <Link href="/services/delivery" className="font-semibold text-brand-blue hover:underline">
+            לפרטים על משלוחים והתקנה
+          </Link>
         </div>
 
         {content.faq.length > 0 && (

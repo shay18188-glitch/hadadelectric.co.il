@@ -21,7 +21,7 @@ const rubik = Rubik({
 export const metadata: Metadata = {
   metadataBase: new URL(absoluteUrl("/")),
   title: {
-    default: `${SITE_NAME} — מוצרי חשמל בנהריה והצפון`,
+    default: `חנות מוצרי חשמל בנהריה והצפון — מקררים, מזגנים, טלוויזיות | ${SITE_NAME}`,
     template: `%s | ${SITE_NAME}`,
   },
   description: DEFAULT_DESCRIPTION,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: `${SITE_NAME} — מוצרי חשמל בנהריה והצפון`,
+    title: `חנות מוצרי חשמל בנהריה והצפון | ${SITE_NAME}`,
     description: DEFAULT_DESCRIPTION,
     url: absoluteUrl("/"),
     siteName: SITE_NAME,

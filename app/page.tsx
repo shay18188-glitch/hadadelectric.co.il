@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { Reveal } from "@/components/Reveal";
 import { getCategories, getBrands, getFeaturedProducts, getPopularProducts } from "@/lib/base44/catalog";
 import { FAQ_ITEMS } from "@/content/faq";
+import { LOCAL_PAGES } from "@/content/localPages";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 
 export const revalidate = 10800; // 3 hours
@@ -109,31 +110,35 @@ export default async function HomePage() {
       <section className="bg-surface py-10 md:py-20" aria-labelledby="local-heading">
         <div className="container-page">
           <h2 id="local-heading" className="text-xl font-bold text-graphite md:text-3xl">
-            מוצרי חשמל בנהריה והצפון
+            חנות מוצרי חשמל בנהריה — משרתת את כל הצפון
           </h2>
-          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-graphite-soft/90 md:mt-4 md:text-base">
-            החנות שלנו ממוקמת בלוחמי הגטאות 3, נהריה, ומשרתת לקוחות פרטיים מכל אזור הצפון — מקו חיפה ועד הגבול עם
-            לבנון, כולל עכו, קריות, כרמיאל, מעלות-תרשיחא, שלומי וקריית שמונה. ניתן לעיין בקטלוג המוצרים באתר, לבדוק
-            זמינות כללית ולפנות לצוות החנות לתיאום הזמנה או ביקור בחנות.
-          </p>
-          <div className="scroll-x-fade mt-5 flex gap-2 md:mt-6 md:flex-wrap">
-            {[
-              { href: "/electric-appliances-nahariya", label: "נהריה" },
-              { href: "/electric-appliances-north", label: "הצפון" },
-              { href: "/electric-appliances-haifa", label: "חיפה והצפון" },
-              { href: "/electric-appliances-acre", label: "עכו והגליל המערבי" },
-              { href: "/electric-appliances-krayot", label: "קריות" },
-              { href: "/electric-appliances-carmiel", label: "כרמיאל" },
-              { href: "/electric-appliances-maalot", label: "מעלות ושלומי" },
-              { href: "/electric-appliances-shlomi", label: "שלומי" },
-              { href: "/electric-appliances-kiryat-shmona", label: "קריית שמונה" },
-            ].map((area) => (
+          <div className="mt-3 max-w-3xl space-y-3 text-sm leading-relaxed text-graphite-soft/90 md:mt-4 md:text-base">
+            <p>
+              חדד יובל אלקטריק היא חנות מוצרי חשמל מקומית וותיקה בלב נהריה, ברחוב לוחמי הגטאות 3. אצלנו תמצאו
+              מקררים, מכונות כביסה, מייבשים, מדיחי כלים, תנורים בנויים, כיריים, מזגנים, טלוויזיות ומוצרי חשמל
+              קטנים — ממותגים מובילים ומיבואנים רשמיים, עם ייעוץ אישי שמתאים את המוצר הנכון לבית שלכם.
+            </p>
+            <p>
+              אנחנו משרתים לקוחות פרטיים בכל רחבי הצפון — מקו חיפה והקריות ועד הגבול הצפוני: עכו, כרמיאל,
+              מעלות-תרשיחא, שלומי, נצרת, צפת, טבריה, קריית שמונה ועד רמת הגולן. בכל האזורים אנחנו מספקים{" "}
+              <Link href="/services/delivery" className="font-semibold text-brand-blue hover:underline">
+                משלוח והתקנה עד בית הלקוח
+              </Link>{" "}
+              — בתיאום אישי, עם צוות שמכיר את הבנייה של הצפון ומגיע מוכן.
+            </p>
+            <p>
+              איך זה עובד? מעיינים בקטלוג המקוון, בודקים זמינות כללית לכל מוצר, ושולחים וואטסאפ או מתקשרים —
+              והצוות שלנו חוזר עם הצעת מחיר אישית ותיאום אספקה. בחרו את האזור שלכם למידע ממוקד:
+            </p>
+          </div>
+          <div className="mt-5 flex flex-wrap gap-2 md:mt-6">
+            {LOCAL_PAGES.map((area) => (
               <Link
-                key={area.href}
-                href={area.href}
-                className="shrink-0 rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
+                key={area.path}
+                href={area.path}
+                className="rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
               >
-                {area.label}
+                {area.city}
               </Link>
             ))}
           </div>

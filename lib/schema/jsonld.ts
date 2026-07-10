@@ -20,7 +20,7 @@ export function localBusinessJsonLd() {
     name: BUSINESS.nameHe,
     alternateName: BUSINESS.nameEn,
     url: absoluteUrl("/"),
-    telephone: BUSINESS.phoneDisplay,
+    telephone: "+972-4-9920948",
     image: absoluteUrl("/brand/logo.png"),
     address: {
       "@type": "PostalAddress",
@@ -28,8 +28,18 @@ export function localBusinessJsonLd() {
       addressLocality: BUSINESS.addressCity,
       addressCountry: "IL",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 33.006,
+      longitude: 35.098,
+    },
+    hasMap: "https://www.google.com/maps?q=לוחמי+הגטאות+3+נהריה",
     sameAs: [BUSINESS.facebookUrl],
-    areaServed: ["נהריה", "חיפה", "צפון ישראל", "גליל מערבי", "עכו", "קריות", "כרמיאל", "מעלות תרשיחא", "שלומי", "קריית שמונה"],
+    areaServed: [
+      "נהריה", "עכו", "חיפה", "הקריות", "קריית אתא", "כרמיאל", "מעלות תרשיחא", "כפר ורדים", "שלומי",
+      "ירכא", "כפר יאסיף", "ג'דיידה-מכר", "טמרה", "שפרעם", "סח'נין", "נצרת", "נוף הגליל", "עפולה",
+      "יקנעם", "צפת", "טבריה", "ראש פינה", "חצור הגלילית", "קריית שמונה", "קצרין", "צפון ישראל",
+    ].map((name) => ({ "@type": "City", name })),
   };
 }
 
@@ -48,6 +58,41 @@ export function websiteJsonLd() {
       },
       "query-input": "required name=search_term_string",
     },
+  };
+}
+
+/** LocalBusiness schema scoped to a specific service-area page (city page). */
+export function localBusinessAreaJsonLd(params: {
+  city: string;
+  path: string;
+  areasServed: string[];
+  description: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ElectronicsStore",
+    name: BUSINESS.nameHe,
+    alternateName: BUSINESS.nameEn,
+    url: absoluteUrl(params.path),
+    description: params.description,
+    telephone: "+972-4-9920948",
+    image: absoluteUrl("/brand/logo.png"),
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: BUSINESS.addressStreet,
+      addressLocality: BUSINESS.addressCity,
+      addressCountry: "IL",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 33.006,
+      longitude: 35.098,
+    },
+    sameAs: [BUSINESS.facebookUrl],
+    areaServed: [params.city, ...params.areasServed.filter((a) => a !== params.city)].map((name) => ({
+      "@type": "City",
+      name,
+    })),
   };
 }
 
