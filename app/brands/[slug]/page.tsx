@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getBrandBySlug, getBrands, getCategories, getProductsByBrand } from "@/lib/base44/catalog";
+import {
+  getBrandBySlug,
+  getBrandCategoryCombos,
+  getBrands,
+  getCategories,
+  getProductsByBrand,
+} from "@/lib/base44/catalog";
 import { generateBrandMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductGrid } from "@/components/ProductGrid";
@@ -28,15 +34,17 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
 
 export default async function BrandPage({ params }: BrandPageProps) {
   const { slug } = await params;
-  const [brand, products, allCategories] = await Promise.all([
+  const [brand, products, allCategories, brandCategoryCombos] = await Promise.all([
     getBrandBySlug(slug),
     getProductsByBrand(slug),
     getCategories(),
+    getBrandCategoryCombos(),
   ]);
 
   if (!brand) notFound();
 
   const brandContent = getBrandContent(brand.slug);
+  const brandCombos = brandCategoryCombos.filter((c) => c.brandSlug === brand.slug);
   const categorySlugsInBrand = new Set(products.map((p) => p.categorySlug).filter(Boolean));
   const relatedCategories = allCategories.filter((c) => categorySlugsInBrand.has(c.slug));
 
@@ -73,6 +81,25 @@ export default async function BrandPage({ params }: BrandPageProps) {
               </Link>
             ))}
           </div>
+        )}
+
+        {brandCombos.length > 0 && (
+          <section className="mt-6 md:mt-8" aria-labelledby="brand-combos-heading">
+            <h2 id="brand-combos-heading" className="text-base font-bold text-graphite md:text-lg">
+              קטגוריות מובחרות של {brand.name}
+            </h2>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {brandCombos.map((combo) => (
+                <Link
+                  key={`${combo.brandSlug}:${combo.categorySlug}`}
+                  href={`/brands/${combo.brandSlug}/${combo.categorySlug}`}
+                  className="rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
+                >
+                  {combo.category} {combo.brand}
+                </Link>
+              ))}
+            </div>
+          </section>
         )}
 
         <p className="mt-5 text-sm text-graphite-soft/70 md:mt-6">{products.length} מוצרים</p>

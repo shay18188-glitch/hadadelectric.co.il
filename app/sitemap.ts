@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getBrands, getCategories, getProducts } from "@/lib/base44/catalog";
+import { getBrandCategoryCombos, getBrands, getCategories, getProducts } from "@/lib/base44/catalog";
 import { GUIDES } from "@/content/guides";
 import { LOCAL_PAGES } from "@/content/localPages";
 import { SITE_URL } from "@/lib/utils";
@@ -22,7 +22,12 @@ const STATIC_PATHS = [
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [products, categories, brands] = await Promise.all([getProducts(), getCategories(), getBrands()]);
+  const [products, categories, brands, brandCategoryCombos] = await Promise.all([
+    getProducts(),
+    getCategories(),
+    getBrands(),
+    getBrandCategoryCombos(),
+  ]);
   const now = new Date();
 
   const staticEntries: MetadataRoute.Sitemap = STATIC_PATHS.map((path) => ({
@@ -60,6 +65,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  const brandCategoryEntries: MetadataRoute.Sitemap = brandCategoryCombos.map((combo) => ({
+    url: `${SITE_URL}/brands/${combo.brandSlug}/${combo.categorySlug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.65,
+  }));
+
   const productEntries: MetadataRoute.Sitemap = products.map((product) => ({
     url: `${SITE_URL}/products/${encodeURIComponent(product.slug)}`,
     lastModified: now,
@@ -67,5 +79,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...staticEntries, ...localEntries, ...guideEntries, ...categoryEntries, ...brandEntries, ...productEntries];
+  return [
+    ...staticEntries,
+    ...localEntries,
+    ...guideEntries,
+    ...categoryEntries,
+    ...brandEntries,
+    ...brandCategoryEntries,
+    ...productEntries,
+  ];
 }

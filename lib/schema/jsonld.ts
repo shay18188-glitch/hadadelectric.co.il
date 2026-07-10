@@ -115,6 +115,12 @@ export function breadcrumbJsonLd(items: BreadcrumbItem[]) {
 }
 
 export function productJsonLd(product: Product) {
+  // NOTE: This is a catalog site with no prices and no checkout. We deliberately
+  // do NOT emit an `offers` object: Google requires `price` + `priceCurrency`
+  // inside `offers`, which we cannot provide, and their absence produces
+  // critical "missing price" errors in the Merchant listings report. A plain
+  // Product (name/image/description/brand/sku) is valid and eligible for
+  // Product snippets. Do not add aggregateRating/review unless they are real.
   return {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -126,19 +132,6 @@ export function productJsonLd(product: Product) {
     sku: product.modelNumber,
     category: product.category ?? undefined,
     countryOfOrigin: product.originCountry ?? undefined,
-    offers: {
-      "@type": "Offer",
-      availability:
-        product.availability === "in_stock"
-          ? "https://schema.org/InStock"
-          : product.availability === "out_of_stock"
-          ? "https://schema.org/OutOfStock"
-          : "https://schema.org/LimitedAvailability",
-      url: absoluteUrl(`/products/${product.slug}`),
-      priceCurrency: undefined,
-      price: undefined,
-      itemCondition: "https://schema.org/NewCondition",
-    },
   };
 }
 

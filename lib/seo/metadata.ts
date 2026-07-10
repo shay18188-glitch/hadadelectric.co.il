@@ -83,3 +83,17 @@ export function generateBrandMetadata(brand: Brand): Metadata {
 export function generateLocalPageMetadata(params: { title: string; description: string; path: string }): Metadata {
   return buildMetadata(params);
 }
+
+export function generateBrandCategoryMetadata(params: {
+  brand: string;
+  brandSlug: string;
+  category: string;
+  categorySlug: string;
+  productCount: number;
+}): Metadata {
+  return buildMetadata({
+    title: `${params.category} ${params.brand} בנהריה והצפון — קטלוג, זמינות והזמנה`,
+    description: `${params.category} ${params.brand} בחדד יובל אלקטריק — ${params.productCount} דגמים, בדיקת זמינות באתר, הצעת מחיר בוואטסאפ ומשלוח והתקנה עד בית הלקוח בכל אזור הצפון.`,
+    path: `/brands/${params.brandSlug}/${params.categorySlug}`,
+  });
+}

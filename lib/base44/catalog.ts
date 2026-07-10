@@ -187,6 +187,51 @@ export async function getProductsByCategory(categorySlug: string): Promise<Produ
   return products.filter((p) => p.categorySlug === categorySlug);
 }
 
+export interface BrandCategoryCombo {
+  brand: string;
+  brandSlug: string;
+  category: string;
+  categorySlug: string;
+  productCount: number;
+}
+
+/**
+ * High-intent brand×category intersections (e.g. "LG TVs", "Samsung fridges").
+ * Only combos with at least `minCount` products are returned, so we never
+ * publish a thin landing page.
+ */
+export async function getBrandCategoryCombos(minCount = 8): Promise<BrandCategoryCombo[]> {
+  const products = await getProducts();
+  const map = new Map<string, BrandCategoryCombo>();
+  for (const p of products) {
+    if (!p.brand || !p.category || !p.brandSlug || !p.categorySlug) continue;
+    const key = `${p.brandSlug}:${p.categorySlug}`;
+    const existing = map.get(key);
+    if (existing) {
+      existing.productCount += 1;
+    } else {
+      map.set(key, {
+        brand: p.brand,
+        brandSlug: p.brandSlug,
+        category: p.category,
+        categorySlug: p.categorySlug,
+        productCount: 1,
+      });
+    }
+  }
+  return Array.from(map.values())
+    .filter((c) => c.productCount >= minCount)
+    .sort((a, b) => b.productCount - a.productCount);
+}
+
+export async function getProductsByBrandAndCategory(
+  brandSlug: string,
+  categorySlug: string
+): Promise<Product[]> {
+  const products = await getProducts();
+  return products.filter((p) => p.brandSlug === brandSlug && p.categorySlug === categorySlug);
+}
+
 export async function getProductsByBrand(brandSlug: string): Promise<Product[]> {
   const products = await getProducts();
   return products.filter((p) => p.brandSlug === brandSlug);

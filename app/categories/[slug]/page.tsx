@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import {
+  getBrandCategoryCombos,
   getBrands,
   getCategories,
   getCategoryBySlug,
@@ -46,14 +47,16 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     permanentRedirect(`/categories/${category.slug}`);
   }
 
-  const [products, allCategories, allBrands] = await Promise.all([
+  const [products, allCategories, allBrands, brandCategoryCombos] = await Promise.all([
     getProductsByCategory(category.slug),
     getCategories(),
     getBrands(),
+    getBrandCategoryCombos(),
   ]);
 
   const content = getCategoryContent(category.slug);
   const relatedGuide = content.guideSlug ? getGuideBySlug(content.guideSlug) : null;
+  const categoryBrandCombos = brandCategoryCombos.filter((c) => c.categorySlug === category.slug);
   const relatedBrandSlugs = new Set(products.map((p) => p.brandSlug).filter(Boolean));
   const relatedBrands = allBrands.filter((b) => relatedBrandSlugs.has(b.slug));
   const otherCategories = allCategories.filter((c) => c.slug !== category.slug);
@@ -125,6 +128,28 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             לפרטים על משלוחים והתקנה
           </Link>
         </div>
+
+        {categoryBrandCombos.length > 0 && (
+          <section className="mt-10 md:mt-14" aria-labelledby="category-brands-heading">
+            <h2 id="category-brands-heading" className="text-lg font-bold text-graphite md:text-2xl">
+              {category.name} לפי מותג
+            </h2>
+            <p className="mt-2 text-sm text-graphite-soft/80">
+              עיינו ב{category.name} של המותגים המובילים אצלנו:
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {categoryBrandCombos.map((combo) => (
+                <Link
+                  key={`${combo.brandSlug}:${combo.categorySlug}`}
+                  href={`/brands/${combo.brandSlug}/${combo.categorySlug}`}
+                  className="rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
+                >
+                  {combo.category} {combo.brand}
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {content.faq.length > 0 && (
           <section className="mt-10 md:mt-14" aria-labelledby="category-faq-heading">
