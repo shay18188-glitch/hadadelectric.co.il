@@ -43,10 +43,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
-  icons: {
-    icon: "/brand/logo.png",
-    apple: "/brand/logo.png",
-  },
+  // Icons are provided by the app/favicon.ico, app/icon.png and app/apple-icon.png
+  // file conventions, all generated from the store logo (public/brand/logo.png).
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
