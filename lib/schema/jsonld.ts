@@ -1,5 +1,4 @@
 import { absoluteUrl, BUSINESS } from "@/lib/utils";
-import type { Product } from "@/types/product";
 
 export function organizationJsonLd() {
   return {
@@ -114,26 +113,15 @@ export function breadcrumbJsonLd(items: BreadcrumbItem[]) {
   };
 }
 
-export function productJsonLd(product: Product) {
-  // NOTE: This is a catalog site with no prices and no checkout. We deliberately
-  // do NOT emit an `offers` object: Google requires `price` + `priceCurrency`
-  // inside `offers`, which we cannot provide, and their absence produces
-  // critical "missing price" errors in the Merchant listings report. A plain
-  // Product (name/image/description/brand/sku) is valid and eligible for
-  // Product snippets. Do not add aggregateRating/review unless they are real.
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
-    image: product.imageUrl ? [product.imageUrl] : undefined,
-    description: product.description,
-    brand: product.brand ? { "@type": "Brand", name: product.brand } : undefined,
-    model: product.modelNumber,
-    sku: product.modelNumber,
-    category: product.category ?? undefined,
-    countryOfOrigin: product.originCountry ?? undefined,
-  };
-}
+// NOTE: We intentionally do NOT emit `Product` structured data on product
+// pages. This is a catalog site with no prices, no checkout and no reviews.
+// Google's Product markup requires at least one of `offers` (which itself
+// requires `price` + `priceCurrency`), `review`, or `aggregateRating`. We have
+// none of them and must not fabricate them, so any `Product` markup is
+// permanently "invalid" in Search Console (Merchant listings / Product
+// snippets). Omitting the markup entirely keeps those reports clean while
+// losing nothing — a price-less product can never win a Product rich result.
+// Product pages still expose BreadcrumbList structured data via <Breadcrumbs>.
 
 export interface FaqItem {
   question: string;

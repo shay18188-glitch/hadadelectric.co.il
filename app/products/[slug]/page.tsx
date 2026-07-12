@@ -15,8 +15,6 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { PhoneButton } from "@/components/PhoneButton";
 import { AddToRequestButton } from "@/components/AddToRequestButton";
 import { ProductStickyCta } from "@/components/ProductStickyCta";
-import { JsonLd } from "@/components/JsonLd";
-import { productJsonLd } from "@/lib/schema/jsonld";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS, cx } from "@/lib/utils";
 
@@ -197,7 +195,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
       </div>
 
       <ProductStickyCta product={product} />
-      <JsonLd data={productJsonLd(product)} />
     </>
   );
 }
