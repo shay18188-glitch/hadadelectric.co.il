@@ -7,7 +7,14 @@ export interface Guide {
   slug: string;
   title: string;
   description: string;
+  /** A single strongly-related category (used for the inline catalog CTAs). */
   relatedCategorySlug?: string;
+  /**
+   * For general, multi-category guides (e.g. "appliances for a new apartment"):
+   * the relevant categories to surface as a designed "view the matching catalog"
+   * grid. Slugs that don't resolve to a live category are skipped.
+   */
+  catalogCategorySlugs?: string[];
   publishedDate: string;
   sections: GuideSection[];
   faq?: { question: string; answer: string }[];
@@ -189,6 +196,7 @@ const BASE_GUIDES: Guide[] = [
     slug: "checking-availability-nahariya",
     title: "מוצרי חשמל בנהריה — איך לבדוק זמינות לפני הגעה לחנות",
     description: "מדריך קצר לבדיקת זמינות מוצר בקטלוג האתר לפני הגעה לחנות בנהריה, כדי לחסוך זמן.",
+    catalogCategorySlugs: ["refrigerators", "washing-machines", "air-conditioners", "tvs", "ovens", "dishwashers"],
     publishedDate: "2026-01-24",
     sections: [
       {

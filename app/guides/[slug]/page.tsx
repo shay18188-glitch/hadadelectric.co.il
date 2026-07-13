@@ -4,11 +4,12 @@ import { GUIDES, getGuideBySlug } from "@/content/guides";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { GuideCatalogCta } from "@/components/GuideCatalogCta";
+import { CategoryTiles } from "@/components/CategoryTiles";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/schema/jsonld";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { getCategoryBySlug } from "@/lib/base44/catalog";
+import { getCategories, getCategoryBySlug } from "@/lib/base44/catalog";
 
 interface GuidePageProps {
   params: Promise<{ slug: string }>;
@@ -30,7 +31,16 @@ export default async function GuidePage({ params }: GuidePageProps) {
   const guide = getGuideBySlug(slug);
   if (!guide) notFound();
 
-  const relatedCategory = guide.relatedCategorySlug ? await getCategoryBySlug(guide.relatedCategorySlug) : null;
+  const [relatedCategory, allCategories] = await Promise.all([
+    guide.relatedCategorySlug ? getCategoryBySlug(guide.relatedCategorySlug) : Promise.resolve(null),
+    guide.catalogCategorySlugs?.length ? getCategories() : Promise.resolve([]),
+  ]);
+
+  // For general guides: resolve the relevant categories, preserving the
+  // authored order and skipping any that aren't live in the catalog.
+  const catalogCategories = (guide.catalogCategorySlugs ?? [])
+    .map((s) => allCategories.find((c) => c.slug === s))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c));
 
   // CTA target: the related category catalog, or the full catalog as fallback.
   const ctaHref = relatedCategory ? `/categories/${relatedCategory.slug}` : "/products";
@@ -110,15 +120,34 @@ export default async function GuidePage({ params }: GuidePageProps) {
           </section>
         )}
 
-        {/* CTA #3 — bottom banner, final push to the catalog */}
-        <div className="max-w-3xl">
-          <GuideCatalogCta
-            href={ctaHref}
-            variant="banner"
-            categoryName={ctaCategoryName}
-            label={ctaCategoryName ? `למוצרי ${ctaCategoryName}` : "לקטלוג המלא"}
-          />
-        </div>
+        {/* CTA #3 — bottom. General guides get a designed "matching catalog"
+            category grid; single-topic guides get the focused banner. */}
+        {catalogCategories.length > 0 ? (
+          <section className="mt-10 md:mt-14" aria-labelledby="guide-catalog-heading">
+            <h2 id="guide-catalog-heading" className="text-lg font-bold text-graphite md:text-2xl">
+              צפו בקטלוג המתאים
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-graphite-soft/80 md:text-[15px]">
+              כל מה שהזכרנו במדריך מחכה לכם בקטלוג — בדקו זמינות, קבלו ייעוץ אישי, ומשלוח והתקנה עד בית הלקוח
+              בכל אזור הצפון.
+            </p>
+            <div className="mt-4 md:mt-5">
+              <CategoryTiles categories={catalogCategories} />
+            </div>
+            <div className="mt-5 max-w-3xl">
+              <GuideCatalogCta href="/products" variant="inline" label="לקטלוג המלא של כל המוצרים" />
+            </div>
+          </section>
+        ) : (
+          <div className="max-w-3xl">
+            <GuideCatalogCta
+              href={ctaHref}
+              variant="banner"
+              categoryName={ctaCategoryName}
+              label={ctaCategoryName ? `למוצרי ${ctaCategoryName}` : "לקטלוג המלא"}
+            />
+          </div>
+        )}
       </article>
 
       <JsonLd

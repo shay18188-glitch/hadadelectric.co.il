@@ -267,6 +267,7 @@ export const EXTRA_GUIDES: Guide[] = [
     title: "דירוג אנרגטי — כמה באמת חוסכים בחשבון החשמל",
     description:
       "מה אומר הדירוג האנרגטי על מקרר, מכונת כביסה ומזגן, כמה שקלים זה שווה בשנה, ומתי משתלם לשלם יותר על דירוג גבוה.",
+    catalogCategorySlugs: ["refrigerators", "air-conditioners", "washing-machines", "dishwashers", "dryers", "freezers"],
     publishedDate: "2026-06-19",
     sections: [
       {
@@ -314,6 +315,16 @@ export const EXTRA_GUIDES: Guide[] = [
     title: "מוצרי חשמל לדירה חדשה — הצ'קליסט המלא (2026)",
     description:
       "רשימה מסודרת של כל מוצרי החשמל לדירה חדשה: מה חובה מהיום הראשון, מה יכול לחכות, סדר עדיפויות לפי תקציב וטיפים לתיאום אספקה.",
+    catalogCategorySlugs: [
+      "refrigerators",
+      "washing-machines",
+      "ovens",
+      "cooktops",
+      "dishwashers",
+      "air-conditioners",
+      "tvs",
+      "microwaves",
+    ],
     publishedDate: "2026-06-23",
     sections: [
       {
@@ -367,6 +378,7 @@ export const EXTRA_GUIDES: Guide[] = [
     title: "חבילת מוצרי חשמל לזוגות צעירים — לקנות חכם מהתחלה",
     description:
       "איך בונים חבילת מוצרי חשמל ראשונה לזוג צעיר: איפה להשקיע, איפה לחסוך, ואיך קנייה מרוכזת חוסכת אלפי שקלים.",
+    catalogCategorySlugs: ["refrigerators", "washing-machines", "ovens", "cooktops", "air-conditioners", "tvs"],
     publishedDate: "2026-06-26",
     sections: [
       {
@@ -467,6 +479,7 @@ export const EXTRA_GUIDES: Guide[] = [
     title: "קנייה מחנות מקומית מול קנייה באינטרנט — ההבדל האמיתי",
     description:
       "מה באמת מקבלים כשקונים מוצר חשמל מחנות מקומית בצפון לעומת אתר אינטרנט: מחיר, אחריות, התקנה, ומה קורה כשמשהו משתבש.",
+    catalogCategorySlugs: ["refrigerators", "air-conditioners", "washing-machines", "tvs", "ovens", "dishwashers"],
     publishedDate: "2026-07-03",
     sections: [
       {
