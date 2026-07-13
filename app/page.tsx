@@ -7,6 +7,7 @@ import { ContactStrip } from "@/components/ContactStrip";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { Reveal } from "@/components/Reveal";
+import { GoogleRating } from "@/components/GoogleRating";
 import { getCategories, getBrands, getFeaturedProducts, getPopularProducts } from "@/lib/base44/catalog";
 import { FAQ_ITEMS } from "@/content/faq";
 import { LOCAL_PAGES } from "@/content/localPages";
@@ -34,6 +35,12 @@ export default async function HomePage() {
   return (
     <>
       <Hero />
+
+      <section className="container-page pt-6 md:pt-8" aria-label="דירוג הלקוחות בגוגל">
+        <div className="mx-auto max-w-md">
+          <GoogleRating />
+        </div>
+      </section>
 
       <section className="container-page py-8 md:py-20" aria-labelledby="explore-heading">
         <div className="mb-5 flex items-end justify-between gap-4 md:mb-8">

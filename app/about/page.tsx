@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { AboutSections } from "@/components/ContentSections";
 import { ContactStrip } from "@/components/ContactStrip";
+import { GoogleRating } from "@/components/GoogleRating";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { ABOUT_INTRO, ABOUT_SECTIONS } from "@/content/about";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
@@ -26,6 +27,10 @@ export default function AboutPage() {
         <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-lg">
           {ABOUT_INTRO}
         </p>
+
+        <div className="mt-5 max-w-md md:mt-6">
+          <GoogleRating />
+        </div>
 
         <div className="mt-6 max-w-3xl md:mt-8">
           <SeoTextBlock>

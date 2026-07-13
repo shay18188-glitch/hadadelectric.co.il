@@ -5,6 +5,8 @@ import { ContactForm } from "@/components/ContactForm";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { PhoneButton } from "@/components/PhoneButton";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
+import { GoogleRating } from "@/components/GoogleRating";
+import { BusinessProfiles } from "@/components/BusinessProfiles";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS } from "@/lib/utils";
 import { BUSINESS_HOURS } from "@/content/businessHours";
@@ -75,6 +77,10 @@ export default function ContactPage() {
                 <WhatsAppButton message={buildWhatsAppGeneralMessage()} trackAs="whatsapp_click_header" />
                 <PhoneButton phone={BUSINESS.phoneDisplay} />
               </div>
+
+              <div className="mt-5">
+                <GoogleRating />
+              </div>
             </div>
 
             <div className="rounded-2xl border border-line bg-white p-5 md:p-6">
@@ -117,6 +123,9 @@ export default function ContactPage() {
                   </Link>
                 </li>
               </ul>
+              <div className="mt-4 border-t border-line pt-4">
+                <BusinessProfiles />
+              </div>
             </div>
 
             <div className="overflow-hidden rounded-2xl border border-line">

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import { GoogleRating } from "@/components/GoogleRating";
+import { BusinessProfiles } from "@/components/BusinessProfiles";
 import { BUSINESS } from "@/lib/utils";
 import { telHref } from "@/lib/whatsapp/messages";
 
@@ -80,6 +82,13 @@ export function Footer() {
               </a>
             </p>
           </address>
+
+          <div className="mt-5">
+            <GoogleRating variant="inline" />
+          </div>
+          <div className="mt-4">
+            <BusinessProfiles />
+          </div>
         </div>
 
         <FooterColumn title="קטלוג" links={CATALOG_LINKS} />
