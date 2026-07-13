@@ -43,8 +43,20 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
-  // Icons are provided by the app/favicon.ico, app/icon.png and app/apple-icon.png
-  // file conventions, all generated from the store logo (public/brand/logo.png).
+  // Single source of truth for icons: static, stable-URL files in /public
+  // (square Hadad "atom + E" mark, legible at favicon sizes). We do NOT use the
+  // app/ icon file conventions (they emit hashed URLs and competed with these),
+  // so no app/favicon.ico, app/icon.png or app/apple-icon.png should exist.
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-48x48.png", type: "image/png", sizes: "48x48" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    shortcut: [{ url: "/favicon.ico" }],
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
