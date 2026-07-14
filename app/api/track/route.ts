@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { recordEvents, isTrackedEvent, storePing, type IncomingEvent } from "@/lib/analytics/events";
-import { isStoreConfigured } from "@/lib/analytics/store";
+import { isStoreConfigured, getStoreEnvStatus } from "@/lib/analytics/store";
 
 // Lightweight, edge-run fire-and-forget collector. Clients call this with
 // navigator.sendBeacon, so its latency never affects the page. When the KV
@@ -12,7 +12,8 @@ export const runtime = "edge";
 export async function GET() {
   const configured = isStoreConfigured();
   const connected = configured ? await storePing() : false;
-  return NextResponse.json({ ok: true, configured, connected });
+  const env = getStoreEnvStatus(); // names only, never values — safe to expose
+  return NextResponse.json({ ok: true, configured, connected, source: env.source, present: env.present });
 }
 
 export async function POST(req: Request) {

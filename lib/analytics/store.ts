@@ -61,6 +61,7 @@ export function getStoreEnvStatus(): { configured: boolean; source: string | nul
     UPSTASH_REDIS_REST_TOKEN: Boolean(process.env.UPSTASH_REDIS_REST_TOKEN),
     REDIS_URL: Boolean(process.env.REDIS_URL),
     KV_URL: Boolean(process.env.KV_URL),
+    UPSTASH_REDIS_URL: Boolean(process.env.UPSTASH_REDIS_URL),
   };
   let source: string | null = null;
   if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) source = "KV_REST_API_*";
