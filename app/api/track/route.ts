@@ -2,10 +2,12 @@ import { NextResponse } from "next/server";
 import { recordEvents, isTrackedEvent, storePing, type IncomingEvent } from "@/lib/analytics/events";
 import { isStoreConfigured, getStoreEnvStatus } from "@/lib/analytics/store";
 
-// Lightweight, edge-run fire-and-forget collector. Clients call this with
-// navigator.sendBeacon, so its latency never affects the page. When the KV
-// store isn't configured, recordEvents silently no-ops.
-export const runtime = "edge";
+// Fire-and-forget collector. Clients call this with navigator.sendBeacon, so
+// its latency never affects the page. Runs on the Node.js runtime because the
+// store uses node-redis (TCP). When the store isn't configured, recordEvents
+// silently no-ops.
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 // Safe health check (no analytics data): confirms whether the store is wired
 // up and reachable. Used to verify the Redis connection in production.
