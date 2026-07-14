@@ -285,3 +285,45 @@ export async function storePing(): Promise<boolean> {
   const r = await redis("PING");
   return r === "PONG" || r === "pong";
 }
+
+/* ------------------------------------------------------------------ */
+/* Login rate limiting (brute-force protection)                       */
+/* ------------------------------------------------------------------ */
+
+// Per-instance fallback used only when the KV store isn't configured.
+const memoryHits = new Map<string, { count: number; resetAt: number }>();
+
+/**
+ * Fixed-window limiter for admin login attempts.
+ * Returns true when the caller is OVER the limit and should be blocked.
+ */
+export async function hitLoginRateLimit(ip: string, limit = 5, windowSec = 60): Promise<boolean> {
+  const id = ip || "unknown";
+
+  if (!isStoreConfigured()) {
+    const now = Date.now();
+    const entry = memoryHits.get(id);
+    if (!entry || entry.resetAt < now) {
+      memoryHits.set(id, { count: 1, resetAt: now + windowSec * 1000 });
+      return false;
+    }
+    entry.count += 1;
+    return entry.count > limit;
+  }
+
+  const key = `rl:login:${id}`;
+  const res = await pipeline([["INCR", key]]);
+  const count = Number(res?.[0] ?? 0);
+  if (count === 1) await redis("EXPIRE", key, windowSec);
+  return count > limit;
+}
+
+/** Clear the limiter for an IP (called after a successful login). */
+export async function clearLoginRateLimit(ip: string): Promise<void> {
+  const id = ip || "unknown";
+  if (!isStoreConfigured()) {
+    memoryHits.delete(id);
+    return;
+  }
+  await redis("DEL", `rl:login:${id}`);
+}

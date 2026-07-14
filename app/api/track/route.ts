@@ -1,10 +1,19 @@
 import { NextResponse } from "next/server";
-import { recordEvents, isTrackedEvent, type IncomingEvent } from "@/lib/analytics/events";
+import { recordEvents, isTrackedEvent, storePing, type IncomingEvent } from "@/lib/analytics/events";
+import { isStoreConfigured } from "@/lib/analytics/store";
 
 // Lightweight, edge-run fire-and-forget collector. Clients call this with
 // navigator.sendBeacon, so its latency never affects the page. When the KV
 // store isn't configured, recordEvents silently no-ops.
 export const runtime = "edge";
+
+// Safe health check (no analytics data): confirms whether the store is wired
+// up and reachable. Used to verify the Redis connection in production.
+export async function GET() {
+  const configured = isStoreConfigured();
+  const connected = configured ? await storePing() : false;
+  return NextResponse.json({ ok: true, configured, connected });
+}
 
 export async function POST(req: Request) {
   try {

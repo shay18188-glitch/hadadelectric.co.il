@@ -13,15 +13,62 @@
  *   and native Upstash names (UPSTASH_REDIS_REST_URL / UPSTASH_REDIS_REST_TOKEN).
  */
 
+/**
+ * Derive REST credentials from a redis:// connection URL (Upstash only, which
+ * is what Vercel's Redis/KV integration provisions). Upstash uses the same
+ * token for its TCP password and REST bearer, and its REST endpoint is just
+ * https://<host>. This lets the store work even when only REDIS_URL / KV_URL
+ * is set, without needing a TCP client (which edge can't use).
+ */
+function fromRedisUrl(raw: string | undefined): { url: string; token: string } | null {
+  if (!raw) return null;
+  try {
+    const u = new URL(raw);
+    if (!u.hostname.endsWith("upstash.io")) return null;
+    const token = decodeURIComponent(u.password || "");
+    if (!token) return null;
+    return { url: `https://${u.hostname}`, token };
+  } catch {
+    return null;
+  }
+}
+
 function getConfig(): { url: string; token: string } | null {
-  const url = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-  const token = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
-  if (!url || !token) return null;
-  return { url: url.replace(/\/$/, ""), token };
+  const restUrl = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
+  const restToken = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (restUrl && restToken) return { url: restUrl.replace(/\/$/, ""), token: restToken };
+
+  return (
+    fromRedisUrl(process.env.REDIS_URL) ||
+    fromRedisUrl(process.env.KV_URL) ||
+    fromRedisUrl(process.env.UPSTASH_REDIS_URL)
+  );
 }
 
 export function isStoreConfigured(): boolean {
   return getConfig() !== null;
+}
+
+/**
+ * Which known env var names are present (names only, never values) plus how the
+ * connection was resolved. Safe to surface in the authed admin diagnostics.
+ */
+export function getStoreEnvStatus(): { configured: boolean; source: string | null; present: Record<string, boolean> } {
+  const present = {
+    KV_REST_API_URL: Boolean(process.env.KV_REST_API_URL),
+    KV_REST_API_TOKEN: Boolean(process.env.KV_REST_API_TOKEN),
+    UPSTASH_REDIS_REST_URL: Boolean(process.env.UPSTASH_REDIS_REST_URL),
+    UPSTASH_REDIS_REST_TOKEN: Boolean(process.env.UPSTASH_REDIS_REST_TOKEN),
+    REDIS_URL: Boolean(process.env.REDIS_URL),
+    KV_URL: Boolean(process.env.KV_URL),
+  };
+  let source: string | null = null;
+  if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) source = "KV_REST_API_*";
+  else if (process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) source = "UPSTASH_REDIS_REST_*";
+  else if (fromRedisUrl(process.env.REDIS_URL)) source = "REDIS_URL";
+  else if (fromRedisUrl(process.env.KV_URL)) source = "KV_URL";
+  else if (fromRedisUrl(process.env.UPSTASH_REDIS_URL)) source = "UPSTASH_REDIS_URL";
+  return { configured: getConfig() !== null, source, present };
 }
 
 type RedisArg = string | number;

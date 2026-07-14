@@ -22,11 +22,13 @@ export function AdminLogin({ configured }: { configured: boolean }) {
         return;
       }
       const data = (await res.json().catch(() => ({}))) as { error?: string };
-      setError(
-        data.error === "not_configured"
-          ? "לוח הבקרה לא הוגדר: יש להגדיר ADMIN_PASSWORD בהגדרות השרת."
-          : "סיסמה שגויה. נסו שוב."
-      );
+      if (res.status === 429 || data.error === "rate_limited") {
+        setError("יותר מדי ניסיונות. נסו שוב בעוד דקה.");
+      } else if (data.error === "not_configured") {
+        setError("לוח הבקרה לא הוגדר: יש להגדיר ADMIN_PASSWORD בהגדרות השרת.");
+      } else {
+        setError("סיסמה שגויה. נסו שוב.");
+      }
     } catch {
       setError("שגיאת רשת. נסו שוב.");
     } finally {

@@ -3,6 +3,8 @@ import { LogoutButton } from "@/components/admin/LogoutButton";
 
 interface Props {
   data: DashboardData;
+  connected: boolean;
+  envStatus: { configured: boolean; source: string | null; present: Record<string, boolean> };
   categoryNames: Record<string, string>;
   brandNames: Record<string, string>;
   productNames: Record<string, string>;
@@ -60,7 +62,7 @@ function RankedList({
   );
 }
 
-export function AdminDashboard({ data, categoryNames, brandNames, productNames }: Props) {
+export function AdminDashboard({ data, connected, envStatus, categoryNames, brandNames, productNames }: Props) {
   const t = data.totals;
   const waTotal = (t.whatsapp_click_header ?? 0) + (t.whatsapp_click_product ?? 0) + (t.whatsapp_click_basket ?? 0);
 
@@ -76,16 +78,33 @@ export function AdminDashboard({ data, categoryNames, brandNames, productNames }
             {data.lastEventAt && ` · עודכן לאחרונה ${new Date(data.lastEventAt).toLocaleString("he-IL")}`}
           </p>
         </div>
-        <LogoutButton />
+        <div className="flex items-center gap-3">
+          <span
+            className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ${
+              connected ? "bg-green-100 text-green-800" : "bg-amber-100 text-amber-800"
+            }`}
+          >
+            <span className={`h-2 w-2 rounded-full ${connected ? "bg-green-600" : "bg-amber-500"}`} />
+            {connected ? `אחסון מחובר${envStatus.source ? ` · ${envStatus.source}` : ""}` : "אחסון לא מחובר"}
+          </span>
+          <LogoutButton />
+        </div>
       </div>
 
-      {!data.configured && (
+      {!connected && (
         <div className="mt-5 rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800">
-          <p className="font-semibold">אחסון הנתונים לא מחובר.</p>
+          <p className="font-semibold">אחסון הנתונים לא מחובר או לא נגיש.</p>
           <p className="mt-1 leading-relaxed">
-            כדי להתחיל לאסוף נתונים, חברו מאגר <span className="font-mono">Vercel KV / Upstash Redis</span> לפרויקט
-            (הוא מגדיר אוטומטית את <span className="font-mono">KV_REST_API_URL</span> ו-
-            <span className="font-mono">KV_REST_API_TOKEN</span>). עד אז, הדף פעיל אך כל המונים מציגים 0.
+            חברו מאגר <span className="font-mono">Vercel Redis / Upstash</span> לפרויקט. הקוד מזהה אוטומטית את
+            אחד מהמשתנים: <span className="font-mono">KV_REST_API_URL/TOKEN</span>,{" "}
+            <span className="font-mono">UPSTASH_REDIS_REST_URL/TOKEN</span> או{" "}
+            <span className="font-mono">REDIS_URL/KV_URL</span> (Upstash). עד אז המונים מציגים 0 — האתר אינו מושפע.
+          </p>
+          <p className="mt-2 text-xs">
+            משתני סביבה שזוהו:{" "}
+            {Object.entries(envStatus.present)
+              .map(([k, v]) => `${k}=${v ? "✓" : "—"}`)
+              .join(" · ")}
           </p>
         </div>
       )}
@@ -110,8 +129,8 @@ export function AdminDashboard({ data, categoryNames, brandNames, productNames }
       {/* Bots & AI */}
       <h2 className="mt-10 text-lg font-bold text-graphite md:text-2xl">בוטים ועוזרי AI</h2>
       <p className="mt-1 text-sm text-graphite-soft/60">
-        סריקות = כמה פעמים בוט סרק את האתר. הגעות מ-AI = גולשים שהגיעו מקישור בתשובת עוזר AI (הפרוקסי הכי קרוב
-        ל"המלצה"; אי אפשר לספור המלצות שנאמרו בצ'אט פרטי).
+        סריקות = כמה פעמים בוט סרק את האתר. הגעות מ-AI = גולשים שהגיעו מקישור בתשובת עוזר AI — הפרוקסי הכי קרוב
+        להמלצה. אי אפשר לספור המלצות שנאמרו בשיחת צ׳אט פרטית.
       </p>
       <section className="mt-4 grid grid-cols-2 gap-3 md:grid-cols-3">
         <StatCard label="סריקות בוטי AI" value={n(t.bot_ai_crawl)} accent sub="GPTBot, ClaudeBot, PerplexityBot ועוד" />
