@@ -58,7 +58,7 @@ export function ProductStickyCta({ product }: { product: Product }) {
         href={buildWhatsAppUrl(buildWhatsAppProductMessage(product))}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackEvent("whatsapp_click_product", { model_number: product.modelNumber })}
+        onClick={() => trackEvent("whatsapp_click_product", { model_number: product.modelNumber, slug: product.slug })}
         className={cx(buttonBase, "bg-[#25D366] text-white active:bg-[#1fbd5a]")}
       >
         <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-current">

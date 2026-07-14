@@ -12,6 +12,7 @@ import { generateBrandMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductGrid } from "@/components/ProductGrid";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
+import { ViewTracker } from "@/components/ViewTracker";
 import { getBrandContent } from "@/content/brandContent";
 
 export const revalidate = 10800; // 3 hours
@@ -50,6 +51,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
 
   return (
     <>
+      <ViewTracker event="brand_view" slug={brand.slug} />
       <Breadcrumbs items={[{ name: "מותגים", path: "/brands" }, { name: brand.name, path: `/brands/${slug}` }]} />
 
       <div className="container-page pb-12 md:pb-16">

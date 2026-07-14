@@ -9,6 +9,8 @@ interface WhatsAppButtonProps {
   className?: string;
   variant?: "primary" | "outline" | "ghost";
   trackAs?: AnalyticsEvent;
+  /** Optional product/brand slug attached to the tracked event (BI context). */
+  trackSlug?: string;
   size?: "md" | "lg" | "sm";
   /** Renders as a square icon-only button, keeping the label for screen readers. */
   iconOnly?: boolean;
@@ -32,6 +34,7 @@ export function WhatsAppButton({
   className,
   variant = "primary",
   trackAs = "whatsapp_click_product",
+  trackSlug,
   size = "md",
   iconOnly = false,
 }: WhatsAppButtonProps) {
@@ -43,7 +46,7 @@ export function WhatsAppButton({
       target="_blank"
       rel="noopener noreferrer"
       aria-label={iconOnly ? label : undefined}
-      onClick={() => trackEvent(trackAs)}
+      onClick={() => trackEvent(trackAs, trackSlug ? { slug: trackSlug } : {})}
       className={cx(
         "inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue",
         VARIANT_CLASSES[variant],

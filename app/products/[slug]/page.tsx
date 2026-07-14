@@ -15,6 +15,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { PhoneButton } from "@/components/PhoneButton";
 import { AddToRequestButton } from "@/components/AddToRequestButton";
 import { ProductStickyCta } from "@/components/ProductStickyCta";
+import { ViewTracker } from "@/components/ViewTracker";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS, cx } from "@/lib/utils";
 
@@ -55,6 +56,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   return (
     <>
+      <ViewTracker event="product_view" slug={product.slug} category={product.categorySlug ?? undefined} />
       <Breadcrumbs
         items={[
           { name: "קטלוג", path: "/products" },
@@ -111,6 +113,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 label={product.availability === "out_of_stock" ? "בדקו אפשרות הזמנה בוואטסאפ" : "הזמן בוואטסאפ"}
                 className="flex-1"
                 trackAs="whatsapp_click_product"
+                trackSlug={product.slug}
               />
             </div>
             <PhoneButton

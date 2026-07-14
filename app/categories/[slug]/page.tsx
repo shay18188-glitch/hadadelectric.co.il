@@ -18,6 +18,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 import { getCategoryContent } from "@/content/categoryContent";
 import { getGuideBySlug } from "@/content/guides";
+import { ViewTracker } from "@/components/ViewTracker";
 
 export const revalidate = 10800; // 3 hours
 
@@ -63,6 +64,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <>
+      <ViewTracker event="category_view" category={category.slug} />
       <Breadcrumbs items={[{ name: "קטגוריות", path: "/categories" }, { name: category.name, path: `/categories/${category.slug}` }]} />
 
       <div className="container-page pb-12 md:pb-16">
