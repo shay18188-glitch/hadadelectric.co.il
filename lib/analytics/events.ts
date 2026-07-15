@@ -287,43 +287,57 @@ export async function storePing(): Promise<boolean> {
 }
 
 /* ------------------------------------------------------------------ */
-/* Login rate limiting (brute-force protection)                       */
+/* Rate limiting (brute-force / abuse protection)                     */
 /* ------------------------------------------------------------------ */
 
-// Per-instance fallback used only when the KV store isn't configured.
+// Per-instance fallback used only when the KV store isn't configured. Keyed by
+// the full rate-limit key so different buckets never collide.
 const memoryHits = new Map<string, { count: number; resetAt: number }>();
 
 /**
- * Fixed-window limiter for admin login attempts.
- * Returns true when the caller is OVER the limit and should be blocked.
+ * Fixed-window limiter. `bucket` namespaces the limit (e.g. "login",
+ * "contact"), `id` is usually the client IP. Returns true when the caller is
+ * OVER the limit and should be blocked.
+ *
+ * Uses the shared Redis store when available (limits hold across serverless
+ * instances); otherwise falls back to a best-effort in-memory window.
  */
-export async function hitLoginRateLimit(ip: string, limit = 5, windowSec = 60): Promise<boolean> {
-  const id = ip || "unknown";
+export async function hitRateLimit(bucket: string, id: string, limit: number, windowSec: number): Promise<boolean> {
+  const key = `rl:${bucket}:${id || "unknown"}`;
 
   if (!isStoreConfigured()) {
     const now = Date.now();
-    const entry = memoryHits.get(id);
+    const entry = memoryHits.get(key);
     if (!entry || entry.resetAt < now) {
-      memoryHits.set(id, { count: 1, resetAt: now + windowSec * 1000 });
+      memoryHits.set(key, { count: 1, resetAt: now + windowSec * 1000 });
       return false;
     }
     entry.count += 1;
     return entry.count > limit;
   }
 
-  const key = `rl:login:${id}`;
   const res = await pipeline([["INCR", key]]);
   const count = Number(res?.[0] ?? 0);
   if (count === 1) await redis("EXPIRE", key, windowSec);
   return count > limit;
 }
 
-/** Clear the limiter for an IP (called after a successful login). */
-export async function clearLoginRateLimit(ip: string): Promise<void> {
-  const id = ip || "unknown";
+/** Clear a limiter bucket for an id (e.g. after a successful login). */
+export async function clearRateLimit(bucket: string, id: string): Promise<void> {
+  const key = `rl:${bucket}:${id || "unknown"}`;
   if (!isStoreConfigured()) {
-    memoryHits.delete(id);
+    memoryHits.delete(key);
     return;
   }
-  await redis("DEL", `rl:login:${id}`);
+  await redis("DEL", key);
+}
+
+/** @deprecated Use hitRateLimit("login", ip, …). Kept for existing callers. */
+export function hitLoginRateLimit(ip: string, limit = 5, windowSec = 60): Promise<boolean> {
+  return hitRateLimit("login", ip, limit, windowSec);
+}
+
+/** @deprecated Use clearRateLimit("login", ip). */
+export function clearLoginRateLimit(ip: string): Promise<void> {
+  return clearRateLimit("login", ip);
 }

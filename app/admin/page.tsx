@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { ADMIN_COOKIE, verifyToken, isAdminConfigured } from "@/lib/analytics/auth";
 import { getDashboardData, storePing } from "@/lib/analytics/events";
+import { getLeads } from "@/lib/analytics/leads";
 import { getStoreEnvStatus } from "@/lib/analytics/store";
 import { getCategories, getBrands, getProducts } from "@/lib/base44/catalog";
 import { AdminLogin } from "@/components/admin/AdminLogin";
@@ -25,8 +26,9 @@ export default async function AdminPage() {
     return <AdminLogin configured={configured} />;
   }
 
-  const [data, connected, categories, brands, products] = await Promise.all([
+  const [data, leadsResult, connected, categories, brands, products] = await Promise.all([
     getDashboardData(30),
+    getLeads(200),
     storePing(),
     getCategories(),
     getBrands(),
@@ -40,6 +42,7 @@ export default async function AdminPage() {
   return (
     <AdminDashboard
       data={data}
+      leads={leadsResult.leads}
       connected={connected}
       envStatus={getStoreEnvStatus()}
       categoryNames={categoryNames}

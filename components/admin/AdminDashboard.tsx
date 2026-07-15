@@ -1,8 +1,11 @@
 import type { DashboardData, RankedEntry } from "@/lib/analytics/events";
+import type { Lead } from "@/lib/analytics/leads";
 import { LogoutButton } from "@/components/admin/LogoutButton";
+import { LeadsPanel } from "@/components/admin/LeadsPanel";
 
 interface Props {
   data: DashboardData;
+  leads: Lead[];
   connected: boolean;
   envStatus: { configured: boolean; source: string | null; present: Record<string, boolean> };
   categoryNames: Record<string, string>;
@@ -62,7 +65,7 @@ function RankedList({
   );
 }
 
-export function AdminDashboard({ data, connected, envStatus, categoryNames, brandNames, productNames }: Props) {
+export function AdminDashboard({ data, leads, connected, envStatus, categoryNames, brandNames, productNames }: Props) {
   const t = data.totals;
   const waTotal = (t.whatsapp_click_header ?? 0) + (t.whatsapp_click_product ?? 0) + (t.whatsapp_click_basket ?? 0);
 
@@ -124,6 +127,11 @@ export function AdminDashboard({ data, connected, envStatus, categoryNames, bran
         <StatCard label="חיפושים באתר" value={n(t.search_query)} />
         <StatCard label="הוספות ל'הבקשה שלי'" value={n(t.product_add_to_request)} />
         <StatCard label="שליחות טופס צור קשר" value={n(t.contact_form_submit)} />
+      </section>
+
+      {/* Inquiries from the contact form */}
+      <section className="mt-10">
+        <LeadsPanel leads={leads} />
       </section>
 
       {/* Bots & AI */}

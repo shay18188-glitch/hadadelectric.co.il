@@ -2,8 +2,22 @@ import { NextRequest, NextResponse } from "next/server";
 import { getCategories, getProducts } from "@/lib/base44/catalog";
 import { createFuseIndex, searchProducts } from "@/lib/search/fuse";
 import { matchCategories } from "@/lib/search/categorySearch";
+import { hitRateLimit } from "@/lib/analytics/events";
+import { clientIp } from "@/lib/http/security";
+
+export const runtime = "nodejs";
+
+const RATE_LIMIT = 60; // queries per minute per IP
 
 export async function GET(request: NextRequest) {
+  // Abuse throttle for the public search endpoint.
+  if (await hitRateLimit("search", clientIp(request), RATE_LIMIT, 60)) {
+    return NextResponse.json(
+      { results: [], categories: [], error: "rate_limited" },
+      { status: 429, headers: { "Retry-After": "60" } }
+    );
+  }
+
   const q = request.nextUrl.searchParams.get("q")?.trim() ?? "";
 
   if (!q || q.length < 2) {

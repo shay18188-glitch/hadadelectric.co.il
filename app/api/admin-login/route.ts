@@ -1,25 +1,27 @@
 import { NextResponse } from "next/server";
 import { ADMIN_COOKIE, createToken, verifyPassword, SESSION_MAX_AGE_SECONDS, isAdminConfigured } from "@/lib/analytics/auth";
-import { hitLoginRateLimit, clearLoginRateLimit } from "@/lib/analytics/events";
+import { hitRateLimit, clearRateLimit } from "@/lib/analytics/events";
+import { clientIp, isSameOrigin } from "@/lib/http/security";
+
+// Never cache auth responses at any layer.
+export const dynamic = "force-dynamic";
 
 const RATE_LIMIT = 5; // attempts per minute per IP
-
-function clientIp(req: Request): string {
-  const xff = req.headers.get("x-forwarded-for");
-  if (xff) return xff.split(",")[0].trim();
-  return req.headers.get("x-real-ip") || "unknown";
-}
 
 // Password check happens server-side against ADMIN_PASSWORD; on success we set
 // an HMAC-signed, httpOnly session cookie. Runs on the Node runtime (default).
 export async function POST(req: Request) {
+  // CSRF defense-in-depth: reject cross-site form posts.
+  if (!isSameOrigin(req)) {
+    return NextResponse.json({ ok: false, error: "bad_origin" }, { status: 403 });
+  }
   if (!isAdminConfigured()) {
     return NextResponse.json({ ok: false, error: "not_configured" }, { status: 503 });
   }
 
   const ip = clientIp(req);
   // Brute-force protection: max 5 attempts / minute / IP.
-  if (await hitLoginRateLimit(ip, RATE_LIMIT, 60)) {
+  if (await hitRateLimit("login", ip, RATE_LIMIT, 60)) {
     return NextResponse.json(
       { ok: false, error: "rate_limited" },
       { status: 429, headers: { "Retry-After": "60" } }
@@ -39,7 +41,7 @@ export async function POST(req: Request) {
   }
 
   // Successful login clears the attempt counter for this IP.
-  await clearLoginRateLimit(ip);
+  await clearRateLimit("login", ip);
 
   const token = await createToken();
   if (!token) return NextResponse.json({ ok: false, error: "not_configured" }, { status: 503 });
@@ -56,7 +58,10 @@ export async function POST(req: Request) {
 }
 
 /** Logout: clear the session cookie. */
-export async function DELETE() {
+export async function DELETE(req: Request) {
+  if (!isSameOrigin(req)) {
+    return NextResponse.json({ ok: false, error: "bad_origin" }, { status: 403 });
+  }
   const res = NextResponse.json({ ok: true });
   res.cookies.set(ADMIN_COOKIE, "", { httpOnly: true, secure: true, sameSite: "lax", path: "/", maxAge: 0 });
   return res;

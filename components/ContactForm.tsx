@@ -22,6 +22,7 @@ export function ContactForm() {
       email: String(data.get("email") ?? ""),
       message: String(data.get("message") ?? ""),
       relevantProduct: String(data.get("relevantProduct") ?? ""),
+      company: String(data.get("company") ?? ""),
       privacyAccepted,
     };
 
@@ -52,6 +53,12 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-4" noValidate>
+      {/* Honeypot: hidden from users, tempting to bots. Real submissions leave
+          it empty; the server drops anything that fills it. */}
+      <div aria-hidden="true" className="absolute left-[-9999px] top-[-9999px] h-0 w-0 overflow-hidden" style={{ position: "absolute" }}>
+        <label htmlFor="company">אל תמלאו שדה זה</label>
+        <input id="company" name="company" type="text" tabIndex={-1} autoComplete="off" />
+      </div>
       <div className="grid gap-4 sm:grid-cols-2">
         <FormField id="name" name="name" label="שם מלא" required autoComplete="name" />
         <FormField id="phone" name="phone" label="טלפון" type="tel" required autoComplete="tel" />
