@@ -62,6 +62,19 @@ const nextConfig: NextConfig = {
   },
   // Never expose the framework version banner.
   poweredByHeader: false,
+  async redirects() {
+    return [
+      // Malformed indexed URLs that smuggle a whole URL into the path, e.g.
+      // /http://hadadelectric.co.il or /https://hadadelectric.co.il (and the
+      // slash-collapsed /http:/… form). The middleware matcher can't receive
+      // colon-in-path URLs, so we collapse them to the homepage here at the
+      // router layer. `permanent` emits a 308 (Google treats it exactly like a
+      // 301 for consolidation — it's also what Next already returns when it
+      // normalizes the doubled slash in these URLs).
+      { source: "/:scheme(https?:.*)/:rest*", destination: "/", permanent: true },
+      { source: "/:scheme(https?:.*)", destination: "/", permanent: true },
+    ];
+  },
   async headers() {
     return [
       {
