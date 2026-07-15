@@ -121,7 +121,38 @@ export function breadcrumbJsonLd(items: BreadcrumbItem[]) {
 // permanently "invalid" in Search Console (Merchant listings / Product
 // snippets). Omitting the markup entirely keeps those reports clean while
 // losing nothing — a price-less product can never win a Product rich result.
-// Product pages still expose BreadcrumbList structured data via <Breadcrumbs>.
+// Product pages still expose BreadcrumbList structured data via <Breadcrumbs>,
+// and declare their main image via `itemPageJsonLd` below (ItemPage carries no
+// rich-result requirements, so Search Console stays clean).
+
+/**
+ * ItemPage schema for product pages: declares the product photo as the page's
+ * primary image so Google prefers it over the site logo when picking a search
+ * result thumbnail.
+ */
+export function itemPageJsonLd(params: {
+  name: string;
+  description: string;
+  path: string;
+  imageUrl?: string | null;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemPage",
+    name: params.name,
+    description: params.description,
+    url: absoluteUrl(params.path),
+    ...(params.imageUrl
+      ? {
+          image: params.imageUrl,
+          primaryImageOfPage: {
+            "@type": "ImageObject",
+            contentUrl: params.imageUrl,
+          },
+        }
+      : {}),
+  };
+}
 
 export interface FaqItem {
   question: string;

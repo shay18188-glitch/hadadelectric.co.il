@@ -17,6 +17,8 @@ import { AddToRequestButton } from "@/components/AddToRequestButton";
 import { ProductStickyCta } from "@/components/ProductStickyCta";
 import { ViewTracker } from "@/components/ViewTracker";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
+import { JsonLd } from "@/components/JsonLd";
+import { itemPageJsonLd } from "@/lib/schema/jsonld";
 import { BUSINESS, cx } from "@/lib/utils";
 
 export const revalidate = 10800; // 3 hours
@@ -57,6 +59,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
   return (
     <>
       <ViewTracker event="product_view" slug={product.slug} category={product.categorySlug ?? undefined} />
+      <JsonLd
+        data={itemPageJsonLd({
+          name: product.name,
+          description: product.description,
+          path: `/products/${product.slug}`,
+          imageUrl: product.imageUrl,
+        })}
+      />
       <Breadcrumbs
         items={[
           { name: "קטלוג", path: "/products" },

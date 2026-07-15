@@ -7,6 +7,8 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { PhoneButton } from "@/components/PhoneButton";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
 import { localizeProduct, localizeProducts, localizeCategoryName } from "@/lib/i18n/translated";
+import { JsonLd } from "@/components/JsonLd";
+import { itemPageJsonLd } from "@/lib/schema/jsonld";
 import { LOCALE_HTML_LANG, LOCALE_PREFIX, type Locale } from "@/lib/i18n/locales";
 import { BUSINESS, cx } from "@/lib/utils";
 import type { Product } from "@/types/product";
@@ -183,6 +185,14 @@ export function LocaleProductDetailPage({
 
   return (
     <div lang={LOCALE_HTML_LANG[locale]} dir="ltr">
+      <JsonLd
+        data={itemPageJsonLd({
+          name: localized.name,
+          description: localized.description,
+          path: `${LOCALE_PREFIX[locale]}/products/${product.slug}`,
+          imageUrl: localized.imageUrl,
+        })}
+      />
       <div className="container-page py-10 pb-16 md:py-12">
         <div className="grid gap-6 md:grid-cols-2 md:gap-10">
           <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface md:rounded-3xl">

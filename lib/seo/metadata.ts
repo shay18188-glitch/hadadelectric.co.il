@@ -62,7 +62,19 @@ export function buildMetadata({
     },
     robots: noindex
       ? { index: false, follow: true }
-      : { index: true, follow: true },
+      : {
+          index: true,
+          follow: true,
+          // Allow large image previews so product photos can appear as
+          // result thumbnails (Google defaults to small ones otherwise).
+          googleBot: {
+            index: true,
+            follow: true,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+            "max-video-preview": -1,
+          },
+        },
     openGraph: {
       title,
       description,
