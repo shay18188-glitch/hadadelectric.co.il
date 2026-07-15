@@ -14,21 +14,51 @@ interface PageMetadataInput {
   path: string;
   noindex?: boolean;
   images?: string[];
+  /** Content language of the page. Defaults to Hebrew. */
+  locale?: "he" | "en" | "ru";
+  /**
+   * Paths of this page's translations keyed by locale, for hreflang.
+   * Include ALL locales the page exists in (itself included);
+   * x-default points at the Hebrew version.
+   */
+  translations?: Partial<Record<"he" | "en" | "ru", string>>;
 }
 
-export function buildMetadata({ title, description, path, noindex, images }: PageMetadataInput): Metadata {
+const OG_LOCALE = { he: "he_IL", en: "en_US", ru: "ru_RU" } as const;
+const HREFLANG = { he: "he-IL", en: "en", ru: "ru" } as const;
+
+export function buildMetadata({
+  title,
+  description,
+  path,
+  noindex,
+  images,
+  locale = "he",
+  translations,
+}: PageMetadataInput): Metadata {
   const url = absoluteUrl(path);
   const ogImage = images?.[0] ?? absoluteUrl("/opengraph-image");
 
+  const languages: Record<string, string> = {};
+  if (translations) {
+    for (const [loc, translationPath] of Object.entries(translations)) {
+      languages[HREFLANG[loc as keyof typeof HREFLANG]] = absoluteUrl(translationPath);
+    }
+    languages["x-default"] = absoluteUrl(translations.he ?? path);
+  } else {
+    // Hebrew-only page: self-referencing hreflang.
+    languages[HREFLANG[locale]] = url;
+    languages["x-default"] = url;
+  }
+
   return {
-    title,
+    // Hebrew pages use the root layout's "%s | site" template; en/ru pages
+    // carry the brand in the title itself, so make it absolute.
+    title: locale === "he" ? title : { absolute: title },
     description,
     alternates: {
       canonical: url,
-      languages: {
-        "he-IL": absoluteUrl("/"),
-        "x-default": absoluteUrl("/"),
-      },
+      languages,
     },
     robots: noindex
       ? { index: false, follow: true }
@@ -37,8 +67,8 @@ export function buildMetadata({ title, description, path, noindex, images }: Pag
       title,
       description,
       url,
-      siteName: SITE_NAME,
-      locale: "he_IL",
+      siteName: locale === "he" ? SITE_NAME : BUSINESS.nameEn,
+      locale: OG_LOCALE[locale],
       type: "website",
       images: [ogImage],
     },
@@ -55,12 +85,14 @@ export function generateProductMetadata(product: Product): Metadata {
   const title = product.name;
   const description =
     product.description.length > 155 ? `${product.description.slice(0, 152)}...` : product.description;
+  const path = `/products/${product.slug}`;
 
   return buildMetadata({
     title,
     description,
-    path: `/products/${product.slug}`,
+    path,
     images: product.imageUrl ? [product.imageUrl] : undefined,
+    translations: { he: path, en: `/en${path}`, ru: `/ru${path}` },
   });
 }
 

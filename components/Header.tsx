@@ -12,7 +12,8 @@ import { SearchBar } from "@/components/SearchBar";
 import { MobileNavDrawer } from "@/components/MobileNavDrawer";
 import { MobileSearchSheet } from "@/components/MobileSearchSheet";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
-import { NAV_LINKS } from "@/lib/nav";
+import { getLocaleFromPathname } from "@/lib/i18n/locales";
+import { CHROME } from "@/lib/i18n/chrome";
 import { BUSINESS, cx } from "@/lib/utils";
 import { useScrollDirection } from "@/lib/useScrollDirection";
 
@@ -24,6 +25,8 @@ export function Header() {
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const { direction, atTop } = useScrollDirection();
   const pathname = usePathname();
+  const locale = getLocaleFromPathname(pathname);
+  const dict = CHROME[locale];
 
   const hidden = direction === "down" && !atTop && !mobileSearchOpen && !mobileOpen;
   const compact = !atTop && !hidden;
@@ -65,8 +68,8 @@ export function Header() {
               {/* Desktop */}
               <Logo compact={compact} className="hidden lg:flex" />
 
-              <nav aria-label="ניווט ראשי" className="hidden items-center gap-1 lg:flex">
-                {NAV_LINKS.map((link) => {
+              <nav aria-label={dict.header.mainNavLabel} className="hidden items-center gap-1 lg:flex">
+                {dict.nav.map((link) => {
                   const isActive = pathname === link.href || pathname.startsWith(`${link.href}/`);
                   return (
                     <Link
@@ -103,7 +106,7 @@ export function Header() {
                 <LanguageSwitcher iconOnly />
                 <button
                   type="button"
-                  aria-label="חיפוש"
+                  aria-label={dict.header.search}
                   aria-expanded={mobileSearchOpen}
                   onClick={openSearch}
                   className={cx(
@@ -130,7 +133,7 @@ export function Header() {
                 <Logo compact={compact} iconOnly />
                 <button
                   type="button"
-                  aria-label="פתח תפריט"
+                  aria-label={dict.header.openMenu}
                   aria-expanded={mobileOpen}
                   onClick={openMenu}
                   className={cx(MOBILE_ICON_BTN, "hover:bg-surface/80 active:bg-surface")}

@@ -9,6 +9,7 @@ import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/schema/jsonld";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { translationsForPath } from "@/lib/i18n/locales";
 import { getCategories, getCategoryBySlug } from "@/lib/base44/catalog";
 
 interface GuidePageProps {
@@ -23,7 +24,12 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
-  return buildMetadata({ title: guide.title, description: guide.description, path: `/guides/${slug}` });
+  return buildMetadata({
+    title: guide.title,
+    description: guide.description,
+    path: `/guides/${slug}`,
+    translations: translationsForPath(`/guides/${slug}`) ?? undefined,
+  });
 }
 
 export default async function GuidePage({ params }: GuidePageProps) {

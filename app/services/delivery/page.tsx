@@ -8,6 +8,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { PhoneButton } from "@/components/PhoneButton";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS } from "@/lib/utils";
 import { LOCAL_PAGES } from "@/content/localPages";
@@ -17,6 +18,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "משלוח והתקנת מוצרי חשמל בבית הלקוח בכל הצפון — מנהריה, עכו והקריות ועד צפת, טבריה וקריית שמונה. אזורי חלוקה, איך זה עובד ותיאום מלא מול צוות החנות, עם יחס אישי.",
   path: "/services/delivery",
+  translations: TRANSLATED_PATHS["/services/delivery"],
 });
 
 const DELIVERY_ZONES: { zone: string; areas: { path: string; label: string }[]; note: string }[] = [

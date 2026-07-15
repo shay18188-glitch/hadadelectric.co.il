@@ -13,13 +13,23 @@ export function buildWhatsAppUrl(message: string): string {
   return `https://wa.me/${WHATSAPP_PHONE_INTL}?text=${encodeURIComponent(message)}`;
 }
 
-export function buildWhatsAppProductMessage(product: Pick<Product, "name" | "modelNumber" | "slug">): string {
+const PRODUCT_MESSAGE_TEXT = {
+  he: { intro: "שלום יובל, אני מעוניין לבדוק זמינות/להזמין את המוצר:", model: "מק״ט/דגם", link: "קישור", thanks: "תודה." },
+  en: { intro: "Hello, I'd like to check availability / order this product:", model: "Model", link: "Link", thanks: "Thank you." },
+  ru: { intro: "Здравствуйте! Хочу проверить наличие / заказать этот товар:", model: "Модель", link: "Ссылка", thanks: "Спасибо." },
+} as const;
+
+export function buildWhatsAppProductMessage(
+  product: Pick<Product, "name" | "modelNumber" | "slug">,
+  locale: keyof typeof PRODUCT_MESSAGE_TEXT = "he"
+): string {
+  const t = PRODUCT_MESSAGE_TEXT[locale];
   return [
-    "שלום יובל, אני מעוניין לבדוק זמינות/להזמין את המוצר:",
+    t.intro,
     product.name,
-    `מק״ט/דגם: ${product.modelNumber}`,
-    `קישור: ${productUrl(product.slug)}`,
-    "תודה.",
+    `${t.model}: ${product.modelNumber}`,
+    `${t.link}: ${productUrl(product.slug)}`,
+    t.thanks,
   ].join("\n");
 }
 
@@ -51,8 +61,14 @@ export function buildWhatsAppBasketMessage(
   return lines.join("\n");
 }
 
-export function buildWhatsAppGeneralMessage(): string {
-  return "שלום, אשמח לקבל מידע נוסף על מוצרי חשמל בחדד יובל אלקטריק.";
+const GENERAL_MESSAGES = {
+  he: "שלום, אשמח לקבל מידע נוסף על מוצרי חשמל בחדד יובל אלקטריק.",
+  en: "Hello, I'd like more information about home appliances at Hadad Electric.",
+  ru: "Здравствуйте! Я хотел(а) бы получить информацию о бытовой технике в магазине Hadad Electric.",
+} as const;
+
+export function buildWhatsAppGeneralMessage(locale: keyof typeof GENERAL_MESSAGES = "he"): string {
+  return GENERAL_MESSAGES[locale];
 }
 
 export function telHref(phone: string): string {

@@ -4,11 +4,13 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Reveal } from "@/components/Reveal";
 import { GUIDES } from "@/content/guides";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
 
 export const metadata: Metadata = buildMetadata({
   title: "מדריכים למוצרי חשמל",
   description: "מדריכים מעשיים לבחירת מוצרי חשמל לבית — מקררים, מכונות כביסה, טלוויזיות, מזגנים ועוד.",
   path: "/guides",
+  translations: TRANSLATED_PATHS["/guides"],
 });
 
 export default function GuidesIndexPage() {

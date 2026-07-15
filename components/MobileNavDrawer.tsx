@@ -4,17 +4,20 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { BottomSheet } from "@/components/BottomSheet";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
-import { MOBILE_NAV_ICONS, NAV_LINKS } from "@/lib/nav";
+import { getLocaleFromPathname } from "@/lib/i18n/locales";
+import { CHROME } from "@/lib/i18n/chrome";
 import { cx } from "@/lib/utils";
 
 export function MobileNavDrawer({ open, onClose }: { open: boolean; onClose: () => void }) {
   const pathname = usePathname();
+  const locale = getLocaleFromPathname(pathname);
+  const dict = CHROME[locale];
 
   return (
-    <BottomSheet open={open} onClose={onClose} placement="end" title="תפריט">
-      <nav aria-label="ניווט נייד" className="px-3 pt-2">
+    <BottomSheet open={open} onClose={onClose} placement="end" title={dict.header.menuTitle}>
+      <nav aria-label={dict.header.mainNavLabel} className="px-3 pt-2">
         <ul className="flex flex-col gap-1">
-          {NAV_LINKS.map((link) => {
+          {dict.nav.map((link) => {
             const isActive = pathname === link.href || pathname.startsWith(`${link.href}/`);
             return (
               <li key={link.href}>
@@ -33,7 +36,7 @@ export function MobileNavDrawer({ open, onClose }: { open: boolean; onClose: () 
                     )}
                   >
                     <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-current stroke-[1.7]">
-                      <path strokeLinecap="round" strokeLinejoin="round" d={MOBILE_NAV_ICONS[link.href]} />
+                      <path strokeLinecap="round" strokeLinejoin="round" d={link.icon} />
                     </svg>
                   </span>
                   <span className="flex-1">{link.label}</span>
@@ -52,7 +55,7 @@ export function MobileNavDrawer({ open, onClose }: { open: boolean; onClose: () 
       </nav>
 
       <div className="mt-3 border-t border-line px-5 py-4">
-        <p className="mb-2 text-xs font-semibold text-graphite-soft/60">שפה</p>
+        <p className="mb-2 text-xs font-semibold text-graphite-soft/60">{dict.header.languageLabel}</p>
         <LanguageSwitcher />
       </div>
     </BottomSheet>

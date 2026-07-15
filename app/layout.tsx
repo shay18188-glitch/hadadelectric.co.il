@@ -13,10 +13,16 @@ import { absoluteUrl } from "@/lib/utils";
 import { DEFAULT_DESCRIPTION, SITE_NAME } from "@/lib/seo/metadata";
 
 const rubik = Rubik({
-  subsets: ["hebrew", "latin"],
+  subsets: ["hebrew", "latin", "cyrillic"],
   variable: "--font-rubik",
   display: "swap",
 });
+
+// Hebrew owns the root URLs, so the server renders lang=he-IL dir=rtl. For the
+// /en and /ru sections this inline script flips the document language and
+// direction before first paint (no RTL flash); suppressHydrationWarning on
+// <html> covers the attribute delta.
+const LOCALE_BOOTSTRAP_SCRIPT = `(function(){var p=location.pathname;var l=p==="/en"||p.indexOf("/en/")===0?"en":p==="/ru"||p.indexOf("/ru/")===0?"ru":null;if(l){var d=document.documentElement;d.lang=l;d.dir="ltr";}})();`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(absoluteUrl("/")),
@@ -29,6 +35,8 @@ export const metadata: Metadata = {
     canonical: absoluteUrl("/"),
     languages: {
       "he-IL": absoluteUrl("/"),
+      en: absoluteUrl("/en"),
+      ru: absoluteUrl("/ru"),
       "x-default": absoluteUrl("/"),
     },
   },
@@ -61,8 +69,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="he-IL" dir="rtl" data-scroll-behavior="smooth" className={`${rubik.variable}`}>
+    <html lang="he-IL" dir="rtl" data-scroll-behavior="smooth" className={`${rubik.variable}`} suppressHydrationWarning>
       <body className="flex min-h-screen flex-col font-sans antialiased">
+        <script dangerouslySetInnerHTML={{ __html: LOCALE_BOOTSTRAP_SCRIPT }} />
         <script dangerouslySetInnerHTML={{ __html: A11Y_BOOTSTRAP_SCRIPT }} />
         <a href="#main-content" className="skip-link">
           דלג לתוכן הראשי

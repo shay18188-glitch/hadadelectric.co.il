@@ -11,12 +11,14 @@ import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS } from "@/lib/utils";
 import { BUSINESS_HOURS } from "@/content/businessHours";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
 
 export const metadata: Metadata = buildMetadata({
   title: "צור קשר — חדד יובל אלקטריק בנהריה",
   description:
     "יצירת קשר עם חדד יובל אלקטריק בע״מ — טלפון 04-9920948, וואטסאפ 052-2692235, כתובת בנהריה, שעות פעילות וטופס פנייה. בדיקת זמינות והזמנת מוצרי חשמל.",
   path: "/contact",
+  translations: TRANSLATED_PATHS["/contact"],
 });
 
 export default function ContactPage() {

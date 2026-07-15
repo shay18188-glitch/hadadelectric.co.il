@@ -14,11 +14,14 @@ export function GuideCatalogCta({
   label,
   variant = "inline",
   categoryName,
+  ltr = false,
 }: {
   href: string;
   label: string;
   variant?: "inline" | "banner";
   categoryName?: string;
+  /** Flip the inline arrow for LTR (en/ru) pages. */
+  ltr?: boolean;
 }) {
   if (variant === "banner") {
     return (
@@ -53,7 +56,7 @@ export function GuideCatalogCta({
         className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-blue hover:underline md:text-[15px]"
       >
         {label}
-        <span aria-hidden="true">←</span>
+        <span aria-hidden="true">{ltr ? "→" : "←"}</span>
       </Link>
     </div>
   );

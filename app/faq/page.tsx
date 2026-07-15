@@ -7,12 +7,14 @@ import { JsonLd } from "@/components/JsonLd";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 import { FAQ_CATEGORIES, FAQ_ITEMS } from "@/content/faq";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
 
 export const metadata: Metadata = buildMetadata({
   title: "שאלות נפוצות — מוצרי חשמל בנהריה",
   description:
     "שאלות ותשובות על קטלוג מוצרי החשמל, זמינות, הזמנה בוואטסאפ, אזור השירות וייעוץ — חדד יובל אלקטריק בע״מ, נהריה והצפון.",
   path: "/faq",
+  translations: TRANSLATED_PATHS["/faq"],
 });
 
 export default function FaqPage() {

@@ -8,6 +8,7 @@ import { Filters } from "@/components/Filters";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CategorySuggestions } from "@/components/CategorySuggestions";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
 import type { Product } from "@/types/product";
 
 export const revalidate = 10800; // 3 hours
@@ -52,6 +53,7 @@ export async function generateMetadata({
       "עיינו בקטלוג מוצרי החשמל של חדד יובל אלקטריק — מקררים, מכונות כביסה, תנורים, טלוויזיות ועוד, עם בדיקת זמינות והזמנה ישירה בוואטסאפ או בטלפון.",
     path: canonicalPath,
     noindex: hasFilters && canonicalPath === "/products",
+    translations: canonicalPath === "/products" && !hasFilters ? TRANSLATED_PATHS["/products"] : undefined,
   });
 }
 

@@ -1,0 +1,627 @@
+{
+ "entries": {
+  "gas-vs-induction-cooktops": {
+   "h": "0bedaebb3701",
+   "title": "Gas or induction stove - what suits you",
+   "description": "A short comparison between gas stoves and induction stoves to help you decide which is right for your kitchen.",
+   "sections": [
+    {
+     "heading": "Gas stove",
+     "paragraphs": [
+      "Gas stoves provide immediate and visual control over the intensity of the fire, and are familiar to those who are used to cooking with an open flame. It is important to ensure the availability of a suitable gas connection at home."
+     ]
+    },
+    {
+     "heading": "Induction stove",
+     "paragraphs": [
+      "Induction stoves heat up and cool down faster, are easier to clean thanks to a smooth surface, and are considered more efficient in terms of heat utilization. They require suitable pots (with a magnetic base)."
+     ]
+    },
+    {
+     "heading": "What suits you?",
+     "paragraphs": [
+      "The choice between the two depends on personal cooking preferences, the existing infrastructure at home (gas vs. electricity) and the budget. The store staff will be happy to advise according to your specific needs."
+     ]
+    }
+   ]
+  },
+  "how-to-choose-a-tv": {
+   "h": "69e9a1bee547",
+   "title": "How to choose a TV for home",
+   "description": "What is important to check in terms of screen size, resolution and display technology before buying a new TV.",
+   "sections": [
+    {
+     "heading": "Screen size and viewing distance",
+     "paragraphs": [
+      "The ideal screen size depends on the viewing distance in the living room. As a general rule, the greater the viewing distance, the more you can choose a larger screen without compromising the viewing experience."
+     ]
+    },
+    {
+     "heading": "Resolution and display technology",
+     "paragraphs": [
+      "4K resolution has become the common standard today, and technologies like QLED offer an improvement in color quality and brightness. You should check the exact technical specifications of each model in the catalog."
+     ]
+    },
+    {
+     "heading": "Connectivity and a smart operating system",
+     "paragraphs": [
+      "Modern smart TVs have a built-in operating system with access to streaming apps. You should check which applications are supported and which connections (HDMI, USB) are available in the selected model."
+     ]
+    }
+   ]
+  },
+  "dishwasher-buying-guide": {
+   "h": "72b9892ba956",
+   "title": "What is important to check before buying a dishwasher",
+   "description": "Tips for choosing a suitable dishwasher - number of places to eat, noise level and washing programs.",
+   "sections": [
+    {
+     "heading": "Several places to eat",
+     "paragraphs": [
+      "Dishwashers are measured by the number of \"eating places\" they can accommodate in one wash cycle. Larger families will benefit from a dishwasher with a higher number of places, to reduce the number of wash cycles required."
+     ]
+    },
+    {
+     "heading": "Integral or independent dishwasher",
+     "paragraphs": [
+      "An integral dishwasher fits into the kitchen cabinets and is hidden from view, while an independent dishwasher can be placed as a separate unit. The choice depends on the design of the kitchen and the installation options."
+     ]
+    },
+    {
+     "heading": "Noise level and washing programs",
+     "paragraphs": [
+      "If the kitchen is open to the living room, you should pay attention to the noise level indicated (in decibels) in the technical specifications. Also, programs such as the Eco program or steam-assisted drying can improve the user experience."
+     ]
+    }
+   ]
+  },
+  "air-conditioner-buying-guide": {
+   "h": "bfdba9b9579c",
+   "title": "What to check before buying an air conditioner",
+   "description": "Tips for choosing an air conditioner suitable for the size of the room - cooling capacity, inverter technology and noise level.",
+   "sections": [
+    {
+     "heading": "Adjusting the power to the size of the room",
+     "paragraphs": [
+      "The power of the air conditioner (measured in BTU's or BTU's) should match the size of the room or apartment. An air conditioner with too little power will have difficulty cooling the space, while an air conditioner that is too powerful may consume more electricity unnecessarily."
+     ]
+    },
+    {
+     "heading": "Inverter technology",
+     "paragraphs": [
+      "Inverter air conditioners regulate the power of the operation according to the actual need, which can contribute to energy efficiency over time compared to air conditioners without an inverter."
+     ]
+    },
+    {
+     "heading": "Noise level and other features",
+     "paragraphs": [
+      "If the air conditioner is intended for a bedroom, you should check the noise level indicated in the specifications. Features such as air filtration or remote control can add to the comfort of daily use."
+     ]
+    }
+   ]
+  },
+  "how-to-choose-a-washing-machine": {
+   "h": "bdd366ce1967",
+   "title": "How to choose a washing machine",
+   "description": "What is important to check in terms of capacity, spin speed and washing programs before buying a new washing machine.",
+   "sections": [
+    {
+     "heading": "Washing capacity",
+     "paragraphs": [
+      "The washing capacity is measured in kg and affects the amount of laundry that can be washed in one cycle. Larger families generally benefit from a higher capacity, while small households can make do with a lower capacity and save on water and electricity consumption."
+     ]
+    },
+    {
+     "heading": "Squeezing rpm",
+     "paragraphs": [
+      "A higher spin speed means that the laundry comes out drier from the machine, which shortens the natural drying time or by drying in a tumble dryer."
+     ]
+    },
+    {
+     "heading": "Relevant washing programs",
+     "paragraphs": [
+      "You should check which washing programs are included in the model - such as a quick program, a program for delicate fabrics or a sanitation program - according to your washing habits."
+     ]
+    }
+   ]
+  },
+  "how-to-choose-a-refrigerator": {
+   "h": "fae71fc5364a",
+   "title": "How to choose a refrigerator for home",
+   "description": "A short and practical guide to choosing a refrigerator suitable for the size of your family, your kitchen and your storage habits.",
+   "sections": [
+    {
+     "heading": "Adjusting the storage volume to the size of the family",
+     "paragraphs": [
+      "One of the key parameters in choosing a refrigerator is the total storage volume. Larger families, or families that tend to buy food in large quantities at one time, will generally benefit from a larger capacity refrigerator. On the other hand, small apartments or households of one or two people can often be satisfied with a more compact refrigerator."
+     ]
+    },
+    {
+     "heading": "The type of refrigerator - top freezer, bottom freezer or 4 doors",
+     "paragraphs": [
+      "Top freezer refrigerators are the common and classic structure, with a freezer on top. Refrigerators with a bottom freezer allow easier access to the most useful cooling shelves. 4-door refrigerators usually offer the largest storage volume and are suitable for larger kitchens."
+     ]
+    },
+    {
+     "heading": "Additional metrics worth checking",
+     "paragraphs": [
+      "You should pay attention to the energy rating of the product, the noise level indicated in the technical specifications, and the exact dimensions in relation to the available space in your kitchen - including the space for opening the doors."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "Is a bigger fridge always better?",
+     "answer": "not necessarily. A refrigerator that is too large for a small household may consume more electricity and take up unnecessary space. It is recommended to adjust the volume to actual needs."
+    }
+   ]
+  },
+  "checking-availability-nahariya": {
+   "h": "64a358476522",
+   "title": "Electrical products in Nahariya - how to check availability before arriving at the store",
+   "description": "A short guide to checking product availability in the website catalog before arriving at the store in Nahariya, to save time.",
+   "sections": [
+    {
+     "heading": "Step 1: Search for the product in the catalog",
+     "paragraphs": [
+      "You can search for the desired product on the website using the search bar, by product name, brand, SKU or category. You can also browse categories or brands to discover similar products."
+     ]
+    },
+    {
+     "heading": "Step 2: Check availability status",
+     "paragraphs": [
+      "On each product page, a general availability status is displayed — \"in stock\", \"not currently in stock\" or \"contact us to check availability\". It is important to remember that the availability shown on the website is subject to final approval by the store."
+     ]
+    },
+    {
+     "heading": "Step 3: Contact before arrival",
+     "paragraphs": [
+      "It is recommended to send a request on WhatsApp or call the store before arrival, to verify exact availability and coordinate a visit. You can also add several products to \"my request\" and send one centralized request."
+     ]
+    }
+   ]
+  },
+  "refrigerator-4-door-vs-bottom-freezer": {
+   "h": "9d0165325792",
+   "title": "A 4-door refrigerator or a bottom freezer - what suits your family",
+   "description": "A practical comparison between a 4-door refrigerator and a bottom-freezer refrigerator: volume, organization, power consumption and price — and who each is suitable for.",
+   "sections": [
+    {
+     "heading": "The structural difference - and why it matters",
+     "paragraphs": [
+      "A bottom freezer refrigerator is the upgraded classic structure: a large cooling compartment at eye level and a freezer in the drawers below. A 4-door refrigerator divides the space into two upper cooling doors and two lower freezer compartments (or a freezer compartment and a flexible compartment) — which reduces the escape of cold at each opening and enables independent organization for each area.",
+      "In practice, the big day-to-day difference is width: 4-door refrigerators usually start at 82–91 cm wide, while a standard bottom freezer is 60–70 cm. Before falling in love with a model - measure the niche in the kitchen and the passages on the way to it."
+     ]
+    },
+    {
+     "heading": "Blacksmith and family — rules of thumb",
+     "paragraphs": [
+      "For a couple or a small family (up to 4 people) a bottom freezer with a volume of 450-550 liters is usually plenty enough. Families of 5 or more, or families that cook and entertain a lot - like many of our customers in the Galilee - will benefit from a volume of 550-700 liters, which is exactly the range in which the 4-door refrigerators excel.",
+      "It is important to check not only the total volume but its distribution: a family that buys meat in quantities needs a large freezer; Those who live on fresh vegetables need wide cooling drawers."
+     ]
+    },
+    {
+     "heading": "Power consumption and maintenance",
+     "paragraphs": [
+      "A larger refrigerator consumes more electricity - but the real difference is in the energy rating and the compressor technology. A new 4-door refrigerator with an inverter compressor and a high energy rating can consume less than an old, smaller refrigerator. If you are replacing a 15-year-old refrigerator, almost any new model will save you money on your electricity bill."
+     ]
+    },
+    {
+     "heading": "So what to choose?",
+     "paragraphs": [
+      "Choose a bottom freezer if: your kitchen is built to a width of 60-70 cm, you are a small-medium household, or the budget is focused. Choose 4 doors if: there is physical space, the family is large or you host a lot, and you want flexibility in organization. In any case - our store team in Nahariya will be happy to match a specific model to the dimensions and budget, with home delivery and installation throughout the north."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "Will a 4-door refrigerator fit into my home?",
+     "answer": "This is exactly the test that is done before ordering: the width of the doors, the stairwell or the elevator, and the niche in the kitchen. Send us the measurements on WhatsApp and we will confirm a fit before closing - this is part of the service."
+    },
+    {
+     "question": "What is better for a family of 6?",
+     "answer": "Usually a total volume of 550 liters or more — that is, a 4-door refrigerator or a wide bottom freezer (70 cm or more). Deciding between them is a matter of space in the kitchen and buying habits."
+    },
+    {
+     "question": "Is there a difference in the noise level?",
+     "answer": "The difference is due to the compressor and not the number of doors. Look in the specifications for a noise level of 38-42 decibels for a quiet model. In a kitchen open to the living room, this is a parameter worth spending money on."
+    }
+   ]
+  },
+  "robot-vs-stick-vacuum": {
+   "h": "fe5f6a9c6188",
+   "title": "Robotic vacuum cleaner or wireless vacuum cleaner - what is really needed at home",
+   "description": "An honest comparison between a robotic vacuum cleaner and a cordless vacuum cleaner: for whom each one is suitable, what are the advantages of each type, and when is it worth both.",
+   "sections": [
+    {
+     "heading": "Two products, two different jobs",
+     "paragraphs": [
+      "The common mistake is to think that they are competitors. A robotic vacuum cleaner is 'routine maintenance' - it goes through every day and keeps the floor clean of dust and hair. A cordless vacuum cleaner is 'instant power' — the tool you pull out when rice is spilled in the kitchen, on the sofa, in the car and in corners that the robot can't reach."
+     ]
+    },
+    {
+     "heading": "When robotic is the right choice",
+     "paragraphs": [
+      "A house with open floors and few obstacles, animals that shed hair, and household members who don't have time to vacuum - this is the robot's playground. In the specifications, it is important to check: suction power (Pa), laser navigation versus camera navigation, height to pass on carpets, and if there is an automatic emptying station - an upgrade that reduces maintenance to once a month."
+     ]
+    },
+    {
+     "heading": "When wireless wins",
+     "paragraphs": [
+      "Apartments with a lot of furniture and corners, houses with stairs (the robot does not climb), and those who want full control - a good wireless stick vacuum does it all. The important parameters: real working time at medium power (not only in eco mode), comfortable weight, and a removable battery that can be replaced in the future."
+     ]
+    },
+    {
+     "heading": "And what about both?",
+     "paragraphs": [
+      "In large homes - and especially in the spacious private homes of the Galilee settlements - the combination is the complete solution: a robot for daily maintenance, wireless for spot cleaning and floors. In our catalog you will find both types from leading brands, and the store staff will be happy to match according to the type of floors, carpets and pets - with home delivery throughout the north."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "Can a robotic vacuum handle carpets?",
+     "answer": "Most modern models climb carpets up to 2 cm high and increase automatic suction. For particularly thick carpets, it is better to verify the height of the passage and the power of suction in the specification."
+    },
+    {
+     "question": "How long does a cordless vacuum cleaner battery last?",
+     "answer": "In normal mode — 40-60 minutes in most high-quality models, which is enough for an entire apartment. In turbo mode, the time decreases significantly, so it is important to check the figure of the mode you will actually use."
+    }
+   ]
+  },
+  "dryer-condenser-vs-heat-pump": {
+   "h": "7e84e651fbaa",
+   "title": "Clothes dryer: condenser or heat pump — the complete comparison",
+   "description": "Normal condenser dryer versus heat pump dryer: differences in power consumption, price, drying time and gentleness to clothes - what is really worth it.",
+   "sections": [
+    {
+     "heading": "How each technology works",
+     "paragraphs": [
+      "A condenser dryer heats air in an electric heating element, passes it through the laundry and condenses the moisture into a tank or drain. A heat pump dryer does the same process but recycles the heat over and over again in a closed circuit - like a reverse air conditioner - and therefore consumes significantly less electricity, usually 50-60% less."
+     ]
+    },
+    {
+     "heading": "The economic account",
+     "paragraphs": [
+      "A heat pump dryer is more expensive to purchase, but significantly cheaper to operate. A family that dries 4-5 machines a week - a completely realistic scenario in the winter of the Galilee and the mountains - will pay back the difference in two or three years, and all the years after that are net savings. For those who dry only occasionally, a high-quality condenser can be enough for them.",
+      "There is also a difference in delicacy: a heat pump dries at a lower temperature, which preserves the clothes for a long time - a real advantage for children's clothes and quality textiles."
+     ]
+    },
+    {
+     "heading": "What is important to check in the specification",
+     "paragraphs": [
+      "Capacity (8-9 kg is the family standard, and it is desirable that it matches the capacity of the washing machine), energy rating (A+++ in good heat pumps), noise level if the dryer is close to bedrooms, and dedicated programs - gentle drying, bedding, and sports.",
+      "A practical point that many miss: a heat pump dryer does not need an exhaust pipe or an open window - it can be placed in any corner with an outlet. This opens up possibilities in small apartments."
+     ]
+    },
+    {
+     "heading": "The bottom line",
+     "paragraphs": [
+      "For most households in the north - especially in the mountain areas where the laundry does not dry outside for six months - a heat pump dryer is the cost-effective choice. In our catalog you will find models of both types, and the store staff will be happy to calculate your personal scenario with you and coordinate delivery and installation to your home."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "Does a heat pump dryer dry slower?",
+     "answer": "A little - a typical cycle takes 2-3 hours compared to 1.5-2 in a condenser. In practice, when you run the dryer after washing at night or on a working day, the difference is not noticeable."
+    },
+    {
+     "question": "Can a dryer be placed above the washing machine?",
+     "answer": "Yes, in most models with the help of a suitable stacking kit. Mention this in the order - we will take care of the correct kit and coordinate an orderly installation at home."
+    }
+   ]
+  },
+  "oled-vs-qled-tv": {
+   "h": "96c0066635c8",
+   "title": "OLED or QLED — which screen technology is suitable for your living room",
+   "description": "The real differences between OLED and QLED and regular LED: blacks, brightness, a bright living room versus a dark one — and what's worth the money.",
+   "sections": [
+    {
+     "heading": "The technological difference in two lines",
+     "paragraphs": [
+      "In OLED, each pixel illuminates itself and can be completely turned off - hence total blackness and infinite contrast. QLED (and the Mini LED versions) has a backlight that passes through a layer of quantum dots - hence very high brightness and saturated colors, but a black that is 'almost black'."
+     ]
+    },
+    {
+     "heading": "Your living room is crucial",
+     "paragraphs": [
+      "A bright living room with large windows—as in most new apartments in the north—works in QLED's favor: the high brightness overcomes reflections and daylight. A darkened viewing room or viewing mostly in the evening — that's where OLED shows its full advantage, with perfect blacks for movies.",
+      "Viewing distance and size: As a rule of thumb, a viewing distance of 2.5-3 meters is suitable for a 55-65 inch screen, and 3-4 meters for a 65-75 inch screen. Don't buy a screen that's too small — this is the most common regret of TV buyers."
+     ]
+    },
+    {
+     "heading": "What else affects besides the panel",
+     "paragraphs": [
+      "The image processor determines how a low-quality sports broadcast or movie will look; 120Hz refresh rate is important for gamers and sports fans; And the smart operating system determines everyday comfort. Sometimes a 'last year' model with an excellent panel is the best deal in the catalog."
+     ]
+    },
+    {
+     "heading": "Our recommendation",
+     "paragraphs": [
+      "Don't choose technology — choose a scenario: a bright living room and a sane budget? QLED. A viewing room and movies? OLED. Mainly news and children's channels? A quality LED will also do an excellent job. Come and see the differences with your own eyes at the store in Nahariya, or send us the size of the living room and the distance of the sofa - and we will recommend an exact model, including delivery, hanging on the wall and connection in your home."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "Does OLED have a burn hazard?",
+     "answer": "In the modern models, the risk is very low in normal home use, thanks to built-in protection mechanisms. Those who leave a news channel with a constant logo 12 hours a day — better consider QLED."
+    },
+    {
+     "question": "How many inches for a standard living room?",
+     "answer": "In a typical Israeli living room with a sofa 2.5-3.5 meters away, 65 inches has become the common and correct choice. If the distance is over 3.5 meters - consider 75 inches."
+    },
+    {
+     "question": "Do you also hang the TV on the wall?",
+     "answer": "Yes — delivery, hanging and connection at the customer's home are coordinated with the store staff at the time of ordering, throughout the northern region. Specify the type of wall and we will arrive ready."
+    }
+   ]
+  },
+  "built-in-oven-buying-guide": {
+   "h": "4e4f8fc6336d",
+   "title": "How to choose a built-in stove - the complete guide",
+   "description": "Standard dimensions, pyrolysis, active turbo and baking programs: everything that is important to check before buying a built-in oven for the kitchen.",
+   "sections": [
+    {
+     "heading": "First of all - the measurements",
+     "paragraphs": [
+      "A standard built oven is 60 cm wide and 60 cm high, and fits into a dedicated niche in the kitchen cabinet. There are also 90 cm wide models for large kitchens, and compact 45 cm high models that integrate with a warming drawer. Before any enthusiasm for a sample - measure the existing niche: width, height and depth, including the ventilation gap at the back."
+     ]
+    },
+    {
+     "heading": "Chamber volume and baking programs",
+     "paragraphs": [
+      "A compartment volume of 70-77 liters is the comfortable family standard - two large molds go in at the same time. In large families that bake for Shabbat, it is worth considering a 90 cm oven or two compact ovens one above the other.",
+      "In the programs - what's really important: turbo (fan with a peripheral heating element) for uniform baking in several pans, a powerful grill for browning, and a dough/yeast program for those who bake bread. Automatic programs with sensors are a nice addition, not a necessity."
+     ]
+    },
+    {
+     "heading": "Cleaning: pyrolysis versus catalytic",
+     "paragraphs": [
+      "Pyrolysis heats the cell to 500 degrees and turns any fat into ash that is wiped with a cloth - the most convenient solution, with an additional price. Catalytic walls absorb fats and clean while baking - a good interim solution. In a kitchen that bakes a lot, pyrolysis changes life."
+     ]
+    },
+    {
+     "heading": "Shabbat, safety and connection",
+     "paragraphs": [
+      "For those who need it - it is important to make sure that there is a structured and approved Shabbat program in the model, not just a 'low heating mode'. A cool door (triple glass) is important in a house with small children. And connection: a built-in stove requires a dedicated electrical connection - we coordinate professional installation at the customer's home as part of the supply, throughout the north."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "Does every built oven fit into every niche?",
+     "answer": "Almost - standard 60 cm ovens match a standard niche, but always check depth and ventilation gap. Send us the dimensions of the niche on WhatsApp and we will confirm compatibility before ordering."
+    },
+    {
+     "question": "What is the difference between a built-in oven and a stove-integrated oven?",
+     "answer": "A built-in oven is installed at a comfortable height in the cabinet, separate from the stove - this is the standard in modern kitchens. A combined oven (range) is one standing unit with a stove above — a solution for kitchens without a built-in niche."
+    },
+    {
+     "question": "Do you install the oven at home?",
+     "answer": "Yes — delivery and installation at the customer's home are coordinated when ordering. Installing a built-in stove requires an appropriate electrical connection, and the staff will guide you in advance on what needs to be prepared."
+    }
+   ]
+  },
+  "energy-rating-savings": {
+   "h": "0cdb2b0497f6",
+   "title": "Energy rating - how much you really save on the electricity bill",
+   "description": "What does the energy rating mean for a refrigerator, washing machine and air conditioner, how many shekels is it worth per year, and when is it worth paying more for a high rating.",
+   "sections": [
+    {
+     "heading": "What is an energy rating anyway?",
+     "paragraphs": [
+      "The Israeli energy label rates products from A (economical) to G (wasteful), based on the estimated annual electricity consumption. What's really important is the small number on the label: annual consumption in kWh. Two refrigerators of the same rating can differ by dozens of kWh per year — always compare the number, not just the letter."
+     ]
+    },
+    {
+     "heading": "The products where it really matters",
+     "paragraphs": [
+      "A refrigerator works 24/7 - it is the largest permanent household electricity consumer. A difference of 150 kWh per year between models equals about NIS 100 a year, and about NIS 1,500 over the life of the refrigerator. An air conditioner is the biggest seasonal consumer: a high-rated inverter air conditioner saves hundreds of NIS in a hot northern summer compared to an old model. Washing machines and dishwashers - the savings there are mainly in water and heating, and are noticeable in families that run a daily cycle."
+     ]
+    },
+    {
+     "heading": "When is it worth paying more?",
+     "paragraphs": [
+      "A simple rule: the more hours the product works, the faster a high rating pays for itself. In the refrigerator and air conditioner for the bedroom (which works every night) - always go for the high rating. In a product that works a little, the difference in price is not always justified.",
+      "And most importantly: replacing a 12-15 year old product with a new model is almost always a savings - technology has advanced so much that the new product 'finances' part of itself in the electricity bill."
+     ]
+    },
+    {
+     "heading": "How it works for us",
+     "paragraphs": [
+      "Every product page in the catalog shows the complete specifications, and the store staff in Nahariya will be happy to compare models for you also according to the cost of electricity over time - not only according to the purchase price. This is how you choose wisely, with personal accompaniment, delivery and installation to the house in the whole north."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "Does an inverter air conditioner really save?",
+     "answer": "Yes, especially in prolonged use: the inverter regulates the compressor instead of turning it off and on, and saves 25-40% in consumption compared to an old air conditioner. In the long northern summer this difference is noticeable in the account."
+    },
+    {
+     "question": "Where do you see the annual consumption of a product in the catalog?",
+     "answer": "In the technical specifications on the product page. If a figure is missing or unclear - send us the model name on WhatsApp and we will complete the information for you from the manufacturer."
+    }
+   ]
+  },
+  "buying-local-vs-online": {
+   "h": "80a59e229e01",
+   "title": "Buying from a local store versus buying online — the real difference",
+   "description": "What do you really get when you buy an electrical product from a local store in the north compared to a website: price, warranty, installation, and what happens when something goes wrong.",
+   "sections": [
+    {
+     "heading": "The price - the gap is smaller than you think",
+     "paragraphs": [
+      "The internet has created the impression that a physical store is always more expensive. In reality, when you compare the final price - including transport, entry to the house, installation and removal of packaging - the gap narrows and sometimes reverses. A local store with individual pricing can be flexible exactly where a website with a fixed price list cannot, especially in bundles of several products."
+     ]
+    },
+    {
+     "heading": "The moment when the difference is revealed",
+     "paragraphs": [
+      "As long as everything is in order - the difference is small. It is revealed when something goes wrong: the refrigerator arrived with a bang, the measure does not fit, the machine falters after a week. In front of a website, you open a call at the center and wait. In front of a local store, you call a person who knows you and the transaction - and his problem is to solve it for you. This is a value that does not appear in any price comparison."
+     ]
+    },
+    {
+     "heading": "Consultation before, installation after",
+     "paragraphs": [
+      "Website shows specifications; A local store asks the right questions: how many people, which niche, which stairwell, gas or induction. And on the other side of the purchase - delivery and installation at the customer's home by professionals who know the construction of the north: private houses in the suburbs, buildings without an elevator, alleys in an ancient city.",
+      "This advantage is particularly noticeable in products that require real installation - air conditioners, built-in ovens, integrated dishwashers - where 'I ordered online' becomes a coordination project between supplier, transporter and installer who do not know each other."
+     ]
+    },
+    {
+     "heading": "How to get the best of both worlds",
+     "paragraphs": [
+      "Our online catalog gives you the convenience of the Internet - relaxed browsing at home, comparing specifications, checking availability - and WhatsApp connects you directly to the store staff in Nahariya for a personal price and coordination. This is the model we believe in: digital where convenient, human where important."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "I saw a cheaper model on a price comparison site - will you compare?",
+     "answer": "Send us the offer as it is. In some cases we will compare or improve, and in others we will explain transparently what the difference is (official importer vs. equivalent, including installation or not). In any case, you will come out with a complete picture."
+    },
+    {
+     "question": "What is the advantage of the warranty when you buy locally?",
+     "answer": "The warranty itself is given by the official importer in any case - but when you bought from us, we are the address that coordinates the treatment with him, instead of you having to deal with centers alone. Our client does not stay stuck."
+    }
+   ]
+  },
+  "new-apartment-appliances-checklist": {
+   "h": "7a08871b36f0",
+   "title": "Electrical products for a new apartment — the complete checklist (2026)",
+   "description": "An ordered list of all the electrical products for a new apartment: what is mandatory from day one, what can wait, order of priorities according to budget and tips for coordinating supplies.",
+   "sections": [
+    {
+     "heading": "Step 1 — What must work on the day of the move",
+     "paragraphs": [
+      "A refrigerator and a washing machine are the two products that you cannot live without. Immediately after them: a kettle and a microwave - the interim solution until the kitchen is functional, and an air conditioner if you move in summer or winter. This five is ordered so that it arrives on the day of receiving the key or the day after."
+     ]
+    },
+    {
+     "heading": "Step 2 — the full kitchen",
+     "paragraphs": [
+      "A built-in oven, a stove and a hood — the billet trio is worth buying together, both because of design uniformity and because of package pricing. A dishwasher comes in here: in new contractor apartments there is almost always preparation for an integral dishwasher, and it would be a shame not to take advantage of it.",
+      "Before ordering, check the dimensions of the niches in the new kitchen - width, height and depth. In the contractor's apartments, the dimensions are usually standard (stove 60 cm, dishwasher 60 cm), but 'usually' is not a guarantee. We have a separate guide for built-in dimensions."
+     ]
+    },
+    {
+     "heading": "Step 3 — comfort and entertainment",
+     "paragraphs": [
+      "TV for the living room (viewing distance is measured before determining the size), clothes dryer (in apartments without a yard or in the mountain cities - almost a must), vacuum cleaner - robotic, wireless or both, and small kitchen products: toaster, mixer, air fryer. These can join in a second wave, after the budget breathes."
+     ]
+    },
+    {
+     "heading": "A smart budget and purchase order",
+     "paragraphs": [
+      "The principle: invest in products that work the hardest (refrigerator, washing machine, air conditioner), and save on products that are easy to upgrade later. A centralized purchase of the entire package in one store saves twice - both in the pricing of the package and in one centralized delivery.",
+      "With us, it works simply: you send the list of rooms, the dimensions of the niches and the budget on WhatsApp - and you receive an orderly offer for a complete package, with coordinated delivery and installation on the day of occupancy, throughout the north. This is how you enter an apartment that is already working."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "How long before entering the apartment should you order?",
+     "answer": "Two or three weeks before receiving the key is the ideal time: early enough so that everything is available, and late enough so that the occupancy date is already known. We save the order and deliver on the set date."
+    },
+    {
+     "question": "What do you do if the flooring/kitchen is delayed?",
+     "answer": "They update us and move the delivery date - such flexibility is exactly the advantage of a local store with personal attention, compared to an online order that arrives when it arrives."
+    },
+    {
+     "question": "Is installation included?",
+     "answer": "Delivery, delivery and installation at the customer's home are coordinated as part of the order - including connecting a washing machine, installing a built-in stove and installing air conditioners by qualified installers. The details and costs are closed in advance in the price quote, without surprises."
+    }
+   ]
+  },
+  "built-in-appliance-dimensions": {
+   "h": "81a3d660e4e3",
+   "title": "Standard dimensions for built-in products in the kitchen - the practical guide",
+   "description": "All the standard dimensions for built-in products: oven, stove, dishwasher, built-in microwave and hood - and how to measure a niche correctly before buying.",
+   "sections": [
+    {
+     "heading": "The dimensions that repeat in every kitchen",
+     "paragraphs": [
+      "Built-in oven: width 60 cm, height 60 cm (or 45 cm for a compact model), niche depth 55-58 cm. Dishwasher: standard 60 cm wide or narrow 45 cm, niche height 82–87 cm. Stove: common 60 cm wide, 75–90 cm for large kitchens — and the marble cut must match the specific model. Hood: 60 or 90 cm, depending on the width of the stove below it. Built-in microwave: 60 cm wide with a niche height of 38–45 cm for most models."
+     ]
+    },
+    {
+     "heading": "How to measure a niche correctly",
+     "paragraphs": [
+      "Measure three times: the width of the opening (between the inner sides of the cabinet), the height of the opening, and the depth to the wall - including taking into account piping or sockets that stand out. Add to the test the ventilation gap that the manufacturer requires (usually appears in the installation instructions), and the location of the electricity or gas point.",
+      "In stoves it is especially important: the degree of cutting in the marble (Cut-out) is different from the degree of the external product. Replacing an existing stove? Measure the existing hole and look for a model with the same or slightly larger cutting size - a hole that is too large cannot be reduced."
+     ]
+    },
+    {
+     "heading": "Common mistakes that are costly",
+     "paragraphs": [
+      "To order an oven according to 'all 60 cm' without measuring depth; to forget that an integral dishwasher needs a matching cabinet front; to ignore the door opening gap in front of the kitchen island; and to assume that the existing gas point is suitable for the new stove. Each of these mistakes is discovered on the day of installation - the most unpleasant."
+     ]
+    },
+    {
+     "heading": "the safe way",
+     "paragraphs": [
+      "Before closing a model - send us on WhatsApp the dimensions of the niche (and if possible, a picture of the kitchen). The store staff verifies full compatibility in advance, and coordinates professional installation in the customer's home throughout the north. This is how a built product enters the first time - and stays."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "I have an old niche with a non-standard height - what do we do?",
+     "answer": "A lot happens in old kitchens. Send us the exact measurements - in some cases there are suitable models, and in others a small carpentry solution solves the gap. We will check together before buying."
+    },
+    {
+     "question": "What is the difference between a full and semi-integral dishwasher?",
+     "answer": "Fully integrated completely hidden behind the front of a cabinet and its control panel at the edge of the door; Semi-integral displays the control panel on the front. The dimensions are similar - the difference is in the design and the required cabinet front."
+    }
+   ]
+  },
+  "young-couple-appliance-package": {
+   "h": "516534a9cd37",
+   "title": "A package of electrical products for young couples - buy smart from the start",
+   "description": "How to build a first package of electrical appliances for a young couple: where to invest, where to save, and how a concentrated purchase saves thousands of shekels.",
+   "sections": [
+    {
+     "heading": "The principle: buy once, right",
+     "paragraphs": [
+      "A young couple equipping for their first apartment buys 5-8 products at once - the biggest purchase after the apartment itself. The temptation is to chase the cheapest deal for each individual item; The trick is to build a balanced package in one place, with a good total price, one delivery and one contact person for every question."
+     ]
+    },
+    {
+     "heading": "Where to invest and where to save",
+     "paragraphs": [
+      "Investors: a refrigerator (it will work 24/7 for ten years or more) and a washing machine (daily load, and its malfunctions disrupt life). In both cases, a leading brand with good service in the north is preferable.",
+      "Save wisely: TV — last year's excellent model costs significantly less; Oven and stove — the intermediate models of the big brands are completely satisfactory; Small products - upgrade later according to the real need, not according to the catalog."
+     ]
+    },
+    {
+     "heading": "A typical package — what's included",
+     "paragraphs": [
+      "A refrigerator with a volume of 450-550 liters, a washing machine 8-9 kg, a built-in oven and stove, an air conditioner for the living room and bedroom, a 55-65 inch TV, and a microwave and a kettle to start with. The washer and dryer can be postponed for a second wave - but if there is preparation in the kitchen and in the budget, it is better now as part of the package."
+     ]
+    },
+    {
+     "heading": "How it works for us",
+     "paragraphs": [
+      "Send us on WhatsApp the size of the apartment, dimensions of niches if any, and the total budget - and the team builds a customized package with you with a centralized price offer. The supply arrives coordinated in one day, with installation at home throughout the northern region, and you start your life together with a home that works - and with a personal address for any further questions."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "How much is a basic package for a young couple?",
+     "answer": "Depends on the choice of brands and sizes - that's why we build each individual package according to budget. Send us the list and the budget framework, and you will receive an orderly proposal with alternatives at several price levels."
+    },
+    {
+     "question": "Is it possible to spread the purchase into payments?",
+     "answer": "The payment options are closed directly with the store staff at the time of ordering - talk to us and we will find an arrangement that is convenient for you."
+    },
+    {
+     "question": "We received products as a gift from the family - how do you make up for them?",
+     "answer": "Excellent - send us what you already have, and we'll build the package around it: we'll fill in the gaps, make sure the measurements match, and make sure everything arrives and is fixed together."
+    }
+   ]
+  }
+ }
+}

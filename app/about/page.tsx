@@ -10,12 +10,14 @@ import { ABOUT_INTRO, ABOUT_SECTIONS } from "@/content/about";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS } from "@/lib/utils";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
 
 export const metadata: Metadata = buildMetadata({
   title: "אודות חדד יובל אלקטריק — חנות מוצרי חשמל בנהריה",
   description:
     "הכירו את חדד יובל אלקטריק בע״מ — חנות מוצרי חשמל לבית בנהריה, משרתת לקוחות פרטיים בנהריה והצפון. קטלוג, ייעוץ מקצועי והזמנה בטלפון או בוואטסאפ.",
   path: "/about",
+  translations: TRANSLATED_PATHS["/about"],
 });
 
 export default function AboutPage() {

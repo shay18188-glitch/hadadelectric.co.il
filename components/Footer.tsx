@@ -1,45 +1,22 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { GoogleRating } from "@/components/GoogleRating";
 import { BusinessProfiles } from "@/components/BusinessProfiles";
+import { getLocaleFromPathname } from "@/lib/i18n/locales";
+import { CHROME } from "@/lib/i18n/chrome";
 import { BUSINESS } from "@/lib/utils";
 import { telHref } from "@/lib/whatsapp/messages";
 
-const CATALOG_LINKS = [
-  { href: "/products", label: "כל המוצרים" },
-  { href: "/categories", label: "קטגוריות" },
-  { href: "/brands", label: "מותגים" },
-  { href: "/guides", label: "מדריכים" },
-  { href: "/request", label: "הבקשה שלי" },
-];
-
-const COMPANY_LINKS = [
-  { href: "/about", label: "אודות" },
-  { href: "/contact", label: "צור קשר" },
-  { href: "/faq", label: "שאלות נפוצות" },
-  { href: "/services/delivery", label: "משלוחים והתקנה בצפון" },
-];
-
-const LOCAL_LINKS = [
-  { href: "/electric-appliances-nahariya", label: "מוצרי חשמל בנהריה" },
-  { href: "/electric-appliances-acre", label: "מוצרי חשמל בעכו" },
-  { href: "/electric-appliances-krayot", label: "מוצרי חשמל בקריות" },
-  { href: "/electric-appliances-haifa", label: "מוצרי חשמל בחיפה" },
-  { href: "/electric-appliances-carmiel", label: "מוצרי חשמל בכרמיאל" },
-  { href: "/electric-appliances-maalot", label: "מוצרי חשמל במעלות-תרשיחא" },
-  { href: "/electric-appliances-nazareth", label: "מוצרי חשמל בנצרת" },
-  { href: "/electric-appliances-safed", label: "מוצרי חשמל בצפת" },
-  { href: "/electric-appliances-tiberias", label: "מוצרי חשמל בטבריה" },
-  { href: "/electric-appliances-north", label: "כל אזורי השירות בצפון" },
-];
-
-const LEGAL_LINKS = [
-  { href: "/privacy-policy", label: "מדיניות פרטיות" },
-  { href: "/accessibility", label: "הצהרת נגישות" },
-  { href: "/terms", label: "תנאי שימוש" },
-];
-
+// Client component so the chrome follows the current locale (/en, /ru) via
+// the pathname; it renders static links and text only.
 export function Footer() {
+  const pathname = usePathname();
+  const locale = getLocaleFromPathname(pathname);
+  const dict = CHROME[locale].footer;
+
   return (
     <footer className="mt-16 border-t border-line bg-surface">
       <div className="container-page grid gap-10 py-12 md:grid-cols-5">
@@ -49,15 +26,11 @@ export function Footer() {
               <Image src="/brand/logo.png" alt={BUSINESS.nameHe} fill sizes="48px" className="object-contain p-1" />
             </span>
             <div>
-              <p className="font-bold text-graphite">{BUSINESS.nameHe}</p>
-              <p className="text-xs text-graphite-soft/70">{BUSINESS.nameEn}</p>
+              <p className="font-bold text-graphite">{locale === "he" ? BUSINESS.nameHe : BUSINESS.nameEn}</p>
+              <p className="text-xs text-graphite-soft/70">{locale === "he" ? BUSINESS.nameEn : BUSINESS.nameHe}</p>
             </div>
           </div>
-          <p className="mt-4 max-w-sm text-sm leading-relaxed text-graphite-soft/80">
-            חנות מוצרי חשמל בנהריה, משרתת לקוחות פרטיים בכל הצפון — מקו חיפה ועד הגבול הצפוני — עם משלוח
-            והתקנה עד בית הלקוח ויחס אישי. האתר משמש כקטלוג להתרשמות נוחה, בדיקת זמינות ראשונית, וקשר ישיר מול
-            צוות החנות.
-          </p>
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-graphite-soft/80">{dict.tagline}</p>
           <address className="mt-4 space-y-1 text-sm not-italic text-graphite-soft/80">
             <p>
               {BUSINESS.addressStreet}, {BUSINESS.addressCity}
@@ -78,7 +51,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-brand-blue"
               >
-                עמוד הפייסבוק שלנו
+                {dict.facebook}
               </a>
             </p>
           </address>
@@ -91,18 +64,18 @@ export function Footer() {
           </div>
         </div>
 
-        <FooterColumn title="קטלוג" links={CATALOG_LINKS} />
-        <FooterColumn title="החברה" links={COMPANY_LINKS} />
-        <FooterColumn title="אזורי שירות" links={LOCAL_LINKS} />
+        <FooterColumn title={dict.catalogTitle} links={dict.catalogLinks} />
+        <FooterColumn title={dict.companyTitle} links={dict.companyLinks} />
+        <FooterColumn title={dict.areasTitle} links={dict.areasLinks} />
       </div>
 
       <div className="border-t border-line">
         <div className="container-page flex flex-col items-center justify-between gap-3 py-5 text-xs text-graphite-soft/60 md:flex-row">
           <p>
-            © {new Date().getFullYear()} {BUSINESS.nameHe}. כל הזכויות שמורות.
+            © {new Date().getFullYear()} {locale === "he" ? BUSINESS.nameHe : BUSINESS.nameEn}. {dict.rights}
           </p>
           <ul className="flex flex-wrap gap-4">
-            {LEGAL_LINKS.map((link) => (
+            {dict.legalLinks.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="hover:text-brand-blue">
                   {link.label}

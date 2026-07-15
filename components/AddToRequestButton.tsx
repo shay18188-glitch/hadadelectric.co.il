@@ -4,8 +4,17 @@ import { useRequestBasket } from "@/components/RequestBasketProvider";
 import { trackEvent } from "@/lib/analytics";
 import { cx } from "@/lib/utils";
 import type { Product } from "@/types/product";
+import { usePathname } from "next/navigation";
+import { getLocaleFromPathname } from "@/lib/i18n/locales";
+
+const LABELS = {
+  he: { added: "הוסר מהבקשה ✓", add: "הוסף לבקשה" },
+  en: { added: "Removed from request ✓", add: "Add to request" },
+  ru: { added: "Убрано из заявки ✓", add: "Добавить в заявку" },
+} as const;
 
 export function AddToRequestButton({ product, className }: { product: Product; className?: string }) {
+  const t = LABELS[getLocaleFromPathname(usePathname())];
   const { addItem, removeItem, isInBasket } = useRequestBasket();
   const inBasket = isInBasket(product.modelNumber);
 
@@ -35,7 +44,7 @@ export function AddToRequestButton({ product, className }: { product: Product; c
         className
       )}
     >
-      {inBasket ? "הוסר מהבקשה ✓" : "הוסף לבקשה"}
+      {inBasket ? t.added : t.add}
     </button>
   );
 }
