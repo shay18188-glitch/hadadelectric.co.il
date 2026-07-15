@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "translate": "tsx scripts/translate-content.mts"
+    "translate": "tsx scripts/translate-content.mts",
+    "find-images": "tsx scripts/find-product-images.mts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

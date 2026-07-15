@@ -17,6 +17,7 @@ import {
   generateLegacyProductSlug,
 } from "@/lib/slug/slugify";
 import { resolveLegacyCategorySlug } from "@/lib/slug/legacyRedirects";
+import productImageStore from "@/content/product-images.json";
 
 const DEFAULT_APP_ID = "697dbf6bdde569f5ea050a4e";
 const DEFAULT_BASE_URL = `https://base44.app/api/apps/${
@@ -85,6 +86,20 @@ async function fetchRawCatalog(
 }
 
 /**
+ * Fills in imageUrl for products the catalog has no image for, from the
+ * committed store built by `npm run find-images` (scripts/find-product-images.mts).
+ * Never overrides an image that came with the catalog data.
+ */
+function applyImageOverrides(products: Product[]): Product[] {
+  const found = productImageStore.images as Record<string, { url: string }>;
+  return products.map((p) => {
+    if (p.imageUrl) return p;
+    const override = found[p.modelNumber.toUpperCase()];
+    return override ? { ...p, imageUrl: override.url } : p;
+  });
+}
+
+/**
  * Fetches the full/filtered catalog. Falls back to a small mock
  * dataset if the live API is unreachable, so the site never crashes
  * or shows an empty catalog. The fallback is never silently merged
@@ -96,7 +111,7 @@ export async function getProductCatalog(
   const result = await fetchRawCatalog(params);
 
   if (result.ok) {
-    return { products: result.data.map(normalizeProduct), usedFallback: false };
+    return { products: applyImageOverrides(result.data.map(normalizeProduct)), usedFallback: false };
   }
 
   console.error(
@@ -109,7 +124,7 @@ export async function getProductCatalog(
   if (params?.brand) {
     mock = mock.filter((p) => p.brand === params.brand);
   }
-  return { products: mock.map(normalizeProduct), usedFallback: true };
+  return { products: applyImageOverrides(mock.map(normalizeProduct)), usedFallback: true };
 }
 
 export async function getProducts(): Promise<Product[]> {
