@@ -2,11 +2,11 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
 import { cx } from "@/lib/utils";
 import type { CategorySuggestionItem } from "@/components/CategorySuggestions";
+import { ProductImage } from "@/components/ProductImage";
 
 interface Suggestion {
   name: string;
@@ -208,7 +208,7 @@ export function SearchBar({
                       }`}
                     >
               <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl bg-surface">
-                <Image
+                <ProductImage
                   src={s.imageUrl || "/images/product-placeholder.svg"}
                   alt=""
                   fill

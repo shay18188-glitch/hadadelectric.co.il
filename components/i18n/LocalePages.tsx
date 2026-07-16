@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { PhoneButton } from "@/components/PhoneButton";
 import { ContactForm } from "@/components/ContactForm";
@@ -11,6 +12,7 @@ import { BUSINESS } from "@/lib/utils";
 import { CHROME } from "@/lib/i18n/chrome";
 import { LOCALE_HTML_LANG, type Locale } from "@/lib/i18n/locales";
 import type { LocalePageContent } from "@/content/i18n/types";
+import { categoryImageFor } from "@/lib/categoryVisuals";
 
 /**
  * Server-rendered page templates shared by the /en and /ru sections. The
@@ -55,45 +57,44 @@ export function LocaleHomePage({ locale, content }: LocaleProps) {
       <JsonLd data={[localBusinessJsonLd(), faqJsonLd(faqItems)]} />
 
       {/* Hero */}
-      <section className="border-b border-line bg-gradient-to-b from-brand-blue-light/60 to-white">
-        <div className="container-page py-12 md:py-20">
-          <h1 className="max-w-3xl text-3xl font-bold leading-tight text-graphite md:text-5xl">{c.heroTitle}</h1>
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-graphite-soft/90 md:text-lg">{c.heroSubtitle}</p>
-          <div className="mt-7 flex flex-wrap items-center gap-3">
-            <WhatsAppButton
-              message={buildWhatsAppGeneralMessage(locale)}
-              label={c.ctaWhatsApp}
-              trackAs="whatsapp_click_header"
-              size="lg"
-            />
-            <PhoneButton phone={BUSINESS.phoneDisplay} label={c.ctaPhone} size="lg" />
-            <Link
-              href={locale === "ru" ? "/ru/products" : "/en/products"}
-              className="inline-flex items-center justify-center rounded-full border border-line bg-white px-6 py-3.5 text-base font-semibold text-graphite hover:bg-surface"
-            >
-              {c.ctaCatalog}
-            </Link>
+      <section className="container-page pt-4 md:pt-7">
+        <div className="grid min-h-[36rem] overflow-hidden rounded-[2rem] bg-[#071a2c] text-white shadow-[0_35px_90px_-48px_rgba(7,26,44,.85)] lg:grid-cols-[.92fr_1.08fr]">
+          <div className="blueprint-grid flex flex-col justify-center p-7 md:p-12 lg:p-16">
+            <p className="section-kicker">Hadad Electric · Nahariya</p>
+            <h1 className="heading-balance mt-4 max-w-3xl text-4xl font-black leading-[1.02] tracking-[-0.045em] text-white md:text-6xl">{c.heroTitle}</h1>
+            <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/70 md:text-lg">{c.heroSubtitle}</p>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <WhatsAppButton message={buildWhatsAppGeneralMessage(locale)} label={c.ctaWhatsApp} trackAs="whatsapp_click_header" size="lg" />
+              <Link href={locale === "ru" ? "/ru/products" : "/en/products"} className="inline-flex items-center justify-center rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-base font-semibold text-white hover:bg-white/10">{c.ctaCatalog}</Link>
+            </div>
+            <div className="mt-8 max-w-md rounded-2xl bg-white/5 p-3 ring-1 ring-white/10">
+              <GoogleRating variant="inline" />
+            </div>
           </div>
-          <div className="mt-8 max-w-md">
-            <GoogleRating variant="inline" />
+          <div className="relative min-h-80 lg:min-h-full">
+            <Image src="/images/redesign/home-hero.png" alt="Modern home appliances interior" fill priority sizes="(max-width: 1024px) 100vw, 55vw" className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#071a2c]/25 lg:bg-gradient-to-l" />
           </div>
         </div>
       </section>
 
       {/* Categories */}
       <section className="container-page py-10 md:py-16" aria-labelledby="categories-heading">
-        <h2 id="categories-heading" className="text-xl font-bold text-graphite md:text-3xl">
+        <p className="section-kicker">Explore by room</p>
+        <h2 id="categories-heading" className="section-title mt-2">
           {c.categoriesTitle}
         </h2>
         <p className="mt-3 max-w-3xl text-sm leading-relaxed text-graphite-soft/90 md:text-base">{c.categoriesIntro}</p>
-        <div className="mt-5 flex flex-wrap gap-2">
+        <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {c.categories.map((cat) => (
             <Link
               key={cat.href}
               href={cat.href}
-              className="rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
+              className="group relative aspect-[4/5] overflow-hidden rounded-[1.4rem] bg-graphite"
             >
-              {cat.label}
+              <Image src={categoryImageFor(cat.href.split("category=")[1] ?? "small-appliances")} alt="" fill sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw" className="object-cover transition-transform duration-700 group-hover:scale-105" />
+              <span className="absolute inset-0 bg-gradient-to-t from-graphite/80 via-transparent to-transparent" />
+              <span className="absolute inset-x-0 bottom-0 p-4 text-sm font-bold text-white md:text-base">{cat.label}</span>
             </Link>
           ))}
         </div>

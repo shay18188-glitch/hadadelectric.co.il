@@ -94,13 +94,15 @@ export default async function ProductsPage({
     <>
       <Breadcrumbs items={[{ name: "קטלוג", path: "/products" }]} />
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">קטלוג מוצרי חשמל</h1>
-        <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:text-base">
-          קטלוג מלא של מוצרי חשמל לבית. ניתן לסנן לפי קטגוריה, מותג וזמינות, ולפנות לצוות החנות לבדיקת זמינות
-          מדויקת והזמנה.
-        </p>
+        <div className="page-intro-shell">
+          <p className="section-kicker">835+ מוצרים במקום אחד</p>
+          <h1 className="mt-3">קטלוג מוצרי חשמל</h1>
+          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-graphite-soft/80 md:text-base">
+            קטלוג מלא של מוצרי חשמל לבית. סננו לפי קטגוריה, מותג וזמינות, וקבלו ייעוץ אישי ובדיקת מלאי מדויקת מצוות החנות.
+          </p>
+        </div>
 
-        <div className="mt-5 md:mt-6">
+        <div className="surface-card mt-6 rounded-[1.5rem] p-3 md:mt-8 md:p-5">
           <Suspense fallback={null}>
             <Filters categories={categories} brands={brands} />
           </Suspense>

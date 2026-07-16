@@ -26,11 +26,13 @@ export default function ContactPage() {
     <>
       <Breadcrumbs items={[{ name: "צור קשר", path: "/contact" }]} />
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">צור קשר</h1>
-        <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-base">
-          נשמח לעזור בבדיקת זמינות מוצר, ייעוץ מקצועי בבחירת מוצר חשמל לבית, או תיאום הזמנה. ניתן לפנות אלינו בטלפון,
-          בוואטסאפ, בטופס למטה, או בביקור בחנות בנהריה.
-        </p>
+        <div className="page-intro-shell">
+          <p className="section-kicker">אנשים אמיתיים, תשובות ברורות</p>
+          <h1 className="mt-3">צור קשר</h1>
+          <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/85 md:text-base">
+            נשמח לעזור בבדיקת זמינות, ייעוץ מקצועי או תיאום הזמנה. פנו אלינו בטלפון, בוואטסאפ, בטופס או בואו לבקר בחנות בנהריה.
+          </p>
+        </div>
 
         <div className="mt-5 max-w-3xl md:mt-6">
           <SeoTextBlock>
@@ -44,7 +46,7 @@ export default function ContactPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-2 lg:gap-10 md:mt-10">
           <div className="space-y-5 md:space-y-6">
-            <div className="rounded-2xl border border-line bg-white p-5 md:p-6">
+            <div className="surface-card rounded-[1.6rem] p-5 md:p-7">
               <h2 className="text-lg font-bold text-graphite">פרטי התקשרות</h2>
               <address className="mt-3 space-y-2 text-sm not-italic text-graphite-soft/80">
                 <p className="font-medium text-graphite">{BUSINESS.nameHe}</p>
@@ -85,7 +87,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="rounded-2xl border border-line bg-white p-5 md:p-6">
+            <div className="surface-card rounded-[1.6rem] p-5 md:p-7">
               <h2 className="text-lg font-bold text-graphite">שעות פעילות</h2>
               <ul className="mt-3 space-y-1.5 text-sm text-graphite-soft/80">
                 {BUSINESS_HOURS.map((entry) => (
@@ -143,7 +145,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-line bg-white p-5 md:p-6 lg:sticky lg:top-24 lg:h-fit">
+          <div className="surface-card rounded-[1.75rem] p-5 md:p-7 lg:sticky lg:top-32 lg:h-fit">
             <h2 className="text-lg font-bold text-graphite">שליחת הודעה</h2>
             <p className="mt-1 text-sm text-graphite-soft/70">
               מלאו את הפרטים ונחזור אליכם בהקדם. השדות המסומנים ב-* הם חובה.

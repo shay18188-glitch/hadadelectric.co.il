@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import {
@@ -18,6 +19,7 @@ import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { faqJsonLd } from "@/lib/schema/jsonld";
+import { categoryImageFor } from "@/lib/categoryVisuals";
 
 export const revalidate = 10800; // 3 hours
 
@@ -77,16 +79,15 @@ export default async function BrandCategoryPage({ params }: BrandCategoryPagePro
       />
 
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">
-          {combo.category} {combo.brand} בנהריה והצפון
-        </h1>
-
-        <div className="mt-3 max-w-3xl md:mt-4">
-          <SeoTextBlock>
-            {content.intro.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
-          </SeoTextBlock>
+        <div className="page-intro-shell grid gap-6 p-0 md:grid-cols-[1.05fr_.95fr]">
+          <div className="flex flex-col justify-center px-6 py-8 md:px-12 md:py-12">
+            <p className="section-kicker">{combo.brand} · קולקציה נבחרת</p>
+            <h1 className="heading-balance mt-3 text-3xl font-black leading-[1.05] tracking-[-0.04em] text-graphite md:text-5xl">{combo.category} {combo.brand} בנהריה והצפון</h1>
+            <div className="mt-4 max-w-3xl"><SeoTextBlock>{content.intro.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</SeoTextBlock></div>
+          </div>
+          <div className="relative min-h-64 overflow-hidden md:min-h-[23rem]">
+            <Image src={categoryImageFor(category)} alt={`${combo.category} ${combo.brand}`} fill priority sizes="(max-width: 768px) 100vw, 45vw" className="object-cover" />
+          </div>
         </div>
 
         <div className="mt-5 flex flex-wrap gap-2 md:mt-6">

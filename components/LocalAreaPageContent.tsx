@@ -25,14 +25,16 @@ export function LocalAreaPageContent({
     <>
       <Breadcrumbs items={[{ name: content.city, path: content.path }]} />
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">{content.h1}</h1>
-
-        <div className="mt-4 max-w-3xl md:mt-5">
-          <SeoTextBlock>
-            {content.intro.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
-          </SeoTextBlock>
+        <div className="page-intro-shell">
+          <p className="section-kicker">שירות מקומי עד הבית</p>
+          <h1 className="mt-3">{content.h1}</h1>
+          <div className="mt-4 max-w-3xl">
+            <SeoTextBlock>
+              {content.intro.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </SeoTextBlock>
+          </div>
         </div>
 
         <div className="mt-6 flex flex-wrap gap-2.5 md:mt-8 md:gap-3">
@@ -80,7 +82,7 @@ export function LocalAreaPageContent({
           </h2>
           <ol className="mt-4 grid gap-3 sm:grid-cols-3 md:gap-4">
             {HOW_IT_WORKS_STEPS.map((step, index) => (
-              <li key={step} className="rounded-2xl border border-line bg-white p-4 md:p-5">
+              <li key={step} className="surface-card rounded-[1.5rem] p-4 md:p-5">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-brand-blue-light text-sm font-bold text-brand-blue">
                   {index + 1}
                 </span>

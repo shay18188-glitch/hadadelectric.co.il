@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ProductGrid } from "@/components/ProductGrid";
 import { AvailabilityBadge } from "@/components/AvailabilityBadge";
@@ -13,6 +12,7 @@ import { LOCALE_HTML_LANG, LOCALE_PREFIX, type Locale } from "@/lib/i18n/locales
 import { BUSINESS, cx } from "@/lib/utils";
 import type { Product } from "@/types/product";
 import type { Category } from "@/types/category";
+import { ProductImage } from "@/components/ProductImage";
 
 type UiLocale = Exclude<Locale, "he">;
 
@@ -196,7 +196,7 @@ export function LocaleProductDetailPage({
       <div className="container-page py-10 pb-16 md:py-12">
         <div className="grid gap-6 md:grid-cols-2 md:gap-10">
           <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface md:rounded-3xl">
-            <Image
+            <ProductImage
               src={localized.imageUrl || "/images/product-placeholder.svg"}
               alt={`${localized.name} — ${BUSINESS.nameEn}`}
               fill

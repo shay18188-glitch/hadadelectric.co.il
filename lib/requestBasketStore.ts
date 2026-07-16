@@ -4,6 +4,7 @@ const STORAGE_KEY = "hadad-electric-request-basket";
 
 let items: RequestBasketItem[] = [];
 let hydrated = false;
+const EMPTY_SERVER_SNAPSHOT: RequestBasketItem[] = [];
 const listeners = new Set<() => void>();
 
 function readFromStorage(): RequestBasketItem[] {
@@ -62,7 +63,7 @@ export function getSnapshot(): RequestBasketItem[] {
 }
 
 export function getServerSnapshot(): RequestBasketItem[] {
-  return [];
+  return EMPTY_SERVER_SNAPSHOT;
 }
 
 export function addBasketItem(item: RequestBasketItem): void {

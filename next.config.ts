@@ -46,6 +46,10 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // Permit local visual QA through the loopback address during development.
+  // This keeps React refresh and the Next.js error overlay connected when
+  // automated browser checks use 127.0.0.1 instead of localhost.
+  allowedDevOrigins: isDev ? ["127.0.0.1"] : undefined,
   images: {
     // Product images in the Base44 catalog come from many different
     // supplier/CDN hosts (not a fixed set), so we allow any HTTPS host

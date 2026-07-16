@@ -22,7 +22,7 @@ export function Logo({
     >
       <span
         className={cx(
-          "relative block shrink-0 overflow-hidden rounded-full bg-white ring-1 ring-line transition-[width,height] duration-300",
+          "relative block shrink-0 overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-brand-gold/35 transition-[width,height] duration-300",
           compact ? "h-9 w-9" : "h-10 w-10 md:h-12 md:w-12"
         )}
       >
@@ -36,8 +36,8 @@ export function Logo({
         />
       </span>
       <span className={cx("hidden flex-col leading-tight", !iconOnly && "sm:flex", compact && !iconOnly && "sm:hidden")}>
-        <span className="text-sm font-bold text-graphite md:text-base">חדד יובל אלקטריק</span>
-        <span className="text-[11px] text-graphite-soft/70">מוצרי חשמל בנהריה והצפון</span>
+        <span className="text-sm font-extrabold tracking-[-0.02em] text-graphite md:text-base">חדד יובל אלקטריק</span>
+        <span className="mt-0.5 text-[10px] font-medium text-graphite-soft/60">מוצרי חשמל לבית · נהריה והצפון</span>
       </span>
     </Link>
   );

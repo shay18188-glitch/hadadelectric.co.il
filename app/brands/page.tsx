@@ -19,19 +19,20 @@ export default async function BrandsPage() {
     <>
       <Breadcrumbs items={[{ name: "מותגים", path: "/brands" }]} />
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">מותגי מוצרי חשמל</h1>
-        <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
-          בחרו מותג כדי לגלות את כל המוצרים הזמינים בקטלוג שלנו.
-        </p>
-        <div className="mt-6 flex flex-wrap gap-2 md:mt-8 md:gap-3">
+        <div className="page-intro-shell">
+          <p className="section-kicker">המותגים המובילים בעולם</p>
+          <h1 className="mt-3">מותגי מוצרי חשמל</h1>
+          <p className="mt-4 max-w-2xl text-sm text-graphite-soft/80 md:text-base">בחרו מותג כדי לגלות את כל המוצרים הזמינים בקטלוג שלנו.</p>
+        </div>
+        <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 md:mt-10 lg:grid-cols-5">
           {brands.map((brand) => (
             <Link
               key={brand.slug}
               href={`/brands/${brand.slug}`}
-              className="tap-target rounded-full border border-line bg-white px-4 py-2.5 text-sm font-semibold text-graphite transition-colors hover:border-brand-blue/40 hover:bg-brand-blue-light hover:text-brand-blue md:px-5"
+              className="group flex min-h-28 flex-col items-center justify-center rounded-2xl border border-line/80 bg-white px-4 py-5 text-center text-base font-black text-graphite shadow-[0_18px_50px_-42px_rgba(11,23,36,.6)] transition duration-300 hover:-translate-y-1 hover:border-brand-gold/50 hover:text-brand-blue"
             >
               {brand.name}
-              <span className="ms-1.5 text-xs text-graphite-soft/50">({brand.productCount})</span>
+              <span className="mt-1.5 text-xs font-medium text-graphite-soft/50">{brand.productCount} מוצרים</span>
             </Link>
           ))}
         </div>

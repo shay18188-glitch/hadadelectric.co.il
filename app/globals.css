@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #10151c;
+  --background: #fbfaf7;
+  --foreground: #0b1724;
 
-  --color-surface: #f6f7f9;
-  --color-surface-strong: #eef0f3;
-  --color-graphite: #10151c;
-  --color-graphite-soft: #1c2430;
-  --color-brand-blue: #0b63f6;
-  --color-brand-blue-dark: #0847b8;
-  --color-brand-blue-light: #e8f1ff;
-  --color-line: #e3e6ea;
+  --color-surface: #f3f1ec;
+  --color-surface-strong: #e9e6df;
+  --color-graphite: #0b1724;
+  --color-graphite-soft: #253342;
+  --color-brand-blue: #0b5793;
+  --color-brand-blue-dark: #073960;
+  --color-brand-blue-light: #eaf2f8;
+  --color-brand-gold: #b9914f;
+  --color-line: #dedbd4;
   --color-success: #157a4a;
   --color-success-bg: #e8f7ef;
   --color-neutral-bg: #f1f2f4;
@@ -29,6 +30,7 @@
   --color-brand-blue: var(--color-brand-blue);
   --color-brand-blue-dark: var(--color-brand-blue-dark);
   --color-brand-blue-light: var(--color-brand-blue-light);
+  --color-brand-gold: var(--color-brand-gold);
   --color-line: var(--color-line);
   --color-success: var(--color-success);
   --color-success-bg: var(--color-success-bg);
@@ -47,9 +49,17 @@ html {
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at 8% -10%, rgba(185, 145, 79, 0.08), transparent 28rem),
+    var(--background);
   color: var(--foreground);
   overscroll-behavior-y: none;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(11, 87, 147, 0.18);
+  color: var(--color-graphite);
 }
 
 /* ---------------------------------------------------------------------- */
@@ -83,8 +93,8 @@ body {
 /* ---------------------------------------------------------------------- */
 
 .reveal {
-  opacity: 0;
-  transform: translateY(14px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   transition-delay: calc(var(--reveal-delay, 0) * 60ms);
   will-change: opacity, transform;
@@ -96,8 +106,8 @@ body {
 }
 
 .reveal-stagger > * {
-  opacity: 0;
-  transform: translateY(14px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -284,15 +294,85 @@ body {
 }
 
 .container-page {
-  max-width: 84rem;
+  max-width: 90rem;
   margin-inline: auto;
-  padding-inline: 1.25rem;
+  padding-inline: 1rem;
 }
 
 @media (min-width: 768px) {
   .container-page {
-    padding-inline: 2rem;
+    padding-inline: 2.25rem;
   }
+}
+
+@media (min-width: 1280px) {
+  .container-page {
+    padding-inline: 3rem;
+  }
+}
+
+.container-page > h1,
+article.container-page > h1 {
+  max-width: 60rem;
+  font-size: clamp(2rem, 4.2vw, 4rem);
+  font-weight: 800;
+  line-height: 1.06;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.heading-balance {
+  text-wrap: balance;
+}
+
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--color-brand-gold);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.section-kicker::before {
+  content: "";
+  width: 1.7rem;
+  height: 1px;
+  background: currentColor;
+}
+
+.section-title {
+  color: var(--color-graphite);
+  font-size: clamp(1.75rem, 3vw, 3.1rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.surface-card {
+  border: 1px solid color-mix(in srgb, var(--color-line) 82%, transparent);
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 24px 70px -48px rgba(10, 22, 36, 0.55);
+}
+
+.page-intro-shell {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  border: 1px solid rgba(222, 219, 212, 0.8);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(243, 241, 236, 0.82));
+  padding: clamp(1.5rem, 4vw, 3.5rem);
+  box-shadow: 0 32px 80px -54px rgba(10, 22, 36, 0.55);
+}
+
+.blueprint-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 28px 28px;
 }
 
 .line-clamp-2 {

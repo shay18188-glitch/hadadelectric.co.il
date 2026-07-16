@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { useRequestBasket } from "@/components/RequestBasketProvider";
@@ -8,6 +7,7 @@ import { trackEvent } from "@/lib/analytics";
 import { buildWhatsAppBasketMessage, buildWhatsAppUrl } from "@/lib/whatsapp/messages";
 
 import { cx } from "@/lib/utils";
+import { ProductImage } from "@/components/ProductImage";
 
 export function RequestBasketView() {
   const { items, removeItem, clear, isReady } = useRequestBasket();
@@ -45,7 +45,7 @@ export function RequestBasketView() {
               className="flex items-center gap-3 rounded-2xl border border-line bg-white p-2.5 md:gap-4 md:p-3"
             >
               <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-surface md:h-16 md:w-16">
-                <Image
+                <ProductImage
                   src={item.imageUrl || "/images/product-placeholder.svg"}
                   alt=""
                   fill

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { GUIDES, getGuideBySlug } from "@/content/guides";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -11,6 +12,7 @@ import { articleJsonLd, faqJsonLd } from "@/lib/schema/jsonld";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { translationsForPath } from "@/lib/i18n/locales";
 import { getCategories, getCategoryBySlug } from "@/lib/base44/catalog";
+import { categoryImageFor } from "@/lib/categoryVisuals";
 
 interface GuidePageProps {
   params: Promise<{ slug: string }>;
@@ -63,8 +65,16 @@ export default async function GuidePage({ params }: GuidePageProps) {
       <Breadcrumbs items={[{ name: "מדריכים", path: "/guides" }, { name: guide.title, path: `/guides/${slug}` }]} />
 
       <article className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">{guide.title}</h1>
-        <p className="mt-2 max-w-2xl text-[15px] text-graphite-soft/80 md:mt-3 md:text-base">{guide.description}</p>
+        <header className="page-intro-shell grid gap-6 p-0 md:grid-cols-[1.05fr_.95fr]">
+          <div className="flex flex-col justify-center px-6 py-8 md:px-12 md:py-12">
+            <p className="section-kicker">מדריך הבחירה של חדד</p>
+            <h1 className="heading-balance mt-3 text-3xl font-black leading-[1.05] tracking-[-0.04em] text-graphite md:text-5xl">{guide.title}</h1>
+            <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-graphite-soft/80 md:text-base">{guide.description}</p>
+          </div>
+          <div className="relative min-h-64 overflow-hidden md:min-h-[24rem]">
+            <Image src={categoryImageFor(guide.relatedCategorySlug ?? guide.catalogCategorySlugs?.[0] ?? "small-appliances")} alt="" fill priority sizes="(max-width: 768px) 100vw, 45vw" className="object-cover" />
+          </div>
+        </header>
 
         {/* CTA #1 — top, right under the intro */}
         <div className="mt-5 max-w-3xl md:mt-6">
@@ -75,7 +85,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
           />
         </div>
 
-        <div className="mt-6 max-w-3xl md:mt-8">
+        <div className="surface-card mt-7 max-w-4xl rounded-[1.75rem] p-6 md:mt-10 md:p-10">
           <SeoTextBlock>
             {firstHalf.map((section, index) => (
               <div key={index}>
@@ -99,7 +109,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
               />
             </div>
 
-            <div className="mt-6 max-w-3xl md:mt-8">
+            <div className="surface-card mt-6 max-w-4xl rounded-[1.75rem] p-6 md:mt-8 md:p-10">
               <SeoTextBlock>
                 {secondHalf.map((section, index) => (
                   <div key={index}>

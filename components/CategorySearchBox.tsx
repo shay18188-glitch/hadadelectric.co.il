@@ -30,7 +30,7 @@ export function CategorySearchBox({
 
   return (
     <div className="flex flex-col gap-4 sm:gap-5">
-      <div className="relative">
+      <div className="relative mx-auto w-full max-w-3xl">
         <svg
           aria-hidden="true"
           viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ export function CategorySearchBox({
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder={placeholder}
-          className="w-full rounded-full border border-line bg-white py-3 ps-4 pe-11 text-sm text-graphite shadow-sm outline-none placeholder:text-graphite-soft/50 focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20"
+          className="w-full rounded-2xl border border-line bg-white py-4 ps-5 pe-12 text-sm text-graphite shadow-[0_18px_50px_-38px_rgba(11,23,36,.55)] outline-none placeholder:text-graphite-soft/45 focus:border-brand-blue focus:ring-4 focus:ring-brand-blue/10 md:text-base"
         />
       </div>
       <CategoryTiles

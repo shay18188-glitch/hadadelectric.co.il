@@ -6,7 +6,7 @@ export function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
   const allItems: BreadcrumbItem[] = [{ name: "בית", path: "/" }, ...items];
 
   return (
-    <nav aria-label="פירורי לחם" className="container-page py-2 text-xs text-graphite-soft/80 md:py-3 md:text-sm">
+    <nav aria-label="פירורי לחם" className="container-page py-3 text-xs text-graphite-soft/60 md:py-4 md:text-sm">
       <ol className="flex flex-wrap items-center gap-1">
         {allItems.map((item, index) => {
           const isLast = index === allItems.length - 1;

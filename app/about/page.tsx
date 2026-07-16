@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
@@ -25,16 +26,22 @@ export default function AboutPage() {
     <>
       <Breadcrumbs items={[{ name: "אודות", path: "/about" }]} />
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">אודות {BUSINESS.nameHe}</h1>
-        <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-lg">
-          {ABOUT_INTRO}
-        </p>
+        <div className="page-intro-shell grid gap-7 p-0 md:grid-cols-[1fr_.9fr]">
+          <div className="flex flex-col justify-center px-6 py-8 md:px-12 md:py-12">
+            <p className="section-kicker">משפחה, מקצועיות ושירות</p>
+            <h1 className="mt-3">אודות {BUSINESS.nameHe}</h1>
+            <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/85 md:text-lg">{ABOUT_INTRO}</p>
+          </div>
+          <div className="relative min-h-64 overflow-hidden md:min-h-[25rem]">
+            <Image src="/images/redesign/home-living.png" alt="בית מודרני עם מוצרי חשמל איכותיים" fill priority sizes="(max-width: 768px) 100vw, 45vw" className="object-cover" />
+          </div>
+        </div>
 
         <div className="mt-5 max-w-md md:mt-6">
           <GoogleRating />
         </div>
 
-        <div className="mt-6 max-w-3xl md:mt-8">
+        <div className="surface-card mt-7 max-w-4xl rounded-[1.75rem] p-6 md:mt-10 md:p-10">
           <SeoTextBlock>
             <AboutSections sections={ABOUT_SECTIONS} />
           </SeoTextBlock>

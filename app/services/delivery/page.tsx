@@ -115,21 +115,23 @@ export default function DeliveryPage() {
     <>
       <Breadcrumbs items={[{ name: "משלוחים והתקנה בצפון", path: "/services/delivery" }]} />
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">משלוחים והתקנה בצפון — עד הבית שלכם</h1>
-
-        <div className="mt-4 max-w-3xl md:mt-5">
-          <SeoTextBlock>
-            <p>
+        <div className="page-intro-shell">
+          <p className="section-kicker">מהחנות עד הבית</p>
+          <h1 className="mt-3">משלוחים והתקנה בצפון — עד הבית שלכם</h1>
+          <div className="mt-4 max-w-3xl">
+            <SeoTextBlock>
+              <p>
               קניתם מוצר חשמל? מכאן והלאה זו העבודה שלנו: משלוח עד בית הלקוח, הכנסה מסודרת, התקנה וחיבור —
               בכל אזור הצפון, מקו חיפה והקריות ועד קריית שמונה והגולן. אנחנו מתאמים איתכם מראש יום ושעה,
               עוברים יחד על תנאי הגישה, ומגיעים מוכנים. יחס אישי מהרגע שהזמנתם ועד שהמוצר עובד אצלכם בבית.
             </p>
-            <p>
+              <p>
               ההובלה מתבצעת על ידי צוותים שמכירים את הצפון על כל סוגי הבנייה שבו — בניינים בלי מעלית בחיפה
               ובנוף הגליל, בתים פרטיים עם מדרגות חיצוניות בהר הגליל, סמטאות בעכו העתיקה ובצפת. התקנות חשמל
               ומיזוג מתבצעות על ידי אנשי מקצוע מוסמכים, והכול נסגר מראש בהצעת המחיר — בלי הפתעות ביום האספקה.
-            </p>
-          </SeoTextBlock>
+              </p>
+            </SeoTextBlock>
+          </div>
         </div>
 
         <div className="mt-6 flex flex-wrap gap-2.5 md:mt-8 md:gap-3">
@@ -149,7 +151,7 @@ export default function DeliveryPage() {
           </h2>
           <div className="mt-4 grid gap-3 md:gap-4">
             {DELIVERY_ZONES.map((zone) => (
-              <div key={zone.zone} className="rounded-2xl border border-line bg-white p-4 md:p-5">
+              <div key={zone.zone} className="surface-card rounded-[1.5rem] p-4 md:p-6">
                 <h3 className="text-[15px] font-bold text-graphite md:text-base">{zone.zone}</h3>
                 <p className="mt-1 text-sm text-graphite-soft/80">{zone.note}</p>
                 <div className="mt-3 flex flex-wrap gap-2">
@@ -182,7 +184,7 @@ export default function DeliveryPage() {
               { title: "מספקים ומכניסים", desc: "הצוות מגיע בזמן שנקבע, מכניס את המוצר בזהירות עד המיקום המדויק בבית." },
               { title: "מתקינים ומחברים", desc: "חיבור, התקנה והפעלה ראשונה — עוזבים רק כשהמוצר עובד ואתם מרוצים." },
             ].map((step, index) => (
-              <li key={step.title} className="rounded-2xl border border-line bg-white p-4 md:p-5">
+              <li key={step.title} className="surface-card rounded-[1.5rem] p-4 md:p-5">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-brand-blue-light text-sm font-bold text-brand-blue">
                   {index + 1}
                 </span>

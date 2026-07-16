@@ -55,21 +55,24 @@ export default async function BrandPage({ params }: BrandPageProps) {
       <Breadcrumbs items={[{ name: "מותגים", path: "/brands" }, { name: brand.name, path: `/brands/${slug}` }]} />
 
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">מוצרי {brand.name} בנהריה והצפון</h1>
-        {brandContent ? (
-          <div className="mt-3 max-w-3xl md:mt-4">
-            <SeoTextBlock>
-              {brandContent.intro.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
-            </SeoTextBlock>
-          </div>
-        ) : (
-          <p className="mt-2 max-w-2xl text-sm text-graphite-soft/80 md:mt-3 md:text-base">
-            קטלוג מוצרי {brand.name} הזמינים אצלנו — בדיקת זמינות באתר, ייעוץ אישי מצוות החנות בנהריה, ומשלוח
-            עד בית הלקוח בכל אזור הצפון.
-          </p>
-        )}
+        <div className="page-intro-shell">
+          <p className="section-kicker">מותג מוביל אצלנו בקטלוג</p>
+          <h1 className="mt-3">מוצרי {brand.name} בנהריה והצפון</h1>
+          {brandContent ? (
+            <div className="mt-4 max-w-3xl">
+              <SeoTextBlock>
+                {brandContent.intro.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </SeoTextBlock>
+            </div>
+          ) : (
+            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-graphite-soft/80 md:text-base">
+              קטלוג מוצרי {brand.name} הזמינים אצלנו — בדיקת זמינות באתר, ייעוץ אישי מצוות החנות בנהריה, ומשלוח עד בית הלקוח בכל אזור הצפון.
+            </p>
+          )}
+          <div className="mt-5 inline-flex rounded-full bg-brand-blue px-4 py-2 text-xs font-bold text-white">{products.length} מוצרים בקטלוג</div>
+        </div>
 
         {relatedCategories.length > 0 && (
           <div className="scroll-x-fade mt-5 flex gap-2 md:mt-6 md:flex-wrap">

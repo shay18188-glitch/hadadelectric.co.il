@@ -55,20 +55,29 @@ export function Header() {
             className={cx(
               "header-shell overflow-hidden rounded-2xl border md:rounded-none",
               atTop
-                ? "border-line/60 bg-white/82 shadow-[0_4px_24px_-8px_rgba(16,21,28,0.12)] backdrop-blur-xl md:border-transparent md:bg-white/95 md:shadow-none"
-                : "border-line/70 bg-white/88 shadow-[0_4px_28px_-6px_rgba(16,21,28,0.16)] backdrop-blur-2xl md:border-line md:bg-white/95"
+                ? "border-line/60 bg-white/88 shadow-[0_10px_35px_-20px_rgba(10,22,36,0.28)] backdrop-blur-xl md:border-transparent md:bg-white/95 md:shadow-none"
+                : "border-line/70 bg-white/92 shadow-[0_16px_45px_-24px_rgba(10,22,36,0.38)] backdrop-blur-2xl md:border-line/70 md:bg-white/96"
             )}
           >
+            <div className="hidden bg-graphite text-white md:block">
+              <div className="container-page flex h-8 items-center justify-between text-[11px]">
+                <p className="font-medium">משלוחים והתקנה בכל אזור הצפון</p>
+                <div className="flex items-center gap-5 text-white/70">
+                  <span>ייעוץ אישי מחנות פיזית בנהריה</span>
+                  <span>יבואנים רשמיים</span>
+                </div>
+              </div>
+            </div>
             <div
               className={cx(
-                "container-page flex items-center justify-between gap-2 transition-[height,padding] duration-300 md:h-20 md:gap-3",
+                "container-page flex items-center justify-between gap-2 transition-[height,padding] duration-300 md:h-[4.75rem] md:gap-4",
                 compact ? "h-12 py-1" : "h-14 py-0"
               )}
             >
               {/* Desktop */}
               <Logo compact={compact} className="hidden lg:flex" />
 
-              <nav aria-label={dict.header.mainNavLabel} className="hidden items-center gap-1 lg:flex">
+              <nav aria-label={dict.header.mainNavLabel} className="hidden items-center gap-0.5 lg:flex">
                 {dict.nav.map((link) => {
                   const isActive = pathname === link.href || pathname.startsWith(`${link.href}/`);
                   return (
@@ -76,8 +85,10 @@ export function Header() {
                       key={link.href}
                       href={link.href}
                       className={cx(
-                        "rounded-full px-3.5 py-2 text-sm font-medium transition-colors",
-                        isActive ? "bg-surface-strong text-graphite" : "text-graphite hover:bg-surface"
+                        "relative px-3 py-2 text-sm font-medium transition-colors after:absolute after:inset-x-3 after:-bottom-0.5 after:h-px after:origin-center after:scale-x-0 after:bg-brand-blue after:transition-transform",
+                        isActive
+                          ? "text-brand-blue after:scale-x-100"
+                          : "text-graphite-soft/85 hover:text-brand-blue hover:after:scale-x-100"
                       )}
                     >
                       {link.label}
@@ -86,7 +97,7 @@ export function Header() {
                 })}
               </nav>
 
-              <div className="hidden max-w-xs flex-1 md:block lg:max-w-sm">
+              <div className="hidden max-w-xs flex-1 md:block lg:max-w-[19rem] xl:max-w-sm">
                 <SearchBar />
               </div>
 
@@ -95,10 +106,11 @@ export function Header() {
                 <RequestBasketIcon />
                 <WhatsAppButton
                   message={buildWhatsAppGeneralMessage()}
+                  label="ייעוץ בוואטסאפ"
                   trackAs="whatsapp_click_header"
                   size="sm"
                 />
-                <PhoneButton phone={BUSINESS.phoneDisplay} size="sm" />
+                <PhoneButton phone={BUSINESS.phoneDisplay} label={BUSINESS.phoneDisplay} size="sm" />
               </div>
 
               {/* Mobile — actions on the right (RTL start), logo + menu on the left (RTL end) */}

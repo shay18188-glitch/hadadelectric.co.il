@@ -22,8 +22,10 @@ export default function FaqPage() {
     <>
       <Breadcrumbs items={[{ name: "שאלות נפוצות", path: "/faq" }]} />
       <div className="container-page pb-12 md:pb-16">
-        <h1 className="text-xl font-bold text-graphite md:text-4xl">שאלות נפוצות</h1>
-        <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/90 md:mt-4 md:text-base">
+        <div className="page-intro-shell">
+          <p className="section-kicker">כל מה שחשוב לדעת</p>
+          <h1 className="mt-3">שאלות נפוצות</h1>
+          <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-graphite-soft/85 md:text-base">
           כאן תמצאו תשובות לשאלות נפוצות על הקטלוג, בדיקת זמינות, הזמנה בוואטסאפ, אזור השירות שלנו בנהריה והצפון,
           ועוד. לא מצאתם תשובה?{" "}
           <Link href="/contact" className="font-medium text-brand-blue hover:underline">
@@ -34,7 +36,8 @@ export default function FaqPage() {
             עיינו בקטלוג
           </Link>
           .
-        </p>
+          </p>
+        </div>
 
         <div className="mt-8 max-w-3xl space-y-8 md:mt-10 md:space-y-10">
           {FAQ_CATEGORIES.map((category) => (

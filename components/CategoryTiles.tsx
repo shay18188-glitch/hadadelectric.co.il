@@ -1,7 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Category } from "@/types/category";
-import { CategoryIcon } from "@/components/CategoryIcon";
 import { Reveal } from "@/components/Reveal";
+import { categoryImageFor } from "@/lib/categoryVisuals";
 
 export function CategoryTiles({
   categories,
@@ -22,20 +23,32 @@ export function CategoryTiles({
   }
 
   return (
-    <Reveal as="div" stagger className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 sm:gap-3 md:grid-cols-4 lg:grid-cols-6">
+    <Reveal as="div" stagger className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 xl:grid-cols-6">
       {categories.map((category) => (
         <Link
           key={category.slug}
           href={`/categories/${category.slug}`}
-          className="tap-scale group flex flex-col items-center gap-2.5 rounded-2xl border border-line bg-white p-4 text-center transition-all active:scale-[0.97] sm:gap-3 sm:p-5 sm:hover:-translate-y-0.5 sm:hover:border-brand-blue/30 sm:hover:shadow-md"
+          className="tap-scale group relative min-h-56 overflow-hidden rounded-[1.6rem] bg-graphite text-white shadow-[0_20px_60px_-34px_rgba(10,20,34,0.55)] ring-1 ring-black/5 transition-all active:scale-[0.98] sm:min-h-64 sm:hover:-translate-y-1 sm:hover:shadow-[0_28px_70px_-34px_rgba(10,20,34,0.65)]"
         >
-          <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-blue-light text-brand-blue transition-colors group-hover:bg-brand-blue group-hover:text-white sm:h-14 sm:w-14">
-            <CategoryIcon name={category.name} className="h-6 w-6 sm:h-7 sm:w-7" />
+          <Image
+            src={categoryImageFor(category.slug)}
+            alt={`${category.name} לבית`}
+            fill
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 17vw"
+            className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+          />
+          <span className="absolute inset-0 bg-gradient-to-t from-[#09131f]/90 via-[#09131f]/10 to-transparent" />
+          <span className="absolute inset-x-0 bottom-0 z-10 flex items-end justify-between gap-3 p-4 text-start sm:p-5">
+            <span>
+              <span className="block text-sm font-bold leading-tight sm:text-base">{category.name}</span>
+              {title !== "compact" && (
+                <span className="mt-1 block text-[11px] text-white/70 sm:text-xs">{category.productCount} מוצרים</span>
+              )}
+            </span>
+            <span aria-hidden="true" className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/14 text-lg backdrop-blur-md transition-colors group-hover:bg-white group-hover:text-brand-blue">
+              ←
+            </span>
           </span>
-          <span className="text-[13px] font-semibold leading-tight text-graphite sm:text-sm">{category.name}</span>
-          {title !== "compact" && (
-            <span className="text-[11px] text-graphite-soft/60 sm:text-xs">{category.productCount} מוצרים</span>
-          )}
         </Link>
       ))}
     </Reveal>
