@@ -1,9 +1,9 @@
 import type { Product, RequestBasketItem } from "@/types/product";
 import { absoluteUrl } from "@/lib/utils";
 
-export const WHATSAPP_PHONE_INTL = "972522692235";
+export const WHATSAPP_PHONE_INTL = "97249920948";
 export const STORE_PHONE_DISPLAY = "04-9920948";
-export const STORE_MOBILE_DISPLAY = "052-2692235";
+export const STORE_MOBILE_DISPLAY = "04-9920948";
 
 function productUrl(slug: string): string {
   return absoluteUrl(`/products/${encodeURIComponent(slug)}`);

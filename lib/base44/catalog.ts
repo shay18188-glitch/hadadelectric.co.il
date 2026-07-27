@@ -132,6 +132,38 @@ export async function getProducts(): Promise<Product[]> {
   return products;
 }
 
+/** Build category facets from an already-fetched catalog. */
+export function buildCategories(products: Product[]): Category[] {
+  const counts = new Map<string, number>();
+  for (const p of products) {
+    if (!p.category) continue;
+    counts.set(p.category, (counts.get(p.category) ?? 0) + 1);
+  }
+  return Array.from(counts.entries())
+    .map(([name, productCount]) => ({
+      name,
+      slug: generateCategorySlug(name),
+      productCount,
+    }))
+    .sort((a, b) => b.productCount - a.productCount);
+}
+
+/** Build brand facets from an already-fetched catalog. */
+export function buildBrands(products: Product[]): Brand[] {
+  const counts = new Map<string, number>();
+  for (const p of products) {
+    if (!p.brand) continue;
+    counts.set(p.brand, (counts.get(p.brand) ?? 0) + 1);
+  }
+  return Array.from(counts.entries())
+    .map(([name, productCount]) => ({
+      name,
+      slug: generateBrandSlug(name),
+      productCount,
+    }))
+    .sort((a, b) => b.productCount - a.productCount);
+}
+
 export async function getProductBySlug(slug: string): Promise<Product | null> {
   const decoded = decodeURIComponent(slug).trim();
   const products = await getProducts();
@@ -147,19 +179,7 @@ export async function getProductBySlug(slug: string): Promise<Product | null> {
 }
 
 export async function getCategories(): Promise<Category[]> {
-  const products = await getProducts();
-  const counts = new Map<string, number>();
-  for (const p of products) {
-    if (!p.category) continue;
-    counts.set(p.category, (counts.get(p.category) ?? 0) + 1);
-  }
-  return Array.from(counts.entries())
-    .map(([name, productCount]) => ({
-      name,
-      slug: generateCategorySlug(name),
-      productCount,
-    }))
-    .sort((a, b) => b.productCount - a.productCount);
+  return buildCategories(await getProducts());
 }
 
 export async function getCategoryBySlug(slug: string): Promise<Category | null> {
@@ -177,19 +197,7 @@ export async function getCategoryBySlug(slug: string): Promise<Category | null> 
 }
 
 export async function getBrands(): Promise<Brand[]> {
-  const products = await getProducts();
-  const counts = new Map<string, number>();
-  for (const p of products) {
-    if (!p.brand) continue;
-    counts.set(p.brand, (counts.get(p.brand) ?? 0) + 1);
-  }
-  return Array.from(counts.entries())
-    .map(([name, productCount]) => ({
-      name,
-      slug: generateBrandSlug(name),
-      productCount,
-    }))
-    .sort((a, b) => b.productCount - a.productCount);
+  return buildBrands(await getProducts());
 }
 
 export async function getBrandBySlug(slug: string): Promise<Brand | null> {

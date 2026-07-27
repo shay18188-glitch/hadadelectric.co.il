@@ -6,7 +6,7 @@ import { ContactForm } from "@/components/ContactForm";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { GoogleRating } from "@/components/GoogleRating";
-import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
+import { buildWhatsAppGeneralMessage, buildWhatsAppUrl } from "@/lib/whatsapp/messages";
 import { faqJsonLd, localBusinessJsonLd } from "@/lib/schema/jsonld";
 import { BUSINESS } from "@/lib/utils";
 import { CHROME } from "@/lib/i18n/chrome";
@@ -227,7 +227,13 @@ export function LocaleContactPage({ locale, content }: LocaleProps) {
                 </p>
                 <p>
                   {c.whatsappLabel}:{" "}
-                  <a href="tel:0522692235" className="text-brand-blue hover:underline" dir="ltr">
+                  <a
+                    href={buildWhatsAppUrl(buildWhatsAppGeneralMessage(locale))}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand-blue hover:underline"
+                    dir="ltr"
+                  >
                     {BUSINESS.mobileDisplay}
                   </a>
                 </p>

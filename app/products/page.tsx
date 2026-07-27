@@ -9,30 +9,24 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CategorySuggestions } from "@/components/CategorySuggestions";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
-import type { Product } from "@/types/product";
+import { PageHero } from "@/components/PageHero";
+import { getQuickFilters } from "@/lib/search/quickFilters";
+import {
+  buildProductFacets,
+  filterProductsByFacets,
+  parseFacetSelections,
+} from "@/lib/search/productFacets";
+import { sortProducts } from "@/lib/search/productSorting";
 
 export const revalidate = 10800; // 3 hours
 
 interface ProductsSearchParams {
+  [key: string]: string | string[] | undefined;
   q?: string;
   category?: string;
   brand?: string;
   inStock?: string;
   sort?: string;
-}
-
-function sortProducts(products: Product[], sort?: string): Product[] {
-  const list = [...products];
-  switch (sort) {
-    case "in-stock":
-      return list.sort((a, b) => Number(b.availability === "in_stock") - Number(a.availability === "in_stock"));
-    case "newest":
-      return list.reverse();
-    case "alpha":
-      return list.sort((a, b) => a.name.localeCompare(b.name, "he"));
-    default:
-      return list.sort((a, b) => Number(b.availability === "in_stock") - Number(a.availability === "in_stock"));
-  }
 }
 
 export async function generateMetadata({
@@ -41,7 +35,8 @@ export async function generateMetadata({
   searchParams: Promise<ProductsSearchParams>;
 }): Promise<Metadata> {
   const params = await searchParams;
-  const hasFilters = Boolean(params.q || params.category || params.brand || params.inStock);
+  const hasFacetFilters = Object.keys(params).some((key) => key.startsWith("f_"));
+  const hasFilters = Boolean(params.q || params.category || params.brand || params.inStock || params.panel || hasFacetFilters);
 
   let canonicalPath = "/products";
   if (params.category) canonicalPath = `/categories/${params.category}`;
@@ -52,7 +47,7 @@ export async function generateMetadata({
     description:
       "עיינו בקטלוג מוצרי החשמל של חדד יובל אלקטריק — מקררים, מכונות כביסה, תנורים, טלוויזיות ועוד, עם בדיקת זמינות והזמנה ישירה בוואטסאפ או בטלפון.",
     path: canonicalPath,
-    noindex: hasFilters && canonicalPath === "/products",
+    noindex: hasFilters,
     translations: canonicalPath === "/products" && !hasFilters ? TRANSLATED_PATHS["/products"] : undefined,
   });
 }
@@ -65,23 +60,26 @@ export default async function ProductsPage({
   const params = await searchParams;
   const [allProducts, categories, brands] = await Promise.all([getProducts(), getCategories(), getBrands()]);
 
-  let filtered = allProducts;
+  let scopedProducts = allProducts;
 
   if (params.category) {
-    filtered = filtered.filter((p) => p.categorySlug === params.category);
+    scopedProducts = scopedProducts.filter((p) => p.categorySlug === params.category);
   }
   if (params.brand) {
-    filtered = filtered.filter((p) => p.brandSlug === params.brand);
+    scopedProducts = scopedProducts.filter((p) => p.brandSlug === params.brand);
   }
-  if (params.inStock === "true") {
-    filtered = filtered.filter((p) => p.availability === "in_stock");
+  if (params.inStock !== "false") {
+    scopedProducts = scopedProducts.filter((p) => p.availability === "in_stock");
   }
+
+  const facetSelections = parseFacetSelections(params);
+  let filtered = scopedProducts;
 
   let categorySuggestions: ReturnType<typeof matchCategories> = [];
 
   if (params.q) {
     const fuse = createFuseIndex(filtered);
-    filtered = searchProducts(fuse, params.q, 200);
+    filtered = searchProducts(fuse, params.q, 200, filtered);
     // Only surface category suggestions when the user typed a free-text
     // query — never for category/brand filter selections, so this stays a
     // progressive-enhancement layer on top of the existing filter UX.
@@ -90,21 +88,38 @@ export default async function ProductsPage({
     filtered = sortProducts(filtered, params.sort);
   }
 
+  const quickFilterCategory = params.category
+    ? categories.find((category) => category.slug === params.category)
+    : categorySuggestions[0];
+  filtered = filterProductsByFacets(filtered, facetSelections);
+  const facets = quickFilterCategory
+    ? buildProductFacets(scopedProducts, quickFilterCategory.slug, facetSelections)
+    : [];
+  const quickFilters = quickFilterCategory ? getQuickFilters(allProducts, quickFilterCategory) : [];
+
   return (
     <>
       <Breadcrumbs items={[{ name: "קטלוג", path: "/products" }]} />
       <div className="container-page pb-12 md:pb-16">
-        <div className="page-intro-shell">
-          <p className="section-kicker">835+ מוצרים במקום אחד</p>
-          <h1 className="mt-3">קטלוג מוצרי חשמל</h1>
-          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-graphite-soft/80 md:text-base">
-            קטלוג מלא של מוצרי חשמל לבית. סננו לפי קטגוריה, מותג וזמינות, וקבלו ייעוץ אישי ובדיקת מלאי מדויקת מצוות החנות.
-          </p>
-        </div>
+        <PageHero
+          eyebrow={`${allProducts.length}+ מוצרים במקום אחד`}
+          title="קטלוג מוצרי חשמל"
+          description="קטלוג מלא של מוצרי חשמל לבית. סננו לפי קטגוריה, מותג וזמינות, וקבלו ייעוץ אישי ובדיקת מלאי מדויקת מצוות החנות."
+          imageSrc="/images/hero-appliances.png"
+          imageAlt="מקרר, מכונת כביסה, תנור, מזגן וטלוויזיה בקטלוג מוצרי החשמל"
+          imageClassName="object-[center_55%] md:object-[34%_55%]"
+          badges={
+            <>
+              <span className="rounded-full border border-white/18 bg-white/10 px-4 py-2.5 backdrop-blur-md">{categories.length} קטגוריות</span>
+              <span className="rounded-full border border-white/18 bg-white/10 px-4 py-2.5 backdrop-blur-md">{brands.length} מותגים</span>
+              <span className="rounded-full border border-white/18 bg-white/10 px-4 py-2.5 backdrop-blur-md">בדיקת זמינות אישית</span>
+            </>
+          }
+        />
 
-        <div className="surface-card mt-6 rounded-[1.5rem] p-3 md:mt-8 md:p-5">
+        <div className="surface-card relative z-10 -mt-5 rounded-[1.5rem] p-4 md:-mt-7 md:mx-8 md:p-6">
           <Suspense fallback={null}>
-            <Filters categories={categories} brands={brands} />
+            <Filters categories={categories} brands={brands} quickFilters={quickFilters} facets={facets} />
           </Suspense>
         </div>
 

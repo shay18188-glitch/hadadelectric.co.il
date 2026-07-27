@@ -197,11 +197,11 @@ export function LocaleProductDetailPage({
         <div className="grid gap-6 md:grid-cols-2 md:gap-10">
           <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface md:rounded-3xl">
             <ProductImage
-              src={localized.imageUrl || "/images/product-placeholder.svg"}
+              src={localized.imageUrl || "/images/product-placeholder-v2.webp"}
               alt={`${localized.name} — ${BUSINESS.nameEn}`}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className={cx("object-contain p-6 md:p-8", !localized.imageUrl && "opacity-40")}
+              className={cx("object-contain", localized.imageUrl ? "p-6 md:p-8" : "p-0 opacity-95")}
               priority
             />
           </div>

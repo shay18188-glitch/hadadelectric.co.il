@@ -11,6 +11,8 @@ import type { LocalPageContent } from "@/content/localPages";
 import type { Category } from "@/types/category";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { BUSINESS } from "@/lib/utils";
+import { getNahariyaBuyingPage } from "@/content/nahariyaBuyingPages";
+import { BusinessProfiles } from "@/components/BusinessProfiles";
 
 const HOW_IT_WORKS_STEPS = ["בוחרים בקטלוג", "שולחים וואטסאפ", "מתאמים משלוח והתקנה"];
 
@@ -108,7 +110,11 @@ export function LocalAreaPageContent({
             {content.topCategories.map((category) => (
               <Link
                 key={category.slug}
-                href={`/categories/${category.slug}`}
+                href={
+                  content.city === "נהריה" && getNahariyaBuyingPage(category.slug)
+                    ? `/electric-appliances-nahariya/${category.slug}`
+                    : `/categories/${category.slug}`
+                }
                 className="group rounded-2xl border border-line bg-white p-4 transition-colors hover:border-brand-blue/40 md:p-5"
               >
                 <h3 className="text-[15px] font-bold text-graphite group-hover:text-brand-blue md:text-base">
@@ -128,6 +134,15 @@ export function LocalAreaPageContent({
             {BUSINESS.nameHe} · {BUSINESS.addressStreet}, {BUSINESS.addressCity} · טלפון {BUSINESS.phoneDisplay} ·
             וואטסאפ {BUSINESS.mobileDisplay}
           </p>
+          {content.city === "נהריה" && (
+            <div className="mt-4 border-t border-line pt-4">
+              <BusinessProfiles title="אימות פרטי העסק גם ב־" />
+              <p className="mt-3 text-xs text-graphite-soft/55">
+                פרטי החנות והתוכן המקומי נבדקו לאחרונה ב־
+                <time dateTime="2026-07-23">23 ביולי 2026</time>. מלאי ותנאי אספקה מאומתים לפני הזמנה.
+              </p>
+            </div>
+          )}
         </div>
 
         {/* Full category search */}

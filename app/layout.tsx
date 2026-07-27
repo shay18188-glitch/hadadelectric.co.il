@@ -62,18 +62,18 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
-  // Single source of truth for icons: static, stable-URL files in /public
-  // (square Hadad "atom + E" mark, legible at favicon sizes). We do NOT use the
+  // Single source of truth for icons: static, stable-URL files in /public,
+  // generated from the full Hadad Yuval Electric logo. We do NOT use the
   // app/ icon file conventions (they emit hashed URLs and competed with these),
   // so no app/favicon.ico, app/icon.png or app/apple-icon.png should exist.
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon-48x48.png", type: "image/png", sizes: "48x48" },
-      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
-      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+      { url: "/favicon-logo-48x48.png", type: "image/png", sizes: "48x48" },
+      { url: "/icon-logo-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-logo-512.png", type: "image/png", sizes: "512x512" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    apple: [{ url: "/apple-touch-logo.png", sizes: "180x180" }],
     shortcut: [{ url: "/favicon.ico" }],
   },
 };

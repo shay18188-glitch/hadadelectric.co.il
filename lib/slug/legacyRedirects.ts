@@ -5,7 +5,11 @@ import { legacySlugify } from "@/lib/slug/slugify";
 export const LEGACY_CATEGORY_SLUG_REDIRECTS: Record<string, string> = buildLegacyCategoryRedirects();
 
 function buildLegacyCategoryRedirects(): Record<string, string> {
-  const redirects: Record<string, string> = {};
+  const redirects: Record<string, string> = {
+    // "מגהצים" was historically assigned the hair-straighteners slug.
+    // Preserve old indexed links while exposing the correct product intent.
+    "hair-straighteners": "irons",
+  };
 
   for (const [hebrewName, englishSlug] of Object.entries(CATEGORY_SLUGS)) {
     redirects[hebrewName] = englishSlug;

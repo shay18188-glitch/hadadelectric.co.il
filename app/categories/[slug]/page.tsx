@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Image from "next/image";
 import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import {
-  getBrandCategoryCombos,
   getBrands,
   getCategories,
   getCategoryBySlug,
@@ -21,11 +21,24 @@ import { getCategoryContent } from "@/content/categoryContent";
 import { getGuideBySlug } from "@/content/guides";
 import { ViewTracker } from "@/components/ViewTracker";
 import { categoryImageFor } from "@/lib/categoryVisuals";
+import { buildBrandCategoryPresentation } from "@/content/brandCategorySeo";
+import { getSeoBrandCategoryCombos } from "@/lib/seo/brandCategoryCombos";
+import { RECOMMENDATION_PAGES } from "@/content/recommendationPages";
+import { filterRecommendationProducts } from "@/lib/seo/recommendationProducts";
+import { Filters } from "@/components/Filters";
+import {
+  buildProductFacets,
+  filterProductsByFacets,
+  parseFacetSelections,
+} from "@/lib/search/productFacets";
+import { sortProducts } from "@/lib/search/productSorting";
+import { getNahariyaBuyingPage } from "@/content/nahariyaBuyingPages";
 
 export const revalidate = 10800; // 3 hours
 
 interface CategoryPageProps {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export async function generateStaticParams() {
@@ -33,15 +46,19 @@ export async function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));
 }
 
-export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: CategoryPageProps): Promise<Metadata> {
   const { slug } = await params;
   const category = await getCategoryBySlug(slug);
   if (!category) return {};
-  return generateCategoryMetadata(category);
+  const query = await searchParams;
+  const hasFilters = Boolean(query.brand || query.inStock || query.sort || query.panel || Object.keys(query).some((key) => key.startsWith("f_")));
+  const metadata = generateCategoryMetadata(category);
+  return hasFilters ? { ...metadata, robots: { index: false, follow: true } } : metadata;
 }
 
-export default async function CategoryPage({ params }: CategoryPageProps) {
+export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
   const { slug } = await params;
+  const query = await searchParams;
   const decodedSlug = decodeURIComponent(slug);
   const category = await getCategoryBySlug(decodedSlug);
 
@@ -54,15 +71,26 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     getProductsByCategory(category.slug),
     getCategories(),
     getBrands(),
-    getBrandCategoryCombos(),
+    getSeoBrandCategoryCombos(),
   ]);
 
   const content = getCategoryContent(category.slug);
+  const categoryRecommendations = RECOMMENDATION_PAGES
+    .filter((page) => page.categorySlug === category.slug)
+    .map((page) => ({ page, count: filterRecommendationProducts(products, page).length }))
+    .filter(({ count }) => count >= 4);
   const relatedGuide = content.guideSlug ? getGuideBySlug(content.guideSlug) : null;
   const categoryBrandCombos = brandCategoryCombos.filter((c) => c.categorySlug === category.slug);
   const relatedBrandSlugs = new Set(products.map((p) => p.brandSlug).filter(Boolean));
   const relatedBrands = allBrands.filter((b) => relatedBrandSlugs.has(b.slug));
   const otherCategories = allCategories.filter((c) => c.slug !== category.slug);
+  const facetSelections = parseFacetSelections(query);
+  let scopedProducts = products;
+  if (typeof query.brand === "string") scopedProducts = scopedProducts.filter((product) => product.brandSlug === query.brand);
+  if (query.inStock !== "false") scopedProducts = scopedProducts.filter((product) => product.availability === "in_stock");
+  const facets = buildProductFacets(scopedProducts, category.slug, facetSelections);
+  const filteredProducts = sortProducts(filterProductsByFacets(scopedProducts, facetSelections), typeof query.sort === "string" ? query.sort : undefined);
+  const nahariyaBuyingPage = getNahariyaBuyingPage(category.slug);
 
   return (
     <>
@@ -117,10 +145,20 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             <p className="section-kicker">בחרו את הדגם שלכם</p>
             <h2 className="mt-2 text-2xl font-black text-graphite md:text-3xl">כל מוצרי {category.name}</h2>
           </div>
-          <p className="text-sm text-graphite-soft/60">{products.length} מוצרים</p>
+          <p className="text-sm text-graphite-soft/60">{filteredProducts.length} מתוך {products.length} מוצרים</p>
+        </div>
+        <div className="surface-card relative z-10 mt-5 rounded-[1.5rem] p-4 md:mt-6 md:p-6">
+          <Suspense fallback={null}>
+            <Filters
+              categories={allCategories}
+              brands={relatedBrands}
+              facets={facets}
+              fixedCategory={category.slug}
+            />
+          </Suspense>
         </div>
         <div className="mt-5 md:mt-6">
-          <ProductGrid products={products} emptyMessage="לא נמצאו מוצרים זמינים בקטגוריה זו כרגע." />
+          <ProductGrid products={filteredProducts} emptyMessage="לא נמצאו מוצרים שמתאימים לסינון שבחרתם." />
         </div>
 
         {content.buyingGuide && (
@@ -155,7 +193,45 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <Link href="/services/delivery" className="font-semibold text-brand-blue hover:underline">
             לפרטים על משלוחים והתקנה
           </Link>
+          {nahariyaBuyingPage && (
+            <>
+              {" · "}
+              <Link
+                href={`/electric-appliances-nahariya/${category.slug}`}
+                className="font-semibold text-brand-blue hover:underline"
+              >
+                מדריך מקומי ל{category.name} בנהריה
+              </Link>
+            </>
+          )}
         </div>
+
+        {categoryRecommendations.length > 0 && (
+          <section className="mt-10 md:mt-14" aria-labelledby="category-recommendations-heading">
+            <p className="section-kicker">חיפוש ממוקד יותר</p>
+            <h2 id="category-recommendations-heading" className="mt-2 text-lg font-bold text-graphite md:text-2xl">
+              {category.name} לפי גודל, מבנה או סוג
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-graphite-soft/75">
+              קיצורי דרך לדגמים שמתאימים לתכונה ברורה, עם מדריך בחירה והשוואה מתוך הקטלוג הפעיל.
+            </p>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {categoryRecommendations.map(({ page, count }) => (
+                <Link
+                  key={page.slug}
+                  href={`/recommended/${page.slug}`}
+                  className="group rounded-[1.25rem] border border-line bg-white p-4 transition hover:border-brand-blue/30 hover:shadow-[0_18px_40px_-35px_rgba(18,98,157,.6)]"
+                >
+                  <span className="text-xs font-black text-brand-gold">{count} דגמים תואמים</span>
+                  <span className="mt-2 flex items-center justify-between gap-3 font-black text-graphite group-hover:text-brand-blue">
+                    {page.shortTitle}
+                    <span aria-hidden="true">←</span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {categoryBrandCombos.length > 0 && (
           <section className="mt-10 md:mt-14" aria-labelledby="category-brands-heading">
@@ -172,7 +248,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                   href={`/brands/${combo.brandSlug}/${combo.categorySlug}`}
                   className="rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
                 >
-                  {combo.category} {combo.brand}
+                  {buildBrandCategoryPresentation(combo).headline}
                 </Link>
               ))}
             </div>

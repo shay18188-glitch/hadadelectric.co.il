@@ -8,6 +8,8 @@ export const TRACKED_EVENTS = [
   "product_view",
   "category_view",
   "brand_view",
+  "bundle_view",
+  "bundle_add_to_request",
   "whatsapp_click_header",
   "whatsapp_click_product",
   "whatsapp_click_basket",
@@ -81,6 +83,9 @@ export async function recordEvents(events: IncomingEvent[]): Promise<void> {
     }
     if (e.event === "brand_view" && slug) {
       cmds.push(["ZINCRBY", "z:brand", 1, slug]);
+    }
+    if (e.event === "bundle_view" && slug) {
+      cmds.push(["ZINCRBY", "z:bundle", 1, slug]);
     }
     if (e.event === "whatsapp_click_product" && slug) {
       cmds.push(["ZINCRBY", "z:wa_prod", 1, slug]);

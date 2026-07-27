@@ -1,8 +1,13 @@
 import type { MetadataRoute } from "next";
-import { getBrandCategoryCombos, getBrands, getCategories, getProducts } from "@/lib/base44/catalog";
+import { getBrands, getCategories, getProducts } from "@/lib/base44/catalog";
 import { GUIDES } from "@/content/guides";
+import { BUNDLES } from "@/content/bundles";
 import { LOCAL_PAGES } from "@/content/localPages";
 import { SITE_URL } from "@/lib/utils";
+import { getSeoBrandCategoryCombos } from "@/lib/seo/brandCategoryCombos";
+import { RECOMMENDATION_PAGES } from "@/content/recommendationPages";
+import { categoryImageFor } from "@/lib/categoryVisuals";
+import { NAHARIYA_BUYING_PAGES } from "@/content/nahariyaBuyingPages";
 
 export const revalidate = 10800; // 3 hours
 
@@ -12,6 +17,8 @@ const STATIC_PATHS = [
   "/categories",
   "/brands",
   "/guides",
+  "/bundles",
+  "/recommended",
   "/services/delivery",
   "/about",
   "/contact",
@@ -45,7 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     getProducts(),
     getCategories(),
     getBrands(),
-    getBrandCategoryCombos(),
+    getSeoBrandCategoryCombos(),
   ]);
   const now = new Date();
 
@@ -70,6 +77,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  const nahariyaBuyingEntries: MetadataRoute.Sitemap = NAHARIYA_BUYING_PAGES.map((page) => ({
+    url: `${SITE_URL}/electric-appliances-nahariya/${page.categorySlug}`,
+    lastModified: new Date("2026-07-23"),
+    changeFrequency: "weekly",
+    priority: 0.8,
+    images: [`${SITE_URL}${categoryImageFor(page.categorySlug)}`],
+  }));
+
   const guideEntries: MetadataRoute.Sitemap = GUIDES.flatMap((guide) =>
     ["", "/en", "/ru"].map((prefix) => ({
       url: `${SITE_URL}${prefix}/guides/${guide.slug}`,
@@ -78,6 +93,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: prefix === "" ? 0.5 : 0.4,
     }))
   );
+
+  const bundleEntries: MetadataRoute.Sitemap = BUNDLES.map((bundle) => ({
+    url: `${SITE_URL}/bundles/${bundle.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.75,
+    images: [`${SITE_URL}${bundle.image}`],
+  }));
 
   const categoryEntries: MetadataRoute.Sitemap = categories.map((category) => ({
     url: `${SITE_URL}/categories/${category.slug}`,
@@ -100,6 +123,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.65,
   }));
 
+  const recommendationEntries: MetadataRoute.Sitemap = RECOMMENDATION_PAGES.map((page) => ({
+    url: `${SITE_URL}/recommended/${page.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.75,
+    images: [`${SITE_URL}${categoryImageFor(page.categorySlug)}`],
+  }));
+
   const productEntries: MetadataRoute.Sitemap = products.flatMap((product) =>
     ["", "/en", "/ru"].map((prefix) => ({
       url: `${SITE_URL}${prefix}/products/${encodeURIComponent(product.slug)}`,
@@ -113,10 +144,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...staticEntries,
     ...localizedEntries,
     ...localEntries,
+    ...nahariyaBuyingEntries,
     ...guideEntries,
+    ...bundleEntries,
     ...categoryEntries,
     ...brandEntries,
     ...brandCategoryEntries,
+    ...recommendationEntries,
     ...productEntries,
   ];
 }

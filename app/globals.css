@@ -214,6 +214,24 @@ body {
   animation: sheet-panel-end-out 0.22s cubic-bezier(0.4, 0, 1, 1) both;
 }
 
+.sheet-panel-search {
+  animation: sheet-panel-search-in 0.28s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.sheet-panel-search[data-closing="true"] {
+  animation: sheet-panel-search-out 0.2s ease both;
+}
+
+@keyframes sheet-panel-search-in {
+  from { opacity: 0; transform: translateY(0.75rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes sheet-panel-search-out {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(0.5rem); }
+}
+
 @keyframes sheet-panel-end-in {
   from { transform: translateX(100%); }
   to { transform: translateX(0); }

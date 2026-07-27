@@ -3,7 +3,7 @@
 import Image, { type ImageProps } from "next/image";
 import { useState } from "react";
 
-const FALLBACK_IMAGE = "/images/product-placeholder.svg";
+const FALLBACK_IMAGE = "/images/product-placeholder-v2.webp";
 
 type ProductImageProps = Omit<ImageProps, "src"> & {
   src?: string | null;
@@ -19,8 +19,10 @@ export function ProductImage({ src, alt, onError, ...props }: ProductImageProps)
       src={resolvedSrc}
       alt={alt}
       onError={(event) => {
-        onError?.(event);
-        if (src && resolvedSrc !== FALLBACK_IMAGE) setFailedSrc(src);
+        if (src && resolvedSrc !== FALLBACK_IMAGE) {
+          onError?.(event);
+          setFailedSrc(src);
+        }
       }}
     />
   );

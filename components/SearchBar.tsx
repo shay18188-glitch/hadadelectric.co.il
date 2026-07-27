@@ -1,12 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
 import { cx } from "@/lib/utils";
 import type { CategorySuggestionItem } from "@/components/CategorySuggestions";
 import { ProductImage } from "@/components/ProductImage";
+import type { QuickSearchFilter } from "@/lib/search/quickFilters";
+import { normalizeHebrewSearch } from "@/lib/search/normalizeHebrew";
 
 interface Suggestion {
   name: string;
@@ -16,51 +18,106 @@ interface Suggestion {
   imageUrl: string | null;
 }
 
+interface BrandSuggestion {
+  name: string;
+  slug: string;
+  productCount: number;
+}
+
+interface SearchPayload {
+  results: Suggestion[];
+  categories: CategorySuggestionItem[];
+  brands: BrandSuggestion[];
+  quickFilters: QuickSearchFilter[];
+}
+
+const SEARCH_CACHE_TTL_MS = 10 * 60 * 1000;
+const searchResultCache = new Map<string, { data: SearchPayload; expiresAt: number }>();
+
 export function SearchBar({
   size = "md",
   autoFocus = false,
   placeholder = "חפשו מקרר, מכונת כביסה, מותג, מק״ט או קטגוריה…",
+  submitLabel,
+  className,
   onNavigate,
+  dropdownMode = "floating",
+  desktopLayout = "single",
 }: {
   size?: "md" | "lg";
   autoFocus?: boolean;
   placeholder?: string;
+  submitLabel?: string;
+  className?: string;
   onNavigate?: () => void;
+  dropdownMode?: "floating" | "inline";
+  desktopLayout?: "single" | "wide";
 }) {
   const router = useRouter();
   const [value, setValue] = useState("");
   const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
   const [categorySuggestions, setCategorySuggestions] = useState<CategorySuggestionItem[]>([]);
+  const [brandSuggestions, setBrandSuggestions] = useState<BrandSuggestion[]>([]);
+  const [quickFilters, setQuickFilters] = useState<QuickSearchFilter[]>([]);
+  const [loading, setLoading] = useState(false);
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
+  const inputId = useId();
+  const suggestionsId = useId();
   const containerRef = useRef<HTMLDivElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const submitIndex = categorySuggestions.length + suggestions.length;
+  const productStartIndex = categorySuggestions.length + brandSuggestions.length;
+  const submitIndex = productStartIndex + suggestions.length;
 
   useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
+    const controller = new AbortController();
+
+    const query = value.trim();
+    if (query.length < 2) {
+      return () => controller.abort();
+    }
+
+    const cacheKey = normalizeHebrewSearch(query);
+    const cached = searchResultCache.get(cacheKey);
+    if (cached && cached.expiresAt > Date.now()) {
+      return () => controller.abort();
+    }
 
     debounceRef.current = setTimeout(async () => {
-      if (value.trim().length < 2) {
-        setSuggestions([]);
-        setCategorySuggestions([]);
-        return;
-      }
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(value.trim())}`);
+        const res = await fetch(`/api/search?q=${encodeURIComponent(cacheKey)}`, {
+          signal: controller.signal,
+          cache: "force-cache",
+        });
         if (!res.ok) return;
-        const json = await res.json();
-        setSuggestions(json.results ?? []);
-        setCategorySuggestions(json.categories ?? []);
+        const json = await res.json() as Partial<SearchPayload>;
+        const data: SearchPayload = {
+          results: json.results ?? [],
+          categories: json.categories ?? [],
+          brands: json.brands ?? [],
+          quickFilters: json.quickFilters ?? [],
+        };
+        if (searchResultCache.size >= 80) {
+          searchResultCache.delete(searchResultCache.keys().next().value ?? "");
+        }
+        searchResultCache.set(cacheKey, { data, expiresAt: Date.now() + SEARCH_CACHE_TTL_MS });
+        setSuggestions(data.results);
+        setCategorySuggestions(data.categories);
+        setBrandSuggestions(data.brands);
+        setQuickFilters(data.quickFilters);
         setOpen(true);
       } catch {
         // Search suggestions are a progressive enhancement; fail silently.
+      } finally {
+        if (!controller.signal.aborted) setLoading(false);
       }
-    }, 250);
+    }, 120);
 
     return () => {
       if (debounceRef.current) clearTimeout(debounceRef.current);
+      controller.abort();
     };
   }, [value]);
 
@@ -77,6 +134,42 @@ export function SearchBar({
   function closeAndNavigate() {
     setOpen(false);
     onNavigate?.();
+  }
+
+  function handleValueChange(nextValue: string) {
+    setValue(nextValue);
+    setActiveIndex(-1);
+
+    const query = nextValue.trim();
+    if (query.length < 2) {
+      setSuggestions([]);
+      setCategorySuggestions([]);
+      setBrandSuggestions([]);
+      setQuickFilters([]);
+      setLoading(false);
+      setOpen(false);
+      return;
+    }
+
+    const cached = searchResultCache.get(normalizeHebrewSearch(query));
+    if (cached && cached.expiresAt > Date.now()) {
+      setSuggestions(cached.data.results);
+      setCategorySuggestions(cached.data.categories);
+      setBrandSuggestions(cached.data.brands);
+      setQuickFilters(cached.data.quickFilters);
+      setLoading(false);
+      setOpen(true);
+      return;
+    }
+
+    // Do not leave results from the previous query visible while a new query
+    // is running. This also makes the UI feel immediate on slower networks.
+    setSuggestions([]);
+    setCategorySuggestions([]);
+    setBrandSuggestions([]);
+    setQuickFilters([]);
+    setLoading(true);
+    setOpen(true);
   }
 
   function submitSearch(query: string) {
@@ -111,8 +204,12 @@ export function SearchBar({
       if (activeIndex >= 0 && activeIndex < categorySuggestions.length) {
         router.push(`/categories/${encodeURIComponent(categorySuggestions[activeIndex].slug)}`);
         closeAndNavigate();
-      } else if (activeIndex >= categorySuggestions.length && activeIndex < submitIndex) {
-        const product = suggestions[activeIndex - categorySuggestions.length];
+      } else if (activeIndex >= categorySuggestions.length && activeIndex < productStartIndex) {
+        const brand = brandSuggestions[activeIndex - categorySuggestions.length];
+        router.push(`/brands/${encodeURIComponent(brand.slug)}`);
+        closeAndNavigate();
+      } else if (activeIndex >= productStartIndex && activeIndex < submitIndex) {
+        const product = suggestions[activeIndex - productStartIndex];
         router.push(`/products/${encodeURIComponent(product.slug)}`);
         closeAndNavigate();
       } else {
@@ -127,10 +224,12 @@ export function SearchBar({
   }
 
   const sizeClasses = size === "lg" ? "py-3.5 text-base md:py-5 md:text-lg" : "py-2.5 text-sm md:py-2.5";
-  const showDropdown = open && (suggestions.length > 0 || categorySuggestions.length > 0 || value.trim().length >= 2);
+  const showDropdown = open && (
+    loading || suggestions.length > 0 || categorySuggestions.length > 0 || brandSuggestions.length > 0 || value.trim().length >= 2
+  );
 
   return (
-    <div ref={containerRef} className="relative w-full">
+    <div ref={containerRef} className={cx("relative w-full", className)}>
       <form
         role="search"
         onSubmit={(e) => {
@@ -139,39 +238,68 @@ export function SearchBar({
         }}
         className="relative"
       >
-        <label htmlFor="site-search" className="sr-only">
+        <label htmlFor={inputId} className="sr-only">
           חיפוש מוצרים
         </label>
         <svg
           aria-hidden="true"
           viewBox="0 0 24 24"
-          className="pointer-events-none absolute right-4 top-1/2 h-5 w-5 -translate-y-1/2 fill-none stroke-graphite-soft/60 stroke-2"
+          className="pointer-events-none absolute start-4 top-1/2 h-5 w-5 -translate-y-1/2 fill-none stroke-graphite-soft/60 stroke-2"
         >
           <circle cx="11" cy="11" r="7" />
           <path strokeLinecap="round" d="m20 20-3.5-3.5" />
         </svg>
         <input
-          id="site-search"
+          id={inputId}
           type="search"
           autoFocus={autoFocus}
           value={value}
-          onChange={(e) => {
-            setValue(e.target.value);
-            setActiveIndex(-1);
-          }}
-          onFocus={() => (suggestions.length > 0 || categorySuggestions.length > 0 || value.trim().length >= 2) && setOpen(true)}
+          onChange={(e) => handleValueChange(e.target.value)}
+          onFocus={() => value.trim().length >= 2 && setOpen(true)}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
           role="combobox"
           aria-expanded={showDropdown}
-          aria-controls="search-suggestions"
+          aria-controls={suggestionsId}
           aria-autocomplete="list"
-          className={`w-full rounded-full border border-line bg-white pe-12 ps-4 text-graphite shadow-sm outline-none placeholder:text-graphite-soft/50 focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 ${sizeClasses}`}
+          enterKeyHint="search"
+          autoComplete="off"
+          className={cx(
+            "w-full rounded-full border border-line bg-white ps-12 text-graphite shadow-sm outline-none placeholder:text-graphite-soft/50 focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20",
+            submitLabel ? "pe-[6.4rem]" : "pe-4",
+            sizeClasses
+          )}
         />
+        {submitLabel && (
+          <button
+            type="submit"
+            className="tap-target absolute inset-y-1.5 end-1.5 inline-flex min-w-[5.5rem] items-center justify-center rounded-full bg-brand-blue px-4 text-sm font-bold text-white shadow-[0_10px_24px_-14px_rgba(11,87,147,0.9)] transition-colors hover:bg-brand-blue-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+          >
+            {submitLabel}
+          </button>
+        )}
       </form>
 
       {showDropdown && (
-        <div className="absolute z-40 mt-2 max-h-[min(70vh,420px)] w-full overflow-y-auto rounded-3xl border border-line bg-white shadow-xl">
+        <div
+          id={suggestionsId}
+          className={cx(
+            "z-[80] mt-2 w-full overflow-y-auto overscroll-contain rounded-3xl border border-line bg-white shadow-[0_28px_80px_-28px_rgba(7,26,44,0.45)] [scrollbar-gutter:stable]",
+            dropdownMode === "floating"
+              ? "absolute end-0 max-h-[min(68dvh,36rem)]"
+              : "relative max-h-none overscroll-contain shadow-[0_18px_45px_-28px_rgba(7,57,96,0.4)]",
+            dropdownMode === "floating" &&
+              desktopLayout === "wide" &&
+              "lg:w-[min(42rem,calc(100vw-2rem))]"
+          )}
+          aria-busy={loading}
+        >
+          {loading && suggestions.length === 0 && categorySuggestions.length === 0 && (
+            <div className="flex items-center gap-3 px-4 py-5 text-sm text-graphite-soft/70" role="status">
+              <span className="h-4 w-4 animate-spin rounded-full border-2 border-brand-blue/25 border-t-brand-blue" aria-hidden="true" />
+              מחפש מוצרים והתאמות…
+            </div>
+          )}
           {categorySuggestions.length > 0 && (
             <div className="border-b border-line px-3 py-3">
               <p className="px-1.5 pb-2 text-xs font-semibold text-graphite-soft/60">קטגוריות שמתאימות לחיפוש שלך</p>
@@ -194,10 +322,59 @@ export function SearchBar({
             </div>
           )}
 
+          {quickFilters.length > 0 && (
+            <div className="border-b border-line px-3 py-3">
+              <p className="px-1.5 pb-2 text-xs font-semibold text-graphite-soft/60">התאמות חכמות לפי המאפיינים שחיפשת</p>
+              <div className="scroll-x-fade flex gap-2">
+                {quickFilters.map((filter) => (
+                  <Link
+                    key={`${filter.categorySlug}-${filter.query}`}
+                    href={`/products?category=${encodeURIComponent(filter.categorySlug)}&q=${encodeURIComponent(filter.query)}`}
+                    onClick={closeAndNavigate}
+                    className="tap-target inline-flex shrink-0 items-center gap-1.5 rounded-full border border-brand-gold/30 bg-[#fffaf0] px-3.5 py-2 text-sm font-bold text-graphite transition-colors hover:border-brand-gold hover:bg-brand-gold/12"
+                  >
+                    {filter.label}
+                    <span className="text-xs font-medium text-graphite-soft/55">({filter.count})</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {brandSuggestions.length > 0 && (
+            <div className="border-b border-line px-3 py-3">
+              <p className="px-1.5 pb-2 text-xs font-semibold text-graphite-soft/60">מותגים</p>
+              <div className="scroll-x-fade flex gap-2 md:flex-wrap">
+                {brandSuggestions.map((brand, index) => {
+                  const idx = categorySuggestions.length + index;
+                  return (
+                    <Link
+                      key={brand.slug}
+                      href={`/brands/${brand.slug}`}
+                      onClick={closeAndNavigate}
+                      className={cx(
+                        "tap-target inline-flex shrink-0 items-center rounded-full border px-3.5 py-2 text-sm font-bold transition-colors",
+                        activeIndex === idx
+                          ? "border-brand-blue bg-brand-blue text-white"
+                          : "border-line bg-white text-graphite hover:border-brand-blue/30 hover:text-brand-blue"
+                      )}
+                    >
+                      {brand.name}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {suggestions.length > 0 && (
-            <ul id="search-suggestions" role="listbox">
+            <ul
+              role="listbox"
+              aria-label="מוצרים"
+              className={cx(desktopLayout === "wide" && "lg:grid lg:grid-cols-2")}
+            >
               {suggestions.map((s, index) => {
-                const idx = categorySuggestions.length + index;
+                const idx = productStartIndex + index;
                 return (
                   <li key={s.slug} role="option" aria-selected={idx === activeIndex}>
                     <Link
@@ -209,11 +386,11 @@ export function SearchBar({
                     >
               <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl bg-surface">
                 <ProductImage
-                  src={s.imageUrl || "/images/product-placeholder.svg"}
+                  src={s.imageUrl || "/images/product-placeholder-v2.webp"}
                   alt=""
                   fill
                   sizes="40px"
-                  className={cx("object-contain p-1", !s.imageUrl && "opacity-40")}
+                  className={cx("object-contain", s.imageUrl ? "p-1" : "opacity-95")}
                 />
               </span>
                       <span className="flex flex-col overflow-hidden">

@@ -13,7 +13,7 @@ export function ViewTracker({
   slug,
   category,
 }: {
-  event: Extract<AnalyticsEvent, "product_view" | "category_view" | "brand_view">;
+  event: Extract<AnalyticsEvent, "product_view" | "category_view" | "brand_view" | "bundle_view">;
   slug?: string;
   category?: string;
 }) {

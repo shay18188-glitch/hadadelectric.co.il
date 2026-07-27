@@ -15,8 +15,10 @@ interface PhoneButtonProps {
 }
 
 const VARIANT_CLASSES: Record<NonNullable<PhoneButtonProps["variant"]>, string> = {
-  primary: "bg-brand-blue text-white hover:bg-brand-blue-dark",
-  outline: "border border-line bg-white text-graphite hover:bg-surface",
+  primary:
+    "bg-brand-blue text-white shadow-[0_14px_30px_-18px_rgba(11,87,147,0.95)] hover:-translate-y-0.5 hover:bg-brand-blue-dark hover:shadow-[0_18px_34px_-18px_rgba(11,87,147,0.9)]",
+  outline:
+    "border border-line bg-white/92 text-graphite shadow-[0_12px_28px_-22px_rgba(10,22,36,0.55)] hover:-translate-y-0.5 hover:border-brand-blue/30 hover:bg-white hover:text-brand-blue",
   ghost: "text-graphite hover:bg-surface",
 };
 
@@ -40,13 +42,13 @@ export function PhoneButton({
       aria-label={iconOnly ? label : undefined}
       onClick={() => trackEvent("phone_click", { phone })}
       className={cx(
-        "inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue",
+        "tap-target group inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-all duration-300 active:translate-y-0 active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue",
         VARIANT_CLASSES[variant],
         iconOnly ? "h-10 w-10 p-0" : SIZE_CLASSES[size],
         className
       )}
     >
-      <svg aria-hidden="true" viewBox="0 0 24 24" className={cx("shrink-0 fill-current", iconOnly ? "h-5 w-5 sm:h-6 sm:w-6" : "h-4 w-4")}>
+      <svg aria-hidden="true" viewBox="0 0 24 24" className={cx("shrink-0 fill-current transition-transform duration-300 group-hover:scale-105", iconOnly ? "h-5 w-5 sm:h-6 sm:w-6" : "h-4 w-4")}>
         <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z" />
       </svg>
       {iconOnly ? <span className="sr-only">{label}</span> : label}

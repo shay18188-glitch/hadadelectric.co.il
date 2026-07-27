@@ -8,7 +8,7 @@ import { BusinessProfiles } from "@/components/BusinessProfiles";
 import { getLocaleFromPathname } from "@/lib/i18n/locales";
 import { CHROME } from "@/lib/i18n/chrome";
 import { BUSINESS } from "@/lib/utils";
-import { telHref } from "@/lib/whatsapp/messages";
+import { buildWhatsAppGeneralMessage, buildWhatsAppUrl, telHref } from "@/lib/whatsapp/messages";
 
 // Client component so the chrome follows the current locale (/en, /ru) via
 // the pathname; it renders static links and text only.
@@ -31,8 +31,8 @@ export function Footer() {
               <p className="text-xs text-white/45">{locale === "he" ? BUSINESS.nameEn : BUSINESS.nameHe}</p>
             </div>
           </div>
-          <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/65">{dict.tagline}</p>
-          <address className="mt-4 space-y-1.5 text-sm not-italic text-white/60">
+          <p className="mt-5 max-w-xl text-base leading-8 text-white/72">{dict.tagline}</p>
+          <address className="mt-5 space-y-2 text-base not-italic text-white/66">
             <p>
               {BUSINESS.addressStreet}, {BUSINESS.addressCity}
             </p>
@@ -41,8 +41,13 @@ export function Footer() {
                 {BUSINESS.phoneDisplay}
               </a>
               {" · "}
-              <a href={telHref(BUSINESS.mobileDisplay)} className="hover:text-brand-gold">
-                {BUSINESS.mobileDisplay}
+              <a
+                href={buildWhatsAppUrl(buildWhatsAppGeneralMessage(locale))}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-brand-gold"
+              >
+                WhatsApp
               </a>
             </p>
             <p>
@@ -93,11 +98,11 @@ export function Footer() {
 function FooterColumn({ title, links }: { title: string; links: { href: string; label: string }[] }) {
   return (
     <div>
-      <h2 className="text-sm font-bold text-white">{title}</h2>
-      <ul className="mt-3 space-y-2">
+      <h2 className="text-base font-black text-white">{title}</h2>
+      <ul className="mt-4 space-y-2.5">
         {links.map((link) => (
           <li key={link.href}>
-            <Link href={link.href} className="text-sm text-white/55 transition-colors hover:text-brand-gold">
+            <Link href={link.href} className="text-base text-white/62 transition-colors hover:text-brand-gold">
               {link.label}
             </Link>
           </li>

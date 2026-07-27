@@ -10,9 +10,11 @@ import { JsonLd } from "@/components/JsonLd";
 import { Reveal } from "@/components/Reveal";
 import { GoogleRating } from "@/components/GoogleRating";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { SearchBar } from "@/components/SearchBar";
 import { getCategories, getBrands, getFeaturedProducts } from "@/lib/base44/catalog";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { FAQ_ITEMS } from "@/content/faq";
+import { BUNDLES } from "@/content/bundles";
 import { LOCAL_PAGES } from "@/content/localPages";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 
@@ -49,8 +51,8 @@ export default async function HomePage() {
     <>
       <Hero />
 
-      <section className="container-page py-14 md:py-24" aria-labelledby="categories-heading">
-        <div className="mb-7 flex items-end justify-between gap-5 md:mb-10">
+      <section className="container-page py-14 md:py-24 lg:py-16" aria-labelledby="categories-heading">
+        <div className="mb-4 flex items-end justify-between gap-5 md:mb-10 lg:mb-8">
           <div>
             <p className="section-kicker">כל הבית במקום אחד</p>
             <h2 id="categories-heading" className="section-title mt-3">מה מחפשים לבית?</h2>
@@ -59,26 +61,78 @@ export default async function HomePage() {
             לכל הקטגוריות ←
           </Link>
         </div>
+        <div className="relative z-30 mb-6 rounded-[1.5rem] border border-brand-blue/12 bg-gradient-to-l from-brand-blue-light/75 to-white p-2 shadow-[0_20px_45px_-32px_rgba(11,87,147,0.7)] md:hidden">
+          <SearchBar
+            size="lg"
+            submitLabel="חיפוש"
+            placeholder="חפשו מוצר, מותג או דגם…"
+          />
+          <p className="px-3 pb-1 pt-2 text-xs font-medium text-graphite-soft/62">
+            הצעות חכמות למוצרים וקטגוריות מופיעות תוך כדי ההקלדה
+          </p>
+        </div>
         <CategoryTiles categories={featuredCategories} />
         <Link href="/categories" className="mt-6 inline-flex text-sm font-bold text-brand-blue hover:underline md:hidden">
           לכל הקטגוריות ←
         </Link>
       </section>
 
-      <section className="bg-surface py-14 md:py-24" aria-labelledby="featured-heading">
+      <section className="border-y border-line/70 bg-white py-14 md:py-20 lg:py-14" aria-labelledby="bundles-heading">
         <div className="container-page">
-          <div className="mb-7 flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between md:mb-10">
+          <div className="mb-7 flex items-end justify-between gap-5 md:mb-10 lg:mb-8">
+            <div>
+              <p className="section-kicker">ההמלצה של חדד אלקטריק</p>
+              <h2 id="bundles-heading" className="section-title mt-3">לא מוצר אחד — בית שלם שעובד יחד</h2>
+              <p className="mt-3 max-w-2xl text-sm leading-7 text-graphite-soft/70 md:text-base">
+                חבילות מוכנות לפי שלב בחיים, עם מוצרים מהקטלוג, הסבר לכל בחירה והוספה מרוכזת לסל הבקשה.
+              </p>
+            </div>
+            <Link href="/bundles" className="hidden text-sm font-bold text-brand-blue hover:underline md:block">
+              לכל 15 החבילות ←
+            </Link>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[BUNDLES[0], BUNDLES[1], BUNDLES[3], BUNDLES[7]].map((bundle) => (
+              <Link
+                key={bundle.slug}
+                href={`/bundles/${bundle.slug}`}
+                className="group overflow-hidden rounded-[1.5rem] border border-line/80 bg-surface transition duration-500 hover:-translate-y-1 hover:border-brand-gold/45"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden">
+                  <Image
+                    src={bundle.image}
+                    alt={bundle.imageAlt}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#071a2c]/60 via-transparent to-transparent" />
+                  <span className="absolute bottom-3 right-3 rounded-full bg-white/92 px-3 py-1.5 text-[11px] font-black text-brand-blue shadow-sm">
+                    עד {bundle.slots.length} מוצרים
+                  </span>
+                </div>
+                <div className="p-4">
+                  <h3 className="font-black text-graphite group-hover:text-brand-blue">{bundle.shortTitle}</h3>
+                  <p className="mt-1 line-clamp-2 text-xs leading-5 text-graphite-soft/68">{bundle.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <Link href="/bundles" className="mt-6 inline-flex text-sm font-bold text-brand-blue hover:underline md:hidden">
+            לכל 15 החבילות ←
+          </Link>
+        </div>
+      </section>
+
+      <section className="bg-surface py-14 md:py-24 lg:py-16" aria-labelledby="featured-heading">
+        <div className="container-page">
+          <div className="mb-7 md:mb-10 lg:mb-8">
             <div>
               <p className="section-kicker">נבחרו בקפידה</p>
               <h2 id="featured-heading" className="section-title mt-3">המומלצים שלנו</h2>
               <p className="mt-3 max-w-2xl text-sm leading-6 text-graphite-soft/68 md:text-base">
                 דגמים בולטים עם זמינות עדכנית — לפרטים, ייעוץ והצעה אישית מצוות החנות.
               </p>
-            </div>
-            <div className="flex gap-2 text-xs font-bold">
-              <span className="rounded-full bg-brand-blue px-4 py-2 text-white">מומלצים</span>
-              <span className="rounded-full border border-line bg-white px-4 py-2 text-graphite-soft/65">במלאי</span>
-              <span className="rounded-full border border-line bg-white px-4 py-2 text-graphite-soft/65">חדש באתר</span>
             </div>
           </div>
           <ProductGrid products={featuredProducts} />
@@ -90,7 +144,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="container-page py-14 md:py-24" aria-labelledby="choice-heading">
+      <section className="container-page py-14 md:py-24 lg:py-16" aria-labelledby="choice-heading">
         <div className="blueprint-grid relative overflow-hidden rounded-[2rem] bg-brand-blue-dark px-6 py-10 text-white shadow-[0_34px_80px_-50px_rgba(7,57,96,0.9)] sm:px-9 md:grid md:grid-cols-[1fr_auto] md:items-center md:gap-10 md:rounded-[2.5rem] md:px-14 md:py-14">
           <div className="pointer-events-none absolute -left-24 -top-24 h-80 w-80 rounded-full bg-brand-blue/45 blur-3xl" />
           <div className="relative">
@@ -115,7 +169,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="container-page pb-14 md:pb-24" aria-labelledby="lifestyle-heading">
+      <section className="container-page pb-14 md:pb-24 lg:pb-16" aria-labelledby="lifestyle-heading">
         <div className="grid overflow-hidden rounded-[2rem] border border-line/70 bg-white shadow-[0_32px_85px_-58px_rgba(10,22,36,0.55)] md:grid-cols-[1.18fr_0.82fr] md:rounded-[2.5rem]">
           <div className="relative min-h-[22rem] md:min-h-[34rem]">
             <Image
@@ -140,7 +194,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="border-y border-line/70 bg-white py-12 md:py-16" aria-labelledby="brands-heading">
+      <section className="border-y border-line/70 bg-white py-12 md:py-16 lg:py-14" aria-labelledby="brands-heading">
         <div className="container-page">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div>
@@ -156,7 +210,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="container-page py-14 md:py-24" aria-labelledby="why-heading">
+      <section className="container-page py-14 md:py-24 lg:py-16" aria-labelledby="why-heading">
         <div className="grid gap-8 lg:grid-cols-[0.7fr_1.3fr] lg:gap-16">
           <div>
             <p className="section-kicker">מקומיים. מקצועיים. זמינים.</p>
@@ -177,7 +231,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="bg-surface py-14 md:py-20" aria-labelledby="reviews-heading">
+      <section className="bg-surface py-14 md:py-20 lg:py-14" aria-labelledby="reviews-heading">
         <div className="container-page grid gap-7 md:grid-cols-[0.8fr_1.2fr] md:items-center md:gap-14">
           <div>
             <p className="section-kicker">האמון שלכם הוא המדד שלנו</p>
@@ -190,7 +244,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="container-page py-14 md:py-20" aria-labelledby="local-heading">
+      <section className="container-page py-14 md:py-20 lg:py-14" aria-labelledby="local-heading">
         <div className="page-intro-shell">
           <p className="section-kicker">חנות מוצרי חשמל בנהריה</p>
           <h2 id="local-heading" className="mt-4 text-2xl font-extrabold tracking-[-0.035em] text-graphite md:text-4xl">
@@ -217,7 +271,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="container-page pb-14 md:pb-20" aria-labelledby="faq-heading">
+      <section className="container-page pb-14 md:pb-20 lg:pb-14" aria-labelledby="faq-heading">
         <div className="mb-7 flex items-end justify-between gap-4">
           <div>
             <p className="section-kicker">לפני שמחליטים</p>
@@ -229,7 +283,7 @@ export default async function HomePage() {
         <JsonLd data={faqJsonLd(FAQ_ITEMS.slice(0, 4))} />
       </section>
 
-      <div className="container-page pb-14 md:pb-20">
+      <div className="container-page pb-14 md:pb-20 lg:pb-0">
         <ContactStrip />
       </div>
     </>

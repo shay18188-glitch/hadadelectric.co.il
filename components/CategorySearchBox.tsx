@@ -34,7 +34,7 @@ export function CategorySearchBox({
         <svg
           aria-hidden="true"
           viewBox="0 0 24 24"
-          className="pointer-events-none absolute right-4 top-1/2 h-4.5 w-4.5 -translate-y-1/2 fill-none stroke-graphite-soft/60 stroke-2"
+          className="pointer-events-none absolute start-5 top-1/2 h-5 w-5 -translate-y-1/2 fill-none stroke-graphite-soft/55 stroke-2"
         >
           <circle cx="11" cy="11" r="7" />
           <path strokeLinecap="round" d="m20 20-3.5-3.5" />
@@ -48,7 +48,7 @@ export function CategorySearchBox({
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder={placeholder}
-          className="w-full rounded-2xl border border-line bg-white py-4 ps-5 pe-12 text-sm text-graphite shadow-[0_18px_50px_-38px_rgba(11,23,36,.55)] outline-none placeholder:text-graphite-soft/45 focus:border-brand-blue focus:ring-4 focus:ring-brand-blue/10 md:text-base"
+          className="w-full rounded-2xl border border-line bg-white py-4 pe-5 ps-14 text-sm text-graphite shadow-[0_18px_50px_-38px_rgba(11,23,36,.55)] outline-none placeholder:text-graphite-soft/45 focus:border-brand-blue focus:ring-4 focus:ring-brand-blue/10 md:py-[1.1rem] md:text-base"
         />
       </div>
       <CategoryTiles

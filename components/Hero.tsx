@@ -13,22 +13,25 @@ const TRUST_ITEMS = [
 
 export function Hero() {
   return (
-    <section className="overflow-hidden pb-3 pt-2 md:pb-6 md:pt-5">
+    <section className="overflow-hidden pb-2 pt-1 md:pb-6 md:pt-5">
       <div className="container-page">
-        <div className="grid overflow-hidden rounded-[2rem] border border-line/70 bg-white shadow-[0_36px_100px_-58px_rgba(10,22,36,0.58)] md:min-h-[38rem] md:grid-cols-[0.82fr_1.18fr] md:rounded-[2.75rem]">
-          <div className="relative z-10 flex flex-col justify-center px-6 py-10 sm:px-9 md:px-10 md:py-14 lg:px-14 xl:px-16">
+        <div className="grid overflow-hidden rounded-[1.75rem] border border-line/70 bg-white shadow-[0_30px_80px_-55px_rgba(10,22,36,0.5)] md:min-h-[38rem] md:grid-cols-[0.9fr_1.1fr] md:rounded-[2.75rem] md:shadow-[0_36px_100px_-58px_rgba(10,22,36,0.58)]">
+          <div className="relative z-10 flex flex-col justify-center px-5 py-7 sm:px-9 sm:py-10 md:px-10 md:py-14 lg:px-12 xl:px-14">
             <p className="section-kicker">חדד יובל אלקטריק · נהריה</p>
-            <h1 className="heading-balance mt-5 text-[2.55rem] font-extrabold leading-[0.98] tracking-[-0.055em] text-graphite sm:text-5xl md:text-[3.55rem] lg:text-[4.35rem]">
-              בית חכם מתחיל בבחירה נכונה
+            <h1 className="mt-3.5 text-[2.25rem] font-extrabold leading-[1.02] tracking-[-0.055em] text-graphite min-[390px]:text-[2.4rem] sm:mt-5 sm:text-5xl md:text-[3.35rem] lg:text-[3.75rem] xl:text-[4rem]">
+              <span className="block">מוצרי חשמל בנהריה</span>{" "}
+              <span className="mt-2 block text-[0.64em] leading-[1.15] tracking-[-0.035em] text-brand-blue">
+                קונים רק עם חדד אלקטריק
+              </span>
             </h1>
-            <p className="mt-5 max-w-xl text-[15px] leading-7 text-graphite-soft/78 sm:text-base md:text-lg md:leading-8">
-              מוצרי חשמל מובילים, ייעוץ אישי ושירות שמגיע עד הבית — מנהריה ולכל אזור הצפון.
+            <p className="mt-4 max-w-xl text-[15px] leading-6.5 text-graphite-soft/78 sm:mt-5 sm:text-base sm:leading-7 md:text-lg md:leading-8">
+              מותגים מובילים, התאמה מקצועית ושירות שמגיע עד הבית — בנהריה ובכל אזור הצפון.
             </p>
 
-            <div className="mt-7 flex flex-wrap gap-3 md:mt-9">
+            <div className="mt-5 grid grid-cols-1 gap-2.5 min-[360px]:grid-cols-2 sm:mt-7 sm:flex sm:flex-wrap sm:gap-3 md:mt-9">
               <Link
                 href="/products"
-                className="tap-target inline-flex items-center justify-center rounded-full bg-brand-blue px-6 py-3 text-sm font-bold text-white shadow-[0_14px_30px_-16px_rgba(11,87,147,0.8)] transition-all hover:-translate-y-0.5 hover:bg-brand-blue-dark md:px-7 md:py-3.5 md:text-base"
+                className="tap-target inline-flex w-full items-center justify-center rounded-full bg-brand-blue px-3 py-3 text-sm font-bold text-white shadow-[0_14px_30px_-16px_rgba(11,87,147,0.8)] transition-all hover:-translate-y-0.5 hover:bg-brand-blue-dark sm:w-auto sm:px-6 md:px-7 md:py-3.5 md:text-base"
               >
                 לצפייה במוצרים
                 <span aria-hidden="true" className="me-2">←</span>
@@ -36,26 +39,27 @@ export function Hero() {
               <WhatsAppButton
                 message={buildWhatsAppGeneralMessage()}
                 label="ייעוץ בוואטסאפ"
+                mobileLabel="וואטסאפ"
                 variant="outline"
                 size="lg"
                 trackAs="whatsapp_click_header"
-                className="!border-graphite/15 !bg-white hover:!border-brand-blue/35 hover:!text-brand-blue"
+                className="w-full !border-graphite/15 !bg-white !px-3 !py-3 !text-sm hover:!border-brand-blue/35 hover:!text-brand-blue sm:w-auto sm:!px-6 sm:!py-3.5 sm:!text-base"
               />
             </div>
 
-            <div className="mt-7">
+            <div className="mt-5 sm:mt-7">
               <GoogleRating variant="inline" className="!border-transparent !bg-surface/70 !shadow-none" />
             </div>
           </div>
 
-          <div className="relative min-h-[23rem] overflow-hidden sm:min-h-[31rem] md:min-h-full">
+          <div className="relative min-h-[16rem] overflow-hidden min-[390px]:min-h-[18rem] sm:min-h-[31rem] md:min-h-full">
             <Image
               src="/images/redesign/home-hero.png"
               alt="מטבח וסלון מודרניים עם מקרר, תנור וטלוויזיה"
               fill
               sizes="(max-width: 768px) 100vw, 60vw"
               className="object-cover"
-              priority
+              loading="eager"
             />
             <div className="absolute inset-y-0 right-0 hidden w-24 bg-gradient-to-l from-white to-transparent md:block" />
             <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/18 to-transparent md:hidden" />

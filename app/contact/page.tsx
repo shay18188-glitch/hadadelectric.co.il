@@ -7,7 +7,7 @@ import { PhoneButton } from "@/components/PhoneButton";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { GoogleRating } from "@/components/GoogleRating";
 import { BusinessProfiles } from "@/components/BusinessProfiles";
-import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
+import { buildWhatsAppGeneralMessage, buildWhatsAppUrl } from "@/lib/whatsapp/messages";
 import { BUSINESS } from "@/lib/utils";
 import { BUSINESS_HOURS } from "@/content/businessHours";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -16,7 +16,7 @@ import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
 export const metadata: Metadata = buildMetadata({
   title: "צור קשר — חדד יובל אלקטריק בנהריה",
   description:
-    "יצירת קשר עם חדד יובל אלקטריק בע״מ — טלפון 04-9920948, וואטסאפ 052-2692235, כתובת בנהריה, שעות פעילות וטופס פנייה. בדיקת זמינות והזמנת מוצרי חשמל.",
+    "יצירת קשר עם חדד יובל אלקטריק בע״מ — טלפון 04-9920948, וואטסאפ 04-9920948, כתובת בנהריה, שעות פעילות וטופס פנייה. בדיקת זמינות והזמנת מוצרי חשמל.",
   path: "/contact",
   translations: TRANSLATED_PATHS["/contact"],
 });
@@ -61,7 +61,12 @@ export default function ContactPage() {
                 </p>
                 <p>
                   וואטסאפ:{" "}
-                  <a href="tel:0522692235" className="text-brand-blue hover:underline">
+                  <a
+                    href={buildWhatsAppUrl(buildWhatsAppGeneralMessage())}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand-blue hover:underline"
+                  >
                     {BUSINESS.mobileDisplay}
                   </a>
                 </p>
@@ -98,8 +103,7 @@ export default function ContactPage() {
                 ))}
               </ul>
               <p className="mt-3 text-xs text-graphite-soft/50">
-                שעות הפעילות המדויקות בכפוף לאישור החנות — מומלץ לתאם מראש בטלפון או בוואטסאפ, במיוחד בערבי חג
-                ושבתות.
+                השעות מעודכנות לפי כרטיס Google Business של החנות. בערבי חג ובמועדים מיוחדים ייתכנו שינויים.
               </p>
             </div>
 

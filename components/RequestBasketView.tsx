@@ -46,11 +46,11 @@ export function RequestBasketView() {
             >
               <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-surface md:h-16 md:w-16">
                 <ProductImage
-                  src={item.imageUrl || "/images/product-placeholder.svg"}
+                  src={item.imageUrl || "/images/product-placeholder-v2.webp"}
                   alt=""
                   fill
                   sizes="64px"
-                  className={cx("object-contain p-1.5", !item.imageUrl && "opacity-40")}
+                  className={cx("object-contain", item.imageUrl ? "p-1.5" : "opacity-95")}
                 />
               </span>
               <div className="min-w-0 flex-1">

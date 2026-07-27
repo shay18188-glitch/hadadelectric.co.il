@@ -4,6 +4,7 @@ import { createContext, useCallback, useContext, useMemo, useSyncExternalStore, 
 import type { RequestBasketItem } from "@/types/product";
 import {
   addBasketItem,
+  addBasketItems,
   clearBasket,
   getServerSnapshot,
   getSnapshot,
@@ -17,6 +18,7 @@ interface RequestBasketContextValue {
   count: number;
   isReady: boolean;
   addItem: (item: RequestBasketItem) => void;
+  addItems: (items: RequestBasketItem[]) => void;
   removeItem: (modelNumber: string) => void;
   clear: () => void;
   isInBasket: (modelNumber: string) => boolean;
@@ -39,6 +41,7 @@ export function RequestBasketProvider({ children }: { children: ReactNode }) {
       count: items.length,
       isReady,
       addItem: addBasketItem,
+      addItems: addBasketItems,
       removeItem: removeBasketItem,
       clear: clearBasket,
       isInBasket,

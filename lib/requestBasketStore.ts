@@ -74,6 +74,21 @@ export function addBasketItem(item: RequestBasketItem): void {
   notify();
 }
 
+export function addBasketItems(newItems: RequestBasketItem[]): void {
+  ensureHydrated();
+  const existingModels = new Set(items.map((item) => item.modelNumber));
+  const uniqueItems = newItems.filter((item) => {
+    if (existingModels.has(item.modelNumber)) return false;
+    existingModels.add(item.modelNumber);
+    return true;
+  });
+
+  if (uniqueItems.length === 0) return;
+  items = [...items, ...uniqueItems];
+  persist();
+  notify();
+}
+
 export function removeBasketItem(modelNumber: string): void {
   ensureHydrated();
   items = items.filter((p) => p.modelNumber !== modelNumber);

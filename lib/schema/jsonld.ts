@@ -1,14 +1,53 @@
 import { absoluteUrl, BUSINESS } from "@/lib/utils";
+import { BUSINESS_HOURS_SCHEMA } from "@/content/businessHours";
+import { BUSINESS_PROFILES } from "@/content/reviews";
+
+const ORGANIZATION_ID = absoluteUrl("/#organization");
+const STORE_ID = absoluteUrl("/#store");
+const WEBSITE_ID = absoluteUrl("/#website");
+const PROFILE_URLS = BUSINESS_PROFILES.map((profile) => profile.url);
+
+function openingHoursSpecification() {
+  return BUSINESS_HOURS_SCHEMA.map((entry) => ({
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: entry.dayOfWeek.map((day) => `https://schema.org/${day}`),
+    opens: entry.opens,
+    closes: entry.closes,
+  }));
+}
 
 export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": ORGANIZATION_ID,
     name: BUSINESS.nameHe,
     alternateName: BUSINESS.nameEn,
     url: absoluteUrl("/"),
-    logo: absoluteUrl("/brand/logo.png"),
-    sameAs: [BUSINESS.facebookUrl],
+    logo: {
+      "@type": "ImageObject",
+      "@id": absoluteUrl("/#logo"),
+      url: absoluteUrl("/brand/logo.png"),
+      contentUrl: absoluteUrl("/brand/logo.png"),
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+972-4-9920948",
+      contactType: "customer service",
+      availableLanguage: ["he", "en", "ru"],
+      areaServed: "IL",
+    },
+    knowsAbout: [
+      "מקררים",
+      "מכונות כביסה",
+      "מייבשי כביסה",
+      "מדיחי כלים",
+      "תנורים וכיריים",
+      "טלוויזיות",
+      "מזגנים",
+      "שואבי אבק",
+    ],
+    sameAs: PROFILE_URLS,
   };
 }
 
@@ -16,6 +55,7 @@ export function localBusinessJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "ElectronicsStore",
+    "@id": STORE_ID,
     name: BUSINESS.nameHe,
     alternateName: BUSINESS.nameEn,
     url: absoluteUrl("/"),
@@ -33,7 +73,14 @@ export function localBusinessJsonLd() {
       longitude: 35.098,
     },
     hasMap: "https://www.google.com/maps?q=לוחמי+הגטאות+3+נהריה",
-    sameAs: [BUSINESS.facebookUrl],
+    openingHoursSpecification: openingHoursSpecification(),
+    parentOrganization: { "@id": ORGANIZATION_ID },
+    sameAs: PROFILE_URLS,
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "קטלוג מוצרי החשמל של חדד יובל אלקטריק",
+      url: absoluteUrl("/products"),
+    },
     areaServed: [
       "נהריה", "עכו", "חיפה", "הקריות", "קריית אתא", "כרמיאל", "מעלות תרשיחא", "כפר ורדים", "שלומי",
       "ירכא", "כפר יאסיף", "ג'דיידה-מכר", "טמרה", "שפרעם", "סח'נין", "נצרת", "נוף הגליל", "עפולה",
@@ -46,9 +93,11 @@ export function websiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": WEBSITE_ID,
     name: BUSINESS.nameHe,
     url: absoluteUrl("/"),
     inLanguage: "he-IL",
+    publisher: { "@id": ORGANIZATION_ID },
     potentialAction: {
       "@type": "SearchAction",
       target: {
@@ -60,7 +109,13 @@ export function websiteJsonLd() {
   };
 }
 
-/** LocalBusiness schema scoped to a specific service-area page (city page). */
+/**
+ * Service schema for an area page.
+ *
+ * The business has one physical store in Nahariya. Area pages describe service
+ * coverage; they must not create a second ElectronicsStore entity whose URL
+ * looks like another branch.
+ */
 export function localBusinessAreaJsonLd(params: {
   city: string;
   path: string;
@@ -69,25 +124,13 @@ export function localBusinessAreaJsonLd(params: {
 }) {
   return {
     "@context": "https://schema.org",
-    "@type": "ElectronicsStore",
-    name: BUSINESS.nameHe,
-    alternateName: BUSINESS.nameEn,
+    "@type": "Service",
+    "@id": absoluteUrl(`${params.path}#service`),
+    name: `ייעוץ, מכירה ואספקת מוצרי חשמל ב${params.city}`,
     url: absoluteUrl(params.path),
     description: params.description,
-    telephone: "+972-4-9920948",
-    image: absoluteUrl("/brand/logo.png"),
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: BUSINESS.addressStreet,
-      addressLocality: BUSINESS.addressCity,
-      addressCountry: "IL",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 33.006,
-      longitude: 35.098,
-    },
-    sameAs: [BUSINESS.facebookUrl],
+    serviceType: "ייעוץ, מכירה, משלוח ותיאום התקנת מוצרי חשמל לבית",
+    provider: { "@id": STORE_ID },
     areaServed: [params.city, ...params.areasServed.filter((a) => a !== params.city)].map((name) => ({
       "@type": "City",
       name,
@@ -174,6 +217,39 @@ export function faqJsonLd(items: FaqItem[]) {
   };
 }
 
+export function collectionPageJsonLd(params: {
+  name: string;
+  description: string;
+  path: string;
+  image?: string;
+  dateModified?: string;
+  items: { name: string; path: string; image?: string | null }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: params.name,
+    description: params.description,
+    url: absoluteUrl(params.path),
+    inLanguage: "he-IL",
+    isPartOf: { "@id": WEBSITE_ID },
+    publisher: { "@id": ORGANIZATION_ID },
+    ...(params.dateModified ? { dateModified: params.dateModified } : {}),
+    ...(params.image ? { primaryImageOfPage: absoluteUrl(params.image) } : {}),
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: params.items.length,
+      itemListElement: params.items.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        url: absoluteUrl(item.path),
+        ...(item.image ? { image: item.image.startsWith("http") ? item.image : absoluteUrl(item.image) } : {}),
+      })),
+    },
+  };
+}
+
 export function articleJsonLd(params: {
   title: string;
   description: string;
@@ -186,8 +262,8 @@ export function articleJsonLd(params: {
     headline: params.title,
     description: params.description,
     url: absoluteUrl(params.path),
-    author: { "@type": "Organization", name: BUSINESS.nameHe },
-    publisher: { "@type": "Organization", name: BUSINESS.nameHe, logo: absoluteUrl("/brand/logo.png") },
+    author: { "@id": ORGANIZATION_ID },
+    publisher: { "@id": ORGANIZATION_ID },
     datePublished: params.datePublished ?? "2026-01-01",
   };
 }

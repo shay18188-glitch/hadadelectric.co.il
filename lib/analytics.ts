@@ -21,7 +21,9 @@ export type AnalyticsEvent =
   | "filter_use"
   | "contact_form_submit"
   | "category_view"
-  | "brand_view";
+  | "brand_view"
+  | "bundle_view"
+  | "bundle_add_to_request";
 
 /** Events also persisted to our own server-side counters (for the admin BI). */
 const SERVER_TRACKED: ReadonlySet<AnalyticsEvent> = new Set([
@@ -35,6 +37,8 @@ const SERVER_TRACKED: ReadonlySet<AnalyticsEvent> = new Set([
   "search_query",
   "contact_form_submit",
   "product_add_to_request",
+  "bundle_view",
+  "bundle_add_to_request",
 ]);
 
 /**

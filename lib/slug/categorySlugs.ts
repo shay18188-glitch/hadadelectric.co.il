@@ -25,7 +25,7 @@ export const CATEGORY_SLUGS: Record<string, string> = {
   מאווררים: "fans",
   "מברשת שיניים": "electric-toothbrushes",
   מגברים: "amplifiers",
-  מגהצים: "hair-straighteners",
+  מגהצים: "irons",
   "מחבתות חשמליות": "electric-pans",
   "מחליקי שיער": "hair-stylers",
   "מטהר אוויר": "air-purifiers",

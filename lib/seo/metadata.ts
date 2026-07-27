@@ -134,10 +134,12 @@ export function generateBrandCategoryMetadata(params: {
   category: string;
   categorySlug: string;
   productCount: number;
-}): Metadata {
+}, copy?: { title: string; description: string }): Metadata {
   return buildMetadata({
-    title: `${params.category} ${params.brand} בנהריה והצפון — קטלוג, זמינות והזמנה`,
-    description: `${params.category} ${params.brand} בחדד יובל אלקטריק — ${params.productCount} דגמים, בדיקת זמינות באתר, הצעת מחיר בוואטסאפ ומשלוח והתקנה עד בית הלקוח בכל אזור הצפון.`,
+    title: copy?.title ?? `${params.category} ${params.brand} בנהריה והצפון — קטלוג, זמינות והזמנה`,
+    description:
+      copy?.description ??
+      `${params.category} ${params.brand} בחדד יובל אלקטריק — ${params.productCount} דגמים, בדיקת זמינות באתר, הצעת מחיר בוואטסאפ ומשלוח והתקנה עד בית הלקוח בכל אזור הצפון.`,
     path: `/brands/${params.brandSlug}/${params.categorySlug}`,
   });
 }

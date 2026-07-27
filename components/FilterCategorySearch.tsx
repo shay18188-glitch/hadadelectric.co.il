@@ -15,11 +15,13 @@ export function FilterCategorySearch({
   value,
   onChange,
   layout = "stack",
+  pending = false,
 }: {
   categories: Category[];
   value: string;
   onChange: (slug: string) => void;
   layout?: "grid" | "stack";
+  pending?: boolean;
 }) {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
@@ -46,16 +48,21 @@ export function FilterCategorySearch({
   if (layout === "grid") {
     return (
       <div className="relative flex flex-col gap-1" ref={containerRef}>
-        <label className="text-xs font-medium text-graphite-soft/70">קטגוריה</label>
+        <label className="text-sm font-bold text-graphite-soft/78">קטגוריה</label>
         <button
           type="button"
           onClick={() => setOpen(!open)}
-          className="tap-target flex items-center justify-between gap-2 rounded-xl border border-line bg-white px-3 py-3 text-sm text-graphite outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20"
+          aria-busy={pending}
+          className="tap-target flex items-center justify-between gap-2 rounded-xl border border-line bg-white px-3 py-3 text-base text-graphite outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20"
         >
           <span className="truncate">{selected ? selected.name : "הכל"}</span>
-          <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4 shrink-0 fill-none stroke-graphite-soft/70 stroke-2">
-            <path strokeLinecap="round" strokeLinejoin="round" d="m6 9 6 6 6-6" />
-          </svg>
+          {pending ? (
+            <span className="h-4 w-4 shrink-0 animate-spin rounded-full border-2 border-brand-blue/20 border-t-brand-blue" aria-hidden="true" />
+          ) : (
+            <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4 shrink-0 fill-none stroke-graphite-soft/70 stroke-2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m6 9 6 6 6-6" />
+            </svg>
+          )}
         </button>
 
         {open && (
@@ -65,7 +72,7 @@ export function FilterCategorySearch({
                 <svg
                   aria-hidden="true"
                   viewBox="0 0 24 24"
-                  className="pointer-events-none absolute right-2.5 top-1/2 h-4 w-4 -translate-y-1/2 fill-none stroke-graphite-soft/60 stroke-2"
+                  className="pointer-events-none absolute start-2.5 top-1/2 h-4 w-4 -translate-y-1/2 fill-none stroke-graphite-soft/60 stroke-2"
                 >
                   <circle cx="11" cy="11" r="7" />
                   <path strokeLinecap="round" d="m20 20-3.5-3.5" />
@@ -76,7 +83,7 @@ export function FilterCategorySearch({
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   placeholder="חיפוש קטגוריה…"
-                  className="w-full rounded-lg bg-surface py-2 ps-2 pe-8 text-sm text-graphite outline-none placeholder:text-graphite-soft/50 focus:ring-2 focus:ring-brand-blue/20"
+                  className="w-full rounded-lg bg-surface py-2 pe-2 ps-8 text-sm text-graphite outline-none placeholder:text-graphite-soft/50 focus:ring-2 focus:ring-brand-blue/20"
                 />
               </div>
             </div>
@@ -132,17 +139,25 @@ export function FilterCategorySearch({
 
   return (
     <div className="flex flex-col gap-3">
-      <label className="text-xs font-medium text-graphite-soft/70">קטגוריה</label>
+      <label className="text-sm font-bold text-graphite-soft/78">קטגוריה</label>
 
       {selected && !trimmed && (
         <button
           type="button"
           onClick={() => onChange("")}
+          aria-busy={pending}
           className="tap-target flex items-center gap-2.5 rounded-xl border border-brand-blue/30 bg-brand-blue-light/50 px-3 py-2.5 text-sm font-semibold text-brand-blue"
         >
           <CategoryIcon name={selected.name} className="h-4 w-4" />
           {selected.name}
-          <span className="mr-auto text-xs font-medium opacity-70">×</span>
+          {pending ? (
+            <span className="mr-auto inline-flex items-center gap-1.5 text-xs font-medium opacity-80">
+              <span className="h-3.5 w-3.5 animate-spin rounded-full border-2 border-brand-blue/20 border-t-brand-blue" aria-hidden="true" />
+              מעדכן…
+            </span>
+          ) : (
+            <span className="mr-auto text-xs font-medium opacity-70">×</span>
+          )}
         </button>
       )}
 
@@ -150,7 +165,7 @@ export function FilterCategorySearch({
         <svg
           aria-hidden="true"
           viewBox="0 0 24 24"
-          className="pointer-events-none absolute right-3.5 top-1/2 h-4 w-4 -translate-y-1/2 fill-none stroke-graphite-soft/60 stroke-2"
+          className="pointer-events-none absolute start-3.5 top-1/2 h-4 w-4 -translate-y-1/2 fill-none stroke-graphite-soft/60 stroke-2"
         >
           <circle cx="11" cy="11" r="7" />
           <path strokeLinecap="round" d="m20 20-3.5-3.5" />
@@ -160,7 +175,7 @@ export function FilterCategorySearch({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="חפשו קטגוריה… מקרר, כביסה, תנור"
-          className="tap-target w-full rounded-xl border border-line bg-white py-3 ps-3 pe-10 text-sm text-graphite outline-none placeholder:text-graphite-soft/50 focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20"
+          className="tap-target w-full rounded-xl border border-line bg-white py-3 pe-3 ps-10 text-base text-graphite outline-none placeholder:text-graphite-soft/50 focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20"
         />
       </div>
 

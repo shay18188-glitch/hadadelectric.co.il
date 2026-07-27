@@ -37,6 +37,7 @@ const CATEGORY_VISUALS: Record<string, string> = {
   "hair-dryers": "category-personal-care.png",
   "hair-stylers": "category-personal-care.png",
   "hair-straighteners": "category-personal-care.png",
+  irons: "category-small-appliances.png",
   epilators: "category-personal-care.png",
   "electric-toothbrushes": "category-personal-care.png",
 

@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run generate-search-catalog && next build",
     "start": "next start",
     "lint": "eslint",
     "translate": "tsx scripts/translate-content.mts",
-    "find-images": "tsx scripts/find-product-images.mts"
+    "find-images": "tsx scripts/find-product-images.mts",
+    "generate-search-catalog": "tsx scripts/generate-search-catalog.mts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

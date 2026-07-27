@@ -19,7 +19,13 @@ const CARD_TEXT: Record<Locale, { added: string; add: string; details: string; w
   ru: { added: "Добавлено", add: "В заявку", details: "Подробнее", whatsapp: "Консультация в WhatsApp", model: "Модель" },
 };
 
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({
+  product,
+  onImageError,
+}: {
+  product: Product;
+  onImageError?: (modelNumber: string) => void;
+}) {
   const { addItem, removeItem, isInBasket } = useRequestBasket();
   const inBasket = isInBasket(product.modelNumber);
   const pathname = usePathname();
@@ -51,11 +57,15 @@ export function ProductCard({ product }: { product: Product }) {
         onClick={() => trackEvent("product_view", { model_number: product.modelNumber })}
       >
         <ProductImage
-          src={product.imageUrl || "/images/product-placeholder.svg"}
+          src={product.imageUrl || "/images/product-placeholder-v2.webp"}
           alt={`${product.name} - חדד יובל אלקטריק בע״מ`}
           fill
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className={cx("object-contain p-5 transition-transform duration-700 sm:p-7 sm:group-hover:scale-[1.045]", !product.imageUrl && "opacity-40")}
+          onError={() => onImageError?.(product.modelNumber)}
+          className={cx(
+            "object-contain transition-transform duration-700 sm:group-hover:scale-[1.045]",
+            product.imageUrl ? "p-5 sm:p-7" : "p-0 opacity-95"
+          )}
         />
         <AvailabilityBadge availability={product.availability} locale={locale} className="absolute right-3 top-3 shadow-sm sm:right-4 sm:top-4" />
         <span className="absolute bottom-3 left-3 grid h-9 w-9 place-items-center rounded-full bg-white/90 text-graphite shadow-md backdrop-blur transition-transform group-hover:scale-110 sm:bottom-4 sm:left-4" aria-hidden="true">

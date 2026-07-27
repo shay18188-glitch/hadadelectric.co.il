@@ -81,11 +81,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <div className="surface-card grid overflow-hidden rounded-[2rem] md:grid-cols-2">
           <div className="relative aspect-square overflow-hidden bg-[linear-gradient(145deg,#f6f4ef,#ebe8e1)]">
             <ProductImage
-              src={product.imageUrl || "/images/product-placeholder.svg"}
+              src={product.imageUrl || "/images/product-placeholder-v2.webp"}
               alt={`${product.name} - חדד יובל אלקטריק בע״מ`}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className={cx("object-contain p-8 md:p-12", !product.imageUrl && "opacity-40")}
+              className={cx("object-contain", product.imageUrl ? "p-8 md:p-12" : "p-0 opacity-95")}
               priority
             />
           </div>

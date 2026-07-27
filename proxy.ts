@@ -49,6 +49,19 @@ export function proxy(request: NextRequest, event: NextFetchEvent) {
     }
   }
 
+  // Apply the same canonical category correction inside brand/category pages.
+  const brandCategoryMatch = pathname.match(/^\/brands\/([^/]+)\/([^/]+)$/);
+  if (brandCategoryMatch) {
+    const brandSlug = decodeURIComponent(brandCategoryMatch[1]);
+    const categorySlug = decodeURIComponent(brandCategoryMatch[2]);
+    const canonical = resolveLegacyCategorySlug(categorySlug);
+    if (canonical && canonical !== categorySlug) {
+      const url = request.nextUrl.clone();
+      url.pathname = `/brands/${brandSlug}/${canonical}`;
+      return NextResponse.redirect(url, 301);
+    }
+  }
+
   return NextResponse.next();
 }
 
