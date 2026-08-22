@@ -33,6 +33,10 @@ import {
 } from "@/lib/search/productFacets";
 import { sortProducts } from "@/lib/search/productSorting";
 import { getNahariyaBuyingPage } from "@/content/nahariyaBuyingPages";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { PhoneButton } from "@/components/PhoneButton";
+import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
+import { BUSINESS } from "@/lib/utils";
 
 export const revalidate = 10800; // 3 hours
 
@@ -112,6 +116,16 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
             <div className="mt-5 flex flex-wrap items-center gap-2 text-xs">
               <span className="rounded-full bg-brand-blue px-3.5 py-2 font-bold text-white">{products.length} מוצרים לבחירה</span>
               <span className="rounded-full border border-line bg-white px-3.5 py-2 font-semibold text-graphite">ייעוץ מקצועי מהחנות</span>
+            </div>
+            <div className="mt-5 flex flex-wrap gap-2.5">
+              <WhatsAppButton
+                message={buildWhatsAppGeneralMessage()}
+                label={`ייעוץ על ${category.name}`}
+                mobileLabel="ייעוץ ב־WhatsApp"
+                trackAs="whatsapp_click_header"
+                size="lg"
+              />
+              <PhoneButton phone={BUSINESS.phoneDisplay} label="בדיקת מלאי בטלפון" size="lg" />
             </div>
             {relatedBrands.length > 0 && (
               <div className="scroll-x-fade mt-5 flex gap-2 md:flex-wrap">

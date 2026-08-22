@@ -97,7 +97,7 @@ export const EN_CONTENT: LocalePageContent = {
       {
         title: "How we work",
         paragraphs: [
-          "Our website is a catalog — no prices, no checkout. Once you've found models you like, message us on WhatsApp (04-9920948) or call (04-9920948). We'll confirm availability, prepare a personal quote and schedule delivery and installation.",
+          "Our website is a catalog — no prices, no checkout. Once you've found models you like, message us on WhatsApp (052-2692235) or call (04-9920948). We'll confirm availability, prepare a personal quote and schedule delivery and installation.",
           "We deliver across northern Israel: Nahariya, Acre, the Krayot, Haifa, Karmiel, Ma'alot-Tarshiha, Nazareth, Safed, Tiberias, Kiryat Shmona and the Golan Heights. Our crew knows the buildings of the north and comes prepared.",
         ],
       },
@@ -107,7 +107,7 @@ export const EN_CONTENT: LocalePageContent = {
   contact: {
     metaTitle: "Contact Us — Hadad Electric, Appliance Store in Nahariya",
     metaDescription:
-      "Contact Hadad Electric: phone 04-9920948, WhatsApp 04-9920948, 3 Lohamei HaGetaot St., Nahariya. English-speaking advice, availability checks and appliance orders.",
+      "Contact Hadad Electric: phone 04-9920948, WhatsApp 052-2692235, 3 Lohamei HaGetaot St., Nahariya. English-speaking advice, availability checks and appliance orders.",
     title: "Contact us",
     intro:
       "We're happy to help — checking availability, advising on the right appliance for your home, or arranging an order. Reach us on WhatsApp, by phone, through the form below, or visit the store in Nahariya. We speak English.",
@@ -155,7 +155,7 @@ export const EN_CONTENT: LocalePageContent = {
       {
         title: "How to arrange delivery",
         paragraphs: [
-          "Pick a product from the catalog or tell us what you're looking for — on WhatsApp (04-9920948) or by phone (04-9920948). We'll confirm availability, quote a full price including delivery and installation, and set a time that works for you. Everything can be done in English.",
+          "Pick a product from the catalog or tell us what you're looking for — on WhatsApp (052-2692235) or by phone (04-9920948). We'll confirm availability, quote a full price including delivery and installation, and set a time that works for you. Everything can be done in English.",
         ],
       },
     ],
@@ -184,7 +184,7 @@ export const EN_CONTENT: LocalePageContent = {
           {
             question: "Are there prices on the site?",
             answer:
-              "No. The site is a catalog for browsing our range. For a price, availability check or order, contact us: phone 04-9920948, WhatsApp 04-9920948, or the contact form. That's how we can give you our best personal quote.",
+              "No. The site is a catalog for browsing our range. For a price, availability check or order, contact us: phone 04-9920948, WhatsApp 052-2692235, or the contact form. That's how we can give you our best personal quote.",
           },
           {
             question: "Can I buy and pay through the website?",

@@ -73,6 +73,18 @@ function parseCapabilities(raw: string | null | undefined): string[] {
     .filter(Boolean);
 }
 
+/**
+ * The manufacturer's model number, without the importer's internal code:
+ * "HD-351RWEN (6363)" -> "HD-351RWEN".
+ *
+ * Applied at display and identifier time only, never to `product.modelNumber`
+ * itself — the product slug is derived from the raw value, so normalizing it
+ * upstream would move 66 live URLs.
+ */
+export function cleanModelNumber(modelNumber: string): string {
+  return modelNumber.replace(/\s*\(\d+\)\s*$/, "").trim();
+}
+
 function cleanProductName(rawName: string, category: string | null): string {
   let name = rawName
     .replace(/\s*\((?:קלינטון|מחיר\s*תצוגה)\)\s*/gi, " ")
@@ -121,13 +133,58 @@ function toAvailability(isAvailable: boolean | null | undefined): AvailabilitySt
   return "unknown";
 }
 
-function buildDescription(product: Base44Product, cleanedName: string): string {
-  const parts: string[] = [];
-  if (product.product_capabilities) parts.push(product.product_capabilities);
-  if (parts.length === 0) {
-    return `לפרטים נוספים על ${cleanedName} וזמינות המוצר, ניתן לפנות לחדד יובל אלקטריק בע״מ בוואטסאפ או בטלפון.`;
-  }
-  return parts.join(" ");
+/**
+ * The product paragraph shown on the page — and, through the translation job,
+ * on the English and Russian pages too.
+ *
+ * It used to be `product_capabilities` pasted verbatim: a semicolon-joined
+ * run-on of every marketing bullet, which then appeared a second time in the
+ * "יכולות ומאפיינים" list further down the same page. Two costs came out of
+ * that. On the page it was duplicate content; in the SERP it was truncated
+ * mid-word into a snippet that named neither the brand nor the model.
+ *
+ * The replacement opens with the facts that identify the product — brand,
+ * model, category, then the specs that carry numbers — because that opening
+ * sentence is what an answer engine quotes and what a searcher scanning for
+ * their own model needs to see first. Marketing bullets keep their own
+ * section; they are not repeated here.
+ */
+function buildDescription(product: Base44Product, cleanedName: string, specs: SpecEntry[]): string {
+  const brand = product.brand?.trim();
+  const category = product.category?.trim();
+  const model = product.model_number.trim();
+
+  const identity = [
+    cleanedName,
+    brand ? `מבית ${brand}` : "",
+    model ? `דגם ${model}` : "",
+  ]
+    .filter(Boolean)
+    .join(", ");
+
+  // Only specs with a number say something a reader cannot already see in the
+  // product name. "גימור: נירוסטה" is in the title; "נפח: 470 ליטר" is not.
+  // The model number is excluded even though it contains digits — it is
+  // already in the opening sentence, and it was consuming a spec slot on 151
+  // products to repeat itself.
+  const identifierLabel = /^(דגם|מק"?ט|מק״ט|model|sku)\b/i;
+  const numericSpecs = specs
+    .filter((spec) => spec.label && /\d/.test(spec.value) && !identifierLabel.test(spec.label.trim()))
+    .slice(0, 4)
+    .map((spec) => `${spec.label}: ${spec.value}`);
+
+  // Deliberately no "this model belongs to category X" sentence. It was
+  // byte-identical filler on every page in the catalog and told a reader
+  // nothing the breadcrumb above it did not already say.
+  const sentences = [`${identity}${category ? `, מקטגוריית ${category}` : ""}.`];
+  if (numericSpecs.length > 0) sentences.push(`נתוני מפרט עיקריים — ${numericSpecs.join("; ")}.`);
+  sentences.push(
+    product.is_available === false
+      ? `הדגם אינו מסומן במלאי כרגע. צוות חדד יובל אלקטריק בנהריה יבדוק מועד אספקה או יציע חלופה מתאימה${category ? ` מתוך ${category} שבקטלוג` : ""}, עם משלוח והתקנה בכל אזור הצפון.`
+      : `לבדיקת זמינות מדויקת של ${cleanedName} ולהצעת מחיר אישית — צוות החנות בנהריה, עם משלוח והתקנה עד בית הלקוח בכל אזור הצפון.`
+  );
+
+  return sentences.join(" ");
 }
 
 export function normalizeProduct(product: Base44Product): Product {
@@ -150,7 +207,7 @@ export function normalizeProduct(product: Base44Product): Product {
     originCountry: product.origin_country?.trim() || null,
     specs,
     capabilities,
-    description: correction?.description ?? buildDescription(product, name),
+    description: correction?.description ?? buildDescription(product, name, specs),
     availability: toAvailability(product.is_available),
     slug: generateProductSlug(name, modelNumber),
   };

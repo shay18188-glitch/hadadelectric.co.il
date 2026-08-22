@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { trackEvent } from "@/lib/analytics";
 import type { Locale } from "@/lib/i18n/locales";
+import { markConversionIntent } from "@/lib/conversion-intent";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -115,7 +116,13 @@ export function ContactForm({ locale = "he" }: { locale?: Locale }) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-4" noValidate>
+    <form
+      data-lead-form="contact"
+      onFocusCapture={() => markConversionIntent("form_open")}
+      onSubmit={handleSubmit}
+      className="flex flex-col gap-4"
+      noValidate
+    >
       {/* Honeypot: hidden from users, tempting to bots. Real submissions leave
           it empty; the server drops anything that fills it. */}
       <div aria-hidden="true" className="absolute left-[-9999px] top-[-9999px] h-0 w-0 overflow-hidden" style={{ position: "absolute" }}>

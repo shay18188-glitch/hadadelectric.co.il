@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { GoogleRating } from "@/components/GoogleRating";
+import { PhoneButton } from "@/components/PhoneButton";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
+import { BUSINESS } from "@/lib/utils";
 
 const TRUST_ITEMS = [
   { title: "משלוחים בכל הצפון", note: "מתואם עד הבית", icon: "truck" },
@@ -44,6 +46,12 @@ export function Hero() {
                 size="lg"
                 trackAs="whatsapp_click_header"
                 className="w-full !border-graphite/15 !bg-white !px-3 !py-3 !text-sm hover:!border-brand-blue/35 hover:!text-brand-blue sm:w-auto sm:!px-6 sm:!py-3.5 sm:!text-base"
+              />
+              <PhoneButton
+                phone={BUSINESS.phoneDisplay}
+                label="שיחה עם יועץ"
+                size="lg"
+                className="hidden !px-5 lg:inline-flex"
               />
             </div>
 

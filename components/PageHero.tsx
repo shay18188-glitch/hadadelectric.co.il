@@ -1,6 +1,9 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
-import { cx } from "@/lib/utils";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { PhoneButton } from "@/components/PhoneButton";
+import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
+import { BUSINESS, cx } from "@/lib/utils";
 
 interface PageHeroProps {
   eyebrow: string;
@@ -10,6 +13,7 @@ interface PageHeroProps {
   imageAlt: string;
   badges?: ReactNode;
   imageClassName?: string;
+  showContactActions?: boolean;
 }
 
 export function PageHero({
@@ -20,6 +24,7 @@ export function PageHero({
   imageAlt,
   badges,
   imageClassName,
+  showContactActions = true,
 }: PageHeroProps) {
   return (
     <section
@@ -51,6 +56,24 @@ export function PageHero({
           {description}
         </div>
         {badges && <div className="mt-7 flex flex-wrap gap-2.5 text-sm font-bold text-white/86">{badges}</div>}
+        {showContactActions && (
+          <div className="mt-6 flex flex-wrap gap-2.5">
+            <WhatsAppButton
+              message={buildWhatsAppGeneralMessage()}
+              label="התייעצות ב־WhatsApp"
+              mobileLabel="WhatsApp"
+              size="lg"
+              trackAs="whatsapp_click_header"
+            />
+            <PhoneButton
+              phone={BUSINESS.phoneDisplay}
+              label="שיחה עם החנות"
+              size="lg"
+              variant="outline"
+              className="!border-white/30 !bg-white/8 !text-white hover:!bg-white/14"
+            />
+          </div>
+        )}
       </div>
     </section>
   );

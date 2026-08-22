@@ -111,6 +111,7 @@ export const EXTRA_GUIDES: Guide[] = [
 
   {
     slug: "oled-vs-qled-tv",
+    relatedGuideSlugs: ["tv-65-inch-dimensions", "how-to-choose-a-tv"],
     title: "OLED או QLED — איזו טכנולוגיית מסך מתאימה לסלון שלכם",
     description:
       "ההבדלים האמיתיים בין OLED ל-QLED ול-LED רגיל: שחורים, בהירות, סלון מואר מול חשוך — ומה שווה את הכסף.",
@@ -164,6 +165,7 @@ export const EXTRA_GUIDES: Guide[] = [
 
   {
     slug: "built-in-oven-buying-guide",
+    relatedGuideSlugs: ["oven-dimensions", "built-in-appliance-dimensions"],
     title: "איך בוחרים תנור בנוי — המדריך המלא",
     description:
       "מידות סטנדרט, פירוליזה, טורבו אקטיבי ותוכניות אפייה: כל מה שחשוב לבדוק לפני שקונים תנור בנוי למטבח.",
@@ -312,6 +314,7 @@ export const EXTRA_GUIDES: Guide[] = [
 
   {
     slug: "new-apartment-appliances-checklist",
+    relatedGuideSlugs: ["built-in-appliance-dimensions", "cooktop-dimensions", "oven-dimensions"],
     title: "מוצרי חשמל לדירה חדשה — הצ'קליסט המלא (2026)",
     description:
       "רשימה מסודרת של כל מוצרי החשמל לדירה חדשה: מה חובה מהיום הראשון, מה יכול לחכות, סדר עדיפויות לפי תקציב וטיפים לתיאום אספקה.",
@@ -428,6 +431,11 @@ export const EXTRA_GUIDES: Guide[] = [
 
   {
     slug: "built-in-appliance-dimensions",
+    // This page ranks at position 6.3 and its copy is deliberately untouched.
+    // The sibling links are reciprocal with the three per-category dimension
+    // guides, which is what makes them read as one cluster to a crawler rather
+    // than four pages competing over the word "מידות".
+    relatedGuideSlugs: ["cooktop-dimensions", "oven-dimensions", "tv-65-inch-dimensions"],
     title: "מידות סטנדרט למוצרי בילט אין במטבח — המדריך המעשי",
     description:
       "כל מידות הסטנדרט למוצרים בנויים: תנור, כיריים, מדיח, מיקרוגל בנוי וקולט אדים — ואיך מודדים נישה נכון לפני קנייה.",

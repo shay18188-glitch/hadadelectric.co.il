@@ -6,9 +6,11 @@ import { Footer } from "@/components/Footer";
 import { RequestBasketProvider } from "@/components/RequestBasketProvider";
 import { Analytics } from "@/components/Analytics";
 import { AccessibilityWidget } from "@/components/AccessibilityWidget";
+import { SmartExitOffer } from "@/components/SmartExitOffer";
+import { StickyMobileCta } from "@/components/StickyMobileCta";
 import { A11Y_BOOTSTRAP_SCRIPT } from "@/lib/a11y/apply";
 import { JsonLd } from "@/components/JsonLd";
-import { localBusinessJsonLd, organizationJsonLd, websiteJsonLd } from "@/lib/schema/jsonld";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/schema/jsonld";
 import { absoluteUrl } from "@/lib/utils";
 import { DEFAULT_DESCRIPTION, SITE_NAME } from "@/lib/seo/metadata";
 
@@ -87,14 +89,23 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a href="#main-content" className="skip-link">
           דלג לתוכן הראשי
         </a>
-        <JsonLd data={[organizationJsonLd(), localBusinessJsonLd(), websiteJsonLd()]} />
+        {/* Organization and WebSite describe the site and are correct on every
+            page. The ElectronicsStore entity is not: emitting it sitewide told
+            Google that all ~2,900 URLs — every product, every guide — were the
+            physical shop, which spreads the local signal instead of
+            concentrating it. It now ships only on the three pages that are
+            actually about the store (home, contact, Nahariya), and everything
+            else references it by @id. */}
+        <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
         <RequestBasketProvider>
           <Header />
           <main id="main-content" className="flex-1">
             {children}
           </main>
           <Footer />
+          <StickyMobileCta />
         </RequestBasketProvider>
+        <SmartExitOffer />
         <AccessibilityWidget />
         <Analytics />
       </body>

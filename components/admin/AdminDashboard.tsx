@@ -67,7 +67,11 @@ function RankedList({
 
 export function AdminDashboard({ data, leads, connected, envStatus, categoryNames, brandNames, productNames }: Props) {
   const t = data.totals;
-  const waTotal = (t.whatsapp_click_header ?? 0) + (t.whatsapp_click_product ?? 0) + (t.whatsapp_click_basket ?? 0);
+  const waTotal =
+    (t.whatsapp_click_header ?? 0) +
+    (t.whatsapp_click_product ?? 0) +
+    (t.whatsapp_click_basket ?? 0) +
+    (t.exit_offer_whatsapp ?? 0);
 
   const trendMax = Math.max(1, ...data.daily.map((d) => Object.values(d.events).reduce((a, b) => a + b, 0)));
 
@@ -118,7 +122,7 @@ export function AdminDashboard({ data, leads, connected, envStatus, categoryName
           label="פניות וואטסאפ (קליקים)"
           value={n(waTotal)}
           accent
-          sub={`ראשי ${n(t.whatsapp_click_header)} · מוצר ${n(t.whatsapp_click_product)} · סל ${n(t.whatsapp_click_basket)}`}
+          sub={`ראשי ${n(t.whatsapp_click_header)} · מוצר ${n(t.whatsapp_click_product)} · סל ${n(t.whatsapp_click_basket)} · חלונית ${n(t.exit_offer_whatsapp)}`}
         />
         <StatCard label="קליקים לחיוג טלפוני" value={n(t.phone_click)} accent />
         <StatCard label="צפיות במוצרים" value={n(t.product_view)} />
@@ -127,6 +131,9 @@ export function AdminDashboard({ data, leads, connected, envStatus, categoryName
         <StatCard label="חיפושים באתר" value={n(t.search_query)} />
         <StatCard label="הוספות ל'הבקשה שלי'" value={n(t.product_add_to_request)} />
         <StatCard label="שליחות טופס צור קשר" value={n(t.contact_form_submit)} />
+        <StatCard label="הצגות חלונית חכמה" value={n(t.exit_offer_view)} sub={`נסגרה ללא פנייה ${n(t.exit_offer_dismiss)}`} />
+        <StatCard label="לידים מהחלונית" value={n(t.exit_offer_submit)} accent />
+        <StatCard label="WhatsApp מהחלונית" value={n(t.exit_offer_whatsapp)} accent />
       </section>
 
       {/* Inquiries from the contact form */}

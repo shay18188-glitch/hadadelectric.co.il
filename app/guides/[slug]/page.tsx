@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GUIDES, getGuideBySlug } from "@/content/guides";
+import { DimensionsTable } from "@/components/DimensionsTable";
+import { buildDimensionsTable } from "@/lib/seo/catalogDimensions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { GuideCatalogCta } from "@/components/GuideCatalogCta";
@@ -11,8 +13,9 @@ import { CategoryTiles } from "@/components/CategoryTiles";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/schema/jsonld";
-import { buildMetadata } from "@/lib/seo/metadata";
+import { buildMetadata, withStoreSuffix } from "@/lib/seo/metadata";
 import { translationsForPath } from "@/lib/i18n/locales";
+import { hasGuideTranslation } from "@/lib/i18n/translated";
 import { getCategories, getCategoryBySlug } from "@/lib/base44/catalog";
 import { categoryImageFor } from "@/lib/categoryVisuals";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
@@ -29,11 +32,23 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
+  // Only advertise locale alternates that are actually translated; the en/ru
+  // variants of a brand-new guide are noindexed until the translation job runs.
+  const alternates = translationsForPath(`/guides/${slug}`);
+  const translations = alternates
+    ? {
+        he: alternates.he,
+        ...(hasGuideTranslation(slug, "en") ? { en: alternates.en } : {}),
+        ...(hasGuideTranslation(slug, "ru") ? { ru: alternates.ru } : {}),
+      }
+    : undefined;
+
   return buildMetadata({
-    title: guide.title,
+    title: withStoreSuffix(guide.title),
     description: guide.description,
     path: `/guides/${slug}`,
-    translations: translationsForPath(`/guides/${slug}`) ?? undefined,
+    absoluteTitle: true,
+    translations,
   });
 }
 
@@ -42,10 +57,17 @@ export default async function GuidePage({ params }: GuidePageProps) {
   const guide = getGuideBySlug(slug);
   if (!guide) notFound();
 
-  const [relatedCategory, allCategories] = await Promise.all([
+  const [relatedCategory, allCategories, dimensionsTable] = await Promise.all([
     guide.relatedCategorySlug ? getCategoryBySlug(guide.relatedCategorySlug) : Promise.resolve(null),
     guide.catalogCategorySlugs?.length ? getCategories() : Promise.resolve([]),
+    guide.dimensionsTable ? buildDimensionsTable(guide.dimensionsTable) : Promise.resolve(null),
   ]);
+
+  // Sibling guides, resolved here so an unknown slug is dropped rather than
+  // rendering a dead link.
+  const relatedGuides = (guide.relatedGuideSlugs ?? [])
+    .map((relatedSlug) => getGuideBySlug(relatedSlug))
+    .filter((related): related is NonNullable<typeof related> => Boolean(related));
 
   // For general guides: resolve the relevant categories, preserving the
   // authored order and skipping any that aren't live in the catalog.
@@ -125,6 +147,14 @@ export default async function GuidePage({ params }: GuidePageProps) {
               ))}
             </SeoTextBlock>
 
+            {dimensionsTable && guide.dimensionsTable && (
+              <DimensionsTable
+                table={dimensionsTable}
+                columns={guide.dimensionsTable.columns}
+                caption={guide.dimensionsTable.caption}
+              />
+            )}
+
             {secondHalf.length > 0 && (
               <div className="my-8 rounded-[1.5rem] border border-brand-blue/12 bg-brand-blue-light/35 p-5 sm:flex sm:items-center sm:justify-between sm:gap-6 md:my-10 md:p-6">
                 <div>
@@ -195,6 +225,27 @@ export default async function GuidePage({ params }: GuidePageProps) {
               <FaqAccordion items={guide.faq} />
             </div>
             <JsonLd data={faqJsonLd(guide.faq)} />
+          </section>
+        )}
+
+        {relatedGuides.length > 0 && (
+          <section className="mt-10 max-w-4xl md:mt-14" aria-labelledby="related-guides-heading">
+            <h2 id="related-guides-heading" className="text-2xl font-black text-graphite md:text-3xl">
+              מדריכים שממשיכים מכאן
+            </h2>
+            <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+              {relatedGuides.map((related) => (
+                <li key={related.slug}>
+                  <Link
+                    href={`/guides/${related.slug}`}
+                    className="block h-full rounded-[1.25rem] border border-line/75 bg-white p-5 transition hover:border-brand-blue/35 hover:shadow-[0_18px_45px_-35px_rgba(10,22,36,0.6)]"
+                  >
+                    <p className="text-base font-black leading-snug text-graphite">{related.title}</p>
+                    <p className="mt-2 line-clamp-2 text-sm leading-6 text-graphite-soft/70">{related.description}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 

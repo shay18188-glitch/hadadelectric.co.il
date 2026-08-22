@@ -5,6 +5,10 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CategorySearchBox } from "@/components/CategorySearchBox";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { categoryImageFor } from "@/lib/categoryVisuals";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { PhoneButton } from "@/components/PhoneButton";
+import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
+import { BUSINESS } from "@/lib/utils";
 
 export const revalidate = 10800; // 3 hours
 
@@ -40,6 +44,21 @@ export default async function CategoriesPage() {
             <div className="mt-6 flex flex-wrap gap-2.5 text-sm font-semibold text-white/82">
               <span className="rounded-full border border-white/14 bg-white/8 px-3.5 py-2 backdrop-blur-sm">{categories.length} קטגוריות לבחירה</span>
               <span className="rounded-full border border-white/14 bg-white/8 px-3.5 py-2 backdrop-blur-sm">ייעוץ אישי בנהריה</span>
+            </div>
+            <div className="mt-6 flex flex-wrap gap-2.5">
+              <WhatsAppButton
+                message={buildWhatsAppGeneralMessage()}
+                label="עזרו לי לבחור"
+                trackAs="whatsapp_click_header"
+                size="lg"
+              />
+              <PhoneButton
+                phone={BUSINESS.phoneDisplay}
+                label="שיחה עם החנות"
+                size="lg"
+                variant="outline"
+                className="!border-white/30 !bg-white/8 !text-white hover:!bg-white/14"
+              />
             </div>
           </div>
 

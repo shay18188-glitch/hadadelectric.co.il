@@ -7,12 +7,14 @@ import { PhoneButton } from "@/components/PhoneButton";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
 import { localizeProduct, localizeProducts, localizeCategoryName } from "@/lib/i18n/translated";
 import { JsonLd } from "@/components/JsonLd";
-import { itemPageJsonLd } from "@/lib/schema/jsonld";
+import { productJsonLd } from "@/lib/schema/jsonld";
 import { LOCALE_HTML_LANG, LOCALE_PREFIX, type Locale } from "@/lib/i18n/locales";
 import { BUSINESS, cx } from "@/lib/utils";
 import type { Product } from "@/types/product";
 import type { Category } from "@/types/category";
 import { ProductImage } from "@/components/ProductImage";
+import { productHeading, localizedBrandLabel } from "@/lib/seo/productNaming";
+import { allBrandAliases } from "@/lib/seo/brandNames";
 
 type UiLocale = Exclude<Locale, "he">;
 
@@ -186,11 +188,21 @@ export function LocaleProductDetailPage({
   return (
     <div lang={LOCALE_HTML_LANG[locale]} dir="ltr">
       <JsonLd
-        data={itemPageJsonLd({
-          name: localized.name,
+        data={productJsonLd({
+          name: productHeading(localized),
           description: localized.description,
           path: `${LOCALE_PREFIX[locale]}/products/${product.slug}`,
+          modelNumber: localized.modelNumber,
+          brand: localized.brand,
+          brandAlternateNames: allBrandAliases(localized.brand),
+          category: localized.category,
           imageUrl: localized.imageUrl,
+          originCountry: localized.originCountry,
+          availability: localized.availability,
+          // Specs stay untranslated in the supplier feed, and this component
+          // only ever renders en/ru. Emitting Hebrew name/value pairs on an
+          // English page would misrepresent its language to a crawler, so the
+          // spec properties ride on the Hebrew URL only.
         })}
       />
       <div className="container-page py-10 pb-16 md:py-12">
@@ -207,8 +219,10 @@ export function LocaleProductDetailPage({
           </div>
 
           <div>
-            {localized.brand && <p className="text-sm font-semibold text-brand-blue">{localized.brand}</p>}
-            <h1 className="mt-1 text-xl font-bold text-graphite md:text-3xl">{localized.name}</h1>
+            {localized.brand && (
+              <p className="text-sm font-semibold text-brand-blue">{localizedBrandLabel(localized, locale)}</p>
+            )}
+            <h1 className="mt-1 text-xl font-bold text-graphite md:text-3xl">{productHeading(localized)}</h1>
 
             <div className="mt-2.5 flex flex-wrap items-center gap-2.5 md:mt-3 md:gap-3">
               <AvailabilityBadge availability={localized.availability} locale={locale} />

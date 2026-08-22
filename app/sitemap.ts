@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getBrands, getCategories, getProducts } from "@/lib/base44/catalog";
 import { GUIDES } from "@/content/guides";
+import { hasGuideTranslation, hasProductTranslation } from "@/lib/i18n/translated";
+import { shouldIndexListing } from "@/lib/seo/indexPolicy";
 import { BUNDLES } from "@/content/bundles";
 import { LOCAL_PAGES } from "@/content/localPages";
 import { SITE_URL } from "@/lib/utils";
@@ -85,13 +87,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     images: [`${SITE_URL}${categoryImageFor(page.categorySlug)}`],
   }));
 
+  // Locale variants are listed only once a translation actually exists —
+  // submitting a URL that still renders Hebrew wastes crawl budget on a page
+  // that is noindexed anyway.
   const guideEntries: MetadataRoute.Sitemap = GUIDES.flatMap((guide) =>
-    ["", "/en", "/ru"].map((prefix) => ({
-      url: `${SITE_URL}${prefix}/guides/${guide.slug}`,
-      lastModified: guide.publishedDate ? new Date(guide.publishedDate) : now,
-      changeFrequency: "monthly" as const,
-      priority: prefix === "" ? 0.5 : 0.4,
-    }))
+    ([
+      ["", "he"],
+      ["/en", "en"],
+      ["/ru", "ru"],
+    ] as const)
+      .filter(([, locale]) => hasGuideTranslation(guide.slug, locale))
+      .map(([prefix]) => ({
+        url: `${SITE_URL}${prefix}/guides/${guide.slug}`,
+        lastModified: guide.publishedDate ? new Date(guide.publishedDate) : now,
+        changeFrequency: "monthly" as const,
+        priority: prefix === "" ? 0.5 : 0.4,
+      }))
   );
 
   const bundleEntries: MetadataRoute.Sitemap = BUNDLES.map((bundle) => ({
@@ -102,19 +113,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     images: [`${SITE_URL}${bundle.image}`],
   }));
 
-  const categoryEntries: MetadataRoute.Sitemap = categories.map((category) => ({
-    url: `${SITE_URL}/categories/${category.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.7,
-  }));
+  // Thin listings are noindexed (lib/seo/indexPolicy.ts); submitting them here
+  // would only spend crawl budget on pages Google is told to drop.
+  const categoryEntries: MetadataRoute.Sitemap = categories
+    .filter((category) => shouldIndexListing(category.productCount))
+    .map((category) => ({
+      url: `${SITE_URL}/categories/${category.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }));
 
-  const brandEntries: MetadataRoute.Sitemap = brands.map((brand) => ({
-    url: `${SITE_URL}/brands/${brand.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
+  const brandEntries: MetadataRoute.Sitemap = brands
+    .filter((brand) => shouldIndexListing(brand.productCount))
+    .map((brand) => ({
+      url: `${SITE_URL}/brands/${brand.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    }));
 
   const brandCategoryEntries: MetadataRoute.Sitemap = brandCategoryCombos.map((combo) => ({
     url: `${SITE_URL}/brands/${combo.brandSlug}/${combo.categorySlug}`,
@@ -131,13 +148,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     images: [`${SITE_URL}${categoryImageFor(page.categorySlug)}`],
   }));
 
+  // Same rule as guides: 90 of the products have no translation entry yet and
+  // would render Hebrew under an /en or /ru URL. Those variants are noindexed,
+  // so they do not belong in the sitemap either.
   const productEntries: MetadataRoute.Sitemap = products.flatMap((product) =>
-    ["", "/en", "/ru"].map((prefix) => ({
-      url: `${SITE_URL}${prefix}/products/${encodeURIComponent(product.slug)}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: prefix === "" ? 0.5 : 0.4,
-    }))
+    ([
+      ["", "he"],
+      ["/en", "en"],
+      ["/ru", "ru"],
+    ] as const)
+      .filter(([, locale]) => hasProductTranslation(product.modelNumber, locale))
+      .map(([prefix]) => ({
+        url: `${SITE_URL}${prefix}/products/${encodeURIComponent(product.slug)}`,
+        lastModified: now,
+        changeFrequency: "weekly" as const,
+        priority: prefix === "" ? 0.5 : 0.4,
+      }))
   );
 
   return [

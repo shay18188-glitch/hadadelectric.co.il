@@ -8,6 +8,7 @@ import { buildWhatsAppBasketMessage, buildWhatsAppUrl } from "@/lib/whatsapp/mes
 
 import { cx } from "@/lib/utils";
 import { ProductImage } from "@/components/ProductImage";
+import { markConversionIntent } from "@/lib/conversion-intent";
 
 export function RequestBasketView() {
   const { items, removeItem, clear, isReady } = useRequestBasket();
@@ -85,7 +86,11 @@ export function RequestBasketView() {
         </button>
       </div>
 
-      <div className="rounded-2xl border border-line bg-white p-4 md:p-5 lg:sticky lg:top-24 lg:h-fit">
+      <div
+        data-lead-form="request-basket"
+        onFocusCapture={() => markConversionIntent("form_open")}
+        className="rounded-2xl border border-line bg-white p-4 md:p-5 lg:sticky lg:top-24 lg:h-fit"
+      >
         <h2 className="text-base font-bold text-graphite md:text-lg">פרטים לשליחה (לא חובה)</h2>
         <div className="mt-4 flex flex-col gap-3">
           <Field label="שם מלא" value={name} onChange={setName} autoComplete="name" />

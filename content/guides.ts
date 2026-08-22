@@ -3,6 +3,23 @@ export interface GuideSection {
   paragraphs: string[];
 }
 
+/**
+ * A measured table rendered from the live catalog inside a guide.
+ *
+ * Guides that answer a "מידות" query carry one of these instead of a prose
+ * paragraph about measuring: the query wants numbers, and the catalog has
+ * real ones. See `lib/seo/catalogDimensions.ts`.
+ */
+export interface GuideDimensionsTable {
+  categorySlug: string;
+  /** Narrows the table to a screen size, matched on the inch marker. */
+  screenInches?: number;
+  /** Keeps freestanding models out of a built-in table. */
+  maxHeightCm?: number;
+  columns: ("body" | "withStand" | "vesa" | "cutout")[];
+  caption: string;
+}
+
 export interface Guide {
   slug: string;
   title: string;
@@ -18,9 +35,14 @@ export interface Guide {
   publishedDate: string;
   sections: GuideSection[];
   faq?: { question: string; answer: string }[];
+  /** Rendered after the opening sections, where the answer belongs. */
+  dimensionsTable?: GuideDimensionsTable;
+  /** Sibling guides worth linking to, by slug. Unknown slugs are skipped. */
+  relatedGuideSlugs?: string[];
 }
 
 import { EXTRA_GUIDES } from "@/content/guides.extra";
+import { DIMENSION_GUIDES } from "@/content/guides.dimensions";
 
 const BASE_GUIDES: Guide[] = [
   {
@@ -221,7 +243,7 @@ const BASE_GUIDES: Guide[] = [
   },
 ];
 
-export const GUIDES: Guide[] = [...BASE_GUIDES, ...EXTRA_GUIDES];
+export const GUIDES: Guide[] = [...BASE_GUIDES, ...EXTRA_GUIDES, ...DIMENSION_GUIDES];
 
 export function getGuideBySlug(slug: string): Guide | null {
   return GUIDES.find((g) => g.slug === slug) ?? null;

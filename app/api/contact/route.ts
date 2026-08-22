@@ -59,11 +59,15 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ success: false, error: "privacy_not_accepted" }, { status: 400 });
   }
 
-  // Persist the lead so it shows up in the /admin inquiries panel. Fails soft:
-  // if the store is down the visitor still gets a success (we never lose their
-  // goodwill over our storage), and the submission is at least logged.
+  // Persist the lead so it shows up in the /admin inquiries panel. Only return
+  // success after Redis confirms the write; otherwise the form keeps its error
+  // state and offers WhatsApp instead of silently losing the inquiry.
   const { name, phone, email, message, relevantProduct } = parsed.data;
-  await recordLead({ name, phone, email, message, product: relevantProduct });
+  const leadId = await recordLead({ name, phone, email, message, product: relevantProduct });
+  if (!leadId) {
+    console.error("[contact] lead storage unavailable");
+    return NextResponse.json({ success: false, error: "storage_unavailable" }, { status: 503 });
+  }
 
   // Avoid logging full personal details in plaintext production logs.
   console.info("[contact] new lead stored", {

@@ -29,6 +29,17 @@ export interface RecommendationPage {
   questionsToAsk: string[];
   faq: FaqItem[];
   relatedSlugs: string[];
+  /**
+   * The guide that owns the informational half of this topic.
+   *
+   * These two page types are one query apart and must not chase the same one.
+   * The guide owns "מידות …" — how big is it, what does it need. This page
+   * owns the buying question — which model, is it in stock, who fits it. So
+   * the word "מידות" belongs in the guide's title and never in this one, and
+   * the link between them points a reader across rather than splitting the
+   * signal in two.
+   */
+  relatedGuideSlug?: string;
 }
 
 /**
@@ -44,8 +55,8 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
     categoryName: "מכונות כביסה",
     shortTitle: "מכונות כביסה 10 ק״ג",
     h1: "מכונת כביסה 10 ק״ג מומלצת: הדגמים שמתאימים למשפחה",
-    seoTitle: "מכונת כביסה 10 ק״ג מומלצת — דגמים והשוואה",
-    seoDescription: "מחפשים מכונת כביסה 10 ק״ג? השוו דגמים שקיימים בקטלוג, בדקו עומק, סחיטה ותוכניות וקבלו התאמה והצעת מחיר עם משלוח בצפון.",
+    seoTitle: "מכונת כביסה 10 ק״ג מומלצת — דגמים וזמינות",
+    seoDescription: "קיבולת 10 ק״ג לבית שמכבס הרבה: אילו דגמים קיימים בקטלוג הפעיל, במה הם נבדלים ומה מתאים לכם. ייעוץ אישי, בדיקת זמינות והצעת מחיר בוואטסאפ.",
     eyebrow: "קיבולת גדולה · פחות מחזורי כביסה",
     lead: "ריכזנו רק מכונות שמצוינות כדגמי 10 ק״ג בקטלוג הפעיל, עם הסבר שיעזור להבין איזו מהן מתאימה לחדר הכביסה ולהרגלים שלכם.",
     intro: [
@@ -73,8 +84,8 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
     categoryName: "מכונות כביסה",
     shortTitle: "מכונות כביסה 9 ק״ג",
     h1: "מכונת כביסה 9 ק״ג מומלצת: איזון טוב בין נפח למידות",
-    seoTitle: "מכונת כביסה 9 ק״ג מומלצת — השוואת דגמים",
-    seoDescription: "השוואת מכונות כביסה 9 ק״ג מהקטלוג הפעיל: מידות, סחיטה, תוכניות ומותגים. ייעוץ, בדיקת זמינות והצעת מחיר בחדד יובל אלקטריק.",
+    seoTitle: "מכונת כביסה 9 ק״ג מומלצת — דגמים וזמינות",
+    seoDescription: "איזו מכונת כביסה 9 ק״ג מתאימה למשפחה שלכם? השוואת סחיטה, תוכניות ורעש בין הדגמים שבקטלוג הפעיל, עם בדיקת התאמה לחדר הכביסה והצעת מחיר בוואטסאפ.",
     eyebrow: "בחירה משפחתית מאוזנת",
     lead: "דגמי 9 ק״ג נותנים למשפחות רבות מרווח שימושי בלי לקפוץ לקיבולת הגדולה ביותר. כאן מופיעים רק דגמים שמסומנים 9 ק״ג.",
     intro: [
@@ -102,8 +113,8 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
     categoryName: "מקררים",
     shortTitle: "מקררי 4 דלתות",
     h1: "מקרר 4 דלתות מומלץ: איך בוחרים נפח וחלוקה שמתאימים לבית",
-    seoTitle: "מקרר 4 דלתות מומלץ — דגמים, מידות והשוואה",
-    seoDescription: "מקררי 4 דלתות מומלצים לפי התאמה לבית: השוו דגמים מהקטלוג, נפחים, מידות וחלוקה פנימית וקבלו ייעוץ והצעת מחיר עם משלוח בצפון.",
+    seoTitle: "מקרר 4 דלתות מומלץ — הדגמים שיש בקטלוג",
+    seoDescription: "מקררי 4 דלתות מהקטלוג הפעיל: נפח, חלוקה פנימית, גימור ובר מים. עוזרים לבחור לפי גודל המשפחה והמטבח, עם בדיקת זמינות והצעת מחיר בוואטסאפ.",
     eyebrow: "נפח גדול · חלוקה נוחה · מדידה לפני קנייה",
     lead: "כל מקררי ארבע הדלתות שמופיעים כאן זוהו לפי שם הדגם בקטלוג. לפני שבוחרים, מודדים גם את הנישה וגם את מסלול ההכנסה למטבח.",
     intro: [
@@ -131,8 +142,8 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
     categoryName: "מקררים",
     shortTitle: "מקררים עם מקפיא תחתון",
     h1: "מקרר מקפיא תחתון מומלץ: נוחות יומיומית בגובה העיניים",
-    seoTitle: "מקרר מקפיא תחתון מומלץ — דגמים והשוואה",
-    seoDescription: "השוו מקררים עם מקפיא תחתון מהקטלוג הפעיל: נפח, מידות, מגירות וחלוקה פנימית. ייעוץ, בדיקת זמינות ומשלוח בצפון.",
+    seoTitle: "מקרר מקפיא תחתון מומלץ — דגמים להשוואה",
+    seoDescription: "מקררי מקפיא תחתון מהקטלוג הפעיל: נפח, דירוג אנרגטי ורמת רעש. למה הם נוחים יותר לשימוש יומיומי, ואיזה דגם מתאים לכם. ייעוץ וזמינות בוואטסאפ.",
     eyebrow: "תא קירור נגיש · מקפיא במגירות",
     lead: "ריכזנו מקררים ששמם מציין מקפיא תחתון, כדי שתוכלו להשוות מבנה, נפח ומידות בלי לסנן ידנית קטלוג שלם.",
     intro: [
@@ -160,7 +171,7 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
     categoryName: "תנורים",
     shortTitle: "תנורים בנויים",
     h1: "תנור בנוי מומלץ: התאמה לנישה, לאפייה ולניקוי",
-    seoTitle: "תנור בנוי מומלץ — דגמים, מידות ומדריך בחירה",
+    seoTitle: "תנור בנוי מומלץ — דגמים ומדריך בחירה",
     seoDescription: "מחפשים תנור בנוי מומלץ? השוו דגמים מהקטלוג לפי מידות נישה, נפח, טורבו וניקוי וקבלו ייעוץ והצעת מחיר בחדד יובל אלקטריק.",
     eyebrow: "אפייה מדויקת מתחילה בהתאמה נכונה",
     lead: "בעמוד מופיעים רק תנורים שמוגדרים כתנור בנוי בקטלוג. המדריך ממקד את ההשוואה בתכונות שמשפיעות באמת על שימוש והתקנה.",
@@ -181,6 +192,7 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
       { question: "האם כל תנור בנוי מתאים לנישה סטנדרטית?", answer: "רבים מיועדים לנישה נפוצה של כ־60 ס״מ, אבל המידות המדויקות ודרישות האוורור משתנות. בודקים שרטוט התקנה של הדגם לפני רכישה." },
     ],
     relatedSlugs: ["induction-cooktops", "integrated-dishwashers", "four-door-refrigerators"],
+    relatedGuideSlug: "oven-dimensions",
   },
   {
     slug: "integrated-dishwashers",
@@ -218,8 +230,8 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
     categoryName: "טלוויזיות",
     shortTitle: "טלוויזיות 65 אינץ׳",
     h1: "טלוויזיה 65 אינץ׳ מומלצת: התאמה למרחק, לאור ולתוכן",
-    seoTitle: "טלוויזיה 65 אינץ׳ מומלצת — השוואת דגמים",
-    seoDescription: "השוו טלוויזיות 65 אינץ׳ מהקטלוג: QLED, OLED ודגמי 4K לפי מרחק צפייה, תאורה וגיימינג. ייעוץ, זמינות ומשלוח בצפון.",
+    seoTitle: "טלוויזיה 65 אינץ׳ מומלצת — הדגמים שיש בקטלוג",
+    seoDescription: "איזו טלוויזיה 65 אינץ׳ מתאימה לסלון שלכם? OLED, QLED ו‑Mini LED מהקטלוג הפעיל, לפי תאורת החדר, גיימינג ומרחק צפייה. ייעוץ אישי ובדיקת זמינות בוואטסאפ.",
     eyebrow: "הגודל המבוקש לסלון · הבחירה נקבעת לפי החדר",
     lead: "ריכזנו רק מסכי 65 אינץ׳ שמופיעים כך בשם המוצר בקטלוג. כדי לבחור נכון משווים טכנולוגיית תצוגה ושימוש, לא רק מותג.",
     intro: [
@@ -239,6 +251,7 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
       { question: "האם כל טלוויזיות 65 אינץ׳ באותו רוחב?", answer: "המסך עצמו דומה באלכסון, אך מסגרות, עומק ומעמדים שונים. בודקים מידות עם ובלי מעמד ותבנית VESA לפני תלייה." },
     ],
     relatedSlugs: ["robot-vacuums", "air-conditioners-1hp", "four-door-refrigerators"],
+    relatedGuideSlug: "tv-65-inch-dimensions",
   },
   {
     slug: "induction-cooktops",
@@ -268,6 +281,7 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
       { question: "האם אפשר להחליף כיריים גז באינדוקציה בלי לשנות שיש?", answer: "רק אם מידת החיתוך והמרווחים מתאימים לדגם החדש ויש תשתית חשמל מתאימה. לעיתים נדרשת התאמת שיש ועבודת חשמל." },
     ],
     relatedSlugs: ["built-in-ovens", "integrated-dishwashers", "bottom-freezer-refrigerators"],
+    relatedGuideSlug: "cooktop-dimensions",
   },
   {
     slug: "robot-vacuums",
@@ -276,8 +290,8 @@ export const RECOMMENDATION_PAGES: RecommendationPage[] = [
     categoryName: "שואבים רובוטיים",
     shortTitle: "שואבים רובוטיים",
     h1: "שואב רובוטי מומלץ: ניווט, שטיפה ותחנה שמתאימים לבית",
-    seoTitle: "שואב רובוטי מומלץ — השוואת דגמים ומדריך",
-    seoDescription: "השוו שואבים רובוטיים מהקטלוג לפי ניווט, שטיפה, תחנה, שטיחים ותחזוקה. דגמי Dreame, Roborock ועוד עם ייעוץ והצעת מחיר.",
+    seoTitle: "שואב אבק רובוטי מומלץ — דגמים להשוואה",
+    seoDescription: "שואבים רובוטיים מהקטלוג הפעיל: ניווט לייזר, עוצמת שאיבה, שטיפה ותחנת ריקון עצמית. איזה דגם מתאים לבית שלכם — ייעוץ אישי ובדיקת זמינות בוואטסאפ.",
     eyebrow: "ניקוי אוטומטי · התאמה לסוג הרצפה והבית",
     lead: "הקטגוריה קטנה וממוקדת, ולכן העמוד מציג את כל השואבים הרובוטיים הפעילים ומסביר אילו הבדלים באמת משפיעים ביום־יום.",
     intro: [

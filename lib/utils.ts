@@ -24,6 +24,6 @@ export const BUSINESS = {
   addressCity: "נהריה",
   phoneDisplay: "04-9920948",
   phoneHref: "tel:049920948",
-  mobileDisplay: "04-9920948",
+  mobileDisplay: "052-2692235",
   facebookUrl: "https://www.facebook.com/Hadad.Electric",
 } as const;

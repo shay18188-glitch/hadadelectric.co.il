@@ -3,8 +3,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { getProductBySlug, getProductsBySameBrand, getRelatedProducts } from "@/lib/base44/catalog";
 import { LocaleProductDetailPage } from "@/components/i18n/LocaleCatalog";
 import { localizeProduct } from "@/lib/i18n/translated";
-import { buildMetadata } from "@/lib/seo/metadata";
-import { translationsForPath } from "@/lib/i18n/locales";
+import { generateProductMetadata } from "@/lib/seo/metadata";
 
 // Rendered on demand (no generateStaticParams): translated product pages are
 // cached via ISR instead of pre-building ~830 extra pages per locale.
@@ -18,17 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = await getProductBySlug(decodeURIComponent(slug));
   if (!product) return {};
-  const localized = localizeProduct(product, "ru");
-  const description =
-    localized.description.length > 155 ? `${localized.description.slice(0, 152)}...` : localized.description;
-  return buildMetadata({
-    title: localized.name,
-    description,
-    path: `/ru/products/${product.slug}`,
-    locale: "ru",
-    translations: translationsForPath(`/products/${product.slug}`) ?? undefined,
-    images: product.imageUrl ? [product.imageUrl] : undefined,
-  });
+  return generateProductMetadata(localizeProduct(product, "ru"), "ru");
 }
 
 export default async function RussianProductPage({ params }: Props) {

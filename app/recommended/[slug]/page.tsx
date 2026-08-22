@@ -10,6 +10,7 @@ import { ProductGrid } from "@/components/ProductGrid";
 import { ViewTracker } from "@/components/ViewTracker";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { getRecommendationPage, RECOMMENDATION_PAGES } from "@/content/recommendationPages";
+import { getGuideBySlug } from "@/content/guides";
 import { categoryImageFor } from "@/lib/categoryVisuals";
 import { getRecommendationProducts } from "@/lib/seo/recommendationProducts";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -55,6 +56,10 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
         .map((product) => [product.brandSlug as string, product.brand as string])
     ).entries()
   );
+  // The informational half of the topic. Linking it keeps the two pages from
+  // competing for the same query and hands the reader the measurements this
+  // page deliberately does not repeat.
+  const relatedGuide = page.relatedGuideSlug ? getGuideBySlug(page.relatedGuideSlug) : null;
   const relatedPages = page.relatedSlugs
     .map((relatedSlug) => getRecommendationPage(relatedSlug))
     .filter((relatedPage) => relatedPage !== null);
@@ -105,6 +110,15 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
               <p className="mt-4 text-xs leading-5 text-graphite-soft/58">
                 “מומלץ” פירושו מתאים לצורך ולמידות שלכם. לא בוצעה בדיקת מעבדה או קביעה של דירוג אוניברסלי.
               </p>
+              {relatedGuide && (
+                <p className="mt-3 text-sm leading-6 text-graphite-soft/72">
+                  מחפשים את המידות המדויקות?{" "}
+                  <Link href={`/guides/${relatedGuide.slug}`} className="font-bold text-brand-blue hover:underline">
+                    {relatedGuide.title}
+                  </Link>{" "}
+                  — טבלת מידות מדודה לפי דגם.
+                </p>
+              )}
             </div>
 
             <div className="relative min-h-[22rem] overflow-hidden bg-surface md:min-h-[42rem]">

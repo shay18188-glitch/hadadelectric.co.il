@@ -1,5 +1,7 @@
 "use client";
 
+import { markConversionIntent } from "@/lib/conversion-intent";
+
 type GtagFn = (...args: unknown[]) => void;
 
 declare global {
@@ -23,7 +25,11 @@ export type AnalyticsEvent =
   | "category_view"
   | "brand_view"
   | "bundle_view"
-  | "bundle_add_to_request";
+  | "bundle_add_to_request"
+  | "exit_offer_view"
+  | "exit_offer_submit"
+  | "exit_offer_whatsapp"
+  | "exit_offer_dismiss";
 
 /** Events also persisted to our own server-side counters (for the admin BI). */
 const SERVER_TRACKED: ReadonlySet<AnalyticsEvent> = new Set([
@@ -39,6 +45,10 @@ const SERVER_TRACKED: ReadonlySet<AnalyticsEvent> = new Set([
   "product_add_to_request",
   "bundle_view",
   "bundle_add_to_request",
+  "exit_offer_view",
+  "exit_offer_submit",
+  "exit_offer_whatsapp",
+  "exit_offer_dismiss",
 ]);
 
 /**
@@ -74,6 +84,13 @@ function sendServerBeacon(event: AnalyticsEvent, params: Record<string, unknown>
  */
 export function trackEvent(event: AnalyticsEvent, params: Record<string, unknown> = {}): void {
   if (typeof window === "undefined") return;
+  if (event.startsWith("whatsapp_click") || event === "exit_offer_whatsapp") {
+    markConversionIntent("whatsapp");
+  } else if (event === "phone_click") {
+    markConversionIntent("phone");
+  } else if (event === "contact_form_submit" || event === "exit_offer_submit") {
+    markConversionIntent("form_submit");
+  }
   try {
     if (typeof window.gtag === "function") {
       window.gtag("event", event, params);

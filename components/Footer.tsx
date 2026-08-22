@@ -9,6 +9,7 @@ import { getLocaleFromPathname } from "@/lib/i18n/locales";
 import { CHROME } from "@/lib/i18n/chrome";
 import { BUSINESS } from "@/lib/utils";
 import { buildWhatsAppGeneralMessage, buildWhatsAppUrl, telHref } from "@/lib/whatsapp/messages";
+import { trackEvent } from "@/lib/analytics";
 
 // Client component so the chrome follows the current locale (/en, /ru) via
 // the pathname; it renders static links and text only.
@@ -37,7 +38,11 @@ export function Footer() {
               {BUSINESS.addressStreet}, {BUSINESS.addressCity}
             </p>
             <p>
-              <a href={telHref(BUSINESS.phoneDisplay)} className="hover:text-brand-gold">
+              <a
+                href={telHref(BUSINESS.phoneDisplay)}
+                onClick={() => trackEvent("phone_click", { phone: BUSINESS.phoneDisplay })}
+                className="hover:text-brand-gold"
+              >
                 {BUSINESS.phoneDisplay}
               </a>
               {" · "}
@@ -45,6 +50,7 @@ export function Footer() {
                 href={buildWhatsAppUrl(buildWhatsAppGeneralMessage(locale))}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("whatsapp_click_header")}
                 className="hover:text-brand-gold"
               >
                 WhatsApp

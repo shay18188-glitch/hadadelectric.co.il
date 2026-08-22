@@ -16,7 +16,7 @@ import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { FAQ_ITEMS } from "@/content/faq";
 import { BUNDLES } from "@/content/bundles";
 import { LOCAL_PAGES } from "@/content/localPages";
-import { faqJsonLd } from "@/lib/schema/jsonld";
+import { faqJsonLd, localBusinessJsonLd } from "@/lib/schema/jsonld";
 
 export const revalidate = 10800;
 
@@ -281,6 +281,8 @@ export default async function HomePage() {
         </div>
         <FaqAccordion items={FAQ_ITEMS.slice(0, 4)} />
         <JsonLd data={faqJsonLd(FAQ_ITEMS.slice(0, 4))} />
+        {/* One of the three pages that carry the physical-store entity. */}
+        <JsonLd data={localBusinessJsonLd()} />
       </section>
 
       <div className="container-page pb-14 md:pb-20 lg:pb-0">

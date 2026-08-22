@@ -12,11 +12,17 @@ import { BUSINESS } from "@/lib/utils";
 import { BUSINESS_HOURS } from "@/content/businessHours";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { TRANSLATED_PATHS } from "@/lib/i18n/locales";
+import { JsonLd } from "@/components/JsonLd";
+import { localBusinessJsonLd } from "@/lib/schema/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: "צור קשר — חדד יובל אלקטריק בנהריה",
+  // The root layout appends "| חדד יובל אלקטריק בע״מ", so a title that also
+  // opens with the store name printed it twice and ran to 55 characters —
+  // truncated in the SERP, with the useful words cut off. 119 impressions a
+  // month at position 10.3 and no clicks. Lead with what the searcher wants.
+  title: "טלפון, וואטסאפ, כתובת ושעות פתיחה בנהריה",
   description:
-    "יצירת קשר עם חדד יובל אלקטריק בע״מ — טלפון 04-9920948, וואטסאפ 04-9920948, כתובת בנהריה, שעות פעילות וטופס פנייה. בדיקת זמינות והזמנת מוצרי חשמל.",
+    "יצירת קשר עם חדד יובל אלקטריק בע״מ — טלפון 04-9920948, וואטסאפ 052-2692235, כתובת בנהריה, שעות פעילות וטופס פנייה. בדיקת זמינות והזמנת מוצרי חשמל.",
   path: "/contact",
   translations: TRANSLATED_PATHS["/contact"],
 });
@@ -24,6 +30,8 @@ export const metadata: Metadata = buildMetadata({
 export default function ContactPage() {
   return (
     <>
+      {/* Contact is one of the three pages that are about the physical store. */}
+      <JsonLd data={localBusinessJsonLd()} />
       <Breadcrumbs items={[{ name: "צור קשר", path: "/contact" }]} />
       <div className="container-page pb-12 md:pb-16">
         <div className="page-intro-shell">

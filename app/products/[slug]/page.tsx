@@ -17,9 +17,12 @@ import { ProductStickyCta } from "@/components/ProductStickyCta";
 import { ViewTracker } from "@/components/ViewTracker";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
 import { JsonLd } from "@/components/JsonLd";
-import { itemPageJsonLd } from "@/lib/schema/jsonld";
+import { productJsonLd } from "@/lib/schema/jsonld";
 import { BUSINESS, cx } from "@/lib/utils";
 import { ProductImage } from "@/components/ProductImage";
+import { productHeading, localizedBrandLabel } from "@/lib/seo/productNaming";
+import { allBrandAliases } from "@/lib/seo/brandNames";
+import { measure } from "@/lib/seo/catalogDimensions";
 
 export const revalidate = 10800; // 3 hours
 
@@ -55,16 +58,27 @@ export default async function ProductPage({ params }: ProductPageProps) {
   ]);
 
   const whatsappMessage = buildWhatsAppProductMessage(product);
+  // Parsed from the spec sheet; null whenever the feed is ambiguous, so the
+  // markup never claims a measurement the record does not support.
+  const measured = measure(product);
 
   return (
     <>
       <ViewTracker event="product_view" slug={product.slug} category={product.categorySlug ?? undefined} />
       <JsonLd
-        data={itemPageJsonLd({
-          name: product.name,
+        data={productJsonLd({
+          name: productHeading(product),
           description: product.description,
           path: `/products/${product.slug}`,
+          modelNumber: product.modelNumber,
+          brand: product.brand,
+          brandAlternateNames: allBrandAliases(product.brand),
+          category: product.category,
           imageUrl: product.imageUrl,
+          originCountry: product.originCountry,
+          availability: product.availability,
+          specs: product.specs,
+          dimensionsCm: measured?.body ?? null,
         })}
       />
       <Breadcrumbs
@@ -92,8 +106,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
           <div className="flex flex-col justify-center p-6 md:p-10 lg:p-14">
             <p className="section-kicker">בחירה איכותית לבית</p>
-            {product.brand && <p className="mt-4 text-xs font-black uppercase tracking-[0.16em] text-brand-blue">{product.brand}</p>}
-            <h1 className="heading-balance mt-2 text-2xl font-black leading-[1.12] tracking-[-0.035em] text-graphite md:text-4xl">{product.name}</h1>
+            {product.brand && (
+              <p className="mt-4 text-xs font-black uppercase tracking-[0.16em] text-brand-blue">
+                {localizedBrandLabel(product, "he")}
+              </p>
+            )}
+            <h1 className="heading-balance mt-2 text-2xl font-black leading-[1.12] tracking-[-0.035em] text-graphite md:text-4xl">
+              {productHeading(product)}
+            </h1>
 
             <div className="mt-2.5 flex flex-wrap items-center gap-2.5 md:mt-3 md:gap-3">
               <AvailabilityBadge availability={product.availability} />

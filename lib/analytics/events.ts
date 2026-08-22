@@ -17,6 +17,10 @@ export const TRACKED_EVENTS = [
   "search_query",
   "contact_form_submit",
   "product_add_to_request",
+  "exit_offer_view",
+  "exit_offer_submit",
+  "exit_offer_whatsapp",
+  "exit_offer_dismiss",
 ] as const;
 
 export type TrackedEvent = (typeof TRACKED_EVENTS)[number];

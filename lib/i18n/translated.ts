@@ -36,6 +36,21 @@ const CATALOG_STORES: Record<"en" | "ru", CatalogStore> = {
   ru: catalogRu as never,
 };
 
+/**
+ * Whether a real translation exists for a guide in a locale.
+ *
+ * `localizeGuide` falls back to Hebrew when a translation is missing, which is
+ * right for a reader who landed there — but a page of Hebrew prose served
+ * under `hreflang="ru"` is a page Google is entitled to treat as a mistake.
+ * Callers use this to noindex the untranslated variant until the translation
+ * job has run, rather than shipping it and hoping.
+ */
+export function hasGuideTranslation(slug: string, locale: Locale): boolean {
+  if (locale === "he") return true;
+  const guideTranslation = GUIDE_STORES[locale].entries[slug];
+  return Boolean(guideTranslation?.title);
+}
+
 export function localizeGuide(guide: Guide, locale: Locale): Guide {
   if (locale === "he") return guide;
   const t = GUIDE_STORES[locale].entries[guide.slug];
@@ -56,6 +71,20 @@ export function localizeGuide(guide: Guide, locale: Locale): Guide {
         ? t.faq
         : guide.faq,
   };
+}
+
+/**
+ * Whether a real translation exists for a product in a locale.
+ *
+ * 90 of the 891 catalog products have no entry, and `localizeProduct` falls
+ * back to Hebrew — which now means an English URL serving a Hebrew name with
+ * an English suffix bolted on. Same rule as guides: keep the page reachable,
+ * keep it out of the index and out of the hreflang cluster until the
+ * translation job has run.
+ */
+export function hasProductTranslation(modelNumber: string, locale: Locale): boolean {
+  if (locale === "he") return true;
+  return Boolean(CATALOG_STORES[locale].products[modelNumber]?.name);
 }
 
 export function localizeProduct(product: Product, locale: Locale): Product {
