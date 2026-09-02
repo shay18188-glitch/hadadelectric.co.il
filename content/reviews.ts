@@ -8,9 +8,9 @@
  * out to the genuine reviews on Google.
  */
 export const GOOGLE_REVIEWS = {
-  rating: 4.8,
-  // Verified directly against the live Google Maps business profile on 2026-08-04.
-  count: 31,
+  rating: 4.9,
+  // Verified directly against the live Google Maps business profile on 2026-09-02.
+  count: 35,
   /** Stable Maps deep-link to the business profile (feature id, not session-bound). */
   url: "https://www.google.com/maps?ftid=0x151dce58ddf47767:0x3d9768238086ce41",
 } as const;
