@@ -26,8 +26,12 @@ export interface BusinessProfile {
  */
 export const BUSINESS_PROFILES: BusinessProfile[] = [
   { name: "Google", url: GOOGLE_REVIEWS.url },
-  { name: "פייסבוק", url: "https://www.facebook.com/Hadad.Electric/" },
-  { name: "אינסטגרם", url: "https://www.instagram.com/hadadelectric/" },
+  // Platform names are written in Latin in every language, including Hebrew
+  // usage, so they need no locale variant — and writing them in Hebrew was the
+  // last avoidable Hebrew string on the /en and /ru pages. "דפי זהב" stays: it
+  // is a Hebrew brand name, not a transliteration.
+  { name: "Facebook", url: "https://www.facebook.com/Hadad.Electric/" },
+  { name: "Instagram", url: "https://www.instagram.com/hadadelectric/" },
   { name: "דפי זהב", url: "https://www.d.co.il/24391800/17850/" },
   { name: "B144", url: "https://www.b144.co.il/b144_sip/401C04134072605B4B150717/" },
   { name: "easy", url: "https://easy.co.il/en/page/5170642" },

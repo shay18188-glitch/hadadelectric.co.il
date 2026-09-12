@@ -129,7 +129,7 @@ export function Header() {
                 <div className="hidden xl:block">
                   <WhatsAppButton
                     message={buildWhatsAppGeneralMessage()}
-                    label="ייעוץ בוואטסאפ"
+                    label={dict.whatsappCta}
                     trackAs="whatsapp_click_header"
                     size="sm"
                   />
@@ -137,7 +137,7 @@ export function Header() {
                 <div className="xl:hidden">
                   <WhatsAppButton
                     message={buildWhatsAppGeneralMessage()}
-                    label="ייעוץ בוואטסאפ"
+                    label={dict.whatsappCta}
                     trackAs="whatsapp_click_header"
                     iconOnly
                   />

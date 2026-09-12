@@ -54,6 +54,11 @@ export interface ChromeDict {
    * accessibility menu and a Hebrew review count under `hreflang="ru"`.
    */
   skipToContent: string;
+  /** Logo link label and the tagline under the wordmark. */
+  logoHome: string;
+  logoTagline: string;
+  /** Header and product-card WhatsApp call to action. */
+  whatsappCta: string;
   basketLabel: (count: number) => string;
   reviews: {
     ariaLabel: (rating: string, count: number) => string;
@@ -115,6 +120,9 @@ export const CHROME: Record<Locale, ChromeDict> = {
       searchFieldLabel: "חיפוש מוצרים",
     },
     skipToContent: "דלג לתוכן הראשי",
+    logoHome: "חדד יובל אלקטריק בע״מ — לדף הבית",
+    logoTagline: "מוצרי חשמל לבית · נהריה והצפון",
+    whatsappCta: "ייעוץ בוואטסאפ",
     basketLabel: (count) => `הבקשה שלי, ${count} מוצרים`,
     reviews: {
       ariaLabel: (rating, count) => `דירוג ${rating} מתוך 5 מבוסס על ${count} ביקורות בגוגל`,
@@ -202,6 +210,9 @@ export const CHROME: Record<Locale, ChromeDict> = {
       searchFieldLabel: "Product search",
     },
     skipToContent: "Skip to main content",
+    logoHome: "Hadad Yuval Electric — home page",
+    logoTagline: "Home appliances · Nahariya and the north",
+    whatsappCta: "Ask on WhatsApp",
     basketLabel: (count) => `My request, ${count} products`,
     reviews: {
       ariaLabel: (rating, count) => `Rated ${rating} out of 5 based on ${count} Google reviews`,
@@ -287,6 +298,9 @@ export const CHROME: Record<Locale, ChromeDict> = {
       searchFieldLabel: "Поиск товаров",
     },
     skipToContent: "Перейти к основному содержанию",
+    logoHome: "Hadad Yuval Electric — на главную",
+    logoTagline: "Бытовая техника · Нагария и север",
+    whatsappCta: "Консультация в WhatsApp",
     basketLabel: (count) => `Моя заявка, товаров: ${count}`,
     reviews: {
       ariaLabel: (rating, count) => `Рейтинг ${rating} из 5 на основе ${count} отзывов в Google`,

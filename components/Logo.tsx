@@ -1,3 +1,8 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+import { getLocaleFromPathname } from "@/lib/i18n/locales";
+import { CHROME } from "@/lib/i18n/chrome";
 import Image from "next/image";
 import Link from "next/link";
 import { cx } from "@/lib/utils";
@@ -11,6 +16,8 @@ export function Logo({
   compact?: boolean;
   iconOnly?: boolean;
 }) {
+  const pathname = usePathname();
+  const dict = CHROME[getLocaleFromPathname(pathname ?? "/")];
   return (
     <Link
       href="/"
@@ -18,7 +25,7 @@ export function Logo({
         "flex items-center gap-2 rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue",
         className
       )}
-      aria-label="חדד יובל אלקטריק בע״מ — לדף הבית"
+      aria-label={dict.logoHome}
     >
       <span
         className={cx(
@@ -37,7 +44,7 @@ export function Logo({
       </span>
       <span className={cx("hidden flex-col leading-tight", !iconOnly && "sm:flex", compact && !iconOnly && "sm:hidden")}>
         <span className="text-sm font-extrabold tracking-[-0.02em] text-graphite md:text-base">חדד יובל אלקטריק</span>
-        <span className="mt-0.5 text-[10px] font-medium text-graphite-soft/60">מוצרי חשמל לבית · נהריה והצפון</span>
+        <span className="mt-0.5 text-[10px] font-medium text-graphite-soft/60">{dict.logoTagline}</span>
       </span>
     </Link>
   );
