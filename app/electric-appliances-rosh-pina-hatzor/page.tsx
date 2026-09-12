@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getLocalPageByPath } from "@/content/localPages";
 import { LocalAreaPageContent } from "@/components/LocalAreaPageContent";
-import { getCategories } from "@/lib/base44/catalog";
+import { getCategories, getCategoryStock } from "@/lib/base44/catalog";
 import { generateLocalPageMetadata } from "@/lib/seo/metadata";
 
 const content = getLocalPageByPath("/electric-appliances-rosh-pina-hatzor")!;
@@ -15,6 +15,6 @@ export const metadata: Metadata = generateLocalPageMetadata({
 });
 
 export default async function Page() {
-  const categories = await getCategories();
-  return <LocalAreaPageContent content={content} categories={categories} />;
+  const [categories, stock] = await Promise.all([getCategories(), getCategoryStock()]);
+  return <LocalAreaPageContent content={content} categories={categories} stock={stock} />;
 }

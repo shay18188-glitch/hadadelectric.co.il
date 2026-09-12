@@ -20,9 +20,11 @@ const HOW_IT_WORKS_STEPS = ["בוחרים בקטלוג", "שולחים וואט�
 export function LocalAreaPageContent({
   content,
   categories,
+  stock,
 }: {
   content: LocalPageContent;
   categories: Category[];
+  stock?: Record<string, { total: number; inStock: number }>;
 }) {
   // Dimension guides for the categories this page highlights, de-duplicated
   // and capped so the module stays a signpost rather than a second sitemap.
@@ -133,9 +135,21 @@ export function LocalAreaPageContent({
                   {category.name}
                 </h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-graphite-soft/80">{category.note}</p>
+                {stock?.[category.slug] && stock[category.slug].total > 0 && (
+                  <p className="mt-2 text-xs text-graphite-soft/65">
+                    {stock[category.slug].inStock > 0
+                      ? `${stock[category.slug].inStock} דגמים זמינים כעת · ${stock[category.slug].total} בקטלוג`
+                      : `${stock[category.slug].total} דגמים בקטלוג`}
+                  </p>
+                )}
               </Link>
             ))}
           </div>
+          {stock && (
+            <p className="mt-3 text-xs text-graphite-soft/55">
+              המספרים מתעדכנים מהקטלוג כמה פעמים ביום. זמינות המלאי כפופה לאישור החנות.
+            </p>
+          )}
         </section>
 
         {/* Service areas + NAP */}

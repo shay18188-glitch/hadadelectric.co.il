@@ -148,6 +148,37 @@ export function buildCategories(products: Product[]): Category[] {
     .sort((a, b) => b.productCount - a.productCount);
 }
 
+/**
+ * Live model counts per category, split by availability.
+ *
+ * The area pages argue that a local shop can actually tell you what it has,
+ * and then showed nothing a visitor could check. `productCount` on Category is
+ * the whole catalog, stock included or not, so it cannot answer "do they have
+ * one right now" — the question these pages exist to answer and the one that
+ * otherwise costs a WhatsApp message to resolve.
+ *
+ * `inStock` counts only records the supplier feed marks available; "unknown"
+ * is not counted as available, on the same principle as the product schema,
+ * which omits availability entirely rather than guessing. Both numbers are
+ * shown together so a reader can see the sample rather than a bare claim.
+ */
+export interface CategoryStock {
+  total: number;
+  inStock: number;
+}
+
+export async function getCategoryStock(): Promise<Record<string, CategoryStock>> {
+  const products = await getProducts();
+  const out: Record<string, CategoryStock> = {};
+  for (const product of products) {
+    if (!product.categorySlug) continue;
+    const bucket = (out[product.categorySlug] ??= { total: 0, inStock: 0 });
+    bucket.total += 1;
+    if (product.availability === "in_stock") bucket.inStock += 1;
+  }
+  return out;
+}
+
 /** Build brand facets from an already-fetched catalog. */
 export function buildBrands(products: Product[]): Brand[] {
   const counts = new Map<string, number>();

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { LOCAL_PAGES } from "@/content/localPages";
 import { LocalAreaPageContent } from "@/components/LocalAreaPageContent";
-import { getCategories } from "@/lib/base44/catalog";
+import { getCategories, getCategoryStock } from "@/lib/base44/catalog";
 import { generateLocalPageMetadata } from "@/lib/seo/metadata";
 import { HE_RU_PATHS } from "@/lib/i18n/locales";
 import { JsonLd } from "@/components/JsonLd";
@@ -20,7 +20,7 @@ export const metadata: Metadata = generateLocalPageMetadata({
 });
 
 export default async function Page() {
-  const categories = await getCategories();
+  const [categories, stock] = await Promise.all([getCategories(), getCategoryStock()]);
   return (
     <>
       {/*
@@ -30,7 +30,7 @@ export default async function Page() {
         markup, which is what stops them reading as branch locations.
       */}
       <JsonLd data={localBusinessJsonLd()} />
-      <LocalAreaPageContent content={content} categories={categories} />
+      <LocalAreaPageContent content={content} categories={categories} stock={stock} />
     </>
   );
 }
