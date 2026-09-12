@@ -38,6 +38,7 @@ export function SearchBar({
   size = "md",
   autoFocus = false,
   placeholder = "חפשו מקרר, מכונת כביסה, מותג, מק״ט או קטגוריה…",
+  fieldLabel = "חיפוש מוצרים",
   submitLabel,
   className,
   onNavigate,
@@ -47,6 +48,8 @@ export function SearchBar({
   size?: "md" | "lg";
   autoFocus?: boolean;
   placeholder?: string;
+  /** Screen-reader label for the input; localized by the header. */
+  fieldLabel?: string;
   submitLabel?: string;
   className?: string;
   onNavigate?: () => void;
@@ -239,7 +242,7 @@ export function SearchBar({
         className="relative"
       >
         <label htmlFor={inputId} className="sr-only">
-          חיפוש מוצרים
+          {fieldLabel}
         </label>
         <svg
           aria-hidden="true"

@@ -3,6 +3,7 @@ import { LOCAL_PAGES } from "@/content/localPages";
 import { LocalAreaPageContent } from "@/components/LocalAreaPageContent";
 import { getCategories } from "@/lib/base44/catalog";
 import { generateLocalPageMetadata } from "@/lib/seo/metadata";
+import { HE_RU_PATHS } from "@/lib/i18n/locales";
 import { JsonLd } from "@/components/JsonLd";
 import { localBusinessJsonLd } from "@/lib/schema/jsonld";
 
@@ -14,6 +15,8 @@ export const metadata: Metadata = generateLocalPageMetadata({
   title: content.metaTitle,
   description: content.metaDescription,
   path: content.path,
+  // The only area page with a Russian counterpart; see HE_RU_PATHS.
+  translations: HE_RU_PATHS[content.path],
 });
 
 export default async function Page() {

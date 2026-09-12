@@ -39,6 +39,20 @@ export const TRANSLATED_PATHS: Record<string, Record<Locale, string>> = {
   "/services/delivery": { he: "/services/delivery", en: "/en/delivery", ru: "/ru/delivery" },
   "/guides": { he: "/guides", en: "/en/guides", ru: "/ru/guides" },
   "/products": { he: "/products", en: "/en/products", ru: "/ru/products" },
+  "/categories": { he: "/categories", en: "/en/categories", ru: "/ru/categories" },
+};
+
+/**
+ * Pages that exist in Hebrew and Russian but not English, keyed by the Hebrew
+ * path. Kept separate from TRANSLATED_PATHS because that map's Record<Locale,
+ * string> shape promises all three languages, and advertising an /en URL that
+ * does not exist is worse than advertising none.
+ */
+export const HE_RU_PATHS: Record<string, { he: string; ru: string }> = {
+  "/electric-appliances-nahariya": {
+    he: "/electric-appliances-nahariya",
+    ru: "/ru/electric-appliances-nahariya",
+  },
 };
 
 /**
@@ -46,7 +60,7 @@ export const TRANSLATED_PATHS: Record<string, Record<Locale, string>> = {
  * has en/ru equivalents at /en<path> and /ru<path> (same slugs, translated
  * content with Hebrew fallback).
  */
-const TRANSLATED_PREFIXES = ["/guides/", "/products/"];
+const TRANSLATED_PREFIXES = ["/guides/", "/products/", "/categories/"];
 
 /** Build the translation map for a Hebrew path, or null if untranslated. */
 export function translationsForPath(hePath: string): Record<Locale, string> | null {
@@ -77,8 +91,10 @@ export function switcherTargets(pathname: string): Record<Locale, string> {
   }
   const translated = translationsForPath(stripLocalePrefix(pathname));
   if (translated) return { ...translated };
+  const heRu = HE_RU_PATHS[stripLocalePrefix(pathname)];
+  if (heRu) return { he: heRu.he, ru: heRu.ru, en: "/en" };
   const locale = getLocaleFromPathname(pathname);
-  // Untranslated page (categories, brands, local pages…): keep Hebrew URLs
+  // Untranslated page (brands, bundles, local pages…): keep Hebrew URLs
   // as-is, send other locales to their home page.
   return {
     he: locale === "he" ? pathname : "/",

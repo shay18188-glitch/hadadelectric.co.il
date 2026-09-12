@@ -36,6 +36,15 @@ export interface ChromeDict {
     menuTitle: string;
     languageLabel: string;
     chooseLanguage: string;
+    /**
+     * The three trust claims in the utility bar, and the search field's own
+     * labels. These rendered as hard-coded Hebrew on every page including /en
+     * and /ru — a Russian category listing served a Hebrew delivery promise
+     * and a Hebrew search placeholder under `hreflang="ru"`.
+     */
+    trust: [string, string, string];
+    searchPlaceholder: string;
+    searchFieldLabel: string;
   };
   footer: {
     tagline: string;
@@ -70,6 +79,9 @@ export const CHROME: Record<Locale, ChromeDict> = {
       menuTitle: "תפריט",
       languageLabel: "שפה",
       chooseLanguage: "בחירת שפה",
+      trust: ["משלוחים והתקנה בכל אזור הצפון", "ייעוץ אישי מחנות פיזית בנהריה", "יבואנים רשמיים"],
+      searchPlaceholder: "חפשו מקרר, מכונת כביסה, מותג, מק״ט או קטגוריה…",
+      searchFieldLabel: "חיפוש מוצרים",
     },
     footer: {
       tagline:
@@ -116,6 +128,7 @@ export const CHROME: Record<Locale, ChromeDict> = {
   en: {
     nav: [
       { href: "/en/products", label: "Catalog", icon: ICONS.catalog },
+      { href: "/en/categories", label: "Categories", icon: ICONS.categories },
       { href: "/en/guides", label: "Guides", icon: ICONS.guides },
       { href: "/en/delivery", label: "Delivery", icon: ICONS.delivery },
       { href: "/en/about", label: "About", icon: ICONS.about },
@@ -129,6 +142,9 @@ export const CHROME: Record<Locale, ChromeDict> = {
       menuTitle: "Menu",
       languageLabel: "Language",
       chooseLanguage: "Choose language",
+      trust: ["Delivery and installation across northern Israel", "Personal advice from a real shop in Nahariya", "Official importers"],
+      searchPlaceholder: "Search a fridge, washing machine, brand or model…",
+      searchFieldLabel: "Product search",
     },
     footer: {
       tagline:
@@ -136,6 +152,7 @@ export const CHROME: Record<Locale, ChromeDict> = {
       catalogTitle: "Catalog",
       catalogLinks: [
         { href: "/en/products", label: "All products" },
+        { href: "/en/categories", label: "Shop by category" },
         { href: "/en/guides", label: "Buying guides" },
         { href: "/brands", label: "Brands (Hebrew)" },
         { href: "/request", label: "My request" },
@@ -172,6 +189,7 @@ export const CHROME: Record<Locale, ChromeDict> = {
   ru: {
     nav: [
       { href: "/ru/products", label: "Каталог", icon: ICONS.catalog },
+      { href: "/ru/categories", label: "Категории", icon: ICONS.categories },
       { href: "/ru/guides", label: "Гиды", icon: ICONS.guides },
       { href: "/ru/delivery", label: "Доставка", icon: ICONS.delivery },
       { href: "/ru/about", label: "О магазине", icon: ICONS.about },
@@ -185,6 +203,9 @@ export const CHROME: Record<Locale, ChromeDict> = {
       menuTitle: "Меню",
       languageLabel: "Язык",
       chooseLanguage: "Выбор языка",
+      trust: ["Доставка и установка по всему северу Израиля", "Личная консультация в магазине в Нагарии", "Официальные импортёры"],
+      searchPlaceholder: "Холодильник, стиральная машина, бренд или модель…",
+      searchFieldLabel: "Поиск товаров",
     },
     footer: {
       tagline:
@@ -192,6 +213,7 @@ export const CHROME: Record<Locale, ChromeDict> = {
       catalogTitle: "Каталог",
       catalogLinks: [
         { href: "/ru/products", label: "Все товары" },
+        { href: "/ru/categories", label: "Категории техники" },
         { href: "/ru/guides", label: "Гиды покупателя" },
         { href: "/brands", label: "Бренды (иврит)" },
         { href: "/request", label: "Моя заявка" },

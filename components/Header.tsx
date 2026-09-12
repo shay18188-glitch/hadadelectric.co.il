@@ -69,10 +69,10 @@ export function Header() {
                 <div className="flex items-center gap-5">
                   <p className="flex items-center gap-2 font-semibold text-graphite">
                     <span className="h-1.5 w-1.5 rounded-full bg-brand-gold" aria-hidden="true" />
-                    משלוחים והתקנה בכל אזור הצפון
+                    {dict.header.trust[0]}
                   </p>
-                  <span className="hidden xl:inline">ייעוץ אישי מחנות פיזית בנהריה</span>
-                  <span className="hidden xl:inline">יבואנים רשמיים</span>
+                  <span className="hidden xl:inline">{dict.header.trust[1]}</span>
+                  <span className="hidden xl:inline">{dict.header.trust[2]}</span>
                 </div>
                 <div className="flex items-center gap-4">
                   {utilityNav.map((link) => (
@@ -116,7 +116,11 @@ export function Header() {
               </nav>
 
               <div className="hidden min-w-[12rem] max-w-[16rem] flex-1 lg:block xl:max-w-[19rem] 2xl:max-w-sm">
-                <SearchBar desktopLayout="wide" />
+                <SearchBar
+                  desktopLayout="wide"
+                  placeholder={dict.header.searchPlaceholder}
+                  fieldLabel={dict.header.searchFieldLabel}
+                />
               </div>
 
               <div className="hidden items-center gap-1.5 border-s border-line/70 ps-3 lg:flex xl:gap-2">

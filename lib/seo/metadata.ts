@@ -6,7 +6,7 @@ import type { Brand } from "@/types/brand";
 import { seoBrandName } from "@/lib/seo/brandNames";
 import { productSearchTitle, productMetaDescription, type SeoLocale } from "@/lib/seo/productNaming";
 import { shouldIndexListing } from "@/lib/seo/indexPolicy";
-import { hasProductTranslation } from "@/lib/i18n/translated";
+import { hasProductTranslation, localizeCategoryName } from "@/lib/i18n/translated";
 
 export const SITE_NAME = BUSINESS.nameHe;
 export const DEFAULT_DESCRIPTION =
@@ -141,15 +141,72 @@ export function generateProductMetadata(product: Product, locale: SeoLocale = "h
   });
 }
 
-export function generateCategoryMetadata(category: Category): Metadata {
+/**
+ * Category copy per locale.
+ *
+ * The Russian strings lead with "купить в Израиле" because that is how the
+ * demand actually arrives: Search Console shows "стиральная машина с сушкой
+ * купить в израиле" at position 9.97 and "напольный кондиционер купить в
+ * израиле" at 8.59 — buying intent, already ranking, with no category page to
+ * land on until now.
+ */
+const CATEGORY_COPY = {
+  he: (name: string) => ({
+    title: withStoreSuffix(`${name} בנהריה והצפון — קטלוג, זמינות והזמנה`),
+    description: `${name} בחדד יובל אלקטריק בנהריה — מותגים מובילים, בדיקת זמינות באתר והזמנה בוואטסאפ או בטלפון, עם משלוח והתקנה עד בית הלקוח בכל הצפון.`,
+  }),
+  en: (name: string) => ({
+    title: `${name} in Nahariya and northern Israel — ${BUSINESS.nameEn}`,
+    description: `${name} at Hadad Yuval Electric, a physical appliance shop in Nahariya. Check the live catalog, then message us for exact availability and a personal quote. Delivery and installation across northern Israel.`,
+  }),
+  ru: (name: string) => ({
+    title: `${name} — купить в Израиле | ${BUSINESS.nameEn}, Нагария`,
+    description: `${name} в магазине Hadad Yuval Electric в Нагарии. Актуальный каталог, проверка наличия и персональная цена в WhatsApp — по-русски. Доставка и установка по всему северу Израиля.`,
+  }),
+} as const;
+
+export function generateCategoryMetadata(category: Category, locale: SeoLocale = "he"): Metadata {
+  const hebrewPath = `/categories/${category.slug}`;
+  const path = locale === "he" ? hebrewPath : `/${locale}${hebrewPath}`;
+  const copy = CATEGORY_COPY[locale](
+    localizeCategoryName(category.slug, category.name, locale) ?? category.name
+  );
+
   return buildMetadata({
     // A listing with one or two products is that product with extra chrome.
-    // See lib/seo/indexPolicy.ts.
+    // See lib/seo/indexPolicy.ts. The rule is locale-independent: a thin
+    // listing is thin in every language.
     noindex: !shouldIndexListing(category.productCount),
-    title: withStoreSuffix(`${category.name} בנהריה והצפון — קטלוג, זמינות והזמנה`),
+    title: copy.title,
     absoluteTitle: true,
-    description: `${category.name} בחדד יובל אלקטריק בנהריה — מותגים מובילים, בדיקת זמינות באתר והזמנה בוואטסאפ או בטלפון, עם משלוח והתקנה עד בית הלקוח בכל הצפון.`,
-    path: `/categories/${category.slug}`,
+    description: copy.description,
+    path,
+    locale,
+    translations: { he: hebrewPath, en: `/en${hebrewPath}`, ru: `/ru${hebrewPath}` },
+  });
+}
+
+export function generateLocaleCategoriesIndexMetadata(locale: Exclude<SeoLocale, "he">): Metadata {
+  const copy = {
+    en: {
+      title: `Appliance categories — ${BUSINESS.nameEn}, Nahariya`,
+      description:
+        "Every home-appliance category stocked at Hadad Yuval Electric in Nahariya — refrigerators, washing machines, air conditioners, televisions and more. Delivery and installation across northern Israel.",
+    },
+    ru: {
+      title: `Категории бытовой техники — ${BUSINESS.nameEn}, Нагария`,
+      description:
+        "Все категории бытовой техники в магазине Hadad Yuval Electric в Нагарии — холодильники, стиральные машины, кондиционеры, телевизоры и другое. Доставка и установка по северу Израиля.",
+    },
+  }[locale];
+
+  return buildMetadata({
+    title: copy.title,
+    absoluteTitle: true,
+    description: copy.description,
+    path: `/${locale}/categories`,
+    locale,
+    translations: { he: "/categories", en: "/en/categories", ru: "/ru/categories" },
   });
 }
 
@@ -188,7 +245,13 @@ export function withStoreSuffix(title: string, max = 65): string {
   return title.length + suffix.length <= max ? `${title}${suffix}` : title;
 }
 
-export function generateLocalPageMetadata(params: { title: string; description: string; path: string }): Metadata {
+export function generateLocalPageMetadata(params: {
+  title: string;
+  description: string;
+  path: string;
+  /** Only for the area pages that have a real translated counterpart. */
+  translations?: Partial<Record<"he" | "en" | "ru", string>>;
+}): Metadata {
   return buildMetadata({ ...params, title: withStoreSuffix(params.title), absoluteTitle: true });
 }
 
