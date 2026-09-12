@@ -6,7 +6,7 @@ import {
   getProductsBySameBrand,
   getRelatedProducts,
 } from "@/lib/base44/catalog";
-import { generateProductMetadata } from "@/lib/seo/metadata";
+import { generateProductMetadata, buildMetadata, SITE_NAME } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AvailabilityBadge } from "@/components/AvailabilityBadge";
 import { ProductGrid } from "@/components/ProductGrid";
@@ -23,6 +23,8 @@ import { ProductImage } from "@/components/ProductImage";
 import { productHeading, localizedBrandLabel } from "@/lib/seo/productNaming";
 import { allBrandAliases } from "@/lib/seo/brandNames";
 import { measure } from "@/lib/seo/catalogDimensions";
+import { getDiscontinued } from "@/lib/seo/discontinued";
+import { DiscontinuedProductPage } from "@/components/DiscontinuedProductPage";
 
 export const revalidate = 10800; // 3 hours
 
@@ -37,8 +39,21 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = await getProductBySlug(decodeURIComponent(slug));
-  if (!product) return {};
+  const decoded = decodeURIComponent(slug);
+  const product = await getProductBySlug(decoded);
+  if (!product) {
+    // Discontinued models keep a real title so the result that already ranks on
+    // the model number stays useful, and stay indexable: the page still answers
+    // the query, it just answers it with "not any more, here is what we have".
+    const discontinued = await getDiscontinued(decoded, 0);
+    if (!discontinued) return {};
+    return buildMetadata({
+      title: `${discontinued.name} — הדגם אינו בקטלוג | ${SITE_NAME}`,
+      absoluteTitle: true,
+      description: `הדגם ${discontinued.name} (מק״ט ${discontinued.modelNumber}) כבר לא בקטלוג של חדד יובל אלקטריק. כאן תמצאו את הדגמים מאותה קטגוריה שזמינים כרגע, ואפשר לשאול אותנו מה המקביל המדויק.`,
+      path: `/products/${decoded}`,
+    });
+  }
   return generateProductMetadata(product);
 }
 
@@ -47,7 +62,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const decodedSlug = decodeURIComponent(slug);
   const product = await getProductBySlug(decodedSlug);
 
-  if (!product) notFound();
+  if (!product) {
+    // A slug the feed no longer serves is not automatically a bad URL. If this
+    // page has existed before, it may hold rankings on its model number, so it
+    // says the model is gone and offers what is in stock instead of 404ing.
+    const discontinued = await getDiscontinued(decodedSlug);
+    if (discontinued) return <DiscontinuedProductPage slug={decodedSlug} data={discontinued} />;
+    notFound();
+  }
   if (product.slug !== decodedSlug) {
     permanentRedirect(`/products/${product.slug}`);
   }
