@@ -405,44 +405,76 @@
    ]
   },
   "energy-rating-savings": {
-   "h": "0cdb2b0497f6",
-   "title": "Energy rating - how much you really save on the electricity bill",
-   "description": "What does the energy rating mean for a refrigerator, washing machine and air conditioner, how many shekels is it worth per year, and when is it worth paying more for a high rating.",
+   "h": "393e4e63ada6",
+   "title": "Energy rating — why is your refrigerator rated E and the machine A",
+   "description": "The same letter means different things in different categories. An explanation of the change in the European energy label, what the E rating really means on a refrigerator, and how to compare power consumption correctly.",
    "sections": [
     {
-     "heading": "What is an energy rating anyway?",
+     "heading": "The question that repeats itself in the store: Why is the new refrigerator rated E?",
      "paragraphs": [
-      "The Israeli energy label rates products from A (economical) to G (wasteful), based on the estimated annual electricity consumption. What's really important is the small number on the label: annual consumption in kWh. Two refrigerators of the same rating can differ by dozens of kWh per year — always compare the number, not just the letter."
+      "This is one of the most common questions we get asked. A customer sees a modern, economical refrigerator of a well-known brand - and the label says E. On the same visit, he sees a washing machine that is rated A, and concludes that the refrigerator is wasteful. This conclusion is wrong, and the reason is not in the refrigerator.",
+      "We checked our active catalog to see how consistent the pattern is. Of the 53 refrigerators that have an energy rating in the specifications, 36 are rated E and another 10 are rated F — that is, 46 out of 53. Of the 31 washing machines with a rating, 24 are rated A. This is neither a coincidence nor poor quality of refrigerators: these are simply two different scales."
      ]
     },
     {
-     "heading": "The products where it really matters",
+     "heading": "What has changed in the label?",
      "paragraphs": [
-      "A refrigerator works 24/7 - it is the largest permanent household electricity consumer. A difference of 150 kWh per year between models equals about NIS 100 a year, and about NIS 1,500 over the life of the refrigerator. An air conditioner is the biggest seasonal consumer: a high-rated inverter air conditioner saves hundreds of NIS in a hot northern summer compared to an old model. Washing machines and dishwashers - the savings there are mainly in water and heating, and are noticeable in families that run a daily cycle."
+      "In March 2021, the European energy label underwent a comprehensive change, and Israel adopted it. The old scale accumulated over the years the grades A+, A++ and A+++, until almost every new product on the market was in one of them and the label stopped distinguishing between products. The new scale returned to clean A to G, without pluses.",
+      "The main thing is that the bar has been moved. Grade A in the new scale was deliberately set almost unattainable at the time of launch, to leave room for future improvements. The result: a product that was A+++ on the old scale is today generally rated in the C to E area. Same product, same power consumption, different letter.",
+      "And here is the point that confuses the most: the bar was moved with different intensity in each category. In refrigerators, it was moved very strongly, which is why most of the best refrigerators on the market today are in E or F. In washing machines, it was moved less, and class A remains achievable for an efficient model. That is why it is impossible to compare the signal of a refrigerator with the signal of a washing machine - they are measured against different rulers."
      ]
     },
     {
-     "heading": "When is it worth paying more?",
+     "heading": "Not all categories have moved to the new scale",
      "paragraphs": [
-      "A simple rule: the more hours the product works, the faster a high rating pays for itself. In the refrigerator and air conditioner for the bedroom (which works every night) - always go for the high rating. In a product that works a little, the difference in price is not always justified.",
-      "And most importantly: replacing a 12-15 year old product with a new model is almost always a savings - technology has advanced so much that the new product 'finances' part of itself in the electricity bill."
+      "The 2021 change does not apply to all types of products. In our catalog this is clearly visible: all 25 furnaces with an A rating, and all 17 air conditioners with an A rating. In these categories, the old scale is still used, and it is also encountered in grades such as A+.",
+      "The practical meaning is simple: when comparing two products, make sure they are from the same category. Comparing the rating of an air conditioner to the rating of a refrigerator means nothing.",
+      "In some of the provider's records, the two grades appear side by side — for example, \"E (according to a new European standard) / A++ (according to a previous standard)\". This is the same machine, depicted in two scales. If only one letter appears in the specification without indicating the standard, it is worth asking us which scale it belongs to."
+     ]
+    },
+    {
+     "heading": "The number is more important than the letter",
+     "paragraphs": [
+      "The figure that really allows comparison is the annual electricity consumption in kWh, which appears on the label below the letter. It does not depend on the scale and did not change in 2021. Two refrigerators of the same E class can differ by dozens of kWh per year.",
+      "To translate into shekels: the domestic electricity tariff in Israel is around 0.6 NIS per kWh including VAT, and is updated from time to time. The difference of 150 kWh per year between two refrigerators is approximately 90 NIS per year - and over the 12 years of a refrigerator's life, close to 1,100 NIS. This is an amount that can justify a price difference in the purchase, or not, depending on its size."
+     ]
+    },
+    {
+     "heading": "Where it really matters",
+     "paragraphs": [
+      "A refrigerator works 24 hours a day, all year round, and is the biggest constant consumer of electricity in the house. where a good rating pays for itself. An air conditioner is the biggest seasonal consumer, and in the long northern summer the difference between a new inverter model and an old model is noticeable in the account.",
+      "A washing machine and a dishwasher consume mainly in heating the water, so the savings are noticeable in a family that runs a daily cycle and less in a couple that does laundry twice a week. A clothes dryer is a story in itself: a heat pump dryer consumes significantly less than a condenser dryer, and the difference adds up quickly for those who dry every day.",
+      "And a rule of thumb that almost always holds: replacing a 12-15 year old product with a new model saves electricity even if the new model is rated E. Technology has advanced much more than the letter indicates."
      ]
     },
     {
      "heading": "How it works for us",
      "paragraphs": [
-      "Every product page in the catalog shows the complete specifications, and the store staff in Nahariya will be happy to compare models for you also according to the cost of electricity over time - not only according to the purchase price. This is how you choose wisely, with personal accompaniment, delivery and installation to the house in the whole north."
+      "Every product page in the catalog shows the specification as published by the manufacturer or importer, including the energy rating when it exists. We do not convert grades between scales and do not complete a missing figure - if it has not been published, it does not appear.",
+      "If you are debating between two models and want to understand what the actual difference is in the electricity bill, send us the names of the models on WhatsApp. We will compare against the specification sheets and tell you the number, not just the letter."
      ]
     }
    ],
    "faq": [
     {
-     "question": "Does an inverter air conditioner really save?",
-     "answer": "Yes, especially in prolonged use: the inverter regulates the compressor instead of turning it off and on, and saves 25-40% in consumption compared to an old air conditioner. In the long northern summer this difference is noticeable in the account."
+     "question": "Why is my new refrigerator rated E and not A?",
+     "answer": "Because the energy label scale changed in 2021. Grade A in the new scale was defined as almost unattainable at launch, and the bar was moved especially strongly in the refrigerator category. In our catalog, 46 of the 53 refrigerators with a rating are E or F - this is the usual range today for a good new refrigerator."
+    },
+    {
+     "question": "Is it possible to compare the rating of a refrigerator to the rating of a washing machine?",
+     "answer": "not. The bar was moved with different intensity in each category. In our catalog 24 out of 31 washing machines are rated A while most refrigerators are rated E — same letter, different bars. Comparison is only valid within the same category."
+    },
+    {
+     "question": "What happened to grades A+ and A+++?",
+     "answer": "They were abolished in the new scale, which reverted to clean A to G. In categories that have not moved to the new scale - such as ovens and air conditioners - you can still come across them. In some specifications the two grades appear side by side, for example E according to the new standard and A++ according to the old one."
+    },
+    {
+     "question": "What is the figure that should really be compared?",
+     "answer": "The annual electricity consumption in kWh, which appears on the label below the letter. It does not depend on the scale. Two refrigerators of the same grade can differ by dozens of kWh per year, and at a rate of about 0.6 NIS per kWh this accumulates over the life of the product."
     },
     {
      "question": "Where do you see the annual consumption of a product in the catalog?",
-     "answer": "In the technical specifications on the product page. If a figure is missing or unclear - send us the model name on WhatsApp and we will complete the information for you from the manufacturer."
+     "answer": "In the technical specifications on the product page, when the manufacturer published it. We do not complete a missing figure - if it does not appear, send us the model name on WhatsApp and we will check with the importer."
     }
    ]
   },
@@ -620,6 +652,412 @@
     {
      "question": "We received products as a gift from the family - how do you make up for them?",
      "answer": "Excellent - send us what you already have, and we'll build the package around it: we'll fill in the gaps, make sure the measurements match, and make sure everything arrives and is fixed together."
+    }
+   ]
+  },
+  "dishwasher-dimensions": {
+   "h": "9e7356edd771",
+   "title": "Dishwasher dimensions - and why an integral is 3 cm lower than normal",
+   "description": "Width, height and depth of dishwashers by model, from the specification sheets in the catalog. The difference between a normal and integrated dishwasher is not only the front - it is 3 cm high and 5 cm deep.",
+   "sections": [
+    {
+     "heading": "The short answer: 60 cm wide, and the height depends on the type",
+     "paragraphs": [
+      "All 19 dishwashers measured in our catalog are 59.5 to 60 cm wide. This is the standard opening size in a kitchen cabinet, and it does not change between models or brands.",
+      "What does change is the height, and it varies according to the type of installation. A normal dishwasher - one whose front is visible - is measured by us between 84.5 and 85 cm. A fully integrated dishwasher measures between 81.5 and 81.8 cm. The difference is completely consistent and not accidental."
+     ]
+    },
+    {
+     "heading": "Why is the integral lower?",
+     "paragraphs": [
+      "An integral dishwasher is designed to disappear behind a kitchen door, and the kitchen door is added to its front. The manufacturer lowers the height of the body so that the device and the line of cabinets on it reach the height of the surface together, instead of exceeding it.",
+      "The depth works with the same logic. Our integral dishwashers were measured at a depth of 55 to 56 cm, compared to 58.8 to 63 cm in standard ones - again, to make room for a door to be added in front and still remain in line with the cabinets.",
+      "The practical conclusion: these are two different size categories, not a design variation. It is impossible to replace one with the other within the same niche without checking both sizes."
+     ]
+    },
+    {
+     "heading": "What to measure at home before ordering",
+     "paragraphs": [
+      "The width of the closet opening - you need 60 clean cm. The free height from the floor to the bottom of the surface: a normal dishwasher needs at least 86 cm, for an integral 82-83 cm is enough. And the depth from the front line of the cabinets to the wall, plus 5 cm for plumbing and electricity.",
+      "One dimension that tends to be forgotten: the opening space of the door. A dishwasher door opens downwards and extends about 55 cm forward. In a narrow kitchen, this means that it is impossible to stand in front of the open dishwasher - and you should make sure that there is no kitchen island or counter cabinet blocking it."
+     ]
+    },
+    {
+     "heading": "A narrow dishwasher, and what actually exists",
+     "paragraphs": [
+      "There are also 45 cm wide dishwashers on the market, which are intended for small kitchens or for couples. There is currently no such model in our active catalog - all stock is 60 cm wide. If you are planning a kitchen around a narrow dishwasher, you should check availability with us before closing the joinery."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the height of an integral dishwasher?",
+     "answer": "81.5 to 81.8 cm in the models measured in our catalog - about 3 cm lower than a normal dishwasher, which is measured between 84.5 and 85 cm. The difference is to make room for the kitchen door that is added to the front."
+    },
+    {
+     "question": "Are all dishwashers 60 cm wide?",
+     "answer": "All 19 models measured in our catalog are 59.5-60 cm. There are also 45 cm wide models on the market, but there is currently no such model in our active catalog."
+    },
+    {
+     "question": "How deep is a dishwasher?",
+     "answer": "Standard dishwasher: 58.8 to 63 cm. Integral dishwasher: 55 to 56 cm. For both types, you should add about 5 cm behind the piping and the electrical connection."
+    },
+    {
+     "question": "How much space is needed to open the dishwasher door?",
+     "answer": "About 55 cm forward from the front line. In a narrow kitchen or in front of a kitchen island, you should make sure that the door opens fully and that there is room left to stand and load."
+    }
+   ]
+  },
+  "oven-dimensions": {
+   "h": "31044079b581",
+   "title": "Dimensions of a standard built oven — and why the depth is the number that drops orders",
+   "description": "Dimensions of a built-in oven: the width and height are almost the same in all manufacturers, but the depth varies within 10 cm. Size chart and niche sizes by model, and how to measure correctly.",
+   "sections": [
+    {
+     "heading": "The width and height are almost constant",
+     "paragraphs": [
+      "A built-in oven of the standard size is roughly square: in the 30 built-in ovens measured in our catalog, the width ranges from 56 to 59.7 cm with a median of 59.5, and the height from 45.5 to 60 cm with the same median of 59.5. That is, when it comes to a \"60 cm oven\", the product itself is almost always 59.5 x 59.5 cm - the manufacturers leave half a centimeter space for it to fit into the 60 cm niche.",
+      "The exception is a compact oven with a height of 45 cm, which is designed for a lower niche and is often used as a second oven or as an oven with a microwave function. It does not replace a standard oven in a 60 cm niche without adjusting the joinery."
+     ]
+    },
+    {
+     "heading": "The depth - this is where the problems begin",
+     "paragraphs": [
+      "While the width and height are almost unchanged, the depth in the measured built-in ovens ranges from 49.4 to 59.5 cm. This is a range of 10.1 cm between models that look identical from the outside and are sold under the same title of \"60 cm built-in oven\".",
+      "The practical meaning: if your closet is 55 cm deep, some models will fit exactly and some simply won't. And in addition to the depth of the body, you need space in the back - for the power point, for the plumbing if there is any, and for the ventilation gap that the manufacturer requires. Those who order according to \"all 60 cm\" discover this on the day of installation."
+     ]
+    },
+    {
+     "heading": "The extent of the product versus the extent of the niche",
+     "paragraphs": [
+      "As with stoves, here too there are two dimensions. The measure of the product is the body itself; The size of the niche is the opening in the closet into which it enters. In the ovens built in our catalog, the dimensions of the published niche range from 56 to 59 cm wide and from 54.9 to 57 cm deep, and are sometimes advertised as a range with a tolerance - for example 56-56.8 cm - because the cabinet is not measured to the nearest millimeter.",
+      "When a manufacturer publishes a range, build according to its wide end. A slightly oversized niche is covered by the oven panel; A niche that is too small requires repeated carpentry."
+     ]
+    },
+    {
+     "heading": "How to measure an existing niche",
+     "paragraphs": [
+      "Measure three numbers inside the opening, not outside it: width between the inner sides of the cabinet, height of the opening, and depth from the front to the back wall. Measure at three different points on each axis—closets and bags are not perfect squares—and take the smallest measurement.",
+      "Add to the test the location of the electrical point: a built-in oven requires a designated point, and not every old kitchen comes with one ready in the right place. If you're replacing an old stove, it's worth taking a picture of the niche and the power point and sending it to us - we'll check compatibility with the exact model before ordering."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "What are the dimensions of a standard built oven?",
+     "answer": "Approximately 59.5 cm wide and 59.5 cm high in most models, for a 60 cm niche - these are the medians in the 30 built-in ovens measured in the catalog. The depth is the variable: it varies between 49.4 and 59.5 cm."
+    },
+    {
+     "question": "Are all ovens built the same depth?",
+     "answer": "No, and this is the most common mistake. The width and height are almost identical between manufacturers, but the depth varies in the range of 10.1 cm. Measure the depth of the cabinet before choosing a model."
+    },
+    {
+     "question": "What is the height of a niche for a compact oven?",
+     "answer": "A compact oven is about 45 cm high instead of 60 cm, and requires a niche of a corresponding height. It does not replace a standard oven in an existing 60 cm niche without changing the carpentry."
+    },
+    {
+     "question": "I have a niche of a non-standard size - what do we do?",
+     "answer": "This is common in older kitchens. Send us the exact dimensions of the opening; In some cases there is a model that fits as is, and in others a small carpentry adjustment closes the gap. We will check before you buy, not after."
+    }
+   ]
+  },
+  "cooktop-dimensions": {
+   "h": "e168247afcbc",
+   "title": "Standard stove dimensions and marble cutting size - the exact numbers",
+   "description": "Stove dimensions according to width: 30, 60, 75 and 80 cm - and the size of the marble cut that each one requires. Measured table by model, and what is the difference between the size of the product and the size of the niche.",
+   "sections": [
+    {
+     "heading": "Two different measurements, and only one of them is important to the carpenter",
+     "paragraphs": [
+      "Every built stove has two dimensions that should not be confused. The size of the product is the width and depth of the outer surface - what you see on the marble. The cut size (or «niche») is the hole that needs to be cut in the marble, and it is always smaller, because the surface rests on it and covers the edges.",
+      "The gap between the two is not constant. In the 16 models in the catalog that published both product size and cut size, the difference in width ranges from 2 to 4.5 cm. This is exactly the reason why it is impossible to derive the degree of cut from the width of the product - you need the number published by the manufacturer, which is the number that appears in the table below."
+     ]
+    },
+    {
+     "heading": "The dimensions that are repeated in practice",
+     "paragraphs": [
+      "In the stoves measured in our catalog, the width is divided into three clear groups: narrow domino of 28.8-30 cm, the most common standard of 55.5-60 cm - to which most models belong - and wide stoves of 64.6 to 79.5 cm. The depth almost does not change: all the full width models are around 51-52.4 cm. The thickness (height) is 4.5 to 10 cm, with the difference mainly due to the tripods.",
+      "The degree of cut is attached to these groups. In the standard width group, almost all models require a cut of 55.2 to 56.2 cm wide — 56 cm is the number that comes up the most. In Domino, the cut is 26.2-26.8 cm. For the wide stoves, only two cutting sizes were published in the catalog, and both are around 75 cm. The cutting depth is concentrated in a narrow range of 47 to 50 cm in almost all models."
+     ]
+    },
+    {
+     "heading": "Replacing an existing stove? Measure the hole, not the stove",
+     "paragraphs": [
+      "When replacing a stove with existing marble, the determining measure is the hole that already exists. Measure it in the marble itself - width and depth - and look for a model whose cut size is the same or slightly smaller than it. A hole that is too small can be widened; A hole that is too big is almost impossible to fix without replacing the marble.",
+      "It is also worth measuring the distance from the edge of the hole to the edge of the front and back marble, and the distance from the wall. Manufacturers specify minimum clearances for installation, and they vary between gas and induction models - induction also requires ventilation and clearance from the oven below."
+     ]
+    },
+    {
+     "heading": "What else to check before closing a model",
+     "paragraphs": [
+      "In gas stoves - the location of the existing gas point in front of the location of the connection in the new model, and the number of burners and their power. In induction stoves - the type of electrical supply: some models require a dedicated supply, and not every household electrical panel is pre-built for this, which may require an electrician.",
+      "And above all: the cupboard or oven below. Induction stoves require a ventilation gap from the built-in oven below them, and not every combination of oven model and stove model meets the requirement. If you order an oven and stove together, it's worth verifying the pair in advance."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the size of the marble cut for a 60 cm stove?",
+     "answer": "In most standard width models, this is a cut of 55.2-56.2 cm wide and 47-50 cm deep, but the exact number varies between models and appears on the specification sheet. It is never cut from the width of the product."
+    },
+    {
+     "question": "What is the difference between the stove dimensions and the cutting dimensions?",
+     "answer": "The dimensions of the stove are the surface you see on the counter; The cut dimensions are the hole below it. The cut is always smaller - in the models that published both sizes, the difference in width is 2 to 4.5 cm, depending on the size of the deviation of the surface beyond the hole."
+    },
+    {
+     "question": "What is the standard width of a stove?",
+     "answer": "The group of 55.5-60 cm is the most common, and within it 60 cm is the size in question. Next to it there are narrow dominoes of about 29-30 cm for small kitchens or to supplement, and wide stoves of 64.6 to 79.5 cm for large kitchens. The depth is almost the same in all of them - around 51-52 cm."
+    },
+    {
+     "question": "I'm changing a stove - how will I know if a certain model will fit the existing hole?",
+     "answer": "Measure the hole in the marble itself, and compare to the cut of the model. The model is suitable if its cutting size is equal to or smaller than the hole. Send us the hole dimensions on WhatsApp and we will verify compatibility with the model before ordering."
+    }
+   ]
+  },
+  "washing-machine-dimensions": {
+   "h": "92931f994c0d",
+   "title": "Washing machine dimensions — and why the depth is what brings down regulations",
+   "description": "Width, height and depth of washing machines by model, from the specification sheets in the catalog. The width is almost always 60 cm - what really changes is the depth, and it is this that determines whether the machine enters.",
+   "sections": [
+    {
+     "heading": "The short answer: 60 x 85 cm - and the depth is the story",
+     "paragraphs": [
+      "A washing machine with a front opening is almost always the same two dimensions: in the 40 models measured in our catalog, the width varies between 59.5 and 60 cm and the height between 84 and 85 cm. This is no coincidence - these dimensions are derived from the width of a standard kitchen cabinet and the height of a work surface, and all manufacturers align to them.",
+      "The depth, on the other hand, ranges from 42 to 65.9 cm. That's a difference of almost 24 cm between the shallowest and deepest model - ten times the difference in width. Those who measure only the width of the niche and assume that the rest will work out, measure the only measure that does not change."
+     ]
+    },
+    {
+     "heading": "A machine with an upper opening is 40 cm, not 60",
+     "paragraphs": [
+      "In the catalog there are eight models with an upper opening, and all of them are 40 cm wide - two thirds of the width of a machine with a front opening. In exchange, they are taller, 87.5 to 91 cm, and relatively deep: 60 to 61 cm.",
+      "This makes them a real solution for a narrow service balcony or a corner where there is no free 60 cm. Pay attention to the height: 91 cm will not fit under a standard work surface, and with an upper opening you need an opening space above the machine and not in front of it anyway."
+     ]
+    },
+    {
+     "heading": "Capacity changes depth, not width",
+     "paragraphs": [
+      "This is the understanding that saves most mistakes. Going from 7 kg to 9 kg does not expand the machine - the drum increases in depth. In the models measured by us, 7 kg machines range in depth between 42 and 55 cm, 9 kg machines between 55 and 64 cm, and 11 to 13 kg models reach 60 to 65.9 cm.",
+      "The practical meaning: if your niche is 58 cm deep, the question is not whether a machine will fit, but what capacity it will fit. And if you are debating between 8 and 9 kg, the difference in depth may be the deciding factor, not the price."
+     ]
+    },
+    {
+     "heading": "What to measure at home before ordering",
+     "paragraphs": [
+      "The width of the niche - and add at least 2 cm beyond the 60, so that it can be inserted and removed without scratching. Free height to the surface: a machine with a height of 85 cm needs a niche of 86-87 cm, because the legs are adjustable and the surface is not always straight. And the depth - and here you have to measure up to the wall, then add 5 to 10 cm for the plumbing and the electrical connection at the back. It's the spacing that people forget, and it's the one that makes the machine stand out from the cabinet.",
+      "Two more surprising measurements: the width of the door at the entrance to the house and at the entrance to the room. A 60 cm wide machine in the package is usually 63-65 cm, and a narrow service door could be the real problem. And if the machine goes up stairs - you should also measure the width of the stairwell at the turn."
+     ]
+    },
+    {
+     "heading": "Under the surface, and when it doesn't work",
+     "paragraphs": [
+      "A machine with a height of 84-85 cm fits under a standard kitchen surface with a height of 90 cm, but only if there is no drawer or shelf that steals height. It is worth checking the actual available height and not the height of the surface.",
+      "If the plan is to place a dryer above the machine, the depth of the two devices should be similar, and a dedicated connection kit is needed - more on this in the dryer dimensions guide."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "What are the standard dimensions of a washing machine?",
+     "answer": "Machine with front opening: 59.5-60 cm wide and 84-85 cm high, according to the 40 models measured in our catalog. The depth is what changes - between 42 and 65.9 cm, depending on the capacity and model."
+    },
+    {
+     "question": "How deep is a 9 kg washing machine?",
+     "answer": "In the 9 kg models measured by us, the depth ranges from 55 to 64 cm. For comparison, 7 kg models range from 42 to 55 cm. The width in both capacities is the same - 59.8 to 60 cm."
+    },
+    {
+     "question": "Is there a washing machine narrower than 60 cm?",
+     "answer": "Yes — machines in the upper entrance. In our catalog there are eight such models and all of them are 40 cm wide. They are taller (87.5-91 cm) and require an opening space above the machine, not in front of it."
+    },
+    {
+     "question": "How much space should be left behind the washing machine?",
+     "answer": "5 to 10 cm beyond the depth of the model, the water pipe, the drain pipe and the electrical connection. This is the gap that most people forget to measure, and is the common reason why a machine stands out from the line of cabinets."
+    },
+    {
+     "question": "Where do the measurements in the table come from?",
+     "answer": "From the manufacturer's or importer's specification sheet, as it appears in the product record in the store's catalog. A model for which an exact size has not been published does not appear in the table. Before carpentry or a final order it is always advisable to verify against the specific model."
+    }
+   ]
+  },
+  "tv-65-inch-dimensions": {
+   "h": "d827b1d26d8f",
+   "title": "65 inch TV dimensions - width, height and depth according to model",
+   "description": "How wide is a 65 inch TV really? A table of measured dimensions by model - with and without a stand, including the VESA standard - and what should be measured before hanging or buying a sideboard.",
+   "sections": [
+    {
+     "heading": "The short answer: about 144 to 146 cm wide",
+     "paragraphs": [
+      "A 65-inch screen is a screen whose diagonal is 165 cm. With a 16:9 image ratio, this means that the panel itself is 143.9 cm wide and 80.9 cm high - a simple geometric calculation that does not depend on the manufacturer. The frame adds a little more: in the 65-inch models measured in our catalog, the total width varies between 144.1 and 145.6 cm and the height between 82.6 and 84.1 cm.",
+      "That is: every 65-inch TV, of any brand, occupies approximately the same width. The difference between the narrowest and widest model in the catalog is 1.5 cm. A closed niche with a width of 150 cm will accommodate any of the models; For placing on an open sideboard, a more generous space is useful, as explained below. If you are debating between 65 and 75 inches, the difference in panel width is 22 cm."
+     ]
+    },
+    {
+     "heading": "The depth is not what you think",
+     "paragraphs": [
+      "The figure that surprises most people: the screen itself is thin - 4 to 8.4 cm in the models we measured. But as soon as the stand is assembled, the depth jumps to 22.2 to 34.5 cm. If you place on a sideboard, the depth that needs to be checked is that of the stand, not the screen. A sideboard with a depth of 30 cm can fit one model and not the other.",
+      "The height also varies: in the models for which both sizes are published, the stand raises the TV by 4 to 6.6 cm, so that the total height with the stand is 87 to 90.6 cm. This is important if there is a shelf or cabinet above."
+     ]
+    },
+    {
+     "heading": "Do not buy a suspension arm before choosing a model",
+     "paragraphs": [
+      "This is the most expensive mistake in this category. The VESA mounting standard is not uniform between 65 inch models - in our catalog alone there are five different standards for the same screen size: 200x200, 300x200, 300x300, 400x300 and 400x400 mm. A pre-purchased \"65 inch\" arm may simply not screw on.",
+      "In practice, most modern arms support some standards, but not all, and the weight is a separate parameter. The correct order of operations: choose a model, check its VESA standard in the table above or in the specification sheet, and only then buy an arm."
+     ]
+    },
+    {
+     "heading": "What to measure at home before ordering",
+     "paragraphs": [
+      "The width of the available wall or sideboard. 147-148 cm is enough for a closed niche; For an open placement, 155 cm or more is recommended, so that the screen does not look cramped and remains spacious for ventilation and cables. The depth of the sideboard, versus the depth of the stand of the particular model. The height from the floor to the shelf or cabinet above, versus the total height with a stand. And if hanging on the wall - the location of the socket and the communication point, which should be behind the screen and not next to it.",
+      "A simple tip: stick adhesive paper measuring 145 x 84 cm on the wall. It gives a more accurate feeling than any number, especially when deciding between sizes."
+     ]
+    },
+    {
+     "heading": "Viewing distance — and why there is no single answer",
+     "paragraphs": [
+      "4K content, which is almost everything that is broadcast today to a screen of this size, does not have a technical threshold that requires a certain distance; At this resolution, the eye does not separate pixels from a relatively short distance. In many salons in Israel, the sitting distance is 2.5-3.5 meters, and in this range 65 inches is considered a comfortable size for most people.",
+      "Personal preference has more weight than any formula. Those who like a cinema feel will prefer to sit closer or go up a size; Those who are sensitive to fast movement or mainly watch the news will prefer otherwise. If possible - you should see the size in the store from a distance similar to your living room."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the exact width of a 65 inch TV?",
+     "answer": "The panel itself is 143.9 cm wide (65 inch diagonal in 16:9 ratio). With the frame, the 65-inch models measured in our catalog range from 144.1 to 145.6 cm. To plan a sideboard or a niche, you should lay down 146 cm and add a margin."
+    },
+    {
+     "question": "What is the height of a 65 inch TV with a stand?",
+     "answer": "In the measured models, the height without a stand is 82.6-84.1 cm and with a stand 87-90.6 cm. The stand adds 4 to 6.6 cm. If there is a shelf above, this is the figure that needs to be checked."
+    },
+    {
+     "question": "Do all 65 inch TVs fit the same hanging arm?",
+     "answer": "not. In our catalog there are five different 65-inch VESA standards: 200x200, 300x200, 300x300, 400x300 and 400x400 mm. Check the standard of the exact model before buying an arm."
+    },
+    {
+     "question": "What is the difference in width between 65 and 75 inches?",
+     "answer": "About 22 cm. A 75-inch panel is 166 cm wide compared to 143.9 cm in a 65-inch panel, and in actual measurement, the 75-inch models in the catalog range from 166.6 to 167.8 cm. The difference in height between the panels is 12.5 cm, and between the measured bodies 11.7 to 14 cm."
+    },
+    {
+     "question": "Where do the measurements in the table come from?",
+     "answer": "From the manufacturer's or importer's specification sheet, as it appears in the product record in the store's catalog. A model for which an exact size has not been published does not appear in the table. Before hanging or ordering carpentry, you should always verify against the final model."
+    }
+   ]
+  },
+  "dryer-dimensions": {
+   "h": "f9ccb1aa0fca",
+   "title": "Dimensions of a clothes dryer - and can it be placed on the machine",
+   "description": "Width, height and depth of clothes dryers by model, from the specification sheets in the catalog. They are all on the same front 60 × 85, but the depth varies - and in heat pump models it is the largest.",
+   "sections": [
+    {
+     "heading": "The short answer: the front is the same as a washing machine",
+     "paragraphs": [
+      "The 11 dryers measured in our catalog range from 59.5 to 60 cm wide and from 84 to 85 cm high—exactly the same front as a front-loading washing machine. It's intentional: the dryer is designed to stand next to or above the machine.",
+      "The depth ranges from 55.5 to 65 cm. Here, just like in the washing machine, is all the variation - and unlike the machine, here the depth is directly related to the drying technology."
+     ]
+    },
+    {
+     "heading": "A deeper heat pump—and that makes sense",
+     "paragraphs": [
+      "In the models measured by us, heat pump dryers range in depth from 60 to 65 cm, and condenser dryers from 60 to 63 cm. The shallowest in the catalog is actually a dryer with a ventilation tube, 55.5 cm.",
+      "The physical reason: a heat pump is a complete cooling circuit - compressor, evaporator and condenser - and it needs volume. This is also what makes it economical in electricity. If your niche is 58 cm deep, the choice between the technologies may be decided by the size and not by the power consumption."
+     ]
+    },
+    {
+     "heading": "To place the dryer on the machine - three conditions",
+     "paragraphs": [
+      "First, you need a dedicated stacking kit. Do not place a dryer directly on top of a washing machine: the machine vibrates when spinning, and the dryer may move or fall. The connection kit is suitable for a width of 60 cm and connects the two devices.",
+      "Second, the depth of both devices should be similar. A dryer with a depth of 65 cm on a machine with a depth of 47 cm will protrude forward in an unstable manner. You should check both sizes together before ordering.",
+      "Third, the overall height. Two devices with a height of 85 cm each reach 170 cm before the connection kit, and with the kit usually a little more. This means the upper dryer door is at eye level or higher—comfortable for most people, but it's worth making sure you can reach it comfortably."
+     ]
+    },
+    {
+     "heading": "What to measure at home",
+     "paragraphs": [
+      "A free width of at least 62 cm, a free height of 87 cm for a single dryer, and the depth to the wall plus 5 cm for connections. If the dryer is a condenser or heat pump it does not require a vent pipe to the outside, but it does require a place to empty a water tank or a drain connection.",
+      "And if the dryer is intended for a closed service balcony - you should remember that a condenser dryer emits heat and moisture into the room. In a small, closed balcony it is noticeable, and a heat pump behaves better in these conditions."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "What are the dimensions of a clothes dryer?",
+     "answer": "59.5-60 cm wide and 84-85 cm high in the 11 models measured in our catalog - the same front as a front opening washing machine. The depth ranges from 55.5 to 65 cm."
+    },
+    {
+     "question": "Heat pump dryer deeper than condenser dryer?",
+     "answer": "In the models measured by us, yes: heat pump 60-65 cm, condenser 60-63 cm. A heat pump contains a complete cooling circuit that requires volume - and this is also what makes it more economical in electricity."
+    },
+    {
+     "question": "Can you place a dryer on a washing machine?",
+     "answer": "Yes, but only with a dedicated connection kit and not directly. In addition, the depth of both devices should be similar, otherwise the dryer protrudes forward. The total height is about 170 cm or more."
+    },
+    {
+     "question": "Dryer needs a hose out?",
+     "answer": "Condenser and heat pump dryers do not require a vent pipe to the outside — they concentrate the moisture in a tank or drain it. A dryer with a vent pipe does require an opening to the outside. In our catalog most of the models are condenser or heat pump."
+    }
+   ]
+  },
+  "refrigerator-4-door-dimensions": {
+   "h": "57df8b6d3056",
+   "title": "Dimensions of a 4-door refrigerator - 90 cm wide, and that's the number that decides",
+   "description": "Width, height and depth of 4-door refrigerators by model, from the specification sheets in the catalog. A 4-door refrigerator is about 30 cm wider than a bottom-freezer refrigerator - and that's what determines whether it even fits in.",
+   "sections": [
+    {
+     "heading": "The short answer: about 90 cm wide",
+     "paragraphs": [
+      "In the 12 4-door refrigerators measured in our catalog, the width ranges from 79.4 to 91.4 cm, with most models centered around 90 cm. The height ranges from 177.5 to 190 cm and the depth from 60 to 73.1 cm.",
+      "For comparison, a bottom freezer refrigerator in our catalog starts at 54 cm wide and its median is 60 cm. In other words, moving from a bottom freezer to 4 doors is usually an addition of about 30 cm in width - not a design upgrade but a change in the kitchen design."
+     ]
+    },
+    {
+     "heading": "The width is the constraint, not the volume",
+     "paragraphs": [
+      "Most people look for a refrigerator by liters and discover the width too late. In practice, it works the other way around: the niche determines the width, the width determines the type of refrigerator, and the type of refrigerator determines the range of volumes available to you.",
+      "A 70 cm niche will not accommodate a 4-door refrigerator, even if the volume is suitable for a family. A niche of 95 cm will accommodate most models comfortably. Between 80 and 90 cm you have to check model against model - that's where most of the variation is."
+     ]
+    },
+    {
+     "heading": "Door opening interval - the measure that is not written anywhere",
+     "paragraphs": [
+      "A 4-door refrigerator consists of two upper doors that open to the sides and two lower drawers. The advantage is that each upper door is relatively narrow, and therefore requires less opening space than the door of a wide refrigerator with one door.",
+      "The downside is in the drawers. A drawer pulls forward in its full depth, so you need a free space in front of the refrigerator that is at least the depth of the refrigerator itself - that is, 60 to 73 cm. In a kitchen with a central island, this is the determining factor: the distance between the front of the refrigerator and the island should allow both the drawer to be pulled out and a person to stand.",
+      "Another measure worth checking: if the refrigerator is adjacent to a side wall, a door that opens towards the wall may encounter it before 90 degrees, and then the internal drawers do not fully pull out. Most models have a preferred opening side - worth asking before ordering."
+     ]
+    },
+    {
+     "heading": "height, and what is above the refrigerator",
+     "paragraphs": [
+      "The height in the catalog ranges from 177.5 to 190 cm. The difference of 12.5 cm between the lowest and the highest is exactly in the range where an upper cabinet above the refrigerator turns from a problem to a solution - or vice versa.",
+      "You should leave 5 to 10 cm above the refrigerator to ventilate the condenser. A refrigerator that is squeezed into a closed niche exactly according to its height will work harder and consume more electricity. If there is a fixed upper cabinet, measure the free height to the bottom of the cabinet and not to the ceiling."
+     ]
+    },
+    {
+     "heading": "What to measure at home before ordering",
+     "paragraphs": [
+      "The width of the niche - and add 2 to 3 cm to each side for insertion and ventilation. The free height up to the closet or ceiling, plus ventilation space. The depth to the wall, and also the depth that the refrigerator will stand out from the line of cabinets - a refrigerator with a depth of 73 cm stands out significantly from a kitchen with a depth of 60 cm, and this affects the appearance and the transition.",
+      "And finally, the route of entry: the width of the front door, the width of the corridor and the turn in the stairwell. A refrigerator with a width of 90 cm in the package reaches about 95 cm, and in old buildings in the north this is often the size that is decisive. If in doubt - you can send us the measurements and we will check against the model before ordering."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the width of a 4-door refrigerator?",
+     "answer": "79.4 to 91.4 cm in the 12 models measured in our catalog, with most models around 90 cm. For comparison, our bottom freezer refrigerator starts at 54 cm, with a median of 60 cm."
+    },
+    {
+     "question": "What niche do you need for a 4-door refrigerator?",
+     "answer": "Most models require a niche of about 95 cm - the width of the refrigerator plus 2-3 cm on each side for insertion and ventilation. A niche of 80-90 cm requires testing against a specific model."
+    },
+    {
+     "question": "How much space do you need in front of a 4-door refrigerator?",
+     "answer": "At least the size of the depth of the refrigerator - 60 to 73 cm - so that the lower drawers can be fully pulled out. In a kitchen with a central island, this is usually the determining measure, more than the width of the refrigerator itself."
+    },
+    {
+     "question": "What is the height of a 4-door refrigerator?",
+     "answer": "177.5 to 190 cm in the models measured by us. You should add 5 to 10 cm above the refrigerator to ventilate the condenser - a refrigerator that is squeezed into a closed niche exactly according to its height consumes more electricity."
+    },
+    {
+     "question": "Where do the measurements in the table come from?",
+     "answer": "From the manufacturer's or importer's specification sheet, as it appears in the product record in the store's catalog. A model for which an exact size has not been published does not appear in the table."
     }
    ]
   }
