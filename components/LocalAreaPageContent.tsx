@@ -225,6 +225,11 @@ export function LocalAreaPageContent({
                 </li>
               ))}
             </ul>
+            <p className="mt-3 text-sm">
+              <Link href="/tools/niche-fit" className="font-semibold text-brand-blue hover:underline">
+                או הזינו את מידות הנישה וראו מה נכנס ←
+              </Link>
+            </p>
           </section>
         )}
 

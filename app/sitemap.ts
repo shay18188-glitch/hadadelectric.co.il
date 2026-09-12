@@ -21,6 +21,7 @@ const STATIC_PATHS = [
   "/guides",
   "/bundles",
   "/recommended",
+  "/tools/niche-fit",
   "/services/delivery",
   "/about",
   "/contact",

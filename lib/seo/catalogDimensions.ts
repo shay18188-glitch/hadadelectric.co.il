@@ -136,3 +136,62 @@ export async function buildDimensionsTable(spec: DimensionsTableSpec): Promise<D
     heightRange: range(bodies.map((body) => body.heightCm)),
   };
 }
+
+/**
+ * The models the niche calculator can reason about.
+ *
+ * Restricted to the categories where "will it fit the gap" is the actual
+ * buying question — the large freestanding and built-in appliances. Televisions
+ * are excluded on purpose: their constraint is a wall or a console, not a
+ * niche, and `tv-65-inch-dimensions` already answers that one properly.
+ *
+ * A product with no parseable measurement is absent rather than estimated,
+ * which is the same rule the dimension tables follow. The payload ships to the
+ * browser, so each row carries only what the tool needs to answer and to link.
+ */
+const FIT_CATEGORIES = [
+  "refrigerators",
+  "freezers",
+  "washing-machines",
+  "dryers",
+  "dishwashers",
+  "ovens",
+  "cooktops",
+  "microwaves",
+] as const;
+
+export interface FitCandidate {
+  slug: string;
+  name: string;
+  brand: string | null;
+  categorySlug: string;
+  widthCm: number;
+  heightCm: number;
+  depthCm: number;
+  inStock: boolean;
+}
+
+export async function getFitCandidates(): Promise<FitCandidate[]> {
+  const products = await getProducts();
+  const allowed = new Set<string>(FIT_CATEGORIES);
+  const rows: FitCandidate[] = [];
+
+  for (const product of products) {
+    if (!product.categorySlug || !allowed.has(product.categorySlug)) continue;
+    const measured = measure(product);
+    const body = measured?.body ?? null;
+    if (!body) continue;
+    rows.push({
+      slug: product.slug,
+      name: product.name,
+      brand: measured?.brand ?? null,
+      categorySlug: product.categorySlug,
+      widthCm: body.widthCm,
+      heightCm: body.heightCm,
+      depthCm: body.depthCm,
+      inStock: product.availability === "in_stock",
+    });
+  }
+
+  return rows.sort((a, b) => a.widthCm - b.widthCm || a.name.localeCompare(b.name));
+}

@@ -148,11 +148,21 @@ export default async function GuidePage({ params }: GuidePageProps) {
             </SeoTextBlock>
 
             {dimensionsTable && guide.dimensionsTable && (
-              <DimensionsTable
-                table={dimensionsTable}
-                columns={guide.dimensionsTable.columns}
-                caption={guide.dimensionsTable.caption}
-              />
+              <>
+                <DimensionsTable
+                  table={dimensionsTable}
+                  columns={guide.dimensionsTable.columns}
+                  caption={guide.dimensionsTable.caption}
+                />
+                {/* The table answers "how big is this category". Someone holding
+                    a tape measure has the inverse question, so hand them the
+                    tool that takes their niche and returns what fits. */}
+                <p className="mt-3 text-sm">
+                  <Link href="/tools/niche-fit" className="font-semibold text-brand-blue hover:underline">
+                    יש לכם כבר את מידות הנישה? בדקו מה נכנס ←
+                  </Link>
+                </p>
+              </>
             )}
 
             {secondHalf.length > 0 && (
