@@ -16,6 +16,8 @@ import { articleJsonLd, faqJsonLd } from "@/lib/schema/jsonld";
 import { buildMetadata, withStoreSuffix } from "@/lib/seo/metadata";
 import { translationsForPath } from "@/lib/i18n/locales";
 import { hasGuideTranslation } from "@/lib/i18n/translated";
+import { bundleSlugForGuide } from "@/content/guideBundleLinks";
+import { BUNDLES } from "@/content/bundles";
 import { getCategories, getCategoryBySlug } from "@/lib/base44/catalog";
 import { categoryImageFor } from "@/lib/categoryVisuals";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
@@ -56,6 +58,12 @@ export default async function GuidePage({ params }: GuidePageProps) {
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
   if (!guide) notFound();
+
+  // The bundle that turns this guide's advice into a basket, when one exists.
+  const pairedBundle = (() => {
+    const slug = bundleSlugForGuide(guide.slug);
+    return slug ? BUNDLES.find((b) => b.slug === slug) ?? null : null;
+  })();
 
   const [relatedCategory, allCategories, dimensionsTable] = await Promise.all([
     guide.relatedCategorySlug ? getCategoryBySlug(guide.relatedCategorySlug) : Promise.resolve(null),
@@ -172,6 +180,18 @@ export default async function GuidePage({ params }: GuidePageProps) {
                   </Link>
                 </p>
               </>
+            )}
+
+            {pairedBundle && (
+              <div className="my-8 rounded-[1.5rem] border border-brand-blue/12 bg-brand-blue-light/35 p-5 md:my-10 md:p-6">
+                <p className="text-base font-black text-graphite">{pairedBundle.title}</p>
+                <p className="mt-1 text-sm leading-6 text-graphite-soft/68">{pairedBundle.description}</p>
+                <p className="mt-3 text-sm">
+                  <Link href={`/bundles/${pairedBundle.slug}`} className="font-semibold text-brand-blue hover:underline">
+                    לראות את החבילה המלאה מהקטלוג ←
+                  </Link>
+                </p>
+              </div>
             )}
 
             {secondHalf.length > 0 && (

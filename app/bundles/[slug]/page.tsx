@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BUNDLES, getBundleBySlug } from "@/content/bundles";
+import { guideSlugsForBundle } from "@/content/guideBundleLinks";
+import { getGuideBySlug } from "@/content/guides";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BundleAddAllButton } from "@/components/bundles/BundleAddAllButton";
 import { ContactStrip } from "@/components/ContactStrip";
@@ -46,6 +48,14 @@ export default async function BundlePage({ params }: BundlePageProps) {
   const { slug } = await params;
   const bundle = getBundleBySlug(slug);
   if (!bundle) notFound();
+
+  // Guides that explain what this package assumes. They currently outrank the
+  // bundle pages on the same topics — the young-couple guide holds position
+  // 18.56 against 33.14 for its bundle — so the two are linked in both
+  // directions rather than left as strangers.
+  const pairedGuides = guideSlugsForBundle(bundle.slug)
+    .map((slug) => getGuideBySlug(slug))
+    .filter((guide): guide is NonNullable<typeof guide> => guide !== null);
 
   const products = await getProducts();
   const selected = selectBundleProducts(bundle, products);
@@ -268,6 +278,26 @@ export default async function BundlePage({ params }: BundlePageProps) {
             ))}
           </div>
         </section>
+
+        {pairedGuides.length > 0 && (
+          <section className="container-page mt-10 md:mt-14" aria-labelledby="bundle-guides-heading">
+            <h2 id="bundle-guides-heading" className="text-lg font-bold text-graphite md:text-2xl">
+              לקרוא לפני שמחליטים
+            </h2>
+            <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+              {pairedGuides.map((guide) => (
+                <li key={guide.slug}>
+                  <Link
+                    href={`/guides/${guide.slug}`}
+                    className="block rounded-2xl border border-line bg-white p-4 text-sm font-semibold text-graphite transition-colors hover:border-brand-blue/40 hover:text-brand-blue md:p-5"
+                  >
+                    {guide.title} ←
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <div className="container-page"><ContactStrip /></div>
       </div>
