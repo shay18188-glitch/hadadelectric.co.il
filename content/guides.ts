@@ -16,6 +16,8 @@ export interface GuideDimensionsTable {
   screenInches?: number;
   /** Keeps freestanding models out of a built-in table. */
   maxHeightCm?: number;
+  /** RegExp source narrowing to a model type, e.g. "4 דלתות" or "אינטגרלי". */
+  namePattern?: string;
   columns: ("body" | "withStand" | "vesa" | "cutout")[];
   caption: string;
 }

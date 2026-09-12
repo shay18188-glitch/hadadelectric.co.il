@@ -70,6 +70,18 @@ export interface DimensionsTableSpec {
    * presence makes the stated ranges wrong.
    */
   maxHeightCm?: number;
+  /**
+   * Narrows to a model type within the category, as a RegExp source matched
+   * against the product name — "4 דלתות" for a four-door fridge table,
+   * "אינטגרלי" for built-under dishwashers. Kept as a string because these
+   * specs live in content, which must stay serialisable.
+   *
+   * It exists because the interesting dimension question is usually about a
+   * type, not a category: a four-door fridge is 79–91 cm wide while the
+   * category as a whole starts at 43 cm, and quoting the category range would
+   * answer nobody's question.
+   */
+  namePattern?: string;
   /** Which measured columns this table publishes. */
   columns: DimensionsColumn[];
 }
@@ -90,8 +102,10 @@ function range(values: number[]): [number, number] | null {
 
 export async function buildDimensionsTable(spec: DimensionsTableSpec): Promise<DimensionsTable> {
   const products = await getProducts();
+  const namePattern = spec.namePattern ? new RegExp(spec.namePattern) : null;
   const matching = products.filter((product) => {
     if (product.categorySlug !== spec.categorySlug) return false;
+    if (namePattern && !namePattern.test(product.name)) return false;
     if (spec.screenInches && panelSizeFromName(product.name) === null) return false;
     if (spec.screenInches && !new RegExp(`(^|[^\\d])${spec.screenInches}\\s*['\u05f3"\u05f4]`).test(product.name))
       return false;
