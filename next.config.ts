@@ -68,6 +68,20 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   async redirects() {
     return [
+      // www duplicates the entire site. Vercel serves www with a 200 and an
+      // identical etag, so every URL exists twice and Google crawls both halves
+      // of a 2,804-URL sitemap. The absolute canonical on each page keeps the
+      // ranking signal consolidated, but nothing stops the crawl. A host-keyed
+      // 308 at the router layer collapses www onto the apex before the page is
+      // ever rendered, and is safe to keep even if the domain is later switched
+      // to redirect at the Vercel edge: once the edge answers first, this rule
+      // simply stops matching.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.hadadelectric.co.il" }],
+        destination: "https://hadadelectric.co.il/:path*",
+        permanent: true,
+      },
       // Malformed indexed URLs that smuggle a whole URL into the path, e.g.
       // /http://hadadelectric.co.il or /https://hadadelectric.co.il (and the
       // slash-collapsed /http:/… form). The middleware matcher can't receive

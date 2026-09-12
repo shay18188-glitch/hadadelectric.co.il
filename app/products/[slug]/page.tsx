@@ -57,6 +57,18 @@ export default async function ProductPage({ params }: ProductPageProps) {
     getProductsBySameBrand(product, 4),
   ]);
 
+  // A visitor landing on a discontinued model came for the category, not the
+  // model number. The related rail lower down already carries stock-first
+  // suggestions, but it sits below the spec table — too far to rescue the
+  // visit. When this product is gone, lift the available models into the buy
+  // column itself. Nothing is asserted about stock that the feed does not say:
+  // these are the records marked in_stock, and the badge on this page still
+  // reports this product honestly as unavailable.
+  const inStockAlternatives =
+    product.availability === "out_of_stock"
+      ? related.filter((p) => p.availability === "in_stock").slice(0, 3)
+      : [];
+
   const whatsappMessage = buildWhatsAppProductMessage(product);
   // Parsed from the spec sheet; null whenever the feed is ambiguous, so the
   // markup never claims a measurement the record does not support.
@@ -152,6 +164,33 @@ export default async function ProductPage({ params }: ProductPageProps) {
               label="התקשר להזמנה"
               className="mt-3 hidden w-full sm:w-auto md:flex"
             />
+
+            {inStockAlternatives.length > 0 && (
+              <section
+                className="mt-6 rounded-2xl border border-line bg-surface/70 p-4"
+                aria-labelledby="alternatives-heading"
+              >
+                <h2 id="alternatives-heading" className="text-sm font-bold text-graphite">
+                  דגמים דומים שזמינים עכשיו
+                </h2>
+                <p className="mt-1 text-xs leading-relaxed text-graphite-soft/70">
+                  הדגם הזה לא במלאי כרגע. אלה הדגמים מאותה קטגוריה שכן זמינים — אפשר להשוות מפרט
+                  ומידות, או לשלוח לנו הודעה ונעזור להתאים.
+                </p>
+                <ul className="mt-3 flex flex-col gap-2">
+                  {inStockAlternatives.map((alt) => (
+                    <li key={alt.slug}>
+                      <a
+                        href={`/products/${alt.slug}`}
+                        className="block rounded-xl px-3 py-2 text-[13px] font-medium text-graphite transition hover:bg-surface"
+                      >
+                        {productHeading(alt)}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             <div className="mt-6 grid grid-cols-3 gap-2 border-t border-line pt-5 text-center text-[10px] font-semibold text-graphite-soft/70 sm:text-xs">
               <span>משלוח בצפון</span>

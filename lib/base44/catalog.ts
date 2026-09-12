@@ -273,15 +273,41 @@ export async function getPopularProducts(limit = 8): Promise<Product[]> {
   return products.filter((p) => p.availability === "in_stock").slice(0, limit);
 }
 
+/**
+ * Stock-first ordering for suggestion rails.
+ *
+ * The related rail used to take whatever the feed happened to list first, so a
+ * discontinued model could be "suggested" alongside another discontinued model.
+ * That matters most on exactly the pages where the rail is the only useful thing
+ * left: Search Console shows `ai16000` drawing 1,288 impressions at position 6.6
+ * and zero clicks against a product the catalog marks out of stock. Ordering
+ * available models first costs nothing on an in-stock page and makes the
+ * out-of-stock page answer the question the visitor actually arrived with.
+ *
+ * Availability is only reordered, never filtered: a category with nothing in
+ * stock still shows its models rather than rendering an empty rail.
+ */
+function availabilityRank(p: Product): number {
+  return p.availability === "in_stock" ? 0 : p.availability === "unknown" ? 1 : 2;
+}
+
+function stockFirst(products: Product[]): Product[] {
+  return [...products].sort((a, b) => availabilityRank(a) - availabilityRank(b));
+}
+
 export async function getRelatedProducts(product: Product, limit = 4): Promise<Product[]> {
   const products = await getProducts();
-  const sameCategory = products.filter(
-    (p) => p.categorySlug && p.categorySlug === product.categorySlug && p.modelNumber !== product.modelNumber
+  const sameCategory = stockFirst(
+    products.filter(
+      (p) => p.categorySlug && p.categorySlug === product.categorySlug && p.modelNumber !== product.modelNumber
+    )
   );
   if (sameCategory.length >= limit) return sameCategory.slice(0, limit);
 
-  const sameBrand = products.filter(
-    (p) => p.brandSlug && p.brandSlug === product.brandSlug && p.modelNumber !== product.modelNumber
+  const sameBrand = stockFirst(
+    products.filter(
+      (p) => p.brandSlug && p.brandSlug === product.brandSlug && p.modelNumber !== product.modelNumber
+    )
   );
   const merged = [...sameCategory];
   for (const p of sameBrand) {
@@ -293,5 +319,5 @@ export async function getRelatedProducts(product: Product, limit = 4): Promise<P
 
 export async function getProductsBySameBrand(product: Product, limit = 4): Promise<Product[]> {
   const products = await getProductsByBrand(product.brandSlug ?? "");
-  return products.filter((p) => p.modelNumber !== product.modelNumber).slice(0, limit);
+  return stockFirst(products.filter((p) => p.modelNumber !== product.modelNumber)).slice(0, limit);
 }

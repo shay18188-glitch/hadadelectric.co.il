@@ -245,6 +245,36 @@ const BASE_GUIDES: Guide[] = [
 
 export const GUIDES: Guide[] = [...BASE_GUIDES, ...EXTRA_GUIDES, ...DIMENSION_GUIDES];
 
+/**
+ * Every guide that speaks to a category, not just the one hand-picked in
+ * `categoryContent`.
+ *
+ * A category page used to link a single guide, which meant the measured
+ * dimension guides were reachable only from other guides and from the
+ * `/recommended` page that outranks them. `tv-65-inch-dimensions` sat at zero
+ * impressions for its first 19 days while `/recommended/65-inch-tvs` absorbed
+ * the dimension queries from position 37 — the category page, which is the
+ * natural parent for both, linked to neither.
+ *
+ * Three signals count as "related", in the order a reader would expect them:
+ * the guide's own primary category, a measured dimensions table built from that
+ * category, and a multi-category guide that lists it.
+ */
+export function guidesForCategory(categorySlug: string): Guide[] {
+  if (!categorySlug) return [];
+  const primary = GUIDES.filter((g) => g.relatedCategorySlug === categorySlug);
+  const dimensional = GUIDES.filter(
+    (g) => g.dimensionsTable?.categorySlug === categorySlug && !primary.includes(g)
+  );
+  const multi = GUIDES.filter(
+    (g) =>
+      g.catalogCategorySlugs?.includes(categorySlug) &&
+      !primary.includes(g) &&
+      !dimensional.includes(g)
+  );
+  return [...dimensional, ...primary, ...multi];
+}
+
 export function getGuideBySlug(slug: string): Guide | null {
   return GUIDES.find((g) => g.slug === slug) ?? null;
 }

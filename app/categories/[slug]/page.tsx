@@ -18,7 +18,7 @@ import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 import { getCategoryContent } from "@/content/categoryContent";
-import { getGuideBySlug } from "@/content/guides";
+import { getGuideBySlug, guidesForCategory } from "@/content/guides";
 import { ViewTracker } from "@/components/ViewTracker";
 import { categoryImageFor } from "@/lib/categoryVisuals";
 import { buildBrandCategoryPresentation } from "@/content/brandCategorySeo";
@@ -84,6 +84,11 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
     .map((page) => ({ page, count: filterRecommendationProducts(products, page).length }))
     .filter(({ count }) => count >= 4);
   const relatedGuide = content.guideSlug ? getGuideBySlug(content.guideSlug) : null;
+  // Everything else written for this category, minus the one already featured
+  // above. Capped at four so the module stays a signpost, not a sitemap.
+  const moreGuides = guidesForCategory(category.slug)
+    .filter((g) => g.slug !== relatedGuide?.slug)
+    .slice(0, 4);
   const categoryBrandCombos = brandCategoryCombos.filter((c) => c.categorySlug === category.slug);
   const relatedBrandSlugs = new Set(products.map((p) => p.brandSlug).filter(Boolean));
   const relatedBrands = allBrands.filter((b) => relatedBrandSlugs.has(b.slug));
@@ -197,6 +202,29 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                 </p>
               </div>
             )}
+          </section>
+        )}
+
+        {moreGuides.length > 0 && (
+          <section className="mt-10 md:mt-14" aria-labelledby="category-more-guides-heading">
+            <h2 id="category-more-guides-heading" className="text-lg font-bold text-graphite md:text-2xl">
+              מדריכים ל{category.name}
+            </h2>
+            <p className="mt-2 text-sm text-graphite-soft/80">
+              מידות, מפרטים והבדלים בין דגמים — לפני שמחליטים.
+            </p>
+            <ul className="mt-4 flex flex-col gap-2">
+              {moreGuides.map((guide) => (
+                <li key={guide.slug}>
+                  <Link
+                    href={`/guides/${guide.slug}`}
+                    className="block rounded-2xl border border-line bg-white px-4 py-3 text-sm font-medium text-graphite hover:border-brand-blue/40 hover:text-brand-blue"
+                  >
+                    {guide.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 
