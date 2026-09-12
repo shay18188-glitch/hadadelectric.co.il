@@ -87,9 +87,9 @@ export function NicheFitCalculator({ candidates }: { candidates: FitCandidate[] 
       <div className="surface-card rounded-[1.5rem] p-5 md:p-6">
         <div className="grid gap-4 sm:grid-cols-3">
           {[
-            { id: "w", label: "רוחב הנישה", value: width, set: setWidth },
-            { id: "h", label: "גובה פנוי", value: height, set: setHeight },
-            { id: "d", label: "עומק עד הקיר", value: depth, set: setDepth },
+            { id: "w", label: "רוחב הנישה", value: width, set: setWidth, example: "60" },
+            { id: "h", label: "גובה פנוי", value: height, set: setHeight, example: "85" },
+            { id: "d", label: "עומק עד הקיר", value: depth, set: setDepth, example: "60" },
           ].map((field) => (
             <div key={field.id}>
               <label htmlFor={`niche-${field.id}`} className="block text-sm font-semibold text-graphite">
@@ -104,7 +104,8 @@ export function NicheFitCalculator({ candidates }: { candidates: FitCandidate[] 
                   step="0.1"
                   value={field.value}
                   onChange={(e) => field.set(e.target.value)}
-                  placeholder="—"
+                  placeholder={field.example}
+                  aria-label={`${field.label} בסנטימטרים`}
                   className="w-full rounded-xl border border-line bg-white px-3 py-2 text-base text-graphite focus:border-brand-blue focus:outline-none"
                 />
                 <span className="shrink-0 text-sm text-graphite-soft/70">ס״מ</span>
@@ -174,7 +175,43 @@ export function NicheFitCalculator({ candidates }: { candidates: FitCandidate[] 
             <p className="text-sm text-graphite-soft/75">
               {matches.length} דגמים נכנסים במידות שהזנתם, מסודרים לפי המרווח שהם משאירים.
             </p>
-            <div className="mt-3 overflow-x-auto rounded-2xl border border-line bg-white">
+            {/* Phones get cards, not a table. At 375px a three-column table
+                pushed the dimensions and the remaining-gap columns off-screen
+                behind a horizontal scroll — hiding the two numbers the tool
+                exists to produce, for the 64% of clicks that arrive on mobile. */}
+            <ul className="mt-3 flex flex-col gap-2 sm:hidden">
+              {matches.map((m) => {
+                const tight = m.tightest < TIGHT_CM;
+                return (
+                  <li key={m.slug} className="rounded-2xl border border-line bg-white p-4">
+                    <Link href={`/products/${m.slug}`} className="text-sm font-semibold text-graphite hover:text-brand-blue">
+                      {m.name}
+                    </Link>
+                    <p className="mt-0.5 text-xs text-graphite-soft/60">
+                      {CATEGORY_LABELS[m.categorySlug] ?? m.categorySlug}
+                      {m.brand ? ` · ${m.brand}` : ""}
+                      {m.inStock ? "" : " · לא במלאי כרגע"}
+                    </p>
+                    <p className="mt-2 text-sm text-graphite-soft/85" dir="ltr">
+                      {round(m.widthCm)} × {round(m.heightCm)} × {round(m.depthCm)} cm
+                    </p>
+                    <p className={cx("mt-1 text-sm", tight ? "text-warning-text" : "text-graphite-soft/85")}>
+                      מרווח שנותר:{" "}
+                      {[
+                        w !== null ? `רוחב ${round(m.gapW)}` : null,
+                        h !== null ? `גובה ${round(m.gapH)}` : null,
+                        d !== null ? `עומק ${round(m.gapD)}` : null,
+                      ]
+                        .filter(Boolean)
+                        .join(" · ")}
+                      {tight && <span className="mt-0.5 block text-xs">מרווח צר — בדקו אוורור וחיבורים</span>}
+                    </p>
+                  </li>
+                );
+              })}
+            </ul>
+
+            <div className="mt-3 hidden overflow-x-auto rounded-2xl border border-line bg-white sm:block">
               <table className="w-full min-w-[560px] text-sm">
                 <thead>
                   <tr className="bg-surface text-xs text-graphite-soft/80">

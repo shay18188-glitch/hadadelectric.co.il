@@ -130,7 +130,16 @@ export default async function GuidePage({ params }: GuidePageProps) {
         </header>
 
         <div className="mt-8 grid max-w-6xl gap-7 lg:grid-cols-[minmax(0,52rem)_20rem] lg:items-start md:mt-10">
-          <div className="surface-card rounded-[1.75rem] p-6 sm:p-8 md:rounded-[2rem] md:p-10">
+          {/* min-w-0 is load-bearing. A grid item defaults to min-width:auto,
+              which sizes it to its content's min-content width — and the
+              measured tables below carry min-w-[34rem]. That 544px floor
+              propagated up through this card and widened the whole document:
+              every guide with a dimensions table scrolled sideways on a phone,
+              including /guides/oven-dimensions, which takes 25.9 impressions a
+              day at position 7.4 with 64% of the site's clicks coming from
+              mobile. Allowing this item to shrink lets the table's own
+              overflow-x-auto wrapper do the scrolling instead. */}
+          <div className="min-w-0 surface-card rounded-[1.75rem] p-6 sm:p-8 md:rounded-[2rem] md:p-10">
             <div className="mb-7 flex flex-wrap items-center gap-2 border-b border-line/70 pb-5 text-xs font-medium text-graphite-soft/58">
               <span className="rounded-full bg-brand-blue-light px-3 py-1.5 font-bold text-brand-blue">מדריך מעשי</span>
               <span>{guide.sections.length} נושאים שיעזרו לכם לבחור נכון</span>
