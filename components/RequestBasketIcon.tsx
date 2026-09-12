@@ -1,16 +1,22 @@
 "use client";
 
+import { usePathname } from "next/navigation";
+import { getLocaleFromPathname } from "@/lib/i18n/locales";
+import { CHROME } from "@/lib/i18n/chrome";
+
 import Link from "next/link";
 import { useRequestBasket } from "@/components/RequestBasketProvider";
 import { cx } from "@/lib/utils";
 
 export function RequestBasketIcon({ className }: { className?: string }) {
+  const pathname = usePathname();
+  const locale = getLocaleFromPathname(pathname ?? "/");
   const { count } = useRequestBasket();
 
   return (
     <Link
       href="/request"
-      aria-label={`הבקשה שלי, ${count} מוצרים`}
+      aria-label={CHROME[locale].basketLabel(count)}
       className={cx(
         "relative inline-flex items-center justify-center rounded-full text-graphite transition-colors hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-blue h-10 w-10",
         className

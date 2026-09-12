@@ -1,4 +1,6 @@
 import { GOOGLE_REVIEWS } from "@/content/reviews";
+import { CHROME } from "@/lib/i18n/chrome";
+import type { Locale } from "@/lib/i18n/locales";
 import { cx } from "@/lib/utils";
 
 /** The four-colour Google "G" mark, for attribution ("reviews on Google"). */
@@ -35,12 +37,15 @@ function Stars({ rating }: { rating: number }) {
 export function GoogleRating({
   variant = "card",
   className,
+  locale = "he",
 }: {
   variant?: "card" | "inline";
   className?: string;
+  locale?: Locale;
 }) {
   const { rating, count, url } = GOOGLE_REVIEWS;
-  const label = `דירוג ${rating} מתוך 5 מבוסס על ${count} ביקורות בגוגל`;
+  const t = CHROME[locale].reviews;
+  const label = t.ariaLabel(String(rating), count);
 
   if (variant === "inline") {
     return (
@@ -80,11 +85,11 @@ export function GoogleRating({
           <Stars rating={rating} />
         </div>
         <p className="mt-1 text-sm text-graphite-soft/80">
-          מתוך 5 · {count} ביקורות ב-Google
+          {t.outOf(count)}
         </p>
       </div>
       <span className="ms-auto hidden shrink-0 text-sm font-semibold text-brand-blue group-hover:underline sm:inline">
-        קראו ביקורות ←
+        {t.readReviews}
       </span>
     </a>
   );

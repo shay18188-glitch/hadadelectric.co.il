@@ -1,5 +1,9 @@
 "use client";
 
+import { usePathname } from "next/navigation";
+import { getLocaleFromPathname } from "@/lib/i18n/locales";
+import { CHROME } from "@/lib/i18n/chrome";
+
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { cx } from "@/lib/utils";
@@ -24,6 +28,8 @@ function readStored(): A11ySettings {
 }
 
 export function AccessibilityWidget() {
+  const pathname = usePathname();
+  const t = CHROME[getLocaleFromPathname(pathname ?? "/")].a11y;
   const [open, setOpen] = useState(false);
   // Lazy init from storage. Safe against hydration mismatch: nothing in the
   // initial render (panel closed) is derived from `settings`. The inline
@@ -85,7 +91,7 @@ export function AccessibilityWidget() {
         ref={fabRef}
         type="button"
         onClick={() => setOpen((v) => !v)}
-        aria-label="פתיחת תפריט נגישות"
+        aria-label={t.open}
         aria-expanded={open}
         aria-haspopup="dialog"
         className="a11y-fab safe-bottom fixed bottom-24 left-3 z-[60] flex h-12 w-12 items-center justify-center rounded-full bg-brand-blue text-white shadow-lg ring-1 ring-black/10 transition hover:bg-brand-blue-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue md:bottom-6 md:left-6 md:h-14 md:w-14"
@@ -110,7 +116,7 @@ export function AccessibilityWidget() {
             <div className="flex items-center justify-between gap-3 border-b border-line bg-surface px-4 py-3">
               <h2 id={titleId} className="flex items-center gap-2 text-base font-bold">
                 <AccessibilityIcon className="h-5 w-5 text-brand-blue" />
-                תפריט נגישות
+                {t.title}
               </h2>
               <button
                 type="button"
@@ -118,7 +124,7 @@ export function AccessibilityWidget() {
                   setOpen(false);
                   fabRef.current?.focus();
                 }}
-                aria-label="סגירת תפריט נגישות"
+                aria-label={t.close}
                 className="flex h-8 w-8 items-center justify-center rounded-full text-graphite-soft/70 transition hover:bg-line focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
               >
                 <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden="true">
@@ -137,7 +143,7 @@ export function AccessibilityWidget() {
               {/* Font size */}
               <div className="rounded-xl border border-line p-3">
                 <div className="mb-2 flex items-center justify-between">
-                  <span className="text-sm font-semibold">גודל טקסט</span>
+                  <span className="text-sm font-semibold">{t.textSize}</span>
                   <span className="text-xs tabular-nums text-graphite-soft/70" aria-live="polite">
                     {fontPct}%
                   </span>
@@ -147,7 +153,7 @@ export function AccessibilityWidget() {
                     type="button"
                     onClick={() => changeFont(-1)}
                     disabled={settings.fontStep === 0}
-                    aria-label="הקטנת גודל הטקסט"
+                    aria-label={t.decrease}
                     className="flex h-10 flex-1 items-center justify-center rounded-lg border border-line text-lg font-bold transition hover:bg-surface disabled:opacity-40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
                   >
                     A−
@@ -156,7 +162,7 @@ export function AccessibilityWidget() {
                     type="button"
                     onClick={() => changeFont(1)}
                     disabled={settings.fontStep === FONT_SCALE_STEPS.length - 1}
-                    aria-label="הגדלת גודל הטקסט"
+                    aria-label={t.increase}
                     className="flex h-10 flex-1 items-center justify-center rounded-lg border border-line text-xl font-bold transition hover:bg-surface disabled:opacity-40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
                   >
                     A+
@@ -167,32 +173,32 @@ export function AccessibilityWidget() {
               {/* Toggles */}
               <div className="mt-3 grid grid-cols-2 gap-2">
                 <ToggleButton
-                  label="ניגודיות כהה"
+                  label={t.darkContrast}
                   pressed={settings.contrast === "dark"}
                   onClick={() => patch({ contrast: settings.contrast === "dark" ? "none" : "dark" })}
                 />
                 <ToggleButton
-                  label="ניגודיות בהירה"
+                  label={t.lightContrast}
                   pressed={settings.contrast === "light"}
                   onClick={() => patch({ contrast: settings.contrast === "light" ? "none" : "light" })}
                 />
                 <ToggleButton
-                  label="פונט קריא"
+                  label={t.readableFont}
                   pressed={settings.readableFont}
                   onClick={() => patch({ readableFont: !settings.readableFont })}
                 />
                 <ToggleButton
-                  label="הדגשת קישורים"
+                  label={t.highlightLinks}
                   pressed={settings.highlightLinks}
                   onClick={() => patch({ highlightLinks: !settings.highlightLinks })}
                 />
                 <ToggleButton
-                  label="סמן גדול"
+                  label={t.bigCursor}
                   pressed={settings.bigCursor}
                   onClick={() => patch({ bigCursor: !settings.bigCursor })}
                 />
                 <ToggleButton
-                  label="עצירת אנימציות"
+                  label={t.stopAnimations}
                   pressed={settings.stopAnimations}
                   onClick={() => patch({ stopAnimations: !settings.stopAnimations })}
                 />
@@ -203,7 +209,7 @@ export function AccessibilityWidget() {
                 onClick={reset}
                 className="mt-3 w-full rounded-lg border border-line py-2.5 text-sm font-semibold text-graphite-soft transition hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
               >
-                איפוס הגדרות נגישות
+                {t.reset}
               </button>
 
               <Link
@@ -211,7 +217,7 @@ export function AccessibilityWidget() {
                 onClick={() => setOpen(false)}
                 className="mt-3 block rounded-lg bg-brand-blue-light py-2.5 text-center text-sm font-semibold text-brand-blue-dark transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
               >
-                להצהרת הנגישות המלאה
+                {t.statement}
               </Link>
             </div>
           </div>

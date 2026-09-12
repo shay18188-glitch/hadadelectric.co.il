@@ -1,4 +1,4 @@
-import type { Guide } from "@/content/guides";
+import { GUIDES, type Guide } from "@/content/guides";
 import type { Product } from "@/types/product";
 import type { Locale } from "@/lib/i18n/locales";
 import guidesEn from "@/content/i18n/translations/guides.en.json";
@@ -48,7 +48,21 @@ const CATALOG_STORES: Record<"en" | "ru", CatalogStore> = {
 export function hasGuideTranslation(slug: string, locale: Locale): boolean {
   if (locale === "he") return true;
   const guideTranslation = GUIDE_STORES[locale].entries[slug];
-  return Boolean(guideTranslation?.title);
+  if (!guideTranslation?.title) return false;
+
+  // A stored translation is not automatically a usable one. `localizeGuide`
+  // refuses any entry whose section count no longer matches the source and
+  // falls back to Hebrew — so an entry that has drifted would otherwise be
+  // advertised via hreflang, submitted in the sitemap and left indexable
+  // while the page it points at renders Hebrew prose. That is precisely the
+  // failure this function exists to prevent, so it applies the same test.
+  //
+  // Drift is normal: rewriting a guide changes its shape, and the
+  // translation job runs separately. The page stays reachable; it just stops
+  // claiming to be translated until `npm run translate` catches up.
+  const source = GUIDES.find((guide) => guide.slug === slug);
+  if (!source) return false;
+  return guideTranslation.sections.length === source.sections.length;
 }
 
 export function localizeGuide(guide: Guide, locale: Locale): Guide {

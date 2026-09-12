@@ -46,6 +46,37 @@ export interface ChromeDict {
     searchPlaceholder: string;
     searchFieldLabel: string;
   };
+  /**
+   * Strings that live in shared chrome rather than in any one page.
+   *
+   * These rendered as hard-coded Hebrew on every URL including /en and /ru,
+   * so a Russian category listing shipped a Hebrew skip link, a Hebrew
+   * accessibility menu and a Hebrew review count under `hreflang="ru"`.
+   */
+  skipToContent: string;
+  basketLabel: (count: number) => string;
+  reviews: {
+    ariaLabel: (rating: string, count: number) => string;
+    outOf: (count: number) => string;
+    readReviews: string;
+    findUsAt: string;
+  };
+  a11y: {
+    open: string;
+    title: string;
+    close: string;
+    textSize: string;
+    decrease: string;
+    increase: string;
+    darkContrast: string;
+    lightContrast: string;
+    readableFont: string;
+    highlightLinks: string;
+    bigCursor: string;
+    stopAnimations: string;
+    reset: string;
+    statement: string;
+  };
   footer: {
     tagline: string;
     catalogTitle: string;
@@ -82,6 +113,30 @@ export const CHROME: Record<Locale, ChromeDict> = {
       trust: ["משלוחים והתקנה בכל אזור הצפון", "ייעוץ אישי מחנות פיזית בנהריה", "יבואנים רשמיים"],
       searchPlaceholder: "חפשו מקרר, מכונת כביסה, מותג, מק״ט או קטגוריה…",
       searchFieldLabel: "חיפוש מוצרים",
+    },
+    skipToContent: "דלג לתוכן הראשי",
+    basketLabel: (count) => `הבקשה שלי, ${count} מוצרים`,
+    reviews: {
+      ariaLabel: (rating, count) => `דירוג ${rating} מתוך 5 מבוסס על ${count} ביקורות בגוגל`,
+      outOf: (count) => `מתוך 5 · ${count} ביקורות ב-Google`,
+      readReviews: "קראו ביקורות ←",
+      findUsAt: "מצאו אותנו גם ב־",
+    },
+    a11y: {
+      open: "פתיחת תפריט נגישות",
+      title: "תפריט נגישות",
+      close: "סגירת תפריט נגישות",
+      textSize: "גודל טקסט",
+      decrease: "הקטנת גודל הטקסט",
+      increase: "הגדלת גודל הטקסט",
+      darkContrast: "ניגודיות כהה",
+      lightContrast: "ניגודיות בהירה",
+      readableFont: "פונט קריא",
+      highlightLinks: "הדגשת קישורים",
+      bigCursor: "סמן גדול",
+      stopAnimations: "עצירת אנימציות",
+      reset: "איפוס הגדרות נגישות",
+      statement: "להצהרת הנגישות המלאה",
     },
     footer: {
       tagline:
@@ -146,6 +201,30 @@ export const CHROME: Record<Locale, ChromeDict> = {
       searchPlaceholder: "Search a fridge, washing machine, brand or model…",
       searchFieldLabel: "Product search",
     },
+    skipToContent: "Skip to main content",
+    basketLabel: (count) => `My request, ${count} products`,
+    reviews: {
+      ariaLabel: (rating, count) => `Rated ${rating} out of 5 based on ${count} Google reviews`,
+      outOf: (count) => `out of 5 · ${count} Google reviews`,
+      readReviews: "Read reviews →",
+      findUsAt: "Find us also on",
+    },
+    a11y: {
+      open: "Open accessibility menu",
+      title: "Accessibility menu",
+      close: "Close accessibility menu",
+      textSize: "Text size",
+      decrease: "Decrease text size",
+      increase: "Increase text size",
+      darkContrast: "Dark contrast",
+      lightContrast: "Light contrast",
+      readableFont: "Readable font",
+      highlightLinks: "Highlight links",
+      bigCursor: "Large cursor",
+      stopAnimations: "Stop animations",
+      reset: "Reset accessibility settings",
+      statement: "Full accessibility statement",
+    },
     footer: {
       tagline:
         "Home appliance store in Nahariya serving private customers across northern Israel — from the Haifa area up to the northern border — with delivery and installation to your home and personal service. The site is a catalog for browsing, checking availability and contacting the store team directly.",
@@ -206,6 +285,30 @@ export const CHROME: Record<Locale, ChromeDict> = {
       trust: ["Доставка и установка по всему северу Израиля", "Личная консультация в магазине в Нагарии", "Официальные импортёры"],
       searchPlaceholder: "Холодильник, стиральная машина, бренд или модель…",
       searchFieldLabel: "Поиск товаров",
+    },
+    skipToContent: "Перейти к основному содержанию",
+    basketLabel: (count) => `Моя заявка, товаров: ${count}`,
+    reviews: {
+      ariaLabel: (rating, count) => `Рейтинг ${rating} из 5 на основе ${count} отзывов в Google`,
+      outOf: (count) => `из 5 · отзывов в Google: ${count}`,
+      readReviews: "Читать отзывы →",
+      findUsAt: "Мы также здесь",
+    },
+    a11y: {
+      open: "Открыть меню доступности",
+      title: "Меню доступности",
+      close: "Закрыть меню доступности",
+      textSize: "Размер текста",
+      decrease: "Уменьшить размер текста",
+      increase: "Увеличить размер текста",
+      darkContrast: "Тёмный контраст",
+      lightContrast: "Светлый контраст",
+      readableFont: "Удобный шрифт",
+      highlightLinks: "Выделять ссылки",
+      bigCursor: "Крупный курсор",
+      stopAnimations: "Отключить анимации",
+      reset: "Сбросить настройки доступности",
+      statement: "Полная декларация доступности",
     },
     footer: {
       tagline:

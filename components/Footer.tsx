@@ -69,10 +69,10 @@ export function Footer() {
           </address>
 
           <div className="mt-5">
-            <GoogleRating variant="inline" />
+            <GoogleRating variant="inline" locale={locale} />
           </div>
           <div className="mt-4">
-            <BusinessProfiles />
+            <BusinessProfiles locale={locale} />
           </div>
         </div>
 

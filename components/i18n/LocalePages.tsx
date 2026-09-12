@@ -68,7 +68,7 @@ export function LocaleHomePage({ locale, content }: LocaleProps) {
               <Link href={locale === "ru" ? "/ru/products" : "/en/products"} className="inline-flex items-center justify-center rounded-full border border-white/25 bg-white/5 px-6 py-3.5 text-base font-semibold text-white hover:bg-white/10">{c.ctaCatalog}</Link>
             </div>
             <div className="mt-8 max-w-md rounded-2xl bg-white/5 p-3 ring-1 ring-white/10">
-              <GoogleRating variant="inline" />
+              <GoogleRating variant="inline" locale={locale} />
             </div>
           </div>
           <div className="relative min-h-80 lg:min-h-full">
@@ -242,7 +242,7 @@ export function LocaleContactPage({ locale, content }: LocaleProps) {
                 <CtaRow locale={locale} content={content} />
               </div>
               <div className="mt-5">
-                <GoogleRating />
+                <GoogleRating locale={locale} />
               </div>
             </div>
 

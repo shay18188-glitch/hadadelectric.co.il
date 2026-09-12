@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SkipLink } from "@/components/SkipLink";
 import { Rubik } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
@@ -86,9 +87,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className="flex min-h-screen flex-col font-sans antialiased">
         <script dangerouslySetInnerHTML={{ __html: LOCALE_BOOTSTRAP_SCRIPT }} />
         <script dangerouslySetInnerHTML={{ __html: A11Y_BOOTSTRAP_SCRIPT }} />
-        <a href="#main-content" className="skip-link">
-          דלג לתוכן הראשי
-        </a>
+        <SkipLink />
         {/* Organization and WebSite describe the site and are correct on every
             page. The ElectronicsStore entity is not: emitting it sitewide told
             Google that all ~2,900 URLs — every product, every guide — were the

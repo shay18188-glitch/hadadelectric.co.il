@@ -1,4 +1,6 @@
 import { BUSINESS_PROFILES } from "@/content/reviews";
+import { CHROME } from "@/lib/i18n/chrome";
+import type { Locale } from "@/lib/i18n/locales";
 import { cx } from "@/lib/utils";
 
 /**
@@ -7,15 +9,18 @@ import { cx } from "@/lib/utils";
  * reach the store.
  */
 export function BusinessProfiles({
-  title = "מצאו אותנו גם ב־",
+  title,
   className,
+  locale = "he",
 }: {
   title?: string;
   className?: string;
+  locale?: Locale;
 }) {
+  const heading = title ?? CHROME[locale].reviews.findUsAt;
   return (
     <div className={cx("flex flex-wrap items-center gap-x-2 gap-y-2", className)}>
-      <span className="text-sm font-semibold text-graphite">{title}</span>
+      <span className="text-sm font-semibold text-graphite">{heading}</span>
       <ul className="flex flex-wrap items-center gap-2">
         {BUSINESS_PROFILES.map((profile) => (
           <li key={profile.name}>
