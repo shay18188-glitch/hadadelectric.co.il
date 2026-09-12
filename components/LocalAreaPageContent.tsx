@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { guidesForCategory } from "@/content/guides";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { CategorySearchBox } from "@/components/CategorySearchBox";
@@ -23,6 +24,17 @@ export function LocalAreaPageContent({
   content: LocalPageContent;
   categories: Category[];
 }) {
+  // Dimension guides for the categories this page highlights, de-duplicated
+  // and capped so the module stays a signpost rather than a second sitemap.
+  const measureGuides = Array.from(
+    new Map(
+      content.topCategories
+        .flatMap((category) => guidesForCategory(category.slug))
+        .filter((guide) => guide.dimensionsTable)
+        .map((guide) => [guide.slug, guide])
+    ).values()
+  ).slice(0, 3);
+
   return (
     <>
       <Breadcrumbs items={[{ name: content.city, path: content.path }]} />
@@ -165,6 +177,40 @@ export function LocalAreaPageContent({
               <FaqAccordion items={content.faq} />
             </div>
             <JsonLd data={faqJsonLd(content.faq)} />
+          </section>
+        )}
+
+        {/* Measure-before-you-order.
+
+            Every one of these pages already argues that measurements are the
+            risk in a delivery to this city — narrow stairwells in Hadar,
+            1960s kitchens, fourth floors without a lift — and then linked to
+            no guide that actually carries the measurements. Meanwhile the
+            measured-dimension guides are the best-ranking non-brand pages on
+            the site (position 6.75 and 7.4). The link is derived from the
+            categories this page already highlights, so it stays correct as
+            the page's own focus changes. */}
+        {measureGuides.length > 0 && (
+          <section className="mt-10 md:mt-14" aria-labelledby="local-measure-heading">
+            <h2 id="local-measure-heading" className="text-lg font-bold text-graphite md:text-2xl">
+              מדדו לפני שמזמינים ל{content.city}
+            </h2>
+            <p className="mt-2 max-w-3xl text-sm text-graphite-soft/80">
+              המידות הן מה שמפיל הזמנות — לא הדגם. אלה הטבלאות המדודות מהקטלוג לקטגוריות
+              המבוקשות באזור, עם מה שצריך למדוד בבית לפני ההזמנה.
+            </p>
+            <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {measureGuides.map((guide) => (
+                <li key={guide.slug}>
+                  <Link
+                    href={`/guides/${guide.slug}`}
+                    className="block rounded-2xl border border-line bg-white p-4 text-sm font-semibold text-graphite transition-colors hover:border-brand-blue/40 hover:text-brand-blue md:p-5"
+                  >
+                    {guide.title} ←
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 
