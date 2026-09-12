@@ -27,6 +27,29 @@ function StatCard({ label, value, sub, accent }: { label: string; value: string;
   );
 }
 
+const LANDING_LABELS: Record<string, string> = {
+  home: "דף הבית",
+  product: "עמוד מוצר",
+  category: "עמוד קטגוריה",
+  guide: "מדריך",
+  local: "עמוד עיר/אזור",
+  recommended: "עמוד המלצה",
+  brand: "עמוד מותג",
+  bundle: "חבילה",
+  tool: "כלי (מחשבון נישה)",
+  request: "עמוד בקשה",
+  other: "אחר",
+};
+
+const SOURCE_LABELS: Record<string, string> = {
+  google: "Google",
+  bing: "Bing / DuckDuckGo",
+  ai: "עוזרי AI",
+  social: "רשתות חברתיות",
+  referral: "אתר מפנה",
+  direct: "ישיר / מוקלד",
+};
+
 function RankedList({
   title,
   entries,
@@ -156,6 +179,23 @@ export function AdminDashboard({ data, leads, connected, envStatus, categoryName
         <RankedList title="פירוט בוטים (סריקות)" entries={data.bots} suffix="סריקות" />
         <RankedList title="הגעות לפי עוזר AI" entries={data.aiReferrals} suffix="הגעות" />
       </div>
+
+      {/* Conversion attribution.
+
+          Search Console can say a page was seen and clicked. It cannot say
+          which kind of page produced an enquiry, because 82% of the site's
+          clicks arrive on queries too rare for Console to name. These two
+          lists answer that from the site's own data: which template the visit
+          started on, and which engine sent it. */}
+      <h2 className="mt-10 text-lg font-bold text-graphite md:text-2xl">מאיפה מגיעות הפניות</h2>
+      <p className="mt-1 text-sm text-graphite-soft/75">
+        לפי סוג העמוד שבו התחיל הביקור ולפי הערוץ שממנו הגיע — נספר על פניות בלבד (וואטסאפ, טלפון,
+        טופס, הוספה לבקשה), לא על צפיות.
+      </p>
+      <section className="mt-4 grid gap-3 md:grid-cols-2">
+        <RankedList title="פניות לפי סוג עמוד כניסה" entries={data.conversionsByLanding} names={LANDING_LABELS} suffix="פניות" />
+        <RankedList title="פניות לפי ערוץ" entries={data.conversionsBySource} names={SOURCE_LABELS} suffix="פניות" />
+      </section>
 
       {/* Engagement */}
       <h2 className="mt-10 text-lg font-bold text-graphite md:text-2xl">מה מעניין את הגולשים</h2>

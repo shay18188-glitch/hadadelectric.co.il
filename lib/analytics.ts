@@ -1,6 +1,7 @@
 "use client";
 
 import { markConversionIntent } from "@/lib/conversion-intent";
+import { landingTypeFromPath, sourceFromReferrer, type LandingType, type TrafficSource } from "@/lib/analytics/landing";
 
 type GtagFn = (...args: unknown[]) => void;
 
@@ -56,12 +57,42 @@ const SERVER_TRACKED: ReadonlySet<AnalyticsEvent> = new Set([
  * page: navigator.sendBeacon queues it and returns immediately (falls back to
  * a keepalive fetch). Silently does nothing if unavailable.
  */
+/**
+ * The template this visit started on and the channel it came from, captured
+ * once and reused for every enquiry in the session.
+ *
+ * It has to be recorded on the first page, because by the time someone clicks
+ * WhatsApp they may be three pages deep and `document.referrer` is long gone.
+ * sessionStorage scopes it to the visit and leaves nothing behind afterwards;
+ * both values are drawn from closed allow-lists, so nothing identifying is
+ * stored and nothing free-form is ever sent.
+ */
+const VISIT_KEY = "hy_visit";
+
+function visitContext(): { landing?: LandingType; source?: TrafficSource } {
+  if (typeof window === "undefined") return {};
+  try {
+    const stored = window.sessionStorage.getItem(VISIT_KEY);
+    if (stored) return JSON.parse(stored) as { landing: LandingType; source: TrafficSource };
+    const context = {
+      landing: landingTypeFromPath(window.location.pathname),
+      source: sourceFromReferrer(document.referrer || "", window.location.hostname),
+    };
+    window.sessionStorage.setItem(VISIT_KEY, JSON.stringify(context));
+    return context;
+  } catch {
+    // Private mode, or storage disabled: attribution is simply absent.
+    return {};
+  }
+}
+
 function sendServerBeacon(event: AnalyticsEvent, params: Record<string, unknown>): void {
   if (!SERVER_TRACKED.has(event)) return;
   try {
     const slug = typeof params.slug === "string" ? params.slug : undefined;
     const category = typeof params.category === "string" ? params.category : undefined;
-    const body = JSON.stringify({ events: [{ event, slug, category }] });
+    const { landing, source } = visitContext();
+    const body = JSON.stringify({ events: [{ event, slug, category, landing, source }] });
     if (typeof navigator !== "undefined" && typeof navigator.sendBeacon === "function") {
       navigator.sendBeacon("/api/track", new Blob([body], { type: "application/json" }));
     } else {

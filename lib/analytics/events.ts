@@ -1,6 +1,7 @@
 // Server-side module (route handlers, middleware, admin RSC). Not imported by
 // client components — the client only sends events via /api/track.
 import { pipeline, redis, parseHashNumbers, parseZsetWithScores, isStoreConfigured } from "@/lib/analytics/store";
+import { isLandingType, isTrafficSource, type LandingType, type TrafficSource } from "@/lib/analytics/landing";
 
 /** Business events we persist. Kept in sync with the client allowlist. */
 export const TRACKED_EVENTS = [
@@ -36,7 +37,29 @@ export interface IncomingEvent {
   slug?: string;
   /** category slug, when relevant */
   category?: string;
+  /** Template the visit started on, for conversion attribution. */
+  landing?: LandingType;
+  /** Engine or channel the visit arrived from. */
+  source?: TrafficSource;
 }
+
+/**
+ * The events that mean someone tried to reach the shop. Only these carry the
+ * landing/source dimensions: attributing a page view tells you nothing you
+ * cannot already read in Search Console, while attributing an enquiry answers
+ * which content actually earns one.
+ */
+const CONVERSION_EVENTS: ReadonlySet<string> = new Set([
+  "whatsapp_click_header",
+  "whatsapp_click_product",
+  "whatsapp_click_basket",
+  "phone_click",
+  "contact_form_submit",
+  "product_add_to_request",
+  "bundle_add_to_request",
+  "exit_offer_submit",
+  "exit_offer_whatsapp",
+]);
 
 const DAILY_TTL_SECONDS = 60 * 60 * 24 * 130; // ~130 days retention for daily hashes
 
@@ -93,6 +116,13 @@ export async function recordEvents(events: IncomingEvent[]): Promise<void> {
     }
     if (e.event === "whatsapp_click_product" && slug) {
       cmds.push(["ZINCRBY", "z:wa_prod", 1, slug]);
+    }
+
+    if (CONVERSION_EVENTS.has(e.event)) {
+      cmds.push(["HINCRBY", "totals", "conversion", 1]);
+      cmds.push(["HINCRBY", `daily:${today}`, "conversion", 1]);
+      if (isLandingType(e.landing)) cmds.push(["ZINCRBY", "z:conv_landing", 1, e.landing]);
+      if (isTrafficSource(e.source)) cmds.push(["ZINCRBY", "z:conv_source", 1, e.source]);
     }
   }
 
@@ -221,6 +251,10 @@ export interface DashboardData {
   topProducts: RankedEntry[];
   topWhatsappProducts: RankedEntry[];
   topBrands: RankedEntry[];
+  /** Enquiries bucketed by the template the visit started on. */
+  conversionsByLanding: RankedEntry[];
+  /** Enquiries bucketed by the engine or channel the visit arrived from. */
+  conversionsBySource: RankedEntry[];
   bots: RankedEntry[];
   aiReferrals: RankedEntry[];
 }
@@ -247,6 +281,8 @@ export async function getDashboardData(days = 30): Promise<DashboardData> {
     topProducts: [],
     topWhatsappProducts: [],
     topBrands: [],
+    conversionsByLanding: [],
+    conversionsBySource: [],
     bots: [],
     aiReferrals: [],
   };
@@ -261,6 +297,8 @@ export async function getDashboardData(days = 30): Promise<DashboardData> {
     ["ZREVRANGE", "z:prod", 0, 19, "WITHSCORES"],
     ["ZREVRANGE", "z:wa_prod", 0, 14, "WITHSCORES"],
     ["ZREVRANGE", "z:brand", 0, 14, "WITHSCORES"],
+    ["ZREVRANGE", "z:conv_landing", 0, 14, "WITHSCORES"],
+    ["ZREVRANGE", "z:conv_source", 0, 14, "WITHSCORES"],
     ["HGETALL", "bots"],
     ["HGETALL", "airefs"],
     ...dayKeys.map((d) => ["HGETALL", `daily:${d}`] as (string | number)[]),
@@ -270,7 +308,7 @@ export async function getDashboardData(days = 30): Promise<DashboardData> {
   if (!res) return empty;
 
   const daily: DailyPoint[] = dayKeys
-    .map((date, i) => ({ date, events: parseHashNumbers(res[10 + i]) }))
+    .map((date, i) => ({ date, events: parseHashNumbers(res[12 + i]) }))
     .reverse(); // oldest -> newest
 
   return {
@@ -282,8 +320,10 @@ export async function getDashboardData(days = 30): Promise<DashboardData> {
     topProducts: toRanked(res[4]),
     topWhatsappProducts: toRanked(res[5]),
     topBrands: toRanked(res[6]),
-    bots: hashToRanked(res[7]),
-    aiReferrals: hashToRanked(res[8]),
+    conversionsByLanding: toRanked(res[7]),
+    conversionsBySource: toRanked(res[8]),
+    bots: hashToRanked(res[9]),
+    aiReferrals: hashToRanked(res[10]),
     daily,
   };
 }

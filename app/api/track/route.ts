@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { recordEvents, isTrackedEvent, storePing, type IncomingEvent } from "@/lib/analytics/events";
+import { isLandingType, isTrafficSource } from "@/lib/analytics/landing";
 import { isStoreConfigured, getStoreEnvStatus } from "@/lib/analytics/store";
 
 // Fire-and-forget collector. Clients call this with navigator.sendBeacon, so
@@ -28,12 +29,16 @@ export async function POST(req: Request) {
     const raw = Array.isArray(data.events) ? data.events : data.event ? [data] : [];
     const events: IncomingEvent[] = [];
     for (const item of raw.slice(0, 20)) {
-      const e = item as { event?: unknown; slug?: unknown; category?: unknown };
+      const e = item as { event?: unknown; slug?: unknown; category?: unknown; landing?: unknown; source?: unknown };
       if (!isTrackedEvent(e.event)) continue;
       events.push({
         event: e.event,
         slug: typeof e.slug === "string" ? e.slug : undefined,
         category: typeof e.category === "string" ? e.category : undefined,
+        // Both are validated against closed allow-lists, so a client can only
+        // ever increment one of a dozen known buckets — never write free text.
+        landing: isLandingType(e.landing) ? e.landing : undefined,
+        source: isTrafficSource(e.source) ? e.source : undefined,
       });
     }
     if (events.length > 0) await recordEvents(events);
