@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { ComparisonTable } from "@/lib/seo/specExtract";
+import { summariseComparison, type ComparisonTable } from "@/lib/seo/specExtract";
 
 /**
  * The models on the shelf, side by side.
@@ -22,9 +22,23 @@ export function SpecComparisonTable({
   caption: string;
 }) {
   const { attributes, rows } = table;
+  const insights = summariseComparison(table);
 
   return (
     <figure className="my-8 md:my-10">
+      {insights.length > 0 && (
+        <div className="mb-4 rounded-[1.25rem] border border-line/75 bg-surface p-4 md:p-5">
+          <p className="text-sm font-bold text-graphite">מה באמת מבדיל בין הדגמים</p>
+          <dl className="mt-2.5 grid gap-x-6 gap-y-1.5 text-[13px] sm:grid-cols-2 md:text-sm">
+            {insights.map((insight) => (
+              <div key={insight.label} className="flex flex-wrap gap-x-2">
+                <dt className="text-graphite-soft/60">{insight.label}:</dt>
+                <dd className="m-0 font-medium text-graphite">{insight.text}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      )}
       <div className="hidden overflow-x-auto rounded-[1.25rem] border border-line/75 bg-white sm:block">
         <table className="w-full text-[13px] md:text-sm">
           <thead>

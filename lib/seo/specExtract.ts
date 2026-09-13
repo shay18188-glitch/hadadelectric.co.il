@@ -124,8 +124,17 @@ const FRIDGE_ATTRIBUTES: SpecAttribute[] = [
   { key: "energy", label: "דירוג אנרגטי", read: (t) => energyGrade(t) },
   {
     key: "cooling",
+    // Suppliers write the same feature three ways — "No Frost", "NoFrost" and
+    // "Total No Frost" all appear in the catalog. Left as written they read as
+    // three different technologies in a comparison column, so they are folded
+    // into one label; "Total" is kept because it names a different scope
+    // (freezer and fridge, not freezer alone).
     label: "שיטת קירור",
-    read: (t) => first(t, /\b((?:Total\s+)?No\s?Frost|NoFrost)\b/i),
+    read: (t) => {
+      const m = /\b(Total\s+No\s?Frost|No\s?Frost)\b/i.exec(t);
+      if (!m) return null;
+      return /total/i.test(m[1]) ? "Total No Frost" : "No Frost";
+    },
   },
 ];
 
@@ -181,4 +190,76 @@ export function buildComparison(categorySlug: string | null, products: Product[]
     attributes: kept,
     rows: rows.filter((row) => kept.some((attribute) => row.values[attribute.key])),
   };
+}
+
+
+/**
+ * What actually separates these models, computed rather than asserted.
+ *
+ * A table lets a reader find the difference; this states it. It is also the
+ * part an answer engine can lift verbatim, and it cannot drift from the table
+ * above it because both are derived from the same rows.
+ *
+ * An attribute every model shares is reported too, and is often the more useful
+ * sentence: knowing that all the 10 kg machines spin at 1400 rpm tells a buyer
+ * to stop weighing spin speed and look at something else.
+ */
+export interface ComparisonInsight {
+  label: string;
+  text: string;
+}
+
+/** Leading number plus trailing unit, when a value is numeric. */
+function numeric(value: string): { n: number; unit: string } | null {
+  const m = /^(\d+(?:\.\d+)?)\s*(.*)$/.exec(value.trim());
+  if (!m) return null;
+  const n = Number(m[1]);
+  return Number.isFinite(n) ? { n, unit: m[2].trim() } : null;
+}
+
+function trim0(n: number): string {
+  return Number.isInteger(n) ? String(n) : String(Math.round(n * 10) / 10);
+}
+
+export function summariseComparison(table: ComparisonTable): ComparisonInsight[] {
+  const out: ComparisonInsight[] = [];
+
+  for (const attribute of table.attributes) {
+    const values = table.rows
+      .map((row) => row.values[attribute.key])
+      .filter((v): v is string => Boolean(v));
+    if (values.length < 2) continue;
+
+    const distinct = [...new Set(values)];
+    if (distinct.length === 1) {
+      out.push({ label: attribute.label, text: `כל הדגמים — ${distinct[0]}` });
+      continue;
+    }
+
+    // A range is only honest for a spread that is actually continuous. Refresh
+    // rate takes two values, 60 and 120, and "60 עד 120Hz" invites a reader to
+    // imagine a 90Hz model that does not exist; depth genuinely runs 55, 59,
+    // 60, 64. So a small discrete set is listed and a wider spread is ranged.
+    const nums = values.map(numeric);
+    if (nums.every((x): x is { n: number; unit: string } => x !== null)) {
+      const unit = nums[0].unit;
+      if (nums.every((x) => x.unit === unit) && distinct.length > 3) {
+        const lo = Math.min(...nums.map((x) => x.n));
+        const hi = Math.max(...nums.map((x) => x.n));
+        out.push({ label: attribute.label, text: `${trim0(lo)} עד ${trim0(hi)} ${unit}`.trim() });
+        continue;
+      }
+    }
+
+    const counts = distinct
+      .map((value) => ({ value, n: values.filter((v) => v === value).length }))
+      .sort((a, b) => b.n - a.n)
+      .slice(0, 3);
+    out.push({
+      label: attribute.label,
+      text: counts.map((c) => `${c.value} (${c.n})`).join(" · "),
+    });
+  }
+
+  return out;
 }
