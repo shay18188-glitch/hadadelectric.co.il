@@ -13,6 +13,8 @@ import { getRecommendationPage, RECOMMENDATION_PAGES } from "@/content/recommend
 import { getGuideBySlug } from "@/content/guides";
 import { categoryImageFor } from "@/lib/categoryVisuals";
 import { getRecommendationProducts } from "@/lib/seo/recommendationProducts";
+import { buildComparison } from "@/lib/seo/specExtract";
+import { SpecComparisonTable } from "@/components/SpecComparisonTable";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { collectionPageJsonLd, faqJsonLd } from "@/lib/schema/jsonld";
 
@@ -46,6 +48,14 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
   if (!page) notFound();
 
   const products = await getRecommendationProducts(page);
+
+  // Side-by-side of the models a visitor can actually buy today. Out-of-stock
+  // rows are excluded rather than greyed out: the table's job is to help choose
+  // between real options, and a row that cannot be ordered is noise in it.
+  const comparison = buildComparison(
+    page.categorySlug,
+    products.filter((product) => product.availability === "in_stock")
+  );
   if (products.length < 4) notFound();
 
   const inStockCount = products.filter((product) => product.availability === "in_stock").length;
@@ -189,6 +199,12 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
               </div>
               <Link href={`/categories/${page.categorySlug}`} className="text-sm font-black text-brand-blue hover:underline">לכל קטגוריית {page.categoryName} ←</Link>
             </div>
+            {comparison && (
+              <SpecComparisonTable
+                table={comparison}
+                caption={`השוואת ${page.shortTitle} שזמינים כרגע בקטלוג.`}
+              />
+            )}
             <div className="mt-8"><ProductGrid products={products} emptyMessage="לא נמצאו דגמים תואמים כרגע." /></div>
           </div>
         </section>
