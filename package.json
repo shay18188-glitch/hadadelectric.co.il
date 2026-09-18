@@ -9,7 +9,8 @@
     "lint": "eslint",
     "translate": "tsx scripts/translate-content.mts",
     "find-images": "tsx scripts/find-product-images.mts",
-    "generate-search-catalog": "tsx scripts/generate-search-catalog.mts"
+    "generate-search-catalog": "tsx scripts/generate-search-catalog.mts",
+    "probe-image-hosts": "tsx scripts/probe-image-hosts.mts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

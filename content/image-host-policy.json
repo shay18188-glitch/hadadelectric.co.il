@@ -1,0 +1,22 @@
+{
+  "_comment": "Hosts whose images Vercel's image optimizer cannot fetch, but a browser can. Regenerate with `npm run probe-image-hosts`.",
+  "generatedAt": "2026-09-18",
+  "blockedFromOptimizer": [
+    "eilat.payngo.co.il",
+    "fujicom.co.il",
+    "grundig-israel.co.il",
+    "img.ksp.co.il",
+    "manuals.plus",
+    "miniline.co.il",
+    "newpro.co.il",
+    "sahara-il.com",
+    "sel.co.il",
+    "www.askol.co.il",
+    "www.com4tech.co.il",
+    "www.lastprice.co.il",
+    "www.lior-electric.co.il",
+    "www.payngo.co.il",
+    "www.semicom.co.il",
+    "www.shekem-electric.co.il"
+  ]
+}

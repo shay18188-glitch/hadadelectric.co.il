@@ -118,12 +118,24 @@ function mergeCapabilities(catalog: string[], verified: string[] = []): string[]
   return Array.from(new Set([...verified, ...catalog]));
 }
 
+/**
+ * A supplier "we have no photo" URL rather than a photo.
+ *
+ * These services frequently respond with SVG even when the URL looks like a
+ * raster image. Exported because the image-host probe has to skip them too:
+ * they answer a browser perfectly well, so without this they look like a
+ * host worth bypassing the optimizer for, when in fact no product image
+ * ever reaches the page from them.
+ */
+export function isPlaceholderImageUrl(url: string): boolean {
+  return /\b(?:placehold\.co|placeholder\.com)\b/i.test(url);
+}
+
 function normalizeImageUrl(url: string | null | undefined): string | null {
   if (!url) return null;
-  // Supplier placeholder services frequently respond with SVG even when the
-  // URL looks like a raster image. Treat them as missing so ProductImage can
-  // use the site's safe local fallback without Next/Image runtime errors.
-  if (/\b(?:placehold\.co|placeholder\.com)\b/i.test(url)) return null;
+  // Treated as missing so ProductImage can use the site's safe local
+  // fallback without Next/Image runtime errors.
+  if (isPlaceholderImageUrl(url)) return null;
   return url;
 }
 
