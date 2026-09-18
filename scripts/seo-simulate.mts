@@ -42,7 +42,8 @@ async function loadCatalog(): Promise<Product[]> {
   if (!response.ok) throw new Error(`catalog HTTP ${response.status}`);
   const parsed = Base44CatalogResponseSchema.safeParse(await response.json());
   if (!parsed.success || !parsed.data.success) throw new Error("catalog response invalid");
-  return parsed.data.data.map(normalizeProduct);
+  // Drop the records the per-product schema could not read.
+  return parsed.data.data.filter((product) => product !== null).map(normalizeProduct);
 }
 
 function show(product: Product) {

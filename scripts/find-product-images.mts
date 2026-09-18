@@ -340,7 +340,9 @@ async function fetchCatalog() {
   if (!res.ok) throw new Error(`catalog fetch failed: ${res.status}`);
   const parsed = Base44CatalogResponseSchema.parse(await res.json());
   if (!parsed.success) throw new Error(`catalog error: ${parsed.error}`);
-  return parsed.data.map(normalizeProduct);
+  // Records the per-product schema rejected come back as null; this job is
+  // about filling image gaps, so a record it cannot read is one to skip.
+  return parsed.data.filter((product) => product !== null).map(normalizeProduct);
 }
 
 function daysSince(isoDate: string): number {

@@ -127,6 +127,38 @@ function normalizeImageUrl(url: string | null | undefined): string | null {
   return url;
 }
 
+/**
+ * The product's images, lead shot first and without repeats.
+ *
+ * The feed says the same thing three ways: `primary_image`, the legacy
+ * `image_url`, and a `gallery_images` row flagged `is_primary` — on live data
+ * all three are the identical URL, so a naive concatenation would render a
+ * two-image product as a gallery of four with the first three the same shot.
+ * Candidates are therefore collected in priority order and deduped, which
+ * also means a product whose only images arrive through the gallery array
+ * still gets a lead shot.
+ */
+function buildImageSet(product: Base44Product): string[] {
+  const gallery = (product.gallery_images ?? [])
+    .filter((image): image is NonNullable<typeof image> => image != null)
+    // `position` is the feed's own ordering; entries missing it keep their
+    // array order rather than jumping to the front of the strip.
+    .map((image, index) => ({ ...image, position: image.position ?? index }))
+    .sort((a, b) => a.position - b.position);
+
+  const candidates = [product.primary_image, product.image_url, ...gallery.map((image) => image.url)];
+
+  const seen = new Set<string>();
+  const images: string[] = [];
+  for (const candidate of candidates) {
+    const url = normalizeImageUrl(candidate);
+    if (!url || seen.has(url)) continue;
+    seen.add(url);
+    images.push(url);
+  }
+  return images;
+}
+
 function toAvailability(isAvailable: boolean | null | undefined): AvailabilityState {
   if (isAvailable === true) return "in_stock";
   if (isAvailable === false) return "out_of_stock";
@@ -196,6 +228,8 @@ export function normalizeProduct(product: Base44Product): Product {
   const specs = mergeSpecs(parseSpecs(product.technical_specifications), correction?.specs);
   const capabilities = mergeCapabilities(parseCapabilities(product.product_capabilities), correction?.capabilities);
 
+  const images = buildImageSet(product);
+
   return {
     modelNumber,
     name,
@@ -203,12 +237,14 @@ export function normalizeProduct(product: Base44Product): Product {
     brandSlug: brand ? generateBrandSlug(brand) : null,
     category,
     categorySlug: category ? generateCategorySlug(category) : null,
-    imageUrl: normalizeImageUrl(product.image_url),
+    imageUrl: images[0] ?? null,
+    images,
     originCountry: product.origin_country?.trim() || null,
     specs,
     capabilities,
     description: correction?.description ?? buildDescription(product, name, specs),
     availability: toAvailability(product.is_available),
     slug: generateProductSlug(name, modelNumber),
+    expertNote: product.expert_content?.trim() || null,
   };
 }

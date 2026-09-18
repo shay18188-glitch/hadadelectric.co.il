@@ -12,7 +12,8 @@ import { LOCALE_HTML_LANG, LOCALE_PREFIX, type Locale } from "@/lib/i18n/locales
 import { BUSINESS, cx } from "@/lib/utils";
 import type { Product } from "@/types/product";
 import type { Category } from "@/types/category";
-import { ProductImage } from "@/components/ProductImage";
+import { ProductGallery } from "@/components/ProductGallery";
+import { ExpertNote } from "@/components/ExpertNote";
 import { productHeading, localizedBrandLabel } from "@/lib/seo/productNaming";
 import { allBrandAliases } from "@/lib/seo/brandNames";
 
@@ -197,6 +198,7 @@ export function LocaleProductDetailPage({
           brandAlternateNames: allBrandAliases(localized.brand),
           category: localized.category,
           imageUrl: localized.imageUrl,
+          images: localized.images,
           originCountry: localized.originCountry,
           availability: localized.availability,
           // Specs stay untranslated in the supplier feed, and this component
@@ -207,16 +209,13 @@ export function LocaleProductDetailPage({
       />
       <div className="container-page py-10 pb-16 md:py-12">
         <div className="grid gap-6 md:grid-cols-2 md:gap-10">
-          <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface md:rounded-3xl">
-            <ProductImage
-              src={localized.imageUrl || "/images/product-placeholder-v2.webp"}
-              alt={`${localized.name} — ${BUSINESS.nameEn}`}
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className={cx("object-contain", localized.imageUrl ? "p-6 md:p-8" : "p-0 opacity-95")}
-              priority
-            />
-          </div>
+          <ProductGallery
+            images={localized.images}
+            alt={`${localized.name} — ${BUSINESS.nameEn}`}
+            locale={locale}
+            frameClassName="rounded-2xl border border-line bg-surface md:rounded-3xl"
+            imageClassName="p-6 md:p-8"
+          />
 
           <div>
             {localized.brand && (
@@ -263,6 +262,13 @@ export function LocaleProductDetailPage({
             <p className="mt-4 text-xs text-graphite-soft/60">{t.notice}</p>
           </div>
         </div>
+
+        {/* Untranslated, and marked as Hebrew rather than silently dropped —
+            the same call the spec table below already makes. It is the one
+            piece of first-hand content on the page, so a reader who can read
+            it should get it; `productJsonLd` still leaves it out of this
+            page's markup, which must describe the page in its own language. */}
+        <ExpertNote note={localized.expertNote} modelNumber={localized.modelNumber} locale={locale} />
 
         {localized.specs.length > 0 && (
           <section className="mt-10 md:mt-14" aria-labelledby="specs-heading">

@@ -78,7 +78,23 @@ async function fetchRawCatalog(
       return { ok: false, error: parsed.data.error || "unknown_error" };
     }
 
-    return { ok: true, data: parsed.data.data };
+    // Records the per-product schema could not salvage. Dropping them keeps
+    // the other 900-odd pages alive, but it is never silent — a feed quietly
+    // shedding products is exactly the failure that goes unnoticed for weeks.
+    const products = parsed.data.data.filter((product) => product !== null);
+    const dropped = parsed.data.data.length - products.length;
+    if (dropped > 0) {
+      console.error(`[base44] dropped ${dropped} unparseable product record(s) of ${parsed.data.data.length}`);
+    }
+
+    // An empty list from a response that claims success is not a catalog, it
+    // is an outage wearing a 200. The mock is the better answer.
+    if (products.length === 0) {
+      console.error("[base44] catalog response contained no usable products");
+      return { ok: false, error: "empty_catalog" };
+    }
+
+    return { ok: true, data: products };
   } catch (err) {
     console.error("[base44] network error fetching catalog", err);
     return { ok: false, error: "network_error" };
@@ -95,7 +111,9 @@ function applyImageOverrides(products: Product[]): Product[] {
   return products.map((p) => {
     if (p.imageUrl) return p;
     const override = found[p.modelNumber.toUpperCase()];
-    return override ? { ...p, imageUrl: override.url } : p;
+    // `images` is kept in step with `imageUrl` so the invariant the gallery
+    // relies on — imageUrl === images[0] — survives the override path too.
+    return override ? { ...p, imageUrl: override.url, images: [override.url] } : p;
   });
 }
 

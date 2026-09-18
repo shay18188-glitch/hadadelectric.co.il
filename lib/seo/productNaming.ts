@@ -244,6 +244,18 @@ const SNIPPET: Record<SeoLocale, SnippetCopy> = {
 };
 
 /**
+ * The opening clause of an expert note, trimmed to the space a snippet has
+ * left. Returns "" when there is no note or no room for a readable one — a
+ * three-word stub helps nobody, so the spec facts keep the slot instead.
+ */
+function expertNoteClause(note: string | null, maxChars: number): string {
+  if (!note || maxChars <= 24) return "";
+  const opener = note.split(/(?<=[.!?])\s+|[;·\n]/)[0]?.trim().replace(/[.;,]+$/, "");
+  if (!opener || opener.length <= 12) return "";
+  return opener.length <= maxChars ? opener : truncateAtWord(opener, maxChars);
+}
+
+/**
  * The meta description. Identity first (so a model-number searcher sees their
  * model), then whatever concrete facts fit, then the one thing this store
  * offers that a price-comparison site cannot: a local person and an installer.
@@ -267,8 +279,17 @@ export function productMetaDescription(product: Product, locale: SeoLocale = "he
   const head = `${nameBudget >= MIN_NAME_CHARS && name.length > nameBudget ? truncateAtWord(name, nameBudget) : name}${identifiers}`;
 
   const remaining = budget - head.length - 2;
-  const facts = remaining > 14 ? productFacts(product, { maxChars: Math.min(44, remaining), locale }) : [];
-  let factText = "";
+
+  // Yuval's note outranks the spec fragments for the middle of the snippet.
+  // Against nine results carrying the same importer feed, "נפח: 470 ליטר"
+  // distinguishes nothing — every one of them says it. An original clause
+  // written by a person at the shop is the only part of this result a
+  // competitor cannot also show, and the snippet is where that difference
+  // is actually seen. Hebrew only: the note has no translation yet, and
+  // `factFitsLocale` rightly rejects Hebrew on the en/ru pages.
+  let factText = locale === "he" ? expertNoteClause(product.expertNote, remaining) : "";
+
+  const facts = !factText && remaining > 14 ? productFacts(product, { maxChars: Math.min(44, remaining), locale }) : [];
   for (const fact of facts) {
     const candidate = factText ? `${factText}${copy.join}${fact}` : fact;
     if (candidate.length <= remaining) factText = candidate;

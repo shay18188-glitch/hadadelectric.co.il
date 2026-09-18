@@ -38,7 +38,11 @@ async function main() {
       images?: Record<string, { url?: string }>;
     };
     const imageOverrides = imageStore.images ?? {};
-    const products: Product[] = parsed.data.data.map(normalizeProduct).map((product) => {
+    const usable = parsed.data.data.filter((product) => product !== null);
+    if (usable.length < parsed.data.data.length) {
+      console.warn(`[search-catalog] skipped ${parsed.data.data.length - usable.length} unparseable record(s)`);
+    }
+    const products: Product[] = usable.map(normalizeProduct).map((product) => {
       if (product.imageUrl) return product;
       const override = imageOverrides[product.modelNumber.toUpperCase()]?.url;
       return override ? { ...product, imageUrl: override } : product;
@@ -55,6 +59,11 @@ async function main() {
       originCountry: null,
       specs: [],
       capabilities: [],
+      // Emptied like the fields above: autocomplete renders a name, a thumb
+      // and a link, so shipping every gallery URL and every expert note in
+      // the function bundle would cost weight nothing in this path reads.
+      images: [],
+      expertNote: null,
       description: "",
       availability: product.availability,
       slug: product.slug,

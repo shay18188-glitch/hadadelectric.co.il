@@ -27,3 +27,20 @@ export const BUSINESS = {
   mobileDisplay: "052-2692235",
   facebookUrl: "https://www.facebook.com/Hadad.Electric",
 } as const;
+
+/**
+ * The person product notes are attributed to.
+ *
+ * Lives here rather than in the component that renders the byline because
+ * the structured data has to make the identical claim — a visible author the
+ * markup does not name, or a markup author the page never shows, is the
+ * mismatch that makes authorship markup worthless.
+ */
+export const EXPERT = {
+  nameHe: "יובל חדד",
+  nameEn: "Yuval Hadad",
+  initialsHe: "יח",
+  roleHe: "בעל החנות ויועץ מקצועי",
+  roleEn: "Shop owner and appliance advisor",
+  roleRu: "Владелец магазина и консультант",
+} as const;

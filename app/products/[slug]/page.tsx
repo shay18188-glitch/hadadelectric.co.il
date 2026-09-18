@@ -18,8 +18,9 @@ import { ViewTracker } from "@/components/ViewTracker";
 import { buildWhatsAppProductMessage } from "@/lib/whatsapp/messages";
 import { JsonLd } from "@/components/JsonLd";
 import { productJsonLd } from "@/lib/schema/jsonld";
-import { BUSINESS, cx } from "@/lib/utils";
-import { ProductImage } from "@/components/ProductImage";
+import { BUSINESS } from "@/lib/utils";
+import { ProductGallery } from "@/components/ProductGallery";
+import { ExpertNote } from "@/components/ExpertNote";
 import { productHeading, localizedBrandLabel } from "@/lib/seo/productNaming";
 import { allBrandAliases } from "@/lib/seo/brandNames";
 import { measure } from "@/lib/seo/catalogDimensions";
@@ -109,10 +110,12 @@ export default async function ProductPage({ params }: ProductPageProps) {
           brandAlternateNames: allBrandAliases(product.brand),
           category: product.category,
           imageUrl: product.imageUrl,
+          images: product.images,
           originCountry: product.originCountry,
           availability: product.availability,
           specs: product.specs,
           dimensionsCm: measured?.body ?? null,
+          expertNote: product.expertNote,
         })}
       />
       <Breadcrumbs
@@ -127,16 +130,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       <div className="container-page pb-20 md:pb-16">
         <div className="surface-card grid overflow-hidden rounded-[2rem] md:grid-cols-2">
-          <div className="relative aspect-square overflow-hidden bg-[linear-gradient(145deg,#f6f4ef,#ebe8e1)]">
-            <ProductImage
-              src={product.imageUrl || "/images/product-placeholder-v2.webp"}
-              alt={`${product.name} - חדד יובל אלקטריק בע״מ`}
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className={cx("object-contain", product.imageUrl ? "p-8 md:p-12" : "p-0 opacity-95")}
-              priority
-            />
-          </div>
+          <ProductGallery
+            images={product.images}
+            alt={`${product.name} - חדד יובל אלקטריק בע״מ`}
+            locale="he"
+            imageClassName="p-8 md:p-12"
+            thumbsClassName="px-4 pb-4 md:px-6 md:pb-6"
+          />
 
           <div className="flex flex-col justify-center p-6 md:p-10 lg:p-14">
             <p className="section-kicker">בחירה איכותית לבית</p>
@@ -224,6 +224,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
             </p>
           </div>
         </div>
+
+        {/* Above the spec table on purpose. The specs are the same rows every
+            competitor prints from the same importer feed; this is the part of
+            the page only this shop can show, so it is read first. */}
+        <ExpertNote note={product.expertNote} modelNumber={product.modelNumber} locale="he" />
 
         {product.specs.length > 0 && (
           <section className="mt-12 md:mt-16" aria-labelledby="specs-heading">

@@ -41,7 +41,8 @@ async function main() {
   const parsed = Base44CatalogResponseSchema.safeParse(await res.json());
   if (!parsed.success || !parsed.data.success) throw new Error("catalog response invalid");
 
-  const live = parsed.data.data.map(normalizeProduct);
+  // Drop the records the per-product schema could not read.
+  const live = parsed.data.data.filter((product) => product !== null).map(normalizeProduct);
   const today = new Date().toISOString().slice(0, 10);
 
   const previous: Record<string, SnapshotEntry> = existsSync(OUT)

@@ -1,4 +1,4 @@
-import { absoluteUrl, BUSINESS } from "@/lib/utils";
+import { absoluteUrl, BUSINESS, EXPERT } from "@/lib/utils";
 import { BUSINESS_HOURS_SCHEMA } from "@/content/businessHours";
 import { BUSINESS_PROFILES } from "@/content/reviews";
 import { cleanModelNumber } from "@/lib/normalize";
@@ -226,11 +226,20 @@ export function productJsonLd(params: {
   brandAlternateNames?: string[];
   category?: string | null;
   imageUrl?: string | null;
+  /** The full gallery, lead shot first. Falls back to `imageUrl` alone. */
+  images?: string[];
   originCountry?: string | null;
   availability: "in_stock" | "out_of_stock" | "unknown";
   specs?: { label: string; value: string }[];
   /** Parsed physical dimensions in centimetres, when the feed supplies them. */
   dimensionsCm?: { widthCm: number; heightCm: number; depthCm: number } | null;
+  /**
+   * Yuval's note, when he has written one for this model. Emitted only on
+   * the Hebrew page: the note is Hebrew prose, and attaching it to an
+   * English or Russian page's markup would describe that page in a language
+   * it is not written in.
+   */
+  expertNote?: string | null;
 }) {
   const url = absoluteUrl(params.path);
   // "unknown" gets no availability at all. LimitedAvailability asserts that
@@ -241,6 +250,20 @@ export function productJsonLd(params: {
       : params.availability === "out_of_stock"
         ? "https://schema.org/OutOfStock"
         : null;
+
+  // Every distinct shot, lead first. A product with a gallery gives an image
+  // search and a shopping surface more than one crop to choose from, and the
+  // single-image case is unchanged because dedupe leaves it a one-element list.
+  const images = Array.from(new Set([...(params.images ?? []), params.imageUrl].filter(Boolean) as string[]));
+
+  // The note leads the description when there is one. `description` must
+  // match what the page shows, and it does: the note is rendered in full, in
+  // its own section, above the fold on the same URL. What changes is which
+  // sentence a machine reading this page quotes first — a human judgement
+  // about the model, or the generated identity line every competitor's feed
+  // produces too.
+  const expertNote = params.expertNote?.trim();
+  const description = expertNote ? `${expertNote}\n\n${params.description}` : params.description;
 
   // Only labelled specs become properties: an unlabelled free-text line is a
   // sentence, not a name/value pair, and would produce meaningless triples.
@@ -253,13 +276,13 @@ export function productJsonLd(params: {
     "@type": "Product",
     "@id": `${url}#product`,
     name: params.name,
-    description: params.description,
+    description,
     url,
     // sku/mpn are identifiers a shopping engine matches on, so they carry the
     // manufacturer's model number and not the importer's internal code.
     sku: cleanModelNumber(params.modelNumber),
     mpn: cleanModelNumber(params.modelNumber),
-    ...(params.imageUrl ? { image: [params.imageUrl] } : {}),
+    ...(images.length ? { image: images } : {}),
     ...(params.category ? { category: params.category } : {}),
     ...(params.brand
       ? {
@@ -280,6 +303,32 @@ export function productJsonLd(params: {
           width: { "@type": "QuantitativeValue", value: Number(params.dimensionsCm.widthCm.toFixed(1)), unitCode: "CMT" },
           height: { "@type": "QuantitativeValue", value: Number(params.dimensionsCm.heightCm.toFixed(1)), unitCode: "CMT" },
           depth: { "@type": "QuantitativeValue", value: Number(params.dimensionsCm.depthCm.toFixed(1)), unitCode: "CMT" },
+        }
+      : {}),
+    // Deliberately an Article and not a Review. A review carries a rating,
+    // and a rating the seller awards its own stock is the kind of markup
+    // Google treats as self-serving and discounts — or penalises. What is
+    // true here is narrower and still worth stating: a named person at this
+    // shop wrote a piece about this product. `subjectOf` says exactly that
+    // and claims nothing about how good the product is.
+    ...(expertNote
+      ? {
+          subjectOf: {
+            "@type": "Article",
+            "@id": `${url}#expert-note`,
+            headline: `הערת מומחה על ${cleanModelNumber(params.modelNumber)}`,
+            articleBody: expertNote,
+            inLanguage: "he-IL",
+            isPartOf: { "@id": url },
+            author: {
+              "@type": "Person",
+              name: EXPERT.nameHe,
+              alternateName: EXPERT.nameEn,
+              jobTitle: EXPERT.roleHe,
+              worksFor: storeReference(),
+            },
+            publisher: storeReference(),
+          },
         }
       : {}),
     offers: {

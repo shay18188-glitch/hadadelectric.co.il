@@ -71,7 +71,8 @@ async function load(): Promise<Base44Product[]> {
   });
   const parsed = Base44CatalogResponseSchema.safeParse(await response.json());
   if (!parsed.success || !parsed.data.success) throw new Error("catalog response invalid");
-  return parsed.data.data;
+  // Drop the records the per-product schema could not read.
+  return parsed.data.data.filter((product) => product !== null);
 }
 
 async function main() {
