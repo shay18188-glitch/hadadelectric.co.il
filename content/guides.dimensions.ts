@@ -27,6 +27,11 @@ export const DIMENSION_GUIDES: Guide[] = [
     relatedCategorySlug: "tvs",
     publishedDate: "2026-08-21",
     relatedGuideSlugs: ["built-in-appliance-dimensions", "oled-vs-qled-tv", "how-to-choose-a-tv"],
+    answer:
+      "65 אינץ׳ = 165.1 ס״מ באלכסון. המסך עצמו, ביחס 16:9, רוחבו 143.9 ס״מ וגובהו 80.9 ס״מ; עם המסגרת, טלוויזיות 65 אינץ׳ בקטלוג שלנו רוחבן 144.1–145.6 ס״מ וגובהן 82.6–84.1 ס״מ.",
+    // Russian searchers arrive asking "65 דיום בס״מ" for every size, not only 65;
+    // the table answers the neighbouring sizes too, with 65 highlighted.
+    screenSizeTable: { sizes: [43, 50, 55, 65, 75, 85], highlight: 65 },
     dimensionsTable: {
       categorySlug: "tvs",
       screenInches: 65,

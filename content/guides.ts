@@ -41,6 +41,15 @@ export interface Guide {
   dimensionsTable?: GuideDimensionsTable;
   /** Sibling guides worth linking to, by slug. Unknown slugs are skipped. */
   relatedGuideSlugs?: string[];
+  /**
+   * The one-sentence answer to the query the page ranks for, shown before any
+   * prose. For a conversion query like "65 דיום בס״מ" the reader wants a number
+   * and nothing else; a page that makes them scroll for it loses to the result
+   * that shows it in the snippet.
+   */
+  answer?: string;
+  /** Screen sizes to tabulate as diagonal, width and height (pure geometry). */
+  screenSizeTable?: { sizes: number[]; highlight?: number };
 }
 
 import { EXTRA_GUIDES } from "@/content/guides.extra";

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { GUIDES } from "@/content/guides";
 import type { Guide } from "@/content/guides";
-import { localizeGuide, localizeCategoryName } from "@/lib/i18n/translated";
+import { localizeGuide, localizeCategoryName, hasNativeGuide } from "@/lib/i18n/translated";
+import { buildDimensionsTable } from "@/lib/seo/catalogDimensions";
+import { DimensionsTable } from "@/components/DimensionsTable";
+import { ScreenSizeTable } from "@/components/ScreenSizeTable";
 import { LOCALE_HTML_LANG, LOCALE_PREFIX, type Locale } from "@/lib/i18n/locales";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
 import { FaqAccordion } from "@/components/FaqAccordion";
@@ -17,6 +20,8 @@ const GUIDES_TEXT: Record<Exclude<Locale, "he">, {
   ctaCatalog: string;
   ctaCategory: (name: string) => string;
   mtNote: string;
+  answerLabel: string;
+  tableCaption: string;
 }> = {
   en: {
     indexTitle: "Appliance buying guides",
@@ -26,6 +31,8 @@ const GUIDES_TEXT: Record<Exclude<Locale, "he">, {
     ctaCatalog: "Browse our product catalog",
     ctaCategory: (name) => `View ${name} in the catalog`,
     mtNote: "This guide was translated automatically from the Hebrew original.",
+    answerLabel: "Short answer",
+    tableCaption: "Measured dimensions of the models in our catalog — from the manufacturers' spec sheets",
   },
   ru: {
     indexTitle: "Гиды по выбору бытовой техники",
@@ -35,6 +42,8 @@ const GUIDES_TEXT: Record<Exclude<Locale, "he">, {
     ctaCatalog: "Смотреть каталог товаров",
     ctaCategory: (name) => `Смотреть «${name}» в каталоге`,
     mtNote: "Этот гид переведён автоматически с оригинала на иврите.",
+    answerLabel: "Коротко",
+    tableCaption: "Замеренные размеры моделей из нашего каталога — по техпаспортам производителей",
   },
 };
 
@@ -68,16 +77,25 @@ export function LocaleGuidesIndexPage({ locale }: { locale: Exclude<Locale, "he"
   );
 }
 
-export function LocaleGuidePage({ guide, locale }: { guide: Guide; locale: Exclude<Locale, "he"> }) {
+export async function LocaleGuidePage({ guide, locale }: { guide: Guide; locale: Exclude<Locale, "he"> }) {
   const t = GUIDES_TEXT[locale];
   const prefix = LOCALE_PREFIX[locale];
   const localized = localizeGuide(guide, locale);
   const isTranslated = localized.title !== guide.title;
+  // The footnote says the page was machine-translated. On a hand-written
+  // edition that would be false, so it is shown only when it is true.
+  const isMachineTranslated = isTranslated && !hasNativeGuide(guide.slug, locale);
+
+  // The measured table is the part these pages exist for, and every translated
+  // dimensions guide used to render its prose and drop it.
+  const dimensionsTable = guide.dimensionsTable ? await buildDimensionsTable(guide.dimensionsTable) : null;
 
   const categoryName = guide.relatedCategorySlug
     ? localizeCategoryName(guide.relatedCategorySlug, null, locale)
     : null;
-  const ctaHref = guide.relatedCategorySlug ? `${prefix}/products?category=${guide.relatedCategorySlug}` : `${prefix}/products`;
+  // The translated category page converts (2.09% for /ru/categories over the
+  // same 28 days) where the flat product list does not, so send readers there.
+  const ctaHref = guide.relatedCategorySlug ? `${prefix}/categories/${guide.relatedCategorySlug}` : `${prefix}/products`;
   const ctaLabel = categoryName ? t.ctaCategory(categoryName) : t.ctaCatalog;
 
   const splitAt = Math.ceil(localized.sections.length / 2);
@@ -89,6 +107,13 @@ export function LocaleGuidePage({ guide, locale }: { guide: Guide; locale: Exclu
       <article className="container-page py-10 pb-12 md:py-12 md:pb-16">
         <h1 className="text-xl font-bold text-graphite md:text-4xl">{localized.title}</h1>
         <p className="mt-2 max-w-2xl text-[15px] text-graphite-soft/80 md:mt-3 md:text-base">{localized.description}</p>
+
+        {localized.answer && (
+          <div className="mt-5 max-w-3xl rounded-[1.25rem] border border-brand-blue/20 bg-brand-blue-light p-4 md:mt-6 md:p-5">
+            <p className="text-xs font-bold uppercase tracking-wide text-brand-blue">{t.answerLabel}</p>
+            <p className="mt-1.5 text-base font-semibold leading-relaxed text-graphite md:text-lg">{localized.answer}</p>
+          </div>
+        )}
 
         <div className="mt-5 max-w-3xl md:mt-6">
           <GuideCatalogCta href={ctaHref} variant="inline" label={ctaLabel} ltr />
@@ -106,6 +131,26 @@ export function LocaleGuidePage({ guide, locale }: { guide: Guide; locale: Exclu
             ))}
           </SeoTextBlock>
         </div>
+
+        {(guide.screenSizeTable || dimensionsTable) && (
+          <div className="max-w-3xl">
+            {guide.screenSizeTable && (
+              <ScreenSizeTable
+                sizes={guide.screenSizeTable.sizes}
+                highlight={guide.screenSizeTable.highlight}
+                locale={locale}
+              />
+            )}
+            {dimensionsTable && guide.dimensionsTable && (
+              <DimensionsTable
+                table={dimensionsTable}
+                columns={guide.dimensionsTable.columns}
+                caption={t.tableCaption}
+                locale={locale}
+              />
+            )}
+          </div>
+        )}
 
         {secondHalf.length > 0 && (
           <div className="mt-6 max-w-3xl md:mt-8">
@@ -138,7 +183,7 @@ export function LocaleGuidePage({ guide, locale }: { guide: Guide; locale: Exclu
           <GuideCatalogCta href={ctaHref} variant="inline" label={ctaLabel} ltr />
         </div>
 
-        {isTranslated && <p className="mt-6 text-xs text-graphite-soft/50">{t.mtNote}</p>}
+        {isMachineTranslated && <p className="mt-6 text-xs text-graphite-soft/50">{t.mtNote}</p>}
       </article>
 
       <JsonLd

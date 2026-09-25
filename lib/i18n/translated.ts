@@ -5,6 +5,7 @@ import guidesEn from "@/content/i18n/translations/guides.en.json";
 import guidesRu from "@/content/i18n/translations/guides.ru.json";
 import catalogEn from "@/content/i18n/translations/catalog.en.json";
 import catalogRu from "@/content/i18n/translations/catalog.ru.json";
+import { NATIVE_RU_GUIDES, type NativeGuide } from "@/content/i18n/native/guides.ru";
 
 /**
  * Runtime lookups into the committed machine-translation stores
@@ -45,8 +46,23 @@ const CATALOG_STORES: Record<"en" | "ru", CatalogStore> = {
  * Callers use this to noindex the untranslated variant until the translation
  * job has run, rather than shipping it and hoping.
  */
+/**
+ * Hand-written editions win over machine translation. They are not held to the
+ * section-for-section shape check below, because they are written for the
+ * locale rather than translated from Hebrew and can be structured differently.
+ */
+const NATIVE_GUIDES: Record<"en" | "ru", Record<string, NativeGuide>> = {
+  en: {},
+  ru: NATIVE_RU_GUIDES,
+};
+
+export function hasNativeGuide(slug: string, locale: Locale): boolean {
+  return locale !== "he" && Boolean(NATIVE_GUIDES[locale][slug]);
+}
+
 export function hasGuideTranslation(slug: string, locale: Locale): boolean {
   if (locale === "he") return true;
+  if (NATIVE_GUIDES[locale][slug]) return true;
   const guideTranslation = GUIDE_STORES[locale].entries[slug];
   if (!guideTranslation?.title) return false;
 
@@ -67,10 +83,27 @@ export function hasGuideTranslation(slug: string, locale: Locale): boolean {
 
 export function localizeGuide(guide: Guide, locale: Locale): Guide {
   if (locale === "he") return guide;
+  const native = NATIVE_GUIDES[locale][guide.slug];
+  if (native) {
+    return {
+      ...guide,
+      title: native.title,
+      description: native.description,
+      answer: native.answer,
+      sections: native.sections,
+      faq: native.faq ?? guide.faq,
+    };
+  }
+  // The short answer is written in one language and is never machine-translated,
+  // so it must not ride along on the spread below. It did, once: the English
+  // edition of the 65-inch guide rendered "Short answer" over Hebrew text. Only
+  // a hand-written edition (handled above) carries an answer into a locale.
+  const { answer: _hebrewAnswer, ...base } = guide;
+  void _hebrewAnswer;
   const t = GUIDE_STORES[locale].entries[guide.slug];
-  if (!t || t.sections.length !== guide.sections.length) return guide;
+  if (!t || t.sections.length !== guide.sections.length) return base;
   return {
-    ...guide,
+    ...base,
     title: t.title || guide.title,
     description: t.description || guide.description,
     sections: guide.sections.map((section, i) => ({

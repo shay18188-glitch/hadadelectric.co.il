@@ -40,13 +40,29 @@ export function measure(product: Product): MeasuredProduct | null {
   });
   if (!dimensions || (!dimensions.primary && !dimensions.withStand)) return null;
 
+  // A display sheet that publishes a single set of dimensions sometimes labels
+  // it as "with stand" when it is plainly the bare panel. UE65M70H is the case
+  // that exposed it: 144 × 83.1 × 7.7 cm "with stand" and no body figure at
+  // all — yet 7.7 cm is the depth of a 65-inch panel, and no stand that can hold
+  // one upright is that shallow; every genuine stand reading in the category
+  // falls between 22 and 35 cm. Left alone it put a body measurement in the
+  // stand column and widened the published stand-depth range to "7.7–34.5",
+  // contradicting the guide's own prose. A display reading under 15 cm deep with
+  // no separate body figure is therefore treated as the body.
+  let body = dimensions.primary;
+  let withStand = dimensions.withStand;
+  if (isDisplay && !body && withStand && withStand.depthCm < 15) {
+    body = withStand;
+    withStand = null;
+  }
+
   return {
     slug: product.slug,
     name: product.name,
     brand: seoBrandName(product.brand),
     modelNumber: product.modelNumber,
-    body: dimensions.primary,
-    withStand: dimensions.withStand,
+    body,
+    withStand,
     vesa: dimensions.vesa,
     cutout: dimensions.cutout,
     availability: product.availability,

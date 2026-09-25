@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GUIDES, getGuideBySlug } from "@/content/guides";
 import { DimensionsTable } from "@/components/DimensionsTable";
+import { ScreenSizeTable } from "@/components/ScreenSizeTable";
 import { buildDimensionsTable } from "@/lib/seo/catalogDimensions";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SeoTextBlock } from "@/components/SeoTextBlock";
@@ -163,6 +164,17 @@ export default async function GuidePage({ params }: GuidePageProps) {
                 </section>
               ))}
             </SeoTextBlock>
+
+            {guide.answer && (
+              <div className="my-6 rounded-[1.25rem] border border-brand-blue/20 bg-brand-blue-light p-4 md:p-5">
+                <p className="text-xs font-bold text-brand-blue">התשובה הקצרה</p>
+                <p className="mt-1.5 text-base font-semibold leading-relaxed text-graphite md:text-lg">{guide.answer}</p>
+              </div>
+            )}
+
+            {guide.screenSizeTable && (
+              <ScreenSizeTable sizes={guide.screenSizeTable.sizes} highlight={guide.screenSizeTable.highlight} />
+            )}
 
             {dimensionsTable && guide.dimensionsTable && (
               <>
