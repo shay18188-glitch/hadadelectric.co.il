@@ -288,6 +288,23 @@ export default async function HomePage() {
       <div className="container-page pb-14 md:pb-20 lg:pb-0">
         <ContactStrip />
       </div>
+
+      <section className="container-page pt-4 lg:pt-14" aria-labelledby="pros-heading">
+        <div className="border-t border-line/70 pt-8">
+          <h2 id="pros-heading" className="text-lg font-extrabold tracking-[-0.02em] text-graphite">
+            בעלי מקצוע מומלצים בנהריה
+          </h2>
+          <p className="mt-2 max-w-3xl text-sm leading-7 text-graphite-soft/78 md:text-base">
+            צריכים שירות מנעולנות לבית? ניתן לפנות ליוסי, מנעולן מקומי המספק שירותי פריצה, החלפת צילינדרים ותיקוני דלתות באזור נהריה והגליל המערבי.
+          </p>
+          <a
+            href="https://www.yosilocksmith.co.il/areas/nahariya"
+            className="mt-3 inline-flex text-sm font-bold text-brand-blue hover:underline md:text-base"
+          >
+            יוסי – מנעולן בנהריה
+          </a>
+        </div>
+      </section>
     </>
   );
 }

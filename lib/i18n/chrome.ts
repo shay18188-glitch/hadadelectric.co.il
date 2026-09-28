@@ -93,6 +93,8 @@ export interface ChromeDict {
     facebook: string;
     rights: string;
     legalLinks: { href: string; label: string }[];
+    /** A recommended local professional, linked off-site. */
+    partnerLink: { href: string; label: string };
   };
 }
 
@@ -186,6 +188,7 @@ export const CHROME: Record<Locale, ChromeDict> = {
         { href: "/accessibility", label: "הצהרת נגישות" },
         { href: "/terms", label: "תנאי שימוש" },
       ],
+      partnerLink: { href: "https://www.yosilocksmith.co.il/", label: "יוסי מנעולן בנהריה" },
     },
   },
   en: {
@@ -274,6 +277,7 @@ export const CHROME: Record<Locale, ChromeDict> = {
         { href: "/accessibility", label: "Accessibility" },
         { href: "/terms", label: "Terms of use" },
       ],
+      partnerLink: { href: "https://www.yosilocksmith.co.il/", label: "Yossi, locksmith in Nahariya" },
     },
   },
   ru: {
@@ -362,6 +366,7 @@ export const CHROME: Record<Locale, ChromeDict> = {
         { href: "/accessibility", label: "Доступность" },
         { href: "/terms", label: "Условия использования" },
       ],
+      partnerLink: { href: "https://www.yosilocksmith.co.il/", label: "Йоси — слесарь по замкам в Нагарии" },
     },
   },
 };

@@ -94,6 +94,12 @@ export function Footer() {
                 </Link>
               </li>
             ))}
+            <li>
+              {/* A plain followed link on purpose: this is a recommendation. */}
+              <a href={dict.partnerLink.href} className="text-white/62 hover:text-brand-gold">
+                {dict.partnerLink.label}
+              </a>
+            </li>
           </ul>
         </div>
       </div>
