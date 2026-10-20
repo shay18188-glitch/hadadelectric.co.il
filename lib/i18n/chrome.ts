@@ -157,6 +157,7 @@ export const CHROME: Record<Locale, ChromeDict> = {
         { href: "/categories", label: "קטגוריות" },
         { href: "/brands", label: "מותגים" },
         { href: "/guides", label: "מדריכים" },
+        { href: "/tools", label: "מחשבוני חשמל" },
         { href: "/bundles", label: "חבילות מומלצות" },
         { href: "/recommended", label: "מומלצים והשוואות" },
         { href: "/request", label: "הבקשה שלי" },

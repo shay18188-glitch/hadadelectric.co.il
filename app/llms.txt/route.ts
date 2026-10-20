@@ -132,6 +132,8 @@ export async function GET() {
 - Buying guides: ${absoluteUrl("/guides")}
 - Product bundles: ${absoluteUrl("/bundles")}
 - Comparisons and recommendations: ${absoluteUrl("/recommended")}
+- Electricity-cost and sizing calculators (air-conditioner size per room and running cost, refrigerator running cost against every catalog model's label kWh, appliance cost per hour, water-heater timer, watts to amps): ${absoluteUrl("/tools")}
+- Niche-fit calculator (which catalog models fit a measured gap): ${absoluteUrl("/tools/niche-fit")}
 
 ## Local buying pages for Nahariya
 

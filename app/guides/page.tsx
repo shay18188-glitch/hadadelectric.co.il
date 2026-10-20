@@ -37,7 +37,18 @@ export default function GuidesIndexPage() {
           }
         />
 
-        <Reveal as="div" stagger className="mt-9 grid gap-6 sm:grid-cols-2 md:mt-12 lg:grid-cols-3">
+        <Link
+          href="/tools"
+          className="mt-8 flex flex-col gap-2 rounded-[1.5rem] border border-brand-blue/20 bg-brand-blue-light/50 p-5 transition-colors hover:border-brand-blue/45 sm:flex-row sm:items-center sm:justify-between md:mt-10 md:p-6"
+        >
+          <span>
+            <span className="block text-base font-black text-graphite md:text-lg">מחשבוני חשמל — גודל מזגן, עלות מקרר, זמן דוד ועוד</span>
+            <span className="mt-1 block text-sm text-graphite-soft/72">התשובה בשקלים, לפי תעריף החשמל העדכני, עם הדגמים המתאימים מהקטלוג.</span>
+          </span>
+          <span className="shrink-0 text-sm font-bold text-brand-blue">לכל המחשבונים ←</span>
+        </Link>
+
+        <Reveal as="div" stagger className="mt-8 grid gap-6 sm:grid-cols-2 md:mt-12 lg:grid-cols-3">
           {GUIDES.map((guide) => (
             <Link
               key={guide.slug}

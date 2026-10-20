@@ -50,10 +50,20 @@ export interface Guide {
   answer?: string;
   /** Screen sizes to tabulate as diagonal, width and height (pure geometry). */
   screenSizeTable?: { sizes: number[]; highlight?: number };
+  /**
+   * The /tools calculator that answers this guide's question with the
+   * reader's own numbers. Rendered as a card right after the short answer.
+   */
+  toolPath?: string;
+  /** A small computed table (e.g. cost by size), rendered after the answer. */
+  dataTable?: { caption: string; headers: string[]; rows: string[][] };
+  /** Outbound references — sources and the matching kamayotze.co.il calculators. */
+  externalLinks?: { href: string; label: string; description?: string }[];
 }
 
 import { EXTRA_GUIDES } from "@/content/guides.extra";
 import { DIMENSION_GUIDES } from "@/content/guides.dimensions";
+import { ENERGY_GUIDES } from "@/content/guides.energy";
 
 const BASE_GUIDES: Guide[] = [
   {
@@ -204,6 +214,8 @@ const BASE_GUIDES: Guide[] = [
     description: "טיפים לבחירת מזגן מתאים לגודל החדר — הספק קירור, טכנולוגיית אינוורטר ורמת רעש.",
     relatedCategorySlug: "air-conditioners",
     publishedDate: "2026-01-22",
+    toolPath: "/tools/air-conditioner-cost",
+    relatedGuideSlugs: ["air-conditioner-size-for-room", "air-conditioner-running-cost"],
     sections: [
       {
         heading: "התאמת הספק לגודל החדר",
@@ -254,7 +266,7 @@ const BASE_GUIDES: Guide[] = [
   },
 ];
 
-export const GUIDES: Guide[] = [...BASE_GUIDES, ...EXTRA_GUIDES, ...DIMENSION_GUIDES];
+export const GUIDES: Guide[] = [...BASE_GUIDES, ...EXTRA_GUIDES, ...DIMENSION_GUIDES, ...ENERGY_GUIDES];
 
 /**
  * Every guide that speaks to a category, not just the one hand-picked in

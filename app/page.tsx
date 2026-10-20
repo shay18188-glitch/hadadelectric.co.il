@@ -16,6 +16,8 @@ import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
 import { FAQ_ITEMS } from "@/content/faq";
 import { BUNDLES } from "@/content/bundles";
 import { LOCAL_PAGES } from "@/content/localPages";
+import { ENERGY_TOOLS } from "@/content/energyTools";
+import { KAMAYOTZE } from "@/lib/energy/tariff";
 import { faqJsonLd, localBusinessJsonLd } from "@/lib/schema/jsonld";
 
 export const revalidate = 10800;
@@ -269,6 +271,37 @@ export default async function HomePage() {
             </Link>
           </div>
         </div>
+      </section>
+
+      <section className="container-page pb-14 md:pb-20 lg:pb-14" aria-labelledby="tools-heading">
+        <div className="mb-7 flex items-end justify-between gap-4">
+          <div>
+            <p className="section-kicker">לחשב לפני שבוחרים</p>
+            <h2 id="tools-heading" className="section-title mt-3">מחשבוני חשמל</h2>
+          </div>
+          <Link href="/tools" className="hidden text-sm font-bold text-brand-blue hover:underline md:block">לכל המחשבונים ←</Link>
+        </div>
+        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+          {ENERGY_TOOLS.map((tool) => (
+            <li key={tool.path}>
+              <Link
+                href={tool.path}
+                className="flex h-full flex-col rounded-[1.25rem] border border-line bg-white p-4 transition-colors hover:border-brand-blue/40 md:p-5"
+              >
+                <span className="text-xs font-bold text-brand-blue">{tool.kicker}</span>
+                <span className="mt-1.5 text-sm font-black leading-snug text-graphite md:text-base">{tool.title}</span>
+                <span className="mt-1.5 text-xs leading-relaxed text-graphite-soft/70">{tool.short}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-4 text-sm text-graphite-soft/75">
+          לחישובים נוספים לבית — חשבון החשמל המלא, טעינת רכב חשמלי ועוד — באתר{" "}
+          <a href={KAMAYOTZE.carHome.href} className="font-semibold text-brand-blue hover:underline">
+            כמה יוצא
+          </a>
+          .
+        </p>
       </section>
 
       <section className="container-page pb-14 md:pb-20 lg:pb-14" aria-labelledby="faq-heading">

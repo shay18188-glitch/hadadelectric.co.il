@@ -271,7 +271,8 @@ export const EXTRA_GUIDES: Guide[] = [
       "אותה אות אומרת דברים שונים בקטגוריות שונות. הסבר על שינוי תווית האנרגיה האירופית, מה באמת אומר דירוג E על מקרר, ואיך להשוות צריכת חשמל נכון.",
     catalogCategorySlugs: ["refrigerators", "air-conditioners", "washing-machines", "dishwashers", "dryers", "freezers"],
     publishedDate: "2026-09-13",
-    relatedGuideSlugs: ["how-to-choose-a-refrigerator", "washing-machine-dimensions", "refrigerator-4-door-dimensions"],
+    toolPath: "/tools/refrigerator-electricity",
+    relatedGuideSlugs: ["refrigerator-electricity-consumption", "appliance-electricity-consumption-table", "how-to-choose-a-refrigerator", "refrigerator-4-door-dimensions"],
     sections: [
       {
         heading: "השאלה שחוזרת בחנות: למה המקרר החדש מדורג E?",
@@ -300,7 +301,7 @@ export const EXTRA_GUIDES: Guide[] = [
         heading: "המספר חשוב יותר מהאות",
         paragraphs: [
           "הנתון שבאמת מאפשר השוואה הוא צריכת החשמל השנתית בקוט״ש, שמופיע על התווית מתחת לאות. הוא לא תלוי בסולם ולא השתנה ב‑2021. שני מקררים באותה דרגת E יכולים להיבדל בעשרות קוט״ש בשנה.",
-          "כדי לתרגם לשקלים: תעריף החשמל הביתי בישראל נע סביב 0.6 ש״ח לקוט״ש כולל מע״מ, ומתעדכן מעת לעת. הפרש של 150 קוט״ש בשנה בין שני מקררים הוא בערך 90 ש״ח בשנה — ועל פני 12 שנות חיי מקרר, קרוב ל‑1,100 ש״ח. זה סכום שיכול להצדיק פער מחיר בקנייה, או לא, תלוי בגודלו.",
+          "כדי לתרגם לשקלים: תעריף החשמל הביתי מ‑1.7.2026 הוא 63.52 אגורות לקוט״ש כולל מע״מ, ומתעדכן פעמיים בשנה. הפרש של 150 קוט״ש בשנה בין שני מקררים הוא כ‑95 ש״ח בשנה — ועל פני 12 שנות חיי מקרר, יותר מ‑1,100 ש״ח. זה סכום שיכול להצדיק פער מחיר בקנייה, או לא, תלוי בגודלו. את החשבון לדגמים שבקטלוג, מול המקרר שיש לכם היום, עושה מחשבון המקרר.",
         ],
       },
       {

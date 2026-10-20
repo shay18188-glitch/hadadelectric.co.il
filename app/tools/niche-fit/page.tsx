@@ -62,7 +62,7 @@ export default async function Page() {
   return (
     <>
       <JsonLd data={faqJsonLd(FAQ)} />
-      <Breadcrumbs items={[{ name: "מחשבון התאמת נישה", path: "/tools/niche-fit" }]} />
+      <Breadcrumbs items={[{ name: "מחשבונים", path: "/tools" }, { name: "מחשבון התאמת נישה", path: "/tools/niche-fit" }]} />
       <div className="container-page pb-12 md:pb-16">
         <div className="page-intro-shell">
           <p className="section-kicker">כלי מדידה</p>

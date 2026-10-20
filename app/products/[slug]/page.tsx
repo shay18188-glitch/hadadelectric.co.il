@@ -21,6 +21,7 @@ import { productJsonLd } from "@/lib/schema/jsonld";
 import { BUSINESS } from "@/lib/utils";
 import { ProductGallery } from "@/components/ProductGallery";
 import { ExpertNote } from "@/components/ExpertNote";
+import { ProductRunningCost } from "@/components/energy/ProductRunningCost";
 import { productHeading, localizedBrandLabel } from "@/lib/seo/productNaming";
 import { allBrandAliases } from "@/lib/seo/brandNames";
 import { measure } from "@/lib/seo/catalogDimensions";
@@ -229,6 +230,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
             competitor prints from the same importer feed; this is the part of
             the page only this shop can show, so it is read first. */}
         <ExpertNote note={product.expertNote} modelNumber={product.modelNumber} locale="he" />
+
+        <ProductRunningCost product={product} />
 
         {product.specs.length > 0 && (
           <section className="mt-12 md:mt-16" aria-labelledby="specs-heading">

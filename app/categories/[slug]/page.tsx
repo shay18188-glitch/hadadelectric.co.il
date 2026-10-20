@@ -18,6 +18,7 @@ import { FaqAccordion } from "@/components/FaqAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 import { getCategoryContent } from "@/content/categoryContent";
+import { toolForCategory } from "@/content/energyTools";
 import { getGuideBySlug, guidesForCategory } from "@/content/guides";
 import { ViewTracker } from "@/components/ViewTracker";
 import { categoryImageFor } from "@/lib/categoryVisuals";
@@ -89,6 +90,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
   const moreGuides = guidesForCategory(category.slug)
     .filter((g) => g.slug !== relatedGuide?.slug)
     .slice(0, 4);
+  const categoryTool = toolForCategory(category.slug);
   const categoryBrandCombos = brandCategoryCombos.filter((c) => c.categorySlug === category.slug);
   const relatedBrandSlugs = new Set(products.map((p) => p.brandSlug).filter(Boolean));
   const relatedBrands = allBrands.filter((b) => relatedBrandSlugs.has(b.slug));
@@ -202,6 +204,24 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
                 </p>
               </div>
             )}
+          </section>
+        )}
+
+        {categoryTool && (
+          <section className="mt-10 md:mt-14" aria-labelledby="category-tool-heading">
+            <Link
+              href={categoryTool.tool.path}
+              className="flex flex-col gap-3 rounded-[1.5rem] border border-brand-blue/20 bg-white p-5 transition-colors hover:border-brand-blue/45 sm:flex-row sm:items-center sm:justify-between md:p-6"
+            >
+              <span>
+                <span className="block text-xs font-bold text-brand-blue">מחשבון חשמל</span>
+                <span id="category-tool-heading" className="mt-1 block text-base font-black text-graphite md:text-lg">
+                  {categoryTool.prompt}
+                </span>
+                <span className="mt-1 block text-sm text-graphite-soft/70">{categoryTool.tool.short}</span>
+              </span>
+              <span className="shrink-0 text-sm font-bold text-brand-blue">{categoryTool.tool.title} ←</span>
+            </Link>
           </section>
         )}
 

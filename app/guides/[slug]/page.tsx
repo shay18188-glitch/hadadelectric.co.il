@@ -22,6 +22,7 @@ import { BUNDLES } from "@/content/bundles";
 import { getCategories, getCategoryBySlug } from "@/lib/base44/catalog";
 import { categoryImageFor } from "@/lib/categoryVisuals";
 import { buildWhatsAppGeneralMessage } from "@/lib/whatsapp/messages";
+import { energyToolByPath } from "@/content/energyTools";
 
 interface GuidePageProps {
   params: Promise<{ slug: string }>;
@@ -83,6 +84,9 @@ export default async function GuidePage({ params }: GuidePageProps) {
   const catalogCategories = (guide.catalogCategorySlugs ?? [])
     .map((s) => allCategories.find((c) => c.slug === s))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
+
+  // The calculator that answers this guide's question with the reader's own numbers.
+  const tool = guide.toolPath ? energyToolByPath(guide.toolPath) : null;
 
   // CTA target: the related category catalog, or the full catalog as fallback.
   const ctaHref = relatedCategory ? `/categories/${relatedCategory.slug}` : "/products";
@@ -169,6 +173,58 @@ export default async function GuidePage({ params }: GuidePageProps) {
               <div className="my-6 rounded-[1.25rem] border border-brand-blue/20 bg-brand-blue-light p-4 md:p-5">
                 <p className="text-xs font-bold text-brand-blue">התשובה הקצרה</p>
                 <p className="mt-1.5 text-base font-semibold leading-relaxed text-graphite md:text-lg">{guide.answer}</p>
+              </div>
+            )}
+
+            {guide.dataTable && (
+              <figure className="my-6">
+                <div className="overflow-x-auto rounded-[1.25rem] border border-line">
+                  <table className="w-full min-w-[30rem] text-sm">
+                    <caption className="bg-surface/65 px-4 py-3 text-start text-xs font-bold text-graphite-soft/80">
+                      {guide.dataTable.caption}
+                    </caption>
+                    <thead>
+                      <tr className="border-b border-line bg-white text-start">
+                        {guide.dataTable.headers.map((header, hi) => (
+                          <th key={hi} scope="col" className="px-3 py-2.5 text-start text-xs font-bold text-graphite md:px-4">
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {guide.dataTable.rows.map((row, ri) => (
+                        <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-surface/65"}>
+                          {row.map((cell, ci) =>
+                            ci === 0 ? (
+                              <th key={ci} scope="row" className="px-3 py-2.5 text-start font-semibold text-graphite md:px-4">
+                                {cell}
+                              </th>
+                            ) : (
+                              <td key={ci} className="px-3 py-2.5 tabular-nums text-graphite-soft/90 md:px-4">
+                                {cell}
+                              </td>
+                            )
+                          )}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </figure>
+            )}
+
+            {tool && (
+              <div className="my-6 rounded-[1.5rem] border border-brand-blue/20 bg-white p-5 shadow-[0_18px_45px_-35px_rgba(10,22,36,0.6)] md:p-6">
+                <p className="text-xs font-bold text-brand-blue">מחשבון</p>
+                <p className="mt-1 text-base font-black text-graphite md:text-lg">{tool.title}</p>
+                <p className="mt-1 text-sm leading-6 text-graphite-soft/72">{tool.short}</p>
+                <Link
+                  href={tool.path}
+                  className="tap-target mt-3 inline-flex items-center gap-2 rounded-full bg-brand-blue px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-brand-blue-dark"
+                >
+                  לחשב עם הנתונים שלכם ←
+                </Link>
               </div>
             )}
 
@@ -276,6 +332,30 @@ export default async function GuidePage({ params }: GuidePageProps) {
               <FaqAccordion items={guide.faq} />
             </div>
             <JsonLd data={faqJsonLd(guide.faq)} />
+          </section>
+        )}
+
+        {guide.externalLinks && guide.externalLinks.length > 0 && (
+          <section className="mt-10 max-w-4xl md:mt-14" aria-labelledby="guide-external-heading">
+            <h2 id="guide-external-heading" className="text-lg font-bold text-graphite md:text-2xl">
+              מקורות ומחשבונים נוספים
+            </h2>
+            <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+              {guide.externalLinks.map((link) => (
+                <li key={link.href}>
+                  {/* Plain followed links: sources, and the sibling calculator site. */}
+                  <a
+                    href={link.href}
+                    className="block h-full rounded-[1.25rem] border border-line/75 bg-white p-4 transition hover:border-brand-blue/35"
+                  >
+                    <span className="block text-sm font-bold text-brand-blue">{link.label} ←</span>
+                    {link.description && (
+                      <span className="mt-1 block text-xs leading-relaxed text-graphite-soft/70">{link.description}</span>
+                    )}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 
