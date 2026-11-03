@@ -18,6 +18,9 @@ export interface GuideDimensionsTable {
   maxHeightCm?: number;
   /** RegExp source narrowing to a model type, e.g. "4 דלתות" or "אינטגרלי". */
   namePattern?: string;
+  /** Narrows to a measured body width band, inclusive, e.g. 60 cm fridges. */
+  minWidthCm?: number;
+  maxWidthCm?: number;
   columns: ("body" | "withStand" | "vesa" | "cutout")[];
   caption: string;
 }

@@ -98,6 +98,15 @@ export interface DimensionsTableSpec {
    * answer nobody's question.
    */
   namePattern?: string;
+  /**
+   * Narrows to a measured body width, inclusive, in cm. A "מקרר ברוחב 60"
+   * question is answered by the models that are 60 cm wide, and the product
+   * name cannot say which those are — a fridge is named by litres, not by
+   * width. A model with no measured body is excluded once either bound is set,
+   * because there is nothing to compare.
+   */
+  minWidthCm?: number;
+  maxWidthCm?: number;
   /** Which measured columns this table publishes. */
   columns: DimensionsColumn[];
 }
@@ -129,6 +138,12 @@ export async function buildDimensionsTable(spec: DimensionsTableSpec): Promise<D
       const measured = measure(product);
       const height = measured?.body?.heightCm ?? measured?.withStand?.heightCm ?? null;
       if (height !== null && height > spec.maxHeightCm) return false;
+    }
+    if (spec.minWidthCm !== undefined || spec.maxWidthCm !== undefined) {
+      const width = measure(product)?.body?.widthCm ?? null;
+      if (width === null) return false;
+      if (spec.minWidthCm !== undefined && width < spec.minWidthCm) return false;
+      if (spec.maxWidthCm !== undefined && width > spec.maxWidthCm) return false;
     }
     return true;
   });

@@ -158,11 +158,26 @@ async function ensureGlossary(target: TargetLocale): Promise<string> {
   const existing = list.glossaries.find((g) => g.name === name);
   if (existing) return existing.glossary_id;
 
-  const res = await fetch(`${DEEPL_API}/glossaries`, {
-    method: "POST",
-    headers,
-    body: JSON.stringify({ name, source_lang: "he", target_lang: target, entries: tsv, entries_format: "tsv" }),
-  });
+  const create = () =>
+    fetch(`${DEEPL_API}/glossaries`, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ name, source_lang: "he", target_lang: target, entries: tsv, entries_format: "tsv" }),
+    });
+  let res = await create();
+  // The free plan holds a single glossary, so the other locale's copy has to
+  // make room. Nothing is lost: every hadad-he-* glossary is rebuilt from
+  // GLOSSARY on the run that needs it. Locales run one after another, so the
+  // glossary removed here is never one still in use.
+  if (res.status === 456) {
+    for (const g of list.glossaries) {
+      if (g.name.startsWith("hadad-he-") && !g.name.startsWith(prefix)) {
+        await fetch(`${DEEPL_API}/glossaries/${g.glossary_id}`, { method: "DELETE", headers });
+        glossaryIds.delete(g.name.startsWith("hadad-he-ru-") ? "ru" : "en");
+      }
+    }
+    res = await create();
+  }
   if (!res.ok) throw new Error(`DeepL glossary creation failed (${res.status}): ${await res.text()}`);
   return ((await res.json()) as { glossary_id: string }).glossary_id;
 }

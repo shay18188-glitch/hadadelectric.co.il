@@ -472,7 +472,7 @@ export const EXTRA_GUIDES: Guide[] = [
     // The sibling links are reciprocal with the three per-category dimension
     // guides, which is what makes them read as one cluster to a crawler rather
     // than four pages competing over the word "מידות".
-    relatedGuideSlugs: ["cooktop-dimensions", "oven-dimensions", "tv-65-inch-dimensions"],
+    relatedGuideSlugs: ["cooktop-dimensions", "oven-dimensions", "microwave-dimensions", "integrated-refrigerator-dimensions", "tv-65-inch-dimensions"],
     title: "מידות סטנדרט למוצרי בילט אין במטבח — המדריך המעשי",
     description:
       "כל מידות הסטנדרט למוצרים בנויים: תנור, כיריים, מדיח, מיקרוגל בנוי וקולט אדים — ואיך מודדים נישה נכון לפני קנייה.",
