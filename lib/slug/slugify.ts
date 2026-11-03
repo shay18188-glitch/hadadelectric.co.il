@@ -77,6 +77,11 @@ export function generateProductSlug(name: string, modelNumber: string): string {
   return namePart ? `${namePart}-${modelPart}` : modelPart;
 }
 
+/** The model-number segment that `generateProductSlug` appends to the name. */
+export function productSlugModelPart(modelNumber: string): string {
+  return baseSlugify(modelNumber).toUpperCase();
+}
+
 /** Previous slug format that kept Hebrew in the readable name segment. */
 export function generateLegacyProductSlug(name: string, modelNumber: string): string {
   const namePart = legacySlugify(name);

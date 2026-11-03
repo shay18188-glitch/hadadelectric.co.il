@@ -15,6 +15,7 @@ import {
   generateBrandSlug,
   generateCategorySlug,
   generateLegacyProductSlug,
+  productSlugModelPart,
 } from "@/lib/slug/slugify";
 import { resolveLegacyCategorySlug } from "@/lib/slug/legacyRedirects";
 import productImageStore from "@/content/product-images.json";
@@ -222,6 +223,29 @@ export async function getProductBySlug(slug: string): Promise<Product | null> {
 
   const legacy = products.find((p) => generateLegacyProductSlug(p.name, p.modelNumber) === decoded);
   if (legacy) return legacy;
+
+  // The supplier renames products — on 2026-11-03 some 50 names were reworded
+  // ("מיקרוגל 23 ליטר דיגיטלי" → "מיקרוגל דיגיטלי 23 ליטר") — and the readable
+  // part of the slug changes with them while the model number does not. The
+  // old URL is the one Google has ranked, so it resolves to the same model and
+  // the route answers with a permanent redirect, which carries the ranking.
+  //
+  // The last dash-separated token alone cannot find a model number that has
+  // dashes of its own: "EM823A2GU-S (6567)" ends in "6567". So the whole model
+  // segment is matched against the end of the slug first. The longest match
+  // wins, and only a match that names exactly one product counts; anything
+  // ambiguous falls through rather than redirect a ranked URL to the wrong
+  // product.
+  const upper = decoded.toUpperCase();
+  let best: { product: Product; length: number; ambiguous: boolean } | null = null;
+  for (const p of products) {
+    const modelPart = productSlugModelPart(p.modelNumber);
+    if (modelPart.length < 3) continue;
+    if (upper !== modelPart && !upper.endsWith(`-${modelPart}`)) continue;
+    if (!best || modelPart.length > best.length) best = { product: p, length: modelPart.length, ambiguous: false };
+    else if (modelPart.length === best.length && p !== best.product) best.ambiguous = true;
+  }
+  if (best && !best.ambiguous) return best.product;
 
   const modelToken = extractModelNumberFromSlug(decoded);
   return products.find((p) => p.modelNumber.toUpperCase() === modelToken.toUpperCase()) ?? null;
