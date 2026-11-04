@@ -28,8 +28,24 @@ const DEFAULT_BASE_URL = `https://base44.app/api/apps/${
 const BASE44_APP_BASE_URL = process.env.BASE44_APP_BASE_URL || DEFAULT_BASE_URL;
 const CATALOG_ENDPOINT = `${BASE44_APP_BASE_URL}/functions/getProductCatalog`;
 
-// Revalidate the catalog every 3 hours to limit Vercel CPU from ISR refreshes.
-const CATALOG_REVALIDATE_SECONDS = 10800; // 3 hours
+/**
+ * How long one process reuses a fetched catalog before asking Base44 again.
+ *
+ * The feed is ~2.1 MB, past the 2 MB per-entry ceiling of Next's data cache,
+ * so `fetch(..., { next: { revalidate } })` could not hold it. Worse, an entry
+ * stored back when the feed was smaller stayed in the cache: request-time
+ * renders (category pages, search, the en/ru product pages) kept being handed
+ * it as stale data, and the background refresh could never replace it. Those
+ * pages showed a weeks-old catalog — missing new models and linking renamed
+ * ones under their old names — while the prerendered pages were current.
+ *
+ * Pages still refresh on their own `revalidate` (3h); this only decides how
+ * often a warm process re-downloads the feed. It also stops a build's nine
+ * workers fetching it once per page — thousands of calls that Base44 answered
+ * with 429s.
+ */
+const CATALOG_MEMO_TTL_MS = 5 * 60 * 1000;
+const CATALOG_FETCH_ATTEMPTS = 3;
 
 /** Only ever forward these two safe filter params to Base44. */
 function buildQueryString(params?: CatalogFetchParams): string {
@@ -49,10 +65,9 @@ async function fetchRawCatalog(
   const url = `${CATALOG_ENDPOINT}${buildQueryString(params)}`;
 
   try {
-    const res = await fetch(url, {
-      headers: { Accept: "application/json" },
-      next: { revalidate: CATALOG_REVALIDATE_SECONDS, tags: ["catalog"] },
-    });
+    // No cache options on purpose: see CATALOG_MEMO_TTL_MS. Left unconfigured,
+    // the fetch neither reads the data cache nor forces the route dynamic.
+    const res = await fetch(url, { headers: { Accept: "application/json" } });
 
     if (res.status === 429) {
       console.error("[base44] rate limited (429) fetching catalog");
@@ -118,21 +133,71 @@ function applyImageOverrides(products: Product[]): Product[] {
   });
 }
 
+const catalogMemo = new Map<string, { fetchedAt: number; data: Base44Product[] }>();
+const catalogInFlight = new Map<string, Promise<{ ok: true; data: Base44Product[] } | { ok: false; error: string }>>();
+
+async function fetchRawCatalogWithRetry(params?: CatalogFetchParams) {
+  let result = await fetchRawCatalog(params);
+  for (let attempt = 1; !result.ok && attempt < CATALOG_FETCH_ATTEMPTS; attempt++) {
+    await new Promise((resolve) => setTimeout(resolve, 1000 * 2 ** attempt));
+    result = await fetchRawCatalog(params);
+  }
+  return result;
+}
+
 /**
- * Fetches the full/filtered catalog. Falls back to a small mock
- * dataset if the live API is unreachable, so the site never crashes
- * or shows an empty catalog. The fallback is never silently merged
- * with real data.
+ * The live catalog, fetched at most once per CATALOG_MEMO_TTL_MS per process.
+ * Concurrent callers share one request. When Base44 fails, the last catalog
+ * this process fetched successfully is served, however old — a few hours of
+ * staleness is harmless, a wrong catalog is not.
+ */
+async function loadRawCatalog(params?: CatalogFetchParams) {
+  const key = buildQueryString(params);
+  const memo = catalogMemo.get(key);
+  if (memo && Date.now() - memo.fetchedAt < CATALOG_MEMO_TTL_MS) return { ok: true as const, data: memo.data };
+
+  let pending = catalogInFlight.get(key);
+  if (!pending) {
+    pending = fetchRawCatalogWithRetry(params).finally(() => catalogInFlight.delete(key));
+    catalogInFlight.set(key, pending);
+  }
+  const result = await pending;
+  if (result.ok) {
+    catalogMemo.set(key, { fetchedAt: Date.now(), data: result.data });
+    return result;
+  }
+  if (memo) {
+    console.error(`[base44] serving the catalog fetched ${Math.round((Date.now() - memo.fetchedAt) / 60000)} min ago (reason: ${result.error})`);
+    return { ok: true as const, data: memo.data };
+  }
+  return result;
+}
+
+/**
+ * Fetches the full/filtered catalog.
+ *
+ * Outside development a failed fetch throws rather than falling back to the
+ * mock. A page rendered from the mock is not a degraded page, it is a wrong
+ * one: every real product becomes "not in the catalog", the sitemap shrinks to
+ * the mock's handful of models, and ISR then caches that for hours. Throwing
+ * lets Next keep serving the last good page during a revalidation, and fails a
+ * build — leaving the previous deployment live — instead of shipping it.
+ *
+ * In development the mock still stands in, so the site runs offline. The
+ * fallback is never silently merged with real data.
  */
 export async function getProductCatalog(
   params?: CatalogFetchParams
 ): Promise<{ products: Product[]; usedFallback: boolean }> {
-  const result = await fetchRawCatalog(params);
+  const result = await loadRawCatalog(params);
 
   if (result.ok) {
     return { products: applyImageOverrides(result.data.map(normalizeProduct)), usedFallback: false };
   }
 
+  if (process.env.NODE_ENV !== "development") {
+    throw new Error(`[base44] catalog unavailable (reason: ${result.error})`);
+  }
   console.error(
     `[base44] falling back to mock catalog (reason: ${result.error})`
   );

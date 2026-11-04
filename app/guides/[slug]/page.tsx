@@ -28,6 +28,9 @@ interface GuidePageProps {
   params: Promise<{ slug: string }>;
 }
 
+// Dimension guides read their tables from the live catalog.
+export const revalidate = 10800; // 3 hours
+
 export function generateStaticParams() {
   return GUIDES.map((g) => ({ slug: g.slug }));
 }

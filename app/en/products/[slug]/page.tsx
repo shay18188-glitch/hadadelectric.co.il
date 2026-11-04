@@ -5,9 +5,14 @@ import { LocaleProductDetailPage } from "@/components/i18n/LocaleCatalog";
 import { localizeProduct } from "@/lib/i18n/translated";
 import { generateProductMetadata } from "@/lib/seo/metadata";
 
-// Rendered on demand (no generateStaticParams): translated product pages are
-// cached via ISR instead of pre-building ~830 extra pages per locale.
+// Rendered on first visit, then cached via ISR, instead of pre-building ~1000
+// extra pages per locale. Without generateStaticParams the route would be fully
+// dynamic and re-render on every request; the empty list is what opts it in.
 export const revalidate = 10800; // 3 hours
+
+export function generateStaticParams() {
+  return [];
+}
 
 interface Props {
   params: Promise<{ slug: string }>;
