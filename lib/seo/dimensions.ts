@@ -24,7 +24,14 @@ const CM_PER_MM = 0.1;
 
 export interface Dimensions {
   widthCm: number;
+  /** The lowest height, when the supplier publishes an adjustable range. */
   heightCm: number;
+  /**
+   * Top of an adjustable height ("גובה: 85-90 ס"מ" — levelling feet on a
+   * freestanding range, a telescopic hood chimney). Absent for a fixed height.
+   * `heightCm` stays the low end, which is the figure a niche has to clear.
+   */
+  heightMaxCm?: number;
   depthCm: number;
 }
 
@@ -136,15 +143,21 @@ function parseDeclaredOrder(clause: string): Dimensions | null {
   const scale = unitScale(clause);
   if (scale === null) return null;
 
-  // Full words ("רוחב x גובה x עומק") or the abbreviation suppliers also use
-  // ("רxגxע"). Both declare the order explicitly, which is the only thing
-  // that makes a bare triple safe to read.
+  // A split air conditioner lists an indoor and an outdoor unit. Either one
+  // alone is not "the product's dimensions", so neither is taken as the body.
+  if (/יחיד[הת]\s/.test(clause)) return null;
+
+  // Full words ("רוחב x גובה x עומק", "גובה/רוחב/עומק") or the abbreviation
+  // suppliers also use ("רxגxע"). Both declare the order explicitly, which is
+  // the only thing that makes a bare triple safe to read.
   const order =
-    clause.match(/(רוחב|גובה|עומק|אורך)\s*[x×*]\s*(רוחב|גובה|עומק|אורך)\s*[x×*]\s*(רוחב|גובה|עומק|אורך)/i) ??
-    clause.match(/\(\s*([רגעא])\s*[x×*]\s*([רגעא])\s*[x×*]\s*([רגעא])\s*\)/);
+    clause.match(/(רוחב|גובה|עומק|אורך)\s*[x×*/]\s*(רוחב|גובה|עומק|אורך)\s*[x×*/]\s*(רוחב|גובה|עומק|אורך)/i) ??
+    clause.match(/\(\s*([רגעא])\s*[x×*/]\s*([רגעא])\s*[x×*/]\s*([רגעא])\s*\)/);
   if (!order) return null;
 
-  const triple = clause.match(/(\d+(?:[.,]\d+)?)\s*[x×*]\s*(\d+(?:[.,]\d+)?)\s*[x×*]\s*(\d+(?:[.,]\d+)?)/);
+  // "/" separates values only once the order is declared ("594/594/567 מ"מ");
+  // anywhere else a slash is as likely to be a fraction.
+  const triple = clause.match(/(\d+(?:[.,]\d+)?)\s*[x×*/]\s*(\d+(?:[.,]\d+)?)\s*[x×*/]\s*(\d+(?:[.,]\d+)?)/);
   if (!triple) return null;
 
   const found: Partial<Dimensions> = {};
@@ -197,6 +210,55 @@ function parseVerifiedTriple(
 }
 
 /**
+ * Rule 4 — one axis per field, the shape most spec sheets in the feed use:
+ *   "רוחב: 69 ס"מ; גובה: 193.5 ס"מ; עומק: 55 ס"מ"
+ *   "רוחב: 60 ס"מ; עומק: 60 ס"מ; גובה: 85-90 ס"מ (רגליות מתכווננות)"
+ *
+ * Each field must be nothing but the axis, its number and a unit, so
+ * "עומק כולל ידיות", "רוחב נישה נדרש" or "גובה: כ-40 ס"מ" never qualify. All
+ * three axes have to be present exactly once; a sheet that names the same axis
+ * twice with different values is unreadable, not resolvable. A field that
+ * directly follows a packaging or cut-out heading belongs to that heading.
+ * Only the height may be a range — an adjustable foot or chimney is a fact
+ * about the product, a width range is not.
+ */
+const AXIS_FIELD =
+  /^[-–•*\s]*(רוחב|גובה|עומק)\s*:\s*(\d+(?:[.,]\d+)?)(?:\s*-\s*(\d+(?:[.,]\d+)?))?\s*(ס"מ|ס״מ|מ"מ|מ״מ)\s*(?:\((?:מתכוונן|רגליות מתכווננות|כולל דלתות)\))?\.?$/;
+
+function parseAxisFields(allClauses: string[]): { dimensions: Dimensions; sources: string[] } | null {
+  const values: Partial<Record<Axis, { low: number; high: number | null; clause: string }>> = {};
+  for (let i = 0; i < allClauses.length; i++) {
+    const match = allClauses[i].match(AXIS_FIELD);
+    if (!match) continue;
+    const previous = allClauses[i - 1] ?? "";
+    if ((PACKAGING.test(previous) || CUTOUT.test(previous)) && !/\d/.test(previous)) return null;
+
+    const axis: Axis = match[1] === "רוחב" ? "width" : match[1] === "גובה" ? "height" : "depth";
+    const scale = /מ"מ|מ״מ/.test(match[4]) ? CM_PER_MM : 1;
+    const low = toNumber(match[2]) * scale;
+    const high = match[3] ? toNumber(match[3]) * scale : null;
+    if (high !== null && (axis !== "height" || !(high > low))) return null;
+
+    const existing = values[axis];
+    if (existing) {
+      if (existing.low !== low || existing.high !== high) return null;
+      continue;
+    }
+    values[axis] = { low, high, clause: allClauses[i] };
+  }
+
+  const { width, height, depth } = values;
+  if (!width || !height || !depth) return null;
+  const dimensions = complete({ widthCm: width.low, heightCm: height.low, depthCm: depth.low });
+  if (!dimensions) return null;
+  if (height.high !== null) {
+    if (!plausible(height.high)) return null;
+    dimensions.heightMaxCm = height.high;
+  }
+  return { dimensions, sources: [width.clause, height.clause, depth.clause] };
+}
+
+/**
  * The width a 16:9 panel of the given diagonal must have, in centimetres.
  * Returns null when the name does not state a screen size.
  */
@@ -210,6 +272,26 @@ export function panelSizeFromName(name: string): { widthCm: number; heightCm: nu
     widthCm: (diagonalCm * 16) / Math.hypot(16, 9),
     heightCm: (diagonalCm * 9) / Math.hypot(16, 9),
   };
+}
+
+/**
+ * True when the product name states a measurement the parsed body contradicts.
+ *
+ * Names are written by the same supplier as the spec sheet, so when the two
+ * disagree there is no telling which is right — PFSO50-WH is sold as
+ * "50*55 ס"מ" while its sheet says 50 cm deep. Only explicit statements count:
+ * "רוחב 69 ס"מ", "גובה 73.6 ס"מ", or a width × depth pair. A bare "60 ס"מ" is a
+ * size class (a 59.5 cm hob is a "60 cm" hob) and is not compared.
+ */
+export function nameContradicts(name: string, body: Dimensions): boolean {
+  const near = (stated: string, measured: number) => Math.abs(Number.parseFloat(stated) - measured) <= 2;
+  const width = name.match(/רוחב\s*(\d+(?:\.\d+)?)\s*ס/);
+  if (width && !near(width[1], body.widthCm)) return true;
+  const height = name.match(/גובה\s*(\d+(?:\.\d+)?)\s*ס/);
+  if (height && !near(height[1], body.heightCm)) return true;
+  const pair = name.match(/(\d+(?:\.\d+)?)\s*[*xX×]\s*(\d+(?:\.\d+)?)\s*ס/);
+  if (pair && !(near(pair[1], body.widthCm) && near(pair[2], body.depthCm))) return true;
+  return false;
 }
 
 /** Convenience wrapper for callers that only need the width. */
@@ -243,6 +325,38 @@ function parseCutout(clause: string, bodyWidthCm?: number | null): CutoutDimensi
   const unit = /מ"מ|מ״מ|\bmm\b/i.test(clause) ? "מ״מ" : /ס"מ|ס״מ|סמ\b|\bcm\b/i.test(clause) ? "ס״מ" : null;
   if (!unit) return null;
   const scale = unit === "מ״מ" ? CM_PER_MM : 1;
+
+  // A triple whose order the clause declares, e.g. an oven niche
+  // "(גובהxרוחבxעומק): 590x560x550 מ"מ" or "(רxגxע): 560 x 446 x 549 מ"מ", is
+  // read in that order — Rule 2 for the body. It goes first because the
+  // labelled pass below would take the header's "גובה" as the label of 590.
+  const number = String.raw`(\d+(?:[.,]\d+)?)`;
+  const sep = String.raw`\s*[x×*/]\s*`;
+  const triple = clause.match(new RegExp(`${number}${sep}${number}${sep}${number}`));
+  if (triple) {
+    // The order must label these very numbers: FQF675GGM carries a body
+    // triple and a niche triple in one clause, each with its own header.
+    const axis = String.raw`(רוחב|גובה|עומק)`;
+    const letter = String.raw`([רגע])`;
+    const order =
+      clause.match(new RegExp(`${axis}${sep}${axis}${sep}${axis}[^\\d]{0,24}${number}${sep}${number}${sep}${number}`)) ??
+      clause.match(new RegExp(`\\(\\s*${letter}\\s*[x×*]\\s*${letter}\\s*[x×*]\\s*${letter}\\s*\\)[^\\d]{0,24}${number}${sep}${number}${sep}${number}`));
+    // A triple with no declared order cannot be read at all — taking its
+    // first two numbers as width and depth is how a 590 mm niche height was
+    // once published as a 590 mm cut-out width. Nor is one read without a
+    // body width to check it against: that same FQF675GGM record writes its
+    // axis letters in the reverse of its number order.
+    if (!order || new Set(order.slice(1, 4)).size !== 3 || !bodyWidthCm) return null;
+    const ordered: CutoutDimensions = { widthText: null, depthText: null, heightText: null };
+    for (let i = 0; i < 3; i++) {
+      const value = formatMeasure(order[i + 4], unit);
+      const name = order[i + 1];
+      if (name === "רוחב" || name === "ר") ordered.widthText = value;
+      else if (name === "עומק" || name === "ע") ordered.depthText = value;
+      else ordered.heightText = value;
+    }
+    return ordered;
+  }
 
   const found: CutoutDimensions = { widthText: null, depthText: null, heightText: null };
   const labelled = /(רוחב|עומק|גובה)[^\d]{0,24}?(\d+(?:[.,]\d+)?(?:\s*-\s*\d+(?:[.,]\d+)?)?)/g;
@@ -328,6 +442,17 @@ export function extractDimensions(
     }
   }
 
+  // Rule 4 reads across clauses, so it runs only when no single clause gave
+  // the body. Displays are left out: a per-field sheet never says whether its
+  // height includes the stand, and the panel check above cannot settle that.
+  if (!primary && !withStand && !options?.panelSize) {
+    const fields = parseAxisFields(allClauses);
+    if (fields) {
+      primary = fields.dimensions;
+      sources.push(...fields.sources);
+    }
+  }
+
   for (const clause of allClauses) {
     if (cutout) break;
     if (PACKAGING.test(clause)) continue;
@@ -351,6 +476,20 @@ export function extractDimensions(
       continue;
     }
 
+    // The same test for the height of a niche an appliance slides into. Across
+    // the ovens, microwaves, dishwashers and fridges in the feed, a niche runs
+    // from 1.2 cm taller to 1.7 cm shorter than the body. Two records put a
+    // 59.5 cm oven in a 56 cm opening — PVBI60-BK's "(גובה/רוחב/עומק):
+    // 56x58.9x55" and N5M90E5's "גובה 56" — the standard niche width in the
+    // height slot. Cooktops are exempt: their cut-out "height" is the clearance
+    // under the worktop, a different measurement from the hob's thickness.
+    const bodyHeight = primary?.heightCm ?? null;
+    const cutoutHeight = parsed.heightText ? parseCmText(parsed.heightText) : null;
+    if (bodyHeight && bodyHeight > 20 && cutoutHeight && (bodyHeight - cutoutHeight > 2 || cutoutHeight - bodyHeight > 4)) {
+      cutoutRejected = clause;
+      continue;
+    }
+
     cutout = parsed;
     sources.push(clause);
   }
@@ -366,8 +505,12 @@ function parseCmText(text: string): number | null {
   return /מ״מ|מ"מ|mm/i.test(text) ? value * CM_PER_MM : value;
 }
 
-/** "144.5 × 83.8 × 6.7 ס״מ" — one decimal, no trailing zeros. */
-export function formatDimensions(dimensions: Dimensions): string {
-  const round = (value: number) => Number(value.toFixed(1)).toString();
-  return `${round(dimensions.widthCm)} × ${round(dimensions.heightCm)} × ${round(dimensions.depthCm)} ס״מ`;
+/** "144.5 × 83.8 × 6.7 ס״מ", "60 × 85–90 × 60 ס״מ" — one decimal, no trailing zeros. */
+export function formatDimensions(dimensions: Dimensions, unit = "ס״מ", decimal = "."): string {
+  const round = (value: number) => Number(value.toFixed(1)).toString().replace(".", decimal);
+  const height =
+    dimensions.heightMaxCm === undefined
+      ? round(dimensions.heightCm)
+      : `${round(dimensions.heightCm)}–${round(dimensions.heightMaxCm)}`;
+  return `${round(dimensions.widthCm)} × ${height} × ${round(dimensions.depthCm)} ${unit}`;
 }

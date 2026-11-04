@@ -308,7 +308,10 @@ export function NicheFitCalculator({ candidates }: { candidates: FitCandidate[] 
                           {m.inStock ? "" : " · לא במלאי כרגע"}
                         </span>
                         <span className="mt-1.5 flex flex-wrap gap-x-4 gap-y-0.5 text-xs text-graphite-soft/85">
-                          <span dir="ltr">{r1(m.widthCm)} × {r1(m.heightCm)} × {r1(m.depthCm)} cm</span>
+                          <span dir="ltr">
+                            {r1(m.widthCm)} × {r1(m.heightCm)}
+                            {m.heightMaxCm === undefined ? "" : `–${r1(m.heightMaxCm)}`} × {r1(m.depthCm)} cm
+                          </span>
                           <span>
                             נשאר:{" "}
                             {[

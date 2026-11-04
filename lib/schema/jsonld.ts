@@ -232,7 +232,7 @@ export function productJsonLd(params: {
   availability: "in_stock" | "out_of_stock" | "unknown";
   specs?: { label: string; value: string }[];
   /** Parsed physical dimensions in centimetres, when the feed supplies them. */
-  dimensionsCm?: { widthCm: number; heightCm: number; depthCm: number } | null;
+  dimensionsCm?: { widthCm: number; heightCm: number; heightMaxCm?: number; depthCm: number } | null;
   /**
    * Yuval's note, when he has written one for this model. Emitted only on
    * the Hebrew page: the note is Hebrew prose, and attaching it to an
@@ -301,7 +301,16 @@ export function productJsonLd(params: {
     ...(params.dimensionsCm
       ? {
           width: { "@type": "QuantitativeValue", value: Number(params.dimensionsCm.widthCm.toFixed(1)), unitCode: "CMT" },
-          height: { "@type": "QuantitativeValue", value: Number(params.dimensionsCm.heightCm.toFixed(1)), unitCode: "CMT" },
+          // An adjustable height is published as the range it is, not as either end.
+          height:
+            params.dimensionsCm.heightMaxCm === undefined
+              ? { "@type": "QuantitativeValue", value: Number(params.dimensionsCm.heightCm.toFixed(1)), unitCode: "CMT" }
+              : {
+                  "@type": "QuantitativeValue",
+                  minValue: Number(params.dimensionsCm.heightCm.toFixed(1)),
+                  maxValue: Number(params.dimensionsCm.heightMaxCm.toFixed(1)),
+                  unitCode: "CMT",
+                },
           depth: { "@type": "QuantitativeValue", value: Number(params.dimensionsCm.depthCm.toFixed(1)), unitCode: "CMT" },
         }
       : {}),

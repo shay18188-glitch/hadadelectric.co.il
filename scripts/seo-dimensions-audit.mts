@@ -12,7 +12,7 @@
 
 import { Base44CatalogResponseSchema } from "../types/api";
 import type { Base44Product } from "../types/api";
-import { extractDimensions, formatDimensions, panelSizeFromName, panelWidthFromName } from "../lib/seo/dimensions";
+import { extractDimensions, formatDimensions, nameContradicts, panelSizeFromName, panelWidthFromName } from "../lib/seo/dimensions";
 
 const appId = process.env.NEXT_PUBLIC_BASE44_APP_ID || "697dbf6bdde569f5ea050a4e";
 const endpoint =
@@ -59,6 +59,9 @@ async function main() {
     }
     if (dimensions?.cutoutRejected) {
       feedErrors.push(`${category} · ${product.model_number} (${product.brand ?? "—"}): ${dimensions.cutoutRejected.trim().slice(0, 120)}`);
+    }
+    if (dimensions?.primary && nameContradicts(product.name, dimensions.primary)) {
+      feedErrors.push(`${category} · ${product.model_number} (${product.brand ?? "—"}): "${product.name}" vs ${formatDimensions(dimensions.primary)}  ← name and spec sheet disagree; not published`);
     }
     const measured = dimensions?.primary ?? dimensions?.withStand ?? null;
     if (measured) {

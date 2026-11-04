@@ -1,7 +1,7 @@
 import "server-only";
 
 import { getProducts } from "@/lib/base44/catalog";
-import { extractDimensions, panelSizeFromName, type CutoutDimensions, type Dimensions } from "@/lib/seo/dimensions";
+import { extractDimensions, nameContradicts, panelSizeFromName, type CutoutDimensions, type Dimensions } from "@/lib/seo/dimensions";
 import { seoBrandName } from "@/lib/seo/brandNames";
 import type { Product } from "@/types/product";
 
@@ -55,6 +55,8 @@ export function measure(product: Product): MeasuredProduct | null {
     body = withStand;
     withStand = null;
   }
+  if (body && nameContradicts(product.name, body)) body = null;
+  if (!body && !withStand) return null;
 
   return {
     slug: product.slug,
@@ -198,6 +200,8 @@ export interface FitCandidate {
   categorySlug: string;
   widthCm: number;
   heightCm: number;
+  /** Top of an adjustable height; `heightCm` is the low end the fit test uses. */
+  heightMaxCm?: number;
   depthCm: number;
   inStock: boolean;
 }
@@ -219,6 +223,7 @@ export async function getFitCandidates(): Promise<FitCandidate[]> {
       categorySlug: product.categorySlug,
       widthCm: body.widthCm,
       heightCm: body.heightCm,
+      ...(body.heightMaxCm === undefined ? {} : { heightMaxCm: body.heightMaxCm }),
       depthCm: body.depthCm,
       inStock: product.availability === "in_stock",
     });

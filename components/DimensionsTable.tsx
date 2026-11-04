@@ -65,11 +65,6 @@ const TEXT: Record<Locale, {
   },
 };
 
-function formatBox(d: { widthCm: number; heightCm: number; depthCm: number }, cm: string, decimal: string): string {
-  const r = (n: number) => String(Math.round(n * 10) / 10).replace(".", decimal);
-  return `${r(d.widthCm)} × ${r(d.heightCm)} × ${r(d.depthCm)} ${cm}`;
-}
-
 /** "רוחב 56 ס״מ · עומק 48 ס״מ" — only the axes the supplier actually published. */
 function formatCutout(cutout: MeasuredProduct["cutout"], t: (typeof TEXT)[Locale]): string {
   if (!cutout) return "—";
@@ -145,9 +140,7 @@ export function DimensionsTable({
                       : column === "cutout"
                         ? formatCutout(row.cutout, t)
                         : row[column]
-                          ? locale === "he"
-                            ? formatDimensions(row[column]!)
-                            : formatBox(row[column]!, t.cm, decimal)
+                          ? formatDimensions(row[column]!, t.cm, decimal)
                           : "—"}
                   </td>
                 ))}
