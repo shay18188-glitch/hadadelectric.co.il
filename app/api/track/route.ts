@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { recordEvents, isTrackedEvent, storePing, type IncomingEvent } from "@/lib/analytics/events";
+import { recordEvents, isTrackedEvent, isBarPlacement, sanitizePagePath, storePing, type IncomingEvent } from "@/lib/analytics/events";
 import { isLandingType, isTrafficSource } from "@/lib/analytics/landing";
 import { isStoreConfigured, getStoreEnvStatus } from "@/lib/analytics/store";
 
@@ -29,7 +29,15 @@ export async function POST(req: Request) {
     const raw = Array.isArray(data.events) ? data.events : data.event ? [data] : [];
     const events: IncomingEvent[] = [];
     for (const item of raw.slice(0, 20)) {
-      const e = item as { event?: unknown; slug?: unknown; category?: unknown; landing?: unknown; source?: unknown };
+      const e = item as {
+        event?: unknown;
+        slug?: unknown;
+        category?: unknown;
+        landing?: unknown;
+        source?: unknown;
+        placement?: unknown;
+        page?: unknown;
+      };
       if (!isTrackedEvent(e.event)) continue;
       events.push({
         event: e.event,
@@ -39,6 +47,8 @@ export async function POST(req: Request) {
         // ever increment one of a dozen known buckets — never write free text.
         landing: isLandingType(e.landing) ? e.landing : undefined,
         source: isTrafficSource(e.source) ? e.source : undefined,
+        placement: isBarPlacement(e.placement) ? e.placement : undefined,
+        page: sanitizePagePath(e.page),
       });
     }
     if (events.length > 0) await recordEvents(events);

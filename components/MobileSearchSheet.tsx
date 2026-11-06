@@ -74,7 +74,16 @@ const SHEET_TEXT: Record<
   },
 };
 
-export function MobileSearchSheet({ open, onClose }: { open: boolean; onClose: () => void }) {
+export function MobileSearchSheet({
+  open,
+  onClose,
+  placement,
+}: {
+  open: boolean;
+  onClose: () => void;
+  /** Set when opened from the mobile bottom bar, so its searches are measured apart. */
+  placement?: "bottom_bar";
+}) {
   const pathname = usePathname() ?? "/";
   const locale = getLocaleFromPathname(pathname);
   const text = SHEET_TEXT[locale];
@@ -94,13 +103,14 @@ export function MobileSearchSheet({ open, onClose }: { open: boolean; onClose: (
           dropdownMode="inline"
           placeholder={pageCategory ? text.contextPlaceholder(pageCategory.label) : text.placeholder}
           onNavigate={onClose}
+          trackPlacement={placement}
         />
 
         {showCategoryShortcut && (
           <Link
             href={categoryHref}
             onClick={() => {
-              trackEvent("search_shortcut_click", { category: pageCategory.slug, from: basePath });
+              trackEvent("search_shortcut_click", { category: pageCategory.slug, placement, page: basePath });
               onClose();
             }}
             className="tap-target mt-4 flex items-center justify-between gap-3 rounded-2xl border border-brand-blue/15 bg-brand-blue-light px-4 py-3.5 text-brand-blue transition-colors hover:bg-brand-blue hover:text-white"
@@ -121,7 +131,10 @@ export function MobileSearchSheet({ open, onClose }: { open: boolean; onClose: (
               <Link
                 key={item.href}
                 href={item.href}
-                onClick={onClose}
+                onClick={() => {
+                  trackEvent("search_result_click", { placement });
+                  onClose();
+                }}
                 className="tap-target inline-flex items-center rounded-full border border-brand-blue/15 bg-brand-blue-light px-3.5 py-2 text-sm font-bold text-brand-blue transition-colors hover:bg-brand-blue hover:text-white"
               >
                 {item.label}

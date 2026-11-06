@@ -35,7 +35,7 @@ export function ProductStickyCta({ product }: { product: Product }) {
       imageUrl: product.imageUrl,
       brand: product.brand,
     });
-    trackEvent("product_add_to_request", { model_number: product.modelNumber });
+    trackEvent("product_add_to_request", { model_number: product.modelNumber, placement: "product_bar" });
   }
 
   return (
@@ -65,7 +65,7 @@ export function ProductStickyCta({ product }: { product: Product }) {
         href={buildWhatsAppUrl(buildWhatsAppProductMessage(product))}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackEvent("whatsapp_click_product", { model_number: product.modelNumber, slug: product.slug })}
+        onClick={() => trackEvent("whatsapp_click_product", { model_number: product.modelNumber, slug: product.slug, placement: "product_bar" })}
         className={cx(BAR_SECONDARY_CLASS, BAR_TEXT_SIZE.he.secondary)}
       >
         <BarIcon name="whatsapp" />

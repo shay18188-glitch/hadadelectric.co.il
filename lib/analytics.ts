@@ -23,6 +23,7 @@ export type AnalyticsEvent =
   | "search_query"
   | "search_open"
   | "search_shortcut_click"
+  | "search_result_click"
   | "filter_use"
   | "contact_form_submit"
   | "category_view"
@@ -44,6 +45,9 @@ const SERVER_TRACKED: ReadonlySet<AnalyticsEvent> = new Set([
   "whatsapp_click_basket",
   "phone_click",
   "search_query",
+  "search_open",
+  "search_shortcut_click",
+  "search_result_click",
   "contact_form_submit",
   "product_add_to_request",
   "bundle_view",
@@ -93,8 +97,11 @@ function sendServerBeacon(event: AnalyticsEvent, params: Record<string, unknown>
   try {
     const slug = typeof params.slug === "string" ? params.slug : undefined;
     const category = typeof params.category === "string" ? params.category : undefined;
+    // Only the mobile bottom bars pass these; the server validates both.
+    const placement = typeof params.placement === "string" ? params.placement : undefined;
+    const page = typeof params.page === "string" ? params.page : undefined;
     const { landing, source } = visitContext();
-    const body = JSON.stringify({ events: [{ event, slug, category, landing, source }] });
+    const body = JSON.stringify({ events: [{ event, slug, category, landing, source, placement, page }] });
     if (typeof navigator !== "undefined" && typeof navigator.sendBeacon === "function") {
       navigator.sendBeacon("/api/track", new Blob([body], { type: "application/json" }));
     } else {

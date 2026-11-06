@@ -16,6 +16,9 @@ export const TRACKED_EVENTS = [
   "whatsapp_click_basket",
   "phone_click",
   "search_query",
+  "search_open",
+  "search_shortcut_click",
+  "search_result_click",
   "contact_form_submit",
   "product_add_to_request",
   "exit_offer_view",
@@ -31,6 +34,25 @@ export function isTrackedEvent(x: unknown): x is TrackedEvent {
   return typeof x === "string" && EVENT_SET.has(x);
 }
 
+/**
+ * Where on the page an action was taken. Only the mobile bottom bars send one,
+ * so their use can be measured apart from the same action elsewhere.
+ */
+export const BAR_PLACEMENTS = ["bottom_bar", "product_bar"] as const;
+export type BarPlacement = (typeof BAR_PLACEMENTS)[number];
+export function isBarPlacement(x: unknown): x is BarPlacement {
+  return typeof x === "string" && (BAR_PLACEMENTS as readonly string[]).includes(x);
+}
+
+/** A site path such as "/guides/oven-dimensions" — never a query or free text. */
+export function sanitizePagePath(x: unknown): string | undefined {
+  if (typeof x !== "string" || x.length > 120) return undefined;
+  return /^\/[a-z0-9\-/]*$/i.test(x) ? x : undefined;
+}
+
+/** Bottom-bar actions that are an attempt to reach the shop. */
+const BAR_CONTACT_EVENTS: ReadonlySet<string> = new Set(["whatsapp_click_header", "phone_click"]);
+
 export interface IncomingEvent {
   event: TrackedEvent;
   /** product or brand slug, when relevant */
@@ -41,6 +63,10 @@ export interface IncomingEvent {
   landing?: LandingType;
   /** Engine or channel the visit arrived from. */
   source?: TrafficSource;
+  /** Set only by the mobile bottom bars. */
+  placement?: BarPlacement;
+  /** Path the bar was used on (bottom bar only). */
+  page?: string;
 }
 
 /**
@@ -116,6 +142,18 @@ export async function recordEvents(events: IncomingEvent[]): Promise<void> {
     }
     if (e.event === "whatsapp_click_product" && slug) {
       cmds.push(["ZINCRBY", "z:wa_prod", 1, slug]);
+    }
+
+    // Bottom-bar use is counted in its own hashes, so the site-wide totals and
+    // the activity trend are unchanged by it (no double counting).
+    if (isBarPlacement(e.placement)) {
+      const field = `${e.placement}:${e.event}`;
+      cmds.push(["HINCRBY", "bar", field, 1]);
+      cmds.push(["HINCRBY", `bardaily:${today}`, field, 1]);
+      cmds.push(["EXPIRE", `bardaily:${today}`, DAILY_TTL_SECONDS]);
+      const page = e.placement === "bottom_bar" ? sanitizePagePath(e.page) : undefined;
+      if (page && e.event === "search_open") cmds.push(["ZINCRBY", "z:bar_search_page", 1, page]);
+      if (page && BAR_CONTACT_EVENTS.has(e.event)) cmds.push(["ZINCRBY", "z:bar_contact_page", 1, page]);
     }
 
     if (CONVERSION_EVENTS.has(e.event)) {
@@ -257,6 +295,20 @@ export interface DashboardData {
   conversionsBySource: RankedEntry[];
   bots: RankedEntry[];
   aiReferrals: RankedEntry[];
+  /** Mobile bottom bars, keyed "placement:event". */
+  bar: { total: Record<string, number>; last7: Record<string, number>; last30: Record<string, number> };
+  /** Pages where the bottom bar's search was opened most. */
+  barSearchPages: RankedEntry[];
+  /** Pages where the bottom bar's WhatsApp/call was tapped most. */
+  barContactPages: RankedEntry[];
+}
+
+function sumDays(days: Record<string, number>[]): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const day of days) {
+    for (const [k, v] of Object.entries(day)) out[k] = (out[k] ?? 0) + v;
+  }
+  return out;
 }
 
 function toRanked(raw: unknown): RankedEntry[] {
@@ -285,11 +337,14 @@ export async function getDashboardData(days = 30): Promise<DashboardData> {
     conversionsBySource: [],
     bots: [],
     aiReferrals: [],
+    bar: { total: {}, last7: {}, last30: {} },
+    barSearchPages: [],
+    barContactPages: [],
   };
   if (!isStoreConfigured()) return empty;
 
   const dayKeys = recentDayKeys(days); // 0 = today
-  const cmds: (string | number)[][] = [
+  const head: (string | number)[][] = [
     ["HGETALL", "totals"],
     ["GET", "meta:lastEventAt"],
     ["ZREVRANGE", "z:cat", 0, 14, "WITHSCORES"],
@@ -301,15 +356,28 @@ export async function getDashboardData(days = 30): Promise<DashboardData> {
     ["ZREVRANGE", "z:conv_source", 0, 14, "WITHSCORES"],
     ["HGETALL", "bots"],
     ["HGETALL", "airefs"],
+  ];
+  // Offsets are derived from the lists themselves: a hard-coded "12" here once
+  // read every day's counters one slot late (today always empty).
+  const dailyBase = head.length;
+  const barBase = dailyBase + dayKeys.length;
+  const cmds: (string | number)[][] = [
+    ...head,
     ...dayKeys.map((d) => ["HGETALL", `daily:${d}`] as (string | number)[]),
+    ["HGETALL", "bar"],
+    ["ZREVRANGE", "z:bar_search_page", 0, 14, "WITHSCORES"],
+    ["ZREVRANGE", "z:bar_contact_page", 0, 14, "WITHSCORES"],
+    ...dayKeys.map((d) => ["HGETALL", `bardaily:${d}`] as (string | number)[]),
   ];
 
   const res = await pipeline(cmds);
   if (!res) return empty;
 
   const daily: DailyPoint[] = dayKeys
-    .map((date, i) => ({ date, events: parseHashNumbers(res[12 + i]) }))
+    .map((date, i) => ({ date, events: parseHashNumbers(res[dailyBase + i]) }))
     .reverse(); // oldest -> newest
+
+  const barDaily = dayKeys.map((_, i) => parseHashNumbers(res[barBase + 3 + i])); // 0 = today
 
   return {
     configured: true,
@@ -325,6 +393,13 @@ export async function getDashboardData(days = 30): Promise<DashboardData> {
     bots: hashToRanked(res[9]),
     aiReferrals: hashToRanked(res[10]),
     daily,
+    bar: {
+      total: parseHashNumbers(res[barBase]),
+      last7: sumDays(barDaily.slice(0, 7)),
+      last30: sumDays(barDaily),
+    },
+    barSearchPages: toRanked(res[barBase + 1]),
+    barContactPages: toRanked(res[barBase + 2]),
   };
 }
 

@@ -44,6 +44,7 @@ export function SearchBar({
   onNavigate,
   dropdownMode = "floating",
   desktopLayout = "single",
+  trackPlacement,
 }: {
   size?: "md" | "lg";
   autoFocus?: boolean;
@@ -55,6 +56,8 @@ export function SearchBar({
   onNavigate?: () => void;
   dropdownMode?: "floating" | "inline";
   desktopLayout?: "single" | "wide";
+  /** Tags this box's searches with where it was opened (the mobile bottom bar). */
+  trackPlacement?: "bottom_bar";
 }) {
   const router = useRouter();
   const [value, setValue] = useState("");
@@ -135,6 +138,8 @@ export function SearchBar({
   }, []);
 
   function closeAndNavigate() {
+    // Every suggestion (category, brand, product, quick filter) leaves through here.
+    trackEvent("search_result_click", { placement: trackPlacement });
     setOpen(false);
     onNavigate?.();
   }
@@ -177,7 +182,7 @@ export function SearchBar({
 
   function submitSearch(query: string) {
     const trimmed = query.trim();
-    trackEvent("search_query", { query: trimmed });
+    trackEvent("search_query", { query: trimmed, placement: trackPlacement });
     setOpen(false);
     onNavigate?.();
     router.push(`/products?q=${encodeURIComponent(trimmed)}`);

@@ -11,6 +11,7 @@ interface Props {
   categoryNames: Record<string, string>;
   brandNames: Record<string, string>;
   productNames: Record<string, string>;
+  pageNames: Record<string, string>;
 }
 
 function n(x: number | undefined): string {
@@ -88,7 +89,81 @@ function RankedList({
   );
 }
 
-export function AdminDashboard({ data, leads, connected, envStatus, categoryNames, brandNames, productNames }: Props) {
+function pct(part: number | undefined, whole: number | undefined): string {
+  return whole ? `${Math.round(((part ?? 0) / whole) * 100)}%` : "—";
+}
+
+/**
+ * The mobile bottom bars (global: search / call / WhatsApp; product page:
+ * add to request / call / WhatsApp). Counted apart from the site-wide totals
+ * above, which already include these clicks — this shows what the bar itself
+ * produced, and on which pages.
+ */
+function BottomBarPanel({ bar, searchPages, contactPages, pageNames }: {
+  bar: DashboardData["bar"];
+  searchPages: RankedEntry[];
+  contactPages: RankedEntry[];
+  pageNames: Record<string, string>;
+}) {
+  const card = (key: string, label: string, accent?: boolean, extra?: string) => (
+    <StatCard
+      key={key}
+      label={label}
+      value={n(bar.last7[key])}
+      accent={accent}
+      sub={`7 ימים · 30 יום ${n(bar.last30[key])} · מצטבר ${n(bar.total[key])}${extra ? ` · ${extra}` : ""}`}
+    />
+  );
+  const opens = bar.last30["bottom_bar:search_open"];
+  const contacts7 =
+    (bar.last7["bottom_bar:whatsapp_click_header"] ?? 0) +
+    (bar.last7["bottom_bar:phone_click"] ?? 0) +
+    (bar.last7["product_bar:whatsapp_click_product"] ?? 0) +
+    (bar.last7["product_bar:phone_click"] ?? 0) +
+    (bar.last7["product_bar:product_add_to_request"] ?? 0);
+
+  return (
+    <>
+      <h2 className="mt-10 text-lg font-bold text-graphite md:text-2xl">סרגל תחתון במובייל</h2>
+      <p className="mt-1 text-sm text-graphite-soft/75">
+        המספר הגדול = 7 הימים האחרונים. הקליקים כבר כלולים בסיכומים למעלה — כאן רואים מה הסרגל עצמו הביא. נמדד
+        מ-6.11.2026.
+      </p>
+      <section className="mt-4 grid grid-cols-2 gap-3 md:grid-cols-3">
+        <StatCard label="פניות מהסרגלים (7 ימים)" value={n(contacts7)} accent sub="וואטסאפ + שיחה + הוספה לבקשה" />
+        {card("bottom_bar:whatsapp_click_header", "וואטסאפ מהסרגל", true)}
+        {card("bottom_bar:phone_click", "שיחה מהסרגל", true)}
+      </section>
+
+      <h3 className="mt-6 text-sm font-bold text-graphite">חיפוש מוצר מהסרגל</h3>
+      <section className="mt-3 grid grid-cols-2 gap-3 md:grid-cols-4">
+        {card("bottom_bar:search_open", "פתיחות \"חפש מוצר\"")}
+        {card(
+          "bottom_bar:search_result_click",
+          "מעבר לתוצאה",
+          false,
+          `${pct(bar.last30["bottom_bar:search_result_click"], opens)} מהפתיחות (30 יום)`
+        )}
+        {card("bottom_bar:search_query", "חיפושים מלאים (Enter)")}
+        {card("bottom_bar:search_shortcut_click", "קיצור לקטגוריית העמוד")}
+      </section>
+
+      <h3 className="mt-6 text-sm font-bold text-graphite">סרגל בעמוד מוצר</h3>
+      <section className="mt-3 grid grid-cols-2 gap-3 md:grid-cols-3">
+        {card("product_bar:product_add_to_request", "הוספה לבקשה", true)}
+        {card("product_bar:whatsapp_click_product", "וואטסאפ על המוצר", true)}
+        {card("product_bar:phone_click", "שיחה", true)}
+      </section>
+
+      <div className="mt-4 grid gap-3 md:grid-cols-2">
+        <RankedList title="עמודים שמהם פנו דרך הסרגל" entries={contactPages} names={pageNames} suffix="פניות" />
+        <RankedList title="עמודים שמהם פתחו חיפוש" entries={searchPages} names={pageNames} suffix="פתיחות" />
+      </div>
+    </>
+  );
+}
+
+export function AdminDashboard({ data, leads, connected, envStatus, categoryNames, brandNames, productNames, pageNames }: Props) {
   const t = data.totals;
   const waTotal =
     (t.whatsapp_click_header ?? 0) +
@@ -163,6 +238,13 @@ export function AdminDashboard({ data, leads, connected, envStatus, categoryName
       <section className="mt-10">
         <LeadsPanel leads={leads} />
       </section>
+
+      <BottomBarPanel
+        bar={data.bar}
+        searchPages={data.barSearchPages}
+        contactPages={data.barContactPages}
+        pageNames={pageNames}
+      />
 
       {/* Bots & AI */}
       <h2 className="mt-10 text-lg font-bold text-graphite md:text-2xl">בוטים ועוזרי AI</h2>

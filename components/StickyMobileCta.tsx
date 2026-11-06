@@ -102,7 +102,7 @@ export function StickyMobileCta() {
 
         <a
           href={telHref(BUSINESS.phoneDisplay)}
-          onClick={() => trackEvent("phone_click", { phone: BUSINESS.phoneDisplay, placement: "bottom_bar" })}
+          onClick={() => trackEvent("phone_click", { phone: BUSINESS.phoneDisplay, placement: "bottom_bar", page: basePath })}
           className={cx(BAR_SECONDARY_CLASS, size.secondary)}
         >
           <BarIcon name="phone" className="text-brand-blue" />
@@ -120,7 +120,7 @@ export function StickyMobileCta() {
           {text.whatsapp}
         </a>
       </BottomActionBarShell>
-      <MobileSearchSheet open={searchOpen} onClose={() => setSearchOpen(false)} />
+      <MobileSearchSheet open={searchOpen} onClose={() => setSearchOpen(false)} placement="bottom_bar" />
     </>
   );
 }
