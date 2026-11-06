@@ -21,6 +21,8 @@ export type AnalyticsEvent =
   | "product_add_to_request"
   | "product_remove_from_request"
   | "search_query"
+  | "search_open"
+  | "search_shortcut_click"
   | "filter_use"
   | "contact_form_submit"
   | "category_view"

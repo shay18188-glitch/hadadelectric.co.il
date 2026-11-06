@@ -129,7 +129,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         ]}
       />
 
-      <div className="container-page pb-20 md:pb-16">
+      <div className="container-page pb-24 md:pb-16">
         <div className="surface-card grid overflow-hidden rounded-[2rem] md:grid-cols-2">
           <ProductGallery
             images={product.images}
