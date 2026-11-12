@@ -1,0 +1,189 @@
+{
+ "modelNumber": "LUX-QLED50",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Luxor",
+  "exactModel": "LUX-QLED 50",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The catalog writes LUX-QLED50 without a space; the pages write LUX-QLED 50. No manufacturer, importer or manual page was found. The only pages naming this model are Israeli retail and price-comparison pages, and the MCS page gives a title only. | QA: Sources write LUX-QLED 50 (with a space) and match the catalog's 50 inch QLED Luxor. No manufacturer or importer page; only Israeli retail and price-comparison pages."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-tv&db189989=10913101",
+   "publisher": "Zap price comparison (Luxor listings)",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/search.aspx?keyword=LUX-QLED+50",
+   "publisher": "Zap price comparison search",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://mcs.org.il/product/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-luxor-premium-smart-tv-qled-lux-qled-50/",
+   "publisher": "MCS",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "50 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית מסך",
+     "value": "QLED"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote spells it TAIZEN OS; corrected spelling. Only on a search results page.",
+     "label": "מערכת הפעלה",
+     "value": "Tizen OS"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תמיכה ב-HDR לשיפור ניגודיות, עומק וצבעים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "הטלוויזיה פועלת על מערכת ההפעלה Tizen ותומכת ב-HDR לשיפור הניגודיות והצבעים. מתאימה למי שמחפש מסך חכם בגודל בינוני לסלון או לחדר שינה.",
+  "highlights": [
+   "טכנולוגיית QLED",
+   "מערכת הפעלה Tizen OS",
+   "תמיכה ב-HDR"
+  ],
+  "goodFor": [
+   "מי שמחפש טלוויזיה חכמה עם מערכת הפעלה מובנית"
+  ],
+  "considerations": [
+   "אם מתכננים תלייה על הקיר, יש לבדוק מול המוכר התאמה של מתקן תלייה",
+   "כדאי לבדוק מראש שהאפליקציות שאתם משתמשים בהן זמינות במערכת Tizen"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה מותקנת בטלוויזיה?",
+    "a": "הטלוויזיה פועלת על מערכת ההפעלה Tizen OS.",
+    "sources": []
+   },
+   {
+    "q": "האם הטלוויזיה תומכת ב-HDR?",
+    "a": "כן, הטלוויזיה תומכת ב-HDR לשיפור הניגודיות והצבעים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Luxor LUX-QLED50",
+   "LUX-QLED 50",
+   "טלוויזיה Luxor 50 אינץ",
+   "טלוויזיה QLED 50 אינץ",
+   "טלוויזיה חכמה 4K 50 אינץ",
+   "לוקסור טלוויזיה QLED",
+   "טלוויזיה Tizen 50 אינץ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "50'",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "QLED",
+   "finding": "confirmed",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model LUX-QLED50 appears on no page as written. The pages say LUX-QLED 50, so the model number was matched with a space added.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or manual page was found. All facts come from Israeli retail or price-comparison pages, so they need a person to check before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog writes LUX-QLED50; every source writes LUX-QLED 50 with a space.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or manual page; all facts come from Israeli retail and price-comparison pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת הפעלה",
+   "issue": "Operating system appears only on a Zap search results page, spelled TAIZEN OS; confirm it is Tizen and belongs to this model.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept screen size, QLED, 4K, operating system and HDR. Operating system value corrected from the retailer spelling TAIZEN OS to Tizen OS; it is quoted only from a Zap search page, so it is flagged for a check. Zap pages relabelled as il-retailer price comparison remain 'other'. | code guard removed: summary: \"טלוויזיה חכמה של Luxor בגודל 50 אינץ׳ עם מסך QLED ברזולוציית 4K.\"; faq: \"מה גודל המסך?\"; faq: \"האם זו טלוויזיה 4K?\"; metaDescription: \"טלוויזיה חכמה Luxor LUX-QLED50 בגודל 50 אינץ׳ עם מסך QLED ברזולוציית 4K ומערכת Tizen OS. בחדד אלקטריק נהריה\"; highlight: \"מסך 50 אינץ׳\"; highlight: \"רזולוציית 4K\"; goodFor: \"צפייה בתכני 4K ו-HDR משירותי סטרימינג\"; goodFor: \"סלון או חדר שינה שמתאים להם מסך 50 אינץ׳\"; consideration: \"כדאי לוודא שהמקום המיועד מתאים למסך 50 אינץ׳, כולל רוחב המזנון או הקיר\""
+ }
+}

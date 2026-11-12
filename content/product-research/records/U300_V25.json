@@ -1,0 +1,446 @@
+{
+ "modelNumber": "U300 V25",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "UWANT",
+  "exactModel": "U300 V25",
+  "israeliImporter": "אס ג׳י אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "דפי הקמעונאים הישראליים מציגים את הדגם U300 V25 במפורש. דף היבואן uwant.co.il לא נטען (שגיאה 429) ולכן לא נעשה בו שימוש. | QA: Two Israeli retailer pages name UWANT U300 V25 explicitly and agree on suction, runtime, hot-water temperature and warranty by the official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99-%D7%90%D7%95%D7%95%D7%90%D7%A0%D7%98-uwant-%D7%93%D7%92%D7%9D-u300-v25/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/uwant-u300-v25-%D7%A8%D7%95%D7%91%D7%95%D7%98-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%9E%D7%99%D7%9D-%D7%97%D7%9E%D7%99%D7%9D-13000pa",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "13,000Pa"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 200 דקות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורת מים חמים",
+     "value": "60°C"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מהירות הרולר",
+     "value": "300 סל״ד"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "לחץ קרצוף",
+     "value": "20N"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single source",
+     "label": "סוללה",
+     "value": "5,000mAh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "איסוף אבק אוטומטי",
+     "value": "עד 180 ימים"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "axis order not stated",
+     "label": "מידות הרובוט",
+     "value": "351 × 346 × 97 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "axis order not stated",
+     "label": "מידות תחנת הבסיס",
+     "value": "405 × 393 × 508 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת ניווט",
+     "value": "מכ״ם LDS וחיישני ToF"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הרמת רולר",
+     "value": "עד 7 מ״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "clarified value",
+     "label": "מברשת צד נגד הסתבכות",
+     "value": "בזווית 45°"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה (יבואן רשמי: אס ג׳י אלקטרוניקה)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "רולר מקרצף הנשאר נקי בזמן אמת וצמוד לרצפה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תחנת עגינה לניקוי עצמי מלא ואוטומטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "reworded to match quote",
+   "text": "איסוף אוטומטי של אבק עד 180 ימים"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שטיפה במים חמים בטמפרטורה של 60 מעלות"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניווט ומיפוי עם מכ״ם LDS וחיישני ToF"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "יחידת רובוט UWANT U300 V25"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תחנת בסיס"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "רולר שטיפה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מסנן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שקית אבק"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מברשת צד"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפשרות חיבור קבוע למים ולניקוז מותנית בגרסת המוצר"
+  }
+ ],
+ "content": {
+  "summary": "UWANT U300 V25 הוא רובוט שואב ושוטף עם רולר מקרצף ותחנת בסיס לניקוי עצמי אוטומטי. הוא מציע עוצמת שאיבה של 13,000Pa, זמן עבודה של עד 200 דקות ושטיפה במים חמים בטמפרטורה של 60°C. מתאים למי שמחפש ניקוי משולב של שאיבה ושטיפה עם מינימום תחזוקה ידנית.",
+  "highlights": [
+   "עוצמת שאיבה 13,000Pa",
+   "זמן עבודה עד 200 דקות",
+   "שטיפה במים חמים ב־60°C",
+   "ניווט עם מכ״ם LDS וחיישני ToF"
+  ],
+  "goodFor": [
+   "בתים עם רצפות קשות שזקוקות לשטיפה קבועה",
+   "בתים עם שטיחים, בזכות הרמת רולר עד 7 מ״מ",
+   "בעלי חיות מחמד, בזכות מברשת צד נגד הסתבכות שיער"
+  ],
+  "considerations": [
+   "חיבור קבוע למים ולניקוז מותנה בגרסת המוצר – כדאי לברר מראש אם נדרש",
+   "התחנה משתמשת בשקית אבק, שיש להחליף מעת לעת"
+  ],
+  "faq": [
+   {
+    "q": "האם הרובוט שוטף במים חמים?",
+    "a": "כן, השטיפה מתבצעת במים חמים בטמפרטורה של 60°C.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן הרובוט עובד בטעינה אחת?",
+    "a": "זמן העבודה הוא עד 200 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה קורה כשהרובוט עובר על שטיח?",
+    "a": "הרולר מתרומם עד 7 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה על ידי אס ג׳י אלקטרוניקה, היבואן הרשמי.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "יחידת הרובוט, תחנת בסיס, רולר שטיפה, מסנן, שקית אבק ומברשת צד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "רובוט שואב ושוטף UWANT U300 V25 עם עוצמת שאיבה 13,000Pa ושטיפה במים חמים 60°C, ותחנה לניקוי עצמי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "UWANT U300 V25",
+   "שואב רובוטי UWANT",
+   "רובוט שואב שוטף",
+   "רובוט שוטף מים חמים",
+   "שואב רובוטי עם תחנת ריקון",
+   "אוואנט U300",
+   "שואב שוטף רובוטי לבן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "UWANT",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר דגם",
+   "catalogValue": "U300 V25",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קטגוריה",
+   "catalogValue": "שואבים רובוטיים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "13,000Pa",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "importer_site",
+   "issue": "דף היבואן uwant.co.il החזיר HTTP 429 בשתי ניסיונות ולא נבדק. האישור לשנה ולאחריות מבוסס על שני אתרי קמעונאות בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "sibling_models",
+   "issue": "תוצאות חיפוש של דגמי U300 ללא V25 (למשל 7200Pa וסוללה 5200mAh) סותרות את הנתונים לדגם U300 V25. לא נעשה בהם שימוש.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "דף citydeal מציג את מידות הרובוט ותחנת הבסיס ללא סימון ציר (רוחב, גובה, עומק). סדר הצירים לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "battery",
+   "issue": "קיבולת הסוללה 5,000mAh מופיעה רק בדף citydeal ולא אומתה באתר נוסף.",
+   "severity": "low"
+  },
+  {
+   "field": "color",
+   "issue": "שם המוצר בקטלוג מציין לבן, ולא נמצא אישור לצבע הדגם בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "color",
+   "issue": "שם הקטלוג מציין לבן, ולא נמצא אישור לצבע בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "battery",
+   "issue": "קיבולת הסוללה 5,000mAh מופיעה במקור אחד בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "סדר הצירים במידות הרובוט והתחנה לא מסומן במקור.",
+   "severity": "low"
+  },
+  {
+   "field": "importer_site",
+   "issue": "אתר היבואן לא נבדק; הנתונים מבוססים על שני אתרי קמעונאות ישראליים.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Reworded fact 11 value to state the 45° angle explicitly; reworded feature 2 to match the quote (no mention of a bag in that quote). All other facts kept as-is, each confirmed by an ok quote on an Israeli retailer page naming U300 V25. | code guard removed: highlight: \"איסוף אבק אוטומטי עד 180 ימים\"; goodFor: \"מי שמעדיף לרוקן את האבק לעיתים רחוקות, עם איסוף אוטומטי עד 180 ימים\"; consideration: \"תחנת הבסיס במידות 405 × 393 × 508 מ״מ – כדאי לוודא שיש לה מקום ליד שקע חשמל\"; consideration: \"גובה הרובוט 97 מ״מ לפי המידות המפורסמות – כדאי לבדוק את המרווח מתחת לספות ולמיטות\""
+ }
+}

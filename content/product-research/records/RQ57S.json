@@ -1,0 +1,363 @@
+{
+ "modelNumber": "RQ57S",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RQ57S",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Model RQ57S is named on two Israeli retailer product pages (CityDeal and Avi Sofer). Hisense Israel site search returned nothing for it. CWC and Payngo pages could not be read. No manufacturer or importer page was found, and the importer is not stated on the fetched pages. | QA: CityDeal and Avi Sofer both name Hisense RQ57S with the same volumes, dimensions and energy rating as the catalog. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-4-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-hisense-rq57s-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-427-%D7%9C%D7%99%D7%98%D7%A8-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94--%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/מקרר-מקפיא-תחתון-4-דלתות-הייסנס-⁦rq57s⁩-נ/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "79.4 × 181.2 × 63.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "427 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "278 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "149 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מגירות בתא ההקפאה",
+     "value": "6 מגירות נשלפות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "Inverter"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "CityDeal quote ok; Avi Sofer quote failed",
+     "label": "שיטת הפשרה",
+     "value": "Total No-Frost"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת זרימת אוויר רב מוקדית MULTI AIR FLOW"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תכונת FREEZE&SUPER COOL להקפאה וקירור מהירים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פתיחה מלאה של המגירות גם כשדלתות המקרר פתוחות ב-90°"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "צג בקרת טמפרטורה ולחות דיגיטלית פנימי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תאורת LED פנימית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ציפוי VCM דוחה טביעות אצבע על גימור נירוסטה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "המקרר כולל מדחס Inverter ומערכת Total No-Frost שחוסכת הפשרה ידנית, ודירוג האנרגיה שלו E. מתאים למשפחה שמחפשת נפח הקפאה גדול עם 6 מגירות נשלפות לארגון המזון הקפוא.",
+  "highlights": [
+   "תא הקפאה של 149 ליטר עם 6 מגירות נשלפות",
+   "מדחס Inverter",
+   "Total No-Frost ללא הפשרה ידנית",
+   "ציפוי VCM דוחה טביעות אצבע"
+  ],
+  "goodFor": [
+   "משפחה שמקפיאה כמויות גדולות ורוצה תא הקפאה של 149 ליטר מחולק למגירות",
+   "מי שמעדיף מקרר שלא דורש הפשרה ידנית בזכות Total No-Frost",
+   "מטבח עם חזית נירוסטה שבו חשוב שהדלתות יישארו נקיות מטביעות אצבע"
+  ],
+  "considerations": [
+   "דירוג האנרגיה הוא E, כדאי להשוות לדגמים אחרים אם צריכת החשמל חשובה לכם",
+   "לבדוק מול החנות את פרטי היבואן והאחריות"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך להפשיר את המקרר?",
+    "a": "לא. המקרר עובד בשיטת Total No-Frost שמבטלת את הצורך בהפשרה ידנית.",
+    "sources": []
+   },
+   {
+    "q": "כמה מגירות יש בתא ההקפאה?",
+    "a": "בתא ההקפאה יש 6 מגירות נשלפות.",
+    "sources": []
+   },
+   {
+    "q": "איזה מדחס יש במקרר?",
+    "a": "מדחס Inverter.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Hisense RQ57S",
+   "מקרר הייסנס RQ57S",
+   "מקרר הייסנס 427 ליטר",
+   "מקרר 4 דלתות נירוסטה",
+   "מקרר No Frost אינוורטר",
+   "מקרר הייסנס נירוסטה",
+   "מקרר מקפיא תחתון הייסנס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל נטו",
+   "catalogValue": "427 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "278 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "149 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 181.2 ס\"מ, רוחב 79.4 ס\"מ, עומק 63.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת זרימת אוויר רב מוקדית",
+   "catalogValue": "MULTI AIR FLOW",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פונקציית קירור מהיר",
+   "catalogValue": "פונקציית קירור מהיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית הקפאה מהירה",
+   "catalogValue": "פונקציית הקפאה מהירה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג בקרת טמפרטורה ולחות",
+   "catalogValue": "צג בקרת טמפרטורה ולחות דיגיטלית פנימי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תאורת LED פנימית",
+   "catalogValue": "תאורת LED פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירות נשלפות בתא ההקפאה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "6",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "identity",
+   "issue": "No manufacturer or Israeli importer page was found for RQ57S. All facts come from two Israeli retailer pages, so the importer and warranty are unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog",
+   "issue": "Catalog record lists origin country as not specified. Manufacturer pages did not confirm it.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer or Israeli importer page found for RQ57S; all facts come from two Israeli retailer pages, so importer and warranty are unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog",
+   "issue": "Catalog origin country is not specified and no source confirms it.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts and features verified on two Israeli retailer pages naming RQ57S; specs match the catalog. One No-Frost quote failed but the other is ok. | code guard removed: summary: \"מקרר Hisense RQ57S בגימור נירוסטה עם נפח כולל של 427 ליטר: תא קירור של 278 ליטר ותא הקפאה של 149 ליטר.\"; faq: \"מה הנפח של המקרר Hisense RQ57S?\"; faq: \"מה מידות המקרר?\"; metaDescription: \"מקרר Hisense RQ57S בגימור נירוסטה, נפח 427 ליטר, מדחס Inverter ו-Total No-Frost, תא הקפאה 149 ליטר עם 6 מגירות. בחדד אלקטריק נהריה\"; highlight: \"נפח כולל 427 ליטר\"; consideration: \"למדוד את הנישה: המקרר ברוחב 79.4 ס״מ, גובה 181.2 ס״מ ועומק 63.6 ס״מ, ולהשאיר מרווח לאוורור\"; consideration: \"לוודא שיש מקום לפתיחת הדלתות לפחות ב-90° כדי לשלוף את המגירות במלואן\""
+ }
+}

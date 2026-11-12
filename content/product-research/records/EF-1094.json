@@ -1,0 +1,254 @@
+{
+ "modelNumber": "EF-1094",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sachs (זקש)",
+  "exactModel": "EF-1094",
+  "israeliImporter": "זקש",
+  "matchConfidence": "medium",
+  "notes": "The Israeli retailer listing names the model EF-1094 in its title and body. Price and stock are out of scope. A second listing (cwc.co.il, code RFK-1094P) could not be fetched (HTTP 403) and is not evidence for this model. | QA: Only one Israeli retailer page names Sachs EF-1094, matching the catalog name (16\" retro fan, 50W). No manufacturer or importer page confirms it."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מאוורר-מעוצב-50w-בסגנון-רטרו-16-כולל-חצובה-sachs-9150067441",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שם הדגם",
+     "value": "Sachs EF-1094"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "50 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Depth removed: not in the ok quote.",
+     "label": "מידות (רוחב × גובה)",
+     "value": "44 × 134 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב הבסיס",
+     "value": "73 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך כבל",
+     "value": "1.7 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ראש מצודד ימינה ושמאלה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "עיצוב רטרו המשתלב בחללים מעוצבים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "רגל חצובה מעץ אמיתי"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אורך כבל החשמל 1.7 מטר"
+  }
+ ],
+ "content": {
+  "summary": "מאוורר עמוד מעוצב בסגנון רטרו של Sachs, דגם EF-1094, על רגל חצובה מעץ אמיתי. מתאים למי שמחפש מאוורר עומד שמשתלב בעיצוב הבית.",
+  "highlights": [
+   "ראש מצודד ימינה ושמאלה",
+   "רגל חצובה מעץ אמיתי"
+  ],
+  "goodFor": [
+   "סלון או חדר מעוצב שבו המאוורר נשאר גלוי",
+   "מי שרוצה פיזור אוויר לצדדים בזכות הראש המצודד"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "האם הראש מסתובב?",
+    "a": "כן, הראש מצודד ימינה ושמאלה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מאוורר רטרו",
+   "מאוורר עמוד",
+   "Sachs EF-1094",
+   "מאוורר חצובה מעץ",
+   "מאוורר זקש",
+   "מאוורר עומד מעוצב",
+   "EF-1094"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר",
+   "catalogValue": "מאוורר עמוד 16' רטרו 50 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "50 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Zaks",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "44 × 134 × 44 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Only one retailer page (bug.co.il) was fetched for EF-1094, so every fact has a single source and goes to review. No manufacturer, importer, manual or EPREL page naming EF-1094 was found. The cwc.co.il listing (code RFK-1094P) returned HTTP 403 and is not evidence for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "depth",
+   "issue": "The depth line on the retailer page contains a hidden character, so the depth quote was left out. The combined dimensions row relies on the height and width quote, and depth 44 cm is not separately verified.",
+   "severity": "low"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The importer is inferred from the retailer's 'יבואן רשמי' label and the warranty line naming זקש. No importer page confirmed it.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts come from a single Israeli retailer page; no manufacturer or importer page confirms the specs.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Depth is not verified; base width 73 cm is larger than the listed width 44 cm, worth checking against the unit.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is 'Zaks' while the source names the brand Sachs (importer זקש); confirm the brand display.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 3: depth 44 cm is not in the ok quote (only height 134 and width 44), so the dimensions row was narrowed to width × height. All other facts kept from the single bug.co.il page that names EF-1094. | code guard removed: summary: \"המאוורר בהספק 50 W, עם 3 מהירויות וראש מצודד ימינה ושמאלה.\"; faq: \"מה ההספק של המאוורר?\"; faq: \"כמה מהירויות יש למאוורר?\"; faq: \"מה אורך כבל החשמל?\"; metaDescription: \"מאוורר עמוד רטרו Sachs EF-1094 על חצובת עץ, הספק 50 W ו-3 מהירויות עם ראש מצודד. פרטים והזמנה בחדד אלקטריק נהריה\"; highlight: \"הספק 50 W\"; highlight: \"3 מהירויות לבחירה\"; highlight: \"גובה 134 ס״מ\"; goodFor: \"התאמת עוצמת הרוח לפי הצורך עם 3 מהירויות\"; consideration: \"רוחב הבסיס 73 ס״מ, כדאי לוודא שיש מספיק שטח רצפה פנוי\"; consideration: \"אורך הכבל 1.7 מטר, כדאי לבדוק מרחק לשקע החשמל\"; consideration: \"גובה המאוורר 134 ס״מ, כדאי לבדוק שהמיקום מתאים\""
+ }
+}

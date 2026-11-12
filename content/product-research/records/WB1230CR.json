@@ -1,0 +1,348 @@
+{
+ "modelNumber": "WB1230CR",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "WB1230CR",
+  "israeliImporter": "אלקטרה סחר",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בדף הקטגוריה של סאוטר ישראל ובשני אתרי קמעונאים. לא נמצאו מידות, משקל או הספק בדפים שנבדקו. | QA: הדגם WB1230CR מופיע בדף הקטגוריה של סאוטר ישראל ובשני קמעונאים ישראליים, בצבע קרם ובנפח 6.8 ליטר התואם לשם בקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%99%D7%97%D7%9D-%D7%A9%D7%91%D7%AA-%D7%A7%D7%A8%D7%9D-%D7%9E%D7%9B%D7%A1%D7%94-%D7%A9%D7%98%D7%95%D7%97-6-8-%D7%9C%D7%99%D7%98%D7%A8-sauter-%D7%A1%D7%90%D7%95%D7%98%D7%A8-%D7%93%D7%92%D7%9D/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ch-ch.co.il/items/8571849-%D7%9E%D7%99%D7%97%D7%9D-%D7%A9%D7%91%D7%AA-%D7%A7%D7%A8%D7%9D-%D7%9E%D7%94%D7%93%D7%A8%D7%99%D7%9F-%D7%A4%D7%98%D7%95%D7%A8-%D7%9E%D7%98%D7%91%D7%99%D7%9C%D7%94-%D7%93%D7%92%D7%9D-WB1230CR-%D7%9E%D7%91%D7%99%D7%AA-Sauter",
+   "publisher": "CH-CH",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://sauter.co.il/product-category/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D-%D7%A7%D7%98%D7%A0%D7%99%D7%9D-%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%9E%D7%99%D7%97%D7%9E%D7%99%D7%9D/",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "6.8 ליטר (כ-30 כוסות)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "קרם"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "נסתר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "מצב הרתחה / מצב שבת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "מקור קמעונאי אחד",
+     "label": "אחריות",
+     "value": "שנה, יבואן רשמי אלקטרה סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מכסה שטוח המיועד לחימום מוצרים מעל המיחם"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ברז בעל פעולה כפולה למזיגה רציפה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון הגנה מובנה כשנגמרים המים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מכסה שטוח ננעל בטיחותי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מדיד מים חיצוני"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כשרות מהודרת של משמרות השבת"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פטור מטבילה והגעלה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיחם שבת של Sauter בדגם WB1230CR, בנפח 6.8 ליטר (כ-30 כוסות), עם גוף נירוסטה בצבע קרם וגוף חימום נסתר. יש לו מצב הרתחה ומצב שבת, ברז בעל פעולה כפולה למזיגה רציפה ומכסה שטוח ננעל שמיועד גם לחימום מוצרים מעליו. מתאים למשפחות שמחפשות מיחם לשבת עם כשרות מהודרת של משמרות השבת.",
+  "highlights": [
+   "נפח 6.8 ליטר (כ-30 כוסות)",
+   "מצב הרתחה ומצב שבת",
+   "ברז בעל פעולה כפולה למזיגה רציפה",
+   "גוף חימום נסתר וגוף נירוסטה בצבע קרם",
+   "כשרות מהודרת של משמרות השבת, פטור מטבילה והגעלה"
+  ],
+  "goodFor": [
+   "שימוש בשבת ובחגים, עם מצב שבת וכשרות של משמרות השבת",
+   "חימום מוצרים על המכסה השטוח מעל המיחם",
+   "מי שמעדיף ניקוי קל בזכות גוף חימום נסתר"
+  ],
+  "considerations": [
+   "ודאו שנפח של 6.8 ליטר מתאים לכמות השתייה החמה בבית",
+   "לא פורסמו מידות והספק בדפים שנבדקו, כדאי לבדוק את המקום על השיש",
+   "בדקו את מדיד המים החיצוני לפני כניסת השבת כדי לוודא שיש מספיק מים"
+  ],
+  "faq": [
+   {
+    "q": "כמה כוסות מכיל המיחם?",
+    "a": "נפח המיחם 6.8 ליטר, כ-30 כוסות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש למיחם מצב שבת?",
+    "a": "כן, יש מצב הרתחה ומצב שבת, והמיחם בעל כשרות מהודרת של משמרות השבת.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך להטביל את המיחם?",
+    "a": "המיחם פטור מטבילה והגעלה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המיחם?",
+    "a": "שנה אחריות יבואן רשמי אלקטרה סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיחם שבת Sauter WB1230CR בצבע קרם, נפח 6.8 ליטר (כ-30 כוסות), מצב שבת וגוף חימום נסתר, פטור מטבילה והגעלה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיחם שבת סאוטר",
+   "Sauter WB1230CR",
+   "מיחם 30 כוסות",
+   "מיחם שבת קרם",
+   "מיחם 6.8 ליטר",
+   "מיחם פטור מטבילה",
+   "מיחם משמרות השבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "6.8 ליטר (כ-30 כוסות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "קרם",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "נירוסטה בצבע קרם מט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכסה",
+   "catalogValue": "שטוח ננעל בטיחותי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב הרתחה / מצב שבת",
+   "catalogValue": "מצב הרתחה / מצב שבת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברז",
+   "catalogValue": "ברז בעל פעולה כפולה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנגנון הגנה",
+   "catalogValue": "מנגנון הגנה מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כשרות",
+   "catalogValue": "כשרות מהודרת של משמרות השבת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פטור מטבילה",
+   "catalogValue": "פטור מטבילה והגעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "לא נמצאו מידות, משקל או הספק בדפים שנבדקו. יש להשלים מדף היצרן או ממדריך למשתמש.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף מפרט רשמי של היצרן או מדריך למשתמש לדגם. רוב העובדות מדפי קמעונאים, וחלקן מופיעות באתר אחד בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "לא נמצאו מידות, משקל או הספק במקורות. יש להשלים ממדריך או מדף היצרן.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "כל העובדות והתכונות מאומתות בציטוטים תקינים מדפים שמציינים את הדגם WB1230CR. אין מידות, משקל או הספק."
+ }
+}

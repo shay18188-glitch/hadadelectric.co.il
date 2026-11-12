@@ -1,0 +1,292 @@
+{
+ "modelNumber": "ATL-8040",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-8040",
+  "israeliImporter": "יוסף חיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "מכונת קוביות קרח ניידת בגוון לבן שנהב. נמצאו דפי היצרן וקמעונאי אחד שמזכירים את הדגם המדויק. לא נמצאו נתוני מתח, הספק או משקל באף דף. | QA: Manufacturer page (Gold Line Israel) and an Israeli retailer both name ATL-8040, white, 12 kg per 24 hours, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%A7%D7%95%D7%91%D7%99%D7%95%D7%AA-%D7%A7%D7%A8%D7%97-bullet-shape-ice-cube-maker-2/",
+   "publisher": "Gold Line Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://refaeli.co.il/items/6108079-ATL-8040",
+   "publisher": "Refaeli",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-8040"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Order matches quote: W 21.4, H 29.9, D 28.3.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "21.4 × 29.9 × 28.3 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת ייצור יומית",
+     "value": "עד 12 ק״ג ב-24 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer quote; researcher reported a retailer saying 8 but provided no quote.",
+     "label": "קוביות בכל מחזור",
+     "value": "כ-9 קוביות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן שנהב"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י היבואן הרשמי יוסף חיים בע״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נייד וקל להעברה, ללא צורך בחיבור ישיר למי הברז"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה שקוף לשמירה על הקוביות המוכנות ולצפייה בתהליך ההכנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Added full-bin alert from same quote.",
+   "text": "מנגנון בקרה שמתריע על חוסר מים במיכל או על מיכל קוביות קרח מלא"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קומפרסור קירור שקט שאינו דורש תחזוקה תקופתית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סל נשלף להוצאת קוביות הקרח וכף מותאמת למילוי קרח"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed tap-independence clause not in this quote (covered by feature 0).",
+   "text": "מיכל מים עם גישה נוחה למילוי חוזר"
+  }
+ ],
+ "content": {
+  "summary": "מכונת קוביות קרח ניידת של Gold Line, דגם ATL-8040, בגוון לבן שנהב. המכונה מייצרת עד 12 ק״ג קרח ב-24 שעות, כ-9 קוביות בכל מחזור, ועובדת ממיכל מים פנימי ללא חיבור לברז. מתאימה למי שרוצה קרח זמין על השיש בבית, במשרד או באירוח.",
+  "highlights": [
+   "עד 12 ק״ג קוביות קרח ב-24 שעות",
+   "כ-9 קוביות בכל מחזור",
+   "ניידת, ללא חיבור ישיר למי הברז",
+   "התראה על חוסר מים או מיכל קרח מלא",
+   "מידות 21.4 × 29.9 × 28.3 ס״מ (רוחב × גובה × עומק)"
+  ],
+  "goodFor": [
+   "אירוח ומסיבות בבית, כשצריך קרח זמין לאורך היום",
+   "מטבח או משרד בלי נקודת מים קרובה, כי המכונה עובדת ממיכל מים",
+   "העברה בין חדרים או לבית נופש, בזכות המבנה הנייד"
+  ],
+  "considerations": [
+   "לוודא מקום פנוי על השיש לפי המידות 21.4 × 29.9 × 28.3 ס״מ, כולל מרווח לפתיחת המכסה",
+   "צריך שקע חשמל סמוך למקום ההצבה",
+   "את מיכל המים ממלאים ידנית, ולכן כדאי להציב את המכונה במקום נוח למילוי חוזר"
+  ],
+  "faq": [
+   {
+    "q": "כמה קרח המכונה מייצרת ביום?",
+    "a": "עד 12 ק״ג קוביות קרח ב-24 שעות עבודה, כ-9 קוביות בכל מחזור.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך לחבר את המכונה לברז?",
+    "a": "לא. המכונה עובדת ממיכל מים פנימי שממלאים ידנית, ולכן אפשר להעביר אותה ממקום למקום.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שנגמרו המים?",
+    "a": "מנגנון הבקרה מתריע כשאין מספיק מים במיכל וכשמיכל קוביות הקרח מלא.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "אחריות לשנה ע״י היבואן הרשמי יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קוביות קרח ניידת Gold Line ATL-8040 בצבע לבן: עד 12 ק״ג קרח ב-24 שעות וכ-9 קוביות במחזור, ללא חיבור לברז. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת קרח",
+   "מכונת קוביות קרח",
+   "מכונת קרח ניידת",
+   "גולדליין מכונת קרח",
+   "Gold Line ATL-8040",
+   "ATL-8040",
+   "מכשיר קרח לבית",
+   "מכונת קרח 12 ק״ג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם / קיבולת",
+   "catalogValue": "12 ק\"ג ביממה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מודל",
+   "catalogValue": "ATL-8040",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קוביות בכל מחזור",
+   "issue": "היצרן מציין כ-9 קוביות בכל מחזור, ואילו קמעונאי אחד מציין כ-8 קוביות. לוודא מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "לא נמצא משקל המכשיר באף דף מקור. לא נרשם.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח והספק",
+   "issue": "לא נמצאו מתח (V) והספק (W) באף דף מקור. לא נרשמו.",
+   "severity": "low"
+  },
+  {
+   "field": "קוביות בכל מחזור",
+   "issue": "לפי החוקר, קמעונאי אחד מציין כ-8 קוביות לעומת כ-9 אצל היצרן; לא סופק ציטוט לכך. לוודא מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח, הספק ומשקל",
+   "issue": "לא נמצאו מתח, הספק ומשקל באף מקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Installation item reworded to what its own quote says (tap-independence comes from feature 0, not this quote). Feature 2 extended to include the full-bin alert stated in the same quote. All facts kept."
+ }
+}

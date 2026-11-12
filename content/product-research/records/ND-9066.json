@@ -1,0 +1,404 @@
+{
+ "modelNumber": "ND-9066",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND-9066",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "BUG and Zap both name ND-9066 as a 9 kg heat pump dryer. BUG says warranty is per a certificate issued by Clinton, but no importer page was read. No Normande Israel product page could be read. | QA: BUG and Zap both name Normande ND-9066 as a 9 kg heat pump dryer, matching the catalog. Warranty per BUG is through Clinton; importer not confirmed from an importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-9-%D7%A7%D7%92-%D7%9B%D7%95%D7%9C%D7%9C-%D7%9E%D7%A9%D7%90%D7%91%D7%AA-%D7%97%D7%95%D7%9D-normande-92423651",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-drayer&db136277=136279",
+   "publisher": "Zap (זאפ) השוואת מחירים",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת ייבוש",
+     "value": "משאבת חום (Heat Pump)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משך מחזור תקן",
+     "value": "4:10 שעות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת חשמל ל-100 מחזורי ייבוש",
+     "value": "147 kWh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קטגוריית יעילות עיבוי",
+     "value": "C (82%)"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "66 dB"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "15"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "השהיית הפעלה",
+     "value": "עד 24 שעות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "פאנל הפעלה",
+     "value": "בעברית, תצוגת LED וכפתורי מגע"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote says dimensions are without the door",
+     "label": "מידות ללא דלת (רוחב × גובה × עומק)",
+     "value": "59.5 × 85 × 55.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "45 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת אחריות של קלינטון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ייבוש במשאבת חום הממחזרת את האוויר החם במקום להוציאו החוצה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Retailer marketing comparison, not a measurable model spec",
+   "text": "חוסכת עד 50% בצריכת החשמל בהשוואה למייבש קונבנציונלי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "15 תוכניות ייבוש, כולל Baby Care, Sports ו-Refresh"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מייבש כביסה Normande ND-9066 בקיבולת 9 ק״ג, הפועל בטכנולוגיית משאבת חום הממחזרת את האוויר החם במקום להוציאו החוצה.",
+  "highlights": [
+   "קיבולת ייבוש 9 ק״ג",
+   "משאבת חום (Heat Pump) – ללא פליטת אוויר חם החוצה",
+   "פאנל הפעלה בעברית עם תצוגת LED וכפתורי מגע"
+  ],
+  "goodFor": [
+   "בית שבו כמות הכביסה מצדיקה מייבש בקיבולת 9 ק״ג",
+   "חדר כביסה או מרפסת סגורה ללא פתח ליציאת אוויר, בזכות משאבת חום הממחזרת את האוויר",
+   "משפחה עם תינוקות או ביגוד ספורט, בזכות תוכניות Baby Care ו-Sports"
+  ],
+  "considerations": [
+   "האחריות לשנה בכפוף לתעודת אחריות של קלינטון"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של מייבש Normande ND-9066?",
+    "a": "קיבולת הייבוש היא 9 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך פתח ליציאת אוויר?",
+    "a": "המייבש פועל במשאבת חום הממחזרת את האוויר החם במקום להוציאו החוצה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מייבש כביסה נורמנדה",
+   "Normande ND-9066",
+   "ND-9066",
+   "מייבש כביסה היט פאמפ 9 קג",
+   "מייבש כביסה משאבת חום",
+   "מייבש כביסה 9 קג",
+   "מייבש כביסה נורמנדה 9 קג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת ייבוש",
+   "catalogValue": "משאבת חום (Heat Pump)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "66 dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "15",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "השהיית הפעלה",
+   "catalogValue": "עד 24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פאנל הפעלה",
+   "catalogValue": "פאנל הפעלה בעברית עם תצוגת LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות ייעודיות",
+   "catalogValue": "Baby Care, Sports, Refresh",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "origin_country",
+   "issue": "הקטלוג מציין סין כארץ ייצור, אך אף דף שנקרא אינו מציין ארץ ייצור לדגם",
+   "severity": "low"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "האחריות מטופלת דרך קלינטון לפי דף BUG, אך לא נמצא דף יבואן שמאשר את היבואן הרשמי",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף מותג נורמנדה ישראל או תווית EPREL לדגם; רוב העובדות מבוססות על קמעונאים בלבד",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "האחריות מטופלת דרך קלינטון לפי דף BUG, אך היבואן הרשמי לא אושר מדף יבואן",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "הקטלוג מציין סין כארץ ייצור, אך אף מקור שנקרא אינו מציין זאת",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "כל העובדות מבוססות על קמעונאים בלבד; לא נקרא דף יצרן או תווית אנרגיה לדגם",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions label corrected to say they are measured without the door, as the quote states. Feature 1 (up to 50% saving vs. a conventional dryer) rejected as a retailer marketing comparison, not a model spec. Zap source relabelled as retailer (price comparison listing). | code guard removed: summary: \"הדגם בדירוג אנרגטי E, עם צריכת חשמל של 147 kWh ל-100 מחזורי ייבוש ורמת רעש של 66 dB.\"; summary: \"מתאים למי שמחפש מייבש היט פאמפ עם 15 תוכניות ופאנל הפעלה בעברית.\"; faq: \"כמה חשמל המייבש צורך?\"; faq: \"כמה זמן נמשך מחזור ייבוש?\"; faq: \"מה מידות המייבש?\"; metaDescription: \"מייבש כביסה היט פאמפ Normande ND-9066 בקיבולת 9 ק״ג עם 15 תוכניות ייבוש ופאנל בעברית. לרכישה ולייעוץ בחדד אלקטריק נהריה\"; highlight: \"15 תוכניות, כולל Baby Care, Sports ו-Refresh\"; highlight: \"השהיית הפעלה עד 24 שעות\"; goodFor: \"מי שרוצה לתזמן ייבוש מראש בעזרת השהיית הפעלה עד 24 שעות\"; consideration: \"יש לוודא שהנישה מתאימה למידות 59.5 × 85 × 55.5 ס״מ (ללא דלת) ולהשאיר מקום לפתיחת הדלת\"; consideration: \"משך מחזור התקן הוא 4:10 שעות – כדאי לקחת זאת בחשבון בתכנון הכביסה\"; consideration: \"רמת הרעש היא 66 dB – שווה לשקול את מיקום המייבש ביחס לחדרי שינה\"; consideration: \"משקל המייבש 45 ק״ג – אם מתכננים להציב אותו מעל מכונת כביסה יש לוודא ערכת חיבור מתאימה\""
+ }
+}

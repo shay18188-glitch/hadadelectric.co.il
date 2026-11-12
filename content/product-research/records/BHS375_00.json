@@ -1,0 +1,273 @@
+{
+ "modelNumber": "BHS375/00",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "BHS375/00",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Facts from Philips spec sheet PDF (2025) naming BHS375/00; Israeli page spec table not in fetched text. | QA: Philips spec sheet and Philips ZA product page both name BHS375/00; specs match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://acc.documents.philips.com/assets/20250319/c2a44f08f7914ad7be90b2a5010f6cd9.pdf",
+   "publisher": "Philips",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.philips.co.za/c-p/BHS375_00/straightcare-essential-thermoprotect-straightener",
+   "publisher": "Philips South Africa",
+   "kind": "manufacturer",
+   "market": "ZA",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "110-240 V"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל",
+     "value": "1.8 מ׳"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן חימום",
+     "value": "60 שניות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טמפרטורות עבודה",
+     "value": "180°C / 220°C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בקרת טמפרטורה",
+     "value": "מתג"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גודל לוחות",
+     "value": "28 × 100 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר הלוחות",
+     "value": "קרמיקה מועשרת בקרטין"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Warranty from South African page; Israeli warranty terms not verified.",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כבל מסתובב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נעילת לוחות לאחסון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נורית חיווי מוכן לשימוש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מחליק שיער של Philips מדגם BHS375/00 עם לוחות קרמיקה מועשרים בקרטין בגודל 28 × 100 מ״מ. המכשיר מציע שתי טמפרטורות עבודה, 180°C ו-220°C, הנבחרות במתג, ומתחמם תוך 60 שניות. מתאים למי שמחפש מחליק פשוט לשימוש יומיומי בבית.",
+  "highlights": [
+   "לוחות קרמיקה מועשרים בקרטין",
+   "שתי טמפרטורות: 180°C / 220°C",
+   "זמן חימום של 60 שניות",
+   "כבל מסתובב באורך 1.8 מ׳",
+   "נעילת לוחות לאחסון"
+  ],
+  "goodFor": [
+   "החלקה מהירה בבוקר, עם זמן חימום של 60 שניות",
+   "מי שמעדיף בחירת טמפרטורה פשוטה במתג בין 180°C ל-220°C",
+   "נסיעות לחו״ל, הודות לתמיכה במתח 110-240 V",
+   "אחסון נוח במגירה בזכות נעילת הלוחות"
+  ],
+  "considerations": [
+   "לשיער דק או רגיש כדאי להתחיל בטמפרטורה הנמוכה של 180°C",
+   "אורך הכבל 1.8 מ׳ – כדאי לוודא שיש שקע קרוב לעמדת הסטיילינג",
+   "רוחב הלוחות 28 מ״מ – כדאי לבדוק שמתאים לאורך ולעובי השיער"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן לוקח למחליק להתחמם?",
+    "a": "לפי היצרן, זמן החימום הוא 60 שניות, ונורית חיווי מראה מתי המכשיר מוכן לשימוש.",
+    "sources": []
+   },
+   {
+    "q": "אילו טמפרטורות אפשר לבחור?",
+    "a": "יש שתי טמפרטורות, 180°C ו-220°C, הנבחרות באמצעות מתג.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויים הלוחות?",
+    "a": "הלוחות עשויים קרמיקה מועשרת בקרטין, בגודל 28 × 100 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בו בחו״ל?",
+    "a": "המכשיר תומך במתח 110-240 V; ייתכן שיידרש מתאם לשקע המקומי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מחליק שיער Philips BHS375/00 עם לוחות קרמיקה מועשרים בקרטין, שתי טמפרטורות 180°C/220°C וחימום ב-60 שניות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מחליק שיער פיליפס",
+   "Philips BHS375/00",
+   "BHS375",
+   "מחליק שיער ThermoProtect",
+   "מחליק שיער קרמי עם קרטין",
+   "מחליק שיער 220 מעלות",
+   "פיליפס StraightCare Essential"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "Temperature settings",
+   "catalogValue": "2 (180°C / 220°C)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Plate size",
+   "catalogValue": "28 x 100 mm",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Heat-up time",
+   "catalogValue": "60 sec",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Voltage",
+   "catalogValue": "110-240 V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Cord length",
+   "catalogValue": "1.8 m",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "Warranty only found on the South African Philips page; confirm Israeli importer warranty terms.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 7): the 2-year figure comes from the South African Philips page and is market-specific; Israeli importer warranty may differ."
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "modelNumber": "ATL-616",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-616",
+  "israeliImporter": "יוסף חיים יבוא ושיווק בע״מ",
+  "matchConfidence": "high",
+  "notes": "Listed as ATL-616 / PRO1200 on the importer site. Sibling model ATL-614 is a different product and was not used. | QA: Importer and Israeli retailers name ATL-616 / PRO1200; catalog name 800-1200 W matches the 800 W / ~1200 W locked description."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/%D7%9E%D7%A1%D7%97%D7%98%D7%95%D7%AA/",
+   "publisher": "Gold Line Israel (importer)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מסחטת-גזר-ופירות-קשים-gold-line-954616736",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-squeezer&db137177=223862&db148468=148469",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Gold Line"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Conflicts with 800 W nominal / ~1200 W locked on the same page",
+     "label": "הספק",
+     "value": "1200 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "800 W (כ-1200 W בנעילה)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מהירות סיבוב",
+     "value": "6000-12000 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל מיץ",
+     "value": "1 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל פסולת",
+     "value": "2.2 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שני מיכלים נשלפים להפרדה אוטומטית של המיץ והפסולת"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Quote gives 80 with no unit and does not mention a whole apple; number and apple claim dropped",
+   "text": "פתח הזנה רחב בגודל XXL"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה למי שסוחט גזר, תפוחים ופירות קשים בבית.",
+  "highlights": [
+   "פתח הזנה רחב בגודל XXL",
+   "אחריות לשנה"
+  ],
+  "goodFor": [
+   "סחיטת גזר ופירות קשים בבית",
+   "מי שמעדיף להכניס חתיכות גדולות דרך פתח הזנה רחב"
+  ],
+  "considerations": [
+   "כדאי לוודא מקום על השיש ושקע חשמל קרוב"
+  ],
+  "faq": [
+   {
+    "q": "האם הפסולת נפרדת מהמיץ?",
+    "a": "כן, יש שני מיכלים נשלפים שמפרידים אוטומטית בין המיץ לפסולת.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המסחטה?",
+    "a": "אחריות לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מסחטת גזר",
+   "מסחטת פירות קשים",
+   "Gold Line ATL-616",
+   "גולד ליין מסחטה",
+   "PRO1200 גולד ליין",
+   "מסחטה 1200W",
+   "מסחטת מיצים לבית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר (800-1200 וואט)",
+   "catalogValue": "מסחטת פירות קשים וגזר 800 -1200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "performance",
+   "issue": "Sources conflict on the power: Bug and the Zap title say 1200W, while Bug and Zap descriptions give 800W with about 1200W when locked. The catalog name's 800-1200 range fits the description.",
+   "severity": "medium"
+  },
+  {
+   "field": "capacity",
+   "issue": "Waste container 2.2 L and juice container 1 L appear only on Bug, a retailer page. Needs a second source.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer spec sheet or manual was found. Facts rest on retailer listings and the importer's product title.",
+   "severity": "low"
+  },
+  {
+   "field": "performance",
+   "issue": "Power stated as 1200W in some listings and 800W nominal (~1200W locked) in descriptions; published as 800 W with ~1200 W locked.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer spec sheet or manual; capacities and RPM rest on a single Israeli retailer page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 1 (1200 W) marked conflict: the same Bug page gives 800 W with about 1200 W when locked; fact 2 kept as the power figure under label הספק. Feature 1: dropped the unit (mm) and the whole-apple claim, neither is in the quote. | code guard removed: summary: \"מסחטת גזר ופירות קשים של Gold Line, דגם ATL-616 (PRO1200), בהספק 800 W וכ-1200 W בנעילה.\"; summary: \"המסחטה כוללת מיכל מיץ בנפח 1 ליטר ומיכל פסולת נשלף בנפח 2.2 ליטר, ופתח הזנה רחב בגודל XXL.\"; faq: \"מה ההספק של מסחטת Gold Line ATL-616?\"; faq: \"מה נפח המיכלים?\"; metaDescription: \"מסחטת גזר ופירות קשים Gold Line ATL-616, הספק 800 W (כ-1200 W בנעילה), מיכל פסולת 2.2 ליטר ופתח הזנה XXL. בחדד אלקטריק נהריה\"; highlight: \"הספק 800 W, כ-1200 W בנעילה\"; highlight: \"מהירות סיבוב 6000-12000 סל״ד\"; highlight: \"מיכל מיץ 1 ליטר ומיכל פסולת 2.2 ליטר\"; goodFor: \"הכנת כמה כוסות מיץ ברצף בזכות מיכל פסולת בנפח 2.2 ליטר\"; consideration: \"מדובר במסחטה צנטריפוגלית מהירה (6000-12000 סל״ד) ולא במסחטה איטית\"; consideration: \"מיכל המיץ בנפח 1 ליטר – לכמויות גדולות יותר יש לרוקן במהלך העבודה\""
+ }
+}

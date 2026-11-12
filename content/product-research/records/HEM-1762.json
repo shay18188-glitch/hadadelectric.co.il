@@ -1,0 +1,421 @@
+{
+ "modelNumber": "HEM-1762",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-1762",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The brand's Israeli site names HEM-1762 in its title and lists המילטון חשמל ואלקטרוניקה as the official importer. Product dimensions, operating voltage and cord details were not found on any fetched page. | QA: Hemilton Israel page names HEM-1762; Israeli retailers name the same model and 1.7 ליטר glass kettle."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem1762",
+   "publisher": "Hemilton Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/קומקום-זכוכית-17-ליטר-hemilton-9060176285",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1020035",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "זכוכית עמידה לכתמים וחסינת חום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "נסתר, מנירוסטה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תאורה פנימית",
+     "value": "LED כחולה בעת רתיחה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בסיס",
+     "value": "אלחוטי, 360 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגנות",
+     "value": "מפני התחממות יתר והפעלה ללא מים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כיבוי אוטומטי לאחר רתיחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית אחיזה ארגונומית ונוחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מד מים חיצוני"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאורת LED כחולה פנימית המוארת בעת רתיחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בסיס אלחוטי 360 מעלות לשימוש נוח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מסנן הניתן לפירוק וניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הגנה מפני התחממות יתר והפעלה ללא מים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי מזכוכית חסינת חום של Hemilton, דגם HEM-1762, בנפח 1.7 ליטר ובהספק 2000 W. גוף החימום נסתר ועשוי נירוסטה, והקומקום יושב על בסיס אלחוטי 360 מעלות. מתאים למי שמחפש קומקום שקוף עם תאורת LED כחולה, כיבוי אוטומטי והגנה מפני הפעלה ללא מים.",
+  "highlights": [
+   "נפח 1.7 ליטר",
+   "הספק 2000 W",
+   "גוף חימום נסתר מנירוסטה",
+   "בסיס אלחוטי 360 מעלות",
+   "הגנה מפני התחממות יתר והפעלה ללא מים"
+  ],
+  "goodFor": [
+   "מטבח ביתי שבו מרתיחים מים כמה פעמים ביום, בזכות נפח של 1.7 ליטר",
+   "מי שמעדיף קומקום זכוכית שקוף שמאפשר לראות את המים ואת תאורת ה-LED בזמן הרתיחה",
+   "שימוש נוח לשמאליים וימניים כאחד, הודות לבסיס אלחוטי 360 מעלות"
+  ],
+  "considerations": [
+   "הספק 2000 W: כדאי לחבר לשקע שאינו עמוס במכשירים חזקים נוספים",
+   "גוף הקומקום מזכוכית: יש לטפל בו בזהירות בעת ניקוי והנחה על הבסיס",
+   "המסנן ניתן לפירוק וניקוי – מומלץ לנקות אותו מדי פעם, במיוחד באזורים עם מים קשים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של הקומקום?",
+    "a": "הנפח הוא 1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי לאחר רתיחה, וגם הגנה מפני התחממות יתר והפעלה ללא מים.",
+    "sources": []
+   },
+   {
+    "q": "האם גוף החימום חשוף?",
+    "a": "לא, גוף החימום נסתר ועשוי נירוסטה, מה שמקל על הניקוי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "האחריות היא 12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי זכוכית Hemilton HEM-1762 בנפח 1.7 ליטר והספק 2000 W, עם גוף חימום נסתר ובסיס אלחוטי 360 מעלות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי זכוכית",
+   "Hemilton HEM-1762",
+   "קומקום המילטון",
+   "קומקום זכוכית 1.7 ליטר",
+   "קומקום עם תאורת LED",
+   "קומקום חשמלי 2000W",
+   "קומקום גוף חימום נסתר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1850-2200W",
+   "finding": "contradicted",
+   "correctValue": "2000 W",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חומר גוף הקומקום",
+   "catalogValue": "זכוכית בורוסיליקט עמידה בחום בשילוב פלדת אל-חלד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח פעולה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גוף חימום",
+   "catalogValue": "נסתר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "360 מעלות המאפשר הנחה ושליפה נוחה מכל כיוון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון הגנה מפני הפעלה ללא מים",
+   "catalogValue": "Boil-dry protection",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כיבוי אוטומטי",
+   "catalogValue": "מנגנון כיבוי אוטומטי עם הגעה לנקודת הרתיחה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורת LED",
+   "catalogValue": "תאורת LED פנימית כחולה המאירה את המים בזמן ההפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "פילטר נשלף ורחיץ לסינון ראשוני",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכסה בטיחותי",
+   "catalogValue": "מכסה בטיחותי עם לחצן פתיחה",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחסון כבל",
+   "catalogValue": "מקום לאחסון הכבל בתחתית הבסיס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית אחיזה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "ידית אחיזה ארגונומית ונוחה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "color",
+   "issue": "The manufacturer page gives the finish only as glass, while LastPrice lists the finish as black and a retailer listing names a black glass kettle with the code HHB1787. The colour variant is unclear.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "A retailer listing pairs HEM-1762 with a second code, HHB1787. Confirm which code the store sells.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Product dimensions, weight, operating voltage and cord length were not found on any fetched page. LastPrice gives only packaging dimensions and packaging weight, which are not product figures.",
+   "severity": "low"
+  },
+  {
+   "field": "חומר גוף הקומקום",
+   "issue": "The catalog's borosilicate glass and stainless-steel body claims were not found on any page. The manufacturer page says only glass, with a hidden stainless-steel heater.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog lists power as 1850-2200W; manufacturer and Bug state 2000W.",
+   "severity": "medium"
+  },
+  {
+   "field": "חומר גוף הקומקום",
+   "issue": "Catalog claims borosilicate glass with stainless steel; manufacturer says only glass with hidden stainless-steel heater.",
+   "severity": "medium"
+  },
+  {
+   "field": "color",
+   "issue": "Colour variant unclear: LastPrice lists black finish, and a retailer pairs a black glass kettle with code HHB1787.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "A retailer listing pairs HEM-1762 with a second code HHB1787; confirm which code the store sells.",
+   "severity": "low"
+  },
+  {
+   "field": "מכסה בטיחותי / אחסון כבל",
+   "issue": "Catalog claims for safety lid button and cord storage, and voltage 220-240V, were not found on any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features verified on the Hemilton Israel page (and Bug for several). Corrected source kinds of Zap, WiseBuy and LastPrice to il-retailer. Catalog power range 1850-2200W is contradicted by the stated 2000W."
+ }
+}

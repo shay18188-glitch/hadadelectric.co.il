@@ -1,0 +1,168 @@
+{
+ "modelNumber": "RT-110B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "RichTech",
+  "exactModel": "RT-110B",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only one retailer page (soundbeat) found naming the exact model; no manufacturer page located. | QA: Single Israeli retailer page names RT-110B and its specs match the catalog (Bluetooth V3.0, 2X3W RMS, 5-10 hours, 150x120x90 mm), but there is no manufacturer or importer confirmation."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://shaibenshabat.wixsite.com/soundbeat/product-page/bluetooth-smart-boombox",
+   "publisher": "Soundbeat",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גרסת Bluetooth",
+     "value": "V 3.0"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עוצמת שמע",
+     "value": "2X3W RMS"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן עבודה רצוף",
+     "value": "5-10 שעות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Axis order not stated on the page; label simplified.",
+     "label": "מידות",
+     "value": "150 × 120 × 90 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Stated by the retailer page; importer not named.",
+     "label": "אחריות",
+     "value": "שנה ע״י היבואן"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש רדיו קטן לשולחן, למטבח או לשימוש נייד.",
+  "highlights": [
+   "אחריות לשנה ע״י היבואן"
+  ],
+  "goodFor": [
+   "האזנה למוזיקה מהטלפון דרך Bluetooth בחדר או במטבח"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה ע״י היבואן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "RichTech RT-110B",
+   "RT-110B",
+   "רדיו Bluetooth",
+   "רדיו FM עם שעון מעורר",
+   "רדיו נייד נטען",
+   "רדיו שולחני עם בלוטוס",
+   "רדיו ריצ'טק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גרסת בלוטוס",
+   "catalogValue": "V 3.0",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת שמע",
+   "catalogValue": "2X3W RMS",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Only a single retailer page found; no manufacturer or importer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only a single small Israeli retailer page confirms the model; no manufacturer or importer page found.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Retailer page URL calls it a 'bluetooth smart boombox'; catalog lists it as an FM radio with alarm clock. FM, alarm clock, USB/SD/AUX and battery details were not in verified facts.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All five facts verified on the single retailer page that names RT-110B. Dimensions label changed to plain 'מידות' because the page does not state the axis order. Identity medium: only one small retailer page (URL slug 'bluetooth-smart-boombox'), no manufacturer or importer source. | code guard removed: summary: \"RichTech RT-110B הוא רדיו נייד קומפקטי עם קישוריות Bluetooth בגרסה V 3.0 להזרמת מוזיקה מהטלפון.\"; summary: \"עוצמת השמע היא 2X3W RMS וזמן העבודה הרצוף הוא 5-10 שעות.\"; faq: \"האם אפשר לחבר את הרדיו לטלפון?\"; faq: \"כמה זמן הוא עובד ברציפות?\"; faq: \"מה גודל המכשיר?\"; metaDescription: \"רדיו נייד RichTech RT-110B עם Bluetooth V 3.0, עוצמת שמע 2X3W RMS וזמן עבודה רצוף של 5-10 שעות. בחדד אלקטריק נהריה\"; highlight: \"Bluetooth בגרסה V 3.0\"; highlight: \"עוצמת שמע 2X3W RMS\"; highlight: \"זמן עבודה רצוף של 5-10 שעות\"; highlight: \"מידות קומפקטיות: 150 × 120 × 90 מ״מ\"; goodFor: \"שימוש נייד בזכות זמן עבודה רצוף של 5-10 שעות\"; goodFor: \"מקום מצומצם על שידה או מדף, בזכות מידות של 150 × 120 × 90 מ״מ\"; consideration: \"עוצמת השמע היא 2X3W RMS – מתאימה להאזנה אישית ולא להגברה בחלל גדול\"; consideration: \"גרסת ה-Bluetooth היא V 3.0, ישנה יחסית – כדאי לוודא תאימות לטלפון שלכם\"; consideration: \"זמן העבודה הרצוף הוא 5-10 שעות, ולכן לשימוש ארוך כדאי לתכנן טעינה\""
+ }
+}

@@ -1,0 +1,220 @@
+{
+  "modelNumber": "ALPHA PRO INVERTER 240NG",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Tadiran (תדיראן)",
+    "exactModel": "ALPHA PRO INVERTER 240NG",
+    "israeliImporter": "תדיראן",
+    "matchConfidence": "high",
+    "notes": "Tadiran's own product page (s1) is for 'מזגן עילי ALPHA PRO INVERTER 240NG', Tadiran SKU 50010019100; retailers write it as 'ALPHA PRO INV 240NG' / 'Alpha Pro Inverter 240 NG'. An older sibling 'ALPHA PRO INV 240N' (Sofer Avi s8, SKU 110TADIAL240) shows the same spec table, but it is a different suffix and is used for nothing here. Zap (s6) names the importer 'תדיראן מוצרי צריכה וטכנולוגיה בע\"מ'; Tadiran sells the model directly on its own site. Tadiran's spec table labels unit dimensions 'עומק/גובה/רוחב' but the values (1017x304x221 indoor, 802X555X350 outdoor) are in width × height × depth order — a 1017 mm deep wall unit is not physically plausible; rows below are written as width × height × depth and flagged. Zabilo (s7) lists 'Timer X4' and 'AIR CARE' that Tadiran's current page does not list (it says Timer X3 and UVC); Tadiran is preferred."
+  },
+  "sources": [
+    { "id": "s1", "url": "https://www.tadiran-group.co.il/product/alpha-pro-inv-240ng/", "publisher": "תדיראן (Tadiran Group) — דף המוצר", "kind": "manufacturer", "market": "IL", "exactModel": true, "accessed": "2026-11-10" },
+    { "id": "s2", "url": "https://www.tadiran-group.co.il/top-ac/alpha-pro/", "publisher": "תדיראן (Tadiran Group) — סדרת ALPHA PRO", "kind": "manufacturer", "market": "IL", "exactModel": true, "accessed": "2026-11-10" },
+    { "id": "s3", "url": "https://www.tadiran-group.co.il/warranty-table-info/", "publisher": "תדיראן (Tadiran Group) — טבלת אחריות נובמבר 2026", "kind": "manufacturer", "market": "IL", "exactModel": false, "accessed": "2026-11-10" },
+    { "id": "s4", "url": "https://www.traklin.co.il/מוצרי_מיזוג_וחימום_לבית/מזגנים/מזגן__tadiran_17740_btu_דגם_alpha_pro_inv_240ng_תדיראן", "publisher": "טרקלין חשמל", "kind": "il-retailer", "market": "IL", "exactModel": true, "accessed": "2026-11-10" },
+    { "id": "s5", "url": "https://www.bettershop.co.il/product/adiran_alpha_pro_inverter_240_2022/", "publisher": "Bettershop", "kind": "il-retailer", "market": "IL", "exactModel": true, "accessed": "2026-11-10" },
+    { "id": "s6", "url": "https://www.zap.co.il/model.aspx?modelid=1225209", "publisher": "זאפ השוואת מחירים", "kind": "il-retailer", "market": "IL", "exactModel": true, "accessed": "2026-11-10" },
+    { "id": "s7", "url": "https://zabilo.com/en/air-conditioners-2-to-275-hp/11653-alpha-pro-inv-240ng.html", "publisher": "Zabilo", "kind": "il-retailer", "market": "IL", "exactModel": true, "accessed": "2026-11-10" },
+    { "id": "s8", "url": "https://www.soferavi.co.il/מוצרים/מזגן-עילי-אינוורטר-תדיראן-alpha-pro-inv-240n/", "publisher": "סופר אבי (דגם 240N — לא הדגם המדויק)", "kind": "il-retailer", "market": "IL", "exactModel": false, "accessed": "2026-11-10" }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        { "label": "דגם", "value": "ALPHA PRO INVERTER 240NG", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "מק״ט יצרן", "value": "50010019100", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "סדרה", "value": "ALPHA PRO", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "סוג מזגן", "value": "מזגן עילי (מפוצל, יחידה פנימית ויחידה חיצונית)", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "טכנולוגיה", "value": "Inverter", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "הספק בכוח סוס", "value": "2 כ״ס", "sources": ["s6", "s7"], "confidence": "medium", "status": "verified", "note": "Tadiran's page does not state HP; Zap and Zabilo both list 2 HP for the exact model" }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        { "label": "מידות (רוחב × גובה × עומק)", "value": "יחידה פנימית: 101.7 × 30.4 × 22.1 ס״מ; יחידה חיצונית: 80.2 × 55.5 × 35 ס״מ", "sources": ["s1", "s4", "s5"], "confidence": "medium", "status": "verified", "note": "Tadiran (s1), Traklin (s4) and Bettershop (s5) print indoor '1017x304x221' and outdoor '802X555X350' mm under the label 'עומק/גובה/רוחב במ\"מ'. Read as width × height × depth: a 1017 mm deep wall unit is not plausible, and in RTL display the label's leftmost word (רוחב) sits over the leftmost number. Zap (s6) gives indoor 1017x304x221 and outdoor 801x555x350; Tadiran's 802 is kept" },
+        { "label": "משקל", "value": "לא פורסם על ידי היצרן", "sources": [], "confidence": "low", "status": "unverified", "note": "No source found states the indoor or outdoor unit weight" }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        { "label": "תפוקת קירור נומינלית", "value": "17,740 BTU/h", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "תפוקת חימום נומינלית", "value": "17,740 BTU/h", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "תפוקת קירור מרבית", "value": "18,770 BTU/h", "sources": ["s6", "s7"], "confidence": "medium", "status": "verified", "note": "Zap spec table '17,740 (18,770)'; Zabilo cooling range 3,410–18,770. Not on Tadiran's page" },
+        { "label": "SEER", "value": "6.6", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "SCOP", "value": "4", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "ספיקת אוויר ביחידה הפנימית", "value": "500 CFM", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "מהירויות מאוורר פנימי", "value": "7", "sources": ["s1", "s4", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "פיזור אוויר", "value": "4D", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "גודל חדר מומלץ", "value": "20–30 מ״ר", "sources": ["s7"], "confidence": "low", "status": "unverified", "note": "Only Zabilo states a room size; Tadiran does not publish one for this model" },
+        { "label": "גז קירור", "value": "לא צוין לדגם", "sources": [], "confidence": "low", "status": "unverified", "note": "No exact-model source states the refrigerant" }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        { "label": "מצבי הפעלה", "value": "AUTO (מעבר אוטומטי בין קירור לחימום), Sleep, ייבוש אוויר, Quiet Function", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "טיימר", "value": "Timer X3 — עד שלושה פרקי זמן הפעלה/כיבוי ב־24 שעות", "sources": ["s1", "s4"], "confidence": "high", "status": "verified", "note": "Zabilo (s7) says Timer X4; manufacturer says X3" },
+        { "label": "I Feel", "value": "התאמת הטמפרטורה לפי מיקום השלט הרחוק", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "Self Dry", "value": "ייבוש עצמי לאחר כיבוי המזגן", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "Auto Restart", "value": "חזרה למצב הפעולה האחרון לאחר הפסקת חשמל", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "פונקציית שבת", "value": "כן — באישור משמרת השבת (בכפוף לאישור בתוקף) ובאישור מכון מדעי טכנולוגי להלכה", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "smart",
+      "rows": [
+        { "label": "WiFi", "value": "מובנה — שליטה מרחוק בטלפון חכם", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "מגע יבש (BMS)", "value": "מובנה — הדלקה וכיבוי במתח נמוך", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "רכיב בית חכם", "value": "אופציונלי בתוספת תשלום — Modbus, תקן RS-485", "sources": ["s1", "s4"], "confidence": "high", "status": "verified", "note": "RS-485 appears only on Tadiran's page (s1); Traklin (s4) mentions the optional Modbus smart-home component without naming RS-485" },
+        { "label": "פיקוד קירי", "value": "אופציונלי בתוספת תשלום", "sources": ["s1", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "גלאי תנועה", "value": "אופציונלי בתוספת תשלום, באספקה נפרדת", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        { "label": "דירוג אנרגטי", "value": "A++ בקירור (כפי שמציין היצרן; הסולם אינו מפורט)", "sources": ["s1", "s2", "s4"], "confidence": "medium", "status": "verified", "note": "Tadiran: 'A++ בקירור' without naming the scale. Zap lists 'A' on the previous (Israeli) scale and 'A++' on the European scale; Zabilo's table says class A" },
+        { "label": "מתח הזנה", "value": "230V / 50Hz / חד־פאזי", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "זרם עבודה בקירור", "value": "8.1A (טווח 3.24–10.0A)", "sources": ["s1"], "confidence": "high", "status": "verified", "note": "s4 and s5 give the range 3.24–10.0 without the nominal 8.1" },
+        { "label": "זרם עבודה בחימום", "value": "6.7A (טווח 2.68–10.5A)", "sources": ["s1"], "confidence": "high", "status": "verified", "note": "s4 and s5 give the range 2.68–10.5 without the nominal 6.7" },
+        { "label": "נתיך", "value": "16C", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "צריכת אנרגיה שנתית", "value": "קירור 276 קוט״ש, חימום 1,435 קוט״ש", "sources": ["s7"], "confidence": "low", "status": "unverified", "note": "Only Zabilo lists annual consumption; no manufacturer or energy-label source found" }
+      ]
+    },
+    {
+      "id": "noise",
+      "rows": [
+        { "label": "רמת רעש", "value": "לא פורסמה בדציבלים", "sources": [], "confidence": "low", "status": "unverified", "note": "Tadiran describes the unit as quiet (7 fan speeds, Quiet Function) but gives no dB figure" }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        { "label": "ציפוי הידרופילי", "value": "ביחידה הפנימית וביחידה החיצונית", "sources": ["s1", "s4"], "confidence": "high", "status": "verified", "note": "Bettershop (s5) mentions the indoor unit only" },
+        { "label": "ניקוי עצמי", "value": "ניקוי עצמי של הסוללה ביחידה", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "טיהור אוויר", "value": "טכנולוגיית UVC", "sources": ["s1"], "confidence": "high", "status": "verified", "note": "Listed on Tadiran's current page; not on the retailer pages" }
+      ]
+    },
+    {
+      "id": "safety",
+      "rows": [
+        { "label": "זיהוי תקלות", "value": "זיהוי אוטומטי של תקלה והתרעה", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "installation",
+      "rows": [
+        { "label": "קוטר צנרת בין היחידות", "value": "1/4״–1/2״", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "כבל בין היחידות", "value": "4 × 1.5 ממ״ר", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        { "label": "אחריות לפי דף המוצר", "value": "שנה ראשונה על פי דין", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "הרחבת אחריות", "value": "עד 5 שנים לסדרת ALPHA PRO (כולל השנה הראשונה), בכפוף להפעלת הרחבת אחריות תוך 60 יום מהרכישה ולתקנון; ללקוחות פרטיים בלבד", "sources": ["s3"], "confidence": "medium", "status": "unverified", "note": "Tadiran's warranty table (Nov 2026) states this for the ALPHA PRO series, not for this model by name. Retailers disagree: Zap mentions 5 and 7 years (seller listings), Bettershop 7 years, Zabilo 5 years on its product page but 7 years in its FAQ. The activation window also conflicts: Tadiran's table and Zabilo say 60 days from purchase, while Traklin (s4) and Bettershop (s5) say 30 days" },
+        { "label": "נותן שירות", "value": "שירות תדיראן", "sources": ["s4", "s5"], "confidence": "medium", "status": "unverified", "note": "QA: downgraded. Only the retailers say the warranty is activated through Tadiran service (1-700-700-946); Tadiran's own product page does not name the service provider, and the warranty group holds only what the importer states" }
+      ]
+    }
+  ],
+  "features": [
+    { "text": "טכנולוגיית Inverter עם דירוג אנרגטי A++ בקירור, SEER 6.6 ו־SCOP 4", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "WiFi מובנה לשליטה במזגן מהטלפון החכם", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "7 מהירויות למאוורר הפנימי ומצב Quiet Function לפעולה שקטה", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "פיזור אוויר 4D לפיזור אחיד בחלל החדר", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "Timer X3 — הפעלה וכיבוי אוטומטיים בעד שלושה פרקי זמן ביממה", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "מצבי AUTO, Sleep, I Feel וייבוש אוויר", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "Self Dry וניקוי עצמי של הסוללה למניעת עובש וריחות", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "טכנולוגיה לטיהור אוויר באמצעות UVC", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "ציפוי הידרופילי ביחידה הפנימית וביחידה החיצונית", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "פונקציית שבת באישור משמרת השבת ומכון מדעי טכנולוגי להלכה", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "Auto Restart — חזרה למצב הפעולה האחרון אחרי הפסקת חשמל", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "מגע יבש מובנה להדלקה ולכיבוי במתח נמוך", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+    { "text": "זיהוי תקלות אוטומטי עם התרעה", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "אפשרות לגלאי תנועה, פיקוד קירי ורכיב בית חכם (Modbus RS-485) — בתוספת תשלום", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" }
+  ],
+  "inTheBox": [],
+  "installation": [
+    { "text": "חיבור חשמל חד־פאזי 230V/50Hz עם נתיך 16C", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+    { "text": "צנרת בין היחידות בקוטר 1/4״–1/2״ וכבל חשמל 4 × 1.5 ממ״ר", "sources": ["s1", "s4", "s5"], "confidence": "high", "status": "verified" },
+    { "text": "יש לוודא מקום על הקיר ליחידה הפנימית (101.7 × 30.4 × 22.1 ס״מ) ומקום ליחידה החיצונית (80.2 × 55.5 × 35 ס״מ)", "sources": ["s1", "s4", "s5"], "confidence": "medium", "status": "verified", "note": "Dimension order interpreted as width × height × depth, see identity.notes" }
+  ],
+  "content": {
+    "summary": "תדיראן ALPHA PRO INVERTER 240NG הוא מזגן עילי בטכנולוגיית Inverter בהספק 2 כ״ס, עם תפוקת קירור ותפוקת חימום נומינלית של 17,740 BTU/h ודירוג אנרגטי A++ בקירור. היצרן מפרסם לו SEER 6.6 ו־SCOP 4, ויש בו WiFi מובנה, 7 מהירויות מאוורר, Timer X3 ופונקציית שבת. מתאים למי שמחפש מזגן עילי 2 כ״ס של תדיראן לקירור ולחימום, עם שליטה מהטלפון.",
+    "highlights": [
+      "תפוקת קירור וחימום נומינלית 17,740 BTU/h",
+      "דירוג אנרגטי A++ בקירור, SEER 6.6 ו־SCOP 4",
+      "WiFi מובנה לשליטה מהטלפון החכם",
+      "7 מהירויות מאוורר ופיזור אוויר 4D",
+      "Timer X3 — עד שלושה פרקי זמן הפעלה וכיבוי ביממה"
+    ],
+    "goodFor": [
+      "משפחות שומרות שבת — יש פונקציית שבת באישור משמרת השבת ומכון מדעי טכנולוגי להלכה",
+      "מי שרוצה להפעיל את המזגן לפני שמגיעים הביתה — WiFi מובנה ושליטה מהטלפון",
+      "מי שמשתמש במזגן גם לחימום בחורף — תפוקת חימום נומינלית 17,740 BTU/h ו־SCOP 4",
+      "מי שמפעיל את המזגן גם בשעות הלילה — מצב Sleep שמשנה את הטמפרטורה בהדרגה במהלך הלילה, Quiet Function ו־7 מהירויות מאוורר"
+    ],
+    "considerations": [
+      "נדרש חיבור חשמל חד־פאזי 230V עם נתיך 16C — כדאי לבדוק עם החשמלאי או המתקין שהלוח והקו מתאימים",
+      "היחידה הפנימית ברוחב 101.7 ס״מ והיחידה החיצונית 80.2 × 55.5 × 35 ס״מ — מדדו את הקיר ואת מקום היחידה החיצונית לפני ההזמנה",
+      "גלאי התנועה, הפיקוד הקירי ורכיב הבית החכם אינם כלולים — הם אופציונליים בתוספת תשלום",
+      "דף המוצר של תדיראן מציין אחריות של שנה ראשונה על פי דין; את תנאי הרחבת האחריות ואת אופן הפעלתה יש לבדוק בתקנון של תדיראן בעת הרכישה"
+    ],
+    "faq": [
+      { "q": "כמה כוח סוס הוא מזגן ALPHA PRO INVERTER 240NG?", "a": "זהו מזגן 2 כ״ס, עם תפוקת קירור ותפוקת חימום נומינלית של 17,740 BTU/h.", "sources": ["s1", "s6", "s7"] },
+      { "q": "אפשר לשלוט במזגן מהטלפון?", "a": "כן. למזגן יש WiFi מובנה שמאפשר שליטה מרחוק בטלפון חכם.", "sources": ["s1", "s4"] },
+      { "q": "האם המזגן מתאים לשבת?", "a": "כן. יש בו פונקציית שבת באישור משמרת השבת (בכפוף לאישור בתוקף) ובאישור מכון מדעי טכנולוגי להלכה.", "sources": ["s1", "s4"] },
+      { "q": "מה נדרש בחיבור החשמל?", "a": "המזגן עובד במתח 230V/50Hz חד־פאזי, והיצרן מציין נתיך 16C. זרם העבודה הנומינלי הוא 8.1A בקירור ו־6.7A בחימום.", "sources": ["s1"] },
+      { "q": "מה נתוני היעילות של המזגן?", "a": "תדיראן מציינת דירוג אנרגטי A++ בקירור, SEER 6.6 ו־SCOP 4.", "sources": ["s1", "s4"] }
+    ]
+  },
+  "seo": {
+    "metaDescription": "מזגן עילי תדיראן ALPHA PRO INVERTER 240NG בהספק 2 כ״ס: 17,740 BTU/h בקירור ובחימום, A++ בקירור ו־WiFi מובנה. בחדד אלקטריק נהריה",
+    "keywords": [
+      "ALPHA PRO INVERTER 240NG",
+      "ALPHA PRO INV 240NG",
+      "תדיראן אלפא פרו 240",
+      "מזגן תדיראן אלפא פרו אינוורטר 240NG",
+      "מזגן עילי 2 כ״ס תדיראן",
+      "מזגן 2 כוח סוס אינוורטר",
+      "מזגן 17740 BTU",
+      "Tadiran Alpha Pro Inverter 240 NG",
+      "מזגן עם WiFi ופונקציית שבת"
+    ]
+  },
+  "catalogCheck": [
+    { "field": "name", "catalogValue": "מזגן 2 כ\"ס", "finding": "confirmed", "sources": ["s6", "s7"] },
+    { "field": "brand", "catalogValue": "Tadiran", "finding": "confirmed", "sources": ["s1"] },
+    { "field": "category", "catalogValue": "מזגנים", "finding": "confirmed", "sources": ["s1"] },
+    { "field": "origin_country", "catalogValue": "לא צוין", "finding": "unverifiable", "sources": [] },
+    { "field": "תפוקת קירור", "catalogValue": "17,740 BTU/h", "finding": "confirmed", "sources": ["s1", "s4", "s5"] },
+    { "field": "תפוקת חימום", "catalogValue": "17,740 BTU/h", "finding": "confirmed", "sources": ["s1", "s4", "s5"] },
+    { "field": "דירוג אנרגטי בקירור", "catalogValue": "A++", "finding": "confirmed", "sources": ["s1", "s4"] },
+    { "field": "טכנולוגיה", "catalogValue": "Inverter", "finding": "confirmed", "sources": ["s1", "s4"] },
+    { "field": "product_capabilities: WiFi", "catalogValue": "שליטה מרחוק באמצעות WiFi", "finding": "confirmed", "sources": ["s1", "s4"] },
+    { "field": "product_capabilities: Quiet Function", "catalogValue": "פעולה חרישית (Quiet Function)", "finding": "confirmed", "sources": ["s1"] },
+    { "field": "product_capabilities: ציפוי הידרופילי", "catalogValue": "ציפוי הידרופילי", "finding": "confirmed", "sources": ["s1", "s4"] },
+    { "field": "product_capabilities: מהירויות", "catalogValue": "7 מהירויות מנוע", "finding": "corrected", "correctValue": "7 מהירויות מאוורר (מפוח) פנימי", "sources": ["s1", "s4"] },
+    { "field": "SEER / SCOP", "catalogValue": "", "finding": "missing-added", "correctValue": "SEER 6.6, SCOP 4", "sources": ["s1", "s4", "s5"] },
+    { "field": "מידות יחידות", "catalogValue": "", "finding": "missing-added", "correctValue": "פנימית 101.7 × 30.4 × 22.1 ס״מ; חיצונית 80.2 × 55.5 × 35 ס״מ", "sources": ["s1", "s4", "s5"] },
+    { "field": "חשמל", "catalogValue": "", "finding": "missing-added", "correctValue": "230V/50Hz חד־פאזי, נתיך 16C, זרם 8.1A קירור / 6.7A חימום", "sources": ["s1"] },
+    { "field": "פונקציית שבת", "catalogValue": "", "finding": "missing-added", "correctValue": "כן, באישור משמרת השבת ומכון מדעי טכנולוגי להלכה", "sources": ["s1", "s4"] },
+    { "field": "Timer X3 / 4D / UVC / מגע יבש", "catalogValue": "", "finding": "missing-added", "correctValue": "Timer X3, פיזור אוויר 4D, טיהור UVC, מגע יבש מובנה", "sources": ["s1", "s4"] },
+    { "field": "אחריות", "catalogValue": "", "finding": "missing-added", "correctValue": "שנה ראשונה על פי דין (דף המוצר); הרחבה לסדרה בכפוף לתקנון — לבדיקה", "sources": ["s1", "s3"] }
+  ],
+  "reviewFlags": [
+    { "field": "warranty", "issue": "Tadiran's product page states only 'שנה ראשונה ע\"פ דין'. The Nov 2026 warranty table gives the ALPHA PRO series 5 years (incl. first year) subject to activation within 60 days, private customers only; retailers advertise 5 or 7 years, and Traklin/Bettershop give a 30-day activation window against Tadiran's 60 days. Confirm the extended-warranty terms for this model before publishing a number.", "severity": "medium" },
+    { "field": "dimensions", "issue": "Tadiran labels unit dimensions 'עומק/גובה/רוחב' but the values are in width × height × depth order (1017 mm cannot be the depth of a wall unit). Rows were written as W × H × D; confirm against the installation manual.", "severity": "low" },
+    { "field": "energy rating scale", "issue": "Tadiran says 'A++ בקירור' without naming the scale; Zap lists 'A' on the previous scale and 'A++' on the European scale. Confirm which label the A++ refers to.", "severity": "low" },
+    { "field": "missing data", "issue": "No exact-model source found for weight, noise dB, refrigerant, annual energy (only Zabilo: 276/1,435 kWh) or recommended room size (only Zabilo: 20–30 m²). Check the Tadiran installation/user manual.", "severity": "low" },
+    { "field": "product_capabilities", "issue": "Catalog says '7 מהירויות מנוע'; Tadiran says 7 indoor fan speeds ('7 מהירויות מפוח'). Suggest updating the catalog wording.", "severity": "low" }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "Re-opened s1–s8: all load; s1/s2 show the exact model with SKU 50010019100, s4–s7 name the 240NG suffix, s3 (series warranty table) and s8 (240N, SKU 110TADIAL240) correctly exactModel:false. Every verified value was found on a cited page. Changes: (1) replaced the two separate unit-dimension rows with the required combined row 'מידות (רוחב × גובה × עומק)' (indoor 101.7 × 30.4 × 22.1, outdoor 80.2 × 55.5 × 35 ס״מ; s1, s4, s5) with the W × H × D reasoning and Zap's 801 in the note; (2) downgraded warranty row 'נותן שירות' to unverified — only retailers state it, not Tadiran; (3) extended-warranty note and review flag now record the 60-day (Tadiran, Zabilo) vs 30-day (Traklin, Bettershop) activation conflict and Zabilo's 5 vs 7 years; (4) added a note to the smart-home row that RS-485 appears only on s1; (5) rewrote the goodFor 'חדר שינה' bullet as a night-use bullet, since room size is unverified; (6) metaDescription 'ו-WiFi' → 'ו־WiFi' (maqaf). Name unchanged; no price/stock data."
+  }
+}

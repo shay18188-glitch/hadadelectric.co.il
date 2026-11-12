@@ -10,7 +10,12 @@
     "translate": "tsx scripts/translate-content.mts",
     "find-images": "tsx scripts/find-product-images.mts",
     "generate-search-catalog": "tsx scripts/generate-search-catalog.mts",
-    "probe-image-hosts": "tsx scripts/probe-image-hosts.mts"
+    "probe-image-hosts": "tsx scripts/probe-image-hosts.mts",
+    "research:compile": "tsx scripts/compile-research.mts",
+    "research:check": "tsx scripts/compile-research.mts --check",
+    "research:fetch": "tsx --env-file-if-exists=.env.research scripts/research/research.mts",
+    "research:qa": "tsx --env-file-if-exists=.env.research scripts/research/qa.mts",
+    "research:compare": "tsx scripts/research/compare.mts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
@@ -22,6 +27,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "1.3.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

@@ -1,0 +1,269 @@
+{
+ "modelNumber": "FRS-905S100N",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Fratelli",
+  "exactModel": "FRS-905S100N",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן מציג את הדגם בחיפוש עם התיאור כיריים 5 להבות גז טורבו צד 90 ס\"מ. מפרט הלהבות מופיע בדף הקמעונאי ליאור. | QA: Both the Fratelli Israel page and the Lior retailer page name FRS-905S100N as a 90 cm, 5-burner gas hob, which matches the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.fratelli.co.il/?s=FRS-905S100N",
+   "publisher": "Fratelli Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-fratelli-%D7%A4%D7%A8%D7%98%D7%9C%D7%99-5-%D7%92%D7%96-90-%D7%A1%D7%9E-frs-905s100n-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "90 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "5 להבות גז"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מבער קטן",
+     "value": "1.00 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מבער בינוני (2 מבערים)",
+     "value": "1.75 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מבער גדול",
+     "value": "3.00 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מבער טורבו",
+     "value": "3.80 kW"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not mention stainless steel.",
+     "label": "חומר גימור",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "אוטומטית מתחת למתג"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "התקן הגנה מפני כיבוי להבה",
+     "value": "FFD"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מבערים ומווסתים של SABAF"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז של Fratelli, דגם FRS-905S100N, ברוחב 90 ס״מ עם 5 להבות גז. יש הצתה אוטומטית מתחת למתג והתקן FFD להגנה מפני כיבוי להבה, מתאים למטבח שבו מבשלים בכמה סירים במקביל.",
+  "highlights": [
+   "רוחב 90 ס״מ עם 5 להבות גז",
+   "הצתה אוטומטית מתחת למתג",
+   "התקן FFD להגנה מפני כיבוי להבה",
+   "מבערים ומווסתים של SABAF"
+  ],
+  "goodFor": [
+   "בישול במקביל על כמה להבות בעוצמות שונות",
+   "טיגון מוקפץ ובישול בווק בעזרת להבת הטורבו",
+   "בישול עדין והחזקת חום על הלהבה הקטנה",
+   "מטבח עם משטח שמתאים לכיריים ברוחב 90 ס״מ"
+  ],
+  "considerations": [
+   "לוודא שהפתח במשטח העבודה מתאים לכיריים ברוחב 90 ס״מ, לפי מידות החיתוך של היצרן",
+   "התקנת כיריים גז מחייבת מתקין גז מוסמך",
+   "ההצתה האוטומטית דורשת חיבור לחשמל, כדאי לוודא שקע זמין מתחת למשטח"
+  ],
+  "faq": [
+   {
+    "q": "האם יש הגנה למקרה שהלהבה כבתה?",
+    "a": "כן, הכיריים כוללות התקן FFD להגנה מפני כיבוי להבה.",
+    "sources": []
+   },
+   {
+    "q": "איך מדליקים את הלהבות?",
+    "a": "ההצתה אוטומטית ומתבצעת מתחת למתג.",
+    "sources": []
+   },
+   {
+    "q": "מה רוחב הכיריים?",
+    "a": "90 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "כיריים גז 90 ס״מ",
+   "כיריים 5 להבות",
+   "Fratelli FRS-905S100N",
+   "כיריים פרטלי",
+   "כיריים גז עם להבת טורבו",
+   "כיריים גז FFD",
+   "כיריים גז מבערי SABAF"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב",
+   "catalogValue": "90 ס\"מ (מידת רוחב פיזית כ-89 ס\"מ)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אזורי בישול",
+   "catalogValue": "5 מבערי גז הכוללים מבער טורבו (3.80kW), מבער גדול (3.00kW), 2 מבערים בינוניים (1.75kW) ומבער קטן (1.00kW)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומרים",
+   "catalogValue": "גימור נירוסטה/אלומיניום, נושאי סירים מברזל יצוק",
+   "finding": "contradicted",
+   "correctValue": "נושא סירים מברזל; גימור נירוסטה (ליאור מציין גם אלומיניום בתיאור טכני)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבערים",
+   "catalogValue": "מבערי SABAF, התקן בטיחות למניעת דליפת גז (FFD)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הצתה",
+   "catalogValue": "הצתה אוטומטית מובנית בכפתורי ההפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "חומר גימור",
+   "issue": "דף ליאור מציין בתיאור הטכני גם חומר אלומיניום וגם פלדת אל חלד ממורקת; דף היצרן לא נמצא עם מפרט חומרים. נדרש אימות.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב",
+   "issue": "הרוחב הפיזי של כ-89 ס\"מ מופיע בקטלוג ולא נמצא בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "חומר גימור",
+   "issue": "הגימור (נירוסטה/אלומיניום) לא אומת בציטוט; יש לבדוק מול היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב",
+   "issue": "הרוחב הפיזי של כ-89 ס״מ שבקטלוג לא נמצא במקורות; יש לבדוק מידות חיתוך מול היצרן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 6 (finish material): the quote only says '5 burners gas' and does not mention stainless steel. All other facts are supported by ok quotes on pages naming the model. | code guard removed: summary: \"הכיריים כוללות להבת טורבו בהספק 3.80 kW לצד להבה גדולה של 3.00 kW, שתי להבות בינוניות ולהבה קטנה של 1.00 kW.\"; faq: \"כמה להבות יש בכיריים?\"; metaDescription: \"כיריים גז Fratelli FRS-905S100N ברוחב 90 ס״מ, 5 להבות עם להבת טורבו 3.80 kW והתקן FFD להגנה מכיבוי להבה. בחדד אלקטריק נהריה\"; highlight: \"להבת טורבו בהספק 3.80 kW\""
+ }
+}

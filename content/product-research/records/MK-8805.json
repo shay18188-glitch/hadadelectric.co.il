@@ -1,0 +1,365 @@
+{
+ "modelNumber": "MK-8805",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "MK-8805",
+  "israeliImporter": "קלינטון",
+  "matchConfidence": "medium",
+  "notes": "המקורות הם אתרי מכירה ישראליים בלבד. לא נמצא עמוד יצרן או יבואן עם מפרט למודל. דגמים סמוכים (MK-8810, 10 ליטר, 2000W) לא שימשו כראיה. בחיפוש נמצאה רשומת eBay עם אותו מספר דגם המתארת מיקסר GARVEE של 500W ו-5.3 קוורט, ולא נעשה בה שימוש. | QA: Model code MK-8805 and 5 liter capacity match the catalog. The color in the catalog name (black) is contradicted by the retailer page, and the importer name comes from a retailer listing only."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.olsale.co.il/items/8373995-%D7%9E%D7%99%D7%A7%D7%A1%D7%A8-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-%D7%9B%D7%95%D7%9C%D7%9C-%D7%A7%D7%A2%D7%A8%D7%94-%D7%A2%D7%A0%D7%A7%D7%99%D7%AA-%D7%91%D7%A0%D7%A4%D7%97-5-%D7%9C%D7%99%D7%98%D7%A8-Normande",
+   "publisher": "OLSale",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-mixer&db3263883=3264039",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח קערה",
+     "value": "5 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר קערה",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer sources only",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח ותדר",
+     "value": "220-240 V, 50/60 Hz"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגות מהירות",
+     "value": "10"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Stated by a retailer listing",
+     "label": "אחריות",
+     "value": "שנה, אחריות היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב מודרני עם תאורת LED דקורטיבית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מכסה שקוף נגד התזות עם פתח מילוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת ערבוב פלנטרית לערבוב יסודי מכל הכיוונים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גוף המכשיר עשוי פלסטיק ABS בציפוי צבע"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Normande MK-8805 הוא מיקסר עומד עם קערת נירוסטה של 5 ליטר ומנוע של 1000 W. יש לו 10 דרגות מהירות ומערכת ערבוב פלנטרית, ומכסה שקוף נגד התזות עם פתח מילוי. הוא מתאים לאפייה ביתית של בצקים, עוגות וקצפות.",
+  "highlights": [
+   "קערת נירוסטה בנפח 5 ליטר",
+   "מנוע בהספק 1000 W",
+   "10 דרגות מהירות",
+   "מערכת ערבוב פלנטרית",
+   "מכסה שקוף נגד התזות עם פתח מילוי"
+  ],
+  "goodFor": [
+   "אפייה ביתית של בצקים, עוגות וקצפות בקערה של 5 ליטר",
+   "מתכונים שדורשים שינוי מהירות במהלך העבודה, עם 10 דרגות מהירות",
+   "הוספת מרכיבים בזמן הערבוב דרך פתח המילוי במכסה, בלי התזות"
+  ],
+  "considerations": [
+   "יש לוודא את צבע היחידה לפני הרכישה: אתרי מכירה מציגים את הדגם בגוון אדום משולב אפור",
+   "כדאי לבדוק שיש על משטח העבודה מקום קבוע למיקסר עומד ושקע חשמל זמין בקרבתו",
+   "גוף המכשיר עשוי פלסטיק ABS בציפוי צבע, והקערה עשויה נירוסטה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הקערה של Normande MK-8805?",
+    "a": "הקערה עשויה נירוסטה ונפחה 5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המנוע?",
+    "a": "לפי אתרי המכירה, המנוע בהספק 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות מהירות יש למיקסר?",
+    "a": "יש למיקסר 10 דרגות מהירות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מכסה נגד התזות?",
+    "a": "כן, יש מכסה שקוף נגד התזות עם פתח מילוי להוספת מרכיבים במהלך הערבוב.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "לפי אתר מכירה, האחריות היא אחריות היבואן הרשמי למשך שנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקסר עומד Normande MK-8805 עם קערת נירוסטה 5 ליטר, מנוע 1000 W ו-10 דרגות מהירות וערבוב פלנטרי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקסר נורמנדה",
+   "Normande MK-8805",
+   "MK-8805",
+   "מיקסר עומד 5 ליטר",
+   "מיקסר 1000 וואט",
+   "מיקסר פלנטרי",
+   "מיקסר עם קערת נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50/60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח קערה",
+   "catalogValue": "5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר קערה",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות מהירות",
+   "catalogValue": "10",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 30.9 ס\"מ, רוחב 16.3 ס\"מ, עומק 32.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת ערבוב",
+   "catalogValue": "מערכת ערבוב פלנטרית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורת LED",
+   "catalogValue": "תאורת LED דקורטיבית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכסה שקוף",
+   "catalogValue": "מכסה שקוף נגד התזות עם פתח מילוי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רגליות נגד החלקה",
+   "catalogValue": "רגליות נגד החלקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ראש מוטה",
+   "catalogValue": "ראש מוטה עם פתיחה קלה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שם המוצר - צבע",
+   "catalogValue": "שחור",
+   "finding": "contradicted",
+   "correctValue": "אדום משולב אפור",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תקופת אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שם המוצר - צבע",
+   "issue": "שם המוצר בקטלוג מציין שחור, אך אתר OLSale מציג את MK-8805 רק בצבע אדום משולב אפור, ובאתר Zap מופיע גם וריאנט אדום (MK-8805RED). יש לוודא את צבע המוצר לפני פרסום השם.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג (30.9 × 16.3 × 32.5 ס\"מ) לא נמצאו בדפים שנקראו, ולכן לא נשמרו כעובדה.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שם היבואן קלינטון מופיע רק באתר המכירה OLSale. לא נמצא אתר יבואן או יצרן שמאשר זאת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "לא נמצא עמוד יצרן, יבואן או מדריך למודל. כל העובדות מקורן באתרי מכירה, והספק 1000 W מופיע באתרים אלה בלבד. יש לוודא מול מפרט היצרן אם קיים.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "בחיפוש נמצאה רשומת eBay עם אותו מספר דגם המתארת מיקסר של 500W ו-5.3 קוורט בעל 10 מהירויות. מדובר כנראה במוצר אחר שחולק את המספר, או בטעות בתיאור. לא נעשה בה שימוש.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר - צבע",
+   "issue": "שם הקטלוג מציין שחור, אך OLSale מציג את MK-8805 באדום משולב אפור ו-Zap מציג וריאנט אדום (MK-8805RED). יש לוודא את צבע היחידה הנמכרת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג לא נמצאו במקורות ולא פורסמו. יש לאמת מול היבואן או את האריזה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל העובדות מקורן באתרי מכירה בלבד. לא נמצא עמוד יצרן או יבואן. שם היבואן קלינטון והאחריות מופיעים רק ב-OLSale.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכונות קטלוג",
+   "issue": "רגליות נגד החלקה וראש מוטה מופיעים בקטלוג אך לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts are backed by ok quotes on Israeli retailer pages that name MK-8805. Identity set to medium: the catalog name says black, but OLSale shows the model in red with grey, and Zap lists a red variant (MK-8805RED). The catalog dimensions are not verified and were not published. No manufacturer or importer source was found."
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "modelNumber": "S6800/90 Norelco",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "S6800/90",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Philips Norelco Series 6000 wet and dry shaver. Bug.co.il (SKU 94489800) states the product is not an official importer product (יבואן רשמי:לא). The Philips US page marks it Discontinued. | QA: Philips US page names S6800/90 (Norelco, US variant, marked Discontinued). Bug.co.il lists the same model but states it is not an official importer product, so the Israeli variant is unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.usa.philips.com/c-p/S6800_90/-",
+   "publisher": "Philips US",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מכונת-גילוח-נטענת-רטוב/יבש-כולל-אישור-מכון-צמת-philips-94489800",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Philips"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "S6800/90"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 60 דקות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טעינה מהירה",
+     "value": "5 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "Li-Ion"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג ראשי גילוח",
+     "value": "Contour 360°"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Philips US names SenseIQ; Smart Hair appears only in retailer copy.",
+     "label": "טכנולוגיה",
+     "value": "Smart Hair"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Implausible for a handheld shaver; likely package weight.",
+     "label": "משקל",
+     "value": "1.36 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Technology name unconfirmed by manufacturer.",
+   "text": "מערכת Smart Hair מזהה את צפיפות השיער בזמן אמת ומתאימה אוטומטית את עוצמת הפעולה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ראשי גילוח Contour 360° הנעים בהתאם למבנה הפנים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מתאימה לשימוש עם ג'ל או קצף גילוח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [
+   "גילוח רטוב עם ג'ל או קצף, או גילוח יבש",
+   "סוללת Li-Ion"
+  ],
+  "goodFor": [
+   "מי שמעדיף גילוח רטוב עם ג'ל או קצף"
+  ],
+  "considerations": [
+   "ודאו את תנאי האחריות ואת זהות היבואן, כי הדגם אינו מוצר יבואן רשמי לפי אחד המשווקים",
+   "הדגם מסומן כ-Norelco, גרסה המיועדת לשוק האמריקאי; בדקו התאמה של המטען לחשמל בישראל",
+   "ודאו זמינות של ראשי גילוח חלופיים לדגם"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להשתמש בה עם קצף גילוח?",
+    "a": "כן, זו מכונת רטוב/יבש שמתאימה לשימוש עם ג'ל או קצף גילוח.",
+    "sources": []
+   },
+   {
+    "q": "איזה סוג סוללה יש במכונה?",
+    "a": "סוללת Li-Ion.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Philips S6800/90",
+   "מכונת גילוח פיליפס",
+   "מכונת גילוח רטוב יבש",
+   "Philips Series 6000",
+   "מכונת גילוח נטענת",
+   "Norelco S6800",
+   "מכונת גילוח חשמלית לגבר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Philips",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שם המוצר",
+   "catalogValue": "מכונת גילוח נטענת רטוב/יבש כולל אישור מכון צמת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 60 דקות",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1.36 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "discontinued",
+   "issue": "The Philips US product page marks S6800/90 as Discontinued, while Israeli retailers still list it.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "Bug.co.il lists a one-year warranty. A CWC search snippet lists 24 months, but that page returned HTTP 403 and was not read. The sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Bug.co.il states the product is not an official importer product. The Israeli importer is not confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "טכנולוגיה",
+   "issue": "The Israeli listing names Smart Hair, while US listings name SenseIQ. It is not confirmed that these are the same system.",
+   "severity": "low"
+  },
+  {
+   "field": "discontinued",
+   "issue": "Philips US page marks S6800/90 as Discontinued.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Bug.co.il states this is not an official importer product; Israeli variant and warranty unclear (sources list 1 year vs 24 months).",
+   "severity": "medium"
+  },
+  {
+   "field": "טכנולוגיה",
+   "issue": "Israeli listing names Smart Hair while Philips US names SenseIQ; rejected pending confirmation.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Retailer lists 1.36 kg, likely shipping weight; product weight not verified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected weight 1.36 kg (implausible for a shaver; likely shipping weight). Rejected the Smart Hair technology fact and feature: the Israeli listing names Smart Hair while Philips US names SenseIQ, so the claim is unconfirmed. Kept run time, quick charge, battery type, Contour 360 heads and wet use. | code guard removed: summary: \"מכונת גילוח חשמלית נטענת רטוב/יבש של Philips מסדרת Series 6000, דגם S6800/90.\"; summary: \"סוללת Li-Ion מספקת עד 60 דקות עבודה אלחוטית, וטעינה מהירה של 5 דקות מאפשרת גילוח בעת הצורך.\"; summary: \"ראשי Contour 360° נעים לפי מבנה הפנים, והמכונה מתאימה לשימוש עם ג'ל או קצף.\"; faq: \"כמה זמן עובדת המכונה בטעינה אחת?\"; faq: \"האם יש טעינה מהירה?\"; metaDescription: \"מכונת גילוח רטוב/יבש Philips S6800/90 עם עד 60 דקות עבודה אלחוטית וטעינה מהירה של 5 דקות. ראשי Contour 360°. בחדד אלקטריק נהריה\"; highlight: \"עד 60 דקות עבודה אלחוטית בטעינה מלאה\"; highlight: \"טעינה מהירה של 5 דקות\"; highlight: \"ראשי גילוח Contour 360°\"; goodFor: \"גילוח אלחוטי בבית או בנסיעות בזכות זמן עבודה של עד 60 דקות\"; goodFor: \"מי שצריך גילוח מהיר כשהסוללה ריקה, בזכות טעינה מהירה של 5 דקות\""
+ }
+}

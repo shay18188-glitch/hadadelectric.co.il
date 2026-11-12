@@ -1,0 +1,461 @@
+{
+ "modelNumber": "MUMS8ZS18",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MUMS8ZS18",
+  "israeliImporter": "בי.אס.אייץ מכשירים ביתיים בע״מ",
+  "matchConfidence": "high",
+  "notes": "דפי היצרן שנמצאו לדגם הם של בוש שוויץ (CH), והמפרט הטכני מופיע גם בדף PDF איטלקי. לא נמצא דף ישראלי שמזכיר את הדגם. | QA: Both sources are Bosch Switzerland pages naming MUMS8ZS18 exactly; specs match the catalog. No Israeli page found, so the Israeli variant is unconfirmed. | 2026-11-12: Owner confirmed this exact model is sold in the store."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/ch/de/product/kuechenmaschine/mum-kuechenmaschinen/serie-8-kuechenmaschinen/MUMS8ZS18",
+   "publisher": "Bosch CH",
+   "kind": "manufacturer",
+   "market": "CH",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "owner:sold-in-store",
+   "publisher": "חדד יובל אלקטריק – בעל החנות",
+   "kind": "owner",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "7"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח קערה",
+     "value": "6.0 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כמות מרבית של בצק עוגה",
+     "value": "3.6 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "quote uses decimal comma 2,8",
+     "label": "כמות מרבית של בצק לחם",
+     "value": "2.8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר הקערה",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "339 × 223 × 457 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל מטבח משולב",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בקרת חיישנים (Sensor control plus)",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגדרת זמן עיבוד מראש",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "10"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "120 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Swiss market warranty; Israeli warranty terms are set by the importer and not verified",
+     "label": "אחריות על המנוע והגוף",
+     "value": "10 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed superlative",
+   "text": "מנוע 1800 וואט עם קירור אוויר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת ערבול תלת־ממדית 3D PlanetaryMixing לערבוב אחיד של כל המרכיבים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "handles not in this quote",
+   "text": "קערת נירוסטה XL בנפח 6 ליטר, לעד 2.8 ק״ג בצק לחם או 3.6 ק״ג בצק עוגה בבת אחת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צג TFT וטבעת ניווט שנוחים לתפעול גם באצבעות רטובות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שקילה משולבת, גם על המכונה וגם בתוך הקערה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קערת ערבול מנירוסטה עם שתי ידיות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "וו לישה Professional"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of id 1",
+   "text": "קערת נירוסטה עם שתי ידיות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "הקערה מתאימה לעד 2.8 ק״ג בצק לחם או 3.6 ק״ג בצק עוגה בבת אחת, והמכונה כוללת משקל משולב, 10 תוכניות ו־7 מהירויות. מתאימה למי שאופה כמויות גדולות של לחם, חלות ועוגות בבית.",
+  "highlights": [
+   "מנוע 1800 וואט עם קירור אוויר",
+   "קערת נירוסטה בנפח 6.0 ליטר",
+   "עד 2.8 ק״ג בצק לחם או 3.6 ק״ג בצק עוגה",
+   "משקל משולב ו־10 תוכניות",
+   "ערבול תלת־ממדי 3D PlanetaryMixing"
+  ],
+  "goodFor": [
+   "אפייה של כמויות גדולות של בצק לחם או חלות בפעם אחת",
+   "מי שרוצה לשקול מרכיבים ישירות בקערה בלי משקל נפרד",
+   "הכנת עוגות ובצקים לפי תוכניות מוגדרות מראש"
+  ],
+  "considerations": [
+   "מידות המכונה 339 × 223 × 457 מ״מ (גובה × רוחב × עומק) – כדאי לבדוק את המקום על השיש ומתחת לארונות העליונים",
+   "אורך כבל החשמל 120 ס״מ – כדאי לוודא שיש שקע קרוב למקום ההצבה",
+   "תנאי האחריות בישראל נקבעים על ידי היבואן – כדאי לברר אותם לפני הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "כמה בצק אפשר ללוש בבת אחת?",
+    "a": "לפי היצרן, עד 2.8 ק״ג בצק לחם או עד 3.6 ק״ג בצק עוגה בקערה של 6 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכונה?",
+    "a": "ההספק הוא 1800 וואט, והמנוע מקורר באוויר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במכונה משקל?",
+    "a": "כן, יש משקל משולב שמאפשר לשקול גם על המכונה וגם בתוך הקערה.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "לפי היצרן: מכסה, קערת ערבול מנירוסטה עם שתי ידיות ווו לישה Professional.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות ותוכניות יש?",
+    "a": "7 מהירויות ו־10 תוכניות, עם אפשרות להגדיר זמן עיבוד מראש.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת מטבח בוש MUMS8ZS18 עם מנוע 1800 וואט וקערת נירוסטה 6 ליטר, משקל משולב ו־10 תוכניות. זמינה בחדד אלקטריק נהריה",
+  "keywords": [
+   "בוש MUMS8ZS18",
+   "מיקסר בוש 1800 וואט",
+   "מכונת מטבח בוש Serie 8",
+   "מיקסר עומד 6 ליטר",
+   "מיקסר עם משקל מובנה",
+   "מיקסר בוש קערת נירוסטה",
+   "מיקסר ללישת בצק לחם"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח קערה",
+   "catalogValue": "6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר קערה",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "7",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "339x223x457 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יכולת בצק לחם",
+   "catalogValue": "עד 2.8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת ערבול תלת-ממדית",
+   "catalogValue": "3D PlanetaryMixing",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קירור אוויר למנוע",
+   "catalogValue": "קירור אוויר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "אירופה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקסימום בצק (עוגה)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3.6 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "net_weight",
+   "issue": "משקל נטו סותר בין המקורות: דף המוצר בשוויץ מציין 12.1 kg, ודף המפרט האיטלקי מציין 14.0 kg. לא הוכנס משקל.",
+   "severity": "medium"
+  },
+  {
+   "field": "inTheBox",
+   "issue": "דף המפרט האיטלקי מציין ארבעה פריטים בלבד. דף המוצר בשוויץ מציין גם שני מקצפים נוספים, ולכן הם לא הוכנסו לרשימה.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "האחריות של 10 שנים על המנוע והגוף מופיעה בדף שוויץ בלבד. לא אומתה לאחריות בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_name",
+   "issue": "השם בקטלוג הוא מיקסר עומד, ואילו היצרן מכנה את הדגם Küchenmaschine (מכונת מטבח עם משקל משולב). לא הוצע שם חדש.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "אחריות של 10 שנים על המנוע והגוף מופיעה רק בדף השוויצרי ולא פורסמה. יש לברר את תנאי האחריות מול היבואן בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "net_weight",
+   "issue": "משקל נטו סותר בין המקורות (12.1 ק״ג מול 14.0 ק״ג) ולכן לא פורסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "inTheBox",
+   "issue": "דף המוצר השוויצרי מזכיר גם מקצפים נוספים שלא מופיעים במפרט האיטלקי. רשימת התכולה צריכה אימות מול האריזה בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_name",
+   "issue": "היצרן מגדיר את הדגם כמכונת מטבח (Küchenmaschine) ולא כמיקסר עומד בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-12",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the 10-year motor and body warranty (Swiss market page only, not verified for Israel). Rejected inTheBox id 3 as a duplicate of id 1 (merged the two-handle detail into id 1). Reworded feature 0 to drop 'powerful' and feature 2 to match its quote. Normalised the bread-dough decimal. | code guard removed: summary: \"מכונת מטבח (מיקסר עומד) של בוש מסדרת Serie 8, דגם MUMS8ZS18, עם מנוע 1800 וואט וקערת נירוסטה בנפח 6 ליטר.\" | 2026-11-12 store owner: confirmed this exact model is sold in the store"
+ }
+}

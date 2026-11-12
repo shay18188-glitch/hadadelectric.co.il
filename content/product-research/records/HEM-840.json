@@ -1,0 +1,205 @@
+{
+ "modelNumber": "HEM-840",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-840",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "No manufacturer page or manual found. Retailer and comparison pages name HEM-840 (also written HEM840 and 840-HEM). Listings disagree on power: 600 W on the comparison spec table and on Bug, 700 W and 800 W on other listings. The importer is not named; Bug says the seller is an official importer. | QA: Both pages name HEM-840 from Hemilton, but they are a retailer and a comparison listing only; no manufacturer page or manual. Power in listings (600/700/800 W) does not match the catalog name consistently, so the exact variant is unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=719520",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מסחטת-גזר-600w-hemilton-90601840",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Catalog name says 800 W and other listings reportedly give 700 W / 800 W; single comparison-site quote is not enough to publish power.",
+     "label": "הספק מנוע",
+     "value": "600 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג המסחטה",
+     "value": "פירות קשים וירקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote says only 'קיבולת', not specifically the juice jug; label generalised.",
+     "label": "קיבולת",
+     "value": "1.1 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר פתח הזנה",
+     "value": "75 מ״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'maximum' superlative.",
+   "text": "מיקרו פילטר עשוי נירוסטה"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Spelling fixed.",
+   "text": "מיכל נפרד לפסולת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מסחטת Hemilton HEM-840 מיועדת לסחיטת פירות קשים וירקות כמו גזר ותפוחים. מתאימה למי שמכין מיצים טריים מפירות וירקות קשים בבית.",
+  "highlights": [
+   "מסחטה לפירות קשים וירקות",
+   "מיקרו פילטר עשוי נירוסטה",
+   "מיכל נפרד לפסולת"
+  ],
+  "goodFor": [
+   "הכנת מיץ גזר ותפוחים טרי בבית",
+   "סחיטת ירקות קשים בלי לחתוך אותם לחתיכות קטנות מאוד, הודות לפתח ההזנה הרחב",
+   "מי שרוצה הפרדה נוחה בין המיץ לפסולת"
+  ],
+  "considerations": [
+   "ההספק לא אומת מול נתוני היצרן – כדאי לבדוק את תווית המכשיר או לשאול בחנות",
+   "מיקרו פילטר מנירוסטה דורש שטיפה אחרי כל שימוש"
+  ],
+  "faq": [
+   {
+    "q": "האם המסחטה מתאימה לגזר?",
+    "a": "כן, זו מסחטה לפירות קשים וירקות, כמו גזר.",
+    "sources": []
+   },
+   {
+    "q": "לאן הולכת הפסולת?",
+    "a": "לסחטה יש מיכל נפרד לפסולת, והמיץ עובר דרך מיקרו פילטר מנירוסטה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מסחטת גזר",
+   "Hemilton HEM-840",
+   "מסחטה המילטון",
+   "מסחטת פירות קשים",
+   "HEM840",
+   "מסחטת ירקות",
+   "מסחטת מיצים לבית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "800 וואט",
+   "finding": "corrected",
+   "correctValue": "600 W",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שם המוצר (סוג: מסחטת פירות קשים וגזר)",
+   "catalogValue": "מסחטת פירות קשים וגזר 800 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "The catalog name says 800 W, but the Bug listing and the Zap spec table both say 600 W. Other Zap listings say 700 W or 800 W for HEM-840. Check the manufacturer label or manual before publishing the power.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The Israeli importer is not named on any page read. Bug says the seller is an official importer. No manufacturer or importer page was found.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only retailer and comparison pages were found. Most facts have one site, so they go to review.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog name says 800 W; the Bug listing URL and Zap spec table say 600 W; other listings reportedly say 700 W. Power not published until checked on the unit label or manual.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Israeli importer not named on any source; Israeli variant unclear.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only retailer/comparison pages; no manufacturer page or manual found.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected motor power (fact 0): only one ok quote says 600 W, while the catalog name says 800 W and the researcher reports other listings for HEM-840 giving 700 W and 800 W. Power is held for manual check. Kept juicer type, 1.1 L juice capacity, 75 mm feed opening and both features. Zap source relabelled as retailer (price comparison listing). | code guard removed: summary: \"יש לה פתח הזנה בקוטר 75 מ״מ, קיבולת של 1.1 ליטר ומיקרו פילטר מנירוסטה, עם מיכל נפרד לפסולת.\"; faq: \"מה קוטר פתח ההזנה?\"; faq: \"מה הקיבולת?\"; metaDescription: \"מסחטת פירות קשים וירקות Hemilton HEM-840 עם פתח הזנה 75 מ״מ, קיבולת 1.1 ליטר ומיקרו פילטר נירוסטה. בחדד אלקטריק נהריה\"; highlight: \"פתח הזנה בקוטר 75 מ״מ\"; highlight: \"קיבולת 1.1 ליטר\"; consideration: \"כדאי לוודא שפירות גדולים נכנסים לפתח בקוטר 75 מ״מ או לחתוך אותם מראש\""
+ }
+}

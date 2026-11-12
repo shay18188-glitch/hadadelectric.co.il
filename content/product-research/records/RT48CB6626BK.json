@@ -1,0 +1,491 @@
+{
+ "modelNumber": "RT48CB6626BK",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RT48CB6626BK",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "No Samsung Israel or manufacturer page for this model was found in search. Specs come from two Israeli retailer pages (newpro.co.il and bug.co.il) that name RT48CB6626BK. The newpro table is for the RT48CB6626BK/WH variant. Capacity, depth and warranty differ between the two retailers. | QA: Two Israeli retailer pages name RT48CB6626BK; no Samsung page found. The newpro spec table refers to RT48CB6626BK/WH, so the variant and capacity figures are not fully certain."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-470-%D7%9C%D7%99%D7%98%D7%A8-samsung-5102203rt48cb6626bk",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://newpro.co.il/product/rt48cb6626/",
+   "publisher": "ניופרו",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "70 × 182.5 × 72 ס״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "182.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "70 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "newpro lists 71.7 cm; rounding",
+     "label": "עומק",
+     "value": "72 ס״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק גוף",
+     "value": "63.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "bug.co.il and catalog say 470 L; newpro table is /WH variant",
+     "label": "נפח כולל",
+     "value": "465 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "bug.co.il and catalog say 361 L",
+     "label": "נפח תא קירור",
+     "value": "357 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "catalog says 109 L; single source tied to the disputed capacity table",
+     "label": "נפח תא הקפאה",
+     "value": "108 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "Digital Inverter"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "255 קוט״ש"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (תקן חדש)",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה מלאה כדין"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "bug.co.il contradicts itself (9 vs 10 years); newpro gives one year only",
+     "label": "אחריות על המדחס",
+     "value": "9 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מדחס Digital Inverter ללא פחמים לחיסכון בצריכת חשמל"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "temperature-control claim not in quote",
+   "text": "מגירת Optimal Fresh+ – תא אחסון רב-תכליתי בחלק העליון של תא המזון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית No Frost המונעת הצטברות קרח במקרר ובהקפאה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פונקציית שבת מובנית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "hidden handles not in quote",
+   "text": "עיצוב Pure flat"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תאורת LED פנימית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "quote does not state odour absorption explicitly",
+   "text": "מערכת Silver Deodorizer בטכנולוגיית Nano Silver"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעבר דלת מינימלי לאחר פירוק הדלתות: 65 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "מקרר Samsung RT48CB6626BK עם מקפיא עליון, בגימור זכוכית שחורה ובעיצוב Pure flat. כולל פונקציית שבת מובנית, ומתאים למי שמחפש מקרר מקפיא עליון בגימור זכוכית למטבח עם נישה ברוחב 70 ס״מ.",
+  "highlights": [
+   "מדחס Digital Inverter ללא פחמים",
+   "No Frost במקרר ובהקפאה",
+   "פונקציית שבת מובנית",
+   "גימור זכוכית שחורה בעיצוב Pure flat",
+   "צריכת אנרגיה שנתית 255 קוט״ש, דירוג E"
+  ],
+  "goodFor": [
+   "משפחות שומרות שבת שצריכות פונקציית שבת מובנית",
+   "מי שלא רוצה להפשיר את המקפיא ידנית, בזכות No Frost",
+   "מטבח מעוצב שמתאים לו גימור זכוכית שחורה בעיצוב שטוח"
+  ],
+  "considerations": [
+   "בדקו שמעבר הדלתות בבית הוא לפחות 65 ס״מ (לאחר פירוק דלתות המקרר)",
+   "עומק הגוף ללא הדלת הוא 63.5 ס״מ – כדאי לבדוק כמה המקרר יבלוט מהארונות",
+   "יש לוודא את הנפח המדויק ותנאי האחריות מול המוכר לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "האם יש במקרר פונקציית שבת?",
+    "a": "כן, לפי המפרט יש פונקציית שבת מובנית.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך להפשיר את המקפיא?",
+    "a": "לא, המקרר עובד בטכנולוגיית No Frost המונעת הצטברות קרח במקרר ובהקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל של המקרר?",
+    "a": "צריכת האנרגיה השנתית היא 255 קוט״ש, בדירוג אנרגטי E לפי התקן החדש.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא עליון Samsung RT48CB6626BK בגימור זכוכית שחורה, No Frost ומדחס Digital Inverter עם פונקציית שבת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "RT48CB6626BK",
+   "מקרר סמסונג RT48CB6626BK",
+   "מקרר מקפיא עליון סמסונג",
+   "מקרר זכוכית שחורה",
+   "מקרר No Frost סמסונג",
+   "מקרר עם פונקציית שבת",
+   "מקרר סמסונג 70 ס״מ רוחב"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "465-470 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "361 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "109 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 182.5 ס\"מ, רוחב 70 ס\"מ, עומק 72 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "255 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "Digital Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "זכוכית שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עיצוב",
+   "catalogValue": "Pure flat עם ידיות נסתרות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פונקציית שבת",
+   "catalogValue": "התקן שבת מובנה (בחלק מהדגמים/יבואנים)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מגירת Optimal Fresh+",
+   "catalogValue": "4 עד -4 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "AI Energy",
+   "catalogValue": "טכנולוגיית AI Energy",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Mono Cooling",
+   "catalogValue": "קירור מונו (Mono Cooling)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח כולל",
+   "issue": "Sources disagree on capacity. Newpro gives 465 L total, 357 L fridge and 108 L freezer. Bug gives 470 L total and 361 L fridge. The catalog name says 470 ליטר, and its text says 361 and 109 ליטר.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The newpro spec table is for RT48CB6626BK/WH, a variant with a /WH suffix, while its product title and the bug.co.il page say RT48CB6626BK. Confirm the suffix and colour variant before listing.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "Depth is 72 cm on bug.co.il but 71.7 cm on newpro.co.il. The 72 value rests on one retailer only.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty terms conflict. Bug.co.il gives one year plus 9 years on the compressor, and its own description says 10 years on the compressor. Newpro gives one year. Confirm the terms with the official importer before quoting a compressor warranty.",
+   "severity": "high"
+  },
+  {
+   "field": "שם",
+   "issue": "No manufacturer, Samsung Israel or official importer page for RT48CB6626BK was found, so the brand and model could not be checked against the maker. Specs rest on two Israeli retailers.",
+   "severity": "medium"
+  },
+  {
+   "field": "גימור",
+   "issue": "Bug.co.il describes the finish as black piano glass (זכוכית בגוון שחור פיאנו), while the catalog and newpro say black glass. Confirm the finish name.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח כולל",
+   "issue": "Capacity conflict: newpro gives 465/357/108 L, bug.co.il reportedly 470/361 L, catalog 470 L with 361/109 L. Confirm with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Newpro spec table refers to RT48CB6626BK/WH; confirm the Israeli suffix and colour variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Compressor warranty unclear: bug.co.il says 9 and 10 years in different places, newpro gives one year only. Confirm with the official importer.",
+   "severity": "high"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog claims AI Energy, Mono Cooling, Optimal Fresh+ range of 4 to -4 degrees and hidden handles; none of these were verified in sources.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם",
+   "issue": "No Samsung or official importer page was found; specs rest on two Israeli retailers.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Capacity facts (465/357/108 L) set to conflict: bug.co.il reportedly gives 470 L total and 361 L fridge, and the catalog says 470/361/109; the newpro table is for the /WH variant. Compressor warranty (9 years) rejected: bug.co.il contradicts itself (9 vs 10 years) and newpro gives one year only. Feature 1 reworded to drop the temperature-control claim not in the quote; feature 4 reworded to drop 'hidden handles' not in the quote. Depth 72 cm kept from bug.co.il (newpro 71.7 cm is a rounding difference). | code guard removed: summary: \"מידותיו 70 × 182.5 × 72 ס״מ, הוא פועל במדחס Digital Inverter ובטכנולוגיית No Frost, ודירוגו האנרגטי E בצריכה שנתית של 255 קוט״ש.\"; faq: \"מה מידות המקרר?\"; consideration: \"ודאו שהנישה מתאימה למידות 70 × 182.5 × 72 ס״מ ושיש מרווח לאוורור\""
+ }
+}

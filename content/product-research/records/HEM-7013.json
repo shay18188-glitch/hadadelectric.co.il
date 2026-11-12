@@ -1,0 +1,189 @@
+{
+ "modelNumber": "HEM-7013",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-7013",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "Dimensions conflict between retailers (ch-ch: 60 ס״מ כולל ידיות, rivlin: 54 ס״מ); not submitted as a fact. | QA: ch-ch and Zap both name Hemilton HEM-7013 Shabbat hot plate with glass surface and 325W."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ch-ch.co.il/items/5909890-%D7%A4%D7%9C%D7%98%D7%AA-%D7%A9%D7%91%D7%AA-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-HEMILTON-%D7%93%D7%92%D7%9D-HEM-7013-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F-HEMILTON",
+   "publisher": "ch-ch",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=942791",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "325W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "6 ס״מ (כולל רגליות)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משטח",
+     "value": "זכוכית מחוסמת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מאושרת לשבת על ידי המכון הטכנולוגי להלכה בראשות הרב הלפרין"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נורית ביקורת בחזית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "פלטת שבת של המילטון, דגם HEM-7013, עם משטח זכוכית מחוסמת והספק של 325W. הפלטה מאושרת לשבת על ידי המכון הטכנולוגי להלכה בראשות הרב הלפרין, וכוללת נורית ביקורת בחזית. מתאימה למי שמחפש פלטה דקה לשמירת חום האוכל בשבת ובחג.",
+  "highlights": [
+   "הספק 325W",
+   "משטח זכוכית מחוסמת",
+   "מאושרת לשבת על ידי המכון הטכנולוגי להלכה",
+   "נורית ביקורת בחזית",
+   "גובה 6 ס״מ כולל רגליות"
+  ],
+  "goodFor": [
+   "שמירת חום של תבשילים לאורך השבת",
+   "משפחות שמקפידות על מוצר עם אישור הלכתי לשבת",
+   "מי שמעדיף משטח זכוכית ולא משטח מתכת"
+  ],
+  "considerations": [
+   "כדאי למדוד את המשטח במטבח ולוודא שיש מקום לפלטה ולסירים לפני הרכישה",
+   "יש לוודא שקע חשמל קרוב, ובשבת לחבר אותה דרך שעון שבת לפי הצורך",
+   "כדאי לבדוק את גודל הסירים שלכם מול שטח הפלטה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הפלטה?",
+    "a": "ההספק של פלטת השבת HEM-7013 הוא 325W.",
+    "sources": []
+   },
+   {
+    "q": "האם הפלטה מאושרת לשימוש בשבת?",
+    "a": "כן, היא מאושרת לשבת על ידי המכון הטכנולוגי להלכה בראשות הרב הלפרין.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי המשטח?",
+    "a": "המשטח עשוי זכוכית מחוסמת.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שהפלטה פועלת?",
+    "a": "בחזית הפלטה יש נורית ביקורת שמראה שהיא דולקת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פלטת שבת המילטון HEM-7013 עם משטח זכוכית מחוסמת, הספק 325W ואישור המכון הטכנולוגי להלכה. לפרטים ולרכישה בחדד אלקטריק נהריה",
+  "keywords": [
+   "פלטת שבת",
+   "פלטת שבת זכוכית",
+   "המילטון HEM-7013",
+   "פלטת שבת המילטון",
+   "HEM-7013",
+   "פלטת שבת מאושרת המכון הטכנולוגי להלכה",
+   "פלטת חימום לשבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "325W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60.5, עומק 41.2, גובה 6 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Retailers disagree on width (54 vs 60 cm incl. handles); catalog says 60.5.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Retailers disagree on width (about 54 vs 60 cm incl. handles) and depth was not verified; catalog lists 60.5×41.2 cm.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 4 pots; pot capacity was not verified in any ok quote.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "Identity confirmed by two Israeli retailers naming HEM-7013. All three facts and both features have ok quotes on model-naming pages. Width/depth not submitted due to retailer disagreement."
+ }
+}

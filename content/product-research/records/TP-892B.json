@@ -1,0 +1,252 @@
+{
+  "modelNumber": "TP-892B",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Topson (טופסון)",
+    "exactModel": "TP-892B",
+    "israeliImporter": null,
+    "matchConfidence": "medium",
+    "notes": "שני דפי קמעונאים ישראליים (רפאלי s1, טוקי s2) מציגים את הדגם בשם המדויק TP-892B כ'קומקום שבת 1.8 ליטר צבע שחור', ובמפרט שלהם הדגם נכתב TP-892. באג (s3) מוכר את אותו מוצר בשחור בשם 'TP-892 שחור' (ברקוד 7296073740162) בלי הסיומת B. הגרסאות הלבנה (s4, s8) והבז׳ (s5) והרישום ללא צבע (s6) נכתבות TP-892 בלבד ולכן מסומנות exactModel=false; הן מציגות מפרט זהה ומשמשות רק לחיזוק. נראה שהסיומת B מציינת את הצבע השחור, אך אין מקור יצרן שמאשר זאת. הדגם אינו מופיע באתר טופסון הרשמי (s7, נבדקה מפת המוצרים המלאה וחיפוש '892'), ולא נמצאו מדריך משתמש, דף יבואן או תעודת כשרות/הכשר. דפי s1 ו-s2 חולקים טקסט זהה (כנראה מקור ספק אחד), וכך גם s3 ו-s4 — לכן יש בפועל שתי משפחות טקסט בלתי תלויות, ורמת הביטחון בינונית. בכותרת ה-HTML של דף טוקי (s2) מופיע בטעות 'TP-890 2.5 ליטר', אך הכותרת בדף, ה-canonical והמק״ט הם TP-892B; בדף טוקי יש גם בורר צבע (שחור/לבן), כך שהקשר בין הסיומת B לצבע השחור אינו חד־משמעי. היבואן: באג ולאסטפרייס כותבים 'אחריות ע״י טופסון' ו'יבואן רשמי', אך לא נמצא מסמך של היבואן עצמו ולכן השדה ריק."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://refaeli.co.il/items/9151768",
+      "publisher": "רפאלי (refaeli.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.tuki.co.il/items/7757955",
+      "publisher": "טוקי (tuki.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.bug.co.il/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%9E%D7%99%D7%97%D7%9D-%D7%A9%D7%91%D7%AA-18-%D7%9C%D7%99%D7%98%D7%A8-topson-925645571",
+      "publisher": "באג (bug.co.il) — TP-892 שחור",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.lastprice.co.il/p/100071691",
+      "publisher": "LastPrice (lastprice.co.il) — TP-892 לבן",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://tishlerstore.com/product/%d7%a7%d7%95%d7%9e%d7%a7%d7%95%d7%9d-%d7%a9%d7%91%d7%aa-topson-%d7%a0%d7%99%d7%a8%d7%95%d7%a1%d7%98%d7%94-%d7%93%d7%92%d7%9d-tp-892-%d7%a6%d7%91%d7%a2-%d7%91%d7%96/",
+      "publisher": "טישלר (tishlerstore.com) — TP-892 בז׳",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://shop.zap.co.il/product-model?offerid=23569432&storeid=3824&modelid=gen_TP892_13258",
+      "publisher": "zapstore / X-PRESS (shop.zap.co.il) — TP892 ללא צבע",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.topson.co.il/product-sitemap.xml",
+      "publisher": "טופסון — אתר היצרן (topson.co.il)",
+      "kind": "manufacturer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.bug.co.il/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%9E%D7%99%D7%97%D7%9D-%D7%A9%D7%91%D7%AA-18-%D7%9C%D7%99%D7%98%D7%A8-topson-925645570",
+      "publisher": "באג (bug.co.il) — TP-892 לבן",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        { "label": "יצרן", "value": "Topson (טופסון)", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "דגם", "value": "TP-892B (הגרסה השחורה של TP-892)", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified", "note": "s1 ו-s2 כותבים TP-892B בכותרת ובמק״ט ו-TP-892 במפרט; s3 כותב 'TP-892 שחור'. שהסיומת B מציינת שחור — הסקה מהשמות, ללא מקור יצרן (בדף s2 יש גם בורר צבע שחור/לבן)." },
+        { "label": "סוג מוצר", "value": "קומקום חשמלי לשבת ולחג (קומקום־מיחם)", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "טבילת כלים", "value": "אין צורך בטבילה, באישור הרב שלמה דידי", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified", "note": "מופיע בשתי משפחות הטקסט (s1/s2 ו-s3) וגם ב-s4, s5, s6, s8. מסמך האישור עצמו לא נמצא." },
+        { "label": "אישור לשימוש בשבת", "value": "באישור הרב שלמה דידי", "sources": ["s1", "s2"], "confidence": "low", "status": "unverified", "note": "רק s1 ו-s2 (טקסט זהה) כותבים 'אישור שבת: באישור הרב שלמה דידי'. s3 מייחס לרב דידי רק את הפטור מטבילה. s5 (בז׳) כותב 'באישור מכון התקנים הישראלי'. לא נמצאה תעודת הכשר." }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        { "label": "נפח", "value": "1.8 ליטר", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        { "label": "מתג הפעלה", "value": "3 מצבים", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "מצבי פעולה", "value": "הרתחה, שמירת חום, כיבוי", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "שמירת חום לשבת ולחג", "value": "מצב לשמירת טמפרטורת מים גבוהה לאורך השבת והחג", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        { "label": "הספק", "value": "1800–2200W", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified", "note": "כך במפרט של s1, s2, s3; בשדה המאפיינים של s3 (ובכותרת s1/s2) מופיע 2200W — הערך העליון של הטווח. מתח, תדר ואורך כבל לא נמצאו." }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        { "label": "צבע", "value": "שחור", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "מיכל פנימי", "value": "נירוסטה", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified", "note": "s1/s2: 'מיכל פנימי: גימור נירוסטה'; s3: 'חומר המיכל הפנימי: נירוסטה'. חומר הגוף החיצוני לא צוין." },
+        { "label": "דפנות", "value": "דפנות כפולות", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "גוף חימום", "value": "פנימי נסתר", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "ידית", "value": "ידית אחיזה גדולה", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "פילטר", "value": "פילטר לסינון אבנית", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" }
+      ]
+    },
+    {
+      "id": "safety",
+      "rows": [
+        { "label": "נעילה לבסיס", "value": "מנגנון נעילה של הקומקום אל הבסיס לשבת ולחג", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+        { "label": "הגנה מכוויות", "value": "דפנות כפולות המפחיתות את הסיכון לכוויות במגע בגוף הקומקום", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        { "label": "אחריות", "value": "שנה, בכפוף לתעודת אחריות של טופסון", "sources": ["s1", "s3"], "confidence": "medium", "status": "unverified", "note": "s3: 'אחריות למשך שנה - בכפוף לתעודת אחריות ע״י טופסון'; s1: 'שנה ע״י היבואן הרשמי'. s2 כותב רק 'אחריות: בכפוף לתקנון החברה' ולכן הוסר מהמקורות של שורה זו. לא נמצא מסמך של היבואן/היצרן — לפי המדריך אחריות נכתבת רק ממקור יבואן." }
+      ]
+    }
+  ],
+  "features": [
+    { "text": "מתג בן 3 מצבים: הרתחה, שמירת חום וכיבוי", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+    { "text": "מצב שמירת חום שמחזיק את המים בטמפרטורה גבוהה לאורך השבת והחג", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+    { "text": "מנגנון לנעילת הקומקום אל הבסיס בשבת ובחג", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+    { "text": "דפנות כפולות המסייעות להפחית את הסיכון לכוויות", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+    { "text": "מיכל פנימי מנירוסטה וגוף חימום פנימי נסתר", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+    { "text": "פילטר לסינון אבנית", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+    { "text": "ידית אחיזה גדולה ונוחה למזיגה", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" },
+    { "text": "אינו מצריך טבילה, באישור הרב שלמה דידי", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified", "note": "לפי המשווקים; מסמך האישור לא נמצא." },
+    { "text": "מאושר לשימוש בשבת באישור הרב שלמה דידי", "sources": ["s1", "s2"], "confidence": "low", "status": "unverified", "note": "רק בטקסט המשותף של s1/s2; לא נמצאה תעודת הכשר." }
+  ],
+  "inTheBox": [
+    { "text": "קומקום שבת Topson TP-892", "sources": ["s1", "s2"], "confidence": "medium", "status": "verified", "note": "s1 ו-s2 חולקים טקסט זהה." },
+    { "text": "בסיס לקומקום", "sources": ["s1", "s2"], "confidence": "medium", "status": "verified", "note": "s1 ו-s2 חולקים טקסט זהה." }
+  ],
+  "installation": [],
+  "content": {
+    "summary": "Topson TP-892B הוא קומקום חשמלי לשבת ולחג בצבע שחור, בנפח 1.8 ליטר ובהספק 1800–2200W. מתג בן 3 מצבים מאפשר הרתחה, שמירת חום וכיבוי, ובשבת ובחג ניתן לנעול את הקומקום אל הבסיס ולהשאיר את המים חמים. המיכל הפנימי מנירוסטה, הדפנות כפולות וגוף החימום נסתר — מתאים לבית שומר שבת שמחפש קומקום אחד גם לימי חול וגם לשבת.",
+    "highlights": [
+      "נפח 1.8 ליטר",
+      "הספק 1800–2200W",
+      "3 מצבים: הרתחה, שמירת חום וכיבוי",
+      "נעילת הקומקום אל הבסיס לשבת ולחג",
+      "מיכל פנימי מנירוסטה, דפנות כפולות ופילטר אבנית"
+    ],
+    "goodFor": [
+      "בית שומר שבת שרוצה מים חמים לאורך השבת והחג — יש מצב שמירת חום ונעילה לבסיס",
+      "מי שמעדיף מכשיר אחד לחול ולשבת במקום קומקום ומיחם נפרדים — אותו מתג מעביר בין הרתחה לשמירת חום",
+      "משפחה שמשאירה את הקומקום חם על השיש לאורך השבת — הדפנות הכפולות מפחיתות את הסיכון לכוויות במגע בגוף הקומקום",
+      "משפחה קטנה עד בינונית — נפח 1.8 ליטר מספיק לכמה כוסות תה וקפה בכל הרתחה"
+    ],
+    "considerations": [
+      "נפח 1.8 ליטר קטן ממיחם שבת רגיל; לאירוח גדול בשבת ייתכן שיידרש מיחם נוסף.",
+      "ההספק מגיע עד 2200W — עדיף לחבר את הקומקום ישירות לשקע בקיר ולא למפצל שמחוברים אליו מכשירי חימום נוספים.",
+      "מידות ומשקל לא פורסמו במקורות שנבדקו; אם המקום על השיש מוגבל, כדאי לבדוק את המוצר בחנות.",
+      "שאלות הלכתיות על אופן השימוש בשבת כדאי לברר מול הוראות היצרן והרב שלכם."
+    ],
+    "faq": [
+      {
+        "q": "האם צריך להטביל את הקומקום?",
+        "a": "לפי המשווקים הקומקום אינו מצריך טבילה, באישור הרב שלמה דידי.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "איך משתמשים בו בשבת?",
+        "a": "במתג יש 3 מצבים: הרתחה, שמירת חום וכיבוי. לשבת ולחג יש מצב שמירת חום שמחזיק את המים בטמפרטורה גבוהה, ומנגנון לנעילת הקומקום אל הבסיס.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "מה הנפח וההספק?",
+        "a": "נפח 1.8 ליטר והספק 1800–2200W.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "מה ההבדל בין TP-892B ל-TP-892?",
+        "a": "TP-892B הוא השם שבו חלק מהמשווקים מציגים את הגרסה השחורה של קומקום Topson TP-892; משווקים אחרים מוכרים אותה בשם 'TP-892 שחור'. הדגם נמכר גם בלבן ובבז׳ בשם TP-892. הדגם שבדף זה הוא השחור.",
+        "sources": ["s1", "s2", "s3", "s5", "s8"]
+      },
+      {
+        "q": "האם המיכל מנירוסטה?",
+        "a": "המיכל הפנימי מנירוסטה, והקומקום בנוי בדפנות כפולות עם גוף חימום פנימי נסתר. חומר הגוף החיצוני לא צוין במקורות.",
+        "sources": ["s1", "s2", "s3"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "קומקום שבת Topson TP-892B שחור: נפח 1.8 ליטר, הספק 1800–2200W, מצב שמירת חום לשבת ונעילה לבסיס, מיכל פנימי נירוסטה. בחדד אלקטריק נהריה",
+    "keywords": [
+      "קומקום שבת טופסון",
+      "Topson TP-892B",
+      "TP-892B",
+      "TP-892",
+      "קומקום שבת 1.8 ליטר",
+      "קומקום שבת שחור",
+      "קומקום מיחם שבת",
+      "קומקום שבת ללא טבילה",
+      "קומקום שבת נירוסטה"
+    ]
+  },
+  "catalogCheck": [
+    { "field": "brand", "catalogValue": "TOPSON", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "name: נפח", "catalogValue": "1.8 ליטר", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "name: צבע", "catalogValue": "שחור", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "name: נירוסטה", "catalogValue": "קומקום שבת נירוסטה", "finding": "unverifiable", "correctValue": "המקורות מציינים נירוסטה רק במיכל הפנימי; חומר הגוף החיצוני לא צוין", "sources": ["s1", "s2", "s3"] },
+    { "field": "origin_country", "catalogValue": "לא צוין במקורות", "finding": "unverifiable", "sources": [] },
+    { "field": "technical_specifications: נפח", "catalogValue": "1.8 ליטר", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "technical_specifications: הספק", "catalogValue": "1800W-2200W", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "technical_specifications: מיכל פנימי", "catalogValue": "מיכל פנימי מנירוסטה", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "technical_specifications: דפנות", "catalogValue": "דפנות כפולות", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "technical_specifications: גוף חימום", "catalogValue": "פנימי נסתר", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "product_capabilities: מצבי פעולה", "catalogValue": "הרתחה, שמירת חום (מצב שבת), וכיבוי", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "product_capabilities: נעילה לבסיס", "catalogValue": "מנגנון נעילה לבסיס", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "product_capabilities: פילטר", "catalogValue": "פילטר לסינון אבנית", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "product_capabilities: ללא טבילה", "catalogValue": "ללא צורך בטבילה (באישור הרב שלמה דידי)", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "product_capabilities: אישור שבת", "catalogValue": "מאושר לשימוש בשבת (באישור הרב שלמה דידי)", "finding": "unverifiable", "sources": ["s1", "s2"] },
+    { "field": "ידית", "catalogValue": "", "finding": "missing-added", "correctValue": "ידית אחיזה גדולה", "sources": ["s1", "s2", "s3"] },
+    { "field": "מתג הפעלה", "catalogValue": "", "finding": "missing-added", "correctValue": "מתג בן 3 מצבים", "sources": ["s1", "s2", "s3"] },
+    { "field": "תכולת האריזה", "catalogValue": "", "finding": "missing-added", "correctValue": "קומקום ובסיס", "sources": ["s1", "s2"] }
+  ],
+  "reviewFlags": [
+    { "field": "אישור לשימוש בשבת", "issue": "הקטלוג כותב 'מאושר לשימוש בשבת באישור הרב שלמה דידי'. רק שני דפים בעלי טקסט זהה (s1, s2) מייחסים לרב דידי אישור שבת; באג (s3) מייחס לו רק פטור מטבילה, וטישלר (s5, גרסת בז׳) כותב 'באישור מכון התקנים'. לא נמצאה תעודת הכשר — יש לבקש מהיבואן את מסמך האישור לפני פרסום טענת הכשר.", "severity": "medium" },
+    { "field": "מקור יצרן", "issue": "TP-892/TP-892B אינו מופיע באתר טופסון הרשמי (s7), ולא נמצאו מדריך משתמש, דף יבואן, מידות, משקל, מתח או אורך כבל. כל העובדות מבוססות על קמעונאים ישראליים בלבד.", "severity": "medium" },
+    { "field": "name", "issue": "שם המוצר בקטלוג 'קומקום שבת נירוסטה...' — המקורות מציינים נירוסטה רק במיכל הפנימי, והגוף בצבע שחור; חומר הגוף החיצוני לא צוין. לשקול ניסוח כמו 'מיכל נירוסטה' (לא לשנות שם ללא בדיקת השפעה על כתובות URL).", "severity": "low" },
+    { "field": "אחריות", "issue": "שנת אחריות מופיעה רק בדפי קמעונאים (s1, s3; s2 כותב 'בכפוף לתקנון החברה') ולא במסמך יבואן; נשמר כלא מאומת.", "severity": "low" },
+    { "field": "סיומת הדגם", "issue": "הסיומת B (שחור) מופיעה רק אצל רפאלי וטוקי; באג מוכר את אותו מוצר בשם 'TP-892 שחור'. מומלץ לאמת מול היבואן את המק״ט המדויק.", "severity": "low" }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "All 8 sources re-opened 2026-11-11: s1 (Refaeli) and s2 (Tuki) in the built-in browser (WebFetch only returns an interstitial for them), s3-s8 via WebFetch. Every verified spec row, feature and box item found on s1 and s2 (identical supplier text) and, except the box contents, on s3. Shabbat approval stays unverified because only the shared s1/s2 text has it. Identity checked: Topson, 1.8 L, black, Shabbat kettle; matchConfidence stays medium. s7 sitemap still has no 892 URL. Changes: (1) Warranty row: removed s2 from its sources and corrected the note, since s2 says only 'בכפוף לתקנון החברה'; updated the warranty reviewFlag to match. (2) Identity notes and the 'דגם' row note now mention that the s2 page has a black/white colour selector, so B = black is not certain. (3) FAQ 'TP-892B vs TP-892' rewritten: it no longer claims all retailers name the black version TP-892B (Bug calls it 'TP-892 שחור') or that the variants have identical specs (white/beige pages are not exact-model). Sources set to s1, s2, s3, s5, s8. (4) goodFor 'בית עם ילדים' rewritten to the burn-risk claim the source makes about long use on the counter. No dimensions found, so there is no combined dimensions row. No price or stock data. Product name unchanged."
+  }
+}

@@ -1,0 +1,352 @@
+{
+ "modelNumber": "ROEN8005BIL",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "ROEN8005BIL",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "דף היבואן ודף טרקלין מזכירים את הדגם במפורש. הקטלוג כותב Bloomberg. מספר הזכוכיות בדלת שונה בין המקורות; הערך לפי היבואן. | QA: Importer (Blomberg Israel / Ralco) and Traklin pages name ROEN8005BIL exactly."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://blomberg.co.il/shop/cook/built-in-oven/roen8005bil/",
+   "publisher": "Blomberg Israel (Ralco)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/%D7%91%D7%99%D7%A9%D7%95%D7%9C_%D7%95%D7%90%D7%A4%D7%99%D7%99%D7%94/%D7%AA%D7%A0%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%A0%D7%95%D7%A8_%D7%91%D7%A0%D7%95%D7%99_%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA_%D7%A9%D7%97%D7%95%D7%A8%D7%94_blomberg_%D7%93%D7%92%D7%9D_roen8005bil_%D7%91%D7%9C%D7%95%D7%9E%D7%91%D7%A8%D7%92",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "72 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קומות נשלפות",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תוכניות אפייה וגריל",
+     "value": "8"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "מכני עד 90 דקות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "label clarified",
+     "label": "סוג הפעלה",
+     "value": "מכני, שלושה כפתורי הפעלה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "importer value; catalog says 3",
+     "label": "מספר זכוכיות בדלת",
+     "value": "2 זכוכיות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.4 × 59.5 × 56.7 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "זכוכית כפולה בדלת תא האפייה, ניתנת לפירוק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דלת ניתנת לפירוק לניקוי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגש עמוק, מגש פיצה ורשת"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "תנור בנוי של Blomberg בגימור זכוכית שחורה, עם תא אפייה בנפח 72 ליטר ודירוג אנרגטי A. ההפעלה מכנית בשלושה כפתורים, עם 8 תוכניות אפייה וגריל וטיימר מכני עד 90 דקות. מתאים למי שמחפש תנור בנוי פשוט לתפעול עם תא אפייה מרווח.",
+  "highlights": [
+   "תא אפייה בנפח 72 ליטר",
+   "דירוג אנרגטי A",
+   "8 תוכניות אפייה וגריל",
+   "טיימר מכני עד 90 דקות",
+   "5 קומות נשלפות לניקוי קל"
+  ],
+  "goodFor": [
+   "מי שמעדיף הפעלה מכנית בכפתורים על פני תצוגה דיגיטלית",
+   "אפייה של מגשים גדולים בזכות תא אפייה בנפח 72 ליטר",
+   "מטבח בעיצוב כהה המשלב גימור זכוכית שחורה"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה במטבח מתאימה למידות התנור: 59.4 × 59.5 × 56.7 ס״מ",
+   "הדלת כוללת 2 זכוכיות לפי היבואן",
+   "הטיימר מכני ומוגבל ל־90 דקות"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח תא האפייה?",
+    "a": "72 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות יש בתנור?",
+    "a": "8 תוכניות אפייה וגריל.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע עם התנור?",
+    "a": "מגש עמוק, מגש פיצה ורשת.",
+    "sources": []
+   },
+   {
+    "q": "האם הדלת ניתנת לפירוק לניקוי?",
+    "a": "כן, הדלת וזכוכית הדלת ניתנות לפירוק, ויש 5 קומות נשלפות לניקוי קל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Blomberg ROEN8005BIL בזכוכית שחורה: תא אפייה 72 ליטר, 8 תוכניות אפייה וגריל ודירוג אנרגטי A. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור בנוי בלומברג",
+   "Blomberg ROEN8005BIL",
+   "ROEN8005BIL",
+   "תנור בנוי שחור",
+   "תנור בנוי מכני",
+   "תנור בנוי 72 ליטר",
+   "תנור בלומברג זכוכית שחורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "71-72 ליטר",
+   "finding": "corrected",
+   "correctValue": "72 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 59.5 ס\"מ, רוחב 59.4 ס\"מ, עומק 56.7 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרה",
+   "catalogValue": "מכני (3 כפתורים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "מכני עד 90 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זכוכית בדלת",
+   "catalogValue": "3 שכבות זכוכית מתפרקות",
+   "finding": "corrected",
+   "correctValue": "2 זכוכיות, זכוכית כפולה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "8 תוכניות בישול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות",
+   "catalogValue": "טורבו אקטיבי, גריל, בישול תלת-ממדי 3D, הפשרה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסילות צד",
+   "catalogValue": "מסילות צד עם 5 קומות נשלפות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "תאורה פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "הקטלוג כותב Bloomberg. היצרן והיבואן כותבים Blomberg.",
+   "severity": "low"
+  },
+  {
+   "field": "glass",
+   "issue": "היבואן מציין 2 זכוכיות בדלת, ואילו טרקלין מציין 3. הערך לפי היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "הקטלוג כותב Bloomberg, היבואן והיצרן כותבים Blomberg.",
+   "severity": "low"
+  },
+  {
+   "field": "door glass",
+   "issue": "הקטלוג מציין 3 שכבות זכוכית בדלת; היבואן מציין 2 זכוכיות (זכוכית כפולה). יש לעדכן את הקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "volume",
+   "issue": "הקטלוג מציין 71-72 ליטר; היבואן מציין 72 ליטר.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against the importer page; door glass count kept at 2 per the importer (catalog says 3 layers, a retailer reportedly says 3). Catalog brand spelling Bloomberg should be Blomberg."
+ }
+}

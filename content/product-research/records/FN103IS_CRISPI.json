@@ -1,0 +1,505 @@
+{
+  "modelNumber": "FN103IS CRISPI",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Ninja (SharkNinja)",
+    "exactModel": "CRISPi FN103",
+    "israeliImporter": "שריג אלקטריק",
+    "matchConfidence": "medium",
+    "notes": "Israeli retailers sell the unit as 'Ninja CRISPi FN103': a control unit with three CleanCrisp glass containers (3.8, 2.3 and 1.4 L), a Hebrew control panel and 1650 W. No page found prints the catalog suffix 'IS' (most likely an Israel-market suffix, unconfirmed). The official importer is named by retailers as Sarig (שריג אלקטריק); its site could not be opened (sarig.com returned 403, and sarig.co.il is an unrelated agency). No SharkNinja manufacturer page, spec sheet or manual for FN103 was found. A German review site lists an FN103EU with 1700 W, one 3.8 L basket, 70–200 °C (overview says up to 185 °C), 7.14 kg and 29.21 × 23.5 × 29.85 cm. That is a different regional variant with different specs and is not used to verify anything here. Bug lists barcode/SKU 622356391863 (SharkNinja GS1 prefix). All verifying sources are Israeli retailer pages for FN103."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.bug.co.il/brand/ninja/crispi/fn103",
+      "publisher": "באג (bug.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.zap.co.il/model.aspx?modelid=1270427",
+      "publisher": "זאפ השוואת מחירים",
+      "kind": "other",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.citydeal.co.il/product/ninja-crispi-fn103",
+      "publisher": "סיטידיל (citydeal.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.soferavi.co.il/מוצרים/סיר-טיגון-נינגה-⁦fn103⁩/",
+      "publisher": "סופר אבי (soferavi.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.smarthomeassistent.de/heissluftfritteusen/ninja-crispi-fn103eu/",
+      "publisher": "SmarthomeAssistent (Germany)",
+      "kind": "review",
+      "market": "EU",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "יצרן",
+          "value": "Ninja",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "דגם",
+          "value": "CRISPi FN103",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Catalog suffix 'IS' not printed on any source."
+        },
+        {
+          "label": "סוג המוצר",
+          "value": "מערכת בישול ניידת מזכוכית לטיגון באוויר חם",
+          "sources": ["s1", "s3"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "יבואן",
+          "value": "שריג אלקטריק",
+          "sources": ["s1", "s3"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Named by retailers; importer site not reachable."
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "30.4 × 34.5 × 34 ס״מ",
+          "sources": ["s1", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "QA: bug (s1) and soferavi (s4) label the values אורך 34, רוחב 30.4, גובה 34.5 cm; citydeal (s3) prints 34 × 30.4 × 34.5 ס״מ. Width and height are taken as labelled; the remaining horizontal value (אורך 34) is the depth. Retailers do not say which container is fitted. The FN103EU page (s5) lists different dimensions for a different variant."
+        },
+        {
+          "label": "משקל",
+          "value": "7.14 ק״ג",
+          "sources": ["s5"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only found for FN103EU, a different variant (1700 W, single basket). No weight found for the Israeli FN103."
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        {
+          "label": "מיכלי זכוכית",
+          "value": "3 מיכלי CleanCrisp",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "נפח המיכל הגדול",
+          "value": "3.8 ליטר",
+          "sources": ["s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "נפח המיכל הבינוני",
+          "value": "2.3 ליטר",
+          "sources": ["s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "נפח המיכל הקטן",
+          "value": "1.4 ליטר",
+          "sources": ["s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        {
+          "label": "מספר תוכניות",
+          "value": "4",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "תוכניות",
+          "value": "טיגון באוויר (Air Fry), צלייה (Roast), חימום מחדש (ReCrisp), שמירת חום (Keep Warm)",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "English program names from citydeal (s3); Hebrew names on all four."
+        },
+        {
+          "label": "טווח טמפרטורות",
+          "value": "70–200 °C",
+          "sources": ["s5"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on the FN103EU page, which itself conflicts (spec table 70–200 °C, overview up to 185 °C). No temperature range found for the Israeli FN103."
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        {
+          "label": "הספק",
+          "value": "1650W",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "The EU FN103EU variant is listed at 1700 W (s5); the Israeli listings agree on 1650 W."
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        {
+          "label": "לוח הפעלה",
+          "value": "פאנל תצוגה בעברית",
+          "sources": ["s1", "s2", "s3"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "חומר המיכלים",
+          "value": "זכוכית עמידה בחום, ללא PFAS וללא PTFE",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "ניקוי",
+          "value": "האביזרים מתאימים לשטיפה במדיח כלים",
+          "sources": ["s1", "s2", "s3"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "צבע",
+          "value": "לא צוין",
+          "sources": [],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "No source states the colour of the Israeli FN103."
+        }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        {
+          "label": "אחריות",
+          "value": "3 שנים (שנה מלאה ושנתיים נוספות מוגבלות) על ידי שריג, היבואן הרשמי",
+          "sources": ["s1", "s3", "s2"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Stated by retailers only (bug, citydeal, zap sellers). The importer's own terms could not be opened, and soferavi (s4) shows a '1 שנות אחריות' banner plus two years for air fryers subject to registration on Sarig's site. Not published until confirmed with the importer."
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "שלושה מיכלי זכוכית שקופים מאפשרים להכין, לבשל, להגיש ולאחסן את המזון באותו כלי",
+      "sources": ["s1", "s3"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "יחידת ההפעלה מזהה את מיכל ה-CleanCrisp שעליו היא מונחת ומתאימה את טמפרטורת הבישול לתוכנית שנבחרה",
+      "sources": ["s1", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "המיכלים שקופים, כך שאפשר לעקוב אחרי האוכל בזמן הבישול בלי לפתוח",
+      "sources": ["s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "רגליות עמידות בחום שמאפשרות להניח את יחידת ההפעלה על משטחים כמו שיש, גרניט ועץ",
+      "sources": ["s1", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "המיכלים נערמים זה בתוך זה לאחסון חסכוני במקום",
+      "sources": ["s1", "s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "תוכנית שמירת חום שומרת על חום המנה לאחר סיום הבישול",
+      "sources": ["s2", "s3"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "עד 75% פחות שומן בהשוואה לשיטות טיגון מסורתיות",
+      "sources": ["s1", "s2", "s3", "s4"],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "Manufacturer marketing claim repeated by retailers; no manufacturer page or test basis found for this model."
+    }
+  ],
+  "inTheBox": [
+    {
+      "text": "יחידת הפעלה Ninja CRISPi",
+      "sources": ["s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "מיכל זכוכית CleanCrisp בנפח 3.8 ליטר",
+      "sources": ["s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "מיכל זכוכית CleanCrisp בנפח 2.3 ליטר",
+      "sources": ["s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "מיכל זכוכית CleanCrisp בנפח 1.4 ליטר",
+      "sources": ["s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "צלחות השחמה (Crisper plates)",
+      "sources": ["s3", "s4"],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "soferavi lists one crisper plate per container; citydeal lists 'צלחות השחמה' without a count."
+    },
+    {
+      "text": "מכסי אחסון למיכלים",
+      "sources": ["s3", "s4"],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "soferavi lists one storage lid per container; citydeal lists 'מכסי אחסון' without a count."
+    },
+    {
+      "text": "מתאם נשלף למיכל הגדול",
+      "sources": ["s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "הוראות הפעלה בעברית וחוברת מתכונים כשרים בעברית",
+      "sources": ["s3"],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "Listed by citydeal only."
+    }
+  ],
+  "installation": [],
+  "content": {
+    "summary": "Ninja CRISPi FN103 היא מערכת ניידת לטיגון באוויר חם: יחידת הפעלה בהספק 1650W שמונחת על אחד משלושה מיכלי זכוכית CleanCrisp בנפחים 3.8, 2.3 ו-1.4 ליטר. יש בה 4 תוכניות (טיגון באוויר, צלייה, חימום מחדש ושמירת חום) ופאנל תצוגה בעברית, והמיכלים עשויים זכוכית עמידה בחום ללא PFAS וללא PTFE. מתאימה למי שרוצה לבשל, להגיש ולאחסן באותו כלי, ולבחור את גודל המיכל לפי כמות האוכל.",
+    "highlights": [
+      "3 מיכלי זכוכית CleanCrisp: 3.8, 2.3 ו-1.4 ליטר",
+      "הספק 1650W",
+      "4 תוכניות: טיגון באוויר, צלייה, חימום מחדש ושמירת חום",
+      "מיכלי זכוכית עמידה בחום, ללא PFAS וללא PTFE, מתאימים למדיח",
+      "פאנל תצוגה בעברית"
+    ],
+    "goodFor": [
+      "משק בית שמבשל כמויות משתנות: המיכל הקטן (1.4 ליטר) למנה אחת או תוספת, והגדול (3.8 ליטר) לארוחה משפחתית",
+      "מי שמעדיף לבשל בזכוכית ולא במשטח מצופה, כי המיכלים ללא PFAS וללא PTFE",
+      "הכנה מראש ואחסון: מכינים, מבשלים, מגישים ושומרים את השאריות באותו מיכל עם מכסה האחסון",
+      "מטבח עם מעט מקום אחסון: המיכלים נערמים זה בתוך זה"
+    ],
+    "considerations": [
+      "בערכה יש יחידת הפעלה אחת שמונחת על מיכל אחד בכל פעם, כך שמבשלים במיכל אחד ולא בשלושתם יחד",
+      "המידות שמפורסמות הן 30.4 × 34.5 × 34 ס״מ (רוחב × גובה × עומק). מדדו את המקום על השיש",
+      "תנאי האחריות מופיעים אצל משווקים בניסוחים שונים. בדקו מול היבואן שריג לפני הרכישה",
+      "טווח הטמפרטורות והמשקל של הדגם הישראלי לא פורסמו במקורות שמצאנו"
+    ],
+    "faq": [
+      {
+        "q": "אילו מיכלים מגיעים עם ה-CRISPi FN103?",
+        "a": "שלושה מיכלי זכוכית CleanCrisp בנפחים 3.8, 2.3 ו-1.4 ליטר, עם צלחות השחמה, מכסי אחסון ומתאם נשלף למיכל הגדול.",
+        "sources": ["s3", "s4"]
+      },
+      {
+        "q": "אילו תוכניות בישול יש בו?",
+        "a": "4 תוכניות: טיגון באוויר, צלייה, חימום מחדש ושמירת חום. יחידת ההפעלה מזהה את המיכל ומתאימה את טמפרטורת הבישול לתוכנית שנבחרה.",
+        "sources": ["s1", "s4"]
+      },
+      {
+        "q": "מה ההספק של המכשיר?",
+        "a": "1650W.",
+        "sources": ["s1", "s2", "s3", "s4"]
+      },
+      {
+        "q": "אפשר לשטוף את המיכלים במדיח?",
+        "a": "כן. המשווקים מציינים שכל האביזרים מתאימים לשטיפה במדיח כלים.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "אפשר להניח את יחידת ההפעלה על שיש או עץ?",
+        "a": "כן. ליחידת ההפעלה רגליות עמידות בחום שמיועדות להנחה על משטחים כמו שיש, גרניט ועץ.",
+        "sources": ["s1", "s4"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "סיר טיגון באוויר Ninja CRISPi FN103 עם 3 מיכלי זכוכית (3.8, 2.3 ו-1.4 ליטר), 1650W ו-4 תוכניות, פאנל בעברית. בחדד אלקטריק נהריה",
+    "keywords": [
+      "נינג'ה קריספי FN103",
+      "Ninja CRISPi FN103",
+      "FN103",
+      "סיר טיגון באוויר זכוכית",
+      "סיר טיגון ללא שמן נינג'ה",
+      "נינג'ה קריספי 3 מיכלים",
+      "מערכת בישול ניידת מזכוכית",
+      "סיר טיגון באוויר ללא PFAS"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "name: סוג המוצר (סיר לטיגון באוויר חם)",
+      "catalogValue": "סיר לטיגון באוויר חם",
+      "finding": "confirmed",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "name: מספר קערות",
+      "catalogValue": "3 קערות זכוכית",
+      "finding": "confirmed",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "name: נפחי הקערות",
+      "catalogValue": "3.8+2.3+1.4 ליטר",
+      "finding": "confirmed",
+      "sources": ["s2", "s3", "s4"]
+    },
+    {
+      "field": "brand",
+      "catalogValue": "Ninja",
+      "finding": "confirmed",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "model_number",
+      "catalogValue": "FN103IS CRISPI",
+      "finding": "unverifiable",
+      "correctValue": "CRISPi FN103 (הסיומת IS לא מופיעה באף מקור; אין לשנות את מפתח הקטלוג)",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "category",
+      "catalogValue": "סירי טיגון באוויר",
+      "finding": "confirmed",
+      "sources": ["s2", "s3"]
+    },
+    {
+      "field": "origin_country",
+      "catalogValue": "",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "הספק",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "1650W",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "תוכניות",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "4 תוכניות: טיגון באוויר, צלייה, חימום מחדש, שמירת חום",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "מידות (רוחב × גובה × עומק)",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "30.4 × 34.5 × 34 ס״מ",
+      "sources": ["s1", "s3", "s4"]
+    },
+    {
+      "field": "חומר המיכלים",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "זכוכית עמידה בחום, ללא PFAS וללא PTFE",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "לוח הפעלה",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "פאנל תצוגה בעברית",
+      "sources": ["s1", "s2", "s3"]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "identity",
+      "issue": "No manufacturer, importer page or manual found for FN103; all verifying sources are Israeli retailers. Importer Sarig's site (sarig.com) returned 403. The catalog suffix 'IS' is not printed anywhere.",
+      "severity": "medium"
+    },
+    {
+      "field": "warranty",
+      "issue": "Retailers state 3 years by Sarig (1 full + 2 limited); soferavi shows a 1-year banner and a 2-year air-fryer term subject to registration. Confirm with the importer before publishing a warranty.",
+      "severity": "medium"
+    },
+    {
+      "field": "variant",
+      "issue": "An EU variant FN103EU exists with different specs (1700 W, single 3.8 L basket, 7.14 kg, 29.21 × 23.5 × 29.85 cm). Do not copy EU data into the Israeli record.",
+      "severity": "low"
+    },
+    {
+      "field": "specs missing",
+      "issue": "Temperature range, weight, colour and cable length for the Israeli FN103 were not found on any exact-model source.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-10",
+    "verdict": "pass-with-fixes",
+    "notes": "Re-opened all 5 sources (bug, zap, citydeal, soferavi, smarthomeassistent.de); all loaded. s1–s4 name Ninja CRISPi FN103 (no 'IS' suffix anywhere; identity stays medium). s5 confirmed FN103EU (1700 W, single basket, 7.14 kg), so it stays exactModel false. Every verified row was found on its cited pages: 1650W, 3 containers of 3.8/2.3/1.4 L (not on bug, but on zap, citydeal and soferavi as cited), 4 programs, Hebrew panel, heat-resistant PFAS/PTFE-free glass, dishwasher-safe accessories, importer Sarig, heat-resistant feet, container detection, stacking, see-through containers, in-the-box items. Changes: (1) the dimensions row was relabelled to the required combined row 'מידות (רוחב × גובה × עומק)' with value 30.4 × 34.5 × 34 ס״מ. Width and height are as the retailers label them, and the remaining length value is the depth. The considerations line and the catalogCheck entry were updated to match. (2) goodFor: removed 'במקרר'. Fridge storage appears on bug only (one source), not on a second verified source. (3) Summary reworded: the unit sits on one of the three containers, not on all three. (4) The considerations line on one control unit was reworded to tie it to the in-the-box list. (5) The unverified in-the-box item now matches citydeal's wording, 'חוברת מתכונים כשרים בעברית'. Kept unverified: weight, temperature range, colour, 3-year warranty (soferavi shows a 1-year badge), 75% less-fat claim. No price or stock data is present. The product name was not changed."
+  }
+}

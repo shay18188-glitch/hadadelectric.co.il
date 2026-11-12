@@ -39,6 +39,19 @@ export interface Product {
    * description, and it is the only product copy with a named author.
    */
   expertNote: string | null;
+  /**
+   * The model code to show, when the store owner confirmed that the feed's
+   * code is wrong (e.g. the feed says "RD67EBK", the unit is an RD67BK).
+   * `modelNumber` stays the feed's code: it is the join key and part of the
+   * slug, so URLs, the request basket and stock lookups are unaffected.
+   * Read it through `shownModel`.
+   */
+  displayModelNumber?: string;
+}
+
+/** The model code a visitor should see: the confirmed one, else the feed's. */
+export function shownModel(product: Pick<Product, "modelNumber" | "displayModelNumber">): string {
+  return product.displayModelNumber ?? product.modelNumber;
 }
 
 export interface RequestBasketItem {

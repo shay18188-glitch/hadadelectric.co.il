@@ -1,0 +1,328 @@
+{
+ "modelNumber": "HEM-2616",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-2616",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "medium",
+  "notes": "Bug.co.il product page names HEM-2616 and states official importer. Catalog lists the brand as Hemilton. A search snippet from cwc.co.il titled the same model with MIDEA; that page was not fetched (HTTP 403), so it is not evidence. | QA: Bug.co.il names Hemilton HEM-2616 as a domino induction hob for the countertop. It is the only fetched source. A cwc.co.il snippet (not fetched) titled the model with MIDEA, so the manufacturer and Israeli importer need a manual check."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/כירת-אינדוקציה-דומינו-על-השיש-hemilton-948875144",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "3000 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "55.5 × 6.5 × 32 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דרגות עוצמת בישול",
+     "value": "9"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "עד 99 דקות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Retailer page warranty statement",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת האחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Contradicts the catalog's 'digital' wording",
+   "text": "הפעלה באמצעות בוררים מכניים קדמיים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הגנה מפני התחממות יתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כיבוי בטיחותי אוטומטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נעילת בטיחות לילדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מתאימה להנחה על השיש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "היא מתאימה למי שמחפש משטח בישול נוסף או נייד בלי התקנה בשיש.",
+  "highlights": [
+   "בוררים מכניים קדמיים",
+   "נעילת בטיחות לילדים והגנה מפני התחממות יתר"
+  ],
+  "goodFor": [
+   "תוספת משטח בישול על השיש בלי התקנה בנישה",
+   "מי שמעדיף הפעלה בבוררים מכניים על פני מגע",
+   "בית עם ילדים, בזכות נעילת הבטיחות",
+   "דירה שכורה או מטבח זמני"
+  ],
+  "considerations": [
+   "כירת אינדוקציה דורשת סירים המתאימים לאינדוקציה",
+   "מספר מוקדי החימום לא מאומת במקור, כדאי לבדוק בחנות"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך להתקין את הכירה בשיש?",
+    "a": "לא, היא מיועדת להנחה על גבי השיש.",
+    "sources": []
+   },
+   {
+    "q": "איך מפעילים את הכירה?",
+    "a": "באמצעות בוררים מכניים קדמיים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "כירת אינדוקציה על השיש",
+   "HEM-2616",
+   "המילטון כירת אינדוקציה",
+   "Hemilton HEM-2616",
+   "כירת אינדוקציה דומינו",
+   "כירת אינדוקציה עם כפתורים",
+   "כיריים אינדוקציה ניידות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק כולל",
+   "catalogValue": "3000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "רוחב 55.5 ס\"מ, עומק 32 ס\"מ, גובה 6.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 99 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות עוצמת בישול",
+   "catalogValue": "9 דרגות עוצמת בישול לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הפעלה באמצעות בוררים",
+   "catalogValue": "הפעלה באמצעות בוררים (כפתורים) קדמיים דיגיטליים",
+   "finding": "contradicted",
+   "correctValue": "הפעלה באמצעות בוררים מכניים קדמיים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנה מפני התחממות יתר",
+   "catalogValue": "הגנה מפני התחממות יתר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון כיבוי בטיחותי אוטומטי",
+   "catalogValue": "מנגנון כיבוי בטיחותי אוטומטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "נעילת בטיחות לילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתאימה לשימוש על גבי השיש",
+   "catalogValue": "מתאימה לשימוש על גבי השיש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מוקדי חימום",
+   "catalogValue": "2 (דומינו)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג משטח",
+   "catalogValue": "זכוכית קריסטלית שחורה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבור חשמל",
+   "catalogValue": "חד פאזי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זיהוי אוטומטי של סירים",
+   "catalogValue": "זיהוי אוטומטי של סירים מתאימים לאינדוקציה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הפעלה באמצעות בוררים",
+   "issue": "Catalog says digital front selectors; the Bug.co.il page says mechanical front selectors. A snippet from cwc.co.il also says digital, but that page was not fetched.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר מוקדי חימום",
+   "issue": "Zone count is unclear. Bug.co.il calls it a domino-style hob without stating a count. Catalog says 2. A Payngo search snippet describes a single cooking surface, and a CWC snippet says two. Neither was fetched.",
+   "severity": "medium"
+  },
+  {
+   "field": "יצרן",
+   "issue": "Only one retailer page was fetched (Bug.co.il). The brand site search for HEM-2616 returned nothing. A cwc.co.il search snippet titled the model with MIDEA, which conflicts with the Hemilton brand in the catalog. Manufacturer and origin need a manual check.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "Country of origin (China per catalog) is not confirmed by any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "הפעלה",
+   "issue": "Catalog says digital front selectors; Bug.co.il says mechanical front selectors. Check the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר מוקדי חימום",
+   "issue": "Catalog says 2 zones (domino); no fetched page states the zone count.",
+   "severity": "medium"
+  },
+  {
+   "field": "יצרן / יבואן",
+   "issue": "Only one retailer page was fetched. An unfetched cwc.co.il snippet titled the model with MIDEA. Manufacturer and Israeli importer need a manual check.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "Country of origin (China per catalog) is not confirmed.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features rest on a single Israeli retailer page (Bug.co.il) that names HEM-2616. Feature 0 contradicts the catalog: the page says mechanical front selectors, the catalog says digital. Zone count, surface material, electrical connection and pot detection are unverified and not published. | code guard removed: summary: \"Hemilton HEM-2616 היא כירת אינדוקציה בסגנון דומינו להנחה על השיש, בהספק 3000W.\"; summary: \"ההפעלה נעשית בבוררים מכניים קדמיים, עם 9 דרגות עוצמה וטיימר עד 99 דקות.\"; faq: \"מה ההספק של הכירה?\"; faq: \"כמה דרגות עוצמה יש?\"; faq: \"האם יש טיימר?\"; metaDescription: \"כירת אינדוקציה דומינו Hemilton HEM-2616 להנחה על השיש, הספק 3000W ו-9 דרגות עוצמה עם בוררים מכניים וטיימר. בחדד אלקטריק נהריה\"; highlight: \"הספק 3000W\"; highlight: \"9 דרגות עוצמת בישול\"; highlight: \"טיימר עד 99 דקות\"; consideration: \"ודאו שיש על השיש מקום פנוי של 55.5 × 32 ס״מ\"; consideration: \"בהספק 3000W כדאי לחבר לשקע נפרד ותקין ולא למפצל\""
+ }
+}

@@ -1,0 +1,812 @@
+{
+  "modelNumber": "TTD-800DS",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "TELEFUNKEN",
+    "exactModel": "TTD-800DS",
+    "israeliImporter": null,
+    "matchConfidence": "medium",
+    "notes": "No manufacturer, importer, manual or EPREL document for TTD-800DS was found; all sources are Israeli retailer pages for the exact model. Payngo lists the model both as 'HEAT PUMP TDD 800DS' (title) and 'TTD-800DS' (spec table); CH-CH (via Zap search for ttd-800ds) spells it 'TDD-800DS'. Treated as the same SKU (TDD looks like a typo). Home Center and CH-CH descriptions are copied from the white sibling TTD-800WH / TDD-800WH (they say 'white body, black door frame'), so body colour is unreliable there; spec values are identical across all three pages. Importer name: CH-CH states 'היבואן הרשמי ב.ט.י אלקטרוניקה בע\"מ'; Payngo lists service provider 'ב.ט.י אלק' בע\"מ' — not confirmed by an importer page. QA 2026-11-10: Home Center (s2) is a TTD-800DS listing by title and SKU, but its whole description and spec block are explicitly for TDD-800WH (white sibling), so s2 is marked exactModel:false and no longer counts toward verification. CH-CH (s3) names TDD-800DS at the start and end of its full spec text (with some copied WH sentences), so it stays exact. Importer set to null: CH-CH says 'היבואן הרשמי ב.ט.י אלקטרוניקה בע\"מ', Payngo lists 'ב.ט.י אלקטרוניקה מותגי יוקרה בע\"מ' under the warranty; retailer statements only, slightly different names, not confirmed by an importer page."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.payngo.co.il/391201.html",
+      "publisher": "מחסני חשמל (Payngo)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.homecenter.co.il/products/1791203649558",
+      "publisher": "הום סנטר",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.ch-ch.co.il/items/9682184",
+      "publisher": "חשמל חכם (CH-CH)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "דגם",
+          "value": "TTD-800DS",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "Only the s1 spec table writes TTD-800DS (its title says TDD 800DS); s3 writes TDD-800DS; s2 title says TTD-800DS but s2 is not exact-model. Spelling not confirmed by two exact-model sources."
+        },
+        {
+          "label": "סוג מייבש",
+          "value": "משאבת חום (Heat Pump)",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "59.8 × 84.5 × 52.5 ס״מ",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "s1: 59.8 × 84.5 × 52.5; s3 gives width 60 ס״מ (rounded), same height and depth. s2 has the same values but its spec text is for TDD-800WH, so it is not counted."
+        },
+        {
+          "label": "משקל",
+          "value": "38 ק״ג",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "מידות באריזה (רוחב × גובה × עומק)",
+          "value": "64.7 × 89 × 57 ס״מ",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "s1: 64.7 × 89 × 57; s3 gives 65 × 89 × 57 (rounded)."
+        },
+        {
+          "label": "משקל כולל אריזה",
+          "value": "41 ק״ג",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        {
+          "label": "קיבולת ייבוש",
+          "value": "8 ק״ג",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "נפח התוף",
+          "value": "93 ליטר",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "קוטר התוף הפנימי",
+          "value": "580 מ״מ",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "עומק התוף הפנימי",
+          "value": "343 מ״מ",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        {
+          "label": "מערכת ייבוש",
+          "value": "משאבת חום עם מדחס AC",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "סוג מנוע",
+          "value": "AC",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "גז קירור",
+          "value": "R290",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "מספר מסננים",
+          "value": "4",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "מכל מים",
+          "value": "ללא — ניקוז ישיר לביוב",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "s2 confirms 'מכל מים: ללא' but does not mention drain connection"
+        }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        {
+          "label": "מספר תוכניות",
+          "value": "11",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "תוכניות ייבוש",
+          "value": "מעורבת, מהירה, ECO, סינתטיים, עדינים, ייבוש לפי זמן, כביסה כבדה, רבע קיבולת, שיער חיות מחמד, חימום, חיטוי",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "השהיית התחלה",
+          "value": "2 / 4 / 6 / 8 שעות",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "קביעת זמן ייבוש",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "בחירת רמת ייבוש",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        {
+          "label": "דירוג אנרגטי",
+          "value": "E (סולם אירופי, כפי שמצוין אצל המשווקים)",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Retailers say 'דירוג אנרגטי אירופי: E' without naming the label version; no EPREL record found. Annual kWh not published."
+        },
+        {
+          "label": "הספק כניסה נקוב",
+          "value": "600W",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "מתח הפעלה",
+          "value": "220–240V AC",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "תדר",
+          "value": "50Hz",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        {
+          "label": "צבע גוף",
+          "value": "אפור כהה",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "low",
+          "status": "conflict",
+          "note": "s1 spec: 'גוף המוצר- אפור כהה'; s2 title 'דארק סילבר' but body text 'גוון לבן'; s3 title 'צבע נירוסטה' but body text 'גוון לבן' (copied from TTD-800WH)"
+        },
+        {
+          "label": "צבע מסגרת הדלת",
+          "value": "שחור",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "חומר התוף",
+          "value": "פלדה מגולוונת",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "מבנה התוף",
+          "value": "Comb type",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "מרימי כביסה",
+          "value": "Mountain Lifter",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "דלת",
+          "value": "שכבה אחת, קוטר מסגרת 500 מ״מ",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "זווית פתיחת הדלת",
+          "value": "150°",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "תפעול",
+          "value": "לחצני מגע ונוריות חיווי",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "rows": [
+        {
+          "label": "דרגת הגנה ממים",
+          "value": "IPX4",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "חיווי תקלות",
+          "value": "כן, כולל התראה קולית",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        {
+          "label": "אחריות",
+          "value": "12 חודשים, אחריות יבואן",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "Stated by two retailers (s1: 'אחריות יבואן, 12 חודשים מיום הרכישה'; s3: 'שירות ואחריות לשנה ע\"י היבואן הרשמי'), not by the importer itself"
+        },
+        {
+          "label": "נותן שירות",
+          "value": "ב.ט.י אלקטרוניקה בע״מ",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "s1 lists 'ב.ט.י אלקטרוניקה מותגי יוקרה בע\"מ' and service provider 'ב.ט.י אלק' בע\"מ 03-5509162'; s3 names 'ב.ט.י אלקטרוניקה בע\"מ' as official importer; no importer page found"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "ייבוש בטכנולוגיית משאבת חום (Heat Pump) עם מדחס AC וגז קירור R290",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "ניקוז ישיר לביוב — ללא מכל מים שיש לרוקן אחרי כל ייבוש",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "11 תוכניות ייבוש, ביניהן ECO, מהירה, עדינים, כביסה כבדה, שיער חיות מחמד וחיטוי",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "השהיית התחלה ל־2, 4, 6 או 8 שעות",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "בחירת רמת ייבוש וקביעת זמן ייבוש",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "דלת עם מסגרת בקוטר 500 מ״מ הנפתחת עד 150°",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "חיווי תקלות עם התראה קולית",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    }
+  ],
+  "inTheBox": [],
+  "installation": [
+    {
+      "text": "יש לחבר את צינור הניקוז של המייבש לנקודת ניקוז לביוב — למייבש אין מכל מים",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "From retailer descriptions, not from a manual; hose length and drain height not published"
+    },
+    {
+      "text": "מידות המכשיר 59.8 × 84.5 × 52.5 ס״מ (רוחב × גובה × עומק) — יש לוודא שהמקום מתאים, כולל מרווח לפתיחת הדלת",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    }
+  ],
+  "content": {
+    "summary": "TELEFUNKEN TTD-800DS הוא מייבש כביסה עם משאבת חום (Heat Pump) בקיבולת 8 ק״ג ותוף בנפח 93 ליטר. יש בו 11 תוכניות ייבוש, השהיית התחלה עד 8 שעות ובחירת רמת ייבוש, ומי העיבוי מתנקזים ישירות לביוב, כך שאין מכל מים לרוקן. הספק הכניסה הנקוב הוא 600W, ועומק המכשיר 52.5 ס״מ.",
+    "highlights": [
+      "קיבולת ייבוש 8 ק״ג ותוף 93 ליטר",
+      "משאבת חום עם גז קירור R290 והספק כניסה נקוב 600W",
+      "11 תוכניות ייבוש, כולל ECO, שיער חיות מחמד וחיטוי",
+      "ניקוז ישיר לביוב — ללא מכל מים",
+      "השהיית התחלה של 2, 4, 6 או 8 שעות"
+    ],
+    "goodFor": [
+      "משפחות שמייבשות כביסה באופן שוטף — קיבולת של 8 ק״ג מאפשרת לייבש עומס של עד 8 ק״ג בבת אחת",
+      "בית עם חיות מחמד — יש תוכנית ייעודית לשיער חיות מחמד",
+      "מי שלא רוצה לרוקן מכל מים — המייבש מתנקז ישירות לביוב",
+      "מי שרוצה לתזמן ייבוש לשעה מסוימת — השהיית התחלה של עד 8 שעות"
+    ],
+    "considerations": [
+      "נדרשת נקודת ניקוז לביוב ליד מקום ההתקנה, כי אין למייבש מכל מים",
+      "מדדו את המקום: 59.8 ס״מ רוחב, 84.5 ס״מ גובה ו-52.5 ס״מ עומק, והשאירו מקום לדלת שנפתחת עד 150°",
+      "אם מתכננים להציב את המייבש מעל מכונת כביסה, בררו מול היבואן אם הדבר אפשרי ואיזו ערכת חיבור נדרשת — המשווקים אינם מציינים זאת. משקל המכשיר 38 ק״ג",
+      "הדירוג האנרגטי שמצוין אצל המשווקים הוא E בסולם האירופי, ואין נתון רשמי של צריכה שנתית"
+    ],
+    "faq": [
+      {
+        "q": "האם צריך לרוקן מכל מים במייבש TTD-800DS?",
+        "a": "לא. למייבש אין מכל מים; מי העיבוי מתנקזים דרך צינור ישירות לביוב, ולכן צריך נקודת ניקוז ליד מקום ההתקנה.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "q": "כמה כביסה המייבש מייבש בבת אחת?",
+        "a": "קיבולת הייבוש היא 8 ק״ג, ונפח התוף 93 ליטר.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "q": "אילו תוכניות יש במייבש?",
+        "a": "11 תוכניות: מעורבת, מהירה, ECO, סינתטיים, עדינים, ייבוש לפי זמן, כביסה כבדה, רבע קיבולת, שיער חיות מחמד, חימום וחיטוי.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "q": "מה המידות של המייבש?",
+        "a": "59.8 ס״מ רוחב, 84.5 ס״מ גובה ו-52.5 ס״מ עומק, ומשקלו 38 ק״ג.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "q": "אפשר לתזמן את תחילת הייבוש?",
+        "a": "כן, אפשר להשהות את ההתחלה ב־2, 4, 6 או 8 שעות.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "מייבש כביסה טלפונקן TTD-800DS עם משאבת חום: קיבולת 8 ק״ג, תוף 93 ליטר, 11 תוכניות ייבוש וניקוז ישיר לביוב. בחדד אלקטריק נהריה",
+    "keywords": [
+      "TTD-800DS",
+      "טלפונקן TTD-800DS",
+      "מייבש כביסה טלפונקן",
+      "מייבש כביסה היט פאמפ 8 ק\"ג",
+      "מייבש משאבת חום 8 ק״ג",
+      "Telefunken TTD-800DS",
+      "TDD-800DS",
+      "מייבש כביסה ניקוז לביוב"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "name: קיבולת",
+      "catalogValue": "8 ק\"ג",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "name: סוג מייבש",
+      "catalogValue": "היט פאמפ",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "name: צבע",
+      "catalogValue": "אפור",
+      "finding": "unverifiable",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "field": "name: (קלינטון)",
+      "catalogValue": "קלינטון",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "brand",
+      "catalogValue": "TELEFUNKEN",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "category",
+      "catalogValue": "מייבשי כביסה",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "origin_country",
+      "catalogValue": "",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "נפח התוף",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "93 ליטר",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "מספר תוכניות",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "11",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "הספק כניסה נקוב",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "600W",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "מידות (רוחב × גובה × עומק)",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "59.8 × 84.5 × 52.5 ס״מ",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "משקל",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "38 ק״ג",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "ניקוז",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "ניקוז ישיר לביוב, ללא מכל מים",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "דירוג אנרגטי",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "E (סולם אירופי, לפי המשווקים)",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "גז קירור",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "R290",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "sources",
+      "issue": "No manufacturer, importer, user manual or EPREL source found for TTD-800DS; every fact rests on three Israeli retailer pages (Payngo, Home Center, CH-CH) whose texts appear to share one supplier description. Confirm against the importer's spec sheet or the unit's rating plate.",
+      "severity": "medium"
+    },
+    {
+      "field": "name: צבע",
+      "issue": "Body colour conflicts: Payngo spec says dark grey (אפור כהה), Home Center title says dark silver but body text says white, CH-CH title says stainless (נירוסטה) but body text says white. Catalog name says אפור. Check the actual unit.",
+      "severity": "medium"
+    },
+    {
+      "field": "name: (קלינטון)",
+      "issue": "The catalog name contains '(קלינטון)', which appears on no source. Unknown meaning (supplier/line name?). Name not changed — review whether it belongs in a customer-facing title.",
+      "severity": "low"
+    },
+    {
+      "field": "energy",
+      "issue": "Retailers list 'דירוג אנרגטי אירופי: E' without the label version or annual kWh; E is unusual for a heat-pump dryer and no EPREL entry was found. Verify with the importer before relying on it.",
+      "severity": "medium"
+    },
+    {
+      "field": "identity.exactModel",
+      "issue": "Model is spelled both TTD-800DS and TDD-800DS on retailer pages (Payngo uses both). Confirm the spelling on the rating plate.",
+      "severity": "low"
+    },
+    {
+      "field": "warranty",
+      "issue": "12-month importer warranty and service by ב.ט.י אלקטרוניקה בע״מ are stated only by retailers (Payngo, CH-CH); kept unverified until confirmed with the importer.",
+      "severity": "low"
+    },
+    {
+      "field": "origin_country",
+      "issue": "Country of manufacture not stated on any source found.",
+      "severity": "low"
+    },
+    {
+      "field": "identity.israeliImporter",
+      "issue": "Importer left null by QA: only retailers name ב.ט.י אלקטרוניקה (CH-CH: 'ב.ט.י אלקטרוניקה בע\"מ'; Payngo: 'ב.ט.י אלקטרוניקה מותגי יוקרה בע\"מ'). Confirm with the importer and fill in.",
+      "severity": "low"
+    },
+    {
+      "field": "sources.s2",
+      "issue": "The Home Center page for TTD-800DS carries the TDD-800WH description and specs (body colour white), so it is not counted as an exact-model source. Retailer content for this SKU appears copied from the white sibling.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-10",
+    "verdict": "pass-with-fixes",
+    "notes": "Re-opened all 3 sources in the built-in browser (WebFetch got 403 / 429 / an empty shell). Payngo (s1) and CH-CH (s3) confirm every verified spec value; s3 rounds the width to 60 and the packed width to 65. Changes: (1) s2 Home Center set exactModel:false because its description and spec block are explicitly for TDD-800WH; s2 removed from all verified rows, features, installation, FAQ and catalogCheck, which now cite s1+s3. (2) Model row TTD-800DS downgraded to unverified: only the s1 spec table spells TTD, s3 spells TDD. (3) identity.israeliImporter set to null: retailer-only, two slightly different company names; candidate kept in notes and flagged. (4) Service-provider note updated with Payngo's full importer name. (5) Summary: removed the unsupported judgment 'בסיסי' and the who-it-fits clause built on it. (6) Stacking consideration rewritten: no source says the dryer can be stacked. (7) goodFor wording tightened. (8) Added 2 review flags (importer, s2 sibling text). No price or stock data present; product name unchanged; colour conflict and warranty remain withheld."
+  }
+}

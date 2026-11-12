@@ -1,0 +1,917 @@
+{
+  "modelNumber": "RD75SLK",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Hisense",
+    "exactModel": "RD75SLK",
+    "israeliImporter": "קבוצת ח.י. (סינודן בע״מ)",
+    "matchConfidence": "high",
+    "notes": "The importer (hye.co.il, קבוצת ח.י.) has an exact-model page with SKU RD75SLK, a product sheet titled RD75SLK and a Hebrew manual that covers RD-75SLK and RD-75BK (the BK variant is the black model, the same manual). The importer page URL carries EAN 6921727079183. Some retailers (citydeal) list an RD75ESLK with the same published figures; that suffix was not confirmed by the importer and was not used as a source for any fact. The importer page currently shows 'אזל מהמלאי' and 'דגם זה אינו זמין למכירה'."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.hye.co.il/6921727079183.html",
+      "publisher": "קבוצת ח.י. (hye.co.il) – היבואן הרשמי של Hisense",
+      "kind": "importer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.hye.co.il/mwdownloads/download/link/id/816/",
+      "publisher": "קבוצת ח.י. – דף מוצר RD75 (PDF)",
+      "kind": "importer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.hye.co.il/mwdownloads/download/link/id/819/",
+      "publisher": "קבוצת ח.י. – הוראות הפעלה למקררים RD-75SLK / RD-75BK (PDF)",
+      "kind": "manual",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-%D7%94%D7%99%D7%99%D7%A1%D7%A0%D7%A1-rd75slk-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94/",
+      "publisher": "סופר אבי",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.hye.co.il/mwdownloads/download/link/id/125/",
+      "publisher": "קבוצת ח.י. – תעודת אחריות מקררי הייסנס 3 שנים (PDF, כללית לכל מקררי Hisense)",
+      "kind": "importer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.mabatelectric.com/pl_product~sku-66daa4fc57f44~120~0.htm",
+      "publisher": "מבט אלקטריק",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "יצרן",
+          "value": "Hisense",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "דגם",
+          "value": "RD75SLK",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סוג",
+          "value": "מקרר מקפיא עליון, 2 דלתות",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "יבואן רשמי",
+          "value": "קבוצת ח.י. (סינודן בע״מ)",
+          "sources": [
+            "s1",
+            "s3",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "s1/s3 name קבוצת ח.י.; the importer's warranty certificate (s5) names סינודן בע״מ as the importer of Hisense products."
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "79.4 × 185 × 72.5 ס״מ",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Importer spec table (s1) and importer product sheet (s2) both give H 185, D 72.5, W 79.4 cm. Retailers s4/s6 print depth 72.6 cm, so they are not cited for this row. The researcher reported an installation drawing in the manual (s3, p.8) showing 790 × 1720 × 685 mm; QA could not confirm those figures from the manual's text (they appear only in the drawing). Flagged for review."
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        {
+          "label": "נפח כולל",
+          "value": "559 ליטר",
+          "sources": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "נפח תא קירור",
+          "value": "440 ליטר",
+          "sources": [
+            "s1",
+            "s2",
+            "s4",
+            "s6"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "נפח תא הקפאה",
+          "value": "119 ליטר",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "Importer page and product sheet say 119 L (440 + 119 = 559). Retailers s4 (technical section) and s6 print 118 L; importer preferred."
+        },
+        {
+          "label": "דירוג כוכבי הקפאה",
+          "value": "4 כוכבים, עם כושר הקפאה מהיר",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מדפים בתא הקירור",
+          "value": "4 מדפי זכוכית, 3 מהם ניתנים לשינוי גובה",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מדפים בדלת תא הקירור",
+          "value": "2 מדפים גדולים שקופים + 4 מדפים שקופים ניתנים לשינוי גובה",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מגירות",
+          "value": "מגירה גדולה שקופה לפירות וירקות עם חוצץ",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מדף עליון נשלף",
+          "value": "מדף מגירה עליון נשלף לגישה נוחה (EASY APPROACH)",
+          "sources": [
+            "s2",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "תא ההקפאה",
+          "value": "מדף אחד בתא + 2 מדפים בדלת",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        {
+          "label": "שיטת קירור",
+          "value": "Total No Frost – ללא צורך בהפשרה ידנית",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "זרימת אוויר",
+          "value": "Multi Air Flow – פיזור אוויר קר רב־מוקדי",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מדחס",
+          "value": "אינוורטר",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "גז קירור",
+          "value": "R600a (איזובוטאן)",
+          "sources": [
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "טווח טמפרטורה – תא קירור",
+          "value": "2°C עד 8°C (ברירת מחדל 4°C)",
+          "sources": [
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "טווח טמפרטורה – תא הקפאה",
+          "value": "‎-14°C עד ‎-24°C (ברירת מחדל ‎-18°C)",
+          "sources": [
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מדרג אקלים",
+          "value": "T (טרופי) – טמפרטורת סביבה ‎+16°C עד ‎+43°C",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        {
+          "label": "מצב שבת",
+          "value": "מנגנון שבת וחג – עד 80 שעות רצופות, יציאה אוטומטית בסיום",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Super Freeze",
+          "value": "הקפאה מוגברת: יעד ‎-24°C, כיבוי אוטומטי אחרי 52 שעות",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "ECO MODE",
+          "value": "מצב חיסכון: תא קירור 6°C ותא הקפאה ‎-17°C",
+          "sources": [
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "התרעת דלת פתוחה",
+          "value": "צליל התרעה אחרי כ־2 דקות של דלת פתוחה",
+          "sources": [
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        {
+          "label": "דירוג אנרגטי",
+          "value": "F (לפי תקנות סימון האנרגיה החדשות)",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "Importer sheet: 'F (על-פי התקנות החדשות)'. Annual kWh not published by any source found."
+        },
+        {
+          "label": "מתח הפעלה",
+          "value": "230V~50Hz",
+          "sources": [
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "חיבור חשמל",
+          "value": "שקע מוארק בהארקה תקנית, מוגן בנתיך של 10A לפחות",
+          "sources": [
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        {
+          "label": "גימור",
+          "value": "נירוסטה מוברשת",
+          "sources": [
+            "s2",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Importer product sheet: 'צבע: נירוסטה מוברשת'; importer page title: 'בצבע נירוסטה'. The importer page spec table says 'נירוסטה שחורה' — likely carried over from the black RD-75BK; flagged."
+        },
+        {
+          "label": "ציפוי",
+          "value": "ציפוי VCM דוחה טביעות אצבע",
+          "sources": [
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "ידיות",
+          "value": "ידיות אינטגרליות",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "תצוגה",
+          "value": "צג אלקטרוני חיצוני להצגת טמפרטורה",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "תאורה",
+          "value": "LED פנימית בתא הקירור ובתא ההקפאה",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "גב המקרר",
+          "value": "גב חלק וישר להצמדה לקיר",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "כיוון פתיחת הדלת",
+          "value": "לימין",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only in the importer page's generic spec table (the same table wrongly says 'נירוסטה שחורה'). Wording is ambiguous (hinge side vs opening direction) and door reversibility is not stated anywhere."
+        }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        {
+          "label": "אחריות",
+          "value": "שנה מלאה + שנתיים אחריות נוספת מוגבלת (עלות עבודת תיקון לפי מחירון החברה)",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "As stated on the importer's exact-model page. The importer's generic Hisense refrigerator warranty certificate (s5) states 36 months of importer warranty without the labour-cost caveat; flagged for the store to confirm current terms."
+        },
+        {
+          "label": "שירות",
+          "value": "קבוצת ח.י. – מוקד ‎*6683",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "Total No Frost – אין צורך בהפשרה ידנית של המקפיא",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "Multi Air Flow – אוויר קר מפוזר באופן אחיד לכל חלקי המקרר, גם כשהוא מלא",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מדחס אינוורטר",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מנגנון שבת וחג: בזמן מצב שבת הצג והנוריות כבויים, התאורה לא נדלקת בפתיחת הדלת, ההתרעה מושבתת ופתיחת הדלת לא משפיעה על המדחס או המאוורר; המצב נשמר גם אחרי הפסקת חשמל ומסתיים אוטומטית אחרי 80 שעות",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "Super Freeze – הורדת טמפרטורת המקפיא ל־‎-24°C להקפאה מהירה של מזון טרי, עם חזרה אוטומטית להגדרה הקודמת",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מצב ECO לחיסכון באנרגיה כשאין איש בבית",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מערכת בקרת טמפרטורה ולחות",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מדפי זכוכית עם סף מוגבה שמונע זליגת נוזלים ממדף למדף",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "צג אלקטרוני חיצוני בדלת לשליטה ולהצגת הטמפרטורה",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "ציפוי VCM דוחה טביעות אצבע בגימור הנירוסטה",
+      "sources": [
+        "s2"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "התרעה קולית כשדלת נשארת פתוחה",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "רגליות ייצוב מתכווננות וגלגיליות אחוריות להזזה קדימה ואחורה",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    }
+  ],
+  "inTheBox": [
+    {
+      "text": "מתקן קרח סיבובי נייד בתא ההקפאה",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מתקן לאחסון ביצים",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    }
+  ],
+  "installation": [
+    {
+      "text": "להשאיר מרווח של 50–70 מ״מ בין גב המקרר לקיר, לפחות 10 מ״מ מעל המקרר ולפחות 10 מ״מ בכל צד",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "להשאיר מרחב פנוי בחזית כדי שהדלתות ייפתחו בזווית של 130°",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "להציב על משטח שטוח וקשיח, בגובה הרצפה שמסביב, שיכול לשאת את המקרר כשהוא מלא",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "לכוונן את הרגליות כך שהחלק העליון נוטה 10–15 מ״מ לאחור, כדי שהדלתות ייסגרו מעצמן",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "להמתין לפחות 4 שעות לפני חיבור לחשמל, כדי שגז הקירור יחזור למדחס",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "לחבר לשקע מוארק, מוגן בנתיך של 10A לפחות, שנשאר נגיש אחרי ההתקנה; מומלץ קו המוגן בממסר פחת 30mA",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "להרחיק ממקורות חום ומקרינת שמש ישירה ולהציב במקום יבש",
+      "sources": [
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    }
+  ],
+  "content": {
+    "summary": "Hisense RD75SLK הוא מקרר מקפיא עליון בנפח 559 ליטר: 440 ליטר בתא הקירור ו־119 ליטר בתא ההקפאה, בגימור נירוסטה מוברשת. הוא עובד בשיטת Total No Frost עם מדחס אינוורטר, וכולל מנגנון שבת וחג ל־80 שעות. מתאים למשפחה שצריכה תא קירור גדול ומקום ברוחב של כ־80 ס״מ.",
+    "highlights": [
+      "נפח 559 ליטר: 440 ליטר קירור ו־119 ליטר הקפאה",
+      "Total No Frost ומדחס אינוורטר",
+      "מנגנון שבת וחג – עד 80 שעות רצופות",
+      "מדרג אקלים T – פועל בטמפרטורת סביבה עד ‎+43°C",
+      "מידות 79.4 × 185 × 72.5 ס״מ"
+    ],
+    "goodFor": [
+      "משפחה שעושה קנייה שבועית גדולה – תא קירור של 440 ליטר עם 4 מדפי זכוכית ו־6 מדפי דלת",
+      "בית שומר שבת – מצב שבת שמכבה תאורה, צג והתרעות ונשמר גם אחרי הפסקת חשמל",
+      "מטבח חם – מדרג אקלים T מתאים לטמפרטורת סביבה של ‎+16°C עד ‎+43°C"
+    ],
+    "considerations": [
+      "רוחב המקרר 79.4 ס״מ – כדאי למדוד את הנישה ולהוסיף לפחות 10 מ״מ בכל צד ו־50–70 מ״מ מאחור",
+      "הדלתות צריכות מרחב לפתיחה של 130° – בדקו שאין קיר או ארון צמוד לצד הצירים",
+      "הדירוג האנרגטי הוא F; היבואן לא מפרסם צריכה שנתית בקוט״ש",
+      "נדרש שקע מוארק עם נתיך של 10A לפחות, ויש להמתין 4 שעות לפני החיבור"
+    ],
+    "faq": [
+      {
+        "q": "כמה ליטר יש בתא הקירור ובתא ההקפאה של RD75SLK?",
+        "a": "לפי היבואן, 440 ליטר בתא הקירור ו־119 ליטר בתא ההקפאה, בסך הכול 559 ליטר.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "q": "האם יש במקרר מצב שבת?",
+        "a": "כן. מנגנון שבת וחג מופעל בלחיצה של 3 שניות על לחצן ZONE CHOICE. במצב זה הצג, הנוריות, התאורה הפנימית וההתרעה כבויים, ופתיחת הדלת לא משפיעה על המדחס או המאוורר. המצב מסתיים אוטומטית אחרי 80 שעות.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "q": "מה המידות שלו וכמה מקום צריך להשאיר סביבו?",
+        "a": "79.4 ס״מ רוחב, 185 ס״מ גובה ו־72.5 ס״מ עומק לפי היבואן. בהוראות ההפעלה מומלץ להשאיר 50–70 מ״מ מאחור ולפחות 10 מ״מ מעל ובכל צד, ומקום בחזית לפתיחת הדלתות ב־130°.",
+        "sources": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "q": "צריך להפשיר את המקפיא?",
+        "a": "לא. המקרר עובד בשיטת Total No Frost, שמבטלת את הצורך בהסרת כפור ידנית.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "q": "מה האחריות על המקרר?",
+        "a": "לפי דף המוצר של היבואן: שנה מלאה ועוד שנתיים אחריות נוספת מוגבלת, שבהן עלות עבודת התיקון לפי מחירון החברה. השירות ניתן על ידי קבוצת ח.י.",
+        "sources": [
+          "s1"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "מקרר מקפיא עליון Hisense RD75SLK בנפח 559 ליטר – 440 ליטר קירור ו־119 ליטר הקפאה, Total No Frost, מדחס אינוורטר ומצב שבת. בחדד אלקטריק נהריה",
+    "keywords": [
+      "Hisense RD75SLK",
+      "RD75SLK",
+      "מקרר הייסנס 559 ליטר",
+      "מקרר מקפיא עליון נירוסטה",
+      "מקרר הייסנס מקפיא עליון",
+      "הייסנס RD75",
+      "מקרר 559 ליטר",
+      "מקרר עם מצב שבת הייסנס"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "model_number",
+      "catalogValue": "RD75SLK",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "field": "brand",
+      "catalogValue": "Hisense",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "category",
+      "catalogValue": "מקררים",
+      "finding": "confirmed",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "field": "name: סוג",
+      "catalogValue": "מקרר מקפיא עליון",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "name: נפח",
+      "catalogValue": "559 ליטר",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "name: NF",
+      "catalogValue": "NF",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "name: גימור",
+      "catalogValue": "נירוסטה",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "origin_country",
+      "catalogValue": "",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "נפח תא קירור / הקפאה",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "440 ליטר / 119 ליטר",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "מידות",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "79.4 × 185 × 72.5 ס״מ",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "דירוג אנרגטי",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "F",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "מדחס",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "אינוורטר",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "field": "מצב שבת",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "מנגנון שבת וחג, 80 שעות",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "field": "מדרג אקלים",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "T (טרופי), ‎+16°C עד ‎+43°C",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "specGroups.dimensions",
+      "issue": "Importer spec table and product sheet give 79.4 × 185 × 72.5 cm, but the installation diagram in the importer's manual (p.8) shows 790 mm wide, 685 mm deep and 1720 mm high. Published as the importer's spec figures at medium confidence; confirm height/depth with ח.י. before relying on it for tight niches.",
+      "severity": "medium"
+    },
+    {
+      "field": "specGroups.warranty",
+      "issue": "Importer product page: 1 year full + 2 years limited (repair labour charged per price list). Importer's generic Hisense fridge warranty certificate: 36 months importer warranty. Confirm which terms apply to units sold now.",
+      "severity": "medium"
+    },
+    {
+      "field": "availability",
+      "issue": "The importer page shows 'אזל מהמלאי' / 'דגם זה אינו זמין למכירה' – the model may be discontinued or replaced (retailers also list an RD75ESLK). Price/stock not touched.",
+      "severity": "medium"
+    },
+    {
+      "field": "specGroups.design.גימור",
+      "issue": "Importer page spec table says 'נירוסטה שחורה' while the importer product sheet and page title say brushed stainless ('נירוסטה מוברשת'). Likely a template error from the black RD-75BK.",
+      "severity": "low"
+    },
+    {
+      "field": "specGroups.design.כיוון פתיחת הדלת",
+      "issue": "Door opening 'לימין' appears only in the importer page's generic table; meaning and reversibility unconfirmed. Withheld.",
+      "severity": "low"
+    },
+    {
+      "field": "missing data",
+      "issue": "No source found for annual energy consumption (kWh), noise (dB), weight or country of origin for RD75SLK.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-10",
+    "verdict": "pass-with-fixes",
+    "notes": "Re-opened all six sources; all load and s1–s4, s6 are about RD75SLK (s5 is the generic Hisense fridge warranty certificate, exactModel false). Every verified row was found on its cited pages (product sheet and manual read from the PDFs). Changes: (1) dimensions row – removed retailers s4/s6 as sources because they print depth 72.6 cm, not 72.5; rewrote the note to say the 790 × 1720 × 685 mm drawing figures could not be confirmed from the manual text; the flag stays. (2) Importer row – added s5, the only source that names סינודן בע״מ. (3) Type row – added the manual (s3), which describes the separate fridge and freezer doors. (4) goodFor – removed 'מרפסת סגורה', which no source supports (the manual only says to keep the unit dry and out of sun, rain and frost). Confirmed: identity matches the catalog (RD75SLK, 559 L, top freezer, NF, stainless); the product name is unchanged; no price or stock data is in the record; the meta description is within length; the dimensions use ×, and the combined dimensions row is present. The warranty, finish, door-direction and availability flags remain open."
+  }
+}

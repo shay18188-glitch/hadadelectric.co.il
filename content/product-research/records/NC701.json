@@ -1,0 +1,216 @@
+{
+ "modelNumber": "NC701",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "NC701",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "דף Bug מציג את המק\"ט 622356292306 ואת הדגם NC701, ומציין את שריג אלקטריק כיבואן הרשמי. לא נמצא דף יצרן או יבואן עם טבלת מפרט לדגם זה בתוצאות שנבדקו. | QA: Bug page names Ninja NC701 CREAMi Spoon & Spin and lists שריג אלקטריק as importer; matches catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/ninja/nc701/creami/spoon/spin",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "44.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Orientation per Bug labels; flagged.",
+     "label": "רוחב",
+     "value": "38.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "9.45 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח כוס",
+     "value": "480 מ״ל לכוס"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "13 תוכניות חכמות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Named the importer per quote.",
+     "label": "אחריות יבואן",
+     "value": "שנה ע״י שריג אלקטריק"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ידית גלידה אמריקאית עם 3 מהירויות לשליטה בהגשה לכוס או לגביע"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 כוסות גלידה עם פיה ומכסים בנפח 480 מ״ל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חוברת הוראות הפעלה בעברית"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ninja CREAMi Spoon & Spin NC701 היא מכונת גלידה ביתית עם ידית להגשת גלידה אמריקאית ישירות לכוס או לגביע. מתאימה למי שרוצה להכין גלידה וקינוחים קפואים בבית ולהגיש אותם בסגנון גלידה אמריקאית.",
+  "highlights": [
+   "חוברת הוראות הפעלה בעברית",
+   "אחריות שנה ע״י שריג אלקטריק"
+  ],
+  "goodFor": [
+   "הכנת גלידה ביתית והגשתה ישירות לגביע או לכוס",
+   "מי שרוצה מגוון תוכניות מוכנות בלחיצה אחת",
+   "בית שבו מכינים כמה טעמים במקביל בכוסות נפרדות"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה ע״י שריג אלקטריק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Ninja NC701",
+   "נינג׳ה קרימי ספון אנד ספין",
+   "מכונת גלידה אמריקאית",
+   "Ninja CREAMi Spoon & Spin",
+   "מכונת גלידה ביתית",
+   "מכונת גלידה נינג׳ה",
+   "CREAMi NC701"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Ninja",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שם המוצר",
+   "catalogValue": "מכונת גלידה אמריקאית CREAMI SPOON & SPIN",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "האחריות הרשמית בדף Bug היא שנה דרך שריג אלקטריק, אך דף Zap מציין 12 חודשי אחריות של DNG Solution LTD עבור יבוא מקביל. יש לוודא את האחריות לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "דף Bug מסמן 25.5 כ\"אורך\" ו-38.5 כ\"רוחב\". לא נמצא דף מפרט נוסף לאישור הכיוון. יש לאמת את רוחב ועומק המכונה מול יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "power",
+   "issue": "לא נמצא הספק (W) או מתח בדפים שנבדקו. יש להוסיף מהמדריך או מדף היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Bug labels 25.5 ס״מ as אורך and 38.5 ס״מ as רוחב; orientation (width vs depth) not confirmed by a second source. Depth not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "Warranty taken from Bug (שנה ע״י שריג אלקטריק); Zap reportedly lists a different importer for parallel import. Confirm the warranty for the unit sold.",
+   "severity": "medium"
+  },
+  {
+   "field": "power",
+   "issue": "No power (W) or voltage found in sources; add from manual or importer.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept from the Bug page, which names NC701 and the importer. Warranty wording clarified to name the official importer; dimension orientation flagged for check. No power/voltage found. | code guard removed: summary: \"המכונה כוללת 13 תוכניות חכמות ושתי כוסות בנפח 480 מ״ל לכוס.\"; faq: \"כמה תוכניות יש במכונה?\"; faq: \"מה נפח כל כוס?\"; faq: \"אפשר להגיש גלידה אמריקאית ישירות לגביע?\"; metaDescription: \"מכונת גלידה Ninja CREAMi Spoon & Spin NC701 עם 13 תוכניות חכמות וידית גלידה אמריקאית, 2 כוסות 480 מ״ל. בחדד אלקטריק נהריה\"; highlight: \"13 תוכניות חכמות\"; highlight: \"ידית גלידה אמריקאית עם 3 מהירויות\"; highlight: \"2 כוסות גלידה עם מכסים בנפח 480 מ״ל\"; consideration: \"גובה המכונה 44.5 ס״מ — כדאי לבדוק שהיא נכנסת מתחת לארונות המטבח העליונים\"; consideration: \"משקל המכונה 9.45 ק״ג — כדאי לתכנן לה מקום קבוע על השיש\"; consideration: \"רוחב המכונה 38.5 ס״מ — כדאי למדוד את שטח השיש הפנוי\""
+ }
+}

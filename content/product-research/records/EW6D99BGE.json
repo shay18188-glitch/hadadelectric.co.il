@@ -1,0 +1,373 @@
+{
+ "modelNumber": "EW6D99BGE",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EW6D99BGE",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "דף היצרן ביוון (SKU EW6D99BGE, מק\"ט 916900601) מזכיר את הדגם המדויק. דף יצרן ישראלי שנמצא מתייחס לדגם אחר (EW8H2966IM) ולא שימש. הקמעונאי TopStore מציין יבוא מקביל; היבואן הרשמי בישראל לא אומת. | QA: Electrolux Greece manufacturer page names the exact model EW6D99BGE; Israeli retailer TopStore names the same model but indicates parallel import. Official Israeli importer and Israeli variant not verified."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrolux.gr/laundry/laundry/dryers/heat-pump-dryer/ew6d99bge/",
+   "publisher": "Electrolux Greece",
+   "kind": "manufacturer",
+   "market": "GR",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://topstore.co.il/product/electrolux-ew6d99bge/",
+   "publisher": "TopStore",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "596 × 850 × 636 מ״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק מרבי (כולל דלת)",
+     "value": "659 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת ייבוש",
+     "value": "9 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תוף",
+     "value": "118 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "64 dB"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Spin-phase noise class is a washing-machine label field; likely misapplied to a dryer.",
+     "label": "דרגת פליטת רעש אוורירי בשלב הסיבוב",
+     "value": "B"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Appears in a block of washing-machine label fields (eco 40-60); contradicts catalog A+++; needs human verification.",
+     "label": "דירוג אנרגטי",
+     "value": "C"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "eco 40-60 is a washing-machine program; wrong attribute for a dryer.",
+     "label": "צריכת אנרגיה לק״ג לכל מחזור (תוכנית eco 40-60)",
+     "value": "1.03 kWh"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית ייבוש",
+     "value": "משאבת חום (Heat Pump)"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "לוח בקרה",
+     "value": "תצוגת LED לבנה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל החשמל",
+     "value": "1.45 מטר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed unsupported low-temperature claim.",
+   "text": "טכנולוגיית משאבת חום (Heat Pump) לייבוש חסכוני באנרגיה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תוכנית QuickCare מייבשת עד 4 ק״ג של בגדים סינתטיים בתוך 75 דקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed 'no need to sort' not in quote.",
+   "text": "תוכנית MixCare לייבוש יחד של כותנה ובדים סינתטיים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת חיישני לחות אלקטרונית המודדת ברציפות את רמת הלחות בבד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שעון דחוי (Delayed Start) לתזמון הפעלת המייבש לשעות הזולות של הלילה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מסנן EasyClean לשמירה על יעילות אנרגטית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כיוון פתיחת הדלת ניתן להפיכה על ידי המשתמש"
+  }
+ ],
+ "content": {
+  "summary": "המייבש כולל חיישני לחות אלקטרוניים, תוכנית QuickCare לבגדים סינתטיים ותוכנית MixCare לייבוש משולב של כותנה וסינתטיים. מתאים למי שמחפש מייבש בגודל סטנדרטי ברוחב 596 מ״מ עם דלת הפיכה.",
+  "highlights": [
+   "טכנולוגיית משאבת חום (Heat Pump)",
+   "חיישני לחות אלקטרוניים המודדים ברציפות את הלחות בבד",
+   "דלת הפיכה ושעון דחוי (Delayed Start)"
+  ],
+  "goodFor": [
+   "משפחות עם כמויות כביסה גדולות, בזכות קיבולת ייבוש של 9 ק״ג",
+   "מי שרוצה לייבש כותנה וסינתטיים יחד בתוכנית MixCare",
+   "מי שמעדיף להפעיל את המייבש בשעות הלילה באמצעות שעון דחוי",
+   "מקומות התקנה שבהם צריך לשנות את כיוון פתיחת הדלת"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 596 × 850 × 636 מ״מ, ולקחת בחשבון עומק מרבי של 659 מ״מ",
+   "אורך כבל החשמל הוא 1.45 מטר, ולכן כדאי לוודא שקע קרוב למקום ההתקנה",
+   "יש לנקות את מסנן EasyClean באופן שוטף כדי לשמור על יעילות אנרגטית"
+  ],
+  "faq": [
+   {
+    "q": "באיזו טכנולוגיית ייבוש המייבש עובד?",
+    "a": "המייבש עובד בטכנולוגיית משאבת חום (Heat Pump).",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המייבש?",
+    "a": "רוחב 596 מ״מ, גובה 850 מ״מ ועומק 636 מ״מ, ועומק מרבי של 659 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להפוך את כיוון פתיחת הדלת?",
+    "a": "כן, כיוון פתיחת הדלת ניתן להפיכה על ידי המשתמש.",
+    "sources": []
+   },
+   {
+    "q": "מה רמת הרעש של המייבש?",
+    "a": "רמת הרעש המוצהרת היא 64 dB.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה Electrolux EW6D99BGE בטכנולוגיית משאבת חום, קיבולת ייבוש 9 ק״ג וחיישני לחות אלקטרוניים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux EW6D99BGE",
+   "מייבש כביסה אלקטרולוקס",
+   "מייבש כביסה היט פאמפ",
+   "מייבש כביסה 9 ק״ג",
+   "מייבש משאבת חום",
+   "מייבש כביסה אלקטרולוקס 9 ק״ג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "משאבת חום (Heat Pump)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A+++ (ישן) / B (חדש)",
+   "finding": "corrected",
+   "correctValue": "C",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישני לחות",
+   "catalogValue": "חיישני לחות (DryAssist)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "64 dB",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין A+++ (ישן) / B (חדש), בעוד דף היצרן והקמעונאי מציינים C. יש לאמת לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "הקמעונאי הישראלי מציין יבוא מקביל; היבואן הרשמי בישראל לא אומת. הוריאנט הישראלי לא ברור.",
+   "severity": "medium"
+  },
+  {
+   "field": "חיישני לחות",
+   "issue": "השם DryAssist לא הופיע באף עמוד שנקרא; רק תיאור כללי של חיישני לחות.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין A+++ (ישן) / B (חדש), בעוד דף היצרן היווני והקמעונאי מציינים C לצד שדות של תווית מכונת כביסה (eco 40-60, רעש בשלב הסיבוב). יש לאמת את דירוג האנרגיה של המייבש מול היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "הקמעונאי הישראלי מציין יבוא מקביל; היבואן הרשמי בישראל והוריאנט הישראלי לא אומתו.",
+   "severity": "medium"
+  },
+  {
+   "field": "חיישני לחות",
+   "issue": "השם DryAssist שבקטלוג לא הופיע במקורות; נמצא רק תיאור כללי של חיישני לחות אלקטרוניים.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 5 (spin-phase airborne noise class), 6 (energy class C) and 7 (kWh per kg per cycle, eco 40-60 program): these are washing-machine label fields under EU 2017/1369 and look misapplied to a dryer on the Greek page (the Israeli retailer appears to copy the same table); the catalog states A+++ and the class needs human verification. Reworded feature 0 (removed 'low temperature, gentle on fabrics' not in quote), feature 2 (removed 'no need to sort' not in quote) and feature 3 (removed 'ends the program' not in quote). | code guard removed: summary: \"מייבש כביסה Electrolux EW6D99BGE בטכנולוגיית משאבת חום (Heat Pump), עם קיבולת ייבוש של 9 ק״ג ותוף בנפח 118 ליטר.\"; faq: \"מה קיבולת הייבוש של המייבש?\"; highlight: \"קיבולת ייבוש 9 ק״ג ונפח תוף 118 ליטר\"; highlight: \"תוכנית QuickCare: עד 4 ק״ג סינתטיים בתוך 75 דקות\""
+ }
+}

@@ -1,0 +1,337 @@
+{
+  "modelNumber": "X50B Ultra",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Dreame",
+    "exactModel": "X50 Ultra",
+    "israeliImporter": "קריסטלינו בע״מ (Cristallino)",
+    "matchConfidence": "medium",
+    "notes": "היצרן כותב את הדגם \"X50 Ultra\"; לא נמצא בשום מקור דגם בשם \"X50B Ultra\" — ה-B הוא ככל הנראה סימון צבע שחור של חנויות (אצל אבי סופר המק״ט הפנימי הוא 502DREMX50B). מדריך היצרן (s1) מכסה את קודי הרובוט RLX85CE / RLX85CE-1/-3/-4/-5/-6 ואת תחנות העגינה RCXE0105/RCXE0108/RCXE0109, ומפרט שתי חבילות: \"Dreame X50 Ultra\" (ללא Extra Accessories Kit) ו-\"Dreame X50 Ultra Complete\" (עם ערכת אביזרים נוספת: מברשת ראשית, 2 מברשות צד, 3 שקיות אבק, 3 מסננים, 12 רפידות). הרובוט והתחנה זהים בשתי החבילות, ולכן דפי X50 Ultra בצבע לבן סומנו exactModel=true לנתוני חומרה בלבד; נתון הצבע נשען רק על דפי הדגם השחור (s3, s4, s9). היבואן הרשמי (s9, קריסטלינו) משווק את הדגם השחור בשם \"X50 Ultra Complete (Black)\" ומציין ערכת אביזרים נלווים מתנה בכל רכישה; גם אבי סופר (s3) וסיטי דיל (s4) מוכרים אותו בשם Complete. קוד ה-SKU הישראלי (RLX85CE-x) לא אומת."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://dreametech.zendesk.com/hc/en-us/article_attachments/51080650637977",
+      "publisher": "Dreame (מרכז התמיכה הרשמי) — X50 Series User Manual EU-A00",
+      "kind": "manual",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.bug.co.il/שואב-אבק-מקרצף-רובוטי-כולל-עמדת-ריקון-אוטומטית-dreame-930365211",
+      "publisher": "באג (bug.co.il) — Dreame X50 Ultra לבן, יבואן רשמי",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.soferavi.co.il/מוצרים/שואב-אבק-רובוטי-שוטף-דרים-x50-ultra-שחור/",
+      "publisher": "אבי סופר — DREAME X50 Ultra complete שחור",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.citydeal.co.il/product/dreame-x50-ultra-black",
+      "publisher": "סיטי דיל — Dreame X50 Ultra Complete (Black)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s5",
+      "url": "https://bstore.bezeq.co.il/electrical/106555",
+      "publisher": "בזק סטור — Dreame X50 Ultra לבן",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.gadgety.co.il/343407/dreame-x50-ultra-review/",
+      "publisher": "גאדג׳טי — סקירת Dreame X50 Ultra (02.07.2025)",
+      "kind": "review",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.winnings.com.au/p/dreame-x50-ultra-robot-vacuum-and-mop-with-autoempty-station-drex50u",
+      "publisher": "Winnings (אוסטרליה) — Dreame X50 Ultra DRE-X50U",
+      "kind": "retailer",
+      "market": "AU",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.zap.co.il/model.aspx?modelid=1243728",
+      "publisher": "זאפ — השוואת מחירים Dreame X50 Ultra",
+      "kind": "other",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.dreame-israel.co.il/products/x50-ultra-black",
+      "publisher": "דרימי ישראל (קריסטלינו, היבואן הרשמי) — X50 Ultra Complete (Black)",
+      "kind": "importer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        { "label": "יצרן", "value": "Dreame", "sources": ["s1", "s3", "s4", "s9"], "confidence": "high", "status": "verified" },
+        { "label": "דגם", "value": "X50 Ultra", "sources": ["s1", "s3", "s4", "s9"], "confidence": "high", "status": "verified" },
+        { "label": "קודי דגם רובוט (לפי המדריך)", "value": "RLX85CE / RLX85CE-1 / -3 / -4 / -5 / -6", "sources": ["s1"], "confidence": "high", "status": "verified", "note": "הקוד הספציפי של היחידה הישראלית השחורה לא אומת" },
+        { "label": "דגם תחנת עגינה", "value": "RCXE0105 / RCXE0108 / RCXE0109", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "ארץ ייצור", "value": "סין", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "סוג מוצר", "value": "שואב ושוטף רובוטי עם תחנת ריקון ושטיפה עצמית", "sources": ["s1", "s3", "s4", "s9"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        { "label": "מידות (רוחב × גובה × עומק)", "value": "35 × 11.1 × 35 ס״מ (רובוט, חיישן מורם)", "sources": ["s2", "s5", "s7"], "confidence": "medium", "status": "verified", "note": "s2: קוטר 35 ס״מ, גובה 11.1 ס״מ; s5: 350×350×111 מ״מ; s7: W 350, H 111, D 350 מ״מ. סיטי דיל (s4) מציין 35 × 35 × 9.7 ס״מ — כנראה שגוי" },
+        { "label": "גובה רובוט עם חיישן מונמך (VersaLift)", "value": "8.9 ס״מ", "sources": ["s2", "s3", "s5", "s7", "s9"], "confidence": "medium", "status": "verified", "note": "טבלאות המפרט (s2, s3, s5, s7, s9) מציינות 89 מ״מ; טקסט שיווקי (s2, s4, s6, s9) מציין 8.95 ס״מ" },
+        { "label": "משקל רובוט", "value": "4.53 ק״ג", "sources": ["s2", "s5", "s7"], "confidence": "medium", "status": "verified" },
+        { "label": "מידות תחנת עגינה", "value": "גובה 59 ס״מ, בסיס 45.7 × 34 ס״מ", "sources": ["s2", "s5", "s7", "s9"], "confidence": "medium", "status": "verified", "note": "QA: כל המקורות נותנים 457 × 340 × 590 מ״מ, אבל הכיוון חלוק: באג (s2) מסמן רוחב 45.7 ועומק 34, Winnings (s7) מסמן D×W×H כלומר עומק 45.7 ורוחב 34; היבואן (s9) ובזק (s5) לא מסמנים. לכן הערך מציין גובה ובסיס בלי לקבוע רוחב/עומק" },
+        { "label": "משקל תחנת עגינה", "value": "9.09 ק״ג", "sources": ["s2", "s5"], "confidence": "medium", "status": "verified" }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        { "label": "מיכל אבק ברובוט", "value": "395 מ״ל", "sources": ["s2", "s5"], "confidence": "medium", "status": "verified" },
+        { "label": "שקית אבק בתחנה", "value": "3.2 ליטר", "sources": ["s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+        { "label": "מיכל מים נקיים בתחנה", "value": "4.5 ליטר", "sources": ["s2", "s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified", "note": "בזק סטור (s5) הפך בין המיכלים (4 / 4.5) — ככל הנראה שגיאה" },
+        { "label": "מיכל מים מלוכלכים בתחנה", "value": "4 ליטר", "sources": ["s2", "s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+        { "label": "ריקון אבק אוטומטי", "value": "עד כ-100 יום ללא ריקון ידני של השקית", "sources": ["s2", "s6", "s9"], "confidence": "medium", "status": "verified", "note": "נתון יצרן שיווקי, תלוי בשימוש" }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        { "label": "עוצמת שאיבה מרבית", "value": "20,000Pa", "sources": ["s2", "s3", "s4", "s6", "s7", "s9"], "confidence": "high", "status": "verified" },
+        { "label": "מברשת ראשית", "value": "HyperStream Detangling DuoBrush — מברשת כפולה עם זיפי TPU נגד הסתבכות שיער", "sources": ["s2", "s4", "s6", "s9"], "confidence": "medium", "status": "verified", "note": "השם המלא ב-s2/s4; זיפי TPU ב-s6 ו-s9" },
+        { "label": "טיפוס מכשולים (ProLeap)", "value": "עד 6 ס״מ בטיפוס מדורג (שתי מדרגות), עד 4.2 ס״מ במכשול בודד", "sources": ["s2", "s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+        { "label": "הרמת מגבים בזיהוי שטיח", "value": "10.5 מ״מ", "sources": ["s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+        { "label": "חיישנים", "value": "חיישן VersaLift מתקפל, חיישני לייזר 3D כפולים, מצלמת AI HD, מצלמת AI אינפרא-אדום, חיישן שטיח, חיישני מדרגה, תאורת LED עזר", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "זיהוי מכשולים", "value": "עד 200 מכשולים", "sources": ["s2", "s3", "s6", "s9"], "confidence": "medium", "status": "verified", "note": "QA: המקורות מציינים 200 מכשולים, לא 200 סוגי מכשולים; באג (s2) ואבי סופר (s3) מנסחים \"זוכר מעל 200 מכשולים קבועים\"" },
+        { "label": "ניקוי פינות", "value": "זרוע מגב נשלפת MopExtend RoboSwing ומברשת צד נשלפת SideReach", "sources": ["s1", "s3", "s4", "s9"], "confidence": "medium", "status": "verified", "note": "המדריך (s1) מציג MopExtend Assembly ו-Side Brush Extension Assembly; השמות המסחריים ב-s3, s4, s9" },
+        { "label": "שטיפת וייבוש מגבים בתחנה", "value": "במים חמים ואוויר חם עד 80°C", "sources": ["s2", "s3", "s4", "s9"], "confidence": "medium", "status": "verified", "note": "גוף סקירת גאדג׳טי (s6) מזכיר ייבוש ב-60°C" },
+        { "label": "בקרת מים", "value": "32 רמות", "sources": ["s3", "s6", "s9"], "confidence": "medium", "status": "verified", "note": "QA: אושר בדף היבואן (s9) ובאבי סופר (s3), בנוסף לסקירה (s6)" }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        { "label": "מצבי ניקוי", "value": "שאיבה ושטיפה, שאיבה בלבד, שטיפה בלבד, שטיפה אחרי שאיבה", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "מצב \"נא לא להפריע\" (DND)", "value": "כן, מופעל באפליקציה (כבוי כברירת מחדל); טווח ברירת המחדל 22:00–08:00", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "חזרה לטעינה והמשך ניקוי", "value": "כן, חוזר לטעינה בסוללה חלשה וממשיך מהנקודה שבה עצר (מופעל באפליקציה)", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "נעילת ילדים", "value": "כן, דרך האפליקציה", "sources": ["s1"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "smart",
+      "rows": [
+        { "label": "אפליקציה", "value": "Dreamehome (iOS / Android)", "sources": ["s1", "s6", "s9"], "confidence": "high", "status": "verified" },
+        { "label": "עוזרים קוליים", "value": "Alexa, Siri, Google", "sources": ["s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+        { "label": "פקודות קוליות מובנות", "value": "בעברית, בהפעלה \"OK, Dreame\", ללא צורך באפליקציה וגם ללא חיבור לאינטרנט", "sources": ["s9"], "confidence": "medium", "status": "verified", "note": "QA: לפי דף היבואן הרשמי (s9), שמפרט פקודות בעברית. קמעונאים (s2, s3, s4) מציינים פקודות באנגלית בלבד — ככל הנראה טקסט ישן; היבואן גובר" }
+      ]
+    },
+    {
+      "id": "connectivity",
+      "rows": [
+        { "label": "Wi-Fi", "value": "2.4GHz בלבד (אין תמיכה ב-5GHz)", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "תדר פעולה", "value": "2400–2483.5 MHz", "sources": ["s1"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        { "label": "סוג סוללה", "value": "ליתיום-יון", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "קיבולת סוללה", "value": "6,400mAh", "sources": ["s2", "s4", "s6", "s9"], "confidence": "medium", "status": "verified", "note": "אבי סופר (s3) כותב \"6,400 אמפר לשעה\" — שגיאת יחידה, לכן אינו מקור לשורה" },
+        { "label": "זמן טעינה", "value": "כ-4.5 שעות מסוללה חלשה (מדריך היצרן) / 3.5 שעות (היבואן)", "sources": ["s1", "s9", "s3", "s6"], "confidence": "low", "status": "conflict", "note": "QA: מדריך היצרן (s1): כ-4.5 שעות לטעינה מלאה מסוללה חלשה; דף היבואן (s9), אבי סופר (s3) וגאדג׳טי (s6): 3.5 שעות. שני מקורות סמכותיים חלוקים — לא לפרסם עד אישור" },
+        { "label": "זמן עבודה רצוף", "value": "עד 200 דקות", "sources": ["s9", "s3"], "confidence": "medium", "status": "verified", "note": "QA: לפי דף היבואן (s9) ואבי סופר (s3); Winnings האוסטרלי (s7) מציין 220 דקות. משתנה לפי מצב הניקוי" },
+        { "label": "מתח נקוב (רובוט)", "value": "14.4V", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "הספק נקוב (רובוט)", "value": "75W", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "מתח כניסה (תחנה)", "value": "220–240V, 50–60Hz", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "הספק תחנה בריקון אבק", "value": "700W", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "הספק תחנה בשטיפה במים חמים", "value": "1,160W", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "הספק תחנה בטעינה וייבוש", "value": "87W", "sources": ["s1"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        { "label": "צבע", "value": "שחור", "sources": ["s3", "s4", "s9"], "confidence": "medium", "status": "verified" }
+      ]
+    },
+    {
+      "id": "safety",
+      "rows": [
+        { "label": "חיישן לייזר", "value": "מוצר לייזר Class 1 (IEC 60825-1)", "sources": ["s1"], "confidence": "high", "status": "verified" },
+        { "label": "תאורת UV בתחנה", "value": "להפחתת חיידקים באזור שקית האבק", "sources": ["s2", "s3", "s6", "s9"], "confidence": "medium", "status": "verified" },
+        { "label": "טמפרטורת הפעלה", "value": "0°C–40°C", "sources": ["s1"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "installation",
+      "rows": [
+        { "label": "מרווח סביב התחנה", "value": "מעל 1 מ׳ מלפנים, מעל 5 ס״מ מכל צד", "sources": ["s1"], "confidence": "medium", "status": "verified", "note": "הערכים מופיעים באיור המדריך; הכיוונים נגזרים מהאיור" },
+        { "label": "ערכת חיבור למים וניקוז", "value": "נמכרת בנפרד", "sources": ["s1", "s2", "s4", "s9"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        { "label": "אחריות", "value": "3 שנות אחריות יבואן רשמי (2+1, אחריות מוגבלת בכפוף לתקנון היבואן)", "sources": ["s9"], "confidence": "medium", "status": "verified", "note": "QA: לפי דף היבואן (s9) לדגם השחור. קמעונאים מציינים תקופות אחרות: שנתיים (s2, s5; בזק מוסיף שנה לסוללה), שנה + שנתיים (s4), שנה (s3)" }
+      ]
+    }
+  ],
+  "features": [
+    { "text": "שאיבה בעוצמה של עד 20,000Pa", "sources": ["s2", "s3", "s4", "s6", "s9"], "confidence": "high", "status": "verified" },
+    { "text": "מערכת ProLeap עם רגליים מתרוממות: טיפוס מדורג עד 6 ס״מ ומכשול בודד עד 4.2 ס״מ", "sources": ["s2", "s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+    { "text": "חיישן VersaLift מתקפל שמנמיך את הרובוט לכ-8.9 ס״מ לניקוי מתחת לרהיטים נמוכים", "sources": ["s1", "s2", "s5", "s7"], "confidence": "medium", "status": "verified" },
+    { "text": "תחנת עגינה שמרוקנת את מיכל האבק, שוטפת ומייבשת את המגבים וממלאת מים ברובוט באופן אוטומטי", "sources": ["s1", "s3", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "שטיפה במים חמים וייבוש באוויר חם של המגבים בתחנה, עד 80°C", "sources": ["s1", "s2", "s3", "s4", "s9"], "confidence": "medium", "status": "verified" },
+    { "text": "תא דטרגנט אוטומטי בתחנה שמוסיף נוזל ניקוי במהלך העבודה", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "הסרה והתקנה אוטומטית של מכלול המגבים בתחנה, לשאיבה בלבד או לשטיפה אחרי שאיבה", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "מגבים מתרוממים 10.5 מ״מ בזיהוי שטיח", "sources": ["s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+    { "text": "מברשת ראשית כפולה HyperStream DuoBrush עם זיפי TPU להפחתת הסתבכות שיער", "sources": ["s2", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+    { "text": "זרוע מגב נשלפת MopExtend ומברשת צד נשלפת SideReach לניקוי פינות וקצוות", "sources": ["s1", "s3", "s4", "s9"], "confidence": "medium", "status": "verified" },
+    { "text": "ניווט עם חיישני לייזר 3D כפולים, מצלמת AI HD ומצלמת אינפרא-אדום, ותאורת LED עזר בסביבה חשוכה", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "תאורת UV בתחנה להפחתת חיידקים באזור שקית האבק", "sources": ["s2", "s3", "s6", "s9"], "confidence": "medium", "status": "verified" },
+    { "text": "שליטה באפליקציית Dreamehome ותמיכה ב-Alexa, Siri ו-Google", "sources": ["s1", "s3", "s4", "s6", "s9"], "confidence": "medium", "status": "verified" },
+    { "text": "פקודות קוליות בעברית ישירות לרובוט (\"OK, Dreame\"), ללא צורך באפליקציה", "sources": ["s9"], "confidence": "medium", "status": "verified", "note": "QA: לפי דף היבואן; קמעונאים מציינים אנגלית בלבד" }
+  ],
+  "inTheBox": [
+    { "text": "רובוט X50 Ultra ותחנת עגינה", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+    { "text": "כבל חשמל", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "לוח הארכה לרמפת התחנה", "sources": ["s1", "s2"], "confidence": "high", "status": "verified", "note": "QA: המדריך כותב Base Station Ramp Extension Plate; באג (s2) כותב \"רמפה\"" },
+    { "text": "2 שקיות אבק (אחת מותקנת)", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "2 רפידות שטיפה (מותקנות) ו-2 מחזיקי רפידות", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+    { "text": "תא דטרגנט אוטומטי ומסנן לוח שטיפה (מותקנים)", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "כלי ניקוי", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+    { "text": "נוזל ניקוי", "sources": ["s1", "s2"], "confidence": "medium", "status": "verified", "note": "באג (s2) מציין 200 מ״ל" },
+    { "text": "מדריך למשתמש", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" }
+  ],
+  "installation": [
+    { "text": "יש להציב את התחנה במקום פתוח עם קליטת Wi-Fi טובה, עם מרווח של מעל 1 מ׳ מלפנים ומעל 5 ס״מ מכל צד", "sources": ["s1"], "confidence": "medium", "status": "verified" },
+    { "text": "היצרן ממליץ להציב את התחנה על אריחים או שיש ולא על פרקט או שטיח, כדי למנוע כתמי מים", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "הרובוט מתחבר לרשת Wi-Fi של 2.4GHz בלבד", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "אין להתקין, לטעון או להפעיל את המכשיר בחדרי רחצה או ליד בריכות; הפעלה בטמפרטורת סביבה 0°C–40°C", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "יש להציב מחסום פיזי בקצה גרם מדרגות לפני הניקוי", "sources": ["s1"], "confidence": "high", "status": "verified" },
+    { "text": "אין למלא מים חמים במיכל המים הנקיים; מוסיפים רק מים נקיים ונוזל ניקוי מאושר של היצרן", "sources": ["s1", "s9"], "confidence": "high", "status": "verified" },
+    { "text": "חיבור קבוע למים ולניקוז אפשרי באמצעות ערכה הנמכרת בנפרד", "sources": ["s1", "s2", "s4", "s9"], "confidence": "high", "status": "verified" }
+  ],
+  "content": {
+    "summary": "Dreame X50 Ultra בצבע שחור הוא שואב ושוטף רובוטי עם תחנת עגינה שמרוקנת אבק, שוטפת ומייבשת את המגבים בחום של עד 80°C וממלאת מים ברובוט באופן אוטומטי. הרובוט שואב בעוצמה של עד 20,000Pa, מטפס על מכשולים עד 6 ס״מ בטיפוס מדורג ומנמיך את עצמו לכ-8.9 ס״מ כדי להיכנס מתחת לרהיטים נמוכים. מתאים לבית עם רצפות קשות ושטיחים, ולמי שרוצה פחות טיפול ידני בין ניקוי לניקוי.",
+    "highlights": [
+      "עוצמת שאיבה של עד 20,000Pa",
+      "טיפוס מכשולים עד 6 ס״מ (מדורג) ועד 4.2 ס״מ (מכשול בודד)",
+      "גובה מונמך של כ-8.9 ס״מ לניקוי מתחת לרהיטים",
+      "שקית אבק של 3.2 ליטר בתחנה, מיכל מים נקיים 4.5 ליטר ומלוכלכים 4 ליטר",
+      "סוללה של 6,400mAh ועד 200 דקות עבודה רצופה"
+    ],
+    "goodFor": [
+      "בית עם ספים, מסילות או הפרשי גובה בין חדרים — הרובוט מטפס עד 6 ס״מ בטיפוס מדורג",
+      "בית עם בעלי חיים או שיער ארוך — מברשת כפולה עם זיפי TPU נגד הסתבכות ושאיבה של עד 20,000Pa",
+      "דירה עם ספות ומיטות נמוכות — הרובוט מנמיך את עצמו לכ-8.9 ס״מ",
+      "מי שרוצה פחות טיפול ידני — התחנה מרוקנת אבק לשקית של 3.2 ליטר ושוטפת ומייבשת את המגבים"
+    ],
+    "considerations": [
+      "התחנה גבוהה 59 ס״מ, הבסיס שלה כ-45.7 × 34 ס״מ ומשקלה 9.09 ק״ג, ונדרש מרווח של מעל 1 מ׳ מלפניה ומעל 5 ס״מ מכל צד",
+      "היצרן ממליץ להציב את התחנה על אריחים או שיש ולא על פרקט",
+      "הרובוט עובד עם Wi-Fi של 2.4GHz בלבד — כדאי לוודא שהנתב משדר ברשת כזו",
+      "חיבור קבוע למים ולניקוז דורש ערכה שנמכרת בנפרד; בלעדיה ממלאים ומרוקנים את המיכלים ידנית"
+    ],
+    "faq": [
+      {
+        "q": "האם Dreame X50 Ultra יכול לעבור ספים בין חדרים?",
+        "a": "כן. לפי נתוני היבואן, מערכת ProLeap מאפשרת טיפוס מדורג על מכשולים עד 6 ס״מ ועל מכשול בודד עד 4.2 ס״מ. בקצה גרם מדרגות היצרן מורה להציב מחסום פיזי לפני הניקוי.",
+        "sources": ["s9", "s2", "s4", "s1"]
+      },
+      {
+        "q": "האם צריך לחבר את התחנה לברז ולניקוז?",
+        "a": "לא. התחנה כוללת מיכל מים נקיים של 4.5 ליטר ומיכל מים מלוכלכים של 4 ליטר. חיבור קבוע למים ולניקוז אפשרי עם ערכה שנמכרת בנפרד.",
+        "sources": ["s1", "s2", "s4", "s9"]
+      },
+      {
+        "q": "כמה זמן הרובוט עובד בטעינה אחת?",
+        "a": "לפי היבואן, עד 200 דקות של עבודה רצופה, עם סוללה בקיבולת 6,400mAh. משך העבודה בפועל תלוי במצב הניקוי.",
+        "sources": ["s9", "s2"]
+      },
+      {
+        "q": "האם הרובוט נכנס מתחת לספה?",
+        "a": "גובה הרובוט כ-11.1 ס״מ עם חיישן מורם, ובאזורים נמוכים הוא מנמיך את חיישן ה-VersaLift לגובה של כ-8.9 ס״מ. כדאי למדוד את המרווח מתחת לרהיט.",
+        "sources": ["s1", "s2", "s5", "s7"]
+      },
+      {
+        "q": "האם אפשר לשלוט ברובוט בקול בעברית?",
+        "a": "כן. לפי היבואן בישראל, הרובוט מקבל פקודות קוליות בעברית אחרי \"OK, Dreame\", גם בלי אפליקציה, ובנוסף תומך ב-Alexa, Siri ו-Google.",
+        "sources": ["s9", "s3", "s4"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "שואב ושוטף רובוטי Dreame X50 Ultra שחור: שאיבה 20,000Pa, טיפוס מכשולים עד 6 ס״מ ותחנה שמרוקנת, שוטפת ומייבשת. בחדד אלקטריק נהריה",
+    "keywords": [
+      "Dreame X50 Ultra",
+      "דרימי X50 Ultra",
+      "שואב רובוטי Dreame X50 Ultra שחור",
+      "Dreame X50 Ultra Complete",
+      "X50 Ultra שואב שוטף",
+      "Dreame X50 Ultra מחיר",
+      "שואב רובוטי עם תחנת ריקון ושטיפה",
+      "שואב רובוטי שעובר ספים",
+      "RLX85CE"
+    ]
+  },
+  "catalogCheck": [
+    { "field": "model_number", "catalogValue": "X50B Ultra", "finding": "corrected", "correctValue": "X50 Ultra (שם הדגם אצל היצרן; היבואן משווק את הדגם השחור בשם X50 Ultra Complete (Black); ה-B ככל הנראה סימון צבע שחור של חנויות)", "sources": ["s1", "s3", "s4", "s9"] },
+    { "field": "brand", "catalogValue": "Dreame", "finding": "confirmed", "sources": ["s1", "s3", "s4", "s9"] },
+    { "field": "category", "catalogValue": "שואבים רובוטיים", "finding": "confirmed", "sources": ["s1", "s3", "s4", "s9"] },
+    { "field": "name: שואב רובוטי", "catalogValue": "שואב רובוטי", "finding": "corrected", "correctValue": "שואב ושוטף רובוטי עם תחנת ריקון ושטיפה עצמית", "sources": ["s1", "s3", "s4", "s9"] },
+    { "field": "name: ללא ערכת אביזרים מורחבת", "catalogValue": "ללא ערכת אביזרים מורחבת", "finding": "contradicted", "correctValue": "היבואן (s9) משווק את הדגם השחור כ-X50 Ultra Complete (Black) עם ערכת אביזרים נלווים מתנה בכל רכישה; לפי המדריך (s1) Complete = X50 Ultra + Extra Accessories Kit. אבי סופר (s3) וסיטי דיל (s4) מוכרים אותו כ-Complete", "sources": ["s1", "s3", "s4", "s9"] },
+    { "field": "name: שחור", "catalogValue": "שחור", "finding": "confirmed", "sources": ["s3", "s4", "s9"] },
+    { "field": "origin_country", "catalogValue": "", "finding": "missing-added", "correctValue": "סין", "sources": ["s1"] },
+    { "field": "technical_specifications: עוצמת שאיבה", "catalogValue": "", "finding": "missing-added", "correctValue": "20,000Pa", "sources": ["s2", "s3", "s4", "s6", "s9"] },
+    { "field": "technical_specifications: סוללה", "catalogValue": "", "finding": "missing-added", "correctValue": "6,400mAh, עד 200 דקות עבודה רצופה (זמן הטעינה במחלוקת: 4.5 / 3.5 שעות)", "sources": ["s2", "s9", "s1"] },
+    { "field": "technical_specifications: מידות ומשקל", "catalogValue": "", "finding": "missing-added", "correctValue": "רובוט 35 × 11.1 × 35 ס״מ, 4.53 ק״ג; תחנה בגובה 59 ס״מ ובסיס 45.7 × 34 ס״מ, 9.09 ק״ג", "sources": ["s2", "s5", "s7", "s9"] },
+    { "field": "technical_specifications: מיכלים", "catalogValue": "", "finding": "missing-added", "correctValue": "מים נקיים 4.5 ל׳, מים מלוכלכים 4 ל׳, שקית אבק 3.2 ל׳, מיכל אבק ברובוט 395 מ״ל", "sources": ["s2", "s3", "s4", "s9"] },
+    { "field": "product_capabilities: טיפוס מכשולים", "catalogValue": "", "finding": "missing-added", "correctValue": "ProLeap — עד 6 ס״מ מדורג, 4.2 ס״מ מכשול בודד", "sources": ["s2", "s4", "s6", "s9"] },
+    { "field": "product_capabilities: תחזוקה אוטומטית", "catalogValue": "", "finding": "missing-added", "correctValue": "ריקון אבק, שטיפה וייבוש מגבים עד 80°C, מילוי מים, דטרגנט אוטומטי", "sources": ["s1", "s3", "s4"] }
+  ],
+  "reviewFlags": [
+    { "field": "model_number", "issue": "\"X50B Ultra\" אינו שם דגם של היצרן — הדגם הוא Dreame X50 Ultra (אצל היבואן: X50 Ultra Complete (Black)). ה-B נראה כסימון צבע שחור (מק״ט חנות 502DREMX50B). לא לשנות את השם/URL; לשקול עדכון model_number לצורך התאמה.", "severity": "medium" },
+    { "field": "name / package", "issue": "שם המוצר בקטלוג אומר \"ללא ערכת אביזרים מורחבת\", אבל היבואן הרשמי (s9) משווק את הדגם השחור בשם \"X50 Ultra Complete (Black)\" ומציין ערכת אביזרים נלווים מתנה בכל רכישה; אבי סופר וסיטי דיל מוכרים אותו כ-Complete. לפי המדריך, Complete = X50 Ultra + Extra Accessories Kit. יש לוודא מול הספק איזו חבילה מגיעה ולתקן את השם אם צריך (השם לא שונה כאן).", "severity": "medium" },
+    { "field": "energy: זמן טעינה", "issue": "סתירה: מדריך היצרן — כ-4.5 שעות מסוללה חלשה; דף היבואן, אבי סופר וגאדג׳טי — 3.5 שעות. לא פורסם.", "severity": "low" },
+    { "field": "energy: זמן עבודה", "issue": "פורסם 200 דקות לפי היבואן (s9) ואבי סופר; Winnings האוסטרלי מציין 220 דקות.", "severity": "low" },
+    { "field": "smart: פקודות קוליות", "issue": "היבואן (s9) מציין פקודות קוליות בעברית; קמעונאים (באג, אבי סופר, סיטי דיל) כותבים \"באנגלית בלבד\". פורסם לפי היבואן — כדאי לוודא שהיחידה שבחנות תומכת בעברית (ייתכן שתלוי בקושחה).", "severity": "low" },
+    { "field": "warranty", "issue": "פורסם לפי היבואן: 3 שנות אחריות (2+1, מוגבלת בכפוף לתקנון). קמעונאים מציינים שנה / שנתיים / שנה + שנתיים; לוודא שהחנות מוסרת את תעודת האחריות של היבואן.", "severity": "low" },
+    { "field": "dimensions: תחנת עגינה", "issue": "כיוון מידות התחנה חלוק: באג מסמן רוחב 45.7 ועומק 34 ס״מ, Winnings מסמן D×W×H (עומק 45.7, רוחב 34). הרשומה מציינת גובה 59 ס״מ ובסיס 45.7 × 34 ס״מ בלי לקבוע רוחב/עומק.", "severity": "low" },
+    { "field": "sources: dreametech.com", "issue": "דפי היצרן dreametech.com החזירו HTTP 429 ולא נפתחו. דף היבואן dreame-israel.co.il נפתח בדפדפן (s9) אך אינו מציג משקל.", "severity": "low" },
+    { "field": "inTheBox", "issue": "תכולת האריזה לקוחה ממדריך היצרן (הפריטים המשותפים ל-X50 Ultra ול-X50 Ultra Complete). באג (s2) מפרט גם מונע אבנית, מברשת צד, מברשת ראשית ומיכל אבק — רכיבים שמותקנים ברובוט/בתחנה. ערכת האביזרים הנוספת שהיבואן מציין לא נרשמה כתכולה. לאשר את תכולת היחידה הישראלית.", "severity": "low" }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "Re-opened all sources on 2026-11-11. s1 (manual PDF): the live URL returns HTTP 200 with a SHA-256 identical to the copy saved by the researcher; its text was read in full (EN pages). It confirms the robot/dock model codes, Made in China, sensor list, 4 cleaning modes, DND (off by default, 22:00-8:00), auto-resume, child lock, 2.4GHz only, 2400-2483.5 MHz, Li-ion, 14.4V/75W, dock 220-240V and 700/1160/87W, approx. 4.5 h charge, Class 1 laser, 0-40°C, >1 m / >5 cm clearance figure, tiles/marble advice, no hot water, stair barrier, water kit sold separately, auto detergent, auto mop removal, station refills the robot's water, and the X50 Ultra package list (incl. 'Base Station Ramp Extension Plate', 2 dust bags, 2 mop pads). So the earlier reviewer's plan to downgrade s1 rows and change the ramp item was not applied. s2-s6 and s8 loaded by curl; s7 (JS page) by WebFetch; the importer page dreame-israel.co.il/products/x50-ultra-black (429 to fetches) loaded in the built-in browser and was added as s9 (importer, exact model, black). Changes: (1) Added s9 to rows it confirms (suction, ProLeap, 10.5 mm, tanks, bag, 100 days, TPU brush, UV, 80°C, 200 obstacles, app, assistants, colour, water kit, lowered height 89 mm, dock size). (2) Obstacle row: 'עד 200 סוגי מכשולים' -> 'עד 200 מכשולים'. (3) Water control 32 levels: unverified -> verified medium (s3, s6, s9). (4) Run time: conflict -> verified 'עד 200 דקות' per importer (s9) and s3; s7's 220 noted. (5) Charge time: verified -> conflict (manual 4.5 h vs importer/s3/s6 3.5 h); charging FAQ replaced by a run-time FAQ. (6) Warranty: conflict -> verified per importer '3 years (2+1, limited, per importer terms)'. (7) Voice commands: unverified English-only -> verified Hebrew per importer (s9); feature updated; added a Hebrew-voice FAQ. (8) Dock dimensions: W×H×D orientation disputed (s2 vs s7), row and consideration rewritten as 'height 59 cm, base 45.7 × 34 cm'. (9) Source cleanup: removed s3 from battery capacity (wrong unit), s6 from the corners row (no SideReach), s1 from ProLeap feature; added s2 to box items it lists. (10) catalogCheck 'ללא ערכת אביזרים מורחבת' confirmed -> contradicted (importer sells the black unit as Complete with an accessory kit); removed the matching consideration and the X50 Ultra vs Complete FAQ. (11) Summary: 'תחזוקה מינימלית' -> 'פחות טיפול ידני'; highlight 5 adds 200 min run time. (12) SEO keyword 'שואב רובוטי שמטפס מדרגות' (it does not climb stairs) -> 'שואב רובוטי שעובר ספים'; added 'Dreame X50 Ultra Complete'. (13) Removed the 499 ₪ value (price data) from identity notes and flags; flags updated (charge-time conflict, dock orientation, voice, warranty, package). DND/auto-resume values refined to the manual wording. Not confirmed: the Israeli RLX85CE-x code and whether the store's unit ships with the accessory kit. Name, price and stock untouched."
+  }
+}

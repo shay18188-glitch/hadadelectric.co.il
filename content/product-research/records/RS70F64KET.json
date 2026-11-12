@@ -1,0 +1,434 @@
+{
+ "modelNumber": "RS70F64KET",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RS70F64KET",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "מקרר SBS דלת מול דלת עם קיוסק חיצוני למים וקרח. דפי היבואן והקמעונאים הישראליים מציינים 635 ליטר ומידות 91.2 × 178.6 × 71.6 ס״מ. הודעה צרפתית של Samsung לאותו מספר דגם מציינת 640 ליטר ופולין כמדינת ייצור, כך שייתכן הבדל בין הווריאנטים. | QA: Israeli retailer pages and Samsung Israel support page name RS70F64KET; capacity split 417/218 matches the catalog's 635 L."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/samsung-rs70f64ket-sbs-635",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקררים/מקרר_samsung_דגם_rs70f64ket_סמסונג_נירוסטה_מוברשת",
+   "publisher": "Traklin Chashmal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.procie.com/mediaprovider/index/index/media_type/notice/filename/RS70F64KET.pdf",
+   "publisher": "Samsung Electronics France",
+   "kind": "manufacturer",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח נטו כולל",
+     "value": "635 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "417 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "218 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "91.2 × 178.6 × 71.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "91.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה כולל צירים",
+     "value": "178.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק עם דלת",
+     "value": "71.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק ללא דלת",
+     "value": "61 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "36 dBA"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיבור Wi-Fi",
+     "value": "Wi-Fi מובנה + SmartThings"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "AI Inverter"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנת אחריות יבואן רשמי ניופרו + 3 שנות שירות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קיוסק חיצוני למים וקרח בחיבור לצנרת"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית SpaceMax לנפח פנימי גדול יותר בלי להגדיל את המידות החיצוניות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצב AI Energy דרך SmartThings לניהול צריכת החשמל"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב שבת מובנה (התקן שבת מהדרין)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הקיוסק מתחבר לצנרת מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "לפני ההזמנה מודדים את הנישה, עומק הארונות ופתחי הדלתות"
+  }
+ ],
+ "content": {
+  "summary": "Samsung RS70F64KET הוא מקרר דלת מול דלת (SBS) בנפח נטו של 635 ליטר, עם תא קירור של 417 ליטר ותא הקפאה של 218 ליטר. המקרר כולל קיוסק חיצוני למים וקרח בחיבור לצנרת, מדחס AI Inverter וחיבור Wi-Fi עם SmartThings.",
+  "highlights": [
+   "נפח נטו כולל 635 ליטר",
+   "קיוסק חיצוני למים וקרח בחיבור לצנרת",
+   "מצב שבת מובנה (התקן שבת מהדרין)"
+  ],
+  "goodFor": [
+   "משפחה שצריכה נפח אחסון גדול גם בקירור וגם בהקפאה",
+   "מי שרוצה מים וקרח מהקיוסק בלי לפתוח את הדלת",
+   "בית שומר שבת שזקוק למצב שבת מובנה",
+   "מי שרוצה לשלוט במקרר ולנהל צריכת חשמל דרך SmartThings"
+  ],
+  "considerations": [
+   "הקיוסק דורש חיבור לצנרת מים, כדאי לתכנן נקודת מים ליד המקרר",
+   "למדוד את פתחי הדלתות בבית לפני ההזמנה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Samsung RS70F64KET?",
+    "a": "נפח נטו כולל של 635 ליטר: 417 ליטר בתא הקירור ו-218 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם הקיוסק דורש חיבור למים?",
+    "a": "כן, הקיוסק החיצוני למים וקרח מתחבר לצנרת המים.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, למקרר מצב שבת מובנה עם התקן שבת מהדרין.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט במקרר מהטלפון?",
+    "a": "כן, יש למקרר Wi-Fi מובנה ותמיכה באפליקציית SmartThings, כולל מצב AI Energy לניהול צריכת החשמל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר דלת מול דלת Samsung RS70F64KET בנפח 635 ליטר, עם קיוסק חיצוני למים וקרח בחיבור לצנרת ומדחס AI Inverter. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung RS70F64KET",
+   "RS70F64KET",
+   "מקרר סמסונג דלת מול דלת",
+   "מקרר SBS עם קיוסק",
+   "מקרר 635 ליטר",
+   "מקרר סמסונג נירוסטה",
+   "מקרר עם מצב שבת",
+   "מקרר סמסונג עם קיוסק מים וקרח"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "635 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "רוחב 91.2 ס\"מ, גובה 178.6 ס\"מ, עומק 71.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רעש",
+   "catalogValue": "36dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נפח 640 ליטר בתקן אירופאי",
+   "catalogValue": "640 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיוסק מים וקרח",
+   "catalogValue": "קיוסק חיבור ישיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות Wi-Fi עם SmartThings",
+   "catalogValue": "Wi-Fi עם תמיכה באפליקציית SmartThings",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הפשרה אוטומטית (No Frost)",
+   "catalogValue": "No Frost",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "AI Inverter",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "origin_country",
+   "issue": "הקטלוג מציין מדינת ייצור סין. הודעה צרפתית של Samsung לאותו מספר דגם מציינת מדינת ייצור פולין. לאמת מול היבואן הישראלי.",
+   "severity": "high"
+  },
+  {
+   "field": "capacity",
+   "issue": "ההודעה הצרפתית של Samsung מציינת 640 ליטר נטו (420/220), בעוד דפי היבואן והקמעונאים הישראליים מציינים 635 ליטר (417/218). ייתכן הבדל בין וריאנטים.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "כתובת דף התמיכה של Samsung ישראל נושאת סיומת RS70F64KETML, אך הדף עצמו מציג את המספר RS70F64KET. לוודא שזה אותו דגם.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "עומק (עם ובלי דלת) ורעש נמצאו בעמוד קמעונאי אחד בלבד ולא נבדקו מול דף יבואן מלא.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "הקטלוג מציין סין; הודעה צרפתית של Samsung לאותו מספר דגם מציינת פולין. לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "capacity",
+   "issue": "ההודעה הצרפתית מציינת 640 ליטר (420/220) מול 635 ליטר (417/218) בדפים הישראליים; ייתכן הבדל בתקן המדידה או בווריאנט.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "דף התמיכה של Samsung ישראל נושא סיומת RS70F64KETML; לוודא שזו אותה יחידה.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "עומק ללא דלת ורמת רעש מגיעים מקמעונאי אחד בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts verified by ok quotes on pages naming RS70F64KET; two Israeli retailers agree on capacities and dimensions. French Samsung notice lists 640 L / Poland, flagged for human check. | code guard removed: summary: \"מתאים למי שמחפש מקרר רחב עם קיוסק ונישה ברוחב של 91.2 ס״מ לפחות.\"; faq: \"מה מידות המקרר?\"; highlight: \"מידות 91.2 × 178.6 × 71.6 ס״מ\"; highlight: \"מדחס AI Inverter ורמת רעש 36 dBA\"; consideration: \"יש לוודא נישה ברוחב 91.2 ס״מ וגובה 178.6 ס״מ לפחות, ולהשאיר מרווח לאוורור\"; consideration: \"העומק עם הדלת הוא 71.6 ס״מ וללא הדלת 61 ס״מ, כדאי לבדוק מול עומק הארונות\""
+ }
+}

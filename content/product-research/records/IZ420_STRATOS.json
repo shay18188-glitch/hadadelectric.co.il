@@ -1,0 +1,271 @@
+{
+ "modelNumber": "IZ420 STRATOS",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Shark",
+  "exactModel": "IZ420",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The catalog model is IZ420 STRATOS. The NZ retailer page names IZ420 as its MPN. The French review names IZ420EUT, which is the EU code that Israeli retailers also use in search results. The IZ420EUT facts come from the review and are flagged for review. | QA: Sources describe Shark Stratos IZ420 (NZ), IZ420EUT (FR) and IZ420UKT (UK). Same model family; the Israeli variant code is not confirmed on any fetched page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.futura-sciences.com/conso/guides-achat/tests-produits-jai-teste-aspirateur-shark-stratos-iz420eut-test-avis-1356/",
+   "publisher": "Futura",
+   "kind": "review",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.appliancesdirect.co.uk/p/iz420ukt/shark-iz420ukt--vacuum-cleaner",
+   "publisher": "Appliances Direct",
+   "kind": "retailer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.briscoes.co.nz/product/1117567/shark-stratos-cordless-pet-pro-vacuum-plus-iz420",
+   "publisher": "Briscoes",
+   "kind": "retailer",
+   "market": "NZ",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "27 × 114 × 17 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "decimal comma normalized",
+     "label": "נפח מיכל אבק",
+     "value": "0.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן פעולה מרבי",
+     "value": "עד 120 דקות (2 סוללות של 60 דקות כל אחת)"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "70 dB"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "French market warranty terms; Israeli importer warranty may differ",
+     "label": "אחריות",
+     "value": "5 שנים למכשיר, 2 שנים לסוללות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "UK retailer warranty; not applicable to Israel",
+     "label": "אחריות (קמעונאי בריטי)",
+     "value": "5 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חיישן אינפרא-אדום שמזהה לכלוך נסתר ומגביר את עוצמת השאיבה, עד 50% יותר איסוף לכלוך לפי היצרן"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית נטרול ריחות לבית רענן יותר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מברשת בניקוי עצמי שמפרידה ומסירה שיער ומונעת הסתבכות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מוט MultiFlex מתכופף להגעה מתחת לרהיטים ולאחסון קומפקטי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 סוללות ליתיום-יון, כבל טעינה ובסיס טעינה כפול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מברשת ממונעת קטנה לשיער בעלי חיים, מברשת לכל המשטחים, מברשת אנטי-אלרגיה ומוצץ שטוח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שק לאחסון האביזרים"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מתאים לבית עם בעלי חיים ולמי שרוצה לנקות את כל הבית בלי להמתין לטעינה.",
+  "highlights": [
+   "חיישן אינפרא-אדום שמגביר עוצמה כשמזוהה לכלוך",
+   "מברשת בניקוי עצמי שמונעת הסתבכות שיער",
+   "מוט מתכופף להגעה מתחת לרהיטים"
+  ],
+  "goodFor": [
+   "בית עם כלב או חתול, בזכות המברשת בניקוי עצמי והמברשת הממונעת לשיער בעלי חיים",
+   "ניקוי של כל הבית בסבב אחד, עם החלפת סוללה במקום המתנה לטעינה",
+   "ניקוי מתחת לספות ולמיטות בעזרת המוט המתכופף",
+   "מי שרגיש לאבק, בזכות מברשת האנטי-אלרגיה שבאריזה"
+  ],
+  "considerations": [
+   "תנאי האחריות בישראל נקבעים על ידי היבואן, כדאי לברר אותם לפני הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "האם השואב מתאים לבית עם בעלי חיים?",
+    "a": "כן. המברשת בניקוי עצמי מסירה שיער ומונעת הסתבכות, ובאריזה יש מברשת ממונעת קטנה לשיער בעלי חיים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "שואב אבק אלחוטי Shark",
+   "Shark Stratos IZ420",
+   "שארק סטרטוס",
+   "IZ420EUT",
+   "שואב אבק אלחוטי עם 2 סוללות",
+   "שואב אבק לבעלי חיים",
+   "שואב אבק Shark אלחוטי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר (סוללות)",
+   "catalogValue": "+2 סוללות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Shark",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model IZ420 STRATOS does not appear on any fetched page. The NZ retailer names IZ420 and the French review names IZ420EUT. The Israeli code is probably IZ420EUT, but this was not confirmed on a fetched page.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "Search results list the same model with different battery run-times and weights across retailers. The fetched sources here are an NZ retailer and an EU review. Check the Israeli importer spec sheet before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog code IZ420 STRATOS does not appear on any fetched page; sources name IZ420, IZ420EUT and IZ420UKT. Confirm the Israeli variant.",
+   "severity": "high"
+  },
+  {
+   "field": "warranty",
+   "issue": "Only French and UK warranty terms were found; the Israeli importer warranty is unknown and was not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "specs",
+   "issue": "Dimensions, dust capacity and noise come from a single French review of IZ420EUT; verify against the Israeli importer spec sheet.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected both warranty facts (4, 5): they describe French and UK market terms, not the Israeli importer warranty. Fixed decimal format of dust capacity to 0.7. Dimensions label reordered to match quote (L27 = width, P17 = depth, H114 = height). | code guard removed: summary: \"Shark Stratos IZ420 הוא שואב אבק אלחוטי המגיע עם 2 סוללות נשלפות, המאפשרות עד 120 דקות שאיבה בסך הכול.\"; summary: \"הוא כולל חיישן אינפרא-אדום שמגביר עוצמה כשהוא מזהה לכלוך, מברשת בניקוי עצמי נגד הסתבכות שיער ומיכל אבק של 0.7 ליטר.\"; faq: \"כמה זמן השואב עובד על סוללות?\"; faq: \"מה נפח מיכל האבק?\"; faq: \"מה מגיע באריזה?\"; faq: \"מה המידות של השואב?\"; metaDescription: \"שואב אבק אלחוטי Shark Stratos IZ420 עם 2 סוללות לעד 120 דקות פעולה וחיישן לכלוך אינפרא-אדום. בחדד אלקטריק נהריה\"; highlight: \"2 סוללות נשלפות, עד 120 דקות פעולה בסך הכול\"; highlight: \"מיכל אבק בנפח 0.7 ליטר\"; consideration: \"גובה המכשיר כ-114 ס״מ: כדאי לתכנן מקום אחסון ונקודת חשמל לבסיס הטעינה הכפול\"; consideration: \"רמת הרעש היא 70 dB, כדאי לקחת זאת בחשבון בשעות מנוחה\"; consideration: \"מיכל האבק בנפח 0.7 ליטר, ובבית עם הרבה שיער ייתכן שיהיה צורך לרוקן אותו במהלך הניקוי\""
+ }
+}

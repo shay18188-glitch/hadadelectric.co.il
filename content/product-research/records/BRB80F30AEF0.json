@@ -1,0 +1,394 @@
+{
+ "modelNumber": "BRB80F30AEF0",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "BRB80F30AEF0",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם אינטגרלי (built-in) עם מקפיא תחתון. דף היצרן של האיחוד האירופי (EPREL/תווית אנרגיה) מזהה את הדגם BRB80F30AEF0 במפורש. המפרט בחנויות הישראליות תואם לנתוני היצרן. | QA: Samsung EU product fiche (EO market code) and two Israeli retailers name BRB80F30AEF0; volumes, dimensions and energy class agree."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-מקפיא-תחתון-298-ליטר-samsung-5102203brb80f30aef0",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקררים/מקרר_אינטגרלי_samsung_דגם_brb80f30aef0_סמסונג_עם_מנגנון_שבת_מהדרין",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://images.samsung.com/is/content/samsung/p6/common/energylabel/common-energylabel-brb80f30aef0eo-productfiche.pdf",
+   "publisher": "Samsung",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "298 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "224 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "74 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "540 mm in manufacturer fiche",
+     "label": "רוחב",
+     "value": "54 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה (כולל ציר)",
+     "value": "193.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק (כולל ידית)",
+     "value": "55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "229 kWh לשנה"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "35 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "No Frost"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פונקציית שבת מהדרין",
+     "value": "כן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מדחס Digital Inverter ללא פחמים, לחיסכון בצריכת חשמל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed separate evaporators/fans claim not in quote",
+   "text": "מערכת קירור כפולה Twin Cooling Plus, המנהלת טמפרטורה ולחות בנפרד במקרר ובמקפיא"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed fast-cooling claim not in quote",
+   "text": "תא הקפאה גמיש Cool Select שניתן להפוך למקרר או לתא הקפאה קלה בלחיצת כפתור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית Space Max להגדלת נפח המקרר ללא הגדלת המידות החיצוניות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "עיצוב אינטגרלי להבניה מלאה בקו ארונות המטבח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר אינטגרלי של Samsung עם מקפיא תחתון, דגם BRB80F30AEF0, להבניה מלאה בקו ארונות המטבח. כולל קירור No Frost, מערכת Twin Cooling Plus ופונקציית שבת מהדרין, ומתאים למי שמתכנן מטבח עם חזית אחידה.",
+  "highlights": [
+   "נפח כולל 298 ליטר: 224 ליטר קירור ו-74 ליטר הקפאה",
+   "קירור No Frost ומערכת Twin Cooling Plus",
+   "פונקציית שבת מהדרין מובנית",
+   "רמת רעש 35 dB(A)"
+  ],
+  "goodFor": [
+   "מטבח עם קו ארונות אחיד שבו המקרר מוסתר מאחורי חזית",
+   "משפחה שומרת שבת שזקוקה לפונקציית שבת מהדרין",
+   "מטבח פתוח לסלון, שבו רמת רעש של 35 dB(A) חשובה",
+   "מי שרוצה מקפיא תחתון עם תא גמיש Cool Select"
+  ],
+  "considerations": [
+   "המקרר אינטגרלי ודורש דלת חזית תואמת מהנגר",
+   "דירוג האנרגיה הוא E, עם צריכה של 229 kWh לשנה",
+   "יש לבדוק מיקום שקע חשמל מאחורי הנישה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "נפח כולל של 298 ליטר: 224 ליטר בתא הקירור ו-74 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, יש פונקציית שבת מהדרין מובנית לשימוש בשבתות וחגים.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר No Frost?",
+    "a": "כן, שיטת הקירור היא No Frost עם מערכת Twin Cooling Plus.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל המקרר צורך?",
+    "a": "דירוג אנרגטי E וצריכה שנתית של 229 kWh.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר אינטגרלי Samsung BRB80F30AEF0 עם מקפיא תחתון, 298 ליטר, רוחב 54 ס״מ, No Frost ושבת מהדרין. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר אינטגרלי סמסונג",
+   "BRB80F30AEF0",
+   "Samsung BRB80F30AEF0",
+   "מקרר אינטגרלי מקפיא תחתון",
+   "מקרר אינטגרלי 54 ס״מ",
+   "מקרר אינטגרלי שבת מהדרין",
+   "מקרר להבניה סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "298 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "224 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "74 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "54 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "193.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "55 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "35 dBA",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "70-73 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "WiFi (SmartThings)",
+   "catalogValue": "קישוריות WiFi (SmartThings)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Power Cool / Power Freeze",
+   "catalogValue": "פונקציות Power Cool ו-Power Freeze",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שיטת קירור",
+   "issue": "הקטלוג מציין מדחס Digital Inverter ו-No Frost; הנתונים תואמים לחנויות ולמסמך היצרן. מדחס ו-No Frost לא נבדקו מול דף יבואן רשמי בישראל.",
+   "severity": "low"
+  },
+  {
+   "field": "גרסת דגם",
+   "issue": "ברשת מופיעים וריאנטים עם סיומות EO/EF/AES0 ו-AEF0 עם סיומת שונה. בדקו שהגרסה המסחרית שנמכרת בישראל היא BRB80F30AEF0 בדיוק, והתקנה אינטגרלית.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל 70-73 ק\"ג שבקטלוג לא אומת בדפים שנקראו.",
+   "severity": "low"
+  },
+  {
+   "field": "WiFi / Power Cool / Power Freeze",
+   "issue": "תכונות הקישוריות (SmartThings) ופונקציות Power Cool ו-Power Freeze שבקטלוג לא נמצאו בדפים שנקראו.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן הישראלי לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "גרסת דגם",
+   "issue": "מסמך היצרן הוא לגרסה האירופית (EO); לוודא שהגרסה הנמכרת בישראל זהה.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל 70-73 ק\"ג שבקטלוג לא אומת במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "WiFi / Power Cool / Power Freeze",
+   "issue": "קישוריות SmartThings ופונקציות Power Cool/Power Freeze שבקטלוג לא נמצאו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Height and depth labels clarified (with hinge / with handle) per quotes. Feature 1 and 2 wording trimmed to what the quotes say (removed separate evaporators/fans and fast-cooling claims). Catalog weight, WiFi and Power Cool/Freeze not verified. | code guard removed: summary: \"נפח כולל של 298 ליטר (224 ליטר קירור ו-74 ליטר הקפאה), רוחב 54 ס״מ וגובה 193.5 ס״מ.\"; faq: \"מה המידות להבניה?\"; highlight: \"מידות להבניה: רוחב 54 ס״מ, גובה 193.5 ס״מ\"; consideration: \"יש לוודא שנישת הארון מתאימה לרוחב 54 ס״מ ולגובה 193.5 ס״מ\""
+ }
+}

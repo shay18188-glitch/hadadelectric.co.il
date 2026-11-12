@@ -1,0 +1,274 @@
+{
+ "modelNumber": "PVNF244-W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PVNF244-W",
+  "israeliImporter": "אמטל מחשבים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Only one retailer page (שוק החשמל) names the exact model with a spec table. It says the warranty is under the official importer Amtel Computers. No manufacturer or importer spec sheet was found. The cell-tec listing also names the model but its page text could not be read reliably. | QA: The Israeli retailer page names the exact model PVNF244-W, brand ProView, and the volume and dimensions match the catalog. Only one source, and no manufacturer or importer spec sheet."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://shukhashmal.co.il/product/%D7%9E%D7%A7%D7%A4%D7%99%D7%90-6-%D7%9E%D7%92%D7%99%D7%A8%D7%95%D7%AA-174-%D7%9C%D7%99%D7%98%D7%A8-proview-%D7%A4%D7%A8%D7%95-%D7%95%D7%99%D7%95-pvnf244-w",
+   "publisher": "שוק החשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote does not say net; label made neutral.",
+     "label": "נפח",
+     "value": "172 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote is the product title only; it does not say this is the gross volume.",
+     "label": "נפח כולל",
+     "value": "174 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "54 × 145.5 × 59.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "No Frost (הקפאה יבשה)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "אחריות היבואן הרשמי אמטל מחשבים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "5 מגירות עמוקות ונוחות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Typo in source corrected.",
+   "text": "תא להקפאה מהירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפשרות לשינוי כיוון פתיחת הדלת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote check failed (quote-too-short).",
+   "text": "מגש קרח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מקפיא נפרד לאחסון מסודר במגירות בלי צורך בהפשרה ידנית.",
+  "highlights": [
+   "שיטת קירור No Frost – הקפאה יבשה",
+   "תא להקפאה מהירה",
+   "אפשרות לשינוי כיוון פתיחת הדלת"
+  ],
+  "goodFor": [
+   "משפחה שרוצה מקפיא נוסף לצד המקרר לאחסון כמויות",
+   "מי שמעדיף לסדר מזון קפוא במגירות נפרדות",
+   "מי שלא רוצה להתעסק בהפשרת קרח ידנית בזכות שיטת No Frost",
+   "מטבח או מרפסת שירות שבהם צריך לשנות את כיוון פתיחת הדלת"
+  ],
+  "considerations": [
+   "דירוג האנרגיה הוא F – כדאי לקחת זאת בחשבון בצריכת החשמל",
+   "ודאו שיש שקע חשמל זמין ליד מיקום ההצבה",
+   "בדקו מראש לאיזה צד נוח שהדלת תיפתח, כי ניתן לשנות את כיוון הפתיחה"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך להפשיר את המקפיא?",
+    "a": "לא. המקפיא פועל בשיטת No Frost (הקפאה יבשה) ללא צורך בהפשרה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להחליף את כיוון פתיחת הדלת?",
+    "a": "כן, יש אפשרות לשינוי כיוון פתיחת הדלת.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות על המקפיא?",
+    "a": "האחריות היא של היבואן הרשמי אמטל מחשבים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מקפיא ProView",
+   "PVNF244-W",
+   "מקפיא פרוויו",
+   "מקפיא No Frost",
+   "מקפיא מגירות",
+   "מקפיא 172 ליטר",
+   "מקפיא עומד לבן",
+   "מקפיא הקפאה יבשה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח נטו",
+   "catalogValue": "172 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "גובה 145.5 ס\"מ, רוחב 54 ס\"מ, עומק 59.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F (לפי התקן האירופי החדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "No Frost (הקפאה יבשה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "capacity",
+   "issue": "The catalog name says 174 ליטר, but the catalog's net volume is 172 ליטר and the page gives 172 ליטר. 174 is the gross volume. The name should be checked against the net figure.",
+   "severity": "medium"
+  },
+  {
+   "field": "energy",
+   "issue": "Search snippets for other listings reported different energy ratings (E, and a 4-star cooling rating). Those pages were not read. The only page read gives F, matching the catalog. Check the EU label or the importer before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or EPREL spec sheet was found. Every fact rests on a single retailer page, so all facts need review before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "The catalog name says 174 ליטר while the only source gives volume 172 ליטר; 174 appears only in the page title and is not confirmed as gross volume.",
+   "severity": "medium"
+  },
+  {
+   "field": "energy",
+   "issue": "Other listings were reported in search snippets with different energy ratings (not read). The read page gives F; confirm against the energy label or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on a single Israeli retailer page; no manufacturer, importer or EPREL sheet was found.",
+   "severity": "medium"
+  },
+  {
+   "field": "features",
+   "issue": "Ice tray (catalog capabilities) could not be verified from a valid quote.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 0 relabelled from 'נפח נטו' to 'נפח' because the quote only says 'נפח: 172 ליטר' without saying net. Fact 4 (174 ליטר as gross volume) rejected: the only quote is the product title, which does not say gross/total volume. Feature 3 (ice tray) rejected: quote failed (too short). Feature 1 wording kept as 'תא להקפאה מהירה' (page has a typo). | code guard removed: summary: \"מקפיא עומד של ProView בשיטת No Frost (הקפאה יבשה) בנפח 172 ליטר.\"; summary: \"הוא כולל 5 מגירות עמוקות ותא להקפאה מהירה, ומידותיו 54 × 145.5 × 59.5 ס״מ (רוחב × גובה × עומק).\"; faq: \"מה הנפח של המקפיא?\"; faq: \"מה המידות של המקפיא?\"; metaDescription: \"מקפיא No Frost של ProView דגם PVNF244-W בנפח 172 ליטר, עם 5 מגירות ותא להקפאה מהירה, ברוחב 54 ס״מ ובגובה 145.5 ס״מ. בחדד אלקטריק נהריה\"; highlight: \"נפח 172 ליטר\"; highlight: \"5 מגירות עמוקות ונוחות\"; consideration: \"מדדו את הנישה: המקפיא ברוחב 54 ס״מ, בגובה 145.5 ס״מ ובעומק 59.5 ס״מ, והשאירו מרווח לאוורור ולפתיחת הדלת\""
+ }
+}

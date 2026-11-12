@@ -1,0 +1,378 @@
+{
+ "modelNumber": "HATO-300B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hyundai",
+  "exactModel": "HATO-300B",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "No Hyundai manufacturer or importer page was found. The exact model HATO-300B is named on Israeli retailer and price-comparison pages only. Listings also spell it HATO300B and HATO 300B. | QA: Exact model HATO-300B, 30 L, 1600W, black, named on multiple Israeli retailer and comparison pages; no manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-toster&productid=1029381",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.haboosh.com/items/4204741-%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%90%D7%95%D7%91%D7%9F-Hyundai-HATO-300B-1600W-%D7%9B-30-%D7%9C%D7%99%D7%98%D7%A8-%D7%91%D7%A6%D7%91%D7%A2-%D7%A9%D7%97%D7%95%D7%A8",
+   "publisher": "Haboosh",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1029381",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://mdyo.co.il/a.aspx?a=%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%90%D7%95%D7%91%D7%9F-Hyundai-HATO-300B-(%D7%A0%D7%A4%D7%97-30-%D7%9C%D7%99%D7%98%D7%A8-1600W)",
+   "publisher": "MDYO",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מכשיר",
+     "value": "טוסטר אובן"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "30 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1600 W"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quotes say degrees without unit; Celsius implied.",
+     "label": "טווח טמפרטורה",
+     "value": "100–250 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "עד 60 דקות עם כיבוי אוטומטי"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two retailer pages agree; Wisebuy lists different dimensions (flagged).",
+     "label": "מידות חיצוניות (בקירוב)",
+     "value": "533 × 407 × 363 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Single retailer's own warranty terms; not verified from manufacturer or importer.",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בוררים נפרדים לגוף החימום העליון והתחתון"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גוף חימום מאל-חלד"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פעמון התראה בסיום פעולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Single comparison-site source.",
+   "text": "מצב טורבו"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Quote does not say the handle is removable; wording trimmed.",
+   "text": "תבנית אפייה, רשת מתכת וידית אחיזה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Hyundai HATO-300B הוא טוסטר אובן שחור בנפח 30 ליטר והספק 1600 W. הטמפרטורה מתכווננת בטווח 100–250 מעלות, ויש טיימר של עד 60 דקות עם כיבוי אוטומטי ופעמון בסיום. מתאים למי שמחפש תנור שולחני לאפייה, צלייה וחימום בלי להדליק את התנור הגדול.",
+  "highlights": [
+   "נפח 30 ליטר",
+   "הספק 1600 W",
+   "טמפרטורה מתכווננת 100–250 מעלות",
+   "טיימר עד 60 דקות עם כיבוי אוטומטי",
+   "בוררים נפרדים לגוף החימום העליון והתחתון"
+  ],
+  "goodFor": [
+   "אפייה וחימום מנות במטבח בלי להפעיל תנור בנוי",
+   "מי שרוצה שליטה נפרדת בחימום עליון ותחתון, למשל להשחמה מלמעלה",
+   "בישול עם טיימר שמכבה את המכשיר אוטומטית בסיום"
+  ],
+  "considerations": [
+   "בדקו שיש על השיש מקום פנוי למכשיר במידות של כ-533 × 407 × 363 מ״מ, עם מרווח לאוורור",
+   "בהספק 1600 W כדאי לחבר לשקע נפרד ולא לשקע מפצל יחד עם מכשירים חזקים אחרים",
+   "ודאו שהתבנית והרשת המצורפות מתאימות לכלים שבהם אתם משתמשים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Hyundai HATO-300B?",
+    "a": "נפח התנור הוא 30 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "הטמפרטורה מתכווננת בין 100 ל-250 מעלות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיימר וכיבוי אוטומטי?",
+    "a": "כן, יש טיימר של עד 60 דקות עם כיבוי אוטומטי ופעמון התראה בסיום.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בקופסה?",
+    "a": "תבנית אפייה, רשת מתכת וידית אחיזה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר אובן Hyundai HATO-300B בנפח 30 ליטר והספק 1600 W, עם טיימר 60 דקות וכיבוי אוטומטי. פרטים מלאים בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר אובן Hyundai",
+   "HATO-300B",
+   "טוסטר אובן 30 ליטר",
+   "טוסטר אובן שחור",
+   "יונדאי טוסטר אובן",
+   "HATO300B",
+   "טוסטר אובן 1600W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1600W",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "30 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "100-250 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "60 דקות עם כיבוי אוטומטי",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V~50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורית חיווי",
+   "catalogValue": "נורית חיווי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "533 × 407 × 363 מ״מ",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות חיצוניות",
+   "issue": "Wisebuy lists the dimensions as width 50 ס\"מ, height 31 ס\"מ, depth 30 ס\"מ, which conflicts with 533x407x363 mm on Haboosh and MDYO. The retailer pages do not say which of the three numbers is width, height or depth, so no labelled combined row was published.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The exact model HATO-300B is named on retailer pages only, with no Hyundai or importer page found. Some listings use HATO300B or HATO 300B.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "The 230V~50Hz voltage in the catalog was not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The 12-month warranty comes from one retailer page only (Haboosh). MDYO says one year without a number.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "Wisebuy lists different dimensions (50 × 31 × 30 ס״מ) than Haboosh and MDYO (533 × 407 × 363 מ״מ); width/height/depth order not stated. Verify on the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "No Hyundai manufacturer or Israeli importer page found; identity rests on retailer pages only. Some listings spell it HATO300B / HATO 300B.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "Catalog voltage 230V~50Hz was not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty not verified from manufacturer or importer; one retailer states 12 months. Not published.",
+   "severity": "low"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog says the handle is removable and mentions an indicator light; neither was confirmed in the quotes.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the 12-month warranty: it comes from a single retailer page and reflects that seller's terms, not a verified manufacturer/importer warranty. Kept dimensions from two agreeing retailer quotes but flagged the Wisebuy conflict. Normalized temperature range wording."
+ }
+}

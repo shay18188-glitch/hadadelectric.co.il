@@ -1,0 +1,452 @@
+{
+ "modelNumber": "EOH6221X",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EOH6221X",
+  "israeliImporter": "Miniline (מיניליין)",
+  "matchConfidence": "high",
+  "notes": "תנור בנוי רב-תכליתי מסדרת 3D Design. באתר היבואן מופיעים גם גרסאות EOH6221V ו-EOH6221K, שאינן בדגם הזה. | QA: All sources name EOH6221X; importer Miniline confirmed by Bezeq Store and Bettershop."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://miniline.co.il/product-category/electrolux/ovens/built-in-ovens/",
+   "publisher": "Miniline",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://bstore.bezeq.co.il/electrical/135862",
+   "publisher": "Bezeq Store",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://zabilo.com/en/built-in-ovens/14245-eoh6221.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.bettershop.co.il/product/electrolux-eoh6221x/",
+   "publisher": "Bettershop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "EOH6221X"
+    },
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקום ייצור",
+     "value": "גרמניה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח שימושי",
+     "value": "71 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.4 × 59.4 × 56.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Order per quote is H x W x D.",
+     "label": "מידות נישה להתקנה (גובה × רוחב × עומק)",
+     "value": "589 × 560 × 550 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "3.5 kW"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "50°C עד 275°C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות עבודה",
+     "value": "9"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Flagged for verification.",
+     "label": "דירוג אנרגטי",
+     "value": "A+"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה (תוכנית קונבנציונלית)",
+     "value": "0.99 kWh"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה (תוכנית טורבו / מאוורר)",
+     "value": "0.69 kWh"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה נגד טביעות אצבע"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Bettershop also mentions two extra limited years; flagged.",
+     "label": "אחריות יבואן רשמי",
+     "value": "שנה מלאה ע״י מיניליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed turbo mention not in the quotes.",
+   "text": "מערכת SurroundCook לבישול ואפייה בו-זמנית במספר תבניות"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא אפייה InfiSpace הגדול ב-20% מתא אפייה קלאסי"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי Aqua Cleaning בסיוע אדים בטמפרטורה של 90°C ב-30 דקות"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 סטים של מסילות טלסקופיות המתאימות ל-2 תבניות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "דלת קרה עם 3 שכבות זכוכית"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום עליון מתקפל כלפי מטה לניקוי פשוט וקל"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סולמות EasyEntry להכנסה נוחה של תבניות, המתפרקים בקלות לניקוי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגשי InfiSpace: 2 רגילים, 1 עמוק ורשת אחת"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "לתיאום התקנה יש לפנות לשירות הלקוחות של מיניליין, היבואן הרשמי"
+  }
+ ],
+ "content": {
+  "summary": "Electrolux EOH6221X הוא תנור בנוי רב-תכליתי בגימור נירוסטה נגד טביעות אצבע, בנפח שימושי של 71 ליטר ותוצרת גרמניה. מתאים למי שאופה ומבשל במספר תבניות במקביל ומחפש ניקוי קל בסיוע אדים.",
+  "highlights": [
+   "נפח שימושי של 71 ליטר",
+   "9 תוכניות עבודה, כולל פיצה/AirFry",
+   "2 סטים של מסילות טלסקופיות",
+   "ניקוי Aqua Cleaning בסיוע אדים ב-90°C",
+   "דירוג אנרגטי A+"
+  ],
+  "goodFor": [
+   "אפייה ובישול בו-זמנית במספר תבניות בזכות מערכת SurroundCook",
+   "מי שרוצה ניקוי פשוט בסיוע אדים וגוף חימום עליון מתקפל",
+   "מטבחים עם נישה סטנדרטית לתנור בנוי"
+  ],
+  "considerations": [
+   "התקנה מתואמת מול שירות הלקוחות של מיניליין",
+   "האחריות הרשמית היא שנה מלאה ע״י מיניליין"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של התנור?",
+    "a": "הנפח השימושי של תא התנור הוא 71 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את התנור?",
+    "a": "התנור כולל ניקוי Aqua Cleaning בסיוע אדים ב-90°C במשך 30 דקות, וגוף חימום עליון שמתקפל כלפי מטה לניקוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Electrolux EOH6221X נירוסטה, נפח 71 ליטר, 9 תוכניות ו-2 סטים מסילות טלסקופיות, ניקוי באדים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux EOH6221X",
+   "תנור בנוי אלקטרולוקס",
+   "EOH6221X",
+   "תנור בנוי נירוסטה 71 ליטר",
+   "תנור בנוי מסילות טלסקופיות",
+   "תנור אלקטרולוקס 3D Design",
+   "תנור בנוי רב תכליתי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "71 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מסילות טלסקופיות",
+   "catalogValue": "2 סטים מסילות טלסקופיות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "סוג מוצר",
+   "catalogValue": "תנור בנוי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דיגיטלי",
+   "catalogValue": "דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Electrolux",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "59.4 × 59.4 × 56.7 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "באתר zabilo מופיע גם Energy class A בטבלת המפרט, בעוד שבאותו אתר ובבזקסטור מופיע A+. נדרש אימות מול תווית האנרגיה של היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות יבואן רשמי",
+   "issue": "בבזקסטור ובזבילו מופיעה אחריות של שנה מלאה, ובבטרשופ מופיעות 3 שנים (שנה מלאה ושנתיים נוספות מוגבלות בתנאי התקנון). נדרש לאמת את תנאי האחריות מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "דיגיטלי",
+   "issue": "המאפיין 'דיגיטלי' בשם הקטלוגי לא נמצא באף אחד מהדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מקום ייצור",
+   "issue": "היבואן מפרסם את הדגם כחלק ממשפחת 3D Design עם גרסאות צבע EOH6221V ו-EOH6221K. ודאו שהדגם הנמכר הוא EOH6221X (נירוסטה).",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הוצג A+, אך לפי החוקר באותו אתר מופיע גם A. יש לאמת מול תווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "בבטרשופ מוזכרות 3 שנים (שנה מלאה ושנתיים מוגבלות), בבזק סטור שנה. יש לאמת תנאי אחריות מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם קטלוגי",
+   "issue": "המאפיין 'דיגיטלי' בשם הקטלוגי לא אומת באף מקור.",
+   "severity": "low"
+  },
+  {
+   "field": "גרסה",
+   "issue": "קיימות גרסאות EOH6221V ו-EOH6221K; ודאו שהיחידה הנמכרת היא EOH6221X נירוסטה.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 reworded to match the quote (SurroundCook). Zabilo source kind corrected to il-retailer. Energy rating kept from the single ok quote but flagged since the researcher noted an 'A' value elsewhere on the same page. Warranty kept as the one full year both sources agree on. | code guard removed: summary: \"התנור כולל 9 תוכניות עבודה, טווח טמפרטורה של 50°C עד 275°C ו-2 סטים של מסילות טלסקופיות.\"; faq: \"אילו מידות נישה נדרשות להתקנה?\"; faq: \"מה מגיע באריזה?\"; faq: \"מה טווח הטמפרטורות?\"; goodFor: \"משפחות עם ילדים, בזכות דלת קרה עם 3 שכבות זכוכית\"; consideration: \"יש לוודא שמידות הנישה הן 589 × 560 × 550 מ״מ (גובה × רוחב × עומק)\"; consideration: \"ההספק המרבי הוא 3.5 kW, כדאי לוודא שקע ונקודת חשמל מתאימים\""
+ }
+}

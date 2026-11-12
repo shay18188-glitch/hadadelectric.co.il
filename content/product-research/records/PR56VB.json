@@ -1,0 +1,312 @@
+{
+ "modelNumber": "PR56VB",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PR56VB",
+  "israeliImporter": "אס גי אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "Only Israeli retailer pages (BUG, Zap comparison) name the model (written PR-56VB / PR56VB). No manufacturer, importer, manual or EPREL page was found; importer site did not load. | QA: BUG and Zap both name Premier PR-56VB, 50 liter black vitrine fridge, warranty by S.G. Electronics. No manufacturer or importer page available."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-ויטרינה-שקופה-50-ליטר-premier-9638514578",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/search.aspx?keyword=PR-56VB",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "50 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח נטו",
+     "value": "46 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From Zap listing; BUG page also lists PR-55VB dimensions, flagged.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "47 × 44 × 49 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "17 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם מדחס",
+     "value": "ANUODAN HL35Y"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גז קירור",
+     "value": "R600a"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, באמצעות אס גי אלקטרוניקה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת LED פנימית"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב שחור עם דלת ויטרינה שקופה וידית סמויה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'ideal' superlative.",
+   "text": "מותאם לאקלים הישראלי, לשימוש ביתי או משרדי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למשרד, לחדר ישיבות או לפינת שתייה בבית.",
+  "highlights": [
+   "דלת ויטרינה שקופה וידית סמויה",
+   "תאורת LED פנימית"
+  ],
+  "goodFor": [
+   "משרד או חדר ישיבות שצריך מקרר שתייה קטן",
+   "פינת קפה ביתית עם תצוגה של המשקאות דרך הדלת השקופה",
+   "חדר עבודה או חדר שינה שבו נדרש מקרר קומפקטי"
+  ],
+  "considerations": [
+   "דירוג האנרגיה הוא F, כדאי לקחת זאת בחשבון בשימוש רציף"
+  ],
+  "faq": [
+   {
+    "q": "מה דירוג האנרגיה?",
+    "a": "דירוג אנרגטי F.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תאורה פנימית?",
+    "a": "כן, המקרר כולל תאורת LED פנימית.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות באמצעות היבואן אס גי אלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מקרר ויטרינה קטן",
+   "Premier PR56VB",
+   "PR-56VB",
+   "מקרר משרדי 50 ליטר",
+   "מקרר שתייה דלת שקופה",
+   "מקרר מיני בר שחור",
+   "מקרר ויטרינה פרימייר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "50 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח נטו",
+   "catalogValue": "46 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "47 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "44 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "49 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "17 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דגם מדחס",
+   "catalogValue": "ANUODAN HL35Y",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גז קירור",
+   "catalogValue": "R600a/16g",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "BUG page has a second block headed PR-55VB with different dimensions (48.8/44/47); the 47/44/49 values come from Zap listing text and match the catalog.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer or importer page found; only retailer listings.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "BUG page includes a PR-55VB block with different dimensions; 47/44/49 taken from Zap listing and match catalog, verify against importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only Israeli retailer listings; no manufacturer or importer page verified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified by ok quotes on pages naming PR-56VB. Feature 2 wording softened (removed 'ideal'). Dimensions kept from Zap listing text but flagged because the BUG page also shows a PR-55VB block with different dimensions. | code guard removed: summary: \"Premier PR56VB הוא מקרר ויטרינה קומפקטי בצבע שחור עם דלת שקופה, בנפח כולל של 50 ליטר (46 ליטר נטו).\"; summary: \"מידותיו 47 × 44 × 49 ס״מ, והוא כולל תאורת LED פנימית וידית סמויה.\"; faq: \"מה הנפח של המקרר?\"; faq: \"מה מידות המקרר?\"; metaDescription: \"מקרר ויטרינה Premier PR56VB בצבע שחור עם דלת שקופה, נפח 50 ליטר ותאורת LED פנימית, מידות 47×44×49 ס״מ. בחדד אלקטריק נהריה\"; highlight: \"נפח כולל 50 ליטר, 46 ליטר נטו\"; highlight: \"מידות 47 × 44 × 49 ס״מ\"; highlight: \"גז קירור R600a\"; consideration: \"לוודא שהמקום המיועד מתאים למידות 47 × 44 × 49 ס״מ ומשאיר מרווח לאוורור\"; consideration: \"הנפח נטו הוא 46 ליטר, מתאים בעיקר לשתייה ולמזון קל\"; consideration: \"המשקל 17 ק״ג, יש לבחור משטח יציב\""
+ }
+}

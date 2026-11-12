@@ -1,0 +1,239 @@
+{
+ "modelNumber": "ME682832",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Moulinex",
+  "exactModel": "ME682832",
+  "israeliImporter": "ניופאן",
+  "matchConfidence": "high",
+  "notes": "נמצאו שני דפי קמעונאי עם הדגם המדויק (BUG, Beytech). דפי יצרן לא נגישים. | QA: Two retailer pages (BUG Israel, Beytech) name the exact model ME682832 with 2000W and 2.6 kg/min, matching the catalog. No manufacturer page in sources."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מטחנת-בשר-moulinex-88002402me682832",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://beytech.com.lb/product/moulinex-me682832-meat-mincer-hv8-2000w/",
+   "publisher": "Beytech",
+   "kind": "retailer",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יכולת טחינת בשר מקסימלית",
+     "value": "עד 2.6 ק״ג לדקה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "ע״י ניופאן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From non-Israeli retailer page naming the model.",
+     "label": "צבע",
+     "value": "שחור ונירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצב Reverse לשחרור קל ומהיר של שאריות ולמניעת היתקעות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מקום ייעודי לאחסון האביזרים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 0; merged wording.",
+   "text": "פונקציית Reverse למניעת היתקעות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 דיסקי טחינה מנירוסטה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מטחנת בשר חשמלית של Moulinex, דגם ME682832, עם מנוע בהספק 2000 W. המטחנה מעבדת עד 2.6 ק״ג בשר לדקה וכוללת מצב Reverse לשחרור שאריות ולמניעת היתקעות. מתאימה למי שטוחן בשר בבית באופן קבוע ומעדיף להכין את הטחינה בעצמו.",
+  "highlights": [
+   "מנוע בהספק 2000 W",
+   "טחינה של עד 2.6 ק״ג בשר לדקה",
+   "מצב Reverse לשחרור שאריות ולמניעת היתקעות",
+   "מקום ייעודי לאחסון האביזרים"
+  ],
+  "goodFor": [
+   "הכנת בשר טחון בבית לקציצות, המבורגרים ומילויים",
+   "טחינת כמויות גדולות לקראת אירוח או חגים",
+   "מי שרוצה לשלוט בסוג הבשר ובאחוז השומן בטחינה"
+  ],
+  "considerations": [
+   "כדאי לוודא שיש מקום על השיש ושקע חשמל זמין בקרבת מקום",
+   "בדקו אילו דיסקי טחינה נכללים באריזה ואם הם מתאימים לסוגי הטחינה שאתם צריכים",
+   "האחריות ניתנת ע״י ניופאן – כדאי לשמור את חשבונית הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המטחנה?",
+    "a": "המטחנה מצוידת במנוע בהספק 2000 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה בשר אפשר לטחון בדקה?",
+    "a": "עד 2.6 ק״ג בשר לדקה.",
+    "sources": []
+   },
+   {
+    "q": "מה עושים אם הבשר נתקע?",
+    "a": "למטחנה יש מצב Reverse שמשחרר שאריות ועוזר למנוע היתקעות.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות על המוצר?",
+    "a": "האחריות ניתנת ע״י ניופאן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מטחנת בשר חשמלית Moulinex ME682832 עם מנוע 2000 W וטחינה של עד 2.6 ק״ג בשר לדקה, כולל מצב Reverse נגד היתקעות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מטחנת בשר מולינקס",
+   "Moulinex ME682832",
+   "מטחנת בשר חשמלית",
+   "מטחנת בשר 2000 וואט",
+   "ME682832",
+   "מטחנת בשר ביתית",
+   "מטחנת בשר שחורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב טחינת בשר",
+   "catalogValue": "עד 2.6 ק״ג בדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחורה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מקור מידע",
+   "issue": "רק מקור קמעונאי אחד נבדק. עמודי יצרן ו-EPREL לא נמצאו לדגם המדויק, ולכן יש להוסיף מקור שני לפני פרסום העובדות.",
+   "severity": "medium"
+  },
+  {
+   "field": "דגם",
+   "issue": "עמוד Moulinex Middle East של קו HV8 PLUS 4IN1 מציין מק\"ט הפניה ME682827 עם הספק 2000W ו-2.6 ק״ג לדקה. העמוד אינו מזכיר את ME682832, ולכן יש לוודא שהדגם זהה.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "שם המוצר בקטלוג מציין שחורה, אך דף הקמעונאי שנבדק אינו מציין צבע.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור מידע",
+   "issue": "אין מקור יצרן; המידע מבוסס על שני דפי קמעונאים בלבד (אחד מהם מחוץ לישראל).",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "הצבע (שחור ונירוסטה) מאומת רק מדף קמעונאי בלבנון; יש לוודא שהדגם הישראלי זהה.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 2 (Reverse function to prevent jamming) rejected as a duplicate of feature 0. Colour kept from the Lebanese retailer page, which names the exact model. All other facts confirmed by ok quotes on pages naming ME682832."
+ }
+}

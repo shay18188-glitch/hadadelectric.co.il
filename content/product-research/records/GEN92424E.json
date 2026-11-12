@@ -1,0 +1,228 @@
+{
+  "modelNumber": "GEN92424E",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Blomberg",
+    "exactModel": "GEN92424E",
+    "israeliImporter": "ראלקו (Ralco)",
+    "matchConfidence": "high",
+    "notes": "Blomberg built-in 4-burner gas hob, brushed stainless steel. The official Israeli Blomberg catalogue published on blomberg.co.il (site of the exclusive importer Ralco) lists GEN92424E by exact model with 4 burners, SABAF wok burner, width 58 / depth 51 cm, cut-out 56x49 cm and brushed stainless finish, and its photo shows side-mounted knobs on the right and the wok burner front-left. Several Israeli retailers list the exact model (some as 'GEN92424' without the trailing E) with Ralco as importer. No product page for GEN92424E exists on blomberg.co.il today (only the sibling GEN12424E) and no manufacturer global/EU page, EPREL entry or user manual for this model was found, so per-burner powers, ignition and safety features rest on Israeli retailer pages only. Not to be confused with GEN12424E (sibling model with its own importer page, different body photo) - nothing was taken from it. The catalog brand spelling 'Bloomberg' is wrong; the brand is Blomberg."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://blomberg.co.il/wp-content/uploads/2021/10/25467-catalogue-for-website-a.pdf",
+      "publisher": "Blomberg Israel / Ralco – official product catalogue (page 16, 'תנורים בנויים + כיריים')",
+      "kind": "importer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.traklin.co.il/בישול_ואפייה/כיריים_גז/כיריים_גז_4_להבות_נירוסטה_blomberg_דגם_gen92424e_בלומברג",
+      "publisher": "טרקלין חשמל",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://hashmal-price.co.il/product/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%91%D7%9C%D7%95%D7%9E%D7%91%D7%A8%D7%92-4-%D7%9C%D7%94%D7%91%D7%95%D7%AA-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-blomberg-%D7%93%D7%92%D7%9D-gen92424/",
+      "publisher": "חשמל במחירים",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.netoneto.co.il/product/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-60-%D7%A1%D7%9E-%D7%9E%D7%91%D7%99%D7%AA-blomberg-%D7%91%D7%9C%D7%95%D7%9E%D7%91%D7%A8%D7%92-%D7%93%D7%92%D7%9D-gen92424",
+      "publisher": "חשמל נטו",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.wisebuy.co.il/product.aspx?category=e-hobs&productid=1140640",
+      "publisher": "Wisebuy (השוואת מחירים)",
+      "kind": "other",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://blomberg.co.il/shop/cook/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%91%D7%A0%D7%95%D7%99%D7%99%D7%9D/gen-12424e/",
+      "publisher": "Blomberg Israel / Ralco – product page for sibling model GEN12424E",
+      "kind": "importer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        { "label": "יצרן", "value": "Blomberg", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "דגם", "value": "GEN92424E", "sources": ["s1", "s2", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "סוג", "value": "כיריים גז בנויות (משטח בילט-אין)", "sources": ["s1", "s2", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "יבואן רשמי", "value": "ראלקו", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        { "label": "מידות (רוחב × עומק)", "value": "58 × 51 ס״מ", "sources": ["s1", "s2", "s3", "s4"], "confidence": "high", "status": "verified", "note": "Importer catalogue gives ר-58 ע-51; height of the body not published by any source found, so the full row מידות (רוחב × גובה × עומק) cannot be written." },
+        { "label": "רוחב", "value": "58 ס״מ", "sources": ["s1", "s2", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "עומק", "value": "51 ס״מ", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "מידות חיתוך בשיש", "value": "56 × 49 ס״מ", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "משקל", "value": "לא פורסם", "sources": [], "confidence": "low", "status": "unverified", "note": "No source found states the weight." }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        { "label": "מספר מבערים", "value": "4 מבערי גז", "sources": ["s1", "s2", "s3", "s4", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "מבערים", "value": "תוצרת SABAF", "sources": ["s1", "s2", "s3", "s4"], "confidence": "high", "status": "verified", "note": "Importer catalogue names a SABAF wok burner; retailers state all four burner heads are SABAF." },
+        { "label": "מבער ווק", "value": "יש", "sources": ["s1", "s2", "s3", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "הספק כולל", "value": "8,600 W", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified", "note": "Israeli retailers only; not printed in the importer catalogue. Identical figure appears on the importer page of sibling GEN12424E (s6), not used as evidence." },
+        { "label": "מבער ווק שמאלי", "value": "3,600 W", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified", "note": "Retailers label it 'שמאלי ווק'; Hashmal-Price's (s3) marketing text also says 'ווק חזק במרכז'. The importer catalogue photo shows the wok burner front-left." },
+        { "label": "מבער אחורי שמאלי", "value": "2,000 W", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified", "note": "Israeli retailers only." },
+        { "label": "מבער אחורי ימני", "value": "2,000 W", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified", "note": "Israeli retailers only." },
+        { "label": "מבער קדמי ימני", "value": "1,000 W", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified", "note": "Israeli retailers only." },
+        { "label": "סוג גז", "value": "לא פורסם", "sources": [], "confidence": "low", "status": "unverified", "note": "No source states LPG / natural gas configuration or nozzles." }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        { "label": "משטח", "value": "נירוסטה מוברשת", "sources": ["s1", "s2", "s3", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "ראשי מבערים ורשתות", "value": "יציקת ברזל", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified", "note": "Israeli retailers only." },
+        { "label": "בקרה", "value": "כפתורים סיבוביים בצד ימין של המשטח", "sources": ["s1", "s2", "s3", "s5"], "confidence": "medium", "status": "verified", "note": "Retailers state side knobs; position on the right side is seen in the importer catalogue photo." }
+      ]
+    },
+    {
+      "id": "safety",
+      "rows": [
+        { "label": "הצתה", "value": "הצתה אלקטרונית", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified", "note": "Israeli retailers only." },
+        { "label": "הגנה מפני דליפת גז", "value": "חיישני בטיחות למניעת דליפת גז", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified", "note": "Israeli retailers only; wording does not say whether every burner has a thermocouple." },
+        { "label": "תקנים", "value": "VDE ו-CE", "sources": ["s2", "s3"], "confidence": "medium", "status": "verified", "note": "Retailer marketing text; no certificate seen." }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        { "label": "חיבור חשמל", "value": "חד-פאזי", "sources": ["s5"], "confidence": "low", "status": "unverified", "note": "Only on the Wisebuy aggregator spec table." }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        { "label": "אחריות", "value": "אחריות יבואן – ראלקו", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "תקופת אחריות", "value": "שנה", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "unverified", "note": "Three Israeli retailers state one year by Ralco; the importer catalogue does not state a period, and the guide allows only importer-stated warranty terms." }
+      ]
+    }
+  ],
+  "features": [
+    { "text": "4 מבערי גז מתוצרת SABAF, כולל מבער ווק", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "מבער ווק בהספק 3,600 W לבישול בחום גבוה ומוקפצים", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified" },
+    { "text": "הספק כולל של 8,600 W בארבעת המבערים", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified" },
+    { "text": "ראשי מבערים ורשתות מיציקת ברזל", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified" },
+    { "text": "משטח נירוסטה מוברשת", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "הצתה אלקטרונית", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified" },
+    { "text": "חיישני בטיחות למניעת דליפת גז", "sources": ["s2", "s3", "s4"], "confidence": "medium", "status": "verified" },
+    { "text": "כפתורי הפעלה בצד המשטח ולא בחזית", "sources": ["s1", "s2", "s3"], "confidence": "medium", "status": "verified" }
+  ],
+  "inTheBox": [],
+  "installation": [
+    { "text": "מידות חיתוך בשיש: 56 × 49 ס״מ", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "התקנה ראשונית וחיבור לגז על ידי טכנאי גז מוסמך", "sources": ["s2", "s4"], "confidence": "medium", "status": "verified", "note": "Stated by Israeli retailers (Netoneto: required by law for this product; Traklin: installation by a certified technician). No manual found." }
+  ],
+  "content": {
+    "summary": "כיריים גז בנויות של Blomberg בדגם GEN92424E, עם 4 מבערי SABAF ומשטח נירוסטה מוברשת. מבער הווק מגיע ל-3,600 W וההספק הכולל של ארבעת המבערים הוא 8,600 W. רוחב הכיריים 58 ס״מ ומידות החיתוך בשיש 56 × 49 ס״מ. הכפתורים ממוקמים בצד המשטח, והיבואן הרשמי בישראל הוא ראלקו.",
+    "highlights": [
+      "4 מבערי גז מתוצרת SABAF",
+      "מבער ווק 3,600 W והספק כולל 8,600 W",
+      "משטח נירוסטה מוברשת, רשתות וראשי מבערים מיציקת ברזל",
+      "הצתה אלקטרונית וחיישני בטיחות למניעת דליפת גז",
+      "רוחב 58 ס״מ, חיתוך בשיש 56 × 49 ס״מ"
+    ],
+    "goodFor": [
+      "מי שמבשל הרבה במחבת ווק – מבער הווק מגיע ל-3,600 W",
+      "החלפת כיריים גז קיימות בשיש עם פתח של 56 × 49 ס״מ",
+      "מטבח שבו רוצים כפתורים בצד ולא בחזית המשטח"
+    ],
+    "considerations": [
+      "מדדו את הפתח בשיש: הכיריים דורשות חיתוך של 56 × 49 ס״מ ורוחב הגוף 58 ס״מ.",
+      "חיבור כיריים גז מבוצע על ידי טכנאי גז מוסמך – יש לתאם התקנה מראש.",
+      "סוג הגז (גפ״מ או גז טבעי) אינו מפורסם במקורות – אם הבית מחובר לגז טבעי, בדקו התאמה מול היבואן לפני הרכישה.",
+      "הכפתורים ממוקמים בצד ימין של משטח הכיריים ולא בחזית – ודאו שהמיקום נוח לכם."
+    ],
+    "faq": [
+      {
+        "q": "מה מידות החיתוך בשיש עבור Blomberg GEN92424E?",
+        "a": "מידות החיתוך בשיש הן 56 × 49 ס״מ, ומידות גוף הכיריים הן 58 ס״מ רוחב ו-51 ס״מ עומק.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "מה ההספק של מבער הווק?",
+        "a": "מבער הווק מגיע ל-3,600 W. שני המבערים האחוריים הם 2,000 W כל אחד, המבער הקדמי הימני 1,000 W, וההספק הכולל 8,600 W.",
+        "sources": ["s2", "s3", "s4"]
+      },
+      {
+        "q": "האם יש לכיריים הגנה מפני דליפת גז?",
+        "a": "כן. לפי מפרטי המוצר בישראל יש לכיריים חיישני בטיחות למניעת דליפת גז והצתה אלקטרונית.",
+        "sources": ["s2", "s3", "s4"]
+      },
+      {
+        "q": "מי היבואן ומי נותן את האחריות?",
+        "a": "היבואן הרשמי של Blomberg בישראל הוא ראלקו, והאחריות על המוצר היא אחריות ראלקו.",
+        "sources": ["s1", "s2", "s4"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "כיריים גז בנויות Blomberg GEN92424E מנירוסטה מוברשת: 4 מבערי SABAF כולל ווק 3,600 W, רוחב 58 ס״מ וחיתוך 56×49 ס״מ. יבואן ראלקו. בחדד אלקטריק נהריה",
+    "keywords": [
+      "GEN92424E",
+      "Blomberg GEN92424E",
+      "בלומברג GEN92424E",
+      "כיריים גז בלומברג",
+      "כיריים גז 4 להבות נירוסטה",
+      "כיריים גז בנויות 60 ס״מ",
+      "כיריים גז עם מבער ווק",
+      "GEN92424"
+    ]
+  },
+  "catalogCheck": [
+    { "field": "brand", "catalogValue": "Bloomberg", "finding": "corrected", "correctValue": "Blomberg", "sources": ["s1", "s2", "s3"] },
+    { "field": "model_number", "catalogValue": "GEN92424E", "finding": "confirmed", "sources": ["s1", "s2"] },
+    { "field": "category", "catalogValue": "כיריים", "finding": "confirmed", "sources": ["s1", "s5"] },
+    { "field": "name: כיריים גז", "catalogValue": "כיריים גז", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "name: 60 ס\"מ", "catalogValue": "60 ס\"מ", "finding": "corrected", "correctValue": "רוחב גוף 58 ס״מ (חיתוך 56 × 49 ס״מ); 60 ס״מ הוא סיווג הגודל המקובל ולא רוחב הגוף בפועל", "sources": ["s1", "s2", "s3"] },
+    { "field": "name: נירוסטה", "catalogValue": "נירוסטה", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "origin_country", "catalogValue": "", "finding": "unverifiable", "sources": [] },
+    { "field": "מספר מבערים", "catalogValue": "", "finding": "missing-added", "correctValue": "4 מבערי גז SABAF כולל ווק", "sources": ["s1", "s2", "s3"] },
+    { "field": "מידות ומידות חיתוך", "catalogValue": "", "finding": "missing-added", "correctValue": "58 × 51 ס״מ; חיתוך 56 × 49 ס״מ", "sources": ["s1", "s2", "s3"] },
+    { "field": "הספק מבערים", "catalogValue": "", "finding": "missing-added", "correctValue": "ווק 3,600 W; 2,000 W; 2,000 W; 1,000 W; סה״כ 8,600 W", "sources": ["s2", "s3", "s4"] },
+    { "field": "יבואן ואחריות", "catalogValue": "", "finding": "missing-added", "correctValue": "יבואן ראלקו, אחריות ראלקו", "sources": ["s1", "s2", "s4"] }
+  ],
+  "reviewFlags": [
+    { "field": "brand", "issue": "The catalog brand is spelled 'Bloomberg'; the manufacturer is 'Blomberg' (importer Ralco). Fix the brand in the feed.", "severity": "medium" },
+    { "field": "name", "issue": "Name says '60 ס\"מ'; the importer catalogue gives a body width of 58 cm (cut-out 56×49 cm). 60 cm is the usual size class, so the name is acceptable but should not be read as the exact width. Name not changed.", "severity": "low" },
+    { "field": "specGroups.performance", "issue": "Per-burner powers, total 8,600 W, ignition, gas-safety and VDE/CE claims come only from Israeli retailer pages, whose text is identical to the importer's page for the sibling model GEN12424E. Ask Ralco to confirm these values for GEN92424E.", "severity": "medium" },
+    { "field": "identity", "issue": "GEN92424E no longer has a product page on blomberg.co.il (only GEN12424E is listed); the model appears only in the importer's 2021 catalogue and may be discontinued or replaced by GEN12424E.", "severity": "low" },
+    { "field": "warranty", "issue": "Warranty period (one year) is stated by retailers only; the importer catalogue confirms Ralco warranty without a period.", "severity": "low" },
+    { "field": "gas type / weight / origin", "issue": "Gas type (LPG/natural gas), weight, height and country of origin could not be found in any source.", "severity": "low" }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "All 6 sources re-opened. s1 importer catalogue p.16 text layer confirms GEN92424E: 4 burners, SABAF wok burner, ר-58 ע-51, cut-out 56x49 ס״מ, brushed stainless, Ralco warranty; both hob photos on that page show four rotary knobs on the right and the wok front-left. s2 (GEN92424E), s3 and s4 (GEN92424) confirm burner powers 3,600/2,000/2,000/1,000 W, 8,600 W total, cast-iron heads/grates, SABAF, electronic ignition, gas-leak sensors, 58/51 cm and 56×49 cut-out; VDE/CE on s2 and s3; one-year Ralco warranty on s2–s4 (kept unverified); s5 confirms gas hob, 4 burners, stainless, knobs, 58/56 cm widths. Every verified row found on its cited pages; no rows downgraded or values changed. Identity matches (brand Blomberg, name unchanged). Fixes: removed unsupported 'מתאימות למטבח עם משטח עבודה סטנדרטי' from summary; dropped 'סירים גדולים' inference from goodFor; rewrote gas-type consideration in clearer Hebrew (גפ״מ / גז טבעי); rewrote right-side-knobs consideration, which assumed free space beside the hob without a source; FAQ question changed from 'מי נותן שירות' to 'מי נותן את האחריות' (no source names a service provider); unit spacing '3,600 W' in meta description; wok-row note now attributes 'ווק חזק במרכז' to s3 (not Traklin); combined dimensions row kept as רוחב × עומק because no source gives a height (noted)."
+  }
+}

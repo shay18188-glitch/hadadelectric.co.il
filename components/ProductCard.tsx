@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import type { Product } from "@/types/product";
+import { shownModel, type Product } from "@/types/product";
 import type { Locale } from "@/lib/i18n/locales";
 import { getLocaleFromPathname, LOCALE_PREFIX } from "@/lib/i18n/locales";
 import { AvailabilityBadge } from "@/components/AvailabilityBadge";
@@ -76,7 +76,7 @@ export function ProductCard({
       <div className="flex flex-1 flex-col p-3.5 sm:p-5">
         <div className="flex items-center justify-between gap-2">
           {product.brand && <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-brand-blue sm:text-[11px]">{product.brand}</p>}
-          <p className="text-[10px] text-graphite-soft/55 sm:text-[11px]">{t.model} {product.modelNumber}</p>
+          <p className="text-[10px] text-graphite-soft/55 sm:text-[11px]">{t.model} {shownModel(product)}</p>
         </div>
         <Link href={productHref} className="focus-visible:outline-none">
           <h3 className="mt-2 line-clamp-2 min-h-[2.6em] text-[13px] font-bold leading-[1.35] text-graphite transition-colors group-hover:text-brand-blue sm:text-[15px]">

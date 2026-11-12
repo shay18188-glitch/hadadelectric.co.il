@@ -1,0 +1,374 @@
+{
+ "modelNumber": "HS08",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Dyson",
+  "exactModel": "HS08",
+  "israeliImporter": "ב.נ.ז.כ",
+  "matchConfidence": "medium",
+  "notes": "HS08 is the Dyson Airwrap i.d. multi-styler and dryer. The Israeli citydeal listing names HS08 (Rose Gold, Straight+Wavy set). The Singapore Courts listing names HS08 and gives the dimensions and weight. The Dyson manufacturer pages were not readable (HTTP 403), so no manufacturer page is quoted. The catalog text (hair dryer, 13.5 l/s airflow, 40 measurements per second) reads like the Supersonic (HD08), a different model. | QA: Both sources name HS08 (Dyson Airwrap i.d. multi-styler and dryer), consistent with the catalog name מייבש ומעצב שיער. The colourway and kit sold by the store are unclear, and the catalog specification text resembles the Supersonic (HD08)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/dyson-airwrap-id-hs08-rose-gold-%d7%9e%d7%a2%d7%a6%d7%91-%d7%95%d7%9e%d7%99%d7%99%d7%91%d7%a9-%d7%a9%d7%99%d7%a2%d7%a8-%d7%97%d7%9b%d7%9d-%d7%9c%d7%a9%d7%99%d7%a2%d7%a8-%d7%97%d7%9c%d7%a7",
+   "publisher": "CityDeal (יבואן רשמי)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.courts.com.sg/dyson-hs08-t1-t2-hk-my-sg-cepk-rosegd-airwrap-i-d-multi-styler-and-dryer-601886-01-cermaic-pink-ip214940",
+   "publisher": "Courts Singapore",
+   "kind": "retailer",
+   "market": "SG",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סדרה",
+     "value": "Airwrap i.d."
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1,300 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Wording aligned with quote",
+     "label": "מהירות מנוע",
+     "value": "עד 110,000 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הגדרות",
+     "value": "3 דרגות חום ו-3 דרגות מהירות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Axis orientation unclear; label made generic",
+     "label": "מידות",
+     "value": "48 × 272 × 41 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "0.61 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיבור לטלפון",
+     "value": "Bluetooth"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אפליקציה",
+     "value": "MyDyson"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טכנולוגיית אוויר",
+     "value": "Coanda"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טמפרטורה מקסימלית",
+     "value": "מתחת ל־150°C"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים (יבואן רשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "עיצוב מבוקר באמצעות טכנולוגיית Coanda ובקרת חום חכמה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תלתול בתזמון אישי באמצעות i.d. curl: ליפוף, עיצוב וקיבוע באוויר קר, עם הגדרה דרך אפליקציית MyDyson"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Rewritten to match the quote; kit sold in Israel may differ",
+   "text": "אביזר ייבוש עם אביזר לשערות סוררות, מסלסל קוני, מסלסל ארוך 40 מ״מ, מברשת החלקה רכה, אביזר לייבוש מהיר, מברשת נפח עגולה גדולה ומברשת לניקוי המסנן (לפי ערכה שנמכרת בחו״ל)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Dyson Airwrap i.d. מתאים למי שרוצה לייבש ולעצב את השיער בבית עם מכשיר אחד וכמה אביזרים.",
+  "highlights": [
+   "חיבור Bluetooth לאפליקציית MyDyson",
+   "אחריות שנתיים מהיבואן הרשמי"
+  ],
+  "goodFor": [
+   "מי שרוצה לייבש ולעצב את השיער במכשיר אחד",
+   "יצירת תלתלים וגלים בבית בעזרת i.d. curl והאפליקציה"
+  ],
+  "considerations": [
+   "ודאו איזו ערכת אביזרים וגוון כלולים בדגם שנמכר בחנות",
+   "התכונות החכמות דורשות סמארטפון עם Bluetooth ואפליקציית MyDyson"
+  ],
+  "faq": [
+   {
+    "q": "האם המכשיר מתחבר לטלפון?",
+    "a": "כן, הוא מתחבר בבלוטות׳ לאפליקציית MyDyson, שבה מגדירים את התלתול בתזמון אישי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "שנתיים אחריות מהיבואן הרשמי ב.נ.ז.כ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Dyson Airwrap i.d.",
+   "דייסון HS08",
+   "Dyson HS08",
+   "מעצב שיער דייסון",
+   "דייסון איירוורפ",
+   "מייבש ומעצב שיער Dyson",
+   "Airwrap i.d. HS08"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1300W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "270.5x47.5x47.5 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "48 × 272 × 41 מ״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "0.595 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "0.61 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הגדרות",
+   "catalogValue": "3 דרגות חום ו-3 דרגות מהירות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זרימת אוויר",
+   "catalogValue": "13.5 ליטר/שנייה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית Coanda",
+   "catalogValue": "טכנולוגיית אפקט Coanda",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדידת חום 40 פעמים בשנייה",
+   "catalogValue": "מעל 40 פעמים בשנייה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Bluetooth ו-MyDyson",
+   "catalogValue": "קישוריות Bluetooth לאפליקציית MyDyson",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים (יבואן רשמי)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "The Courts listing labels its dimensions as w × H × d (48 × 272 × 41 mm), while a Dyson Hong Kong listing seen only in search snippets gives height 48 mm and length 272 mm. The width/height orientation is unclear; the catalog's 270.5 × 47.5 × 47.5 mm does not match either. Check against the Dyson manual or product fiche.",
+   "severity": "medium"
+  },
+  {
+   "field": "תיאור המוצר",
+   "issue": "The catalog text (13.5 l/s airflow, 40 measurements per second, dryer category) reads like the Dyson Supersonic (HD08), a different model. HS08 is the Airwrap i.d. multi-styler with curling barrels and brushes. Confirm the category and description for HS08.",
+   "severity": "high"
+  },
+  {
+   "field": "גוון ומהדורה",
+   "issue": "Israeli listings show several colourways and editions for HS08 (Rose Gold, Pink, Red Velvet Gold, Straight+Wavy and Coily+Curly kits). The quoted accessories come from the Courts Pink Straight+Wavy listing. Confirm which kit the store sells.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח ומדידת חום",
+   "issue": "Voltage (220-240V), airflow (13.5 l/s) and the 40-measurements-per-second claim were not found on any page I could quote. They are unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "תיאור המוצר",
+   "issue": "The catalog specification text (13.5 l/s airflow, 40 measurements per second) reads like the Dyson Supersonic (HD08), not the HS08 Airwrap i.d. multi-styler. Confirm the description and category.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimension orientation is unclear (48 × 272 × 41 mm from a Singapore listing); the catalog's 270.5 × 47.5 × 47.5 mm does not match. Check against the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכולת האריזה",
+   "issue": "Accessories list comes from a Singapore Straight+Wavy listing; confirm the kit and colourway sold in Israel.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח וזרימת אוויר",
+   "issue": "Voltage, airflow and the 40-measurements-per-second claim in the catalog were not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 2 value rewritten to 110,000 סל״ד to match the quote. Fact 4 label changed to plain מידות because orientation is unclear. inTheBox rewritten to match the Courts quote exactly (removed storage case and detangling comb, which are not in the quote; added flyaway attachment and filter cleaning brush). | code guard removed: summary: \"HS08 הוא מעצב ומייבש שיער בהספק 1,300 W, המבוסס על טכנולוגיית Coanda ומאפשר ייבוש, תלתול והחלקה במכשיר אחד.\"; summary: \"המכשיר כולל 3 דרגות חום ו-3 דרגות מהירות, שומר על טמפרטורה מתחת ל־150°C ומתחבר בבלוטות׳ לאפליקציית MyDyson לתלתול בתזמון אישי.\"; faq: \"מה ההספק של Dyson Airwrap i.d. HS08?\"; faq: \"כמה דרגות חום ומהירות יש למכשיר?\"; metaDescription: \"מעצב ומייבש שיער Dyson Airwrap i.d. HS08 בהספק 1,300 W עם חיבור Bluetooth לאפליקציית MyDyson וטמפרטורה מתחת ל־150°C. בחדד אלקטריק נהריה\"; highlight: \"הספק 1,300 W\"; highlight: \"3 דרגות חום ו-3 דרגות מהירות\"; highlight: \"טמפרטורה מתחת ל־150°C\"; goodFor: \"מי שמעדיף עיצוב בחום מבוקר מתחת ל־150°C\"; consideration: \"משקל המכשיר 0.61 ק״ג, כדאי לבדוק שנוח לכם להחזיק אותו לאורך העיצוב\""
+ }
+}

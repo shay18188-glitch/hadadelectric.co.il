@@ -1,0 +1,278 @@
+{
+ "modelNumber": "PVBI60-NB",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PVBI60-NB",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The only page found that names PVBI60-NB is the store's own built-in ovens page. No manufacturer, importer, manual or second retailer page for this exact model was found. Search results for sibling models PVBI60-NI (Zap listings, stainless, 60 L, 2000 W) and PVBI60-BK / PVBI60-WH (Amtel, Crocodeal) were not used as evidence for PVBI60-NB. | QA: No external source confirms the exact model PVBI60-NB. The only page is the store's own listing, which echoes the catalog. Sibling models (PVBI60-NI, PVBI60-BK, PVBI60-WH) exist but are not the same SKU. | 2026-11-12: Owner confirmed the oven and sent the supplier links; the NB link's page names PVBI60-NI."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://hadadelectric.co.il/recommended/built-in-ovens",
+   "publisher": "Hadad Electric",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.amtel.co.il/pvbi60-nb",
+   "publisher": "אמטל (קישור שבעל החנות שלח)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  },
+  {
+   "id": "s3",
+   "url": "owner:supplier-link",
+   "publisher": "חדד יובל אלקטריק – בעל החנות",
+   "kind": "owner",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "60 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג בקרה",
+     "value": "מכני"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "9: תאורה, הפשרה, חימום עליון ותחתון, חימום מאוורר, חצי גריל, גריל מלא, מאוורר גריל מלא, מאוורר חימום תחתון, מאוורר חימום תחתון ועליון"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "מכני, עד 120 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה, דלת זכוכית שחורה"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שכבות זכוכית בדלת",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "PVBI60-NB"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "50–250°C"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "2700–3220W"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מאוורר קירור ותרמוסטט"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאורה פנימית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגש ורשת"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "תנור בנוי PROVIEW דגם PVBI60-NB בנפח 60 ליטר, בגימור נירוסטה עם דלת זכוכית שחורה. הוא מציע 9 מצבי הפעלה בבקרה מכנית, טווח טמפרטורות של 50–250°C וטיימר מכני עד 120 דקות. מתאים למי שמחפש תנור בנוי פשוט לתפעול.",
+  "highlights": [
+   "נפח 60 ליטר",
+   "9 מצבי הפעלה, כולל גריל, טורבו והפשרה",
+   "טווח טמפרטורות 50–250°C",
+   "טיימר מכני עד 120 דקות",
+   "דלת עם 2 שכבות זכוכית"
+  ],
+  "goodFor": [
+   "מי שמעדיף בקרה מכנית פשוטה בידיות",
+   "מטבח שמחפש תנור בנוי עם גריל ומצבי מאוורר"
+  ],
+  "considerations": [
+   "ההספק המרבי הוא 2700–3220W – כדאי לבדוק עם חשמלאי שהמעגל מתאים",
+   "כדאי למדוד את נישת ההתקנה ולוודא את מידותיה מול היבואן לפני ההזמנה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "60 ליטר.",
+    "sources": [
+     "s3",
+     "s2"
+    ]
+   },
+   {
+    "q": "כמה מצבי הפעלה יש?",
+    "a": "9 מצבי הפעלה, ביניהם הפשרה, חימום מאוורר, חצי גריל וגריל מלא.",
+    "sources": [
+     "s3",
+     "s2"
+    ]
+   },
+   {
+    "q": "מה כלול עם התנור?",
+    "a": "מגש ורשת.",
+    "sources": [
+     "s3",
+     "s2"
+    ]
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי PROVIEW PVBI60-NB נירוסטה, נפח 60 ליטר, 9 מצבי הפעלה, 50–250°C וטיימר 120 דקות. בחדד אלקטריק נהריה",
+  "keywords": []
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "60 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג בקרה",
+   "catalogValue": "מכני",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The page at the owner's PVBI60-NB link titles the oven PVBI60-NI (stainless, black glass door). The owner confirms it is the unit he sells; only colour-independent facts and the stainless finish from that page are published.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "That page gives oven and cut-out dimensions (595 × 494 × 595 mm and 560 × 550 × 589 mm, D × H × W) whose heights look wrong for a 60 cm built-in oven. Not published; confirm with ProView or the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "PVBI60-BK",
+   "issue": "The owner's PVBI60-BK link renders no product text for our fetcher, so nothing was compared or merged from the black variant.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-12",
+  "verdict": "pass-with-fixes",
+  "notes": "The only source is Hadad Electric's own built-in ovens page, which just repeats the catalog name. That is circular, not independent evidence, so all three facts (60 L, mechanical, stainless) are rejected. No manufacturer, importer, manual or third-party page names PVBI60-NB. | 2026-11-12 store owner: confirmed oven, sent supplier links (NB and BK); specs taken from the NB link page only"
+ }
+}

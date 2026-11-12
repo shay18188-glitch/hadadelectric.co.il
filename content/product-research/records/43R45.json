@@ -1,0 +1,299 @@
+{
+ "modelNumber": "43R45",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "ROWA",
+  "exactModel": "43R45",
+  "israeliImporter": "ב.ט.י אלקטרוניקה",
+  "matchConfidence": "medium",
+  "notes": "The BUG page names the exact model 43R45 and says the warranty is handled by ב.ט.י אלקטרוניקה. The BUG page labels the 54.4 cm dimension as אורך; it is recorded as the height (גובה) of the 43 inch panel. Manufacturer pages were not reachable; the figures come from two Israeli retailer pages. | QA: Both Israeli retailer pages name the exact model 43R45 as a 43 inch ROWA Google TV, but as Full HD, while the catalog name says UHD. Model code matches; the catalog name or the resolution needs a human check."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-43-fhd-rowa-969854124",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.printerdeal.co.il/product-category/multimedia/tvs/",
+   "publisher": "פרינטר דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "43R45"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Source labels 54.4 as אורך; it is the panel height.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "95.4 × 54.4 × 7.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "5.02 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "43 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Contradicts UHD in catalog name.",
+     "label": "רזולוציה",
+     "value": "Full HD (1920×1080)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "HDR",
+     "value": "HDR10"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טכנולוגיית סאונד",
+     "value": "Dolby Audio"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גרסת Bluetooth",
+     "value": "5.0"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיבורים",
+     "value": "HDMI / USB / WiFi"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed marketing adjectives.",
+   "text": "סאונד Dolby Audio"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed marketing claims.",
+   "text": "תמיכה ב-HDR10"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "Bluetooth 5.0 לחיבור רמקולים, סאונדבר או אוזניות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "Google Cast מובנה לשיתוף תוכן מהטלפון למסך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "TCL Channel on a ROWA TV is likely copied text; not verifiable for this model.",
+   "text": "ממשק TCL Channel לתוכן מגוון עם המלצות אישיות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה לחדר שינה, למטבח או לסלון קטן.",
+  "highlights": [
+   "מערכת הפעלה Google TV עם Google Cast מובנה"
+  ],
+  "goodFor": [
+   "טלוויזיה שנייה לחדר שינה או לחדר ילדים",
+   "צפייה באפליקציות סטרימינג דרך Google TV בלי ממיר חיצוני",
+   "שיתוף תוכן מהטלפון למסך עם Google Cast",
+   "חיבור סאונדבר או אוזניות אלחוטיות דרך Bluetooth"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "הטלוויזיה פועלת עם Google TV וכוללת Google Cast מובנה לשיתוף תוכן מהטלפון.",
+    "sources": []
+   },
+   {
+    "q": "אילו חיבורים יש בטלוויזיה?",
+    "a": "יש חיבורי HDMI ו-USB וחיבור WiFi לרשת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "ROWA 43R45",
+   "טלוויזיה ROWA 43 אינץ׳",
+   "טלוויזיה 43 אינץ׳ Google TV",
+   "טלוויזיה חכמה 43 Full HD",
+   "רואה 43R45",
+   "טלוויזיה ROWA Google TV",
+   "טלוויזיה 43 אינץ׳ לחדר שינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "43'",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "UHD",
+   "finding": "contradicted",
+   "correctValue": "FHD, 1920x1080",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5.02 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "The catalog name says UHD (4K), but the retailer pages list model 43R45 as a 43 inch Full HD (1920x1080) set. Check the name against the model before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says UHD, but both Israeli retailer pages list 43R45 as Full HD 1920x1080. Verify resolution against the importer before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Source labels 54.4 cm as אורך; published as height. Unclear whether dimensions include the stand.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 4 (TCL Channel on a ROWA set, likely copied text from another brand). Toned down marketing wording of features 0 and 1. Dimensions kept: the source labels 54.4 cm as אורך; for a 43 inch panel this is the height. Catalog name says UHD but both sources say Full HD 1920x1080. | code guard removed: summary: \"ROWA 43R45 היא טלוויזיה חכמה בגודל 43 אינץ׳ ברזולוציית Full HD (1920×1080) עם מערכת ההפעלה Google TV.\"; summary: \"המסך תומך ב-HDR10, הסאונד ב-Dolby Audio ויש Bluetooth 5.0 לחיבור רמקולים או אוזניות.\"; faq: \"האם ROWA 43R45 היא טלוויזיית 4K?\"; faq: \"אפשר לחבר אוזניות או סאונדבר אלחוטי?\"; faq: \"מה מידות ומשקל הטלוויזיה?\"; metaDescription: \"טלוויזיה חכמה ROWA 43R45 בגודל 43 אינץ׳, Full HD עם Google TV, HDR10 ו-Dolby Audio. מפרט מלא, מידות ושאלות נפוצות בחדד אלקטריק נהריה\"; highlight: \"מסך 43 אינץ׳ ברזולוציית Full HD (1920×1080)\"; highlight: \"תמיכה ב-HDR10 וקצב רענון 60 Hz\"; highlight: \"סאונד Dolby Audio ו-Bluetooth 5.0\"; highlight: \"משקל 5.02 ק״ג בלבד\"; consideration: \"הרזולוציה היא Full HD (1920×1080) ולא 4K – כדאי לוודא שזה מתאים לצרכים שלכם\"; consideration: \"מידות המסך 95.4 × 54.4 × 7.7 ס״מ – כדאי למדוד את המקום על השידה או על הקיר\"; consideration: \"קצב הרענון הוא 60 Hz – לגיימינג תובעני כדאי לבדוק את ההתאמה\"; consideration: \"בתליה על הקיר יש לוודא זרוע מתאימה למשקל 5.02 ק״ג\""
+ }
+}

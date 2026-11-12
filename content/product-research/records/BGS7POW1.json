@@ -1,0 +1,473 @@
+{
+ "modelNumber": "BGS7POW1",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "BGS7POW1",
+  "israeliImporter": "B/S/H",
+  "matchConfidence": "high",
+  "notes": "Manufacturer pages (Bosch TH) and an Israeli retailer both name BGS7POW1, bagless ProPower; specs match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.in.th/en/mkt-product/vacuum-cleaners/bagless-vacuum-cleaners/BGS7POW1",
+   "publisher": "BOSCH TH",
+   "kind": "manufacturer",
+   "market": "TH",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/bosch_bgs7pow1/",
+   "publisher": "Bettershop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/en-TH/BGS7POW1.pdf",
+   "publisher": "Bosch spec sheet",
+   "kind": "manufacturer",
+   "market": "TH",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "800 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סינון",
+     "value": "מסנן HEPA היגייני"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רדיוס פעולה",
+     "value": "11 מטר"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל איסוף",
+     "value": "3.0 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "axis order not specified by source",
+     "label": "מידות",
+     "value": "310 × 320 × 470 מ״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל (שואב בלבד)",
+     "value": "6.7 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "10.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "72 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "800 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Israeli retailer, importer B/S/H",
+     "label": "אחריות יבואן",
+     "value": "שנתיים"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Thai spec sheet says 10 years; Israeli retailer says 8 years on motor in Israel",
+     "label": "אחריות מנוע",
+     "value": "10 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שואב אבק ללא שקית (Bagless) עם מיכל איסוף"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת ניקוי עצמי SelfClean לניקוי מערכת הסינון"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת טורבו לניקוי שטיחים"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גלילת כבל חשמל אוטומטית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בקרת חיישנים SensorControl לניטור ביצועים מתמשך"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צינור טלסקופי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מזרק סדקים, מברשת רהיטים, מברשת ריפוד ומברשת טורבו"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "BOSCH BGS7POW1 הוא שואב אבק נגרר ללא שקית, עם הספק של 800 W ומיכל איסוף בנפח 3.0 ליטר. מערכת SelfClean מנקה את מערכת הסינון, מסנן HEPA היגייני ורמת רעש של 72 dB(A). מתאים למי שמחפש שואב ללא שקיות עם מברשת טורבו לשטיחים ורדיוס פעולה של 11 מטר.",
+  "highlights": [
+   "ללא שקית, מיכל איסוף בנפח 3.0 ליטר",
+   "מערכת ניקוי עצמי SelfClean למערכת הסינון",
+   "מסנן HEPA היגייני",
+   "רדיוס פעולה של 11 מטר",
+   "מברשת טורבו לניקוי שטיחים"
+  ],
+  "goodFor": [
+   "בית עם שטיחים, בזכות מברשת הטורבו",
+   "מי שלא רוצה לקנות שקיות החלפה",
+   "ניקוי חדרים גדולים בלי להעביר תקע, עם רדיוס פעולה של 11 מטר",
+   "רגישים לאבק, בזכות מסנן HEPA"
+  ],
+  "considerations": [
+   "משקל השואב לבדו 6.7 ק״ג, יש לקחת זאת בחשבון בנשיאה במדרגות",
+   "מידות 310 × 320 × 470 מ״מ, כדאי לוודא מקום אחסון בארון",
+   "יש לרוקן את מיכל האיסוף בנפח 3.0 ליטר באופן קבוע",
+   "תנאי אחריות המנוע בישראל יש לבדוק מול היבואן"
+  ],
+  "faq": [
+   {
+    "q": "האם השואב צריך שקיות?",
+    "a": "לא. זהו שואב ללא שקית עם מיכל איסוף בנפח 3.0 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של השואב?",
+    "a": "הספק של 800 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש השואב?",
+    "a": "רמת הרעש היא 72 dB(A).",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים מגיעים עם השואב?",
+    "a": "מזרק סדקים, מברשת רהיטים, מברשת ריפוד ומברשת טורבו.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות בישראל?",
+    "a": "שנתיים אחריות יבואן של B/S/H.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק נגרר BOSCH BGS7POW1 ללא שקית, עם מערכת ניקוי עצמי SelfClean ומסנן HEPA, מיכל 3.0 ליטר ורדיוס 11 מטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "BGS7POW1",
+   "בוש BGS7POW1",
+   "שואב אבק בוש ללא שקית",
+   "שואב אבק נגרר בוש",
+   "Bosch ProPower",
+   "שואב אבק עם מסנן HEPA",
+   "שואב אבק עם מברשת טורבו",
+   "שואב אבק SelfClean"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "72dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל איסוף",
+   "catalogValue": "3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רדיוס פעולה",
+   "catalogValue": "11 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "310x320x470 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל (שואב בלבד)",
+   "catalogValue": "6.7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "10.2 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסנן",
+   "catalogValue": "HEPA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור ייצור",
+   "catalogValue": "גרמניה (ייצור המנוע)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ללא שקית (Bagless)",
+   "catalogValue": "שאיבה ללא שקית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SelfClean",
+   "catalogValue": "מערכת ניקוי עצמי אוטומטית (SelfClean)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מברשת טורבו",
+   "catalogValue": "מברשת טורבו לניקוי שטיחים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גלילת כבל אוטומטית",
+   "catalogValue": "גלילת כבל אוטומטית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת חיישנים",
+   "catalogValue": "בקרת חיישנים (Sensor Control)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צינור טלסקופי",
+   "catalogValue": "צינור טלסקופי",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחריות יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אחריות",
+   "issue": "מקורות לא תואמים: אתר בוש תאילנד ומפרט היצרן מציינים 10 שנים על המנוע, ואתר bettershop מציין שנתיים של היבואן ו-8 שנים על המנוע לפי תקנון המבצע",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן ישראלי",
+   "issue": "לא נמצא דף מוצר של היבואן הישראלי לדגם זה; המפרט הרשמי מגיע מאתר בוש תאילנד (שוק אחר) והשאר מקמעונאי ישראלי אחד",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "המפרט מציין 310x320x470 מ\"מ בלי לפרט את סדר הממדים (רוחב, גובה, עומק); יש לוודא לפני פרסום",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות מנוע",
+   "issue": "מפרט בוש תאילנד מציין 10 שנים על המנוע, הקמעונאי הישראלי מציין 8 שנים על המנוע דרך היבואן; יש לאמת מול B/S/H",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "המפרט הרשמי מגיע מאתר בוש תאילנד; לא נמצא דף יבואן ישראלי לדגם",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "סדר הממדים (רוחב, גובה, עומק) לא מפורט במקור",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Motor warranty (id 10) marked conflict: Thai spec sheet says 10 years on motor, Israeli retailer says 8 years on motor via the importer. Dimensions kept without axis order. All other facts verified on pages naming BGS7POW1."
+ }
+}

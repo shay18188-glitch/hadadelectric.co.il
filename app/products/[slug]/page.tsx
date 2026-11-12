@@ -27,6 +27,17 @@ import { allBrandAliases } from "@/lib/seo/brandNames";
 import { measure } from "@/lib/seo/catalogDimensions";
 import { getDiscontinued } from "@/lib/seo/discontinued";
 import { DiscontinuedProductPage } from "@/components/DiscontinuedProductPage";
+import { getPublishedResearch } from "@/lib/research/published";
+import { shownModel } from "@/types/product";
+import {
+  BoxAndInstallation,
+  FitAndConsiderations,
+  GroupedSpecs,
+  ProductFaq,
+  ProductHighlights,
+} from "@/components/ProductResearch";
+import { faqJsonLd } from "@/lib/schema/jsonld";
+import { researchWeightKg } from "@/lib/research/facts";
 
 export const revalidate = 10800; // 3 hours
 
@@ -97,6 +108,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
   // Parsed from the spec sheet; null whenever the feed is ambiguous, so the
   // markup never claims a measurement the record does not support.
   const measured = measure(product);
+  // Present only for models whose record passed research and QA; every
+  // section that reads it renders nothing without it.
+  const research = getPublishedResearch(product.modelNumber);
 
   return (
     <>
@@ -106,7 +120,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           name: productHeading(product),
           description: product.description,
           path: `/products/${product.slug}`,
-          modelNumber: product.modelNumber,
+          modelNumber: shownModel(product),
           brand: product.brand,
           brandAlternateNames: allBrandAliases(product.brand),
           category: product.category,
@@ -116,9 +130,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
           availability: product.availability,
           specs: product.specs,
           dimensionsCm: measured?.body ?? null,
+          weightKg: research ? researchWeightKg(research) : null,
           expertNote: product.expertNote,
         })}
       />
+      {research && research.faq.length > 0 && (
+        <JsonLd data={faqJsonLd(research.faq.map((f) => ({ question: f.q, answer: f.a })))} />
+      )}
       <Breadcrumbs
         items={[
           { name: "קטלוג", path: "/products" },
@@ -158,7 +176,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <dl className="mt-5 grid grid-cols-2 gap-3 text-sm">
               <div className="rounded-xl bg-surface/80 px-3.5 py-3">
                 <dt className="text-graphite-soft/60">מק״ט / דגם</dt>
-                <dd className="font-medium text-graphite">{product.modelNumber}</dd>
+                <dd className="font-medium text-graphite">{shownModel(product)}</dd>
               </div>
               {product.originCountry && (
                 <div className="rounded-xl bg-surface/80 px-3.5 py-3">
@@ -171,6 +189,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <p className="mt-5 text-[15px] leading-relaxed text-graphite-soft/85 md:text-base">
               {product.description}
             </p>
+            {research && <ProductHighlights research={research} />}
 
             <div className="mt-6 hidden flex-col gap-3 sm:flex-row md:mt-7 md:flex">
               <AddToRequestButton product={product} className="flex-1" />
@@ -233,7 +252,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
         <ProductRunningCost product={product} />
 
-        {product.specs.length > 0 && (
+        {research && <FitAndConsiderations research={research} />}
+
+        {research ? (
+          <GroupedSpecs research={research} modelNumber={shownModel(product)} />
+        ) : product.specs.length > 0 && (
           <section className="mt-12 md:mt-16" aria-labelledby="specs-heading">
             <p className="section-kicker">כל הפרטים</p>
             <h2 id="specs-heading" className="mt-2 text-2xl font-black text-graphite md:text-3xl">
@@ -278,6 +301,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
               ))}
             </ul>
           </section>
+        )}
+
+        {research && (
+          <>
+            <BoxAndInstallation research={research} />
+            <ProductFaq research={research} modelNumber={shownModel(product)} />
+          </>
         )}
 
         {related.length > 0 && (

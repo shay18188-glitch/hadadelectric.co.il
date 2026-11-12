@@ -1,0 +1,304 @@
+{
+ "modelNumber": "PVR2D518-WH",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PVR2D518-WH",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only Israeli retailer pages (printerdeal, pcp) name the exact model; the ProView site returned HTTP 522 and no manufacturer or EPREL page was found. | QA: Two Israeli retailer pages name the exact model PVR2D518-WH with 518 L total, 393/125 L split, matching the catalog. No manufacturer page was available."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.printerdeal.co.il/product/מקרר-מקפיא-עליון-proview-pvr2d518-wh-518-ליטר-לבן/",
+   "publisher": "Printer Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.pcp.co.il/p/proview-pvr2d518-wh-518-pvr2d518-wh",
+   "publisher": "PCP",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "518 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "393 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "125 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Kept in mm and quote order to avoid misordering.",
+     "label": "מידות (רוחב × עומק × גובה)",
+     "value": "750 × 785 × 1725 מ״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "84 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quotes failed check (quote-too-short).; quote checks: quote-too-short, quote-too-short",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דלתות",
+     "value": "דלת הפיכה (ימין/שמאל)"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מגירות",
+     "value": "2 מגירות ירקות"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "42 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת זרם",
+     "value": "2.1A"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "אוטומטית"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "ProView PVR2D518-WH הוא מקרר מקפיא עליון בנפח כולל של 518 ליטר, עם 393 ליטר בתא הקירור ו-125 ליטר בתא ההקפאה. המקרר כולל הפשרה אוטומטית ודלת הפיכה לפתיחה לימין או לשמאל. מתאים למשפחה שמחפשת מקרר גדול בתצורת מקפיא עליון קלאסית.",
+  "highlights": [
+   "נפח כולל 518 ליטר",
+   "תא קירור 393 ליטר ותא הקפאה 125 ליטר",
+   "הפשרה אוטומטית",
+   "דלת הפיכה (ימין/שמאל)",
+   "רמת רעש 42 dB(A)"
+  ],
+  "goodFor": [
+   "משפחות שזקוקות לנפח קירור גדול",
+   "מטבחים שבהם כיוון פתיחת הדלת צריך להתאים למיקום המקרר",
+   "מי שמעדיף תא הקפאה עליון נפרד"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה: המקרר ברוחב 750 מ״מ, עומק 785 מ״מ וגובה 1725 מ״מ",
+   "משקל המקרר 84 ק״ג, כדאי לתכנן את ההובלה וההכנסה למטבח",
+   "יש לוודא שקע חשמל זמין בקרבת מקום המקרר"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 518 ליטר: 393 ליטר בתא הקירור ו-125 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 750 מ״מ, עומק 785 מ״מ וגובה 1725 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להחליף את כיוון פתיחת הדלת?",
+    "a": "כן, הדלת הפיכה לפתיחה לימין או לשמאל.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך להפשיר את המקרר ידנית?",
+    "a": "לא, למקרר יש הפשרה אוטומטית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא עליון ProView PVR2D518-WH בנפח 518 ליטר, תא הקפאה 125 ליטר והפשרה אוטומטית. ייעוץ ומכירה בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר מקפיא עליון 518 ליטר",
+   "ProView PVR2D518-WH",
+   "מקרר פרוויו",
+   "PVR2D518",
+   "מקרר מקפיא עליון לבן",
+   "מקרר 518 ליטר",
+   "מקרר ProView"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "518 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "393 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "125 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "84 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רעש",
+   "catalogValue": "42dB(A)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת זרם",
+   "catalogValue": "2.1A",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "manufacturer_source",
+   "issue": "No manufacturer page found; facts rest on two Israeli retailers. Catalog says No Frost/TBD cooling system, which no page confirms.",
+   "severity": "medium"
+  },
+  {
+   "field": "manufacturer_source",
+   "issue": "No manufacturer or EPREL page found; all facts rest on two Israeli retailer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog claims No Frost (listed as TBD/No Frost); no source confirms the cooling system.",
+   "severity": "medium"
+  },
+  {
+   "field": "color",
+   "issue": "Color quote failed the automated check; verify white color manually.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected color (quotes failed check: quote-too-short). Dimensions kept in mm with label order matching the quote (width × depth × height). No Frost not confirmed by any source, so not published."
+ }
+}

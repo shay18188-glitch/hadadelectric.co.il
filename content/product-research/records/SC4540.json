@@ -1,0 +1,386 @@
+{
+ "modelNumber": "SC4540",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "SC4540",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "שואב אבק נגרר ציקלוני (דגם Air Track בחלק מהאתרים, VCC4540S36 באתרים בינלאומיים). רמת הרעש 83 dBA הופיעה רק בדף של Shekem Electric שלא נטען. דף היבואן הרשמי של סמסונג לא נמצא. | QA: Four Israeli retailer pages name Samsung SC4540 (Air Track) with consistent specs. Importer unclear: one page names Newpro, another names Sam Line / Mini Line warranty."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.one-shop.co.il/items/7480144-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A6%D7%99%D7%A7%D7%9C%D7%95%D7%9F-%D7%A0%D7%92%D7%A8%D7%A8-Samsung-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-Air-Track-SC4540",
+   "publisher": "One Shop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ch-ch.co.il/items/5880143-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-%D7%A6%D7%99%D7%A7%D7%9C%D7%95%D7%A0%D7%99-%D7%A7%D7%95%D7%9E%D7%A4%D7%A7%D7%98%D7%99-%D7%93%D7%92%D7%9D-SC4540-Samsung",
+   "publisher": "CH-CH",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A0%D7%92%D7%A8%D7%A8-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-sc4540-newpro/",
+   "publisher": "Avi Sofer",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.dragon-electric.co.il/items/7722425--%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A0%D7%92%D7%A8%D7%A8-Samsung-SC4540-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92",
+   "publisher": "Dragon Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "28 × 23.8 × 39.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "4.3 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל אבק",
+     "value": "1.3 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1800 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "360 WSP"
+    },
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רדיוס פעולה",
+     "value": "9.2 מטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "6 מטר"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מסנן",
+     "value": "HEPA11, ניתן לשטיפה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Warranty provider differs between retailers and depends on the importer; not publishable as a product fact.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "removed 'איכותי'",
+   "text": "פילטר HEPA11 לסינון 97% מהלכלוך באוויר, ניתן לשטיפה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כבל חשמל ארוך שנגלל פנימה באופן אוטומטי"
+  },
+  {
+   "sources": [
+    "s1",
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיכלי פסולת נשלפים לריקון קל"
+  },
+  {
+   "sources": [
+    "s1",
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב ארגונומי וקל משקל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סמסונג SC4540 הוא שואב אבק נגרר ללא שקית, עם מיכל אבק של 1.3 ליטר ופילטר HEPA11 שניתן לשטיפה. הספק המנוע 1800 W ועוצמת השאיבה 360 WSP, ורדיוס הפעולה 9.2 מטר מאפשר לעבור בין חדרים בלי להחליף שקע. מתאים למי שמחפש שואב קומפקטי במשקל 4.3 ק״ג לניקיון שוטף בבית.",
+  "highlights": [
+   "הספק 1800 W ועוצמת שאיבה 360 WSP",
+   "מיכל אבק נשלף בנפח 1.3 ליטר, ללא שקיות",
+   "פילטר HEPA11 שניתן לשטיפה",
+   "רדיוס פעולה 9.2 מטר וכבל באורך 6 מטר שנגלל אוטומטית",
+   "משקל 4.3 ק״ג"
+  ],
+  "goodFor": [
+   "מי שמעדיף שואב ללא שקיות עם מיכל שמתרוקן בקלות",
+   "בית עם כמה חדרים, בזכות רדיוס פעולה של 9.2 מטר",
+   "מי שרוצה פילטר רחיץ במקום פילטר חד־פעמי",
+   "אחסון בארון או במחסן קטן בזכות גוף קומפקטי"
+  ],
+  "considerations": [
+   "נפח המיכל 1.3 ליטר, כך שבניקיון של שטח גדול ייתכן שיהיה צורך לרוקן אותו במהלך העבודה",
+   "כדאי לוודא שיש מקום אחסון למידות 28 × 23.8 × 39.5 ס״מ",
+   "יש לשטוף את פילטר HEPA11 מדי פעם ולתת לו להתייבש לפני השימוש הבא"
+  ],
+  "faq": [
+   {
+    "q": "האם השואב צריך שקיות?",
+    "a": "לא. השואב עובד עם מיכלי פסולת נשלפים, ונפח מיכל האבק הוא 1.3 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "איזה פילטר יש בשואב?",
+    "a": "פילטר HEPA11 שניתן לשטיפה, שמסנן לפי היצרן 97% מהלכלוך באוויר.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח העבודה של השואב?",
+    "a": "אורך הכבל 6 מטר ורדיוס הפעולה 9.2 מטר, והכבל נגלל פנימה אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקל השואב?",
+    "a": "משקל השואב 4.3 ק״ג.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק נגרר סמסונג SC4540 ללא שקית: הספק 1800 W, מיכל 1.3 ליטר ופילטר HEPA11 רחיץ. ייעוץ ומכירה בחדד אלקטריק נהריה",
+  "keywords": [
+   "סמסונג SC4540",
+   "שואב אבק סמסונג SC4540",
+   "שואב אבק נגרר סמסונג",
+   "שואב אבק ללא שקית",
+   "Samsung SC4540",
+   "שואב אבק HEPA",
+   "שואב אבק ציקלוני סמסונג",
+   "Samsung Air Track"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל אבק",
+   "catalogValue": "1.3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "4.3 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "6 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רדיוס פעולה",
+   "catalogValue": "9.2 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסנן",
+   "catalogValue": "HEPA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 39.5 ס\"מ, גובה 23.8 ס\"מ, עומק 28 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 28 ס״מ, גובה 23.8 ס״מ, עומק 39.5 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "80-83 dBA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "וייטנאם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "360 WSP",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין רוחב 39.5 ס״מ ועומק 28 ס״מ, בעוד שדפי הקמעונאים מציינים רוחב 28 ס״מ ועומק 39.5 ס״מ. יש לבדוק את המידות מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "הרעש 80-83 dBA בקטלוג לא אומת: לא נמצא דף נטען שמציין רעש. מספר 83 dBA הופיע בחיפוש בדף Shekem Electric שלא נטען (HTTP 403).",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "בדפי הקמעונאים מופיעה שנה אחת, אך דף Dragon Electric וה-One Shop מציינים אחריות של שנה, ודף CH-CH מציין שלוש שנים. יש לבדוק את תנאי האחריות מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן אינו ברור: Avi Sofer מציין את ניופרו כיבואן הרשמי, ו-One Shop מציין אחריות של סם ליין / מיני ליין.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין רוחב 39.5 ס״מ ועומק 28 ס״מ, ושני דפי קמעונאים מציינים רוחב 28 ס״מ ועומק 39.5 ס״מ. יש לעדכן את הקטלוג או לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "ערך הרעש 80-83 dBA בקטלוג לא אומת באף מקור שנטען.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תנאי האחריות שונים בין הקמעונאים (סם ליין / מיני ליין מול היבואן); לא פורסמו. יש לבדוק מול הספק בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן הרשמי בישראל אינו ברור (ניופרו לפי אתר אחד, סם ליין / מיני ליין לפי אחר).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 8): retailer pages name different warranty providers (Sam Line / Mini Line vs. the importer) and warranty depends on the supplying importer, so it is not published. Dimensions kept as quoted by two retailers (width 28, depth 39.5), which contradicts the catalog's width/depth order."
+ }
+}

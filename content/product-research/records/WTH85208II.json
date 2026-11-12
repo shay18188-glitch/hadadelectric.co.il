@@ -1,0 +1,417 @@
+{
+ "modelNumber": "WTH85208II",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "WTH85208II",
+  "israeliImporter": "MA ASPEC",
+  "matchConfidence": "high",
+  "notes": "Bosch Serie 4 heat pump dryer, 8 kg, 2025 model. Israeli retailer pages name the model; no Bosch Israel page was reached. Importer and warranty come from one retailer page. | QA: Three Israeli retailer pages name the exact model WTH85208II as a Bosch 8 kg heat pump dryer, matching the catalog. Importer is named on one retailer page only."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-drayer&productid=1252576",
+   "publisher": "Wisebuy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electroclick.co.il/product/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-bosch-wth85208ii-%D7%91%D7%95%D7%A9",
+   "publisher": "Electroclick",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.digital-electric.co.il/items/8719391-%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-Bosch-WTH85208II-8-%D7%A7-%D7%92-%D7%91%D7%95%D7%A9",
+   "publisher": "Digital Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "8 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תוף",
+     "value": "112 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Depth differs in another retailer table; flagged.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 84.2 × 59.9 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single source.",
+     "label": "משקל",
+     "value": "48.1 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "625 W"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג ייבוש",
+     "value": "עיבוי (קונדנסור) עם משאבת חום"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog says 65dB.",
+     "label": "עוצמת רעש",
+     "value": "64 dB"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "New EU scale; other pages give old-scale A++.",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כיוון פתיחת הדלת",
+     "value": "לימין"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Retailer page only.",
+     "label": "אחריות יבואן",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת AutoDry לייבוש עדין לפי רמת הייבוש הרצויה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "עיצוב נגד רטט ליציבות ושקט בעת הפעולה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תצוגת DirectSelect וחוגת בקרה לבחירת תוכנית נוחה"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נוזל קירור R290 ידידותי לסביבה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חיישנים מודדים טמפרטורה ולחות שיורית ומונעים ייבוש יתר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פעולה למניעת קמטים עד 120 דקות בסיום התוכנית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מייבש משאבת חום: מי העיבוי נאספים במגירה שמתרוקנת ידנית, וחיבור לניקוז אינו חובה"
+  }
+ ],
+ "content": {
+  "summary": "מתאים למי שמחפש מייבש בגודל מלא שאינו מחייב חיבור לניקוז.",
+  "highlights": [
+   "ייבוש במשאבת חום עם נוזל קירור R290",
+   "מערכת AutoDry וחיישני לחות שמונעים ייבוש יתר"
+  ],
+  "goodFor": [
+   "בית שאין בו נקודת ניקוז ליד מקום המייבש, כי המים נאספים במגירה"
+  ],
+  "considerations": [
+   "הדלת נפתחת לימין, לכן כדאי לבדוק שיש מקום לפתיחה מלאה במיקום המתוכנן",
+   "אם לא מחברים לניקוז, צריך לרוקן את מגירת המים ידנית"
+  ],
+  "faq": [
+   {
+    "q": "האם חייבים לחבר את המייבש לניקוז?",
+    "a": "לא. במייבש משאבת חום מי העיבוי נאספים במגירה שמתרוקנת ידנית, וחיבור לניקוז אינו חובה.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי?",
+    "a": "הדגם מדורג E בדירוג האנרגטי.",
+    "sources": []
+   },
+   {
+    "q": "לאיזה צד נפתחת הדלת?",
+    "a": "הדלת נפתחת לימין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מייבש כביסה בוש",
+   "Bosch WTH85208II",
+   "WTH85208II",
+   "מייבש כביסה משאבת חום",
+   "מייבש כביסה 8 קג",
+   "מייבש כביסה בוש 8 קג",
+   "מייבש כביסה היט פאמפ",
+   "מייבש כביסה ללא ניקוז"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית ייבוש",
+   "catalogValue": "משאבת חום (Heat Pump)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "65dB",
+   "finding": "contradicted",
+   "correctValue": "64 dB",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (דירוג ישן A++)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משך תוכנית מלאה",
+   "catalogValue": "205 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיישני לחות (Auto Dry)",
+   "catalogValue": "חיישני לחות (Auto Dry)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מניעת קמטים",
+   "catalogValue": "מניעת קמטים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "59.8 × 84.2 × 59.9 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "48.1 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Israeli pages disagree: E on Wisebuy, A++ on Electroclick and Digital Electric (old scale), A in one spec table. Check the energy label of this model before publishing the class.",
+   "severity": "high"
+  },
+  {
+   "field": "עומק",
+   "issue": "Depth differs: 59.9 ס״מ on Wisebuy and Digital Electric, 64.8 ס״מ in an Electroclick spec table. Other pages give 65.2 and 66.5 ס״מ including the door.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "Catalog says 65dB, but the Israeli pages give 64 dB. A third-party EU energy label naming this model shows 63 dB, so the sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Weight comes from one retailer page only (48.1 kg). A search snippet of a Bosch UK page showed 48.2 kg, which was not fetched.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות יבואן",
+   "issue": "Importer name and warranty length come from retailer pages only. Electroclick names MA ASPEC with one-year warranty; Digital Electric gives one year as well under a different warranty label. Verify with the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "משך תוכנית מלאה",
+   "issue": "The 205-minute full-program time in the catalog was not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "Catalog says 65dB; Israeli retailer pages give 64 dB and an EU label snippet showed 63 dB. Verify against the energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Wisebuy gives E (new scale); other pages give A++ (old scale) and one table gives A. Check the model's energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Depth is 59.9 cm on two pages but 64.8 cm in an Electroclick table, and 65.2 or 66.5 cm with the door elsewhere. Confirm before customers measure niches.",
+   "severity": "medium"
+  },
+  {
+   "field": "משך תוכנית מלאה",
+   "issue": "Catalog's 205-minute program time was not found on any source.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות יבואן",
+   "issue": "Importer MA ASPEC and one-year warranty come from retailer pages only; verify with the importer.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts are quoted on Israeli retailer pages that name WTH85208II. Kept everything. The noise figure (64 dB) contradicts the catalog's 65dB. Energy class E is kept, and the old-scale A++ on other pages is the same label on the old scale. Depth is kept as 59.9 cm but differs between retailer tables. Catalog program time of 205 minutes is unverified. | code guard removed: summary: \"מייבש כביסה של Bosch בדגם WTH85208II, בטכנולוגיית משאבת חום ובקיבולת 8 ק״ג, עם תוף בנפח 112 ליטר.\"; summary: \"הוא מדורג E בדירוג האנרגטי, עוצמת הרעש שלו 64 dB, ומערכת AutoDry עם חיישני לחות עוצרת את הייבוש כדי למנוע ייבוש יתר.\"; faq: \"מה הקיבולת של המייבש?\"; faq: \"עד כמה המייבש רועש?\"; metaDescription: \"מייבש כביסה Bosch WTH85208II במשאבת חום, קיבולת 8 ק״ג ותוף 112 ליטר, עם AutoDry וחיישני לחות. בחדד אלקטריק נהריה\"; highlight: \"קיבולת 8 ק״ג ותוף בנפח 112 ליטר\"; highlight: \"עוצמת רעש 64 dB ועיצוב נגד רטט\"; highlight: \"פעולה למניעת קמטים עד 120 דקות בסיום התוכנית\"; goodFor: \"מי שמייבש כמויות כביסה של עד 8 ק״ג בכל מחזור\"; goodFor: \"מי שלא תמיד מוציא את הכביסה מיד בסיום, בזכות מניעת הקמטים עד 120 דקות\"; consideration: \"מדדו את הנישה: המידות הן 59.8 × 84.2 × 59.9 ס״מ, ויש לשים לב שעומק עם הדלת גדול יותר\"; consideration: \"משקל המייבש 48.1 ק״ג, וכדאי לקחת זאת בחשבון בהתקנה מעל מכונת כביסה\""
+ }
+}

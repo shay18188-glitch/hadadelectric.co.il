@@ -1,0 +1,253 @@
+{
+ "modelNumber": "FJC6B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "FJC6B",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only one Israeli retailer product page (kimelectric) names FJC6B with a spec list. normande.co.il search finds no product. FJC6W is a sibling and was not used. | QA: Retailer page names FJC6B exactly; width, motor power, lighting and DC motor match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kimelectric.co.il/product/fjc6b/",
+   "publisher": "קים אלקטריק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עיצוב",
+     "value": "גוף בציפוי מט עם חזית זכוכית"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תפעול",
+     "value": "צג בקרת מגע"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מנוע",
+     "value": "מנוע DC בהספק 120W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תאורה",
+     "value": "2 נורות LED עגולות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סינון",
+     "value": "פילטר אלומיניום 5 שכבות לסינון שמנים + פילטר פחם"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "צמוד קיר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר יציאה",
+     "value": "150 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "ארובה",
+     "value": "400+400 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "אחריות יבואן"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "צינור הארכה מאלומיניום באורך 1.5 מטר"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [
+   "צג בקרת מגע",
+   "חזית זכוכית וגוף בציפוי מט"
+  ],
+  "goodFor": [
+   "מי שמחפש תפעול בצג מגע ומראה של חזית זכוכית",
+   "מטבח שבו נדרש סינון שמנים וגם פילטר פחם"
+  ],
+  "considerations": [
+   "בדקו שיש שקע חשמל קרוב לנקודת ההתקנה על הקיר"
+  ],
+  "faq": [
+   {
+    "q": "איך מתפעלים את הקולט?",
+    "a": "באמצעות צג בקרת מגע.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קולט אדים 60 ס\"מ",
+   "Normande FJC6B",
+   "קולט אדים נורמנדה",
+   "קולט אדים זכוכית שחורה",
+   "קולט אדים צמוד קיר",
+   "קולט אדים מנוע DC",
+   "קולט אדים עם פילטר פחם"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "120W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "2 נורות LED עגולות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סינון",
+   "catalogValue": "סינון באמצעות פילטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "מנוע DC",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Only a single retailer page carries the specs; no manufacturer, importer or EPREL page found.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only a single Israeli retailer page supports the specs; no manufacturer or importer page found.",
+   "severity": "medium"
+  },
+  {
+   "field": "color",
+   "issue": "Black glass in the catalog name is not stated in the source; confirm the colour of FJC6B.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts confirmed by ok quotes on a single Israeli retailer page naming FJC6B. Black colour is only implied by the model suffix and catalog name; not stated in the source. | code guard removed: summary: \"קולט אדים צמוד קיר של Normande ברוחב 60 ס״מ, עם גוף בציפוי מט וחזית זכוכית.\"; summary: \"הוא מצויד במנוע DC בהספק 120W, פילטר אלומיניום 5 שכבות לשמנים ופילטר פחם, ותפעול בצג בקרת מגע.\"; summary: \"מתאים למטבח עם כיריים ברוחב 60 ס״מ ויציאה לפליטה בקוטר 150 מ״מ.\"; faq: \"מה רוחב קולט האדים?\"; faq: \"איזה מנוע יש בקולט?\"; faq: \"איך מתבצע הסינון?\"; faq: \"מה קוטר יציאת הפליטה?\"; metaDescription: \"קולט אדים צמוד קיר Normande FJC6B ברוחב 60 ס״מ עם חזית זכוכית, מנוע DC בהספק 120W ופילטר אלומיניום 5 שכבות + פחם. בחדד אלקטריק נהריה\"; highlight: \"מנוע DC בהספק 120W\"; highlight: \"פילטר אלומיניום 5 שכבות + פילטר פחם\"; highlight: \"2 נורות LED עגולות\"; goodFor: \"מטבח עם כיריים ברוחב 60 ס״מ הצמודות לקיר\"; consideration: \"ודאו שיש פתח יציאה לפליטה בקוטר 150 מ״מ או התאמה אליו\"; consideration: \"בדקו את הגובה הפנוי מול הארובה בגובה 400+400 מ״מ\"; consideration: \"צינור ההארכה המצורף באורך 1.5 מטר – מדדו את המרחק לפתח הפליטה\""
+ }
+}

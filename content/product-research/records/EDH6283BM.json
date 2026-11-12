@@ -1,0 +1,284 @@
+{
+ "modelNumber": "EDH6283BM",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EDH6283BM",
+  "israeliImporter": "Miniline (מיני ליין)",
+  "matchConfidence": "high",
+  "notes": "Model found on Electrolux Israel site search and two Israeli retailers. | QA: Exact model EDH6283BM on Electrolux Israel site and two Israeli retailers; importer Miniline per both retailers."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מייבש-כביסה-פתח-חזית-אלקטרולוקס-⁦edh6283bm⁩/",
+   "publisher": "Avi Super",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/%d7%9e%d7%99%d7%99%d7%91%d7%a9-%d7%9b%d7%91%d7%99%d7%a1%d7%94-electrolux-edh6283bm-%d7%a7%d7%95%d7%a0%d7%93%d7%a0%d7%a1%d7%95%d7%a8-%d7%9e%d7%a9%d7%90%d7%91%d7%aa-%d7%97%d7%95%d7%9d-%d7%90%d7%9c%d7%a7",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.electrolux.co.il/search/EDH6283BM/",
+   "publisher": "Electrolux Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת ייבוש כותנה מקסימלית",
+     "value": "8 ק״ג"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מי עיבוי",
+     "value": "5.3 ליטר (מצד שמאל)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Source notes A++ under old standard.",
+     "label": "דירוג יעילות אנרגטית (תקן חדש)",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 64 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה מהיבואן הרשמי מיני ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית Heat Pump (משאבת חום)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפשרות הפעלה מאוחרת עד 20 שעות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פילטר מוך כפול 4 שכבות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נעילת ילדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מנוע אסינכרוני ללא פחמים ומברשות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפשרות לשינוי כיוון פתיחת הדלת, עם 4 כיוונים לידית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכנית ייבוש מיוחדת לבגדי צמר ומשי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "4 רגליות מתכווננות לפילוס המייבש"
+  }
+ ],
+ "content": {
+  "summary": "מתאים למי שמחפש מייבש עיבוי עם תוכנית לצמר ומשי, נעילת ילדים והפעלה מאוחרת.",
+  "highlights": [
+   "טכנולוגיית Heat Pump (משאבת חום)",
+   "מיכל מי עיבוי בנפח 5.3 ליטר",
+   "תוכנית מיוחדת לבגדי צמר ומשי"
+  ],
+  "goodFor": [
+   "בתים ללא אפשרות ליציאת אוויר חם החוצה, בזכות ייבוש בעיבוי למיכל",
+   "משפחות עם ילדים, בזכות נעילת ילדים",
+   "מי שרוצה לתזמן ייבוש לשעה נוחה בעזרת הפעלה מאוחרת",
+   "ייבוש בגדי צמר ומשי בתוכנית ייעודית"
+  ],
+  "considerations": [
+   "מיכל מי העיבוי (5.3 ליטר, בצד שמאל) מחייב ריקון תקופתי",
+   "כדאי לבדוק מראש את כיוון פתיחת הדלת הנוח במקום ההתקנה; ניתן לשנות את כיוון הפתיחה"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך פתח יציאת אוויר?",
+    "a": "המייבש עובד בטכנולוגיית משאבת חום ומעבה את המים למיכל בנפח 5.3 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי?",
+    "a": "דירוג E לפי התקן החדש (A++ בתקן הישן).",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה מהיבואן הרשמי מיני ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "EDH6283BM",
+   "אלקטרולוקס EDH6283BM",
+   "מייבש כביסה אלקטרולוקס",
+   "מייבש כביסה משאבת חום",
+   "מייבש כביסה 8 ק״ג",
+   "מייבש היט פאמפ",
+   "מייבש כביסה קונדנסור",
+   "Electrolux EDH6283BM"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "850×600×640-665 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל עיבוי",
+   "catalogValue": "5.3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "800W",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Catalog power 800W not confirmed by any source; not published.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog depth 640-665 מ\"מ; sources state 64 ס\"מ only.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on Israeli retailer pages naming the model. Minor label/wording edits only. Catalog power 800W not verified by any source and not published. | code guard removed: summary: \"מייבש כביסה Electrolux EDH6283BM בטכנולוגיית משאבת חום (Heat Pump), בקיבולת ייבוש כותנה של 8 ק״ג.\"; summary: \"המייבש מעבה את המים למיכל בנפח 5.3 ליטר ואינו דורש פתח יציאת אוויר, ומידותיו 60 × 85 × 64 ס״מ.\"; faq: \"מה הקיבולת של המייבש?\"; faq: \"מה המידות של המייבש?\"; metaDescription: \"מייבש כביסה Electrolux EDH6283BM בטכנולוגיית משאבת חום, קיבולת 8 ק״ג ומיכל עיבוי 5.3 ליטר. מידות 60×85×64 ס״מ. בחדד אלקטריק נהריה\"; highlight: \"קיבולת ייבוש כותנה של 8 ק״ג\"; highlight: \"הפעלה מאוחרת עד 20 שעות\"; consideration: \"יש לוודא מקום פנוי של 60 × 85 × 64 ס״מ לפחות, בתוספת מרווח לפתיחת הדלת\"; consideration: \"יש לפלס את המייבש בעזרת 4 הרגליות המתכווננות\""
+ }
+}

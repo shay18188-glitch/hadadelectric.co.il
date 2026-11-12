@@ -1,0 +1,312 @@
+{
+ "modelNumber": "SL-5303",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "SL-5303",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Retailer pages name SL-5303 and list the Sol Metal Retro line. No manufacturer page was found. | QA: Two Israeli retailer pages name SL-5303 as an 8 inch Sol Metal Retro desk fan, matching the catalog name. No manufacturer page was found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%A9%D7%95%D7%9C%D7%97%D7%A0%D7%99-%D7%A1%D7%95%D7%9C-sl-5303/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%A9%D7%95%D7%9C%D7%97%D7%A0%D7%99-8-sol-910255555",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דגם",
+     "value": "SL-5303"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר",
+     "value": "8 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote failed the check (quote-too-short).; quote checks: quote-too-short",
+     "label": "הספק",
+     "value": "25 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר להבים",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "מתכת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "נירוסטה מוברשת"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל",
+     "value": "1.6 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י שאוליאן סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "עיצוב רטרו מתכתי ייחודי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Reworded to match the quote; the quote does not name the grille specifically.",
+   "text": "גוף המכשיר וחלקיו מתכתיים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "4 להבים לפיזור אוויר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 1; the quote does not specifically name blades and grille.",
+   "text": "גוף מתכתי מלא כולל להבים ורשת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מאוורר קטן לשולחן עם מראה רטרו מתכתי.",
+  "highlights": [
+   "גוף וחלקים מתכתיים בעיצוב רטרו",
+   "גימור נירוסטה מוברשת",
+   "כבל באורך 1.6 מטר"
+  ],
+  "goodFor": [
+   "שולחן עבודה או שולחן כתיבה בבית או במשרד",
+   "שידה ליד המיטה או מדף בחדר",
+   "מי שמעדיף מאוורר עם מראה מתכתי בסגנון רטרו"
+  ],
+  "considerations": [
+   "לוודא שיש שקע חשמל במרחק של עד 1.6 מטר ממקום ההצבה",
+   "לבדוק בחנות אילו צבעים זמינים לדגם זה"
+  ],
+  "faq": [
+   {
+    "q": "ממה עשוי המאוורר?",
+    "a": "גוף המכשיר וחלקיו מתכתיים, בגימור נירוסטה מוברשת.",
+    "sources": []
+   },
+   {
+    "q": "מה אורך הכבל?",
+    "a": "אורך הכבל הוא 1.6 מטר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המאוורר?",
+    "a": "אחריות לשנה ע״י שאוליאן סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מאוורר שולחני Sol",
+   "SL-5303",
+   "מאוורר רטרו מתכת",
+   "מאוורר שולחני 8 אינץ",
+   "סול מטאל רטרו",
+   "מאוורר שולחני מתכת",
+   "מאוורר שולחני נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קוטר",
+   "catalogValue": "8 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "25W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "1.6 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר להבים",
+   "catalogValue": "4 להבים עשויים מתכת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "מתכת מלאה (גוף, להבים ורשת)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דרגות מהירות",
+   "catalogValue": "2 עוצמות הפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אפשרויות צבע",
+   "catalogValue": "נירוסטה מוברשת או שחור מט",
+   "finding": "contradicted",
+   "correctValue": "נירוסטה מוברשת",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אפשרויות צבע",
+   "issue": "Retailer pages for SL-5303 list only brushed stainless steel. The catalog's matte black option appears only for the sibling SL-5302 on retailer pages. Check the colour options.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand reads 'Sol exlusive'. Retailers list the brand as Sol (סול). Check the spelling.",
+   "severity": "low"
+  },
+  {
+   "field": "אפשרויות צבע",
+   "issue": "Retailer pages for SL-5303 list only brushed stainless steel; the catalog also lists matte black, which retailers show only for sibling SL-5302. Check the colour options.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "The catalog's 25W could not be verified with a passing quote. Check the power rating.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand reads 'Sol exlusive'; retailers list the brand as Sol (סול). Check the spelling.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected power (25 W): the only quote failed the check (quote-too-short). Reworded feature 1 from 'metal grille' to what the quote says (metal body and parts). Rejected feature 3 as a duplicate of feature 1 whose wording (blades and grille) goes beyond the quote. | code guard removed: summary: \"מאוורר שולחני של Sol מסדרת Metal Retro, דגם SL-5303, בקוטר 8 אינץ׳ עם גוף וחלקים מתכתיים בגימור נירוסטה מוברשת.\"; summary: \"המאוורר מגיע עם 4 להבים וכבל באורך 1.6 מטר.\"; faq: \"מה הקוטר של המאוורר?\"; metaDescription: \"מאוורר שולחני Sol SL-5303 מסדרת Metal Retro בקוטר 8 אינץ׳, גוף מתכתי בגימור נירוסטה מוברשת ו-4 להבים. בחדד אלקטריק נהריה\"; highlight: \"קוטר 8 אינץ׳\"; highlight: \"4 להבים\"; consideration: \"זהו מאוורר שולחני בקוטר 8 אינץ׳, מיועד לקירור אישי מקרוב ולא לחדר שלם\""
+ }
+}

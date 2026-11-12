@@ -1,0 +1,345 @@
+{
+ "modelNumber": "CUBE 100",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "CUBE 100",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only one retailer page (אבי סופר) names the model. No manufacturer, importer or manual page was found in the search budget. Width and depth come only from this retailer. | QA: Only one Israeli retailer page names Sauter CUBE 100; catalog name (15 ק״ג ביממה) matches its daily output. No manufacturer, importer or manual source to confirm the exact Israeli unit."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מכונת-קרח-סאוטר-⁦cube-100⁩/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תפוקה יומית",
+     "value": "15 ק״ג ב-24 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג הקרח",
+     "value": "קוביות קריסטליות מרובעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוביות בכל מחזור",
+     "value": "16"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote specifies small cubes.",
+     "label": "משך מחזור (קוביות קטנות)",
+     "value": "13 דקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח אחסון קרח",
+     "value": "750 גרם"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת מיכל מים עליון",
+     "value": "0.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "32.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "24.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק",
+     "value": "35.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "7.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "LED דיגיטלית"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר מעטפת",
+     "value": "נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "התראה על חוסר מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "התראה על מיכל קרח מלא"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הזנת מים דרך מיכל עליון מובנה או באמצעות חיבור בקבוק חיצוני"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sauter CUBE 100 היא מכונת קרח שולחנית במעטפת נירוסטה המייצרת קוביות קרח קריסטליות מרובעות. מתאימה למטבח ביתי, לאירוח ולמשרד שבהם רוצים קרח זמין בלי חיבור לברז.",
+  "highlights": [
+   "הזנת מים ממיכל עליון או מבקבוק חיצוני",
+   "מעטפת נירוסטה ותצוגת LED דיגיטלית"
+  ],
+  "goodFor": [
+   "אירוח ומסיבות שבהם צריך קרח באופן שוטף",
+   "מטבח ללא נקודת מים ליד משטח העבודה, בזכות הזנה ממיכל או מבקבוק",
+   "משרד או חדר ישיבות שצריכים מכשיר שולחני קומפקטי"
+  ],
+  "considerations": [
+   "יש לוודא שקע חשמל זמין ליד מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "האם המכונה מתריעה כשהמיכל מלא?",
+    "a": "כן, יש התראה על מיכל קרח מלא והתראה על חוסר מים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מכונת קרח",
+   "מכונת קרח ביתית",
+   "Sauter CUBE 100",
+   "מכונת קרח סאוטר",
+   "מכונת קרח שולחנית",
+   "מכונת קוביות קרח",
+   "מכונת קרח 15 קג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תפוקת ייצור",
+   "catalogValue": "15 ק\"ג ב-24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג קרח",
+   "catalogValue": "קוביות קריסטליות מרובעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כמות קוביות במחזור",
+   "catalogValue": "16 יחידות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משך מחזור ייצור",
+   "catalogValue": "13 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח אחסון קרח",
+   "catalogValue": "750 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל מים עליון",
+   "catalogValue": "0.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 32.8 ס\"מ, רוחב 24.2 ס\"מ, עומק 35.8 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "7.6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "מעטפת נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "מסך LED דיגיטלי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מוצא",
+   "catalogValue": "לא צוין במקורות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "All facts come from one Israeli retailer page. No manufacturer, importer or manual page was found, so facts cannot be published without a second site.",
+   "severity": "high"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The Israeli importer for Sauter CUBE 100 is not confirmed. The retailer page only names Electra in its warranty text, which is not clearly tied to this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Width, height and depth come only from the retailer listing. Confirm against the importer or the product label.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rely on a single Israeli retailer page; no manufacturer, importer or manual source confirms them.",
+   "severity": "high"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Israeli importer for Sauter CUBE 100 is not confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Country of origin is not stated in any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified only against a single Israeli retailer page (אבי סופר) that names CUBE 100. Kept all facts as quoted; minor label wording tidied (cycle time label). No manufacturer or importer confirmation. | code guard removed: summary: \"היא מפיקה עד 15 ק״ג קרח ב-24 שעות, עם 16 קוביות בכל מחזור, ומזינה מים ממיכל עליון מובנה או מבקבוק חיצוני.\"; faq: \"כמה קרח המכונה מייצרת ביממה?\"; faq: \"כמה זמן לוקח מחזור ייצור?\"; faq: \"האם צריך לחבר אותה לברז?\"; metaDescription: \"מכונת קרח Sauter CUBE 100 במעטפת נירוסטה: עד 15 ק״ג קרח ב-24 שעות ו-16 קוביות בכל מחזור של 13 דקות. בחדד אלקטריק נהריה\"; highlight: \"תפוקה של 15 ק״ג קרח ב-24 שעות\"; highlight: \"16 קוביות קריסטליות מרובעות בכל מחזור\"; highlight: \"מחזור של 13 דקות לקוביות קטנות\"; consideration: \"ודאו מקום על השיש: המידות 32.8 × 24.2 × 35.8 ס״מ (גובה × רוחב × עומק)\"; consideration: \"מיכל המים העליון מכיל 0.5 ליטר, כך שבשימוש רציף כדאי לחבר בקבוק חיצוני\"; consideration: \"מיכל האחסון מחזיק 750 גרם קרח, ולכן כדאי להעביר קרח למקפיא לפני אירוע\""
+ }
+}

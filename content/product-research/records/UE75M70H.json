@@ -1,0 +1,272 @@
+{
+ "modelNumber": "UE75M70H",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "UE75M70H",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "הראיות מדף Samsung UK ומדף Multitronic (וריאנטים UE75M70HAKXXU / UE75M70HAUXXH). לא נמצא דף יבואן ישראלי; מפרט הוריאנט האזורי עשוי להיות שונה מהגרסה הישראלית. | QA: Samsung UK page for UE75M70HAKXXU names the base model UE75M70H; Israeli suffix/variant not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/uk/tvs/mini-led-tv/m70h-75-inch-4k-smart-tv-ue75m70hakxxu/",
+   "publisher": "Samsung UK",
+   "kind": "manufacturer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840 × 2160"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "50 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "75 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית תאורה",
+     "value": "Mini LED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "Mini LED Processor 4K"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quote-not-on-page; quote checks: quote-not-on-page",
+     "label": "HDR10+",
+     "value": "נתמך"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק קול (RMS)",
+     "value": "20 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערך רמקולים",
+     "value": "2 ערוצים (2ch)"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Tizen Smart TV"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יציאות HDMI",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תקן VESA",
+     "value": "400 × 300 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "21.6 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Samsung UE75M70H היא טלוויזיה חכמה בגודל 75 אינץ׳ עם תאורת Mini LED ורזולוציית 4K של 3840 × 2160. היא פועלת על מערכת Tizen, כוללת 3 יציאות HDMI, Wi-Fi 5 ו-Bluetooth 5.3. מתאימה למי שמחפש מסך גדול לסלון עם תאורת Mini LED.",
+  "highlights": [
+   "מסך 75 אינץ׳ ברזולוציית 3840 × 2160",
+   "תאורת Mini LED עם מעבד Mini LED Processor 4K",
+   "מערכת הפעלה Tizen Smart TV",
+   "3 יציאות HDMI, Wi-Fi 5 ו-Bluetooth 5.3",
+   "שמע 20 W RMS ב-2 ערוצים"
+  ],
+  "goodFor": [
+   "סלון גדול שבו רוצים מסך של 75 אינץ׳",
+   "צפייה בתוכן 4K משירותי סטרימינג דרך מערכת Tizen",
+   "חיבור כמה מכשירים במקביל דרך 3 יציאות HDMI",
+   "חיבור אוזניות או רמקול אלחוטי דרך Bluetooth 5.3"
+  ],
+  "considerations": [
+   "לתלייה על הקיר נדרשת זרוע תואמת VESA 400 × 300 מ״מ",
+   "משקל המסך ללא מעמד הוא 21.6 ק״ג — יש לוודא שהקיר והזרוע מתאימים",
+   "השמע המובנה הוא 20 W ב-2 ערוצים; למי שרוצה סאונד מלא יותר כדאי לשקול מקרן קול",
+   "קצב הרענון המוצהר הוא 50 Hz — חשוב לבדוק אם משחקים בקצב רענון גבוה הם שיקול מרכזי"
+  ],
+  "faq": [
+   {
+    "q": "מה הרזולוציה של Samsung UE75M70H?",
+    "a": "רזולוציית 4K של 3840 × 2160.",
+    "sources": []
+   },
+   {
+    "q": "איזה תקן VESA מתאים לתליית המסך?",
+    "a": "VESA 400 × 300 מ״מ, ומשקל המסך ללא מעמד הוא 21.6 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "כמה יציאות HDMI יש בטלוויזיה?",
+    "a": "יש 3 יציאות HDMI.",
+    "sources": []
+   },
+   {
+    "q": "באיזו מערכת הפעלה היא פועלת?",
+    "a": "מערכת Tizen Smart TV של סמסונג, עם Wi-Fi 5 ו-Bluetooth 5.3.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה Samsung UE75M70H בגודל 75 אינץ׳ עם תאורת Mini LED ורזולוציית 4K, מערכת Tizen ו-3 יציאות HDMI. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung UE75M70H",
+   "UE75M70H",
+   "טלוויזיה 75 אינץ׳ סמסונג",
+   "סמסונג Mini LED 75",
+   "טלוויזיה Mini LED 4K",
+   "Samsung M70H",
+   "טלוויזיה 75 אינץ׳ נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "75'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "המפרט נלקח מוריאנט אזורי UK (UE75M70HAKXXU); יש לאמת מול יבואן סמסונג בישראל.",
+   "severity": "high"
+  },
+  {
+   "field": "identity",
+   "issue": "המפרט נלקח מהגרסה הבריטית UE75M70HAKXXU; יש לאמת מול יבואן סמסונג בישראל שהגרסה הישראלית זהה.",
+   "severity": "high"
+  },
+  {
+   "field": "HDR10+",
+   "issue": "תמיכה ב-HDR10+ לא אומתה מול ציטוט בדף והוסרה.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 (HDR10+): quote not found on page. Relabelled weight as 'משקל ללא מעמד'. Specs come from the UK variant UE75M70HAKXXU; Israeli variant not confirmed."
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "modelNumber": "AHY-904",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Luxor",
+  "exactModel": "AHY-904",
+  "israeliImporter": "A.H.Y DIGITAL MARKETIG & TRADE LTD",
+  "matchConfidence": "high",
+  "notes": "The Zap price-comparison page lists 'Luxor AHY-904' as a 4-slice press toaster with grill plates. No Luxor or importer spec sheet naming AHY-904 was found. Power and dimensions could not be verified for this exact model. | QA: Zap names Luxor AHY-904 as a 4-slice press toaster with grill plates, matching the catalog name and specs. Importer name from the Luxor footer is not tied to this model, so left null."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-toster&db137243=4371895",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר פרוסות",
+     "value": "4 פרוסות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "ציפוי פלטות",
+     "value": "Non-Stick"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זווית פתיחה",
+     "value": "180 מעלות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "בקרת טמפרטורה",
+     "value": "בורר טמפרטורה לבחירת דרגת חום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "ידית",
+     "value": "ידית אחיזה רחבה וקרה למגע"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פתיחה בזווית של 180 מעלות לצלייה ובישול על שתי הפלטות במקביל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מתאים להכנת כריכים וצלייה במקביל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמכין כמה כריכים בבת אחת ורוצה גם אפשרות גריל פתוח.",
+  "highlights": [
+   "פלטות בציפוי Non-Stick לניקוי קל",
+   "בורר טמפרטורה לבחירת דרגת חום",
+   "גוף נירוסטה וידית קרה למגע"
+  ],
+  "goodFor": [
+   "הכנת כמה טוסטים בבת אחת לארוחת בוקר או ערב",
+   "צלייה על גריל פתוח בשתי הפלטות במקביל",
+   "מי שמחפש משטח שקל לנקות בזכות ציפוי Non-Stick"
+  ],
+  "considerations": [
+   "ההספק והמידות לא אומתו מול מקור רשמי – כדאי לבדוק מקום על השיש לפני הרכישה",
+   "לשמירה על ציפוי ה־Non-Stick מומלץ להשתמש בכלים שאינם ממתכת"
+  ],
+  "faq": [
+   {
+    "q": "אפשר לשלוט בחום?",
+    "a": "כן, יש בורר טמפרטורה לבחירת דרגת החום הרצויה.",
+    "sources": []
+   },
+   {
+    "q": "האם הפלטות נדבקות?",
+    "a": "הפלטות בציפוי Non-Stick שנועד למנוע הידבקות ולהקל על הניקוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "טוסטר לחיצה 4 פרוסות",
+   "Luxor AHY-904",
+   "טוסטר לוקסור",
+   "טוסטר גריל לחיצה",
+   "טוסטר נירוסטה",
+   "טוסטר נפתח 180 מעלות",
+   "טוסטר Non-Stick"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "4 פרוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי פלטות",
+   "catalogValue": "Non-Stick",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פתיחה",
+   "catalogValue": "180 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת טמפרטורה",
+   "catalogValue": "בורר חום ידני",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבנה",
+   "catalogValue": "גוף נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית",
+   "catalogValue": "מבודדת חום (Cool-touch)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שימושים",
+   "catalogValue": "צליית בשר",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Wattage for AHY-904 is not verified. A Zap listing shows 2000W for a Luxor 4-slice NON STICK toaster, but the fetched text does not tie that line to AHY-904. An ACE Luxor 4-slice page also shows 2000 וואט without naming the model. A separate black Luxor 4-slice listing shows 1400W. The catalog has no power value, so do not publish one until a manufacturer page confirms it.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "No width, height, depth or weight was found for AHY-904 in any fetched source.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "No Luxor or importer spec sheet naming AHY-904 was found. All exact-model facts rest on one retailer aggregator (Zap), so they go to review and not to the site.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The importer name comes from the Luxor site footer, which spells it 'MARKETIG'. It is not confirmed as the importer of AHY-904 specifically.",
+   "severity": "low"
+  },
+  {
+   "field": "שימושים",
+   "issue": "The catalog says the unit can grill meat. The Zap text describes grilling and cooking food on two plates but does not mention meat.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "All exact-model facts rest on a single Zap listing; no Luxor or importer spec sheet naming AHY-904 was found.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Wattage not verified for AHY-904; other Luxor 4-slice listings show differing values.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "No dimensions or weight found for AHY-904.",
+   "severity": "low"
+  },
+  {
+   "field": "שימושים",
+   "issue": "Catalog says the unit can grill meat; the source mentions grilling and cooking food but not meat.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All six facts and both features are backed by ok quotes from a Zap page naming Luxor AHY-904. Reclassified Zap as il-retailer. Catalog claim about grilling meat not verified and not published. Power and dimensions not available. | code guard removed: summary: \"Luxor AHY-904 הוא טוסטר לחיצה משולב גריל ל־4 פרוסות, עם גוף נירוסטה ופלטות בציפוי Non-Stick.\"; summary: \"ניתן לפתוח אותו ל־180 מעלות ולהשתמש בשתי הפלטות במקביל לצלייה ובישול, ובורר טמפרטורה מאפשר לבחור את דרגת החום.\"; faq: \"כמה פרוסות אפשר להכין בבת אחת?\"; faq: \"אפשר להשתמש בו כגריל פתוח?\"; metaDescription: \"טוסטר לחיצה Luxor AHY-904 ל־4 פרוסות עם פלטות Non-Stick ופתיחה ל־180 מעלות לגריל פתוח. גוף נירוסטה. בחדד אלקטריק נהריה\"; highlight: \"טוסטר לחיצה ל־4 פרוסות\"; highlight: \"פתיחה ל־180 מעלות לשימוש בשתי הפלטות במקביל\"; consideration: \"בפתיחה ל־180 מעלות המכשיר תופס שטח כפול – כדאי לוודא מקום פנוי\""
+ }
+}

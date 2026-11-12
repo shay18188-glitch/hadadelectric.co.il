@@ -1,0 +1,390 @@
+{
+ "modelNumber": "55QNED84B6T",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "55QNED84B6T",
+  "israeliImporter": "קבוצת ח.י",
+  "matchConfidence": "high",
+  "notes": "דגם 55QNED84B6T.AMFG בדף LG ישראל; בדף LG סעודיה הסיומת .AMVE. | QA: LG Israel page and two Israeli retailers name 55QNED84B6T; Israeli suffix .AMFG per research notes."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.savoy.co.il/product/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-55-%D7%90%D7%99%D7%A0%D7%A5-lg-qned-evo-ai-miniled-4k-%D7%93%D7%92%D7%9D-55qned84b6t/",
+   "publisher": "Savoy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-55-%D7%90%D7%99%D7%A0%D7%A5-%D7%90%D7%9C-%D7%92%D7%99-%E2%81%A655qned84b6t%E2%81%A9/",
+   "publisher": "Avi Super (Soferavi)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.lg.com/sa_en/tv-soundbars/qned-evo/55qned84b6t/",
+   "publisher": "LG Saudi Arabia",
+   "kind": "manufacturer",
+   "market": "SA",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.lg.com/il/tv/lg-55qned84b6t",
+   "publisher": "LG Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב (ללא מעמד)",
+     "value": "123.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה (ללא מעמד)",
+     "value": "71.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק (ללא מעמד)",
+     "value": "6.79 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל (ללא מעמד)",
+     "value": "11.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "55 אינץ׳"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K Ultra HD"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית תצוגה",
+     "value": "QNED evo AI Mini LED"
+    },
+    {
+     "sources": [
+      "s4",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "120Hz טבעי (VRR עד 144Hz)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "HDR",
+     "value": "HDR10 / HLG"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "α8 AI Processor 4K Gen3"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "webOS 26"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "Bluetooth 5.3"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסת USB",
+     "value": "1 (גרסה 2.0)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Label corrected: quote gives voltage and frequency only, no power.",
+     "label": "מתח הזנה",
+     "value": "100~240 וולט, 50-60 הרץ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית צבע רחב המספקת 100% נפח צבע"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Mini LED לבהירות וניגודיות משופרות"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת webOS מאובטחת על ידי LG Shield"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הגברת רזולוציה מבוססת בינה מלאכותית (Upscale)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טלוויזיה חכמה של LG בגודל 55 אינץ׳ עם תצוגת QNED evo AI Mini LED ורזולוציית 4K Ultra HD. קצב הרענון הוא 120Hz טבעי עם VRR עד 144Hz, והמעבד α8 AI Processor 4K Gen3 משדרג תוכן ברזולוציה נמוכה בעזרת בינה מלאכותית.",
+  "highlights": [
+   "מסך 55 אינץ׳ ברזולוציית 4K Ultra HD",
+   "תאורת Mini LED בטכנולוגיית QNED evo",
+   "קצב רענון 120Hz טבעי, VRR עד 144Hz",
+   "מעבד α8 AI Processor 4K Gen3"
+  ],
+  "goodFor": [
+   "צפייה בסרטים וסדרות בסטרימינג ישירות מהטלוויזיה החכמה",
+   "משחקי קונסולה הנהנים מקצב רענון 120Hz ותמיכה ב-VRR",
+   "צפייה בספורט ותוכן מהיר בזכות קצב הרענון הגבוה",
+   "חיבור מקרן קול ב-eARC דרך HDMI"
+  ],
+  "considerations": [
+   "בדקו שהקיר או המזנון מתאימים למסך ברוחב 123.6 ס״מ וגובה 71.8 ס״מ ללא מעמד"
+  ],
+  "faq": [
+   {
+    "q": "מה קצב הרענון של LG 55QNED84B6T?",
+    "a": "120Hz טבעי, עם VRR עד 144Hz.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש בטלוויזיה?",
+    "a": "3 כניסות HDMI, עם תמיכה ב-4K 120Hz, eARC, VRR ו-ALLM.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "LG 55QNED84B6T",
+   "טלוויזיה LG 55 אינץ׳",
+   "LG QNED84 55",
+   "טלוויזיה Mini LED 55 אינץ׳",
+   "LG QNED evo",
+   "טלוויזיה 4K 120Hz",
+   "טלוויזיה חכמה webOS",
+   "טלוויזיה 55 אינץ׳ נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "55'",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K Ultra HD (3840 x 2160)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טכנולוגיית תצוגה",
+   "catalogValue": "QNED evo AI Mini LED",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "אלפא 8 (α8 AI Processor 4K Gen3)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "webOS",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יחס תמונה",
+   "catalogValue": "16:9",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוזרות קוליות",
+   "catalogValue": "Google Assistant, Alexa",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הסיומת משתנה לפי אזור: דף LG ישראל .AMFG, דף LG סעודיה .AMVE. הדגם 55QNED84B6T מופיע בשני הדפים.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות ומשקל מגיעים משני קמעונאים ישראליים בלבד, לא מדף היצרן; בדף LG ישראל לא נמצאו מידות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות ומשקל מגיעים משני קמעונאים ישראליים בלבד, לא מדף היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הסיומת משתנה לפי אזור (.AMFG בישראל, .AMVE בסעודיה); יש לוודא שהיחידה בקטלוג היא הגרסה הישראלית.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 15 label corrected from 'מתח והספק חשמל' to 'מתח הזנה' (no power wattage in the quote). All other facts kept as researched. | code guard removed: summary: \"מתאימה לסלון שמחפש מסך חכם על webOS 26 לצפייה בסטרימינג, ספורט ומשחקים.\"; faq: \"איזו מערכת הפעלה מותקנת?\"; faq: \"מה מידות המסך ללא מעמד?\"; faq: \"אילו פורמטי HDR נתמכים?\"; metaDescription: \"טלוויזיה LG QNED evo Mini LED דגם 55QNED84B6T במסך 55 אינץ׳ 4K, קצב רענון 120Hz טבעי ו-VRR עד 144Hz ומערכת webOS 26. בחדד אלקטריק נהריה\"; highlight: \"מערכת הפעלה webOS 26\"; consideration: \"יש 3 כניסות HDMI ו-1 כניסת USB בלבד, כדאי לספור את המכשירים שתחברו\"; consideration: \"תליה על הקיר דורשת זרוע מתאימה למשקל 11.5 ק״ג ללא מעמד\"; consideration: \"החיבור האלחוטי הוא Wi-Fi 5, ולסטרימינג 4K יציב כדאי לוודא קליטה טובה במיקום הטלוויזיה\""
+ }
+}

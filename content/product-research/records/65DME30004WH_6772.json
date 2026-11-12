@@ -1,0 +1,436 @@
+{
+ "modelNumber": "65DME30004WH (6772)",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "65DME30004W (6772)",
+  "israeliImporter": "קבוצת המילטון",
+  "matchConfidence": "high",
+  "notes": "Midea Israel pages (Hebrew and English) name 65DME30004W(6772); catalog says 65DME30004WH (6772). Retailer pages naming 65DME30004WH use colour code 6782, a sibling, not used as evidence. | QA: Midea Israel names 65DME30004W(6772), a 70 L built-in oven with mechanical knobs, which matches the catalog name. The catalog suffix WH does not appear on any manufacturer page. Retailer pages for the 6782 colour sibling were not used. | 2026-11-12: Owner confirmed the model is 65DME30004W, code 6772; the importer page names it."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il/cooking-range/built-in-oven/midea-built-in-oven-70l.65dme30004w-6772-",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.midea.com/il-en/cooking-range/built-in-oven/midea-built-in-oven-70l.65dme30004w-6772-",
+   "publisher": "Midea Israel (English)",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://midea.co.il/product/65dme30004w",
+   "publisher": "מידאה ישראל – קבוצת המילטון (היבואן הרשמי)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  },
+  {
+   "id": "s4",
+   "url": "owner:importer-page-screenshot",
+   "publisher": "חדד יובל אלקטריק – בעל החנות",
+   "kind": "owner",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא",
+     "value": "70 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "3000W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "50–250°C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תכניות בישול ואפייה",
+     "value": "8"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "כיבוי אוטומטי עד 120 דקות, או הפעלה קבועה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זכוכית דלת פנימית",
+     "value": "2 שכבות מחוסמות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Source Hebrew label has a typo (גימוי); value is fine.",
+     "label": "ציפוי תא",
+     "value": "אמייל EasyClean"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בקרה",
+     "value": "ידיות מכניות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית לבנה"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s4",
+      "s3",
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "65DME30004W"
+    },
+    {
+     "sources": [
+      "s4",
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוד מוצר",
+     "value": "6772"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 59.5 × 57.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "56 × 59 × 57 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת אפייה טורבו לאפייה אחידה בכל חלל התנור"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "8 תכניות לבישול ואפייה בהתאמה אישית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאורה פנימית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שתי תבניות (עמוקה ושטוחה) ורשת אחת"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Midea 65DME30004W הוא תנור בנוי לבן עם בקרה בידיות מכניות ותא אפייה בנפח 70 ליטר. התנור מציע 8 תכניות לבישול ואפייה, אפייה טורבו לאפייה אחידה והספק מרבי של 3000W, בדירוג אנרגטי A. מידות הנישה להתקנה הן 56 × 59 × 57 ס״מ, ומתאים למי שמחפש תנור בנוי פשוט לתפעול עם תא מרווח.",
+  "highlights": [
+   "תא אפייה בנפח 70 ליטר",
+   "8 תכניות לבישול ואפייה",
+   "מערכת אפייה טורבו לאפייה אחידה",
+   "דירוג אנרגטי A",
+   "ציפוי תא אמייל EasyClean"
+  ],
+  "goodFor": [
+   "מטבח שמחפש תנור בנוי עם תפעול פשוט בידיות מכניות",
+   "אפייה של כמה תבניות יחד בזכות תא בנפח 70 ליטר ומערכת טורבו",
+   "מי שמעדיף ניקוי קל של התא בזכות ציפוי אמייל EasyClean"
+  ],
+  "considerations": [
+   "מידות הנישה להתקנה הן 56 × 59 × 57 ס״מ (רוחב × גובה × עומק) – כדאי למדוד את הנישה במטבח לפני הרכישה",
+   "הספק מרבי של 3000W – כדאי לבדוק עם חשמלאי שהשקע והמעגל מתאימים",
+   "הבקרה מכנית בידיות, ללא תצוגה דיגיטלית"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח תא האפייה הוא 70 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה תכניות בישול יש בתנור?",
+    "a": "התנור מציע 8 תכניות לבישול ואפייה.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק המרבי של התנור?",
+    "a": "ההספק המרבי הוא 3000W.",
+    "sources": []
+   },
+   {
+    "q": "האם התנור קל לניקוי?",
+    "a": "תא התנור מצופה אמייל EasyClean.",
+    "sources": []
+   },
+   {
+    "q": "מה דירוג האנרגיה?",
+    "a": "התנור מדורג בדרגת אנרגיה A.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הנישה להתקנה?",
+    "a": "לפי היבואן, רוחב 56 ס״מ, גובה 59 ס״מ ועומק 57 ס״מ.",
+    "sources": [
+     "s3"
+    ]
+   },
+   {
+    "q": "מה כלול עם התנור?",
+    "a": "לפי היבואן, שתי תבניות (עמוקה ושטוחה) ורשת אחת.",
+    "sources": [
+     "s3"
+    ]
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Midea 65DME30004W לבן, נפח 70 ליטר, 8 תכניות והספק 3000W, נישה 56×59×57 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור בנוי מידאה",
+   "Midea 65DME30004WH",
+   "65DME30004W",
+   "תנור בנוי לבן 70 ליטר",
+   "תנור בנוי מכני",
+   "תנור בנוי טורבו",
+   "תנור מידאה 70 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "70 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מירבי",
+   "catalogValue": "3000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תכניות",
+   "catalogValue": "8",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אפייה טורבו",
+   "catalogValue": "מערכת אפייה טורבו (פסיבי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "59.5×59.5×57.5",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות התקנה",
+   "catalogValue": "56×59×57",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "catalogValue": "50-250",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 120 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "model_number",
+   "catalogValue": "65DME30004WH (6772)",
+   "finding": "corrected",
+   "correctValue": "65DME30004W (6772)",
+   "sources": [
+    "s4",
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "base44_model_number",
+   "issue": "Feed code 65DME30004WH (6772) should be corrected in Base44 to 65DME30004W (6772); the site shows the corrected code.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-12",
+  "verdict": "pass-with-fixes",
+  "notes": "All 7 facts and 2 features are backed by ok quotes on both Midea Israel pages (Hebrew and English), which name 65DME30004W(6772). Catalog code 65DME30004WH (6772) has an extra H; the colour code 6772 matches, so identity is set to medium. Labels lightly reworded. Dimensions, installation niche, temperature range and timer from the catalog were not verified and are not published. | 2026-11-12 store owner: model is 65DME30004W (code 6772), 70 L, 8 programs, 3000W; importer page added"
+ }
+}

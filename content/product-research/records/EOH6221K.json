@@ -1,0 +1,420 @@
+{
+ "modelNumber": "EOH6221K",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EOH6221K",
+  "israeliImporter": "מיניליין (Mini Line)",
+  "matchConfidence": "high",
+  "notes": "The model number appears on the importer category page and on two Israeli retailer pages. No manufacturer spec page was found. Specs come from two retailers that copy the same official data (CityDeal, Sofer Avi); single-source values are flagged. | QA: Exact model EOH6221K named on importer category page and two Israeli retailer pages; 71 L, black, telescopic rails match catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%AA%D7%A0%D7%95%D7%A8-%D7%90%D7%A4%D7%99%D7%94-%D7%91%D7%99%D7%9C%D7%93-%D7%90%D7%99%D7%9F-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1-%E2%81%A6eoh6221k%E2%81%A9-%D7%A9%D7%97%D7%95/",
+   "publisher": "Sofer Avi",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/electrolux-eoh6221k",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://miniline.co.il/product-category/electrolux/ovens/built-in-ovens/",
+   "publisher": "Mini Line",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח שמיש תא אפייה",
+     "value": "71 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailers wrote kWh / Kw/h; unit corrected to kW.",
+     "label": "הספק מקסימלי",
+     "value": "3.5 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single retailer source.",
+     "label": "טווח טמפרטורה",
+     "value": "50°C – 275°C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single retailer source.",
+     "label": "צריכת אנרגיה (תוכנית קונבנציונלית)",
+     "value": "0.99 kWh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single retailer source.",
+     "label": "צריכת אנרגיה (תוכנית טורבו)",
+     "value": "0.69 kWh"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A+"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "594 × 594 × 567 מ״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Moved axis order into label.",
+     "label": "מידות נישה להתקנה (גובה × רוחב × עומק)",
+     "value": "589 × 560 × 550 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות עבודה",
+     "value": "9"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת ניקוי",
+     "value": "ניקוי בסיוע אדים (Aqua Cleaning) ב-90°C, 30 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "זכוכית שחורה בשילוב מסגרת שחור פחם"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single retailer source.",
+     "label": "ארץ ייצור",
+     "value": "גרמניה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י מיניליין (יבואן רשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טורבו אקטיבי SurroundCook לאפייה אחידה במספר תבניות בו זמנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Quote refers to baking trays, not the cavity; wording fixed.",
+   "text": "תבניות אפייה InfiSpace הגדולות ב-20% מתבניות אפייה קלאסיות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "דלת קרה CoolDoor Plus עם 3 שכבות זכוכית רפלקטור המתפרקות לניקוי"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 סטים של מסילות טלסקופיות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 מגשים רגילים, מגש עמוק אחד ורשת אחת"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "יש לוודא התאמה של החיבור החשמלי לתשתית הביתית לפי התקנות"
+  }
+ ],
+ "content": {
+  "summary": "תנור בנוי של Electrolux, דגם EOH6221K, בגימור זכוכית שחורה עם מסגרת שחור פחם. לתנור תא אפייה בנפח שמיש של 71 ליטר, טורבו אקטיבי SurroundCook ו-9 תוכניות עבודה, עם ניקוי בסיוע אדים Aqua Cleaning. מתאים למי שמחפש תנור בנוי בדירוג אנרגטי A+ עם 2 סטים של מסילות טלסקופיות.",
+  "highlights": [
+   "נפח שמיש של 71 ליטר",
+   "9 תוכניות עבודה כולל טורבו אקטיבי SurroundCook",
+   "ניקוי בסיוע אדים Aqua Cleaning ב-90°C",
+   "דירוג אנרגטי A+"
+  ],
+  "goodFor": [
+   "אפייה במספר תבניות בו זמנית בזכות הטורבו האקטיבי",
+   "מטבח בעיצוב כהה עם חזית זכוכית שחורה",
+   "מי שמעדיף ניקוי בסיוע אדים",
+   "שליפה נוחה של תבניות על 2 סטים של מסילות טלסקופיות"
+  ],
+  "considerations": [
+   "מידות הנישה הנדרשות: גובה 589, רוחב 560 ועומק 550 מ״מ",
+   "הספק מקסימלי של 3.5 kW – יש לוודא שהחיבור החשמלי מתאים לתשתית הביתית לפי התקנות",
+   "האחריות לשנה ניתנת ע״י מיניליין, היבואן הרשמי"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "הנפח השמיש של תא האפייה הוא 71 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "גובה 589 מ״מ, רוחב 560 מ״מ ועומק 550 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את התנור?",
+    "a": "יש לו מערכת Aqua Cleaning לניקוי בסיוע אדים ב-90°C במשך 30 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "2 מגשים רגילים, מגש עמוק אחד ורשת אחת, ובנוסף 2 סטים של מסילות טלסקופיות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Electrolux EOH6221K שחור: נפח 71 ליטר, 9 תוכניות עבודה, ניקוי אדים Aqua Cleaning ומסילות טלסקופיות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור בנוי אלקטרולוקס",
+   "Electrolux EOH6221K",
+   "EOH6221K",
+   "תנור בנוי שחור",
+   "תנור בנוי 71 ליטר",
+   "תנור עם מסילות טלסקופיות",
+   "תנור אלקטרולוקס שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "71 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Electrolux",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מסילות טלסקופיות",
+   "catalogValue": "מסילות טלסקופיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שחור",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דיגיטלי",
+   "catalogValue": "דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "גרמניה",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, ע״י מיניליין (יבואן רשמי)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "The catalog name says 'דיגיטלי' (digital controls). The retailer pages describe touch control ('פיקוד טאץ') but none says 'digital'. Check the wording.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "Retailers write the maximum power as 'kWh' or 'Kw/h'. The unit recorded here is kW, which is the correct unit for power. The retailer units are a typo.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Retailers write the energy class as both 'A+' and '+A'. The value recorded is A+.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "No Electrolux or Mini Line spec sheet was found. Temperature range and energy consumption come from one retailer only, so they go to review. Weight was not found on any page checked.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 'דיגיטלי'; sources describe touch control but none says digital. Check wording.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "No Electrolux or Mini Line spec sheet found; temperature range, energy consumption and country of origin rely on a single retailer each.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Power unit normalised to kW (retailers wrote kWh / Kw/h, which are wrong units for power). Dimension order fixed to explicit width × height × depth labels. Temperature range, energy consumption and country of origin come from one retailer each. | code guard removed: faq: \"מה טווח הטמפרטורות?\"; highlight: \"דלת קרה CoolDoor Plus עם 3 שכבות זכוכית\""
+ }
+}

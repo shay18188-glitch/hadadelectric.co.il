@@ -1,0 +1,303 @@
+{
+  "modelNumber": "EW6T837E",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Electrolux",
+    "exactModel": "EW6T837E",
+    "israeliImporter": null,
+    "matchConfidence": "high",
+    "notes": "EW6T837E is the Electrolux PerfectCare 600 (Series 600) 7 kg / 1300 rpm top loader, PNC 913 148 511, EAN 7333394162034 (electrolux.hr product page and datasheet). The user manual cover names EW6T837E exactly; EPREL registration 2604642 lists 'EW6T837E 913148511', on-market from 13 April 2026, available in all EU/EEA countries. No Electrolux Israel / official Israeli importer page was found for this model. One Israeli retailer (Gladiator, via Zap) sells the exact code EW6T837E and names its supplier as 'ADS' with a 12-month warranty; that is a retailer statement, not an importer page. The catalog name suffix '(קלינטון)' could not be matched to any source (not an importer or series name found online). Electrical data in the manual (230 V, 50 Hz, 10 A) matches the Israeli grid, but the Israeli unit's PNC was not seen."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.electrolux.hr/laundry/laundry/washing-machines/top-loader-washing-machine/ew6t837e/",
+      "publisher": "Electrolux Croatia (electrolux.hr)",
+      "kind": "manufacturer",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://productinformation.electrolux.com/SERVICES/PIServices/EdenService.svc/WEB/GetDatasheetPDF/productid=6AADD743-4970-4D7B-B0AD-DDD8271CB430/projectid=8999EF62-EF6C-4F2C-A4F2-7E1F38599081/languageid=A8FC95C7-5DBC-49DA-8033-7AB5472E1ADB",
+      "publisher": "Electrolux product datasheet (PDF, HR)",
+      "kind": "manufacturer",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://electrolux.bynder.com/asset/618307c1-e1f2-4b7f-80d6-5198f3c84067/260625XW1E-pdf.pdf",
+      "publisher": "Electrolux user manual EW6T837E (SQ/HR/EL/MK/RO/SR/SL)",
+      "kind": "manual",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://eprel.ec.europa.eu/api/products/washingmachines2019/2604642",
+      "publisher": "EPREL — EU energy label database (registration 2604642)",
+      "kind": "regulator",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://gladiator.org.il/product/%d7%9e%d7%9b%d7%95%d7%a0%d7%aa-%d7%9b%d7%91%d7%99%d7%a1%d7%94-%d7%a4%d7%aa%d7%97-%d7%a2%d7%9c%d7%99%d7%95%d7%9f-7-%d7%a7%d7%99%d7%9c%d7%95-%d7%90%d7%9c%d7%a7%d7%98%d7%a8%d7%95%d7%9c%d7%95%d7%a7%d7%a1/",
+      "publisher": "Gladiator (גלדיאטור), via Zap",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.emmezeta.hr/elektrolux-ew6t837e-perilica-rublja-720848.html",
+      "publisher": "Emmezeta",
+      "kind": "retailer",
+      "market": "HR",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.hausdorf.ru/catalog/stiralnye-mashiny/electrolux/stiralnaya-mashina-electrolux-ew6t837e.html",
+      "publisher": "Hausdorf",
+      "kind": "retailer",
+      "market": "RU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        { "label": "דגם", "value": "EW6T837E", "sources": ["s1", "s2", "s3", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "סדרה", "value": "PerfectCare 600 (Series 600)", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "מק״ט יצרן (PNC)", "value": "913 148 511", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "סוג", "value": "מכונת כביסה פתח עליון, עומדת חופשית", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "ארץ ייצור", "value": "פולין", "sources": ["s5"], "confidence": "low", "status": "unverified", "note": "Only the Israeli retailer Gladiator states 'תוצרת פולין'. Not on the Electrolux page, datasheet, manual or EPREL record." }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        { "label": "מידות (רוחב × גובה × עומק)", "value": "40 × 89 × 60 ס״מ (אתר היצרן) / 39.7 × 90.8 × 59.9 ס״מ (מדריך למשתמש)", "sources": ["s1", "s2", "s3", "s4"], "confidence": "low", "status": "conflict", "note": "Height differs between Electrolux sources: product page and datasheet give 890 mm; the user manual technical table gives 90.8 cm and EPREL gives 91 cm. Width and depth agree (40/60 cm, manual 39.7/59.9 cm). Retailers s6/s7 copy 89 cm." },
+        { "label": "רוחב", "value": "40 ס״מ", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified", "note": "Manual gives 39.7 cm." },
+        { "label": "עומק", "value": "60 ס״מ", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified", "note": "Manual gives 59.9 cm overall depth." },
+        { "label": "גובה", "value": "89 ס״מ (אתר היצרן) / 90.8 ס״מ (מדריך) / 91 ס״מ (EPREL)", "sources": ["s1", "s3", "s4"], "confidence": "low", "status": "conflict", "note": "See combined row." },
+        { "label": "משקל", "value": "60 ק״ג", "sources": ["s6"], "confidence": "low", "status": "unverified", "note": "Only one foreign retailer lists weight: Emmezeta gives both 'Težina 60.00 kg' and 'Ukupna težina paketa 60.00 kg' (same figure for product and package). Not on any Electrolux source or EPREL." }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        { "label": "קיבולת כביסה מרבית", "value": "7 ק״ג (כותנה)", "sources": ["s1", "s2", "s3", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "נפח תוף", "value": "42 ליטר", "sources": ["s1", "s2", "s7"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        { "label": "מהירות סחיטה מרבית", "value": "1300 סל״ד", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "מהירות סחיטה בתוכנית Eco 40-60 (תווית)", "value": "1251 סל״ד", "sources": ["s4", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "דרגת יעילות סחיטה", "value": "B", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "לחות שיורית לאחר סחיטה", "value": "53.9%", "sources": ["s4"], "confidence": "high", "status": "verified" },
+        { "label": "מנוע", "value": "Inverter Motor+ (מנוע אינוורטר עם רוטור מגנט קבוע)", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "זיהוי כמות כביסה", "value": "AI WashAssist / SensiCare – התאמת משך, מים ואנרגיה לכמות הכביסה", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        { "label": "מספר תוכניות", "value": "14", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "תוכניות", "value": "FullWash 45', כותנה (Cottons), סינתטי, עדינים, צמר/משי, שטיפה, סחיטה/ניקוז, Intense Clean, ג׳ינס, ספורט, שמיכות פוך (Duvet), Outdoor, Hygiene, Eco 40-60", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "FullWash 45'", "value": "30°C, 45 דקות, עד 7 ק״ג", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "כותנה", "value": "קר עד 90°C, עד 1300 סל״ד, עד 7 ק״ג", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "Hygiene", "value": "60°C עם שלב קיטור, עד 7 ק״ג", "sources": ["s3", "s1"], "confidence": "high", "status": "verified" },
+        { "label": "Intense Clean", "value": "קר עד 90°C, כולל שלב כביסה מקדימה, עד 7 ק״ג", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "סינתטי / ספורט", "value": "עד 3 ק״ג, עד 60°C / 40°C", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "עדינים / ג׳ינס / שמיכות פוך", "value": "עד 2 ק״ג", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "צמר/משי", "value": "עד 1.5 ק״ג, עד 40°C, אישור Woolmark Blue", "sources": ["s3", "s1"], "confidence": "high", "status": "verified" },
+        { "label": "Outdoor", "value": "עד 2 ק״ג; עד 1 ק״ג במחזור חידוש עמידות למים", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "אפשרויות", "value": "TimeSave (2 רמות), השהיית הפעלה, כביסה מקדימה, בחירת טמפרטורה, בחירת/ביטול סחיטה, עצירה במי שטיפה, מצב לילה, שטיפה נוספת קבועה", "sources": ["s3", "s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "השהיית הפעלה", "value": "1 עד 20 שעות, בקפיצות של שעה", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "תוכנית מהירה 14 דקות", "value": "תוכנית מהירה של 14 דקות לרענון פריטים", "sources": ["s5"], "confidence": "low", "status": "unverified", "note": "Only Gladiator (IL retailer) states 'תוכנית מהירה (14 דקות) לרענון פריטים'. The exact-model manual program table and the Electrolux page list no 14-minute program, but the manual does not rule it out: TimeSave pressed twice on a small load sets an 'extremely quick programme' with no stated duration. Not confirmed; withheld." }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        { "label": "דירוג אנרגטי", "value": "A (תווית האיחוד האירופי, סולם A–G, תקנה 2019/2014)", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "צריכת אנרגיה ל-100 מחזורים (Eco 40-60)", "value": "45 קוט״ש", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "צריכת אנרגיה ממוצעת למחזור (Eco 40-60)", "value": "0.447 קוט״ש", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "צריכת מים ממוצעת למחזור (Eco 40-60)", "value": "45 ליטר", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "משך Eco 40-60", "value": "3:25 שעות בעומס מלא; 2:40 שעות בחצי עומס", "sources": ["s1", "s4", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "צריכה ב-Eco 40-60 בעומס מלא (7 ק״ג)", "value": "0.824 קוט״ש, 53 ליטר מים", "sources": ["s3"], "confidence": "high", "status": "verified", "note": "Manual consumption table (EU 2019/2023): full load 0.824 kWh / 53.0 L; half load 0.222 kWh / 44.0 L; quarter load 0.134 kWh / 36.0 L. The 0.447 kWh / 45 L label figures are the per-cycle average." },
+        { "label": "מדד יעילות אנרגטית (EEI)", "value": "51.9", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "הספק", "value": "2100 W", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "מתח / תדר", "value": "230 V / 50 Hz", "sources": ["s1", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "נתיך", "value": "10 A", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "אורך כבל חשמל", "value": "1.61 מ׳", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "צריכה במצב כבוי / המתנה / השהיית הפעלה", "value": "0.5 W / 0.5 W / 4 W", "sources": ["s3", "s1", "s4"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "noise",
+      "rows": [
+        { "label": "רעש (סחיטה, לפי תווית האנרגיה)", "value": "79 dB, דרגה C", "sources": ["s1", "s2", "s4"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        { "label": "צבע", "value": "לבן", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "תצוגה", "value": "תצוגה דיגיטלית: זמן תוכנית, השהיה, טמפרטורה, מהירות סחיטה, קודי התראה", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "מגירת חומרי ניקוי", "value": "FlexiDose Plus – לאבקה או לנוזל, בחלק האחורי של הפתח העליון, נשלפת לניקוי", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "מיקום תוף אוטומטי", "value": "פתח התוף מתמקם אוטומטית בסוף התוכנית", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "safety",
+      "rows": [
+        { "label": "נעילת ילדים", "value": "כן", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "הגנה מפני הצפה", "value": "כן (התקן נגד הצפה)", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "Aqua Control", "value": "לא", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "דרגת הגנה מפני רטיבות", "value": "IPX4", "sources": ["s3"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "installation",
+      "rows": [
+        { "label": "חיבור מים", "value": "מים קרים, ברז עם הברגה ״3/4", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "לחץ מים", "value": "0.5–10 בר (0.05–1 MPa)", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "גובה צינור ניקוז", "value": "60–100 ס״מ", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "הארכת צינור ניקוז", "value": "עד 400 ס״מ, דרך שירות מורשה", "sources": ["s3"], "confidence": "high", "status": "verified" }
+      ]
+    }
+  ],
+  "features": [
+    { "text": "תוכנית FullWash 45' מכבסת עומס מלא של 7 ק״ג ב-30°C תוך 45 דקות, לבגדים יומיומיים מלוכלכים קלות", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "AI WashAssist: זיהוי משקל הכביסה והתאמת משך התוכנית, צריכת המים והאנרגיה בתוכניות כותנה וסינתטי", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+    { "text": "TimeSave בשתי רמות לקיצור משך הכביסה בתוכניות כותנה, סינתטי ו-Intense Clean", "sources": ["s1", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "מגירת FlexiDose Plus שעוברת בין אבקה לנוזל ומשחררת את חומר הניקוי בזמן הנכון", "sources": ["s1", "s2", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "מנוע Inverter Motor+ עם רוטור מגנט קבוע לשליטה מדויקת ולפעולה יציבה", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+    { "text": "תוכנית Hygiene עם שלב קיטור ושמירה על טמפרטורה מעל 60°C בשלב הכביסה; לפי היצרן מסירה יותר מ-99.99% מהחיידקים והנגיפים שנבדקו (בדיקת Swissatest, 2021)", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "מחזור הצמר אושר על ידי Woolmark (Woolmark Blue) לכביסת פריטי צמר המסומנים לכביסת יד", "sources": ["s3", "s1"], "confidence": "high", "status": "verified" },
+    { "text": "תוכנית Outdoor לבגדים טכניים ומעילים עמידים למים, כולל מחזור לחידוש העמידות למים", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "מצב לילה שקט: מבטל את שלבי הסחיטה ומסיים עם מים בתוף; המכונה מנקזת אוטומטית אחרי כ-18 שעות", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "מיקום אוטומטי של פתח התוף בסוף התוכנית", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+    { "text": "מונה שעות פעולה ואפשרות לחזרה להגדרות היצרן", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "לפי היצרן, חלקי חילוף עיקריים (מנוע, משאבות, תוף, לוחות אלקטרוניים ועוד) זמינים 10 שנים לאחר הפסקת הדגם", "sources": ["s3"], "confidence": "medium", "status": "verified", "note": "Stated in the EU manual under EU ecodesign rules; availability in Israel depends on the service provider." }
+  ],
+  "inTheBox": [
+    { "text": "צינור כניסת מים", "sources": ["s3"], "confidence": "medium", "status": "verified", "note": "Shown in the manual's product overview; the manual notes supplied accessories can differ by model." },
+    { "text": "צינור ניקוז ותומך לצינור", "sources": ["s3"], "confidence": "medium", "status": "verified", "note": "Shown in the manual's product overview." },
+    { "text": "כבל חשמל מחובר (1.61 מ׳)", "sources": ["s3", "s1"], "confidence": "high", "status": "verified" }
+  ],
+  "installation": [
+    { "text": "יש להסיר את ברגי ההובלה לפני ההפעלה; היצרן ממליץ לשמור אותם ואת האריזה להובלה עתידית", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "פלסו את המכונה בעזרת רגלי הפילוס; אין להניח קרטון, עץ או חומר דומה מתחת לרגליים", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "המכונה לא צריכה לגעת בקיר או ביחידות אחרות, ושטיח לא צריך לחסום את זרימת האוויר מתחתיה", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "חיבור לשקע מוארק בלבד, בלי מפצל או כבל מאריך; התקע צריך להישאר נגיש אחרי ההתקנה", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "חיבור למים קרים בברז עם הברגה ״3/4, בלחץ 0.5–10 בר; טמפרטורת מי הכניסה לא תעלה על 25°C", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "יש להשאיר לפחות 20 ס״מ של צינור כניסה ישר מתחת לחיבור לברז; אין להאריך את צינור הכניסה", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "קצה צינור הניקוז בגובה 60–100 ס״מ; הארכה עד 4 מ׳ רק דרך מרכז שירות מורשה", "sources": ["s3"], "confidence": "high", "status": "verified" }
+  ],
+  "content": {
+    "summary": "Electrolux EW6T837E היא מכונת כביסה בפתח עליון מסדרת PerfectCare 600, בקיבולת 7 ק״ג ובמהירות סחיטה של עד 1300 סל״ד. רוחבה 40 ס״מ ועומקה 60 ס״מ, ולכן היא מתאימה לחדר כביסה או לנישה צרה שבהם מכונת פתח חזית לא נכנסת. דירוג אנרגטי A בתווית האיחוד האירופי (45 קוט״ש ל-100 מחזורים) ו-14 תוכניות, בהן FullWash 45' ו-Hygiene עם קיטור.",
+    "highlights": [
+      "קיבולת 7 ק״ג, תוף 42 ליטר וסחיטה עד 1300 סל״ד",
+      "רוחב 40 ס״מ ועומק 60 ס״מ, טעינה מלמעלה",
+      "דירוג אנרגטי A (תווית EU): 45 קוט״ש ל-100 מחזורים ו-45 ליטר מים למחזור בממוצע ב-Eco 40-60",
+      "FullWash 45': עומס מלא של 7 ק״ג ב-30°C תוך 45 דקות",
+      "14 תוכניות, כולל Hygiene עם קיטור, שמיכות פוך, ג׳ינס, ספורט ו-Outdoor"
+    ],
+    "goodFor": [
+      "חדר כביסה או נישה צרה: רוחב 40 ס״מ בלבד, והטעינה מלמעלה לא דורשת מקום לפתיחת דלת קדמית",
+      "משק בית קטן עד בינוני: קיבולת 7 ק״ג בכותנה ותוף של 42 ליטר",
+      "מי שמכבס בגדי ספורט, ג׳ינס ומעילים טכניים: יש תוכניות ייעודיות Sport, Jeans ו-Outdoor",
+      "מי שרוצה כביסה מהירה של עומס מלא: FullWash 45' מסיימת 7 ק״ג תוך 45 דקות"
+    ],
+    "considerations": [
+      "יש לחבר את המכונה לשקע מוארק ישירות, בלי מפצל או כבל מאריך. אורך הכבל 1.61 מ׳",
+      "נדרש ברז מים קרים עם הברגה ״3/4 ולחץ מים של 0.5–10 בר; קצה צינור הניקוז בגובה 60–100 ס״מ",
+      "רמת הרעש בסחיטה היא 79 dB (דרגה C). אם המכונה ליד חדר שינה, אפשר להשתמש במצב הלילה, שמבטל את הסחיטה",
+      "זה דגם לשוק האירופי, ולא נמצא עבורו עמוד של יבואן רשמי בישראל. בדקו בחנות מי נותן אחריות ושירות"
+    ],
+    "faq": [
+      {
+        "q": "מה מהירות הסחיטה של Electrolux EW6T837E?",
+        "a": "עד 1300 סל״ד בתוכניות כותנה, FullWash 45', Intense Clean, Hygiene ו-Eco 40-60. בתוכנית Eco 40-60 מהירות הסחיטה בתווית האנרגיה היא 1251 סל״ד, ויעילות הסחיטה בדרגה B.",
+        "sources": ["s1", "s3", "s4"]
+      },
+      {
+        "q": "האם המכונה מתאימה למקום צר?",
+        "a": "רוחב המכונה 40 ס״מ ועומקה 60 ס״מ, והטעינה מלמעלה. לכן היא נכנסת לנישות שבהן מכונת פתח חזית רגילה לא נכנסת. שימו לב שהמכונה לא צריכה לגעת בקיר או ביחידות אחרות.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "כמה זמן נמשכת תוכנית Eco 40-60 וכמה היא צורכת?",
+        "a": "בעומס מלא של 7 ק״ג התוכנית נמשכת 3:25 שעות, ובחצי עומס 2:40 שעות. לפי תווית האנרגיה, הצריכה הממוצעת למחזור היא 0.447 קוט״ש ו-45 ליטר מים, כלומר 45 קוט״ש ל-100 מחזורים. זה ממוצע על פני עומסים שונים: לפי המדריך, מחזור בעומס מלא של 7 ק״ג צורך 0.824 קוט״ש ו-53 ליטר מים.",
+        "sources": ["s1", "s3", "s4"]
+      },
+      {
+        "q": "יש תוכנית מהירה?",
+        "a": "כן. FullWash 45' מכבסת עומס מלא של 7 ק״ג ב-30°C תוך 45 דקות. בנוסף, האפשרות TimeSave מקצרת את תוכניות הכותנה, הסינתטי וה-Intense Clean בשתי רמות.",
+        "sources": ["s1", "s3"]
+      },
+      {
+        "q": "אפשר לתזמן את הכביסה?",
+        "a": "כן. השהיית ההפעלה היא בין שעה ל-20 שעות, בקפיצות של שעה. לפי המדריך, אין להשתמש בהשהיית הפעלה עם חומר ניקוי נוזלי.",
+        "sources": ["s3"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "מכונת כביסה פתח עליון Electrolux EW6T837E: קיבולת 7 ק״ג, סחיטה עד 1300 סל״ד, רוחב 40 ס״מ ודירוג אנרגטי A. מפרט מלא ותוכניות, בחדד אלקטריק נהריה",
+    "keywords": [
+      "EW6T837E",
+      "Electrolux EW6T837E",
+      "אלקטרולוקס EW6T837E",
+      "מכונת כביסה פתח עליון אלקטרולוקס",
+      "מכונת כביסה פתח עליון 7 ק״ג",
+      "מכונת כביסה צרה 40 ס״מ",
+      "מכונת כביסה פתח עליון 1300 סל״ד",
+      "Electrolux PerfectCare 600 פתח עליון"
+    ]
+  },
+  "catalogCheck": [
+    { "field": "name: קיבולת", "catalogValue": "7 ק\"ג", "finding": "confirmed", "sources": ["s1", "s2", "s3", "s4"] },
+    { "field": "name: סוג פתח", "catalogValue": "פתח עליון", "finding": "confirmed", "sources": ["s1", "s2", "s3"] },
+    { "field": "name: (קלינטון)", "catalogValue": "קלינטון", "finding": "unverifiable", "sources": [] },
+    { "field": "brand", "catalogValue": "Electrolux", "finding": "confirmed", "sources": ["s1", "s4"] },
+    { "field": "category", "catalogValue": "מכונות כביסה", "finding": "confirmed", "sources": ["s1", "s4"] },
+    { "field": "model_number", "catalogValue": "EW6T837E", "finding": "confirmed", "sources": ["s1", "s3", "s4", "s5"] },
+    { "field": "origin_country", "catalogValue": "", "finding": "unverifiable", "sources": ["s5"] },
+    { "field": "technical_specifications: מהירות סחיטה", "catalogValue": "", "finding": "missing-added", "correctValue": "1300 סל״ד", "sources": ["s1", "s2", "s3"] },
+    { "field": "technical_specifications: דירוג אנרגטי", "catalogValue": "", "finding": "missing-added", "correctValue": "A (EU), 45 קוט״ש ל-100 מחזורים", "sources": ["s1", "s4"] },
+    { "field": "technical_specifications: מידות", "catalogValue": "", "finding": "missing-added", "correctValue": "רוחב 40 ס״מ, עומק 60 ס״מ (גובה בסתירה: 89 / 90.8 ס״מ)", "sources": ["s1", "s3", "s4"] },
+    { "field": "technical_specifications: נפח תוף", "catalogValue": "", "finding": "missing-added", "correctValue": "42 ליטר", "sources": ["s1", "s2"] },
+    { "field": "technical_specifications: רעש", "catalogValue": "", "finding": "missing-added", "correctValue": "79 dB, דרגה C", "sources": ["s1", "s4"] },
+    { "field": "product_capabilities: תוכניות", "catalogValue": "", "finding": "missing-added", "correctValue": "14 תוכניות, כולל FullWash 45', Hygiene עם קיטור, Eco 40-60", "sources": ["s1", "s3"] },
+    { "field": "product_capabilities: מנוע", "catalogValue": "", "finding": "missing-added", "correctValue": "Inverter Motor+", "sources": ["s1", "s2"] }
+  ],
+  "reviewFlags": [
+    { "field": "name", "issue": "The catalog name ends with '(קלינטון)'. No source links this word to the model, an importer or a series; it may be an internal supplier tag. Consider removing it from the display name (do not rename without handling the URL).", "severity": "medium" },
+    { "field": "dimensions.height", "issue": "Height conflict between Electrolux sources: 89 cm on the product page and datasheet, 90.8 cm in the user manual and 91 cm in EPREL. Width 40 cm and depth 60 cm agree. Confirm against the unit or the Israeli supplier before publishing a height.", "severity": "medium" },
+    { "field": "identity.israeliImporter", "issue": "No official Israeli importer page found. This is an EU-market model (EPREL on-market 13 April 2026). Gladiator (IL retailer) names supplier 'ADS' and a 12-month warranty. The store should state its own warranty and service provider; no warranty row was written.", "severity": "medium" },
+    { "field": "origin_country", "issue": "Only Gladiator states 'תוצרת פולין'; not confirmed by Electrolux or EPREL. Left unpublished.", "severity": "low" },
+    { "field": "programs", "issue": "Gladiator lists a '14-minute quick program for refreshing items'. The exact-model manual and the Electrolux page list no 14-minute program (the shortest program with a stated time is FullWash 45'; TimeSave at its second level gives an 'extremely quick programme' with no stated duration). Recorded as unverified and withheld; do not publish a 14-minute claim unless Electrolux or the supplier confirms it.", "severity": "low" },
+    { "field": "weight", "issue": "Weight not published by Electrolux; only Emmezeta lists 60 kg (it gives 60 kg as both product weight and total package weight). Left unpublished.", "severity": "low" }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "Re-opened all 7 sources; all load and name EW6T837E. s1 (electrolux.hr, 'Sve specifikacije' tab via browser), s2 (datasheet PDF, text extracted) and s4 (EPREL API: class A on range A_G, implementing act EU_2019_2014, 45 kWh/100, 0.447 kWh, 45 L, 205/160 min, spin 1251, moisture 53.9, 79 dB C, EEI 51.9, H/W/D 91/40/60, 0.5/0.5/4 W) confirm every spec they are cited for; s3 (manual, HR section) confirms dimensions 39.7 x 90.8 x 59.9 cm, 230 V/2100 W/10 A/50 Hz, IPX4, 0.5-10 bar, 3/4'' cold water, program table, options, night mode 18 h drain, child lock, hours counter, factory reset, installation rules and the 10-year spare-parts list (which does include printed circuit boards, so that feature stays). Identity confirmed: same code, 7 kg top loader as in the catalog name. Changes: (1) 14-minute program row: value changed from 'לפי קמעונאי ישראלי' to the actual claim and status conflict -> unverified (manual lists no such program but TimeSave level 2 gives an undated 'extremely quick programme', so not a clear contradiction); review flag updated. (2) Weight row (unverified): '60 ק״ג (מוצר ואריזה)' -> '60 ק״ג'; Emmezeta lists 60 kg both as product and package weight. (3) Drum-positioning row and feature reworded to what s1/s2 say (automatic positioning of the drum opening at the end of the program); 'stops at the top' was not on the page. (4) Added verified row from s3: Eco 40-60 full-load consumption 0.824 kWh / 53 L. (5) Highlight now says 45 L per cycle 'בממוצע'; Eco FAQ answer now explains 0.447 kWh / 45 L are the label average and gives the manual's full-load figures (sources s1, s3, s4). Checked and kept, contrary to the earlier reviewer's notes: energy-class scale 'A–G, 2019/2014' is on EPREL (s4). Height conflict (89 / 90.8 / 91 cm) remains a conflict. Hausdorf (s7) shows energy class D, but no row cites s7 for energy. Content and SEO trace to verified rows; no superlatives; ״ and × used; no price/stock; product name unchanged."
+  }
+}

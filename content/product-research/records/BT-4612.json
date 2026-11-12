@@ -1,0 +1,192 @@
+{
+ "modelNumber": "BT-4612",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Benaton",
+  "exactModel": "BT-4612",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only Israeli retailer pages name this model. No manufacturer or importer page was found in the search budget. The tools4u page names it BENATON BT4612 without the dash, but its Hebrew text is garbled in the fetch. | QA: Israeli retailer pages name Benaton BT-4612 (tools4u as BT4612) as a 1 liter car kettle, matching the catalog. No manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lastprice.co.il/p/96697890/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%98%D7%99%D7%95%D7%9C%D7%99%D7%9D-%D7%9C%D7%A8%D7%9B%D7%91-Benaton/BENATON-BT~4612",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "150 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל",
+     "value": "1 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "12V DC"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Wording fixed from garbled 'ייוצר'.",
+   "text": "עיצוב קומפקטי המיועד במיוחד למטיילים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מפסק הפעלה/כיבוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למטיילים ולמי שרוצה להכין מים חמים במהלך נסיעה.",
+  "highlights": [
+   "מפסק הפעלה/כיבוי",
+   "עיצוב קומפקטי המיועד למטיילים"
+  ],
+  "goodFor": [
+   "טיולים ונסיעות ארוכות ברכב",
+   "קמפינג ליד הרכב בלי חיבור לחשמל ביתי",
+   "הכנת קפה או תה בדרך"
+  ],
+  "considerations": [
+   "מומלץ להפעיל כשהמנוע פועל כדי לא להעמיס על המצבר"
+  ],
+  "faq": [
+   {
+    "q": "איך מפעילים ומכבים אותו?",
+    "a": "בקומקום יש מפסק הפעלה/כיבוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קומקום לרכב",
+   "קומקום 12V",
+   "Benaton BT-4612",
+   "קומקום חשמלי לרכב בנטון",
+   "קומקום לטיולים",
+   "קומקום למצית רכב",
+   "BT4612"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "150 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.0 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "12V DC",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "כ-1.5 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון כיבוי אוטומטי",
+   "catalogValue": "מנגנון כיבוי אוטומטי ברגע הרתיחה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הגנה מפני הפעלה יבשה",
+   "catalogValue": "הגנה מפני הפעלה יבשה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or regulator page was found. The specs come from one retailer page (LastPrice) and tools4u, which names the model without the dash and whose Hebrew text is garbled in the fetch. Confirm against the box or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Only one readable retailer page gives the 150 W power and the 1 liter capacity. The catalog's safety and cord-length claims are not on any page read.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "Only Israeli retailer pages were found; no manufacturer or importer page. Confirm specs against the box or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog claims auto shut-off at boiling, dry-boil protection, indicator light, water gauge and 1.5 m cord; none of these appear on any page read.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All three facts kept from the LastPrice page, which names BENATON BT-4612. Feature 0 wording corrected (typo 'ייוצר'). Catalog claims of auto shut-off, dry-boil protection and 1.5 m cord are not on any page read and were not published. | code guard removed: summary: \"קומקום חשמלי קומפקטי לרכב של Benaton, דגם BT-4612, הפועל במתח 12V DC.\"; summary: \"נפח המיכל 1 ליטר וההספק 150 W, עם מפסק הפעלה/כיבוי.\"; faq: \"האם אפשר לחבר את הקומקום לשקע ביתי?\"; faq: \"כמה מים נכנסים בקומקום?\"; faq: \"מה ההספק של הקומקום?\"; metaDescription: \"קומקום חשמלי לרכב Benaton BT-4612 במתח 12V DC, נפח 1 ליטר והספק 150 W, קומפקטי ומתאים לטיולים. בחדד אלקטריק נהריה\"; highlight: \"מתח עבודה 12V DC לשימוש ברכב\"; highlight: \"נפח מיכל 1 ליטר\"; highlight: \"הספק 150 W\"; consideration: \"ודאו שברכב יש שקע 12V DC זמין ותקין\"; consideration: \"בהספק של 150 W החימום איטי יותר מקומקום ביתי, כדאי לקחת זאת בחשבון\""
+ }
+}

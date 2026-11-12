@@ -1,0 +1,277 @@
+{
+ "modelNumber": "LDF30212B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "LDF30212B",
+  "israeliImporter": "ראלקו מוצרי צריכה",
+  "matchConfidence": "high",
+  "notes": "Only Israeli retailer pages name the exact model; no manufacturer/EPREL/manual page found. Siblings not used. | QA: Both retailer pages name Blomberg LDF30212B in black, 13 place settings, wide freestanding dishwasher, matching the catalog name. No manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/מדיח-כלים-רחב-13-מע-כלים-blomberg-ldf30212b-שחור-בלומברג/",
+   "publisher": "Lior Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://mega-byte.co.il/product/מדיח-כלים-13-מערכות-כלים-blomberg-ldf30212b-צבע-שחור-בהו/",
+   "publisher": "Mega Byte",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "5 תוכניות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Verified on Mega Byte quote",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 85 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "49 dB"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Program added from Mega Byte quote",
+     "label": "צריכת מים",
+     "value": "12.9 ליטר למחזור בתוכנית Eco"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת אנרגיה",
+     "value": "94 קוט״ש ל-100 מחזורי הדחה בתוכנית Eco"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Retailer-stated warranty; confirm with importer",
+     "label": "אחריות",
+     "value": "שנה מלאה על ידי ראלקו, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טיימר להשהיית תחילת ההדחה ב-3/6/9 שעות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת Aquavoid להגנה מפני נזקי מים באמצעות ניתוק אספקת המים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Blomberg LDF30212B הוא מדיח כלים רחב בצבע שחור עם קיבולת של 13 מערכות כלים ו-5 תוכניות הדחה. רמת הרעש היא 49 dB וצריכת המים 12.9 ליטר למחזור בתוכנית Eco. מתאים למשפחה שמדיחה כמויות גדולות של כלים ומחפשת מדיח רחב עם טיימר השהיה והגנה מפני נזקי מים.",
+  "highlights": [
+   "קיבולת של 13 מערכות כלים",
+   "רמת רעש של 49 dB",
+   "צריכת מים של 12.9 ליטר למחזור בתוכנית Eco",
+   "מערכת Aquavoid להגנה מפני נזקי מים"
+  ],
+  "goodFor": [
+   "משפחות שמייצרות כמות גדולה של כלים ביום",
+   "מי שרוצה להפעיל את המדיח בשעות מאוחרות בעזרת טיימר ההשהיה",
+   "מטבח עם עיצוב כהה שמתאים למדיח בצבע שחור"
+  ],
+  "considerations": [
+   "דירוג האנרגיה הוא E, כדאי לקחת זאת בחשבון בהשוואה לדגמים אחרים",
+   "יש לוודא נקודת מים, ניקוז ושקע חשמל ליד מקום ההתקנה"
+  ],
+  "faq": [
+   {
+    "q": "כמה מערכות כלים נכנסות למדיח?",
+    "a": "המדיח מכיל 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המדיח?",
+    "a": "רמת הרעש היא 49 dB.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים המדיח צורך?",
+    "a": "12.9 ליטר למחזור בתוכנית Eco.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המדיח?",
+    "a": "שנה מלאה על ידי ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים רחב Blomberg LDF30212B בצבע שחור עם 13 מערכות כלים, רמת רעש 49 dB, 5 תוכניות והגנת Aquavoid מפני נזקי מים, בחדד אלקטריק נהריה",
+  "keywords": [
+   "Blomberg LDF30212B",
+   "מדיח כלים בלומברג",
+   "מדיח כלים רחב שחור",
+   "מדיח כלים 13 מערכות כלים",
+   "מדיח כלים שקט",
+   "LDF30212B"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Bloomberg",
+   "finding": "corrected",
+   "correctValue": "Blomberg",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מדיח",
+   "catalogValue": "רחב רגיל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "No manufacturer or importer page found for exact model; facts rest on two retailers",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is spelled Bloomberg; sources spell the manufacturer Blomberg",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer or importer page found for exact model; facts rest on two Israeli retailers",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on two Israeli retailer pages naming the exact model. Water consumption value clarified as Eco program per Mega Byte quote. Dimensions kept on the Mega Byte ok quote (Lior quote only has width). Catalog brand spelled Bloomberg; correct spelling is Blomberg. | code guard removed: faq: \"אפשר לדחות את תחילת ההדחה?\"; highlight: \"טיימר להשהיית תחילת ההדחה ב-3/6/9 שעות\"; consideration: \"יש לוודא שבמקום ההתקנה יש מקום למידות 59.8 × 85 × 60 ס״מ\""
+ }
+}

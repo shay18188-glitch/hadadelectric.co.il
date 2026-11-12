@@ -1,0 +1,397 @@
+{
+ "modelNumber": "65R55",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "TCL",
+  "exactModel": "65R55",
+  "israeliImporter": "ב.ט.י אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "הדגם נמכר בישראל תחת המותג ROWA (סדרת R55). היבואן הרשמי שמופיע בעמודי הקמעונאים הוא ב.ט.י אלקטרוניקה. לא נמצא עמוד יצרן או יבואן עם מפרט מלא. | QA: Both pages describe ROWA R55 smart TV, 65 inch, 4K, imported by B.T.I Electronics. Manufacturer listed by the researcher as TCL is not supported by any quote."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%d7%98%d7%9c%d7%95%d7%95%d7%99%d7%96%d7%99%d7%94-%d7%97%d7%9b%d7%9e%d7%94-rowa-r55-%d7%91%d7%92%d7%95%d7%93%d7%9c-65-%d7%90%d7%99%d7%a0%d7%a5-4k-hdr-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9%d7%9e",
+   "publisher": "Citydeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/טלוויזיה-חכמה-65-4k-hdr-rowa-969854128",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "65 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K UHD"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "HDR",
+     "value": "HDR10"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שמע",
+     "value": "Dolby Audio"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שיקוף מסך",
+     "value": "שיקוף מהנייד לטלוויזיה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת חשמל",
+     "value": "145 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote says dimensions without packaging; matches catalog's no-stand dimensions.",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1446 × 833 × 73 מ״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "12.2 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות באריזה",
+     "value": "1608 × 1000 × 145 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה על ידי ב.ט.י אלקטרוניקה, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טלוויזיה חכמה עם מערכת Google TV ושליטה קולית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מסך Bezel-less בעיצוב מתכתי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "היא תומכת ב-HDR10, מגיעה עם שמע Dolby Audio ושליטה קולית, ומאפשרת שיקוף מהנייד. מתאימה למי שמחפש מסך גדול לסלון עם אפליקציות סטרימינג מובנות.",
+  "highlights": [
+   "מערכת הפעלה Google TV עם שליטה קולית",
+   "תמיכה ב-HDR10",
+   "שמע Dolby Audio",
+   "שיקוף מהנייד לטלוויזיה"
+  ],
+  "goodFor": [
+   "צפייה באפליקציות סטרימינג דרך Google TV בלי ממיר נוסף",
+   "הצגת תוכן מהטלפון על המסך באמצעות שיקוף"
+  ],
+  "considerations": [
+   "משקל המסך 12.2 ק״ג, יש לוודא שהקיר או הזרוע מתאימים לתלייה",
+   "קצב הרענון 60 Hz, כדאי לקחת זאת בחשבון אם משחקים בקונסולה"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "הטלוויזיה פועלת עם Google TV ותומכת בשליטה קולית.",
+    "sources": []
+   },
+   {
+    "q": "האם הטלוויזיה תומכת ב-HDR?",
+    "a": "כן, היא תומכת ב-HDR10.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה על ידי ב.ט.י אלקטרוניקה, היבואן הרשמי.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להציג תוכן מהטלפון?",
+    "a": "כן, הטלוויזיה תומכת בשיקוף מהנייד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "ROWA 65R55",
+   "טלוויזיה ROWA 65 אינץ'",
+   "טלוויזיה 65 אינץ' 4K",
+   "טלוויזיה חכמה Google TV",
+   "ROWA R55",
+   "טלוויזיה 65 אינץ' HDR10"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "65 אינץ' (64.5 אינץ' פעיל)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K UHD",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שמע",
+   "catalogValue": "Dolby Audio",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תמיכה ב-HDR10",
+   "catalogValue": "HDR10",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1446x73x833 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1446 × 833 × 73 מ״מ (רוחב × גובה × עומק)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות כולל מעמד",
+   "catalogValue": "1446x300x878 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "catalogValue": "200x200",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זווית צפייה",
+   "catalogValue": "178°/178°",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Chromecast מובנה",
+   "catalogValue": "Chromecast מובנה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12.2 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "145 W",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות כולל מעמד",
+   "issue": "מידות המעמד (1446x300x878) ומידת ה-VESA (200x200) לא נמצאו באף עמוד שנקרא. נדרש אימות מול עמוד היבואן או מדריך המשתמש.",
+   "severity": "medium"
+  },
+  {
+   "field": "גודל מסך",
+   "issue": "הגודל הפעיל 64.5 אינץ' שבקטלוג לא אומת. שני העמודים מציגים 65 אינץ' בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "issue": "שורת המידות המשולבת מופיעה בעמוד אחד בלבד (Citydeal). נדרש אימות מול עמוד היבואן או יצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "שיקוף מהנייד",
+   "issue": "בקטלוג מופיע Chromecast מובנה ו-Bluetooth. העמודים מציינים שיקוף מהנייד (Google Cast) בלבד, ו-Bluetooth לא הופיע בהם.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא עמוד של היבואן הרשמי או של היצרן ROWA עם מפרט לדגם 65R55. העובדות מבוססות על עמודי קמעונאים בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "יצרן",
+   "issue": "המחקר ציין את TCL כיצרן ללא מקור תומך. אין לפרסם שיוך יצרן עד לאימות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט קטלוג",
+   "issue": "הגודל הפעיל 64.5 אינץ', מידות כולל מעמד, VESA 200×200, זווית צפייה 178° ו-Bluetooth שבקטלוג לא אומתו באף מקור.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "העובדות מבוססות על עמודי קמעונאים בלבד, ללא עמוד יבואן או יצרן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on Israeli retailer pages naming ROWA R55 65 inch. Researcher identity named TCL as manufacturer without a supporting quote; not used. Catalog items not verified: 64.5 inch active size, dimensions with stand, VESA 200x200, 178 viewing angle, Bluetooth, Chromecast wording. | code guard removed: summary: \"ROWA 65R55 היא טלוויזיה חכמה בגודל 65 אינץ' ברזולוציית 4K UHD עם מערכת Google TV.\"; faq: \"מה המידות והמשקל של המסך?\"; metaDescription: \"טלוויזיה חכמה ROWA 65R55 בגודל 65 אינץ' ברזולוציית 4K UHD עם Google TV ותמיכה ב-HDR10 ושמע Dolby Audio. בחדד אלקטריק נהריה\"; highlight: \"מסך 65 אינץ' ברזולוציית 4K UHD\"; goodFor: \"צפייה בסלון במסך גדול ברזולוציית 4K\"; consideration: \"מדדו את המקום: רוחב המסך ללא מעמד 1446 מ״מ וגובהו 833 מ״מ\"; consideration: \"מידות האריזה 1608 × 1000 × 145 מ״מ, ודאו שיש מעבר מתאים בהובלה\""
+ }
+}

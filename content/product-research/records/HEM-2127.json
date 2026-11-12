@@ -1,0 +1,302 @@
+{
+ "modelNumber": "HEM-2127",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-2127",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The Hemilton Israel product page names the model as דגם 2127-HEM. The Home Center page names it as HEM-2127 and gives the same spec lines. Dimensions and weight were not found on any page fetched. | QA: Importer page writes the model as 2127-HEM (RTL display of HEM-2127); Home Center names HEM-2127 with the same specs."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem2127",
+   "publisher": "Hemilton Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.homecenter.co.il/products/1783584937980",
+   "publisher": "Home Center",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "700W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "2 מהירויות + פולס רגעי"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "להבים",
+     "value": "4 להבים מפלדת אל-חלד"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח קנקן",
+     "value": "1.5 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר הקנקן",
+     "value": "זכוכית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כד עירבול מזכוכית עם ידית אחיזה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed 'built into the lid' - not in quote.",
+   "text": "כוסית מדידה נשלפת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר שולחני של המילטון, דגם HEM-2127, עם מנוע בהספק 700W וכד עירבול מזכוכית בנפח 1.5 ליטר. הבלנדר מציע 2 מהירויות פעולה ומצב פולס רגעי, עם 4 להבים מפלדת אל-חלד. מתאים למי שמחפש בלנדר פשוט עם כד זכוכית לשייקים, מרקים ורטבים.",
+  "highlights": [
+   "מנוע בהספק 700W",
+   "כד עירבול מזכוכית בנפח 1.5 ליטר עם ידית אחיזה",
+   "2 מהירויות פעולה + פולס רגעי",
+   "4 להבים מפלדת אל-חלד",
+   "אחריות 12 חודשים"
+  ],
+  "goodFor": [
+   "הכנת שייקים ומרקים במטבח הביתי",
+   "מי שמעדיף כד זכוכית על פני כד פלסטיק",
+   "שימוש יומיומי פשוט עם מעט כפתורים ומצב פולס לשליטה רגעית"
+  ],
+  "considerations": [
+   "כד זכוכית כבד יותר מכד פלסטיק - כדאי לבדוק נוחות הרמה ומזיגה",
+   "יש רק 2 מהירויות ופולס - מי שצריך שליטה עדינה במהירות כדאי שיבדוק אם זה מספיק",
+   "כדאי לוודא את גוון הגימור בחנות, מאחר שהמקורות מציינים צבעים שונים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "הספק המנוע הוא 700W.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח הכד וממה הוא עשוי?",
+    "a": "הכד עשוי זכוכית ונפחו 1.5 ליטר, עם ידית אחיזה.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש לבלנדר?",
+    "a": "2 מהירויות פעולה ומצב פולס רגעי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות 12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר המילטון HEM-2127 בהספק 700W עם כד זכוכית 1.5 ליטר, 2 מהירויות ופולס ו-4 להבי אל-חלד. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר המילטון",
+   "HEM-2127",
+   "בלנדר כד זכוכית",
+   "בלנדר 700W",
+   "בלנדר 1.5 ליטר",
+   "בלנדר Hemilton",
+   "בלנדר לשייקים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "700W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח קנקן",
+   "catalogValue": "1.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר הקנקן",
+   "catalogValue": "זכוכית עמידה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "2 מהירויות עבודה + מצב פולס (Pulse)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר להבים",
+   "catalogValue": "4 להבים מפלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "כוסית מדידה נשלפת המובנית במכסה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה משולב שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V ~ 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "ישראל (מותג המליין), מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The Hemilton Israel page names the model as דגם 2127-HEM, not HEM-2127. The Home Center page names it HEM-2127 and carries the same specs.",
+   "severity": "medium"
+  },
+  {
+   "field": "גימור",
+   "issue": "Colour conflicts across sources. The Home Center title says אפור (grey), its description says צבע: שחור (black), and the catalog says נירוסטה משולב שחור.",
+   "severity": "medium"
+  },
+  {
+   "field": "מותג",
+   "issue": "A cwc.co.il search snippet titles the model as MIDEA. The page itself returned HTTP 403 and was not read. The Hemilton and Home Center pages both say Hemilton.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "No dimensions or weight were found on any page fetched. Store and importer spec sheets should be checked.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "The 220-240V voltage and 50/60Hz claim in the catalog was not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "גימור",
+   "issue": "Colour differs between sources (grey in Home Center title, black in its description, stainless/black in catalog).",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "220-240V / 50/60Hz not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "אביזרים",
+   "issue": "Sources confirm a removable measuring cup but not that it is built into the lid.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "No dimensions or weight found.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1 shortened to what the quote says (removable measuring cup); the quote does not say it is built into the lid. Speed label wording kept. Colour, voltage and dimensions not verified."
+ }
+}

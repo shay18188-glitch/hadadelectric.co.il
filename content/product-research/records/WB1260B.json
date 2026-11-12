@@ -1,0 +1,330 @@
+{
+ "modelNumber": "WB1260B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "WB1260B",
+  "israeliImporter": "אלקטרה מוצרי צריכה",
+  "matchConfidence": "high",
+  "notes": "מיחם שבת שחור 12 ליטר, מק\"ט אתר היצרן 9000520. דף היצרן בישראל מופיע בשם WB1260B. | QA: Sauter Israel page and three Israeli retailers name WB1260B, 12 ליטר / 60 כוסות, black, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/product/%D7%9E%D7%99%D7%97%D7%9D-%D7%A9%D7%91%D7%AA-%D7%A9%D7%97%D7%95%D7%A8-12-%D7%9C%D7%99%D7%98%D7%A8-%D7%93%D7%92%D7%9D-wb1260b/",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.deby-electric.co.il/product/%D7%9E%D7%99%D7%97%D7%9D-%D7%9C%D7%A9%D7%91%D7%AA-%D7%A9%D7%97%D7%95%D7%A8-sauter-%D7%A1%D7%90%D7%95%D7%98%D7%A8-12-%D7%9C%D7%99%D7%98%D7%A8-wb1260b/",
+   "publisher": "חשמל דבי",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.electrodeal.co.il/items/7387217-%D7%9E%D7%99%D7%97%D7%9D-%D7%9C%D7%A9%D7%91%D7%AA-SAUTER-%D7%A1%D7%90%D7%95%D7%98%D7%A8-WB1260B",
+   "publisher": "אלקטרו דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.c-hachashmal.co.il/items/8944007-%D7%9E%D7%99%D7%97%D7%9D-12-%D7%9C%D7%99%D7%98%D7%A8-%D7%93%D7%92%D7%9D-WB1260B-%D7%A1%D7%90%D7%95%D7%98%D7%A8-SAUTER-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%9E%D7%95%D7%A9%D7%97%D7%A8%D7%AA-60-%D7%9B%D7%95%D7%A1%D7%95%D7%AA",
+   "publisher": "כשר חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תכולה",
+     "value": "12 ליטר (כ-60 כוסות)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer pages only",
+     "label": "הספק",
+     "value": "950 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "נסתר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Reworded to match quotes",
+     "label": "צבע",
+     "value": "שחור (גוף נירוסטה)"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כשרות",
+     "value": "כשרות מהודרת של משמרות השבת"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מכסה",
+     "value": "ננעל בטיחותי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Reworded",
+     "label": "אחריות",
+     "value": "שנה ע״י היבואן הרשמי, אלקטרה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מצבי פעולה",
+     "value": "מצב הרתחה / מצב שבת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום נסתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב הרתחה ומצב שבת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ברז בעל פעולה כפולה למזיגה רציפה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה ננעל בטיחותי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון הגנה מובנה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פטור מטבילה והגעלה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיחם שבת של Sauter בדגם WB1260B, בתכולה של 12 ליטר (כ-60 כוסות) ובגוף נירוסטה שחורה. המיחם כולל מצב הרתחה ומצב שבת, גוף חימום נסתר ומכסה ננעל בטיחותי, ונושא כשרות מהודרת של משמרות השבת. מתאים למשפחות ולאירוח בשבתות וחגים.",
+  "highlights": [
+   "תכולה של 12 ליטר, כ-60 כוסות",
+   "מצב הרתחה ומצב שבת",
+   "כשרות מהודרת של משמרות השבת",
+   "גוף חימום נסתר ומכסה ננעל בטיחותי",
+   "הספק 950 W"
+  ],
+  "goodFor": [
+   "שמירה על מים חמים לאורך השבת במצב שבת",
+   "אירוח משפחתי ושולחן שבת עם כמות מים גדולה",
+   "מטבח בעיצוב כהה שמתאים לו מיחם בגוון שחור"
+  ],
+  "considerations": [
+   "לוודא שיש מקום על השיש לנפח של 12 ליטר",
+   "לוודא שקע חשמל זמין ליד מקום ההצבה",
+   "האחריות היא לשנה דרך היבואן הרשמי, אלקטרה"
+  ],
+  "faq": [
+   {
+    "q": "כמה מים נכנסים במיחם?",
+    "a": "תכולת המיחם 12 ליטר, כ-60 כוסות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש למיחם מצב שבת?",
+    "a": "כן, יש מצב הרתחה ומצב שבת.",
+    "sources": []
+   },
+   {
+    "q": "איזו כשרות יש למיחם?",
+    "a": "המיחם בעל כשרות מהודרת של משמרות השבת, ופטור מטבילה והגעלה.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המיחם?",
+    "a": "ההספק הוא 950 W.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה ע״י היבואן הרשמי, אלקטרה מוצרי צריכה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיחם שבת Sauter WB1260B שחור, 12 ליטר (כ-60 כוסות), מצב שבת וכשרות מהודרת של משמרות השבת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיחם שבת",
+   "מיחם Sauter",
+   "סאוטר WB1260B",
+   "מיחם 60 כוסות",
+   "מיחם 12 ליטר",
+   "מיחם שחור",
+   "מיחם משמרות השבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "60 כוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Sauter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "950 W",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הספק 950 W מופיע רק באתרי קמעונאים, ודף היצרן לא מציין הספק",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "הספק 950 W מופיע רק בדפי קמעונאים ולא בדף היצרן",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Color value reworded to match quotes (נירוסטה שחורה rather than מושחרת). Warranty value reworded to name the importer from the quotes. All other facts kept as-is."
+ }
+}

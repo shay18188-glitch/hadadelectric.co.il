@@ -1,0 +1,449 @@
+{
+ "modelNumber": "EOP7422X",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EOP7422X",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "high",
+  "notes": "שני אתרי קמעונאים ישראליים מזכירים את הדגם EOP7422X בשמו המלא. אתר היצרן לא נמצא. הדגם מופיע בקטלוג גם בשם SenseCook. | QA: Both sources are Israeli retailers naming the exact model; no manufacturer page. Importer per soferavi warranty line."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/תנור-אפייה-בנוי-דיגיטלי-פירוליטי-71-ליטר-electrolux-92931554",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/תנור-אפיה-בילד-אין-אלקטרולוקס-⁦eop7422x⁩-ניר/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "גרמניה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח שמיש תא אפייה",
+     "value": "71 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "decimal comma normalised",
+     "label": "הספק מקסימלי",
+     "value": "3.5 kW"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "30°C – 300°C"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "source writes Kw/h; energy per cycle",
+     "label": "צריכת אנרגיה – תוכנית קונבנציונלית",
+     "value": "1.09 kWh"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "source writes Kw/h; energy per cycle",
+     "label": "צריכת אנרגיה – תוכנית טורבו",
+     "value": "0.69 kWh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "דירוג אנרגטי",
+     "value": "A+"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות אוטומטיות",
+     "value": "41"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות עבודה",
+     "value": "9"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ניקוי עצמי פירוליטי",
+     "value": "3 תוכניות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "per retailer; importer warranty by מיני ליין",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תנור רב-תכליתי עם טורבו אקטיבי ומערכת SurroundCook לבישול ואפייה בו זמנית במספר תבניות"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישן Food Probe לתוצאות בישול ומידת עשייה מדויקות"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "manufacturer marketing claim",
+   "text": "תא אפייה InfiSpace גדול ב-20% מתא אפייה קלאסי"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 סטים של מסילות טלסקופיות לשתי תבניות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אישור הלכתי לשימוש בבשר או בחלב לאחר ניקוי פירוליטי, והכשרה לפסח על ידי ליבון חמור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "דלת קרה CoolDoor Xtra עם 4 שכבות זכוכית רפלקטור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מסילות EasyEntry להכנסה נוחה של תבניות, המתפרקות לניקוי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגשי InfiSpace: רגיל, עמוק, רשת ומגש איירפריי"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Electrolux EOP7422X הוא תנור בנוי מנירוסטה עם תא אפייה בנפח 71 ליטר, ניקוי עצמי פירוליטי ב-3 תוכניות וחיישן Food Probe למידת עשייה. התנור מציע 41 תוכניות אוטומטיות ו-9 תוכניות עבודה, ומגיע עם מגש איירפריי. מתאים למי שמבשל ואופה הרבה ורוצה לחסוך בקרצוף התנור.",
+  "highlights": [
+   "נפח שמיש של 71 ליטר",
+   "ניקוי עצמי פירוליטי ב-3 תוכניות",
+   "41 תוכניות אוטומטיות ו-9 תוכניות עבודה",
+   "חיישן Food Probe למידת עשייה"
+  ],
+  "goodFor": [
+   "מי שאופה במספר תבניות בו זמנית בזכות SurroundCook ו-2 סטים של מסילות טלסקופיות",
+   "מי שרוצה ניקוי תנור ללא קרצוף, עם ניקוי פירוליטי",
+   "מטבח כשר: אישור הלכתי למעבר בין בשר לחלב לאחר ניקוי פירוליטי",
+   "מי שמכין צלי ובשרים ורוצה למדוד מידת עשייה עם Food Probe"
+  ],
+  "considerations": [
+   "יש לבדוק את מידות הגומחה במטבח מול נתוני היבואן לפני ההזמנה",
+   "הספק מקסימלי של 3.5 kW – כדאי לוודא שקע ונקודת חשמל מתאימים לתנור",
+   "האחריות לשנה ניתנת דרך היבואן מיני ליין – כדאי לשמור את תעודת האחריות"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של תנור Electrolux EOP7422X?",
+    "a": "נפח תא האפייה השמיש הוא 71 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש לתנור ניקוי עצמי?",
+    "a": "כן, לתנור ניקוי עצמי פירוליטי עם 3 תוכניות.",
+    "sources": []
+   },
+   {
+    "q": "האם התנור מתאים לאייר פריי?",
+    "a": "כן, יש לו מגש איירפריי ייעודי בין המגשים המצורפים.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות של התנור?",
+    "a": "טווח הטמפרטורה הוא 30°C עד 300°C.",
+    "sources": []
+   },
+   {
+    "q": "האם התנור מתאים למטבח כשר?",
+    "a": "לתנור אישור הלכתי לשימוש בבשר או בחלב לאחר ניקוי פירוליטי ביניהם, והכשרה לפסח על ידי ליבון חמור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי פירוליטי Electrolux EOP7422X מנירוסטה, נפח 71 ליטר, חיישן Food Probe ו-41 תוכניות אוטומטיות כולל אייר פריי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux EOP7422X",
+   "תנור בנוי אלקטרולוקס",
+   "תנור פירוליטי 71 ליטר",
+   "תנור בנוי עם אייר פריי",
+   "תנור בנוי נירוסטה",
+   "תנור פירוליטי כשר",
+   "EOP7422X"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "71 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "3.5 kW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "30°C - 300°C",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה (רגיל)",
+   "catalogValue": "1.09 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה (טורבו)",
+   "catalogValue": "0.69 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ניקוי פירוליטי",
+   "catalogValue": "3 תוכניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות אוטומטיות",
+   "catalogValue": "41 תוכניות אוטומטיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות עבודה",
+   "catalogValue": "9 תוכניות עבודה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסילות טלסקופיות",
+   "catalogValue": "2 מסילות טלסקופיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "גרמניה (תוצרת)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "+ A",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "מידות המוצר סותרות בין האתרים: אבי סופר מציין 594×594×567 מ״מ (עxרxג), ובאג מציין גובה 56.7 ס״מ, רוחב 59.4 ס״מ ועומק 59.4 ס״מ. מידות הגומחה גם הן סותרות (589×560×550 מ״מ מול 55 × 56 × 58.9 ס״מ). לא נשמרו מידות עד לאישור מול היצרן.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן הרשמי לא אומת מאתר היצרן. שני אתרי קמעונאים מציינים יבואן רשמי, ואבי סופר מזכיר את מיני ליין כגורם האחריות. נדרש אישור מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "תוכניות",
+   "issue": "אתר יצרן לא נמצא. מספרי התוכניות (41 אוטומטיות, 9 עבודה) מגיעים מאתרי קמעונאים בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות המוצר והגומחה סותרות בין שני הקמעונאים; לא פורסמו מידות. יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "מקורות",
+   "issue": "אין דף יצרן; כל הנתונים מאתרי קמעונאים ישראליים בלבד, והדירוג האנרגטי ממקור יחיד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Identity confirmed by two Israeli retailers naming EOP7422X. All facts verified by ok quotes. Values normalised to decimal point (3.5 kW, 1.09/0.69 kWh) and energy rating written as A+. Dimensions left out by the researcher due to conflicting retailer data. | code guard removed: highlight: \"דלת קרה CoolDoor Xtra עם 4 שכבות זכוכית\""
+ }
+}

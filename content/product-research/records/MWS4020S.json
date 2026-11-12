@@ -1,0 +1,330 @@
+{
+ "modelNumber": "MWS4020S",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "MWS4020S",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Sauter Israel product page names MWS4020S with capacity, 700W, enamel interior, pull handle and dimensions. Retailers say the model is sold with a one-year warranty from the official importer, but the importer's name is not confirmed for Sauter on any page. zap.co.il comparison page mixes MWS4020S with sibling codes MWS4020W/B and MWS4020B. | QA: Sauter Israel page names MWS4020S, 20 litre, 700W, silver enamel interior, matching the catalog. Importer not named on any page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/product/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%9E%D7%9B%D7%A0%D7%99-20-%D7%9C%D7%99%D7%98%D7%A8-mws4020s/",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1207618",
+   "publisher": "Zap price comparison",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.petcom.co.il/product/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%9E%D7%9B%D7%A0%D7%99-%D7%9B%D7%A1%D7%95%D7%A3-20-%D7%9C%D7%99%D7%98%D7%A8-sauter-mws4020s/",
+   "publisher": "Petcom Electric Eilat",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "20 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "700 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Zap only",
+     "label": "דרגות חימום",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי זמן ועוצמה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Zap; consistent with manufacturer page title 'מיקרוגל מכני'",
+     "label": "סוג הפעלה",
+     "value": "טיימר מכני"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Zap only",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "43.5 × 25.5 × 35 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "כסוף"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "פנים המיקרו",
+     "value": "אמייל כסוף"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "one retailer page",
+     "label": "אחריות",
+     "value": "שנה, על ידי היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית משיכה ארגונומית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפשרה לפי זמן ועוצמה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sauter MWS4020S הוא מיקרוגל מכני כסוף בנפח 20 ליטר ובהספק 700 W. מתאים למי שמחפש מיקרוגל פשוט לחימום והפשרה, בלי תפריטים דיגיטליים.",
+  "highlights": [
+   "נפח 20 ליטר",
+   "הספק 700 W",
+   "הפשרה לפי זמן ועוצמה",
+   "פנים התא מאמייל כסוף"
+  ],
+  "goodFor": [
+   "חימום מנות והפשרה יומיומית במטבח ביתי",
+   "מי שמעדיף הפעלה מכנית פשוטה בכפתורים סיבוביים",
+   "מטבח, משרד או דירה קטנה שבהם מקום על השיש מוגבל"
+  ],
+  "considerations": [
+   "ההפעלה בטיימר מכני, ללא תוכניות אוטומטיות או תצוגה דיגיטלית",
+   "יש לוודא שקע חשמל זמין בקרבת מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח וההספק של Sauter MWS4020S?",
+    "a": "נפח התא 20 ליטר והספק המיקרו 700 W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במיקרוגל מצב הפשרה?",
+    "a": "כן, ההפשרה נעשית לפי זמן ועוצמה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המיקרוגל?",
+    "a": "שנה אחריות על ידי היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מיקרוגל סאוטר",
+   "Sauter MWS4020S",
+   "MWS4020S",
+   "מיקרוגל מכני 20 ליטר",
+   "מיקרוגל כסוף",
+   "מיקרוגל 700 וואט",
+   "מיקרוגל סאוטר 20 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "20 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "700W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 43.5 ס״מ, גובה 25.5 ס״מ, עומק 35 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג הפעלה",
+   "catalogValue": "טיימר מכני",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דרגות חימום",
+   "catalogValue": "5",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הפשרה",
+   "catalogValue": "הפשרה לפי זמן ועוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית",
+   "catalogValue": "ידית משיכה ארגונומית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "מאמייל כסוף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "israeliImporter",
+   "issue": "The Israeli importer for Sauter MWS4020S is not named on any fetched page. Retailer warranty text names Electra for a different brand, so the importer is left null.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "The one-year warranty is found on one retailer page only (Petcom). Confirm it with the Sauter importer before publishing.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Dimensions and the 5 heating levels come from one retailer comparison page that mixes MWS4020S with sibling codes MWS4020W/B and MWS4020B. Confirm against the Sauter Israel page, where the numbers appear on separate lines.",
+   "severity": "low"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The Israeli importer for Sauter is not named on any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Dimensions, 5 heating levels and mechanical timer come only from the Zap comparison page, which also lists sibling colour codes MWS4020W/B and MWS4020B. Confirm against the Sauter Israel page.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "One-year warranty appears on one retailer page only (Petcom). Confirm with the importer.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified by ok quotes on pages naming MWS4020S. Dimensions, 5 heating levels, mechanical timer and colour rely on the Zap comparison page, which also lists sibling colour codes; kept since colour variants share the body, but flagged. Warranty kept from one retailer page and flagged. | code guard removed: summary: \"ההפעלה בטיימר מכני עם 5 עוצמות חימום והפשרה לפי זמן ועוצמה, ופנים התא מצופה אמייל כסוף.\"; faq: \"כמה עוצמות חימום יש במיקרוגל?\"; faq: \"מה המידות של המיקרוגל?\"; metaDescription: \"מיקרוגל מכני Sauter MWS4020S בצבע כסוף, נפח 20 ליטר והספק 700 W, טיימר מכני עם 5 עוצמות חימום והפשרה לפי זמן ועוצמה. בחדד אלקטריק נהריה\"; highlight: \"טיימר מכני עם 5 עוצמות חימום\"; consideration: \"יש לוודא שעל השיש יש מקום למידות 43.5 × 25.5 × 35 ס״מ, כולל מרווח אוורור סביב המכשיר\""
+ }
+}

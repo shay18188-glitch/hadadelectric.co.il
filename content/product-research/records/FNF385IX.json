@@ -1,0 +1,351 @@
+{
+ "modelNumber": "FNF385IX",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Frigidaire",
+  "exactModel": "FNF385IX",
+  "israeliImporter": "מיניליין",
+  "matchConfidence": "high",
+  "notes": "The only page naming FNF385IX is the Traklin retailer listing. No manufacturer, importer or EPREL page naming this exact model was found. | QA: The Traklin listing names FRIGIDAIRE FNF385IX, a 339 liter stainless No Frost freezer, which matches the catalog. Mini Line is named as the official importer. It is the only source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקררים/מקפיא_339_ליטר_frigidaire_דגם_fnf385ix_פריגידר_נירוסטה",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דגם",
+     "value": "FNF385IX"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח אחסון תא הקפאה",
+     "value": "339 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog name says 7 drawers; the page also lists 2 upper compartments.",
+     "label": "מגירות הקפאה",
+     "value": "5 מגירות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג יעילות אנרגטית",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טכנולוגיית קירור",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טווח טמפרטורות מקפיא",
+     "value": "‎-14° עד ‎-24°"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מעבר דלת מינימלי",
+     "value": "620 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י היבואן הרשמי מיניליין"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "The quote describes a stainless steel back inside the freezer compartment, not the exterior finish.",
+     "label": "חומר גימור",
+     "value": "נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed 'דיגיטלי', which is not in the quote.",
+   "text": "מדחס אינוורטר ללא פחמים וללא מברשות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed the 'Metal Cooling' name, which is not in the quote.",
+   "text": "פיזור אוויר אחיד ומהיר בתא ההקפאה עם גב נירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed the 'SpaceX' name, which is not in the quote.",
+   "text": "בידוד משופר שמגדיל את נפח המקפיא ללא הגדלת המידות החיצוניות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 תאים עליונים עם מדף להקפאה מהירה והקפאה של מגשים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מדפי זכוכית בין מגירות האחסון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "דלת ניתנת להפיכת כיוון פתיחה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מקפיא נפרד עם הרבה מקום אחסון מסודר במגירות.",
+  "highlights": [
+   "טכנולוגיית No Frost, ללא הפשרה ידנית",
+   "מדחס אינוורטר ללא פחמים וללא מברשות",
+   "דלת ניתנת להפיכת כיוון פתיחה"
+  ],
+  "goodFor": [
+   "משפחות שקונות ומקפיאות בכמויות גדולות",
+   "מי שרוצה מקפיא נפרד לצד המקרר הקיים",
+   "מי שמעדיף אחסון מסודר במגירות ולא הפשרה ידנית"
+  ],
+  "considerations": [
+   "דירוג האנרגיה הוא E, כדאי לקחת זאת בחשבון בצריכת החשמל",
+   "יש לבדוק את צד פתיחת הדלת המתאים למיקום; ניתן להפוך את כיוון הפתיחה"
+  ],
+  "faq": [
+   {
+    "q": "האם המקפיא הוא No Frost?",
+    "a": "כן, המקפיא פועל בטכנולוגיית No Frost.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקפיא?",
+    "a": "אחריות לשנה ע״י מיניליין, היבואן הרשמי בישראל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מקפיא FRIGIDAIRE",
+   "FNF385IX",
+   "מקפיא 339 ליטר",
+   "מקפיא נו פרוסט",
+   "מקפיא מגירות",
+   "פריגידר מקפיא",
+   "מקפיא עומד נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר מגירות",
+   "catalogValue": "7 מגירות",
+   "finding": "contradicted",
+   "correctValue": "5 מגירות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "339 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "NF",
+   "catalogValue": "NF",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נירוסטה",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "FRIGIDAIRE",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג יעילות אנרגטית",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "E",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחת",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מספר מגירות",
+   "issue": "Catalog name says 7 drawers (7 מגירות) but the Traklin page says 5 drawers. Check the physical unit before publishing the name.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Traklin gives four numbers, 640 * 725 * 600 * 1905 mm, under a label reading width x depth x height. Which number is which is unclear, so no dimensions fact was published.",
+   "severity": "high"
+  },
+  {
+   "field": "טווח טמפרטורות מקפיא",
+   "issue": "The listed range of -14 to -24 degrees is unusual for a freezer. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one retailer page names FNF385IX. No manufacturer, importer, manual or EPREL page for this exact model was found, so facts need a second site to publish.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר מגירות",
+   "issue": "The catalog name says 7 drawers, but the retailer page says 5 freezer drawers plus 2 upper compartments. Check the physical unit.",
+   "severity": "high"
+  },
+  {
+   "field": "חומר גימור",
+   "issue": "Only a stainless steel interior back is supported. The page title says stainless (נירוסטה), but no attribute quote confirms the exterior finish.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "The page gives four unlabelled dimension numbers, so no dimensions fact was published.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח טמפרטורות מקפיא",
+   "issue": "The range of -14 to -24 degrees comes from a retailer page only. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "The only source is one Israeli retailer page. No manufacturer, importer or EPREL page was found.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 8 (the quote describes a stainless steel back inside the freezer compartment, not the exterior finish). Removed wording not in the quotes from features: 'דיגיטלי' (feature 0) and the 'Metal Cooling' / 'SpaceX' names (features 1-2). Relabelled the drawer count to freezer drawers. The 5 drawers on the page contradict the 7 drawers in the catalog name (the page also lists 2 upper compartments). | code guard removed: summary: \"מקפיא עומד של FRIGIDAIRE, דגם FNF385IX, עם נפח הקפאה של 339 ליטר וטכנולוגיית No Frost שחוסכת הפשרה ידנית.\"; summary: \"במקפיא 5 מגירות הקפאה ו־2 תאים עליונים עם מדף להקפאה מהירה, ומדחס אינוורטר.\"; faq: \"מה נפח ההקפאה של FNF385IX?\"; faq: \"כמה מגירות יש במקפיא?\"; faq: \"מה רוחב מעבר הדלת הנדרש?\"; metaDescription: \"מקפיא FRIGIDAIRE FNF385IX עומד, נפח 339 ליטר, No Frost, 5 מגירות הקפאה ומדחס אינוורטר. פרטים ומפרט מלא בחדד אלקטריק נהריה\"; highlight: \"נפח הקפאה של 339 ליטר\"; highlight: \"5 מגירות הקפאה ו־2 תאים עליונים להקפאה מהירה\"; consideration: \"יש לוודא שמעבר הדלתות בבית הוא לפחות 620 מ״מ\""
+ }
+}

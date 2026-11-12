@@ -1,0 +1,473 @@
+{
+ "modelNumber": "SMS2ITW09E",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "SMS2ITW09E",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Bosch's own spec sheet (de-CH), the Bosch Germany product page and the Bosch Poland product page all name SMS2ITW09E with matching technical data. The Germany and Poland pages say the product is no longer available. No Israeli importer page was confirmed. | QA: Bosch spec sheet (CH) and the Bosch DE and PL product pages all name SMS2ITW09E. Dimensions, capacity, water use, noise, energy class and colour match the catalog. No Israeli importer page confirmed; DE and PL pages say the model is no longer available."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/de-CH/SMS2ITW09E.pdf",
+   "publisher": "Bosch (BSH) spec sheet",
+   "kind": "manufacturer",
+   "market": "CH",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bosch-home.com/de/de/product/geschirrspueler/geschirrspueler-freistehend/geschirrspueler-60-cm-freistehend/SMS2ITW09E",
+   "publisher": "Bosch Hausgeräte DE",
+   "kind": "manufacturer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 84.5 × 60 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "47.3 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק בפתיחת הדלת (90°)",
+     "value": "1155 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת מים בתוכנית ECO",
+     "value": "9.5 ליטר למחזור"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משך תוכנית Eco 50 °C",
+     "value": "4:10 שעות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Favourite removed: not visible in the truncated quote.",
+     "label": "תוכניות הדחה",
+     "value": "5 תוכניות, ביניהן Eco 50 °C, Auto 45-65 °C, Intensiv 70 °C ו-Express 65 °C"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "46 dB(A)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג פליטת רעש",
+     "value": "C"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E (בסולם A עד G)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל בתוכנית Eco 50 °C",
+     "value": "94 kWh ל-100 מחזורים"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "AquaStop",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Home Connect",
+     "value": "כן, דרך WLAN"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "עומד חופשי, עם אפשרות התקנה מתחת למשטח"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיבור Home Connect דרך WLAN לשליטה ולניטור מרחוק באפליקציה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת AquaStop להגנה מפני נזילות, עם אחריות Bosch לנזקי מים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Silence on demand: הפחתת רעש עד 30 דקות, דרך אפליקציית Home Connect"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Extra Dry: אפשרות לייבוש יסודי יותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת סלסלות Vario לגמישות בהעמסה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Bosch SMS2ITW09E הוא מדיח כלים עומד ברוחב 60 ס״מ בצבע לבן, עם קיבולת של 13 מערכות כלים. בתוכנית Eco 50 °C הוא צורך 9.5 ליטר מים למחזור, ועוצמת הרעש שלו 46 dB(A). הוא מתאים למי שמחפש מדיח בגודל מלא עם חיבור Home Connect והגנת AquaStop, שאפשר להעמיד חופשי או להתקין מתחת למשטח.",
+  "highlights": [
+   "קיבולת של 13 מערכות כלים",
+   "9.5 ליטר מים למחזור בתוכנית Eco 50 °C",
+   "עוצמת רעש של 46 dB(A)",
+   "Home Connect דרך WLAN לשליטה מרחוק",
+   "הגנת AquaStop מפני נזילות"
+  ],
+  "goodFor": [
+   "מטבח שבו רוצים מדיח ברוחב 60 ס״מ שעומד חופשי או נכנס מתחת למשטח",
+   "מי שרוצה להפעיל ולעקוב אחרי המדיח מהטלפון דרך Home Connect",
+   "בית שבו רוצים להפחית רעש בשעות מסוימות בעזרת Silence on demand",
+   "מי שמעדיף הגנה מפני נזילות בזכות AquaStop"
+  ],
+  "considerations": [
+   "ודאו שיש מקום בגובה 84.5 ס״מ וברוחב ועומק של 60 ס״מ, ובדקו התקנה מתחת למשטח לפי גובה המשטח",
+   "כשהדלת פתוחה ב-90° העומק הכולל הוא 1155 מ״מ, לכן כדאי לוודא שיש מספיק מקום מול המדיח",
+   "דירוג האנרגיה הוא E בסולם A עד G, וצריכת החשמל היא 94 kWh ל-100 מחזורים בתוכנית Eco 50 °C",
+   "Home Connect ו-Silence on demand דורשים רשת WLAN ואת האפליקציה"
+  ],
+  "faq": [
+   {
+    "q": "כמה כלים נכנסים במדיח?",
+    "a": "קיבולת המדיח היא 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים המדיח צורך?",
+    "a": "בתוכנית Eco 50 °C הוא צורך 9.5 ליטר מים למחזור.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין אותו מתחת למשטח?",
+    "a": "כן. זה מדיח עומד חופשי שאפשר גם להתקין מתחת למשטח.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המדיח?",
+    "a": "עוצמת הרעש היא 46 dB(A), בדירוג פליטת רעש C. אפשר גם להפעיל Silence on demand להפחתת רעש עד 30 דקות דרך האפליקציה.",
+    "sources": []
+   },
+   {
+    "q": "אילו תוכניות הדחה יש?",
+    "a": "יש 5 תוכניות, ביניהן Eco 50 °C, Auto 45-65 °C, Intensiv 70 °C ו-Express 65 °C.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים עומד Bosch SMS2ITW09E ברוחב 60 ס״מ: 13 מערכות כלים ו-9.5 ליטר מים למחזור Eco, עם Home Connect ו-AquaStop. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Bosch SMS2ITW09E",
+   "SMS2ITW09E",
+   "מדיח כלים בוש לבן",
+   "מדיח כלים בוש 60 ס״מ",
+   "מדיח כלים עומד 13 מערכות",
+   "מדיח כלים Home Connect",
+   "מדיח כלים בנהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס\"מ, עומק 60 ס\"מ, גובה 84.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "13 מערכות כלים",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "9.5 ליטר למחזור",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "46dB (דירוג פליטת רעש C)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "סוג התקנה",
+   "catalogValue": "עומד (Freestanding)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "תוכניות הדחה",
+   "catalogValue": "6 תוכניות הדחה",
+   "finding": "corrected",
+   "correctValue": "5 תוכניות: Eco 50 °C, Auto 45-65 °C, Intensiv 70 °C, Express 65 °C, Favourite",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Home Connect",
+   "catalogValue": "קישוריות Home Connect לשליטה וניטור מרחוק",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "AquaStop",
+   "catalogValue": "מערכת AquaStop להגנה מפני נזקי מים",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "Extra Dry",
+   "catalogValue": "פונקציית ייבוש נוסף (Extra Drying)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "Silence on demand",
+   "catalogValue": "מצב שקט לפי דרישה (Quiet on Demand)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "תוכנית Express 65°C",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "Express 65 °C",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סטטוס",
+   "issue": "Bosch's Germany and Poland product pages say this model is no longer available. Check whether the model is still current before relying on these facts.",
+   "severity": "high"
+  },
+  {
+   "field": "תוכניות הדחה",
+   "issue": "The catalog lists 6 wash programs. The manufacturer spec sheet lists 5 (Eco 50 °C, Auto 45-65 °C, Intensiv 70 °C, Express 65 °C, Favourite). Check the catalog text.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "One Israeli retailer listing (zap.co.il) shows energy class D, while Bosch's manufacturer pages show E. Likely a sibling or older label; the manufacturer value is used here.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer page was confirmed for this exact model. The Israeli variant is unclear.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "The catalog says origin Poland. None of the fetched manufacturer pages state the country of origin, so this is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "סטטוס",
+   "issue": "Bosch's Germany and Poland product pages say this model is no longer available. Check that it is still current.",
+   "severity": "high"
+  },
+  {
+   "field": "תוכניות הדחה",
+   "issue": "The catalog says 6 wash programs; the Bosch spec sheet says 5. Check the catalog text.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "The researcher noted an Israeli retailer listing showing energy class D while Bosch shows E. Check the Israeli energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer page was confirmed for this exact model, so the Israeli variant is unclear.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "The catalog says origin Poland; no fetched source states the country of origin.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 6 (programs): the quote is cut off after 'Express 65' and does not show the fifth program, so 'Favourite' was removed from the value; it now lists the count and the four programs the quote shows. Fact 13 wording tightened. All other facts and features kept as returned."
+ }
+}

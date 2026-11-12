@@ -1,0 +1,305 @@
+{
+ "modelNumber": "BT682W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "BT682W",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only found one Israeli retailer page (listing the code as BT682W-N); no manufacturer, importer, manual or EPREL page found. Web search budget was exhausted. | QA: Retailer page names BT682W-N; suffix and Israeli variant not confirmed by manufacturer or importer. | 2026-11-12: Owner confirmed the unit sold is BT682W (no N suffix). Specs from two Israeli retailers naming BT682W."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://eoo.co.il/?s=BT682W&post_type=product",
+   "publisher": "eoo.co.il",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/מייבש-כביסה-פתח-חזית-בלומברג-⁦bt682w⁩/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/מייבש-כביסה-קונדנסור-8-קג-blomberg-91841654682",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  },
+  {
+   "id": "s4",
+   "url": "owner:model-confirmation",
+   "publisher": "חדד יובל אלקטריק – בעל החנות",
+   "kind": "owner",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "15"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "900 W"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית ייבוש",
+     "value": "משאבת חום (Heat Pump) עם מעבה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "label": "דירוג אנרגטי",
+     "value": "E",
+     "note": "Three Israeli retailers say E; another listing says A, and E is unusual for a heat-pump dryer. Check the energy label."
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 84.6 × 54.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s4",
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "BT682W"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית משאבת חום (Heat Pump) לייבוש בטמפרטורה נמוכה"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פתח תוף רחב עם פתיחה של 155 מעלות"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוף נירוסטה"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תצוגה דיגיטלית ופנל הפעלה בעברית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מייבש כביסה Blomberg BT682W בטכנולוגיית משאבת חום עם מעבה, לקיבולת של 8 ק״ג ו-15 תוכניות. הוא כולל תוף נירוסטה, פתח תוף שנפתח ל-155 מעלות ופנל הפעלה בעברית. מתאים למשפחה שמחפשת מייבש בגודל סטנדרטי עם ייבוש בטמפרטורה נמוכה.",
+  "highlights": [
+   "קיבולת 8 ק״ג",
+   "טכנולוגיית משאבת חום (Heat Pump)",
+   "15 תוכניות",
+   "פתח תוף שנפתח ל-155 מעלות",
+   "פנל הפעלה בעברית"
+  ],
+  "goodFor": [
+   "מי שמעדיף ייבוש בטמפרטורה נמוכה בטכנולוגיית משאבת חום",
+   "כביסה משפחתית בכמויות של עד 8 ק״ג בכל מחזור"
+  ],
+  "considerations": [
+   "מידות המייבש 59.8 × 84.6 × 54.6 ס״מ (רוחב × גובה × עומק) – כדאי למדוד את מקום ההצבה",
+   "בדקו את דירוג האנרגיה על תווית המוצר בעת הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של המייבש?",
+    "a": "8 ק״ג.",
+    "sources": [
+     "s2",
+     "s3"
+    ]
+   },
+   {
+    "q": "באיזו טכנולוגיה המייבש עובד?",
+    "a": "משאבת חום (Heat Pump) עם מעבה.",
+    "sources": [
+     "s2",
+     "s3"
+    ]
+   },
+   {
+    "q": "מה מידות המייבש?",
+    "a": "רוחב 59.8 ס״מ, גובה 84.6 ס״מ ועומק 54.6 ס״מ.",
+    "sources": [
+     "s2",
+     "s3"
+    ]
+   },
+   {
+    "q": "כמה תוכניות יש?",
+    "a": "15 תוכניות.",
+    "sources": [
+     "s2",
+     "s3"
+    ]
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה Blomberg BT682W עם משאבת חום, קיבולת 8 ק״ג ו-15 תוכניות, פתח תוף 155 מעלות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש כביסה בלומברג",
+   "Blomberg BT682W",
+   "BT682W",
+   "מייבש כביסה משאבת חום",
+   "מייבש היט פאמפ 8 ק\"ג",
+   "מייבש כביסה 8 ק\"ג",
+   "מייבש כביסה Heat Pump"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "900W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "Catalog brand is spelled 'Bloomberg'; the manufacturer is Blomberg.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Energy rating E comes from a single retailer page and is unusual for a heat-pump dryer; catalog notes another source said A. Verify against the energy label.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-12",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from a single Israeli retailer search-results page (eoo.co.il) that lists the code as BT682W-N; no manufacturer, manual or EPREL source. Facts kept as quoted, identity set to medium. Energy rating E is unusual for a heat-pump dryer and the catalog notes one source saying A, so it is flagged for human check. | code guard removed: summary: \"מייבש כביסה של Blomberg, דגם BT682W, בטכנולוגיית משאבת חום (Heat Pump) ובקיבולת 8 ק״ג.\"; summary: \"המייבש כולל 15 תוכניות ייבוש ופתח תוף רחב עם פתיחה של 155 מעלות.\"; summary: \"מידותיו 59.8×84.6×54.6 ס״מ (רוחב×גובה×עומק), והוא מתאים למי שמחפש מייבש משאבת חום בגודל סטנדרטי.\"; faq: \"מה הקיבולת של מייבש Blomberg BT682W?\"; faq: \"מה מידות המייבש?\"; faq: \"כמה תוכניות יש למייבש?\"; metaDescription: \"מייבש כביסה Blomberg BT682W בטכנולוגיית משאבת חום, קיבולת 8 ק״ג ו-15 תוכניות ייבוש. מידות ומפרט מלא בחדד אלקטריק נהריה\"; highlight: \"קיבולת ייבוש 8 ק״ג\"; highlight: \"15 תוכניות ייבוש\"; highlight: \"פתח תוף רחב עם פתיחה של 155 מעלות\"; highlight: \"מידות 59.8×84.6×54.6 ס״מ\"; goodFor: \"משפחות שמייבשות כמות כביסה של עד 8 ק״ג במחזור\"; goodFor: \"מי שצריך מגוון תוכניות, עם 15 תוכניות ייבוש\"; consideration: \"מדדו את הנישה: המייבש ברוחב 59.8 ס״מ, גובה 84.6 ס״מ ועומק 54.6 ס״מ, והשאירו מרווח לאוורור ולפתיחת הדלת\"; consideration: \"ודאו שקע חשמל מתאים במקום ההתקנה; הספק המייבש 900 W\" | 2026-11-12 store owner: model sold is BT682W; specs matched on Bug and Avi Sofer pages"
+ }
+}

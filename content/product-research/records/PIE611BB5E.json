@@ -1,0 +1,323 @@
+{
+ "modelNumber": "PIE611BB5E",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "PIE611BB5E",
+  "israeliImporter": "B/S/H",
+  "matchConfidence": "high",
+  "notes": "Bosch specsheet, EU datasheet and Israeli retailers all name PIE611BB5E."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/en-NZ/PIE611BB5E.pdf",
+   "publisher": "Bosch",
+   "kind": "manufacturer",
+   "market": "intl",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1147467",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bettershop.co.il/product/bosch_pie611bb5e/",
+   "publisher": "Bettershop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://media3.bosch-home.com/Documents/eudatasheet/sk-SK/PIE611BB5E.pdf",
+   "publisher": "Bosch",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "592 × 51 × 522 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Reworded from HxWxD quote",
+     "label": "מידות חיתוך להתקנה (רוחב × עומק)",
+     "value": "560 × 490–500 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "12.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מחובר",
+     "value": "7.4 kW"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Supported by Bettershop quote",
+     "label": "חיבור חשמל",
+     "value": "תלת פאזי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote does not say per zone",
+     "label": "רמות הספק",
+     "value": "17"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר אזורי בישול",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific warranty terms including a price",
+     "label": "אחריות",
+     "value": "3 שנות אחריות (שנה חינם מלאה + שנתיים נוספות לפי התקנון בתוספת 199 ש\"ח) ע\"י B/S/H היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "PowerBoost: מאיץ חום לחימום מהיר של כמויות גדולות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed unsupported printed +/- claim",
+   "text": "TouchSelect: לוח בקרה אלקטרוני במגע"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נעילה בטיחותית של הפיקוד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "התקנה ללא מסגרת מתכת, מוגבהת מעט מעל המשטח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עובי משטח עבודה מינימלי: 16 מ״מ"
+  }
+ ],
+ "content": {
+  "summary": "כיריים אינדוקציה של Bosch ברוחב 592 מ״מ, דגם PIE611BB5E, עם 4 אזורי בישול ו-17 רמות הספק. הכיריים דורשות חיבור חשמל תלת פאזי, בהספק מחובר של 7.4 kW, וכוללות פונקציית PowerBoost לחימום מהיר. מתאימות למטבח עם חיבור תלת פאזי ופתח חיתוך של 560 × 490–500 מ״מ.",
+  "highlights": [
+   "4 אזורי בישול באינדוקציה",
+   "17 רמות הספק",
+   "פונקציית PowerBoost לחימום מהיר של כמויות גדולות",
+   "לוח בקרה במגע TouchSelect",
+   "נעילה בטיחותית של הפיקוד"
+  ],
+  "goodFor": [
+   "מטבח עם חיבור חשמל תלת פאזי",
+   "החלפת כיריים קיימות בפתח חיתוך של 560 × 490–500 מ״מ",
+   "בישול שדורש הרתחה מהירה של כמויות גדולות בעזרת PowerBoost",
+   "בית עם ילדים, בזכות נעילת הפיקוד"
+  ],
+  "considerations": [
+   "יש לוודא שקיים חיבור חשמל תלת פאזי בנקודת ההתקנה",
+   "מידות החיתוך הנדרשות: 560 × 490–500 מ״מ",
+   "עובי משטח העבודה צריך להיות 16 מ״מ לפחות",
+   "ההתקנה ללא מסגרת מתכת ומוגבהת מעט מעל המשטח"
+  ],
+  "faq": [
+   {
+    "q": "האם הכיריים דורשות חיבור תלת פאזי?",
+    "a": "כן, נדרש חיבור חשמל תלת פאזי. ההספק המחובר הוא 7.4 kW.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך במשטח?",
+    "a": "רוחב 560 מ״מ ועומק 490–500 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה אזורי בישול יש?",
+    "a": "4 אזורי בישול, עם 17 רמות הספק.",
+    "sources": []
+   },
+   {
+    "q": "מה עובי משטח העבודה המינימלי?",
+    "a": "16 מ״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים אינדוקציה Bosch PIE611BB5E עם 4 אזורי בישול ו-17 רמות הספק, חיבור תלת פאזי והספק 7.4 kW. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים אינדוקציה בוש",
+   "Bosch PIE611BB5E",
+   "PIE611BB5E",
+   "כיריים אינדוקציה 60 ס״מ",
+   "כיריים אינדוקציה תלת פאזי",
+   "כיריים בוש 4 אזורי בישול",
+   "כיריים אינדוקציה ללא מסגרת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 59.2 ס\"מ, עומק 52.2 ס\"מ, גובה 5.1 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "592 × 51 × 522 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיתוך",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 49-50 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק כללי",
+   "catalogValue": "7400W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבור חשמל",
+   "catalogValue": "תלת פאזי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אזורי בישול",
+   "catalogValue": "4 אזורי אינדוקציה",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "רמות חום",
+   "catalogValue": "17 רמות לכל אזור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "קטלוג רשם רוחב 59.2 ס\"מ, עומק 52.2 ס\"מ וגובה 5.1 ס\"מ. מפרט היצרן: 51 (גובה) × 592 (רוחב) × 522 (עומק) מ״מ.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק כללי",
+   "issue": "קטלוג: 7400W. מפרט היצרן: הספק מחובר 7.4 kW. ערך זהה בשקילה, אך יחידה שונה.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תנאי האחריות נלקחו מאתר קמעונאי ואינם מפורסמים; יש לאמת מול היבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact (retailer-specific terms with a price). Reworded niche dimensions, heat levels (quote does not say 'per zone') and TouchSelect feature (quote does not mention printed +/- buttons). Dropped the dimensions flag: catalog 59.2×52.2×5.1 ס״מ equals 592×522×51 מ״מ. Zap quote for three-phase is only a label; Bettershop quote supports it."
+ }
+}

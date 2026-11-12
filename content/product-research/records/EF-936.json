@@ -1,0 +1,293 @@
+{
+ "modelNumber": "EF-936",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sachs (זקש)",
+  "exactModel": "EF-936",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only one retailer page (BUG) names EF-936. No manufacturer or importer page for this exact model was found. | QA: BUG (Israeli retailer) names Sachs (זקש) EF-936, 1.7 L stainless kettle, matching the catalog. Catalog brand 'Zaks' appears to be a transliteration of זקש/Sachs."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/קומקום-חשמלי-17-ליטר-sachs-939157481",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דגם",
+     "value": "EF-936"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Label corrected from גימור",
+     "label": "חומר גוף",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "נסתר"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נורית ביקורת",
+     "value": "קיימת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "קומקום נשלף מהבסיס"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בסיס עגול מסתובב 360 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גוף חימום נסתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נורית ביקורת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש קומקום נירוסטה פשוט לשימוש יומיומי במטבח.",
+  "highlights": [
+   "גוף עשוי נירוסטה",
+   "גוף חימום נסתר",
+   "נורית ביקורת"
+  ],
+  "goodFor": [
+   "מטבח שבו נוח להניח את הקומקום על הבסיס מכל כיוון",
+   "מי שמעדיף קומקום נירוסטה על פני פלסטיק"
+  ],
+  "considerations": [
+   "לוודא שיש שקע חשמל זמין קרוב למשטח העבודה",
+   "גוף נירוסטה עלול להתחמם מבחוץ בזמן הרתחה, כדאי לאחוז בידית",
+   "לבדוק מול המוכר את נתוני ההספק ואמצעי ההגנה, שאינם מפורטים במקור שנבדק"
+  ],
+  "faq": [
+   {
+    "q": "ממה עשוי הקומקום?",
+    "a": "הקומקום עשוי נירוסטה.",
+    "sources": []
+   },
+   {
+    "q": "האם גוף החימום חשוף?",
+    "a": "לא, גוף החימום נסתר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קומקום חשמלי זקש",
+   "זקש EF-936",
+   "Sachs EF-936",
+   "קומקום נירוסטה 1.7 ליטר",
+   "קומקום חשמלי נירוסטה",
+   "קומקום גוף חימום נסתר",
+   "קומקום חשמלי בסיס 360"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "2000W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר מנירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס אלחוטי 360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף המכשיר",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון הגנה אוטומטי",
+   "catalogValue": "כיבוי עצמי במצב של רתיחה או מחסור במים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "מסנן נשלף ורחיץ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חלון מים",
+   "catalogValue": "מד מפלס מים שקוף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורית ביקורת",
+   "catalogValue": "נורית ביקורת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחסון כבל",
+   "catalogValue": "מקום לאחסון הכבל בתחתית הבסיס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Only one retailer page (BUG) names EF-936; no manufacturer, importer or second site confirms the specs, so facts go to review.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מרבי",
+   "issue": "Catalog says 2000W; the BUG page does not state power, so it is unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is Zaks; the BUG page lists the brand as זקש - Sachs. Check the brand name.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one Israeli retailer page (BUG) confirms the model; no manufacturer or importer source.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מרבי",
+   "issue": "Catalog power 2000W and voltage 220-240V are not stated in any source; unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is Zaks; source lists זקש - Sachs. Confirm brand spelling.",
+   "severity": "low"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Dry-boil auto shut-off, removable filter, water level window and cord storage in catalog are not confirmed by the source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Only one IL retailer source (BUG). Fixed label 'גימור' to 'חומר גוף'. Catalog power 2000W, voltage, dry-boil protection, filter, water window and cord storage are unverified and not published. | code guard removed: summary: \"קומקום חשמלי של זקש (Sachs) דגם EF-936, עשוי נירוסטה ובנפח 1.7 ליטר.\"; summary: \"הקומקום נשלף מבסיס עגול המסתובב 360 מעלות, וגוף החימום נסתר בתוך המיכל.\"; faq: \"מה נפח הקומקום זקש EF-936?\"; faq: \"האם אפשר להניח את הקומקום על הבסיס מכל כיוון?\"; metaDescription: \"קומקום חשמלי זקש Sachs EF-936 מנירוסטה בנפח 1.7 ליטר, עם גוף חימום נסתר ובסיס מסתובב 360 מעלות. בחדד אלקטריק נהריה\"; highlight: \"נפח מיכל 1.7 ליטר\"; highlight: \"בסיס מסתובב 360 מעלות\"; goodFor: \"הרתחת מים למספר כוסות בבת אחת בזכות נפח 1.7 ליטר\""
+ }
+}

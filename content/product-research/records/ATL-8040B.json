@@ -1,0 +1,296 @@
+{
+ "modelNumber": "ATL-8040B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-8040B",
+  "israeliImporter": "יוסף חיים בע\"מ",
+  "matchConfidence": "medium",
+  "notes": "דף היצרן בישראל מזהה את הדגם ATL-8040B במפורש, כולל ברקוד. דף הרשימות (זאפ) מזהה גם הוא את ATL8040B. רוב הנתונים מופיעים בשני מקורות. | QA: Model code ATL-8040B named on the Gold Line Israel page with barcode; colour of this suffix is inconsistent between sources."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%A7%D7%95%D7%91%D7%99%D7%95%D7%AA-%D7%A7%D7%A8%D7%97-atl-8040b/",
+   "publisher": "Gold Line Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1199200",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד",
+     "value": "7290020071903"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת ייצור ביממה",
+     "value": "עד 12 ק״ג ביממה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "per-cycle wording from Zap quote",
+     "label": "קוביות קרח בכל סבב",
+     "value": "עד 9 קוביות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "21.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "29.9 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י יוסף חיים בע״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניידת, נוחה וקלה להעברה, ואינה תלויה בחיבור הזנה ישיר למי הברז"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה שקוף לשמירה על הקוביות המוכנות ולצפייה בהליך ההכנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון בקרה שמתריע בעת חוסר מים במיכל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכות קירור, ייצור ושליפה אוטומטיות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קומפרסור קירור שקט שאינו מצריך פעולות תחזוקה תקופתיות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סל נשלף להוצאת קוביות הקרח במרוכז וכף מותאמת למילוי קרח"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניידת ואינה מצריכה חיבור ישיר למי הברז"
+  }
+ ],
+ "content": {
+  "summary": "מכונת קוביות קרח ניידת של Gold Line, דגם ATL-8040B, שמייצרת עד 12 ק״ג קרח ביממה ועד 9 קוביות בכל סבב. המכונה אינה צריכה חיבור למי הברז, ויש לה מערכות קירור, ייצור ושליפה אוטומטיות והתראה כשנגמרים המים במיכל. מתאימה לבית, לאירוח ולמי שרוצה קרח זמין על השיש בלי התקנה.",
+  "highlights": [
+   "ייצור של עד 12 ק״ג קרח ביממה",
+   "עד 9 קוביות בכל סבב",
+   "ניידת, ללא חיבור למי הברז",
+   "התראה בעת חוסר מים במיכל",
+   "מידות: רוחב 21.4 ס״מ, גובה 29.9 ס״מ"
+  ],
+  "goodFor": [
+   "אירוח בבית, כשצריך קרח זמין לאורך היום",
+   "מטבח בלי נקודת מים ליד המקרר",
+   "העברה בין הבית, המרפסת והמשרד"
+  ],
+  "considerations": [
+   "יש למלא את המיכל במים ידנית, כי המכונה אינה מחוברת לברז",
+   "כדאי למדוד את המקום על השיש: רוחב 21.4 ס״מ וגובה 29.9 ס״מ. העומק לא פורסם",
+   "כדאי לוודא את הצבע מול החנות לפני ההזמנה"
+  ],
+  "faq": [
+   {
+    "q": "כמה קרח המכונה מייצרת?",
+    "a": "עד 12 ק״ג ביממה, ועד 9 קוביות בכל סבב.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך לחבר אותה לברז?",
+    "a": "לא. המכונה ניידת ואינה מצריכה חיבור ישיר למי הברז, ממלאים את המיכל במים.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בקופסה?",
+    "a": "סל נשלף להוצאת הקוביות במרוכז וכף מותאמת למילוי קרח.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות ע״י יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קוביות קרח Gold Line ATL-8040B ניידת: עד 12 ק״ג קרח ביממה, ללא חיבור לברז והתראה על חוסר מים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת קרח",
+   "מכונת קוביות קרח",
+   "Gold Line ATL-8040B",
+   "ATL-8040B",
+   "מכונת קרח ניידת",
+   "מכונת קרח גולדליין",
+   "מכשיר קרח 12 קג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת ביממה",
+   "catalogValue": "12 ק״ג ביממה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "21.4 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "29.9 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "דף Gold Line לדגם ATL-8040B מתאר גימור לבן שנהב, ואילו דפי הרשימות מתארים את ATL8040B כשחור. שם הקטלוג אומר שחור. יש לבדוק את הצבע לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "עומק",
+   "issue": "עומק המכונה לא נמצא בדף היצרן לדגם ATL-8040B. הערך 28.3 ס״מ מופיע רק בעמוד של דגם ATL-8040 (צבע אחר), ולכן לא נרשם.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "לפי המחקר, דף Gold Line לדגם ATL-8040B מתאר גימור לבן שנהב, ואילו שם הקטלוג ודף זאפ מתארים שחור. יש לבדוק את הצבע.",
+   "severity": "high"
+  },
+  {
+   "field": "עומק",
+   "issue": "עומק המכונה לא נמצא בדף היצרן לדגם ATL-8040B ולא פורסם.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on the Gold Line Israel page naming ATL-8040B. Zap source kind kept as other (price comparison). Colour unresolved: manufacturer page reportedly describes ivory white while catalog and listings say black; flagged. Depth not published."
+ }
+}

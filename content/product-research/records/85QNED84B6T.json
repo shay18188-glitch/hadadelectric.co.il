@@ -1,0 +1,256 @@
+{
+ "modelNumber": "85QNED84B6T",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "85QNED84B6T",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "נמצא עמוד תמיכה של LG ישראל ועמוד קמעונאי אחד (CityDeal) לדגם המדויק; לא נמצא דף מוצר יצרן. | QA: LG Israel support page and an Israeli retailer both name the exact model 85QNED84B6T."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/lg-85qned84b6t-qned-evo-mini-led-85",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lg.com/il/support/product/lg-85QNED84B6T",
+   "publisher": "LG Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K Ultra HD (3,840 × 2,160)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "120Hz טבעי (VRR עד 144Hz)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quote check failed; quote checks: quote-too-short",
+     "label": "סוג תאורה אחורית",
+     "value": "Mini LED"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quote check failed; quote checks: quote-too-short",
+     "label": "מערכת הפעלה",
+     "value": "webOS 26"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quote check failed; quote checks: quote-too-short",
+     "label": "הספק שמע",
+     "value": "20 וואט"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quote check failed; quote checks: quote-too-short",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "גרסה 5.3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 כניסות (תומך 4K 120Hz, eARC, VRR, ALLM)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח הפעלה",
+     "value": "100~240 וולט, 50-60 הרץ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכה במצב המתנה",
+     "value": "מתחת ל-0.5 וואט"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות יצרן",
+     "value": "שנה על חלקים"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שלט חכם AI Magic Remote MR26"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה לצפייה בסלון, לגיימינג בקונסולות ולחיבור מקרן קול.",
+  "highlights": [],
+  "goodFor": [
+   "חיבור מקרן קול דרך eARC",
+   "חיבור אוזניות או רמקול אלחוטי דרך Bluetooth"
+  ],
+  "considerations": [
+   "לבדוק שהמקום על הקיר או על המזנון מתאים למסך בגודל הזה",
+   "לבדוק שקע חשמל זמין קרוב למקום ההתקנה",
+   "האחריות שצוינה היא שנה על חלקים – כדאי לברר את תנאי השירות"
+  ],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "LG 85QNED84B6T",
+   "טלוויזיה LG QNED",
+   "טלוויזיה 85 אינץ' LG",
+   "QNED Mini LED",
+   "טלוויזיה 4K 120Hz",
+   "טלוויזיה לגיימינג LG",
+   "טלוויזיה חכמה LG"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "85 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K UHD",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "144Hz",
+   "finding": "corrected",
+   "correctValue": "120Hz טבעי (VRR עד 144Hz)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "AC 100~240V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קצב רענון",
+   "issue": "הקטלוג מציין 144Hz; המקור מציין 120Hz טבעי ו-VRR עד 144Hz",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג תאורה אחורית / מערכת הפעלה",
+   "issue": "Mini LED ו-webOS מופיעים בשם/בקטלוג אך לא אומתו בציטוט תקין",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 2 (Mini LED), 3 (webOS 26), 4 (20W audio), 5 (Wi-Fi 5): quotes failed check (quote-too-short). Kept resolution, refresh rate, Bluetooth, HDMI, voltage, standby, warranty and the remote in the box. Catalog refresh rate 144Hz corrected by source to 120Hz native with VRR up to 144Hz. | code guard removed: summary: \"טלוויזיה חכמה של LG מסדרת QNED ברזולוציית 4K Ultra HD.\"; summary: \"קצב רענון טבעי של 120Hz עם תמיכה ב-VRR עד 144Hz, ו-3 כניסות HDMI התומכות ב-4K 120Hz ו-eARC.\"; faq: \"מה קצב הרענון של הטלוויזיה?\"; faq: \"כמה כניסות HDMI יש?\"; faq: \"אפשר לחבר אוזניות אלחוטיות?\"; faq: \"איזה שלט מגיע עם הטלוויזיה?\"; metaDescription: \"טלוויזיה LG QNED דגם 85QNED84B6T ברזולוציית 4K Ultra HD, קצב רענון 120Hz ו-VRR עד 144Hz, 3 כניסות HDMI. בחדד אלקטריק נהריה\"; highlight: \"רזולוציית 4K Ultra HD (3,840 × 2,160)\"; highlight: \"קצב רענון 120Hz טבעי, VRR עד 144Hz\"; highlight: \"3 כניסות HDMI עם תמיכה ב-4K 120Hz, eARC ו-ALLM\"; highlight: \"Bluetooth גרסה 5.3\"; highlight: \"שלט חכם AI Magic Remote MR26 באריזה\"; goodFor: \"גיימינג בקונסולות עדכניות בזכות HDMI 4K 120Hz, VRR ו-ALLM\"; consideration: \"יש 3 כניסות HDMI – כדאי לספור מראש את המכשירים שיחוברו\""
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "modelNumber": "CHP1909",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "CHP1909",
+  "israeliImporter": "אלקטרה סחר",
+  "matchConfidence": "high",
+  "notes": "כירה קרמית חשמלית מוקד אחד. המידע מבוסס על שני אתרי קמעונאים ישראליים בלבד; לא נמצא דף יצרן, יבואן או מדריך למשתמש. | QA: Both pages name Sauter CHP1909, a single-zone ceramic electric hob; warranty by Electra Trade."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/כירה-קרמית-חשמלית-מוקד-אחד-sauter-94856485",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/פלטה-חשמלית-לבישול-סאוטר-chp1909/",
+   "publisher": "Avi Sofer",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח הפעלה",
+     "value": "230V-50Hz"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורת בישול מתכווננת",
+     "value": "50-300°C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "עד 3 שעות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לוח בקרה עם צג דיגיטלי ומקשי מגע בעברית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נעילת בטיחות ילדים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מנגנון בטיחות מפני חימום יתר עם מאוורר תחתון"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיווי מצב פעולה וחיווי תקלה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כפתור לכוונון הטמפרטורה, זמן הבישול וההספק"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כירת בישול נוחה לנשיאה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sauter CHP1909 היא כירה חשמלית קרמית בודדת וניידת בהספק 2000 W. הטמפרטורה מתכווננת בטווח 50-300°C, ויש טיימר לבקרת זמן הבישול עד 3 שעות. מתאימה למי שמחפש משטח בישול נוסף או נייד שמתחבר לשקע חשמל רגיל.",
+  "highlights": [
+   "הספק 2000 W",
+   "טמפרטורה מתכווננת 50-300°C",
+   "טיימר עד 3 שעות",
+   "לוח בקרה דיגיטלי עם מקשי מגע בעברית",
+   "נעילת בטיחות ילדים והגנה מפני חימום יתר"
+  ],
+  "goodFor": [
+   "משטח בישול נוסף במטבח בזמן אירוח",
+   "מטבחון, משרד או יחידת דיור ללא כיריים קבועות",
+   "בתים עם ילדים, בזכות נעילת הבטיחות"
+  ],
+  "considerations": [
+   "ההספק 2000 W – כדאי לחבר לשקע ייעודי ולא למפצל עם מכשירים נוספים",
+   "יש לוודא שהסירים מתאימים לשימוש על משטח קרמי",
+   "יש להשאיר מרווח סביב המכשיר, כי מנגנון הקירור כולל מאוורר תחתון"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הכירה?",
+    "a": "הספק הכירה הוא 2000 W, במתח 230V-50Hz.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לקבוע זמן בישול?",
+    "a": "כן, יש טיימר מתכוונן לבקרת זמן הבישול עד 3 שעות.",
+    "sources": []
+   },
+   {
+    "q": "באיזה טווח טמפרטורות אפשר לבשל?",
+    "a": "הטמפרטורה מתכווננת בטווח 50-300°C.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת ילדים?",
+    "a": "כן, הכירה כוללת נעילת בטיחות ילדים ומנגנון בטיחות מפני חימום יתר עם מאוורר תחתון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כירה חשמלית קרמית בודדת Sauter CHP1909 בהספק 2000 W, טמפרטורה מתכווננת 50-300°C וטיימר עד 3 שעות, עם נעילת ילדים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sauter CHP1909",
+   "כירה חשמלית קרמית",
+   "כירה חשמלית בודדת",
+   "פלטה חשמלית לבישול",
+   "כירה ניידת",
+   "כירה קרמית סאוטר",
+   "סאוטר CHP1909"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "230V-50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טמפרטורה מתכווננת",
+   "catalogValue": "50-300°C",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 3 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נעילת בטיחות ילדים",
+   "catalogValue": "נעילת בטיחות ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מקור המידע",
+   "issue": "לא נמצא דף יצרן, יבואן או מדריך למשתמש עבור CHP1909. הנתונים מבוססים על שני אתרי קמעונאים ישראליים בלבד, ושורת מנגנון הגנה מפני חימום יתר מופיעה רק באחד מהם.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "לא נמצאו מידות, משקל או מידות נישה להתקנה עבור CHP1909 בדפים שנבדקו, ולכן לא נרשמו.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "המידע מבוסס על שני אתרי קמעונאים ישראליים בלבד; לא נמצא דף יצרן, יבואן או מדריך.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "לא נמצאו מידות או משקל בדפים שנבדקו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts and features confirmed by ok quotes on two Israeli retailer pages naming CHP1909. Catalog values match."
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "modelNumber": "MWS4020B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "MWS4020B",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "עמוד היצרן הישראלי (sauter.co.il) מציג את הדגם המדויק MWS4020B. | QA: sauter.co.il shows the exact model MWS4020B, 20 liter mechanical microwave, black, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/?s=MWS4020B&post_type=product",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "20 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "700W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות עוצמת חימום",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ציפוי פנימי",
+     "value": "אמייל כסוף"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "עצמאי"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "43.5 × 25.5 × 35 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפשרה לפי זמן ועוצמה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית משיכה ארגונומית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sauter MWS4020B הוא מיקרוגל מכני עצמאי בנפח 20 ליטר בצבע שחור, בהספק 700W. הוא מציע 5 דרגות עוצמת חימום והפשרה לפי זמן ועוצמה, עם פנים מצופה אמייל כסוף. מתאים למי שמחפש מיקרוגל פשוט להפעלה לחימום והפשרה יומיומיים, שמוצב על השיש.",
+  "highlights": [
+   "נפח 20 ליטר",
+   "הספק מיקרוגל 700W",
+   "5 דרגות עוצמת חימום",
+   "הפשרה לפי זמן ועוצמה",
+   "פנים מצופה אמייל כסוף"
+  ],
+  "goodFor": [
+   "חימום מזון והפשרה יומיומיים בהפעלה מכנית פשוטה",
+   "מטבח שבו המיקרוגל מוצב על השיש ולא בנישה",
+   "מי שמעדיף כפתורים מכניים על פני תצוגה דיגיטלית"
+  ],
+  "considerations": [
+   "ודאו שיש על השיש מקום למידות 43.5 × 25.5 × 35 ס״מ, כולל מרווח לאוורור",
+   "זהו דגם עצמאי ולא דגם להתקנה בנישה",
+   "נפח 20 ליטר – בדקו שהצלחות והכלים שלכם נכנסים לתא",
+   "יש לוודא שקע חשמל זמין בקרבת מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח וההספק של Sauter MWS4020B?",
+    "a": "נפח של 20 ליטר והספק מיקרוגל של 700W.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להתקין אותו בנישה?",
+    "a": "לא, זהו מיקרוגל עצמאי המיועד להצבה חופשית.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות עוצמה יש לו?",
+    "a": "5 דרגות עוצמת חימום, וכן הפשרה לפי זמן ועוצמה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המיקרוגל?",
+    "a": "רוחב 43.5 ס״מ, גובה 25.5 ס״מ ועומק 35 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל מכני Sauter MWS4020B בצבע שחור: נפח 20 ליטר, הספק 700W ו-5 דרגות עוצמת חימום. פרטים ומפרט מלא בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל סאוטר",
+   "Sauter MWS4020B",
+   "MWS4020B",
+   "מיקרוגל מכני 20 ליטר",
+   "מיקרוגל שחור",
+   "מיקרוגל 700 וואט",
+   "מיקרוגל עצמאי",
+   "מיקרוגל מכני שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "20 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "700W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 43.5 ס\"מ, גובה 25.5 ס\"מ, עומק 35 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "אמייל כסוף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "The only source is a sauter.co.il site-search results URL, not a dedicated product page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts and features verified by ok quotes on the Sauter Israel page naming MWS4020B. Source is a site search results URL rather than a product page."
+ }
+}

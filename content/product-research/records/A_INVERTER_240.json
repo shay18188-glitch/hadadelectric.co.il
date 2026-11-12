@@ -1,0 +1,357 @@
+{
+ "modelNumber": "A  INVERTER  240",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Electra",
+  "exactModel": "A INVERTER 240",
+  "israeliImporter": "אלקטרה מוצרי צריכה (1951) בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Electra A Inverter 240, 2.0 HP wall split. Electra's site and Zap listings name the model as 'A Inverter 240' / 'A INV 240'. The importer name differs between the Electra site footer (1970) and a Zap listing (1951); flagged. | QA: Electra A Inverter 240 wall split; manufacturer site and Zap both name the exact model. Importer entity name differs between sources (1970 vs 1951), left null."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1224554",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electra-air.co.il/product/electra-a-inverter-240/",
+   "publisher": "Electra Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תפוקת קירור",
+     "value": "18,356 BTU"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תפוקת חימום",
+     "value": "16,241 BTU"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מקדם יעילות בקירור (COP)",
+     "value": "6.41"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מקדם יעילות בחימום (COP)",
+     "value": "4.8"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "unit not in quote; field is power",
+     "label": "הספק נצרך בקירור",
+     "value": "1749 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "unit not in quote; field is power",
+     "label": "הספק נצרך בחימום",
+     "value": "1752 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A++"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות יחידה פנימית (רוחב × גובה × עומק)",
+     "value": "957 × 213 × 302 מ״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות יחידה חיצונית (רוחב × גובה × עומק)",
+     "value": "805 × 330 × 554 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "manufacturer page states 5 years",
+     "label": "אחריות",
+     "value": "5 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצב שבת מובנה ופיזור אוויר 4D"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית אינוורטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שליטה מרחוק באפליקציית Smart"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חיבור Wi-Fi"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ניקוי עצמי של הסוללה (Self Clean)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Electra A Inverter 240 הוא מזגן עילי מפוצל בטכנולוגיית אינוורטר, עם תפוקת קירור של 18,356 BTU ותפוקת חימום של 16,241 BTU. המזגן מדורג A++ באנרגיה, עם מקדם יעילות בקירור (COP) של 6.41. הוא מתאים למי שמחפש מזגן לקירור ולחימום עם שליטה באפליקציה דרך Wi-Fi ומצב שבת מובנה.",
+  "highlights": [
+   "תפוקת קירור 18,356 BTU ותפוקת חימום 16,241 BTU",
+   "דירוג אנרגטי A++ ומקדם יעילות בקירור (COP) 6.41",
+   "טכנולוגיית אינוורטר",
+   "חיבור Wi-Fi ושליטה באפליקציית Smart"
+  ],
+  "goodFor": [
+   "חללים שדורשים גם קירור בקיץ וגם חימום בחורף",
+   "בית שומר שבת, בזכות מצב שבת מובנה",
+   "מי שרוצה להפעיל את המזגן מהטלפון לפני ההגעה הביתה"
+  ],
+  "considerations": [
+   "יש לוודא מקום על הקיר ליחידה הפנימית במידות 957 × 213 × 302 מ״מ",
+   "יש לבדוק מיקום מתאים ליחידה החיצונית במידות 805 × 330 × 554 מ״מ",
+   "ההתקנה מחייבת מתקין מזגנים מוסמך ונקודת חשמל מתאימה",
+   "כדאי לוודא את תנאי האחריות מול היבואן בעת הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "האם המזגן מחמם גם בחורף?",
+    "a": "כן, תפוקת החימום היא 16,241 BTU ומקדם היעילות בחימום (COP) הוא 4.8.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט במזגן מהטלפון?",
+    "a": "כן, למזגן יש חיבור Wi-Fi ושליטה באפליקציית Smart.",
+    "sources": []
+   },
+   {
+    "q": "האם יש למזגן מצב שבת?",
+    "a": "כן, למזגן יש מצב שבת מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המזגן?",
+    "a": "לפי אתר אלקטרה, המזגן מגיע עם 5 שנות אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן עילי Electra A Inverter 240 אינוורטר, תפוקת קירור 18,356 BTU ודירוג אנרגטי A++, עם Wi-Fi ומצב שבת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electra A Inverter 240",
+   "אלקטרה A Inverter 240",
+   "מזגן אלקטרה אינוורטר",
+   "מזגן עילי 2 כוח סוס",
+   "מזגן אינוורטר A++",
+   "מזגן עם Wi-Fi",
+   "מזגן מצב שבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "18,356 BTU",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "16,241 BTU",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בקירור (COP)",
+   "catalogValue": "6.41",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A++",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק נצרך בקירור",
+   "catalogValue": "1749W",
+   "finding": "confirmed",
+   "correctValue": "1749 W",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית Inverter",
+   "catalogValue": "טכנולוגיית Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיסכון של עד 50% בצריכת החשמל",
+   "catalogValue": "חיסכון של עד 50% בצריכת החשמל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצב שקט",
+   "catalogValue": "מצב שקט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תקינה אירופית",
+   "catalogValue": "תקינה אירופית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "importer",
+   "issue": "The Electra site footer names the importer as אלקטרה מוצרי צריכה (1970) בע\"מ, while the Zap listing names אלקטרה מוצרי צריכה (1951) בע\"מ. Confirm the Israeli importer.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "Warranty terms vary by seller in listings (some say 3 years). Electra's site and most listings say 5 years; confirm against the importer's warranty terms.",
+   "severity": "low"
+  },
+  {
+   "field": "importer",
+   "issue": "Importer entity name differs between sources: Electra site footer says אלקטרה מוצרי צריכה (1970) בע\"מ, Zap says (1951). Confirm the Israeli importer.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "Some seller listings state a 3-year warranty; Electra's site states 5 years. Confirm against the importer's warranty terms.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts verified by ok quotes on the Electra Israel product page and the Zap listing, both naming A Inverter 240. Power figures (1749/1752) quoted without a unit on the Electra page; W is the field's standard unit. | code guard removed: highlight: \"מצב שבת מובנה ופיזור אוויר 4D\""
+ }
+}

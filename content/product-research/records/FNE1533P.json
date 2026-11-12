@@ -1,0 +1,415 @@
+{
+ "modelNumber": "FNE1533P",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "FNE1533P",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "דף החיפוש של בלומברג ישראל מציג את הדגם FNE1533P. שני אתרי קמעונאים מציינים את היבואן הרשמי ראלקו. לא נמצא מדף מפרט רשמי או מדריך לדגם המדויק. | QA: Blomberg Israel site and Citydeal both name FNE1533P with 86 ליטר and 3 compartments, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.blomberg.co.il/?s=FNE1533P",
+   "publisher": "בלומברג מוצרי חשמל",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%A7%D7%A4%D7%99%D7%90-blomberg-%D7%93%D7%92%D7%9D-fne1533p-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "Citydeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקפיאים/מקפיא_3_תאים_blomberg_דגם_1533p_בלומברג",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח אחסון כללי",
+     "value": "86 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תאי אחסון",
+     "value": "3 (2 מגירות + 1 כנף)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כושר הקפאה",
+     "value": "4 ק״ג ב-24 שעות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source page does not name the model; quote checks: ok",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "54.5 × 84 × 54 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "עומד"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "אוטומטית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה (ראלקו, היבואן הרשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בקרה אלקטרונית ללא צג"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הקפאה מהירה: מערכת ייעודית להקפאה מהירה של מזון טרי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אטם גומי מיוחד שמונע הצטברות בקטריות וחיידקים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "'שקופות' only on page not naming the model",
+   "text": "2 מגירות וכנף אחת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Blomberg FNE1533P הוא מקפיא עומד בנפח 86 ליטר עם קירור No Frost והפשרה אוטומטית. מתאים למי שמחפש מקפיא נוסף קומפקטי בלי צורך להפשיר אותו ידנית.",
+  "highlights": [
+   "נפח אחסון כללי 86 ליטר",
+   "קירור No Frost עם הפשרה אוטומטית",
+   "דירוג אנרגטי E"
+  ],
+  "goodFor": [
+   "תוספת מקום הקפאה לצד המקרר הקיים",
+   "מי שלא רוצה להתעסק בהפשרה ידנית של קרח",
+   "הקפאה מהירה של מזון טרי שנקנה בכמויות"
+  ],
+  "considerations": [
+   "למדוד את הנישה או המקום המיועד לפני הרכישה, כי המידות לא אומתו במקור רשמי",
+   "דירוג האנרגיה הוא E, כדאי לקחת זאת בחשבון בצריכת החשמל",
+   "לוודא שקע חשמל זמין במקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "האם המקפיא דורש הפשרה ידנית?",
+    "a": "לא. המקפיא עובד בטכנולוגיית No Frost עם הפשרה אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקפיא?",
+    "a": "שנה אחריות על ידי ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקפיא עומד Blomberg FNE1533P בנפח 86 ליטר עם קירור No Frost והפשרה אוטומטית, בקרה אלקטרונית ופונקציית הקפאה מהירה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקפיא בלומברג FNE1533P",
+   "Blomberg FNE1533P",
+   "מקפיא 86 ליטר",
+   "מקפיא נו פרוסט קטן",
+   "מקפיא 3 מגירות",
+   "מקפיא עומד No Frost",
+   "מקפיא בלומברג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח אחסון כללי",
+   "catalogValue": "86 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "84 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "54-54.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "54.5 ס״מ",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "54-63.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "54 ס״מ",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כושר הקפאה",
+   "catalogValue": "4 ק\"ג ב-24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית קירור",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הקפאה מהירה",
+   "catalogValue": "פונקציית הקפאה מהירה (Fast Freeze)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "בקרה",
+   "catalogValue": "מערכת בקרה אלקטרונית ללא צג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אטם",
+   "catalogValue": "אטם למניעת בקטריות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבנה פנימי",
+   "catalogValue": "3 תאים (2 מגירות שקופות גדולות ותא עליון עם כנף שקופה)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "לבן",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הפשרה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אוטומטית",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה (יבואן רשמי ראלקו)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עומק",
+   "issue": "קטלוג: עומק 54-63.5 ס\"מ. אתרי קמעונאים מציינים 54 ס\"מ. לבדוק לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות נמצאו רק באתר קמעונאי אחד, לא באתר היבואן או במפרט רשמי",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "לא נמצא מדריך למשתמש או מפרט רשמי לדגם המדויק FNE1533P. מדריכים שנמצאו הם לדגמים FNE1531P / FNE154P. אתר קמעונאי אחד כותב P1533 בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "הקטלוג כותב Bloomberg. היצרן והיבואן כותבים Blomberg.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות נמצאו רק בדף קמעונאי שאינו מציין את הדגם המדויק, ולא פורסמו. הקטלוג מציין טווחי רוחב ועומק (54-54.5 / 54-63.5 ס״מ) — לבדוק מול מפרט רשמי.",
+   "severity": "high"
+  },
+  {
+   "field": "brand",
+   "issue": "הקטלוג כותב Bloomberg; היצרן והיבואן כותבים Blomberg.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "לא נמצא מפרט רשמי או מדריך לדגם המדויק FNE1533P; הנתונים מבוססים על דף חיפוש באתר היבואן ועל קמעונאי.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected dimensions (fact 4): the only quote is on a Traklin page that does not name the model. Feature 3 reworded to drop 'שקופות', which is only on the page that does not name the model. Blomberg.co.il relabelled as importer site (operated by Ralco). | code guard removed: summary: \"הוא כולל 3 תאי אחסון (2 מגירות וכנף), כושר הקפאה של 4 ק״ג ב-24 שעות ופונקציית הקפאה מהירה.\"; faq: \"מה נפח המקפיא?\"; faq: \"כמה מזון אפשר להקפיא ביממה?\"; highlight: \"כושר הקפאה 4 ק״ג ב-24 שעות\"; highlight: \"3 תאי אחסון: 2 מגירות וכנף\""
+ }
+}

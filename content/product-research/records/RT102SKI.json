@@ -1,0 +1,157 @@
+{
+ "modelNumber": "RT102SKI",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RT102SKI",
+  "israeliImporter": null,
+  "matchConfidence": "low",
+  "notes": "The exact model RT102SKI appears on no manufacturer, importer or independent retailer page found. It is named only on the store's own comparison page (hadadelectric.co.il/recommended/bottom-freezer-refrigerators), which lists 752 ליטר, 91.1 ס״מ and Total No Frost. Sibling models Hisense RT-102, RT-102S and RT102B were seen on retailer pages with 752 or 765 ליטר and 91.1 ס״מ width, and the Israeli importer of Hisense fridges appears as סינודן מקבוצת ח.י on sibling pages only. Not confirmed for this exact model. | QA: Exact model RT102SKI is not confirmed by any independent source; only the store's own page lists it. Sibling models (RT-102, RT-102S, RT102B) show conflicting capacities and dimensions."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://hadadelectric.co.il/recommended/bottom-freezer-refrigerators",
+   "publisher": "Hadad Electric comparison page",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source is the store's own page (circular); sibling listings conflict on capacity.",
+     "label": "נפח",
+     "value": "752 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source is the store's own page (circular).",
+     "label": "רוחב",
+     "value": "91.1 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source is the store's own page (circular).",
+     "label": "שיטת הפשרה",
+     "value": "Total No Frost"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [],
+  "goodFor": [],
+  "considerations": [],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": []
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "752 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Hisense",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג דלתות",
+   "catalogValue": "3 דלתות מקפיא תחתון",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "RT102SKI appears on no manufacturer, importer or independent retailer page found. The only page naming it is the store's own comparison page, so the facts above come from one site and are not independently confirmed for this model.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח",
+   "issue": "Sibling models conflict: retailers list 752 ליטר net, 765 ליטר gross and 670 ליטר for RT-102 and RT102B variants, and freezer sizes of 150 or 224 ליטר. The exact model's capacity needs checking against the unit label.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Depth differs across sibling listings (85.5 ס״מ on most, 81.5 on one, 85.5 vs 81.5 typo suspected) and height 177 vs 178 ס״מ. Verify the exact model's depth and height before publishing dimensions.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Energy rating differs by listing (B on some sibling pages, E on others). Not recorded for this model; check the EPREL or label.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "RT102SKI is not found on any manufacturer, importer or independent retailer page; the only source is the store's own comparison page. Verify the exact model code against the unit or importer documentation.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח",
+   "issue": "Sibling models list conflicting capacities (752, 765, 670 ליטר) and freezer sizes; confirm the exact model's capacity from the unit label.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Sibling listings disagree on depth (85.5 vs 81.5 ס״מ) and height (177 vs 178 ס״מ); verify before publishing dimensions.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Energy rating differs across sibling listings; check the energy label or EPREL for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Owner sent a supplier page for RT-102S (3 doors, bottom freezer, 752 L net, stainless). No source names RT102SKI, so it is not yet shown that SKI is a marketing code of RT-102S. Check the rating label inside the unit; until then nothing is published.",
+   "severity": "high"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "fail",
+  "notes": "The only source naming RT102SKI is Hadad Electric's own comparison page, which is derived from the store catalog itself. This is circular evidence, not independent verification. No manufacturer, importer or independent retailer page confirms the exact model, so all facts are rejected."
+ }
+}

@@ -1,0 +1,420 @@
+{
+  "modelNumber": "1301B",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "MASIMO",
+    "exactModel": "MS-1301BG",
+    "israeliImporter": null,
+    "matchConfidence": "medium",
+    "notes": "The catalog code '1301B' does not appear on any page found. MASIMO sells two office fridges in the 1301 series in Israel: MS-1301, white with a solid door (94 L gross / 91 L net, 47.5 × 83.2 × 44.2 cm), and MS-1301BG, black with a clear door (90 L, 51 × 84.5 × 46.5 cm; retailers write 'דלת שקופה' and never say the door is glass). Some retailers (s2, s3) title the black clear-door unit simply 'MS-1301' and name it MS-1301BG in the description. The catalog name ('מקרר שקוף ויטרינה משרדי') describes the clear-door unit, and B most likely stands for black, so this record follows MS-1301BG. The '91 ליטר' in the catalog name matches the white solid-door MS-1301, not the clear-door unit. QA 2026-11-11: Home Center sells a Westin WES-1301B (s6), a black solid-door office fridge with 94 L gross / 91 L net and 832 × 442 × 475 mm, i.e. the solid-door platform in black, alongside a WES-1301BG vitrine. So a code ending in 'B' alone can mean the black solid-door unit, which would also explain the catalog's 91 L. The catalog name's 'שקוף ויטרינה' still points to the clear-door unit; the match stays medium until the box label is checked. No MASIMO manufacturer site, importer page, manual or energy-label record was found. All exact-model sources are Israeli retailer pages with the same copied description. Importer is unclear: netoneto names Digital Electric as the official importer, hashmal-price names LAVAMAT, and the white MS-1301 page names Beti Electronics for warranty. '(קלינטון)' in the catalog name is an internal tag that lib/normalize.ts strips; it is not a product fact."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.netoneto.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A9%D7%A8%D7%93%D7%99-%D7%93%D7%9C%D7%AA-%D7%A9%D7%A7%D7%95%D7%A4%D7%94-masimo-%D7%9E%D7%A1%D7%99%D7%9E%D7%95-%D7%93%D7%92%D7%9D-ms-1301bg",
+      "publisher": "חשמל נטו (netoneto.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s2",
+      "url": "https://guyoffice.co.il/products/p1654",
+      "publisher": "מטרה למשרד (guyoffice.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s3",
+      "url": "https://hashmal-price.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%A9%D7%97%D7%95%D7%A8-%D7%93%D7%9C%D7%AA-%D7%A9%D7%A7%D7%95%D7%A4%D7%94-masimo-%D7%93%D7%92%D7%9D-ms-1301/",
+      "publisher": "חשמל במחירים (hashmal-price.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.zap.co.il/models.aspx?sog=e-fridge&keyword=ms-1301",
+      "publisher": "זאפ השוואת מחירים",
+      "kind": "other",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.digital-electric.co.il/items/3131629-%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A9%D7%A8%D7%93%D7%99-MS-1301-MASIMO",
+      "publisher": "דיגיטל אלקטריק (digital-electric.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-11"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.homecenter.co.il/products/1756712948319",
+      "publisher": "הום סנטר (homecenter.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-11"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "יצרן",
+          "value": "MASIMO",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "דגם יצרן",
+          "value": "MS-1301BG",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Catalog code is 1301B; the BG code is how retailers name the black glass-door unit. guyoffice (s2) and hashmal-price (s3) title the same unit 'MS-1301' and name MS-1301BG in the description. See the model_number flag: a black solid-door '1301B' exists under the Westin brand (s6)."
+        },
+        {
+          "label": "סוג",
+          "value": "מקרר משרדי ויטרינה עם דלת שקופה",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "QA: value was 'דלת זכוכית שקופה'. Sources say 'דלת שקופה' only; 'זכוכית' appears only for the shelves."
+        },
+        {
+          "label": "צבע",
+          "value": "שחור",
+          "sources": ["s2", "s3"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Both page titles read 'מקרר שחור דלת שקופה MASIMO ... MS-1301' (re-checked 2026-11-11; s2 needed the browser because WebFetch gets HTTP 429). The description text and s1/s4 give no colour."
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "51 × 84.5 × 46.5 ס״מ",
+          "sources": ["s1", "s2", "s3"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Retailer pages only, with the same copied text. The white solid-door MS-1301 is listed at 47.5 × 83.2 × 44.2 cm (s5), a different unit."
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        {
+          "label": "נפח",
+          "value": "90 ליטר",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Gross/net not stated. The catalog name says 91 L, which matches the net volume of the white solid-door MS-1301 (s5), not this unit."
+        },
+        {
+          "label": "מדפים",
+          "value": "3 מדפי זכוכית",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "מדף לבקבוקים",
+          "value": "יש",
+          "sources": ["s1", "s2", "s3", "s4"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "מגירת ירקות ופירות",
+          "value": "מגירה שקופה",
+          "sources": ["s1", "s2", "s3"],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        {
+          "label": "שיטת הפשרה",
+          "value": "D-Frost",
+          "sources": ["s1", "s2", "s3"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Retailers write 'שיטת הפשרה D-FROST' without saying whether it is automatic or manual."
+        },
+        {
+          "label": "דירוג אקלים",
+          "value": "T",
+          "sources": ["s1", "s2", "s3"],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "גז קירור",
+          "value": "ללא HCFC (סוג הגז לא צוין)",
+          "sources": ["s1", "s2", "s3"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Pages say 'גז ידידותי לסביבה HCFC Free'. The refrigerant (e.g. R600a) is not named."
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "rows": [
+        {
+          "label": "תקינה",
+          "value": "עומד בתקן הבטיחות הישראלי",
+          "sources": ["s1", "s2", "s3"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Retailer claim only; no standards-institute or importer document found."
+        }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        {
+          "label": "אחריות",
+          "value": "שנה",
+          "sources": ["s1", "s3"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Stated by retailers, not by an importer page. Importer conflicts: s1 names Digital Electric as official importer, s3 names LAVAMAT."
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "דלת שקופה – אפשר לראות את התכולה בלי לפתוח את הדלת",
+      "sources": ["s1", "s2", "s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "3 מדפי זכוכית",
+      "sources": ["s1", "s2", "s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "מדף ייעודי לבקבוקים",
+      "sources": ["s1", "s2", "s3", "s4"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "מגירה שקופה לאחסון ירקות ופירות",
+      "sources": ["s1", "s2", "s3"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "שיטת הפשרה D-Frost",
+      "sources": ["s1", "s2", "s3"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "דירוג אקלים T",
+      "sources": ["s1", "s2", "s3"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "גז קירור ללא HCFC",
+      "sources": ["s1", "s2", "s3"],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "פעולה שקטה וחסכונית",
+      "sources": ["s1", "s2", "s3"],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "Marketing wording ('מערכת הפעלה שקטה וחסכונית במיוחד') with no dB or kWh figure."
+    }
+  ],
+  "inTheBox": [],
+  "installation": [],
+  "content": {
+    "summary": "מקרר משרדי ויטרינה של MASIMO עם דלת שקופה וגימור שחור, בנפח 90 ליטר. מידותיו 51 × 84.5 × 46.5 ס״מ (רוחב × גובה × עומק), ובפנים 3 מדפי זכוכית, מדף לבקבוקים ומגירה שקופה לירקות ופירות. דירוג האקלים שלו הוא T. מתאים למשרד, לחדר ישיבות או לדירה קטנה שבה רוצים לראות את המשקאות והמזון דרך הדלת.",
+    "highlights": [
+      "דלת שקופה וגימור שחור",
+      "נפח 90 ליטר",
+      "מידות 51 × 84.5 × 46.5 ס״מ (רוחב × גובה × עומק)",
+      "3 מדפי זכוכית, מדף לבקבוקים ומגירה שקופה לירקות ופירות",
+      "דירוג אקלים T"
+    ],
+    "goodFor": [
+      "פינת קפה או מטבחון במשרד: הדלת השקופה מראה מה יש בפנים, ומדף הבקבוקים מתאים לשתייה קרה",
+      "חדר ישיבות או עמדת קבלת קהל, שבהם מציגים משקאות לאורחים",
+      "דירת סטודנטים או יחידת דיור קטנה: 90 ליטר ברוחב 51 ס״מ ובגובה 84.5 ס״מ, כך שהוא תופס מעט מקום"
+    ],
+    "considerations": [
+      "מדדו את המקום: המקרר ברוחב 51 ס״מ ובעומק 46.5 ס״מ, והשאירו מרווח לאוורור ולפתיחת הדלת",
+      "בשם המוצר כתוב 91 ליטר, אבל אצל המשווקים דגם הזכוכית השחור מופיע ב-90 ליטר, בלי פירוט אם זה נפח ברוטו או נטו",
+      "המשווקים לא מפרסמים דירוג אנרגטי או צריכת חשמל שנתית. אם עלות החשמל חשובה לכם, בקשו את תווית האנרגיה לפני הרכישה",
+      "המשווקים מציינים שיטת הפשרה D-Frost בלי לפרט אם ההפשרה אוטומטית או ידנית. כדאי לברר זאת לפני הרכישה"
+    ],
+    "faq": [
+      {
+        "q": "מה המידות של המקרר?",
+        "a": "רוחב 51 ס״מ, גובה 84.5 ס״מ ועומק 46.5 ס״מ.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "כמה מדפים יש בפנים?",
+        "a": "3 מדפי זכוכית, מדף לבקבוקים ומגירה שקופה לירקות ופירות.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "האם הוא מתאים לחום של הקיץ בישראל?",
+        "a": "דירוג האקלים שלו הוא T, הדירוג שמיועד לסביבה חמה. הקפידו להציב אותו במקום מאוורר ולא צמוד למקור חום.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      {
+        "q": "מה צריכת החשמל של המקרר?",
+        "a": "לא מצאנו דירוג אנרגטי או צריכה שנתית מפורסמים לדגם הזה. אפשר לבקש מאיתנו את תווית האנרגיה של היבואן לפני הרכישה.",
+        "sources": []
+      },
+      {
+        "q": "יש בו תא הקפאה?",
+        "a": "המפרט של המשווקים מפרט מדפים, מדף לבקבוקים ומגירת ירקות, ולא מזכיר תא הקפאה. אם אתם צריכים תא הקפאה, בדקו איתנו לפני הרכישה.",
+        "sources": ["s1", "s2", "s3"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "מקרר משרדי ויטרינה MASIMO MS-1301BG עם דלת שקופה, 90 ליטר, 3 מדפי זכוכית ומידות 51 × 84.5 × 46.5 ס״מ. לבירור והזמנה בחדד אלקטריק נהריה",
+    "keywords": [
+      "מקרר ויטרינה משרדי",
+      "מקרר משרדי דלת שקופה",
+      "מקרר משרדי שחור דלת שקופה",
+      "MASIMO MS-1301BG",
+      "MS-1301BG",
+      "מסימו 1301",
+      "מקרר 90 ליטר דלת שקופה",
+      "מקרר שתייה למשרד"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "name: סוג המוצר (מקרר שקוף ויטרינה משרדי)",
+      "catalogValue": "מקרר שקוף ויטרינה משרדי",
+      "finding": "confirmed",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "name: נפח",
+      "catalogValue": "91 ליטר",
+      "finding": "contradicted",
+      "correctValue": "90 ליטר",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "name: (קלינטון)",
+      "catalogValue": "קלינטון",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "brand",
+      "catalogValue": "MASIMO",
+      "finding": "confirmed",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "model_number",
+      "catalogValue": "1301B",
+      "finding": "corrected",
+      "correctValue": "MS-1301BG (קוד היצרן אצל המשווקים; אין לשנות את מפתח הקטלוג)",
+      "sources": ["s1", "s2", "s3", "s4"]
+    },
+    {
+      "field": "category",
+      "catalogValue": "מקררים",
+      "finding": "confirmed",
+      "sources": ["s1", "s3"]
+    },
+    {
+      "field": "מידות (רוחב × גובה × עומק)",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "51 × 84.5 × 46.5 ס״מ",
+      "sources": ["s1", "s2", "s3"]
+    },
+    {
+      "field": "מדפים ואחסון",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "3 מדפי זכוכית, מדף לבקבוקים, מגירה שקופה לירקות ופירות",
+      "sources": ["s1", "s2", "s3"]
+    },
+    {
+      "field": "דירוג אקלים",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "T",
+      "sources": ["s1", "s2", "s3"]
+    },
+    {
+      "field": "צבע",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "שחור",
+      "sources": ["s2", "s3"]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "model_number",
+      "issue": "Catalog code '1301B' was not found on any source. The record follows MASIMO MS-1301BG, the black glass-door unit in the 1301 series. MS-1301 is a white solid-door unit with different dimensions and volume. QA 2026-11-11: Home Center (s6) sells Westin WES-1301B, a black solid-door office fridge (94 L gross / 91 L net, 832 × 442 × 475 mm, same as the white MS-1301), next to WES-1301BG (black vitrine). So '1301B' may be a black solid-door unit, which would match the catalog's 91 L but not its 'שקוף ויטרינה'. If the store's unit has a solid door, this record's dimensions, volume, shelves and content are wrong for it. Check the box label or the supplier invoice to confirm the store's unit is MS-1301BG before QA passes. Do not change the catalog model_number (join key).",
+      "severity": "high"
+    },
+    {
+      "field": "name",
+      "issue": "Catalog name says 91 ליטר. Retailers list the black glass-door MS-1301BG at 90 L; 91 L net is the white solid-door MS-1301. Consider fixing the name; it was not changed here because names drive URLs.",
+      "severity": "medium"
+    },
+    {
+      "field": "sources",
+      "issue": "No manufacturer, importer, manual or energy-label source exists online for this model. All exact-model data comes from Israeli retailer pages that repeat the same description. No weight, energy rating, annual kWh, noise, power or voltage figures could be verified.",
+      "severity": "medium"
+    },
+    {
+      "field": "identity.israeliImporter",
+      "issue": "Importer conflict: netoneto names Digital Electric as official importer, hashmal-price names LAVAMAT, and the white MS-1301 page at digital-electric.co.il names Beti Electronics (בטי אלקטרוניקה) for warranty. Importer left null and warranty withheld.",
+      "severity": "medium"
+    },
+    {
+      "field": "availability",
+      "issue": "MASIMO 1301 pages at Home Center and Radio Electric (rde.co.il) now redirect to category pages, so the model may be leaving the market. Prices and stock were not touched.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "Re-opened all sources on 2026-11-11. s1 netoneto (WebFetch), s3 hashmal-price and s4 Zap load and show MS-1301BG: 90 L, 3 glass shelves, bottle shelf, clear crisper drawer (s1/s3), D-FROST, climate class T, HCFC Free, 51 × 84.5 × 46.5 cm. s2 guyoffice returns HTTP 429 to WebFetch but loads in the browser with the same text and the title 'מקרר שחור דלת שקופה MASIMO MS-1301', so s2 stays and colour black stays verified (s2 + s3 titles). s5 loads in the browser (white MS-1301, 94/91 L, 47.5 × 83.2 × 44.2 cm). Changes: (1) Type row, feature 1, summary, highlight 1, goodFor 1, meta description and two keywords: 'דלת זכוכית (שקופה)' changed to 'דלת שקופה'; no source says the door is glass. (2) Added s3 to the model row and model_number catalogCheck (its description names MS-1301BG); added s4 to the volume, shelves and bottle-shelf rows, features 2-3 and the volume catalogCheck. (3) goodFor 3: removed the unsupported 'נכנס גם מתחת לשיש או ליד שולחן'; now cites width and height only. (4) D-Frost consideration now says sources do not state whether defrost is automatic or manual; volume consideration reworded ('ברוטו או נטו'). (5) Meta description dimensions written as '51 × 84.5 × 46.5 ס״מ'. (6) Freezer FAQ now cites s1-s3 (the spec lists it relies on). (7) Added s6 (Home Center Westin WES-1301B, exactModel false) and extended the high model_number flag and identity notes: a black solid-door '1301B' with 94/91 L exists under Westin, so the store's unit may be solid-door; confirm against the box label. Match stays medium. Accessed dates updated to 2026-11-11. Not confirmed: whether the store's unit is MS-1301BG (box label needed). Name, price and stock untouched."
+  }
+}

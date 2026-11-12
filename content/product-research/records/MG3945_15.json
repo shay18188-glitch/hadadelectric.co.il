@@ -1,0 +1,389 @@
+{
+ "modelNumber": "MG3945/15",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "MG3945/15",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "All-in-One Trimmer 3000 Series, 9-in-1. Model number appears on the Philips Netherlands page, the Philips UK page and the Coolblue page. No Israeli page for this exact model was verified. | QA: Philips All-in-One Trimmer 3000 Series 9-in-1, MG3945/15 named on Philips NL, Philips UK and Coolblue pages. Same model code and suffix as catalog; no Israeli page verified."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.philips.nl/shop/NL_blackfriday_earlyaccess/persoonlijke-verzorging/gezicht-stylers-en-multitrimmers/all-in-one-trimmer-3000-series-9-in-1-trimmer/p/MG3945_15",
+   "publisher": "Philips Netherlands",
+   "kind": "manufacturer",
+   "market": "NL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.coolblue.nl/en/product/970945/philips-series-3000-9-in-1-mg3945-15.html",
+   "publisher": "Coolblue",
+   "kind": "retailer",
+   "market": "NL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן פעולה מירבי",
+     "value": "עד 90 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח אורך חיתוך",
+     "value": "0.5–12 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "label wording",
+     "label": "דיוק חיתוך",
+     "value": "עד 1 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "ליתיום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טעינה",
+     "value": "דרך USB-A (5 V⎓ / ≥1 A)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אזורי שימוש",
+     "value": "פנים, שיער וגוף"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר אביזרים",
+     "value": "9"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Conditional NL warranty ('Tot 5 jaar*'); UK shows 2 years; Israeli warranty is set by the importer.",
+     "label": "אחריות",
+     "value": "עד 5 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "rewritten: quote does not mention body or intimate combs",
+   "text": "מגיע עם 9 אביזרים לעיצוב שיער הפנים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להבי פלדה המשחיזים את עצמם, ללא צורך בשמן להבים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להבים עם קצוות מעוגלים, עדינים לעור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "rewritten: quote does not mention low battery",
+   "text": "נורית חיווי למצב הסוללה ולטעינה מלאה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש המכשיר נשלף וניתן לשטיפה תחת הברז"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "rewritten: quote describes a design, not a specific comb",
+   "text": "עיצוב ייעודי לגיזום עדין של אזורים רגישים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סוללת ליתיום מספקת עד 90 דקות פעולה, וטווח אורך החיתוך הוא 0.5–12 מ״מ. מתאים למי שמחפש מכשיר אחד לעיצוב זקן, תספורת ביתית וגיזום גוף.",
+  "highlights": [
+   "עד 90 דקות פעולה בטעינה",
+   "טווח אורך חיתוך 0.5–12 מ״מ",
+   "9 אביזרים כלולים",
+   "להבי פלדה המשחיזים את עצמם, ללא שמן",
+   "טעינה דרך USB-A"
+  ],
+  "goodFor": [
+   "עיצוב זקן ושפם עם דיוק חיתוך עד 1 מ״מ",
+   "תספורת קצרה בבית",
+   "גיזום שיער גוף, כולל אזורים רגישים",
+   "נסיעות, הודות לטעינה דרך USB-A"
+  ],
+  "considerations": [
+   "הטעינה דרך USB-A – ודאו שיש לכם מתאם USB-A (5 V, לפחות 1 A)",
+   "אורך החיתוך המקסימלי הוא 12 מ״מ – לשיער ארוך יותר נדרש מכשיר אחר",
+   "בדקו את תנאי האחריות בישראל מול היבואן"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובדת הסוללה?",
+    "a": "עד 90 דקות פעולה, עם סוללת ליתיום.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח אורכי החיתוך?",
+    "a": "בין 0.5 ל-12 מ״מ, עם דיוק חיתוך עד 1 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "איך מטעינים את המכשיר?",
+    "a": "דרך חיבור USB-A (5 V⎓ / ≥1 A).",
+    "sources": []
+   },
+   {
+    "q": "האם צריך לשמן את הלהבים?",
+    "a": "לא, להבי הפלדה משחיזים את עצמם ואינם דורשים שמן.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את המכשיר?",
+    "a": "מסירים את הראש ושוטפים אותו תחת הברז.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת תספורת וגוזם 9 ב-1 Philips MG3945/15 לפנים, שיער וגוף: עד 90 דקות פעולה וחיתוך 0.5–12 מ״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Philips MG3945/15",
+   "MG3945",
+   "גוזם פיליפס 9 ב-1",
+   "מכונת תספורת פיליפס",
+   "מעצב זקן פיליפס",
+   "Philips All-in-One Trimmer 3000",
+   "גוזם לפנים ולגוף"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "Li-Ion",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן פעולה מירבי",
+   "catalogValue": "90 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "4 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך חיתוך מינימלי",
+   "catalogValue": "0.5 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך חיתוך מקסימלי",
+   "catalogValue": "12 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דרגות אורך",
+   "catalogValue": "11 (בקפיצות של 1 מ\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "להבי פלדה המשחיזים את עצמם",
+   "catalogValue": "להבי פלדה המשחיזים את עצמם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נוריות חיווי",
+   "catalogValue": "נוריות חיווי למצב סוללה (טעינה וסוללה חלשה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים ניתנים לשטיפה",
+   "catalogValue": "אביזרים ניתנים לשטיפה תחת מים זורמים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "9 ב-1",
+   "catalogValue": "מכשיר משולב 9 ב-1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טעינה דרך USB-A",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "USB-A (5 V⎓ / ≥1 A)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דיוק גזירה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 1 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "היצרן בהולנד מציין עד 5 שנים, Coolblue מציין לפחות שנתיים, ודף Philips בבריטניה מציג אחריות של שנתיים. יש לאמת את תנאי האחריות בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "לא נמצא דף ישראלי שמאשר את הדגם MG3945/15 ואת היבואן הרשמי.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "מידות ומשקל המכשיר לא נמצאו בדף יצרן. מקורות קמעונאיים נותנים ערכים שונים זה מזה, ולכן לא נרשמו.",
+   "severity": "low"
+  },
+  {
+   "field": "battery_type",
+   "issue": "תוצאת חיפוש אחת ציינה סוללת Ni-MH, בעוד דפי היצרן מציינים Lithium. נא לוודא.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "תנאי האחריות שונים בין המקורות (הולנד: עד 5 שנים בתנאים, בריטניה: שנתיים). יש לאמת את האחריות בישראל מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "לא אומת דף ישראלי לדגם MG3945/15 ולא זוהה יבואן רשמי.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "זמן טעינה של 4 שעות ו-11 דרגות אורך בקטלוג לא נתמכו בציטוט מאומת; כדאי לבדוק.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact (manufacturer NL page says 'Tot 5 jaar*' with a condition marker; UK page shows 2 years; Israeli warranty depends on importer). Rewrote feature 0 (quote only supports 9 attachments for facial hair, not body/intimate combs), feature 3 (quote mentions battery status and full charge, not low battery), feature 5 (quote describes a design for sensitive areas, not a specific comb). Minor label/value wording fixes on facts 2 and 4. | code guard removed: summary: \"מכונת תספורת וגוזם משולב 9 ב-1 של Philips מסדרת All-in-One Trimmer 3000, לשימוש בפנים, בשיער ובגוף.\""
+ }
+}

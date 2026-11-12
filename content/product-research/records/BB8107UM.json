@@ -1,0 +1,397 @@
+{
+ "modelNumber": "BB8107UM",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "BB8107UM",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "medium",
+  "notes": "The retailer page names the model BB8107UM and says the importer is Ralco (ראלקו). No manufacturer, EPREL or manual page for this exact model was found. The Ralco site search for the model returned no results. The netoneto page returned HTTP 403, and the x-press page text could not be read reliably. | QA: Only one IL retailer page names the exact model; no manufacturer, EPREL or manual page confirms it. Specs match the catalog name (8 kg, XL door)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%A0%D7%A7%D7%99%D7%95%D7%9F_%D7%95%D7%9B%D7%91%D7%99%D7%A1%D7%94/%D7%9E%D7%9B%D7%95%D7%A0%D7%95%D7%AA_%D7%9B%D7%91%D7%99%D7%A1%D7%94/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA_%D7%9B%D7%91%D7%99%D7%A1%D7%94_%D7%A4%D7%AA%D7%97_%D7%97%D7%96%D7%99%D7%AA_8_%D7%A7%D7%92_1200_%D7%A1%D7%9C%D7%93_blomberg_%D7%93%D7%92%D7%9D_bb8107um_%D7%91%D7%9C%D7%95%D7%9E%D7%91%D7%A8%D7%92",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מהירות סחיטה",
+     "value": "עד 1200 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מנוע",
+     "value": "Pro Smart Inverter"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זווית פתיחת דלת",
+     "value": "עד 170 מעלות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תוף",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 84.5 × 54.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Same page also says A++; needs EPREL or manual.",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תוכניות כביסה",
+     "value": "15"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צג",
+     "value": "דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Generic store-wide warranty text, not a model spec.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פתח XL גדול במיוחד להכנסה והוצאה קלה של הכביסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "15 תוכניות כביסה, כולל תוכנית Cold Wash במים קרים ותוכנית Mini 14 קצרה של 14 דקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טיימר השהיית התחלת כביסה עד 24 שעות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נעילת ילדים שמונעת שיבוש התוכנית במהלך הכביסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed spin-cancel claim not in quote.",
+   "text": "סחיטה מדורגת אוטומטית להפחתת רעשים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גוף חימום בציפוי ניקל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Reworded.",
+   "text": "עומדת בתקן האירופי CE"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [
+   "מנוע Pro Smart Inverter ותוף נירוסטה"
+  ],
+  "goodFor": [
+   "משקי בית שמכבסים כמויות כביסה בינוניות עד גדולות",
+   "מי שמכבס לעיתים קרובות פריטים גדולים כמו מצעים ומגבות, בזכות פתח XL",
+   "מי שרוצה להפעיל את הכביסה בשעה מאוחרת יותר בעזרת טיימר השהייה",
+   "בתים עם ילדים, בזכות נעילת ילדים"
+  ],
+  "considerations": [
+   "דירוג האנרגיה לא אומת במקור אחיד, ולכן כדאי לבדוק אותו על תווית המוצר"
+  ],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Blomberg BB8107UM",
+   "בלומברג BB8107UM",
+   "מכונת כביסה בלומברג 8 קג",
+   "מכונת כביסה 8 קג 1200 סלד",
+   "מכונת כביסה פתח XL",
+   "מכונת כביסה אינוורטר בלומברג",
+   "מכונת כביסה פתח חזית 8 קג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה",
+   "catalogValue": "עד 1200 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 84.5 ס\"מ, רוחב 60 ס\"מ, עומק 54.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "PROSMART INVERTER",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוף",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "47 דציבלים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות כביסה",
+   "catalogValue": "15 תוכניות כולל תוכנית מהירה 14 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר השהייה",
+   "catalogValue": "עד 24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפריט בעברית",
+   "catalogValue": "תפריט בעברית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "נעילת ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכנית קיטור",
+   "catalogValue": "תוכנית קיטור (Steam)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג דיגיטלי",
+   "catalogValue": "צג דיגיטלי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "The store catalog spells the brand 'Bloomberg', but the retailer and manufacturer pages spell it BLOMBERG (בלומברג). Check the brand field.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "The retailer's product description meta text says A++, while its spec text says A. The energy class needs confirmation from EPREL or the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "The catalog says 47 dB. No readable page stated a noise level for this model, so it is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one readable retailer page (traklin.co.il, which names the importer Ralco) gives the spec table. netoneto returned HTTP 403, the x-press text was unreadable, the Ralco site search returned no results, and no manufacturer, EPREL or manual page for this exact model was found. All facts are therefore single-source and will go to review.",
+   "severity": "high"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog spells the brand 'Bloomberg'; the source spells it Blomberg (בלומברג).",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Source page states both A and A++; energy class rejected until confirmed via EPREL or the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "Catalog's 47 dB is not stated in any readable source.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts come from a single IL retailer page; no manufacturer, importer or manual page confirms the exact model.",
+   "severity": "high"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Single source (Traklin, IL retailer naming BB8107UM and importer Ralco). Rejected energy rating (fact 4) because the same page also states A++ in its meta text, so the class is unconfirmed. Rejected warranty (fact 9) because it is a generic store-wide statement, not a model spec. Feature 4 text trimmed to what the quote says (removed spin cancel). Feature 6 reworded to say it meets CE. | code guard removed: summary: \"מכונת כביסה פתח חזית של Blomberg, דגם BB8107UM, בקיבולת 8 ק״ג עם מנוע Pro Smart Inverter ותוף נירוסטה.\"; summary: \"היא סוחטת עד 1200 סל״ד ומציעה 15 תוכניות, כולל תוכנית קצרה של 14 דקות.\"; summary: \"פתח XL ודלת שנפתחת עד 170 מעלות מקלים על הכנסת והוצאת הכביסה.\"; faq: \"מה הקיבולת של Blomberg BB8107UM?\"; faq: \"מה מהירות הסחיטה המרבית?\"; faq: \"מה מידות המכונה?\"; faq: \"האם יש תוכנית כביסה קצרה?\"; faq: \"אפשר לתזמן את תחילת הכביסה?\"; metaDescription: \"מכונת כביסה Blomberg BB8107UM בקיבולת 8 ק״ג עם סחיטה עד 1200 סל״ד, פתח XL ו-15 תוכניות כביסה. בחדד אלקטריק נהריה\"; highlight: \"קיבולת 8 ק״ג עם פתח XL\"; highlight: \"מהירות סחיטה עד 1200 סל״ד\"; highlight: \"15 תוכניות כביסה, כולל Mini 14 של 14 דקות\"; highlight: \"טיימר השהיית התחלה עד 24 שעות\"; consideration: \"יש לוודא שהנישה מתאימה למידות 60 × 84.5 × 54.6 ס״מ, כולל מרווח לצנרת ולחיבורים מאחור\"; consideration: \"כדאי לוודא שיש מקום מול המכונה לפתיחת הדלת עד 170 מעלות\""
+ }
+}

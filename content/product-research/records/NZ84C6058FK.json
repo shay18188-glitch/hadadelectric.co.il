@@ -1,0 +1,370 @@
+{
+ "modelNumber": "NZ84C6058FK",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "NZ84C6058FK",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Samsung Series 6 NZ84C6058FK/U1, 80 cm induction hob with Flex Zone Plus, black. Israeli retailer page for the exact model found; official Israeli importer not named on the pages read. | QA: Samsung UK manufacturer page (NZ84C6058FK/U1) and Israeli retailer Bug both name the exact model; specs match the catalog name (4 zones, Flex Zone Plus, 800 mm width)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/uk/business/cooking-appliances/hobs/nz8500-6-1-80cm-cooktop-flex-zone-plus-wifi-connectivity-smartthings-cooking-auto-connectivity-nz84c6058fk-u1-nz84c6058fk-u1",
+   "publisher": "Samsung Business UK",
+   "kind": "manufacturer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/כיריים-אינדוקציה-4-איזורי-בישול-samsung-5102207nz84c6058fk",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "800 × 48 × 520 מ״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "18.3 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "7.4 kW"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמות עוצמה",
+     "value": "15 + Boost"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From retailer product title naming the exact model.",
+     "label": "מספר אזורי בישול",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says Touch only.",
+     "label": "סוג שליטה",
+     "value": "חוגה ומגע (Dial & Touch)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח הזנה",
+     "value": "220-240 V ~ 50 / 60 Hz"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Retailer-stated only.",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת אחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed 'large and long pans' claim.",
+   "text": "אזור Flex Zone Plus רחב ופתוח עם גופי חימום צפופים יותר, לשימוש בכלי בישול בגדלים שונים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote does not mention remote monitoring or SmartThings.",
+   "text": "קישוריות Wi-Fi"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Bluetooth not in quote.",
+   "text": "חיבור אוטומטי לקולט אדים (Auto Connectivity) – חוסך שליטה נפרדת בקולט ובכיריים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Dropped comparison to older model.",
+   "text": "עובי הכיריים 48 מ״מ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גובה הכיריים כ-44 מ״מ ללא זכוכית הקרמיקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Source text '20cm to 10mm' is inconsistent; cannot publish reliably.",
+   "text": "עובי מינימלי של משטח עבודה ירד מ-20 ס״מ ל-10 מ״מ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Retailer-stated only.",
+   "text": "חיבור חד פאזי ל-25 אמפר או 32 אמפר"
+  }
+ ],
+ "content": {
+  "summary": "ההספק הכולל 7.4 kW עם 15 רמות עוצמה ו-Boost, ושליטה בחוגה ובמגע. מתאימות למי שמחפש כיריים אינדוקציה רחבות עם קישוריות Wi-Fi וחיבור אוטומטי לקולט אדים.",
+  "highlights": [
+   "הספק כולל 7.4 kW",
+   "15 רמות עוצמה + Boost",
+   "שליטה בחוגה ובמגע (Dial & Touch)",
+   "קישוריות Wi-Fi וחיבור אוטומטי לקולט אדים"
+  ],
+  "goodFor": [
+   "מטבח עם מקום לכיריים ברוחב 800 מ״מ",
+   "בישול עם כלים בגדלים שונים באזור ה-Flex Zone Plus",
+   "מי שרוצה שליטה משולבת בקולט האדים ובכיריים"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה במשטח מתאימה למידות 800 × 48 × 520 מ״מ",
+   "החיבור האוטומטי דורש קולט אדים תומך"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק הכולל?",
+    "a": "7.4 kW, עם 15 רמות עוצמה ו-Boost.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הכיריים?",
+    "a": "800 × 48 × 520 מ״מ (רוחב × גובה × עומק).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "NZ84C6058FK",
+   "כיריים אינדוקציה סמסונג",
+   "Samsung NZ84C6058FK",
+   "כיריים אינדוקציה 4 אזורי בישול",
+   "כיריים Flex Zone Plus",
+   "כיריים אינדוקציה Wi-Fi",
+   "כיריים אינדוקציה סמסונג 80 ס״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות (רוחב x גובה x עומק)",
+   "catalogValue": "800x48x520 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "7.4kW",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר אזורי בישול",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "15 + Boost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג שליטה",
+   "catalogValue": "מגע (Touch)",
+   "finding": "corrected",
+   "correctValue": "חיוגים ומגע (Dial & Touch)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi ו-SmartThings",
+   "catalogValue": "קישוריות Wi-Fi עם תמיכה באפליקציית SmartThings",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Auto Connectivity",
+   "catalogValue": "חיבור אוטומטי לקולט אדים באמצעות Bluetooth",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Pause",
+   "catalogValue": "פונקציית השהייה (Pause)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "לא צוין במקורות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "Warranty of one year is stated only on an Israeli retailer page; the manufacturer's Israeli warranty terms were not found.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Official Israeli importer is not named on the pages read; the Israeli variant should be confirmed with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "installation",
+   "issue": "Single-phase 25/32 A supply requirement appears only on an Israeli retailer page and is not confirmed by the manufacturer.",
+   "severity": "medium"
+  },
+  {
+   "field": "Samsung Israel",
+   "issue": "Samsung Israel product page for NZ84C6058FK was not found; the manufacturer page used is the UK business page.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג שליטה",
+   "issue": "Catalog lists Touch control; manufacturer page states Dial & Touch.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Official Israeli importer not named; manufacturer page is the UK /U1 variant, confirm Israeli variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "One-year warranty stated only on an Israeli retailer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "installation",
+   "issue": "Single-phase 25/32 A requirement appears only on a retailer page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature texts trimmed to what the quotes say (removed 'large and long pans', SmartThings remote monitoring claim, Bluetooth mention). Installation 0 reworded to the current thickness only. Installation 2 rejected: source quote '20cm to 10mm' is internally inconsistent. Control type corrected vs catalog (Dial & Touch per manufacturer). | code guard removed: summary: \"כיריים אינדוקציה של Samsung, דגם NZ84C6058FK, ברוחב 800 מ״מ עם 4 אזורי בישול ואזור Flex Zone Plus גמיש.\"; faq: \"כמה אזורי בישול יש בכיריים?\"; faq: \"איזה חיבור חשמל נדרש?\"; metaDescription: \"כיריים אינדוקציה Samsung NZ84C6058FK עם 4 אזורי בישול ו-Flex Zone Plus, הספק 7.4 kW ו-15 רמות עוצמה + Boost. בחדד אלקטריק נהריה\"; highlight: \"4 אזורי בישול כולל אזור Flex Zone Plus\"; consideration: \"נדרש חיבור חד פאזי ל-25 אמפר או 32 אמפר – כדאי לבדוק עם חשמלאי\""
+ }
+}

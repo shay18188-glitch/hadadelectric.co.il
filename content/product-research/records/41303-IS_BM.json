@@ -1,0 +1,267 @@
+{
+ "modelNumber": "41303-IS BM",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "41303-IS-BM",
+  "israeliImporter": "שאוליאן",
+  "matchConfidence": "high",
+  "notes": "Retailer listing BUG (bug.co.il) names model 41303-IS-BM, black matte, 1.7 L, 2200 W, and states official importer Shaulian. No manufacturer or importer page for this exact model was found. | QA: Retailer page names 41303-IS-BM (dashed form of the catalog model 41303-IS BM), black matte, 1.7 L, 2200 W. Only one source; no manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/קומקום-חשמלי-17-ליטר-hamilton-beach-945322527",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור מט"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "22 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "20.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר בסיס",
+     "value": "17 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כיבוי אוטומטי לאחר הרתחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כיבוי אוטומטי במצב של חוסר מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חלון שקוף למד מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מפסק כיבוי והדלקה מואר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מכסה בטיחותי עם נעילה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בסיס מסתובב 360 מעלות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [
+   "כיבוי אוטומטי לאחר הרתחה ובחוסר מים",
+   "חלון שקוף למד מים ומפסק מואר"
+  ],
+  "goodFor": [
+   "מטבח בעיצוב כהה שמתאים לו גימור שחור מט",
+   "מי שמעדיף הגנה מפני הפעלה ללא מים"
+  ],
+  "considerations": [
+   "החלון השקוף מאפשר לבדוק את מפלס המים לפני הרתחה"
+  ],
+  "faq": [
+   {
+    "q": "האם הקומקום נכבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי לאחר הרתחה וכיבוי אוטומטי במצב של חוסר מים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קומקום חשמלי שחור",
+   "קומקום Hamilton Beach",
+   "המילטון ביץ' קומקום",
+   "41303-IS-BM",
+   "קומקום 1.7 ליטר",
+   "קומקום שחור מט",
+   "קומקום נירוסטה שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "22 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "20.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר בסיס",
+   "catalogValue": "17 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Hemilton Beach",
+   "finding": "corrected",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "The catalog brand is spelled Hemilton Beach; the retailer page names the brand Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Only one Israeli retailer page was found for this model (quoted with dashes as 41303-IS-BM). No manufacturer, importer or EPREL page was found, so every fact has a single source and goes to review.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is spelled 'Hemilton Beach'; the retailer page names the brand Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts come from a single Israeli retailer page; no manufacturer or importer page was found.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts and features are quoted from a single Israeli retailer page (BUG) that names model 41303-IS-BM, black matte. Values match the catalog. Catalog brand spelling 'Hemilton Beach' should read 'Hamilton Beach' (flagged). | code guard removed: summary: \"קומקום חשמלי של Hamilton Beach, דגם 41303-IS BM, בגימור שחור מט ובנפח 1.7 ליטר.\"; summary: \"הספק של 2200 W, כיבוי אוטומטי לאחר הרתחה וכיבוי אוטומטי במצב של חוסר מים.\"; summary: \"מתאים למי שמחפש קומקום בנפח מלא עם בסיס מסתובב 360 מעלות ועיצוב כהה למטבח.\"; faq: \"מה הנפח של הקומקום?\"; faq: \"מה ההספק של הקומקום?\"; faq: \"מה מידות הקומקום?\"; metaDescription: \"קומקום חשמלי Hamilton Beach 41303-IS BM בשחור מט: נפח 1.7 ליטר, הספק 2200 W ובסיס מסתובב 360 מעלות. בחדד אלקטריק נהריה\"; highlight: \"נפח מיכל 1.7 ליטר\"; highlight: \"הספק 2200 W\"; highlight: \"בסיס מסתובב 360 מעלות\"; goodFor: \"הרתחת כמות מים גדולה בבת אחת בזכות מיכל של 1.7 ליטר\"; goodFor: \"שימוש נוח לימניים ולשמאליים בזכות בסיס מסתובב 360 מעלות\"; consideration: \"יש לוודא מקום על השיש: גובה 22 ס״מ, רוחב 20.5 ס״מ וקוטר בסיס 17 ס״מ\"; consideration: \"הספק של 2200 W מומלץ לחבר לשקע ייעודי ולא למפצל עמוס\""
+ }
+}

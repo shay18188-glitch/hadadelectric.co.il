@@ -1,0 +1,297 @@
+{
+ "modelNumber": "KX-TGC252",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "KX-TGC252",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "No page naming the exact model was found. Web search budget exhausted; guessed Panasonic URLs returned 404. Manufacturer taken from catalog, unverified. | QA: Only a third-party Iranian spec page names KX-TGC252; no manufacturer or Israeli importer page. Same model code, regional/Israeli variant unverified. | 2026-11-12: Owner photographed the box: Panasonic KX-TGC252, digital cordless, twin kit with two handsets, call blocking."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zoomit.ir/product/panasonic-kx-tgc252/",
+   "publisher": "www.zoomit.ir",
+   "kind": "review",
+   "market": "unknown",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "owner:packaging-photo",
+   "publisher": "חדד יובל אלקטריק – בעל החנות",
+   "kind": "owner",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טווח שלוחה",
+     "value": "עד 50 מטר בתוך מבנה ועד 300 מטר בשטח פתוח"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote says قلمی (AA), not AAA; size removed.",
+     "label": "סוללות השלוחה",
+     "value": "2 סוללות נטענות מסוג Ni-MH"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן דיבור",
+     "value": "עד 16 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן המתנה",
+     "value": "עד 200 שעות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "1.6 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציית מסך",
+     "value": "65 × 103 פיקסלים"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חסימת מספרים",
+     "value": "עד 30 מספרים"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר שלוחות",
+     "value": "2 (ערכת Twin)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Axis order in label did not fit values; removed.",
+     "label": "מידות שלוחה",
+     "value": "30 × 47 × 164 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "Panasonic KX-TGC252"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג",
+     "value": "טלפון אלחוטי דיגיטלי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אינטרקום – שיחות פנימיות בין השלוחות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חסימת שיחות ממספרים לא רצויים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שתי שלוחות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "טלפון אלחוטי דיגיטלי Panasonic KX-TGC252 בערכה של שתי שלוחות (Twin), עם אפשרות לחסום שיחות ממספרים לא רצויים. מתאים לבית או למשרד קטן שצריכים שתי עמדות טלפון.",
+  "highlights": [
+   "ערכה עם שתי שלוחות",
+   "טלפון אלחוטי דיגיטלי",
+   "חסימת שיחות ממספרים לא רצויים"
+  ],
+  "goodFor": [
+   "בית שבו צריך טלפון ביותר מחדר אחד",
+   "מי שמקבל שיחות טלמרקטינג ורוצה לחסום מספרים"
+  ],
+  "considerations": [
+   "יש לוודא שיש בבית קו טלפון נייח ושקע חשמל ליד נקודת הבסיס"
+  ],
+  "faq": [
+   {
+    "q": "כמה שלוחות יש בערכה?",
+    "a": "שתי שלוחות.",
+    "sources": [
+     "s2"
+    ]
+   },
+   {
+    "q": "אפשר לחסום מספרים לא רצויים?",
+    "a": "כן, הטלפון מאפשר חסימת שיחות ממספרים לא רצויים.",
+    "sources": [
+     "s2"
+    ]
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון אלחוטי דיגיטלי Panasonic KX-TGC252, ערכה עם שתי שלוחות וחסימת שיחות לא רצויות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Panasonic KX-TGC252",
+   "KX-TGC252",
+   "טלפון אלחוטי פנסוניק",
+   "טלפון אלחוטי עם שלוחה",
+   "טלפון אלחוטי 2 שלוחות",
+   "טלפון אלחוטי לבית",
+   "טלפון עם חסימת שיחות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "DECT",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מסך",
+   "catalogValue": "צג מואר בגודל 1.6 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "עד 16 שעות דיבור ו-200 המתנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אינטרקום",
+   "catalogValue": "אינטרקום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלוחות",
+   "catalogValue": "שתי שלוחות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חסימת שיחות מטרידות",
+   "catalogValue": "Call Block",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog DECT technology claim could not be verified from sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-12",
+  "verdict": "pass-with-fixes",
+  "notes": "Single source (zoomit.ir, Iranian spec/review site) naming the model. Fact 1: quote says 'قلمی' (AA size), not AAA - removed the AAA size claim. Fact 8: axis order W×H×D does not match the values (164 mm is the handset length) - label changed to plain handset dimensions. No manufacturer or Israeli source. | code guard removed: summary: \"Panasonic KX-TGC252 היא מערכת טלפון אלחוטית עם 2 שלוחות, לבית או למשרד קטן.\"; summary: \"כל שלוחה מציעה עד 16 שעות דיבור ועד 200 שעות המתנה, מסך 1.6 אינץ' וטווח של עד 50 מטר בתוך מבנה.\"; faq: \"כמה שלוחות כוללת הערכה?\"; faq: \"כמה זמן מחזיקה הסוללה?\"; faq: \"אפשר לחסום מספרים מטרידים?\"; metaDescription: \"טלפון אלחוטי Panasonic KX-TGC252 עם 2 שלוחות, עד 16 שעות דיבור וחסימה של עד 30 מספרים. מגיע עם אינטרקום פנימי – בחדד אלקטריק נהריה\"; highlight: \"2 שלוחות אלחוטיות\"; highlight: \"עד 16 שעות דיבור ועד 200 שעות המתנה\"; highlight: \"טווח עד 50 מטר בתוך מבנה ועד 300 מטר בשטח פתוח\"; highlight: \"חסימה של עד 30 מספרים\"; consideration: \"הטווח בתוך מבנה הוא עד 50 מטר וקירות עלולים לקצר אותו\"; consideration: \"השלוחה פועלת על 2 סוללות נטענות Ni-MH שיש להחליף עם הזמן\" | 2026-11-12 store owner: box photo: KX-TGC252, digital cordless, twin kit (2 handsets), call blocking"
+ }
+}

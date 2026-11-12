@@ -1,0 +1,305 @@
+{
+ "modelNumber": "MC708",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "MC708",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only one retailer page (BUG) names this model; it is written MC-708 with a hyphen and SKU 9376652442. Page says יבואן רשמי: כן but does not name the importer; warranty is handled by a party named קלינטון. Brand search and manual search found nothing else for this model; homecenter returned HTTP 429. | QA: Israeli retailer page names MC-708 (catalog MC708, hyphen only); capacity, power, voltage, speeds and dimensions all match the catalog. Importer not named."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/קוצץ-מזון-28-ליטר-normande-9376652442",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Value set to brand name as written in quote",
+     "label": "יצרן",
+     "value": "Normande"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל",
+     "value": "2.8 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח הפעלה",
+     "value": "220-240V 50-60Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מהירויות הפעלה",
+     "value": "שלוש מהירויות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "28 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "17 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק",
+     "value": "19 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת האחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מיכל זכוכית שקוף בנפח 2.8 ליטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "קיצוץ מגוון סוגי מזון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "להב נירוסטה בעל שכבה כפולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Retailer marketing claim",
+   "text": "רעש נמוך בזמן העבודה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "הקוצץ מציע שלוש מהירויות הפעלה ולהב נירוסטה בעל שכבה כפולה לקיצוץ מגוון סוגי מזון. מתאים למי שמחפש קוצץ שולחני עם מיכל זכוכית גדול להכנות יומיומיות במטבח.",
+  "highlights": [
+   "שלוש מהירויות הפעלה",
+   "להב נירוסטה בעל שכבה כפולה"
+  ],
+  "goodFor": [
+   "קיצוץ ירקות, בצל ועשבי תיבול להכנת סלטים ותבשילים",
+   "מי שמעדיף מיכל זכוכית שקוף שמאפשר לראות את מרקם הקיצוץ"
+  ],
+  "considerations": [
+   "מיכל הזכוכית דורש זהירות בשטיפה ובאחסון",
+   "האחריות לשנה, בכפוף לתעודת האחריות"
+  ],
+  "faq": [
+   {
+    "q": "כמה מהירויות יש לקוצץ?",
+    "a": "לקוצץ שלוש מהירויות הפעלה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה, בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קוצץ ירקות",
+   "קוצץ מזון חשמלי",
+   "Normande MC708",
+   "נורמנדה קוצץ",
+   "קוצץ קערת זכוכית",
+   "קוצץ 2.8 ליטר",
+   "קוצץ 500 וואט",
+   "MC-708"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "2.8 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "500 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V 50-60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות הפעלה",
+   "catalogValue": "3 מהירויות הפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 28 ס\"מ, גובה 17 ס\"מ, עומק 19 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רעש",
+   "catalogValue": "רעש נמוך בזמן העבודה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "The catalog name says קוצץ ירקות, but the manufacturer and retailer call this model קוצץ מזון (food processor).",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The retailer page writes the model as MC-708 with a hyphen; the catalog writes MC708. Only one site was found, so this is probably the same model but should be checked.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The retailer page says יבואן רשמי: כן but does not name the importer. Warranty is handled by a party named קלינטון, which is not confirmed as the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one retailer page was reached for this model. Facts are not confirmed by a second site or a manufacturer or importer page. The brand site search and a manual search found nothing, and homecenter returned HTTP 429.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts come from a single Israeli retailer page; no manufacturer or importer page confirms them.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Retailer writes the model as MC-708; catalog writes MC708. Likely the same unit, should be checked.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Importer not named; warranty is by a party named קלינטון, not confirmed as importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog calls it קוצץ ירקות; the retailer calls it קוצץ מזון.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts rest on a single Israeli retailer page (BUG) naming MC-708. Manufacturer value set to the brand name as quoted (Normande). Voltage label kept; quote shows a typo 'AV220-240V', value published as 220-240V 50-60Hz. Low-noise feature is a marketing claim; kept as feature but not used in content. | code guard removed: summary: \"קוצץ מזון חשמלי של Normande, דגם MC708, עם מיכל זכוכית שקוף בנפח 2.8 ליטר ומנוע בהספק 500 W.\"; faq: \"מה נפח המיכל של הקוצץ?\"; faq: \"מה ההספק של המנוע?\"; metaDescription: \"קוצץ מזון Normande MC708 עם מיכל זכוכית 2.8 ליטר ומנוע 500 W, שלוש מהירויות ולהב נירוסטה. ייעוץ ומכירה בחדד אלקטריק נהריה\"; highlight: \"מיכל זכוכית שקוף בנפח 2.8 ליטר\"; highlight: \"מנוע בהספק 500 W\"; highlight: \"מידות: 28 × 17 × 19 ס״מ (רוחב × גובה × עומק)\"; goodFor: \"הכנת כמויות גדולות בבת אחת בזכות מיכל של 2.8 ליטר\"; consideration: \"יש לוודא מקום על השיש או בארון למכשיר במידות 28 × 17 × 19 ס״מ\""
+ }
+}

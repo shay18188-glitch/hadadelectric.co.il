@@ -1,0 +1,344 @@
+{
+ "modelNumber": "GENUINE LM240B25",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Moulinex",
+  "exactModel": "LM240B25",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "No manufacturer, Israeli importer or manual page found for this exact model. Only retailer listings from Tunisia and Bangladesh name it, and they disagree on power and jar capacity. | QA: Model LM240B25 named on Tunisian and Bangladeshi retailer pages; no manufacturer or Israeli page. Israeli variant unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://spacenet.tn/blenders/19170-blender-genuine-500-w-moulinex-lm240b25.html",
+   "publisher": "Spacenet (Tunisia)",
+   "kind": "retailer",
+   "market": "TN",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://mke.com.bd/moulinex-blender-lm240b25-500w-1-75l-genuine-expert-no-mill",
+   "publisher": "M.K. Electronics (Bangladesh)",
+   "kind": "retailer",
+   "market": "BD",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "500 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח",
+     "value": "230 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "1 + פולס (Pulse)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר הלהבים",
+     "value": "נירוסטה (אל-חלד)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote does not specify jar",
+     "label": "חומר",
+     "value": "פלסטיק"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Spacenet's 1.25L is mixer/working capacity, consistent with catalog",
+     "label": "קיבולת קנקן",
+     "value": "1.75 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Axis order not stated in quote",
+     "label": "מידות",
+     "value": "31.3 × 30.9 × 18.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "2.02 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Bangladeshi retailer warranty terms, not applicable in Israel",
+     "label": "אחריות יצרן",
+     "value": "שנה (שירות בלבד)"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "הבלנדר מציע מהירות אחת ופונקציית פולס, עם להבי נירוסטה. מתאים למי שמחפש בלנדר פשוט לשייקים, מרקים ורטבים במטבח הביתי.",
+  "highlights": [
+   "הספק 500 W",
+   "מהירות אחת + פולס",
+   "להבי נירוסטה",
+   "צבע לבן"
+  ],
+  "goodFor": [
+   "הכנת שייקים ומיצים בבית",
+   "מי שמעדיף הפעלה פשוטה עם מהירות אחת ופולס",
+   "מטבח שבו נדרש בלנדר קל לאחסון"
+  ],
+  "considerations": [
+   "יש רק מהירות אחת ופולס, ללא תוכניות אוטומטיות",
+   "הקנקן עשוי פלסטיק ולא זכוכית"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "הספק הבלנדר הוא 500 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש לבלנדר?",
+    "a": "לבלנדר מהירות אחת ופונקציית פולס.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויים הלהבים?",
+    "a": "הלהבים עשויים נירוסטה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "בלנדר מולינקס",
+   "Moulinex LM240B25",
+   "בלנדר 500 וואט",
+   "בלנדר קנקן פלסטיק",
+   "מולינקס GENUINE",
+   "בלנדר לשייקים",
+   "בלנדר 1.75 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "500 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת קנקן כוללת",
+   "catalogValue": "1.75 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת עבודה",
+   "catalogValue": "1.25 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "1 + פונקציית פולס (Pulse)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "4 להבי Zelkrom מפלדת אל-חלד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר הקנקן",
+   "catalogValue": "פלסטיק",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "2.02 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "31.3x30.9x18.3 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Sources conflict on power: Spacenet and M.K. Electronics list 500 W, while a Tunisian listing titled Blender Moulinex Genuine LM240B25 / 450W gives 450 W. Check the box or the regional label.",
+   "severity": "high"
+  },
+  {
+   "field": "קיבולת קנקן כוללת",
+   "issue": "Catalog says 1.75 L total jar capacity and 1.25 L working capacity. M.K. Electronics says 1.75 LTR jar, but Spacenet says 1.25L mixer capacity. Tunisian listings give 1.5 L. Verify on the physical product.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer, Moulinex Israel or importer page names LM240B25. The model appears only on retailer listings in Tunisia and Bangladesh, which suggests a non-Israeli regional variant. The Israeli variant and plug rating are unclear.",
+   "severity": "high"
+  },
+  {
+   "field": "שם מוצר",
+   "issue": "The catalog name says 500 וואט and 1.75 ליטר, which matches only one of the conflicting retailer sources. Check the name against the manufacturer's sheet once a manufacturer page is found.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "Catalog gives a 220-240V range. The only quote found says 230 Volts from a Bangladeshi retailer. Confirm the mains voltage for the Israeli unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר להבים",
+   "issue": "Catalog claims 4 Zelkrom blades. No source found confirms the blade count or the Zelkrom name.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Only Tunisian and Bangladeshi retailer pages name LM240B25; no manufacturer or Israeli importer page. Israeli variant and plug type unclear.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Researcher reported another Tunisian listing at 450 W. Confirm power on the unit label.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת עבודה",
+   "issue": "Catalog 1.25 L working capacity matches Spacenet's 'mixer capacity 1.25L' but is not confirmed as working capacity; other listings mention 1.5 L.",
+   "severity": "medium"
+  },
+  {
+   "field": "להבים",
+   "issue": "Catalog claims 4 Zelkrom blades; no source confirms blade count or Zelkrom name.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "Catalog 220-240V; source states 230 V only.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (Bangladeshi retailer service terms, not Israeli). Dimensions label changed to generic since the quote does not state axis order. Material label made generic since the quote does not say it refers to the jar. Identity medium: only foreign retailer pages name the model. | code guard removed: summary: \"בלנדר Moulinex GENUINE LM240B25 בהספק 500 W עם קנקן פלסטיק בקיבולת 1.75 ליטר.\"; faq: \"מה קיבולת הקנקן?\"; metaDescription: \"בלנדר Moulinex GENUINE LM240B25 בהספק 500 W עם קנקן 1.75 ליטר, מהירות אחת ופולס ולהבי נירוסטה. לפרטים והזמנה בחדד אלקטריק נהריה\"; highlight: \"קנקן בקיבולת 1.75 ליטר\"; consideration: \"מידות המכשיר 31.3 × 30.9 × 18.3 ס״מ – כדאי לוודא מקום אחסון על השיש או בארון\""
+ }
+}

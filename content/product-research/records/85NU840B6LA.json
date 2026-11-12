@@ -1,0 +1,362 @@
+{
+ "modelNumber": "85NU840B6LA",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "85NU840B6LA",
+  "israeliImporter": "LG Israel",
+  "matchConfidence": "high",
+  "notes": "טלוויזיה חכמה 85 אינץ' מסדרת NANO UHD AI NU84, דור 2026. מפרט מ-LG ישראל ומטרקלין; שורת מפרט באנגלית מדף LG איחוד האמירויות. | QA: דף LG ישראל ודף טרקלין נוקבים בדגם 85NU840B6LA המדויק, 85 אינץ'."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lg.com/il/tv/lg-85nu840b6la",
+   "publisher": "LG Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/product.aspx?id=22072",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "85NU840B6LA"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג תצוגה",
+     "value": "4K NANO UHD"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3,840 × 2,160 (4K Ultra HD)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 הרץ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג תאורה",
+     "value": "Direct LED"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "פורמטי HDR",
+     "value": "HDR10 / HLG"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "alpha 7 AI 4K Gen9"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "webOS 26"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "הקטלוג מציין 2",
+     "label": "כניסות HDMI",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסות USB",
+     "value": "1 (USB 2.0)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "בלוטות׳",
+     "value": "כן (גרסה 5.3)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "29.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מרחק בין הרגליות",
+     "value": "156.5 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "הוסר 'וצליל' שאינו בציטוט",
+   "text": "מעבד alpha 7 AI 4K Gen9 לעיבוד תמונה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "HLG אינו מופיע בציטוט התכונה",
+   "text": "תמיכה בפורמט HDR10 Pro"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה למי שמחפש מסך גדול מאוד לסלון לצפייה בתוכן 4K ובאפליקציות סטרימינג.",
+  "highlights": [
+   "מעבד תמונה alpha 7 AI 4K Gen9"
+  ],
+  "goodFor": [
+   "סלון גדול שבו רוצים מסך 85 אינץ' לצפייה משפחתית",
+   "צפייה בתוכן 4K ו-HDR מאפליקציות סטרימינג דרך webOS"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "אילו פורמטי HDR נתמכים?",
+    "a": "הטלוויזיה תומכת ב-HDR10 וב-HLG.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "LG 85NU840B6LA",
+   "טלוויזיה LG 85 אינץ'",
+   "LG NANO 85 אינץ'",
+   "טלוויזיה 85 אינץ' 4K",
+   "LG NU84",
+   "טלוויזיה חכמה webOS",
+   "85NU840B6LA מחיר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "85 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "3840x2160 (4K UHD)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "2 יציאות HDMI, יציאת USB אחת",
+   "finding": "corrected",
+   "correctValue": "3 כניסות HDMI, כניסת USB אחת",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות (כולל מעמד)",
+   "catalogValue": "1890x1148x362 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית תצוגה",
+   "catalogValue": "NanoCell",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDR10 ו-HLG",
+   "catalogValue": "HDR10 ו-HLG",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מעבד תמונה מבוסס AI",
+   "catalogValue": "מעבד תמונה מבוסס בינה מלאכותית (AI)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה webOS",
+   "catalogValue": "טלוויזיה חכמה עם מערכת הפעלה webOS",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "חיבורים",
+   "issue": "הקטלוג מציין 2 יציאות HDMI; דף טרקלין ודף LG מציינים 3 כניסות HDMI.",
+   "severity": "medium"
+  },
+  {
+   "field": "טכנולוגיית תצוגה",
+   "issue": "הקטלוג מציין NanoCell; הדפים מציינים 4K NANO UHD ולא את המונח NanoCell.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "רוחב כולל מעמד (1890 מ\"מ) לא אומת בדפים שנקראו; גובה 114.8 ס\"מ ועומק 36.2 ס\"מ כן מופיעים בדף טרקלין.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט",
+   "issue": "שורת המפרט המלאה בדף LG ישראל נטענת דינמית ולא נקראה; חלק מהערכים נלקחו מדף LG איחוד האמירויות (וריאנט שוק שונה).",
+   "severity": "medium"
+  },
+  {
+   "field": "חיבורים",
+   "issue": "הקטלוג מציין 2 יציאות HDMI; דף טרקלין מציין 3 כניסות HDMI.",
+   "severity": "medium"
+  },
+  {
+   "field": "טכנולוגיית תצוגה",
+   "issue": "הקטלוג מציין NanoCell; המקורות מציינים 4K NANO UHD ותאורת Direct LED, ללא המונח NanoCell.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות כולל מעמד בקטלוג (1890×1148×362 מ״מ) לא אומתו בציטוטים.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות אומתו מול ציטוטים תקינים. תכונה 1 תוקנה: הציטוט מזכיר HDR10 Pro בלבד, לכן הוסר HLG מהתכונה (HLG נשאר בעובדת פורמטי HDR). הקטלוג מציין 2 יציאות HDMI בעוד הדף מציין 3. | code guard removed: summary: \"LG 85NU840B6LA היא טלוויזיה חכמה בגודל 85 אינץ' מסדרת NANO UHD, ברזולוציית 4K Ultra HD וקצב רענון של 60 הרץ.\"; summary: \"היא מבוססת על מעבד alpha 7 AI 4K Gen9 ומערכת webOS 26, עם תמיכה ב-HDR10 ו-HLG.\"; faq: \"כמה כניסות HDMI יש בטלוויזיה LG 85NU840B6LA?\"; faq: \"איזו מערכת הפעלה מותקנת בטלוויזיה?\"; faq: \"כמה שוקלת הטלוויזיה ללא מעמד?\"; faq: \"האם יש בטלוויזיה Wi-Fi ובלוטות׳?\"; metaDescription: \"טלוויזיה חכמה LG 85NU840B6LA בגודל 85 אינץ' NANO 4K UHD עם מעבד alpha 7 AI 4K Gen9 ומערכת webOS 26. בחדד אלקטריק נהריה\"; highlight: \"מסך 85 אינץ' ברזולוציית 4K Ultra HD (3,840 × 2,160)\"; highlight: \"מערכת הפעלה webOS 26\"; highlight: \"3 כניסות HDMI ו-Wi-Fi 5\"; highlight: \"בלוטות׳ גרסה 5.3\"; goodFor: \"חיבור כמה מכשירים במקביל, כמו ממיר, קונסולה ומקרן קול, דרך 3 כניסות HDMI\"; consideration: \"משקל המסך ללא מעמד הוא 29.6 ק״ג – בהתקנה על הקיר יש לוודא קיר ומתקן תלייה מתאימים\"; consideration: \"המרחק בין הרגליות הוא 156.5 ס״מ – כדאי לוודא שהשידה רחבה מספיק להצבה על רגליות\"; consideration: \"קצב הרענון הוא 60 הרץ – כדאי לקחת זאת בחשבון אם הכוונה לגיימינג תובעני\"; consideration: \"יש כניסת USB אחת בלבד (USB 2.0)\""
+ }
+}

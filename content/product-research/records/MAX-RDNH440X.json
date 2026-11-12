@@ -1,0 +1,344 @@
+{
+ "modelNumber": "MAX-RDNH440X",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Maxwell",
+  "exactModel": "MAX-RDNH440X",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Exact model found on two retailer pages (Algeria, Tunisia). Manufacturer pages (maxwell-grp.com) were under maintenance and could not be read. No Israeli importer or Hebrew spec page found. | QA: Exact model code MAX-RDNH440X found on Algerian and Tunisian retailer pages, both giving 440 L total. The catalog name says 329 L, silver and Clinton, so the Israeli variant is unclear. The 440 in the model code supports the sources."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://chaktech.tn/category/refrigirateur-electromenager",
+   "publisher": "ChakTech",
+   "kind": "retailer",
+   "market": "TN",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://webstar-electro.com/refrigerateurs/?fiche=fiche-technique-refrigerateurs-maxwell-rdnh440x-algerie&item=19348533&id_famille=21965&id_fiche=1",
+   "publisher": "Webstar Electro",
+   "kind": "retailer",
+   "market": "DZ",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Maxwell"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "MAX-RDNH440X"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog name (329 L)",
+     "label": "קיבולת נטו כוללת",
+     "value": "440 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת נטו מקרר",
+     "value": "340 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת נטו מקפיא",
+     "value": "100 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר מדפים",
+     "value": "5"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר מגירות",
+     "value": "1"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "65 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "176 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק",
+     "value": "63.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "57 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog name says silver",
+     "label": "גימור",
+     "value": "נירוסטה (Inox)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית קירור",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "הפשרה אוטומטית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Reworded: Congélation rapide = fast freeze",
+   "text": "הפשרה אוטומטית והקפאה מהירה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed claim about humidity not in quote",
+   "text": "קירור מאוורר בטכנולוגיית No Frost"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר Maxwell דגם MAX-RDNH440X בטכנולוגיית No Frost עם קירור מאוורר והפשרה אוטומטית.",
+  "highlights": [
+   "קיבולת כוללת 440 ליטר",
+   "No Frost עם הפשרה אוטומטית",
+   "הקפאה מהירה"
+  ],
+  "goodFor": [
+   "מי שרוצה מקרר No Frost בלי צורך בהפשרה ידנית",
+   "מי שמקפיא מזון בתדירות ונהנה מהקפאה מהירה"
+  ],
+  "considerations": [
+   "ודאו עם הצוות בחנות את הקיבולת והגימור של הדגם הנמכר בישראל"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך להפשיר את המקרר?",
+    "a": "לא, המקרר עובד בטכנולוגיית No Frost עם הפשרה אוטומטית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מקרר מקסוול",
+   "Maxwell MAX-RDNH440X",
+   "מקרר No Frost",
+   "מקרר 440 ליטר",
+   "מקרר מקפיא עליון",
+   "מקרר נירוסטה",
+   "MAX-RDNH440X"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "MAXWELL",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דגם",
+   "catalogValue": "MAX-RDNH440X",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "329 ליטר",
+   "finding": "corrected",
+   "correctValue": "440 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף",
+   "finding": "corrected",
+   "correctValue": "אינוקס",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקפיא עליון",
+   "catalogValue": "מקפיא עליון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית קירור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "No Frost",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קיבולת",
+   "issue": "The catalog name says 329 ליטר, but both retailer pages give 440 L total (340 L fridge and 100 L freezer). Check the capacity before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says כסוף (silver) and includes the brand name קלינטון. The sources say Inox and name the brand as Maxwell. Verify the name and finish.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקפיא עליון",
+   "issue": "The catalog name says top freezer. No source confirms the freezer position; the sources give only the fridge and freezer capacities.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Hebrew spec page was found. All sources are Algerian and Tunisian retailers. The Maxwell group pages were under maintenance. Dimensions and weight come from one retailer only.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "The catalog name says 329 ליטר, but both sources give 440 L total (340 L fridge and 100 L freezer). Check which unit is sold.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says silver (כסוף) and Clinton (קלינטון). The sources say Inox and Maxwell. Verify the finish and the brand.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקפיא עליון",
+   "issue": "No source confirms that the freezer is on top.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Hebrew source was found. All sources are North African retailers. The Israeli variant is unclear.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Corrected color wording (Inox -> נירוסטה). Feature 0 reworded to 'הפשרה אוטומטית והקפאה מהירה' to match quote. Feature 1 reworded: quote does not say the air is not humid, only that it is a ventilated No Frost system. Catalog name capacity (329 L) and color (silver) contradict sources (440 L, Inox); flagged. | code guard removed: summary: \"הקיבולת הכוללת 440 ליטר: 340 ליטר במקרר ו-100 ליטר במקפיא.\"; summary: \"מידות 65×176×63.5 ס״מ (רוחב×גובה×עומק), מתאים למי שמחפש מקרר שאינו דורש הפשרה ידנית.\"; faq: \"מה הקיבולת של המקרר?\"; faq: \"מה מידות המקרר?\"; faq: \"כמה מדפים ומגירות יש?\"; metaDescription: \"מקרר Maxwell MAX-RDNH440X בטכנולוגיית No Frost, קיבולת 440 ליטר עם הפשרה אוטומטית והקפאה מהירה. מידות 65×176 ס״מ. בחדד אלקטריק נהריה\"; highlight: \"340 ליטר מקרר ו-100 ליטר מקפיא\"; highlight: \"5 מדפים ומגירה אחת\"; goodFor: \"מטבח עם נישה ברוחב 65 ס״מ לפחות\"; consideration: \"מדדו את הנישה: רוחב 65 ס״מ, גובה 176 ס״מ ועומק 63.5 ס״מ, והשאירו מרווח לאוורור\"; consideration: \"משקל המקרר 57 ק״ג, כדאי לתכנן את ההובלה והכניסה למטבח\""
+ }
+}

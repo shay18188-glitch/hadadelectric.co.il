@@ -1,0 +1,422 @@
+{
+ "modelNumber": "HB1000",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "HB1000",
+  "israeliImporter": "אלקטרה סחר",
+  "matchConfidence": "high",
+  "notes": "Sauter HB1000 stick blender (בלנדר מוט) with 1000 W motor, sold in Israel. Pages name the exact model HB1000. Other 'HB1000' products (Hyundai 3-in-1 hand blender, CASO Design HB 1000) are different brands and were not used. No manufacturer or importer product page was found; all sources are Israeli retailers or price comparison sites. | QA: All four Israeli pages name Sauter HB1000 stick blender at 1000 W with chopper and whisk, consistent with the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lastprice.co.il/p/93017861/בלנדר-מוט-כולל-אביזרים-Sauter/Sauter-HB1000",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.shopelectrons.co.il/product/%E2%80%8F%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%9E%D7%95%D7%98-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%A1%D7%90%D7%95%D7%98%D7%A8-sauter-hb1000/",
+   "publisher": "ShopElectrons",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1089687",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-blender&productid=1089687",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "אלקטרה סחר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog claims continuous electronic regulator",
+     "label": "מספר מהירויות",
+     "value": "2"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Subjective marketing claim",
+     "label": "מנוע",
+     "value": "שקט ועוצמתי"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 800 ml",
+     "label": "נפח כוס ערבול ומדידה",
+     "value": "700 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר להב",
+     "value": "נירוסטה (אל חלד), להב משונן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "ShopElectrons says two years from Electra",
+     "label": "אחריות יבואן",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מוט בלנדר להכנת קוקטיילים, שייקים ולערבול מזון חם וקר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מתאים לשימוש במרקים חמים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מוט מתפרק לניקוי יסודי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כולל קוצץ ומקציף"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 2",
+   "text": "מוט מתפרק לניקוי יסודי"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 1",
+   "text": "מיוחד לשימוש למרקים חמים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כוס ערבול ומדידה 700 מ״ל"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיני קערה לעיבוד מזון"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר מוט של Sauter בהספק 1000 W, עם 2 מהירויות ולהב משונן מנירוסטה. בערכה קוצץ, מקציף, מיני קערה לעיבוד מזון וכוס ערבול ומדידה של 700 מ״ל. מתאים למי שמכין שייקים, רטבים ומרקים חמים ישירות בסיר ורוצה גם לקצוץ ולהקציף באותו מכשיר.",
+  "highlights": [
+   "הספק 1000 W",
+   "2 מהירויות",
+   "להב משונן מנירוסטה",
+   "כוס ערבול ומדידה 700 מ״ל בערכה",
+   "כולל קוצץ, מקציף ומיני קערה לעיבוד מזון"
+  ],
+  "goodFor": [
+   "טחינת מרקים חמים ישירות בסיר",
+   "הכנת שייקים וקוקטיילים",
+   "קיצוץ קטן במיני קערה והקצפה עם המקציף",
+   "מי שמעדיף מוט מתפרק שקל לנקות"
+  ],
+  "considerations": [
+   "יש 2 מהירויות ולא ווסת רציף – כדאי לוודא שזה מספיק לשימוש שלכם",
+   "כוס הערבול שבערכה היא 700 מ״ל – לכמויות גדולות יותר עובדים בסיר או בקערה",
+   "משך האחריות מופיע אחרת באתרים שונים – כדאי לבדוק מול היבואן אלקטרה סחר"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Sauter HB1000?",
+    "a": "ההספק הוא 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בו במרק חם?",
+    "a": "כן, המוט מיועד לערבול מזון חם וקר, כולל מרקים חמים.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בערכה?",
+    "a": "קוצץ, מקציף, מיני קערה לעיבוד מזון וכוס ערבול ומדידה של 700 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש?",
+    "a": "2 מהירויות.",
+    "sources": []
+   },
+   {
+    "q": "מי היבואן בישראל?",
+    "a": "אלקטרה סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Sauter HB1000 בהספק 1000 W, עם קוצץ, מקציף וכוס ערבול 700 מ״ל. מוט מתפרק לניקוי ומתאים למרקים חמים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט Sauter",
+   "Sauter HB1000",
+   "בלנדר מוט 1000 וואט",
+   "בלנדר מוט עם קוצץ ומקציף",
+   "בלנדר מוט למרקים",
+   "סאוטר בלנדר מוט",
+   "בלנדר ידני נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Sauter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להבים מנירוסטה",
+   "catalogValue": "להבי הבלנדר עשויים פלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כוס מדידה",
+   "catalogValue": "כוס מדידה בנפח 800 מ\"ל",
+   "finding": "corrected",
+   "correctValue": "700 מ\"ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזר קיצוץ",
+   "catalogValue": "אביזר קיצוץ (קוצץ) בנפח 500 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזר מקצף נירוסטה",
+   "catalogValue": "אביזר מקצף נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ווסת מהירות",
+   "catalogValue": "ווסת מהירות אלקטרוני לשליטה רציפה בעוצמה",
+   "finding": "contradicted",
+   "correctValue": "2 מהירויות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כפתור טורבו",
+   "catalogValue": "כפתור טורבו",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף ומוט מנירוסטה",
+   "catalogValue": "גוף המכשיר ומוט הבלנדר עשויים מנירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מוצא",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יבואן רשמי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אלקטרה סחר",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "Sources conflict on the warranty period: LastPrice, Zap and Wisebuy say one year from the official importer, while ShopElectrons says two years. Confirm with the importer before publishing a warranty length.",
+   "severity": "medium"
+  },
+  {
+   "field": "מהירויות",
+   "issue": "The catalog says the speed is an electronic continuously variable regulator, but the retailer pages say 2 speeds. Check the physical product.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "One Wisebuy user review says the unit is rated 1000 W but gives about 600 W in practice. This is a single consumer account, not a test. The rating itself is confirmed by several retailers.",
+   "severity": "low"
+  },
+  {
+   "field": "קיצוץ 500 מ\"ל",
+   "issue": "The catalog's 500 ml chopper capacity and the stainless shaft and body claims were not found on any fetched page. Check the physical product or the importer's manual.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "No dimensions or weight were found on any fetched page. The importer and manufacturer product pages were not reachable through search.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "LastPrice and Zap say one year importer warranty; ShopElectrons says two years from Electra. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מהירויות",
+   "issue": "Catalog describes a continuous electronic speed regulator, retailers say 2 speeds. Check the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "כוס מדידה",
+   "issue": "Catalog says 800 ml measuring cup; all sources say 700 ml.",
+   "severity": "medium"
+  },
+  {
+   "field": "קוצץ / גוף נירוסטה / טורבו",
+   "issue": "Catalog 500 ml chopper capacity, stainless body and shaft, and turbo button were not found in any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Warranty length set to conflict (one year on LastPrice/Zap vs two years on ShopElectrons). Rejected the subjective motor claim (quiet and powerful). Rejected duplicate features 4 and 5 (same as 2 and 1). Zap and Wisebuy relabelled as other (price comparison sites). Catalog says 800 ml measuring cup; sources say 700 ml. Catalog says continuous electronic speed control; sources say 2 speeds."
+ }
+}

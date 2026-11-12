@@ -1,0 +1,338 @@
+{
+ "modelNumber": "PR-80WL1V",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Peerless",
+  "exactModel": "PR-80WL1V",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only Israeli retailer pages (100-100, hayevoanim, cpnclub) found; manufacturer/importer site unreachable. Sibling DV-80WL1V not used. | QA: Three Israeli retailer pages name the exact model PR-80WL1V with matching 8 kg vented spec; no manufacturer or importer page to confirm."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://100-100.co.il/product/מייבש-כביסה-8-קג-לבן-pr-80wl1v-פירלס-peerless/",
+   "publisher": "100-100",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://hayevoanim.com/product/מייבש-כביסה-8-קג-לבן-pr-80wl1v-פירלס-peerless/",
+   "publisher": "היבואנים",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://cpnclub.co.il/product/36259",
+   "publisher": "קופונופש פלוס",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת ייבוש",
+     "value": "8 ק״ג"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תוף",
+     "value": "102 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר התוף",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות ייבוש",
+     "value": "11"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "68 dB"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2,000 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Unusual for a vented dryer; flagged for check.",
+     "label": "דירוג אנרגטי",
+     "value": "A++"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Also matches 845×598×555 mm on other retailers.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 84.5 × 55.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "29 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך צינור פליטה",
+     "value": "1.5 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single retailer source.",
+     "label": "תקופת אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית Criss Cross – סיבוב התוף לשני הכיוונים לסירוגין"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישני לחות וטמפרטורה שמכווננים את משך הייבוש"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נעילת ילדים, לחצן השהייה ופילטר מוך נשלף"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'wide' - not in quote.",
+   "text": "דלת הנפתחת ב-160 מעלות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מייבש כביסה פתח חזית של Peerless בקיבולת 8 ק״ג, עם תוף נירוסטה בנפח 102 ליטר ו-11 תוכניות ייבוש כולל אנטי קמט. המייבש עובד עם צינור פליטה אחורי באורך 1.5 מטר, וחיישני לחות וטמפרטורה מכווננים את משך הייבוש.",
+  "highlights": [
+   "קיבולת ייבוש 8 ק״ג",
+   "תוף נירוסטה בנפח 102 ליטר",
+   "11 תוכניות ייבוש",
+   "חיישני לחות וטמפרטורה",
+   "צינור פליטה אחורי באורך 1.5 מטר"
+  ],
+  "goodFor": [
+   "משקי בית שמייבשים כמויות כביסה בינוניות עד גדולות",
+   "מקום עם אפשרות להוציא צינור פליטה לחלון או לפתח אוורור",
+   "משפחות עם ילדים, בזכות נעילת ילדים"
+  ],
+  "considerations": [
+   "לוודא שיש פתח יציאה לאוויר החם במרחק שצינור הפליטה באורך 1.5 מטר מגיע אליו",
+   "הספק של 2,000 W – כדאי לחבר לשקע תקין וייעודי",
+   "יש לנקות את פילטר המוך הנשלף באופן קבוע"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של המייבש?",
+    "a": "קיבולת הייבוש היא 8 ק״ג, עם תוף נירוסטה בנפח 102 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם המייבש עובד עם צינור פליטה?",
+    "a": "כן, הוא מגיע עם צינור פליטה אחורי באורך 1.5 מטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות ייבוש יש?",
+    "a": "יש 11 תוכניות ייבוש, כולל תוכנית אנטי קמט.",
+    "sources": []
+   },
+   {
+    "q": "מה רמת הרעש של המייבש?",
+    "a": "רמת הרעש היא 68 dB.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה Peerless PR-80WL1V עם צינור פליטה: קיבולת 8 ק״ג, תוף נירוסטה 102 ליטר ו-11 תוכניות ייבוש. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש כביסה פירלס",
+   "Peerless PR-80WL1V",
+   "PR-80WL1V",
+   "מייבש כביסה 8 קג",
+   "מייבש כביסה עם צינור פליטה",
+   "מייבש כביסה פתח חזית",
+   "מייבש כביסה פירלס 8 קג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צינור פליטה",
+   "catalogValue": "עם צינור פליטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "source",
+   "issue": "No manufacturer or importer page found; facts rest on retailer sites",
+   "severity": "medium"
+  },
+  {
+   "field": "source",
+   "issue": "No manufacturer or importer page found; all facts rest on Israeli retailer sites.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Retailers state A++, which is unusual for a vented (exhaust-hose) dryer; verify against the energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "תקופת אחריות",
+   "issue": "12-month warranty comes from a single retailer page; confirm with the importer.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on Israeli retailer pages naming PR-80WL1V. Feature 3 reworded: quote supports 160-degree door opening but not 'wide door'. A++ energy rating kept as quoted but flagged, since it is unusual for a vented dryer. | code guard removed: summary: \"מתאים למי שמחפש מייבש בפליטה עם מידות סטנדרטיות של 59.8 × 84.5 × 55.5 ס״מ.\"; faq: \"מה מידות המייבש?\"; consideration: \"לבדוק שהנישה מתאימה למידות 59.8 × 84.5 × 55.5 ס״מ\""
+ }
+}

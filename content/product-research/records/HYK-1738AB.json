@@ -1,0 +1,252 @@
+{
+ "modelNumber": "HYK-1738AB",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Eco Euro",
+  "exactModel": "HYK-1738AB",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Ivory lists the model as Eco Euro HYK-1738AB, and Zap lists the same model number under Hyundai. A Zomet kashrut certificate names the importer as Semicom Lexis (סמיקום לקסיס) and covers the HYK-1738 ECOEURO kettle; it does not name the AB suffix. | QA: Ivory and Zap both name HYK-1738AB (Ivory quote shows HYK-1738), black 2-litre plastic kettle matching the catalog. Zap lists the brand as Hyundai, Ivory as Eco Euro; brand attribution needs confirmation."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ivory.co.il/catalog.php?id=16640",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=886146",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "2 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "פלסטיק"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גוף חימום נסתר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי של ECOEURO, דגם HYK-1738AB, בנפח 2 ליטר עם גוף פלסטיק בצבע שחור. הקומקום כולל גוף חימום נסתר. מתאים למי שמחפש קומקום פשוט בנפח משפחתי למטבח הביתי.",
+  "highlights": [
+   "נפח 2 ליטר",
+   "גוף חימום נסתר",
+   "גוף פלסטיק",
+   "צבע שחור"
+  ],
+  "goodFor": [
+   "הרתחת כמות מים גדולה בבת אחת בזכות נפח של 2 ליטר",
+   "מטבח בגוון כהה שמתאים לקומקום שחור",
+   "מי שמעדיף קומקום עם גוף חימום נסתר ולא חשוף בתוך המיכל"
+  ],
+  "considerations": [
+   "ודאו שיש שקע חשמל זמין ליד משטח העבודה",
+   "גוף הקומקום עשוי פלסטיק, למי שמעדיף נירוסטה או זכוכית כדאי לבדוק דגם אחר"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הקומקום?",
+    "a": "נפח הקומקום הוא 2 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי גוף הקומקום?",
+    "a": "גוף הקומקום עשוי פלסטיק בצבע שחור.",
+    "sources": []
+   },
+   {
+    "q": "האם גוף החימום חשוף?",
+    "a": "לא, לקומקום גוף חימום נסתר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי ECOEURO דגם HYK-1738AB, נפח 2 ליטר וגוף חימום נסתר, גוף פלסטיק בצבע שחור. לפרטים ורכישה בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי",
+   "קומקום חשמלי 2 ליטר",
+   "קומקום שחור",
+   "HYK-1738AB",
+   "קומקום ECOEURO",
+   "קומקום אקו יורו",
+   "קומקום גוף חימום נסתר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "ECOEURO",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "2 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "פלסטיק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "גוף חימום נסתר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V~50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "902 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סרגל מידה",
+   "catalogValue": "סרגל מידה למים משני צידי הקומקום",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורת חיווי",
+   "catalogValue": "נורת חיווי בזמן פעולה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מותג",
+   "issue": "Brand conflict: Ivory names the model Eco Euro, and Zap lists HYK-1738AB under Hyundai. The Zomet kashrut certificate names the importer as Semicom Lexis and covers HYK-1738 ECOEURO, not the AB suffix. Confirm the brand before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "2000 W, 230 V, 902 g and the water gauge are not on any fetched page that names HYK-1738AB. Sibling HYK1738A listings show 2000 W, so the value is likely but unverified for this exact model.",
+   "severity": "medium"
+  },
+  {
+   "field": "מצב שבת",
+   "issue": "Zomet approves an HYK-1738 ECOEURO kettle for Shabbat use with a Shabbat mode. Whether this exact HYK-1738AB variant has that mode is not confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty for the exact model was not confirmed on any fetched page. Search snippets mention one year, but the fetched pages do not show it.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "Zap lists HYK-1738AB under Hyundai while Ivory lists it as Eco Euro; confirm the brand on the box.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט",
+   "issue": "Catalog power 2000W, 230V~50Hz, weight 902 g, water gauge and indicator light are not verified on any source naming this model; not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "מצב שבת",
+   "issue": "A kashrut certificate covers HYK-1738 ECOEURO with a Shabbat mode; whether the AB variant has it is unconfirmed.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept capacity, body material, colour and concealed heating element (all quoted on two Israeli retailer pages naming the model). Power, voltage, weight, water gauge and indicator light from the catalog are not verified by any source and were not published. Identity set to medium because Zap lists the model under Hyundai while Ivory lists it as Eco Euro."
+ }
+}

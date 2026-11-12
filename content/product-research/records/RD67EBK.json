@@ -1,0 +1,371 @@
+{
+ "modelNumber": "RD67EBK",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RD67BK",
+  "israeliImporter": "קבוצת ח.י.",
+  "matchConfidence": "high",
+  "notes": "The only page found that names RD67EBK is a retailer listing (citydeal) whose breadcrumb and heading say RD67EBK, while its page title and URL say RD67BK. The Hisense Israel site search found nothing. Sibling listings RD67BK (soferavi) and RD67SLK were not used as evidence. | QA: Only source is a retailer listing that mixes RD67EBK and RD67BK; capacity and energy rating contradict the catalog, so the specs likely belong to a sibling model. | 2026-11-12: Owner sent the supplier page: RD67BK, 504 L net, black, top freezer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%d7%9e%d7%a7%d7%a8%d7%a8-%d7%9e%d7%a7%d7%a4%d7%99%d7%90-%d7%a2%d7%9c%d7%99%d7%95%d7%9f-hisense-%d7%93%d7%92%d7%9d-rd67bk-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9%d7%9e%d7%99-0",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "owner:supplier-page-screenshot",
+   "publisher": "חדד יובל אלקטריק – בעל החנות",
+   "kind": "owner",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+     "label": "יבואן רשמי",
+     "value": "קבוצת ח.י."
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "RD67BK"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תצורה",
+     "value": "מקרר עם מקפיא עליון"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Retailer listing says 520 L total; the supplier page the owner sent says 504 L net.",
+     "label": "נפח כולל",
+     "value": "520 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+     "label": "נפח תא קירור נטו",
+     "value": "390 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+     "label": "נפח תא הקפאה נטו",
+     "value": "120 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח נטו",
+     "value": "504 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+     "label": "דירוג אנרגטי (ישראלי)",
+     "value": "B"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "79 × 172 × 68 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+     "label": "אחריות",
+     "value": "שנה מלאה + שנתיים אחריות נוספת מוגבלת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+   "text": "טכנולוגיית NO FROST"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+   "text": "מנגנון שבת וחג הלכתי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+   "text": "מערכת זרימת אוויר רב מוקדית (Multi Air Flow)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+   "text": "מגירת 0 מעלות ופונקציית הקפאה מהירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Rejected: identity uncertain - the only source's title and URL name RD67BK, and its capacity/energy contradict the catalog SKU.",
+   "text": "מגירת אחסון לפירות וירקות עם בקרת לחות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר Hisense RD67BK עם מקפיא עליון, בנפח נטו של 504 ליטר ובצבע שחור. מתאים למי שמחפש מקרר משפחתי בתצורה הקלאסית, עם תא הקפאה למעלה.",
+  "highlights": [
+   "נפח נטו 504 ליטר",
+   "מקפיא עליון",
+   "צבע שחור"
+  ],
+  "goodFor": [
+   "מי שמעדיף את תצורת המקפיא העליון"
+  ],
+  "considerations": [
+   "כדאי למדוד את מקום ההצבה ואת המעברים בבית לפני ההזמנה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המקרר?",
+    "a": "הנפח נטו הוא 504 ליטר.",
+    "sources": [
+     "s2"
+    ]
+   },
+   {
+    "q": "איפה ממוקם המקפיא?",
+    "a": "המקפיא נמצא בחלק העליון של המקרר.",
+    "sources": [
+     "s2"
+    ]
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר Hisense RD67BK עם מקפיא עליון, נפח נטו 504 ליטר, בצבע שחור. ייעוץ והזמנה בחדד אלקטריק נהריה",
+  "keywords": []
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "504 ליטר",
+   "finding": "contradicted",
+   "correctValue": "520 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "contradicted",
+   "correctValue": "B",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "corrected",
+   "correctValue": "נירוסטה שחורה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת זרימת אוויר רב מוקדית",
+   "catalogValue": "מערכת זרימת אוויר רב מוקדית (Multi Air Flow)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת לחות במגירת ירקות",
+   "catalogValue": "בקרת לחות במגירת ירקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורת LED",
+   "catalogValue": "תאורת LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "79 × 172 × 68 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "120 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "model_number",
+   "catalogValue": "RD67EBK",
+   "finding": "corrected",
+   "correctValue": "RD67BK",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח נטו",
+   "catalogValue": "504 ליטר",
+   "finding": "confirmed",
+   "correctValue": "",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Catalog says E. The listing spec table says B (Israeli label), but the same page's filter section says F (European). Confirm against the energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Only a retailer listing supports the warranty terms; other listings for sibling models state different warranty terms. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Catalog says E; the source spec table says B and its filter section says F. Verify against the energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Source says black stainless finish (נירוסטה שחורה); catalog says black. Confirm finish.",
+   "severity": "low"
+  },
+  {
+   "field": "base44_model_number",
+   "issue": "Feed code RD67EBK should be corrected in Base44 to RD67BK; the site shows the corrected code.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-12",
+  "verdict": "pass-with-fixes",
+  "notes": "Identity could not be confirmed. The single retailer page shows RD67EBK only in breadcrumb/heading while its title and URL say RD67BK; its specs (520 L total, energy B) contradict the catalog SKU (504 L, energy E). No manufacturer or importer page names RD67EBK. All facts rejected; nothing published. | 2026-11-12 store owner: model is RD67BK, 504 L net, black, top freezer (supplier page screenshot)"
+ }
+}

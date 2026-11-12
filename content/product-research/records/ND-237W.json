@@ -1,0 +1,286 @@
+{
+ "modelNumber": "ND-237W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND-237W",
+  "israeliImporter": "קלינטון",
+  "matchConfidence": "high",
+  "notes": "Only retailer pages (BUG, Hashmal) name ND-237W. The Normande site search and the ACE page did not show this model. Sibling ND231W (73 L) appears on Zap; it is a different model. | QA: Two Israeli retailer pages (BUG, Hashmal Ulam) name ND-237W with 97 L and 3 drawers, matching the catalog. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%A7%D7%A4%D7%99%D7%90-3-%D7%9E%D7%92%D7%99%D7%A8%D7%95%D7%AA-97-%D7%9C%D7%99%D7%98%D7%A8-normande-9260002371",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.hashmaleculam.co.il/390767-%D7%9E%D7%A7%D7%A4%D7%99%D7%90%D7%99%D7%9D/426515-Normande",
+   "publisher": "Hashmal Ulam",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "97 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מערכת הפשרה",
+     "value": "ידנית (De-Frost)"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג גז קירור",
+     "value": "R600a"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מגירות",
+     "value": "3 מגירות שקופות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Importer name taken from the same quote.",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת אחריות (קלינטון)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הקפאה אמינה ונוחה לבית ולמשרד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שלוש מגירות שקופות לארגון קל ונוח של מוצרים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מקפיא נוסף לבית או למשרד לצד המקרר הקיים.",
+  "highlights": [
+   "נפח 97 ליטר",
+   "מערכת הפשרה ידנית (De-Frost)",
+   "אחריות לשנה בכפוף לתעודת אחריות"
+  ],
+  "goodFor": [
+   "מקפיא נוסף לבית לצד המקרר הקיים",
+   "משרד שצריך מקום הקפאה נפרד",
+   "מי שרוצה לארגן מזון קפוא במגירות נפרדות ושקופות"
+  ],
+  "considerations": [
+   "ההפשרה ידנית (De-Frost), ולכן יש להפשיר את המקפיא מעת לעת",
+   "כדאי למדוד את המקום המיועד ולוודא את מידות המקפיא מול המוכר לפני ההזמנה",
+   "יש לוודא שקע חשמל זמין בקרבת מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקפיא Normande ND-237W?",
+    "a": "נפח המקפיא הוא 97 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם המקפיא נו פרוסט?",
+    "a": "לא. למקפיא מערכת הפשרה ידנית (De-Frost).",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקפיא?",
+    "a": "אחריות לשנה, בכפוף לתעודת אחריות של קלינטון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מקפיא 3 מגירות",
+   "מקפיא Normande",
+   "נורמנדה ND-237W",
+   "מקפיא 97 ליטר",
+   "מקפיא מגירות לבן",
+   "מקפיא קטן לבית",
+   "מקפיא De-Frost"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "97 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (גובה 83.5, רוחב 55.1, עומק 57 ס\"מ)",
+   "catalogValue": "גובה 83.5 ס\"מ, רוחב 55.1 ס\"מ, עומק 57 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "29.6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R600a",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפשרה",
+   "catalogValue": "De-Frost (חצי אוטומטית/ידנית)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירות",
+   "catalogValue": "3 מגירות שקופות נשלפות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אקלים",
+   "catalogValue": "T-CLASS",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אפשרות לשינוי כיוון פתיחת דלת",
+   "catalogValue": "כן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות ומשקל",
+   "issue": "Dimensions and weight are on one retailer page (BUG) only, split across separate lines, so they could not be quoted as single evidence lines. No manufacturer or importer page was found for this exact model.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The one-year importer warranty comes from one retailer page (BUG) only.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח",
+   "issue": "Sibling model Normande ND231W is 73 L on Zap. Do not confuse it with ND-237W (97 L, per two retailer pages).",
+   "severity": "low"
+  },
+  {
+   "field": "מקור",
+   "issue": "No manufacturer, importer or EPREL page for ND-237W was found. Only two retailer pages name the model, so the facts go to review.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "Only two Israeli retailer pages name ND-237W; no manufacturer, importer or EPREL page was found.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל, דירוג אקלים, שינוי כיוון דלת",
+   "issue": "Catalog dimensions, weight, T-CLASS climate rating and reversible door could not be verified with a quote.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts and features verified by ok quotes on two Israeli retailer pages naming ND-237W. Dimensions, weight, climate class and reversible door remain unverified catalog values (not published as facts). | code guard removed: summary: \"מקפיא מגירות Normande ND-237W בצבע לבן, בנפח 97 ליטר עם 3 מגירות שקופות.\"; summary: \"המקפיא כולל מערכת הפשרה ידנית (De-Frost) ופועל עם גז קירור R600a.\"; faq: \"כמה מגירות יש במקפיא?\"; metaDescription: \"מקפיא מגירות Normande ND-237W לבן בנפח 97 ליטר עם 3 מגירות שקופות והפשרה ידנית De-Frost. מקפיא נוסף לבית או למשרד בחדד אלקטריק נהריה\"; highlight: \"3 מגירות שקופות לארגון ואיתור מהיר\"; highlight: \"גז קירור R600a\""
+ }
+}

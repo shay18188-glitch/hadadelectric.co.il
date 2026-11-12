@@ -1,0 +1,281 @@
+{
+ "modelNumber": "Combi 12-in-1 SFP700",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "SFP700",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Israeli retailer listings (ZAP, Wisebuy, Ivory) name the model as SFP700. The manufacturer's own product page found in search is the EU variant SFP700EU, so it was not used as evidence. No Israeli importer page found. | QA: Israeli retailers (ZAP, Wisebuy, Ivory) name SFP700; regional variants SFP700EU/UK/ME exist and the Israeli suffix is not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1249903",
+   "publisher": "ZAP",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-toster&productid=1249903",
+   "publisher": "Wisebuy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.ivory.co.il/catalog.php?id=157936",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "12.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Descriptions say 1760 W; ZAP spec line and EU page reportedly say 1,780 W.",
+     "label": "הספק",
+     "value": "1760 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טמפרטורה מקסימלית",
+     "value": "240 מעלות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote check failed (number written as a word).; quote checks: numbers-not-in-quote, numbers-not-in-quote",
+     "label": "מצבי בישול",
+     "value": "2 מצבי בישול, 12 תוכניות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "38 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "40 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק",
+     "value": "31 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "12 פונקציות בישול, כולל Combi Meals, Combi Crisp, Combi Bake, Air Fry וגריל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שילוב טכנולוגיות HyperSteam ו-Air Fry"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "דלת נגישה עם חלון צפייה ותאורה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ארוחות משפחתיות עבור עד 8 אנשים בעזרת פונקציית Combi Meals"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "4 קומות בישול, כולל 2 רשתות הפרדה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Ninja Combi 12-in-1 SFP700 הוא טוסטר אובן רב תכליתי בנפח 12.5 ליטר, המשלב טכנולוגיות HyperSteam ו-Air Fry. מתאים למי שרוצה להכין מנה עיקרית ותוספות יחד במכשיר אחד על השיש.",
+  "highlights": [
+   "נפח 12.5 ליטר",
+   "דלת עם חלון צפייה ותאורה"
+  ],
+  "goodFor": [
+   "בישול מנה עיקרית ותוספות במקביל",
+   "מי שרוצה טיגון באוויר, אידוי ואפייה במכשיר אחד"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי מעל ומסביב למכשיר לאוורור",
+   "כדאי לבדוק את תנאי האחריות מול המשווק בישראל"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של ה-SFP700?",
+    "a": "נפח המכשיר הוא 12.5 ליטר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Ninja SFP700",
+   "נינג'ה קומבי 12 ב-1",
+   "Ninja Combi 12-in-1",
+   "טוסטר אובן נינג'ה",
+   "טוסטר אובן רב תכליתי",
+   "טוסטר אובן עם אייר פרייר",
+   "SFP700"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Ninja",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דגם",
+   "catalogValue": "Combi 12-in-1 SFP700",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12.5 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1760 W",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Retailer pages disagree: the ZAP spec line says 1,780 W, while the ZAP and Wisebuy descriptions say 1760 W. The EU variant SFP700EU page also says 1.780 W. Confirm the Israeli value.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Width 38 cm, height 40 cm and depth 31 cm appear on Wisebuy, but the lines could not be quoted as one exact-model evidence item, so no dimensions fact was submitted. The only full dimension line found is for the EU variant SFP700EU, which was not used.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "No warranty length found on an exact-model Israeli page. Other regional variants list 1 to 3 years, so the Israeli warranty is unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה",
+   "issue": "Regional variants SFP700UK, SFP700EU and SFP700ME exist. The Israeli variant is assumed from Israeli listings that name SFP700 only. The catalog name is not changed here.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "Power differs between sources (1760 W in descriptions vs 1,780 W on ZAP spec line and EU page). Confirm the Israeli value.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה",
+   "issue": "Regional variants SFP700EU/UK/ME exist; the Israeli variant suffix is not confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty length not found on an Israeli exact-model page.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 6 (cooking modes): quote writes 'שני' in words so the check failed; the 12 functions are covered by feature 0. Marked power (fact 1) as conflict: the researcher reports the ZAP spec line says 1,780 W while descriptions say 1760 W. Kept dimensions from Wisebuy quotes that pass the check. | code guard removed: summary: \"הוא מציע 12 פונקציות בישול וטמפרטורה מקסימלית של 240 מעלות, עם 4 קומות בישול.\"; faq: \"אילו פונקציות יש למכשיר?\"; faq: \"לכמה אנשים אפשר לבשל בבת אחת?\"; faq: \"מה המידות של המכשיר?\"; metaDescription: \"טוסטר אובן רב תכליתי Ninja Combi 12-in-1 SFP700 בנפח 12.5 ליטר, עם 12 פונקציות בישול ו-Air Fry. בחדד אלקטריק נהריה\"; highlight: \"12 פונקציות בישול, כולל Air Fry, אידוי ואפייה\"; highlight: \"טמפרטורה מקסימלית 240 מעלות\"; highlight: \"4 קומות בישול כולל 2 רשתות הפרדה\"; goodFor: \"הכנת ארוחה משפחתית עבור עד 8 אנשים בפונקציית Combi Meals\"; consideration: \"מידות המכשיר 38×40×31 ס״מ (רוחב×גובה×עומק) – כדאי למדוד את המקום על השיש\""
+ }
+}

@@ -1,0 +1,1305 @@
+{
+  "modelNumber": "UE75U8000H",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Samsung",
+    "exactModel": "UE75U8000HUXIL",
+    "israeliImporter": "ניופרו (Newpro) — לפי קמעונאים ישראליים",
+    "matchConfidence": "high",
+    "notes": "Catalog model UE75U8000H is the 75\" Crystal UHD U8000H (2026 series). Israeli SKU on samsung.com/il is UE75U8000HUXIL; Bug lists the same UXIL code and CityDeal lists UE75U8000H-N. Samsung Ireland page (UE75U8000HKXXU) is the UK/IE regional suffix, used only to corroborate (exactModel false). Middle East (UA75U8000H) and US (UN75U8000H) codes are different variants and were not used. Importer name (Newpro / ניופרו) comes from three Israeli retailers, not from Samsung Israel itself. samsung.com/il does not list weight or power consumption for this model."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.samsung.com/il/tvs/uhd-4k-tv/u8000h-75-inch-crystal-uhd-4k-smart-tv-ue75u8000huxil/",
+      "publisher": "Samsung Israel",
+      "kind": "manufacturer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.samsung.com/ie/tvs/uhd-4k-tv/u8000h-75-inch-crystal-uhd-4k-smart-tv-ue75u8000hkxxu/",
+      "publisher": "Samsung Ireland",
+      "kind": "manufacturer",
+      "market": "IE",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://citydeal.co.il/product/samsung-ue75u8000h-75-inch-crystal-uhd-4k-tv",
+      "publisher": "CityDeal",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.bug.co.il/טלוויזיה-חכמה-75-samsung-4k-uhd-5102021ue75u8000huxil",
+      "publisher": "Bug",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-75-%D7%90%D7%99%D7%A0%D7%A5-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-%E2%81%A675u8000h%E2%81%A9/",
+      "publisher": "אבי סופר",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "דגם",
+          "value": "UE75U8000HUXIL",
+          "sources": [
+            "s1",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סדרה",
+          "value": "Crystal UHD U8000H",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "גודל מסך",
+          "value": "75 אינץ׳",
+          "sources": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "שנת דגם",
+          "value": "2026",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "samsung.com/il product title for UE75U8000HUXIL ends with \"(2026)\"; Tizen OS footnote also refers to 2026 launch products."
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "166.8 × 95.8 × 7.7 ס״מ (ללא מעמד)",
+          "sources": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מידות כולל מעמד",
+          "value": "166.8 × 100.8 × 28 ס״מ",
+          "sources": [
+            "s1",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "משקל ללא מעמד",
+          "value": "21.6 ק״ג",
+          "sources": [
+            "s3",
+            "s4",
+            "s2"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Not on samsung.com/il; two Israeli retailers for the exact model agree, and the Samsung IE page gives the same figure."
+        },
+        {
+          "label": "משקל כולל מעמד",
+          "value": "22 ק״ג",
+          "sources": [
+            "s3",
+            "s4",
+            "s2"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Not on samsung.com/il; two Israeli retailers agree, Samsung IE gives the same figure."
+        },
+        {
+          "label": "VESA",
+          "value": "400 × 300 מ״מ",
+          "sources": [
+            "s1",
+            "s3",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מידות האריזה",
+          "value": "182.5 × 110 × 17 ס״מ",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "רוחב בסיס המעמד",
+          "value": "79.3 × 28 ס״מ (samsung.com/il) / 125 ס״מ (קמעונאים)",
+          "sources": [
+            "s1",
+            "s4",
+            "s3",
+            "s2"
+          ],
+          "confidence": "low",
+          "status": "conflict",
+          "note": "samsung.com/il lists stand base 793 × 280 mm only. Bug and CityDeal give 1250 mm. Samsung IE lists two positions: basic 1250 × 280 mm and minimum 793 × 280 mm, suggesting adjustable feet — not confirmed for the IL SKU."
+        }
+      ]
+    },
+    {
+      "id": "display",
+      "rows": [
+        {
+          "label": "סוג מסך",
+          "value": "LED",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "רזולוציה",
+          "value": "3840 × 2160 (4K UHD)",
+          "sources": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "קצב רענון",
+          "value": "50Hz",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "samsung.com/il and Samsung IE list 50 Hz; Israeli retailers (s3, s4, s5) list a native 60Hz. HDMI inputs accept 4K at 60Hz. Manufacturer value kept."
+        },
+        {
+          "label": "DLG (Dual Line Gate)",
+          "value": "120Hz",
+          "sources": [
+            "s1",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מעבד תמונה",
+          "value": "Crystal Processor 4K",
+          "sources": [
+            "s1",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "HDR",
+          "value": "HDR, HDR10+",
+          "sources": [
+            "s1",
+            "s3",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "ניגודיות",
+          "value": "Mega Contrast",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "עמעום מקומי",
+          "value": "UHD Dimming",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "טכנולוגיית תנועה",
+          "value": "Motion Xcelerator",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "שדרוג רזולוציה",
+          "value": "4K Upscaling",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "צבע",
+          "value": "PurColor, Color Booster",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Filmmaker Mode",
+          "value": "כן",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מצבי משחק",
+          "value": "ALLM, VRR, HGiG",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "rows": [
+        {
+          "label": "הספק שמע",
+          "value": "20W (RMS)",
+          "sources": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "ערוצים",
+          "value": "2.0",
+          "sources": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Object Tracking Sound",
+          "value": "OTS Lite",
+          "sources": [
+            "s1",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Q-Symphony",
+          "value": "כן (עם מקרן קול תואם של סמסונג)",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Adaptive Sound",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "rows": [
+        {
+          "label": "מערכת הפעלה",
+          "value": "Tizen (One UI Tizen)",
+          "sources": [
+            "s1",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "עוזר קולי",
+          "value": "Bixby (מוכן לפקודות קוליות; נדרש שלט תואם)",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "שיקוף מסך",
+          "value": "Apple AirPlay, Google Cast",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Samsung TV Plus",
+          "value": "כן",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "חוויית ריבוי מכשירים",
+          "value": "Mobile to TV, שיקוף צליל, הפעלה אלחוטית של הטלוויזיה",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "SmartThings",
+          "value": "Quick Remote",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "דפדפן אינטרנט",
+          "value": "כן",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Football Mode",
+          "value": "כן",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מיקרופון קריוקי",
+          "value": "נתמך",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Listed as a supported feature on samsung.com/il; microphone not included."
+        }
+      ]
+    },
+    {
+      "id": "connectivity",
+      "rows": [
+        {
+          "label": "HDMI",
+          "value": "3 כניסות, 4K 60Hz (HDMI 1/2/3)",
+          "sources": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "eARC",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Anynet+ (HDMI-CEC)",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "USB",
+          "value": "1 × USB-A",
+          "sources": [
+            "s1",
+            "s3",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "LAN (Ethernet)",
+          "value": "1",
+          "sources": [
+            "s1",
+            "s3",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "כניסת אנטנה (RF)",
+          "value": "1",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "חריץ CI",
+          "value": "1 (CI+ 1.4)",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Wi-Fi",
+          "value": "Wi-Fi 5",
+          "sources": [
+            "s1",
+            "s3",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3",
+          "sources": [
+            "s1",
+            "s3",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "טיונר דיגיטלי",
+          "value": "DVB-T2CS2",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "טיונר אנלוגי",
+          "value": "כן",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "HbbTV",
+          "value": "2.0.4",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "יציאה אופטית",
+          "value": "אין",
+          "sources": [
+            "s3"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only CityDeal states no optical output; not listed either way on samsung.com/il."
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        {
+          "label": "דירוג אנרגטי",
+          "value": "F (לפי samsung.com/il; הסולם אינו מצוין בדף)",
+          "sources": [
+            "s1",
+            "s4",
+            "s5"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "ספק מתח",
+          "value": "AC 220–240V, 50/60Hz",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "חיישן אור סביבה",
+          "value": "כן",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "כיבוי אוטומטי",
+          "value": "כן",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "צריכת חשמל טיפוסית",
+          "value": "129W",
+          "sources": [
+            "s2"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on Samsung IE (KXXU suffix); not on samsung.com/il or EPREL as opened."
+        },
+        {
+          "label": "צריכת חשמל מרבית",
+          "value": "220W",
+          "sources": [
+            "s2"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on Samsung IE (KXXU suffix)."
+        },
+        {
+          "label": "צריכה בהמתנה",
+          "value": "0.5W",
+          "sources": [
+            "s2"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on Samsung IE (KXXU suffix)."
+        },
+        {
+          "label": "צריכת אנרגיה שנתית",
+          "value": "179 קוט״ש (תקן EU)",
+          "sources": [
+            "s2"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on Samsung IE (KXXU suffix); EPREL fiche for this model was not found."
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        {
+          "label": "עיצוב",
+          "value": "MetalStream",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מסגרת",
+          "value": "ללא מסגרת ב-3 צדדים",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "צבע חזית",
+          "value": "שחור",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סוג מעמד",
+          "value": "רגליות בסיסיות",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "צבע מעמד",
+          "value": "Titan Gray",
+          "sources": [
+            "s1",
+            "s2"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "מעבד Crystal 4K עם שדרוג תמונה (Upscaling) לרזולוציית 4K",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "תמיכה ב-HDR וב-HDR10+",
+      "sources": [
+        "s1",
+        "s3",
+        "s5"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "PurColor ו-Color Booster לשיפור הצבעים",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "Motion Xcelerator לתנועה חלקה יותר, ותמיכה ב-DLG עד 120Hz",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מצבי גיימינג: ALLM (מצב משחק אוטומטי), VRR ו-HGiG",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "OTS Lite – צליל שעוקב אחרי התנועה על המסך, ו-Adaptive Sound שמתאים את הצליל לתוכן",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "Q-Symphony – הפעלה משולבת של רמקולי הטלוויזיה עם מקרן קול תואם של סמסונג",
+      "sources": [
+        "s1",
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מערכת One UI Tizen עם Samsung TV Plus, Apple AirPlay ו-Google Cast",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "Football Mode לצפייה בכדורגל",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "אבטחת Samsung Knox",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "סמסונג מציינת 7 שנים של חוויות טלוויזיה חדשות (עדכוני One UI Tizen)",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "Marketing statement on samsung.com/il; exact update terms not detailed."
+    },
+    {
+      "text": "Samsung Vision AI Companion",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "samsung.com/il marks it as available in specific countries, not stated for Israel."
+    }
+  ],
+  "inTheBox": [
+    {
+      "text": "מדריך למשתמש",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "כבל חשמל",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "שלט IR Simple",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "CityDeal lists \"שלט כלול: IR Simple\"; Bug lists a Simple IR remote. samsung.com/il footnote says only that some models include a remote without voice control. BT Simple / SolarCell remotes sold separately per CityDeal."
+    },
+    {
+      "text": "רגליות מעמד שולחני",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "samsung.com/il lists stand type (basic legs) and with-stand dimensions but no box-contents line for the stand; Bug and CityDeal describe the feet but do not say they are included. Confirm with importer."
+    }
+  ],
+  "installation": [
+    {
+      "text": "תלייה על הקיר בתקן VESA ‏400 × 300 מ״מ",
+      "sources": [
+        "s1",
+        "s3",
+        "s5"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "חיבור לחשמל AC 220–240V, 50/60Hz",
+      "sources": [
+        "s1"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "להצבה על שולחן נדרש משטח ברוחב ובעומק המתאימים למעמד; עומק המעמד 28 ס״מ",
+      "sources": [
+        "s1",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "תואם למתקן קיר דק בתנועה מלאה של סמסונג (Y22)",
+      "sources": [
+        "s1",
+        "s2"
+      ],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "samsung.com/il lists 'Full Motion Slim Wall Mount (Y22): yes' under accessories; Samsung's wording elsewhere is 'Wall Mount Support', i.e. compatibility. Unclear whether the bracket is included — confirm with importer."
+    }
+  ],
+  "content": {
+    "summary": "טלוויזיית Samsung Crystal UHD U8000H בגודל 75 אינץ׳ (דגם UE75U8000H) ברזולוציית 4K עם מעבד Crystal 4K ותמיכה ב-HDR10+. היא כוללת 3 כניסות HDMI עם eARC, Wi-Fi 5 ו-Bluetooth 5.3, ושמע 20W בשני ערוצים עם OTS Lite. מתאימה לסלון גדול שמחפש מסך 75 אינץ׳ חכם על מערכת Tizen לצפייה בסטרימינג, ספורט ומשחקי קונסולה.",
+    "highlights": [
+      "מסך 75 אינץ׳ ברזולוציית 4K (3840 × 2160)",
+      "מעבד Crystal 4K ותמיכה ב-HDR10+",
+      "3 כניסות HDMI (4K 60Hz) עם eARC",
+      "שמע 20W, ‏2 ערוצים, OTS Lite ו-Q-Symphony",
+      "מידות ללא מעמד 166.8 × 95.8 × 7.7 ס״מ, VESA ‏400 × 300"
+    ],
+    "goodFor": [
+      "סלון גדול שבו מרחק הצפייה מאפשר מסך של 75 אינץ׳ – רוחב המסך כ-166.8 ס״מ",
+      "צפייה בסטרימינג ובשידורי ספורט – מערכת Tizen עם Samsung TV Plus ו-Football Mode",
+      "חיבור קונסולה או מקרן קול – 3 כניסות HDMI, eARC, ALLM ו-VRR",
+      "מי שכבר מחזיק מקרן קול של סמסונג – תמיכה ב-Q-Symphony"
+    ],
+    "considerations": [
+      "מדדו את הקיר או הרהיט: הגוף ברוחב 166.8 ס״מ ובגובה 100.8 ס״מ כולל המעמד, ועומק המעמד 28 ס״מ",
+      "לתלייה על הקיר בדקו שהמתקן תומך ב-VESA ‏400 × 300 מ״מ ובמשקל של 21.6 ק״ג ללא המעמד",
+      "השמע המובנה הוא 20W בשני ערוצים – לסאונד מלא יותר בחדר גדול שקלו מקרן קול דרך eARC",
+      "הדירוג האנרגטי שמציינת סמסונג הוא F",
+      "פקודות קוליות ב-Bixby דורשות שלט תואם שעשוי להימכר בנפרד"
+    ],
+    "faq": [
+      {
+        "q": "מה המידות של הטלוויזיה וכמה היא שוקלת?",
+        "a": "ללא מעמד: 166.8 × 95.8 × 7.7 ס״מ; כולל מעמד: 166.8 × 100.8 × 28 ס״מ. המשקל 21.6 ק״ג ללא מעמד ו-22 ק״ג עם מעמד.",
+        "sources": [
+          "s1",
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "q": "האם אפשר לתלות אותה על הקיר?",
+        "a": "כן. הטלוויזיה תואמת לתקן VESA ‏400 × 300 מ״מ. ודאו שהמתקן מתאים למשקל של 21.6 ק״ג.",
+        "sources": [
+          "s1",
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "q": "כמה כניסות HDMI יש והאם יש eARC?",
+        "a": "יש 3 כניסות HDMI התומכות ב-4K 60Hz, ויש תמיכה ב-eARC לחיבור מקרן קול. יש גם כניסת USB-A אחת ויציאת LAN.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "q": "האם הטלוויזיה מתאימה למשחקי קונסולה?",
+        "a": "הטלוויזיה תומכת ב-ALLM (מצב משחק אוטומטי), VRR ו-HGiG, וכניסות ה-HDMI תומכות ב-4K 60Hz.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+        "a": "One UI Tizen של סמסונג, עם Samsung TV Plus, דפדפן אינטרנט ותמיכה ב-Apple AirPlay ו-Google Cast.",
+        "sources": [
+          "s1"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "טלוויזיה סמסונג 75 אינץ׳ UE75U8000H Crystal UHD 4K עם HDR10+, מעבד Crystal 4K ו-3 כניסות HDMI עם eARC. בחדד אלקטריק נהריה",
+    "keywords": [
+      "UE75U8000H",
+      "UE75U8000HUXIL",
+      "סמסונג 75 אינץ׳ U8000H",
+      "טלוויזיה 75 אינץ׳ סמסונג",
+      "Samsung U8000H 75",
+      "טלוויזיה 4K 75 אינץ׳",
+      "Crystal UHD 75",
+      "טלוויזיה חכמה 75 אינץ׳ נהריה"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "name",
+      "catalogValue": "מסך 75'",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "brand",
+      "catalogValue": "Samsung",
+      "finding": "confirmed",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "field": "category",
+      "catalogValue": "טלוויזיות",
+      "finding": "confirmed",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "field": "origin_country",
+      "catalogValue": "Vietnam",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "מידות ללא מעמד – רוחב",
+      "catalogValue": "166.8/166.9 ס\"מ",
+      "finding": "corrected",
+      "correctValue": "166.8 ס״מ (1668.1 מ״מ)",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "field": "מידות ללא מעמד – גובה",
+      "catalogValue": "95.8 ס\"מ",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "field": "מידות ללא מעמד – עומק",
+      "catalogValue": "7.7 ס\"מ",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "field": "רזולוציה",
+      "catalogValue": "3840x2160 (4K Ultra HD)",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "קצב רענון",
+      "catalogValue": "50Hz / 60Hz",
+      "finding": "corrected",
+      "correctValue": "50Hz לפי samsung.com/il (קמעונאים ישראליים מציינים 60Hz); DLG עד 120Hz; כניסות HDMI תומכות 4K 60Hz",
+      "sources": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "חיבורים – HDMI",
+      "catalogValue": "3 יציאות HDMI",
+      "finding": "corrected",
+      "correctValue": "3 כניסות HDMI (4K 60Hz) עם eARC ו-CEC",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "חיבורים – LAN",
+      "catalogValue": "חיבור רשת (LAN)",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "HDR10+",
+      "catalogValue": "תמיכה ב-HDR10+",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "HLG",
+      "catalogValue": "HLG",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "מערכת הפעלה",
+      "catalogValue": "Tizen",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "field": "VESA",
+      "catalogValue": "תמיכה במתקן קיר VESA",
+      "finding": "corrected",
+      "correctValue": "VESA ‏400 × 300 מ״מ",
+      "sources": [
+        "s1",
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "field": "Smart TV",
+      "catalogValue": "טלוויזיה חכמה (Smart TV) עם תמיכה באפליקציות",
+      "finding": "confirmed",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "field": "Crystal Processor 4K",
+      "catalogValue": "Crystal Processor 4K לשיפור תמונה (Upscaling)",
+      "finding": "confirmed",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "field": "Object Tracking Sound Lite",
+      "catalogValue": "Object Tracking Sound Lite",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "field": "PurColour",
+      "catalogValue": "PurColour",
+      "finding": "confirmed",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "field": "Motion Xcelerator",
+      "catalogValue": "Motion Xcelerator",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "Wi-Fi",
+      "catalogValue": "קישוריות WiFi",
+      "finding": "corrected",
+      "correctValue": "Wi-Fi 5",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "Bluetooth",
+      "catalogValue": "Bluetooth",
+      "finding": "corrected",
+      "correctValue": "Bluetooth 5.3",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "משקל",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "21.6 ק״ג ללא מעמד, 22 ק״ג עם מעמד",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "מידות כולל מעמד",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "166.8 × 100.8 × 28 ס״מ",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "field": "שמע",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "20W, ‏2 ערוצים, Q-Symphony, Adaptive Sound",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "USB",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "1 × USB-A",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "גיימינג",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "ALLM, VRR, HGiG",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "field": "דירוג אנרגטי",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "F",
+      "sources": [
+        "s1",
+        "s4"
+      ]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "origin_country",
+      "issue": "Catalog says Vietnam. No opened source confirms country of manufacture for UE75U8000HUXIL; a CWC search snippet (page returned 403) suggested China. Check the box label or ask the importer.",
+      "severity": "medium"
+    },
+    {
+      "field": "HLG",
+      "issue": "Catalog claims HLG support; samsung.com/il lists only HDR and HDR10+. Not published.",
+      "severity": "low"
+    },
+    {
+      "field": "קצב רענון",
+      "issue": "samsung.com/il lists 50Hz (DLG 120Hz); Israeli retailers list native 60Hz. Manufacturer value used; consider confirming with Samsung Israel/importer.",
+      "severity": "low"
+    },
+    {
+      "field": "רוחב בסיס המעמד",
+      "issue": "samsung.com/il gives stand 793 × 280 mm; retailers and Samsung IE give 1250 mm (IE lists both basic 1250 and minimum 793 positions). Not published.",
+      "severity": "low"
+    },
+    {
+      "field": "מתקן קיר Y22",
+      "issue": "samsung.com/il lists the Y22 slim full-motion wall mount under accessories with 'yes'. Unclear whether it is included in the box or only compatible — confirm before stating either.",
+      "severity": "medium"
+    },
+    {
+      "field": "צריכת חשמל",
+      "issue": "Power consumption (W, annual kWh) is not on samsung.com/il; only the IE regional page gives figures, and no EPREL fiche was opened. Not published.",
+      "severity": "low"
+    },
+    {
+      "field": "אחריות / יבואן",
+      "issue": "Retailers state 1-year warranty by the official importer Newpro (ניופרו); samsung.com/il does not state a period. Warranty not published; importer name comes from retailers only.",
+      "severity": "low"
+    },
+    {
+      "field": "Dolby Atmos",
+      "issue": "אבי סופר lists Dolby Atmos in highlights; Samsung pages do not mention it (2ch 20W). Not published; do not add to catalog.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-10",
+    "verdict": "pass-with-fixes",
+    "notes": "Re-opened all 5 sources; all load and are about UE75U8000H (s1 UXIL exact; s2 IE KXXU kept exactModel false; s3/s4/s5 Israeli retailers exact model). All verified rows found on cited pages. Changes: (1) שנת דגם 2026 upgraded to verified — samsung.com/il title reads \"(2026)\"; sources s1,s2. (2) HDR10+ feature rewritten to \"תמיכה ב-HDR וב-HDR10+\" — s1 does not describe per-scene brightness adjustment for HDR10+. (3) inTheBox \"רגליות מעמד שולחני\" downgraded to unverified — no cited page says the stand is in the box (Bug does not state it, contrary to the earlier note). (4) Remote note corrected to cite CityDeal \"שלט כלול\". (5) Summary: \"משחקים קלים\" (unsupported judgement) replaced with \"משחקי קונסולה\". Kept as is: refresh 50Hz (manufacturer exact model; retailers 60Hz flagged), stand-base conflict, Y22 mount unverified (s1 lists it under \"אביזר\" = \"כן\" without saying in-box), power figures unverified (IE only), HLG/Dolby Atmos/origin/warranty unpublished. No price or stock data; product name unchanged."
+  }
+}

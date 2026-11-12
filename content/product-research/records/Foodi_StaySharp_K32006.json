@@ -1,0 +1,247 @@
+{
+ "modelNumber": "Foodi StaySharp K32006",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "K32006",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Israeli page names K32006; Irish retailer pages name the K32006UK region variant. Manufacturer pages returned 403/429. Importer unknown. | QA: Israeli comparison page names K32006; detailed specs come from K32006UK (UK/IE) listings. Israeli importer and variant unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.wisebuy.co.il/product.aspx?productid=1222023",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://tommiekelly.ie/product/ninja-foodi-staysharp-knife-block-with-integrated-sharpener-6-piece-set-k32006uk",
+   "publisher": "Tommie Kelly",
+   "kind": "retailer",
+   "market": "IE",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.arnotts.ie/home/kitchen/knives/ninja/foodi-staysharp-knife-block-with-integrated-sharpener-6-piece-set/178919170.html",
+   "publisher": "Arnotts",
+   "kind": "retailer",
+   "market": "IE",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר חלקים בערכה",
+     "value": "6"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר הלהב",
+     "value": "פלדת אל-חלד גרמנית"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משחיז",
+     "value": "משחיז StaySharp מובנה בבלוק"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שטיפה",
+     "value": "שטיפה ידנית מומלצת"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך סכין פריסה",
+     "value": "20 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך סכין לחם",
+     "value": "20 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך סכין עזר",
+     "value": "13 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך סכין קילוף",
+     "value": "9 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "משחיז מובנה בבלוק בטכנולוגיית StaySharp"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "המשחיז מיועד אך ורק לסכיני Ninja"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "להב באורך מלא (Full Tang)"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Sources differ on composition (6 knives vs 5 knives plus scissors); wording kept neutral.",
+   "text": "ערכה של 6 חלקים עם בלוק אחסון ומשחיז מובנה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "סט סכינים Ninja Foodi StaySharp K32006 הוא ערכה של 6 חלקים עם בלוק אחסון ומשחיז StaySharp מובנה. מתאים למי שרוצה סט סכינים מסודר שנשמר חד בלי משחיז נפרד.",
+  "highlights": [
+   "משחיז StaySharp מובנה בבלוק",
+   "פלדת אל-חלד גרמנית",
+   "להב באורך מלא (Full Tang)",
+   "ערכה של 6 חלקים"
+  ],
+  "goodFor": [
+   "מטבח ביתי שצריך סט סכינים מלא במקום אחד",
+   "מי שמעדיף להשחיז את הסכינים בקלות ישירות בבלוק",
+   "פריסת לחם וחיתוך פרוסות דקות בסכינים ייעודיות"
+  ],
+  "considerations": [
+   "המשחיז המובנה מיועד לסכיני Ninja בלבד ולא לסכינים אחרות",
+   "מומלץ לשטוף את הסכינים ביד ולא במדיח כדי לשמור על החדות",
+   "כדאי לוודא מול המוכר את זהות היבואן ואת תנאי האחריות בישראל"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להשחיז בבלוק סכינים של מותג אחר?",
+    "a": "לא. המשחיז המובנה מיועד אך ורק להשחזת סכיני Ninja.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשטוף את הסכינים במדיח?",
+    "a": "היצרן ממליץ על שטיפה ידנית כדי לשמור על הסכינים במצב מיטבי ועל החדות.",
+    "sources": []
+   },
+   {
+    "q": "מאיזה חומר עשויות הסכינים?",
+    "a": "הסכינים עשויות פלדת אל-חלד גרמנית, עם להב באורך מלא (Full Tang).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סט סכינים Ninja Foodi StaySharp K32006 עם משחיז מובנה בבלוק ופלדת אל-חלד גרמנית, ערכה של 6 חלקים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סט סכינים נינג'ה",
+   "Ninja StaySharp",
+   "Ninja K32006",
+   "סט סכינים עם משחיז",
+   "בלוק סכינים עם משחיז מובנה",
+   "סכינים פלדה גרמנית",
+   "Ninja Foodi StaySharp K32006"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר",
+   "catalogValue": "סט סכינים עם משחיז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "identity",
+   "issue": "Most quotes come from K32006UK (UK/IE) pages; Israeli listing says parallel import. Confirm importer and warranty.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Detailed specs come from K32006UK (UK/IE) listings; Israeli importer and variant unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "inTheBox",
+   "issue": "Sources differ on set composition: Israeli page says 6 knives, Tommie Kelly lists 5 knives plus scissors. Confirm contents.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Most dimension and care facts come from IE retailer pages naming the K32006UK region variant; kept as the same set. Wisebuy reclassified as other (price comparison). inTheBox wording kept generic since sources differ on whether all six pieces are knives (Tommie Kelly lists five knives plus scissors). | code guard removed: summary: \"הסכינים עשויות פלדת אל-חלד גרמנית עם להב באורך מלא (Full Tang), וכוללות סכין לחם וסכין פריסה באורך 20 ס״מ.\"; faq: \"מה אורך סכין הקילוף וסכין העזר?\"; highlight: \"סכין לחם וסכין פריסה באורך 20 ס״מ\""
+ }
+}

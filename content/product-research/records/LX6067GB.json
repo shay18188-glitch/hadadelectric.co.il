@@ -1,0 +1,120 @@
+{
+  "modelNumber": "LX6067GB",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Luxor",
+    "exactModel": "LX6067GB",
+    "israeliImporter": null,
+    "matchConfidence": "low",
+    "notes": "No source for the exact model LX6067GB (or LX6067 / LX-6067 / LX 6067) was found. Searches covered: WebSearch in Hebrew and English (with and without brand, quoted and unquoted, 6067GB alone); the Luxor Israel brand site luxor.co.il (operated by א.ח.י דיגיטל שיווק ומסחר בע״מ) – site search for LX6067 / 6067 / LX6067GB returned nothing, and all 197 product pages in its product sitemap were scanned for '6067' with no hit; its 'תנורי גז ואפייה' category lists only one non-rustic built-in oven, 'תנור בנוי 60 ס״מ INOX' (model LX-606-IX-V2), plus rustic built-ins and freestanding cookers – no black-glass built-in. Zap's Luxor oven listing (LX-609F, LX606BLK, LX6060 family, LX5055, LX66IX, LX606IX, RUS-*) has no LX6067. Site searches at hacontainer.co.il, ch-ch.co.il, premiumelectric.co.il and mandarin-e.co.il returned 0 results; cwc.co.il and ksp.co.il blocked automated access. The catalog also carries a sibling LX6067IN (stainless) that was likewise not found. Because the model could not be located on any page, nothing in the catalog record (type, mechanical control, black finish, 60 L volume, brand) could be verified, and no specs are recorded. Sibling models (LX606BLK, LX606IX, LX-606-IX-V2) were deliberately not used. QA note: the luxor.co.il INOX built-in page itself shows the model as 'LX 606 IX' (barcode 7290018049914)."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://luxor.co.il/product-category/luxor/%d7%9e%d7%98%d7%91%d7%97/%d7%aa%d7%a0%d7%95%d7%a8%d7%99-%d7%92%d7%96-%d7%95%d7%90%d7%a4%d7%99%d7%94/",
+      "publisher": "Luxor Israel (luxor.co.il, א.ח.י דיגיטל שיווק ומסחר בע״מ) – קטגוריית תנורי גז ואפייה",
+      "kind": "manufacturer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://luxor.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%91%D7%A0%D7%95%D7%99-60-%D7%A1%D7%9E-inox/",
+      "publisher": "Luxor Israel (luxor.co.il) – תנור בנוי 60 ס״מ INOX (בדף: דגם LX 606 IX – דגם אחר)",
+      "kind": "manufacturer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.zap.co.il/models.aspx?sog=e-oven&db136886=6393695",
+      "publisher": "זאפ השוואת מחירים – תנורי אפייה Luxor",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [],
+  "features": [],
+  "inTheBox": [],
+  "installation": [],
+  "content": {
+    "summary": "",
+    "highlights": [],
+    "goodFor": [],
+    "considerations": [],
+    "faq": []
+  },
+  "seo": {
+    "metaDescription": "",
+    "keywords": [
+      "LX6067GB",
+      "LX6067",
+      "Luxor LX6067GB",
+      "לוקסור LX6067GB"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "brand",
+      "catalogValue": "Luxor",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "name: סוג המוצר (תנור בנוי)",
+      "catalogValue": "תנור בנוי",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "name: בקרה (מכני)",
+      "catalogValue": "מכני",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "name: צבע / גימור (שחור)",
+      "catalogValue": "שחור",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "name: נפח (60 ליטר)",
+      "catalogValue": "60 ליטר",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "category",
+      "catalogValue": "תנורים",
+      "finding": "unverifiable",
+      "sources": []
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "identity",
+      "issue": "דגם LX6067GB לא נמצא באף מקור: לא באתר המותג luxor.co.il (חיפוש וסריקת כל 197 דפי המוצר), לא בזאפ ולא בקמעונאים ישראליים. יש לאמת מול הספק את מספר הדגם המדויק (ייתכן שגיאת הקלדה או קוד פנימי של ספק) ולבקש דף מפרט / תווית אנרגיה / הוראות הפעלה.",
+      "severity": "high"
+    },
+    {
+      "field": "name",
+      "issue": "כל הנתונים בשם המוצר ('תנור בנוי מכני שחור 60 ליטר') לא אומתו – במיוחד הנפח 60 ליטר. באתר לוקסור הדגם הבנוי הלא-כפרי היחיד הוא LX-606-IX-V2 (נירוסטה); אין להעתיק ממנו נתונים.",
+      "severity": "medium"
+    },
+    {
+      "field": "status",
+      "issue": "המוצר אינו מופיע באתר המותג ובאתרי השוואת מחירים – ייתכן שהוא דגם ותיק / שהופסק או ייבוא של ספק אחר. כדאי לבדוק זמינות ומקור אספקה.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-10",
+    "verdict": "fail",
+    "notes": "I re-opened all 3 sources on 2026-11-10. s1 (luxor.co.il oven category) lists 18 products by name only; none is LX6067GB/6067, and the only black built-in ovens there are rustic. s2 (luxor.co.il INOX built-in) shows model 'LX 606 IX', not LX6067GB, so I corrected its publisher label from LX-606-IX-V2 to the model the page shows. s3 (Zap Luxor ovens) lists 14 Luxor models, none of them LX6067. Independent WebSearch for 'LX6067GB' and 'לוקסור LX6067 תנור בנוי' found no page for the model. All sources are exactModel=false and correctly not cited for any fact. There are no spec rows, features, content or meta description to verify. Changes: I removed the SEO keywords 'תנור בנוי לוקסור שחור' and 'תנור בנוי מכני 60 ליטר לוקסור' because they assert unverified facts (black, mechanical, 60 L); only model-number keywords remain. Product name, price and stock were untouched, and none are present. Verdict is fail because product identity could not be confirmed on any source and every catalog fact is unverifiable. Nothing may be published until the supplier confirms the exact model and provides a spec sheet or manual."
+  }
+}

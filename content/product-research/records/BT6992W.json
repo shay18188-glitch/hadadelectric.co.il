@@ -1,0 +1,315 @@
+{
+ "modelNumber": "BT6992W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "BT6992W",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "Retailer pages name the model BT6992W and the importer Ralco (ראלקו). One bug.co.il spec line reads W6992BT. Energy class not confirmed on fetched pages. | QA: Both Israeli retailer pages name BT6992W, 9 kg heat pump dryer; CityDeal names Ralco as the official importer. Brand is Blomberg (catalog spells Bloomberg)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/blomberg-bt6992w-9kg-heat-pump-dryer",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מייבש-כביסה-כולל-משאבת-חום-9-קג-blomberg-9195213254",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "9 ק״ג"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תוף",
+     "value": "110 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 84.6 × 60.8 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "15"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טכנולוגיית ייבוש",
+     "value": "משאבת חום (Heat Pump)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer-stated warranty via importer",
+     "label": "אחריות יבואן",
+     "value": "שנה, ע״י ראלקו"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פתח תוף רחב במיוחד עם זווית פתיחה של 155° להכנסה והוצאה נוחה של הכביסה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פנל הפעלה בעברית ותצוגה דיגיטלית לניהול התוכניות וזמני הייבוש"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Trimmed to quote",
+   "text": "פעולת Anti-Creasing המסייעת להפחית קמטים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Quote does not state automatic stop",
+   "text": "חיישני לחות המזהים את מצב הלחות בכביסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תאורת LED פנימית בתוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Buzzer not in quote, removed",
+   "text": "נעילת ילדים המגנה מפני שינוי הגדרות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Reworded to quote",
+   "text": "אפשרות לחבר צינור לניקוז ישיר למערכת הביוב, כאשר תנאי ההתקנה מאפשרים זאת"
+  }
+ ],
+ "content": {
+  "summary": "הוא מציע 15 תוכניות ייבוש, חיישני לחות ופנל הפעלה בעברית. מתאים למי שמחפש מייבש בגודל מלא עם ייבוש בטמפרטורה נמוכה.",
+  "highlights": [
+   "טכנולוגיית משאבת חום (Heat Pump)",
+   "15 תוכניות ייבוש",
+   "פנל הפעלה בעברית ותצוגה דיגיטלית"
+  ],
+  "goodFor": [
+   "משפחה שמייבשת כמויות כביסה גדולות במחזור אחד",
+   "מי שמעדיף ייבוש בטמפרטורה נמוכה בטכנולוגיית משאבת חום",
+   "בית עם ילדים, בזכות נעילת ילדים המגנה מפני שינוי הגדרות"
+  ],
+  "considerations": [
+   "כדאי לבדוק אם ניתן לחבר צינור לניקוז ישיר לביוב במקום ההתקנה",
+   "יש לבדוק את דירוג האנרגיה בתווית האנרגיה של הדגם"
+  ],
+  "faq": [
+   {
+    "q": "כמה תוכניות ייבוש יש?",
+    "a": "יש 15 תוכניות ייבוש.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לחבר אותו לניקוז ישיר?",
+    "a": "כן, ניתן לחבר צינור לניקוז ישיר למערכת הביוב כאשר תנאי ההתקנה מאפשרים זאת.",
+    "sources": []
+   },
+   {
+    "q": "האם הפנל בעברית?",
+    "a": "כן, לדגם פנל הפעלה בעברית ותצוגה דיגיטלית.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות ע״י ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מייבש כביסה בלומברג",
+   "Blomberg BT6992W",
+   "BT6992W",
+   "מייבש כביסה משאבת חום",
+   "מייבש כביסה 9 ק״ג",
+   "מייבש Heat Pump",
+   "מייבש כביסה ראלקו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "900W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A (או E לפי מקור אחר)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 59.8 ס\"מ, גובה 84.6 ס\"מ, עומק 60.8 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תוף",
+   "catalogValue": "110 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית ייבוש",
+   "catalogValue": "Heat Pump",
+   "finding": "missing-added",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "The catalog brand is spelled Bloomberg. The manufacturer and the retailer pages say Blomberg.",
+   "severity": "medium"
+  },
+  {
+   "field": "energy_rating",
+   "issue": "The catalog gives A (or E from another source). The fetched pages do not show an energy class, so check the EU energy label before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "One bug.co.il spec line reads the model as W6992BT, while the title and product code say BT6992W.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is spelled Bloomberg; retailer pages say Blomberg.",
+   "severity": "medium"
+  },
+  {
+   "field": "energy_rating",
+   "issue": "Catalog energy class (A or E) and 900W power are not confirmed by any fetched page; check the energy label.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "One bug.co.il spec line reads W6992BT while the title says BT6992W.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept all six facts (dimensions and capacity rely on the CityDeal ok quotes). Warranty label changed to importer warranty (Ralco). Feature 2 trimmed to what the quote says; feature 3 reworded since the quote only says the sensors detect moisture; feature 5 reduced to child lock (buzzer not in quote). Installation reworded to the quoted condition. | code guard removed: summary: \"מייבש כביסה של Blomberg בטכנולוגיית משאבת חום (Heat Pump), בקיבולת 9 ק״ג ותוף בנפח 110 ליטר.\"; faq: \"מה הקיבולת של המייבש?\"; metaDescription: \"מייבש כביסה Blomberg BT6992W בטכנולוגיית משאבת חום, קיבולת 9 ק״ג ותוף 110 ליטר עם 15 תוכניות ייבוש. בחדד אלקטריק נהריה\"; highlight: \"קיבולת 9 ק״ג ותוף בנפח 110 ליטר\"; highlight: \"פתח תוף רחב עם פתיחה של 155°\"; consideration: \"יש לוודא שהנישה מתאימה למידות 59.8 × 84.6 × 60.8 ס״מ\""
+ }
+}

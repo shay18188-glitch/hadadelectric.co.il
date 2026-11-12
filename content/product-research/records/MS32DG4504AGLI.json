@@ -1,0 +1,335 @@
+{
+ "modelNumber": "MS32DG4504AGLI",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "MS32DG4504AGLI",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Samsung Israel support page lists the exact model. The manual covers the MS32DG4504A*** family (wildcard), so its specs apply to this model by family. | QA: Samsung Israel support page and two Israeli retailers name the exact model MS32DG4504AGLI."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/support/model/MS32DG4504AGLI/",
+   "publisher": "Samsung Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%A2%D7%9D-%D7%A6%D7%99%D7%A4%D7%95%D7%99-%D7%A7%D7%A8%D7%9E%D7%99-32-%D7%9C%D7%99%D7%98%D7%A8-samsung-ms32dg4504agli",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/מיקרוגל-דיגיטלי-32-ליטר-samsung-5102209ms32dg4504agli",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_IL&OriginYN=N&ModelType=N&ModelName=MS32DG4504AGLI&CttFileID=10805418&CDCttType=UM&VPath=UM%2F202508%2F20250819163821465%2FO_DE68_04759B_02_IB_HTML_MW4000D_MS32DG4504ATLI_EN.pdf",
+   "publisher": "Samsung Israel",
+   "kind": "manual",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "32 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "32 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Supported by Bug page naming the model.",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only on manual not naming the model.; quote checks: ok",
+     "label": "תדר הפעלה",
+     "value": "2450 MHz"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן בישול מקסימלי",
+     "value": "99 דקות"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Retailers say 6; family manual says 7 levels.",
+     "label": "עוצמות חימום ובישול",
+     "value": "6"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only on manual not naming the model.; quote checks: ok",
+     "label": "צריכת חשמל",
+     "value": "1500 W"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only on manual not naming the model.; quote checks: ok",
+     "label": "מתח חשמל",
+     "value": "230 V ~ 50 Hz"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only on manual not naming the model (ATLI).; quote checks: ok",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "51.7 × 29.7 × 42.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only on manual not naming the model (ATLI).; quote checks: ok",
+     "label": "משקל",
+     "value": "14.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג פיקוד",
+     "value": "דיגיטלי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ציפוי פנימי אמייל קרמי כחול אנטיבקטריאלי, עמיד לשריטות וקל לניקוי"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת T.D.S להקרנה תלת מוקדית לפיזור חום אחיד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "4 תוכניות הפשרה מהירה: בשר, דגים, עוף, לחמים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פיקוד אלקטרוני EASYTRONIC עם תצוגת LED"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תוכנית DEODORIZE לנטרול ריחות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "הציפוי הפנימי אמייל קרמי אנטיבקטריאלי שקל לניקוי, ומערכת T.D.S מפזרת את החום באופן אחיד. מתאים למי שמחפש מיקרוגל מרווח לחימום, בישול והפשרה יומיומיים.",
+  "highlights": [
+   "נפח 32 ליטר",
+   "צלחת מסתובבת בקוטר 32 ס״מ",
+   "ציפוי פנימי אמייל קרמי אנטיבקטריאלי"
+  ],
+  "goodFor": [
+   "חימום כלים וצלחות גדולות בזכות צלחת מסתובבת רחבה",
+   "הפשרה מהירה של בשר, דגים, עוף ולחמים",
+   "מי שרוצה פנים מיקרוגל שקל לנקות"
+  ],
+  "considerations": [
+   "בדקו את מידות הנישה או המשטח מול מידות המכשיר אצל הנציג לפני ההזמנה",
+   "ודאו שקיים שקע חשמל זמין ליד מקום ההצבה",
+   "מדובר במיקרוגל דיגיטלי ללא גריל לפי הנתונים שנבדקו"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המיקרוגל?",
+    "a": "נפח הפנים הוא 32 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה זמן הבישול המקסימלי בטיימר?",
+    "a": "זמן הבישול המקסימלי הוא 99 דקות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מיקרוגל סמסונג 32 ליטר",
+   "MS32DG4504AGLI",
+   "מיקרוגל דיגיטלי סמסונג",
+   "מיקרוגל 32 ליטר",
+   "מיקרוגל עם ציפוי קרמי",
+   "מיקרוגל Samsung שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "32 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "52 × 30 × 42.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "51.7 × 29.7 × 42.4 ס״מ",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "15 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "14.6 ק״ג",
+   "sources": [
+    "s4"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Manual lists wildcard MS32DG4504A***; exact model confirmed only on Samsung Israel support page.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Retailer lists 52x30x42.5 cm and 15 kg; manual (ATLI family) says 517x297x424 mm, 14.6 kg",
+   "severity": "low"
+  },
+  {
+   "field": "עוצמות חימום ובישול",
+   "issue": "Retailers list 6 power levels; the family manual (ATLI) lists 7 levels.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות/משקל",
+   "issue": "Catalog 52×30×42.5 cm, 15 kg not verified on a page naming the exact model; family manual gives 517×297×424 mm, 14.6 kg.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 2-6 (frequency, power consumption, voltage, dimensions, weight): their only evidence is a manual page that does not name the exact model (it is titled for MS32DG4504ATLI). Fact 8 (6 power levels) marked conflict: retailers say 6 levels, the family manual says 7 levels. Kept capacity, 1000 W output (Bug), 99 min max time, 32 cm turntable, digital control, and all five features. | code guard removed: summary: \"מיקרוגל דיגיטלי של Samsung בנפח 32 ליטר עם הספק 1000 W וצלחת מסתובבת בקוטר 32 ס״מ.\"; faq: \"מה ההספק של המיקרוגל?\"; faq: \"אילו תוכניות הפשרה יש?\"; metaDescription: \"מיקרוגל דיגיטלי Samsung MS32DG4504AGLI בנפח 32 ליטר, הספק 1000 W וציפוי אמייל קרמי אנטיבקטריאלי. בחדד אלקטריק נהריה\"; highlight: \"הספק 1000 W\"; highlight: \"4 תוכניות הפשרה מהירה: בשר, דגים, עוף, לחמים\""
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "modelNumber": "FQF675GGM",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Frigidaire",
+  "exactModel": "FQF675GGM",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only a retailer listing naming the exact model was found; web search budget was exhausted, no manufacturer spec page located. | QA: Israeli retailer listing names FQF675GGM as a 4-door 617-liter zero-line fridge, matching the catalog name; no manufacturer page confirms the full spec."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://miniline.co.il/frigidaire/",
+   "publisher": "Miniline",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote names the model and states 617 liters.",
+     "label": "נפח כללי",
+     "value": "617 ליטר"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מקרר רב-דלתות בנפח גדול.",
+  "highlights": [],
+  "goodFor": [
+   "מטבח שבו נדרש מקרר בנפח גדול"
+  ],
+  "considerations": [
+   "כדאי למדוד את הנישה ואת מעבר הדלת בבית לפני ההזמנה"
+  ],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מקרר 4 דלתות",
+   "Frigidaire FQF675GGM",
+   "מקרר פריג'ידר",
+   "מקרר 617 ליטר",
+   "מקרר קו אפס",
+   "מקרר 4 דלתות פריג'ידר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כללי",
+   "catalogValue": "617 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "No manufacturer or importer page for the exact model was found; only a retailer listing.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer or importer page found for the exact model; only one Israeli retailer listing. Remaining catalog specs (compartment volumes, energy rating, dimensions, niche size) are unverified.",
+   "severity": "high"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Only one fact (total capacity 617 L) verified from a single Israeli retailer listing naming the exact model. No manufacturer or importer source; other catalog specs remain unverified. | code guard removed: summary: \"מקרר 4 דלתות של Frigidaire, דגם FQF675GGM, בנפח כללי של 617 ליטר, המיועד להתקנה בקו אפס.\"; faq: \"מה הנפח הכללי של המקרר FQF675GGM?\"; metaDescription: \"מקרר 4 דלתות Frigidaire FQF675GGM בנפח כללי של 617 ליטר, להתקנה בקו אפס. פרטים ומפרט מלא בחדד אלקטריק נהריה\"; highlight: \"נפח כללי של 617 ליטר\"; highlight: \"מקרר 4 דלתות\""
+ }
+}

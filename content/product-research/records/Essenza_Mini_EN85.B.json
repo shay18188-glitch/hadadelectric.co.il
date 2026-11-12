@@ -1,0 +1,600 @@
+{
+  "modelNumber": "Essenza Mini EN85.B",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "De'Longhi (Nespresso)",
+    "exactModel": "EN85.B",
+    "israeliImporter": null,
+    "matchConfidence": "high",
+    "notes": "EN85.B is De'Longhi's code for the black Essenza Mini Nespresso machine (220-240 V EU-type variant). De'Longhi's own product pages (UK, BG, LV, EE) use the exact code EN85.B; De'Longhi manufacturer code per Coolblue is 0132194160. Nespresso sells the same machine design under its own code D30 (and C30), and other OEM codes exist (Breville BEC220/BEC250, KRUPS XN110/XN111, Magimix M115), per the shared user manual; those are not this SKU and were not used as sources. The US/Latin-American variant is EN85B without the dot (120 V); its De'Longhi support data was used only to corroborate the axis orientation of the dimensions. No De'Longhi Israel page and no official Israeli importer statement for EN85.B were found; Israeli price-comparison pages (Zap, WiseBuy) merge D30 and EN85 listings into one model page. De'Longhi's own PIM data for EN85.B contains clearly wrong fields (e.g. 'Aeroccino Milk System', 'Auto froth', and a product weight equal to the pack weight), so only fields corroborated elsewhere or displayed as text on the page were used. QA 2026-11-10: on reopening, the UK and BG De'Longhi pages and EP (s6) name EN85.B exactly; the PIM fields, the manual (s3) and the energy label (s4) could not be read, Coolblue (s5) returned 403, and the EN85B support page (s7) shows no technical data."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.delonghi.com/en-gb/p/essenza-mini-en85.b-essenza-mini-nespresso-coffee-machine/EN85.B.html",
+      "publisher": "De'Longhi UK (delonghi.com)",
+      "kind": "manufacturer",
+      "market": "UK",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.delonghi.com/bg-bg/p/essenza-mini-en85.b-essenza-mini-nespresso-coffee-machine/EN85.B.html",
+      "publisher": "De'Longhi Bulgaria (delonghi.com)",
+      "kind": "manufacturer",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=374545&download=true",
+      "publisher": "Nespresso / De'Longhi – User manual of Citiz, Essenza Mini, Inissia and Pixie (linked from the EN85.B product page)",
+      "kind": "manual",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://library.delonghigroup.com/assetbank-delonghi/action/directLinkImage?assetId=228197&download=true",
+      "publisher": "De'Longhi – energy label EN 85 (linked from the EN85.B page for de-CH)",
+      "kind": "manufacturer",
+      "market": "CH",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.coolblue.nl/en/product/959535/de-longhi-nespresso-essenza-mini-en85-b.html",
+      "publisher": "Coolblue (coolblue.nl)",
+      "kind": "retailer",
+      "market": "NL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.ep.de/muerbeth-tischler/p/1221861/en-85-b-essenza-mini",
+      "publisher": "EP:Electronic Partner (ep.de)",
+      "kind": "retailer",
+      "market": "DE",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.delonghi.com/en-gb/s/EN85B",
+      "publisher": "De'Longhi support page EN85B (120 V variant)",
+      "kind": "manufacturer",
+      "market": "US",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.wisebuy.co.il/product.aspx?productid=951399",
+      "publisher": "WiseBuy (wisebuy.co.il)",
+      "kind": "other",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.zap.co.il/model.aspx?modelid=951399",
+      "publisher": "זאפ השוואת מחירים (zap.co.il)",
+      "kind": "other",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "יצרן",
+          "value": "De'Longhi, בשיתוף Nespresso",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "QA: s1/s2 are De'Longhi pages for EN85.B describing it as an Essenza Mini Nespresso coffee machine."
+        },
+        {
+          "label": "דגם",
+          "value": "EN85.B",
+          "sources": ["s1", "s2", "s6"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סדרה",
+          "value": "Essenza Mini",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סוג",
+          "value": "מכונת קפה לקפסולות Nespresso",
+          "sources": ["s1", "s2", "s6"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "QA: value was 'Nespresso Original'. None of the pages that could be reopened (s1, s2, s6) names the Original system (s5 returned 403), so 'Original' was removed."
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "11 × 20.5 × 32.5 ס״מ",
+          "sources": ["s5", "s6", "s7"],
+          "confidence": "low",
+          "status": "conflict",
+          "note": "QA: downgraded from verified. On reopening, EP (s6) gives width 11, height 32.5, depth 20.5 cm (height and depth the other way round); Coolblue (s5) returned 403 and the De'Longhi EN85B support page (s7, not exact) shows no dimensions. No De'Longhi page for EN85.B states the dimensions. Height/depth orientation must be confirmed."
+        },
+        {
+          "label": "משקל",
+          "value": "2.3 ק״ג",
+          "sources": ["s5", "s6"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. Only EP (s6) shows 2.3 kg net (3.16 kg packed) on reopening; Coolblue (s5) returned 403. Single foreign retailer. The De'Longhi PIM weight fields could not be seen."
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        {
+          "label": "נפח מכל מים",
+          "value": "0.6 ליטר",
+          "sources": ["s1", "s5", "s6"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. Not shown on s1 on reopening; Coolblue (s5) returned 403; only EP (s6) shows 0.6 l."
+        },
+        {
+          "label": "מכל מים נשלף",
+          "value": "כן",
+          "sources": ["s5", "s6"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. Only EP (s6) shows 'abnehmbar'; Coolblue (s5) returned 403."
+        },
+        {
+          "label": "קיבולת מכל קפסולות משומשות",
+          "value": "6 קפסולות",
+          "sources": ["s1", "s5", "s6"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. Only EP (s6) shows 'ca. 6' on reopening; not shown on s1, s5 returned 403. One Israeli listing on s8/s9 (not exact) says 9-11 capsules."
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        {
+          "label": "לחץ משאבה",
+          "value": "19 בר",
+          "sources": ["s1", "s2", "s6"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "זמן התחממות",
+          "value": "כ-25 שניות",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מערכת חימום",
+          "value": "Thermoblock",
+          "sources": ["s5", "s6"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. Only EP (s6) shows 'Thermoblocksystem'; Coolblue (s5) returned 403; not stated on the De'Longhi pages."
+        },
+        {
+          "label": "רמת רעש בהכנת אספרסו",
+          "value": "57.9 dB",
+          "sources": ["s5"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only Coolblue lists this value; QA could not reopen it (403)."
+        }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        {
+          "label": "כפתור אספרסו",
+          "value": "40 מ״ל (ניתן לתכנות)",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "כפתור לונגו",
+          "value": "110 מ״ל (ניתן לתכנות)",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "עצירת זרימה אוטומטית (Flow Stop)",
+          "value": "יש",
+          "sources": ["s1", "s2", "s6"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "החזרה להגדרות יצרן",
+          "value": "יש",
+          "sources": ["s3"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. The manual PDF (s3) could not be read on reopening (WebFetch returned only binary PDF data); no other cited page mentions a factory reset."
+        },
+        {
+          "label": "גובה כוס מרבי עם מעמד הכוסות המתקפל",
+          "value": "עד 12 ס״מ",
+          "sources": ["s6"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only EP states the cup support takes cups up to 12 cm high (confirmed on reopening, still single source)."
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        {
+          "label": "מתח ותדר",
+          "value": "220–240 וולט, 50–60 הרץ",
+          "sources": ["s1", "s3"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. Voltage/frequency not shown on s1 on reopening, and the manual (s3) could not be read. EP (s6) does not state voltage."
+        },
+        {
+          "label": "הספק",
+          "value": "1150 W / 1200–1310 W",
+          "sources": ["s1", "s3", "s5"],
+          "confidence": "low",
+          "status": "conflict",
+          "note": "De'Longhi EN85.B product data (s1) says input power 1150 W. The manual linked from the same page (s3) gives 1200-1310 W for Essenza Mini at 220-240 V (models C30/D30, BEC220/BEC250, EN85, XN110/XN111, M115). Coolblue (s5) says 1260 W. QA: none of these three values could be seen on reopening (s1 PIM not visible, s3 unreadable, s5 403); WiseBuy (s8, not exact) says 1200 W. Rating plate on the unit should be checked."
+        },
+        {
+          "label": "מצב חיסכון באנרגיה (Eco)",
+          "value": "לאחר 3 דקות ללא שימוש",
+          "sources": ["s3", "s6"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. EP (s6) shows eco mode 3 min after the last cup; the manual (s3) could not be read, so only a single foreign retailer confirms it."
+        },
+        {
+          "label": "כיבוי אוטומטי",
+          "value": "לאחר 9 דקות (ניתן לשנות ל-30 דקות)",
+          "sources": ["s3", "s5", "s6"],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. EP (s6) shows auto-off 9 min after the last cup but does not say it is adjustable; the 30-minute option rests only on the manual (s3), which could not be read; s5 returned 403."
+        },
+        {
+          "label": "דירוג אנרגטי (תווית אנרגיה שווייצרית למכונות קפה)",
+          "value": "A+, ‏40 קוט״ש לשנה",
+          "sources": ["s4"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. The s4 link now resolves to a PDF whose readable metadata is a De'Longhi logo file; no model name, class or kWh could be read. The filename refers to 'EN85', not EN85.B, and the label is Swiss, not EU or Israeli."
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        {
+          "label": "צבע",
+          "value": "שחור",
+          "sources": ["s1", "s2", "s6"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "חומר גוף",
+          "value": "פלסטיק",
+          "sources": ["s1", "s5"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "QA: downgraded from verified. Material not shown on s1 on reopening, s5 returned 403, and EP (s6) does not state the housing material."
+        },
+        {
+          "label": "גימור",
+          "value": "מט",
+          "sources": ["s5"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only Coolblue lists 'Finish: Matte'; QA could not reopen it (403)."
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "שני כפתורי הכנה בלחיצה אחת: אספרסו (40 מ״ל) ולונגו (110 מ״ל), עם עצירת זרימה אוטומטית",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "שני הכפתורים ניתנים לתכנות, כך שאפשר לקבוע לכל כפתור את כמות הקפה",
+      "sources": ["s1", "s2", "s6"],
+      "confidence": "high",
+      "status": "verified",
+      "note": "QA: rewritten. The press-and-hold programming method came only from the manual (s3), which could not be read; s1/s2 say the buttons are programmable and s6 says the cup volume can be programmed per button."
+    },
+    {
+      "text": "התחממות מהירה של כ-25 שניות",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "משאבה בלחץ 19 בר",
+      "sources": ["s1", "s2", "s6"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מעבר למצב חיסכון באנרגיה לאחר 3 דקות וכיבוי אוטומטי לאחר 9 דקות; את זמן הכיבוי אפשר לשנות ל-30 דקות",
+      "sources": ["s3", "s6"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded. s6 confirms 3 min / 9 min only; the 30-minute option rests on the unreadable manual (s3)."
+    },
+    {
+      "text": "החזרה להגדרות היצרן של כמויות הקפה",
+      "sources": ["s3"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded; manual (s3) could not be read."
+    },
+    {
+      "text": "מצב ריקון מערכת לפני תקופה ארוכה ללא שימוש או לפני תיקון",
+      "sources": ["s3"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded; manual (s3) could not be read."
+    },
+    {
+      "text": "מכל קפסולות משומשות ל-6 קפסולות ומכל מים נשלף של 0.6 ליטר",
+      "sources": ["s1", "s5", "s6"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded; only EP (s6) shows these values on reopening."
+    }
+  ],
+  "inTheBox": [],
+  "installation": [
+    {
+      "text": "לפני ההפעלה הראשונה יש לקרוא את חוברת הוראות הבטיחות המצורפת",
+      "sources": ["s3"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded; manual (s3) could not be read."
+    },
+    {
+      "text": "חיבור לשקע חשמל רגיל 220–240 וולט",
+      "sources": ["s1", "s3"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded; voltage not shown on s1 and the manual (s3) could not be read."
+    },
+    {
+      "text": "בשימוש הראשון: לשטוף את מכל המים, להניח כלי מתחת לפיית הקפה, להדליק את המכונה ולהזרים מים לפי שלבי ההפעלה הראשונה במדריך",
+      "sources": ["s3"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded; manual (s3) could not be read."
+    },
+    {
+      "text": "יש למלא את המכל במי שתייה טריים בלבד",
+      "sources": ["s3"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded; manual (s3) could not be read."
+    },
+    {
+      "text": "ניקוי אבנית לפי קשיות המים: במים קשים (360 מ״ג/ל׳ CaCO3) אחרי כ-300 כוסות אספרסו, במים בינוניים (180 מ״ג/ל׳) אחרי כ-600, ובמים רכים אחרי כ-1,200, עם תמיסת ניקוי אבנית של Nespresso",
+      "sources": ["s3"],
+      "confidence": "medium",
+      "status": "unverified",
+      "note": "QA: downgraded; manual (s3) could not be read."
+    }
+  ],
+  "content": {
+    "summary": "Essenza Mini EN85.B של De'Longhi היא מכונת קפה לקפסולות Nespresso בצבע שחור. יש לה משאבה בלחץ 19 בר, התחממות של כ-25 שניות ושני כפתורים ניתנים לתכנות לאספרסו (40 מ״ל) וללונגו (110 מ״ל), עם עצירת זרימה אוטומטית. היא מתאימה למי שרוצה אספרסו או לונגו בלחיצת כפתור, בלי המתנה ארוכה להתחממות.",
+    "highlights": [
+      "משאבה בלחץ 19 בר",
+      "התחממות של כ-25 שניות",
+      "אספרסו 40 מ״ל ולונגו 110 מ״ל, שני הכפתורים ניתנים לתכנות",
+      "עצירת זרימה אוטומטית (Flow Stop)"
+    ],
+    "goodFor": [
+      "מי ששותה בעיקר אספרסו או לונגו – שני כפתורים מוכנים בלחיצה אחת, עם כמות שאפשר לתכנת",
+      "מי שרוצה קפה מהר בבוקר – המכונה מתחממת בכ-25 שניות"
+    ],
+    "considerations": [
+      "המכונה עובדת עם קפסולות Nespresso, לכן כדאי לוודא שזו מערכת הקפסולות שבה אתם משתמשים",
+      "הכמויות המוגדרות בכפתורים הן 40 מ״ל לאספרסו ו-110 מ״ל ללונגו; לכמות אחרת צריך לתכנת את הכפתור"
+    ],
+    "faq": [
+      {
+        "q": "איזו מכונה זו?",
+        "a": "זו מכונת קפה לקפסולות Nespresso של De'Longhi מסדרת Essenza Mini, בצבע שחור (דגם EN85.B).",
+        "sources": ["s1", "s2"]
+      },
+      {
+        "q": "אילו גדלי קפה היא מכינה?",
+        "a": "יש שני כפתורים: אספרסו של 40 מ״ל ולונגו של 110 מ״ל. את הכמות של כל כפתור אפשר לתכנת מחדש.",
+        "sources": ["s1", "s2"]
+      },
+      {
+        "q": "כמה זמן לוקח לה להתחמם?",
+        "a": "כ-25 שניות.",
+        "sources": ["s1", "s2"]
+      },
+      {
+        "q": "מה לחץ המשאבה?",
+        "a": "19 בר.",
+        "sources": ["s1", "s2", "s6"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "מכונת קפה נספרסו אסנזה מיני EN85.B שחורה של דלונגי: משאבה 19 בר, התחממות כ-25 שניות, אספרסו 40 מ״ל ולונגו 110 מ״ל בלחיצה. בחדד אלקטריק נהריה",
+    "keywords": [
+      "נספרסו אסנזה מיני",
+      "Essenza Mini EN85.B",
+      "EN85.B",
+      "מכונת קפה נספרסו קטנה",
+      "דלונגי אסנזה מיני שחורה",
+      "מכונת קפסולות נספרסו",
+      "DeLonghi EN85 Essenza Mini",
+      "מכונת אספרסו קומפקטית"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "name",
+      "catalogValue": "מכונת קפה קפסולות נספרסו אסנזה מיני  שחורה",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "brand",
+      "catalogValue": "DeLonghi",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "origin_country",
+      "catalogValue": "לא צוין במקורות",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "לחץ משאבה",
+      "catalogValue": "19 בר",
+      "finding": "confirmed",
+      "sources": ["s1", "s2", "s6"]
+    },
+    {
+      "field": "הספק",
+      "catalogValue": "1150W",
+      "finding": "unverifiable",
+      "sources": ["s1", "s3", "s5"]
+    },
+    {
+      "field": "מתח",
+      "catalogValue": "220-240V",
+      "finding": "unverifiable",
+      "sources": ["s1", "s3"]
+    },
+    {
+      "field": "נפח מכל מים",
+      "catalogValue": "0.6 ליטר",
+      "finding": "unverifiable",
+      "sources": ["s6"]
+    },
+    {
+      "field": "משקל",
+      "catalogValue": "2.3 ק\"ג",
+      "finding": "unverifiable",
+      "sources": ["s6"]
+    },
+    {
+      "field": "מידות",
+      "catalogValue": "רוחב 11 ס\"מ, עומק 32.5 ס\"מ, גובה 20.5 ס\"מ",
+      "finding": "unverifiable",
+      "sources": ["s6"]
+    },
+    {
+      "field": "גדלי קפה",
+      "catalogValue": "אספרסו 40 מ\"ל, לונגו 110 מ\"ל",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "זמן התחממות",
+      "catalogValue": "25 שניות",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "כיבוי אוטומטי",
+      "catalogValue": "לאחר 9 דקות",
+      "finding": "unverifiable",
+      "sources": ["s6"]
+    },
+    {
+      "field": "מצב חיסכון באנרגיה (Eco)",
+      "catalogValue": "לאחר 3 דקות",
+      "finding": "unverifiable",
+      "sources": ["s6"]
+    },
+    {
+      "field": "תכנות כמויות ועצירת זרימה",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "שני כפתורים ניתנים לתכנות עם עצירת זרימה אוטומטית (Flow Stop)",
+      "sources": ["s1", "s2", "s6"]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "energy.הספק",
+      "issue": "Power rating conflicts between manufacturer sources: De'Longhi EN85.B product data says 1150 W (matches the catalog), while the manual linked from the same page says 1200–1310 W for Essenza Mini at 220–240 V, and Coolblue says 1260 W. QA could not see any of these values on reopening. Check the rating plate on a unit in stock before publishing a wattage.",
+      "severity": "medium"
+    },
+    {
+      "field": "sources.s3/s4/s5",
+      "issue": "QA could not read the user manual (s3) or the energy label (s4): WebFetch returned only binary PDF data. Coolblue (s5) returned 403. Facts that rested on them were withheld: voltage, eco mode, auto-off and the 30-minute option, factory reset, emptying mode, descaling intervals, all installation steps, energy label, housing material. Facts seen only on EP (s6) were withheld as single-source: weight, water tank and removability, 6-capsule bin, Thermoblock. Re-check with a PDF text extractor (pdftotext) and a working fetch of Coolblue, then restore the rows that are confirmed.",
+      "severity": "medium"
+    },
+    {
+      "field": "identity.israeliImporter",
+      "issue": "No official Israeli importer or De'Longhi Israel page for EN85.B was found. Israeli retailer pages mention a 12-month warranty but do not tie it to an importer for this exact SKU, so no warranty row was written. Confirm the importer and warranty terms for the units the store sells.",
+      "severity": "medium"
+    },
+    {
+      "field": "dimensions",
+      "issue": "Dimensions come from foreign retailers only, and on reopening only EP (s6) could be read, which gives width 11 cm, height 32.5 cm, depth 20.5 cm. The record's 11 × 20.5 × 32.5 cm (W × H × D) orientation could not be confirmed (Coolblue 403, De'Longhi EN85B support page shows no dimensions). Withheld as a conflict.",
+      "severity": "medium"
+    },
+    {
+      "field": "inTheBox",
+      "issue": "No source lists the box contents for EN85.B (the De'Longhi page shows only an image). Some Israeli listings mention a capsule sample pack; not verified. Left empty.",
+      "severity": "low"
+    },
+    {
+      "field": "origin_country",
+      "issue": "Country of manufacture was not found on any source; catalog value 'לא צוין במקורות' left as is.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-10",
+    "verdict": "pass-with-fixes",
+    "notes": "Reopened all 9 sources. s1/s2 (De'Longhi UK/BG) and s6 (EP) load and name EN85.B; they confirm 19 bar, ~25 s heat-up, espresso 40 ml / lungo 110 ml programmable, Flow Stop, black. s3 (manual) and s4 (energy label) PDFs could not be read (binary only; s4 now resolves to a logo file), so s4 set exactModel false; s5 (Coolblue) 403; s7 shows no technical data; s8/s9 merged D30/EN85 pages, not exact. Changes: 'סוג' corrected to 'מכונת קפה לקפסולות Nespresso' (no page says 'Original'); dimensions row changed to conflict (EP swaps height/depth, nothing else readable); downgraded to unverified: weight, water tank, removable tank, 6-capsule bin, Thermoblock, factory reset, voltage, eco mode, auto-off, energy label, material, plus features for eco/auto-off, reset, emptying, capsule/tank and all 5 installation items; removed unconfirmed s3/s5 refs from verified rows; feature 2 rewritten to the programmable claim s1/s2/s6 support. Content and SEO rewritten from verified rows only: removed 11 cm width, 2.3 kg, 0.6 L, 6 capsules, eco/auto-off, descaling, 'Original' and 'no milk frother' claims; FAQ reduced to identity, cup sizes, heat-up, pump pressure; meta description rewritten (140 chars). catalogCheck: power, voltage, tank, weight, dimensions, auto-off, eco set to unverifiable; three missing-added entries resting on unread sources removed. Added review flag for unreadable sources; dimensions flag raised to medium. Name, price and stock untouched. Compiler check passes."
+  }
+}

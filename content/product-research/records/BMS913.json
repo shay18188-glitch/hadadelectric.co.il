@@ -1,0 +1,340 @@
+{
+ "modelNumber": "BMS913",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "BMS913",
+  "israeliImporter": "אלקטרה סחר",
+  "matchConfidence": "high",
+  "notes": "The Sauter Israel product page names BMS913 and lists its dimensions, programs, loaf sizes and crust settings. Retailers acdc and lior-electric carry the same dimensions and a 12-month warranty through the official importer. No voltage or power-cut data was found on any fetched page. | QA: Sauter Israel page and two Israeli retailers name BMS913 with matching dimensions; warranty via official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/product/%D7%90%D7%95%D7%A4%D7%94-%D7%9C%D7%97%D7%9D-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-bms913/",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.acdc.co.il/items/8309313-%D7%90%D7%95%D7%A4%D7%94-%D7%9C%D7%97%D7%9D-SAUTER-BMS913-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%9E%D7%95%D7%91%D7%A8%D7%A9%D7%AA",
+   "publisher": "ACDC",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "31.2 × 30.4 × 26.2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקלי כיכר אפשריים",
+     "value": "450 גרם, 680 גרם, 900 גרם"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר תוכניות אפייה",
+     "value": "13"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה מוברשת"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer page; researcher noted acdc may say LCD - flagged.",
+     "label": "סוג מסך",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "acdc quote ok.",
+     "label": "אחריות",
+     "value": "12 חודשים, יבואן רשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מפזר אוטומטי לתוספות מובנה במכסה: אגוזים, פירות וזיתים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בחירה מתוך 3 דרגות השחמה לקרום: בהיר, בינוני או כהה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שמירה אוטומטית על חום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תבנית בציפוי טפלון עם להב לישה נשלף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תוכניות האפייה כוללות בסיסי, צרפתי, חיטה מלאה, מתוק, ללא שמרים, קונטיננטלי, לישת בצק, ללא גלוטן, ריבה, אפייה בלבד ויוגורט"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "אופה לחם Sauter BMS913 בגימור נירוסטה מוברשת, עם 13 תוכניות אפייה ואפשרות לאפות כיכר במשקל 450, 680 או 900 גרם. מפזר תוספות אוטומטי במכסה מוסיף אגוזים, פירות וזיתים בזמן הנכון, וניתן לבחור בין 3 דרגות השחמה לקרום. מתאים למי שרוצה לחם טרי בבית, כולל תוכנית ללא גלוטן, ולישת בצק בלבד.",
+  "highlights": [
+   "13 תוכניות אפייה, כולל ללא גלוטן, ריבה ויוגורט",
+   "כיכר במשקל 450, 680 או 900 גרם",
+   "מפזר אוטומטי לאגוזים, פירות וזיתים",
+   "3 דרגות השחמה לקרום: בהיר, בינוני או כהה",
+   "גוף נירוסטה מוברשת ומסך LED"
+  ],
+  "goodFor": [
+   "אפיית לחם ביתי בגודל כיכר שמתאים לצריכה, מ-450 ועד 900 גרם",
+   "מי שצריך לחם ללא גלוטן ויכול להיעזר בתוכנית ייעודית",
+   "הכנת בצק לפיצה או לחלות בעזרת תוכנית לישת בצק",
+   "הכנת ריבה או יוגורט ביתיים באותו מכשיר"
+  ],
+  "considerations": [
+   "בדקו שיש על השיש מקום למכשיר במידות 31.2 × 30.4 × 26.2 ס״מ, וגם מרווח לפתיחת המכסה",
+   "התבנית מצופה טפלון – מומלץ להשתמש בכלים שאינם שורטים בעת הוצאת הלחם"
+  ],
+  "faq": [
+   {
+    "q": "אילו גדלי כיכר אפשר לאפות ב-BMS913?",
+    "a": "ניתן לבחור כיכר במשקל 450 גרם, 680 גרם או 900 גרם.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תוכנית ללא גלוטן?",
+    "a": "כן. בין 13 תוכניות האפייה יש תוכנית ללא גלוטן, וגם תוכניות לריבה, ליוגורט וללישת בצק.",
+    "sources": []
+   },
+   {
+    "q": "איך מוסיפים אגוזים או פירות ללחם?",
+    "a": "במכסה מובנה מפזר אוטומטי שמוסיף אגוזים, פירות וזיתים במהלך התוכנית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט בצבע הקרום?",
+    "a": "כן, יש 3 דרגות השחמה לקרום: בהיר, בינוני וכהה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "אופה לחם Sauter BMS913 מנירוסטה מוברשת: 13 תוכניות אפייה, כיכר 450/680/900 גרם ומפזר תוספות אוטומטי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "אופה לחם Sauter",
+   "Sauter BMS913",
+   "אופה לחם נירוסטה",
+   "מכונת לחם ביתית",
+   "אופה לחם ללא גלוטן",
+   "אופה לחם עם מפזר תוספות",
+   "BMS913"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 30.4 ס\"מ, רוחב 31.2 ס\"מ, עומק 26.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V~50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקלי כיכר",
+   "catalogValue": "450 גרם, 680 גרם, 900 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה מוברשת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות אפייה",
+   "catalogValue": "13 תוכניות אפייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דיספנסר אוטומטי",
+   "catalogValue": "דיספנסר אוטומטי לתוספות (אגוזים, פירות וזיתים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות השחמה",
+   "catalogValue": "3 דרגות השחמה לקרום (בהיר, בינוני, כהה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסך",
+   "catalogValue": "מסך LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שמירת חום",
+   "catalogValue": "פונקציית שמירת חום אוטומטית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תבנית ולהב",
+   "catalogValue": "תבנית טפלון עם להב לישה נשלף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנה מפני הפסקת חשמל",
+   "catalogValue": "הגנה מפני הפסקת חשמל למשך 10 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים, יבואן רשמי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "display",
+   "issue": "מקור היצרן מתאר מסך LED, ואילו acdc מתאר מסך LCD. נדרשת בדיקה איזה מסך מותקן בדגם.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "לא נמצא במקורות שנבדקו אישור למתח 230V~50Hz או להגנה מפני הפסקת חשמל של 10 דקות.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג מסך",
+   "issue": "דף Sauter ישראל מציין מסך לד, ולפי החוקר acdc מציין LCD. יש לאמת את סוג המסך.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח והגנה מפני הפסקת חשמל",
+   "issue": "המתח 230V~50Hz וההגנה מפני הפסקת חשמל ל-10 דקות שבקטלוג לא אומתו באף מקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features kept from ok quotes on pages naming BMS913. Display type kept as LED per the Sauter Israel page, flagged because the researcher reported an LCD mention on acdc. Catalog voltage and 10-minute power-cut protection are unverified and not published. | code guard removed: faq: \"מה האחריות על המכשיר?\"; consideration: \"האחריות היא 12 חודשים דרך היבואן הרשמי\""
+ }
+}

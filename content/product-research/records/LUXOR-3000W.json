@@ -1,0 +1,240 @@
+{
+ "modelNumber": "LUXOR-3000W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Luxor",
+  "exactModel": "LUXOR-3000W",
+  "israeliImporter": "א.ח.י דיגיטל",
+  "matchConfidence": "medium",
+  "notes": "The only page found that describes this heater is a LastPrice listing (Luxor 3000W, Mushroom Heater 3000, SKU 988898774). It never prints the code LUXOR-3000W. The listing says the importer is א.ח.י דיגיטל. | QA: LastPrice listing 'פטריית חימום הלוגן טלסקופית Luxor 3000W' matches catalog name (halogen mushroom heater, 3000 W, Luxor) but the code LUXOR-3000W itself does not appear; only one retailer source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lastprice.co.il/p/32129866/%D7%A4%D7%98%D7%A8%D7%99%D7%99%D7%AA-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%94%D7%9C%D7%95%D7%92%D7%9F-%D7%98%D7%9C%D7%A1%D7%A7%D7%95%D7%A4%D7%99%D7%AA-Luxor-3000W/Luxor-Mushroom-Heater-3000",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Luxor"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "3000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דרגות חום",
+     "value": "2 רמות חימום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג גוף חימום",
+     "value": "הלוגן"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה מתכוונן (טלסקופי)",
+     "value": "160–205 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר בסיס",
+     "value": "46 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר ראש החימום",
+     "value": "58.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומרים",
+     "value": "נירוסטה, אלומיניום, פלסטיק, גומי וזכוכית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פליטת חום המעניקה תחושת חום נעימה ואחידה, ללא ריחות או רעש"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מתאימה לחימום חללים פתוחים וסגורים חלקית – מרפסות, גינות, מסעדות, בתי קפה ואירועים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בסיס רחב בקוטר 46 ס״מ למניעת טלטולים או נפילות"
+  }
+ ],
+ "content": {
+  "summary": "מתאימה למרפסות, גינות, בתי קפה ואירועים בחללים פתוחים או סגורים חלקית.",
+  "highlights": [
+   "גוף חימום הלוגן",
+   "מבנה מנירוסטה, אלומיניום, פלסטיק, גומי וזכוכית"
+  ],
+  "goodFor": [
+   "חימום אזור ישיבה במרפסת או בגינה",
+   "בתי קפה ומסעדות עם ישיבה בחוץ",
+   "אירועים בחללים פתוחים או סגורים חלקית"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "איזה סוג חימום יש בה?",
+    "a": "גוף חימום הלוגן שמפיץ חום אחיד ומיידי, ללא ריחות או רעש.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "פטריית חימום הלוגן",
+   "פטריית חימום חשמלית",
+   "Luxor 3000W",
+   "פטריית חימום Luxor",
+   "תנור חימום למרפסת",
+   "פטריית חימום טלסקופית",
+   "חימום לגינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "יצרן",
+   "catalogValue": "Luxor",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "3000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג חימום",
+   "catalogValue": "הלוגן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקוד LUXOR-3000W לא מופיע באף עמוד שמצאתי. העמוד היחיד שמתאר את התנור הוא LastPrice ומציין Luxor 3000W ו-Mushroom Heater 3000 (SKU 988898774). זהו קוד קרוב בלבד וצריך לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "הפעלה",
+   "issue": "אותו עמוד LastPrice כותב שסוג ההפעלה יכול להיות גז או חשמל, ובאותו עמוד ההספק 3000 W. לא ברור איזו גרסה ישראלית היא, ולכן לא פורסם מידע על סוג ההפעלה.",
+   "severity": "high"
+  },
+  {
+   "field": "מקורות",
+   "issue": "נמצא עמוד קמעונאי אחד בלבד שמזכיר את הדגם. לא נמצא עמוד יצרן, יבואן או מדריך למשתמש, ולכן העובדות יישארו לבדיקה ולא יפורסמו לאתר.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקוד LUXOR-3000W לא מופיע במקור; העמוד היחיד (LastPrice) מציין Luxor 3000W / Mushroom Heater 3000. יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "הפעלה",
+   "issue": "עמוד המקור מזכיר אפשרות של גז או חשמל; לא ברור איזו גרסה נמכרת, ולכן סוג ההפעלה לא פורסם.",
+   "severity": "high"
+  },
+  {
+   "field": "מקורות",
+   "issue": "מקור יחיד מקמעונאי ישראלי, ללא עמוד יצרן או יבואן או מדריך למשתמש.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Single Israeli retailer source (LastPrice) naming Luxor 3000W Mushroom Heater; all quotes ok and match. Identity medium because the exact code LUXOR-3000W is not printed and gas/electric wording on the page is ambiguous. Labels normalized; no facts rejected. | code guard removed: summary: \"פטריית חימום הלוגן טלסקופית של Luxor בהספק 3000 W, עם 2 רמות חימום לבחירה.\"; summary: \"הגובה מתכוונן בטווח 160–205 ס״מ, וראש החימום בקוטר 58.5 ס״מ מפזר חום על אזור הישיבה.\"; faq: \"מה ההספק של פטריית החימום?\"; faq: \"אפשר לכוונן את הגובה?\"; faq: \"היא יציבה?\"; metaDescription: \"פטריית חימום הלוגן Luxor LUXOR-3000W בהספק 3000 W עם 2 רמות חימום וגובה טלסקופי 160–205 ס״מ, למרפסת ולגינה. בחדד אלקטריק נהריה\"; highlight: \"הספק 3000 W עם 2 רמות חימום\"; highlight: \"גובה טלסקופי מתכוונן 160–205 ס״מ\"; highlight: \"בסיס יציב בקוטר 46 ס״מ\"; consideration: \"בהספק 3000 W כדאי לוודא שהשקע והמעגל החשמלי מתאימים לצריכה כזו\"; consideration: \"יש לוודא שיש מקום לבסיס בקוטר 46 ס״מ ולראש בקוטר 58.5 ס״מ\"; consideration: \"כדאי לבדוק שהגובה המתכוונן 160–205 ס״מ מתאים לתקרה או לסוכך במקום ההצבה\""
+ }
+}

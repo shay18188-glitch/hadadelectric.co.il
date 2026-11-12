@@ -1,0 +1,211 @@
+{
+ "modelNumber": "ND777",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND777",
+  "israeliImporter": "קלינטון סחר",
+  "matchConfidence": "high",
+  "notes": "Only the Normande Israel product page was found (web search budget exhausted). | QA: Normande Israel product page for ND777 matches catalog power, heat levels and features. Only one source available."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.normande.co.il/product/nd777/",
+   "publisher": "Normande Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות חום",
+     "value": "2"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בקרת מהירויות",
+     "value": "3 מהירויות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, על ידי קלינטון סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טיימר לכיבוי אוטומטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עמוד טלסקופי לכיוון גובה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניתן לצידוד"
+  },
+  {
+   "sources": [
+    "s1",
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון בטיחות לכיבוי אוטומטי בעת נפילה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote not on page; unverifiable claim.",
+   "text": "צריכת חשמל נמוכה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרן חום של Normande על עמוד טלסקופי, דגם ND777, בהספק 1000 וואט עם 2 דרגות חום. העמוד מאפשר לכוון את גובה המקרן, והמקרן ניתן לצידוד ומצויד בטיימר לכיבוי אוטומטי ובמנגנון כיבוי בעת נפילה. מתאים למי שמחפש חימום נקודתי בחדר עם שליטה בגובה ובכיוון החום.",
+  "highlights": [
+   "הספק 1000 וואט",
+   "2 דרגות חום",
+   "עמוד טלסקופי לכיוון גובה",
+   "טיימר לכיבוי אוטומטי",
+   "מנגנון בטיחות לכיבוי אוטומטי בעת נפילה"
+  ],
+  "goodFor": [
+   "חימום נקודתי ליד ספה, שולחן עבודה או מיטה, בזכות כיוון הגובה והצידוד",
+   "שימוש לפני השינה, עם טיימר שמכבה את המקרן אוטומטית",
+   "בית עם ילדים או חיות מחמד, בזכות הכיבוי האוטומטי בעת נפילה"
+  ],
+  "considerations": [
+   "יש לחבר לשקע חשמל תקין שמתאים להספק של 1000 וואט, ועדיף ללא מפצל",
+   "כדאי להעמיד על משטח יציב ולהשאיר מרחק מווילונות ורהיטים",
+   "האחריות לשנה ניתנת על ידי קלינטון סחר"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של מקרן החום Normande ND777?",
+    "a": "ההספק הוא 1000 וואט, עם 2 דרגות חום.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשנות את גובה המקרן?",
+    "a": "כן, המקרן מותקן על עמוד טלסקופי לכיוון גובה, והוא גם ניתן לצידוד.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרן נכבה מעצמו?",
+    "a": "יש בו טיימר לכיבוי אוטומטי, ומנגנון בטיחות שמכבה אותו אוטומטית בעת נפילה.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן את האחריות?",
+    "a": "שנה אחריות על ידי קלינטון סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרן חום Normande ND777 על עמוד טלסקופי לכיוון גובה, 1000 וואט עם 2 דרגות חום, טיימר לכיבוי אוטומטי וכיבוי בעת נפילה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרן חום Normande ND777",
+   "ND777",
+   "מקרן חום על עמוד",
+   "מקרן חום טלסקופי",
+   "מקרן חום 1000 וואט",
+   "תנור חימום נורמנדי",
+   "מקרן חום עם טיימר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות חום",
+   "catalogValue": "2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת מהירויות",
+   "catalogValue": "3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Only one source (Normande Israel product page) was available; specs not cross-checked against a manual.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 4 (צריכת חשמל נמוכה): quote not found on page and it is an unverifiable marketing claim. All other facts and features verified on the Normande Israel product page."
+ }
+}

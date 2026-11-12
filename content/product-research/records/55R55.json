@@ -1,0 +1,401 @@
+{
+ "modelNumber": "55R55",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "ROWA",
+  "exactModel": "55R55",
+  "israeliImporter": "ב.ט.י אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "Israeli retailers list 55R55 as an official importer (יבואן רשמי) product under ROWA R55 series, 55 inch, Google TV. Amazon.ae lists it as an International Version. | QA: Bug, Agelec and Azuri list ROWA 55R55, 55 inch Google TV; Azuri names ב.ט.י אלקטרוניקה as warranty provider. Agelec title also mentions TCL."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.azuri.co.il/items/9103187-%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-55-GOOGLE-TV-UHD-4K-%D7%93%D7%92%D7%9D-ROWA-55R55-%D7%A8%D7%95%D7%95%D7%94",
+   "publisher": "Azuri (אזורי)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-55-4k-hdr-rowa-969854126",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.agelec.co.il/items/8889528-%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-55-ROWA-SMART-4K-%D7%93%D7%92%D7%9D-55R55-TCL",
+   "publisher": "Agelec (אג'לק)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.amazon.ae/ROWA-55R55-Processor-Enhancement-Television/dp/B0194Q8XG8",
+   "publisher": "Amazon.ae",
+   "kind": "retailer",
+   "market": "AE",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Azuri labels 71.1 as height.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "122.6 × 71.1 × 7.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "55 אינץ'"
+    },
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K"
+    },
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single source (Azuri).",
+     "label": "תמיכה ב-VRR לגיימינג",
+     "value": "עד 120 Hz"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקן HDR",
+     "value": "HDR10"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקן סאונד",
+     "value": "Dolby Audio"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two agreeing ok quotes; researcher reports Azuri lists 145 W (not quoted). Flagged.",
+     "label": "צריכת חשמל",
+     "value": "125 W"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיקוף מהנייד",
+     "value": "Google Cast"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבורים",
+     "value": "HDMI / USB / WiFi"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Dropped the English misspelling.",
+     "label": "עיצוב",
+     "value": "מסגרת מתכתית דקה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single retailer source.",
+     "label": "אחריות",
+     "value": "שנה, ע״י ב.ט.י אלקטרוניקה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "TCL Channel – תוכן וערוצים בלחיצת כפתור"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Amazon.ae International Version only.",
+   "text": "מעבד AiPQ, מצב Game Master, טכנולוגיית MEMC וחיבור HDMI 2.1"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Amazon.ae International Version only.",
+   "text": "שלט רחוק, מעמד ומדריך למשתמש"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "טלוויזיה חכמה של ROWA, דגם 55R55, במסך 55 אינץ' ברזולוציית 4K עם מערכת ההפעלה Google TV. מתאימה למי שמחפש טלוויזיה חכמה לסלון עם אפליקציות מובנות ושיקוף מהנייד.",
+  "highlights": [
+   "מסך 55 אינץ' ברזולוציית 4K",
+   "מערכת הפעלה Google TV עם שליטה קולית",
+   "תמיכה ב-HDR10 וסאונד Dolby Audio",
+   "שיקוף מהנייד באמצעות Google Cast"
+  ],
+  "goodFor": [
+   "צפייה בשירותי סטרימינג דרך אפליקציות Google TV בלי ממיר נוסף",
+   "שיקוף תמונות וסרטונים מהטלפון ישירות למסך"
+  ],
+  "considerations": [
+   "ודאו שיש מקום לרוחב של 122.6 ס״מ על השידה או הקיר",
+   "לתלייה על הקיר בדקו התאמת זרוע תלייה למשקל של 9 ק״ג",
+   "קצב הרענון הבסיסי הוא 60 Hz – בדקו אם זה מספיק לשימוש שלכם",
+   "ודאו שיש רשת WiFi זמינה במיקום הטלוויזיה לשימוש באפליקציות"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה ROWA 55R55?",
+    "a": "הטלוויזיה פועלת על Google TV, עם שליטה קולית ומגוון אפליקציות.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הטלוויזיה?",
+    "a": "122.6 × 71.1 × 7.2 ס״מ (רוחב × גובה × עומק), ומשקלה 9 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשקף מהטלפון?",
+    "a": "כן, הטלוויזיה תומכת ב-Google Cast לשיקוף מהנייד.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות על הטלוויזיה?",
+    "a": "שנה אחריות ע״י ב.ט.י אלקטרוניקה, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה ROWA 55R55 במסך 55 אינץ' ברזולוציית 4K עם Google TV ותמיכה ב-HDR10. זמינה בחדד אלקטריק נהריה",
+  "keywords": [
+   "ROWA 55R55",
+   "טלוויזיה ROWA 55 אינץ'",
+   "טלוויזיה 55 אינץ' 4K",
+   "טלוויזיה Google TV 55",
+   "רואה 55R55",
+   "טלוויזיה חכמה 55 אינץ'",
+   "טלוויזיה ROWA"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "ROWA",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "גודל מסך",
+   "catalogValue": "מסך 55'",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "4K",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צריכת חשמל",
+   "issue": "Bug and Agelec list 125 W; Azuri lists 145 W. Confirm against the manufacturer or manual before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Bug labels the 71.1 cm figure as אורך (length); Azuri and Amazon.ae label it as height. Numbers agree.",
+   "severity": "low"
+  },
+  {
+   "field": "יצרן",
+   "issue": "Agelec page title names TCL; the other listings name ROWA as brand. Confirm the manufacturer and the Israeli importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסת דגם",
+   "issue": "Listings mix 2025 and 2026 model years and an International Version. Confirm the Israeli unit matches these specs.",
+   "severity": "medium"
+  },
+  {
+   "field": "תקופת אחריות",
+   "issue": "The one-year warranty appears on one retailer page only and is not confirmed by a second source.",
+   "severity": "low"
+  },
+  {
+   "field": "VRR",
+   "issue": "The VRR 120 Hz claim appears on one retailer page only. Also the 60 Hz panel rate is listed on several pages.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת חשמל",
+   "issue": "Bug and Agelec list 125 W; researcher reports Azuri lists 145 W. Confirm against the manual or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "יצרן",
+   "issue": "Agelec page title mentions TCL while all listings name ROWA as brand. Confirm brand attribution.",
+   "severity": "low"
+  },
+  {
+   "field": "גרסת דגם",
+   "issue": "Listings mix model years and Amazon.ae is an International Version; features (AiPQ, Game Master, MEMC, HDMI 2.1) and box contents come only from Amazon.ae. Confirm the Israeli unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "VRR",
+   "issue": "VRR up to 120 Hz appears on the Azuri page only.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Identity confirmed by three Israeli retailer pages naming ROWA 55R55. All facts have ok quotes on model pages. Power consumption kept at 125 W (two agreeing ok quotes) but flagged because the researcher reported Azuri lists 145 W. Display/mirroring labels lightly tidied. Features and in-the-box items from Amazon.ae (International Version) kept but flagged for Israeli-unit confirmation. | code guard removed: summary: \"המסך תומך ב-HDR10, הסאונד ב-Dolby Audio, וקצב הרענון 60 Hz עם תמיכה ב-VRR עד 120 Hz לגיימינג.\"; faq: \"האם הטלוויזיה מתאימה לגיימינג?\"; highlight: \"VRR עד 120 Hz לגיימינג\"; goodFor: \"משחקי קונסולה בזכות תמיכה ב-VRR עד 120 Hz\""
+ }
+}

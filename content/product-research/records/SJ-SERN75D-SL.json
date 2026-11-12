@@ -1,0 +1,437 @@
+{
+ "modelNumber": "SJ-SERN75D-SL",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "SJ-SERN75D-SL",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The only page found that names this exact model is an Israeli retailer page (CityDeal), which describes itself as official importer. Its warranty line names Ralco as the warranty provider, but the importer is not confirmed by a second source. No Sharp, importer, EPREL or manual page for this exact model was found. | QA: Only one retailer page names SJ-SERN75D-SL; its URL slug refers to a 550 liter SJ-ERN75D-SL, so the page may have been reused from a related model. No manufacturer, importer or EPREL confirmation."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%A9%D7%90%D7%A8%D7%A4-2-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-550-%D7%9C%D7%99%D7%98%D7%A8-sj-ern75d-sl-%D7%A0%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דגם",
+     "value": "SJ-SERN75D-SL"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח כולל נטו",
+     "value": "588 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "435 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "153 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "80 × 185 × 73.4 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "relabelled",
+     "label": "רוחב נישה מומלץ",
+     "value": "84 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page shows both F and E; standard unclear",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "340 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "J-Tech Inverter"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טיפול באוויר",
+     "value": "Plasmacluster"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תאורה פנימית",
+     "value": "LED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מגירת צינון",
+     "value": "0–3 מעלות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מגשי קרח",
+     "value": "2 מגשים"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נטרול ריחות",
+     "value": "Nano Deodorizer"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "פיזור אוויר",
+     "value": "Multi Air Flow"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מדחס J-Tech Inverter שמתאים את עוצמת הפעולה לצורכי הקירור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מקפיא No Frost ללא הפשרה ידנית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שני מגשי קרח וקופסה לאחסון קוביות הקרח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגירת צינון, תאי אחסון בדלת ומגש ביצים"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "יש להשאיר מרווחי אוורור ומקום לפתיחת הדלתות בהתאם להוראות ההתקנה של הדגם"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "רוחב הנישה לבדו אינו מבטיח התאמה – יש לבדוק גם גובה, עומק ומקום לפתיחת הדלתות"
+  }
+ ],
+ "content": {
+  "summary": "המקרר כולל מדחס J-Tech Inverter, קירור No Frost ללא הפשרה ידנית וטכנולוגיית Plasmacluster.",
+  "highlights": [
+   "מדחס J-Tech Inverter",
+   "No Frost ללא הפשרה ידנית"
+  ],
+  "goodFor": [
+   "משפחות שזקוקות לנפח קירור גדול",
+   "מי שרוצה מקפיא No Frost שאינו דורש הפשרה ידנית"
+  ],
+  "considerations": [
+   "יש להשאיר מרווחי אוורור ומקום לפתיחת הדלתות"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך להפשיר את המקפיא?",
+    "a": "לא. המקפיא בטכנולוגיית No Frost ואינו דורש הפשרה ידנית.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע עם המקרר?",
+    "a": "שני מגשי קרח וקופסה לאחסון קוביות הקרח, מגירת צינון, תאי אחסון בדלת ומגש ביצים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Sharp SJ-SERN75D-SL",
+   "SJ-SERN75D-SL",
+   "מקרר שארפ מקפיא עליון",
+   "מקרר שארפ 588 ליטר",
+   "מקרר מקפיא עליון נירוסטה",
+   "מקרר שארפ אינוורטר",
+   "מקרר No Frost מקפיא עליון"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל נטו",
+   "catalogValue": "588 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "435 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "153 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 80 ס\"מ, עומק 73.4 ס\"מ, גובה 185 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (תקן ישראלי) / F",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "catalogValue": "340 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "J-Tech Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיות",
+   "catalogValue": "Plasmacluster, Nano Deodorizer, Multi Air Flow",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יצירת קוביות קרח",
+   "catalogValue": "2 מגשים וקופסה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב נישה מומלץ",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "84 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Only one website, an Israeli retailer, names this exact model. No manufacturer, importer, EPREL or manual page was found, so facts need a second source before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Catalog says energy class E (Israeli standard) / F. The CityDeal spec block says F, while its category filter says E. Check the energy label on the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The retailer calls itself official importer, and its warranty line names Ralco. The importer is not confirmed by a second source.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one Israeli retailer page names this model, and its URL slug refers to a 550 liter SJ-ERN75D-SL. Confirm specs with the importer or the unit's label.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Source shows both F and E; catalog says E (Israeli standard) / F. Energy class not published; check the energy label on the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Israeli importer not confirmed (retailer warranty line names Ralco).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Single Israeli retailer source (CityDeal) names the exact model. Rejected energy class (id 6): the same page shows F in the spec block and E in its filter, and the catalog lists E (Israeli standard) / F, so the standard behind the letter is unclear. Relabelled niche width (id 5). Identity medium: the source URL slug mentions 550 liters and SJ-ERN75D-SL while the page body names SJ-SERN75D-SL with 588 liters. | code guard removed: summary: \"Sharp SJ-SERN75D-SL הוא מקרר מקפיא עליון בגימור נירוסטה עם נפח כולל נטו של 588 ליטר: 435 ליטר בתא הקירור ו-153 ליטר בתא ההקפאה.\"; summary: \"רוחבו 80 ס״מ, והוא מתאים למי שמחפש מקרר גדול עם מקפיא עליון למטבח עם נישה רחבה.\"; faq: \"מה הנפח של Sharp SJ-SERN75D-SL?\"; faq: \"מה מידות המקרר?\"; faq: \"כמה חשמל המקרר צורך?\"; metaDescription: \"מקרר מקפיא עליון Sharp SJ-SERN75D-SL בנירוסטה, נפח 588 ליטר, מדחס J-Tech Inverter ו-No Frost. בחדד אלקטריק נהריה\"; highlight: \"נפח כולל נטו 588 ליטר\"; highlight: \"תא קירור 435 ליטר ותא הקפאה 153 ליטר\"; highlight: \"מגירת צינון 0–3 מעלות\"; goodFor: \"מי שמעדיף מקפיא עליון בנפח 153 ליטר\"; goodFor: \"שמירת בשר ודגים במגירת צינון 0–3 מעלות\"; consideration: \"רוחב המקרר 80 ס״מ ורוחב הנישה המומלץ 84 ס״מ – כדאי למדוד את הנישה לפני הרכישה\"; consideration: \"גובה המקרר 185 ס״מ ועומקו 73.4 ס״מ – יש לבדוק שגם הם מתאימים למקום\"; consideration: \"צריכת החשמל השנתית היא 340 קוט״ש\""
+ }
+}

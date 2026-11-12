@@ -1,0 +1,357 @@
+{
+ "modelNumber": "DW60BS7503BI",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "DW60BS7503BI",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The model number appears on three Israeli retailer pages (Kreizman, Zap, Lior Electric). No Samsung Israel product page, EPREL entry or Israeli importer page was found in the search budget, so every fact rests on retailer pages and needs review. | QA: Exact model code DW60BS7503BI on three Israeli retailer pages, fully integrated 60 cm dishwasher with 14 place settings matching catalog. No manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kreizman.co.il/product/dw60bs7503bi-samsung/",
+   "publisher": "Kreizman Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%93%D7%99%D7%97-%D7%90%D7%99%D7%A0%D7%98%D7%92%D7%A8%D7%9C%D7%99-%D7%9E%D7%9C%D7%90-%D7%93%D7%92%D7%9D-dw60bs7503bi-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-samsung/",
+   "publisher": "Lior Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1203236",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Samsung"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Differs from catalog depth 55 / height 81.5",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 82–90 × 56 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "14 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "42 dB (40 dB במצב שקט במיוחד)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת מים למחזור סטנדרטי",
+     "value": "9.2 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (תקן אירופי חדש)",
+     "value": "C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות",
+     "value": "8 תוכניות הדחה + 3 תוכניות להורדה דרך SmartThings"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר פנים",
+     "value": "נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פתיחת דלת אוטומטית לקראת סיום ההדחה (Auto Open Door)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שליטה מרחוק דרך אפליקציית SmartThings"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תוכנית Hygiene Plus לחיטוי הכלים בטמפרטורה של 75 מעלות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמתכנן מטבח עם חזית ארון אחידה ורוצה שליטה דרך אפליקציית SmartThings.",
+  "highlights": [
+   "רמת רעש 42 dB, ו-40 dB במצב שקט במיוחד",
+   "8 תוכניות הדחה + 3 תוכניות להורדה דרך SmartThings",
+   "פתיחת דלת אוטומטית לקראת סיום ההדחה"
+  ],
+  "goodFor": [
+   "מטבח שבו המדיח מוסתר מאחורי חזית ארון",
+   "בית עם מטבח פתוח לסלון, שבו רעש המדיח מורגש",
+   "מי שרוצה לעקוב אחרי ההדחה ולהפעיל אותה מהטלפון",
+   "מי שמעוניין בתוכנית חיטוי לכלים"
+  ],
+  "considerations": [
+   "בדגם אינטגרלי מלא נדרשת חזית ארון תואמת שמותקנת על הדלת",
+   "דירוג האנרגיה לפי התקן האירופי החדש הוא C",
+   "לשימוש באפליקציה ובתוכניות להורדה נדרש חיבור לרשת Wi-Fi ביתית"
+  ],
+  "faq": [
+   {
+    "q": "כמה רועש המדיח?",
+    "a": "רמת הרעש היא 42 dB בעבודה רגילה, ו-40 dB במצב שקט במיוחד.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט במדיח מהטלפון?",
+    "a": "כן, דרך אפליקציית SmartThings, וניתן גם להוריד דרכה 3 תוכניות נוספות ל-8 התוכניות המובנות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "DW60BS7503BI",
+   "מדיח כלים סמסונג אינטגרלי",
+   "Samsung DW60BS7503BI",
+   "מדיח כלים אינטגרלי מלא 14 מערכות",
+   "מדיח כלים שקט סמסונג",
+   "מדיח כלים SmartThings",
+   "מדיח כלים אינטגרלי 60 ס״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "14 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "59.5 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "55 ס״מ",
+   "finding": "corrected",
+   "correctValue": "56 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "81.5 ס״מ (מתכוונן עד 90 ס״מ)",
+   "finding": "corrected",
+   "correctValue": "82-90 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "9.2 ליטר למחזור",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "42dB",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "Digital Inverter BLDC",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Speed Booster",
+   "catalogValue": "פונקציית Speed Booster לקיצור תוכניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Floor Info Light",
+   "catalogValue": "הקרנת סטטוס עבודה על הרצפה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Hygiene Plus",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "תוכנית Hygiene Plus לחיטוי הכלים בטמפרטורה של 75 מעלות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "קרייזמן מציין דירוג B לפי התקן האירופאי החדש, ואילו ליאור וזאפ מציינים C",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת מים",
+   "issue": "קרייזמן מציין 8 ליטר למחזור סטנדרטי, ואילו ליאור מציין 9.2 ליטר",
+   "severity": "medium"
+  },
+  {
+   "field": "רעש",
+   "issue": "קרייזמן מציין 40DB במצב עבודה רגיל ו-38DB במצב שקט במיוחד, ואילו ליאור וזאפ מציינים 42DB ו-40DB",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "הקטלוג מציין 55 ס״מ, ואילו קרייזמן וליאור מציינים 56 ס״מ",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "המספר DW60BS7503BI מופיע בדפי קמעונאים בלבד; לא נמצא דף Samsung ישראל, EPREL או יבואן רשמי בחיפוש",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין עומק 55 ס״מ וגובה 81.5 ס״מ, ואילו דפי הקמעונאים מציינים עומק 56 ס״מ וגובה 82–90 ס״מ",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי / צריכת מים / רעש",
+   "issue": "לפי החוקר, קרייזמן מציין ערכים שונים (B, 8 ליטר, 40/38 dB) מליאור וזאפ; הערכים שפורסמו נשענים על ליאור וזאפ ויש לאמת מול היצרן",
+   "severity": "medium"
+  },
+  {
+   "field": "שם הקטלוג",
+   "issue": "שם הקטלוג מציין 3 סלסלות, נתון שלא אומת במקורות",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל הנתונים מדפי קמעונאים בלבד; לא נמצא דף Samsung ישראל, EPREL או יבואן רשמי",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts supported by ok quotes on Israeli retailer pages naming the model. Zap source kind corrected to il-retailer. Catalog depth (55) and height (81.5) differ from retailer figures (56, 82-90); Kreizman reportedly lists different energy/water/noise values (not quoted) - flagged for review. | code guard removed: summary: \"מדיח כלים אינטגרלי מלא של Samsung ברוחב 59.5 ס״מ, דגם DW60BS7503BI, בקיבולת 14 מערכות כלים.\"; summary: \"רמת הרעש היא 42 dB, ו-40 dB במצב שקט במיוחד, וצריכת המים היא 9.2 ליטר למחזור סטנדרטי.\"; faq: \"כמה כלים נכנסים במדיח?\"; faq: \"מה מידות הנישה הנדרשות?\"; faq: \"האם יש תוכנית חיטוי?\"; metaDescription: \"מדיח כלים אינטגרלי מלא Samsung DW60BS7503BI: קיבולת 14 מערכות כלים, רעש 42 dB ושליטה ב-SmartThings. בחדד אלקטריק נהריה\"; highlight: \"קיבולת 14 מערכות כלים\"; highlight: \"תוכנית Hygiene Plus לחיטוי בטמפרטורה של 75 מעלות\"; consideration: \"יש לוודא נישה ברוחב 59.5 ס״מ, בגובה 82–90 ס״מ ובעומק 56 ס״מ לפחות\""
+ }
+}

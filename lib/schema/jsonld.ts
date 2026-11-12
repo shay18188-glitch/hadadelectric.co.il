@@ -233,6 +233,8 @@ export function productJsonLd(params: {
   specs?: { label: string; value: string }[];
   /** Parsed physical dimensions in centimetres, when the feed supplies them. */
   dimensionsCm?: { widthCm: number; heightCm: number; heightMaxCm?: number; depthCm: number } | null;
+  /** Verified product weight in kilograms, from the research record. */
+  weightKg?: number | null;
   /**
    * Yuval's note, when he has written one for this model. Emitted only on
    * the Hebrew page: the note is Hebrew prose, and attaching it to an
@@ -340,6 +342,7 @@ export function productJsonLd(params: {
           },
         }
       : {}),
+    ...(params.weightKg ? { weight: { "@type": "QuantitativeValue", value: params.weightKg, unitCode: "KGM" } } : {}),
     offers: {
       "@type": "Offer",
       url,

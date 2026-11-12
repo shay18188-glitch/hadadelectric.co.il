@@ -1,0 +1,325 @@
+{
+ "modelNumber": "TO2319B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "TO2319B",
+  "israeliImporter": "אלקטרה סחר",
+  "matchConfidence": "high",
+  "notes": "Sauter Israel product page names TO2319B; Traklin retailer page names TO2319B and states the Electra Sahar warranty. | QA: Sauter Israel and Traklin pages both name TO2319B, 19 liter, black."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/product/%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%90%D7%95%D7%91%D7%9F-%D7%93%D7%92%D7%9D-to2319b/",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%97%D7%A9%D7%9E%D7%9C_%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%9E%D7%A2%D7%91%D7%93%D7%99_%D7%9E%D7%96%D7%95%D7%9F_%D7%91%D7%9C%D7%A0%D7%93%D7%A8%D7%99%D7%9D_%D7%95%D7%A7%D7%95%D7%A6%D7%A6%D7%99_%D7%99%D7%A8%D7%A7%D7%95%D7%AA/%D7%98%D7%95%D7%A1%D7%98%D7%A8_%D7%90%D7%95%D7%91%D7%9F_19_%D7%9C%D7%99%D7%98%D7%A8_sauter_%D7%93%D7%92%D7%9D_to2319b_%D7%A9%D7%97%D7%95%D7%A8_%D7%A1%D7%90%D7%95%D7%98%D7%A8",
+   "publisher": "Traklin Hashmal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "19 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1380 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "100-230°C"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גופי חימום",
+     "value": "4 גופי חימום מנירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "60 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "פנים התא",
+     "value": "צבוע באמייל שחור"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דלת",
+     "value": "זכוכית כפולה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "47 × 28.5 × 27 ס״מ (32 ס״מ עומק כולל ידית)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "General retailer statement for Sauter products.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב STAY ON"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגש תחתון לאיסוף פירורים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טוסטר אובן Sauter דגם TO2319B בנפח 19 ליטר, בהספק 1380 W ועם 4 גופי חימום מנירוסטה. ווסת הטמפרטורה נע בין 100 ל-230°C, וטיימר ההפעלה מגיע עד 60 דקות. דלת זכוכית כפולה ופנים צבוע באמייל שחור. מתאים למי שמחפש טוסטר אובן לחימום, צלייה ואפייה קלה על השיש.",
+  "highlights": [
+   "נפח 19 ליטר",
+   "הספק 1380 W",
+   "ווסת טמפרטורה 100-230°C",
+   "טיימר הפעלה עד 60 דקות",
+   "דלת זכוכית כפולה"
+  ],
+  "goodFor": [
+   "מטבח עם מקום מוגבל על השיש שזקוק לתנור קטן נוסף",
+   "חימום מהיר של מאפים וטוסטים בלי להדליק תנור גדול",
+   "אפייה וצלייה עם שליטה בטמפרטורה בעזרת הווסת",
+   "שימוש ממושך בזכות מצב STAY ON"
+  ],
+  "considerations": [
+   "ודאו שיש על השיש מקום ברוחב 47 ס״מ ובעומק 32 ס״מ כולל הידית",
+   "ההספק 1380 W – כדאי לחבר לשקע שאינו עמוס במכשירים חזקים נוספים",
+   "הטיימר מגיע עד 60 דקות; לבישול ארוך יותר יש מצב STAY ON",
+   "מומלץ לרוקן את מגש הפירורים התחתון באופן קבוע"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של טוסטר האובן Sauter TO2319B?",
+    "a": "נפח התא הוא 19 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "ווסת הטמפרטורה מאפשר לבחור בין 100 ל-230°C.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן אפשר לכוון בטיימר?",
+    "a": "טיימר ההפעלה מגיע עד 60 דקות, ויש גם מצב STAY ON להפעלה רציפה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכשיר?",
+    "a": "רוחב 47 ס״מ, גובה 28.5 ס״מ ועומק 27 ס״מ (32 ס״מ כולל ידית).",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים פירורים?",
+    "a": "לטוסטר יש מגש תחתון לאיסוף פירורים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר אובן Sauter TO2319B בנפח 19 ליטר, הספק 1380 W, ווסת 100-230°C ודלת זכוכית כפולה. פרטים מלאים בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר אובן Sauter",
+   "Sauter TO2319B",
+   "TO2319B",
+   "טוסטר אובן 19 ליטר",
+   "טוסטר אובן שחור",
+   "טוסטר אובן זכוכית כפולה",
+   "סאוטר טוסטר אובן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "19 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1380W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 47 ס\"מ, עומק 27 ס\"מ (32 ס\"מ כולל ידית), גובה 28.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ווסת טמפרטורה",
+   "catalogValue": "100-230°C",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "60 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גופי חימום",
+   "catalogValue": "4 גופי חימום מנירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דלת",
+   "catalogValue": "דלת זכוכית כפולה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פנים",
+   "catalogValue": "צבוע באמייל שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב הפעלה",
+   "catalogValue": "מצב STAY ON",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "Warranty of one year is stated only on the Traklin retailer page (Sauter and Breville products); no manufacturer or importer page for this model was found.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "One-year warranty is a general Traklin statement for Sauter products, not a model-specific manufacturer statement.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts and features verified by ok quotes on pages naming TO2319B. Warranty comes from a general retailer statement for Sauter products; kept with a low flag."
+ }
+}

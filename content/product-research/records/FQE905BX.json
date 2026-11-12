@@ -1,0 +1,300 @@
+{
+ "modelNumber": "FQE905BX",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Frigidaire",
+  "exactModel": "FQE905BX",
+  "israeliImporter": "מיניליין",
+  "matchConfidence": "medium",
+  "notes": "Israeli retailer pages (Miniline, Lior Electric) name FQE905BX with 812 ליטר, 4 דלתות and energy E. No manufacturer or importer spec sheet found; dimensions and weight not found. Zap listing adds compartment capacities, No Frost, Shabbat mode; no manufacturer page found. | QA: Only Israeli retailer pages (Miniline, Lior Electric, Zap) name FQE905BX with 812 L, 4 doors, energy E and black stainless finish. No manufacturer, importer or regulator page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://miniline.co.il/frigidaire/",
+   "publisher": "Miniline",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/?s=FQE905BX",
+   "publisher": "Lior Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/search.aspx?keyword=FQE905BX",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "812 ליטר"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Zap search page only",
+     "label": "נפח תא הקירור",
+     "value": "503 ליטר"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Zap search page only",
+     "label": "נפח תא ההקפאה",
+     "value": "309 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר דלתות",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "אינוורטר מתקדם"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicates compressor fact 3; aggregator search page only",
+     "label": "סוג מדחס",
+     "value": "Digital Inverter"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Zap search page only",
+     "label": "מערכת הפשרה",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Zap search page only",
+     "label": "טכנולוגיית קירור",
+     "value": "Metal Cooling 360+"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Zap search page only",
+   "text": "מצב שבת"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגירת מעדנים Chill Zone"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר 4 דלתות של Frigidaire בנפח כולל של 812 ליטר, בגימור נירוסטה מושחרת. מתאים למשפחה שצריכה נפח אחסון גדול ומצב שבת.",
+  "highlights": [
+   "נפח כולל 812 ליטר",
+   "מערכת No Frost",
+   "מדחס אינוורטר מתקדם",
+   "מצב שבת"
+  ],
+  "goodFor": [
+   "משפחה גדולה שקונה בכמויות ומאחסנת הרבה מזון",
+   "מי שמקפיא הרבה ומחפש תא הקפאה גדול",
+   "בית שומר שבת שזקוק למצב שבת במקרר"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה ואת פתחי הכניסה לבית לפני ההזמנה, כי מדובר במקרר בנפח גדול",
+   "דירוג האנרגיה הוא E, כדאי לקחת זאת בחשבון בהשוואה לדגמים אחרים",
+   "מומלץ לוודא מול המוכר את אופן הפעלת מצב השבת"
+  ],
+  "faq": [
+   {
+    "q": "האם המקרר No Frost?",
+    "a": "כן, המקרר כולל מערכת No Frost.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, המקרר כולל מצב שבת.",
+    "sources": []
+   },
+   {
+    "q": "מה דירוג האנרגיה של המקרר?",
+    "a": "דירוג האנרגיה הוא E, והמקרר מצויד במדחס אינוורטר מתקדם.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר 4 דלתות Frigidaire FQE905BX בנפח 812 ליטר, No Frost ומדחס אינוורטר, נירוסטה מושחרת ומצב שבת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "FQE905BX",
+   "מקרר פריג'ידר 4 דלתות",
+   "Frigidaire FQE905BX",
+   "מקרר 812 ליטר",
+   "מקרר 4 דלתות נירוסטה מושחרת",
+   "מקרר פריג'ידר מצב שבת",
+   "מקרר No Frost 4 דלתות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "812 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבנה",
+   "catalogValue": "4 דלתות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "אינוורטר מתקדם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה מושחרת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "התקן שבת",
+   "catalogValue": "התקן שבת לאורות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "No manufacturer, importer or regulator page was found for FQE905BX. The model appears only on Israeli retailer pages, which give capacity, door count, energy rating and compressor. Dimensions, weight and the Shabbat mode in the catalog name are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer, importer or regulator page found for FQE905BX; only Israeli retailer pages. Israeli importer unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "facts",
+   "issue": "Compartment capacities, No Frost, Metal Cooling 360+ and Shabbat mode come only from a Zap search results page; confirm against a product page or spec sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says Shabbat device for lights; sources only say Shabbat mode, scope unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "specs",
+   "issue": "Dimensions and weight not found.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 6 (Digital Inverter) as a duplicate of the compressor fact 3, sourced only from a Zap search page. Relabelled fact 8 as cooling technology. Compartment capacities, No Frost, Metal Cooling and Shabbat mode come only from a Zap search results page; they are consistent (503+309=812) but should be confirmed. | code guard removed: summary: \"המקרר כולל תא קירור של 503 ליטר ותא הקפאה של 309 ליטר, מערכת No Frost ומדחס אינוורטר.\"; faq: \"מה הנפח של המקרר?\"; highlight: \"תא קירור 503 ליטר ותא הקפאה 309 ליטר\""
+ }
+}

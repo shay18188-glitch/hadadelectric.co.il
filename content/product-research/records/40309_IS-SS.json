@@ -1,0 +1,339 @@
+{
+ "modelNumber": "40309 IS-SS",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "40309-IS-SS",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Israeli retailer pages name the model as 40309-IS-SS (the catalog writes 40309 IS-SS; same model). The catalog brand spelling 'Hemilton Beach' is a typo for Hamilton Beach. The importer name is taken from the retailer page; the importer's own site was not fetched. | QA: Two Israeli retailer pages name 40309-IS-SS (catalog writes 40309 IS-SS), 1.7 liter, 2200W, stainless pyramid kettle matching the catalog name. Importer name not verified from an importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electro-buy.co.il/items/5990481-%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%9E%D7%A2%D7%95%D7%A6%D7%91-Hamilton-Beach-40309-IS-SS-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F-%D7%91%D7%99%D7%A5-",
+   "publisher": "Electro-Buy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-kettle&db136784=10327246&db4871276=4879407",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "25.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "20.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר חיצוני",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מצבי בטיחות",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Generic store-wide warranty line for small appliances, not a model-specific statement.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כיבוי אוטומטי לאחר הרתחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פילטר אבנית נשלף לניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מכסה בטיחותי עם נעילה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בסיס 360 מעלות, נוח לימניים ולשמאליים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Quote supports a readable water gauge; transparent window is in a separate ok quote.",
+   "text": "מד מים קריא וברור"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי Hamilton Beach 40309-IS-SS בעיצוב פירמידה מנירוסטה, בקיבולת 1.7 ליטר ובהספק 2200 W. מתאים למי שמחפש קומקום מנירוסטה עם קיבולת סטנדרטית למטבח הביתי.",
+  "highlights": [
+   "הספק 2200 W",
+   "קיבולת 1.7 ליטר",
+   "גוף נירוסטה בעיצוב פירמידה",
+   "כיבוי אוטומטי לאחר הרתחה",
+   "פילטר אבנית נשלף לניקוי"
+  ],
+  "goodFor": [
+   "הרתחת מים לכמה כוסות בבת אחת",
+   "מי שמעדיף קומקום נירוסטה על פני פלסטיק",
+   "אזורים עם מים קשים, בזכות פילטר האבנית הנשלף"
+  ],
+  "considerations": [
+   "הספק 2200 W — עדיף לחבר לשקע נפרד ולא למפצל עמוס",
+   "פילטר האבנית נשלף ודורש ניקוי מדי פעם"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של הקומקום?",
+    "a": "1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הקומקום?",
+    "a": "2200 W.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי לאחר הרתחה.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לנקות את פילטר האבנית?",
+    "a": "כן, הפילטר נשלף לצורך ניקוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי Hamilton Beach 40309-IS-SS פירמידה מנירוסטה, 1.7 ליטר והספק 2200 W, עם כיבוי אוטומטי ופילטר אבנית נשלף. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי נירוסטה",
+   "קומקום פירמידה",
+   "Hamilton Beach 40309-IS-SS",
+   "קומקום המילטון ביץ",
+   "קומקום 1.7 ליטר",
+   "קומקום 2200W",
+   "קומקום חשמלי נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות גובה",
+   "catalogValue": "25.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות רוחב",
+   "catalogValue": "20.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר בסיס",
+   "catalogValue": "17 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Hemilton Beach",
+   "finding": "corrected",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר",
+   "catalogValue": "נירוסטה מוברשת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחסון כבל חשמל",
+   "catalogValue": "אחסון כבל חשמל בבסיס המכשיר",
+   "finding": "contradicted",
+   "correctValue": "כבל חשמל מאוחסן בגוף הקומקום",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מפסק הפעלה",
+   "catalogValue": "מפסק הפעלה מואר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אחסון כבל חשמל",
+   "issue": "The catalog says the cord is stored in the base; the Israeli retailer page says it is stored in the body of the kettle. Check before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידע מקור",
+   "issue": "Only Israeli retailer pages were found for 40309-IS-SS; no manufacturer or importer page was fetched. Dimensions and warranty come from one retailer only.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand is spelled 'Hemilton Beach'; sources say Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחסון כבל חשמל",
+   "issue": "Catalog says the cord is stored in the base; the researcher reports the retailer page says it is stored in the kettle body. Verify.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידע מקור",
+   "issue": "Only Israeli retailer pages; no manufacturer or importer page. Dimensions from one retailer. Importer and warranty not verified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact: the quote is a generic store-wide line about small appliances, not a statement about this model. Brand spelling in catalog is a typo for Hamilton Beach. | code guard removed: summary: \"הוא מגיע עם כיבוי אוטומטי לאחר הרתחה, פילטר אבנית נשלף ובסיס 360 מעלות.\"; faq: \"מה המידות של הקומקום?\"; goodFor: \"שימוש נוח לימניים ולשמאליים בזכות בסיס 360 מעלות\"; consideration: \"גובה הקומקום 25.5 ס״מ — כדאי לוודא שיש מספיק מקום מתחת לארונות העליונים בזמן מילוי ומזיגה\""
+ }
+}

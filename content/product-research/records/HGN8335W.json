@@ -1,0 +1,304 @@
+{
+ "modelNumber": "HGN8335W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "HGN8335W",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Model HGN8335W (also listed as HGN 8335) appears on Israeli retailer pages, which describe the seller as official importer, but the importer is not named. No manufacturer or EPREL page was found in the search budget. Catalog brand reads Bloomberg; the manufacturer on the pages is Blomberg. | QA: Both Israeli retailer pages name HGN8335W / HGN 8335 white 60 cm, matching the catalog name. No manufacturer, importer or EPREL page; importer not named. Catalog brand spelled Bloomberg, manufacturer is Blomberg."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-blomberg-hgn-8335-white-60cm",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://virtualshops.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-4-%D7%9C%D7%94%D7%91%D7%95%D7%AA-blomberg-%D7%91%D7%9C%D7%95%D7%9E%D7%91%D7%A8%D7%92-hgn8335w/",
+   "publisher": "Virtualshops",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "72 ליטר ברוטו / 65 ליטר אפקטיבי"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מבערי גז",
+     "value": "מבער ווק 2.9KW, מבערים בינוניים 2.0KW, מבער קטן 1.0KW"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "תוכניות בישול ואפייה",
+     "value": "8 תוכניות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Virtualshops says F; CityDeal reportedly says A; catalog says F or A. Verify on the energy label.",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צג",
+     "value": "צג דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "דלת",
+     "value": "דלת קרה עם 3 שכבות זכוכית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הצתה אלקטרונית למבערים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שסתומי ביטחון לכל להבה בנפרד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מסילות צד לתבניות, 5 קומות נשלפות לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טורבו אקטיבי ובישול תלת-ממדי (3D Cooking)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש יחידה עומדת אחת לבישול על גז ולאפייה.",
+  "highlights": [],
+  "goodFor": [
+   "מטבח שמחובר לגז ומחפש תנור וכיריים ביחידה אחת",
+   "אפייה בכמה קומות בעזרת מסילות צד נשלפות",
+   "בית עם ילדים, בזכות דלת קרה ושסתומי ביטחון לכל להבה"
+  ],
+  "considerations": [
+   "חיבור הגז צריך להתבצע על ידי מתקין גז מוסמך",
+   "יש לוודא שקע חשמל סמוך עבור ההצתה האלקטרונית והצג הדיגיטלי",
+   "כדאי לבדוק את הדירוג האנרגטי על התווית, כי מקורות שונים מציינים ערכים שונים"
+  ],
+  "faq": [
+   {
+    "q": "האם יש הגנה מדליפת גז?",
+    "a": "כן, יש שסתומי ביטחון לכל להבה בנפרד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Blomberg HGN8335W",
+   "בלומברג HGN 8335",
+   "תנור משולב גז 60 ס״מ",
+   "תנור משולב כיריים גז לבן",
+   "תנור גז בלומברג",
+   "תנור משולב עם מבער ווק",
+   "תנור משולב בלומברג לבן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב: 60 ס\"מ, גובה: 85 ס\"מ, עומק: 60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "65-72 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבערים",
+   "catalogValue": "4 מבערי גז SABAF (כולל מבער ווק 2.9KW, שני מבערים 2.0KW, מבער 1.0KW)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F (או A לפי מקור אחר)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות",
+   "catalogValue": "8 תוכניות בישול ואפייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הצתה ושסתומי ביטחון",
+   "catalogValue": "הצתה אלקטרונית, שסתומי ביטחון לכל להבה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Bloomberg",
+   "finding": "corrected",
+   "correctValue": "Blomberg",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Sources conflict: Virtualshops lists F, CityDeal lists A (לפי נתוני המפרט). The catalog text says F or A. Check the EU energy label or EPREL before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand is spelled Bloomberg; the manufacturer on every page is Blomberg.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer, importer or EPREL page was found for HGN8335W. All facts come from two Israeli retailer pages; the importer is not named.",
+   "severity": "medium"
+  },
+  {
+   "field": "תוכניות",
+   "issue": "The 8-programs and 3 layers of glass facts come from one retailer only, so they go to review.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Sources disagree (F on Virtualshops, A reported for CityDeal); check the energy label or EPREL.",
+   "severity": "high"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand is spelled Bloomberg; the manufacturer is Blomberg.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Only Israeli retailer pages found; no manufacturer or importer source, importer not named.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Energy rating marked conflict: only Virtualshops states F, CityDeal reportedly states A and the catalog text says F or A. Program count and door glass come from one retailer page; kept since the quotes are ok on a page naming the model. Source kind for Virtualshops corrected to il-retailer. | code guard removed: summary: \"תנור משולב כיריים גז של Blomberg ברוחב 60 ס״מ בצבע לבן, דגם HGN8335W.\"; summary: \"תא האפייה בנפח 72 ליטר ברוטו / 65 ליטר אפקטיבי עם 8 תוכניות, כולל טורבו אקטיבי ו־3D Cooking.\"; summary: \"על הכיריים מבער ווק 2.9KW, מבערים בינוניים 2.0KW ומבער קטן 1.0KW, עם הצתה אלקטרונית ושסתומי ביטחון לכל להבה.\"; faq: \"מה נפח תא האפייה?\"; faq: \"אילו מבערים יש בכיריים?\"; faq: \"מה המידות של התנור?\"; metaDescription: \"תנור משולב גז Blomberg HGN8335W לבן 60 ס״מ: נפח 72 ליטר ברוטו, מבער ווק 2.9KW ו־8 תוכניות אפייה. בחדד אלקטריק נהריה\"; highlight: \"מידות 60 × 85 × 60 ס״מ\"; highlight: \"נפח תא אפייה 72 ליטר ברוטו / 65 ליטר אפקטיבי\"; highlight: \"מבער ווק 2.9KW לצד מבערים בינוניים 2.0KW ומבער קטן 1.0KW\"; highlight: \"8 תוכניות כולל טורבו אקטיבי ו־3D Cooking\"; highlight: \"דלת קרה עם 3 שכבות זכוכית ושסתומי ביטחון לכל להבה\"; goodFor: \"בישול בווק ובסירים גדולים על מבער 2.9KW\"; consideration: \"יש לוודא מקום ברוחב 60 ס״מ ובגובה 85 ס״מ בין הארונות\""
+ }
+}

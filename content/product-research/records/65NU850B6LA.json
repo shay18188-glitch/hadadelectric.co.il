@@ -1,0 +1,472 @@
+{
+ "modelNumber": "65NU850B6LA",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "65NU850B6LA",
+  "israeliImporter": "ח.י. סחר",
+  "matchConfidence": "high",
+  "notes": "The exact model appears on the Israeli retailer Avi Super (official importer ח.י. סחר), on LG Levant, and on the South African retailer Comx. Israeli dimensions are given in cm, mm figures come from Comx. | QA: All three sources, including an Israeli retailer and LG Levant, name the exact model 65NU850B6LA."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lg.com/levant_en/tvs-soundbars/lg-65nu850b6la",
+   "publisher": "LG Levant",
+   "kind": "manufacturer",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.comx-computers.co.za/65NU850B6LA-specifications-340685.htm",
+   "publisher": "Comx Computers",
+   "kind": "retailer",
+   "market": "ZA",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/מוצרים/טלוויזיה-65-אינץ-אל-גי-⁦65nu850b6la⁩/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "65 אינץ׳"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840 × 2160"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תאורה",
+     "value": "Direct LED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "HDR",
+     "value": "HDR10 Pro"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "Alpha 7 AI Processor 4K Gen9"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 (כולל eARC ו-ALLM)"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות USB",
+     "value": "1 (USB 2.0)"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.3"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli retailer lists F only, consistent with SDR class.",
+     "label": "דירוג אנרגטי",
+     "value": "F (SDR) / G (HDR)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת חשמל (SDR)",
+     "value": "100 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1447 × 838 × 70.8 מ״מ"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "13.9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תבנית תליה על קיר (VESA)",
+     "value": "300 × 200 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Removed 'יבואן רשמי' since the quote does not say it.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote says texture and depth, not contrast.",
+   "text": "Nano Detail Enhancer לשיפור המרקם והעומק בתמונה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "4K Super Upscaling לשדרוג תוכן ברזולוציה נמוכה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "משחקים עם VRR עד 60Hz, ALLM ו-HGiG"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חיפוש AI מרובה עם Google Gemini ו-Microsoft Copilot"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת הפעלה webOS 26 עם AI Hub"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תמיכה ב-FILMMAKER MODE ו-Dynamic Tone Mapping"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טלוויזיה LG 65NU850B6LA"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Source is a South African retailer; confirm the Israeli box contents.",
+   "text": "שלט רגיל"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ניתן לתלייה על קיר בתבנית VESA של 300 × 200 מ״מ"
+  }
+ ],
+ "content": {
+  "summary": "LG 65NU850B6LA היא טלוויזיה חכמה בגודל 65 אינץ׳ מסדרת NANO, ברזולוציית 4K UHD עם תאורת Direct LED ומעבד Alpha 7 AI Processor 4K Gen9. מתאימה למי שמחפש מסך גדול לסלון לצפייה בסטרימינג, סרטים ומשחקים קלים.",
+  "highlights": [
+   "מעבד Alpha 7 AI Processor 4K Gen9 עם 4K Super Upscaling",
+   "תמיכה ב-HDR10 Pro ו-FILMMAKER MODE",
+   "3 כניסות HDMI כולל eARC ו-ALLM",
+   "Wi-Fi 5 ו-Bluetooth 5.3 מובנים"
+  ],
+  "goodFor": [
+   "סלון שבו רוצים מסך גדול בגודל 65 אינץ׳ לצפייה משפחתית",
+   "צפייה בסרטים ובתוכן HDR עם FILMMAKER MODE ו-HDR10 Pro",
+   "חיבור מקרן קול דרך eARC וקונסולה עם ALLM",
+   "צפייה בתוכן ישן ברזולוציה נמוכה בזכות 4K Super Upscaling"
+  ],
+  "considerations": [
+   "קצב הרענון הוא 60 Hz, ו-VRR נתמך עד 60Hz — לגיימרים שמחפשים קצב גבוה יותר זה שיקול",
+   "יש כניסת USB אחת בלבד (USB 2.0)"
+  ],
+  "faq": [
+   {
+    "q": "מה קצב הרענון של LG 65NU850B6LA?",
+    "a": "קצב הרענון הוא 60 Hz, עם תמיכה ב-VRR עד 60Hz, ALLM ו-HGiG.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש בטלוויזיה?",
+    "a": "יש 3 כניסות HDMI, כולל תמיכה ב-eARC ו-ALLM.",
+    "sources": []
+   },
+   {
+    "q": "איזה מעבד יש בטלוויזיה?",
+    "a": "מעבד Alpha 7 AI Processor 4K Gen9, הכולל 4K Super Upscaling לשדרוג תוכן ברזולוציה נמוכה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלוויזיה?",
+    "a": "האחריות היא לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה LG 65NU850B6LA בגודל 65 אינץ׳, 4K UHD עם מעבד Alpha 7 Gen9 ו-HDR10 Pro, 3 כניסות HDMI ו-webOS. בחדד אלקטריק נהריה",
+  "keywords": [
+   "LG 65NU850B6LA",
+   "טלוויזיה LG 65 אינץ",
+   "טלוויזיה NANO 65",
+   "LG NU85 65",
+   "טלוויזיה 4K 65 אינץ",
+   "טלוויזיה חכמה LG",
+   "65NU850B6LA מחיר",
+   "טלוויזיה LG webOS"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "64.5 אינץ' (שיווקי 65 אינץ')",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K UHD 3840x2160",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית פאנל",
+   "catalogValue": "Direct LED / NanoCell",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "α7 AI Processor 4K Gen9",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (ללא מעמד)",
+   "catalogValue": "1447x838x70.8 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "13.88 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיפוש מבוסס בינה מלאכותית",
+   "catalogValue": "Multi AI Search",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גודל מסך",
+   "issue": "The catalog says a 64.5 inch actual screen. The sources give only the 65 inch marketing size, so check the stated screen size.",
+   "severity": "medium"
+  },
+  {
+   "field": "HDMI",
+   "issue": "Sources conflict on the HDMI version. One lists 3x HDMI 2.1, while the spec list gives eARC through HDMI 2. Check the manual before stating HDMI 2.1 features.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "The catalog weight is 13.88 kg, but the sources give 13.9 kg. Confirm the more precise figure.",
+   "severity": "low"
+  },
+  {
+   "field": "גודל מסך",
+   "issue": "The catalog says a 64.5 inch actual screen; sources give only the 65 inch marketing size.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight is 13.88 kg; sources give 13.9 kg.",
+   "severity": "low"
+  },
+  {
+   "field": "HDMI",
+   "issue": "HDMI version (2.0 vs 2.1) is unclear across sources; do not state HDMI 2.1 features without checking the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "inTheBox",
+   "issue": "Box contents come from a South African retailer; confirm the remote type for the Israeli unit.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Warranty value reduced to 'שנה' because the quote does not mention the official importer. Energy class kept as F (SDR) / G (HDR); the Israeli retailer lists F only, which matches the SDR class. Weight published as 13.9 kg per sources (catalog says 13.88). | code guard removed: fact 1 QA value \"4K UHD ‏3840 × 2160\" not supported by quotes; kept \"3840 × 2160\"; summary: \"היא תומכת ב-HDR10 Pro, בקצב רענון של 60 Hz ובמערכת webOS 26 עם חיפוש AI.\"; faq: \"אפשר לתלות את הטלוויזיה על הקיר?\"; highlight: \"מסך 65 אינץ׳ ברזולוציית 4K UHD ‏3840 × 2160\"; consideration: \"מידות המסך ללא מעמד הן 1447 × 838 × 70.8 מ״מ — כדאי למדוד את המקום על הארון או הקיר\"; consideration: \"לתלייה על קיר יש לבחור זרוע התומכת בתבנית VESA של 300 × 200 מ״מ ובמשקל של 13.9 ק״ג\""
+ }
+}

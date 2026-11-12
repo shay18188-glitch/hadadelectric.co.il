@@ -1,0 +1,449 @@
+{
+ "modelNumber": "DL2330",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "DeLonghi",
+  "exactModel": "DL2330",
+  "israeliImporter": "ברימאג",
+  "matchConfidence": "medium",
+  "notes": "No manufacturer, importer or EPREL page was found. Israeli retailers name the model as DL2330 (bettershop, electroclick, wisebuy) and one English retailer as DL-2330 (zabilo). Importer name comes from retailer warranty text only. The wisebuy depth of 38.3 cm belongs to the DL2320 listing and was not used. | QA: Several Israeli retailers name DL2330 25 L white; no manufacturer or importer page confirms the specification. Importer name comes from retailer warranty text."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bettershop.co.il/product/delonghi_dl2330/",
+   "publisher": "BetterSHOP",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-microwaveoven&productid=1045715",
+   "publisher": "Wisebuy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.electroclick.co.il/product/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-delonghi-dl2330-%E2%80%8F25-%E2%80%8F%D7%9C%D7%99%D7%98%D7%A8-%D7%93%D7%94-%D7%9C%D7%95%D7%A0%D7%92%D7%99",
+   "publisher": "Electroclick",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://zabilo.com/en/microwaves/12345-dl-2330.html",
+   "publisher": "Zabilo",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two retailers agree; catalog 900 W is contradicted.",
+     "label": "הספק מיקרוגל",
+     "value": "800 וואט"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single source; researcher noted BetterSHOP title mentions 11 levels.",
+     "label": "רמות עוצמה",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא בישול",
+     "value": "25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות אוטומטיות",
+     "value": "8"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי זמן ולפי משקל"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "עד 95 דקות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "לוח בקרה",
+     "value": "בקרת תצוגה דיגיטלית"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילת בטיחות לילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "BetterSHOP marks it 3* (conditions may apply).",
+     "label": "אחריות",
+     "value": "3 שנים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single English retailer page; depth includes handle.",
+     "label": "מידות (רוחב × גובה × עומק כולל ידית)",
+     "value": "48.5 × 29.5 × 40 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לוח בקרה דיגיטלי"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "8 מצבי עבודה אוטומטיים לבישול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "DeLonghi DL2330 הוא מיקרוגל דיגיטלי בנפח 25 ליטר בגימור לבן, בהספק 800 וואט. מתאים למי שמחפש מיקרוגל פשוט לתפעול לחימום, בישול והפשרה יומיומיים.",
+  "highlights": [
+   "נפח תא בישול 25 ליטר",
+   "הספק 800 וואט",
+   "8 תוכניות אוטומטיות",
+   "הפשרה לפי זמן ולפי משקל",
+   "נעילת בטיחות לילדים"
+  ],
+  "goodFor": [
+   "חימום ובישול יומיומי במטבח הביתי",
+   "הפשרת מזון לפי משקל או לפי זמן",
+   "בתים עם ילדים, בזכות נעילת הבטיחות",
+   "מי שמעדיף תוכניות אוטומטיות על פני כיוון ידני"
+  ],
+  "considerations": [
+   "ההספק הוא 800 וואט, כך שזמני חימום עשויים להיות ארוכים מעט ממיקרוגל חזק יותר",
+   "נדרש שקע חשמל זמין בקרבת מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של DeLonghi DL2330?",
+    "a": "הספק המיקרוגל הוא 800 וואט.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח המיקרוגל?",
+    "a": "נפח תא הבישול הוא 25 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הפשרה אוטומטית?",
+    "a": "כן, יש תוכנית הפשרה לפי זמן ולפי משקל.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת בטיחות לילדים?",
+    "a": "כן, המיקרוגל כולל נעילת בטיחות לילדים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי DeLonghi DL2330 לבן בנפח 25 ליטר והספק 800 וואט, עם 8 תוכניות אוטומטיות והפשרה לפי משקל. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל דלונגי DL2330",
+   "DeLonghi DL2330",
+   "מיקרוגל 25 ליטר",
+   "מיקרוגל דיגיטלי לבן",
+   "מיקרוגל דה לונגי",
+   "מיקרוגל 800 וואט",
+   "מיקרוגל עם נעילת ילדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "900 וואט",
+   "finding": "contradicted",
+   "correctValue": "800 וואט",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא בישול",
+   "catalogValue": "25 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "5 רמות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר צלחת זכוכית מסתובבת",
+   "catalogValue": "27 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 48.3 ס\"מ, גובה 28.1 ס\"מ, עומק 39.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 48.5 ס״מ, גובה 29.5 ס״מ, עומק 40 ס״מ",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "8 תוכניות בישול אוטומטיות",
+   "catalogValue": "8 תוכניות בישול אוטומטיות מוגדרות מראש",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "הפשרה אוטומטית לפי משקל או זמן",
+   "catalogValue": "הפשרה אוטומטית לפי משקל או זמן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר דיגיטלי",
+   "catalogValue": "טיימר דיגיטלי מתכוונן עד 95 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנגנון נעילה בטיחותי בפני ילדים",
+   "catalogValue": "מנגנון נעילה בטיחותי בפני ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "התראה קולית בסיום פעולה",
+   "catalogValue": "התראה קולית בסיום פעולה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פתיחת דלת באמצעות ידית משיכה",
+   "catalogValue": "פתיחת דלת באמצעות ידית משיכה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "איטליה (ייצור בסין)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים, ברימאג היבואן הרשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק מיקרוגל",
+   "issue": "Catalog says 900 W. Two Israeli retailers say 800 W and no page found says 900 W.",
+   "severity": "high"
+  },
+  {
+   "field": "רמות עוצמה",
+   "issue": "Sources conflict: most say 5 power levels, BetterSHOP's title says 11 דרגות עוצמה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "Catalog 48.3 × 28.1 × 39.5 cm differs from retailers (48.5 × 29.5 × 40 cm). Dimensions rest on one English retailer page only.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer, manual or EPREL page was found for DL2330. All facts rest on Israeli retailers, so single-source facts go to review.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "The wisebuy comparison page shows 38.3 cm depth for the DL2320 model, not DL2330. Not used.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "issue": "Catalog says 900 W; two Israeli retailers say 800 W. Catalog specification should be corrected.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "Catalog dimensions 48.3 × 28.1 × 39.5 cm differ from the single retailer source (48.5 × 29.5 × 40 cm incl. handle).",
+   "severity": "medium"
+  },
+  {
+   "field": "רמות עוצמה",
+   "issue": "5 levels rests on one retailer; researcher reported a BetterSHOP title mentioning 11 levels.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or manual page found; all facts rest on retailers.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty shown as 3* on BetterSHOP; check importer warranty conditions.",
+   "severity": "low"
+  },
+  {
+   "field": "קוטר צלחת / התראה קולית / ידית משיכה / ארץ ייצור",
+   "issue": "Catalog claims not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts rest on Israeli retailers; no manufacturer page. Catalog power 900 W is contradicted by two retailers (800 W). Dimensions relabelled to state depth includes handle. Warranty 3 years kept but retailer marks it with an asterisk. Wisebuy source kind corrected to il-retailer. | code guard removed: summary: \"הוא כולל 8 תוכניות אוטומטיות, הפשרה לפי זמן ולפי משקל וטיימר עד 95 דקות.\"; faq: \"מה המידות של המיקרוגל?\"; consideration: \"ודאו שיש על השיש מקום למידות 48.5 × 29.5 × 40 ס״מ (העומק כולל ידית), ומרווח אוורור סביב המכשיר\""
+ }
+}

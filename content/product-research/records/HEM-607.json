@@ -1,0 +1,299 @@
+{
+ "modelNumber": "HEM-607",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-607",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The retailer page names the model as HEM607 (no dash) and gives the product as a 16 inch rotary fan. No manufacturer or importer spec page was found for this exact model. Importer site search (hemilton.co.il) returned no product page. | QA: Retailer pages name HEM607 (no dash) as a 16 inch Hemilton rotary fan; treated as the same unit as catalog HEM-607. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מאוורר-16-רוטורי-hemilton-91500607",
+   "publisher": "BUG (bug.co.il)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/search.aspx?keyword=HEM607",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר מאוורר",
+     "value": "16 אינץ'"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Floor vs. table type not stated on sources.",
+     "label": "סוג מאוורר",
+     "value": "רוטורי (מסך רשת מסתובב)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "בסיס לבן, רשת אפורה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פיזור אוויר רב כיווני באמצעות מסך רשת מסתובב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ידית נשיאה בגוף המכשיר לניוד קל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מאוורר רוטורי של Hemilton, דגם HEM-607, בקוטר 16 אינץ'. מסך הרשת המסתובב מפזר את האוויר לכמה כיוונים, ויש 3 מהירויות אוורור לבחירה. ידית הנשיאה בגוף המכשיר מקלה על העברתו בין חדרים, כך שהוא מתאים למי שמחפש מאוורר פשוט לשימוש ביתי.",
+  "highlights": [
+   "קוטר 16 אינץ'",
+   "3 מהירויות אוורור",
+   "מסך רשת מסתובב לפיזור אוויר רב כיווני",
+   "ידית נשיאה לניוד קל",
+   "בסיס לבן ורשת אפורה"
+  ],
+  "goodFor": [
+   "פיזור אוויר בחדר במקום זרם ממוקד לכיוון אחד",
+   "מי שמעביר את המאוורר בין חדרים לאורך היום",
+   "שימוש ביתי שבו מספיקה בחירה בין כמה מהירויות"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי סביב המאוורר כדי שמסך הרשת המסתובב יפזר את האוויר בחופשיות",
+   "כדאי לבדוק את גובה המאוורר ואופן ההצבה (רצפה או שולחן) מול המקום המתוכנן",
+   "ודאו שיש שקע חשמל בקרבת מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "כמה מהירויות יש למאוורר?",
+    "a": "למאוורר יש 3 מהירויות אוורור.",
+    "sources": []
+   },
+   {
+    "q": "מה הקוטר של המאוורר?",
+    "a": "קוטר המאוורר הוא 16 אינץ'.",
+    "sources": []
+   },
+   {
+    "q": "מה ההבדל במאוורר רוטורי?",
+    "a": "במאוורר רוטורי מסך הרשת מסתובב ומפזר את האוויר לכמה כיוונים, במקום זרם לכיוון אחד.",
+    "sources": []
+   },
+   {
+    "q": "קל להעביר אותו בין חדרים?",
+    "a": "כן, בגוף המכשיר יש ידית נשיאה לניוד קל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר רוטורי Hemilton HEM-607 בקוטר 16 אינץ' עם 3 מהירויות ומסך רשת מסתובב לפיזור אוויר רב כיווני. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר רוטורי 16 אינץ'",
+   "Hemilton HEM-607",
+   "מאוורר המילטון",
+   "HEM607",
+   "מאוורר 16 אינץ' לבן",
+   "מאוורר עם ידית נשיאה",
+   "מאוורר רצפתי רוטורי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Hemilton",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר מאוורר",
+   "catalogValue": "16 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר מאוורר בס״מ",
+   "catalogValue": "כ-40 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "3 דרגות אוורור לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "בסיס לבן ורשת אפורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מאוורר",
+   "catalogValue": "רצפתי רוטורי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "40W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ידית נשיאה",
+   "catalogValue": "ידית נשיאה מובנית בגוף המכשיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס רחב ויציב במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין (מיוצר עבור המילטון ישראל)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "power_w",
+   "issue": "No page read for HEM-607 gives a wattage. The 40W figure appears only on sibling pages (HEM-603, Midea FS40-19M). The catalog's 40W is unverified.",
+   "severity": "high"
+  },
+  {
+   "field": "voltage",
+   "issue": "Voltage 220-240V / 50Hz is not on any page read for HEM-607.",
+   "severity": "medium"
+  },
+  {
+   "field": "size_cm",
+   "issue": "16 inch is confirmed. The catalog's approximate 40 cm is a conversion that no page read states.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one retailer page (bug.co.il) was found for this exact model. No manufacturer, importer or manual page was found, so facts stay in review.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The retailer page writes the model as HEM607 without the dash. Treated as the same model as HEM-607.",
+   "severity": "low"
+  },
+  {
+   "field": "power_w",
+   "issue": "Catalog 40W is not stated on any source page for HEM-607.",
+   "severity": "high"
+  },
+  {
+   "field": "voltage",
+   "issue": "Catalog 220-240V / 50Hz is not stated on any source page.",
+   "severity": "medium"
+  },
+  {
+   "field": "fan_type",
+   "issue": "Sources say rotary 16 inch but do not confirm floor (vs. table) type as the catalog name states.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only Israeli retailer pages found (one is a Zap search page); no manufacturer or importer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "size_cm",
+   "issue": "Catalog approximate 40 cm is a conversion not stated by sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All four facts and both features are backed by ok quotes on the bug.co.il page that names HEM607. Identity set to medium: only Israeli retailer pages (one a Zap search page), no manufacturer or importer page, and the model is written without the dash. Catalog claims for 40W, 220-240V, ~40 cm and floor (vs. table) type were not verified and are not published."
+ }
+}

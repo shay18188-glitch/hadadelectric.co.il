@@ -1,0 +1,345 @@
+{
+ "modelNumber": "DT8230",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Tefal",
+  "exactModel": "DT8230",
+  "israeliImporter": "ניופאן",
+  "matchConfidence": "high",
+  "notes": "Sold in Israel as מגהץ קיטור אנכי TEFAL דגם DT8230 (Access Steam Force). Retailers also list a DT8230E1 suffix variant. | QA: Israeli retailer pages name Tefal DT8230 as a vertical steamer, 2000W, warranty by Newpan; DT8230E1 suffix also seen at retailers."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%92%D7%94%D7%A5-%D7%A7%D7%99%D7%98%D7%95%D7%A8-%D7%90%D7%A0%D7%9B%D7%99-tefal-%D7%98%D7%A4%D7%90%D7%9C-2000w-%D7%93%D7%92%D7%9D-dt8230/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ivory.co.il/catalog.php?id=69473",
+   "publisher": "אייבורי",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1161447",
+   "publisher": "זאפ",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת אדים מרבית",
+     "value": "30 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן חימום",
+     "value": "25 שניות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "200 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single source",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "14.7 × 32 × 12.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single source",
+     "label": "משקל",
+     "value": "1.4 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב Lock לתפוקת אדים רציפה וכפתור ON / OFF עם נורית חיווי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גיהוץ אנכי ללא צורך בקרש גיהוץ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מיכל מים נשלף"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מברשת מיקרופייבר לניקוי אבק מהבדים"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Tefal DT8230 הוא מגהץ קיטור אנכי בהספק 2000 W לגיהוץ בגדים תלויים ללא קרש גיהוץ. הוא מתחמם תוך 25 שניות, מפיק עד 30 גרם אדים לדקה וכולל מיכל מים נשלף בנפח 200 מ״ל. מתאים למי שרוצה לרענן ולגהץ בגדים במהירות לפני יציאה.",
+  "highlights": [
+   "הספק 2000 W",
+   "חימום תוך 25 שניות",
+   "תפוקת אדים עד 30 גרם לדקה",
+   "מיכל מים נשלף בנפח 200 מ״ל",
+   "מברשת מיקרופייבר לניקוי אבק מהבדים"
+  ],
+  "goodFor": [
+   "גיהוץ מהיר של חולצות ושמלות על הקולב בלי לפתוח קרש גיהוץ",
+   "רענון בגדים רגע לפני יציאה, בזכות חימום של 25 שניות",
+   "ניקוי אבק מבדים עם מברשת המיקרופייבר המצורפת"
+  ],
+  "considerations": [
+   "מיכל המים בנפח 200 מ״ל, כך שבגיהוץ ממושך יש למלא אותו מחדש",
+   "גיהוץ אנכי מתאים לבגדים תלויים; לקפלים חדים ייתכן שעדיין תרצו מגהץ רגיל"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן לוקח למגהץ להתחמם?",
+    "a": "לפי המפרט, החימום לוקח 25 שניות.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "מיכל המים נשלף ובנפח 200 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "צריך קרש גיהוץ?",
+    "a": "לא, זהו מגהץ קיטור אנכי לגיהוץ בגדים תלויים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנתיים אחריות, בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ קיטור אנכי Tefal DT8230 בהספק 2000 W, חימום תוך 25 שניות ותפוקת אדים עד 30 גרם לדקה. מיכל נשלף 200 מ״ל. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Tefal DT8230",
+   "מגהץ קיטור אנכי טפאל",
+   "מגהץ אדים אנכי",
+   "טפאל DT8230",
+   "מגהץ קיטור אנכי 2000W",
+   "DT8230E1",
+   "מגהץ אנכי לבגדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000W (1680-2000W)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "catalogValue": "עד 30 גרם/דקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכת אדים",
+   "catalogValue": "עד 90 גרם/דקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "25 שניות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "190-200 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "2.6 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה רציף (אוטונומיה)",
+   "catalogValue": "10 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1.4 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "14.7 × 32 × 12.8 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "variant",
+   "issue": "Retailers list the same Tefal steam iron under both DT8230 and DT8230E1; the pages used here name DT8230, but a person should confirm the Israeli importer's variant before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל ומידות",
+   "issue": "Weight and dimensions were found on one retailer page only (lior-electric); no second site was found for these values.",
+   "severity": "low"
+  },
+  {
+   "field": "מכת אדים, כבל, אוטונומיה, מתח",
+   "issue": "Catalog values for these were not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "variant",
+   "issue": "Retailers list both DT8230 and DT8230E1; confirm the Israeli importer's variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל ומידות",
+   "issue": "Weight and dimensions found on one retailer page only.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog steam shot (90 g/min), cable length, autonomy and voltage were not verified on any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts verified on Israeli retailer pages naming DT8230. Catalog values for steam shot, cable length, autonomy and voltage were not verified and are not published. | code guard removed: consideration: \"המשקל 1.4 ק״ג, כדאי לבדוק נוחות אחיזה לשימוש ממושך\""
+ }
+}

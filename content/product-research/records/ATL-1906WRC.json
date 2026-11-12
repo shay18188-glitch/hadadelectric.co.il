@@ -1,0 +1,391 @@
+{
+ "modelNumber": "ATL-1906WRC",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-1906WRC",
+  "israeliImporter": "יוסף חיים יבוא ושיווק בע\"מ",
+  "matchConfidence": "high",
+  "notes": "דף המותג goldline.co.il וגם shazartech.co.il מזכירים את הדגם ATL-1906WRC במפורש. bug.co.il מזכיר קוד שונה ATL-1906-16WRC, ולכן נעשה בו שימוש רק לאישוש מידות. | QA: Importer page and Shazar both name ATL-1906WRC exactly; barcode 7290001894651 from the importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%AA%D7%9C%D7%99%D7%94-16-%D7%A2%D7%9D-%D7%A9%D7%9C%D7%98-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99/",
+   "publisher": "Gold Line Israel (יוסף חיים יבוא ושיווק בע\"מ)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%AA%D7%9C%D7%99%D7%99%D7%94-16-5-%D7%9B%D7%A0%D7%A4%D7%99%D7%99%D7%9D-%D7%9B%D7%95%D7%9C%D7%9C-%D7%A9%D7%9C%D7%98-%D7%95%D7%98%D7%99%D7%99%D7%9E%D7%A8-gold-line-9150190619",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.shazartech.co.il/product/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%AA%D7%9C%D7%99%D7%99%D7%94-16-%D7%A2%D7%9D-%D7%A9%D7%9C%D7%98-gold-line-atl-1906wrc/",
+   "publisher": "שזר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-1906WRC"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד",
+     "value": "7290001894651"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "60 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירויות הפעלה",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "43 × 50 × 30 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר רשת",
+     "value": "43 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל הזנה",
+     "value": "180 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "bug.co.il reportedly states 9h; importer and Shazar agree on 7.5h",
+     "label": "טיימר כיבוי",
+     "value": "עד 7.5 שעות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "2 שנים ע״י יוסף חיים בע״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מאוורר המיועד לתלייה על הקיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה באמצעות שלט אלחוטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "5 כנפיים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צידוד לימין ולשמאל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניתן להפעלה עם שעון שבת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "reworded marketing claim",
+   "text": "מנוע שקט לפי היבואן"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט רחוק"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תלייה על הקיר"
+  }
+ ],
+ "content": {
+  "summary": "מאוורר תלייה לקיר של Gold Line, דגם ATL-1906WRC, עם מנוע בהספק 60 W, 5 כנפיים ו-3 מהירויות הפעלה. המאוורר מופעל בשלט אלחוטי, כולל צידוד לימין ולשמאל וטיימר כיבוי עד 7.5 שעות, וניתן להפעלה עם שעון שבת. מתאים למי שמחפש מאוורר שלא תופס מקום על הרצפה או על השולחן.",
+  "highlights": [
+   "מנוע בהספק 60 W",
+   "3 מהירויות הפעלה ו-5 כנפיים",
+   "שלט אלחוטי כלול",
+   "טיימר כיבוי עד 7.5 שעות",
+   "ניתן להפעלה עם שעון שבת"
+  ],
+  "goodFor": [
+   "חדרים שבהם אין מקום למאוורר עומד או שולחני",
+   "מטבח, חדר שינה או משרד שבהם נוח לשלוט במאוורר מרחוק",
+   "שומרי שבת המעוניינים להפעיל את המאוורר עם שעון שבת",
+   "הפעלה לפני השינה עם כיבוי אוטומטי בטיימר"
+  ],
+  "considerations": [
+   "יש לוודא שקיר ההתקנה מתאים לתלייה ושיש מקום פנוי בגודל 43 × 50 × 30 ס״מ",
+   "כבל ההזנה באורך 180 ס״מ, ולכן כדאי לוודא שיש שקע חשמל בטווח הזה ממקום התלייה",
+   "ההפעלה העיקרית בשלט, כדאי לשמור עליו במקום נגיש"
+  ],
+  "faq": [
+   {
+    "q": "האם המאוורר מגיע עם שלט?",
+    "a": "כן, באריזה כלול שלט רחוק לשליטה על המאוורר.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן אפשר לכוון את טיימר הכיבוי?",
+    "a": "טיימר הכיבוי ניתן לכיוון עד 7.5 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להפעיל את המאוורר עם שעון שבת?",
+    "a": "כן, לפי היבואן ניתן להפעיל את המאוורר עם שעון שבת.",
+    "sources": []
+   },
+   {
+    "q": "מה אורך כבל החשמל?",
+    "a": "אורך כבל ההזנה הוא 180 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המאוורר?",
+    "a": "אחריות של 2 שנים ע״י יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר תלייה לקיר Gold Line ATL-1906WRC: הספק 60 W, 3 מהירויות, שלט אלחוטי וטיימר כיבוי עד 7.5 שעות, להפעלה עם שעון שבת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר תלייה",
+   "מאוורר קיר עם שלט",
+   "Gold Line ATL-1906WRC",
+   "מאוורר גולד ליין",
+   "ATL-1906WRC",
+   "מאוורר קיר שעון שבת",
+   "מאוורר תלייה 16 אינץ׳"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "60W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 43 ס\"מ, גובה 50 ס\"מ, עומק 30 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר כנפיים",
+   "catalogValue": "5",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "3 מהירויות הפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר כיבוי",
+   "catalogValue": "עד 7.5 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלט אלחוטי",
+   "catalogValue": "הפעלה באמצעות שלט אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב שבת",
+   "catalogValue": "ניתן להפעלה עם שעון שבת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "timer",
+   "issue": "bug.co.il מציין טיימר של 9 שעות בתיאור המוצר, בעוד goldline.co.il ושזר מציינים עד 7.5 שעות. נדרשת בדיקה מול המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "color",
+   "issue": "צבע לבן מופיע רק באתרי קמעונאים (bug.co.il), ולא נמצא בדף היבואן. לא נכנס לעובדות מפורסמות.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "bug.co.il מזכיר את הדגם כ-ATL-1906-16WRC ו-ATL190616WR, קוד שונה מעט מהקטלוג. דף היבואן ושזר מזכירים את ATL-1906WRC במפורש, ולכן ההשוואה נעשתה לדגם המדויק.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "מדינת הייצור 'סין' בקטלוג לא אומתה באף אחד מהדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "timer",
+   "issue": "bug.co.il מציין טיימר 9 שעות; היבואן ושזר מציינים עד 7.5 שעות. כדאי לוודא מול המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "מדינת הייצור (סין) בקטלוג לא אומתה באף מקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on the importer page (goldline.co.il). Feature 'מנוע שקט במיוחד' reworded to attribute the claim to the importer. Timer conflict with bug.co.il (9h) noted in flags; bug.co.il uses a slightly different model code and was used only for dimensions corroboration."
+ }
+}

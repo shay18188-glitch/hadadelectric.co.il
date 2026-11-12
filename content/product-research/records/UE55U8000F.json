@@ -1,0 +1,469 @@
+{
+ "modelNumber": "UE55U8000F",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "UE55U8000F",
+  "israeliImporter": "סמסונג ישראל",
+  "matchConfidence": "high",
+  "notes": "Israeli listings show the Israeli code UE55U8000FUXILN for this 55 inch 2025 U8000F set. No Samsung Israel page was fetched; the facts rest on the Israeli retailer page (Azuri), which lists the model as 55U8000F with the UE55U8000F name in its header. | QA: Wisebuy names UE55U8000F exactly; Azuri lists Samsung 55U8000F, 55 inch, 2025 series, matching the catalog 55 inch LED set. No manufacturer page was fetched."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-tv&productid=1252739",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.azuri.co.il/items/8308185-%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-Samsung-55U8000F-Crystal-UHD-4K-55-%D7%90%D7%99%D7%A0%D7%A5-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92",
+   "publisher": "Azuri",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דגם",
+     "value": "UE55U8000F"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סדרה",
+     "value": "U8000F (2025)"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "55 אינץ׳"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K UHD (3840 × 2160)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג מסך",
+     "value": "LED Crystal UHD"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog says HDR10 and HLG; flagged.",
+     "label": "תמיכה ב-HDR",
+     "value": "HDR10+"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "Crystal Processor 4K"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק רמקולים",
+     "value": "20 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב ללא מעמד",
+     "value": "122.46 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה ללא מעמד",
+     "value": "70.78 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק ללא מעמד",
+     "value": "7.66 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב כולל מעמד",
+     "value": "122.46 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה כולל מעמד",
+     "value": "75.91 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק כולל מעמד",
+     "value": "19.9 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog says 1x USB-A; flagged.",
+     "label": "כניסות USB",
+     "value": "2"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיבור אלחוטי",
+     "value": "Wi-Fi ו-Bluetooth"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Tizen"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote qualifies by local availability.",
+     "label": "עוזרים קוליים",
+     "value": "Bixby / Alexa / Google Assistant (בהתאם לזמינות מקומית)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "Q-Symphony לסנכרון הסאונד עם סאונדבר תואם"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שכבת אבטחה מובנית Samsung Knox"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "עיצוב דק עם מסגרת צרה וגימור מתכתי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [
+   "מערכת הפעלה חכמה Tizen"
+  ],
+  "goodFor": [
+   "מי שמשלב סאונדבר תואם של Samsung בזכות Q-Symphony"
+  ],
+  "considerations": [
+   "זמינות העוזרים הקוליים תלויה בזמינות המקומית"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה מותקנת בטלוויזיה?",
+    "a": "מערכת Tizen של Samsung.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Samsung UE55U8000F",
+   "UE55U8000F",
+   "טלוויזיה סמסונג 55 אינץ׳",
+   "Samsung U8000F",
+   "טלוויזיה 4K 55 אינץ׳",
+   "Samsung Crystal UHD 55",
+   "טלוויזיה חכמה סמסונג 2025"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "54.6 אינץ' (55\")",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K (3840 x 2160)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג פאנל",
+   "catalogValue": "VA LED",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "50Hz / 60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "Crystal Processor 4K",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1224.6 x 707.8 x 76.6 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1224.6 x 759.1 x 199 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "catalogValue": "9.6 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "3x HDMI, 1x USB-A",
+   "finding": "corrected",
+   "correctValue": "3 כניסות HDMI, 2 כניסות USB",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תמיכה ב-HDR",
+   "catalogValue": "HDR10 ו-HLG",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תמיכה ב-Alexa",
+   "catalogValue": "תמיכה ב-Alexa",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טלוויזיה חכמה",
+   "catalogValue": "טלוויזיה חכמה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "20 W",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קצב רענון",
+   "issue": "The Israeli retailer page lists 60Hz only. The catalog says 50Hz / 60Hz, and the 50Hz value was not confirmed on a page fetched here. Check the Samsung Israel spec sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "חיבורים",
+   "issue": "The catalog says 1x USB-A. The Israeli retailer page says 2 USB inputs.",
+   "severity": "medium"
+  },
+  {
+   "field": "תמיכה ב-HDR",
+   "issue": "The Israeli retailer page says HDR10+. The catalog says HDR10 and HLG, and HLG was not found on any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "issue": "The catalog weight of 9.6 kg was not found on any fetched page. The Israeli retailer page gives dimensions only.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "No Samsung Israel or manufacturer page was fetched. The facts rest on one Israeli retailer page, so most will go to review rather than publish.",
+   "severity": "medium"
+  },
+  {
+   "field": "כניסות USB",
+   "issue": "Catalog says 1x USB-A; the Israeli retailer page says 2 USB inputs. Confirm on the Samsung spec sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "תמיכה ב-HDR",
+   "issue": "Catalog says HDR10 and HLG; the retailer page says HDR10+. HLG not confirmed on any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "Catalog says 50Hz / 60Hz; retailer page lists 60Hz only.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "All facts rest on one Israeli retailer page; no Samsung Israel or manufacturer page was fetched.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Wisebuy reclassified as other (price comparison). Tizen value kept without the update-years claim. Voice assistant value qualified as subject to local availability, as the quote says. USB count (2) contradicts the catalog (1x USB-A); kept from the retailer quote and flagged. All facts rest on one Israeli retailer page; no manufacturer page. | code guard removed: summary: \"Samsung UE55U8000F היא טלוויזיה חכמה בגודל 55 אינץ׳ מסדרת U8000F לשנת 2025, עם מסך LED Crystal UHD ברזולוציית 4K ומעבד Crystal Processor 4K.\"; summary: \"היא תומכת ב-HDR10+, פועלת על מערכת Tizen וכוללת 3 כניסות HDMI, Wi-Fi ו-Bluetooth.\"; summary: \"מתאימה למי שמחפש מסך 4K חכם לסלון לצפייה בסטרימינג ובשידורים.\"; faq: \"מה הרזולוציה של Samsung UE55U8000F?\"; faq: \"אילו פורמטי HDR נתמכים?\"; faq: \"כמה כניסות HDMI יש בטלוויזיה?\"; faq: \"מה המידות של המסך ללא מעמד?\"; metaDescription: \"טלוויזיה חכמה Samsung UE55U8000F בגודל 55 אינץ׳, רזולוציית 4K UHD ותמיכה ב-HDR10+, מערכת Tizen ו-3 כניסות HDMI. בחדד אלקטריק נהריה\"; highlight: \"מסך 55 אינץ׳ ברזולוציית 4K UHD (3840 × 2160)\"; highlight: \"תמיכה ב-HDR10+\"; highlight: \"3 כניסות HDMI ו-2 כניסות USB\"; highlight: \"רמקולים בהספק 20 W\"; goodFor: \"צפייה בתכני סטרימינג ב-4K דרך מערכת Tizen המובנית\"; goodFor: \"חיבור כמה מכשירים במקביל, כמו ממיר, קונסולה ונגן, דרך 3 כניסות HDMI\"; consideration: \"ודאו שהמקום המיועד מכיל רוחב של 122.46 ס״מ; עם המעמד הגובה 75.91 ס״מ והעומק 19.9 ס״מ\"; consideration: \"בתלייה על הקיר עומק המסך ללא מעמד הוא 7.66 ס״מ; בדקו התאמה של זרוע תלייה\"; consideration: \"קצב הרענון הוא 60 Hz, נתון שכדאי לבדוק אם המשחקים המהירים חשובים לכם\""
+ }
+}

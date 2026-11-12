@@ -1,0 +1,246 @@
+{
+ "modelNumber": "SW-221",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "SW-221",
+  "israeliImporter": "קלינטון",
+  "matchConfidence": "high",
+  "notes": "המפרט נמצא רק באתרי קמעונאים (ACE, לאסטפרייס, סופר-פארם); לא נמצא דף יצרן או מדריך. | QA: Three Israeli retailers name Normande SW-221 240W hand mixer, matching the catalog name and power."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ace.co.il/4506082",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lastprice.co.il/p/17194344/מיקסר-יד-Normande-240W/Normande-SW~221",
+   "publisher": "לאסטפרייס",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://shop.super-pharm.co.il/electricity-and-electronics/small-kitchen-appliances/mixers/מיקסר-יד-Normande-240W-נורמנדה-SW-221/p/mp-00430981",
+   "publisher": "סופר-פארם",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מוצר",
+     "value": "מיקסר יד"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "240 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220–240V/50Hz"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "5 מהירויות + פעולת Turbo"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר המטרפים",
+     "value": "כרום"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כפתור שחרור מהיר למטרפים",
+     "value": "יש"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Only on ACE page.",
+     "label": "אחריות",
+     "value": "שנה, יבואן רשמי קלינטון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצויד במטרפים ווים מצופים כרום"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "זוג מטרפים רגילים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "זוג ווים ללישה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מיקסר יד של Normande, דגם SW-221, בהספק 240W. הוא מציע 5 מהירויות ופעולת Turbo, ומגיע עם זוג מטרפים וזוג ווים ללישה מצופים כרום. מתאים למי שמחפש מיקסר יד קומפקטי להקצפה וללישה קלה במטבח הביתי.",
+  "highlights": [
+   "הספק 240W",
+   "5 מהירויות ופעולת Turbo",
+   "מטרפים ווים ללישה מצופים כרום",
+   "כפתור שחרור מהיר להוצאת המטרפים",
+   "אחריות לשנה מהיבואן הרשמי קלינטון"
+  ],
+  "goodFor": [
+   "הקצפת שמנת וחלבונים בעזרת המטרפים",
+   "לישת בצק קל בעזרת הווים הכלולים",
+   "מי שרוצה להחליף אביזרים בקלות עם כפתור שחרור מהיר"
+  ],
+  "considerations": [
+   "מיקסר יד בהספק 240W, ולא מיקסר עמידה עם קערה",
+   "האריזה כוללת זוג מטרפים וזוג ווים ללישה בלבד",
+   "פועל במתח 220–240V/50Hz"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המיקסר?",
+    "a": "ההספק הוא 240W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש למיקסר?",
+    "a": "יש 5 מהירויות ובנוסף פעולת Turbo.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים באריזה?",
+    "a": "זוג מטרפים רגילים וזוג ווים ללישה, מצופים כרום.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה על ידי היבואן הרשמי קלינטון, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקסר יד Normande SW-221 בהספק 240W עם 5 מהירויות ופעולת Turbo, מטרפים ווים ללישה מצופי כרום וכפתור שחרור מהיר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקסר יד Normande",
+   "Normande SW-221",
+   "מיקסר יד 240W",
+   "נורמנדה מיקסר יד",
+   "מיקסר יד עם ווים ללישה",
+   "SW-221"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "240 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Normande",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts confirmed by ok quotes on three Israeli retailer pages naming SW-221. Warranty quote appears only on ACE."
+ }
+}

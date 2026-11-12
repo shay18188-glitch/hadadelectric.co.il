@@ -1,0 +1,316 @@
+{
+ "modelNumber": "AS6550",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "BaByliss",
+  "exactModel": "AS6550E",
+  "israeliImporter": "ברימאג",
+  "matchConfidence": "high",
+  "notes": "Catalog code AS6550 appears on no page as such; Israeli retailers list AS6550E and AS6550E/ILE, which is the same Air Wand 3-in-1. Manufacturer, EPREL and importer pages were not reachable. Warranty differs between retailers (1 vs 3 years), so omitted. | QA: Sources name AS6550E and AS6550E/ILE; catalog code AS6550 without suffix. Same Air Wand 3-in-1, specs match catalog. | 2026-11-12: Owner photographed the box label: AS6550E, 1500W at 230V, 1600W at 240V, 50-60Hz, made in China."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/product.aspx?id=17758",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מייבש-מחליק-ומעצב-שיער-קרמי-babyliss-9456550",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://100-100.co.il/product/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%A9%D7%99%D7%A2%D7%A8-3-%D7%91-1-air-wand-%D7%93%D7%92%D7%9D-as6550e-ile-%D7%91%D7%99%D7%99%D7%91%D7%99%D7%9C%D7%99%D7%A1-babyliss/",
+   "publisher": "100-100",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://thegermanoutlet.com/products/3-in-1-hair-dryer-air-wand",
+   "publisher": "The German Outlet",
+   "kind": "retailer",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s5",
+   "url": "owner:packaging-label-photo",
+   "publisher": "חדד יובל אלקטריק – בעל החנות",
+   "kind": "owner",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-12"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות אוויר",
+     "value": "123 קמ״ש"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הגדרות טמפרטורה",
+     "value": "4 + אוויר קר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירויות זרימת אוויר",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק ב-230V",
+     "value": "1500 W"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק ב-240V",
+     "value": "1600 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל",
+     "value": "2.5 מטר"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תדר",
+     "value": "50–60Hz"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "380 גרם"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "AS6550E"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "סין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיה יונית מתקדמת להפחתת קרזול"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצב Ultra Care: מעבר בין אוויר חם לקר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מייבש ומעצב שיער BaByliss Air Wand דגם AS6550E, שמייבש ומעצב ישירות משיער רטוב. לפי תווית האריזה ההספק הוא 1500 W במתח 230V, ובמכשיר 3 מהירויות זרימה ו-4 הגדרות טמפרטורה ואוויר קר. מתאים למי שרוצה כלי אחד קל, במשקל 380 גרם, לייבוש ועיצוב.",
+  "highlights": [
+   "הספק 1500 W במתח 230V (לפי תווית האריזה)",
+   "מהירות אוויר 123 קמ״ש",
+   "4 הגדרות טמפרטורה ואוויר קר, 3 מהירויות זרימה",
+   "משקל 380 גרם",
+   "כבל באורך 2.5 מטר"
+  ],
+  "goodFor": [
+   "ייבוש ועיצוב בכלי אחד במקום מייבש ומחליק נפרדים",
+   "שיער נוטה לקרזול, בזכות הטכנולוגיה היונית",
+   "עיצוב ממושך ביד אחת, בזכות משקל של 380 גרם",
+   "קיבוע העיצוב באוויר קר ובמצב Ultra Care"
+  ],
+  "considerations": [
+   "ודאו שיש שקע חשמל במרחק של עד 2.5 מטר ממקום העיצוב",
+   "בדקו את תנאי האחריות מול המשווק, משום שהם משתנים בין חנויות"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המכשיר?",
+    "a": "לפי תווית האריזה, 1500 W במתח 230V ו-1600 W במתח 240V.",
+    "sources": [
+     "s5"
+    ]
+   },
+   {
+    "q": "כמה הגדרות חום ומהירות יש?",
+    "a": "יש 4 הגדרות טמפרטורה ואוויר קר, ו-3 מהירויות זרימת אוויר.",
+    "sources": [
+     "s1",
+     "s2"
+    ]
+   },
+   {
+    "q": "כמה שוקל המכשיר?",
+    "a": "המשקל הוא 380 גרם.",
+    "sources": [
+     "s1",
+     "s2"
+    ]
+   },
+   {
+    "q": "איפה המכשיר מיוצר?",
+    "a": "לפי תווית האריזה, בסין.",
+    "sources": [
+     "s5"
+    ]
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש ומעצב שיער BaByliss Air Wand AS6550E, הספק 1500W ב-230V, 4 הגדרות חום ו-3 מהירויות, 380 גרם. בחדד אלקטריק נהריה",
+  "keywords": [
+   "babyliss as6550",
+   "babyliss air wand",
+   "מייבש ומעצב שיער 3 ב-1",
+   "מברשת מייבשת בייביליס",
+   "מייבש שיער מחליק",
+   "as6550e",
+   "מייבש שיער יוני"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1600W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "380 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "2.5 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "model_number",
+   "catalogValue": "AS6550",
+   "finding": "corrected",
+   "correctValue": "AS6550E",
+   "sources": [
+    "s5"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1600W",
+   "finding": "corrected",
+   "correctValue": "1500 W ב-230V, 1600 W ב-240V",
+   "sources": [
+    "s5"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "base44_model_number",
+   "issue": "Feed code AS6550 should be corrected in Base44 to AS6550E (packaging label); the site shows the corrected code.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-12",
+  "verdict": "pass",
+  "notes": "All six facts and both features are backed by ok quotes on pages naming AS6550E / AS6550E/ILE (the Israeli Air Wand 3-in-1). Catalog code lacks the E suffix. | code guard removed: summary: \"מייבש ומעצב שיער 3 ב-1 של BaByliss (Air Wand) לייבוש, החלקה ועיצוב בכלי אחד.\"; metaDescription: \"מייבש ומעצב שיער 3 ב-1 BaByliss AS6550 בהספק 1600 W ומהירות אוויר 123 קמ״ש, עם טכנולוגיה יונית להפחתת קרזול. בחדד אלקטריק נהריה\" | 2026-11-12 store owner: box label photo: AS6550E, 1500W/230V, 1600W/240V, 50-60Hz, made in China"
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "modelNumber": "X9002/10",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "X9002/10",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "high",
+  "notes": "דף היצרן (Philips UK) נושא את הדגם X9002/10 בשם i9000 Wet & Dry Electric Shaver with SkinIQ. דף קמעונאי ישראלי (CityDeal) נושא את אותו קוד ומציין יבואן רשמי. מידות ומשקל לא נמצאו בדפים שנקראו. | QA: דף Philips UK ודף CityDeal נושאים את הקוד X9002/10 בדיוק, סדרת i9000 כמו בשם הקטלוגי. היבואן (אלקטרה) הוזכר בהערות החוקר אך ללא ציטוט מאומת."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.philips.co.uk/shop/UK_Loyaltyshop/personal-care/face-shavers/i9000-wet-dry-electric-shaver-with-skiniq/p/X9002_10",
+   "publisher": "Philips UK",
+   "kind": "manufacturer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%92%D7%99%D7%9C%D7%95%D7%97-%D7%97%D7%A9%D7%9E%D7%9C%D7%99%D7%AA-philips-i9000-x900210-%D7%9C%D7%A9%D7%99%D7%9E%D7%95%D7%A9-%D7%A8%D7%98%D7%95%D7%91-%D7%95%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת גילוח",
+     "value": "Triple Action Lift & Cut"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "להבים",
+     "value": "Dual SteelPrecision"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ראש גמיש",
+     "value": "360° Precision Flexing Head"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיישן",
+     "value": "Power Adapt Sensor"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "תורגם",
+     "label": "אופן שימוש",
+     "value": "רטוב, יבש או עם קצף"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "תורגם",
+     "label": "עמידות במים",
+     "value": "עמיד למים 100%"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "מקור קמעונאי ישראלי בלבד",
+     "label": "זמן פעולה",
+     "value": "50 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "תורגם",
+     "label": "טעינה מלאה",
+     "value": "שעה אחת בעמדת הטעינה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "תורגם",
+     "label": "טעינה מהירה",
+     "value": "5 דקות לגילוח מלא אחד"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיבור",
+     "value": "Bluetooth"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אפליקציה",
+     "value": "GroomTribe"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "LED עם אחוז סוללה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית Triple Action Lift & Cut להרמה וחיתוך של השיער"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קוצץ משולב לשפם ולפאות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "נוסח מחדש לפי הציטוט",
+   "text": "פתיחה בלחיצה אחת לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עמדת טעינה נוחה לטעינה ולאחסון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש מתחלף SH91, מומלץ להחליף כל 2 שנים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה למי שמחפש מכונה עמידה למים עם חיבור Bluetooth לאפליקציית GroomTribe.",
+  "highlights": [
+   "מערכת גילוח Triple Action Lift & Cut",
+   "ראש גמיש 360° Precision Flexing Head",
+   "עמידה למים 100%, לגילוח רטוב או יבש",
+   "חיבור Bluetooth לאפליקציית GroomTribe"
+  ],
+  "goodFor": [
+   "מי שאוהב להתגלח במקלחת או עם קצף",
+   "מי שרוצה הנחיה בזמן אמת דרך אפליקציה",
+   "מי שצריך טעינה מהירה לפני יציאה מהבית",
+   "גילוח וסידור שפם ופאות במכשיר אחד"
+  ],
+  "considerations": [
+   "החיבור לאפליקציה דורש טלפון עם Bluetooth",
+   "ראש הגילוח מתחלף בדגם SH91, ומומלץ להחליפו כל 2 שנים",
+   "זמן הפעולה מבוסס על מפרט של קמעונאי ישראלי, כדאי לאמת מול היבואן"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להתגלח עם המכונה במקלחת?",
+    "a": "כן. המכונה עמידה למים 100% ומיועדת לגילוח רטוב, יבש או עם קצף.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לטעון את המכונה?",
+    "a": "טעינה מלאה בעמדת הטעינה נמשכת שעה אחת, וטעינה של 5 דקות מספיקה לגילוח מלא אחד.",
+    "sources": []
+   },
+   {
+    "q": "האם יש למכונה אפליקציה?",
+    "a": "כן. המכונה מתחברת ב-Bluetooth לאפליקציית GroomTribe.",
+    "sources": []
+   },
+   {
+    "q": "איזה ראש חלופי מתאים לה?",
+    "a": "ראש SH91, שמומלץ להחליף כל 2 שנים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מכונת גילוח פיליפס i9000",
+   "Philips X9002/10",
+   "מכונת גילוח חשמלית לגילוח רטוב ויבש",
+   "Philips i9000",
+   "מכונת גילוח פיליפס עם אפליקציה",
+   "ראש גילוח SH91",
+   "מכונת גילוח עמידה למים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מערכת גילוח",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "Triple Action Lift & Cut",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמידות במים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "100% waterproof",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן פעולה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "50 דקות",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "לא נמצאו מידות ומשקל במקורות שנקראו. יש להשלים ידנית מדף היצרן או ממדריך המשתמש.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "לא נקבעה תקופת אחריות. דף Philips UK מציין 5 Year Warranty, ומקור אחר שנמצא בחיפוש (aio.lv) מציין 2 שנים. יש לאמת מול היבואן הרשמי.",
+   "severity": "high"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "לא נמצא דף יצרן ישראלי לדגם. העובדות מבוססות על דף Philips UK ועל דף CityDeal, ומניחות שהגרסה הישראלית זהה. היבואן הרשמי לפי CityDeal הוא אלקטרה.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "בתוצאות חיפוש מופיעה מכונה דומה בשם X9002 בצבע שחור ועם אחריות 24 חודשים בחנות ישראלית. זהו קוד אחר ולא נכלל בעובדות.",
+   "severity": "medium"
+  },
+  {
+   "field": "run_time",
+   "issue": "זמן הפעולה של 50 דקות מופיע רק בדף הקמעונאי CityDeal בתוך מפרט שנקרא. יש לאמת מול דף היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "היבואן הרשמי (אלקטרה לפי החוקר) לא אומת בציטוט. יש לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "תקופת האחריות לא נקבעה; מקורות שונים מציינים תקופות שונות. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "run_time",
+   "issue": "זמן הפעולה של 50 דקות מופיע רק בדף הקמעונאי. יש לאמת מול היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "מידות ומשקל לא נמצאו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים מדפים הנושאים את הדגם. תוקנו ניסוחי ערכים לעברית (שימוש, עמידות במים, זמני טעינה). זמן הפעולה מבוסס על קמעונאי ישראלי בלבד. היבואן לא אומת בציטוט ולכן לא נקבע. | code guard removed: summary: \"מכונת גילוח חשמלית Philips מסדרת i9000, דגם X9002/10, לגילוח רטוב, יבש או עם קצף.\"; summary: \"המכונה כוללת מערכת Triple Action Lift & Cut עם להבי Dual SteelPrecision, ראש גמיש 360° וחיישן Power Adapt, וזמן פעולה של 50 דקות.\"; faq: \"כמה זמן היא עובדת על טעינה?\"; metaDescription: \"מכונת גילוח Philips i9000 דגם X9002/10, עמידה למים לגילוח רטוב או יבש, זמן פעולה 50 דקות וחיבור Bluetooth. בחדד אלקטריק נהריה\"; highlight: \"זמן פעולה של 50 דקות וטעינה מלאה בשעה\""
+ }
+}

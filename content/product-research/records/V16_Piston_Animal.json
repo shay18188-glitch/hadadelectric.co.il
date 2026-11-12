@@ -1,0 +1,720 @@
+{
+  "modelNumber": "V16 Piston Animal",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Dyson",
+    "exactModel": "Dyson V16 Piston Animal (SV53)",
+    "israeliImporter": "פוקס טק גרופ ש.מ. (היבואן הרשמי של Dyson בישראל)",
+    "matchConfidence": "medium",
+    "notes": "דייסון ישראל מוכרת את הדגם בשם 'שואב אלחוטי Dyson V16 piston animal SV53' במק״ט 492963-01 (בנתוני האתר 492963-01-IL). אותו מק״ט 492963-01 מופיע באתר דייסון גרמניה (EU). באתר דייסון בריטניה הדגם מופיע במק״ט אזורי 499085-01 (תקע בריטי) ולכן סומן exactModel=false ומשמש לחיזוק בלבד. בשוק הישראלי נמכרות גם יחידות יבוא מקביל (למשל קוד 502DYSNV16ANUK אצל ספר אבי, ו-'DS60' ב-bug.co.il שמצוין בו 'יבואן רשמי: לא'). רשומת הקטלוג אינה מציינת מק״ט, ולכן לא ניתן לאשר איזו גרסה נמכרת בחנות. הדגם הנחקר הוא גרסת השאיבה היבשה, לא V16 Piston Animal Submarine."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.dyson.co.il/dyson-v16-piston-animaltm-sv53",
+      "publisher": "Dyson Israel (dyson.co.il)",
+      "kind": "importer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.dyson.de/staubsauger/kabellos/v16-piston-animal/schwarz-kupfer",
+      "publisher": "Dyson Germany (dyson.de)",
+      "kind": "manufacturer",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.dyson.co.uk/vacuum-cleaners/cordless/v16-piston-animal/black-copper",
+      "publisher": "Dyson UK (dyson.co.uk)",
+      "kind": "manufacturer",
+      "market": "UK",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://citydeal.co.il/product/dyson-v16-piston-animal-vacuum-cleaner",
+      "publisher": "CityDeal",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.cwc.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%99%D7%99%D7%A1%D7%95%D7%9F-v16-piston-animal-dyson/",
+      "publisher": "עולם הקולנוע והחשמל (CWC)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.dyson.co.il/footer-primary-links/warranty",
+      "publisher": "Dyson Israel (dyson.co.il) – דף אחריות",
+      "kind": "importer",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "דגם",
+          "value": "Dyson V16 Piston Animal (SV53)",
+          "sources": ["s1", "s4"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מק״ט יצרן (יבוא רשמי)",
+          "value": "492963-01",
+          "sources": ["s1", "s2", "s4"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סוג מוצר",
+          "value": "שואב אבק אלחוטי (מוט) עם אפשרות לשימוש כשואב ידני",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סוג ניקוי",
+          "value": "שאיבה יבשה (ללא ראש שטיפה)",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "באתר דייסון גרמניה הגרסה מסומנת 'Trockenreinigung', ומוצעת בנפרד גרסה 'Mit 4 Aufsätzen und Submarine Nassbürstwalze' (מק״ט 492969-01) עם ראש השטיפה Submarine 2.0. גם s3: אפשרויות Dry / Dry + Wet."
+        },
+        {
+          "label": "ארץ ייצור",
+          "value": "סין",
+          "sources": ["s5"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "מופיע רק בדף של קמעונאי אחד (CWC). לא נמצא אצל היצרן או היבואן."
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "25 × 25.9 × 129.8 ס״מ",
+          "sources": ["s2", "s4"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "דייסון מציינת: רוחב 25 ס״מ, גובה 25.9 ס״מ, אורך 129.8 ס״מ (Breite / Höhe / Länge). העומק כאן הוא האורך הכולל לפי היצרן. s3 (UK) זהה: 250 / 259 / 1,298 מ״מ. QA: s5 (CWC) הוסר מהמקורות – אין בדף מידות."
+        },
+        {
+          "label": "אורך (לפי היצרן)",
+          "value": "129.8 ס״מ",
+          "sources": ["s2", "s4"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "משקל (מפרט היצרן)",
+          "value": "3.4 ק״ג",
+          "sources": ["s2", "s5"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "טבלת המפרט של דייסון גרמניה ובריטניה (s3): 3.4 ק״ג. דייסון ישראל וגם השאלות הנפוצות בדף דייסון גרמניה מציינים 3.5 ק״ג כשראש All Floor Cones Sense מחובר – ראו שורה נפרדת."
+        },
+        {
+          "label": "משקל כולל ראש All Floor Cones Sense",
+          "value": "3.5 ק״ג",
+          "sources": ["s1", "s2", "s4"],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        {
+          "label": "נפח מכל אבק",
+          "value": "1.35 ליטר",
+          "sources": ["s1", "s2", "s4"],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "QA: דייסון ישראל (s1, היבואן הרשמי לדגם המדויק 492963-01) מציינת 1.35L, וכך גם השאלות הנפוצות בדף דייסון גרמניה (s2: 'beträgt 1,35 Liter') ו-CityDeal (s4). טבלת המפרט של דייסון גרמניה ובריטניה (s2, s3) מציינת 1.3 L – ככל הנראה עיגול. לפי סדר העדיפויות במדריך (יבואן רשמי לדגם המדויק קודם) נקבע 1.35 ליטר."
+        },
+        {
+          "label": "דחיסת אבק (CleanCompaktor)",
+          "value": "המכל דוחס את האבק ומחזיק עד 30 ימים של אבק (לפי בדיקות דייסון)",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        {
+          "label": "מנוע",
+          "value": "Hyperdymium דיגיטלי, 900W",
+          "sources": ["s2", "s4", "s5"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "עוצמת שאיבה מרבית",
+          "value": "315AW (במצב Boost, לפי IEC 62885-4)",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מהירות מנוע",
+          "value": "עד 140,000 סל״ד",
+          "sources": ["s1", "s4"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "נתון מדף דייסון ישראל. לא מופיע בדפי דייסון גרמניה/בריטניה."
+        },
+        {
+          "label": "זמן עבודה מרבי",
+          "value": "עד 70 דקות (במצב Eco על רצפה קשה)",
+          "sources": ["s1", "s2", "s4"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "לפי הערת השוליים של דייסון גרמניה: נבדק לפי IEC 62885-4 במצב Eco על רצפה קשה; זמן העבודה משתנה לפי השימוש וסוג הרצפה. CityDeal (s4) מנסח: עד 70 דקות במצב Eco עם אביזר לא ממונע."
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA אטום ב-5 שלבים – לוכד 99.99% מהחלקיקים עד 0.1 מיקרון",
+          "sources": ["s2", "s4", "s5"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "דייסון גרמניה: 99.99% עד 0.1 מיקרומטר (נבדק לפי ASTM F3150). בטבלת המפרט של דייסון בריטניה (s3) מופיע 99.9%, אך בתיאור המוצר באותו דף 99.99%."
+        },
+        {
+          "label": "מערכת הפרדת אבק",
+          "value": "Dynamic Cyclones – ציקלונים נוספים מופעלים אוטומטית במצב Boost",
+          "sources": ["s2", "s5"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "חיישן אבק",
+          "value": "סופר חלקיקים עד 15,000 פעמים בשנייה ומתאים את עוצמת השאיבה",
+          "sources": ["s2", "s1"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "דייסון ישראל מכנה אותו חיישן Piezo; התדירות 15,000 פעמים בשנייה מופיעה בדפי דייסון גרמניה ובריטניה."
+        },
+        {
+          "label": "הסרת שיער",
+          "value": "שני מוטות מברשת קוניים מתירים שיער באורך עד 60 ס״מ ומעבירים אותו ישירות למכל",
+          "sources": ["s2", "s1"],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        {
+          "label": "מצבי עבודה",
+          "value": "Eco, Auto, Boost",
+          "sources": ["s2", "s4"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "בדייסון גרמניה מופיע '3 Leistungsmodi' והמצבים מוזכרים בהערות השוליים (Eco-Modus, Auto-Modus, Boost-Modus); CityDeal מפרט Eco / Auto / Boost. השאלות הנפוצות של דייסון ישראל וגרמניה מזכירות גם 'מצב MAX' – כנראה כינוי למצב Boost."
+        },
+        {
+          "label": "התאמה אוטומטית לסוג רצפה",
+          "value": "ראש All Floor Cones Sense מתאים את מהירות המברשות לרצפה קשה ולשטיח בכל המצבים; הגברת שאיבה בשטיחים ובריכוזי אבק גבוהים במצב Auto",
+          "sources": ["s2", "s1"],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "display",
+      "rows": [
+        {
+          "label": "מסך",
+          "value": "מסך LCD המציג בזמן אמת מידע על מה שנשאב",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "rows": [
+        {
+          "label": "אפליקציה",
+          "value": "MyDyson – התראות על עדכוני תוכנה למכשיר",
+          "sources": ["s1", "s2"],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        {
+          "label": "סוללה",
+          "value": "ליתיום-יון, 7 תאים, נשלפת וניתנת להחלפה (Click-in)",
+          "sources": ["s2"],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "זמן טעינה",
+          "value": "4.5 שעות",
+          "sources": ["s2"],
+          "confidence": "high",
+          "status": "verified",
+          "note": "דייסון גרמניה (מק״ט 492963-01) ודייסון בריטניה (s3): 4.5 שעות. CityDeal (s4) מציין כ-3.5 שעות – הועדף נתון היצרן לדגם המדויק."
+        }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        {
+          "label": "אחריות",
+          "value": "שנתיים",
+          "sources": ["s4"],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "מופיע רק אצל CityDeal. דייסון ישראל לא מציינת תקופת אחריות לדגם זה; דף האחריות שלה (s6) קובע רק שאחריות יצרן מקורית ניתנת למוצרים שנרכשו מהיבואן הרשמי פוקס טק גרופ ש.מ. נוסח CityDeal: 'שנתיים אחריות בבית הלקוח ע״י היבואן הרשמי'. בתחתית אתר דייסון ישראל יש קישור כללי '4 שנות אחריות*' שאינו ספציפי לדגם זה."
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "מנוע Hyperdymium דיגיטלי של 900W עם עוצמת שאיבה של עד 315AW במצב Boost",
+      "sources": ["s2", "s1"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "ראש ניקוי All Floor Cones Sense עם שני מוטות מברשת קוניים שמתירים שיער ארוך ומונעים את הסתבכותו סביב המברשת",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "הראש מזהה את סוג הרצפה ומתאים את מהירות המברשות; זיפי ניילון לשטיחים וסיבים רכים לרצפות קשות ללא שריטות",
+      "sources": ["s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "אלומת אור מרכזית בראש הניקוי חושפת אבק דק על רצפות קשות",
+      "sources": ["s2", "s1"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מכל CleanCompaktor שדוחס את האבק בזמן הניקוי ומחזיק עד 30 ימים של אבק",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "ריקון היגייני: המכל מנגב את עצמו בזמן הריקון ולא נשאר בו אבק או שיער סבוך",
+      "sources": ["s2", "s1"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "חיישן אבק שסופר חלקיקים ומגביר אוטומטית את עוצמת השאיבה כשמזוהה ריכוז גבוה של אבק",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "השואב מזהה את האביזר המחובר ומתאים את עוצמת השאיבה – יותר כוח כשצריך וחיסכון באנרגיה במשימות קלות",
+      "sources": ["s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "לחצן הפעלה קבוע – אין צורך להחזיק לחוץ בזמן השאיבה",
+      "sources": ["s1"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "שני אביזרים מובנים ונסתרים במוט לניקוי מהיר בגובה ובנמוך, ואפשרות לשימוש כשואב ידני",
+      "sources": ["s2", "s1"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "החלפת ראש הניקוי ללא צורך להתכופף",
+      "sources": ["s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מסך LCD המציג בזמן אמת את מה שנשאב",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "סוללה נשלפת (Click-in) שניתן להחליף בקלות להארכת זמן העבודה",
+      "sources": ["s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "חיבור לאפליקציית MyDyson לקבלת התראות על עדכוני תוכנה",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "האביזרים של V16 Piston Animal אינם תואמים לשואבי Dyson אחרים מהמגוון הנוכחי",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    }
+  ],
+  "inTheBox": [
+    {
+      "text": "שואב Dyson V16 Piston Animal",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "ראש ניקוי מאיר All Floor Cones Sense",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "אביזר Hair Screw Tool 2.0 – מברשת קונית ממונעת לספות, מזרנים, מיטות חיות, מדרגות ורכב",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "אביזר לפינות ומרווחים צרים",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "אביזר משולב (Combi Tool) – פיה רחבה ומברשת בכלי אחד",
+      "sources": ["s2", "s1"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "תחנת עגינה לקיר לטעינה ולאחסון האביזרים",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מטען",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    }
+  ],
+  "installation": [
+    {
+      "text": "תחנת העגינה נתלית על הקיר ומשמשת לטעינה ולאחסון מסודר של השואב והאביזרים",
+      "sources": ["s1", "s2"],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "ניתן לטעון את השואב באמצעות המטען גם ללא תחנת העגינה",
+      "sources": ["s2"],
+      "confidence": "high",
+      "status": "verified"
+    }
+  ],
+  "content": {
+    "summary": "Dyson V16 Piston Animal (דגם SV53, מק״ט 492963-01) הוא שואב אבק אלחוטי מסוג מוט עם מנוע Hyperdymium של 900W ועוצמת שאיבה של עד 315AW במצב Boost. הסוללה הנשלפת מספקת עד 70 דקות עבודה במצב Eco על רצפה קשה, ומכל CleanCompaktor דוחס את האבק ומחזיק עד 30 ימים של אבק לפי בדיקות דייסון. ראש All Floor Cones Sense עם שני מוטות מברשת קוניים מתיר שיער באורך עד 60 ס״מ, ולכן הדגם מתאים לבתים עם שיער ארוך או חיות מחמד.",
+    "highlights": [
+      "עוצמת שאיבה של עד 315AW במצב Boost, מנוע Hyperdymium של 900W",
+      "עד 70 דקות עבודה בטעינה אחת (מצב Eco על רצפה קשה)",
+      "מכל CleanCompaktor דוחס – עד 30 ימים של אבק עם ריקון היגייני",
+      "סינון HEPA אטום ב-5 שלבים – 99.99% מהחלקיקים עד 0.1 מיקרון",
+      "ראש All Floor Cones Sense מתיר שיער עד 60 ס״מ ומתאים את עצמו לסוג הרצפה"
+    ],
+    "goodFor": [
+      "בעלי חיות מחמד ובני בית עם שיער ארוך – שני מוטות מברשת קוניים ואביזר Hair Screw 2.0 מתירים שיער ומונעים הסתבכות סביב המברשת",
+      "בתים גדולים – עד 70 דקות עבודה במצב Eco וסוללה נשלפת שאפשר להחליף להארכת זמן העבודה",
+      "בתים עם שילוב של שטיחים ורצפות קשות – הראש מזהה את סוג הרצפה ומתאים את מהירות המברשות",
+      "מי שמחפש סינון יסודי וריקון נקי – מערכת סינון HEPA אטומה ב-5 שלבים שלוכדת 99.99% מהחלקיקים עד 0.1 מיקרון, ומכל שמתנגב בזמן הריקון ולא משאיר בתוכו אבק או שיער"
+    ],
+    "considerations": [
+      "זמן העבודה של עד 70 דקות נמדד במצב Eco על רצפה קשה; לפי דייסון זמן העבודה בפועל משתנה לפי אופן השימוש וסוג הרצפה.",
+      "טעינה מלאה נמשכת כ-4.5 שעות לפי דייסון – כדאי להחזיר את השואב לתחנה בין שימושים.",
+      "תחנת העגינה נתלית על הקיר וטוענת את השואב – כדאי לתכנן מיקום ליד שקע חשמל.",
+      "הדגם מיועד לשאיבה יבשה ואינו כולל ראש שטיפה; ראש השטיפה Submarine 2.0 מגיע בגרסה נפרדת של הדגם. בנוסף, האביזרים אינם תואמים לשואבי Dyson אחרים.",
+      "לפי דייסון ישראל, אחריות יצרן מקורית ניתנת רק למוצרים שנרכשו מהיבואן הרשמי פוקס טק גרופ – כדאי לוודא את מקור היבוא."
+    ],
+    "faq": [
+      {
+        "q": "כמה זמן עובד Dyson V16 Piston Animal בטעינה אחת?",
+        "a": "עד 70 דקות במצב Eco על רצפה קשה, לפי בדיקות דייסון. זמן העבודה משתנה לפי מצב העבודה וסוג הרצפה. טעינה מלאה נמשכת כ-4.5 שעות, והסוללה נשלפת וניתנת להחלפה.",
+        "sources": ["s1", "s2"]
+      },
+      {
+        "q": "האם אפשר להשתמש בו כשואב ידני?",
+        "a": "כן. לפי דייסון ישראל המכשיר כולל אביזר פינות מובנה ונסתר שמאפשר שימוש כשואב ידני, ובמוט יש שני אביזרים מובנים לניקוי מהיר בגובה ובנמוך. בקופסה יש גם אביזר משולב ואביזר Hair Screw 2.0 לספות ולרכב.",
+        "sources": ["s1", "s2"]
+      },
+      {
+        "q": "כמה שוקל השואב?",
+        "a": "לפי טבלת המפרט של דייסון המשקל הוא 3.4 ק״ג, ולפי דייסון ישראל 3.5 ק״ג כשראש הניקוי All Floor Cones Sense מחובר.",
+        "sources": ["s1", "s2"]
+      },
+      {
+        "q": "האם הוא מתאים לשיער של חיות מחמד ולשיער ארוך?",
+        "a": "כן. ראש All Floor Cones Sense כולל שני מוטות מברשת קוניים שמתירים שיער באורך עד 60 ס״מ ומעבירים אותו ישירות למכל. לספות דייסון ממליצה על אביזר Hair Screw 2.0, שנכלל בקופסה ומתאים גם למיטות של חיות מחמד, למדרגות ולרכב.",
+        "sources": ["s1", "s2"]
+      },
+      {
+        "q": "האם השואב שוטף רצפות?",
+        "a": "לא. הדגם הזה מיועד לשאיבה יבשה. ראש השטיפה Submarine 2.0 מגיע בגרסה נפרדת של הדגם.",
+        "sources": ["s2"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "שואב אבק אלחוטי Dyson V16 Piston Animal עם עוצמת שאיבה 315AW, עד 70 דקות עבודה וסינון HEPA אטום ב-5 שלבים. ייעוץ ומכירה בחדד אלקטריק נהריה",
+    "keywords": [
+      "Dyson V16 Piston Animal",
+      "דייסון V16",
+      "דייסון V16 פיסטון אנימל",
+      "שואב אבק אלחוטי דייסון",
+      "V16 Piston Animal SV53",
+      "492963-01",
+      "שואב אבק אלחוטי לשיער חיות מחמד",
+      "שואב אבק אלחוטי 315AW"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "name",
+      "catalogValue": "שואב אבק אלחוטי עם אביזרים",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "origin_country",
+      "catalogValue": "לא צוין",
+      "finding": "unverifiable",
+      "sources": ["s5"]
+    },
+    {
+      "field": "technical_specifications: הספק מנוע",
+      "catalogValue": "900W",
+      "finding": "confirmed",
+      "sources": ["s2", "s5"]
+    },
+    {
+      "field": "technical_specifications: עוצמת שאיבה",
+      "catalogValue": "315AW",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "technical_specifications: זמן עבודה",
+      "catalogValue": "עד 70 דקות",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "technical_specifications: נפח מיכל",
+      "catalogValue": "0.35 גלון (כ-1.3 ליטר)",
+      "finding": "corrected",
+      "correctValue": "1.35 ליטר (דייסון ישראל, וגם השאלות הנפוצות בדף דייסון גרמניה). טבלת המפרט של דייסון אירופה מציינת 1.3 ליטר בעיגול. יש להציג בליטרים ולא בגלונים",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "technical_specifications: משקל",
+      "catalogValue": "7.5 פאונד (כ-3.4 ק\"ג)",
+      "finding": "corrected",
+      "correctValue": "3.4 ק״ג (מפרט היצרן); 3.5 ק״ג כולל ראש All Floor Cones Sense (דייסון ישראל). יש להציג בק״ג ולא בפאונד",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "technical_specifications: מידות",
+      "catalogValue": "גובה 35.1 אינץ' / 10.2 אינץ', אורך 15.2 אינץ' / 51.1 אינץ', רוחב 8.66 אינץ' / 9.84 אינץ' (תלוי בדגם/תצורה)",
+      "finding": "corrected",
+      "correctValue": "רוחב 25 ס״מ, גובה 25.9 ס״מ, אורך 129.8 ס״מ (מפרט דייסון). הערכים החלופיים באינץ' (35.1, 15.2, 8.66) לא נמצאו לדגם זה",
+      "sources": ["s2", "s4"]
+    },
+    {
+      "field": "technical_specifications: סינון",
+      "catalogValue": "מערכת סינון HEPA אטומה לחלוטין ב-5 שלבים הלוכדת 99.99% מהחלקיקים עד גודל 0.1 מיקרון",
+      "finding": "confirmed",
+      "sources": ["s2", "s5"]
+    },
+    {
+      "field": "product_capabilities: שאיבה אלחוטית",
+      "catalogValue": "שאיבה אלחוטית",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "product_capabilities: מברשת All Floor Cones Sense",
+      "catalogValue": "מברשת All Floor Cones Sense המונעת הסתבכות שיער ומתאימה את עצמה לסוג המשטח",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "product_capabilities: תאורה",
+      "catalogValue": "תאורה לאיתור אבק נסתר",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "product_capabilities: CleanCompaktor",
+      "catalogValue": "טכנולוגיית דחיסת אבק (CleanCompaktor) המאפשרת אגירת אבק עד 30 ימים",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "product_capabilities: ריקון היגייני",
+      "catalogValue": "ריקון היגייני",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "product_capabilities: מסך LCD",
+      "catalogValue": "מסך LCD",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "product_capabilities: שואב ידני",
+      "catalogValue": "אפשרות לשימוש כשואב ידני עם אביזר מובנה",
+      "finding": "confirmed",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "product_capabilities: Submarine",
+      "catalogValue": "דגמי Submarine כוללים ראש שטיפה רטוב לרצפות קשות",
+      "finding": "contradicted",
+      "correctValue": "המוצר הזה (V16 Piston Animal, 492963-01) הוא גרסת שאיבה יבשה ואינו כולל ראש שטיפה. ראש Submarine 2.0 מגיע רק בגרסה נפרדת של הדגם (בדייסון גרמניה: 492969-01) – ואין להזכירו בתיאור מוצר זה",
+      "sources": ["s2", "s3"]
+    },
+    {
+      "field": "מהירות מנוע",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "עד 140,000 סל״ד",
+      "sources": ["s1"]
+    },
+    {
+      "field": "זמן טעינה",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "4.5 שעות",
+      "sources": ["s2"]
+    },
+    {
+      "field": "סוללה",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "ליתיום-יון 7 תאים, נשלפת וניתנת להחלפה (Click-in)",
+      "sources": ["s2"]
+    },
+    {
+      "field": "מצבי עבודה",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "Eco, Auto, Boost",
+      "sources": ["s2", "s4"]
+    },
+    {
+      "field": "חיישן אבק",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "חיישן שסופר חלקיקים עד 15,000 פעמים בשנייה ומגביר שאיבה אוטומטית",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "תכולת האריזה",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "ראש All Floor Cones Sense, Hair Screw Tool 2.0, אביזר פינות, אביזר משולב, תחנת עגינה לקיר, מטען",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "field": "מק״ט יצרן",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "SV53 / 492963-01 (יבוא רשמי)",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "capacity/נפח מכל אבק",
+      "issue": "QA: נקבע 1.35 ליטר לפי דייסון ישראל (היבואן הרשמי לדגם המדויק), שגם השאלות הנפוצות בדף דייסון גרמניה מאשרות. טבלת המפרט של דייסון אירופה ובריטניה מציינת 1.3 ליטר – ככל הנראה עיגול. לאשר מול היבואן אם יש ספק.",
+      "severity": "low"
+    },
+    {
+      "field": "product_capabilities",
+      "issue": "תיאור היכולות בקטלוג מזכיר ראש שטיפה של דגמי Submarine – המוצר הזה הוא גרסת שאיבה יבשה בלבד. יש להסיר את המשפט מהתיאור כדי לא להטעות.",
+      "severity": "medium"
+    },
+    {
+      "field": "identity/גרסת יבוא",
+      "issue": "הקטלוג לא מציין מק״ט. היבוא הרשמי (פוקס טק גרופ) הוא 492963-01; בשוק נמכרות גם יחידות יבוא מקביל (גרסה בריטית ועוד). יש לוודא איזו גרסה נמכרת בחנות, כי האחריות המקורית ניתנת רק ליבוא הרשמי.",
+      "severity": "medium"
+    },
+    {
+      "field": "dimensions/משקל",
+      "issue": "מפרט דייסון אירופה: 3.4 ק״ג; דייסון ישראל: 3.5 ק״ג עם ראש All Floor Cones Sense. שני הנתונים פורסמו בשורות נפרדות עם התצורה – לבדוק שהניסוח ברור.",
+      "severity": "low"
+    },
+    {
+      "field": "energy/זמן טעינה",
+      "issue": "CityDeal מציין 3.5 שעות טעינה, בעוד דייסון (גרמניה ובריטניה) מציינת 4.5 שעות. פורסם נתון היצרן.",
+      "severity": "low"
+    },
+    {
+      "field": "warranty",
+      "issue": "דייסון ישראל לא מציינת תקופת אחריות לדגם זה; שנתיים מופיע רק אצל קמעונאי אחד. לא פורסם.",
+      "severity": "low"
+    },
+    {
+      "field": "identity/ארץ ייצור",
+      "issue": "'סין' מופיע רק אצל קמעונאי אחד (CWC). לא פורסם.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "I re-opened all 6 sources. s4 loaded in WebFetch; s1, s2, s3, s5 and s6 loaded in the built-in browser. Identity is confirmed: dyson.co.il SKU 492963-01 / SV53, and the dyson.de add-to-basket product is 492963-01 (the 4-tool dry version; the Submarine version there is 492969-01). The UK page is 499085-01, so exactModel=false stays. Changes: (1) Combined dimensions row: removed s5, because CWC gives no dimensions. (2) Battery row: sources now s2 only, because CityDeal does not state the 7 cells. (3) Bin volume: changed from conflict to verified, 1.35 ליטר (medium). Dyson Israel (the importer for the exact model) and the FAQ on Dyson Germany's own page both say 1.35 L; the 1.3 L in the EU/UK spec table looks like rounding. Updated the catalogCheck and reviewFlag (now low). (4) Weight 3.5 kg row: added s2 (its FAQ states 3.5 kg with the head) and updated the 3.4 kg note. (5) Run-time note: added CityDeal's wording 'with a non-motorised tool'. Modes note: recorded the 'MAX' mention in the FAQs. Dry-cleaning note: now cites the s2 Submarine variant 492969-01. Warranty note: added CityDeal's exact sentence and the generic '4 שנות אחריות*' footer link. The row stays unverified. (6) Features: light 'פס תאורה' became 'אלומת אור' (s2: Lichtstrahl); 'שיער מסובך' became 'שיער סבוך'; added s2 to the accessory-compatibility feature. (7) Content: the summary now says Eco 'על רצפה קשה' and drops 'במיוחד'. Rewrote the goodFor item 'בני משפחה רגישים לאבק' without the implied health claim. The run-time consideration no longer claims shorter Boost/carpet times; it uses Dyson's 'varies with use and floor type'. The Submarine wording is now 'גרסה נפרדת של הדגם', and the wet-mop FAQ sources are now s2 only. The pet FAQ no longer presents pet beds as a Dyson recommendation. The catalogCheck sources for Submarine and handheld were corrected. I checked the earlier reviewer's notes but did NOT apply 3, 4 or 5, because s2 supports them: 'Lade dein Staubsauger mit oder ohne Wandhalterung auf' (charging without the dock), 'Zwei Aufsätze in einem: breite Düse und Bürste' (combi tool), and 'versteckte integrierte Fugendüse' / 'Zubehör im Saugrohr' (hidden tools in the wand). Everything else checked out against s1/s2: 315AW Boost per IEC, 900W, 140,000 rpm (s1), 70 min, HEPA 99.99% to 0.1 micron, 15,000 counts per second, 60 cm hair, 30 days of dust, 4.5 h charge, dimensions 25 / 25.9 / 129.8 cm, and the box contents. The SEO text and units are OK. Still open: which import version the store sells, the warranty period, and the country of manufacture."
+  }
+}

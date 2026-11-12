@@ -1,0 +1,377 @@
+{
+ "modelNumber": "ZHS-32802",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Zanussi",
+  "exactModel": "ZHS-32802",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "No manufacturer or Israeli page for the base model was found. The only spec pages name colour-coded variants: ZHS-32802-BL (UK retailer Quzo) and ZHS-32802-YL (Egyptian retailer Amazon.eg). Facts are taken from these variants and need a check against the exact model. | QA: Sources name ZHS-32802-BL (UK) and ZHS-32802-YL (Egypt), colour variants of the catalog model; no Israeli or manufacturer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.quzo.co.uk/cordless-rechargeable-hand-stick-vacuum-zhs32802bl-pid283000.html",
+   "publisher": "Quzo UK",
+   "kind": "retailer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.amazon.eg/-/en/Zanussi-ZHS-32802-YL-Rechargeable-Cordless-Cleaner/dp/B08F3XMWP2",
+   "publisher": "Amazon.eg",
+   "kind": "retailer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "130 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג ניקוי",
+     "value": "שאיבה יבשה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זרימת אוויר",
+     "value": "14.5 ליטר/שנייה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "An unverified listing mentioned 0.8 L; flagged.",
+     "label": "נפח מיכל איסוף",
+     "value": "1 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Quzo spec line gives 22.5 V.",
+     "label": "מתח סוללה",
+     "value": "22.2 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת סוללה",
+     "value": "2200 mAh"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Axis order not stated in source.",
+     "label": "מידות",
+     "value": "1100 × 250 × 215 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "2500 g in source.",
+     "label": "משקל",
+     "value": "2.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "73 dB(A)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת סינון HEPA"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הפרדת לכלוך בטכנולוגיית ציקלון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 מהירויות שאיבה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "יחידה ראשית כולל סוללה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מברשת LED משולבת לרצפה ולשטיח"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מתקן תלייה לקיר עם מחזיק אביזרים משולב"
+  }
+ ],
+ "content": {
+  "summary": "שואב אבק אלחוטי מסוג מקל של Zanussi, דגם ZHS-32802, לשאיבה יבשה ללא שקית. מתאים למי שמחפש שואב קל לניקוי יומיומי בלי חוט.",
+  "highlights": [
+   "סינון HEPA והפרדת ציקלון"
+  ],
+  "goodFor": [
+   "ניקוי מהיר ויומיומי בלי לחפש שקע",
+   "בתים עם רצפות ושטיחים, בזכות מברשת LED משולבת לרצפה ולשטיח",
+   "מי שרוצה סינון HEPA בשואב אלחוטי",
+   "אחסון מסודר על הקיר עם מחזיק אביזרים"
+  ],
+  "considerations": [
+   "השואב מיועד לשאיבה יבשה בלבד ולא לנוזלים",
+   "יש לבחור מקום ליד שקע חשמל לתליית מתקן הקיר והטעינה"
+  ],
+  "faq": [
+   {
+    "q": "האם השואב מתאים גם לשטיחים?",
+    "a": "כן, באריזה מגיעה מברשת LED משולבת לרצפה ולשטיח.",
+    "sources": []
+   },
+   {
+    "q": "איזה סינון יש בשואב?",
+    "a": "השואב כולל מערכת סינון HEPA והפרדת לכלוך בטכנולוגיית ציקלון.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לתלות אותו על הקיר?",
+    "a": "כן, הוא מגיע עם מתקן תלייה לקיר ומחזיק אביזרים משולב.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "שואב אבק אלחוטי Zanussi",
+   "Zanussi ZHS-32802",
+   "ZHS-32802",
+   "שואב אבק מקל אלחוטי",
+   "שואב אבק אלחוטי HEPA",
+   "שואב אבק ללא שקית",
+   "שואב זנוסי אלחוטי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "130W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח סוללה",
+   "catalogValue": "22.2V - 22.5V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל איסוף",
+   "catalogValue": "1 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "1100x250x215 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "2.2 - 2.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זרימת אוויר",
+   "catalogValue": "14.5 ליטר/שנייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת סינון HEPA",
+   "catalogValue": "מערכת סינון HEPA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתאים לרצפות קשות ושטיחים",
+   "catalogValue": "מתאים לרצפות קשות ושטיחים",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model ZHS-32802 appears on no page by itself. The only pages found name colour-coded variants (ZHS-32802-BL and ZHS-32802-YL), so the base model is unconfirmed.",
+   "severity": "high"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "No Israeli importer page, Israeli spec sheet or manufacturer page for this model was found. All quotes come from a UK retailer and an Egyptian retailer, so the Israeli variant and its specs are unclear.",
+   "severity": "high"
+  },
+  {
+   "field": "מתח סוללה",
+   "issue": "The Amazon.eg page also lists the voltage as 20 Volts in its table and as 222V in a bullet. The 22.2 V value rests on the retailer description text and the Quzo page.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מיכל איסוף",
+   "issue": "An Israeli comparison listing in search results gives a 0.8 liter container, while the Quzo page gives 1 L. The sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The Quzo page gives 1100 x 250 x 215 mm without naming the axes. The width × height × depth order is assumed and should be checked.",
+   "severity": "medium"
+  },
+  {
+   "field": "זרימת אוויר",
+   "issue": "14.5 l/s and the 2200mAh battery come from one UK retailer only, so they are not corroborated by a second site.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "A UK page gives an initial release date of 18/03/2021, so the model may be old or discontinued. Confirm the current model before relying on these specs.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "All sources name colour variants ZHS-32802-BL and ZHS-32802-YL; the base catalog model and its Israeli variant are unconfirmed.",
+   "severity": "high"
+  },
+  {
+   "field": "מתח סוללה",
+   "issue": "Quzo spec line gives 22.5 V while description text on Quzo and Amazon.eg gives 22.2 V.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מיכל איסוף",
+   "issue": "An Israeli comparison listing reportedly gives 0.8 L versus 1 L on Quzo; verify.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Source gives 1100 x 250 x 215 mm without axis names.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "A UK page lists an initial release date in 2021; check whether the model is still current.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Battery voltage marked conflict: the Quzo spec line says 22.5 V while the description text on Quzo and Amazon.eg says 22.2 V. Dimensions relabelled without an assumed axis order. Weight shifted from 2500 g to 2.5 kg. All sources are colour variants (-BL, -YL) of the catalog model. | code guard removed: summary: \"הוא מגיע עם מנוע בהספק 130 W, סוללת ליתיום בקיבולת 2200 mAh, מיכל איסוף בנפח 1 ליטר וסינון HEPA עם הפרדת ציקלון.\"; faq: \"מה נפח מיכל האיסוף?\"; faq: \"כמה שוקל השואב?\"; metaDescription: \"שואב אבק אלחוטי Zanussi ZHS-32802 עם מנוע 130 W, סוללת 2200 mAh וסינון HEPA. מיכל 1 ליטר ללא שקית. בחדד אלקטריק נהריה\"; highlight: \"מנוע בהספק 130 W\"; highlight: \"סוללת ליתיום 2200 mAh\"; highlight: \"מיכל איסוף 1 ליטר ללא שקית\"; highlight: \"משקל 2.5 ק״ג\"; consideration: \"מיכל האיסוף בנפח 1 ליטר ודורש ריקון תכוף בניקוי של שטח גדול\"; consideration: \"רמת הרעש היא 73 dB(A)\""
+ }
+}

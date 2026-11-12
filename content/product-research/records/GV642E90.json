@@ -1,0 +1,327 @@
+{
+  "modelNumber": "GV642E90",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Gorenje",
+    "exactModel": "GV642E90",
+    "israeliImporter": null,
+    "matchConfidence": "high",
+    "notes": "Gorenje G400 integrated dishwasher, 60 cm, product code 20011934, EAN 3838782723155, EPREL 1578213. The catalog model number matches the manufacturer model exactly (no regional suffix). Manufacturer pages (international + Norway), the Norwegian user manual for gv642e90, the installation drawing linked from the product page, EPREL and the gorenje.me product sheet all describe this exact model. No Israeli importer page or Israeli retailer page for this exact model was found, so the Israeli-market variant (warranty, service, any local differences) is unconfirmed. Not to be confused with GS642E90W/X (freestanding) or GV642D90/GV643E90 (other integrated variants)."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://international.gorenje.com/products/dishwashing/dishwashers/DISHWASH-WV13-G320-GV642E90-GOR/p/000000000020011934",
+      "publisher": "Gorenje (international site)",
+      "kind": "manufacturer",
+      "market": "global",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://no.gorenje.com/produkter/oppvask/oppvaskmaskiner/DISHWASH-WV13-G320-GV642E90-GOR/p/000000000020011934",
+      "publisher": "Gorenje Norway",
+      "kind": "manufacturer",
+      "market": "NO",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://partners.gorenje.com/fts/GetDigitDoc.aspx?sifra=20011934&jezik=no&tipVsebine=1&docName=gv642e90_no.pdf",
+      "publisher": "Gorenje – user manual gv642e90 (Norwegian)",
+      "kind": "manual",
+      "market": "NO",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://c.hgecdn.net/export/336095_originalWebP.webp",
+      "publisher": "Gorenje – installation drawing linked from the GV642E90 product page",
+      "kind": "manufacturer",
+      "market": "global",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://eprel.ec.europa.eu/api/products/dishwashers2019/1578213",
+      "publisher": "EPREL – European Product Registry for Energy Labelling",
+      "kind": "regulator",
+      "market": "EU",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://datika.me/wa-data/public/site/data/datika.me/Gorenje/GV642E90.pdf",
+      "publisher": "Gorenje product sheet (gorenje.me, product 20011934), hosted by Datika",
+      "kind": "manufacturer",
+      "market": "ME",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.hoeffner.de/artikel/46080381",
+      "publisher": "Höffner",
+      "kind": "retailer",
+      "market": "DE",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        { "label": "יצרן", "value": "Gorenje", "sources": ["s1", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "דגם", "value": "GV642E90", "sources": ["s1", "s2", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "סדרה", "value": "G400", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "סוג", "value": "מדיח כלים אינטגרלי מלא, 60 ס״מ", "sources": ["s1", "s2", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "קוד מוצר יצרן", "value": "20011934", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "ברקוד (EAN)", "value": "3838782723155", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "מספר רישום EPREL", "value": "1578213", "sources": ["s1", "s5"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        { "label": "מידות (רוחב × גובה × עומק)", "value": "59.8 × 81.6 × 55.5 ס״מ", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "טווח גובה המכשיר", "value": "81.6–88.5 ס״מ (רגליות מתכווננות)", "sources": ["s3", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "טווח כוונון גובה", "value": "70 מ״מ", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "מידות נישה להתקנה", "value": "רוחב מינימלי 60 ס״מ, גובה 82–89 ס״מ, עומק מינימלי 56 ס״מ", "sources": ["s4"], "confidence": "high", "status": "verified" },
+        { "label": "גובה חזית ריהוט (דלת דקורטיבית)", "value": "64–72 ס״מ", "sources": ["s3", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "עומק עם דלת פתוחה", "value": "115.2 ס״מ", "sources": ["s3", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "משקל נטו", "value": "31 ק״ג", "sources": ["s1", "s2", "s6"], "confidence": "medium", "status": "verified", "note": "Product pages and product sheet say 31 kg net; the Norwegian manual's spec table says 30 kg with a footnote that weight may vary by specification." },
+        { "label": "משקל ברוטו (באריזה)", "value": "36 ק״ג", "sources": ["s1", "s2", "s6", "s7"], "confidence": "high", "status": "verified" },
+        { "label": "מידות אריזה (רוחב × גובה × עומק)", "value": "65.6 × 88.9 × 68.2 ס״מ", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        { "label": "קיבולת", "value": "13 מערכות כלים", "sources": ["s1", "s2", "s3", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "מספר סלסלות", "value": "2 (עליונה ותחתונה) וסלסלת סכו״ם", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "מגירה שלישית לסכו״ם", "value": "אין", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "סלסלה עליונה", "value": "מערכת MultiClack, 2 מחזיקי כוסות, מעמד רחב לסכינים, מחזיק כוסות שמאלי מתקפל ומתחלק", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "סלסלה תחתונה", "value": "רשת רחבה, שורת מוטות אחורית מתקפלת ומתחלקת, סלסלת סכו״ם", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        { "label": "מספר תוכניות הדחה", "value": "6", "sources": ["s1", "s2", "s3", "s7"], "confidence": "high", "status": "verified" },
+        { "label": "תוכניות", "value": "Eco 55°, אוניברסלית 60°, 1h 65°, אינטנסיבית 70°, זכוכית 40°, היגיינה 70°", "sources": ["s1", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "תוכנית מיוחדת", "value": "ניקוי עצמי של המדיח (Self Clean)", "sources": ["s1", "s3", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "תוספות", "value": "SpeedWash (קיצור זמן התוכנית), דחיית הפעלה", "sources": ["s1", "s3", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "טמפרטורות שטיפה", "value": "40 / 55 / 60 / 65 / 70 °C", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "דחיית הפעלה", "value": "עד 24 שעות", "sources": ["s1", "s2", "s3", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "תוכנית Eco 55°", "value": "כ-3:35 שעות, כ-0.92 קוט״ש, כ-11 ליטר", "sources": ["s3", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "תוכנית אוניברסלית 60°", "value": "כ-3:10 שעות, כ-1.2 קוט״ש, כ-12.5 ליטר", "sources": ["s3"], "confidence": "high", "status": "verified", "note": "Approximate values from the manual's programme table." },
+        { "label": "תוכנית 1h 65°", "value": "כ-1:00 שעה, כ-1.1 קוט״ש, כ-13 ליטר", "sources": ["s3"], "confidence": "high", "status": "verified", "note": "Approximate values from the manual's programme table." },
+        { "label": "תוכנית אינטנסיבית 70°", "value": "כ-2:50 שעות, כ-1.6 קוט״ש, כ-15.5 ליטר", "sources": ["s3"], "confidence": "high", "status": "verified", "note": "Approximate values from the manual's programme table." },
+        { "label": "תוכנית זכוכית 40°", "value": "כ-1:40 שעות, כ-0.7 קוט״ש, כ-10 ליטר", "sources": ["s3"], "confidence": "high", "status": "verified", "note": "Approximate values from the manual's programme table." },
+        { "label": "תוכנית היגיינה 70°", "value": "כ-1:05 שעות, כ-1.3 קוט״ש, כ-9.5 ליטר", "sources": ["s3"], "confidence": "high", "status": "verified", "note": "Approximate values from the manual's programme table, as printed." },
+        { "label": "שמירת תוכנית אישית", "value": "כן (תוכנית זיכרון)", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "תמיכה בטבליות 3 ב-1", "value": "כן", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        { "label": "מנוע", "value": "ConstaDrive – מנוע אסינכרוני חד-פאזי", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "זרועות התזה", "value": "2, מפלסטיק", "sources": ["s1", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "טמפרטורת מים נכנסים מקסימלית", "value": "60 °C", "sources": ["s1", "s2", "s3", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "מסנן", "value": "מסנן בעל ניקוי עצמי", "sources": ["s1", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "ExtraHygiene", "value": "כן – תוכנית היגיינה 70°", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified", "note": "QA: ExtraHygiene is listed as a feature on s1/s2/s6; on s1 its description is the Hygiene 70° programme (baby bottles, 70 °C wash), not a separate add-on." }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        { "label": "דירוג אנרגטי", "value": "E (סולם האיחוד האירופי A–G, תקנה 2019/2017)", "sources": ["s1", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "צריכת אנרגיה ל-100 מחזורים (Eco)", "value": "92 קוט״ש", "sources": ["s1", "s2", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "צריכת אנרגיה למחזור Eco", "value": "0.92 קוט״ש", "sources": ["s1", "s2", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "צריכת מים למחזור Eco", "value": "11 ליטר", "sources": ["s1", "s2", "s3", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "משך תוכנית Eco", "value": "215 דקות (3:35 שעות)", "sources": ["s1", "s2", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "צריכה במצב המתנה", "value": "0.49 W", "sources": ["s1", "s2", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "צריכה בדחיית הפעלה", "value": "1 W", "sources": ["s1", "s2", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "הספק חיבור", "value": "1,900 W", "sources": ["s3", "s6", "s7"], "confidence": "high", "status": "verified" },
+        { "label": "מתח", "value": "220–240 V~, 50 Hz", "sources": ["s1", "s3"], "confidence": "high", "status": "verified" },
+        { "label": "נתיך", "value": "10 A", "sources": ["s6", "s7"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "noise",
+      "rows": [
+        { "label": "רמת רעש", "value": "47 dB(A) re 1 pW", "sources": ["s1", "s5", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "דירוג רעש", "value": "C", "sources": ["s1", "s5", "s6"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "smart",
+      "rows": [
+        { "label": "שליטה דרך Wi-Fi", "value": "אין", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        { "label": "לוח בקרה", "value": "לוח מגע (TouchControl) שמגיב רק כשהדלת פתוחה", "sources": ["s1", "s3", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "תצוגה", "value": "זמן שנותר לסיום, חיווי מלח ונוזל הברקה", "sources": ["s3", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "סיום תוכנית", "value": "אות אור וקול", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "תאורה פנימית", "value": "אין", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+        { "label": "חלל פנימי", "value": "נירוסטה", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "safety",
+      "rows": [
+        { "label": "הגנה מהצפה", "value": "Total AquaStop", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+        { "label": "הגנת גלישה", "value": "ניקוז אוטומטי וסגירת כניסת המים כשמפלס המים עולה מעל הרגיל (קוד F54)", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "אבחון תקלות", "value": "כן", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" }
+      ]
+    },
+    {
+      "id": "installation",
+      "rows": [
+        { "label": "סוג התקנה", "value": "אינטגרלי מלא – מותקן מתחת למשטח עם חזית ריהוט", "sources": ["s1", "s2", "s5"], "confidence": "high", "status": "verified" },
+        { "label": "חיבור הדלת", "value": "דלת קבועה (לא מערכת מסילה נגררת)", "sources": ["s1", "s4"], "confidence": "high", "status": "verified" },
+        { "label": "לחץ מים בכניסה", "value": "0.03–1.0 MPa", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "חיבור למים חמים", "value": "אפשרי, עד 60 °C", "sources": ["s1", "s3", "s6"], "confidence": "high", "status": "verified", "note": "QA: 60 °C is the max inflow temperature in the s1/s2/s6 tech tables and the manual (p30). s1's marketing text says max. 70 °C (generic brand copy); 60 °C kept. The manual recommends hot-water connection only when the water is heated by an energy-efficient source, and cold water when heated by oil, electricity or gas." },
+        { "label": "גובה ניקוז מקסימלי", "value": "95 ס״מ מעל תחתית המדיח", "sources": ["s3"], "confidence": "high", "status": "verified" },
+        { "label": "אורך צינור ניקוז כולל מקסימלי", "value": "4.5 מ׳ (הארכה של עד 3 מ׳)", "sources": ["s3"], "confidence": "high", "status": "verified" }
+      ]
+    }
+  ],
+  "features": [
+    { "text": "פונקציית SpeedWash: בשילוב עם תוכנית 1h היצרן מציין הדחה ב-15 דקות; התוספת מקצרת את זמן התוכנית אך צורכת יותר מים וחשמל", "sources": ["s1", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "תוכנית מהירה 1h 65° – הדחה בכשעה לכלים עם שאריות מזון שהתייבשו קלות", "sources": ["s1", "s3", "s6"], "confidence": "high", "status": "verified" },
+    { "text": "מנוע ConstaDrive", "sources": ["s1", "s2"], "confidence": "high", "status": "verified" },
+    { "text": "הגנה מלאה מפני נזילות Total AquaStop", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+    { "text": "סלסלת סכו״ם UltraClean, שאפשר להשתמש בה במלואה או לחלק אותה לשני חלקים ולמקם אותם בסלסלה התחתונה", "sources": ["s1", "s6", "s7"], "confidence": "high", "status": "verified" },
+    { "text": "סלסלה עליונה MultiClack", "sources": ["s1", "s2", "s6"], "confidence": "high", "status": "verified" },
+    { "text": "תוכנית ניקוי עצמי לחלל המדיח, לזרועות ולצינורות ההתזה; המדיח מציג CLn כשמומלץ להפעיל אותה", "sources": ["s3", "s6"], "confidence": "high", "status": "verified" },
+    { "text": "תוכנית היגיינה 70° עם טמפרטורה גבוהה בשטיפה הראשית ובשטיפה האחרונה, לדרישות היגיינה גבוהות כמו בקבוקי תינוקות וקרשי חיתוך", "sources": ["s1", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "תוכנית זכוכית 40° עדינה לכלי קריסטל וזכוכית", "sources": ["s1", "s3"], "confidence": "high", "status": "verified" },
+    { "text": "דחיית הפעלה של 1 עד 24 שעות", "sources": ["s1", "s3", "s6"], "confidence": "high", "status": "verified" },
+    { "text": "אפשרות חיבור למים חמים (עד 60 °C) ממקור חימום חסכוני באנרגיה, להפחתת צריכת החשמל של המדיח", "sources": ["s3", "s6"], "confidence": "high", "status": "verified" }
+  ],
+  "inTheBox": [
+    { "text": "צינור כניסת מים (יש להשתמש רק בצינור המצורף)", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "יריעת הגנה מפני לחות, להתקנה מתחת למשטח העבודה ולאורך שוליו", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "סלסלת סכו״ם", "sources": ["s1", "s7"], "confidence": "high", "status": "verified" }
+  ],
+  "installation": [
+    { "text": "חיבור לחשמל, למים ולניקוז יבוצע על ידי אדם בעל הכשרה מתאימה ובהתאם לתקנות", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "נישה ברוחב 60 ס״מ לפחות, בגובה 82–89 ס״מ ובעומק 56 ס״מ לפחות", "sources": ["s4"], "confidence": "high", "status": "verified" },
+    { "text": "חזית ריהוט בגובה 64–72 ס״מ מותקנת על הדלת; ייתכן שיהיה צורך לכוונן את קפיצי הדלת לאחר התקנתה", "sources": ["s3", "s4"], "confidence": "high", "status": "verified" },
+    { "text": "יש להתקין שקע מוארק נגיש לאחר ההתקנה, ללא כבל מאריך", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "נדרש ברז ניתוק נגיש בקו אספקת המים", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "צינור הניקוז לא יעלה מעל 95 ס״מ מתחתית המדיח; קוטר פנימי של חיבור הניקוז 14 מ״מ לפחות", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "יש ליישר את המדיח בעזרת הרגליות המתכווננות ולוודא משטח יציב", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "לפני קיבוע המדיח יש להריץ את תוכנית 1h 65° עם SpeedWash, לוודא שהמדיח ממלא ומנקז מים ושאין נזילות בחיבורים", "sources": ["s3"], "confidence": "high", "status": "verified" },
+    { "text": "אם רוחב הנישה הוא 59.6–59.8 ס״מ, יש להסיר את פסי הפלסטיק שבצדי המדיח (בזהירות, הקצה עלול להיות חד)", "sources": ["s3"], "confidence": "high", "status": "verified" }
+  ],
+  "content": {
+    "summary": "Gorenje GV642E90 הוא מדיח כלים אינטגרלי מלא ברוחב 60 ס״מ מסדרת G400, המותקן מתחת למשטח העבודה עם חזית ריהוט תואמת. הוא מכיל 13 מערכות כלים, עובד ברמת רעש של 47 dB ומגיע עם הגנת Total AquaStop מפני נזילות. שש תוכניות הדחה, בהן תוכנית 1h ותוספת SpeedWash, מתאימות למשפחה שמדיחה מדי יום וצריכה גם מחזור מהיר אחרי ארוחה.",
+    "highlights": [
+      "13 מערכות כלים במדיח אינטגרלי ברוחב 60 ס״מ",
+      "רמת רעש 47 dB (דירוג C)",
+      "11 ליטר מים ו-0.92 קוט״ש למחזור Eco",
+      "6 תוכניות, כולל 1h 65° ותוספת SpeedWash",
+      "הגנה מלאה מפני נזילות Total AquaStop"
+    ],
+    "goodFor": [
+      "מטבח עם חזיתות אחידות: המדיח נסתר מאחורי חזית ריהוט בגובה 64–72 ס״מ",
+      "משפחה שמדיחה הרבה כלים: קיבולת של 13 מערכות כלים",
+      "בית שבו המים החמים מחוממים במקור חסכוני באנרגיה: לפי המדריך אפשר לחבר את המדיח למים חמים עד 60 °C ולהפחית את צריכת החשמל שלו",
+      "מי שצריך מחזור מהיר אחרי אירוח: תוכנית 1h ותוספת SpeedWash"
+    ],
+    "considerations": [
+      "יש למדוד את הנישה: רוחב 60 ס״מ לפחות, גובה 82–89 ס״מ ועומק 56 ס״מ לפחות",
+      "חזית הריהוט אינה חלק מהמדיח; יש להכין חזית בגובה 64–72 ס״מ התואמת לארונות",
+      "דירוג האנרגיה הוא E בסולם האירופי A–G; צריכת Eco היא 92 קוט״ש ל-100 מחזורים",
+      "אין במדיח מגירה שלישית לסכו״ם ואין שליטה דרך Wi-Fi"
+    ],
+    "faq": [
+      {
+        "q": "כמה זמן לוקחת התוכנית המהירה ב-Gorenje GV642E90?",
+        "a": "תוכנית 1h 65° נמשכת כשעה לפי טבלת התוכניות במדריך. לפי Gorenje, הוספת SpeedWash לתוכנית 1h מקצרת את ההדחה ל-15 דקות, אך התוספת צורכת יותר מים וחשמל.",
+        "sources": ["s1", "s3"]
+      },
+      {
+        "q": "אילו מידות נישה נדרשות להתקנה?",
+        "a": "לפי שרטוט ההתקנה של היצרן: רוחב 60 ס״מ לפחות, גובה 82–89 ס״מ ועומק 56 ס״מ לפחות. גובה המדיח עצמו מתכוונן בין 81.6 ל-88.5 ס״מ.",
+        "sources": ["s3", "s4"]
+      },
+      {
+        "q": "כמה מים וחשמל המדיח צורך?",
+        "a": "בתוכנית Eco הוא צורך 11 ליטר מים ו-0.92 קוט״ש למחזור (92 קוט״ש ל-100 מחזורים), ומשך התוכנית 3:35 שעות. הצריכה משתנה בין התוכניות: למשל כ-15.5 ליטר וכ-1.6 קוט״ש בתוכנית האינטנסיבית, וכ-10 ליטר בתוכנית הזכוכית.",
+        "sources": ["s1", "s3", "s5"]
+      },
+      {
+        "q": "האם אפשר לחבר את המדיח למים חמים?",
+        "a": "כן. לפי המדריך אפשר לחבר אותו למים חמים עד 60 °C כשהמים מחוממים במקור חסכוני באנרגיה, וחיבור כזה מפחית את צריכת החשמל של המדיח. כשהמים מחוממים בחשמל, בגז או בנפט, המדריך ממליץ לחבר אותו למים קרים.",
+        "sources": ["s3", "s6"]
+      },
+      {
+        "q": "האם יש במדיח מגירה שלישית?",
+        "a": "לא. במדיח שתי סלסלות וסלסלת סכו״ם, ואין מגירה עליונה לסכו״ם.",
+        "sources": ["s1", "s2"]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "מדיח כלים אינטגרלי מלא Gorenje GV642E90 ברוחב 60 ס״מ: 13 מערכות כלים, 47 dB, הגנת Total AquaStop ותוכנית 1h עם SpeedWash. בחדד אלקטריק נהריה",
+    "keywords": [
+      "Gorenje GV642E90",
+      "GV642E90",
+      "גורניה GV642E90",
+      "מדיח כלים אינטגרלי גורניה",
+      "מדיח כלים אינטגרלי מלא 60 ס״מ",
+      "מדיח כלים 13 מערכות",
+      "מדיח כלים 47 dB",
+      "מדיח Gorenje G400"
+    ]
+  },
+  "catalogCheck": [
+    { "field": "name", "catalogValue": "מדיח כלים רחב אינטגרלי מלא", "finding": "confirmed", "sources": ["s1", "s2", "s5"] },
+    { "field": "origin_country", "catalogValue": "לא צוין במפורש (סלובניה היא ארץ המותג/ספק)", "finding": "unverifiable", "sources": ["s1", "s5"] },
+    { "field": "רוחב", "catalogValue": "59.8 ס\"מ", "finding": "confirmed", "sources": ["s1", "s2", "s6"] },
+    { "field": "גובה", "catalogValue": "81.6 ס\"מ", "finding": "confirmed", "correctValue": "81.6 ס״מ (מתכוונן עד 88.5 ס״מ)", "sources": ["s1", "s3", "s4"] },
+    { "field": "עומק", "catalogValue": "55.5 ס\"מ", "finding": "confirmed", "sources": ["s1", "s2", "s6"] },
+    { "field": "משקל", "catalogValue": "31 ק\"ג", "finding": "confirmed", "sources": ["s1", "s2", "s6"] },
+    { "field": "קיבולת", "catalogValue": "13 מערכות כלים", "finding": "confirmed", "sources": ["s1", "s3", "s5", "s6"] },
+    { "field": "צריכת מים", "catalogValue": "11 ליטר למחזור", "finding": "confirmed", "correctValue": "11 ליטר למחזור בתוכנית Eco", "sources": ["s1", "s5", "s6"] },
+    { "field": "צריכת אנרגיה", "catalogValue": "92 קוט\"ש ל-100 מחזורים (0.92 קוט\"ש למחזור)", "finding": "confirmed", "sources": ["s1", "s5", "s6"] },
+    { "field": "דירוג אנרגטי", "catalogValue": "E", "finding": "confirmed", "sources": ["s1", "s5", "s6"] },
+    { "field": "עוצמת רעש", "catalogValue": "47 dB (דירוג C)", "finding": "confirmed", "sources": ["s1", "s5", "s6"] },
+    { "field": "מספר תוכניות", "catalogValue": "6", "finding": "confirmed", "sources": ["s1", "s3"] },
+    { "field": "product_capabilities: מנוע", "catalogValue": "מנוע ConstaDrive", "finding": "confirmed", "sources": ["s1", "s2"] },
+    { "field": "product_capabilities: SpeedWash", "catalogValue": "תוכנית מהירה 15 דקות (SpeedWash)", "finding": "corrected", "correctValue": "SpeedWash היא תוספת (לא תוכנית נפרדת) שמקצרת את זמן התוכנית; בשילוב עם תוכנית 1h היצרן מציין הדחה ב-15 דקות", "sources": ["s1", "s3"] },
+    { "field": "product_capabilities: Fast 1h", "catalogValue": "תוכנית מהירה של שעה (Fast 1h)", "finding": "confirmed", "sources": ["s1", "s3"] },
+    { "field": "product_capabilities: AquaStop", "catalogValue": "מערכת הגנה מפני נזילות AquaStop מלאה", "finding": "confirmed", "correctValue": "Total AquaStop", "sources": ["s1", "s2", "s6"] },
+    { "field": "product_capabilities: UltraClean", "catalogValue": "סלסלת סכו\"ם UltraClean", "finding": "confirmed", "sources": ["s6", "s7"] },
+    { "field": "מידות נישה", "catalogValue": "", "finding": "missing-added", "correctValue": "רוחב 60 ס״מ לפחות, גובה 82–89 ס״מ, עומק 56 ס״מ לפחות; חזית ריהוט 64–72 ס״מ", "sources": ["s4", "s3"] },
+    { "field": "הספק ונתיך", "catalogValue": "", "finding": "missing-added", "correctValue": "1,900 W, 220–240 V~ 50 Hz, נתיך 10 A", "sources": ["s3", "s6"] },
+    { "field": "תוכנית ניקוי עצמי ודחיית הפעלה", "catalogValue": "", "finding": "missing-added", "correctValue": "תוכנית Self Clean; דחיית הפעלה עד 24 שעות", "sources": ["s1", "s3", "s6"] },
+    { "field": "מגירה שלישית / Wi-Fi", "catalogValue": "", "finding": "missing-added", "correctValue": "אין מגירה שלישית; אין Wi-Fi", "sources": ["s1", "s2"] }
+  ],
+  "reviewFlags": [
+    { "field": "identity.israeliImporter", "issue": "No Israeli importer page or Israeli retailer page for GV642E90 was found. The Israeli-market variant, local service and warranty are unconfirmed; all data comes from Gorenje EU/international sources and EPREL.", "severity": "medium" },
+    { "field": "warranty", "issue": "No warranty is published for this model in Israel. EPREL lists a 24-month supplier guarantee for the EU market only; no warranty row was written. Add the importer's warranty terms if known.", "severity": "medium" },
+    { "field": "origin_country", "issue": "Country of manufacture is not stated in any source. Gorenje's EU responsible operator is in Velenje, Slovenia, but that is not the factory. Keep the catalog field as unspecified.", "severity": "low" },
+    { "field": "dimensions.משקל נטו", "issue": "Product pages and product sheet say 31 kg net; the Norwegian manual spec table says 30 kg ('weight may vary'). 31 kg kept.", "severity": "low" },
+    { "field": "product_capabilities", "issue": "Catalog describes SpeedWash as a separate 15-minute programme; Gorenje describes it as an add-on that gives 15 minutes when combined with the 1h programme. Update the catalog capability text.", "severity": "low" },
+    { "field": "sources.s3", "issue": "Only the Norwegian-language manual could be retrieved (English/Hebrew versions not available from the Gorenje document server). Installation and programme-table data were read from it.", "severity": "low" }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "All 7 sources re-opened and confirmed to be the exact model GV642E90 (s1/s2 in the browser since WebFetch gets 403; s3 manual rendered pp. 1, 4, 6, 15, 16, 18, 29, 30, 32; s4 is the 'Installation drawing' link on s1; s5 EPREL API incl. implementingAct EU_2019_2017; s6 product sheet rendered; s7 Höffner). Every verified row was found on a cited page; no row needed downgrading or a value change. Identity matches the catalog (fully integrated, 60 cm, 13 place settings, no suffix); no Israeli importer/retailer page found (flag kept). Changes: (1) goodFor hot-water item no longer says any home with a hot-water boiler: the manual recommends hot-water connection only when water is heated by an energy-efficient source, and cold water when heated by electricity, gas or oil; rewritten. (2) FAQ hot-water answer gained the same condition. (3) Hot-water feature text gained the same condition. (4) Installation line 'בעל מקצוע מוסמך' changed to 'אדם בעל הכשרה מתאימה' to match the manual ('person with sufficient competence'). (5) Hot-water installation row: added s1 (tech table max inflow 60 °C) and a note that s1's marketing copy says 70 °C while all tech tables and the manual say 60 °C. (6) Self-cleaning filter row: added s1, which lists it. Checked and kept from the earlier review: ExtraHygiene row, control-panel wording, UltraClean description, moisture-protection film, 1h+SpeedWash test run, 596–598 mm side-strip line, FAQ consumption values, 'מדיח כלים 47 dB' keyword. Weight 31 kg (product pages/sheet) vs 30 kg (manual, 'may vary') stays verified at medium per source priority, flagged. Meta description length checked. No price/stock data; product name unchanged."
+  }
+}

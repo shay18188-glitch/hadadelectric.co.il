@@ -1,0 +1,219 @@
+{
+ "modelNumber": "HEM-975",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-975",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "Bug names HEM-975; Traklin names HEM975. Bug lists size as 80*150 mm (apparent typo for cm); Traklin gives 150x80 cm. Manufacturer site search returned nothing. | QA: Two Israeli retailers name HEM-975/HEM975 single fleece heating pad by Hemilton, matching catalog name and specs."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/סדין-חימום-יחיד-פליז-hemilton-91700975",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מוצרי_מיזוג_וחימום_לבית/מוצרי_חימום/סדין_חימום_hemilton_hem975_המילטון",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "60W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר ווסתים",
+     "value": "ווסת אחד"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר חלק עליון",
+     "value": "פליז"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר חלק תחתון",
+     "value": "100% פוליאסטר"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "ROHS dropped: not in this fact's quotes",
+     "label": "תקנים ואישורים",
+     "value": "CE/GS"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל",
+     "value": "סדין ליחיד"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים ע״י היבואן הרשמי המילטון"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סדין חימום חשמלי ליחיד של המילטון, דגם HEM-975, לחימום המיטה לפני השינה. הספק 60W, חלק עליון מפליז וחלק תחתון מפוליאסטר, עם ווסת אחד לשליטה ברמת החום. מתאים למי שישן במיטת יחיד ומחפש פתרון חימום אישי לחורף.",
+  "highlights": [
+   "הספק 60W",
+   "חלק עליון מפליז רך",
+   "ווסת אחד לשליטה ברמת החום",
+   "אישורי CE/GS"
+  ],
+  "goodFor": [
+   "חימום מיטת יחיד בלילות החורף",
+   "חדר ילדים או חדר נוער עם מיטת יחיד",
+   "מי שמעדיף לחמם את המיטה במקום את כל החדר"
+  ],
+  "considerations": [
+   "הסדין מיועד למיטת יחיד – למיטה זוגית יש לבחור דגם זוגי",
+   "יש ווסת אחד בלבד, כך שאין שליטה נפרדת לאזורים שונים",
+   "לוודא שקע חשמל קרוב למיטה עבור הכבל והווסת"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של סדין החימום HEM-975?",
+    "a": "ההספק הוא 60W.",
+    "sources": []
+   },
+   {
+    "q": "מאיזה חומר עשוי הסדין?",
+    "a": "החלק העליון עשוי פליז והחלק התחתון 100% פוליאסטר.",
+    "sources": []
+   },
+   {
+    "q": "האם הסדין מתאים למיטה זוגית?",
+    "a": "לא, זהו סדין בגודל יחיד עם ווסת אחד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סדין חימום חשמלי ליחיד המילטון HEM-975: הספק 60W, חלק עליון פליז וווסת אחד לשליטה בחום. אחריות יבואן רשמי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סדין חימום",
+   "סדין חימום ליחיד",
+   "סדין חימום המילטון",
+   "HEM-975",
+   "סדין חימום חשמלי",
+   "סדין חימום פליז",
+   "המילטון HEM975"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "60W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "150X80 ס\"מ",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "Bug prints size in mm (typo); Traklin states cm. Not submitted as a fact.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Catalog size 150X80 ס״מ not verified: Bug lists 80*150 מ״מ (likely typo), Traklin cm; not published.",
+   "severity": "low"
+  },
+  {
+   "field": "standards",
+   "issue": "Catalog mentions ROHS; only Traklin lists it and it was not attached as evidence to the standards fact.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 3: ROHS removed from the value because the fact's quotes only state CE/GS (ROHS appears only inside fact 0's quote); kept as CE/GS. Fact 6 reworded to name the importer. Dimensions not published (Bug mm typo vs Traklin cm, not submitted as a fact). | code guard removed: faq: \"מה האחריות על המוצר?\"; highlight: \"אחריות 12 חודשים ע״י היבואן הרשמי המילטון\""
+ }
+}

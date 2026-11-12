@@ -1,0 +1,206 @@
+{
+ "modelNumber": "(R-209(W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "(R-209(W",
+  "israeliImporter": "Ralco Israel",
+  "matchConfidence": "high",
+  "notes": "The only Israeli page found names R-209W (no leading parenthesis) and describes a 20-litre digital microwave. Facts below are for R-209W. The Sharp R-209 service manual listing and ManualsLib could not be fetched. | QA: Sharp Israel product page r-209 describes a 20 L digital microwave, matching catalog name; catalog model string has stray parentheses. Importer name not stated in quotes."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sharp-israel.co.il/shop/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C%D7%99%D7%9D/r-209/",
+   "publisher": "Sharp Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "20 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "800 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר צלחת",
+     "value": "25.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "43 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "25.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק",
+     "value": "33 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed 'digital' not in quote",
+   "text": "מיקרוגל עם טכנולוגיית מגנטרון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תא בישול בזוויות הנדסיות המכוונות את גלי המיקרו לאזור הצלחת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "no niche width value in quote",
+   "text": "יש להשאיר אוורור סביב המכשיר; לא ניתן להתקין בנישה סגורה"
+  }
+ ],
+ "content": {
+  "summary": "מידותיו 43×25.5×33 ס״מ (רוחב×גובה×עומק), כך שהוא מתאים למשטח עבודה במטבח. מתאים למי שמחפש מיקרוגל קומפקטי לחימום והפשרה יומיומיים.",
+  "highlights": [
+   "נפח 20 ליטר",
+   "הספק מיקרוגל 800 W",
+   "צלחת בקוטר 25.5 ס״מ",
+   "מידות 43×25.5×33 ס״מ"
+  ],
+  "goodFor": [
+   "מטבח עם משטח עבודה מוגבל, בזכות רוחב של 43 ס״מ",
+   "חימום והפשרה יומיומיים בנפח 20 ליטר",
+   "משרד או מטבחון שצריך מיקרוגל קומפקטי"
+  ],
+  "considerations": [
+   "ודאו שיש על המשטח מקום ברוחב 43 ס״מ ובעומק 33 ס״מ, וגם מרווח לאוורור",
+   "המכשיר אינו מיועד להתקנה בנישה סגורה",
+   "בדקו שהצלחת בקוטר 25.5 ס״מ מתאימה לכלים שבהם אתם משתמשים",
+   "יש לוודא שקע חשמל זמין בקרבת מקום המיקרוגל"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המיקרוגל?",
+    "a": "20 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המיקרוגל?",
+    "a": "800 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכשיר?",
+    "a": "רוחב 43 ס״מ, גובה 25.5 ס״מ ועומק 33 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין אותו בתוך ארון?",
+    "a": "לא בנישה סגורה. היצרן מציין שחייב להיות אוורור סביב המכשיר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מיקרוגל שארפ",
+   "Sharp R-209W",
+   "R-209W",
+   "מיקרוגל 20 ליטר",
+   "מיקרוגל לבן",
+   "מיקרוגל דיגיטלי שארפ",
+   "מיקרוגל 800 וואט"
+  ]
+ },
+ "catalogCheck": [],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The store's model R-209(W is not in the catalog record, and the only Israeli page found names R-209W. Facts are relied on from the close code R-209W, so the exact model must be checked.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions come from the Sharp Israel page for R-209W. The weight and cavity size from the Sharp R-209 service manual could not be fetched, so no weight fact was added.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog model string (R-209(W contains stray parentheses; manufacturer page names R-209W. Confirm the catalog code.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Weight not available from sources; height and plate diameter both listed as 25.5 cm on the source page — worth a quick check.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Catalog code (R-209(W is a malformed form of R-209W (white R-209); Sharp Israel page for R-209 matches the 20 L digital microwave. Feature 0 reworded to drop 'digital' wording not in its quote; installation text reworded to what the quote says (ventilation required, not for closed niche) since no niche width number is given. | code guard removed: summary: \"מיקרוגל Sharp R-209W בנפח 20 ליטר בצבע לבן, עם הספק מיקרוגל של 800 W וצלחת מסתובבת בקוטר 25.5 ס״מ.\"; metaDescription: \"מיקרוגל Sharp R-209W לבן בנפח 20 ליטר, הספק 800 W וצלחת 25.5 ס״מ, מידות 43×25.5×33 ס״מ. בחדד אלקטריק נהריה\""
+ }
+}

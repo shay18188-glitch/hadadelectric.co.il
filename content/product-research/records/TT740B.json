@@ -1,0 +1,215 @@
+{
+ "modelNumber": "TT740B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "TT740B",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Model found only on the Zap price-comparison page, which lists it as Sauter TT740B 2-slice toaster, black. Zap lists it as official importer (יבואן רשמי) in some store entries, but the importer name is not given. | QA: Zap page names Sauter TT740B 2-slice toaster in black, matching the catalog SKU. Importer not named."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1181933",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דגם",
+     "value": "TT740B"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר פרוסות",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "685–815 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "29 × 19 × 16 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כפתור ביטול, הפשרה וחימום חוזר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בקרת השחמה מתכווננת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגש פירורים נשלף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נורית חיווי לבנה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "המצנם כולל בקרת השחמה מתכווננת, כפתורי ביטול, הפשרה וחימום חוזר ומגש פירורים נשלף. מתאים למי שמחפש מצנם פשוט וקומפקטי לשיש במטבח.",
+  "highlights": [
+   "בקרת השחמה מתכווננת",
+   "כפתור ביטול, הפשרה וחימום חוזר",
+   "מגש פירורים נשלף לניקוי נוח"
+  ],
+  "goodFor": [
+   "ארוחות בוקר מהירות עם טוסט ולחם קלוי",
+   "הפשרה של לחם קפוא ישירות במצנם",
+   "חימום חוזר של פרוסות שהתקררו"
+  ],
+  "considerations": [
+   "כדאי למקם את המצנם ליד שקע חשמל זמין",
+   "יש לרוקן את מגש הפירורים הנשלף מדי פעם"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להפשיר במצנם לחם קפוא?",
+    "a": "כן, יש במצנם כפתור הפשרה, וגם כפתור חימום חוזר וכפתור ביטול.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט ברמת הקלייה?",
+    "a": "כן, המצנם כולל בקרת השחמה מתכווננת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מצנם Sauter",
+   "Sauter TT740B",
+   "מצנם 2 פרוסות",
+   "מצנם שחור",
+   "טוסטר 2 פרוסות",
+   "מצנם עם הפשרה",
+   "מצנם סאוטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "685W-815W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר פרוסות",
+   "catalogValue": "2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Every fact rests on one retailer page (Zap). No manufacturer, importer or manual page was found for TT740B, so all facts need a second independent source before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "identity",
+   "issue": "The Israeli importer is not named on any fetched page, and the Zap listings say only יבואן רשמי. Check the importer and warranty terms.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on a single Israeli retailer page (Zap); no manufacturer, importer or manual page was found.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Israeli importer not named on any source; check importer and warranty terms.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "The catalog name says retro style, which no source confirms.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features rest on a single Israeli retailer page (Zap) that names the exact model. Kept all facts and features. The catalog name's 'retro style' is not confirmed by any quote, so it is not used in content. | code guard removed: summary: \"מצנם Sauter TT740B בצבע שחור לקלייה של 2 פרוסות בבת אחת, בהספק של 685–815 W.\"; faq: \"כמה פרוסות אפשר לקלות בבת אחת?\"; faq: \"מה המידות של המצנם?\"; metaDescription: \"מצנם Sauter TT740B שחור ל-2 פרוסות בהספק 685–815 W, עם בקרת השחמה מתכווננת, הפשרה, חימום חוזר ומגש פירורים נשלף. בחדד אלקטריק נהריה\"; highlight: \"קלייה של 2 פרוסות בבת אחת\"; highlight: \"הספק 685–815 W\"; goodFor: \"מטבח שבו מקום השיש מוגבל, במידות 29 × 19 × 16 ס״מ\"; consideration: \"ודאו שיש על השיש מקום למידות 29 × 19 × 16 ס״מ\""
+ }
+}

@@ -1,0 +1,352 @@
+{
+ "modelNumber": "MWS4020W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "MWS4020W",
+  "israeliImporter": "אלקטרה מוצרי צריכה",
+  "matchConfidence": "high",
+  "notes": "דגם מיקרוגל מכני 20 ליטר בצבע לבן. כל הציטוטים מאתרי קמעונאים ישראליים; לא נמצא דף של היצרן או היבואן לדגם זה. | QA: כל המקורות הם קמעונאים ישראליים שמציינים MWS4020W לבן; זאפ מציג כותרת משותפת MWS4020W/B."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/מוצרי_חשמל_למטבח/מיקרוגל_וטוסטר_אובן/מיקרוגל_מכני_sauter_דגם_mws4020w_לבן_סאוטר",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מיקרוגל-מכני-20-ליטר-sauter-9318234544",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1207618",
+   "publisher": "זאפ",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%A1%D7%90%D7%95%D7%98%D7%A8-mws4020w/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Sauter"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "אלקטרה מוצרי צריכה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "20 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "700 וואט"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "43.5 ס״מ × 25.5 ס״מ × 35 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג הפעלה",
+     "value": "מכני"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר עוצמות חימום",
+     "value": "5"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי זמן ועוצמה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "צבע הציפוי סותר בין המקורות; נשמר החומר בלבד",
+     "label": "ציפוי פנימי",
+     "value": "אמייל"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "מאומת בבאג: אחריות שנה ע״י אלקטרה",
+     "label": "אחריות יבואן",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית משיכה ארגונומית לפתיחת הדלת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sauter MWS4020W הוא מיקרוגל מכני בנפח 20 ליטר בצבע לבן, בהספק 700 וואט. מתאים למי שמחפש מיקרוגל בסיסי וקל לתפעול לחימום והפשרה יומיומיים.",
+  "highlights": [
+   "נפח 20 ליטר",
+   "הספק 700 וואט",
+   "הפשרה לפי זמן ועוצמה",
+   "ציפוי פנימי אמייל"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח ביתי",
+   "מי שמעדיף כפתורים מכניים פשוטים על פני תפריטים דיגיטליים",
+   "מטבח קטן או משרד, בזכות נפח 20 ליטר"
+  ],
+  "considerations": [
+   "הפעלה מכנית בלבד – אין תוכניות אוטומטיות מוגדרות מראש",
+   "נדרש שקע חשמל זמין בקרבת מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח וההספק של Sauter MWS4020W?",
+    "a": "נפח 20 ליטר והספק 700 וואט.",
+    "sources": []
+   },
+   {
+    "q": "מי היבואן ומה האחריות?",
+    "a": "היבואן הוא אלקטרה מוצרי צריכה, והאחריות היא לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Sauter MWS4020W",
+   "מיקרוגל סאוטר",
+   "מיקרוגל מכני 20 ליטר",
+   "מיקרוגל לבן",
+   "מיקרוגל 700 וואט",
+   "מיקרוגל סאוטר לבן",
+   "MWS4020W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "700 וואט",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "20 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 43.5 ס\"מ, גובה 25.5 ס\"מ, עומק 35 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "סוג הפעלה",
+   "catalogValue": "מכני",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מספר עוצמות חימום",
+   "catalogValue": "5",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "אמייל",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "לבן",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "יבואן רשמי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אלקטרה מוצרי צריכה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "ציפוי פנימי",
+   "issue": "צבע הציפוי הפנימי סותר בין המקורות: באג מתאר אמייל לבן, ואילו זאפ ואבי סופר מתארים אמייל כסוף. נשמר רק החומר (אמייל).",
+   "severity": "medium"
+  },
+  {
+   "field": "source",
+   "issue": "לא נמצא דף של היצרן או היבואן שמציג את הדגם MWS4020W. כל הציטוטים מאתרי קמעונאים ומאתר השוואה; חיפוש הדגם באתר אלקטרה לא החזיר תוצאה. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "דגם",
+   "issue": "תוצאות החיפוש מערבבות את MWS4020W עם הדגמים האחים MWS4020B ו-MWS4020S, וזאפ מציג כותרת MWS4020W/B. העובדות נלקחו רק משורות שמציינות MWS4020W.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות המשולבות מופיעות בשורה אחת רק בזאפ; באתרי הקמעונאים האחרים הן מופיעות בשורות נפרדות.",
+   "severity": "low"
+  },
+  {
+   "field": "ציפוי פנימי",
+   "issue": "צבע הציפוי הפנימי סותר בין המקורות (אמייל לבן לעומת אמייל כסוף); פורסם החומר בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "source",
+   "issue": "אין דף יצרן או יבואן לדגם; כל המקורות הם קמעונאים ואתר השוואה. מומלץ לאמת מול היבואן.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "כל העובדות מאומתות בציטוטים תקינים מדפים שמציינים את הדגם. הציפוי הפנימי נשמר כחומר בלבד (אמייל) בגלל סתירה בצבע הציפוי בין המקורות. | code guard removed: summary: \"ההפעלה מכנית פשוטה עם 5 עוצמות חימום והפשרה לפי זמן ועוצמה, והחלל הפנימי מצופה אמייל.\"; faq: \"כמה עוצמות חימום יש במיקרוגל?\"; faq: \"מה מידות המיקרוגל?\"; metaDescription: \"מיקרוגל מכני Sauter MWS4020W לבן בנפח 20 ליטר והספק 700 וואט, עם 5 עוצמות חימום והפשרה לפי זמן. בחדד אלקטריק נהריה\"; highlight: \"הפעלה מכנית עם 5 עוצמות חימום\"; consideration: \"ודאו שיש מקום על השיש למידות 43.5 × 25.5 × 35 ס״מ (רוחב × גובה × עומק) עם מרווח אוורור\""
+ }
+}

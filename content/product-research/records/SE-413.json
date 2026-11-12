@@ -1,0 +1,342 @@
+{
+ "modelNumber": "SE-413",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Selmor",
+  "exactModel": "SE-413",
+  "israeliImporter": "סלמור",
+  "matchConfidence": "medium",
+  "notes": "Both Israeli retailer pages name SE-413 in their titles. The Selmor official site search did not return an SE-413 page. | QA: Both IL retailer pages name Selmor SE-413 and match catalog specs (1500W, ~42 cm, ~7 cm, up to 240°C). TopDeal image is captioned SE-431; no Selmor official page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.topdeal.co.il/product/selmor-se413/",
+   "publisher": "טופדיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electro-buy.co.il/items/7801307-%D7%9E%D7%97%D7%91%D7%AA-%D7%97%D7%A9%D7%9E%D7%9C%D7%99%D7%AA-%D7%A2%D7%9E%D7%95%D7%A7%D7%94-1500-%D7%95%D7%95%D7%90%D7%98-Selmor-SE-413-%D7%A1%D7%9C%D7%9E%D7%95%D7%A8",
+   "publisher": "Electro-Buy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר",
+     "value": "כ-42 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "כ-7 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single source (Electro-Buy), matches catalog",
+     "label": "הספק",
+     "value": "1500 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Electro-Buy gives 0–240, TopDeal up to 240",
+     "label": "טווח טמפרטורות",
+     "value": "0–240°C"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תקופת אחריות",
+     "value": "12 חודשים"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Reworded",
+     "label": "אחריות יבואן",
+     "value": "סלמור, היבואן הרשמי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ציפוי",
+     "value": "Non-Stick"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע גוף",
+     "value": "אפור מטאלי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שטח גדול לבישול, צלייה, טיגון, חימום וקלייה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מכסה זכוכית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ידיות קרות למגע"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ציפוי Non-Stick למניעת הידבקות ולבישול מופחת בשמן"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מחבת חשמלית עמוקה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מכסה זכוכית"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מחבת חשמלית עמוקה של Selmor, דגם SE-413, בקוטר של כ-42 ס״מ ובעומק של כ-7 ס״מ. ציפוי Non-Stick ומכסה זכוכית הופכים אותה למתאימה לבישול, צלייה, טיגון, חימום וקלייה של כמויות גדולות על השיש.",
+  "highlights": [
+   "קוטר כ-42 ס״מ ועומק כ-7 ס״מ",
+   "ציפוי Non-Stick ומכסה זכוכית",
+   "ידיות קרות למגע"
+  ],
+  "goodFor": [
+   "בישול כמויות גדולות לארוחות משפחתיות ולאירוחים, בזכות שטח הבישול הרחב",
+   "טיגון וצלייה עם פחות שמן, בזכות ציפוי ה-Non-Stick",
+   "חימום אוכל על השולחן או על השיש כשהכיריים תפוסים"
+  ],
+  "considerations": [
+   "בקוטר של כ-42 ס״מ כדאי לוודא שיש מקום פנוי על השיש לשימוש ולאחסון",
+   "כדי לשמור על ציפוי ה-Non-Stick עדיף להשתמש בכלים מעץ או מסיליקון"
+  ],
+  "faq": [
+   {
+    "q": "מה הגודל של המחבת?",
+    "a": "קוטר של כ-42 ס״מ ועומק של כ-7 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש לה מכסה?",
+    "a": "כן, באריזה כלולים המחבת ומכסה זכוכית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מחבת חשמלית",
+   "מחבת חשמלית עמוקה",
+   "Selmor SE-413",
+   "סלמור SE-413",
+   "מחבת חשמלית סלמור",
+   "מחבת חשמלית 42 ס״מ",
+   "מחבת חשמלית עם מכסה זכוכית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1500W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר",
+   "catalogValue": "כ-42 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "כ-7 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "0-240 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תרמוסטט",
+   "catalogValue": "תרמוסטט לויסות חום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי",
+   "catalogValue": "Non-Stick",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידיות",
+   "catalogValue": "ידיות קרות למגע",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מכסה",
+   "catalogValue": "מכסה זכוכית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תקופת אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "תמונת המוצר בדף טופדיל נקראת SE-431 (שם הקובץ SE431.jpg וכיתוב התמונה Selmor SE-431), ייתכן שמדובר במודל סמוך. יש לוודא מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "source_coverage",
+   "issue": "לא נמצא דף SE-413 באתר היבואן selmor.co.il, ולא נמצאו מפרט יצרן, מדריך למשתמש או EPREL. כל העובדות מבוססות על שני אתרי קמעונאים.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "הספק 1500 W מופיע רק בדף Electro-Buy (בכותרת ובשורת מפרט) ולא אומת באתר שני.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות 12 חודשים מופיעה רק בדף טופדיל. Electro-Buy מציין שנה מול היבואן סלמור.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "תמונת המוצר בדף טופדיל מסומנת SE-431; יש לוודא מול היבואן שהתמונה והמפרט שייכים ל-SE-413.",
+   "severity": "medium"
+  },
+  {
+   "field": "source_coverage",
+   "issue": "לא נמצא דף יצרן או יבואן ל-SE-413; כל העובדות מבוססות על שני אתרי קמעונאים.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "הספק 1500 W מאומת במקור אחד בלבד (Electro-Buy).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on two Israeli retailer pages naming SE-413. Minor wording fix on importer warranty value. Identity set to medium because the TopDeal product image is labelled SE-431 and no importer/manufacturer page was found. | code guard removed: summary: \"ההספק הוא 1500 W, ותרמוסטט מאפשר לווסת את החום בטווח 0–240°C.\"; faq: \"עד איזו טמפרטורה היא מגיעה?\"; faq: \"מה האחריות על המוצר?\"; metaDescription: \"מחבת חשמלית עמוקה Selmor SE-413 בקוטר כ-42 ס״מ, הספק 1500 W ותרמוסטט עד 240°C עם ציפוי Non-Stick ומכסה זכוכית. בחדד אלקטריק נהריה\"; highlight: \"הספק 1500 W\"; highlight: \"תרמוסטט לוויסות חום 0–240°C\"; consideration: \"בהספק של 1500 W מומלץ לחבר לשקע נפרד ולא למפצל עמוס\""
+ }
+}

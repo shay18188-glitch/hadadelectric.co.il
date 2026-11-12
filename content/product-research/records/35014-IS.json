@@ -1,0 +1,234 @@
+{
+ "modelNumber": "35014-IS",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "35014-IS",
+  "israeliImporter": "שאוליאן סחר בע״מ",
+  "matchConfidence": "high",
+  "notes": "Importer page names the exact model. Catalog brand is misspelled Hemilton Beach. | QA: Israeli importer page names the exact model 35014-IS. Catalog brand misspelled as Hemilton Beach."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hamiltonbeach.co.il/products/35014-is/",
+   "publisher": "Hamilton Beach Israel (Shaoulian Sahar)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "900W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תכולה",
+     "value": "1.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך",
+     "value": "23 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "23 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק",
+     "value": "20 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote supports transparent lid only; peek window wording removed.",
+     "label": "מכסה",
+     "value": "שקוף"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דפנות קרות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote does not mention an adjustable thermostat.",
+   "text": "נורית חימום הנדלקת ונכבית במהלך ויסות החום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "'נסתר' not in quote.",
+   "text": "גוף חימום רב עוצמה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון בטיחות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סיר טיגון עמוק (צ׳יפסר) של Hamilton Beach, דגם 35014-IS, בתכולה של 1.5 ליטר ובהספק של 900W. הסיר כולל דפנות קרות, מכסה שקוף ומנגנון בטיחות. מתאים למי שמחפש מכשיר טיגון קומפקטי למטבח הביתי.",
+  "highlights": [
+   "תכולה של 1.5 ליטר",
+   "הספק 900W",
+   "דפנות קרות",
+   "מכסה שקוף",
+   "מידות 23×23×20 ס״מ"
+  ],
+  "goodFor": [
+   "טיגון כמויות קטנות של צ׳יפס, עוף או ירקות בבית",
+   "מטבחים עם משטח עבודה מצומצם, בזכות מידות קומפקטיות",
+   "מי שרוצה לעקוב אחר הטיגון דרך מכסה שקוף"
+  ],
+  "considerations": [
+   "תכולת השמן היא 1.5 ליטר — כדאי לוודא שהיא מספיקה לכמויות שאתם מכינים",
+   "יש לוודא מקום פנוי על השיש במידות 23×23×20 ס״מ",
+   "מומלץ למקם ליד שקע חשמל זמין, הרחק מקצה השיש"
+  ],
+  "faq": [
+   {
+    "q": "מה תכולת סיר הטיגון?",
+    "a": "תכולת הסיר היא 1.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכשיר?",
+    "a": "ההספק הוא 900W.",
+    "sources": []
+   },
+   {
+    "q": "האם הדפנות מתחממות במהלך הטיגון?",
+    "a": "לסיר דפנות קרות, והוא כולל גם מנגנון בטיחות.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכשיר?",
+    "a": "אורך 23 ס״מ, רוחב 23 ס״מ ועומק 20 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון עמוק (צ׳יפסר) Hamilton Beach דגם 35014-IS בתכולה 1.5 ליטר והספק 900W, עם דפנות קרות ומכסה שקוף. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סיר טיגון עמוק",
+   "צ׳יפסר",
+   "Hamilton Beach 35014-IS",
+   "סיר טיגון 1.5 ליטר",
+   "סיר טיגון המילטון ביץ׳",
+   "צ׳יפסר ביתי קטן",
+   "סיר טיגון בשמן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "900W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תכולה",
+   "catalogValue": "1.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "23×23×20 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "Catalog brand is misspelled 'Hemilton Beach'; manufacturer is Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog claims an adjustable thermostat, hidden heating element and a peek window; the source only confirms a heating indicator light, a powerful heating element and a transparent lid.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 5 value trimmed to 'שקוף' (quote does not mention a peek window). Feature 1 reworded: quote supports a heating indicator light during heat regulation, not an adjustable thermostat. Feature 2: removed 'נסתר' (not in quote)."
+ }
+}

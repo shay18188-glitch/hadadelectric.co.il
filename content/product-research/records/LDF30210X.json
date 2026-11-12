@@ -1,0 +1,340 @@
+{
+ "modelNumber": "LDF30210X",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "LDF30210X",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "נמצאו עמודי מוצר של קמעונאים ישראלים שמציינים את הדגם LDF30210X במפורש. לא נמצא דף יצרן, דף יבואן, מדריך או תווית אנרגיה רשמית (EPREL) לדגם LDF30210X עצמו. | QA: Two Israeli retailer pages name LDF30210X explicitly; both describe a freestanding stainless 13-set dishwasher matching the catalog name. No manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://zabilo.com/en/freestanding-dishwashers/9883-blomberg-dishwasher-13-sets-stainless-steel-ldf30210x.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electroclick.co.il/product/%D7%9E%D7%93%D7%99%D7%97-%D7%9B%D7%9C%D7%99%D7%9D-%D7%A8%D7%97%D7%91-blomberg-%D7%91%D7%9C%D7%95%D7%9E%D7%91%D7%A8%D7%92-ldf30210x",
+   "publisher": "Electro Click",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 85 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכות כלים",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "49 dB"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Single retailer source; another retailer reportedly states C; no official energy label.",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה מוברשת"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "עומד חופשי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, מטעם ראלקו"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "13 מערכות כלים בגימור נירוסטה מוברשת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מנגנון Aquavoid נגד נזקי מים ואטם אנטי-בקטריאלי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "זיכרון דינמי – המדיח זוכר את התוכנית האחרונה שנבחרה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצב חצי עומס לתפעול חסכוני"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טיימר השהיית הפעלה של 3/6/9 שעות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מדיח כלים הוא מוצר שחלה עליו חובת התקנה על ידי טכנאי."
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פתיחת האריזה והחיבור ייעשו על ידי טכנאי מוסמך בלבד."
+  }
+ ],
+ "content": {
+  "summary": "Blomberg LDF30210X הוא מדיח כלים רחב בהתקנה עומדת חופשית, בגימור נירוסטה מוברשת. הוא מכיל 13 מערכות כלים, מציע 5 תוכניות ועוצמת הרעש שלו 49 dB. מתאים למטבח עם מקום למדיח עומד ברוחב מלא.",
+  "highlights": [
+   "13 מערכות כלים",
+   "5 תוכניות שטיפה",
+   "עוצמת רעש 49 dB",
+   "מנגנון Aquavoid נגד נזקי מים"
+  ],
+  "goodFor": [
+   "משפחה שמעדיפה מדיח בקיבולת מלאה של 13 מערכות כלים",
+   "מטבח פתוח שבו חשוב מדיח שקט יחסית",
+   "מי שרוצה להפעיל את המדיח בשעה מאוחרת יותר בעזרת הטיימר",
+   "שטיפה של כמויות קטנות במצב חצי עומס"
+  ],
+  "considerations": [
+   "זהו מדיח עומד חופשי ולא מדיח להתקנה אינטגרלית",
+   "ההתקנה והחיבור מחייבים טכנאי מוסמך",
+   "לבדוק את דירוג האנרגיה על תווית המוצר"
+  ],
+  "faq": [
+   {
+    "q": "כמה מערכות כלים נכנסות במדיח?",
+    "a": "המדיח מכיל 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המדיח?",
+    "a": "עוצמת הרעש היא 49 dB.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להתקין את המדיח לבד?",
+    "a": "לא. ההתקנה והחיבור צריכים להיעשות על ידי טכנאי מוסמך.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המדיח?",
+    "a": "שנה אחריות מטעם ראלקו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים רחב Blomberg LDF30210X עומד חופשי בגימור נירוסטה, 13 מערכות כלים ועוצמת רעש 49 dB. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מדיח כלים בלומברג",
+   "Blomberg LDF30210X",
+   "LDF30210X",
+   "מדיח כלים רחב נירוסטה",
+   "מדיח כלים עומד חופשי",
+   "מדיח כלים 13 מערכות",
+   "מדיח כלים שקט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "יצרן",
+   "catalogValue": "Bloomberg",
+   "finding": "corrected",
+   "correctValue": "Blomberg",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג",
+   "catalogValue": "מדיח כלים רחב רגיל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "מקורות הקמעונאות סותרים: Zabilo מציין דירוג E, ואילו Electro Click מציין דירוג C. לא נמצאה תווית אנרגיה רשמית לדגם LDF30210X.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "issue": "Zabilo מציין רוחב 59.8 ס״מ ואילו Electro Click מציין רוחב 60 ס״מ. ייתכן שההבדל הוא עיגול בקמעונאות בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן ומקורות",
+   "issue": "כל המקורות שנמצאו הם קמעונאים ישראלים. לא נמצא דף יצרן, דף יבואן ראלקו, מדריך משתמש או תווית EPREL שמציינים את הדגם LDF30210X במפורש. יש לאמת את המפרט מול המדבקה על המוצר או מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה",
+   "issue": "תוצאות חיפוש לדגם הקרוב LDF30210W (לבן) כללו נתונים שונים (למשל 46 dB ודירוג E בחלק מהמקורות). אלה לא נכללו כעובדות לדגם LDF30210X.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "קמעונאים סותרים (E מול C) ואין תווית אנרגיה רשמית; יש לאמת מול התווית על המוצר או מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "יצרן",
+   "issue": "שם המותג בקטלוג הוא Bloomberg, אך שם היצרן הנכון הוא Blomberg.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל המקורות הם קמעונאים; לא נמצא דף יצרן או יבואן לדגם.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected energy rating (fact 4): only Zabilo states E while the researcher reports Electro Click states C; no official label found. Brand spelled Blomberg (catalog says Bloomberg). All other facts verified on pages naming LDF30210X. | code guard removed: faq: \"מה המידות של המדיח?\"; highlight: \"טיימר השהיית הפעלה של 3/6/9 שעות\"; consideration: \"לוודא שיש מקום פנוי במידות 59.8 × 85 × 60 ס״מ (רוחב × גובה × עומק)\""
+ }
+}

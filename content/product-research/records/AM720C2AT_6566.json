@@ -1,0 +1,373 @@
+{
+ "modelNumber": "AM720C2AT (6566)",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "AM720C2AT",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The Czech/Slovak/English user manual for model AM720C2AT (hosted at dwn.alza.cz) names this exact model and gives the spec values. No Israeli importer or Israeli retailer spec page for this exact model was found. | QA: Exact model AM720C2AT named in a European (CZ/SK) manual; store suffix (6566) and Israeli variant not confirmed by any source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://dwn.alza.cz/manual/79002",
+   "publisher": "Midea user manual (CZ/SK/EN)",
+   "kind": "manual",
+   "market": "CZ",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח פנימי",
+     "value": "20 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל (יציאה)",
+     "value": "700 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק כניסה (מיקרוגל)",
+     "value": "1050 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח ותדר",
+     "value": "230 V ~ 50 Hz"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Order of dimensions not labelled in manual.",
+     "label": "מידות חיצוניות",
+     "value": "440 × 346 × 259 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Decimal comma converted to point.",
+     "label": "משקל נטו",
+     "value": "כ-10.28 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "255 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן בישול מקסימלי",
+     "value": "95 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח משקל להפשרה לפי משקל",
+     "value": "100–2000 גרם"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טיימר דיגיטלי עד 95 דקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית בישול מהיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נעילת בטיחות לילדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפשרה לפי משקל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גובה התקנה מינימלי 85 ס״מ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין להתקין את המיקרוגל על כיריים או על מכשיר אחר המפיק חום"
+  }
+ ],
+ "content": {
+  "summary": "מיקרוגל דיגיטלי של Midea, דגם AM720C2AT, בנפח 20 ליטר ובהספק מיקרוגל של 700 W. הוא כולל צלחת מסתובבת בקוטר 255 מ״מ, טיימר עד 95 דקות, הפשרה לפי משקל ונעילת בטיחות לילדים. מתאים למטבח שצריך מיקרוגל בסיסי לחימום, בישול מהיר והפשרה.",
+  "highlights": [
+   "נפח פנימי 20 ליטר",
+   "הספק מיקרוגל 700 W",
+   "צלחת מסתובבת בקוטר 255 מ״מ",
+   "טיימר דיגיטלי עד 95 דקות",
+   "נעילת בטיחות לילדים"
+  ],
+  "goodFor": [
+   "חימום מנות והפשרת מזון במטבח ביתי",
+   "בית עם ילדים, בזכות נעילת הבטיחות",
+   "מי שמחפש מיקרוגל משטח עם הפעלה דיגיטלית פשוטה"
+  ],
+  "considerations": [
+   "מדדו את המקום המיועד: מידות המכשיר 440 × 346 × 259 מ״מ",
+   "אין להציב את המיקרוגל על כיריים או על מכשיר אחר המפיק חום",
+   "גובה ההתקנה המינימלי לפי המדריך הוא 85 ס״מ",
+   "הספק הכניסה הוא 1050 W, כדאי לחבר לשקע שאינו עמוס במכשירים נוספים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המיקרוגל?",
+    "a": "הנפח הפנימי הוא 20 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המיקרוגל?",
+    "a": "הספק היציאה הוא 700 W והספק הכניסה הוא 1050 W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הפשרה לפי משקל?",
+    "a": "כן, ההפשרה לפי משקל מתאימה לטווח של 100–2000 גרם.",
+    "sources": []
+   },
+   {
+    "q": "מהו זמן הבישול המקסימלי?",
+    "a": "ניתן לכוון עד 95 דקות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת ילדים?",
+    "a": "כן, המיקרוגל כולל נעילת בטיחות לילדים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי Midea AM720C2AT בנפח 20 ליטר והספק 700 W, עם טיימר עד 95 דקות ונעילת ילדים. לפרטים בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל Midea",
+   "Midea AM720C2AT",
+   "מיקרוגל 20 ליטר",
+   "מיקרוגל דיגיטלי לבן",
+   "מיקרוגל 700 וואט",
+   "מיקרוגל מידאה",
+   "מיקרוגל עם נעילת ילדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח פנימי",
+   "catalogValue": "20 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "700W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "רוחב 44 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה ועומק",
+   "catalogValue": "גובה 25.9 ס\"מ, עומק 33.4 ס\"מ",
+   "finding": "contradicted",
+   "correctValue": "440 × 346 × 259 מ״מ (סדר המידות במדריך לא מסומן; 346 מ״מ אינו תואם ל-33.4 ס״מ)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר צלחת",
+   "catalogValue": "25.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר עד 95 דקות",
+   "catalogValue": "טיימר דיגיטלי עד 95 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנעול בטיחות לילדים",
+   "catalogValue": "מנעול נעילה בטיחותי בפני ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בישול מהיר",
+   "catalogValue": "פונקציית בישול מהיר (Express Cooking)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "8 תוכניות בישול אוטומטיות",
+   "catalogValue": "8 תוכניות בישול אוטומטיות מוגדרות מראש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "5 דרגות עוצמה",
+   "catalogValue": "5 דרגות עוצמה לבחירה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "The manual gives 440 × 346 × 259 mm without labelling the order. The catalog says height 25.9 cm and depth 33.4 cm. 346 mm does not match 33.4 cm, so a person must check the depth and height before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The exact model AM720C2AT appears in the manual. The store's suffix (6566) appears on no page checked.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one source (the CZ/SK/EN manual) was found for this model. No Israeli importer or Israeli retailer spec page confirms the Israeli variant, the plug or the warranty.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Manual gives 440 × 346 × 259 mm without labelling order; catalog says height 25.9 cm and depth 33.4 cm. 346 mm does not match 33.4 cm.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Store suffix (6566) appears on no source; Israeli variant not confirmed (only a CZ/SK/EN manual).",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog claims 8 auto programs and 5 power levels; not verified by the source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against the CZ/SK/EN user manual naming AM720C2AT. Fixed weight value to decimal point (10.28 ק״ג), clarified dimension and defrost labels. Catalog height/depth (25.9/33.4 ס״מ) do not match manual 440 × 346 × 259 מ״מ; flagged. 8 programs and 5 power levels unverifiable, not published."
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "modelNumber": "UE50U8000H",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "UE50U8000H",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Pages name UE50U8000HUXIL (Israeli SKU) and UE50U8000HKXXU (UK SKU). Samsung UK lists 50 Hz refresh, Israeli retailer lists 60Hz, so refresh rate is not recorded. | QA: Israeli retailer page names UE50U8000HUXIL, the Israeli variant of the catalog model; Samsung UK page names UE50U8000HKXXU. Size in catalog name (50) is consistent with the model code."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kimelectric.co.il/product/ue50u8000huxil-%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-50-4k-uhd-crystal-uhd-%D7%9E%D7%91%D7%99%D7%AA-samsung/",
+   "publisher": "Kim Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.samsung.com/uk/tvs/uhd-4k-tv/u8000h-50-inch-crystal-uhd-4k-smart-tv-ue50u8000hkxxu/",
+   "publisher": "Samsung UK",
+   "kind": "manufacturer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840×2160 (4K Ultra HD)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מעבד",
+     "value": "Crystal Processor 4K"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Samsung Tizen"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Israeli quote ok; UK quote too short",
+     "label": "Bluetooth",
+     "value": "5.3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 כניסות, 4K 60Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסת USB-A",
+     "value": "כניסה אחת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "Ethernet LAN",
+     "value": "כניסה אחת"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סאונד",
+     "value": "OTS Lite, Adaptive Sound, Q-Symphony"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "spelling of label fixed",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "111.08 × 69.6 × 19.9 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "spelling of label fixed",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "111.08 × 64.38 × 7.64 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל כולל מעמד",
+     "value": "8.7 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "8.4 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אבטחה",
+     "value": "Samsung KNOX"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה למי שמחפש טלוויזיה חכמה לסלון או לחדר שינה עם גישה לאפליקציות סטרימינג וחיבור קונסולה או ממיר.",
+  "highlights": [
+   "מערכת הפעלה Samsung Tizen",
+   "סאונד OTS Lite, Adaptive Sound ו-Q-Symphony"
+  ],
+  "goodFor": [
+   "שילוב עם מקרן קול של Samsung באמצעות Q-Symphony"
+  ],
+  "considerations": [
+   "יש כניסת USB-A אחת בלבד, כדאי לתכנן את חיבור ההתקנים מראש",
+   "לחיבור רשת קווי קיימת כניסת Ethernet LAN אחת, ולחלופין Wi-Fi 5"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה מותקנת?",
+    "a": "מערכת ההפעלה Samsung Tizen.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Samsung UE50U8000H",
+   "UE50U8000HUXIL",
+   "טלוויזיה סמסונג 4K",
+   "טלוויזיה חכמה Samsung",
+   "Samsung U8000H",
+   "טלוויזיה Crystal UHD",
+   "טלוויזיה Tizen"
+  ]
+ },
+ "catalogCheck": [],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Pages carry regional suffixes UXIL (Israel) and KXXU (UK); confirm the Israeli SKU.",
+   "severity": "medium"
+  },
+  {
+   "field": "refresh_rate",
+   "issue": "Israeli retailer says 60Hz, Samsung UK says 50 Hz.",
+   "severity": "medium"
+  },
+  {
+   "field": "refresh_rate",
+   "issue": "Israeli retailer lists 60Hz and Samsung UK lists 50 Hz; refresh rate not published, confirm from Samsung Israel.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Specs come from an Israeli retailer page for UE50U8000HUXIL; confirm the stocked unit carries the UXIL suffix.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All 14 facts kept from the Israeli retailer page (UE50U8000HUXIL). Bluetooth UK quote failed the check but the Israeli quote is ok. Refresh rate not recorded due to source disagreement (50 Hz UK vs 60Hz IL). | code guard removed: summary: \"טלוויזיה חכמה של Samsung מדגם UE50U8000H ברזולוציית 4K Ultra HD‏ (3840×2160) עם מעבד Crystal Processor 4K ומערכת ההפעלה Tizen.\"; summary: \"הטלוויזיה כוללת 3 כניסות HDMI התומכות ב-4K 60Hz, חיבור Wi-Fi 5 ו-Bluetooth 5.3.\"; faq: \"מה הרזולוציה של הטלוויזיה?\"; faq: \"כמה כניסות HDMI יש?\"; faq: \"מה המידות והמשקל ללא מעמד?\"; faq: \"האם יש Bluetooth?\"; metaDescription: \"טלוויזיה חכמה Samsung UE50U8000H ברזולוציית 4K Ultra HD עם מעבד Crystal Processor 4K ומערכת Tizen, 3 כניסות HDMI. בחדד אלקטריק נהריה\"; highlight: \"רזולוציית 4K Ultra HD‏ 3840×2160\"; highlight: \"מעבד Crystal Processor 4K\"; highlight: \"3 כניסות HDMI עם תמיכה ב-4K 60Hz\"; goodFor: \"צפייה בתכני סטרימינג ב-4K דרך אפליקציות מערכת Tizen\"; goodFor: \"חיבור קונסולת משחקים, ממיר ומקרן סאונד במקביל דרך 3 כניסות HDMI\"; goodFor: \"התקנה על הקיר בזכות עומק של 7.64 ס״מ ללא מעמד\"; consideration: \"ודאו שהמשטח או הארון מתאים לרוחב 111.08 ס״מ ולעומק 19.9 ס״מ עם המעמד\"; consideration: \"לתליה על הקיר בדקו שהזרוע מתאימה למשקל 8.4 ק״ג ללא מעמד\""
+ }
+}

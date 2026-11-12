@@ -1,0 +1,435 @@
+{
+ "modelNumber": "TV BOX S 3 Gen",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Xiaomi",
+  "exactModel": "TV Box S (3rd Gen)",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Catalog code TV BOX S 3 Gen does not appear on any page. The manufacturer pages name the device Xiaomi TV Box S (3rd Gen); matched by that name. No Israeli importer or Israeli retailer page was found. | QA: Catalog code TV BOX S 3 Gen is a shorthand of Xiaomi TV Box S (3rd Gen), which the manufacturer pages name. No Israeli importer or Israeli retailer page was found, so the Israeli variant is unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.mi.com/global/product/xiaomi-tv-box-s-3rd-gen/specs/",
+   "publisher": "Xiaomi Global",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.mi.com/global/product/xiaomi-tv-box-s-3rd-gen/",
+   "publisher": "Xiaomi Global",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://androidpctv.com/xiaomi-tv-box-s-3rd-gen-review/",
+   "publisher": "AndroidPCTV",
+   "kind": "review",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not name the manufacturer.",
+     "label": "יצרן",
+     "value": "Xiaomi"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך",
+     "value": "97 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "97 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עובי",
+     "value": "17 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "91.2 גרם (ללא אריזה)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד",
+     "value": "ארבע ליבות Cortex-A55, עד 2.5 GHz"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From review only.",
+     "label": "זיכרון RAM",
+     "value": "2 GB DDR4"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From review only.",
+     "label": "אחסון",
+     "value": "32 GB eMMC"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K (3840 × 2160)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תמיכה ב-HDR",
+     "value": "Dolby Vision, HDR10+"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תמיכה בסאונד",
+     "value": "Dolby Atmos, DTS:X"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 6"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "Bluetooth 5.2"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Review says 2.1a, manufacturer spec says 2.1; published the common 2.1.",
+     "label": "יציאת HDMI",
+     "value": "HDMI 2.1"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יציאת USB",
+     "value": "USB-A 2.0 OTG"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוזר קולי",
+     "value": "Google Assistant"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From review only.",
+     "label": "צריכת חשמל",
+     "value": "5 W"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיבור",
+     "value": "חיבור ליציאת HDMI בטלוויזיה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed voice-control claim not in quote.",
+   "text": "שלט Bluetooth עם כיסוי של 360°"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עיצוב חלק ומעוגל בצורת אבן נחל"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סטרימר Xiaomi TV Box S (3rd Gen)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט רחוק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתאם חשמל"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Trimmed steps not in quote.",
+   "text": "מחברים את הסטרימר ליציאת HDMI בטלוויזיה"
+  }
+ ],
+ "content": {
+  "summary": "Xiaomi TV Box S (3rd Gen) הוא סטרימר קטן עם Google TV שמתחבר ליציאת HDMI בטלוויזיה והופך אותה לחכמה. הוא מציג תמונה ב-4K עם תמיכה ב-Dolby Vision ו-HDR10+, ותומך בסאונד Dolby Atmos ו-DTS:X. מתאים למי שרוצה לשדרג טלוויזיה קיימת לאפליקציות סטרימינג עם חיבור Wi-Fi 6.",
+  "highlights": [
+   "רזולוציית 4K (3840 × 2160)",
+   "תמיכה ב-Dolby Vision ו-HDR10+",
+   "סאונד Dolby Atmos ו-DTS:X",
+   "מערכת Google TV עם Google Assistant"
+  ],
+  "goodFor": [
+   "שדרוג טלוויזיה ישנה ללא מערכת חכמה לאפליקציות סטרימינג",
+   "צפייה בתוכן 4K עם HDR בטלוויזיה תומכת",
+   "חיבור למערכת סאונד התומכת ב-Dolby Atmos",
+   "מי שמעדיף ממשק Google TV וחיפוש קולי עם Google Assistant"
+  ],
+  "considerations": [
+   "ודאו שיש בטלוויזיה יציאת HDMI פנויה",
+   "כדי ליהנות מ-4K ומ-Dolby Vision הטלוויזיה צריכה לתמוך בהם",
+   "הסטרימר מגיע עם מתאם חשמל, ולכן צריך שקע חשמל ליד הטלוויזיה"
+  ],
+  "faq": [
+   {
+    "q": "איך מחברים את הסטרימר לטלוויזיה?",
+    "a": "מחברים אותו ליציאת HDMI בטלוויזיה ומחברים את מתאם החשמל שמגיע באריזה.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא תומך ב-4K?",
+    "a": "כן, הוא מציג רזולוציית 4K (3840 × 2160) ותומך ב-Dolby Vision ו-HDR10+.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת הפעלה יש לו?",
+    "a": "Google TV, עם Google Assistant לחיפוש ולשליטה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש שלט באריזה?",
+    "a": "כן, באריזה יש שלט רחוק Bluetooth עם כיסוי של 360°.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סטרימר Xiaomi TV Box S (3rd Gen) עם Google TV, רזולוציית 4K ותמיכה ב-Dolby Vision ו-Dolby Atmos. מתחבר ל-HDMI בטלוויזיה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Xiaomi TV Box S 3rd Gen",
+   "שיאומי TV Box S דור 3",
+   "סטרימר Google TV",
+   "סטרימר 4K",
+   "שיאומי סטרימר",
+   "Xiaomi TV Box S",
+   "סטרימר לטלוויזיה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "יצרן",
+   "catalogValue": "Xiaomi",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model code TV BOX S 3 Gen appears on no page. The matched product is named Xiaomi TV Box S (3rd Gen) on the manufacturer pages, which is a close code, not an exact match.",
+   "severity": "high"
+  },
+  {
+   "field": "HDMI",
+   "issue": "Xiaomi's spec page lists HDMI 2.1 x 1; the review lists HDMI 2.1a. Sources conflict on the HDMI version.",
+   "severity": "medium"
+  },
+  {
+   "field": "זיכרון RAM",
+   "issue": "The 2 GB RAM and 32 GB storage values come only from the review; the manufacturer page shows 2GB + 32GB without a separate quotable line.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Israeli retailer page was found. The Israeli variant and its region-specific specs are unclear.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog code TV BOX S 3 Gen does not appear verbatim on any page; matched to Xiaomi TV Box S (3rd Gen) by name.",
+   "severity": "medium"
+  },
+  {
+   "field": "יציאת HDMI",
+   "issue": "Review says HDMI 2.1a while the manufacturer spec page reportedly lists HDMI 2.1; published HDMI 2.1.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Israeli retailer page found; Israeli variant (power adapter plug, region) unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "זיכרון RAM / אחסון / צריכת חשמל",
+   "issue": "Values come only from a third-party review.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 0 (manufacturer): the quote does not name Xiaomi. Fact 5 value clarified to name the Cortex-A55 cores. Fact 13 changed from HDMI 2.1a to HDMI 2.1, the version both the review quote and the manufacturer spec page (per research notes) agree on. Feature 0: removed voice-control claim that the quote does not support. Feature 1 reworded to match the quote. | code guard removed: faq: \"אפשר לחבר אליו התקן USB?\"; highlight: \"Wi-Fi 6 ו-Bluetooth 5.2\"; consideration: \"האחסון הפנימי הוא 32 GB, שמספיק לאפליקציות אך לא לספריית קבצים גדולה\""
+ }
+}

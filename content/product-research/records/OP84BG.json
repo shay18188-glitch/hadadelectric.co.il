@@ -1,0 +1,220 @@
+{
+ "modelNumber": "OP84BG",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Gorenje",
+  "exactModel": "OP84BG",
+  "israeliImporter": "Synodan",
+  "matchConfidence": "medium",
+  "notes": "Only an aggregator page (Zap) carrying retailer descriptions was reachable; brand/retailer pages returned 403. No manufacturer page found. | QA: Zap search page names OP84BG, but only aggregated retailer text; color/suffix and Israeli variant not confirmed by a manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/search.aspx?keyword=OP84BG",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "77 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טמפרטורה מקסימלית",
+     "value": "עד 300°C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טמפרטורת ניקוי פירוליטי",
+     "value": "עד 460°C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תוכניות בישול",
+     "value": "12"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "59.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A+"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "reworded to match quote",
+   "text": "MULTIFLOW 360° לאפייה אחידה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "AirFry – טיגון באוויר חם"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "dropped 'Extra Steam' not in quote",
+   "text": "תוספת אדים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש תנור בנוי מרווח עם ניקוי עצמי ואפשרות לטיגון באוויר חם.",
+  "highlights": [
+   "פונקציית AirFry לטיגון באוויר חם",
+   "דירוג אנרגטי A+"
+  ],
+  "goodFor": [
+   "מי שמעדיף ניקוי עצמי פירוליטי במקום קרצוף ידני",
+   "הכנת מאכלים פריכים בטיגון באוויר חם ללא מכשיר נפרד"
+  ],
+  "considerations": [
+   "מומלץ לבדוק את מידות הגובה והעומק מול הנישה לפני ההזמנה",
+   "יש לוודא נקודת חשמל מתאימה ליד מקום ההתקנה"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר לטגן באוויר חם בתנור?",
+    "a": "כן, התנור כולל פונקציית AirFry לטיגון באוויר חם.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Gorenje OP84BG",
+   "תנור בנוי גורניה",
+   "תנור בנוי 77 ליטר",
+   "תנור פירוליטי",
+   "תנור בנוי עם AirFry",
+   "תנור בנוי שחור",
+   "OP84BG"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "77 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "catalogValue": "300 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות",
+   "catalogValue": "12",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Only retailer text aggregated on Zap; no manufacturer page reachable",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only aggregated retailer text from a Zap search page; no manufacturer or importer page confirms the specs",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Israeli variant/suffix and color not confirmed by an official source",
+   "severity": "low"
+  },
+  {
+   "field": "catalog.technical_specifications",
+   "issue": "Catalog lists energy rating as 'A / A+'; source states A+",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All quotes come from a single Zap search-results page aggregating retailer text; no manufacturer source. Feature 0 reworded to match quote (אפייה אחידה). Feature 2 reworded to drop the English 'Extra Steam' name not in the quote. | code guard removed: summary: \"תנור בנוי של Gorenje, דגם OP84BG, עם תא אפייה בנפח 77 ליטר וטמפרטורה מקסימלית של עד 300°C.\"; summary: \"התנור כולל 12 תוכניות בישול, מערכת MULTIFLOW 360° לאפייה אחידה, פונקציית AirFry וניקוי פירוליטי.\"; faq: \"מה נפח תא האפייה של Gorenje OP84BG?\"; faq: \"האם לתנור יש ניקוי עצמי?\"; faq: \"כמה תוכניות בישול יש בתנור?\"; faq: \"מה הרוחב של התנור?\"; metaDescription: \"תנור בנוי Gorenje OP84BG בנפח 77 ליטר עם ניקוי פירוליטי, 12 תוכניות ו-AirFry. מידע מלא והתאמה למטבח שלכם בחדד אלקטריק נהריה\"; highlight: \"תא אפייה בנפח 77 ליטר\"; highlight: \"ניקוי פירוליטי בטמפרטורה של עד 460°C\"; highlight: \"12 תוכניות בישול\"; goodFor: \"אפייה של כמויות גדולות בזכות תא בנפח 77 ליטר\"; goodFor: \"אפייה אחידה בעזרת MULTIFLOW 360°\"; consideration: \"יש לוודא שרוחב הנישה במטבח מתאים לתנור ברוחב 59.5 ס״מ\"; consideration: \"במהלך ניקוי פירוליטי התנור מגיע לעד 460°C, ולכן כדאי לאוורר את המטבח\""
+ }
+}

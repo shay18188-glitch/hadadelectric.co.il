@@ -1,0 +1,437 @@
+{
+ "modelNumber": "EM823A2GU-S (6567)",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "EM823A2GU",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "Manufacturer Israeli page names EM823A2GU, product code 6567, silver finish. Catalog model suffix -S does not appear on the pages read. | QA: Midea Israel page names EM823A2GU silver; URL slug em823a2gus matches the -S silver suffix and product code 6567 matches catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.co.il/product/em823a2gus",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח פנימי",
+     "value": "23 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 800W; flagged",
+     "label": "הספק מיקרוגל",
+     "value": "900 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות עוצמה",
+     "value": "11"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תוכניות בישול אוטומטיות",
+     "value": "6"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי משקל או זמן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זיכרון לתוכניות קבועות",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בישול רב שלבי",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צליל התראה בסיום הבישול",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נעילת בטיחות לילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "כסוף"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר צלחת",
+     "value": "27 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "48.6 × 29.1 × 40.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "5 שנים בכפוף לתעודת אחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פנל הפעלה דיגיטלי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לחצן להפעלה מהירה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיקרוגל דיגיטלי של Midea בנפח 23 ליטר בגימור כסוף, עם הספק מיקרוגל של 900 W ו-11 דרגות עוצמה. כולל 6 תוכניות בישול אוטומטיות, הפשרה לפי משקל או זמן ונעילת בטיחות לילדים. מתאים למטבח ביתי לחימום, הפשרה ובישול יומיומי.",
+  "highlights": [
+   "נפח פנימי 23 ליטר",
+   "הספק מיקרוגל 900 W עם 11 דרגות עוצמה",
+   "6 תוכניות בישול אוטומטיות וזיכרון ל-3 תוכניות קבועות",
+   "הפשרה לפי משקל או זמן",
+   "נעילת בטיחות לילדים"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח הביתי",
+   "בית עם ילדים, בזכות נעילת הבטיחות",
+   "מי שחוזר על אותן הגדרות בישול ורוצה לשמור אותן בזיכרון",
+   "מי שמעדיף הפעלה מהירה בלחיצה אחת"
+  ],
+  "considerations": [
+   "בדקו שהמקום המיועד מתאים למידות 48.6 × 29.1 × 40.6 ס״מ, כולל מרווח אוורור",
+   "ודאו שיש שקע חשמל זמין ליד מקום ההצבה",
+   "קוטר הצלחת 27 ס״מ — כדאי לוודא שהכלים שלכם נכנסים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המיקרוגל?",
+    "a": "הנפח הפנימי הוא 23 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המיקרוגל?",
+    "a": "לפי היצרן, הספק המיקרוגל הוא 900 W, עם 11 דרגות עוצמה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת בטיחות לילדים?",
+    "a": "כן, המיקרוגל כולל נעילת בטיחות לילדים.",
+    "sources": []
+   },
+   {
+    "q": "איך מפשירים בו?",
+    "a": "ניתן להפשיר לפי משקל או לפי זמן.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות 5 שנים בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי Midea EM823A2GU כסוף בנפח 23 ליטר, הספק 900 W ו-11 דרגות עוצמה, עם נעילת בטיחות לילדים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל Midea",
+   "מיקרוגל 23 ליטר",
+   "EM823A2GU",
+   "מיקרוגל דיגיטלי כסוף",
+   "מיקרוגל מידאה",
+   "מיקרוגל 900 וואט",
+   "מיקרוגל עם נעילת ילדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח פנימי",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "800 וואט",
+   "finding": "corrected",
+   "correctValue": "900 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "5 דרגות",
+   "finding": "corrected",
+   "correctValue": "11",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות בישול אוטומטיות",
+   "catalogValue": "8 תוכניות",
+   "finding": "corrected",
+   "correctValue": "6",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 48.5, גובה 29.3, עומק 39.5",
+   "finding": "corrected",
+   "correctValue": "48.6 × 29.1 × 40.6 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר צלחת",
+   "catalogValue": "27 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "נעילת בטיחות לילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צליל התראה",
+   "catalogValue": "צליל התראה בסיום הפעולה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הפשרה",
+   "catalogValue": "הפשרה אוטומטית לפי משקל או זמן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית בישול מהיר",
+   "catalogValue": "פונקציית בישול מהיר (Quick Start)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "דיגיטלי בעברית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פתיחת דלת",
+   "catalogValue": "באמצעות ידית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר דיגיטלי",
+   "catalogValue": "עד 95 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5 שנים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק מיקרוגל",
+   "issue": "Manufacturer Israeli page says 900W; catalog says 800W. Several Israeli retailer listings also show 800W, so sources conflict. Check the rating label on the unit.",
+   "severity": "high"
+  },
+  {
+   "field": "רמות עוצמה",
+   "issue": "Catalog says 5 power levels and 8 automatic programs; manufacturer page says 11 levels and 6 programs.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog model EM823A2GU-S (6567); manufacturer page names EM823A2GU with product code 6567. The -S suffix appears on no page read. White (6563) and black (6564) variants are listed by retailers.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions differ slightly from the manufacturer's figures (48.5 x 29.3 x 39.5 vs 48.6 x 29.1 x 40.6). Manufacturer figures used.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "issue": "Manufacturer page says 900W; catalog says 800W and researcher reports retailer listings showing 800W. Verify on the unit rating label.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog power levels (5), auto programs (8) and dimensions differ from the manufacturer page (11 levels, 6 programs, 48.6×29.1×40.6).",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Manufacturer page text names EM823A2GU without -S; URL slug and product code 6567 match the silver variant.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on the Midea Israel product page (URL slug em823a2gus, product code 6567, silver). Catalog specs corrected per manufacturer: power 900W (catalog 800W), 11 power levels (catalog 5), 6 auto programs (catalog 8), dimensions 48.6×29.1×40.6. Power figure conflicts with retailer listings per researcher; flagged."
+ }
+}

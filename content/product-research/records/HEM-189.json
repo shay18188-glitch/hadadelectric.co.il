@@ -1,0 +1,289 @@
+{
+ "modelNumber": "HEM-189",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-189",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "Importer and Bug pages name HEM-189. Bug spec block mislabels it HEM-187 (page typo). KSP and CWC returned 403. | QA: Importer page hemilton.co.il and Bug name HEM-189; Bug spec block typo HEM-187."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem189",
+   "publisher": "Hemilton Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/קומקום-נירוסטה-hemilton-2000w-9061894894",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HEM-189"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "נסתר מנירוסטה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "בסיום הרתיחה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בסיס",
+     "value": "אלחוטי 360°"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגנה",
+     "value": "התחממות יתר והפעלה ללא מים"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מדיד מים חיצוני"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נורית חיווי הפעלה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית אחיזה ארגונומית ונוחה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה עליון בעיצוב מיוחד ופתיחה קלה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי של Hemilton, דגם HEM-189, בגוף נירוסטה עם קיבולת של 1.7 ליטר והספק 2000 W. גוף החימום נסתר מנירוסטה, הבסיס אלחוטי 360° והקומקום כבה אוטומטית בסיום הרתיחה. מתאים למי שמחפש קומקום נירוסטה פשוט עם הגנה מפני התחממות יתר והפעלה ללא מים.",
+  "highlights": [
+   "קיבולת 1.7 ליטר",
+   "הספק 2000 W",
+   "בסיס אלחוטי 360°",
+   "גוף חימום נסתר מנירוסטה",
+   "כיבוי אוטומטי בסיום הרתיחה"
+  ],
+  "goodFor": [
+   "מטבח ביתי שבו מרתיחים מים לכמה כוסות בבת אחת, הודות לקיבולת של 1.7 ליטר",
+   "מי שרוצה להרים ולהניח את הקומקום מכל כיוון על בסיס אלחוטי 360°",
+   "מי שמעדיף גוף חימום נסתר שקל לנקות"
+  ],
+  "considerations": [
+   "הספק 2000 W: כדאי לחבר לשקע שאינו עמוס במכשירים חזקים נוספים בו זמנית",
+   "הגוף עשוי נירוסטה ועלול להתחמם במגע במהלך הרתיחה, לכן אוחזים בידית",
+   "בדקו את כמות המים במדיד המים החיצוני לפני ההפעלה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של הקומקום HEM-189?",
+    "a": "הקיבולת היא 1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הקומקום?",
+    "a": "ההספק הוא 2000 W.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום כבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי בסיום הרתיחה, וגם הגנה מפני התחממות יתר והפעלה ללא מים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הקומקום?",
+    "a": "לפי היבואן, האחריות היא 12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי Hemilton HEM-189 בגוף נירוסטה, קיבולת 1.7 ליטר והספק 2000 W, עם בסיס אלחוטי 360° וכיבוי אוטומטי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי נירוסטה",
+   "Hemilton HEM-189",
+   "קומקום המילטון",
+   "קומקום 1.7 ליטר",
+   "קומקום 2000W",
+   "קומקום בסיס אלחוטי 360",
+   "HEM-189"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר מנירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Bug spec block labels the kettle HEM-187; importer page confirms HEM-189.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts and features verified on the importer page and Bug, both naming HEM-189. Capacity confirmed by the importer quote (Bug quote failed but is not needed)."
+ }
+}

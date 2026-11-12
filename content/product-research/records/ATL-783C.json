@@ -1,0 +1,200 @@
+{
+ "modelNumber": "ATL-783C",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-783C",
+  "israeliImporter": "יוסף חיים בע״מ",
+  "matchConfidence": "high",
+  "notes": "עמוד היצרן/יבואן גולדליין ישראל מציג את הדגם המדויק. | QA: עמוד היבואן הישראלי מציג את הדגם ATL-783C בגוון Sahara Cream, תואם לשם בקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%d7%a7%d7%95%d7%9e%d7%a7%d7%95%d7%9d-%d7%a0%d7%a9%d7%9c%d7%a3-%d7%90%d7%a7%d7%a1%d7%a7%d7%9c%d7%95%d7%a1%d7%99%d7%91%d7%99-atl-783c-premiere-sahara-cream-style/",
+   "publisher": "Gold Line Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2100W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח הרתחה מינימלי",
+     "value": "0.75 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר",
+     "value": "נירוסטה 304SUS עם ציפוי SPRAY COLOR"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "2 שנים (יוסף חיים בע״מ)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון הגנה מובנה המנתק את המכשיר אוטומטית במקרה של העדר מים במיכל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בסיס נשלף מוגבה המסתובב 360 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מדיד שקוף למעקב אחר כמות המים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי Gold Line ATL-783C בגוון קרם, עם גוף נירוסטה 304SUS וציפוי SPRAY COLOR. הספק של 2100W וקיבולת של 1.7 ליטר, עם אפשרות להרתיח כמות מינימלית של 0.75 ליטר. מתאים למי שמחפש קומקום נירוסטה צבעוני עם ניתוק אוטומטי בהעדר מים ובסיס מסתובב.",
+  "highlights": [
+   "הספק 2100W",
+   "קיבולת 1.7 ליטר",
+   "גוף נירוסטה 304SUS עם ציפוי SPRAY COLOR",
+   "ניתוק אוטומטי בהעדר מים במיכל",
+   "בסיס נשלף מוגבה המסתובב 360 מעלות"
+  ],
+  "goodFor": [
+   "הרתחת כמות קטנה של מים לכוס או שתיים, החל מ-0.75 ליטר",
+   "מטבח שבו רוצים קומקום בגוון קרם במקום נירוסטה חשופה",
+   "מזיגה נוחה מכל כיוון בזכות הבסיס המסתובב"
+  ],
+  "considerations": [
+   "קומקום בהספק 2100W – כדאי לחבר לשקע נפרד ולא למפצל עמוס",
+   "הכמות המינימלית להרתחה היא 0.75 ליטר",
+   "האחריות של 2 שנים ניתנת על ידי היבואן יוסף חיים בע״מ"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של הקומקום?",
+    "a": "הקיבולת היא 1.7 ליטר, וניתן להרתיח כמות מינימלית של 0.75 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של Gold Line ATL-783C?",
+    "a": "ההספק הוא 2100W.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי גוף הקומקום?",
+    "a": "הגוף עשוי נירוסטה 304SUS עם ציפוי SPRAY COLOR.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה כשאין בו מים?",
+    "a": "כן, יש מנגנון הגנה מובנה המנתק את המכשיר אוטומטית במקרה של העדר מים במיכל.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "2 שנות אחריות על ידי יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי Gold Line ATL-783C בגוון קרם, נירוסטה 304SUS, הספק 2100W וקיבולת 1.7 ליטר עם ניתוק אוטומטי בהעדר מים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי גולדליין",
+   "Gold Line ATL-783C",
+   "ATL-783C",
+   "קומקום חשמלי קרם",
+   "קומקום נירוסטה 1.7 ליטר",
+   "קומקום 2100W",
+   "קומקום Sahara Cream"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2100W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "כל העובדות והמאפיינים מאומתים בציטוטים מעמוד היבואן גולדליין ישראל, הנושא את הדגם המדויק."
+ }
+}

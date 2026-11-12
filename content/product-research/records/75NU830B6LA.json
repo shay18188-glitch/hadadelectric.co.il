@@ -1,0 +1,1300 @@
+{
+  "modelNumber": "75NU830B6LA",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "LG Electronics",
+    "exactModel": "75NU830B6LA",
+    "israeliImporter": "קבוצת ח.י. (ח.י. סחר) — לפי קמעונאים ישראליים",
+    "matchConfidence": "high",
+    "notes": "Catalog model 75NU830B6LA is the 75\" LG NANO 4K UHD AI NU83 (2026). Three Israeli retailers (Bug, CityDeal, Avi Sofer) list this exact code without a regional suffix and print the same importer spec sheet. No lg.com/il product page was found (several URL patterns return 404). LG Egypt has an official page for 75NU830B6LA.AFU (Egypt/Africa sales suffix) — treated as exactModel false and used only to corroborate; it differs from the Israeli spec sheet in tuner/RF inputs (2 RF, DVB-S2 satellite). LG Levant support lists 75NU830B6LA.AMFE; whether that is the Israeli SKU was not confirmed. Btech (Egypt) lists the Egyptian 'Built-In Receiver' unit, also exactModel false. Importer name (ח.י.) comes from retailers, not from LG."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.bug.co.il/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-75-lg-4k-nano-uhd-96381430",
+      "publisher": "Bug (באג)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.citydeal.co.il/product/lg-75nu830b6la-75-inch-nano-uhd",
+      "publisher": "CityDeal",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-75-%D7%90%D7%99%D7%A0%D7%A5-%D7%90%D7%9C-%D7%92%D7%99-%E2%81%A675nu830b6la%E2%81%A9/",
+      "publisher": "אבי סופר",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.lg.com/eg_en/tv-soundbars/nano-4k-uhd/75nu830b6la/",
+      "publisher": "LG Egypt",
+      "kind": "manufacturer",
+      "market": "EG",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://btech.com/en/p/lg-75-inch-smart-tv-nano-4k-uhd-75nu830b6la",
+      "publisher": "B.TECH (Egypt)",
+      "kind": "retailer",
+      "market": "EG",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "דגם",
+          "value": "75NU830B6LA",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "גודל מסך",
+          "value": "75 אינץ׳",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סדרה ושנת דגם",
+          "value": "LG NANO 4K UHD AI NU83 (2026)",
+          "sources": [
+            "s2",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "Series name and 2026 year appear on CityDeal and on the LG Egypt (.AFU) page only; Bug and Avi Sofer do not name the series."
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "166.9 × 96.3 × 7.21 ס״מ (ללא מעמד)",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "LG Egypt dimension image: 1669 mm wide, 963 mm high, 72.1 mm deep — same values."
+        },
+        {
+          "label": "מידות כולל מעמד",
+          "value": "166.9 × 102.6 × 36.1 ס״מ",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "Width from the without-stand row; height 102.6 and stand depth 36.1 from all three IL retailers; LG Egypt gives 1026 mm with stand and a 1299 × 361 mm stand footprint."
+        },
+        {
+          "label": "המרחק בין הרגליות",
+          "value": "129.9 ס״מ",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "משקל ללא מעמד",
+          "value": "22.1 ק״ג",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Three Israeli retailers agree (same importer sheet); LG Egypt page does not list weight."
+        },
+        {
+          "label": "משקל כולל מעמד",
+          "value": "22.5 ק״ג",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Three Israeli retailers agree; not on LG Egypt page."
+        }
+      ]
+    },
+    {
+      "id": "display",
+      "rows": [
+        {
+          "label": "סוג תצוגה",
+          "value": "4K NANO UHD",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "Bug spec table also lists technology as \"Nano Cell\"; Avi Sofer attribute list says \"MINI LED\", contradicting its own spec (Direct LED). LG Egypt lists Display Type 4K UHD."
+        },
+        {
+          "label": "רזולוציה",
+          "value": "3840 × 2160 (4K Ultra HD)",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "תאורה אחורית",
+          "value": "Direct LED",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "קצב רענון",
+          "value": "60Hz (טבעי)",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "CityDeal's short filter table says 50/60Hz; its full spec, Bug, Avi Sofer and LG Egypt say 60Hz native."
+        },
+        {
+          "label": "מעבד תמונה",
+          "value": "α7 AI Processor 4K Gen9 (אלפא 7 דור 9)",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "HDR",
+          "value": "HDR10, HLG",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "CityDeal generic spec table lists only HDR10; its full spec, Bug, Avi Sofer and LG Egypt list HDR10 and HLG."
+        },
+        {
+          "label": "מיפוי גוונים דינמי",
+          "value": "כן, בזמן אמת",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "שדרוג רזולוציה",
+          "value": "שדרוג תוכן באמצעות AI",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "Israeli pages say only שדרוג תוכן באמצעות AI; the name 4K Super Upscaling appears only on LG Egypt (.AFU), so it was removed from the value."
+        },
+        {
+          "label": "FILMMAKER Mode",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "מצבי תמונה",
+          "value": "9",
+          "sources": [
+            "s4"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on LG Egypt (.AFU) spec table."
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "rows": [
+        {
+          "label": "ALLM (מצב השהייה נמוכה אוטומטי)",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "HGiG",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Game Dashboard / Game Optimizer",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "משחקים בענן",
+          "value": "GeForce NOW (בכפוף לזמינות ולמנוי)",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "VRR",
+          "value": "עד 60Hz",
+          "sources": [
+            "s4",
+            "s5"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Listed by LG Egypt (.AFU) and B.TECH Egypt only; none of the Israeli spec sheets mention VRR."
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "rows": [
+        {
+          "label": "הספק שמע",
+          "value": "20W",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "ערוצים",
+          "value": "2.0",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "כיוון הרמקולים",
+          "value": "כלפי מטה",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "AI Sound Pro",
+          "value": "סראונד וירטואלי 9.1.2 ערוצים",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "שיפור דיבור",
+          "value": "כן — שיפור קול דובר אנושי",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "Israeli pages: שיפור קול דובר אנושי. The name Clear Voice (Pro) appears only on LG Egypt, so it was removed."
+        },
+        {
+          "label": "WOW Orchestra",
+          "value": "כן (עם מקרן קול LG תואם)",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Bluetooth Surround",
+          "value": "חיבור שני רמקולי Bluetooth תואמים",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סנכרון ושיתוף שמע",
+          "value": "סנכרון סאונד עם התקן חיצוני ושיתוף מצב סאונד",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "Avi Sofer and CityDeal: sync with external audio device; Bug and CityDeal: שיתוף מצב סאונד. The name LG Sound Sync appears only on LG Egypt and was removed."
+        },
+        {
+          "label": "מקודדי שמע",
+          "value": "AC4, AC3 (Dolby Digital), EAC3, HE-AAC, AAC, MP2, MP3, PCM, apt-X",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "rows": [
+        {
+          "label": "מערכת הפעלה",
+          "value": "webOS 26",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "webOS Re:New",
+          "value": "שדרוגי מערכת ההפעלה לאורך 5 שנים, בכפוף לתנאי התוכנית",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Bug and Avi Sofer: 5 years of upgrades; CityDeal: four upgrades over five years, subject to programme terms. LG Egypt footnote says the number of upgrades and duration vary by model and region."
+        },
+        {
+          "label": "בינה מלאכותית",
+          "value": "ThinQ AI: חיפוש מבוסס AI, המלצות תוכן אישיות, צ׳אטבוט AI",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "שלט",
+          "value": "שלט חכם LG בתנועת יד עם חיפוש ופקודות קוליות, כולל עברית",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "LG Egypt names it AI Magic Remote MR26; model name not stated on Israeli pages."
+        },
+        {
+          "label": "שליטה אוניברסלית",
+          "value": "ממירי HOT, YES, סלקום ופרטנר ומערכות שמע נתמכות",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Retailers note it works only with supported models of other brands."
+        },
+        {
+          "label": "שיקוף והזרמה",
+          "value": "Apple AirPlay 2, Apple Home, Google Cast",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "בית חכם",
+          "value": "Home Hub (רכזת ביתית), תמיכה ב-Matter, שליטה מהסמארטפון (Android / iPhone)",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified",
+          "note": "ThinQ app is named only on CityDeal; Bug and Avi Sofer say smartphone control (Android / iPhone), so the app name was removed from the value."
+        },
+        {
+          "label": "חנות אפליקציות",
+          "value": "LG Apps — אפליקציות בינלאומיות ומקומיות",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "דפדפן אינטרנט",
+          "value": "כן, מלא",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "משרד ביתי",
+          "value": "גישה אלחוטית למחשב (Windows 10 Pro ומעלה) ויישומי Google",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "LG Shield / AI Voice ID",
+          "value": "כן",
+          "sources": [
+            "s4",
+            "s5"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on LG Egypt (.AFU) and B.TECH Egypt; not on Israeli spec sheets."
+        }
+      ]
+    },
+    {
+      "id": "connectivity",
+      "rows": [
+        {
+          "label": "HDMI",
+          "value": "3 כניסות",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "eARC",
+          "value": "כן, בכניסת HDMI 2",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Simplink (HDMI-CEC)",
+          "value": "כן",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "USB",
+          "value": "1 × USB 2.0",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "LAN (Ethernet)",
+          "value": "1",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "כניסת RF (אנטנה/כבל)",
+          "value": "1",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "All three Israeli spec sheets say 1. LG Egypt (.AFU) and B.TECH Egypt list 2 RF inputs for the Egyptian variant with a satellite receiver."
+        },
+        {
+          "label": "Wi-Fi",
+          "value": "Wi-Fi 5",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "טיונר דיגיטלי",
+          "value": "DVB-T2/T, DVB-C, DVB-S2/S",
+          "sources": [
+            "s4"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on LG Egypt (.AFU) page; Israeli pages do not state tuner standards and Bug's filter lists עידן+ as 'ללא'."
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        {
+          "label": "דירוג אנרגטי",
+          "value": "F (הסולם אינו מצוין בדפים)",
+          "sources": [
+            "s1",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Bug and Avi Sofer list F; neither states which label scale."
+        },
+        {
+          "label": "ספק מתח",
+          "value": "AC 100–240V, 50/60Hz",
+          "sources": [
+            "s4"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on LG Egypt (.AFU)."
+        },
+        {
+          "label": "צריכה בהמתנה",
+          "value": "פחות מ-0.5W",
+          "sources": [
+            "s4"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "Only on LG Egypt (.AFU). Typical/annual consumption not found for this model."
+        }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        {
+          "label": "אחריות",
+          "value": "שנה (CityDeal, אבי סופר) / 3 שנים כולל שנתיים על הפאנל (באג)",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "low",
+          "status": "conflict",
+          "note": "CityDeal: 1 year by ח.י. plus 2 additional years (paid promotion until 30.11.2026). Avi Sofer: 1 year, with a paid promotional extension to 3 years in total until 30.11.26; its own warranty table for 75\" says (2+1) years by law plus a paid 2-year extension, so the page is inconsistent. Bug: 3 years including 2 on the panel, per the ח.י. warranty certificate. The importer terms were not opened."
+        },
+        {
+          "label": "שירות",
+          "value": "קבוצת ח.י. — היבואן הרשמי",
+          "sources": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "Stated by all three Israeli retailers; not confirmed on an importer or LG page."
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "מעבד α7 AI 4K דור 9 שממטב את התמונה לפי הז׳אנר בתכני SDR ו-HDR ומשדרג תוכן באמצעות AI",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "תמיכה ב-HDR10 ו-HLG עם מיפוי גוונים דינמי בזמן אמת",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "FILMMAKER Mode לצפייה בסרטים בצבעים, בקצב הפריימים וביחס התמונה כפי שיוצר הסרט התכוון",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מערכת webOS 26 עם תוכנית webOS Re:New לשדרוגי מערכת לאורך 5 שנים, בכפוף לתנאי התוכנית",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "שלט חכם בתנועת יד עם חיפוש ופקודות קוליות בעברית, שיכול לשלוט גם בממירי HOT, YES, סלקום ופרטנר נתמכים",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "Apple AirPlay 2, Apple Home ו-Google Cast להזרמה מהטלפון",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "AI Sound Pro עם סראונד וירטואלי 9.1.2 ושיפור קול דובר",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "WOW Orchestra – הפעלה משולבת של רמקולי הטלוויזיה עם מקרן קול LG תואם",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "מצבי גיימינג: ALLM, HGiG ו-Game Dashboard עם Game Optimizer",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "רכזת ביתית (Home Hub) לשליטה בהתקני IoT ו-Matter תואמים",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "כרטיסיית נגישות עם צ׳אטבוט בעברית וכלים לכבדי ראייה ושמיעה",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "VRR עד 60Hz",
+      "sources": [
+        "s4",
+        "s5"
+      ],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "Egyptian-market sources only."
+    }
+  ],
+  "inTheBox": [
+    {
+      "text": "שלט חכם של LG",
+      "sources": [
+        "s2"
+      ],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "Only CityDeal lists box contents (מה באריזה). Bug and Avi Sofer describe the remote as a feature but do not list box contents. LG Egypt (.AFU, not exact) lists AI Magic Remote MR26 as included."
+    },
+    {
+      "text": "מעמד שולחני עם רגליות",
+      "sources": [
+        "s2"
+      ],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "Only CityDeal lists the stand in the box. Bug and Avi Sofer give with-stand dimensions but do not list box contents."
+    },
+    {
+      "text": "כבל חשמל נתיק",
+      "sources": [
+        "s4"
+      ],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "Only on LG Egypt (.AFU) accessories list."
+    }
+  ],
+  "installation": [
+    {
+      "text": "להצבה על רהיט: המרחק בין הרגליות 129.9 ס״מ ועומק המעמד 36.1 ס״מ — המשטח צריך להיות רחב ועמוק מספיק",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "רוחב הטלוויזיה 166.9 ס״מ וגובהה עם המעמד 102.6 ס״מ",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "high",
+      "status": "verified"
+    },
+    {
+      "text": "לחיבור רשת: Wi-Fi 5 או כבל LAN; ל-GeForce NOW נדרשים חיבור אינטרנט, חשבון ומנוי מתאים",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    }
+  ],
+  "content": {
+    "summary": "טלוויזיית LG NANO 4K UHD בגודל 75 אינץ׳ (דגם 75NU830B6LA) ברזולוציית 4K עם תאורת Direct LED, מעבד α7 AI 4K דור 9 ותמיכה ב-HDR10 ו-HLG. היא פועלת על webOS 26 עם שלט חכם וחיפוש קולי בעברית, וכוללת 3 כניסות HDMI עם eARC ושמע 20W בשני ערוצים. מתאימה לסלון גדול שמחפש מסך 75 אינץ׳ חכם לסטרימינג ולסרטים.",
+    "highlights": [
+      "מסך 75 אינץ׳ NANO 4K UHD ‏(3840 × 2160), ‏60Hz",
+      "מעבד α7 AI 4K דור 9, ‏HDR10 ו-HLG",
+      "webOS 26 עם שלט חכם וחיפוש קולי בעברית",
+      "3 כניסות HDMI (eARC ב-HDMI 2), ‏Wi-Fi 5 ו-Bluetooth 5.3",
+      "מידות ללא מעמד 166.9 × 96.3 × 7.21 ס״מ, משקל 22.1 ק״ג"
+    ],
+    "goodFor": [
+      "קיר פנוי ברוחב של 167 ס״מ לפחות — רוחב הטלוויזיה 166.9 ס״מ (להצבה על רהיט קובע המרחק בין הרגליות, 129.9 ס״מ)",
+      "צפייה בסטרימינג בעברית — webOS 26 עם אפליקציות מקומיות, חיפוש קולי בעברית ושליטה בממירי HOT, YES, סלקום ופרטנר נתמכים",
+      "משתמשי iPhone ו-Android — AirPlay 2, Apple Home, Google Cast ושליטה מהסמארטפון",
+      "חיבור מקרן קול או קונסולה — eARC בכניסת HDMI 2, ‏ALLM ו-HGiG"
+    ],
+    "considerations": [
+      "מדדו את הרהיט: המרחק בין הרגליות 129.9 ס״מ ועומק המעמד 36.1 ס״מ; הגובה עם המעמד 102.6 ס״מ",
+      "קצב הרענון הטבעי הוא 60Hz — אין תמיכה בתצוגה ב-120Hz",
+      "השמע המובנה 20W בשני ערוצים — לחדר גדול שקלו מקרן קול דרך eARC",
+      "לתלייה על הקיר בדקו מול היבואן את תקן ה-VESA ואת המתקן המתאים; המשקל ללא מעמד 22.1 ק״ג",
+      "הדירוג האנרגטי המצוין אצל הקמעונאים הוא F"
+    ],
+    "faq": [
+      {
+        "q": "מה המידות של LG 75NU830B6LA וכמה היא שוקלת?",
+        "a": "ללא מעמד: 166.9 × 96.3 × 7.21 ס״מ ומשקל 22.1 ק״ג. עם המעמד הגובה 102.6 ס״מ, העומק 36.1 ס״מ והמשקל 22.5 ק״ג. המרחק בין הרגליות 129.9 ס״מ.",
+        "sources": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "q": "איזו מערכת הפעלה יש בטלוויזיה והאם היא מקבלת עדכונים?",
+        "a": "הטלוויזיה פועלת על webOS 26 ונכללת בתוכנית webOS Re:New לשדרוגי מערכת לאורך 5 שנים, בכפוף לתנאי התוכנית.",
+        "sources": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "q": "כמה כניסות HDMI יש והאם יש eARC?",
+        "a": "יש 3 כניסות HDMI, ו-HDMI 2 תומכת ב-eARC לחיבור מקרן קול. יש גם כניסת USB 2.0 אחת, כניסת LAN וכניסת אנטנה.",
+        "sources": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "q": "האם הטלוויזיה מתאימה למשחקי קונסולה?",
+        "a": "היא תומכת ב-ALLM, ב-HGiG וב-Game Dashboard עם Game Optimizer. קצב הרענון הוא 60Hz.",
+        "sources": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "q": "האם אפשר להשתמש בשלט ובחיפוש הקולי בעברית?",
+        "a": "כן. השלט החכם של LG פועל בתנועת יד ותומך בחיפוש ובפקודות קוליות בעברית, ויכול לשלוט גם בממירי HOT, YES, סלקום ופרטנר נתמכים.",
+        "sources": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "טלוויזיה LG 75 אינץ׳ 75NU830B6LA NANO 4K UHD עם מעבד α7 AI דור 9, מערכת webOS 26 ו-3 כניסות HDMI עם eARC. בחדד אלקטריק נהריה",
+    "keywords": [
+      "75NU830B6LA",
+      "LG 75NU830B6LA",
+      "טלוויזיה LG 75 אינץ׳",
+      "LG NANO 75 אינץ׳",
+      "LG NU83 75",
+      "טלוויזיה 4K 75 אינץ׳",
+      "טלוויזיה חכמה webOS 75 אינץ׳",
+      "טלוויזיה 75 אינץ׳ נהריה"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "name",
+      "catalogValue": "מסך 75' NANO",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "field": "brand",
+      "catalogValue": "LG",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "field": "category",
+      "catalogValue": "טלוויזיות",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "field": "origin_country",
+      "catalogValue": "לא צוין",
+      "finding": "unverifiable",
+      "sources": []
+    },
+    {
+      "field": "גודל מסך",
+      "catalogValue": "75 אינץ'",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "רזולוציה",
+      "catalogValue": "4K UHD",
+      "finding": "corrected",
+      "correctValue": "4K Ultra HD ‏(3840 × 2160)",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "סוג מסך",
+      "catalogValue": "NANO",
+      "finding": "corrected",
+      "correctValue": "4K NANO UHD עם תאורת Direct LED",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "מערכת הפעלה",
+      "catalogValue": "Smart TV (webOS)",
+      "finding": "corrected",
+      "correctValue": "webOS 26",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "Smart TV",
+      "catalogValue": "טלוויזיה חכמה (Smart TV)",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "field": "AI",
+      "catalogValue": "תמיכה ב-AI",
+      "finding": "corrected",
+      "correctValue": "מעבד α7 AI 4K דור 9, ‏ThinQ AI, ‏AI Sound Pro",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "רזולוציית 4K UHD",
+      "catalogValue": "רזולוציית 4K UHD",
+      "finding": "confirmed",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "מידות",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "166.9 × 96.3 × 7.21 ס״מ ללא מעמד; גובה 102.6 ס״מ ועומק 36.1 ס״מ עם מעמד",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "משקל",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "22.1 ק״ג ללא מעמד, 22.5 ק״ג עם מעמד",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "field": "קצב רענון",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "60Hz",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "HDR",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "HDR10, HLG",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "חיבורים",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "3 × HDMI (eARC ב-HDMI 2), ‏1 × USB 2.0, ‏LAN, ‏Wi-Fi 5, ‏Bluetooth 5.3",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "שמע",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "20W, ‏2.0 ערוצים, AI Sound Pro (וירטואלי 9.1.2)",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "דירוג אנרגטי",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "F",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "identity",
+      "issue": "No lg.com/il product page found for 75NU830B6LA. All publishable specs rest on three Israeli retailers that reproduce the same importer (ח.י.) spec sheet, corroborated by LG Egypt (75NU830B6LA.AFU). Confirm with the importer if a manufacturer-level Israeli source is required.",
+      "severity": "medium"
+    },
+    {
+      "field": "אחריות",
+      "issue": "Conflict: CityDeal and Avi Sofer state 1 year by ח.י. with a paid promotional extension (to 3 years in total, until 30.11.2026); Bug states 3 years including 2 on the panel. Not published; check the importer warranty certificate.",
+      "severity": "medium"
+    },
+    {
+      "field": "origin_country",
+      "issue": "Catalog says 'לא צוין'. No opened source states the country of manufacture. A search snippet showed a CityDeal barcode starting 622 (Egypt GS1 prefix), but the barcode was not found on the opened page and a GS1 prefix does not prove origin. Check the box label.",
+      "severity": "low"
+    },
+    {
+      "field": "כניסות RF / טיונר",
+      "issue": "Israeli sheets list 1 RF input and no tuner standards (Bug filter: עידן+ 'ללא'); LG Egypt lists 2 RF and DVB-T2/C/S2 for the Egyptian .AFU unit. Tuner standards not published; confirm DVB-T2 (עידן+) reception for the Israeli unit.",
+      "severity": "low"
+    },
+    {
+      "field": "VESA",
+      "issue": "No source opened for this exact model states the VESA pattern. Not published; get it from the importer or the box before advising on wall brackets.",
+      "severity": "low"
+    },
+    {
+      "field": "צריכת חשמל",
+      "issue": "Only standby (<0.5W) and power supply (AC 100–240V) are on LG Egypt; no typical/annual kWh or EPREL fiche found (the NU83 appears to be a non-EU model). Energy class F from Israeli retailers, scale unstated.",
+      "severity": "low"
+    },
+    {
+      "field": "VRR / LG Shield / AI Voice ID",
+      "issue": "Listed for the Egyptian unit (LG Egypt, B.TECH) but absent from Israeli spec sheets. Not published.",
+      "severity": "low"
+    },
+    {
+      "field": "סוג תאורה",
+      "issue": "Avi Sofer attribute list says MINI LED and Bug lists Nano Cell, while all three Israeli spec sheets and LG Egypt say Direct LED. Published value is Direct LED; the retailer attribute is likely an error.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-11",
+    "verdict": "pass-with-fixes",
+    "notes": "All 5 sources re-opened 2026-11-11; s1-s3 show exact 75NU830B6LA, s4 (LG Egypt .AFU, images named NU85) and s5 (B.TECH Egypt, built-in receiver) stay exactModel false. Identity matches catalog (LG, 75\", NANO TV). Fixes: upscaling value reduced to שדרוג תוכן באמצעות AI (4K Super Upscaling only on LG Egypt); speech row to שיפור קול דובר אנושי (Clear Voice only on LG Egypt); sound sync row drops the LG Sound Sync name and s4; smart-home row drops the ThinQ app name (CityDeal only); in-the-box remote and stand now cite s2 only and are unverified (Bug and Avi Sofer do not list box contents); feature 1 drops ל-4K, genre-based SDR/HDR optimisation kept (stated on Bug, CityDeal, Avi Sofer); FILMMAKER feature reworded to page wording; summary drops ספורט; goodFor wall-width, apps and smartphone lines reworded; 60Hz consideration reworded; warranty conflict note corrected (both CityDeal and Avi Sofer: paid extension to 3 years in total; Avi Sofer table inconsistent) and price amounts removed from note and flag; notes added for Nano Cell/MINI LED and CityDeal HDR10-only table; new low reviewFlag for MINI LED. Earlier reviewer fix to delete the genre claim was not applied: the Israeli pages state it."
+  }
+}

@@ -1,0 +1,345 @@
+{
+ "modelNumber": "V12 Detect Slim Absolute",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Dyson",
+  "exactModel": "V12 Detect Slim Absolute",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only UK review pages were readable. Dyson manufacturer pages returned HTTP 403, so no manufacturer or Israeli page is evidence here. The exact model name appears in the titles of both review pages. | QA: Both UK review pages name V12 Detect Slim Absolute; no manufacturer or Israeli page readable, so the Israeli variant is unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.yourhomestyle.uk/reviews/dyson-v12-detect-slim-absolute-cordless-vacuum",
+   "publisher": "YourHomeStyle",
+   "kind": "review",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.idealhome.co.uk/house-manual/cleaning/Dyson-V12-Detect-Slim-Absolute-review",
+   "publisher": "Ideal Home",
+   "kind": "review",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote gives H123 x W25 x L25; kept as quoted order, L not mapped to depth.",
+     "label": "מידות (גובה × רוחב × אורך)",
+     "value": "123 × 25 × 25 ס״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "2.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל איסוף",
+     "value": "0.35 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 60 דקות"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "4 שעות"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "150 AW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סינון",
+     "value": "HEPA במערכת אטומה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מצבי שאיבה",
+     "value": "Auto, Eco, Boost"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מסך",
+     "value": "LCD"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Reworded: quote does not mention corners or dark places.",
+   "text": "לייזר בראש המברשת שמסייע לאיסוף אבק ופסולת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Reworded: quote does not say suction is adjusted.",
+   "text": "חיישן Piezo שמודד וסופר חלקיקי אבק באופן רציף"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כלי צר (crevice), כלי משולב, תחנת עגינה ומטען"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תחנת העגינה מיועדת להתקנה על הקיר"
+  }
+ ],
+ "content": {
+  "summary": "Dyson V12 Detect Slim Absolute הוא שואב אבק אלחוטי קל, במשקל 2.2 ק״ג, עם זמן עבודה של עד 60 דקות ועוצמת שאיבה של 150 AW. בראש המברשת יש לייזר שמסייע לאיסוף אבק, וחיישן Piezo מודד וסופר חלקיקי אבק ומציג נתונים במסך LCD. מתאים למי שמחפש שואב קל לניקוי יומיומי עם סינון HEPA.",
+  "highlights": [
+   "משקל 2.2 ק״ג",
+   "זמן עבודה של עד 60 דקות",
+   "עוצמת שאיבה של 150 AW",
+   "לייזר בראש המברשת וחיישן Piezo לספירת חלקיקי אבק",
+   "סינון HEPA במערכת אטומה"
+  ],
+  "goodFor": [
+   "ניקוי מהיר ויומיומי בלי חוט, בזכות משקל קל",
+   "בתים עם רגישות לאבק, בזכות סינון HEPA במערכת אטומה",
+   "מי שרוצה לראות נתוני אבק בזמן הניקוי במסך LCD",
+   "ניקוי פינות ומרווחים צרים עם הכלי הצר המצורף"
+  ],
+  "considerations": [
+   "מיכל האיסוף בנפח 0.35 ליטר, כך שצריך לרוקן אותו לעיתים קרובות",
+   "זמן הטעינה הוא 4 שעות, כדאי לתכנן טעינה בין ניקיונות",
+   "תחנת העגינה מיועדת לקיר, יש לבדוק מקום ושקע חשמל קרוב"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן השואב עובד על טעינה אחת?",
+    "a": "עד 60 דקות, לפי מקורות הבדיקה.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לטעון את הסוללה?",
+    "a": "4 שעות.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל האבק?",
+    "a": "0.35 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו מצבי שאיבה יש?",
+    "a": "Auto, Eco ו-Boost.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בקופסה?",
+    "a": "כלי צר (crevice), כלי משולב, תחנת עגינה לקיר ומטען.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק אלחוטי Dyson V12 Detect Slim Absolute במשקל 2.2 ק״ג, עם זמן עבודה של עד 60 דקות וסינון HEPA. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Dyson V12 Detect Slim Absolute",
+   "דייסון V12 Detect Slim",
+   "שואב אבק אלחוטי דייסון",
+   "דייסון V12 עם לייזר",
+   "שואב אבק אלחוטי קל",
+   "שואב אבק עם סינון HEPA",
+   "Dyson V12 Slim"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "משקל",
+   "catalogValue": "כ-2.4 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "2.2 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 126.4 ס\"מ, רוחב 25 ס\"מ, עומק 25.2 ס\"מ",
+   "finding": "contradicted",
+   "correctValue": "25 × 123 × 25 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל איסוף",
+   "catalogValue": "0.35 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 60 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "3.5 שעות",
+   "finding": "corrected",
+   "correctValue": "4 שעות",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "150AW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The exact model name appears only in the titles of two UK review pages. The manufacturer pages (Dyson) could not be read (HTTP 403), and no Israeli page was found, so the Israeli variant is unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog height (126.4 cm) differs from the review's 123 cm. The review's L25 was mapped to depth, and Dyson UK listings seen in search snippets give different heights, so check the physical unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Reviews give 2.2 kg, while the catalog says about 2.4 kg. A Dyson UK listing seen in search snippets gave 2.4 kg, but it could not be read, so the sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן טעינה",
+   "issue": "The catalog says 3.5 hours, but both reviews say 4 hours. Check against the manual for the Israeli variant.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Only UK review pages were readable; no manufacturer or Israeli page confirms the Israeli variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog height 126.4 cm and depth 25.2 cm differ from the review's H123 x W25 x L25; check the physical unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog says about 2.4 kg; both reviews say 2.2 kg.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן טעינה",
+   "issue": "Catalog says 3.5 hours; both reviews say 4 hours. Check the Israeli manual.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Identity medium: only UK review pages, Israeli variant unconfirmed. Dimensions relabelled to height x width x length as quoted (H123 x W25 x L25) instead of mapping L to depth. Feature 0 reworded: quote says the laser aids dust pick-up, not corners/dark places. Feature 1 reworded: quote says the sensor sizes and counts particles, not that it adjusts suction. Catalog weight (2.4 kg), height (126.4 cm) and charge time (3.5 h) differ from sources."
+ }
+}

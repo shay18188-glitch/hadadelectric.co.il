@@ -1,0 +1,454 @@
+{
+ "modelNumber": "TO2323B",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "TO2323B",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "high",
+  "notes": "All evidence comes from Israeli retailer pages that name TO2323B. No manufacturer, importer or manual page for this exact model was reachable (Electra site search returned no matching lines). | QA: Four Israeli retailer pages name Sauter TO2323B, 23 liter, black, matching the catalog. No manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%90%D7%95%D7%91%D7%9F-sauter-%D7%93%D7%92%D7%9D-to2323w-%D7%9C%D7%91%D7%9F-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99-0",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/sauter-to2323b/",
+   "publisher": "BetterShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.ace.co.il/4481502",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.one-shop.co.il/items/7664899-%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%90%D7%95%D7%91%D7%9F-23-%D7%9C%D7%99%D7%98%D7%A8-Sauter-%D7%A1%D7%90%D7%95%D7%98%D7%A8-TO2323B",
+   "publisher": "One-Shop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Sauter"
+    },
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "TO2323B"
+    },
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "אלקטרה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא",
+     "value": "23 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single source (CityDeal).",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "46 × 35.5 × 28.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single source (CityDeal).",
+     "label": "הספק",
+     "value": "1500 W"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two ok quotes agree; CityDeal reportedly 90°C low end (no quote), flagged.",
+     "label": "טווח טמפרטורה",
+     "value": "60–230°C"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גופי חימום",
+     "value": "4 גופי חימום מנירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר הפעלה",
+     "value": "עד 60 דקות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "3 (עליון / תחתון / עליון + תחתון)"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נורת תאורה פנימית",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י אלקטרה, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Dropped marketing adjective.",
+   "text": "פאנל בציפוי זכוכית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "רשת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגש אפייה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ידית אחיזה לתבנית"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש תנור משלים קומפקטי למטבח לאפייה, חימום והשחמה.",
+  "highlights": [
+   "נפח תא 23 ליטר",
+   "4 גופי חימום מנירוסטה",
+   "טווח טמפרטורה 60–230°C וטיימר עד 60 דקות",
+   "נורת תאורה פנימית למעקב אחר האפייה"
+  ],
+  "goodFor": [
+   "חימום מהיר והשחמה של מאפים וכריכים בלי להפעיל תנור גדול",
+   "מטבח קטן או דירה שבה אין מקום לתנור בילט־אין",
+   "אפייה קלה במגש האפייה הכלול, עם בחירה בין חימום עליון, תחתון או משולב"
+  ],
+  "considerations": [
+   "הטיימר מגיע עד 60 דקות, כך שבישולים ארוכים יותר דורשים הפעלה חוזרת"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הטוסטר אובן Sauter TO2323B?",
+    "a": "נפח התא הוא 23 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורה?",
+    "a": "ווסת הטמפרטורה מאפשר 60–230°C.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים באריזה?",
+    "a": "רשת, מגש אפייה וידית אחיזה לתבנית.",
+    "sources": []
+   },
+   {
+    "q": "מי היבואן ומה האחריות?",
+    "a": "היבואן הרשמי הוא אלקטרה, והאחריות היא לשנה דרכה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר אובן Sauter TO2323B בנפח 23 ליטר, שחור, 4 גופי חימום מנירוסטה וטמפרטורה 60–230°C. אחריות אלקטרה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר אובן Sauter",
+   "Sauter TO2323B",
+   "TO2323B",
+   "טוסטר אובן 23 ליטר",
+   "טוסטר אובן שחור",
+   "סאוטר טוסטר אובן",
+   "טוסטר אובן אלקטרה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Sauter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 46 ס\"מ, עומק 28.5 ס\"מ, גובה 35.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "60 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ווסת טמפרטורה",
+   "catalogValue": "60-230°C (או 90-230°C בחלק מהמקורות)",
+   "finding": "confirmed",
+   "correctValue": "60–230°C",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גופי חימום",
+   "catalogValue": "4 גופי חימום מנירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מצבי הפעלה",
+   "catalogValue": "3 מצבי הפעלה (עליון/תחתון/עליון+תחתון)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נורת תאורה",
+   "catalogValue": "נורת תאורה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "כולל רשת, מגש אפייה וידית אחיזה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "לא צוין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מגש פירורים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מגש פירורים",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה ע״י אלקטרה (יבואן רשמי)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "טווח טמפרטורה",
+   "issue": "Sources conflict on the low end of the temperature range. ACE, BetterShop and One-Shop give 60–230°C, while CityDeal gives 90–230°C. The catalog text mentions both. Confirm against the Sauter or Electra manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or manual page naming TO2323B was found. Electra's site search returned nothing for this model, so every fact rests on Israeli retailer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "The 1500W rating comes from a single retailer page (CityDeal). Confirm it on the manufacturer or importer spec.",
+   "severity": "low"
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "issue": "Low end disputed: two retailers say 60°C, CityDeal reportedly 90°C. Confirm against the Sauter/Electra manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or manual page; all facts from Israeli retailers.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק / מידות",
+   "issue": "1500 W and dimensions come only from CityDeal, whose URL slug refers to the white TO2323W variant (page text names TO2323B). Confirm on importer spec.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on Israeli retailer pages naming TO2323B. Minor wording fixes: power value formatted as 1500 W, warranty clarified as a year through Electra. CityDeal URL slug mentions TO2323W (white) though the page text names TO2323B black; dimensions and power rest only on that page. Temperature low end disputed (CityDeal reportedly 90°C) - published 60–230°C from two ok quotes and flagged. | code guard removed: summary: \"Sauter TO2323B הוא טוסטר אובן בנפח 23 ליטר בגימור שחור, בהספק 1500 W.\"; summary: \"יש בו 4 גופי חימום מנירוסטה, 3 מצבי הפעלה (עליון, תחתון, עליון + תחתון), ווסת טמפרטורה 60–230°C וטיימר עד 60 דקות.\"; faq: \"כמה מצבי חימום יש?\"; highlight: \"3 מצבי הפעלה: עליון / תחתון / עליון + תחתון\"; consideration: \"מדדו את משטח העבודה: מידות המכשיר 46 × 35.5 × 28.5 ס״מ (רוחב × גובה × עומק), והשאירו מרווח לאוורור\"; consideration: \"הספק 1500 W – עדיף לחבר לשקע נפרד ולא למפצל יחד עם מכשירים חזקים נוספים\""
+ }
+}

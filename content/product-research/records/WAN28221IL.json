@@ -1,0 +1,289 @@
+{
+ "modelNumber": "WAN28221IL",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "WAN28221IL",
+  "israeliImporter": "BSH Israel",
+  "matchConfidence": "high",
+  "notes": "הדגם המדויק נמצא באתר בוש ישראל (סדרה 4, 9 ק״ג, 1400 סל״ד). | QA: The Bosch Israel manufacturer page names the exact model WAN28221IL, 9 kg, 1400 rpm, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/il/he/mkt-product/WAN28221IL",
+   "publisher": "Bosch Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Reordered to match the source order H×W×D",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "84.5 × 59.8 × 59.0 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "66.0 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "160 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מרבית",
+     "value": "9.0 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1400 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not say which phase this noise level is for",
+     "label": "רמת רעש בשטיפה",
+     "value": "51 dB(A)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not say which phase this noise level is for",
+     "label": "רמת רעש בסחיטה",
+     "value": "72 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 וולט"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע SilentPowerDrive ללא פחמים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Iron Assist: עוזר גיהוץ שמפחית עד 50% מהקמטים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכנית מהירה לכביסה ב-15 או 30 דקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוף Wave Drum"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טיימר להפעלה מאוחרת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח קדמי של בוש, דגם WAN28221IL, בקיבולת של 9 ק״ג ובמהירות סחיטה של עד 1400 סל״ד. היא בעלת דירוג אנרגטי A, ויש לה מנוע SilentPowerDrive ללא פחמים ותוכנית מהירה של 15 או 30 דקות. מתאימה למי שמכבס כמויות גדולות ורוצה גם אפשרות לכביסה קצרה.",
+  "highlights": [
+   "קיבולת של 9 ק״ג",
+   "מהירות סחיטה של עד 1400 סל״ד",
+   "דירוג אנרגטי A",
+   "מנוע SilentPowerDrive ללא פחמים",
+   "Iron Assist שמפחית עד 50% מהקמטים"
+  ],
+  "goodFor": [
+   "משפחות שמכבסות כמויות גדולות בכל מחזור, בזכות קיבולת של 9 ק״ג",
+   "מי שצריך כביסה קצרה, עם תוכנית מהירה של 15 או 30 דקות",
+   "מי שרוצה להפחית גיהוץ, בעזרת Iron Assist",
+   "הפעלה בשעה נוחה בעזרת טיימר להפעלה מאוחרת"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 84.5 × 59.8 × 59.0 ס״מ, ולהשאיר מקום לפתיחת הדלת",
+   "המכונה שוקלת 66.0 ק״ג, ולכן כדאי לתכנן את ההובלה וההכנסה למקום",
+   "אורך כבל החשמל הוא 160 ס״מ, ולכן השקע צריך להיות בטווח הזה",
+   "המכונה פועלת במתח 220-240 וולט"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של מכונת הכביסה Bosch WAN28221IL?",
+    "a": "הקיבולת המרבית היא 9.0 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המרבית?",
+    "a": "עד 1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכונה?",
+    "a": "גובה 84.5 ס״מ, רוחב 59.8 ס״מ ועומק 59.0 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תוכנית כביסה מהירה?",
+    "a": "כן, יש תוכנית מהירה לכביסה ב-15 או 30 דקות.",
+    "sources": []
+   },
+   {
+    "q": "איזה מנוע יש במכונה?",
+    "a": "מנוע SilentPowerDrive ללא פחמים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Bosch WAN28221IL פתח קדמי, 9 ק״ג, סחיטה עד 1400 סל״ד ודירוג אנרגטי A. מנוע SilentPowerDrive. בחדד אלקטריק נהריה",
+  "keywords": [
+   "WAN28221IL",
+   "בוש WAN28221IL",
+   "מכונת כביסה בוש 9 קג",
+   "מכונת כביסה 9 קג 1400 סלד",
+   "מכונת כביסה פתח קדמי בוש",
+   "Bosch Serie 4 מכונת כביסה",
+   "מכונת כביסה בוש נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "59.8 × 84.5 × 59.0",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "facts.noise",
+   "issue": "The wash and spin noise levels (51/72 dB(A)) appear on the manufacturer page, but the quotes did not say which phase each value is for, so both were rejected. Check them manually if they should be published.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected both noise facts (ids 6, 7): the quotes show only a footnote and a dB(A) number, without saying whether it is the wash or spin noise level. Reordered the dimensions to height × width × depth to match the source order (845x598x590 mm)."
+ }
+}

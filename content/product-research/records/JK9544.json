@@ -1,0 +1,311 @@
+{
+ "modelNumber": "JK9544",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Graetz",
+  "exactModel": "JK9544",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Exact model JK9544 is named on the LastPrice product page and on the Zap spec page. No manufacturer or Israeli importer page for this model was found. Importer name not stated for this model. | QA: Exact model code JK9544 named on two Israeli pages (LastPrice, Zap); power and capacity match the catalog. Body material and color not stated on the pages."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lastprice.co.il/p/91446425/קומקום-חשמלי-Graetz/Graetz-JK9544",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/compmodels.aspx?modelid=952763",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Graetz"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Material (stainless steel) not in quote; not published.",
+     "label": "גוף חימום",
+     "value": "נסתר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מנגנון שליפה מרכזי ב-360 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Reworded",
+   "text": "קומקום נשלף מהבסיס"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פילטר מיקרוני"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מד מים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי של Graetz, דגם JK9544, בקיבולת 1.7 ליטר ובהספק 2200 W. מתאים למי שמחפש קומקום יומיומי פשוט לבית או למשרד.",
+  "highlights": [
+   "הספק 2200 W",
+   "קיבולת 1.7 ליטר",
+   "גוף חימום נסתר",
+   "פילטר מיקרוני ומד מים"
+  ],
+  "goodFor": [
+   "הרתחת מים לכמה כוסות בבת אחת, בזכות קיבולת של 1.7 ליטר",
+   "שימוש יומיומי במטבח הביתי או בפינת קפה במשרד"
+  ],
+  "considerations": [
+   "הספק של 2200 W – כדאי לחבר לשקע שאינו עמוס במכשירים חשמליים נוספים",
+   "בדקו שמספר הדגם על האריזה הוא JK9544, שכן קיים דגם בשם דומה עם מפרט שונה",
+   "כדאי לנקות את הפילטר המיקרוני מעת לעת, במיוחד באזורים עם מים קשים"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של הקומקום Graetz JK9544?",
+    "a": "קיבולת הקומקום היא 1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הקומקום?",
+    "a": "הספק הקומקום הוא 2200 W.",
+    "sources": []
+   },
+   {
+    "q": "האם לקומקום יש פילטר?",
+    "a": "כן, הקומקום כולל פילטר מיקרוני.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קומקום חשמלי Graetz",
+   "Graetz JK9544",
+   "קומקום JK9544",
+   "קומקום חשמלי 1.7 ליטר",
+   "קומקום 2200 וואט",
+   "קומקום גוף חימום נסתר",
+   "קומקום חשמלי נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר עשוי פלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "מנגנון שליפה מרכזי ב-360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פילטר אבנית",
+   "catalogValue": "פילטר מיקרוני נשלף ורחיץ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מד מים",
+   "catalogValue": "מד מים שקוף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר גוף המכשיר",
+   "catalogValue": "פלסטיק איכותי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון כיבוי אוטומטי",
+   "catalogValue": "כיבוי בעת רתיחת המים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הגנה מפני הרתחה יבשה",
+   "catalogValue": "הגנה מפני הפעלה ללא מים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורית חיווי",
+   "catalogValue": "נורית חיווי המאירה בעת ההפעלה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקום לאחסון כבל",
+   "catalogValue": "מקום לאחסון כבל החשמל בתחתית הבסיס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין (מיוצר עבור המותג הגרמני Graetz)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "חומר גוף המכשיר",
+   "issue": "The catalog says plastic body; the retailer pages read do not state the body material.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "No dimensions or weight for this model were found on the pages read.",
+   "severity": "low"
+  },
+  {
+   "field": "שם דומה",
+   "issue": "Graetz JK9954 is a similar model name on Israeli sites with different specs (glass kettle, 1500 W per listings). Confirm the model number printed on the box is JK9544.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "Catalog name states white plastic body; neither source states body material or color. Confirm against the physical unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "דגם",
+   "issue": "A similarly named Graetz JK9954 (glass, different specs) appears on Israeli sites. Confirm the box says JK9544.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט",
+   "issue": "Catalog voltage, stainless steel element, auto shut-off, dry-boil protection, indicator light and cord storage are not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All four facts and four features are supported by ok quotes on pages naming JK9544. Fact 3 value kept as 'נסתר' only (stainless steel material in catalog is not in any quote). Feature 1 reworded slightly. Catalog voltage, plastic body, white color, auto shut-off, dry-boil protection, indicator light and cord storage are unverified and not used in content. | code guard removed: summary: \"הקומקום נשלף מבסיס עם מנגנון שליפה מרכזי ב-360 מעלות, וכולל גוף חימום נסתר, פילטר מיקרוני ומד מים.\"; faq: \"האם אפשר להניח את הקומקום על הבסיס מכל כיוון?\"; metaDescription: \"קומקום חשמלי Graetz JK9544 בקיבולת 1.7 ליטר והספק 2200 W, עם בסיס 360 מעלות, גוף חימום נסתר ופילטר מיקרוני. בחדד אלקטריק נהריה\"; highlight: \"בסיס עם מנגנון שליפה מרכזי ב-360 מעלות\"; goodFor: \"מי שרוצה להניח את הקומקום על הבסיס מכל כיוון, בזכות מנגנון שליפה ב-360 מעלות\""
+ }
+}

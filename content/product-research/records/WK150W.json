@@ -1,0 +1,220 @@
+{
+ "modelNumber": "WK150W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "WK150W",
+  "israeliImporter": "אלקטרה סחר",
+  "matchConfidence": "medium",
+  "notes": "דף אבי סופר ותוצאת חיפוש בהום סנטר נקראו. הם סותרים בקיבולת (1.5 מול 1.7 ליטר) ובחומר (נירוסטה מול זכוכית). לא נמצא דף יבואן או יצרן. | QA: Both Israeli retailer pages name WK150W, but they reportedly disagree on capacity and body material; no manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/קומקום-סאוטר-wk150w/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.homecenter.co.il/search?q=WK150W",
+   "publisher": "הום סנטר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "בסיס",
+     "value": "בסיס מסתובב 360°"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Matches catalog name; Avi Sofer reportedly says stainless steel - flagged.",
+     "label": "חומר גוף",
+     "value": "זכוכית"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה מלאה מטעם היבואן אלקטרה סחר, בכפוף לתעודת אחריות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Search-result snippet only; contradicts 1.5 L reported on Avi Sofer page.",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי של Sauter, דגם WK150W, בגוף זכוכית בצבע לבן. מגיע עם אחריות של היבואן אלקטרה סחר, ומתאים למטבח ביתי שמחפש קומקום זכוכית פשוט.",
+  "highlights": [
+   "גוף זכוכית בצבע לבן",
+   "אחריות מטעם היבואן אלקטרה סחר"
+  ],
+  "goodFor": [
+   "מי שמעדיף קומקום זכוכית שרואים דרכו את המים",
+   "מטבח ביתי לשימוש יומיומי בהרתחת מים לשתייה חמה",
+   "שימוש נוח ליד השיש בזכות בסיס מסתובב"
+  ],
+  "considerations": [
+   "כדאי לוודא את נפח הקומקום מול המוצר עצמו לפני הקנייה",
+   "גוף זכוכית דורש זהירות בניקוי ובהנחה על השיש"
+  ],
+  "faq": [
+   {
+    "q": "מי נותן אחריות על הקומקום?",
+    "a": "האחריות מטעם היבואן אלקטרה סחר, בכפוף לתעודת אחריות.",
+    "sources": []
+   },
+   {
+    "q": "מאיזה חומר עשוי הקומקום?",
+    "a": "גוף הקומקום עשוי זכוכית, בצבע לבן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קומקום זכוכית",
+   "קומקום חשמלי זכוכית לבן",
+   "Sauter WK150W",
+   "קומקום סאוטר",
+   "קומקום Sauter",
+   "קומקום חשמלי 2200W",
+   "קומקום בסיס 360"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "2200 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אלקטרה סחר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "זכוכית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "capacity",
+   "issue": "שם המוצר בקטלוג מציין קומקום זכוכית, ודף אבי סופר מתאר גוף מנירוסטה. בנוסף, דף של Home Center בשם הדגם מציין 1.7 ליטר (בתוצאות החיפוש בלבד, הדף לא נקרא), בעוד שדף אבי סופר מציין 1.5 ליטר. יש לאמת את הקיבולת והחומר מול היבואן או המוצר הפיזי.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "כל הראיות מקורן בדף קמעונאי אחד בלבד. לא נמצא דף יבואן, יצרן, מדריך למשתמש או EPREL שמזכיר את הדגם WK150W, ולכן העובדות ייכנסו לבדיקה ידנית.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "Home Center מציין 1.7 ליטר ודף אבי סופר מציין לפי החוקר 1.5 ליטר; הקיבולת לא פורסמה ויש לאמת מול היבואן או המוצר.",
+   "severity": "high"
+  },
+  {
+   "field": "חומר גוף",
+   "issue": "לפי החוקר דף אבי סופר מתאר גוף נירוסטה, בעוד ששם הקטלוג ו-Home Center מציינים זכוכית; יש לאמת.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "אין דף יצרן או יבואן לדגם; כל הנתונים מקמעונאים ישראליים.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Capacity (id 5) rejected: Home Center search result says 1.7 L while the researcher reports Avi Sofer says 1.5 L; unresolved. Material kept as glass (Home Center quote matches catalog name), but researcher reports Avi Sofer describes stainless steel; flagged for review. | code guard removed: summary: \"הקומקום בהספק 2200 W ויושב על בסיס מסתובב 360°, כך שאפשר להניח ולהרים אותו מכל כיוון.\"; faq: \"מה ההספק של הקומקום Sauter WK150W?\"; faq: \"האם הבסיס מסתובב?\"; metaDescription: \"קומקום חשמלי זכוכית לבן Sauter WK150W בהספק 2200 W עם בסיס מסתובב 360° ואחריות יבואן אלקטרה סחר. בחדד אלקטריק נהריה\"; highlight: \"הספק 2200 W\"; highlight: \"בסיס מסתובב 360°\"; consideration: \"בהספק 2200 W כדאי לחבר לשקע שאינו עמוס במכשירים חזקים נוספים באותו זמן\""
+ }
+}

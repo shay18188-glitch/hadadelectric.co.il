@@ -1,0 +1,387 @@
+{
+ "modelNumber": "PKF631BB2E",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "PKF631BB2E",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Spec sheet is the Bosch Series 4 60 cm glass-ceramic hob, flush-mount, in Czech (CZ market). It names the exact model PKF631BB2E. No Israeli-market page was found for this model. | QA: Bosch manufacturer spec sheet (CZ) names the exact model PKF631BB2E; 60 cm glass-ceramic hob matches catalog. Israeli variant not confirmed by an Israeli source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/cs-CZ/PKF631BB2E.pdf",
+   "publisher": "BSH (Bosch) spec sheet",
+   "kind": "manufacturer",
+   "market": "CZ",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג",
+     "value": "כיריים קרמיות (משטח זכוכית קרמית)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "592 × 45 × 522 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog states 6 kg",
+     "label": "משקל נטו",
+     "value": "7.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "560 × 45 × 490-500 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עובי משטח עבודה מינימלי",
+     "value": "16 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "6.6 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תדר",
+     "value": "50/60 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר אזורי בישול",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר רמות עוצמה",
+     "value": "17"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Removed +/- buttons, not in quote",
+     "label": "סוג בקרה",
+     "value": "TouchSelect"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Reworded to match quote",
+   "text": "ReStart: שחזור ההגדרות הקודמות לאחר כיבוי לא מכוון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Quick Stop: כיבוי מהיר של אזור בישול בלחיצה ארוכה אחת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נעילת ילדים נגד הפעלה לא מכוונת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed 'per zone'",
+   "text": "טיימר כיבוי לאזור בישול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיווי חום שארית דו-שלבי לכל אזור בישול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote does not state frameless or flush mounting",
+   "text": "מיועד להתקנה משובצת במשטח עבודה ללא מסגרת"
+  }
+ ],
+ "content": {
+  "summary": "כיריים חשמליות קרמיות של בוש ברוחב 592 מ״מ, עם 4 אזורי בישול ומשטח זכוכית קרמית שחור. הבקרה היא TouchSelect עם 17 רמות עוצמה, והספק כולל של 6.6 kW. מתאימות למטבח עם חיבור חשמל ייעודי למי שמעדיף בישול חשמלי על פני גז.",
+  "highlights": [
+   "4 אזורי בישול על משטח זכוכית קרמית",
+   "17 רמות עוצמה בבקרת TouchSelect",
+   "הספק כולל של 6.6 kW",
+   "נעילת ילדים ו-Quick Stop לכיבוי מהיר",
+   "חיווי חום שארית דו-שלבי לכל אזור בישול"
+  ],
+  "goodFor": [
+   "מטבח ללא חיבור גז שבו רוצים כיריים חשמליות",
+   "בית עם ילדים, בזכות נעילת הילדים",
+   "מי שמחליף כיריים קיימות בנישה ברוחב 560 מ״מ"
+  ],
+  "considerations": [
+   "יש לוודא שמידות החיתוך במשטח הן 560 × 490-500 מ״מ",
+   "עובי משטח העבודה צריך להיות לפחות 16 מ״מ",
+   "בהספק כולל של 6.6 kW יש לבדוק עם חשמלאי את החיבור והקו בלוח החשמל",
+   "משקל נטו של 7.5 ק״ג"
+  ],
+  "faq": [
+   {
+    "q": "כמה אזורי בישול יש בכיריים?",
+    "a": "יש 4 אזורי בישול שאפשר להשתמש בהם בו-זמנית.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך הנדרשות במשטח העבודה?",
+    "a": "רוחב 560 מ״מ ועומק 490-500 מ״מ, בעובי משטח של לפחות 16 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק הכולל של הכיריים?",
+    "a": "ההספק הכולל הוא 6.6 kW במתח 220-240 V.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת ילדים?",
+    "a": "כן, יש נעילת ילדים שמונעת הפעלה לא מכוונת של הכיריים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים קרמיות 60 ס״מ BOSCH PKF631BB2E עם 4 אזורי בישול ו-17 רמות עוצמה בבקרת TouchSelect. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים קרמיות בוש",
+   "PKF631BB2E",
+   "בוש PKF631BB2E",
+   "כיריים חשמליות 60 ס״מ",
+   "כיריים קרמיות 4 להבות",
+   "כיריים זכוכית קרמית בוש",
+   "Bosch Serie 4 כיריים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "45x592x522 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "6 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "7.5 ק״ג (משקל נטו)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "6600W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר אזורי בישול",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיתוך נדרשות",
+   "catalogValue": "רוחב 560 מ\"מ, עומק 490-500 מ\"מ, גובה 45 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "17 רמות עוצמה",
+   "catalogValue": "17 רמות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שליטת TouchSelect",
+   "catalogValue": "שליטת TouchSelect (כפתורי +/-)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח זכוכית קרמית",
+   "catalogValue": "משטח זכוכית קרמית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "The catalog weight (6 kg) does not match the manufacturer's net weight (7.5 kg). The gross weight is 8.2 kg.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "The only source is a Czech-language spec sheet (CZ market). No Israeli-market page for this exact model was found, so the Israeli variant and its power/voltage rating are unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור ייצור",
+   "issue": "The catalog says made in Germany. The spec sheet does not state the country of origin.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight 6 kg contradicts manufacturer net weight 7.5 kg.",
+   "severity": "medium"
+  },
+  {
+   "field": "חיבור חשמל",
+   "issue": "Catalog name says 3-phase; the spec sheet lists 220-240 V and does not confirm a 3-phase connection. Check connection type.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "Only source is a Czech-market spec sheet; Israeli variant not confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "ארץ ייצור",
+   "issue": "Catalog name says made in Germany; source does not state origin.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 11: removed '(+/- buttons)' which is not in the quote. Feature 0 reworded to match quote (restore after unintentional switch-off). Feature 3: removed 'per zone' not stated in quote. Installation 0 rejected: quote does not mention frameless/flush mounting. Catalog weight 6 kg contradicts manufacturer net weight 7.5 kg."
+ }
+}

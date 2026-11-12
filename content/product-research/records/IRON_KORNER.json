@@ -1,0 +1,281 @@
+{
+ "modelNumber": "IRON KORNER",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Gamma Piu",
+  "exactModel": "IRON KORNER",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "דף LastPrice מציג את הדגם בשם IRON KORNER ומסווג אותו כייבוא מקביל. דפי היבואן והיצרן לא נטענו. | QA: Only one Israeli retailer page (LastPrice) names Gamma Piu IRON KORNER and the catalog name; listed as parallel import, no manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lastprice.co.il/p/100023776/%D7%9E%D7%A1%D7%9C%D7%A1%D7%9C-%D7%A9%D7%99%D7%A2%D7%A8-Gamma-Piu/Gamma-Piu-IRON-KORNER",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Gamma Piu"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Temperature values 1700-2300 have no unit; dropped.",
+     "label": "דרגות חום",
+     "value": "4 דרגות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך המוט",
+     "value": "190 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר המוט",
+     "value": "16–32 מ״מ (מוט קוני)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "200 גרם"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "לאחר 60 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צורת המוט",
+     "value": "קונוס הפוך"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "ציפוי",
+     "value": "Rainbow Finish להפחתת חשמל סטטי בשיער"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "ידית",
+     "value": "ארגונומית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מתאים במיוחד לבעלות שיער ארוך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote is about the ergonomic handle, not heating speed.",
+   "text": "חימום מהיר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים במיוחד לבעלות שיער ארוך.",
+  "highlights": [
+   "ציפוי Rainbow להפחתת חשמל סטטי"
+  ],
+  "goodFor": [
+   "בעלות שיער ארוך שרוצות תלתלים בגדלים שונים מאותו מוט",
+   "מי שרוצה נפח גם בשורשי השיער",
+   "מי שמחפשת מסלסל קל עם כיבוי אוטומטי"
+  ],
+  "considerations": [
+   "המוט קוני ללא תפס, כדאי לוודא שנוח לך לעבוד בשיטה הזו",
+   "בדקו מול המוכר את ערכי הטמפרטורה של דרגות החום",
+   "המוצר מוצע בייבוא מקביל, כדאי לברר מי נותן אחריות"
+  ],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מסלסל הפלא",
+   "Gamma Piu IRON KORNER",
+   "מסלסל שיער גאמה",
+   "מסלסל קוני",
+   "מסלסל שיער לשיער ארוך",
+   "גאמה פיו מסלסל"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "GAMMA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שם",
+   "catalogValue": "מסלסל הפלא",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות חום",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "4 דרגות (1700, 1900, 2100, 2300)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך המוט",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "190 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר המוט",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "16-32 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "200 גרם",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "identity",
+   "issue": "כל הנתונים מדף קמעונאי אחד (LastPrice). דף היצרן gammapiu.co.il לא נטען, ולכן אין אישור מיבואן או מהיצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "הדף מסווג את המוצר כייבוא מקביל ומציין אחריות של היבואן הרשמי. היבואן לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "דרגות חום",
+   "issue": "הדף מציג 1700 1900 2100 2300 בלי יחידה ובלי נקודה עשרונית. ייתכן שמדובר ב-170 עד 230 מעלות, לא אומת מול היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הדגם IRON KORNER מופיע בדף LastPrice. קיימים וריאנטים דומים כמו XL, Gold ו-Rainbow שלא נכללו כראיה.",
+   "severity": "low"
+  },
+  {
+   "field": "category",
+   "issue": "הקטגוריה בקטלוג היא מחליקי שיער, אך המוצר הוא מסלסל שיער.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "כל הנתונים מדף קמעונאי יחיד (LastPrice) המסווג את המוצר כייבוא מקביל; היבואן והיצרן לא אומתו.",
+   "severity": "medium"
+  },
+  {
+   "field": "דרגות חום",
+   "issue": "הדף מציג 1700 1900 2100 2300 ללא יחידה; ערכי הטמפרטורה לא פורסמו ויש לאמת מול היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "בקטלוג המותג GAMMA, במקור Gamma Piu.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 1 corrected to '4 דרגות' only: the listed values 1700-2300 have no unit and look like a decimal-point loss, so they are not published. Feature 1 (fast heating) rejected: its quote is about the ergonomic handle. Catalog category says hair straighteners but the product is a curling iron. | code guard removed: summary: \"מסלסל השיער Gamma Piu IRON KORNER הוא מסלסל עם מוט בצורת קונוס הפוך, בקוטר 16–32 מ״מ ובאורך 190 מ״מ, שמעניק נפח גם לשורשי השיער.\"; summary: \"יש לו 4 דרגות חום, ציפוי Rainbow להפחתת חשמל סטטי וכיבוי אוטומטי לאחר 60 דקות.\"; faq: \"מה קוטר המוט?\"; faq: \"כמה דרגות חום יש?\"; faq: \"האם המסלסל נכבה לבד?\"; faq: \"כמה הוא שוקל?\"; metaDescription: \"מסלסל שיער Gamma Piu IRON KORNER עם מוט קוני בקוטר 16–32 מ״מ, 4 דרגות חום וכיבוי אוטומטי לאחר 60 דקות. בחדד אלקטריק נהריה\"; highlight: \"מוט קוני בקוטר 16–32 מ״מ ובאורך 190 מ״מ\"; highlight: \"4 דרגות חום\"; highlight: \"כיבוי אוטומטי לאחר 60 דקות\"; highlight: \"משקל 200 גרם וידית ארגונומית\""
+ }
+}

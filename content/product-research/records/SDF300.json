@@ -1,0 +1,269 @@
+{
+ "modelNumber": "SDF300",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "SDF300",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The model name SDF300 appears on the Zap comparison page, which lists it as Sauter SDF300 סיר טיגון עמוק 3 ליטר. The Home Center page that also names it could not be fetched (HTTP 429). No manufacturer, importer or EU manual page for SDF300 was found. Sibling model DF4100 (1800W) was not used as evidence. | QA: Both pages name Sauter SDF300 deep fryer 3 liters, matching the catalog name and oil capacity. Both are comparison-site pages (same model id), no manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1262827",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?productid=1262827",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Sauter"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח שמן",
+     "value": "3 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת טיגון",
+     "value": "עד 700 גרם מזון"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בקרת טמפרטורה",
+     "value": "מכנית מתכווננת"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed 'נשלף' - not in quote.",
+   "text": "מיכל שמן עם ציפוי נון-סטיק"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה עם חלון זכוכית"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פילטר מובנה נגד ריחות"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורית חיווי פעולה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סיר טיגון עמוק של Sauter, דגם SDF300, עם נפח שמן של 3 ליטר וקיבולת טיגון של עד 700 גרם מזון. גוף הנירוסטה, בקרת הטמפרטורה המכנית המתכווננת והמכסה עם חלון הזכוכית מאפשרים לטגן ולעקוב אחרי המזון בלי לפתוח. מתאים למי שמטגן בבית צ'יפס, שניצלים או ירקות בכמויות ביתיות.",
+  "highlights": [
+   "נפח שמן 3 ליטר",
+   "קיבולת טיגון עד 700 גרם מזון",
+   "בקרת טמפרטורה מכנית מתכווננת",
+   "גוף נירוסטה",
+   "פילטר מובנה נגד ריחות"
+  ],
+  "goodFor": [
+   "טיגון עמוק ביתי של צ'יפס, שניצלים וירקות",
+   "מי שרוצה לכוון את טמפרטורת השמן לפי סוג המזון",
+   "מטבח שבו חשוב לצמצם ריחות טיגון בזכות הפילטר המובנה"
+  ],
+  "considerations": [
+   "לבדוק שקיבולת טיגון של עד 700 גרם בכל סבב מספיקה לכמויות שאתם מכינים",
+   "לוודא מקום על השיש ליד שקע חשמל לסיר ולאדים בזמן הטיגון",
+   "לבדוק את דרך ניקוי מיכל השמן עם ציפוי הנון-סטיק לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "כמה שמן נכנס בסיר הטיגון Sauter SDF300?",
+    "a": "נפח השמן של הסיר הוא 3 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה מזון אפשר לטגן בבת אחת?",
+    "a": "קיבולת הטיגון היא עד 700 גרם מזון בכל סבב.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לכוון את טמפרטורת השמן?",
+    "a": "כן, לסיר יש בקרת טמפרטורה מכנית מתכווננת.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בסיר סינון ריחות?",
+    "a": "כן, בסיר יש פילטר מובנה נגד ריחות, ומכסה עם חלון זכוכית למעקב אחרי המזון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון עמוק Sauter SDF300 מנירוסטה עם נפח שמן 3 ליטר וקיבולת טיגון עד 700 גרם, בקרת טמפרטורה מתכווננת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סיר טיגון עמוק",
+   "Sauter SDF300",
+   "סאוטר SDF300",
+   "סיר טיגון 3 ליטר",
+   "סיר טיגון נירוסטה",
+   "סיר טיגון בשמן",
+   "סיר טיגון עמוק Sauter"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח שמן 3 ליטר",
+   "catalogValue": "3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת טיגון עד 700 גרם",
+   "catalogValue": "עד 700 גרם מזון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת טמפרטורה מכנית מתכווננת",
+   "catalogValue": "מכנית מתכווננת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף נירוסטה",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק 1820-2180W",
+   "catalogValue": "1820-2180W",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "The catalog gives a power range of 1820-2180W. No fetched page for SDF300 states a power value. The only power figure found (1800W) belongs to sibling model DF4100 and was not used.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Only one page that names SDF300 was fetched (Zap comparison page, kind other). Its listings mention an official importer, but no named importer was found. The Home Center page that also names the model returned HTTP 429. Facts from this single site will go to review, not publish.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog states 1820-2180W but no source for SDF300 states a power value; not published, needs a manufacturer or importer source.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "All evidence comes from comparison-site pages (Zap and its Wisebuy mirror) whose text matches the catalog wording closely; no manufacturer, importer or manual source was found. Israeli importer unknown.",
+   "severity": "medium"
+  },
+  {
+   "field": "מיכל שמן נשלף",
+   "issue": "Catalog says the oil container is removable; sources only say it has a non-stick coating.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 reworded: the quote does not say the oil container is removable, so 'נשלף' was dropped. Wisebuy relabelled from il-retailer to other (price comparison site, mirror of Zap). Power (catalog 1820-2180W) is not stated in any source and is not published."
+ }
+}

@@ -1,0 +1,272 @@
+{
+ "modelNumber": "OW210130",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Moulinex",
+  "exactModel": "OW210130",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Pain Doré bread maker. Retailer and manual Q&A pages name the model OW210130; some listings use the code OW2101. No Israeli importer page found. | QA: Coolblue and AskManual pages name Moulinex Pain Doré OW210130; specs (720 W, 12 programs) match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.coolblue.be/en/product/880642/moulinex-pain-dore-ow210130.html",
+   "publisher": "Coolblue",
+   "kind": "retailer",
+   "market": "BE",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://askmanual.pages.dev/moulinex/moulinex-ow210130-pain-dore-bread-machine-instruction/q/what-is-the-power-rating-of-the-pain-doré-ow210130",
+   "publisher": "AskManual",
+   "kind": "other",
+   "market": "intl",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://askmanual.pages.dev/moulinex/moulinex-ow210130-pain-dore-bread-machine-instruction/q/what-accessories-are-included-with-the-bread-machine",
+   "publisher": "AskManual",
+   "kind": "other",
+   "market": "intl",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דגם",
+     "value": "OW210130"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "720 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "29 × 29 × 31 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "decimal comma normalized",
+     "label": "משקל",
+     "value": "3.8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "decimal comma normalized",
+     "label": "משקל לחם מינימלי",
+     "value": "0.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "12"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תוכנית אפייה ללא גלוטן"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כף מדידה, כוס מדידה וקרס לישה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכונת לחם Moulinex Pain Doré דגם OW210130 לאפיית לחם ביתי. מתאימה למי שרוצה לאפות לחם טרי בבית בלי ללוש ידנית.",
+  "highlights": [
+   "תוכנית ללא גלוטן",
+   "הספק 720 W",
+   "כולל כף מדידה, כוס מדידה וקרס לישה"
+  ],
+  "goodFor": [
+   "אפיית לחם טרי בבית בלי לישה ידנית",
+   "מי שצריך לחם ללא גלוטן",
+   "מטבח שבו רוצים מכשיר קומפקטי על השיש"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "האם אפשר לאפות לחם ללא גלוטן?",
+    "a": "כן, יש תוכנית ייעודית ללחם ללא גלוטן.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכונה?",
+    "a": "ההספק הוא 720 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "כף מדידה, כוס מדידה וקרס לישה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מכונת לחם מולינקס",
+   "Moulinex OW210130",
+   "אופה לחם",
+   "מכונת לחם ללא גלוטן",
+   "Moulinex Pain Doré",
+   "אופה לחם מולינקס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "720W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות אפייה",
+   "catalogValue": "12 תוכניות אפייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת אפייה",
+   "catalogValue": "500 גרם, 750 גרם, 1000 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר השהיה",
+   "catalogValue": "עד 15 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שמירת חום",
+   "catalogValue": "60 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ מותג",
+   "catalogValue": "צרפת",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "The 3,8 kg weight comes from a single retailer page and no second source was confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "קיבולת אפייה",
+   "issue": "The catalog's three loaf sizes (500, 750, 1000 g) were not verified on a fetched page; the catalog name says up to 1 kg.",
+   "severity": "medium"
+  },
+  {
+   "field": "שמירת חום",
+   "issue": "Keep-warm duration and delayed-start timer from the catalog were not verified on a fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "קיבולת אפייה",
+   "issue": "The catalog's three loaf sizes (500, 750, 1000 g) and the up-to-1 kg in the name were not verified; only a 0.5 kg minimum is sourced.",
+   "severity": "medium"
+  },
+  {
+   "field": "טיימר ושמירת חום",
+   "issue": "Catalog delay timer and keep-warm duration were not verified on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer source found; Israeli variant not confirmed.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Normalized decimal commas to points in weight (3.8 kg) and minimum loaf weight (0.5 kg). Catalog loaf sizes, delay timer and keep-warm duration were not verified and are not published. | code guard removed: summary: \"המכונה מגיעה עם 12 תוכניות, כולל תוכנית ללא גלוטן, והספק של 720 W.\"; faq: \"כמה תוכניות יש במכונת הלחם?\"; metaDescription: \"מכונת לחם Moulinex Pain Doré דגם OW210130 עם 12 תוכניות כולל ללא גלוטן והספק 720 W. מידות 29 × 29 × 31 ס״מ. בחדד אלקטריק נהריה\"; highlight: \"12 תוכניות אפייה\"; highlight: \"מידות 29 × 29 × 31 ס״מ\"; consideration: \"לוודא מקום על השיש למכשיר במידות 29 × 29 × 31 ס״מ\"; consideration: \"משקל הלחם המינימלי הוא 0.5 ק״ג\"; consideration: \"משקל המכשיר 3.8 ק״ג, כדאי לתכנן היכן יאוחסן\""
+ }
+}

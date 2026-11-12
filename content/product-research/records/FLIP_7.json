@@ -1,0 +1,414 @@
+{
+ "modelNumber": "FLIP 7",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "JBL",
+  "exactModel": "FLIP 7",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Portable Bluetooth speaker (JBL Flip 7, SKU JBLFLIP7BLK), not a home appliance. Specs taken from the JBL product page (mm.jbl.com) and one Israeli retailer (GoMobile). Israeli importer not confirmed on the fetched pages. | QA: Same model JBL Flip 7, but the manufacturer page is for the black variant while the catalog name says white; colour of the store item and Israeli importer not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://mm.jbl.com/bluetooth-portables/FLIP-7.html",
+   "publisher": "JBL",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.gomobile.co.il/product/jbl-flip-7/",
+   "publisher": "GoMobile",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote has no unit; consistent with catalog 182.5 × 69.5 × 71.5 מ״מ.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "18.3 × 7.0 × 7.2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "25 W RMS לוופר ו-10 W RMS לטוויטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן נגינה",
+     "value": "עד 14 שעות בטעינה אחת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not tie 16 hours to Playtime Boost.",
+     "label": "זמן נגינה עם Playtime Boost",
+     "value": "עד 16 שעות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוללה",
+     "value": "ליתיום-יון פולימר 17.28 Wh"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "כ-2.5 שעות"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גרסת Bluetooth",
+     "value": "Bluetooth 5.4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Auracast",
+     "value": "נתמך (Auracast™)"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג עמידות",
+     "value": "IP68 (עמיד למים, לאבק ולנפילות)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עמידות במים",
+     "value": "טבילה במים מתוקים עד 1.5 מטר למשך עד 30 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומרים ממוחזרים",
+     "value": "77% פלסטיק ממוחזר ו-100% בד ממוחזר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed real-time analysis claim not in quote.",
+   "text": "טכנולוגיית AI Sound Boost של JBL"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עמיד לנפילה מגובה 1 מטר על רצפת בטון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Trimmed unsupported claim.",
+   "text": "חיבור Auracast™ לצימוד סטריאו של שני רמקולי Flip 7"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "השמעת אודיו ללא אובדן נתונים (Lossless) דרך חיבור USB-C למחשב נייד או להתקן שמע"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תמיכה באפליקציית JBL Portable לתמיכה, עדכונים ובקרת שמע מותאמת"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לולאה וקרבינר לנשיאה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "JBL Flip 7 הוא רמקול Bluetooth נייד בדירוג IP68, עמיד למים, לאבק ולנפילות. הוא מספק הספק של 25 W RMS לוופר ו-10 W RMS לטוויטר, ועד 14 שעות נגינה בטעינה אחת. מתאים למי שמחפש רמקול קומפקטי לבית, לחוף ולטיולים.",
+  "highlights": [
+   "דירוג IP68: עמיד למים, לאבק ולנפילות",
+   "הספק 25 W RMS לוופר ו-10 W RMS לטוויטר",
+   "עד 14 שעות נגינה בטעינה אחת",
+   "השמעת אודיו Lossless דרך USB-C"
+  ],
+  "goodFor": [
+   "בילוי בחוף או בבריכה, בזכות עמידות לטבילה במים מתוקים עד 1.5 מטר",
+   "טיולים ופעילות בחוץ, עם לולאה וקרבינר לנשיאה",
+   "האזנה לאורך יום שלם בלי לחפש שקע, עם עד 14 שעות נגינה",
+   "צימוד סטריאו של שני רמקולי Flip 7 באמצעות Auracast™"
+  ],
+  "considerations": [
+   "בדקו את צבע הרמקול בחנות, כי דף היצרן שנבדק מתייחס לגרסה השחורה",
+   "עמידות המים מתייחסת למים מתוקים, עד 1.5 מטר ועד 30 דקות",
+   "השמעת Lossless דורשת חיבור USB-C למחשב נייד או להתקן שמע"
+  ],
+  "faq": [
+   {
+    "q": "האם JBL Flip 7 עמיד למים?",
+    "a": "כן. הרמקול בדירוג IP68 ועמיד לטבילה במים מתוקים עד 1.5 מטר למשך עד 30 דקות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר שני רמקולים יחד?",
+    "a": "כן, באמצעות Auracast™ אפשר לצמד שני רמקולי Flip 7 בסטריאו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "JBL Flip 7",
+   "רמקול JBL Flip 7",
+   "רמקול בלוטוס נייד",
+   "רמקול עמיד למים",
+   "רמקול JBL",
+   "רמקול נייד IP68",
+   "JBL Flip 7 לבן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "182.5 x 69.5 x 71.5 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "0.56 ק\"ג",
+   "finding": "contradicted",
+   "correctValue": "0.826 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות Bluetooth (GFSK, π/4 DQPSK, 8DPSK)",
+   "catalogValue": "Bluetooth (GFSK, π/4 DQPSK, 8DPSK)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "USB-C lossless",
+   "catalogValue": "חיבור USB-C לטעינה והשמעת אודיו ללא אובדן נתונים (Lossless)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "IP68",
+   "catalogValue": "עמיד במים ונפילות (IP68)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומרים ממוחזרים",
+   "catalogValue": "עשוי מ-77% פלסטיק ממוחזר ו-100% בד ממוחזר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אפליקציית JBL Portable",
+   "catalogValue": "תמיכה באפליקציית JBL Portable",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "25 W RMS לוופר ו-10 W RMS לטוויטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן נגינה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 14 שעות (עד 16 שעות עם Playtime Boost)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "17.28 Wh",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גרסת Bluetooth",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "Bluetooth 5.4",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Auracast",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "נתמך (Auracast™)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "The catalog name says the speaker is white (לבן), but the JBL page for this model is the black variant (SKU JBLFLIP7BLK, URL ends in Black). Check which colour this store item is.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Sources conflict on weight: JBL's spec table lists Net Weight 0.826 kg, while the GoMobile page and the catalog both list 0.56 kg. The JBL figure could not be quoted on one line, so it is not published as a fact; check the manufacturer figure.",
+   "severity": "high"
+  },
+  {
+   "field": "category",
+   "issue": "The store category is רמקולים and the product is a portable Bluetooth speaker, not a home appliance. Confirm the category fits the product.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_importer",
+   "issue": "The Israeli importer was not confirmed on the fetched pages.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says white, but the manufacturer page reviewed is the black variant. Confirm the colour of the store item.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight 0.56 kg; the researcher reports the JBL spec table lists 0.826 kg. Not verified by a quote; check the manufacturer figure.",
+   "severity": "high"
+  },
+  {
+   "field": "זמן נגינה",
+   "issue": "JBL page mentions both 14 and up to 16 hours of playtime; the 16-hour condition (Playtime Boost) was not verified and was not published.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_importer",
+   "issue": "Israeli importer not confirmed on the fetched pages.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 3 (16 hours): the quote does not mention Playtime Boost and sits beside a 14-hour figure on the same page, so the condition is not verifiable. Trimmed feature 0 (removed 'analyzes music in real time', not in quote) and feature 2 (removed 'connect more JBL speakers', not in quote). Dimensions kept: quote has no unit but matches the catalog's mm figures in cm. | code guard removed: faq: \"כמה זמן נגינה יש בטעינה אחת?\"; faq: \"איזו גרסת Bluetooth יש ברמקול?\"; metaDescription: \"רמקול Bluetooth נייד JBL Flip 7 בדירוג IP68 עמיד למים ולאבק, עם עד 14 שעות נגינה ו-Bluetooth 5.4. בחדד אלקטריק נהריה\"; highlight: \"Bluetooth 5.4 ותמיכה ב-Auracast™\"; consideration: \"זמן הטעינה המלאה הוא כ-2.5 שעות\""
+ }
+}

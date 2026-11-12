@@ -6,6 +6,7 @@ import type { Brand } from "@/types/brand";
 import { seoBrandName } from "@/lib/seo/brandNames";
 import { productSearchTitle, productMetaDescription, type SeoLocale } from "@/lib/seo/productNaming";
 import { shouldIndexListing } from "@/lib/seo/indexPolicy";
+import { getPublishedResearch } from "@/lib/research/published";
 import { hasProductTranslation, localizeCategoryName } from "@/lib/i18n/translated";
 
 export const SITE_NAME = BUSINESS.nameHe;
@@ -117,6 +118,18 @@ export function buildMetadata({
  * templates live in `productNaming` and are simulated across the whole catalog
  * by `scripts/seo-simulate.mts` before any template change ships.
  */
+/**
+ * The researched snippet, on the Hebrew page only and only when Yuval has not
+ * written a note — his note still leads the snippet where it exists, for the
+ * reason given in `productMetaDescription`. The research snippet is built
+ * from verified facts and passed QA, so it can stand in for the generated one.
+ */
+function researchedDescription(product: Product, locale: SeoLocale): string | null {
+  if (locale !== "he" || product.expertNote) return null;
+  const text = getPublishedResearch(product.modelNumber)?.metaDescription.trim();
+  return text && text.length >= 70 ? text : null;
+}
+
 export function generateProductMetadata(product: Product, locale: SeoLocale = "he"): Metadata {
   const hebrewPath = `/products/${product.slug}`;
   const path = locale === "he" ? hebrewPath : `/${locale}${hebrewPath}`;
@@ -131,7 +144,7 @@ export function generateProductMetadata(product: Product, locale: SeoLocale = "h
 
   return buildMetadata({
     title: productSearchTitle(product, locale),
-    description: productMetaDescription(product, locale),
+    description: researchedDescription(product, locale) ?? productMetaDescription(product, locale),
     path,
     locale,
     absoluteTitle: true,

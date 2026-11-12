@@ -1,0 +1,362 @@
+{
+ "modelNumber": "WQG233D1BY",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "WQG233D1BY",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Series 6 heat-pump tumble dryer, 8 kg, white. Exact model named on Bosch EU datasheet, Bosch spec sheet and EPREL fiche. No Israeli importer page was found. | QA: Exact model WQG233D1BY named on Bosch EU datasheet, spec sheet and EPREL fiche. No Israeli-market page found, so the Israeli variant is unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bosch-home.com/Documents/eudatasheet/sl-SI/WQG233D1BY.pdf",
+   "publisher": "Bosch Home (BSH)",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://eprel.ec.europa.eu/informationsheet/Fiche_1003527_HR.pdf",
+   "publisher": "EPREL (EU energy label database)",
+   "kind": "regulator",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/sl-SI/WQG233D1BY.pdf",
+   "publisher": "Bosch Home (BSH)",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "84.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "59.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק",
+     "value": "61.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "54.1 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 625W",
+     "label": "הספק חיבור",
+     "value": "600 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A+++"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "176 kWh לשנה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יעילות עיבוי",
+     "value": "91%"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש בייבוש",
+     "value": "64 dB"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מייבש עם משאבת חום (Heat Pump) בדירוג אנרגטי A+++"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיישן AutoDry שמייבש אוטומטית עד לרמת היובש הרצויה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אפשרות חצי מטען שמתאימה את הגדרות הייבוש לכמות קטנה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "משאבת חום עם חומר קירור ידידותי לסביבה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תכנון AntiVibration ליציבות ולפעולה שקטה יותר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניתן להתקנה מתחת למשטח עבודה"
+  }
+ ],
+ "content": {
+  "summary": "מייבש כביסה עם משאבת חום של בוש, דגם WQG233D1BY, בקיבולת 8 ק״ג. דירוג אנרגטי A+++ וצריכת אנרגיה שנתית של 176 kWh, עם חיישן AutoDry שעוצר את הייבוש ברמת היובש הרצויה. מתאים למי שמייבש כביסה באופן קבוע ומחפש מייבש חסכוני באנרגיה.",
+  "highlights": [
+   "קיבולת 8 ק״ג",
+   "משאבת חום בדירוג אנרגטי A+++",
+   "צריכת אנרגיה שנתית 176 kWh",
+   "חיישן AutoDry לייבוש עד רמת היובש הרצויה",
+   "ניתן להתקנה מתחת למשטח עבודה"
+  ],
+  "goodFor": [
+   "משקי בית שמייבשים כביסה לעתים קרובות ורוצים לחסוך בחשמל",
+   "מי שמייבש לפעמים כמות קטנה ויכול להיעזר באפשרות חצי מטען",
+   "מטבח או חדר כביסה שבו המייבש ייכנס מתחת למשטח עבודה"
+  ],
+  "considerations": [
+   "מדדו את הנישה: מידות המייבש 84.2 × 59.8 × 61.3 ס״מ (גובה × רוחב × עומק)",
+   "המשקל 54.1 ק״ג, כדאי לתכנן את ההובלה וההצבה בהתאם",
+   "עוצמת הרעש בייבוש היא 64 dB, שווה לקחת בחשבון אם המייבש ליד חדרי שינה",
+   "ודאו שיש שקע חשמל זמין במקום ההתקנה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של המייבש?",
+    "a": "הקיבולת הנומינלית היא 8 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל המייבש צורך?",
+    "a": "צריכת האנרגיה השנתית לפי תווית האנרגיה האירופית היא 176 kWh, בדירוג A+++. הספק החיבור הוא 600 W.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין אותו מתחת לשיש?",
+    "a": "כן, היצרן מציין שהמייבש ניתן להתקנה מתחת למשטח עבודה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המייבש?",
+    "a": "גובה 84.2 ס״מ, רוחב 59.8 ס״מ ועומק 61.3 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה משאבת חום בוש WQG233D1BY בקיבולת 8 ק״ג, דירוג אנרגטי A+++ וחיישן AutoDry. ניתן להתקנה מתחת לשיש. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש כביסה בוש",
+   "WQG233D1BY",
+   "מייבש משאבת חום 8 קג",
+   "מייבש כביסה A+++",
+   "Bosch WQG233D1BY",
+   "מייבש כביסה בוש סדרה 6",
+   "מייבש כביסה היט פאמפ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "625W",
+   "finding": "corrected",
+   "correctValue": "600 W",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "64dB",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A+++",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "176 kWh",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "טכנולוגיית משאבת חום (Heat Pump)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "פעולה מונעת קימוט",
+   "catalogValue": "אל-קמט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ייבוש מבוסס חיישנים",
+   "catalogValue": "ייבוש מבוסס חיישנים",
+   "finding": "confirmed",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "The catalog says 625 W. The Bosch spec sheet says the connected power is 600 W. Check before publishing the power figure.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The Bosch EU datasheet gives a minimum guarantee of 24 months. A retailer page reported 36 months, but I could not fetch it. The Israeli warranty term is unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Israeli-market page for this exact model was found. Confirm the Israeli variant and warranty with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "The Bosch spec sheet also prints an old-scale energy class C next to the A+++ label. The EPREL fiche confirms A+++, so the A+++ value is used.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog lists 625W; Bosch spec sheet states connected power 600 W.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Israeli-market page found for this exact model; confirm the Israeli variant and warranty.",
+   "severity": "medium"
+  },
+  {
+   "field": "פעולה מונעת קימוט",
+   "issue": "Catalog lists anti-crease function; not verified in the sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against Bosch EU datasheet/spec sheet and EPREL fiche. Catalog power 625W corrected to 600 W per Bosch spec sheet. Capacity value written as 8 ק״ג. Anti-crease feature from catalog not verified and not published."
+ }
+}

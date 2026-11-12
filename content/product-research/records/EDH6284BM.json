@@ -1,0 +1,178 @@
+{
+ "modelNumber": "EDH6284BM",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EDH6284BM",
+  "israeliImporter": "Electrolux Israel",
+  "matchConfidence": "medium",
+  "notes": "Only the importer's site-search result card names the exact model; no product page, manual or EPREL entry for EDH6284BM was found. | QA: Importer site search card names EDH6284BM with 8 kg Heat Pump; no product page, manual or EPREL record confirms full specs."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrolux.co.il/?s=EDH6284BM&post_type=product",
+   "publisher": "Electrolux Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית ייבוש",
+     "value": "Heat Pump (משאבת חום)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיישנים כפולים לייבוש מדויק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכנית מיוחדת לבגדי צמר ומשי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מייבש כביסה של Electrolux בקיבולת 8 ק״ג, הפועל בטכנולוגיית Heat Pump (משאבת חום). המייבש כולל חיישנים כפולים לייבוש מדויק ותוכנית מיוחדת לבגדי צמר ומשי. מתאים למי שמחפש מייבש משאבת חום עם טיפול עדין בבגדים.",
+  "highlights": [
+   "קיבולת ייבוש של 8 ק״ג",
+   "טכנולוגיית Heat Pump (משאבת חום)",
+   "חיישנים כפולים לייבוש מדויק",
+   "תוכנית מיוחדת לבגדי צמר ומשי"
+  ],
+  "goodFor": [
+   "משקי בית שמעדיפים מייבש בטכנולוגיית משאבת חום",
+   "מי שמייבש גם בגדי צמר ומשי ורוצה תוכנית ייעודית",
+   "מי שרוצה ייבוש מבוסס חיישנים במקום זמן קבוע"
+  ],
+  "considerations": [
+   "יש לבדוק את מידות המייבש מול הנישה או מיקום ההתקנה לפני הרכישה",
+   "כדאי לוודא שקע חשמל זמין ליד מיקום ההתקנה",
+   "מייבש משאבת חום דורש ריקון מיכל מים או חיבור לניקוז – כדאי לבדוק את אפשרות הניקוז בבית"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של המייבש?",
+    "a": "קיבולת הייבוש היא 8 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "באיזו טכנולוגיה המייבש פועל?",
+    "a": "המייבש פועל בטכנולוגיית Heat Pump (משאבת חום).",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לייבש בו בגדי צמר ומשי?",
+    "a": "כן, יש במייבש תוכנית מיוחדת לבגדי צמר ומשי.",
+    "sources": []
+   },
+   {
+    "q": "איך המייבש יודע מתי הכביסה יבשה?",
+    "a": "המייבש כולל חיישנים כפולים לייבוש מדויק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה Electrolux EDH6284BM בטכנולוגיית Heat Pump (משאבת חום), קיבולת 8 ק״ג וחיישנים כפולים לייבוש מדויק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש כביסה אלקטרולוקס",
+   "EDH6284BM",
+   "מייבש כביסה היט פאמפ",
+   "מייבש כביסה 8 קג",
+   "מייבש משאבת חום Electrolux",
+   "מייבש כביסה Heat Pump"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "Heat Pump (משאבת חום)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישנים",
+   "catalogValue": "כפולים לייבוש מדויק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A++",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "specs",
+   "issue": "Importer product page not reachable; only a search-result card names the model, so energy class, noise and dimensions are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "specs",
+   "issue": "Only an importer search-result card names the model; energy class (A++), dimensions, noise and delay timer are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No full product page, manual or EPREL record found for EDH6284BM; confirm the variant with the importer.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Only evidence is a search-result card on the Israeli importer site. Kept capacity, Heat Pump technology, dual sensors and wool/silk program. Energy class, dimensions and noise unverified; identity set to medium since no full product page was available."
+ }
+}

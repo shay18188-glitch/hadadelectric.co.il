@@ -1,0 +1,294 @@
+{
+ "modelNumber": "BHD274/00",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "BHD274/00",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם DryCare Pro מקצועי. דף Philips ישראל מציג את הדגם ללא טבלת מפרט מלאה; הספק 2200 W מאומת על ידי BUG (יבואן רשמי מסומן). אחריות ע\"י אלקטרה לפי BUG. היבואן המדויק לא צוין במפורש. | QA: Philips Israel, BUG and Coolblue all name BHD274/00 (DryCare Pro). Catalog name wattage 2700 W is contradicted by sources (2200 W)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.philips.co.il/c-p/BHD274_00/hair-dryer",
+   "publisher": "Philips Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מייבש-שיער-philips-9908785852",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.coolblue.be/en/product/837837/philips-drycare-pro-bhd274-00.html",
+   "publisher": "Coolblue",
+   "kind": "retailer",
+   "market": "BE",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "BHD274/00"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Contradicts catalog name 2700 W",
+     "label": "הספק",
+     "value": "2200 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות אוויר",
+     "value": "עד 130 קמ״ש"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Combined heat/speed settings per BUG",
+     "label": "הגדרות חום/מהירות",
+     "value": "6"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "AC"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "851 גרם"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Belgian retailer warranty, not Israeli warranty",
+     "label": "אחריות",
+     "value": "2 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע AC מקצועי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed overheating-protection claim not stated in quote",
+   "text": "הגדרת ThermoProtect"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פונקציית Cool Shot"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed static-electricity claim not in quote",
+   "text": "יוניזציה – הפצת יונים שליליים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פיית ייבוש צרה ודיפיוזר לתלתלים"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפשת מייבש עוצמתי לשימוש ביתי, כולל עיצוב תלתלים.",
+  "highlights": [
+   "מהירות אוויר של עד 130 קמ״ש",
+   "יוניזציה – הפצת יונים שליליים",
+   "כולל פיית ייבוש צרה ודיפיוזר לתלתלים"
+  ],
+  "goodFor": [
+   "ייבוש מהיר של שיער ארוך או עבה בזכות מנוע AC וזרימת אוויר חזקה",
+   "עיצוב תלתלים עם הדיפיוזר המצורף",
+   "ייבוש ממוקד וחלק עם פיית הייבוש הצרה"
+  ],
+  "considerations": [
+   "כדאי לוודא את תנאי האחריות בישראל לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "האם יש דיפיוזר באריזה?",
+    "a": "כן, המייבש מגיע עם דיפיוזר ליצירת תלתלים ועם פיית ייבוש צרה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Philips BHD274/00",
+   "מייבש שיער פיליפס",
+   "DryCare Pro",
+   "מייבש שיער עם דיפיוזר",
+   "מייבש שיער מנוע AC",
+   "מייבש שיער מקצועי",
+   "BHD274"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2700 וואט",
+   "finding": "contradicted",
+   "correctValue": "2200 W",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Philips",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דגם",
+   "catalogValue": "BHD274/00",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "שם המוצר בקטלוג מציין 2700 וואט, אך BUG מציין 2200 וואט וכך גם Coolblue (2200 W). יש לתקן את השם או הנתון.",
+   "severity": "high"
+  },
+  {
+   "field": "הגדרות חום",
+   "issue": "BUG מציין 6 הגדרות חום/מהירות, ו-Coolblue מציין 3 הגדרות טמפרטורה. מקורות לא תואמים.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "BUG מציין אחריות ע\"י אלקטרה, אך תקופת 2 שנים מופיעה רק בדף Coolblue (בלגיה). יש לאמת מול היבואן הישראלי.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמינות",
+   "issue": "דף Philips ישראל מציין שהמוצר אינו במלאי, ו-BUG מסומן כחסר זמנית. ייתכן שהדגם הופסק.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן הישראלי לא צוין במפורש. BUG מסמן יבואן רשמי ומציין אחריות ע\"י אלקטרה.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "המשקל (851 גרם) מגיע מדף Coolblue בבלגיה ולא מדף ישראלי. יש לוודא מול מפרט היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג מציין 2700 וואט, אך BUG ו-Philips מציינים 2200 W. יש לתקן את הנתון בשם.",
+   "severity": "high"
+  },
+  {
+   "field": "הגדרות חום/מהירות",
+   "issue": "BUG מציין 6 הגדרות חום/מהירות; לפי סיכום החוקר Coolblue מציין 3 הגדרות טמפרטורה (ייתכן שילוב 3 חום × 2 מהירויות). לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות בישראל לא אומתה (BUG מציין אחריות ע\"י אלקטרה).",
+   "severity": "medium"
+  },
+  {
+   "field": "זמינות",
+   "issue": "לפי החוקר המוצר אינו במלאי ב-Philips ישראל וב-BUG; ייתכן שהדגם הופסק.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (2 years comes only from a Belgian retailer; Israeli warranty via Electra per BUG, period unverified). Kept power 2200 W which contradicts the catalog name (2700 W). Kept 6 heat/speed settings from BUG with a flag. | code guard removed: summary: \"Philips DryCare Pro BHD274/00 הוא מייבש שיער עם מנוע AC מקצועי בהספק 2200 W ומהירות אוויר של עד 130 קמ״ש.\"; summary: \"הוא מציע 6 הגדרות חום/מהירות, פונקציית Cool Shot ויוניזציה, ומגיע עם פיית ייבוש צרה ודיפיוזר.\"; faq: \"מה ההספק של Philips BHD274/00?\"; faq: \"כמה הגדרות יש למייבש?\"; faq: \"כמה שוקל המייבש?\"; metaDescription: \"מייבש שיער Philips DryCare Pro BHD274/00 עם מנוע AC מקצועי 2200 W ומהירות אוויר עד 130 קמ״ש, כולל דיפיוזר. בחדד אלקטריק נהריה\"; highlight: \"מנוע AC מקצועי בהספק 2200 W\"; highlight: \"6 הגדרות חום/מהירות ופונקציית Cool Shot\"; consideration: \"המשקל הוא 851 גרם – כדאי לבדוק שהוא נוח לך לאחיזה ממושכת\"; consideration: \"הספק המכשיר לפי היצרן והמשווקים הוא 2200 W\""
+ }
+}

@@ -1,0 +1,437 @@
+{
+ "modelNumber": "TMF7262NHW",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Amcor",
+  "exactModel": "TMF7262NHW",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only two Israeli retailer pages name this exact model with a full spec table. No manufacturer, importer or EPREL page was found. The stainless sibling TMF7262NHSS was not used. | QA: Both sources name TMF7262NHW in white with matching specs. No manufacturer, importer or EPREL page; retailer-only evidence."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.almnara.co.il/items/9687040-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-7-%D7%AA%D7%90%D7%99%D7%9D-274-%D7%9C%D7%99%D7%98%D7%A8-Amcor-NF-TMF7262NHW-%D7%92%D7%99%D7%9E%D7%95%D7%A8-%D7%9C%D7%91%D7%9F",
+   "publisher": "Almnara",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.c-hachashmal.co.il/items/9531852-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-7-%D7%AA%D7%90%D7%99%D7%9D-274-%D7%9C%D7%99%D7%98%D7%A8-Amcor-%D7%93%D7%92%D7%9D-TMF7262NHW-%D7%92%D7%99%D7%9E%D7%95%D7%A8-%D7%9C%D7%91%D7%9F-NF-%D7%93%D7%95%D7%A8%D7%95%D7%AA",
+   "publisher": "C-Hachashmal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 185 × 65 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog name says 262",
+     "label": "נפח נטו",
+     "value": "274 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תאים",
+     "value": "7"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מגירות",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מדפים",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת הקפאה",
+     "value": "NO FROST"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אקלים",
+     "value": "CLASS T (תקן טרופי)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בקרת טמפרטורה",
+     "value": "אלקטרונית"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer-stated; provider wording differs",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בקרת טמפרטורה אלקטרונית, תצוגת LED ומאוורר שקט במיוחד"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעבר ממקפיא למקרר בלחיצה אחת להתאמה גמישה לצורכי האחסון"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית NO FROST למניעת הצטברות קרח ולתחזוקה קלה"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3 מגירות הקפאה ו-4 מדפים עם מדפי זכוכית לחלוקה וסידור נוחים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקפיא עומד של Amcor בדגם TMF7262NHW בגימור לבן, בנפח נטו של 274 ליטר וטכנולוגיית NO FROST שמונעת הצטברות קרח. המקפיא כולל 3 מגירות הקפאה ו-4 מדפים, בקרת טמפרטורה אלקטרונית ותצוגת LED, ואפשרות מעבר ממקפיא למקרר בלחיצה אחת. מתאים למי שמחפש מקפיא נפרד בנפח גדול לצד המקרר הקיים.",
+  "highlights": [
+   "נפח נטו 274 ליטר",
+   "טכנולוגיית NO FROST ללא הצטברות קרח",
+   "3 מגירות הקפאה ו-4 מדפים",
+   "מעבר ממקפיא למקרר בלחיצה אחת",
+   "דירוג אקלים CLASS T (תקן טרופי)"
+  ],
+  "goodFor": [
+   "משפחות שמקפיאות כמויות גדולות של מזון ומחפשות נפח אחסון נוסף",
+   "מי שרוצה להימנע מהפשרה ידנית של קרח בזכות NO FROST",
+   "מי שרוצה גמישות להפוך את היחידה למקרר נוסף בעת הצורך",
+   "התקנה בסביבה חמה, בזכות דירוג אקלים CLASS T"
+  ],
+  "considerations": [
+   "ודאו שהנישה מתאימה למידות 60 × 185 × 65 ס״מ, כולל מרווח לפתיחת הדלת",
+   "דירוג האנרגיה הוא E, כדאי לקחת זאת בחשבון בצריכת החשמל השוטפת"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקפיא?",
+    "a": "נפח נטו של 274 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם המקפיא NO FROST?",
+    "a": "כן, שיטת ההקפאה היא NO FROST, ללא הצטברות קרח.",
+    "sources": []
+   },
+   {
+    "q": "כמה מגירות ומדפים יש במקפיא?",
+    "a": "3 מגירות הקפאה ו-4 מדפים, 7 תאים בסך הכול.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בו כמקרר?",
+    "a": "כן, ניתן לעבור ממקפיא למקרר בלחיצה אחת.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקפיא?",
+    "a": "רוחב 60 ס״מ, גובה 185 ס״מ ועומק 65 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקפיא עומד Amcor TMF7262NHW בגימור לבן, נפח נטו 274 ליטר, טכנולוגיית NO FROST עם 3 מגירות ו-4 מדפים ומעבר למצב מקרר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקפיא Amcor",
+   "TMF7262NHW",
+   "מקפיא אמקור 274 ליטר",
+   "מקפיא נו פרוסט",
+   "מקפיא 7 תאים",
+   "מקפיא עומד לבן",
+   "מקפיא NO FROST אמקור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר – נפח",
+   "catalogValue": "262 ליטר",
+   "finding": "contradicted",
+   "correctValue": "274 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו",
+   "catalogValue": "274 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תאים",
+   "catalogValue": "7 (3 מגירות ו-4 מדפים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שם המוצר – מגירות",
+   "catalogValue": "7 מגירות",
+   "finding": "contradicted",
+   "correctValue": "3 מגירות ו-4 מדפים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הקפאה",
+   "catalogValue": "NO FROST",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אקלים",
+   "catalogValue": "CLASS T",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס\"מ, עומק 65 ס\"מ, גובה 185 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת טמפרטורה / תצוגה / מאוורר",
+   "catalogValue": "בקרה אלקטרונית, תצוגת LED, מאוורר שקט במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שינוי כיוון פתיחת דלת",
+   "catalogValue": "אפשרות לשינוי כיוון פתיחת דלת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג מציין 262 ליטר, אך שני אתרי הקמעונאים מציינים נפח נטו 274 ליטר. לא נמצא עמוד יצרן או יבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "name",
+   "issue": "שם המוצר מציין 7 מגירות, אך המפרט מציין 3 מגירות ו-4 מדפים (7 תאים סך הכול).",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "אתר אחד מציין אחריות שנה על ידי החברה, ואתר אחר מציין שנה אחריות ע\"י היבואן הרשמי. היבואן הישראלי לא זוהה.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "אין עמוד יצרן, יבואן או EPREL שמזכיר את הדגם המדויק. כל העובדות מבוססות על שני אתרי קמעונאים בלבד, והערכים עשויים לדרוש אימות מול המודל עצמו.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג מציין 262 ליטר, אך שני מקורות מציינים נפח נטו 274 ליטר.",
+   "severity": "high"
+  },
+  {
+   "field": "name",
+   "issue": "שם המוצר מציין 7 מגירות, אך המקורות מציינים 3 מגירות ו-4 מדפים (7 תאים).",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "האחריות (שנה) מבוססת על אתרי קמעונאים בלבד; מקור אחד מייחס אותה לחברה ואחר ליבואן הרשמי, שלא זוהה.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "אין עמוד יצרן, יבואן או EPREL; כל העובדות מאתרי קמעונאים.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts are supported by ok quotes from two Israeli retailer pages naming the exact model. Catalog name states 262 liters and 7 drawers; sources state 274 liters net and 3 drawers plus 4 shelves (7 compartments). Flagged for human review; no fact values changed. Warranty kept as one year, provider wording differs between sources."
+ }
+}

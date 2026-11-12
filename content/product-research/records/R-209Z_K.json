@@ -1,0 +1,183 @@
+{
+ "modelNumber": "(R-209Z(K",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "R-209ZK",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "medium",
+  "notes": "The catalog model (R-209Z(K is not printed on any page read. The closest page names R209ZK in its title and product code, with a black body and black door. It is not confirmed as the same unit. Sibling names R209K, R209Z and R-209B also appear on Israeli retailer pages, and the variant is not confirmed. | QA: Catalog name (20 ליטר, שחור, דיגיטלי) matches the R209ZK page; model string in catalog is malformed and should read R-209ZK. Single retailer source, no manufacturer confirmation."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מיקרוגל-שרפ-r209zk-שחור/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח",
+     "value": "20 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quoted as microwave power; page also lists a range, not used.",
+     "label": "הספק מיקרוגל",
+     "value": "800 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר מגש מסתובב",
+     "value": "25.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "צג דיגיטלי LED"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור, דלת שחורה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י ראלקו היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מיקרוגל משטח פשוט לחימום והפשרה יומיומיים, עם צג דיגיטלי LED.",
+  "highlights": [
+   "צג דיגיטלי LED",
+   "אחריות לשנה ע״י ראלקו, היבואן הרשמי"
+  ],
+  "goodFor": [
+   "מטבח בעיצוב כהה שמתאים לגוון שחור עם דלת שחורה"
+  ],
+  "considerations": [
+   "מדדו את המקום על השיש וודאו שיש שקע חשמל זמין בקרבת מקום",
+   "בדקו את דגם היחידה על התווית מול R-209ZK, כי קיימים דגמים דומים בסדרה"
+  ],
+  "faq": [
+   {
+    "q": "מי נותן את האחריות?",
+    "a": "האחריות היא לשנה, ע״י ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מיקרוגל שארפ",
+   "Sharp R-209ZK",
+   "מיקרוגל 20 ליטר",
+   "מיקרוגל שחור",
+   "מיקרוגל דיגיטלי",
+   "מיקרוגל שארפ 20 ליטר",
+   "R209ZK"
+  ]
+ },
+ "catalogCheck": [],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model (R-209Z(K appears on no page read. The only close match is R209ZK on one Israeli retailer page, and the sibling names R209K, R209Z and R-209B appear elsewhere. The exact model and variant need checking against the unit label or the Sharp manual.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Only one retailer page was found with spec lines for this model. Manufacturer or importer confirmation was not found. The wattage range on that page is listed as 600 to 900 W, while 800 W is quoted for the product.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The retailer page gives height 25.8 cm, depth 32 cm and width 44 cm. These could not be recorded as facts because the lines were too short to quote as evidence. Check them against the manufacturer data.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog model number '(R-209Z(K' is malformed; sources name R209ZK. Sibling models R209K, R209Z and R-209B exist, so the exact variant should be confirmed against the unit label.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts come from a single Israeli retailer page; no manufacturer or importer confirmation was found.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions (height, depth, width) were seen on the retailer page but could not be verified as quoted facts; check against manufacturer data before publishing dimensions.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All six facts kept from one Israeli retailer page naming R209ZK (black body, black door). Catalog model string '(R-209Z(K' looks like a garbled R-209ZK; identity set to medium because only one retailer source exists and sibling variants (R209K, R209Z, R-209B) exist. Wattage 800 W kept as quoted; the 600-900 W range on the page is not used. | code guard removed: summary: \"מיקרוגל דיגיטלי של Sharp בנפח 20 ליטר, בגוון שחור עם דלת שחורה.\"; summary: \"הספק המיקרוגל הוא 800 W, ומגש מסתובב בקוטר 25.5 ס״מ.\"; faq: \"מה הנפח של המיקרוגל?\"; faq: \"מה ההספק של המיקרוגל?\"; faq: \"מה קוטר המגש המסתובב?\"; metaDescription: \"מיקרוגל דיגיטלי Sharp R-209ZK בנפח 20 ליטר, הספק 800 W ומגש מסתובב 25.5 ס״מ, בגוון שחור עם צג LED. בחדד אלקטריק נהריה\"; highlight: \"נפח 20 ליטר\"; highlight: \"הספק מיקרוגל 800 W\"; highlight: \"מגש מסתובב בקוטר 25.5 ס״מ\"; goodFor: \"מטבח קטן או דירה שבה נדרש מיקרוגל בנפח 20 ליטר\"; goodFor: \"חימום והפשרה יומיומיים בהספק 800 W\"; consideration: \"ודאו שהצלחות והקערות שלכם נכנסות על מגש בקוטר 25.5 ס״מ\""
+ }
+}

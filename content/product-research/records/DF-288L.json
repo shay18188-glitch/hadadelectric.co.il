@@ -1,0 +1,226 @@
+{
+ "modelNumber": "DF-288L",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "DF-288L",
+  "israeliImporter": "קלינטון",
+  "matchConfidence": "high",
+  "notes": "הדגם נמצא באתר ACE ובזאפ (שני אתרים). דף היצרן הסיני di-fei מציג רק את שם הדגם ללא מפרט. ההספק מפורסם כטווח 2000-2250W. | QA: Two Israeli retailers name Normande DF-288L directly."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ace.co.il/4506054",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://shop.zap.co.il/product-model?offerid=23036224",
+   "publisher": "zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "range per sources",
+     "label": "הספק",
+     "value": "2000–2250 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת אדים",
+     "value": "כ-40–60 גרם לדקה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "unusually large for an iron; flagged",
+     "label": "נפח מיכל מים",
+     "value": "1.3 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוליה",
+     "value": "קרמית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, באמצעות היבואן קלינטון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות גיהוץ אנכי"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת למניעת טפטוף מים במהלך השימוש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מגהץ קיטור של Normande, דגם DF-288L, עם הספק של 2000–2250 W וסוליה קרמית. המגהץ מספק תפוקת אדים של כ-40–60 גרם לדקה, כולל אפשרות גיהוץ אנכי ומערכת למניעת טפטוף. מתאים למי שמחפש מגהץ קיטור ביתי לגיהוץ שוטף, גם של בגדים תלויים.",
+  "highlights": [
+   "הספק 2000–2250 W",
+   "תפוקת אדים של כ-40–60 גרם לדקה",
+   "סוליה קרמית",
+   "אפשרות גיהוץ אנכי",
+   "מערכת למניעת טפטוף מים"
+  ],
+  "goodFor": [
+   "גיהוץ שוטף של בגדים בבית",
+   "רענון בגדים תלויים ווילונות בגיהוץ אנכי",
+   "מי שמעדיף סוליה קרמית שמחליקה על הבד"
+  ],
+  "considerations": [
+   "ההספק מצוין כטווח של 2000–2250 W ולא כערך יחיד",
+   "כדאי לוודא את נפח מיכל המים בפועל לפני הרכישה",
+   "האחריות לשנה ניתנת באמצעות היבואן קלינטון, בכפוף לתעודת אחריות"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המגהץ Normande DF-288L?",
+    "a": "לפי המפרט, ההספק הוא 2000–2250 W.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לגהץ איתו בגדים תלויים?",
+    "a": "כן, המגהץ כולל אפשרות גיהוץ אנכי.",
+    "sources": []
+   },
+   {
+    "q": "מאיזה חומר עשויה הסוליה?",
+    "a": "הסוליה עשויה קרמיקה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המגהץ?",
+    "a": "אחריות לשנה באמצעות היבואן קלינטון, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ קיטור Normande DF-288L: הספק 2000–2250 W, סוליה קרמית, גיהוץ אנכי ומערכת נגד טפטוף. לפרטים ולהתרשמות בחדד אלקטריק נהריה",
+  "keywords": [
+   "מגהץ קיטור",
+   "Normande DF-288L",
+   "מגהץ נורמנדי",
+   "DF-288L",
+   "מגהץ קיטור עם גיהוץ אנכי",
+   "מגהץ סוליה קרמית",
+   "מגהץ אדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר",
+   "catalogValue": "מגהץ קיטור 2250 וואט שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2250 וואט",
+   "finding": "corrected",
+   "correctValue": "2000-2250W",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "המקורות מציינים טווח הספק 2000-2250W ולא ערך יחיד; צבע שחור לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "המקורות מציינים טווח 2000–2250W, בעוד שם הקטלוג מציין 2250 וואט.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח מיכל מים",
+   "issue": "נפח 1.3 ליטר חריג למגהץ קיטור רגיל; לבדוק מול האריזה או היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הצבע השחור שבשם הקטלוג לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept all facts; power published as the 2000-2250W range the sources state (catalog says 2250). Tank volume 1.3 L is unusually large for a steam iron - flagged for check. Value wording lightly normalized."
+ }
+}

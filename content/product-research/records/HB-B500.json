@@ -1,0 +1,254 @@
+{
+ "modelNumber": "HB-B500",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "HB-B500",
+  "israeliImporter": "קלינטון סחר בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Normande Israel product page and an Israeli retailer both name HB-B500, 6 pots, 600W, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://normande.co.il/product/hb-b500/",
+   "publisher": "Normande Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://hashmalabait.co.il/product/פלטת-שבת-נורמנדה-דגם-hb-b500/",
+   "publisher": "חשמל לבית",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/search.aspx?keyword=HB-B500",
+   "publisher": "זאפ",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "600 וואט"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "6 סירים"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Axis order not stated in source; label generalised.",
+     "label": "מידות",
+     "value": "75 × 45 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר שכבה עליונה",
+     "value": "פלדה קרה מצופה אמייל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רגליות",
+     "value": "מצופות גומי סיליקון נגד החלקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ידיות",
+     "value": "2 ידיות לאחיזה נוחה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אישור שבת",
+     "value": "מאושר על ידי מכון צומת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחריות יבואן רשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פריסת חום רחבה על פני המשטח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "פלטת שבת של Normande, דגם HB-B500, לחימום מזון בשבת. הפלטה מותאמת ל-6 סירים, בהספק 600 וואט ובמידות 75 × 45 ס״מ, עם שכבה עליונה מפלדה קרה מצופה אמייל. מאושרת על ידי מכון צומת ומתאימה למשפחות שמחממות כמה סירים יחד לסעודות השבת.",
+  "highlights": [
+   "מותאמת ל-6 סירים",
+   "הספק 600 וואט",
+   "מידות 75 × 45 ס״מ",
+   "שכבה עליונה מפלדה קרה מצופה אמייל",
+   "מאושרת על ידי מכון צומת"
+  ],
+  "goodFor": [
+   "חימום כמה סירים במקביל לסעודות שבת וחג",
+   "מי שמחפש פלטה עם אישור מכון צומת לשימוש בשבת",
+   "שולחן או שיש שבו חשוב שהפלטה לא תחליק, בזכות רגליות מצופות סיליקון"
+  ],
+  "considerations": [
+   "ודאו שיש על השיש או השולחן מקום פנוי למשטח של 75 × 45 ס״מ",
+   "מומלץ לחבר לשקע נפרד וקרוב, ולחבר דרך שעון שבת לפי הצורך",
+   "משטח אמייל מומלץ לנקות בעדינות כדי לשמור על הציפוי"
+  ],
+  "faq": [
+   {
+    "q": "כמה סירים נכנסים על הפלטה?",
+    "a": "הפלטה מותאמת ל-6 סירים.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הפלטה?",
+    "a": "ההספק הוא 600 וואט.",
+    "sources": []
+   },
+   {
+    "q": "האם הפלטה מאושרת לשימוש בשבת?",
+    "a": "כן, היא מאושרת על ידי מכון צומת.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנה אחריות יבואן רשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פלטת שבת Normande דגם HB-B500 ל-6 סירים, הספק 600 וואט ומידות 75 × 45 ס״מ, משטח פלדה מצופה אמייל ואישור מכון צומת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "פלטת שבת 6 סירים",
+   "פלטת שבת נורמנדה",
+   "Normande HB-B500",
+   "HB-B500",
+   "פלטת שבת מאושרת מכון צומת",
+   "פלטת שבת 600 וואט",
+   "פלטה לשבת גדולה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "600W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 75 ס\"מ",
+   "finding": "confirmed",
+   "correctValue": "75×45 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "6 סירים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר",
+   "catalogValue": "פלדה קרה מצופה אמייל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled dimensions to 'מידות' (source gives 75x45cm without naming which axis is length/width). Zap search page reclassified as 'other' (price-comparison aggregator)."
+ }
+}

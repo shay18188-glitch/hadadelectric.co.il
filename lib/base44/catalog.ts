@@ -10,6 +10,7 @@ import type { Category } from "@/types/category";
 import type { Brand } from "@/types/brand";
 import { MOCK_CATALOG } from "@/lib/base44/mockCatalog";
 import { normalizeProduct } from "@/lib/normalize";
+import { applyResearch } from "@/lib/research/published";
 import {
   extractModelNumberFromSlug,
   generateBrandSlug,
@@ -192,7 +193,10 @@ export async function getProductCatalog(
   const result = await loadRawCatalog(params);
 
   if (result.ok) {
-    return { products: applyImageOverrides(result.data.map(normalizeProduct)), usedFallback: false };
+    return {
+      products: applyImageOverrides(result.data.map((raw) => applyResearch(normalizeProduct(raw)))),
+      usedFallback: false,
+    };
   }
 
   if (process.env.NODE_ENV !== "development") {

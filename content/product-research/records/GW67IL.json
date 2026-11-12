@@ -1,0 +1,322 @@
+{
+ "modelNumber": "GW67IL",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Gorenje",
+  "exactModel": "GW67IL",
+  "israeliImporter": "ח.י (H.Y)",
+  "matchConfidence": "high",
+  "notes": "לא נמצא עמוד יצרן או יבואן עבור הדגם; הנתונים מאתרי קמעונאים ישראליים בלבד. תוכן האחריות מתייחס ליבואן ח.י. | QA: Israeli retailer pages name the exact model GW67IL and match the catalog (60 cm, black matte, 4 burners). No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kreizman.co.il/product/gw67il-gorenje/",
+   "publisher": "קרייזמן חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1240215",
+   "publisher": "זאפ",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://zabilo.com/he/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96/14050-gw67il.html",
+   "publisher": "זבילו",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג",
+     "value": "כיריים גז"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור מט"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק",
+     "value": "52 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "13 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מבער קטן",
+     "value": "1 קוט״ש"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבערים בינוניים (2)",
+     "value": "1.8 קוט״ש"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Removed 'ווק' from label; quote says only 'מבער גדול'.",
+     "label": "מבער גדול",
+     "value": "3.5 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "הצתה אלקטרונית"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בטיחות גז",
+     "value": "חיישן אקוסטי וניתוק ביטחון למניעת דליפת גז"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote does not state a duration; value 'שנה' replaced with the importer named in the quote.",
+     "label": "אחריות",
+     "value": "אחריות ח״י (H.Y)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 נושאי סירים יצוקים דוחי שומנים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאימות למטבח ביתי שמחפש כיריים גז סטנדרטיות לשיש.",
+  "highlights": [
+   "מבער גדול בהספק 3.5 קוט״ש",
+   "הצתה אלקטרונית",
+   "חיישן אקוסטי וניתוק ביטחון למניעת דליפת גז",
+   "2 נושאי סירים יצוקים דוחי שומנים"
+  ],
+  "goodFor": [
+   "בישול במקביל בכמה סירים בגדלים שונים",
+   "מי שמחפש כיריים גז עם מנגנון ניתוק ביטחון",
+   "מטבח בעיצוב כהה שמתאים לגימור שחור מט"
+  ],
+  "considerations": [
+   "חיבור הכיריים לגז צריך להתבצע על ידי מתקין גז מוסמך",
+   "ההצתה האלקטרונית דורשת שקע חשמל בקרבת הכיריים"
+  ],
+  "faq": [
+   {
+    "q": "האם יש בכיריים הגנה מפני דליפת גז?",
+    "a": "כן, בכיריים חיישן אקוסטי וניתוק ביטחון למניעת דליפת גז.",
+    "sources": []
+   },
+   {
+    "q": "איך מדליקים את המבערים?",
+    "a": "לכיריים הצתה אלקטרונית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "כיריים גז Gorenje",
+   "GW67IL",
+   "גורניה GW67IL",
+   "כיריים גז 60 ס״מ",
+   "כיריים גז שחור מט",
+   "כיריים גז 4 להבות",
+   "כיריים גז עם ניתוק ביטחון"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס\"מ, עומק 52 ס\"מ, גובה 13 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבערים",
+   "catalogValue": "4 מבערים (מבער קטן 1 קוט\"ש, 2 מבערים בינוניים 1.8 קוט\"ש, מבער גדול/ווק 3.5 קוט\"ש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח",
+   "catalogValue": "אמייל שחור מט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הצתה",
+   "catalogValue": "הצתה אלקטרונית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בטיחות",
+   "catalogValue": "חיישן אקוסטי וניתוק ביטחון למניעת דליפת גז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נושאי סירים",
+   "catalogValue": "2 נושאי סירים יצוקים דוחי שומנים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כפתורים מוגנים בחזית",
+   "catalogValue": "כפתורים מוגנים בחזית",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "לא נמצא עמוד יצרן או יבואן שמזכיר את הדגם GW67IL; כל העובדות מקורן באתרי קמעונאים ובאתר השוואה.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "משך האחריות לא מצוין במקור; יש לאמת מול היבואן ח.י.",
+   "severity": "low"
+  },
+  {
+   "field": "כפתורים מוגנים בחזית",
+   "issue": "התכונה מופיעה בקטלוג אך לא אומתה במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 11 (warranty) value 'שנה' is not supported by the quote, which only names the importer warranty; corrected to the importer name. Fact 8 label dropped 'ווק' since the quote only says 'מבער גדול'. All other facts verified on Israeli retailer pages naming GW67IL. | code guard removed: summary: \"כיריים גז של Gorenje, דגם GW67IL, ברוחב 60 ס״מ בגימור שחור מט.\"; summary: \"בכיריים 4 מבערים: מבער קטן של 1 קוט״ש, 2 מבערים בינוניים של 1.8 קוט״ש ומבער גדול של 3.5 קוט״ש, עם הצתה אלקטרונית וחיישן ניתוק ביטחון למניעת דליפת גז.\"; faq: \"כמה מבערים יש בכיריים Gorenje GW67IL?\"; faq: \"מה המידות של הכיריים?\"; metaDescription: \"כיריים גז Gorenje GW67IL ברוחב 60 ס״מ, שחור מט, 4 מבערים עם מבער גדול 3.5 קוט״ש וניתוק ביטחון לגז. בחדד אלקטריק נהריה\"; highlight: \"4 מבערי גז ברוחב 60 ס״מ\"; goodFor: \"מטבח עם פתח שיש סטנדרטי ברוחב 60 ס״מ\"; consideration: \"בדקו שפתח השיש מתאים לרוחב של 60 ס״מ ועומק של 52 ס״מ\"; consideration: \"ודאו שיש מתחת לשיש מקום לגובה הכיריים של 13 ס״מ\""
+ }
+}

@@ -1,0 +1,238 @@
+{
+ "modelNumber": "RB53DG703CS9",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RB53DG703CS9",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Israeli retailer Bug.co.il names RB53DG703CS9 and lists a one-year warranty. UK retailer and Which? name the model; the Samsung UK page is the RB53DG703CS9EU variant and is not used as evidence. | QA: Bug.co.il (Israeli retailer) names RB53DG703CS9 with 538 L total, matching the catalog name. UK sources describe the RB53DG703CS9EU variant with the same capacities and dimensions."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-מקפיא-תחתון-538-ליטר-samsung-5102203rb53dg703cs9",
+   "publisher": "Bug.co.il",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://markselectrical.co.uk/rb53dg703cs9eu_samsung-total-no-frost-smart-combi-fridge-freezer-refined-inox",
+   "publisher": "Marks Electrical",
+   "kind": "retailer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "538 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "370 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "168 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From Marks Electrical 2030 x 759 x 711 mm (HxWxD), metric shift to cm.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "75.9 × 203 × 71.1 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "199 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Israeli retailer's stated warranty; confirm with importer.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מקרר מקפיא תחתון רחב עם תא הקפאה גדול.",
+  "highlights": [
+   "תא קירור 370 ליטר",
+   "תא הקפאה 168 ליטר"
+  ],
+  "goodFor": [
+   "מי שמאחסן הרבה מזון קפוא ורוצה תא הקפאה של 168 ליטר",
+   "מי שמעדיף מקפיא תחתון ותא קירור בגובה העיניים"
+  ],
+  "considerations": [
+   "כדאי למדוד את פתחי הדלתות והמעברים בבית לפני ההובלה",
+   "יש לוודא תנאי אחריות מול היבואן, לפי המפורסם האחריות היא לשנה"
+  ],
+  "faq": [
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "לפי הקמעונאי בישראל האחריות היא לשנה, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Samsung RB53DG703CS9",
+   "RB53DG703CS9",
+   "מקרר סמסונג מקפיא תחתון",
+   "מקרר 538 ליטר",
+   "מקרר מקפיא תחתון נירוסטה",
+   "מקרר סמסונג 538 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "538 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "370 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "168 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "199 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "75.9 × 203 × 71.1 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "109 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Israeli listings conflict: one lists energy class C under the new standard, another lists A. Confirm on the EU/Israeli energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Israeli retailer lists one year warranty; the UK retailer for the EU variant lists 5 years parts and labour. Confirm the Israeli warranty.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Net weight differs between sources (Samsung UK net weight 103.5 kg; UK retailer 109 kg). Catalog 109 kg is not confirmed by an Israeli source.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Catalog energy class C is not verified; Israeli listings reportedly conflict (C vs A). Confirm on the energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Israeli retailer lists one year; UK variant lists 5 years parts and labour. Confirm the Israeli importer's warranty.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight 109 kg not verified; sources differ (103.5 kg vs 109 kg).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions kept on the Marks Electrical quote (2030 x 759 x 711 mm, converted to cm); the Bug width-only quote does not carry all numbers. Warranty kept as the Israeli retailer's stated term but flagged for confirmation. | code guard removed: summary: \"מקרר Samsung RB53DG703CS9 עם מקפיא תחתון בנפח כולל של 538 ליטר, מתוכם 370 ליטר לתא הקירור ו-168 ליטר לתא ההקפאה.\"; summary: \"מידותיו 75.9 × 203 × 71.1 ס״מ וצריכת האנרגיה השנתית שלו 199 קוט״ש.\"; faq: \"מה הנפח של המקרר?\"; faq: \"מה מידות המקרר?\"; faq: \"כמה חשמל המקרר צורך?\"; metaDescription: \"מקרר מקפיא תחתון Samsung RB53DG703CS9 בנפח כולל של 538 ליטר עם תא הקפאה של 168 ליטר וצריכת אנרגיה שנתית של 199 קוט״ש. בחדד אלקטריק נהריה\"; highlight: \"נפח כולל 538 ליטר\"; highlight: \"צריכת אנרגיה שנתית 199 קוט״ש\"; highlight: \"מידות 75.9 × 203 × 71.1 ס״מ\"; goodFor: \"משפחות שזקוקות לנפח אחסון כולל גדול של 538 ליטר\"; consideration: \"יש לוודא שהנישה במטבח מתאימה לרוחב 75.9 ס״מ, לגובה 203 ס״מ ולעומק 71.1 ס״מ, כולל מרווח לאוורור\""
+ }
+}

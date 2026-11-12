@@ -1,0 +1,339 @@
+{
+ "modelNumber": "LDF30210W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "LDF30210W",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "Israeli retailer pages (CityDeal, Bug, Sofer Avi, Traklin) name the model LDF30210W and the Israeli importer Ralco. No manufacturer or importer page was reachable. Energy class conflicts: Bug lists D, the other three list E. UK retailers list 14 place settings; Israeli pages list 13. | QA: Four Israeli retailer pages name the exact model LDF30210W, white, 60 cm freestanding, imported by Ralco. Matches catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%93%D7%99%D7%97-%D7%9B%D7%9C%D7%99%D7%9D-%D7%A8%D7%97%D7%91-blomberg-ldf30210w-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/נקיון_וכביסה/מדיחי_כלים/מדיח_כלים_רחב_60_סמ_לבן_blomberg_דגם_ldf30210w_בלומברג",
+   "publisher": "Traklin Hashmal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/מדיח-כלים-רחב-blomberg-9195213251",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 85 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two ok quotes say E; Bug reportedly says D (not in evidence). Flagged.",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "49 dB"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י ראלקו היבואן הרשמי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת Aquavoid להגנה מפני נזקי מים"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר להשהיית תחילת ההדחה ב־3/6/9 שעות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ייבוש באמצעות מעבה (קונדנסור)"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חצי כמות להפעלה חסכונית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מנגנון ויסות מלח לריכוך מים קשים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מדיח כלים רחב Blomberg LDF30210W בצבע לבן, ברוחב 59.8 ס״מ ובגובה 85 ס״מ. המדיח מכיל 13 מערכות כלים, מציע 5 תוכניות ועוצמת רעש של 49 dB. מתאים למשפחה שמחפשת מדיח רחב עם הגנה מפני נזקי מים ואפשרות להשהיית תחילת ההדחה.",
+  "highlights": [
+   "קיבולת של 13 מערכות כלים",
+   "5 תוכניות הדחה",
+   "עוצמת רעש 49 dB",
+   "מערכת Aquavoid להגנה מפני נזקי מים",
+   "טיימר להשהיית תחילת ההדחה ב־3/6/9 שעות"
+  ],
+  "goodFor": [
+   "משק בית שמדיח כמות גדולה של כלים בכל הפעלה",
+   "הפעלה בשעות הלילה בזכות טיימר ההשהיה",
+   "אזורים עם מים קשים, בזכות מנגנון ויסות המלח",
+   "ימים עם מעט כלים, באמצעות הפעלת חצי כמות"
+  ],
+  "considerations": [
+   "ודאו שהנישה במטבח מתאימה למידות 59.8 × 85 × 60 ס״מ",
+   "בדקו שיש חיבור מים, ניקוז ושקע חשמל בקרבת מקום ההתקנה",
+   "דירוג האנרגיה המפורסם הוא E — כדאי לאמת מול תווית האנרגיה",
+   "האחריות היא לשנה ע״י ראלקו, היבואן הרשמי"
+  ],
+  "faq": [
+   {
+    "q": "כמה מערכות כלים נכנסות במדיח?",
+    "a": "המדיח מכיל 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המדיח?",
+    "a": "רוחב 59.8 ס״מ, גובה 85 ס״מ ועומק 60 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המדיח?",
+    "a": "עוצמת הרעש היא 49 dB.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לדחות את תחילת ההדחה?",
+    "a": "כן, יש טיימר להשהיית תחילת ההדחה ב־3/6/9 שעות.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות על המדיח?",
+    "a": "אחריות לשנה ע״י ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים רחב Blomberg LDF30210W לבן: 13 מערכות כלים, 5 תוכניות ועוצמת רעש 49 dB, עם הגנת Aquavoid. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Blomberg LDF30210W",
+   "מדיח כלים בלומברג",
+   "מדיח כלים רחב לבן",
+   "מדיח כלים 60 ס״מ",
+   "בלומברג LDF30210W",
+   "מדיח כלים 13 מערכות",
+   "מדיח כלים שקט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Bloomberg",
+   "finding": "corrected",
+   "correctValue": "Blomberg",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "13 מערכות כלים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "59.8 × 85 × 60 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "E",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "49 dB",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Bug lists the energy class as D; CityDeal, Sofer Avi and Traklin list E. Check the EU energy label or the importer before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand is spelled Bloomberg; the manufacturer and all pages spell it Blomberg.",
+   "severity": "low"
+  },
+  {
+   "field": "מערכות כלים",
+   "issue": "UK retailers list 14 place settings for this model; the Israeli pages list 13. Treat 13 as the Israeli variant figure.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "CityDeal and Traklin list energy class E, but research notes say Bug lists D. Verify against the energy label or importer before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand is spelled Bloomberg; all sources spell it Blomberg.",
+   "severity": "low"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "UK retailers reportedly list 14 place settings; Israeli pages list 13. 13 kept as the Israeli figure.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against Israeli retailer pages naming LDF30210W. Energy class E kept from CityDeal and Traklin, but research notes say Bug lists D; flagged for human check. Catalog brand spelling Bloomberg should be Blomberg (flagged)."
+ }
+}

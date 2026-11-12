@@ -1,0 +1,380 @@
+{
+ "modelNumber": "43NU850B6LA",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "43NU850B6LA",
+  "israeliImporter": "ח.י. סחר בישראל",
+  "matchConfidence": "high",
+  "notes": "Two Israeli retailers name the exact model 43NU850B6LA and state the official importer. The LG Egypt page names it with suffix .AFU. No LG Israel page for this model was found. | QA: Two Israeli retailers name the exact model 43NU850B6LA; LG Egypt page names the same model. Israeli variant suffix not confirmed on an LG Israel page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://mall4all.co.il/product/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-43-%D7%90%D7%99%D7%A0%D7%A5-lg-nano-uhd-%D7%A2%D7%9D-%D7%9E%D7%A2%D7%91%D7%93-ai-%D7%90%D7%9C%D7%A4%D7%90-7-%D7%93%D7%95/",
+   "publisher": "Mall4All",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-43-%D7%90%D7%99%D7%A0%D7%A5-%D7%90%D7%9C-%D7%92%D7%99-%E2%81%A643nu850b6la%E2%81%A9/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.lg.com/eg_en/tv-soundbars/nano-4k-uhd/43nu850b6la/",
+   "publisher": "LG Egypt",
+   "kind": "manufacturer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "43 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג תצוגה",
+     "value": "4K NANO UHD"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "אלפא 7 AI 4K דור 9"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תמיכה ב-HDR",
+     "value": "HDR10, HLG"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "959 × 563 × 70.8 מ״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות כולל מעמד (רוחב × גובה × עומק)",
+     "value": "959 × 618 × 200 מ״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "6.4 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל כולל מעמד",
+     "value": "6.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "webOS 26"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סאונד סראונד וירטואלי",
+     "value": "9.1.2 ערוצים"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "G"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Importer name not in quote; removed from value.",
+     "label": "תקופת אחריות",
+     "value": "שנה אחת ע״י היבואן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת webOS 26 עם שדרוגי מערכת הפעלה למשך 5 שנים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מעבד בינה מלאכותית אלפא 7 דור 9 אחראי גם לעיבוד הסאונד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצב HGiG ו-ALLM למשחק חלק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תמיכה במשחקים בענן עם GeForce NOW"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "המרחק בין הרגליות של המעמד: 79.2 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "מתאימה לחדר שינה, חדר ילדים או סלון קטן, וגם למי שמשחק בקונסולה או בענן.",
+  "highlights": [
+   "מעבד אלפא 7 AI 4K דור 9",
+   "סאונד סראונד וירטואלי 9.1.2 ערוצים",
+   "מצב HGiG ו-ALLM למשחקים"
+  ],
+  "goodFor": [
+   "חדר שינה או חדר ילדים שבו מסך בינוני מספיק",
+   "צפייה בתוכן 4K ו-HDR משירותי סטרימינג",
+   "גיימרים שמשתמשים במצב ALLM או במשחקי ענן ב-GeForce NOW"
+  ],
+  "considerations": [
+   "בתלייה על הקיר: עומק המסך ללא מעמד הוא 70.8 מ״מ ומשקלו 6.4 ק״ג, כדאי לבחור זרוע מתאימה.",
+   "דירוג האנרגיה הוא G.",
+   "האחריות היא שנה אחת ע״י היבואן."
+  ],
+  "faq": [
+   {
+    "q": "מה מידות הטלוויזיה כולל המעמד?",
+    "a": "959 × 618 × 200 מ״מ כולל מעמד, ו-959 × 563 × 70.8 מ״מ ללא מעמד.",
+    "sources": []
+   },
+   {
+    "q": "האם היא מתאימה למשחקים?",
+    "a": "כן, יש בה מצב HGiG ו-ALLM ותמיכה במשחקי ענן עם GeForce NOW.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "LG 43NU850B6LA",
+   "טלוויזיה LG 43 אינץ",
+   "טלוויזיה 43 אינץ 4K",
+   "LG NANO 43",
+   "טלוויזיה חכמה webOS",
+   "טלוויזיה NanoCell 43",
+   "טלוויזיה 43 אינץ לחדר שינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "LG",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גודל מסך",
+   "catalogValue": "43'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "NANO",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "959 × 563 × 70.8 מ״מ",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "6.4 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אלפא 7 AI 4K דור 9",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "webOS 26",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "G",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "israeli_variant",
+   "issue": "The LG Egypt page uses suffix .AFU and no LG Israel page was found. The two Israeli retailers name 43NU850B6LA, so confirm the Israeli variant code with the importer ח.י. סחר בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "תקופת אחריות",
+   "issue": "The warranty length comes from one retailer page only. Confirm it with the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "The LG Egypt page uses suffix .AFU and no LG Israel page was found. Confirm the Israeli variant code with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "תקופת אחריות",
+   "issue": "Warranty length comes from one retailer page only; confirm with the importer.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Warranty value corrected: the quote says one year by the importer but does not name the importer, so the importer name was removed from the value. All other facts kept as supported by ok quotes on pages naming the model. | code guard removed: summary: \"טלוויזיה חכמה LG NANO UHD בגודל 43 אינץ׳ ברזולוציית 4K, עם מעבד אלפא 7 AI 4K דור 9 ותמיכה ב-HDR10 ו-HLG.\"; summary: \"מערכת ההפעלה webOS 26 מגיעה עם שדרוגים למשך 5 שנים.\"; faq: \"איזו מערכת הפעלה יש בטלוויזיה?\"; faq: \"באילו פורמטי HDR היא תומכת?\"; faq: \"כמה שוקלת הטלוויזיה?\"; metaDescription: \"טלוויזיה חכמה LG 43NU850B6LA בגודל 43 אינץ׳ 4K NANO UHD עם מעבד אלפא 7 דור 9 ו-webOS 26 עם שדרוגים ל-5 שנים. בחדד אלקטריק נהריה\"; highlight: \"מסך 43 אינץ׳ 4K NANO UHD\"; highlight: \"webOS 26 עם שדרוגים למשך 5 שנים\"; consideration: \"בהצבה על שידה: המרחק בין הרגליות הוא 79.2 ס״מ, ולכן משטח ההצבה צריך להיות רחב מכך.\""
+ }
+}

@@ -1,0 +1,697 @@
+{
+  "modelNumber": "ND-2070",
+  "researchedAt": "2026-11-10",
+  "identity": {
+    "manufacturer": "Normande",
+    "exactModel": "ND-2070",
+    "israeliImporter": "קלינטון סחר בע״מ",
+    "matchConfidence": "high",
+    "notes": "ארבעה דפי קמעונאים ישראליים מציגים את הדגם המדויק ND-2070 בצבע לבן (נכתב גם ND2070 / ND 2070 / 2070ND); שלושה מהם מציינים את קלינטון סחר כיבואן/נותן האחריות. לא נמצא דף יבואן או יצרן, מדריך משתמש או דף מפרט רשמי לדגם. הטקסט אצל הקמעונאים כמעט זהה (כנראה מקור אחד של הספק), ולכן ההסכמה ביניהם אינה עצמאית לגמרי — רמת הביטחון בעובדות היא בינונית. קטלוג נורמנדה 2023 (s5) אינו כולל את ND-2070 כלל; דגמים אחרים בו (ND-2000, ND-2090) אינם משמשים כמקור. בבדיקת QA (2026-11-10) דף s1 (cwc.co.il) החזיר HTTP 403 ולא ניתן היה לפתוח אותו מחדש, ולכן הוסר מציטוטי כל העובדות המאומתות; הוא נשאר רק כמקור לשורות שאינן מאומתות (ארץ ייצור)."
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.cwc.co.il/product/%d7%9e%d7%99%d7%a7%d7%a8%d7%95%d7%92%d7%9c-%d7%9e%d7%9b%d7%a0%d7%99-20-%d7%9c%d7%99%d7%98%d7%a8-%d7%a0%d7%95%d7%a8%d7%9e%d7%a0%d7%93%d7%94-nd-2070-%d7%9c%d7%91%d7%9f-normande/",
+      "publisher": "עולם הקולנוע והחשמל (cwc.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.ch-ch.co.il/items/7836560",
+      "publisher": "חשמל חכם (ch-ch.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.lastprice.co.il/p/60729826",
+      "publisher": "LastPrice (lastprice.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://shop.zap.co.il/product-model?offerid=22979681&storeid=2359&modelid=2359_91918",
+      "publisher": "zapstore / noknok (shop.zap.co.il)",
+      "kind": "il-retailer",
+      "market": "IL",
+      "exactModel": true,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://fliphtml5.com/mmuva/arry/basic/101-150",
+      "publisher": "קטלוג נורמנדה 2023 (FlipHTML5)",
+      "kind": "other",
+      "market": "IL",
+      "exactModel": false,
+      "accessed": "2026-11-10"
+    }
+  ],
+  "specGroups": [
+    {
+      "id": "identity",
+      "rows": [
+        {
+          "label": "יצרן",
+          "value": "Normande (נורמנדה)",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "דגם",
+          "value": "ND-2070",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "high",
+          "status": "verified"
+        },
+        {
+          "label": "סוג",
+          "value": "מיקרוגל מכני",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "s2 ו-s4 כותבים מיקרוגל מכני, s3 מסווג \"מיקרוגל סטנדרטי\" עם בקרה מכנית. אף מקור לא מציין במפורש \"חופשי/לא בנוי\", ולכן הוסר מהערך."
+        },
+        {
+          "label": "ארץ ייצור",
+          "value": "סין",
+          "sources": [
+            "s1"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "מופיע רק בדף קמעונאי אחד (s1), שלא נטען בבדיקת QA (HTTP 403)."
+        }
+      ]
+    },
+    {
+      "id": "dimensions",
+      "rows": [
+        {
+          "label": "מידות (רוחב × גובה × עומק)",
+          "value": "45.6 × 26.3 × 32.6 ס״מ",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "שלושה קמעונאים (s2, s3, s4) מציגים אותן מידות; לא נמצא מקור יצרן/יבואן."
+        },
+        {
+          "label": "רוחב",
+          "value": "45.6 ס״מ",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "גובה",
+          "value": "26.3 ס״מ",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "עומק",
+          "value": "32.6 ס״מ",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "rows": [
+        {
+          "label": "נפח",
+          "value": "20 ליטר",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "צלחת מסתובבת",
+          "value": "צלחת זכוכית מסתובבת",
+          "sources": [
+            "s2",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "קוטר הצלחת",
+          "value": "245 מ״מ",
+          "sources": [
+            "s2"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "מופיע רק ב-s2."
+        }
+      ]
+    },
+    {
+      "id": "programs",
+      "rows": [
+        {
+          "label": "סוג בקרה",
+          "value": "מכנית",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "s2: \"פאנל הפעלה מכני\"; s3, s4: \"סוג בקרה: מכנית\". סוג הכפתורים (סיבוביים) לא מופיע במקורות והוסר."
+        },
+        {
+          "label": "דרגות עוצמה",
+          "value": "5",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "טיימר",
+          "value": "עד 35 דקות",
+          "sources": [
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "s3, s4: \"טווח טיימר: 0–35 דקות\"; גם תקציר s2 כותב 35. בגוף התיאור של s2 כתוב \"טיימר עד 30 דקות\" — סתירה פנימית בדף אחד. s1 לא נטען בבדיקת QA."
+        },
+        {
+          "label": "הפשרה",
+          "value": "פונקציית הפשרה",
+          "sources": [
+            "s2"
+          ],
+          "confidence": "low",
+          "status": "unverified",
+          "note": "מופיע רק ב-s2; s1, s3, s4 אינם מזכירים הפשרה."
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "rows": [
+        {
+          "label": "הספק",
+          "value": "700W",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified",
+          "note": "המקורות כותבים 'הספק 700W' בלי לציין אם זה הספק מיקרוגל (יציאה) או צריכה. הספק כניסה, מתח ותדר לא נמצאו."
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "rows": [
+        {
+          "label": "צבע חיצוני",
+          "value": "לבן",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "צבע תא פנימי",
+          "value": "אפור",
+          "sources": [
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "דלת",
+          "value": "דלת עם חלון צפייה",
+          "sources": [
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        },
+        {
+          "label": "תאורה פנימית",
+          "value": "יש",
+          "sources": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "warranty",
+      "rows": [
+        {
+          "label": "אחריות",
+          "value": "12 חודשים ע״י קלינטון סחר",
+          "sources": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "confidence": "medium",
+          "status": "unverified",
+          "note": "s1, s2, s3 כותבים שנת אחריות ע״י קלינטון סחר (יבואן רשמי); s4 כותב 12 חודשים. לא נמצא מסמך של היבואן עצמו — לפי המדריך אחריות נכתבת רק ממקור היבואן."
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "text": "בקרה מכנית עם 5 דרגות עוצמה וטיימר עד 35 דקות",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "אות התראה בסיום החימום",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "צלחת זכוכית מסתובבת לחימום אחיד של המזון",
+      "sources": [
+        "s2",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "דלת עם חלון צפייה ותאורה פנימית למעקב אחר החימום",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "פונקציית הפשרה",
+      "sources": [
+        "s2"
+      ],
+      "confidence": "low",
+      "status": "unverified",
+      "note": "מקור יחיד (s2)."
+    }
+  ],
+  "inTheBox": [
+    {
+      "text": "מיקרוגל Normande ND-2070",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "צלחת מסתובבת",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "טבעת סיבוב לצלחת",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    },
+    {
+      "text": "מדריך למשתמש",
+      "sources": [
+        "s3",
+        "s4"
+      ],
+      "confidence": "medium",
+      "status": "verified"
+    }
+  ],
+  "installation": [],
+  "content": {
+    "summary": "Normande ND-2070 הוא מיקרוגל מכני בצבע לבן, בנפח 20 ליטר ובהספק 700W. התפעול מכני, עם 5 דרגות עוצמה וטיימר עד 35 דקות עם אות סיום, ובתוכו צלחת זכוכית מסתובבת ותאורה פנימית. במידות 45.6 × 26.3 × 32.6 ס״מ הוא מתאים למי שמחפש מיקרוגל פשוט לחימום יומיומי.",
+    "highlights": [
+      "נפח 20 ליטר",
+      "הספק 700W ו-5 דרגות עוצמה",
+      "טיימר מכני עד 35 דקות עם אות סיום",
+      "מידות 45.6 × 26.3 × 32.6 ס״מ (רוחב × גובה × עומק)",
+      "צלחת זכוכית מסתובבת, דלת עם חלון צפייה ותאורה פנימית"
+    ],
+    "goodFor": [
+      "מטבח קטן, משרד או דירת סטודנטים — רוחב 45.6 ס״מ ועומק 32.6 ס״מ תופסים מעט מקום על השיש",
+      "מי שמעדיף תפעול פשוט: בקרה מכנית עם 5 דרגות עוצמה וטיימר, בלי תפריטים דיגיטליים",
+      "חימום מנות, משקאות ושאריות ביומיום — נפח 20 ליטר והספק 700W"
+    ],
+    "considerations": [
+      "מדדו את המקום המיועד: המיקרוגל ברוחב 45.6 ס״מ, גובה 26.3 ס״מ ועומק 32.6 ס״מ — השאירו מרווח לאוורור לפי הוראות היצרן.",
+      "המפרט שפורסם אינו כולל גריל, תוכניות אוטומטיות או צג דיגיטלי; מי שצריך אותם יבחר דגם דיגיטלי או משולב גריל.",
+      "נפח 20 ליטר מתאים לצלחות ומנות רגילות; לכלים גדולים במיוחד כדאי לבדוק שהם נכנסים לתא ומסתובבים על הצלחת."
+    ],
+    "faq": [
+      {
+        "q": "מה המידות של Normande ND-2070?",
+        "a": "רוחב 45.6 ס״מ, גובה 26.3 ס״מ ועומק 32.6 ס״מ.",
+        "sources": [
+          "s2",
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "q": "מה ההספק ומה הנפח של המיקרוגל?",
+        "a": "נפח 20 ליטר והספק 700W, עם 5 דרגות עוצמה לבחירה.",
+        "sources": [
+          "s2",
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "q": "האם יש טיימר והתראה בסיום?",
+        "a": "כן. טיימר מכני עד 35 דקות, ואות התראה נשמע בסיום החימום.",
+        "sources": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "q": "מה מגיע באריזה?",
+        "a": "המיקרוגל, צלחת מסתובבת, טבעת סיבוב לצלחת ומדריך למשתמש.",
+        "sources": [
+          "s3",
+          "s4"
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "metaDescription": "מיקרוגל מכני Normande ND-2070 לבן בנפח 20 ליטר, הספק 700W, 5 דרגות עוצמה וטיימר עד 35 דקות. מפרט ומידות בחדד אלקטריק נהריה",
+    "keywords": [
+      "ND-2070",
+      "ND2070",
+      "נורמנדה ND-2070",
+      "Normande ND-2070",
+      "מיקרוגל נורמנדה 20 ליטר",
+      "מיקרוגל מכני 20 ליטר לבן",
+      "מיקרוגל 700W מכני",
+      "מיקרוגל נורמנדה לבן"
+    ]
+  },
+  "catalogCheck": [
+    {
+      "field": "name",
+      "catalogValue": "מיקרוגל מכני 20 ליטר לבן",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "brand",
+      "catalogValue": "Normande",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "origin_country",
+      "catalogValue": "סין",
+      "finding": "unverifiable",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "field": "נפח",
+      "catalogValue": "20 ליטר",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "הספק",
+      "catalogValue": "700W",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "מספר דרגות חום",
+      "catalogValue": "5",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "טווח טיימר",
+      "catalogValue": "0-35 דקות",
+      "finding": "confirmed",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "סוג בקרה",
+      "catalogValue": "מכנית",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "צבע חיצוני",
+      "catalogValue": "לבן",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "צבע תא פנימי",
+      "catalogValue": "אפור",
+      "finding": "confirmed",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "מידות",
+      "catalogValue": "גובה 26.3 ס\"מ, רוחב 45.6 ס\"מ, עומק 32.6 ס\"מ",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "חימום",
+      "catalogValue": "חימום",
+      "finding": "confirmed",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "הפשרה",
+      "catalogValue": "הפשרה",
+      "finding": "unverifiable",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "field": "טיימר מכני עם אות סיום",
+      "catalogValue": "טיימר מכני עם אות סיום",
+      "finding": "confirmed",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "דלת עם חלון צפייה",
+      "catalogValue": "דלת עם חלון צפייה",
+      "finding": "confirmed",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "תאורה פנימית",
+      "catalogValue": "תאורה פנימית",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "צלחת מסתובבת לחימום אחיד",
+      "catalogValue": "צלחת מסתובבת לחימום אחיד",
+      "finding": "confirmed",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "field": "חומר הצלחת",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "צלחת זכוכית מסתובבת",
+      "sources": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "field": "תכולת האריזה",
+      "catalogValue": "",
+      "finding": "missing-added",
+      "correctValue": "מיקרוגל, צלחת מסתובבת, טבעת סיבוב, מדריך למשתמש",
+      "sources": [
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "reviewFlags": [
+    {
+      "field": "sources",
+      "issue": "לא נמצא דף יבואן (קלינטון סחר), דף יצרן, מדריך משתמש או מפרט רשמי ל-ND-2070. כל העובדות המאומתות נשענות על ארבעה קמעונאים ישראליים עם טקסט כמעט זהה. מומלץ לקבל דף מפרט/מדריך מהיבואן כדי לאשר מידות, הספק (יציאה מול צריכה), משקל, מתח וקוטר צלחת.",
+      "severity": "medium"
+    },
+    {
+      "field": "טיימר",
+      "issue": "דף חשמל חכם (s2) כותב בתקציר 'טיימר עד 35 דקות' ובגוף התיאור 'טיימר עד 30 דקות'. שלושה קמעונאים אחרים כותבים 0–35 דקות; נרשם 35. כדאי לאשר מול היבואן או על המכשיר.",
+      "severity": "low"
+    },
+    {
+      "field": "הפשרה",
+      "issue": "פונקציית הפשרה מופיעה בקטלוג ובמקור אחד בלבד (s2); לא פורסמה כעובדה עד לאישור.",
+      "severity": "low"
+    },
+    {
+      "field": "אחריות",
+      "issue": "שנת אחריות ע״י קלינטון סחר מופיעה אצל שלושה קמעונאים אך לא במסמך של היבואן; לא פורסמה. לאשר מול היבואן.",
+      "severity": "low"
+    },
+    {
+      "field": "origin_country",
+      "issue": "ארץ ייצור 'סין' מופיעה רק ב-s1; לא אומתה במקור נוסף.",
+      "severity": "low"
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-10",
+    "verdict": "pass-with-fixes",
+    "notes": "נפתחו מחדש כל המקורות. s2 (ch-ch) נקרא מה-HTML המלא, s3 (lastprice) ו-s4 (zap/noknok) נקראו ב-WebFetch, וכולם מציגים את ND-2070/ND2070 הלבן. s1 (cwc.co.il) החזיר HTTP 403 ולא נפתח מחדש, ולכן הוסר מציטוטי כל השורות המאומתות, הפיצ׳רים, תכולת האריזה, ה-FAQ ושורות catalogCheck שאושרו. כל עובדה מאומתת עדיין נשענת על שני מקורות או יותר מבין s2, s3 ו-s4. s5 (קטלוג 2023) החזיר 403 והוא exactModel:false ממילא, ולא משמש לשום עובדה. תיקונים: (1) \"סוג\": הוסר \"חופשי (לא בנוי)\", כי אף מקור לא מציין זאת. (2) \"סוג בקרה\": הוסר \"(כפתורים סיבוביים)\", שלא מופיע במקורות. (3) הפיצ׳ר על הבקרה המכנית נוסח מחדש בלי \"פשוטה\" ו\"בורר\". (4) מהתקציר הוסרו \"חופשי\", \"בורר עוצמה\" ו\"קומפקטי\", ומ-goodFor הוסרו \"בכפתורים\" ו\"בורר עוצמה\". (5) מתיאור המטא הוסרה המילה \"מלאים\", כי משקל ונתוני חשמל חסרים. (6) עודכנו ההערות על s1. כל הערכים המספריים (20 ליטר, 700W, 5 דרגות, 0–35 דקות, 45.6 × 26.3 × 32.6 ס״מ, צבעים, חלון, תאורה, צלחת זכוכית, תכולת אריזה) אומתו בדפים. הפשרה, קוטר 245 מ״מ (רק s2), ארץ ייצור ואחריות נשארו לא מאומתים. בשורה המשולבת מידות (רוחב × גובה × עומק) יש ×. אין ברשומה מחיר או מלאי, ושם המוצר לא שונה."
+  }
+}

@@ -1,0 +1,439 @@
+{
+ "modelNumber": "X9F-6",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "STEEL",
+  "exactModel": "X9F-6",
+  "israeliImporter": "א.ברפמן",
+  "matchConfidence": "high",
+  "notes": "Aristos lists the Israeli model as X9F-6 בורדו (burgundy finish, OXFORD series). Brafman (official importer) lists X9F-6 as a 6-burner option of the OXFORD 90 range. A Dutch retailer lists the same model as Oxford 90 X9F-6 BA Zwart (black, gas). Oven depth and maximum temperature differ between sources. | QA: Aristos and the official importer Brafman both list X9F-6 as the 6-burner OXFORD 90 combined range. Color suffix varies by variant (בורדו on Aristos, BA Zwart in NL); catalog does not state a body color."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.aristos.co.il/product/126219/",
+   "publisher": "Aristo Shop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.keukeninbouwcenter.nl/product/steel-oxford-90-ba-zwart-gasfornuis",
+   "publisher": "Keukeninbouwcenter",
+   "kind": "retailer",
+   "market": "NL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://4cook.brafman.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%91%D7%99%D7%A9%D7%95%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-oxford-90/",
+   "publisher": "א.ברפמן תנורי בישול",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "90 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "90 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "91 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא אחסון תחתון",
+     "value": "25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר מבערי גז",
+     "value": "6"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single source; flagged for check",
+     "label": "הספק כולל",
+     "value": "15.10 KW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מבער ווק",
+     "value": "4.50 KW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Dutch retailer reports up to 265 °C",
+     "label": "טמפרטורה מקסימלית",
+     "value": "255 °C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תוכניות אפייה",
+     "value": "9"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שיטת הפעלה",
+     "value": "הפעלה מכאנית (ללא צג)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגיה",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Color variant of the listing page; catalog does not specify color",
+     "label": "גימור",
+     "value": "בורדו"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "STEEL"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "איטליה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים ע״י א.ברפמן, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תנור משולב מסדרת OXFORD ברוחב 90 ס״מ בעיצוב רטרו"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טורבו אקטיבי עם גוף חימום שלישי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אוורור קדמי והיקפי לקירור התנור ובידוד מלא"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "דלת מתפרקת בעלת 3 שכבות זכוכית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בקרה אלקטרונית של טמפרטורה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed bronze/nickel names not in quote",
+   "text": "פירזול בגוונים לבחירה (בתוספת תשלום)"
+  },
+  {
+   "sources": [
+    "s3",
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבער פליז ווק למחבת ווק"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גובה התנור כולל חיפוי קיר קדמי: 100 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "מתאים למי שמבשל הרבה ורוצה תנור בעיצוב רטרו עם מבער ווק.",
+  "highlights": [
+   "תא אפייה בנפח 91 ליטר",
+   "דירוג אנרגיה A"
+  ],
+  "goodFor": [
+   "בישול במקביל בכמה סירים ומחבתות, כולל ווק",
+   "אפייה של מגשים גדולים בתא אפייה בנפח 91 ליטר",
+   "מי שמחפש עיצוב רטרו במטבח"
+  ],
+  "considerations": [
+   "חיבור כיריים הגז מחייב מתקין גז מוסמך",
+   "ההפעלה מכאנית, ללא צג"
+  ],
+  "faq": [
+   {
+    "q": "מה האחריות על התנור?",
+    "a": "אחריות לשנתיים ע״י א.ברפמן, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "STEEL X9F-6",
+   "תנור משולב 90 ס\"מ",
+   "תנור STEEL OXFORD",
+   "תנור משולב 6 להבות",
+   "תנור רטרו סטיל",
+   "תנור משולב גז",
+   "STEEL OXFORD 90"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב",
+   "catalogValue": "90 cm",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג כיריים",
+   "catalogValue": "Gas",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר להבות",
+   "catalogValue": "6",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "Italy",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "STEEL",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פירזול",
+   "catalogValue": "פרזול ברונזה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "X9F-6 appears on the Aristos product page (as X9F-6 בורדו) and on the Brafman importer page as an option of the OXFORD 90. The Dutch retailer page names the same model as a black gas version. The model is current in the Israeli listing (the Aristos page is under דגמי 2026).",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "Aristos gives total connected power 15.10 KW, which no second site confirms. The Dutch listing gives a connection value of 2.9 kW, a different measure. Check against the manufacturer sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "issue": "Sources conflict: Aristos says maximum 255 °C, the Dutch retailer says the oven runs from 50 to 265 °C.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות תא אפייה",
+   "issue": "Sources conflict on oven interior depth: Aristos says 35 ס״מ, Brafman says 33 ס״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "מבערים",
+   "issue": "Aristos says 6 gas burners including a 4.50 KW brass wok burner. Brafman says 5 burners plus 1 brass wok burner (same total). The Dutch listing gives 6 burners too.",
+   "severity": "low"
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "issue": "Aristos says 255 °C; the Dutch retailer reports 50 to 265 °C.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק כולל",
+   "issue": "15.10 KW total power comes from one retailer only; check against the manufacturer sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "גימור",
+   "issue": "X9F-6 is sold in several colors (בורדו on Aristos, black in NL); the catalog name does not state the body color.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות תא אפייה",
+   "issue": "Sources disagree on interior depth (35 vs 33 ס״מ); not published.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected finish (בורדו) since the Aristos page lists a burgundy variant and the catalog name does not specify a color (Dutch listing shows a black BA variant of the same model). Marked max temperature as conflict (255 vs 265 °C reported). Corrected feature 5 to drop the bronze/nickel options not in the quote. Manufacturer value simplified to STEEL; warranty value names the importer per the quote. | code guard removed: summary: \"STEEL X9F-6 הוא תנור משולב איטלקי מסדרת OXFORD ברוחב 90 ס״מ, עם כיריים של 6 מבערי גז ותנור חשמלי.\"; summary: \"תא האפייה בנפח 91 ליטר, עם 9 תוכניות אפייה וטורבו אקטיבי, ומתחתיו תא אחסון בנפח 25 ליטר.\"; faq: \"כמה מבערים יש בכיריים?\"; faq: \"מה נפח תא האפייה?\"; faq: \"מה מידות התנור?\"; faq: \"כמה תוכניות אפייה יש?\"; metaDescription: \"תנור משולב STEEL X9F-6 ברוחב 90 ס״מ מסדרת OXFORD: כיריים 6 מבערי גז עם מבער ווק ותא אפייה 91 ליטר. בחדד אלקטריק נהריה\"; highlight: \"6 מבערי גז, כולל מבער פליז ווק בהספק 4.50 KW\"; highlight: \"9 תוכניות אפייה וטורבו אקטיבי עם גוף חימום שלישי\"; highlight: \"דלת מתפרקת בעלת 3 שכבות זכוכית\"; goodFor: \"מטבח עם נישה ברוחב 90 ס״מ לתנור משולב\"; consideration: \"לוודא נישה ברוחב 90 ס״מ ועומק 60 ס״מ\"; consideration: \"גובה התנור כולל חיפוי קיר קדמי הוא 100 ס״מ – כדאי לבדוק מול גובה השיש\""
+ }
+}

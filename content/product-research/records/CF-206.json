@@ -1,0 +1,250 @@
+{
+ "modelNumber": "CF-206",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "CF-206",
+  "israeliImporter": "קלינטון",
+  "matchConfidence": "high",
+  "notes": "Only retailer pages (Bug, Zap) name CF-206; no manufacturer or importer page found. | QA: Bug and Zap pages name Normande CF-206 with power and dimensions matching the catalog. No manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מפזר-חום-עומד-שוכב-normande-95997465",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-airheater&db135938=3903901",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דרגות חום והספק",
+     "value": "2 דרגות חום: 1000/2000W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "2000 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "24 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך",
+     "value": "24 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "11 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה בכפוף לתעודת אחריות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Removed marketing wording",
+     "label": "חומר",
+     "value": "פלסטיק קשיח"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תרמוסטט לבקרת טמפרטורה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניתן להפעלה בשכיבה ובעמידה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון הגנה בפני התחממות יתר"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית נשיאה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורת חיווי להפעלה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "ניתן להפעיל אותו בשכיבה או בעמידה, והוא כולל הגנה בפני התחממות יתר וידית נשיאה. מתאים למי שמחפש חימום נקודתי וקל להזזה בין חדרים.",
+  "highlights": [
+   "תרמוסטט לבקרת טמפרטורה",
+   "הפעלה בשכיבה או בעמידה",
+   "מנגנון הגנה בפני התחממות יתר"
+  ],
+  "goodFor": [
+   "חימום נקודתי בחדר שינה או בחדר עבודה",
+   "מי שרוצה להעביר את המפזר בין חדרים בעזרת ידית הנשיאה",
+   "מקום צר, הודות להפעלה בשכיבה או בעמידה"
+  ],
+  "considerations": [
+   "יש למקם על משטח יציב ורחוק מווילונות ומבדים",
+   "האחריות היא שנה בכפוף לתעודת אחריות"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להשתמש בו גם בשכיבה?",
+    "a": "כן, ניתן להפעיל אותו בשכיבה ובעמידה.",
+    "sources": []
+   },
+   {
+    "q": "יש בו הגנה מפני התחממות יתר?",
+    "a": "כן, הוא כולל מנגנון הגנה בפני התחממות יתר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מפזר חום Normande CF-206",
+   "CF-206",
+   "מפזר חום נורמנדי",
+   "מפזר חום קטן לחדר",
+   "מפזר חום 2000 וואט",
+   "מפזר חום עם תרמוסטט",
+   "מפזר חום עומד שוכב"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000/2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "24×24×11 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות חום",
+   "catalogValue": "2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Only retailer pages name the model; no manufacturer page.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "Only Israeli retailer pages name CF-206; no manufacturer or importer page to confirm specs.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass",
+  "notes": "All facts and features verified on the Bug product page naming CF-206; features also confirmed on Zap. | code guard removed: summary: \"Normande CF-206 הוא מפזר חום חשמלי קומפקטי לחדר, עם 2 דרגות חום של 1000/2000W ותרמוסטט לבקרת טמפרטורה.\"; faq: \"מה ההספק של Normande CF-206?\"; faq: \"מה המידות שלו?\"; metaDescription: \"מפזר חום Normande CF-206 עם 2 דרגות חום 1000/2000W, תרמוסטט והפעלה בשכיבה או בעמידה. מפזר חום קטן לחדר בחדד אלקטריק נהריה\"; highlight: \"2 דרגות חום: 1000/2000W\"; highlight: \"מידות 24×24×11 ס״מ\"; consideration: \"בדרגת 2000W כדאי לחבר לשקע ייעודי ולא למפצל עמוס\""
+ }
+}

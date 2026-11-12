@@ -1,0 +1,328 @@
+{
+ "modelNumber": "FQE600GWG",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "FRIGIDAIRE",
+  "exactModel": "FQE600GWG",
+  "israeliImporter": "Miniline",
+  "matchConfidence": "high",
+  "notes": "Exact-model evidence from Lior Electric product page (retailer) and Miniline importer brand listing. No manufacturer spec sheet or EPREL page found. | QA: Importer listing and Israeli retailer page both name FQE600GWG with 567 L and energy rating E, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://miniline.co.il/frigidaire/",
+   "publisher": "Miniline (Frigidaire Israel)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/?s=FQE600GWG&post_type=product",
+   "publisher": "Lior Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "567 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "363 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "204 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "91.1 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גובה",
+     "value": "183 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק",
+     "value": "61 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עומק כולל",
+     "value": "70 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "No Frost"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Retailer blurb also mentions stainless; colour row says white glass.",
+     "label": "גימור",
+     "value": "זכוכית לבנה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מעבר דלת מינימלי לאחר פירוק דלת",
+     "value": "630 מ״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed 'Digital Inverter Motor' wording, not in quote.",
+   "text": "מדחס אינוורטר ללא פחמים וללא מברשות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote check failed; 360+ not in quote.",
+   "text": "פיזור אוויר אחיד Metal Cooling 360+"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תאי ירקות FreshZone לשמירה על לחות של כ-90%"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "QUICK COOL לקירור מהיר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "QUICK FREEZE להקפאה מהירה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "3 מדפי זכוכית בתא המקרר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פיקוד דיגיטלי בתוך תא המזון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "המקרר פועל בשיטת No Frost עם מדחס אינוורטר, ודירוג האנרגיה שלו E. מתאים למי שמחפש מקרר רחב בנפח גדול עם תא הקפאה מרווח.",
+  "highlights": [
+   "נפח כולל 567 ליטר",
+   "קירור No Frost",
+   "מדחס אינוורטר ללא פחמים וללא מברשות"
+  ],
+  "goodFor": [
+   "משפחות שקונות מזון בכמויות וצריכות נפח קירור והקפאה גדול",
+   "מי שמעדיף מקרר No Frost שלא דורש הפשרה ידנית",
+   "מטבח עם נישה רחבה למקרר והעדפה לחזית זכוכית לבנה"
+  ],
+  "considerations": [
+   "דירוג האנרגיה הוא E"
+  ],
+  "faq": [
+   {
+    "q": "האם המקרר No Frost?",
+    "a": "כן, המקרר פועל בטכנולוגיית קירור No Frost.",
+    "sources": []
+   },
+   {
+    "q": "איזה דירוג אנרגטי יש למקרר?",
+    "a": "דירוג האנרגיה של המקרר הוא E.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר FRIGIDAIRE FQE600GWG בגימור זכוכית לבנה, נפח כולל 567 ליטר וקירור No Frost עם מדחס אינוורטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "FQE600GWG",
+   "מקרר פריג'ידר FQE600GWG",
+   "מקרר FRIGIDAIRE 567 ליטר",
+   "מקרר זכוכית לבנה",
+   "מקרר No Frost גדול",
+   "מקרר פריג'ידר זכוכית לבנה",
+   "מקרר 4 דלתות פריג'ידר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "567 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "363 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "204 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "specs",
+   "issue": "Retailer page describes finish as stainless in the blurb but colour row says white glass (GWG); no manufacturer page found.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 4 doors; no source confirms the door configuration.",
+   "severity": "medium"
+  },
+  {
+   "field": "finish",
+   "issue": "Retailer blurb mentions stainless while the colour row says white glass (GWG); no manufacturer page found to confirm.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "Only importer listing and one Israeli retailer page; no manufacturer spec sheet or EPREL record.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 1 (Metal Cooling 360+): quote check failed, the 360+ name is not in the quote. Reworded feature 0 to match the quote (removed 'Digital Inverter Motor', not in quote). Door count (4 doors) in the catalog name is not confirmed by any source. | code guard removed: summary: \"מקרר FRIGIDAIRE FQE600GWG בגימור זכוכית לבנה, בנפח כולל של 567 ליטר, מתוכם 363 ליטר לתא הקירור ו-204 ליטר לתא ההקפאה.\"; faq: \"מה הנפח של המקרר FQE600GWG?\"; faq: \"מה המידות של המקרר?\"; faq: \"האם המקרר ייכנס בדלת הבית?\"; highlight: \"תא הקפאה בנפח 204 ליטר\"; highlight: \"תאי ירקות FreshZone לשמירה על לחות של כ-90%\"; consideration: \"יש לוודא שרוחב הנישה מתאים לרוחב של 91.1 ס״מ ושהגובה מתאים ל-183 ס״מ\"; consideration: \"העומק הכולל הוא 70 ס״מ, כדאי לבדוק את המרחק מהקיר ומארונות סמוכים\"; consideration: \"מעבר הדלת המינימלי לאחר פירוק דלת הוא 630 מ״מ, כדאי למדוד את דלתות הבית והמעברים לפני האספקה\""
+ }
+}

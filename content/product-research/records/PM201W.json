@@ -1,0 +1,235 @@
+{
+ "modelNumber": "PM201W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PM201W",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "דגם מיקרוגל מכני לבן, 20 ליטר. דף הקטלוג של אלקטרו קליק מציג את הדגם כ-PM201 לבן, ותמונת המוצר נקראת premier-pm201w. לא נמצא דף יצרן או יבואן עבור PM201W. | QA: המקור מציג Premier PM201 בגימור לבן, 20 ליטר, 700 וואט - תואם לשם הקטלוג. הסיומת W לא מופיעה בטקסט המצוטט; אין דף יצרן או יבואן."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://electroclick.co.il/?s=PM201",
+   "publisher": "אלקטרו קליק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "20 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "700 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמות עוצמה",
+     "value": "5"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "מכני, עד 35 דקות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שליטה",
+     "value": "ידנית, בכפתורים סיבוביים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פונקציית הפשרה ו-5 רמות עוצמה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הפעלה ידנית בכפתורים סיבוביים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מיקרוגל פשוט לחימום והפשרה בלי תפריטים דיגיטליים.",
+  "highlights": [
+   "הפעלה ידנית בכפתורים סיבוביים"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח ביתי",
+   "מי שמעדיף שליטה ידנית פשוטה בכפתורים סיבוביים"
+  ],
+  "considerations": [
+   "מדדו את המקום המיועד ובדקו את מידות המכשיר מול המוכר לפני הרכישה",
+   "ודאו שיש שקע חשמל זמין ליד מקום ההצבה"
+  ],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מיקרוגל פרימייר",
+   "Premier PM201W",
+   "PM201W",
+   "מיקרוגל מכני 20 ליטר",
+   "מיקרוגל לבן",
+   "מיקרוגל 700 וואט",
+   "מיקרוגל ידני"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "20 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת מיקרוגל",
+   "catalogValue": "700W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "5",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 35 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הפשרה",
+   "catalogValue": "הפשרה (Defrost)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "24.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 45.1 ס\"מ, עומק 31.5 ס\"מ, גובה 25.8 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "לא נמצא דף יצרן או יבואן עבור PM201W. כל העובדות מבוססות על דף של קמעונאי אחד (אלקטרו קליק), שמציג את הדגם כ-PM201 לבן. יש לאשר את הדגם המדויק מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג (45.1 × 31.5 × 25.8 ס\"מ) ו-קוטר הצלחת (24.5 ס\"מ) לא אומתו בדפים שנקראו. תוצאת חיפוש של Zap הציגה מידות שונות (רוחב 44.6, גובה 24.1, עומק 32.5 ס\"מ), אך הדף לא נפתח ולכן לא נבדק. יש לבדוק מידות מול המוצר לפני מדידת נישה.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "המקור היחיד הוא דף חיפוש של קמעונאי ישראלי המציג PM201 לבן; הסיומת W לא אומתה ואין דף יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג וקוטר הצלחת לא אומתו; לפי החוקר תוצאת חיפוש אחרת הציגה מידות שונות. יש לבדוק מול המוצר.",
+   "severity": "high"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נשענות על דף חיפוש של קמעונאי ישראלי אחד המציג PM201 בלבן; הדגם הותאם ל-PM201W לפי הצבע. מידות וקוטר צלחת לא אומתו ולא פורסמו. | code guard removed: summary: \"Premier PM201W הוא מיקרוגל מכני בנפח 20 ליטר בגימור לבן, עם הספק מיקרוגל של 700 W.\"; summary: \"ההפעלה ידנית בכפתורים סיבוביים, עם 5 רמות עוצמה, פונקציית הפשרה וטיימר מכני עד 35 דקות.\"; faq: \"מה הנפח של המיקרוגל?\"; faq: \"מה הספק המיקרוגל?\"; faq: \"האם יש פונקציית הפשרה?\"; faq: \"איך מפעילים אותו?\"; metaDescription: \"מיקרוגל מכני Premier PM201W לבן בנפח 20 ליטר, הספק 700 W, 5 רמות עוצמה והפשרה. הפעלה ידנית פשוטה - בחדד אלקטריק נהריה\"; highlight: \"נפח 20 ליטר\"; highlight: \"הספק מיקרוגל 700 W\"; highlight: \"5 רמות עוצמה ופונקציית הפשרה\"; highlight: \"טיימר מכני עד 35 דקות\"; goodFor: \"מטבחון במשרד או בדירה קטנה שבה מספיק נפח של 20 ליטר\"; consideration: \"נפח של 20 ליטר - בדקו שהכלים והצלחות שלכם נכנסים לתא\""
+ }
+}

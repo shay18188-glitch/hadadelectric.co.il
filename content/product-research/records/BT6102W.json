@@ -1,0 +1,350 @@
+{
+ "modelNumber": "BT6102W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "BT6102W",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "נמצא רק באתרי קמעונאים ישראליים (באג, זבילו, אבי סופר) שמציינים את הדגם המדויק וכן את היבואן ראלקו. אתרי היבואן והיצרן לא מכילים דף לדגם. חיישני לחות: המקורות חלוקים (באג: ללא; זבילו: יש), לכן לא נכללו. | QA: Three Israeli retailers name the exact model BT6102W, 10 kg heat pump dryer, importer Ralco. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A7%D7%95%D7%A0%D7%93%D7%A0%D7%A1%D7%95%D7%A8-10-%D7%A7%D7%92-blomberg-91841654683",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/מייבש-כביסה-פתח-חזית-בלומברג-⁦bt6102w⁩/",
+   "publisher": "Avi Super",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://zabilo.com/he/%D7%9E%D7%99%D7%99%D7%91%D7%A9%D7%99-%D7%9B%D7%91%D7%99%D7%A1%D7%94/13786-bt6102w.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "10 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "900 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 84.6 × 60.8 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "15"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י היבואן ראלקו"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'low temperature' wording not in quote",
+   "text": "טכנולוגיית משאבת חום (Heat Pump) לחיסכון בחשמל"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית מניעת קמטים (Anticreasing)"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נעילת ילדים"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת LED בתוך התוף"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתח תוף רחב במיוחד עם פתיחה של 155 מעלות"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פנל הפעלה בעברית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות לניקוז המים באמצעות צינור ישירות למערכת הביוב"
+  }
+ ],
+ "content": {
+  "summary": "Blomberg BT6102W הוא מייבש כביסה בטכנולוגיית משאבת חום (Heat Pump) בקיבולת 10 ק״ג, שנועדה לחיסכון בחשמל. המייבש מציע 15 תוכניות, פנל הפעלה בעברית ופונקציית מניעת קמטים. מתאים למשפחות עם כמויות כביסה גדולות שמחפשות ייבוש חסכוני יותר.",
+  "highlights": [
+   "קיבולת 10 ק״ג",
+   "טכנולוגיית משאבת חום (Heat Pump) לחיסכון בחשמל",
+   "15 תוכניות ופנל הפעלה בעברית",
+   "פונקציית מניעת קמטים",
+   "אפשרות ניקוז ישיר לביוב"
+  ],
+  "goodFor": [
+   "משפחות עם כמויות כביסה גדולות, הודות לקיבולת 10 ק״ג",
+   "מי שמעדיף ייבוש חסכוני יותר בחשמל בזכות משאבת החום",
+   "בתים עם ילדים, בזכות נעילת הילדים",
+   "מי שרוצה להימנע מריקון מיכל מים, עם ניקוז ישיר לביוב"
+  ],
+  "considerations": [
+   "יש לוודא נישה ברוחב 59.8 ס״מ, גובה 84.6 ס״מ ועומק 60.8 ס״מ לפחות",
+   "לניקוז ישיר יש לוודא נקודת ביוב קרובה למיקום המייבש",
+   "דירוג האנרגיה של הדגם הוא E",
+   "האחריות היא לשנה ע״י היבואן ראלקו"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Blomberg BT6102W?",
+    "a": "המייבש מיועד ל-10 ק״ג כביסה.",
+    "sources": []
+   },
+   {
+    "q": "האם המייבש עובד בטכנולוגיית משאבת חום?",
+    "a": "כן, הוא מבוסס על משאבת חום (Heat Pump) לחיסכון בחשמל.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לנקז את המים ישירות לביוב?",
+    "a": "כן, קיימת אפשרות לניקוז המים באמצעות צינור ישירות למערכת הביוב.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המייבש?",
+    "a": "רוחב 59.8 ס״מ, גובה 84.6 ס״מ ועומק 60.8 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות על המוצר?",
+    "a": "האחריות היא לשנה ע״י היבואן ראלקו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה Blomberg BT6102W בטכנולוגיית משאבת חום (Heat Pump), קיבולת 10 ק״ג ו-15 תוכניות ייבוש. לרכישה בחדד אלקטריק נהריה",
+  "keywords": [
+   "BT6102W",
+   "בלומברג BT6102W",
+   "מייבש כביסה בלומברג",
+   "מייבש כביסה היט פאמפ",
+   "מייבש כביסה משאבת חום 10 קג",
+   "מייבש כביסה 10 קג",
+   "Blomberg BT6102W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "10 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "900W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (או A)",
+   "finding": "confirmed",
+   "correctValue": "E",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "59.8×84.6×60.8",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "15",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישני לחות",
+   "catalogValue": "יש",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "חיישני לחות",
+   "issue": "באג מציין ללא חיישני לחות, זבילו מציין שיש; יש לאמת מול היבואן ראלקו.",
+   "severity": "medium"
+  },
+  {
+   "field": "source",
+   "issue": "אין דף יבואן/יצרן לדגם; כל העדויות מקמעונאים.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "בקטלוג המותג רשום Bloomberg, במקורות Blomberg.",
+   "severity": "low"
+  },
+  {
+   "field": "חיישני לחות",
+   "issue": "הקטלוג מציין חיישני לחות; באג מציין ללא וזבילו מציין שיש. יש לאמת מול היבואן ראלקו.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין E או A; המקורות מאשרים E. יש לעדכן את הקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "source",
+   "issue": "אין דף יצרן/יבואן לדגם; כל העדויות מקמעונאים ישראליים.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on Israeli retailer pages naming BT6102W. Catalog brand spelled 'Bloomberg' while sources say Blomberg; catalog energy note 'E (or A)' resolved to E. Humidity sensor claim from catalog not included (sources disagree). Warranty value reworded slightly."
+ }
+}

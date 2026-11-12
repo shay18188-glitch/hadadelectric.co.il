@@ -1,0 +1,407 @@
+{
+ "modelNumber": "RD45E-W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RD45E-W",
+  "israeliImporter": "קבוצת ח.י.",
+  "matchConfidence": "medium",
+  "notes": "No page names the exact dashed model RD45E-W. Israeli retailer pages name Hisense RD45EW (same product, no dash). No manufacturer or importer page for this model was found; facts come from one retailer site and need review. | QA: Sources are two pages of one Israeli retailer naming Hisense RD45EW (no dash), 2-door top freezer, 325 L, white, matching the catalog name. Dash difference is almost certainly formatting, but no manufacturer or importer page confirms the exact SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-2-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-hisense-rd45ew-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-325-%D7%9C%D7%99%D7%98%D7%A8-%D7%9C%D7%91%D7%9F-%D7%99%D7%91",
+   "publisher": "City Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8%2D%32%2D%D7%93%D7%9C%D7%AA%D7%95%D7%AA%2D%68%69%73%65%6E%73%65%2D%72%64%34%35%65%77%2D%D7%9E%D7%A7%D7%A4%D7%99%D7%90%2D%D7%A2%D7%9C%D7%99%D7%95%D7%9F%2D%33%32%35%2D%D7%9C%D7%99%D7%98%D7%A8%2D%D7%9C%D7%91%D7%9F%2D%2D%D7%99%D7%91%D7%95%D7%90%D7%9F%2D%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "City Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מקרר 2 דלתות, מקפיא עליון"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "325 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "252 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "73 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 169 × 64 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Per new Israeli regulation scale.",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג כוכבי הקפאה",
+     "value": "4 כוכבים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מדרג אקלים",
+     "value": "טרופיקל"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific warranty offer, not a product attribute.",
+     "label": "אחריות",
+     "value": "שנה מלאה + שנתיים אחריות נוספת מוגבלת (עלות עבודת תיקון לפי מחירון חברה)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Quote says No-Frost, not Total No-Frost.",
+   "text": "טכנולוגיית No-Frost – ללא צורך בהפשרה ידנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת זרימת אוויר היקפית Multi Air Flow"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגירת 0 מעלות לשמירה על טריות בשר, דגים ומוצרי חלב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תאורת LED פנימית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ציפוי VCM נגד טביעות אצבע"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [
+   "No-Frost – ללא הפשרה ידנית",
+   "מדרג אקלים טרופיקל"
+  ],
+  "goodFor": [
+   "מי שרוצה מקרר No-Frost שלא דורש הפשרה ידנית"
+  ],
+  "considerations": [
+   "דירוג האנרגיה הוא E לפי התקנות החדשות – כדאי להשוות לדגמים אחרים אם צריכת החשמל חשובה לכם",
+   "לוודא שקע חשמל זמין ומתאים בקרבת הנישה"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך להפשיר את המקרר?",
+    "a": "לא. המקרר פועל בטכנולוגיית No-Frost שמבטלת את הצורך בהפשרה ידנית.",
+    "sources": []
+   },
+   {
+    "q": "מה דירוג האנרגיה?",
+    "a": "דירוג אנרגטי E לפי התקנות החדשות.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר מתאים לאקלים חם?",
+    "a": "כן, מדרג האקלים שלו הוא טרופיקל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Hisense RD45E-W",
+   "Hisense RD45EW",
+   "מקרר הייסנס 325 ליטר",
+   "מקרר מקפיא עליון לבן",
+   "מקרר 2 דלתות No-Frost",
+   "מקרר הייסנס מקפיא עליון",
+   "מקרר ברוחב 60 ס״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Hisense",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח כולל",
+   "catalogValue": "325 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "252 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "73 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "59.4-59.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "59.5 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "169 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "64 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "Total No-Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדרג אקלים",
+   "catalogValue": "טרופיקל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כושר הקפאה מהיר (דירוג 4 כוכבי קור)",
+   "catalogValue": "כושר הקפאה מהיר (דירוג 4 כוכבי קור)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירת 0 מעלות",
+   "catalogValue": "מגירת 0 מעלות (Chiller) למוצרי חלב ובשר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורת LED פנימית",
+   "catalogValue": "תאורת LED פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Multi Air Flow",
+   "catalogValue": "מערכת פיזור אוויר Multi Air Flow",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירת פירות וירקות עם בקרת לחות",
+   "catalogValue": "מגירת פירות וירקות עם בקרת לחות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדף מגירה / מגירת פירות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מגירת אחסון נפרדת שקופה לפירות וירקות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model RD45E-W appears on no page. Israeli retailer pages name Hisense RD45EW without the dash, and the facts were taken from those pages. Confirm they are the same product.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions, energy class and warranty come only from one Israeli retailer (City Deal), with no manufacturer or importer page. The Hisense site search for the model returned nothing. Verify before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "מגירת פירות וירקות עם בקרת לחות",
+   "issue": "The catalog claims humidity control in the fruit and vegetable drawer. The retailer page describes only a transparent drawer and does not mention humidity control.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sources name Hisense RD45EW (no dash); catalog has RD45E-W. Likely the same unit, but no manufacturer or importer page confirms it.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts come from a single Israeli retailer (City Deal); no manufacturer, importer or manual page was found.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog claims humidity control in the fruit and vegetable drawer; sources do not mention it. Catalog also says Total No-Frost while the source says No-Frost.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב",
+   "issue": "Catalog width is 59.4-59.5 cm; source states 59.5 cm.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 8): it is City Deal's own warranty offer, not a product spec, and may not apply to units sold by Hadad Electric. Reworded feature 0 from 'Total No-Frost' to 'No-Frost' because the quote does not say Total. Humidity control in the vegetable drawer is not supported and is not published. | code guard removed: summary: \"Hisense RD45E-W הוא מקרר לבן בתצורת 2 דלתות עם מקפיא עליון ונפח כולל של 325 ליטר, מהם 252 ליטר לתא הקירור ו-73 ליטר לתא ההקפאה.\"; summary: \"המקרר פועל בטכנולוגיית No-Frost עם מערכת Multi Air Flow ומגירת 0 מעלות לבשר, דגים ומוצרי חלב.\"; summary: \"מתאים למי שמחפש מקרר מקפיא עליון ברוחב 59.5 ס״מ למטבח עם נישה צרה.\"; faq: \"מה הנפח של Hisense RD45E-W?\"; faq: \"מה מידות המקרר?\"; metaDescription: \"מקרר מקפיא עליון Hisense RD45E-W לבן, נפח 325 ליטר, טכנולוגיית No-Frost ומגירת 0 מעלות. מקרר 2 דלתות בחדד אלקטריק נהריה\"; highlight: \"נפח כולל 325 ליטר: 252 ליטר קירור ו-73 ליטר הקפאה\"; highlight: \"מגירת 0 מעלות לבשר, דגים ומוצרי חלב\"; highlight: \"מידות 59.5 × 169 × 64 ס״מ\"; goodFor: \"מטבח עם נישה צרה למקרר ברוחב 59.5 ס״מ\"; goodFor: \"מי שמעדיף מקפיא עליון בתצורת 2 דלתות\"; goodFor: \"שמירה על טריות בשר, דגים ומוצרי חלב במגירת 0 מעלות\"; consideration: \"למדוד את הנישה: המקרר ברוחב 59.5 ס״מ, גובה 169 ס״מ ועומק 64 ס״מ, ולהשאיר מרווח לאוורור ולפתיחת הדלת\""
+ }
+}

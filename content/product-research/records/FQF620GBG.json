@@ -1,0 +1,118 @@
+{
+ "modelNumber": "FQF620GBG",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Frigidaire",
+  "exactModel": "FQF620GBG",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only one retailer page (sancenter.co.il) found naming the exact model; its Hebrew text is mis-decoded in cache so only Latin-bearing lines quoted. Search budget exhausted. | QA: Exact model FQF620GBG appears only on one Israeli retailer page (SanCenter) whose URL matches the catalog name (4 doors, zero-line, 544 L, black glass). No manufacturer or importer page to confirm."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sancenter.co.il/product/מקרר-4-דלתות-קו-אפס-544-ליטר-no-frost-frigidaire-פריג׳ידר-fqf620gbg-גימור-זכוכית-שחורה",
+   "publisher": "SanCenter",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote failed check (quote-too-short); label unreadable.; quote checks: quote-too-short",
+     "label": "רמת רעש",
+     "value": "38 dB"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Label in quote garbled; value verified.",
+     "label": "סוג מדחס",
+     "value": "Digital Inverter"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת קירור Metal Cooling 360+"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר ארבע דלתות של Frigidaire בגימור זכוכית שחורה, דגם FQF620GBG.",
+  "highlights": [
+   "מדחס Digital Inverter"
+  ],
+  "goodFor": [
+   "מי שמחפש מקרר עם מדחס אינוורטר דיגיטלי"
+  ],
+  "considerations": [
+   "כדאי למדוד את הנישה במטבח ולוודא את מידות המקרר מול היבואן או החנות לפני ההזמנה"
+  ],
+  "faq": [
+   {
+    "q": "איזה מדחס יש במקרר FQF620GBG?",
+    "a": "המקרר מצויד במדחס Digital Inverter.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "FQF620GBG",
+   "פריג׳ידר FQF620GBG",
+   "מקרר ארבע דלתות Frigidaire",
+   "מקרר פריג׳ידר זכוכית שחורה",
+   "מקרר 4 דלתות קו אפס"
+  ]
+ },
+ "catalogCheck": [],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Exact model appears only on a retailer page; no manufacturer or importer page found.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Only one Israeli retailer page names the model; no manufacturer or importer source confirms specs or the Israeli variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "facts",
+   "issue": "Noise level and most specs (capacity, dimensions, energy) could not be verified; source Hebrew text was mis-decoded.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 0 (noise 38 dB): quote failed the check (quote-too-short) and its label text is unreadable. Kept compressor type and Metal Cooling 360+ feature from the only source; the Hebrew label next to 'Digital Inverter' is garbled in cache, so the attribute (compressor) is inferred from the standard spec layout. Very little verified data; content kept minimal. | code guard removed: summary: \"המקרר מצויד במדחס Digital Inverter ובמערכת קירור Metal Cooling 360+.\"; metaDescription: \"מקרר ארבע דלתות Frigidaire FQF620GBG בגימור זכוכית שחורה, עם מדחס Digital Inverter ומערכת קירור Metal Cooling 360+. בחדד אלקטריק נהריה\"; highlight: \"מערכת קירור Metal Cooling 360+\""
+ }
+}

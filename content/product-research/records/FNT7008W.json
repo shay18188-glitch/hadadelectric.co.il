@@ -1,0 +1,368 @@
+{
+ "modelNumber": "FNT7008W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "FNT7008W",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "המותג בישראל הוא Blomberg (בלומברג). לא נמצא דף יצרן, מדריך או EPREL לדגם; האתר blomberg.co.il לא מכיל את הדגם. המפרט המלא מגיע מקמעונאי ישראלי אחד. | QA: מספר קמעונאים ישראליים מציינים Blomberg FNT7008W, 404 ליטר, 8 תאים, לבן, NF — תואם לקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/977-%D7%91%D7%9C%D7%95%D7%9E%D7%91%D7%A8%D7%92",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.smart-deal.co.il/6435-%D7%9E%D7%A7%D7%A8%D7%A8%D7%99%D7%9D-%D7%95%D7%9E%D7%A7%D7%A4%D7%99%D7%90%D7%99%D7%9D/42042",
+   "publisher": "Smart-deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://kerenby.co.il/products/מקפיא-בלומברג-8-תאים-רוחב-70-סמ-404-ליטר-blomberg-fnt7008w-nf",
+   "publisher": "חשמל הקרן",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.zap.co.il/search.aspx?keyword=FNT7008W",
+   "publisher": "זאפ",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "404 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תאי אחסון",
+     "value": "8 תאים"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "סותר את 6+2 בשם הקטלוג",
+     "label": "מגירות ומדפים",
+     "value": "5 מגירות ו-3 מדפים"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "70 × 191.2 × 76.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s4",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "70 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "292 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "38 dB"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שיטת הקפאה",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מנוע",
+     "value": "Inverter"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צג",
+     "value": "דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "התקן שבת",
+     "value": "ללא התקן שבת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית No Frost להקפאה יבשה ללא הצטברות קרח"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מנוע Inverter וצג דיגיטלי"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ידית וואקום והתראה קולית על דלת פתוחה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפשרות להפיכת כיוון פתיחת הדלת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש נפח הקפאה גדול במקפיא נפרד ברוחב 70 ס״מ.",
+  "highlights": [
+   "נפח 404 ליטר",
+   "No Frost – ללא הצטברות קרח",
+   "מנוע Inverter וצג דיגיטלי"
+  ],
+  "goodFor": [
+   "משפחות שמקפיאות כמויות גדולות של מזון ורוצות מקפיא נפרד",
+   "מי שלא רוצה להפשיר את המקפיא ידנית, בזכות No Frost",
+   "מיקום במטבח או בחדר שירות, עם אפשרות להפוך את כיוון פתיחת הדלת"
+  ],
+  "considerations": [
+   "הדגם מגיע ללא התקן שבת"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך להפשיר את המקפיא?",
+    "a": "לא, המקפיא פועל בטכנולוגיית No Frost להקפאה יבשה ללא הצטברות קרח.",
+    "sources": []
+   },
+   {
+    "q": "האם יש למקפיא התקן שבת?",
+    "a": "לא, הדגם מגיע ללא התקן שבת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקפיא Blomberg FNT7008W לבן בנפח 404 ליטר עם 8 תאים, No Frost ומנוע Inverter, רוחב 70 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקפיא בלומברג",
+   "Blomberg FNT7008W",
+   "FNT7008W",
+   "מקפיא 404 ליטר",
+   "מקפיא 8 מגירות",
+   "מקפיא No Frost",
+   "מקפיא עומד רוחב 70",
+   "מקפיא אינוורטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "404 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "191.2×70×76.8 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צריכה שנתית",
+   "catalogValue": "292 קוט״ש",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "רעש",
+   "catalogValue": "38 dB",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "manufacturer_source",
+   "issue": "אין דף יצרן או יבואן לדגם; מידות, צריכה ורעש מקמעונאי אחד בלבד",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "שם הקטלוג מציין 8 מגירות (6+2), אך המקור מציין 5 מגירות ו-3 מדפים",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "המותג בקטלוג רשום Bloomberg, במקורות Blomberg",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "אין דף יצרן או יבואן לדגם; מידות, צריכה ורעש מקמעונאי אחד בלבד",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים מקמעונאים ישראליים שמציינים את הדגם. לא נמצא מקור יצרן; חלוקת התאים בשם הקטלוג (6+2) סותרת את המקור (5 מגירות ו-3 מדפים) — סומן לבדיקה. שם המותג בקטלוג Bloomberg לעומת Blomberg במקורות — סומן. | code guard removed: summary: \"מקפיא עומד של Blomberg בנפח 404 ליטר עם 8 תאי אחסון (5 מגירות ו-3 מדפים) וטכנולוגיית No Frost להקפאה יבשה ללא הצטברות קרח.\"; summary: \"המקפיא כולל מנוע Inverter, צג דיגיטלי ודירוג אנרגטי E עם צריכה שנתית של 292 קוט״ש.\"; faq: \"מה נפח המקפיא?\"; faq: \"מה מידות המקפיא?\"; faq: \"כמה חשמל הוא צורך?\"; highlight: \"8 תאי אחסון: 5 מגירות ו-3 מדפים\"; highlight: \"עוצמת רעש 38 dB\"; consideration: \"יש לוודא נישה ברוחב 70 ס״מ, גובה 191.2 ס״מ ועומק 76.8 ס״מ, ולהשאיר מרווח לפתיחת הדלת\"; consideration: \"דירוג אנרגטי E וצריכה שנתית של 292 קוט״ש – כדאי להשוות לדגמים אחרים\""
+ }
+}

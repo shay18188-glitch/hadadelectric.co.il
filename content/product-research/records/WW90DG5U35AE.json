@@ -1,0 +1,522 @@
+{
+ "modelNumber": "WW90DG5U35AE",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW90DG5U35AE",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "לא נמצא דף מפרט רשמי של סמסונג ישראל לדגם. הפרטים מבוססים על מוכרים ישראלים ואתרי השוואה שמציינים את הדגם. עמודים של הדגם WW90DG5U35AEKJ לא שימשו כראיה. | QA: All four Israeli pages name WW90DG5U35AE with 9 ק״ג, 1400 סל״ד, front loading; Traklin names ניופרו as official importer. No Samsung Israel spec page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%A0%D7%A7%D7%99%D7%95%D7%9F_%D7%95%D7%9B%D7%91%D7%99%D7%A1%D7%94/%D7%9E%D7%9B%D7%95%D7%A0%D7%95%D7%AA_%D7%9B%D7%91%D7%99%D7%A1%D7%94/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA_%D7%9B%D7%91%D7%99%D7%A1%D7%94_9_%D7%A7%D7%92_1400_%D7%A1%D7%9C%D7%93_samsung_%D7%93%D7%92%D7%9D_ww90dg5u35ae_%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.petcom.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-9-%D7%A7%D7%92-%D7%93%D7%92%D7%9D-samsung-ww90dg5u35ae-%D7%91%D7%A6%D7%91%D7%A2-%D7%9C%D7%91/",
+   "publisher": "פטקום אלקטריק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.markshop.co.il/product/200144/",
+   "publisher": "MarkShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1256036",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1400 סל״ד"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנוע",
+     "value": "Digital Inverter"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A-10%"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "85 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Traklin quote gives 61 ס״מ (64 with door).",
+     "label": "עומק",
+     "value": "59.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "משקל נטו",
+     "value": "65 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "14"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "corrected per MarkShop quote and catalog name",
+     "label": "צבע",
+     "value": "לבן עם דלת שחורה"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג פתיחה",
+     "value": "פתח חזית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "base warranty; extension terms per warranty certificate flagged",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית AI EcoBubble שמזהה את סוג הבד ורמת הלכלוך"
+  },
+  {
+   "sources": [
+    "s3",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Super Speed לכביסה תוך 39 דקות"
+  },
+  {
+   "sources": [
+    "s3",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית ניקוי תוף Drum Clean"
+  },
+  {
+   "sources": [
+    "s3",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Hygiene Steam לניקוי באדים היגייני"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיבור Wi-Fi ושליטה דרך אפליקציית SmartThings"
+  },
+  {
+   "sources": [
+    "s3",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב AI Energy של SmartThings לניטור צריכת החשמל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "לשליטה מרחוק נדרשים חיבור Wi-Fi וחשבון Samsung"
+  }
+ ],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של סמסונג, דגם WW90DG5U35AE, בקיבולת 9 ק״ג ובצבע לבן עם דלת שחורה. המכונה כוללת מהירות סחיטה של עד 1400 סל״ד, דירוג אנרגטי A-10% ומנוע Digital Inverter. מתאימה למי שמחפש מכונה עם תוכנית מהירה, תוכנית אדים היגיינית ושליטה מהטלפון דרך SmartThings.",
+  "highlights": [
+   "קיבולת 9 ק״ג",
+   "סחיטה עד 1400 סל״ד",
+   "דירוג אנרגטי A-10%",
+   "תוכנית Super Speed לכביסה תוך 39 דקות",
+   "חיבור Wi-Fi ושליטה דרך אפליקציית SmartThings"
+  ],
+  "goodFor": [
+   "משקי בית שמכבסים כמויות גדולות בזכות קיבולת של 9 ק״ג",
+   "מי שצריך כביסה מהירה בעזרת תוכנית Super Speed",
+   "מי שרוצה לעקוב אחרי צריכת החשמל דרך מצב AI Energy באפליקציה",
+   "מי שמחפש תוכנית אדים היגיינית לכביסה"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה לרוחב 60 ס״מ ולגובה 85 ס״מ, ולמדוד את העומק מול היבואן לפני הרכישה",
+   "לשליטה מרחוק נדרשים חיבור Wi-Fi וחשבון Samsung"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של WW90DG5U35AE?",
+    "a": "המכונה מכבסת עד 9 ק״ג כביסה.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה?",
+    "a": "מהירות הסחיטה המרבית היא 1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקחת התוכנית המהירה?",
+    "a": "תוכנית Super Speed מכבסת תכולת מכונה תוך 39 דקות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט במכונה מהטלפון?",
+    "a": "כן, דרך אפליקציית SmartThings, בתנאי שיש חיבור Wi-Fi וחשבון Samsung.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות יש במכונה?",
+    "a": "למכונה יש 14 תוכניות כביסה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה פתח חזית Samsung WW90DG5U35AE בקיבולת 9 ק״ג, סחיטה עד 1400 סל״ד ודירוג אנרגטי A-10%. בחדד אלקטריק נהריה",
+  "keywords": [
+   "WW90DG5U35AE",
+   "מכונת כביסה סמסונג 9 ק״ג",
+   "Samsung WW90DG5U35AE",
+   "מכונת כביסה 1400 סל״ד",
+   "מכונת כביסה AI EcoBubble",
+   "מכונת כביסה פתח חזית סמסונג",
+   "מכונת כביסה לבנה עם דלת שחורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A-10%",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "Digital Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "600 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "850 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "595 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תכונות - AI EcoBubble",
+   "catalogValue": "טכנולוגיית AI EcoBubble",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תכונות - SuperSpeed",
+   "catalogValue": "תוכנית SuperSpeed",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תכונות - קיטור היגייני",
+   "catalogValue": "קיטור היגייני",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תכונות - חיבור Wi-Fi",
+   "catalogValue": "חיבור Wi-Fi",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תכונות - Drum Clean",
+   "catalogValue": "תוכנית ניקוי תוף Drum Clean",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תכונות - מצב AI Energy",
+   "catalogValue": "מצב AI Energy של SmartThings",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "65 ק״ג",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "לבן עם דלת שחורה",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "סוג פתיחה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "פתח חזית",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עומק",
+   "issue": "המקורות נותנים עומק שונה: MarkShop 59.5 ס״מ, טרקלין 61 ס״מ (64 כולל דלת), וזאפ 61 ס״מ. הקטלוג מציין 595 מ״מ. נדרש אימות מול סמסונג ישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "טרקלין מציין שנה אחריות ושנתיים נוספות בהתאם לתעודה, ואחד מאתרי המוכרים לדגם WW90DG5U35AEKJ מציין 12 חודשים. נדרש אימות תנאי האחריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף מפרט רשמי של סמסונג ישראל לדגם. חיפוש האתר והכתובת הישירה לא החזירו מפרט. כל הפרטים מבוססים על מוכרים ואתרי השוואה, ולכן רק עובדות עם שני מקורות נפרדים יפורסמו.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "חלק מהמוכרים מציגים את המק״ט WW90DG5U35AEKJ לאותה מכונה עם מידות שונות. עמודים כאלה לא שימשו כראיה.",
+   "severity": "low"
+  },
+  {
+   "field": "עומק",
+   "issue": "MarkShop מציין עומק 59.5 ס״מ וטרקלין 61 ס״מ (64 ס״מ כולל דלת). יש לאמת מול היבואן לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "טרקלין מציין שנה אחריות ושנתיים נוספות בהתאם לתעודת האחריות של ניופרו. יש לאמת את תנאי האחריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "אין דף מפרט רשמי של סמסונג ישראל; כל הנתונים ממוכרים ומאתר השוואת מחירים. משקל נטו מבוסס על מקור יחיד.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "חלק מהמוכרים מציגים מק״ט WW90DG5U35AEKJ עם מידות שונות; יש לוודא שהיחידה הנמכרת היא WW90DG5U35AE.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Depth marked conflict (MarkShop 59.5 ס״מ vs Traklin 61 ס״מ, 64 with door). Color corrected to white with black door per MarkShop and catalog name. Warranty kept as one year base per Traklin; extension terms flagged. Sources are retailers and a price comparison site only. | code guard removed: consideration: \"משקל נטו של 65 ק״ג, כדאי לתכנן את ההובלה וההצבה בהתאם\""
+ }
+}

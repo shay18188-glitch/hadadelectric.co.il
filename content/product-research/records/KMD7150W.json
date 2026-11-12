@@ -1,0 +1,332 @@
+{
+ "modelNumber": "KMD7150W",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "KMD7150W",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "sauter.co.il product page names KMD7150W (sauter LINE, מיקסר מקצועי). Importer not stated on the page. | QA: sauter.co.il product page names KMD7150W with 7 L bowl and 1500 W motor, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/product/%D7%9E%D7%99%D7%A7%D7%A1%D7%A8-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-%D7%93%D7%92%D7%9D-kmd7150w/",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-mixer&productid=1248856",
+   "publisher": "WiseBuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח קערה",
+     "value": "7 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר קערה",
+     "value": "נירוסטה עם ידיות סיליקון"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1500 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "8"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מנגנון הנעה",
+     "value": "גיר תולעת כפול"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "צג דיגיטלי עם טיימר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צג דיגיטלי עם טיימר לספירה לאחור וכיבוי אוטומטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עצירה אוטומטית בעת הרמת ראש המיקסר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אפשרות לחיבור מטחנת בשר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגן התזה שקוף עם פתח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגליות גומי בבסיס לפעולה יציבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed 'במיוחד'.",
+   "text": "מנוע שקט"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כולל וו לישה, בלון הקצפה ואביזר לבצק רך"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיקסר עומד מקצועי של Sauter, דגם KMD7150W, עם קערת נירוסטה בנפח 7 ליטר ומנוע בהספק 1500 W. גיר תולעת כפול ו-8 הגדרות מהירות מתאימים ללישת בצקים בכמויות גדולות, וצג דיגיטלי עם טיימר מאפשר ספירה לאחור וכיבוי אוטומטי. מתאים למי שאופה לעיתים קרובות ולש בצקים כבדים.",
+  "highlights": [
+   "קערת נירוסטה בנפח 7 ליטר עם ידיות סיליקון",
+   "מנוע בהספק 1500 W",
+   "8 הגדרות מהירות",
+   "גיר תולעת כפול לעבודה עם בצקים",
+   "צג דיגיטלי עם טיימר וכיבוי אוטומטי"
+  ],
+  "goodFor": [
+   "לישת בצקי לחם וחלות בכמויות גדולות",
+   "הקצפה וערבול עם בלון הקצפה ואביזר לבצק רך",
+   "מי שרוצה לקבוע זמן פעולה ולתת למיקסר לכבות לבד",
+   "מי שמעוניין להרחיב לטחינת בשר עם מטחנה מתחברת"
+  ],
+  "considerations": [
+   "בדקו שיש מקום על השיש כולל גובה פנוי להרמת ראש המיקסר",
+   "מטחנת הבשר היא אפשרות חיבור – ודאו מול המוכר אם היא כלולה או נמכרת בנפרד",
+   "מידות ומשקל לא פורסמו במקורות – כדאי לבדוק אותם לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הקערה של Sauter KMD7150W?",
+    "a": "הקערה עשויה נירוסטה בנפח 7 ליטר, עם שתי ידיות סיליקון.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המנוע?",
+    "a": "המנוע בהספק 1500 W, עם גיר תולעת כפול לעבודה עם בצקים בקיבולות גדולות.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש למיקסר?",
+    "a": "יש 8 הגדרות מהירות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיימר?",
+    "a": "כן, צג דיגיטלי עם טיימר מציג את זמן הפעולה או סופר לאחור עד כיבוי אוטומטי.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "וו לישה, בלון הקצפה ואביזר לבצק רך, וכן מגן התזה שקוף עם פתח.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקסר עומד Sauter KMD7150W עם קערת נירוסטה 7 ליטר ומנוע 1500 W, 8 מהירויות וטיימר דיגיטלי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקסר Sauter",
+   "Sauter KMD7150W",
+   "מיקסר 7 ליטר",
+   "מיקסר 1500 וואט",
+   "מיקסר עומד לבן",
+   "מיקסר מקצועי ללישה",
+   "מיקסר עם טיימר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח קערה",
+   "catalogValue": "7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר קערה",
+   "catalogValue": "נירוסטה עם ידיות סיליקון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "8",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "צג דיגיטלי עם טיימר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון",
+   "catalogValue": "גיר תולעת כפול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רגליות גומי בבסיס",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "רגליות גומי בבסיס המיקסר לפעולה יציבה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "No fetched page gave the dimensions, weight or warranty for KMD7150W. Those facts are left out and need a manual check against the box or the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The Israeli importer is not stated on the Sauter product page. The footer only names a customer-service provider, so israeliImporter is null.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "Sauter's page lists the colour as white for KMD7150W. Retailers list the same series in black (KMD7150B) and blue (KMD7150BL), so check the colour on the physical unit.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "No source gave dimensions, weight or warranty for KMD7150W; verify against the box or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Israeli importer not stated on the Sauter product page.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "Colour (white) is not backed by a verified fact; the series also exists in other colours (KMD7150B, KMD7150BL). Confirm on the unit.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features verified against the Sauter Israel product page. Feature 5 reworded from 'מנוע שקט במיוחד' to 'מנוע שקט' to avoid a superlative."
+ }
+}

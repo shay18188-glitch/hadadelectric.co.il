@@ -16,7 +16,7 @@
  * - Descriptions end on a sentence, never mid-word.
  */
 
-import type { Product } from "@/types/product";
+import { shownModel, type Product } from "@/types/product";
 import { seoBrandName, brandAliases } from "@/lib/seo/brandNames";
 import { cleanModelNumber } from "@/lib/normalize";
 
@@ -108,7 +108,7 @@ function truncateAtWord(value: string, max: number): string {
  */
 export function productIdentifiers(product: Product): string {
   const brand = seoBrandName(product.brand);
-  const model = cleanModelNumber(product.modelNumber);
+  const model = cleanModelNumber(shownModel(product));
   const parts: string[] = [];
   if (brand && !nameCarries(product.name, brand)) parts.push(brand);
   if (model && !nameCarries(product.name, model)) parts.push(model);
@@ -267,7 +267,7 @@ export function productMetaDescription(product: Product, locale: SeoLocale = "he
   // Identifiers are fixed cost, exactly as in the title: a snippet that ends
   // "…, Haier, model." because the model was truncated away is worse than one
   // with a shorter name, and it is the model the searcher is scanning for.
-  const model = cleanModelNumber(product.modelNumber);
+  const model = cleanModelNumber(shownModel(product));
   const identifiers = [brand, model ? `${copy.modelWord} ${model}` : ""]
     .filter(Boolean)
     .map((part) => `, ${part}`)

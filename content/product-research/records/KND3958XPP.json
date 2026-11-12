@@ -1,0 +1,506 @@
+{
+ "modelNumber": "KND3958XPP",
+ "researchedAt": "2026-11-11",
+ "identity": {
+  "manufacturer": "Blomberg",
+  "exactModel": "KND3958XPP",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "מקרר מקפיא תחתון, 2 דלתות, 580 ליטר, נירוסטה. המידע מאתרי קמעונאים ישראליים שמציינים את הדגם המדויק. לא נמצא דף יצרן או יבואן. | QA: Four Israeli retailer pages name KND3958XPP with matching 580 L total, 400/180 L split, stainless finish and bottom freezer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://onoff.co.il/product/freeze/refrigerators/2-doors/bottom-freezer-2-doors/blomberg-knd3958xpp-stainless-steel/",
+   "publisher": "OnOff",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-blomberg-%D7%91%D7%9C%D7%95%D7%9E%D7%91%D7%A8%D7%92-knd3958xpp-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.electroclick.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-580-%D7%9C%D7%99%D7%98%D7%A8-%D7%A0%D7%98%D7%95-blomberg-knd3958xpp-%D7%A2%D7%9D-%D7%94%D7%AA%D7%A7%D7%9F-%D7%A9%D7%91%D7%AA-%D7%9E%D7%95%D7%91%D7%A0%D7%94",
+   "publisher": "אלקטרו קליק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  },
+  {
+   "id": "s4",
+   "url": "https://zabilo.com/en/2-door-refrigerators/12361-knd3958xpp.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "84 × 181.4 × 74 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "580 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "400 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "180 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת הפשרה",
+     "value": "No Frost (הפשרה אוטומטית)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "label clarified",
+     "label": "מפסק שבת",
+     "value": "מפסק שבת לתאורה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, מטעם היבואן ראלקו"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע אינוורטר שקט וחסכוני"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תצוגת מגע דיגיטלית לשליטה דרך הדלת הקדמית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מפסק שבת מובנה לניתוק תאורת ה-LED הפנימית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית Blue Zone ומערכת hygAir לאחסון טרי והיגייני"
+  },
+  {
+   "sources": [
+    "s4",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי כסף אנטיבקטריאלי בדפנות הפנימיות"
+  },
+  {
+   "sources": [
+    "s4",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגש מסתובב לקוביות קרח (Ice Maker)"
+  },
+  {
+   "sources": [
+    "s4",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התראה לטמפרטורה גבוהה ולדלת פתוחה"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הקפאה מהירה (Fast Freeze)"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תאורת LED פנימית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "3 מדפי זכוכית ו-3 מגירות שקופות בתא המקרר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "trimmed unsupported wording",
+   "text": "אין להפעיל את המקרר מיד עם הגעתו"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "removed power strip / extension cord claim not in quote",
+   "text": "מומלץ לחבר את המקרר לשקע מוארק ישירות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ההתקנה אינה כוללת הרכבת דלת או חזית ריהוט על המוצר"
+  }
+ ],
+ "content": {
+  "summary": "מקרר מקפיא תחתון של Blomberg בנפח כולל של 580 ליטר, מתוכם 400 ליטר תא קירור ו-180 ליטר תא הקפאה, בגימור נירוסטה. המקרר פועל בשיטת No Frost עם מנוע אינוורטר שקט, תצוגת מגע דיגיטלית בדלת ומפסק שבת לתאורה. מתאים למשפחה שמחפשת מקרר גדול עם מקפיא נגיש במגירות תחתונות.",
+  "highlights": [
+   "נפח כולל 580 ליטר: 400 ליטר קירור ו-180 ליטר הקפאה",
+   "No Frost – הפשרה אוטומטית",
+   "מנוע אינוורטר שקט וחסכוני",
+   "מפסק שבת לתאורה",
+   "אחריות שנה מטעם היבואן ראלקו"
+  ],
+  "goodFor": [
+   "משפחה שזקוקה לנפח אחסון גדול לקירור ולהקפאה",
+   "מי שמעדיף מקפיא תחתון עם מגש קרח מסתובב",
+   "בית שומר שבת שצריך ניתוק של התאורה הפנימית"
+  ],
+  "considerations": [
+   "יש להכין שקע מוארק בקרבת מקום המקרר",
+   "הדירוג האנרגטי הוא E",
+   "מפסק השבת מנתק את התאורה בלבד; מי שמחפש מנגנון שבת מלא כדאי שיבדוק זאת מול היבואן"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר והמקפיא?",
+    "a": "הנפח הכולל הוא 580 ליטר: 400 ליטר בתא הקירור ו-180 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "יש מפסק שבת מובנה לניתוק תאורת ה-LED הפנימית.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך להפשיר את המקרר?",
+    "a": "לא, המקרר פועל בשיטת No Frost עם הפשרה אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "שנה אחריות מטעם היבואן הרשמי ראלקו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא תחתון Blomberg KND3958XPP בנפח 580 ליטר, No Frost ומפסק שבת לתאורה, בגימור נירוסטה. מפרט מלא ומידע בחדד אלקטריק נהריה",
+  "keywords": [
+   "Blomberg KND3958XPP",
+   "מקרר בלומברג מקפיא תחתון",
+   "מקרר מקפיא תחתון 580 ליטר",
+   "מקרר נירוסטה No Frost",
+   "מקרר עם מפסק שבת",
+   "בלומברג KND3958XPP",
+   "מקרר מקפיא תחתון נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "580 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "400 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "180 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "רוחב 84 ס\"מ, גובה 181.4 ס\"מ, עומק 74 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מנגנון שבת מהדרין",
+   "catalogValue": "מנגנון שבת מהדרין",
+   "finding": "corrected",
+   "correctValue": "מפסק שבת לתאורה",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Ice maker (מייצר קרח סיבובי)",
+   "catalogValue": "Ice maker (מייצר קרח סיבובי)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "טכנולוגיית Hygair",
+   "catalogValue": "טכנולוגיית Hygair",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ציפוי Antibacterial",
+   "catalogValue": "ציפוי Antibacterial",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "כפתור Fast freeze",
+   "catalogValue": "כפתור Fast freeze",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מערכת בקרה אלקטרונית עם צג דיגיטלי",
+   "catalogValue": "מערכת בקרה אלקטרונית עם צג דיגיטלי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "התראת דלת פתוחה",
+   "catalogValue": "התראת דלת פתוחה",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, מטעם היבואן ראלקו",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "הקטלוג כותב Bloomberg; כל הדפים כותבים Blomberg, והשם הנכון הוא Blomberg",
+   "severity": "low"
+  },
+  {
+   "field": "מנגנון שבת מהדרין",
+   "issue": "הקטלוג מתאר מנגנון שבת מהדרין, אבל הדפים מתארים רק מפסק שבת לתאורה",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אתרים מציעים הרחבת אחריות אופציונלית על המדחס; האחריות הבסיסית היא שנה מטעם ראלקו",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות 84 × 181.4 × 74 מופיעות בדף אחד בלבד עם שלושתן יחד; שני אתרים נוספים מציגים כל מידה בנפרד",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "הקטלוג כותב Bloomberg, אך היצרן הוא Blomberg",
+   "severity": "low"
+  },
+  {
+   "field": "מנגנון שבת מהדרין",
+   "issue": "הקטלוג מציין מנגנון שבת מהדרין, אך המקורות מתארים רק מפסק שבת לתאורה",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-11",
+  "verdict": "pass-with-fixes",
+  "notes": "Installation items 0 and 1 trimmed to what the quotes say (removed 'wait per manufacturer instructions' and 'no power strip or extension cord'). Fact 7 label changed to מפסק שבת. Catalog brand spelled Bloomberg; manufacturer is Blomberg. Catalog claims מנגנון שבת מהדרין but sources only show a Sabbath light switch. | code guard removed: faq: \"מה מידות המקרר?\"; consideration: \"יש לוודא שהנישה מתאימה למידות 84 × 181.4 × 74 ס״מ, כולל מרווח לפתיחת הדלתות\""
+ }
+}
