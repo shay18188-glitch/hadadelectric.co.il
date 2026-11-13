@@ -123,7 +123,7 @@ export async function LocaleGuidePage({ guide, locale }: { guide: Guide; locale:
           <SeoTextBlock>
             {firstHalf.map((section, index) => (
               <div key={index}>
-                {section.heading && <h3>{section.heading}</h3>}
+                {section.heading && <h2 className="mt-6! md:text-lg!">{section.heading}</h2>}
                 {section.paragraphs.map((p, pi) => (
                   <p key={pi}>{p}</p>
                 ))}
@@ -157,7 +157,7 @@ export async function LocaleGuidePage({ guide, locale }: { guide: Guide; locale:
             <SeoTextBlock>
               {secondHalf.map((section, index) => (
                 <div key={index}>
-                  {section.heading && <h3>{section.heading}</h3>}
+                  {section.heading && <h2 className="mt-6! md:text-lg!">{section.heading}</h2>}
                   {section.paragraphs.map((p, pi) => (
                     <p key={pi}>{p}</p>
                   ))}

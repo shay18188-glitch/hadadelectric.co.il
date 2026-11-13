@@ -15,6 +15,7 @@ export interface BrandCategoryPresentation {
   headline: string;
   seoTitle: string;
   seoDescription: string;
+  /** Target phrasings — editorial reference, not rendered (see recommendationPages.ts). */
   searchPhrases: string[];
 }
 

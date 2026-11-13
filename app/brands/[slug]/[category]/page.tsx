@@ -148,27 +148,6 @@ export default async function BrandCategoryPage({ params }: BrandCategoryPagePro
           </div>
         </section>
 
-        <section className="container-page py-10 md:py-14" aria-labelledby="search-phrases-heading">
-          <div className="rounded-[1.5rem] border border-brand-blue/12 bg-brand-blue-light/55 p-5 md:flex md:items-center md:justify-between md:gap-8 md:p-7">
-            <div className="max-w-2xl">
-              <p className="text-xs font-black tracking-[.11em] text-brand-blue">אותה כוונת חיפוש, כמה ניסוחים</p>
-              <h2 id="search-phrases-heading" className="mt-2 text-xl font-black text-graphite md:text-2xl">
-                העמוד מרכז את כל הדרך מהחיפוש להשוואה אמיתית
-              </h2>
-              <p className="mt-2 text-sm leading-6 text-graphite-soft/72">
-                בין אם חיפשתם בלשון יחיד, רבים, בעברית או באנגלית — כאן תראו רק דגמים שקיימים בקטלוג הפעיל.
-              </p>
-            </div>
-            <div className="mt-4 flex max-w-xl flex-wrap gap-2 md:mt-0 md:justify-end">
-              {presentation.searchPhrases.map((phrase) => (
-                <span key={phrase} className="rounded-full border border-brand-blue/14 bg-white px-3.5 py-2 text-xs font-bold text-graphite-soft/78">
-                  {phrase}
-                </span>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section id="models" className="scroll-mt-28 border-y border-line/70 bg-surface py-14 md:py-20" aria-labelledby="models-heading">
           <div className="container-page">
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">

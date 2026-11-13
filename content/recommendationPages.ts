@@ -24,6 +24,11 @@ export interface RecommendationPage {
   eyebrow: string;
   lead: string;
   intro: string[];
+  /**
+   * The phrasings this page targets. Editorial reference only: they are not
+   * rendered, because a visible list of search queries reads as keyword
+   * stuffing to a ranker and adds nothing for a visitor.
+   */
   searchPhrases: string[];
   selectionPoints: { title: string; text: string }[];
   questionsToAsk: string[];

@@ -21,9 +21,9 @@ import type { Guide } from "@/content/guides";
 export const DIMENSION_GUIDES: Guide[] = [
   {
     slug: "tv-65-inch-dimensions",
-    title: "מידות טלוויזיה 65 אינץ׳ — רוחב, גובה ועומק לפי דגם",
+    title: "מידות טלוויזיה 65 אינץ׳ בס״מ — רוחב, גובה ועומק לפי דגם",
     description:
-      "כמה רוחב תופסת טלוויזיה 65 אינץ׳ באמת? טבלת מידות מדודות לפי דגם — עם מעמד ובלעדיו, כולל תקן VESA — ומה צריך למדוד לפני תלייה או קניית מזנון.",
+      "טלוויזיה 65 אינץ׳ היא 165 ס״מ באלכסון, ורוחבה בפועל 144–146 ס״מ וגובהה 83–84 ס״מ בלי מעמד. טבלת מידות לפי דגם — עם מעמד ובלעדיו, כולל תקן VESA — ומה למדוד לפני תלייה או קניית מזנון.",
     relatedCategorySlug: "tvs",
     publishedDate: "2026-08-21",
     relatedGuideSlugs: ["tv-55-inch-dimensions", "tv-75-inch-dimensions", "built-in-appliance-dimensions", "oled-vs-qled-tv", "how-to-choose-a-tv"],
@@ -244,9 +244,9 @@ export const DIMENSION_GUIDES: Guide[] = [
 
   {
     slug: "washing-machine-dimensions",
-    title: "מידות מכונת כביסה — ולמה העומק הוא מה שמפיל התקנות",
+    title: "מידות מכונת כביסה: רוחב, גובה ועומק לפי דגם וקיבולת",
     description:
-      "רוחב, גובה ועומק של מכונות כביסה לפי דגם, מתוך גיליונות המפרט בקטלוג. הרוחב כמעט תמיד 60 ס״מ — מה שבאמת משתנה הוא העומק, והוא זה שקובע אם המכונה נכנסת.",
+      "רוחב 60 ס״מ, גובה 85 ס״מ, ועומק 42–66 ס״מ שמשתנה לפי הקיבולת. טבלת מידות מגיליון המפרט של כל מכונת כביסה בקטלוג, כולל פתח עליון ברוחב 40 ס״מ, ומה למדוד לפני ההזמנה.",
     relatedCategorySlug: "washing-machines",
     publishedDate: "2026-09-13",
     relatedGuideSlugs: ["built-in-appliance-dimensions", "dryer-dimensions", "how-to-choose-a-washing-machine"],
@@ -323,9 +323,9 @@ export const DIMENSION_GUIDES: Guide[] = [
 
   {
     slug: "dishwasher-dimensions",
-    title: "מידות מדיח כלים — ולמה אינטגרלי נמוך מרגיל ב‑3 ס״מ",
+    title: "מידות מדיח כלים: רוחב, גובה ועומק — רגיל ואינטגרלי",
     description:
-      "רוחב, גובה ועומק של מדיחי כלים לפי דגם, מתוך גיליונות המפרט בקטלוג. ההבדל בין מדיח רגיל לאינטגרלי הוא לא רק החזית — הוא 3 ס״מ בגובה ו‑5 ס״מ בעומק.",
+      "מדיח כלים סטנדרטי: רוחב 60 ס״מ, גובה 85 ס״מ ועומק 59–63 ס״מ. מדיח אינטגרלי: גובה 82 ס״מ ועומק 55–56 ס״מ. טבלת מידות לפי דגם מגיליונות המפרט בקטלוג, ומה למדוד בארון לפני ההזמנה.",
     relatedCategorySlug: "dishwashers",
     publishedDate: "2026-09-13",
     relatedGuideSlugs: ["built-in-appliance-dimensions", "dishwasher-buying-guide", "washing-machine-dimensions"],
@@ -458,9 +458,9 @@ export const DIMENSION_GUIDES: Guide[] = [
 
   {
     slug: "refrigerator-4-door-dimensions",
-    title: "מידות מקרר 4 דלתות — 90 ס״מ רוחב, וזה המספר שמחליט",
+    title: "מידות מקרר 4 דלתות: רוחב, גובה ועומק לפי דגם",
     description:
-      "רוחב, גובה ועומק של מקררי 4 דלתות לפי דגם, מתוך גיליונות המפרט בקטלוג. מקרר 4 דלתות רחב בכ‑30 ס״מ ממקרר צר של 60 ס״מ — וזה מה שקובע אם הוא בכלל נכנס.",
+      "מקרר 4 דלתות רחב בדרך כלל כ‑90 ס״מ (79–91 ס״מ), גבוה 178–190 ס״מ ועמוק 60–73 ס״מ ברוב הדגמים. טבלת מידות מגיליון המפרט של כל דגם בקטלוג, ומרווחי פתיחה ואוורור שצריך להשאיר.",
     relatedCategorySlug: "refrigerators",
     publishedDate: "2026-09-13",
     relatedGuideSlugs: ["refrigerator-dimensions", "refrigerator-4-door-vs-bottom-freezer", "how-to-choose-a-refrigerator", "built-in-appliance-dimensions"],

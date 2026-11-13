@@ -99,6 +99,18 @@ const nextConfig: NextConfig = {
         source: "/:path*",
         headers: securityHeaders,
       },
+      // The root layout renders lang="he-IL" for every route and an inline
+      // script flips it to en/ru in the browser. Google renders that script;
+      // Bingbot does not always, and AI crawlers (GPTBot, ClaudeBot,
+      // PerplexityBot) read the HTML without running it, so to them a Russian
+      // page announced itself as Hebrew. The header states the language
+      // before any script runs.
+      ...(["en", "ru"] as const).flatMap((locale) =>
+        [`/${locale}`, `/${locale}/:path*`].map((source) => ({
+          source,
+          headers: [{ key: "Content-Language", value: locale }],
+        }))
+      ),
       // Admin dashboard and its auth/analytics APIs must never be cached by
       // shared caches or indexed, and must not leak referrers off-site.
       ...["/admin", "/admin/:path*", "/api/admin-login", "/api/admin/:path*", "/api/track"].map((source) => ({

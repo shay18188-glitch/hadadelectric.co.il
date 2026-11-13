@@ -164,7 +164,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
             <SeoTextBlock>
               {firstHalf.map((section, index) => (
                 <section key={index} className="border-b border-line/65 pb-7 last:border-0 last:pb-0 md:pb-9">
-                  {section.heading && <h3>{section.heading}</h3>}
+                  {section.heading && <h2 className="mt-6! md:text-lg!">{section.heading}</h2>}
                   {section.paragraphs.map((p, pi) => (
                     <p key={pi}>{p}</p>
                   ))}
@@ -285,7 +285,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
               <SeoTextBlock>
                 {secondHalf.map((section, index) => (
                   <section key={index} className="border-b border-line/65 pb-7 last:border-0 last:pb-0 md:pb-9">
-                    {section.heading && <h3>{section.heading}</h3>}
+                    {section.heading && <h2 className="mt-6! md:text-lg!">{section.heading}</h2>}
                     {section.paragraphs.map((p, pi) => (
                       <p key={pi}>{p}</p>
                     ))}

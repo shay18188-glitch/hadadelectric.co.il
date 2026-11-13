@@ -172,21 +172,6 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
           </div>
         </section>
 
-        <section className="border-y border-line/70 bg-brand-blue-light/45 py-9 md:py-11" aria-labelledby="search-phrases-heading">
-          <div className="container-page md:flex md:items-center md:justify-between md:gap-10">
-            <div className="max-w-2xl">
-              <p className="text-xs font-black tracking-[.1em] text-brand-blue">ניסוחים נפוצים לאותה החלטה</p>
-              <h2 id="search-phrases-heading" className="mt-2 text-xl font-black text-graphite md:text-2xl">העמוד עונה גם על החיפושים האלה</h2>
-              <p className="mt-2 text-sm leading-6 text-graphite-soft/70">בכל ניסוח, רשימת המוצרים נשארת מסוננת לפי אותה תכונה מדויקת.</p>
-            </div>
-            <div className="mt-4 flex max-w-xl flex-wrap gap-2 md:mt-0 md:justify-end">
-              {page.searchPhrases.map((phrase) => (
-                <span key={phrase} className="rounded-full border border-brand-blue/14 bg-white px-3.5 py-2 text-xs font-bold text-graphite-soft/78">{phrase}</span>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section id="models" className="scroll-mt-28 bg-surface py-14 md:py-20" aria-labelledby="models-heading">
           <div className="container-page">
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">

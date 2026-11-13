@@ -1,5 +1,6 @@
 import { BUSINESS_HOURS } from "@/content/businessHours";
 import { GUIDES } from "@/content/guides";
+import { hasGuideTranslation } from "@/lib/i18n/translated";
 import { BUSINESS_PROFILES, GOOGLE_REVIEWS } from "@/content/reviews";
 import { NAHARIYA_BUYING_PAGES } from "@/content/nahariyaBuyingPages";
 import { getBrands, getCategories, getProducts } from "@/lib/base44/catalog";
@@ -89,9 +90,19 @@ export async function GET() {
     // are first-party data — per-model measurements taken from manufacturer
     // spec sheets — rather than another buying-advice article, and they are
     // the pages most worth citing.
-    const measuredGuides = GUIDES.filter((guide) => guide.dimensionsTable).map(
-      (guide) => `- ${guide.title}: ${absoluteUrl(`/guides/${guide.slug}`)}`
-    );
+    //
+    // Each entry carries its one-line answer where the guide has one, and the
+    // translated editions: Bing's AI Performance report shows the Russian
+    // 65-inch guide as the single most-cited page on the site, ahead of the
+    // Hebrew original, so the locale URLs are not an afterthought.
+    const measuredGuides = GUIDES.filter((guide) => guide.dimensionsTable).map((guide) => {
+      const editions = (["en", "ru"] as const)
+        .filter((locale) => hasGuideTranslation(guide.slug, locale))
+        .map((locale) => `${locale.toUpperCase()}: ${absoluteUrl(`/${locale}/guides/${guide.slug}`)}`);
+      const head = `- ${guide.title}: ${absoluteUrl(`/guides/${guide.slug}`)}`;
+      const answer = guide.answer ? `\n  ${guide.answer}` : "";
+      return `${head}${editions.length > 0 ? ` (${editions.join(", ")})` : ""}${answer}`;
+    });
     const otherGuides = GUIDES.filter((guide) => !guide.dimensionsTable).map(
       (guide) => `- ${guide.title}: ${absoluteUrl(`/guides/${guide.slug}`)}`
     );
