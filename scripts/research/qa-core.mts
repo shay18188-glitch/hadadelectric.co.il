@@ -142,7 +142,12 @@ export function assemble(d: Draft, qa: QaOutput): { record: ResearchRecord; drop
     });
     const kinds = good.map((ev) => kindOf.get(normalizeUrl(ev.url)) ?? meta.get(normalizeUrl(ev.url))?.kind ?? "other");
     const hosts = new Set(good.map((ev) => normalizeUrl(ev.url).split("/")[0]));
-    const confidence: "high" | "medium" | "low" = kinds.some((k) => AUTHORITATIVE.has(k)) ? "high" : hosts.size >= 2 ? "medium" : "low";
+    // One Israeli retailer page is enough to publish (store owner, 2026-11-13).
+    const confidence: "high" | "medium" | "low" = kinds.some((k) => AUTHORITATIVE.has(k))
+      ? "high"
+      : hosts.size >= 2 || kinds.includes("il-retailer")
+        ? "medium"
+        : "low";
     return { good, confidence };
   };
 

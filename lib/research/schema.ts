@@ -166,18 +166,23 @@ export type ResearchFact = z.infer<typeof FactSchema>;
 /**
  * The one publication rule.
  *
- * A fact is published when it is verified, rated high or medium, and backed
- * by at least one source that is about this exact model and is either the
- * manufacturer's / importer's / regulator's own material or a manual, or is
- * corroborated by a second exact-model source. Anything else stays in the
- * record for review and is never shown as fact.
+ * A fact is published when it is verified and backed by at least one source
+ * that is about this exact model and is one of:
+ *   - the manufacturer's / importer's / regulator's own material, a manual,
+ *     or the store owner (packaging, rating label, a supplier page he confirmed);
+ *   - an Israeli retailer's page for this exact model (store owner's decision
+ *     of 2026-11-13: one Israeli retailer is enough);
+ *   - two independent exact-model sources of any other kind.
+ * A single foreign retailer, review or other page is not enough. Anything
+ * else stays in the record for review and is never shown as fact.
  */
 export function isPublishable(fact: ResearchFact, sources: Map<string, z.infer<typeof SourceSchema>>): boolean {
-  if (fact.status !== "verified" || fact.confidence === "low") return false;
+  if (fact.status !== "verified") return false;
   const exact = fact.sources.map((id) => sources.get(id)).filter((s) => s && s.exactModel);
   if (exact.length === 0) return false;
-  const authoritative = exact.some((s) => ["manufacturer", "importer", "manual", "regulator", "owner"].includes(s!.kind));
-  return authoritative || exact.length >= 2;
+  if (exact.some((s) => ["manufacturer", "importer", "manual", "regulator", "owner"].includes(s!.kind))) return true;
+  if (exact.some((s) => s!.kind === "il-retailer")) return true;
+  return fact.confidence !== "low" && exact.length >= 2;
 }
 
 /**
