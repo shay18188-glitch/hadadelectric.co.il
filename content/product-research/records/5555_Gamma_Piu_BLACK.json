@@ -1,0 +1,241 @@
+{
+ "modelNumber": "5555 Gamma Piu BLACK",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gamma Più",
+  "exactModel": "5555 Turbo",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only one page names the 5555 Turbo (German retailer Harotec, 'Gamma+ 5555 Turbo'). It does not state a colour, so the BLACK variant in the catalog is unconfirmed. Other listings found are for other colours (red, silver) or other regions (110-127 V), so they were not used. No Israeli retailer or importer page for this model was found. | QA: The source describes the Gamma Più 5555 Turbo, and its keratin, double-heater and tourmaline features match the catalog description. It does not state a colour, so the BLACK variant is not confirmed, and no Israeli page was found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.harotec.com/Gamma%2B-5555-Turbo/details_010.010_GP1133.htm",
+   "publisher": "Harotec",
+   "kind": "retailer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2100-2500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טמפרטורה גבוהה",
+     "value": "179°C"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "560 גרם"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גימור Turbo Tourmaline שמיינן את השיער ומעניק לו ברק טבעי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גוף חימום כפול (Double Wave) לחום עקבי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כפתור אוויר קר ומתגי צד מעוגלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 מפזרי ריכוז (פיות) דקים במיוחד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מייבש חזק לשיער עבה או לעבודה בסלון.",
+  "highlights": [
+   "גוף חימום כפול לחום עקבי",
+   "גימור Turbo Tourmaline לברק טבעי"
+  ],
+  "goodFor": [
+   "ייבוש שיער לאחר טיפול קרטין, שדורש חום גבוה",
+   "שיער עבה שדורש הספק גבוה וחום קבוע",
+   "עיצוב והחלקה ממוקדת בעזרת פיות ריכוז דקות",
+   "שימוש בסלון או בבית למי שרוצה מייבש מקצועי"
+  ],
+  "considerations": [
+   "החום הגבוה מתאים לקרטין, ובשיער עדין כדאי לסיים בכפתור האוויר הקר"
+  ],
+  "faq": [
+   {
+    "q": "האם יש כפתור אוויר קר?",
+    "a": "כן, יש כפתור אוויר קר ומתגי צד מעוגלים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מייבש שיער גאמה 5555",
+   "Gamma Piu 5555",
+   "מייבש שיער מקצועי",
+   "מייבש שיער לקרטין",
+   "מייבש שיער 2500 וואט",
+   "מייבש שיער טורמלין",
+   "Gamma Piu 5555 Turbo"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000-2500W",
+   "finding": "corrected",
+   "correctValue": "2100-2500 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-550 גרם",
+   "finding": "corrected",
+   "correctValue": "560 g",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זרימת אוויר",
+   "catalogValue": "30-33 ליטר לשנייה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "לחץ אוויר",
+   "catalogValue": "26-32 mbar",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "70-71 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "3 מטרים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך המכשיר",
+   "catalogValue": "223 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הדגם '5555 Gamma Piu BLACK' לא נמצא באף דף כדגם שחור. רק 'Gamma+ 5555 Turbo' נמצא בחנות גרמנית אחת, בלי ציון צבע. צבע שחור לא אומת.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "מקורות מפרטים את הספק המכשיר בטווחים שונים (כ-1875 W בחלק מהרשימות, 2400 W בחלק אחר). הערך שנשמר הוא מהמקור היחיד שנמצא.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג מציין 2500 וואט, ומקורות אחרים נותנים טווח 2100-2500 W או ערך נמוך יותר. יש לבדוק את ההספק על התווית של המכשיר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידע מקומי",
+   "issue": "לא נמצא דף של יבואן או קמעונאי ישראלי עבור הדגם, ולכן אין מקור ישראלי לנתונים.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "המקור היחיד (חנות גרמנית) מתאר את Gamma+ 5555 Turbo בלי לציין צבע. הגרסה השחורה והגרסה הישראלית לא אומתו.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "בקטלוג מופיע 2000-2500W, ובמקור 2100-2500 W. שם המוצר מציין 2500 וואט. כדאי לבדוק את התווית שעל המכשיר.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "בקטלוג מופיע כ-550 גרם, ובמקור 560 גרם.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "לא נמצא דף של יבואן או חנות ישראלית לדגם הזה.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Identity set to medium: the only source (German retailer Harotec) names the Gamma+ 5555 Turbo without a colour, so the black variant and Israeli version are unconfirmed. All three facts and four features are kept from ok quotes. Catalog power (2000-2500W) and weight (about 550 g) differ from the source (2100-2500 W, 560 g). Source kind left as retailer. | code guard removed: summary: \"מייבש שיער מקצועי של Gamma Più מסדרת 5555, בהספק 2100-2500 W.\"; summary: \"הוא מגיע לטמפרטורה גבוהה של 179°C, שמתאימה לייבוש בזמן טיפולי קרטין, וכולל גוף חימום כפול לחום עקבי וגימור טורמלין לברק.\"; faq: \"מה ההספק של המייבש?\"; faq: \"האם המייבש מתאים לטיפולי קרטין?\"; faq: \"כמה שוקל המייבש?\"; metaDescription: \"מייבש שיער מקצועי Gamma Più 5555 בצבע שחור, הספק 2100-2500 W וחום של 179°C לטיפולי קרטין. מגיע עם גוף חימום כפול. בחדד אלקטריק נהריה\"; highlight: \"הספק 2100-2500 W\"; highlight: \"טמפרטורה גבוהה של 179°C, מתאימה לטיפולי קרטין\"; highlight: \"כפתור אוויר קר ו-2 פיות ריכוז דקות\"; consideration: \"ההספק מגיע עד 2500 W, לכן כדאי לחבר לשקע שאינו עמוס במכשירים נוספים\"; consideration: \"המשקל הוא 560 גרם, כדאי לקחת זאת בחשבון בשימוש ממושך\""
+ }
+}

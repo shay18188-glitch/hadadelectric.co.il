@@ -1,0 +1,365 @@
+{
+ "modelNumber": "FS40-23MT MFS-160M0BPK (6844)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "FS40-23MT",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "medium",
+  "notes": "Israeli page names FS40-23MT with item code 6844. The catalog code MFS-160M0BPK appears on no page read; not verified. | QA: Importer page names FS40-23MT with item code 6844 matching the catalog; the MFS-160M0BPK code and black/stainless colour are not confirmed on any page, and siblings with different specs exist."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.co.il/product/fs4023mt",
+   "publisher": "Midea Israel (Hamilton importer)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "45.4 × 136.1 × 40 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "6.1 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר כנפיים",
+     "value": "40 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר כנפיים",
+     "value": "7"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צידוד",
+     "value": "עד 85 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog said 55W",
+     "label": "הספק מנוע",
+     "value": "50 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סיבוב מנוע",
+     "value": "עד 1100 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות משב אוויר",
+     "value": "130 מטר לדקה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "3 מהירויות קבועות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "טיימר סיבובי עד 120 דקות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "3 שנים בכפוף לתעודת אחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בסיס רצפתי עגול ויציב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אפשרות לכיוון גובה וזווית הטיה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מאוורר עמוד של Midea עם 7 כנפיים בקוטר 40 ס״מ ומנוע בהספק 50 W. המאוורר מציע 3 מהירויות קבועות, צידוד עד 85 מעלות וטיימר סיבובי עד 120 דקות, וניתן לכוון את הגובה ואת זווית ההטיה. מתאים לקירור חדר בבית או במשרד על בסיס רצפתי עגול ויציב.",
+  "highlights": [
+   "7 כנפיים בקוטר 40 ס״מ",
+   "מנוע 50 W עד 1100 סל״ד",
+   "צידוד עד 85 מעלות",
+   "טיימר סיבובי עד 120 דקות",
+   "אחריות 3 שנים"
+  ],
+  "goodFor": [
+   "קירור חדר שינה או סלון עם כיוון גובה וזווית לפי הצורך",
+   "הפעלה לפני השינה עם טיימר שמכבה את המאוורר",
+   "פיזור אוויר רחב בחדר בזכות הצידוד"
+  ],
+  "considerations": [
+   "גובה המאוורר 136.1 ס״מ ורוחבו 45.4 ס״מ, כדאי לוודא מקום פנוי ליד שקע חשמל",
+   "משקל נטו 6.1 ק״ג, נוח להעברה בין חדרים"
+  ],
+  "faq": [
+   {
+    "q": "כמה מהירויות יש למאוורר?",
+    "a": "3 מהירויות קבועות לבחירה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיימר?",
+    "a": "כן, טיימר סיבובי עד 120 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה זווית הצידוד?",
+    "a": "המאוורר מצדד עד 85 מעלות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות 3 שנים בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר עמוד Midea FS40-23MT עם 7 כנפיים בקוטר 40 ס״מ, צידוד עד 85 מעלות וטיימר עד 120 דקות. מאוורר עמוד בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר עמוד Midea",
+   "FS40-23MT",
+   "מאוורר עמוד 7 כנפיים",
+   "מאוורר עמוד 16 אינץ׳",
+   "מאוורר מידאה",
+   "מאוורר עמוד עם טיימר",
+   "מאוורר עמוד שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "55W",
+   "finding": "corrected",
+   "correctValue": "50 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר",
+   "catalogValue": "16 אינץ' (כ-40 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר כנפיים",
+   "catalogValue": "7 כנפיים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות מהירות",
+   "catalogValue": "3 דרגות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "מתכוונן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג בסיס",
+   "catalogValue": "בסיס עגול כבד ליציבות מקסימלית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שילוב שחור ונירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צידוד",
+   "catalogValue": "פונקציית צידוד (אוסילציה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טילט",
+   "catalogValue": "ראש מתכוונן אנכית (טילט)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 120 דקות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "המילטון",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog code MFS-160M0BPK appears on no page read. The Israeli importer page and the WiseBuy page name FS40-23MT with item code 6844, so FS40-23MT was used as the exact model. Sibling codes MFS-160M0BPW (white, 40 W, 7.5 h timer) and MFS160M0BDK (black, 40 W) appeared in search results and are not evidence for this model. Check the code on the box or label.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says 55W; the importer page says 50 W and the WiseBuy page says 50 וואט.",
+   "severity": "medium"
+  },
+  {
+   "field": "טיימר",
+   "issue": "Importer page says timer up to 120 minutes; WiseBuy lists no timer and no remote control. Sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog says black and stainless steel; no page read confirms the colour.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "The catalog code MFS-160M0BPK appears on no source; sources name FS40-23MT with item code 6844. Sibling codes with different specs exist. Check the code on the box or label.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says 55W; importer page says 50 W.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog says black and stainless steel; no source confirms the colour.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from the Israeli importer page (Midea Israel / Hamilton) for FS40-23MT. Catalog power 55W corrected to 50 W per importer. WiseBuy relabelled as other (price comparison, not a shop page). Timer kept: WiseBuy omitting a timer is not a contradicting value. Catalog code MFS-160M0BPK and colour remain unverified."
+ }
+}

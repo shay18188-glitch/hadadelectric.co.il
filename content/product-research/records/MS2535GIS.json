@@ -1,0 +1,338 @@
+{
+ "modelNumber": "MS2535GIS",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "MS2535GIS",
+  "israeliImporter": "ברימאג דיגיטל",
+  "matchConfidence": "high",
+  "notes": "The LG Levant model page, the BUG retailer page and the Brimag importer page all name MS2535GIS. The product weight differs between LG (8.6 kg) and BUG (9.5 kg), so weight is not published. | QA: LG Levant, BUG and Brimag pages all name MS2535GIS. Brimag URL ends with __W; dimensions and capacity are model-level and unaffected."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.brimag-online.co.il/p/LG_%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C_%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99_25_%D7%9C%D7%99%D7%98%D7%A8_%D7%93%D7%92%D7%9D_MS-2535GIS__W",
+   "publisher": "Brimag Digital",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lg.com/levant_en/microwaves/lg-MS2535GIS",
+   "publisher": "LG Levant",
+   "kind": "manufacturer",
+   "market": "Levant",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99-25-%D7%9C%D7%99%D7%98%D7%A8-lg-90502535",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "47.6 × 27.2 × 36.9 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות הפשרה",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגות עוצמה",
+     "value": "8"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון אינוורטר חכם Smart Inverter"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי פנימי EasyClean™ אנטי-בקטריאלי"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורת LED פנימית בצבע לבן"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיקרוגל דיגיטלי של LG בנפח 25 ליטר בצבע שחור, עם מנגנון Smart Inverter והספק מיקרוגל של 1000 W. המיקרוגל כולל 8 דרגות עוצמה ו-4 תוכניות הפשרה, וציפוי פנימי EasyClean™ אנטי-בקטריאלי שמקל על הניקוי. מתאים למטבח ביתי שמחפש מיקרוגל סולו לחימום והפשרה.",
+  "highlights": [
+   "נפח 25 ליטר",
+   "הספק מיקרוגל 1000 W",
+   "מנגנון Smart Inverter",
+   "8 דרגות עוצמה ו-4 תוכניות הפשרה",
+   "ציפוי פנימי EasyClean™ אנטי-בקטריאלי"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח הביתי",
+   "מי שמעדיף שליטה בעוצמה בעזרת מנגנון אינוורטר",
+   "מטבח בגוון כהה שמתאים למיקרוגל שחור",
+   "מי שרוצה פנים קל לניקוי עם ציפוי EasyClean™"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי על השיש במידות 47.6 × 27.2 × 36.9 ס״מ, עם מרווח לאוורור",
+   "נדרש שקע חשמל זמין ליד מקום ההצבה",
+   "זהו מיקרוגל להפשרה וחימום; כדאי לוודא שאין צורך בפונקציות נוספות"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המיקרוגל?",
+    "a": "נפח המיקרוגל הוא 25 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המיקרוגל?",
+    "a": "הספק המיקרוגל הוא 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות עוצמה ותוכניות הפשרה יש?",
+    "a": "יש 8 דרגות עוצמה ו-4 תוכניות הפשרה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המיקרוגל?",
+    "a": "המידות הן 47.6 × 27.2 × 36.9 ס״מ (רוחב × גובה × עומק).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי LG דגם MS2535GIS בנפח 25 ליטר בצבע שחור, עם מנגנון Smart Inverter והספק מיקרוגל 1000 W ו-8 דרגות עוצמה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל LG",
+   "MS2535GIS",
+   "מיקרוגל 25 ליטר",
+   "מיקרוגל אינוורטר",
+   "מיקרוגל שחור",
+   "מיקרוגל דיגיטלי LG",
+   "מיקרוגל 1000 וואט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "25 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "1000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טכנולוגיית Smart Inverter",
+   "catalogValue": "Smart Inverter לשליטה מדויקת בעוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "292 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "מגע זכוכית (Touch)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צג",
+   "catalogValue": "LED לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות חיצוניות (מ\"מ) עומק",
+   "catalogValue": "368",
+   "finding": "corrected",
+   "correctValue": "369 מ\"מ (רוחב 476, גובה 272)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות פנימיות (מ\"מ)",
+   "catalogValue": "רוחב 322, גובה 228, עומק 335",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "9.5 ק\"ג",
+   "finding": "contradicted",
+   "correctValue": "8.6 ק״ג (LG); BUG lists 9.5 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "EasyClean™ אנטי-בקטריאלי",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "דרום קוריאה (מותג), מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק צריכה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1150 W",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "Weight conflicts: the LG Levant page gives 8.6 kg for product weight, BUG gives 9.5 kg, and the catalog says 9.5 kg net. Check before publishing a weight.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "Catalog depth is 368 mm; the LG page and Brimag both give 369 mm (36.9 cm).",
+   "severity": "medium"
+  },
+  {
+   "field": "צלייה בגריל",
+   "issue": "The BUG retailer copy mentions grill cooking and a Charcoal Lighting Heater, and the spec table lists a grill function. This is a Solo model per the same page, so the grill claim is doubtful. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "The LG page is the LG Levant regional site, not an Israeli LG page. The Israeli importer is Brimag Digital.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "LG Levant gives 8.6 kg, BUG and catalog give 9.5 kg. Weight not published; verify.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "Catalog depth 368 mm vs 369 mm on LG and Brimag pages.",
+   "severity": "low"
+  },
+  {
+   "field": "גריל",
+   "issue": "BUG copy mentions grill cooking while the model is Solo; not published.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts verified by ok quotes on pages naming MS2535GIS. Weight not published due to LG/BUG conflict."
+ }
+}

@@ -1,0 +1,346 @@
+{
+ "modelNumber": "ESE-7000",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sassonic",
+  "exactModel": "ESE-7000",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "מוצר בשם The SUPERIOR ESE-7000. באתר bug.co.il מופיע כ-ESE7000 ללא מקף. לא נמצאו מידות או משקל לדגם זה בדפים שנקראו. | QA: Both pages name Sassonic THE SUPERIOR ESE-7000 (BUG writes ESE7000), 2650W, matching the catalog. Color (black) not confirmed in the quotes."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1165779",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מייבש-שיער-מקצועי-sassonic-9448877467",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2650W"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "label clarified",
+     "label": "מהירויות זרימת אוויר",
+     "value": "שתי מהירויות"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "catalog says 3; both sources say two",
+     "label": "דרגות חום",
+     "value": "שתי מהירויות"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "וו לתלייה",
+     "value": "כולל וו בידית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer-stated",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שתי מהירויות זרימת אוויר ושתי דרגות חום"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כפתור קירור המאפשר מעבר ישיר מחום לקור"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגיע עם שתי פיות, קטנה וגדולה"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסנן אחורי נשלף לניקוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מייבש שיער Sassonic THE SUPERIOR ESE-7000 בהספק 2650W. כולל שתי מהירויות זרימת אוויר, שתי דרגות חום וכפתור קירור למעבר ישיר מחום לקור. מתאים למי שמחפש מייבש חזק עם שתי פיות ומסנן אחורי נשלף לניקוי.",
+  "highlights": [
+   "הספק 2650W",
+   "שתי מהירויות זרימת אוויר ושתי דרגות חום",
+   "כפתור קירור למעבר ישיר מחום לקור",
+   "שתי פיות, קטנה וגדולה",
+   "מסנן אחורי נשלף לניקוי"
+  ],
+  "goodFor": [
+   "ייבוש מהיר בזכות הספק של 2650W",
+   "עיצוב שיער עם פיה וכפתור קירור לקיבוע",
+   "מי שרוצה לתלות את המייבש בעזרת הוו שבידית"
+  ],
+  "considerations": [
+   "הספק גבוה: מומלץ לחבר לשקע שאינו עמוס במכשירים נוספים",
+   "יש לנקות את המסנן האחורי מעת לעת כדי לשמור על זרימת האוויר",
+   "לדגם שתי דרגות חום ולא שלוש"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Sassonic ESE-7000?",
+    "a": "ההספק הוא 2650W.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות חום ומהירויות יש במייבש?",
+    "a": "שתי מהירויות זרימת אוויר ושתי דרגות חום, ובנוסף כפתור קירור.",
+    "sources": []
+   },
+   {
+    "q": "אילו פיות מגיעות עם המייבש?",
+    "a": "שתי פיות, קטנה וגדולה.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לנקות את המסנן?",
+    "a": "כן, המסנן האחורי נשלף וניתן לניקוי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנתיים אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש שיער Sassonic ESE-7000 בהספק 2650W, שתי מהירויות אוויר ושתי דרגות חום, כפתור קירור, שתי פיות ומסנן נשלף. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש שיער Sassonic",
+   "Sassonic ESE-7000",
+   "ESE7000",
+   "מייבש שיער 2650W",
+   "מייבש שיער מקצועי",
+   "THE SUPERIOR ESE-7000",
+   "מייבש שיער עם כפתור קירור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2650 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Sassonic",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין (מותג בבעלות ישראלית המיוצר במפעלים מובילים בסין)",
+   "finding": "contradicted",
+   "correctValue": "איטליה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות חום",
+   "catalogValue": "3 רמות טמפרטורה",
+   "finding": "contradicted",
+   "correctValue": "שתי מהירויות חימום",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דרגות מהירות",
+   "catalogValue": "2 מהירויות זרימת אוויר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כפתור קירור",
+   "catalogValue": "כולל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "2 פיות ריכוז אוויר (פיה רחבה ופיה צרה)",
+   "finding": "contradicted",
+   "correctValue": "שתי פיות, קטנה וגדולה",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "כ-3 מטרים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "עיצוב ארגונומי קל משקל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "AC מקצועי ועמיד במיוחד",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "origin_country",
+   "issue": "הקטלוג מציין סין, ושני אתרים שנקראו (BUG ו-Zap) מציינים תוצרת איטליה. יש לבדוק את מדינת הייצור.",
+   "severity": "high"
+  },
+  {
+   "field": "דרגות חום",
+   "issue": "הקטלוג מציין 3 רמות טמפרטורה, בעוד שהאתרים מציינים שתי מהירויות חימום.",
+   "severity": "high"
+  },
+  {
+   "field": "אביזרים",
+   "issue": "הקטלוג מציין 2 פיות (רחבה וצרה), בעוד שהאתרים מציינים פיה קטנה וגדולה.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "באתר BUG הדגם מופיע כ-ESE7000 ללא מקף. Zap מציין ESE-7000 ו-ESE 7000 כשמות נוספים. הדגם מזוהה, אך הכתיב משתנה.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Zap ו-BUG מציינים שנתיים אחריות. לא נמצא מקור יצרן או יבואן שמאשר זאת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "לא נמצאו מידות או משקל לדגם בדפים שנקראו, ולכן אין נתוני מידות בטופס.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "הקטלוג מציין סין, ושני הדפים (BUG ו-Zap) מציינים תוצרת איטליה.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הקטלוג מציין 3 רמות טמפרטורה, והמקורות מציינים שתי מהירויות חימום.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "אורך כבל, סוג מנוע ומשקל בקטלוג לא אומתו באף מקור.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "האחריות (שנתיים) מופיעה רק בדפי קמעונאים, ללא אישור יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "הצבע (שחור) שבשם הקטלוג לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features are backed by ok quotes from BUG (Israeli retailer) and Zap. Fixed labels: 'מהירויות אוורור' and 'מהירויות חימום' rewritten as 'מהירויות זרימת אוויר' and 'דרגות חום'. Catalog spec says 3 heat levels; sources say two heat speeds. Catalog origin says China; sources say made in Italy. Warranty is stated only by retailer pages."
+ }
+}

@@ -1,0 +1,445 @@
+{
+ "modelNumber": "BM235SYB",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gorenje",
+  "exactModel": "BM235SYB",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The Gorenje manual PDF names BM235SYB and two Israeli retailer pages name this exact model. The Israeli importer is not confirmed. One retailer lists the warranty as a parallel importer (יבואן מקביל). | QA: The Gorenje manual and two Israeli retailer pages name BM235SYB. The catalog name says 30 liters, but every source gives 23 liters. The Israeli importer is not confirmed; one retailer lists a parallel importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://virtualshops.co.il/product/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%91%D7%A0%D7%95%D7%99-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%92%D7%A8%D7%99%D7%9C-gorenje-%D7%92%D7%95%D7%A8%D7%A0%D7%99%D7%94-bm235syb/",
+   "publisher": "וירטואל שופס",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://gorenje-shop.com/storage/shop/product/document/3227/7j6UaGynM31iJ2bvKRQMhJgUhP3U8g2pGL1EE1O2.pdf",
+   "publisher": "Gorenje manual (WWW.GORENJE.COM)",
+   "kind": "manual",
+   "market": "multi",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://kreizman.co.il/product/bm235syb-gorenje/",
+   "publisher": "קרייזמן מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח נטו",
+     "value": "23 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manual; the catalog gives 36.8 cm depth",
+     "label": "מידות חיצוניות (רוחב × גובה × עומק)",
+     "value": "59.2 × 39 × 37.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "כ-17.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "900 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק גריל",
+     "value": "1200 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תדר עבודה",
+     "value": "2450 MHz"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק צריכה",
+     "value": "1400 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240 V, 50 Hz"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "Lc < 58 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "The same retailer page lists 800/1000 W, which contradicts the manual; it is probably a listing error or a sibling model",
+     "label": "טיימר",
+     "value": "מכני עד 60 דקות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית AquaClean לניקוי פנים המכשיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלל פנימי מנירוסטה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית המשלבת מיקרוגל וגריל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיקרוגל להתקנה בנויה במטבח, עם מסגרת תואמת"
+  }
+ ],
+ "content": {
+  "summary": "Gorenje BM235SYB הוא מיקרוגל בנוי בנפח 23 ליטר, עם גריל ומסגרת תואמת להתקנה במטבח. הספק המיקרוגל 900 W והגריל 1200 W, ויש תוכנית המשלבת מיקרוגל וגריל להשחמה. החלל הפנימי עשוי נירוסטה, ופונקציית AquaClean עוזרת בניקוי. הוא מתאים למי שמתכנן מטבח עם מכשירים בנויים ורוצה מיקרוגל עם גריל.",
+  "highlights": [
+   "נפח נטו 23 ליטר",
+   "הספק מיקרוגל 900 W והספק גריל 1200 W",
+   "תוכנית המשלבת מיקרוגל וגריל",
+   "חלל פנימי מנירוסטה ופונקציית AquaClean",
+   "מיקרוגל בנוי עם מסגרת תואמת"
+  ],
+  "goodFor": [
+   "מטבח עם מכשירים בנויים, שבו המיקרוגל משתלב בארון",
+   "חימום והשחמה של מזון בעזרת השילוב של מיקרוגל וגריל",
+   "מי שמחפש פנים נירוסטה וניקוי פשוט בעזרת AquaClean"
+  ],
+  "considerations": [
+   "מידות המכשיר לפי היצרן הן 59.2 × 39 × 37.5 ס״מ. כדאי לוודא שהנישה בארון מתאימה להתקנה עם המסגרת.",
+   "צריכת ההספק היא 1400 W. כדאי לוודא שיש שקע חשמל מתאים בתוך הארון או לידו."
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המיקרוגל?",
+    "a": "הנפח הנטו הוא 23 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש גריל?",
+    "a": "כן. הספק הגריל הוא 1200 W, ויש תוכנית המשלבת מיקרוגל וגריל.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות להתקנה?",
+    "a": "לפי היצרן, המידות החיצוניות הן 59.2 × 39 × 37.5 ס״מ (רוחב × גובה × עומק). המיקרוגל מיועד להתקנה בנויה עם מסגרת תואמת.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את פנים המכשיר?",
+    "a": "החלל הפנימי עשוי נירוסטה, ופונקציית AquaClean מסייעת בניקוי שלו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל בנוי Gorenje BM235SYB בנפח 23 ליטר, עם הספק מיקרוגל 900 W וגריל 1200 W ופנים נירוסטה. ייעוץ ומכירה בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל בנוי Gorenje",
+   "Gorenje BM235SYB",
+   "BM235SYB",
+   "מיקרוגל בנוי עם גריל",
+   "מיקרוגל בנוי שחור",
+   "מיקרוגל בנוי 23 ליטר",
+   "גורניה מיקרוגל בנוי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "900W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק גריל",
+   "catalogValue": "1200W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "59.2 × 39 × 36.8 ס״מ",
+   "finding": "contradicted",
+   "correctValue": "37.5 ס״מ עומק לפי היצרן",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "18 ק״ג",
+   "finding": "corrected",
+   "correctValue": "כ-17.5 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר פנים",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית AquaClean",
+   "catalogValue": "קיימת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה דיגיטלית (SmartControl)",
+   "catalogValue": "פאנל בקרה דיגיטלי",
+   "finding": "contradicted",
+   "correctValue": "טיימר מכני עד 60 דקות",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מנגנון נעילת ילדים",
+   "catalogValue": "קיים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "6 תוכניות מוגדרות מראש",
+   "catalogValue": "6",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הפשרה לפי זמן או משקל",
+   "catalogValue": "קיים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "31.5 ס״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פתיחת דלת בלחיצת כפתור",
+   "catalogValue": "קיים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "Lc < 58 dB(A)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק צריכה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1400 W",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תדר עבודה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "2450 MHz",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says 30 ליטר, but the manufacturer manual and both Israeli retailers give 23 ליטר. The name must be checked.",
+   "severity": "high"
+  },
+  {
+   "field": "בקרה",
+   "issue": "The catalog says a digital panel (SmartControl). The Israeli retailer kreizman.co.il lists a mechanical timer up to 60 minutes and does not mention a digital display. The sources conflict.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "kreizman.co.il lists 800 W microwave and 1000 W grill. The manual lists 900 W and 1200 W. The manual figures are used here, and the retailer figures are not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "The manual gives depth 375 mm (37.5 cm), while two Israeli retailers and the catalog give 36.8 cm. The manual figure may include the door or handle. Check before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "virtualshops.co.il states warranty via a parallel importer (יבואן מקביל). No official Israeli importer is confirmed for this model, and the warranty length is not verified.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The Israeli importer is not confirmed from an authoritative source.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says 30 ליטר, but the manufacturer manual and the Israeli retailers give 23 ליטר.",
+   "severity": "high"
+  },
+  {
+   "field": "בקרה",
+   "issue": "The catalog describes a digital panel (SmartControl), but kreizman.co.il lists a mechanical timer and 800/1000 W, which contradicts the manual. The control type is not verified.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "The manual gives a depth of 37.5 cm, against 36.8 cm in the catalog and on the retailers' pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No official Israeli importer is confirmed. One retailer lists a parallel importer.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the timer fact (kreizman.co.il: mechanical timer up to 60 minutes), because the same page lists 800 W / 1000 W, which contradicts the manufacturer manual (900 W / 1200 W). That suggests the listing mixes in a sibling model, and the catalog describes a digital panel. All manual-backed facts are kept. Depth is 37.5 cm per the manual, against 36.8 cm in the catalog. | code guard removed: consideration: \"שם המוצר בקטלוג מציין 30 ליטר, אבל לפי המקורות הנפח הוא 23 ליטר. כדאי לבדוק מול החנות.\""
+ }
+}

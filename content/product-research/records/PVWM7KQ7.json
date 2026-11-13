@@ -1,0 +1,479 @@
+{
+ "modelNumber": "PVWM7KQ7",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PVWM7KQ7",
+  "israeliImporter": "אמטל מחשבים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "The exact model appears on the Bug product page (title, SKU line and spec block), which names Amtel as official importer and gives the warranty. No manufacturer or EPREL page naming this exact model was found. The Amtel importer page fetched does not name the model, so it is not cited as evidence. | QA: Bug page names PVWM7KQ7 with 7 kg capacity matching the catalog name; warranty by Amtel."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-7-%D7%A7%D7%92-proview-921434553",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "7 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תוף",
+     "value": "45 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "10"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית ECO",
+     "value": "40°–60°"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משך תוכנית Eco 40-60 במכונה מלאה",
+     "value": "03:15 שעות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה",
+     "value": "1200 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2100 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "43 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "UM"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Page prints W220-240; unit typo, numbers match.",
+     "label": "מתח עבודה",
+     "value": "220-240 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תדר",
+     "value": "50 Hz"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה במחזור",
+     "value": "0.783 קוט״ש"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש בסחיטה",
+     "value": "76 dB"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שליטה",
+     "value": "בורר וצג LED"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 55 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "58 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, באמצעות אמטל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הוספת כביסה תוך כדי פעולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת D-LED"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית ECO לכביסה בטמפרטורות 40 עד 60 מעלות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של ProView בקיבולת 7 ק״ג, עם מהירות סחיטה של 1200 סל״ד ו-10 תוכניות כביסה. המכונה צורכת 43 ליטר מים ו-0.783 קוט״ש למחזור, בדירוג אנרגטי E. מתאימה למי שמחפש מכונה ברוחב 60 ס״מ עם אפשרות להוסיף כביסה תוך כדי פעולה.",
+  "highlights": [
+   "קיבולת כביסה 7 ק״ג ותוף בנפח 45 ליטר",
+   "מהירות סחיטה 1200 סל״ד",
+   "10 תוכניות, כולל תוכנית ECO 40°–60°",
+   "הוספת כביסה תוך כדי פעולה",
+   "אחריות לשנה באמצעות אמטל"
+  ],
+  "goodFor": [
+   "משק בית שמכבס עומסים בינוניים בקיבולת 7 ק״ג",
+   "מי שרוצה להוסיף פריט שנשכח אחרי תחילת הכביסה",
+   "מי שמעדיף שליטה פשוטה בבורר עם צג LED"
+  ],
+  "considerations": [
+   "יש לוודא נישה ברוחב 60 ס״מ, גובה 85 ס״מ ועומק 55 ס״מ, עם מרווח לפתיחת הדלת",
+   "ההספק 2100 W, לכן כדאי לחבר לשקע ייעודי ותקין",
+   "רמת הרעש בסחיטה היא 76 dB, שיקול חשוב אם המכונה ממוקמת ליד חדרי שינה",
+   "המשקל 58 ק״ג, ולכן ההובלה וההצבה דורשות שני אנשים או סיוע מקצועי"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של מכונת הכביסה ProView PVWM7KQ7?",
+    "a": "הקיבולת היא 7 ק״ג, ונפח התוף 45 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה?",
+    "a": "מהירות הסחיטה המרבית היא 1200 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים וחשמל המכונה צורכת?",
+    "a": "43 ליטר מים ו-0.783 קוט״ש למחזור, בדירוג אנרגטי E.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן נמשכת תוכנית ה-ECO?",
+    "a": "תוכנית Eco 40-60 במכונה מלאה נמשכת 03:15 שעות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "אחריות לשנה, בכפוף לתעודת האחריות של אמטל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה ProView PVWM7KQ7 פתח חזית בקיבולת 7 ק״ג, סחיטה 1200 סל״ד ו-10 תוכניות. ייעוץ והזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת כביסה ProView",
+   "PVWM7KQ7",
+   "פרוויו מכונת כביסה 7 קג",
+   "מכונת כביסה 7 ק\"ג",
+   "מכונת כביסה פתח חזית 1200 סלד",
+   "מכונת כביסה אמטל",
+   "מכונת כביסה נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה",
+   "catalogValue": "1200 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "10",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תוף",
+   "catalogValue": "45 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "43 ליטר למחזור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "catalogValue": "0.783 קוט\"ש למחזור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2100W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V / 50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש בזמן סחיטה",
+   "catalogValue": "76dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "UM",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 85 ס\"מ, רוחב 60 ס\"מ, עומק 55 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "58 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע גוף המכונה",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "All specs come from one Israeli retailer page (Bug). No manufacturer, importer, manual or EPREL page naming this exact model was found, so check the figures against the printed label or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "voltage",
+   "issue": "The retailer page prints the voltage as W220-240, apparently a typo for V. The catalog's 220-240V is consistent with it.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All specs rely on one Israeli retailer page (Bug); no manufacturer, importer or EPREL page names this model. Check against the label or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "voltage",
+   "issue": "Retailer page prints the voltage unit as W (W220-240); published as 220-240 V.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from a single Israeli retailer page (Bug) naming the exact model. Voltage kept as 220-240 V although the page prints the unit as W (typo); ECO duration wording tidied. No manufacturer or EPREL confirmation."
+ }
+}

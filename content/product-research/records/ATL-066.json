@@ -1,0 +1,311 @@
+{
+ "modelNumber": "ATL-066",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-066",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Model appears as ATL-066 and ATL066 on Israeli retail pages. No manufacturer or importer page was found in the search results. | QA: BUG and zap pages name Gold Line ATL-066, 6.5 liter slow cooker, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/סיר-בישול-איטי-65-ליטר-gold-line-90600661",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=360437",
+   "publisher": "zap.co.il",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "6.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Also confirmed by BUG feature quote.",
+     "label": "מצבי הפעלה",
+     "value": "4 מצבי הפעלה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Zomet approval quote mentions Shabbat; BUG adds holidays.",
+     "label": "שבת וחג",
+     "value": "מתאים לשימוש בשבת ובחג, מאושר לשימוש בשבת ע״י מכון צ.מ.ת"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר חיצוני",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר קערה פנימית",
+     "value": "חרס בצבע שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "באחריות גולד ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ארבעה מצבי הפעלה ונורת ביקורת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קערה נשלפת להגשה נוחה לשולחן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה זכוכית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סיר בישול איטי של Gold Line בנפח 6.5 ליטר, עם מעטפת נירוסטה וקערת חרס פנימית נשלפת. מתאים למי שמכין חמין, תבשילי קדרה ובשר בבישול ארוך.",
+  "highlights": [
+   "נפח 6.5 ליטר",
+   "קערת חרס נשלפת להגשה ישירה לשולחן",
+   "מאושר לשימוש בשבת ע״י מכון צ.מ.ת",
+   "מעטפת נירוסטה ומכסה זכוכית"
+  ],
+  "goodFor": [
+   "הכנת חמין לשבת עם אישור מכון צ.מ.ת",
+   "בישול תבשילים בכמויות גדולות בזכות נפח של 6.5 ליטר",
+   "הגשה ישירה לשולחן בקערת החרס הנשלפת"
+  ],
+  "considerations": [
+   "לבדוק שיש מקום על השיש לסיר בנפח 6.5 ליטר ושקע חשמל בקרבת מקום",
+   "קערת חרס דורשת זהירות מנפילות ומשינויי טמפרטורה חדים",
+   "לוודא שהשימוש בשבת תואם את הנחיות מכון צ.מ.ת למכשיר"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של הסיר?",
+    "a": "נפח הסיר הוא 6.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להשתמש בסיר בשבת?",
+    "a": "כן, הסיר מתאים לשימוש בשבת ובחג ומאושר לשימוש בשבת ע״י מכון צ.מ.ת.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויה הקערה הפנימית?",
+    "a": "הקערה עשויה חרס בצבע שחור והיא נשלפת, כך שאפשר להגיש בה ישירות לשולחן.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן את האחריות?",
+    "a": "המוצר באחריות גולד ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר בישול איטי Gold Line ATL-066 בנפח 6.5 ליטר עם קערת חרס נשלפת, מאושר לשבת ע״י מכון צ.מ.ת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סיר בישול איטי",
+   "Gold Line ATL-066",
+   "ATL-066",
+   "סיר בישול איטי 6.5 ליטר",
+   "סיר חמין לשבת",
+   "סיר בישול איטי גולד ליין",
+   "סיר קרמיקה לבישול איטי",
+   "סיר בישול מאושר צומת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "6.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "320W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 40 ס\"מ, אורך 30 ס\"מ, גובה 26 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-3.5 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V/50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומרים",
+   "catalogValue": "גוף חיצוני מנירוסטה, קערה פנימית מחרס בגימור שחור, מכסה זכוכית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה מוברשת עם שילוב שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שבת",
+   "catalogValue": "מאושר לשימוש בשבת ובחג על ידי צ.מ.ת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "באחריות גולד ליין",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "320W appears on the retailer pages only as a line split from its label, so no quote could be recorded. Verify against the manufacturer label or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions appear only as separate width, length and height lines on the BUG page, so no combined dimensions row could be quoted. Verify against a manufacturer spec.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer, importer or user-manual page for ATL-066 was found. Facts rest on two Israeli retail or price-comparison pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "320W from the catalog could not be quoted from any source; verify against the product label or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions could not be quoted as a combined row; verify against a manufacturer spec.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer, importer or manual page found; facts rest on Israeli retail and price-comparison pages.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All six facts and three features are backed by ok quotes from Israeli pages naming ATL-066. Power and dimensions were not quoted and are not published. | code guard removed: summary: \"הסיר כולל 4 מצבי הפעלה ונורת ביקורת, ומאושר לשימוש בשבת ע״י מכון צ.מ.ת.\"; faq: \"כמה מצבי הפעלה יש?\"; highlight: \"4 מצבי הפעלה ונורת ביקורת\""
+ }
+}

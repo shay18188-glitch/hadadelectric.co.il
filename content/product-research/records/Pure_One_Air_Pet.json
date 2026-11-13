@@ -1,0 +1,337 @@
+{
+ "modelNumber": "Pure One Air Pet",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Tineco",
+  "exactModel": "Pure One Air Pet",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The manufacturer manual names the series PURE ONE AIR PET SERIES. The Israeli site tineco.co.il lists the product as Pure One Air Pet. The importer name is not stated on the pages read. | QA: Manufacturer support page, manual and the Israeli Tineco site all name Pure One Air Pet. Some figures are stated jointly for PURE ONE AIR PET&PRO."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://tineco.co.il/product/pure-one-air-pet/",
+   "publisher": "Tineco Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://us.tineco.com/support/detail/pure-one-air-pet/",
+   "publisher": "Tineco (US support)",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://static-ussite.tineco.com/13.PURE%20ONE%20AIR%20PET.pdf_2db3c5b2-d.pdf",
+   "publisher": "Tineco instruction manual",
+   "kind": "manual",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Marketing phrase without a number; conflicts with other sources.",
+     "label": "משקל",
+     "value": "ק״ג בודד (קל במיוחד)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 20 דקות (מברשת ראשית במצב אוטומטי)"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק נומינלי",
+     "value": "230 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מיכל אבק",
+     "value": "0.3 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח סוללה",
+     "value": "14.4 V"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "3-3.5 שעות"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Lowest published noise value.",
+     "label": "עוצמת רעש (הערך הנמוך ביותר)",
+     "value": "72 dB(A)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Reworded to match the quote.",
+   "text": "חיישן אבק iLoop לזיהוי וניקוי לכלוך מוטבע עמוק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת ZeroTangle נגד הסתבכות שיער בעלי חיים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כפתור ייעודי לריקון מיכל האבק"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Tineco Pure One Air Pet הוא שואב אבק אלחוטי עם מברשת ZeroTangle נגד הסתבכות שיער בעלי חיים וחיישן אבק iLoop לזיהוי לכלוך. זמן העבודה עד 20 דקות עם המברשת הראשית במצב אוטומטי, ומיכל האבק בקיבולת 0.3 ליטר. מתאים לבית עם חיות מחמד ולניקוי שוטף ומהיר.",
+  "highlights": [
+   "מברשת ZeroTangle נגד הסתבכות שיער בעלי חיים",
+   "חיישן אבק iLoop לזיהוי לכלוך מוטבע",
+   "זמן עבודה עד 20 דקות במצב אוטומטי",
+   "מיכל אבק 0.3 ליטר עם כפתור ריקון ייעודי",
+   "הספק נומינלי 230 W"
+  ],
+  "goodFor": [
+   "בית עם כלב או חתול שמשירים שיער",
+   "ניקוי יומיומי מהיר של הבית בלי חוט",
+   "מי שרוצה לראות ולטפל בלכלוך מוטבע בעזרת חיישן"
+  ],
+  "considerations": [
+   "זמן העבודה עד 20 דקות במצב אוטומטי, כדאי לבדוק שזה מספיק לשטח הבית",
+   "זמן הטעינה 3-3.5 שעות, כדאי לתכנן טעינה בין ניקיונות",
+   "מיכל האבק 0.3 ליטר ודורש ריקון תכוף יחסית",
+   "עוצמת הרעש הנמוכה שפורסמה היא 72 dB(A)"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן השואב עובד בטעינה אחת?",
+    "a": "עד 20 דקות עם המברשת הראשית במצב אוטומטי.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לטעון את הסוללה?",
+    "a": "זמן הטעינה הוא 3-3.5 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מתאים לשיער של חיות מחמד?",
+    "a": "כן, מברשת ZeroTangle מיועדת למנוע הסתבכות של שיער בעלי חיים.",
+    "sources": []
+   },
+   {
+    "q": "מה הקיבולת של מיכל האבק?",
+    "a": "0.3 ליטר, וריקון המיכל נעשה בכפתור ייעודי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק אלחוטי Tineco Pure One Air Pet עם מברשת ZeroTangle לשיער חיות וזמן עבודה עד 20 דקות. מיכל 0.3 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Tineco Pure One Air Pet",
+   "שואב אבק אלחוטי Tineco",
+   "טינקו פיור וואן אייר פט",
+   "שואב אבק לשיער חיות",
+   "שואב אבק אלחוטי לבעלי חיים",
+   "שואב אבק ZeroTangle"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "משקל גוף השואב",
+   "catalogValue": "כ-1.07 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 20 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "4 שלבים עם מסנן HEPA הלוכד 99.99%",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מיכל איסוף",
+   "catalogValue": "0.3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "מתחת ל-70 דציבל",
+   "finding": "corrected",
+   "correctValue": "72 dB(A) (הערך הנמוך ביותר שפורסם)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "ליתיום-יון נטענת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג מברשת",
+   "catalogValue": "מברשת ZeroTangle למניעת הסתבכות שיער",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישן iLoop",
+   "catalogValue": "חיישן iLoop חכם המזהה לכלוך ומתאים את עוצמת השאיבה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "תצוגת LED המציגה את רמת הלכלוך ומצב הסוללה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ריקון מיכל",
+   "catalogValue": "ריקון מיכל הלכלוך בלחיצת כפתור אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "Sources conflict. The Israeli site says one kilogram. Tineco US support says 5 lbs for the whole unit. The catalog says about 1.07 kg. A person should confirm the weight with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "The catalog says under 70 dB. Tineco US support gives 72 dB(A) as the lowest noise value. The catalog figure is contradicted.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "The HEPA filter claim of 99.99% and the four-stage filtration are not on the pages read. Third-party listings cite 99.9% for allergens, which is a marketing claim.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "Third-party listings claim up to 40 minutes. The manufacturer says 20 minutes with the main brush in auto mode. The manufacturer figure is used.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Weight sources conflict: Israeli site says one kilogram, US support says 5 lbs for the whole unit, catalog says about 1.07 kg. Not published; confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "Catalog says under 70 dB; manufacturer gives 72 dB(A) as the lowest noise value. Catalog text should be corrected.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "Catalog claims 4-stage filtration with HEPA 99.99%; not found on the sources read.",
+   "severity": "low"
+  },
+  {
+   "field": "תצוגה",
+   "issue": "Catalog LED display claim not verified on the sources read.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 0 (weight): the quote is a marketing line with no number, and the weight conflicts with the US support page (5 lbs whole unit) and the catalog (1.07 kg). Noise label clarified as the lowest published noise value. Feature 0 reworded to what the quote says (detects deep dirt); automatic power adjustment is not in the quote."
+ }
+}

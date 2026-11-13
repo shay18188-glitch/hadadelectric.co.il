@@ -1,0 +1,307 @@
+{
+ "modelNumber": "SMF600",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "SMF600",
+  "israeliImporter": "אלקטרה סחר",
+  "matchConfidence": "high",
+  "notes": "Search results also show a Sage SMF600BSS milk frother with the same number; it is a different product and was not used. No manufacturer or importer page for the Sauter SMF600 was found; facts rest on Israeli retailer listings and one price-comparison listing. | QA: Two Israeli retailer pages name Sauter SMF600 milk frother; Sage SMF600BSS is a different product and was not used. No manufacturer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%A7%D7%A6%D7%99%D7%A3-%D7%97%D7%9C%D7%91-%D7%A1%D7%90%D7%95%D7%98%D7%A8-smf600/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מוצרי_חשמל_למטבח/מכונות_קפה/מקציף_חלב_דיגיטלי_sauter_דגם_smf600_סאוטר",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "500 W"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות הקצפה",
+     "value": "4 (קצף גבוה, קצף נמוך, חימום חלב, הקצפה קרה)"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "מסך מגע ותצוגה דיגיטלית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Reworded from 'יבואן רשמי' to the warrantor named in the Avi Sofer quote.",
+     "label": "אחריות",
+     "value": "שנה, על ידי אלקטרה סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס מסתובב ב-360 מעלות"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגליות מונעות החלקה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב בצורת קומקום קטן"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקציף חלב חם וקר עם מסך מגע"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקציף החלב Sauter SMF600 מכין קצף חם או קר ומחמם חלב, עם מסך מגע ותצוגה דיגיטלית. הוא כולל 4 תוכניות: קצף גבוה, קצף נמוך, חימום חלב והקצפה קרה, בהספק של 500W. מתאים למי שמכין קפוצ׳ינו, לאטה או קפה קר בבית ורוצה שליטה פשוטה בלחיצה.",
+  "highlights": [
+   "4 תוכניות: קצף גבוה, קצף נמוך, חימום חלב והקצפה קרה",
+   "מסך מגע ותצוגה דיגיטלית",
+   "הספק 500W",
+   "בסיס מסתובב ב-360 מעלות ורגליות מונעות החלקה",
+   "אחריות לשנה על ידי אלקטרה סחר"
+  ],
+  "goodFor": [
+   "הכנת קצף סמיך לקפוצ׳ינו או קצף נמוך ללאטה",
+   "משקאות קרים עם חלב מוקצף בתוכנית ההקצפה הקרה",
+   "חימום חלב בלבד, בלי הקצפה, לשוקו או לקפה",
+   "מטבח שבו נוח להרים ולהניח את המכל מכל כיוון על הבסיס המסתובב"
+  ],
+  "considerations": [
+   "יש לוודא שקע חשמל זמין ליד מכונת הקפה או משטח ההכנה",
+   "הקיבולת המרבית של המכל לא אומתה במקורות, כדאי לבדוק אותה בחנות לפי כמות המשקאות שאתם מכינים",
+   "ההפעלה דרך מסך מגע, ולא בכפתורים פיזיים"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להקציף חלב קר במקציף Sauter SMF600?",
+    "a": "כן, יש בו תוכנית ייעודית להקצפה קרה, לצד קצף גבוה, קצף נמוך וחימום חלב.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לחמם חלב בלי להקציף?",
+    "a": "כן, אחת מ-4 התוכניות היא חימום חלב.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המקציף?",
+    "a": "ההספק הוא 500W.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה על ידי אלקטרה סחר, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקציף חלב Sauter SMF600 חם וקר עם מסך מגע ו-4 תוכניות הקצפה, הספק 500W ובסיס מסתובב 360 מעלות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקציף חלב Sauter",
+   "Sauter SMF600",
+   "סאוטר SMF600",
+   "מקציף חלב חשמלי",
+   "מקציף חלב חם וקר",
+   "מקציף חלב עם מסך מגע",
+   "מקציף חלב לקפוצ׳ינו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "600W",
+   "finding": "corrected",
+   "correctValue": "500 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס 360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "נוריות חיווי LED למצבי העבודה השונים",
+   "finding": "contradicted",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית חימום",
+   "catalogValue": "אינדוקציה מגנטית מתקדמת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מרבית להקצפה",
+   "catalogValue": "250 מ״ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מרבית לחימום",
+   "catalogValue": "500 מ״ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר המכל",
+   "catalogValue": "נירוסטה איכותית (נשלף)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בטיחות",
+   "catalogValue": "מנגנון כיבוי אוטומטי והגנה מפני הפעלה ללא נוזלים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות הקצפה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "4 (קצף גבוה, קצף נמוך, חימום חלב, הקצפה קרה)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Catalog says 600W; both Israeli retailer listings for the Sauter SMF600 say 500W.",
+   "severity": "high"
+  },
+  {
+   "field": "תצוגה",
+   "issue": "Catalog says LED indicator lights; retailer listings describe a touch screen and digital display.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Electra or Sauter page for SMF600 was found; the importer and warranty come from retailer listings only.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "Catalog capacities (250 ml frothing, 500 ml heating) and heating technology were not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says 600W; both Israeli retailer pages for Sauter SMF600 say 500W.",
+   "severity": "high"
+  },
+  {
+   "field": "תצוגה",
+   "issue": "Catalog says LED indicator lights; retailer pages describe a touch screen and digital display.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט",
+   "issue": "Catalog capacities (250/500 ml), induction heating, removable stainless jug and dishwasher-safe claim were not found on any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog name says black; no fetched page confirmed the color.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Sauter or Electra page found; importer and warranty rest on retailer listings only.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Warranty value reworded to name the warrantor (Electra Trade) as quoted on the Avi Sofer page instead of a generic 'official importer'. Both retailer pages carry identical text, likely from a shared importer feed. Catalog spec contradicts sources on power (600W vs 500W) and display (LED lights vs touch screen); catalog capacities, induction heating and stainless jug were not verified and are not published."
+ }
+}

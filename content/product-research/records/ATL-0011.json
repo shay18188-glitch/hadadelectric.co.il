@@ -1,0 +1,97 @@
+{
+ "modelNumber": "ATL-0011",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-0011",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only the Homecenter search results page names the model; the product page itself returned HTTP 429, so no dimensions or other specs could be verified. goldline.co.il and bug.co.il searches returned nothing. | QA: Home Center search listing names 'קרש גיהוץ CLASSIC דגם ATL-0011', matching the catalog name and model; no product page or manufacturer page confirmed specs."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.homecenter.co.il/search?q=ATL-0011",
+   "publisher": "Home Center",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Listing text matches catalog name and model exactly.",
+     "label": "סוג ודגם",
+     "value": "קרש גיהוץ CLASSIC דגם ATL-0011"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קרש גיהוץ CLASSIC של Gold Line, דגם ATL-0011. מומלץ לבדוק את מידות המשטח ואת אפשרויות כוונון הגובה מול הצורך שלכם לפני הרכישה.",
+  "highlights": [
+   "קרש גיהוץ CLASSIC דגם ATL-0011 של Gold Line"
+  ],
+  "goodFor": [
+   "גיהוץ ביתי שוטף"
+  ],
+  "considerations": [
+   "כדאי לוודא שמידות הקרש המקופל מתאימות למקום האחסון בבית",
+   "כדאי לבדוק שמעמד המגהץ שעל הקרש מתאים למגהץ שלכם"
+  ],
+  "faq": [
+   {
+    "q": "מה הדגם של קרש הגיהוץ?",
+    "a": "זהו קרש גיהוץ CLASSIC של Gold Line, דגם ATL-0011.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קרש גיהוץ CLASSIC של Gold Line דגם ATL-0011 – קרש גיהוץ ביתי לשימוש יומיומי, פרטים והתאמה לבית שלכם, להשיג בחדד אלקטריק נהריה",
+  "keywords": [
+   "קרש גיהוץ",
+   "קרש גיהוץ Gold Line",
+   "ATL-0011",
+   "קרש גיהוץ CLASSIC",
+   "גולד ליין קרש גיהוץ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "110x33 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Model name confirmed only by a retailer search listing; dimensions and materials in the catalog text are unverified (product page blocked).",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog dimensions, mesh surface, cotton cover, heat-resistant iron rest and leg caps are not confirmed by any fetched page; only a retailer search listing names the model.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only the model identity is verifiable, from a Home Center search results listing. Catalog dimensions (110×33 ס״מ), mesh surface, cotton cover and other specs are unverified because the product page was blocked; nothing beyond identity is published."
+ }
+}

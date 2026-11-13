@@ -1,0 +1,128 @@
+{
+ "modelNumber": "TX20",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "S.A.P",
+  "exactModel": "TX20",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצאו רק רישומי קמעונאים ישראליים (קשת, ret, לאסטפרייס) ללא גיליון מפרט יצרן; עמוד קשת לא ניתן לשליפה. ההספק סותר בין מקורות (2000W בקטלוג ובלאסטפרייס, 2400W בקשת וב-ret). | QA: LastPrice listing names 'מקרן חום פחם לתלייה מוגן מים S.A.P TX20', matching the catalog name; no manufacturer spec sheet; source is a search-results page rather than a product page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lastprice.co.il/category.asp?q=%D7%97%D7%99%D7%9E%D7%95%D7%9D+%D7%9E%D7%99%D7%9D",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Listing title names the model as a carbon heater.",
+     "label": "סוג גוף חימום",
+     "value": "פחם (Carbon)"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "S.A.P TX20 הוא מקרן חום עם גוף חימום פחם (Carbon). מקרני פחם מחממים בקרינה ישירה את מי שנמצא מולם.",
+  "highlights": [
+   "גוף חימום פחם (Carbon)"
+  ],
+  "goodFor": [
+   "חימום ממוקד בקרינה של אזור ישיבה"
+  ],
+  "considerations": [
+   "מומלץ לבדוק על גבי המוצר את ההספק בפועל ואת דרגת האטימות לפני התקנה בחוץ",
+   "יש לוודא נקודת חשמל מתאימה במקום התלייה"
+  ],
+  "faq": [
+   {
+    "q": "איזה גוף חימום יש ב-S.A.P TX20?",
+    "a": "למקרן גוף חימום פחם (Carbon).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרן חום פחם S.A.P TX20 לתלייה – תנור חימום עם גוף חימום פחם (Carbon) לחימום בקרינה ישירה. לפרטים ולהתאמה בחדד אלקטריק נהריה",
+  "keywords": [
+   "S.A.P TX20",
+   "מקרן חום פחם",
+   "תנור חימום פחם לתלייה",
+   "מקרן חום מוגן מים",
+   "תנור חימום S.A.P",
+   "מקרן חום למרפסת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג גוף חימום",
+   "catalogValue": "פחם (Carbon)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דרגת אטימות",
+   "catalogValue": "IP65",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "54×24×23 ס״מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "קשת ו-ret מציגים 2400W לדגם TX20, הקטלוג ולאסטפרייס 2000W. יש לבדוק על המוצר.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "לפי החוקר, קשת ו-ret מציגים 2400W לדגם TX20 בעוד הקטלוג ולאסטפרייס 2000W. יש לבדוק על גבי המוצר.",
+   "severity": "high"
+  },
+  {
+   "field": "דרגת אטימות",
+   "issue": "IP65 שבקטלוג לא אומת בשום מקור; חשוב לבדוק לפני הצגת המוצר כמתאים לשימוש בחוץ.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות שבקטלוג לא אומתו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only one fact (carbon heating element) is supported, by a LastPrice search-results listing naming S.A.P TX20. Power, IP rating, dimensions unverified; power conflicts across retailers (2000W vs 2400W) per researcher notes. Content kept minimal."
+ }
+}

@@ -1,0 +1,372 @@
+{
+ "modelNumber": "MGC-2",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "MGC-2",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "No manufacturer or importer page for MGC-2 was found: the Gold Line brand site search returned nothing and no manual was found. Facts come from Israeli retailer BUG (bug.co.il) and the Zap listing, both of which name MGC-2 exactly. Homecenter could not be fetched (HTTP 429). | QA: BUG and Zap both name Gold Line MGC-2, a 2-burner gas cooker, matching the catalog. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/כיריים-גז-2-להבות-gold-line-90621141411",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1041437",
+   "publisher": "Zap (זאפ)",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג ודגם",
+     "value": "Gold Line MGC-2"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "2"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר נחירים",
+     "value": "0.7 מ״מ ו-0.6 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Includes cover, knobs and gas connector per the source.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59 × 10 × 32 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג גז",
+     "value": "בוטן/פרופן (גפ״מ)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת גז מקסימלית",
+     "value": "190 גרם לשעה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנון בטיחות",
+     "value": "הפסקת זרימת הגז באופן אוטומטי בהעדר להבה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקן",
+     "value": "תו תקן ישראלי לשימוש בפנים הבית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ווסת מובנה לשליטה בעוצמת הלהבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חצובה נשלפת לניקוי קל ומהיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מבערים עמידים בחום רב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגליות NON-SLIP המונעות החלקת הכירה ומגנות על השיש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Gold Line MGC-2 היא כירת גז שולחנית בעלת 2 להבות הפועלת על גפ״מ (בוטן/פרופן). הכירה כוללת מנגנון בטיחות המפסיק את זרימת הגז אוטומטית בהעדר להבה, ונושאת תו תקן ישראלי לשימוש בפנים הבית. מידותיה 59 × 10 × 32 ס״מ, והיא מתאימה למי שמחפש כירה קומפקטית להנחה על השיש.",
+  "highlights": [
+   "2 להבות עם ווסת מובנה לשליטה בעוצמת הלהבה",
+   "מנגנון בטיחות המפסיק את זרימת הגז בהעדר להבה",
+   "תו תקן ישראלי לשימוש בפנים הבית",
+   "חצובה נשלפת לניקוי קל ומהיר",
+   "רגליות NON-SLIP המונעות החלקה ומגנות על השיש"
+  ],
+  "goodFor": [
+   "מטבח קטן או דירה שבה אין כיריים מובנות",
+   "בישול בתוך הבית עם מנגנון ניתוק גז בהעדר להבה",
+   "כירה נוספת לצד כיריים קיימות"
+  ],
+  "considerations": [
+   "ודאו שיש על השיש מקום פנוי של 59 × 32 ס״מ לפחות",
+   "הכירה מיועדת לגפ״מ – יש לחבר אותה לבלון או לצנרת גז מתאימה באמצעות מתקין גז מוסמך",
+   "צריכת הגז המקסימלית היא 190 גרם לשעה – כדאי לקחת זאת בחשבון בתכנון אספקת הגז"
+  ],
+  "faq": [
+   {
+    "q": "האם הכירה מותרת לשימוש בתוך הבית?",
+    "a": "כן, לכירה תו תקן ישראלי לשימוש בפנים הבית.",
+    "sources": []
+   },
+   {
+    "q": "מה קורה אם הלהבה כבה?",
+    "a": "מנגנון הבטיחות מפסיק את זרימת הגז באופן אוטומטי בהעדר להבה.",
+    "sources": []
+   },
+   {
+    "q": "באיזה סוג גז הכירה עובדת?",
+    "a": "הכירה פועלת על גפ״מ – בוטן/פרופן.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הכירה?",
+    "a": "רוחב 59 ס״מ, גובה 10 ס״מ ועומק 32 ס״מ, כולל מכסה, לחצנים ומחבר גז.",
+    "sources": []
+   },
+   {
+    "q": "האם קל לנקות את הכירה?",
+    "a": "כן, החצובה נשלפת לניקוי קל ומהיר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כירת גז 2 להבות Gold Line MGC-2 עם מנגנון ניתוק גז בהעדר להבה ותו תקן ישראלי לשימוש בפנים הבית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כירת גז 2 להבות",
+   "Gold Line MGC-2",
+   "כירת גז בטיחותית",
+   "כיריים גז שולחניות",
+   "גולד ליין כירת גז",
+   "כירת גז לבית",
+   "כירת גז גפ״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון בטיחות FFD",
+   "catalogValue": "חיישני FFD לניתוק אוטומטי של זרימת הגז בעת כיבוי הלהבה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גז",
+   "catalogValue": "גפ\"מ (בוטאן/פרופאן)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת גז מקסימלית",
+   "catalogValue": "190 גרם לשעה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ עבודה",
+   "catalogValue": "30 מילבר",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 59 ס\"מ, עומק 32 ס\"מ, גובה 10 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר נחירים",
+   "catalogValue": "0.6 מ\"מ ו-0.7 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבערים",
+   "catalogValue": "מבערים עמידים בחום גבוה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חצובה",
+   "catalogValue": "חצובה נשלפת מצופה אמייל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רגליות",
+   "catalogValue": "NON-SLIP למניעת החלקה והגנה על המשטח",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אישור",
+   "catalogValue": "תו תקן ישראלי לשימוש בתוך מבנים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "לחץ עבודה",
+   "issue": "The catalog says 30 mbar. The BUG page says 'לחץ עבודה נומינלי: 28 גרם/שעה', which has a unit error and a different number. No manufacturer page was found to settle it. Check the pressure on the unit or the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions come only from the BUG retailer page. No manufacturer or importer page confirmed them.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No official Israeli importer or manufacturer page for MGC-2 was found. The Gold Line brand site search returned nothing, and the Homecenter page could not be fetched (HTTP 429).",
+   "severity": "low"
+  },
+  {
+   "field": "חצובה",
+   "issue": "The catalog says the grate is enamel-coated. Neither retailer page says so.",
+   "severity": "low"
+  },
+  {
+   "field": "לחץ עבודה",
+   "issue": "Catalog says 30 mbar; the BUG page lists a different number with a wrong unit. Not published; check the unit label or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "חצובה",
+   "issue": "Catalog says the grate is enamel-coated; no source confirms it.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No manufacturer or Israeli importer page found; all facts come from one Israeli retailer page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features are backed by ok quotes on the BUG page, which names MGC-2 exactly. Working pressure (catalog 30 mbar) was not proposed as a fact and stays flagged."
+ }
+}

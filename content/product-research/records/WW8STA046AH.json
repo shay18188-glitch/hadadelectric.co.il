@@ -1,0 +1,422 @@
+{
+ "modelNumber": "WW8STA046AH",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW8STA046AH",
+  "israeliImporter": "ניופרו (מקבוצת ניופאן)",
+  "matchConfidence": "medium",
+  "notes": "No Samsung, Samsung Israel or EPREL page naming WW8STA046AH was found. The Samsung support pages found are for the sibling WW80TA046AH and are not used. All facts rest on Israeli retailer pages that name this exact model. | QA: Several Israeli retailer pages name WW8STA046AH, and capacity, spin speed and energy class match the catalog. No Samsung or EPREL page confirms the exact SKU, and the door colour in the catalog name is not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ace.co.il/4483108",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-8-%D7%A7%D7%92-samsung-5102200ww8sta046ah",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://zabilo.com/en/front-loading-washing-machines/11278-ww8sta046ah.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1225320",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1400 סל״ד"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנוע",
+     "value": "Digital Inverter BLDC"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "B"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailers give a 60 cm depth, while the catalog says 55 cm",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 60 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק כולל",
+     "value": "63.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "מסך LED דיגיטלי כחול"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית מהירה",
+     "value": "15 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר השהיה",
+     "value": "עד 19 שעות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תוף",
+     "value": "Diamond Drum"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "A washing machine has no compressor, so this is a retailer listing error",
+     "label": "אחריות",
+     "value": "שנה + 10 שנות אחריות על המדחס"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית Eco Bubble לניקוי יעיל גם בטמפרטורות נמוכות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "The quote does not name Hygiene Steam",
+   "text": "תוכנית המנטרלת ביעילות בקטריות ואלרגנים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "The quote does not mention a smartphone app",
+   "text": "מערכת ניטור שגיאות אוטומטית שמזהה ומאבחנת בעיות בשלב מוקדם"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע Digital Inverter BLDC ללא פחמים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של Samsung, דגם WW8STA046AH, בקיבולת 8 ק״ג. היא סוחטת עד 1400 סל״ד, יש לה דירוג אנרגטי B ומנוע Digital Inverter BLDC ללא פחמים, וטכנולוגיית Eco Bubble מאפשרת ניקוי יעיל גם בטמפרטורות נמוכות. היא מתאימה למשפחה שמחפשת מכונה ברוחב סטנדרטי של 60 ס״מ.",
+  "highlights": [
+   "קיבולת כביסה 8 ק״ג",
+   "סחיטה עד 1400 סל״ד",
+   "דירוג אנרגטי B",
+   "טכנולוגיית Eco Bubble לכביסה יעילה בטמפרטורות נמוכות",
+   "תוכנית מהירה של 15 דקות"
+  ],
+  "goodFor": [
+   "משפחות שמכבסות כמויות גדולות, בזכות קיבולת של 8 ק״ג",
+   "מי שמעדיף לכבס בטמפרטורות נמוכות, בזכות טכנולוגיית Eco Bubble",
+   "מי שרוצה שהכביסה תסתיים בשעה נוחה, בזכות טיימר השהיה של עד 19 שעות",
+   "מי שצריך לרענן בגדים מהר, בזכות תוכנית מהירה של 15 דקות"
+  ],
+  "considerations": [
+   "מדדו את הנישה: המכונה ברוחב 60 ס״מ ובגובה 85 ס״מ, והעומק הכולל שלה 63.5 ס״מ.",
+   "השאירו מקום מול המכונה לפתיחת דלת החזית.",
+   "ודאו שיש ליד המכונה ברז מים, ניקוז ושקע חשמל מתאים."
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של המכונה?",
+    "a": "המכונה מכבסת עד 8 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המרבית?",
+    "a": "המכונה סוחטת עד 1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכונה?",
+    "a": "רוחב 60 ס״מ, גובה 85 ס״מ ועומק 60 ס״מ. העומק הכולל הוא 63.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "יש במכונה תוכנית מהירה?",
+    "a": "כן. יש בה תוכנית כביסה מהירה של 15 דקות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לדחות את תחילת הכביסה?",
+    "a": "כן. טיימר ההשהיה מאפשר לדחות את ההפעלה עד 19 שעות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Samsung WW8STA046AH פתח חזית: קיבולת 8 ק״ג, סחיטה עד 1400 סל״ד, טכנולוגיית Eco Bubble ומנוע אינוורטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "WW8STA046AH",
+   "סמסונג WW8STA046AH",
+   "מכונת כביסה סמסונג 8 קג",
+   "מכונת כביסה פתח חזית 8 קג",
+   "מכונת כביסה 1400 סלד",
+   "Samsung Eco Bubble מכונת כביסה",
+   "מכונת כביסה סמסונג נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "B",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "catalogValue": "55kWh ל-100 מחזורים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "48 ליטר למחזור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת רעש בסחיטה",
+   "catalogValue": "72dB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 600 מ\"מ, גובה 850 מ\"מ, עומק 550 מ\"מ (635 מ\"מ כולל)",
+   "finding": "corrected",
+   "correctValue": "רוחב 60 ס\"מ, גובה 85 ס\"מ, עומק 60 ס\"מ (עומק כולל 63.5 ס\"מ)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "65 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תוף",
+   "catalogValue": "Diamond Drum",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "ללא Wi-Fi",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "The catalog name says a black door (דלת שחורה). None of the fetched pages state the door colour for this model, so check the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No Samsung, Samsung Israel or EPREL page for the exact model was found. Facts rest on Israeli retailer pages (ACE, Bug, Zabilo).",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "issue": "Catalog energy, water, noise and weight values (55kWh, 48 L, 72dB, 65 kg) and Wi-Fi status could not be confirmed on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "The catalog name says the door is black, but no fetched page states the door colour for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog gives a 55 cm depth, while the retailers give 60 cm (63.5 cm including protruding parts).",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No Samsung or EPREL page for this exact model was found. The facts rest on Israeli retailer pages only.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Bug lists a 10-year warranty on the compressor, which a washing machine does not have. Confirm the real warranty terms with the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "No source confirms the catalog's energy use (55kWh), water use (48 L), noise (72dB), weight (65 kg) or Wi-Fi status.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the warranty fact: a '10 years on the compressor' warranty is a listing error for a washing machine, which has no compressor. Rewrote feature 1 (the quote does not name Hygiene Steam) and feature 2 (the quote does not mention a smartphone app) so they say only what the quotes say. Reclassified Zabilo as an il-retailer."
+ }
+}

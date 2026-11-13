@@ -1,0 +1,355 @@
+{
+ "modelNumber": "S1151-00",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "S1151-00",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Philips pages name this model as S1151/00 (Shaver 1000 Series Wet & Dry Electric Shaver). The catalog's S1151-00 is the same model written with a hyphen. No Israeli Philips page for this model was found in the budget. The Philips Australia support page marks it Discontinued. | QA: Philips pages name S1151/00; catalog S1151-00 is the same code with a hyphen. Sources are Philips Australia; Israeli variant assumed the same unit."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://acc.philips.com.au/c-p/S1151_00/shaver-1000-series-wet-dry-electric-shaver/overview",
+   "publisher": "Philips Australia",
+   "kind": "manufacturer",
+   "market": "AU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג גילוח",
+     "value": "רטוב ויבש"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר להבים",
+     "value": "27 להבים בעלי השחזה עצמית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן פעולה אלחוטי",
+     "value": "40 דקות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "NiMH"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "8 שעות"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עמידות למים",
+     "value": "IPX7"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Australian warranty term; Israeli warranty not confirmed.",
+     "label": "אחריות יצרן",
+     "value": "2 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed ComfortCut name not present in quote.",
+   "text": "27 להבים בעלי השחזה עצמית שחותכים כל שערה מעט מעל פני העור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גילוח רטוב או יבש, ליד הכיור או במקלחת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש הגילוח נפתח בלחיצת כפתור לשטיפה תחת מים זורמים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית נגד החלקה לגילוח יציב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עמיד במים לניקוי קל ולשימוש במקלחת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מחוון סוללה שמציין מתי יש לטעון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "היא כוללת 27 להבים בעלי השחזה עצמית וסוללת NiMH המספקת 40 דקות גילוח לאחר טעינה של 8 שעות. דירוג IPX7 מאפשר שטיפה תחת הברז ושימוש במקלחת, ומתאימה למי שמחפש מכונת גילוח פשוטה לשימוש יומיומי.",
+  "highlights": [
+   "גילוח רטוב ויבש, ליד הכיור או במקלחת",
+   "27 להבים בעלי השחזה עצמית",
+   "40 דקות גילוח אלחוטי מסוללת NiMH",
+   "עמידות למים בדירוג IPX7",
+   "ראש נפתח בלחיצת כפתור לשטיפה תחת מים זורמים"
+  ],
+  "goodFor": [
+   "מי שמעדיף להתגלח במקלחת או עם קצף",
+   "גילוח אלחוטי בבית או בנסיעה קצרה, בלי כבל",
+   "מי שרוצה ניקוי מהיר תחת הברז אחרי כל גילוח"
+  ],
+  "considerations": [
+   "זמן הטעינה המלאה הוא 8 שעות, כדאי לתכנן טעינה לילית",
+   "הסוללה מסוג NiMH ולא ליתיום",
+   "מומלץ לברר בחנות את תנאי האחריות בישראל לדגם זה"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להתגלח עם המכונה במקלחת?",
+    "a": "כן. המכונה מיועדת לגילוח רטוב ויבש ובעלת דירוג עמידות למים IPX7.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "סוללת ה-NiMH מספקת 40 דקות גילוח לאחר טעינה מלאה.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לטעון את המכונה?",
+    "a": "טעינה מלאה נמשכת 8 שעות.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את המכונה?",
+    "a": "ראש הגילוח נפתח בלחיצת כפתור ואפשר לשטוף אותו תחת מים זורמים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מכונת גילוח פיליפס",
+   "Philips S1151/00",
+   "S1151",
+   "מכונת גילוח סדרה 1000",
+   "מכונת גילוח רטוב יבש",
+   "Philips Shaver 1000",
+   "מכונת גילוח אלחוטית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שיטת גילוח",
+   "catalogValue": "להבי PowerCut המעוצבים לגילוח חלק ונקי",
+   "finding": "corrected",
+   "correctValue": "להבי ComfortCut",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר להבים",
+   "catalogValue": "27 להבים בעלי השחזה עצמית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן פעולה אלחוטי",
+   "catalogValue": "40 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "8 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "NiMH",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "דירוג IPX7, שטיפה מלאה תחת הברז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גילוח",
+   "catalogValue": "גילוח רטוב או יבש (Wet & Dry)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240 וולט (התאמה אוטומטית)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כחול עמוק (Deep Blue)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת מעקב קווי מתאר",
+   "catalogValue": "ראשי 4D Flex הנעים ב-4 כיוונים עצמאיים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מכסה הגנה",
+   "catalogValue": "מכסה הגנה לשמירה על ראשי הגילוח",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Philips writes this model as S1151/00 on its pages. The catalog uses S1151-00. It is the same product line, but a person should confirm the hyphen is only a formatting difference.",
+   "severity": "high"
+  },
+  {
+   "field": "סטטוס",
+   "issue": "The Philips Australia support page lists S1151/00 as Discontinued. Check whether Hadad Electric can still get stock from the Israeli importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "שיטת גילוח",
+   "issue": "The catalog says PowerCut blades. Philips describes ComfortCut blades for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן ואחריות",
+   "issue": "No Israeli Philips page for this model was found. The Israeli importer and the Israeli warranty term are unconfirmed. The only warranty evidence is the Philips Australia page, which states 2 years.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "No dimensions or weight were found on the pages fetched. Add them only after checking a source that names S1151/00.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Philips writes the model as S1151/00; catalog uses S1151-00. Confirm it is only a formatting difference.",
+   "severity": "low"
+  },
+  {
+   "field": "סטטוס",
+   "issue": "The Philips Australia support page marks S1151/00 as discontinued.",
+   "severity": "medium"
+  },
+  {
+   "field": "שיטת גילוח",
+   "issue": "Catalog says PowerCut blades; this was not confirmed by any quote. Check the blade system name before publishing catalog text.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Only an Australian 2-year warranty was found; Israeli importer and warranty are unconfirmed, so warranty was not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת מעקב קווי מתאר",
+   "issue": "Catalog claims 4D Flex heads, 100-240V and Deep Blue colour; none were verified by sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the 2-year warranty fact: it comes from the Philips Australia page and the Israeli warranty term is not confirmed. Feature 0 reworded to drop the ComfortCut name, which the quote does not contain. Feature 1 reworded to match the quote (sink or shower). | code guard removed: summary: \"מכונת גילוח חשמלית של Philips מסדרת 1000, דגם S1151/00, לגילוח רטוב ויבש.\"; metaDescription: \"מכונת גילוח Philips סדרה 1000 דגם S1151/00 לגילוח רטוב ויבש, 27 להבים בעלי השחזה עצמית ו-40 דקות פעולה אלחוטית. בחדד אלקטריק נהריה\""
+ }
+}

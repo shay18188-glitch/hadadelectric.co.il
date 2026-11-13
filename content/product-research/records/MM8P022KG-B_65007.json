@@ -1,0 +1,364 @@
+{
+ "modelNumber": "MM8P022KG-B (65007)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "MM8P022KG-B",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בשני אתרים של קמעונאים ישראלים (לייזר ליין, T-SH) עם מק\"ט 65007 ועם המספר MM8P022KG-B. חיפוש באתר היבואן מידאה ובאתר המילטון לא החזיר דף מוצר לדגם זה, ולכן כל העובדות מבוססות על שני דפי קמעונאים. אתר olsale מזכיר את הדגם, אך מציג בכותרת משנה גם את הדגם MM8P022KG-W, ולכן לא שימש כמקור לעובדות. | QA: Both Israeli retailer pages name MM8P022KG-B with SKU 65007, 25 L black mechanical microwave, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://t-sh.co.il/product/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%9E%D7%9B%D7%A0%D7%99-25-%D7%9C%D7%99%D7%98%D7%A8-%D7%91%D7%A6%D7%91%D7%A2-%D7%A9%D7%97%D7%95%D7%A8-%D7%93%D7%92%D7%9D-midea-65007-mm8p022kg-b/",
+   "publisher": "T-SH",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://laserelc.co.il/mm8p022kg-b/",
+   "publisher": "לייזר ליין",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח פנימי",
+     "value": "25 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "28.8 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "800W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמות עוצמה",
+     "value": "5 דרגות חום"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוצב זמן",
+     "value": "עד 35 דקות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "46.9 × 28 × 38.1 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "11.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Single retailer page; confirm warranty term with importer.",
+     "label": "אחריות",
+     "value": "5 שנים ע״י המילטון, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפעלה מכנית עם לוח פיקוד נוח וידידותי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות להפשרה לפי משקל המזון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צליל התראה בסיום פעולת הבישול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיקרוגל מכני של Midea בנפח 25 ליטר בגימור שחור, עם הספק מיקרוגל של 800W ו־5 דרגות חום לבחירה. ההפעלה נעשית בלוח פיקוד מכני פשוט עם טיימר עד 35 דקות, וכוללת הפשרה לפי משקל המזון. מתאים למי שמחפש מיקרוגל פשוט לתפעול לחימום, בישול והפשרה יומיומיים.",
+  "highlights": [
+   "נפח פנימי של 25 ליטר",
+   "הספק מיקרוגל 800W עם 5 דרגות חום",
+   "טיימר מכני עד 35 דקות",
+   "הפשרה לפי משקל המזון",
+   "צלחת מסתובבת בקוטר 28.8 ס״מ"
+  ],
+  "goodFor": [
+   "מי שמעדיף הפעלה מכנית פשוטה בלי תפריטים דיגיטליים",
+   "חימום והפשרה יומיומיים במטבח הביתי",
+   "מטבח בעיצוב כהה שמתאים לו מכשיר בגימור שחור"
+  ],
+  "considerations": [
+   "מידות המכשיר הן 46.9 × 28 × 38.1 ס״מ (רוחב × גובה × עומק) – כדאי למדוד את המקום על השיש או במדף לפני הרכישה",
+   "משקל המכשיר 11.6 ק״ג – כדאי לוודא שהמדף או המשטח מתאימים",
+   "כדאי לוודא שקוטר הצלחת, 28.8 ס״מ, מתאים לכלים שבהם אתם משתמשים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח וההספק של המיקרוגל?",
+    "a": "נפח פנימי של 25 ליטר והספק מיקרוגל של 800W.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות עוצמה יש?",
+    "a": "יש 5 דרגות חום לבחירה.",
+    "sources": []
+   },
+   {
+    "q": "עד כמה זמן אפשר לכוון את הטיימר?",
+    "a": "הטיימר המכני מגיע עד 35 דקות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הפשרה?",
+    "a": "כן, יש אפשרות להפשרה לפי משקל המזון.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות 5 שנים ע״י המילטון, היבואן הרשמי, בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל מכני Midea MM8P022KG-B בנפח 25 ליטר, שחור, הספק 800W ו־5 דרגות חום, טיימר עד 35 דקות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל מכני 25 ליטר",
+   "מיקרוגל Midea",
+   "MM8P022KG-B",
+   "מיקרוגל שחור",
+   "מיקרוגל מידאה 800W",
+   "מיקרוגל 25 ליטר שחור",
+   "מיקרוגל מכני מידאה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח פנימי",
+   "catalogValue": "25 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת מיקרוגל",
+   "catalogValue": "800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "מכנית (בוררים סיבוביים)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "5 דרגות חום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוצב זמן (טיימר)",
+   "catalogValue": "עד 35 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר צלחת זכוכית מסתובבת",
+   "catalogValue": "28.8 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "רוחב 46.9 ס\"מ, גובה 28 ס\"מ, עומק 38.1 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "11.6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V~50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע וגימור",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5 שנים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "source",
+   "issue": "לא נמצא דף מוצר לדגם MM8P022KG-B באתר היבואן מידאה או באתר המילטון. כל העובדות מבוססות על שני דפי קמעונאים ישראלים.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "המתח 230V~50Hz מהקטלוג לא אומת באף אחד מהדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "ארץ ייצור",
+   "issue": "ארץ הייצור סין מהקטלוג לא אומתה בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "source",
+   "issue": "No manufacturer or importer page found; all facts come from two Israeli retailer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "5-year warranty appears on one retailer page only; confirm with Hamilton.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה / ארץ ייצור",
+   "issue": "Catalog voltage 230V~50Hz and origin China were not verified in sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features verified against ok quotes on two Israeli retailer pages naming MM8P022KG-B / 65007. Warranty kept (quote names Hamilton as official importer) but flagged for confirmation."
+ }
+}

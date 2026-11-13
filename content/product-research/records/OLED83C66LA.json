@@ -1,0 +1,432 @@
+{
+ "modelNumber": "OLED83C66LA",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "OLED83C66LA",
+  "israeliImporter": "קבוצת ח.י",
+  "matchConfidence": "high",
+  "notes": "הדגם OLED83C66LA מופיע בדף של יבואן/קמעונאי ישראלי (טרקלין) ובדף LG של איחוד האמירויות. המידות והמשקל נבדקו מול דף טרקלין ודף fullspecs. נמצא גם דגם אחות OLED83C66LB (גרסת אירופה), שלא נכלל כאן. | QA: The Israeli retailer Traklin and LG UAE both name OLED83C66LA, the exact catalog code."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/product.aspx?id=22079",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lg.com/ae/tvs-soundbars/lg-oled83c66la",
+   "publisher": "LG UAE",
+   "kind": "manufacturer",
+   "market": "AE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://fullspecs.net/smart-tv/lg/oled83c66la-specifications/",
+   "publisher": "FullSpecs",
+   "kind": "other",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תצוגה",
+     "value": "4K OLED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3,840 × 2,160 (4K UHD)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "120 הרץ (טבעי), עד 165 הרץ (VRR)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית תמונה",
+     "value": "Perfect Black ו-Perfect Color"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד",
+     "value": "alpha 11 AI Processor"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יציאות HDMI",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יציאות USB",
+     "value": "2 (USB 2.0)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 6"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יציאת רשת (Ethernet)",
+     "value": "1"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Aggregator-only source; Traklin reportedly lists 114.4 cm height with stand.",
+     "label": "מידות כולל מעמד (רוחב × גובה × עומק)",
+     "value": "184.2 × 109.6 × 29.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "184.2 × 105.5 × 5.29 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "28.3 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל כולל מעמד",
+     "value": "33 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "3 שנים + 2 שנים נוספות על הפאנל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טלוויזיה חכמה עם מערכת הפעלה webOS"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תמיכה ב-Dolby Vision"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאימות ל-G-SYNC ו-FreeSync Premium עד 165Hz ב-4K"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תקן הרכבה לקיר VESA: ‏400 × 400 מ״מ"
+  }
+ ],
+ "content": {
+  "summary": "קצב הרענון הטבעי הוא 120 הרץ ועד 165 הרץ ב-VRR, עם תאימות ל-G-SYNC ו-FreeSync Premium ותמיכה ב-Dolby Vision. מתאימה לסלון גדול, לצפייה בסרטים ולגיימינג על קונסולה או מחשב.",
+  "highlights": [
+   "פאנל 4K OLED ברזולוציה 3,840 × 2,160",
+   "קצב רענון 120 הרץ טבעי ועד 165 הרץ ב-VRR",
+   "מעבד alpha 11 AI Processor",
+   "תמיכה ב-Dolby Vision",
+   "4 כניסות HDMI, ‏Wi-Fi 6 ו-Bluetooth 5.3"
+  ],
+  "goodFor": [
+   "צפייה בסרטים בתוכן Dolby Vision על מסך גדול",
+   "גיימינג עם G-SYNC ו-FreeSync Premium עד 165Hz ב-4K",
+   "חיבור כמה מכשירים במקביל דרך 4 כניסות HDMI"
+  ],
+  "considerations": [
+   "על המעמד המשקל הוא 33 ק״ג, ולכן יש לוודא שהרהיט יציב"
+  ],
+  "faq": [
+   {
+    "q": "מה קצב הרענון של הטלוויזיה?",
+    "a": "120 הרץ טבעי, ועד 165 הרץ ב-VRR.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש?",
+    "a": "4 כניסות HDMI, וגם 2 כניסות USB ויציאת רשת קווית אחת.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "3 שנים, ועוד 2 שנים על הפאנל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "LG OLED83C66LA",
+   "טלוויזיה OLED 83 אינץ'",
+   "LG C6 83",
+   "טלוויזיית OLED evo",
+   "טלוויזיה 83 אינץ' LG",
+   "טלוויזיה לגיימינג 165 הרץ",
+   "טלוויזיה 4K OLED"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "83 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K (3840 x 2160)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "עד 165 הרץ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "alpha 11 AI Processor Gen3",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "Wi-Fi, Bluetooth V5.3, 4 יציאות HDMI, 2 יציאות USB, יציאת רשת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "40W (2.2 CH)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "120 ס״מ",
+   "finding": "contradicted",
+   "correctValue": "109.6 ס״מ עם מעמד (114.4 ס״מ בדף טרקלין), 105.5 ס״מ ללא מעמד",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "184.7 ס״מ",
+   "finding": "contradicted",
+   "correctValue": "184.2 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "30 ס״מ",
+   "finding": "corrected",
+   "correctValue": "29.7 ס״מ עם מעמד, 5.29 ס״מ ללא מעמד",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "33 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "LG",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תקופת אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים + 2 שנים על הפאנל",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין גובה 120 ס״מ ורוחב 184.7 ס״מ ועומק 30 ס״מ. דף טרקלין ודף fullspecs נותנים גובה 109.6 ס״מ עם מעמד (114.4 בדף טרקלין), רוחב 184.2 ס״מ ועומק 29.7 ס״מ. יש לבדוק את המידות לפני פרסום",
+   "severity": "high"
+  },
+  {
+   "field": "הספק רמקולים",
+   "issue": "הערך 40W לא נמצא באף דף שנקרא, ולכן נשאר לא מאומת",
+   "severity": "medium"
+  },
+  {
+   "field": "מעבד",
+   "issue": "המילה Gen3 לא נמצאה בדף LG. נמצא רק alpha 11 AI Processor",
+   "severity": "low"
+  },
+  {
+   "field": "חיפוש קולי",
+   "issue": "Microsoft Copilot מופיע בקטלוג ולא נמצא בדפים שנקראו, ולכן הוא לא מאומת",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות בקטלוג (גובה 120, רוחב 184.7, עומק 30 ס״מ) לא תואמות את המקורות; גובה עם מעמד שונה בין טרקלין (114.4) ל-fullspecs (109.6). לבדוק מול דף היצרן.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק רמקולים",
+   "issue": "40W (2.2 CH) בקטלוג לא אומת באף מקור.",
+   "severity": "medium"
+  },
+  {
+   "field": "מעבד",
+   "issue": "Gen3 בקטלוג לא אומת; המקור מציין alpha 11 AI Processor בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "חיפוש קולי",
+   "issue": "Microsoft Copilot ו-Google Gemini בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 10 (dimensions with stand): the only quote is from an aggregator, and the researcher reports the Traklin page gives a different height with stand (114.4 vs 109.6 cm). Kept the rest. Catalog dimensions (120 × 184.7 × 30 cm) are not confirmed by the sources. | code guard removed: summary: \"טלוויזיית OLED evo של LG במסך 83 אינץ' ברזולוציית 4K, עם מעבד alpha 11 AI Processor ומערכת webOS.\"; faq: \"האם אפשר לתלות אותה על הקיר?\"; metaDescription: \"טלוויזיית LG OLED83C66LA ‏83 אינץ' OLED evo ברזולוציית 4K, רענון עד 165 הרץ ו-Dolby Vision. בחדד אלקטריק נהריה\"; consideration: \"רוחב המסך ללא מעמד הוא 184.2 ס״מ — כדאי למדוד את הקיר או את המזנון מראש\"; consideration: \"לתלייה על קיר יש לבחור זרוע התומכת ב-VESA ‏400 × 400 מ״מ ובמשקל 28.3 ק״ג\""
+ }
+}

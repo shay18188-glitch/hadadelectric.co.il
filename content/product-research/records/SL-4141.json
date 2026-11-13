@@ -1,0 +1,388 @@
+{
+ "modelNumber": "SL-4141",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "SL-4141",
+  "israeliImporter": "שאוליאן",
+  "matchConfidence": "high",
+  "notes": "מכשיר להכנת פנקייק, צבע שחור פחם. מק\"ט 1201209020038. אתר היבואן מציין שהמידות והדגם לאימות מול מרכז השירות. | QA: Importer page and an Israeli retailer page both name SL-4141 with the same specs and manufacturer SKU 1201209020038."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.rozenfeld.co.il/product/ap/ka/%D7%9E%D7%9B%D7%A9%D7%99%D7%A8%D7%99%D7%9D-%D7%9E%D7%A9%D7%9C%D7%99%D7%9E%D7%99%D7%9D-%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%A4%D7%A0%D7%A7%D7%99%D7%99%D7%A7-6-%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA-%D7%A9%D7%9C%D7%A4%D7%A3-sl-4141/",
+   "publisher": "רוזנפלד",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.sol.co.il/products/sl-4141",
+   "publisher": "Sol (ט.ל.ח)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1190903",
+   "publisher": "זאפ",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מק״ט יצרן",
+     "value": "1201209020038"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "45 × 9 × 26 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1500 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "source says mini pancakes",
+     "label": "כמות בהכנה בו-זמנית",
+     "value": "עד 6 מיני פנקייק או חביתיות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר אזורי אפייה",
+     "value": "6"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור פחם"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמלי",
+     "value": "1 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "1 שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מחולק ל-6 אזורי אפייה, להכנה בו-זמנית של עד 6 מיני פנקייק או חביתיות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed easy-to-clean claim not in quote",
+   "text": "משטח אלומיניום בציפוי טפלון נגד הידבקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טרמוסטט לשליטה בעוצמת החום"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נורית ביקורת שמציינת מתי המכשיר הגיע לחום ומוכן לעבודה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בסיס פלסטיק Cool Touch"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצקת עץ להוצאת הפנקייקים"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכשיר להכנת מיני פנקייק של Sol, דגם SL-4141, בהספק 1500 W. המשטח מחולק ל-6 אזורי אפייה בציפוי טפלון, כך שאפשר להכין עד 6 מיני פנקייק או חביתיות בבת אחת. מתאים למי שרוצה להכין ארוחת בוקר או פינוק מהיר לילדים בבית.",
+  "highlights": [
+   "הספק 1500 W",
+   "6 אזורי אפייה – עד 6 מיני פנקייק או חביתיות בבת אחת",
+   "משטח אלומיניום בציפוי טפלון נגד הידבקות",
+   "טרמוסטט ונורית ביקורת לחום מוכן",
+   "כולל מצקת עץ להוצאת הפנקייקים"
+  ],
+  "goodFor": [
+   "הכנת מיני פנקייק או חביתיות לארוחת בוקר משפחתית",
+   "מי שמחפש מכשיר שולחני קומפקטי לפינוקים מתוקים",
+   "שליטה בדרגת החום בעזרת טרמוסטט"
+  ],
+  "considerations": [
+   "המכשיר ברוחב 45 ס״מ ועומק 26 ס״מ – כדאי לוודא שיש מקום פנוי על השיש",
+   "אורך הכבל 1 מטר – מומלץ לעבוד ליד שקע חשמל",
+   "כדי לשמור על ציפוי הטפלון, השתמשו במצקת העץ שמגיעה עם המכשיר"
+  ],
+  "faq": [
+   {
+    "q": "כמה פנקייקים אפשר להכין בבת אחת?",
+    "a": "עד 6 מיני פנקייק או חביתיות בו-זמנית, במשטח המחולק ל-6 אזורים.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכשיר?",
+    "a": "1500 W.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שהמכשיר מוכן?",
+    "a": "נורית ביקורת מציינת מתי המכשיר הגיע לחום ומוכן לעבודה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות יבואן לשנה אחת.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בקופסה?",
+    "a": "מצקת עץ להוצאת הפנקייקים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר להכנת מיני פנקייק Sol SL-4141 בהספק 1500 W, עם 6 אזורי אפייה בציפוי טפלון וטרמוסטט. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכשיר פנקייק",
+   "מכשיר להכנת פנקייק",
+   "Sol SL-4141",
+   "מכשיר מיני פנקייק",
+   "מכשיר פנקייק סול",
+   "SL-4141",
+   "מכשיר חביתיות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1500W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "רוחב 45 ס\"מ, עומק 26 ס\"מ, גובה 9 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמלי",
+   "catalogValue": "1 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר משטח האפייה",
+   "catalogValue": "אלומיניום עם ציפוי טפלון (Non-Stick)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר הבסיס",
+   "catalogValue": "פלסטיק עמיד בחום (Cool Touch)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור פחם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מק\"ט יצרן",
+   "catalogValue": "1201209020038",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר יחידות בו-זמנית",
+   "catalogValue": "עד 6 פנקייק/חביתיות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ווסת עוצמה (טרמוסטט)",
+   "catalogValue": "כולל ווסת עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצקת עץ",
+   "catalogValue": "מצקת עץ להוצאת הפנקייקים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1 שנה (יבואן)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "היבואן מציין בדף שהנתונים עלולים להכיל טעויות במידות ובדגמים, ומומלץ לאמת מול מרכז השירות לפני חיתוך שיש או התקנה בנישה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "מדינת הייצור בקטלוג (סין) לא אומתה בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "הקטלוג מציין מותג Sol exlusive, בעוד שדף היבואן מציין Sol ו-Sol exclusive כשם קטגוריה.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "הקטלוג כותב Sol exlusive (שגיאת כתיב); דף היבואן מציג את המותג Sol.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1: removed 'קל לניקוי' (not in the quote). Zap source relabelled as other (price-comparison site). Capacity label clarified to mini pancakes as the source states."
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "modelNumber": "SL-1016",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "SL-1016",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "דף היצרן sol.co.il מציג את הדגם SL-1016 בשם 'מכשיר להכנת פופקורן' עם הספק 1100W ושיטת הזרמת אוויר חם. דף smart-deal מציין אחריות שנה של היבואן הרשמי שאוליאן סחר. לא נמצאו מידות או משקל בדפים שנפתחו. | QA: sol.co.il product page for SL-1016 and Smart Deal page for SOL SL1016 both describe a 1100W hot-air popcorn maker matching the catalog. Color red not confirmed by sources."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://smart-deal.co.il/items/7264444-%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%9C%D7%94%D7%9B%D7%A0%D7%AA-%D7%A4%D7%95%D7%A4%D7%A7%D7%95%D7%A8%D7%9F-SOL-SL1016-%D7%A1%D7%95%D7%9C",
+   "publisher": "Smart Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.sol.co.il/products/sl-1016",
+   "publisher": "Sol Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1100W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיטת חימום",
+     "value": "הזרמת אוויר חם"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בקרה",
+     "value": "מפסק ON/OFF"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כמות גרעינים להכנה",
+     "value": "עד שתי כפות מדידה שטוחות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י היבואן הרשמי"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Bare number in quote; attribute not established (likely barcode).",
+     "label": "מק״ט יצרן",
+     "value": "1215206000405"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח קערת הגשה מומלצת",
+     "value": "ארבעה ליטרים לפחות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הכנת פופקורן טעים, פריך וחם"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הכנת פופקורן ללא הוספת שמן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כוס מדידה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתח יציאה עם אפקט משפך שמוביל את הפופקורן ישירות לקערת ההגשה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה ללא מגע יד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מפסק ON/OFF"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה בשיטת הזרמת אוויר חם"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "יש להניח מול פתח הפליטה קערה עמידה בחום בנפח ארבעה ליטרים לפחות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין להפעיל ללא הכיסוי או לכסות את פתחי המכשיר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין לטבול את גוף המכשיר במים"
+  }
+ ],
+ "content": {
+  "summary": "מכשיר להכנת פופקורן של Sol, דגם SL-1016, בהספק 1100W הפועל בשיטת הזרמת אוויר חם. הפופקורן מוכן ללא הוספת שמן ויוצא דרך פתח בעל אפקט משפך ישירות לקערת ההגשה. מתאים למי שרוצה פופקורן ביתי פשוט להכנה, עם מפסק ON/OFF וכוס מדידה לגרעינים.",
+  "highlights": [
+   "הספק 1100W",
+   "הזרמת אוויר חם – ללא הוספת שמן",
+   "פתח יציאה עם אפקט משפך ישירות לקערה",
+   "כוס מדידה לגרעינים",
+   "אחריות שנה ע״י היבואן הרשמי"
+  ],
+  "goodFor": [
+   "ערבי סרטים בבית עם פופקורן טרי",
+   "מי שמעדיף פופקורן ללא הוספת שמן",
+   "מי שמחפש הפעלה פשוטה במפסק ON/OFF"
+  ],
+  "considerations": [
+   "יש להכין קערה עמידה בחום בנפח ארבעה ליטרים לפחות מול פתח הפליטה",
+   "אין למלא יותר משתי כפות מדידה שטוחות של גרעינים בכל הכנה",
+   "אין להפעיל את המכשיר ללא הכיסוי",
+   "אין לטבול את גוף המכשיר במים בעת הניקוי"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך שמן כדי להכין פופקורן במכשיר?",
+    "a": "לא. המכשיר פועל בשיטת הזרמת אוויר חם ומכין פופקורן ללא הוספת שמן.",
+    "sources": []
+   },
+   {
+    "q": "כמה גרעינים מכניסים בכל הכנה?",
+    "a": "עד שתי כפות מדידה שטוחות, בעזרת כוס המדידה המצורפת, וללא חריגה מהכמות שבחוברת.",
+    "sources": []
+   },
+   {
+    "q": "איזו קערה צריך?",
+    "a": "קערה עמידה בחום בנפח ארבעה ליטרים לפחות, שמונחת מול פתח הפליטה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "אחריות שנה ע״י היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר להכנת פופקורן Sol SL-1016 בהספק 1100W, הזרמת אוויר חם ללא הוספת שמן ופתח משפך לקערה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכשיר פופקורן",
+   "מכונת פופקורן",
+   "Sol SL-1016",
+   "מכשיר פופקורן סול",
+   "מכונת פופקורן ללא שמן",
+   "מכשיר פופקורן אוויר חם",
+   "פופקורן ביתי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק עבודה",
+   "catalogValue": "1100W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיטת חימום",
+   "catalogValue": "הזרמת אוויר חם (Hot Air)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בקרה",
+   "catalogValue": "מפסק הפעלה/כיבוי (ON/OFF) מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כוס מדידה",
+   "catalogValue": "כוס מדידה ייעודית בראש המכשיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן הכנה",
+   "catalogValue": "כ-2 עד 3 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מבנה",
+   "catalogValue": "גוף פלסטיק עמיד חום עם מכסה שקוף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "אדום (מתוך שם המוצר)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "אדום",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "שם המוצר בקטלוג מציין צבע אדום, אך דפי היצרן והקמעונאי שנפתחו אינם מציינים צבע למכשיר. יש לוודא את הצבע לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "דף היצרן sol.co.il מציין בתחתית העמוד את החברה ט.ל.ח. ואילו דף smart-deal מציין את היבואן הרשמי שאוליאן סחר. יש לאשר מי היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "המותג בקטלוג הוא 'Sol exlusive' ובדפי היצרן 'Sol' / 'SOL'. יש לאשר את שם המותג לתצוגה.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות או משקל למכשיר בדפים שנפתחו. יש להשלים ממקור נוסף אם נדרש.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "שם המוצר בקטלוג מציין אדום, אך המקורות אינם מציינים צבע.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "דף היצרן מציין את ט.ל.ח. בעוד דף Smart Deal מציין את שאוליאן סחר כיבואן הרשמי; יש לאשר.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "המותג בקטלוג 'Sol exlusive' ובמקורות 'Sol'/'SOL'; יש לאשר את שם המותג לתצוגה.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 3 (מק״ט יצרן 1215206000405): the quote is a bare number and does not show which attribute it is (likely a barcode). Importer left null because the manufacturer page footer and the retailer name different companies."
+ }
+}

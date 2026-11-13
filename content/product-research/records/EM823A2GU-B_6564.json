@@ -1,0 +1,335 @@
+{
+ "modelNumber": "EM823A2GU-B (6564)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "EM823A2GU-Black(6564)",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Midea Israel page names EM823A2GU-Black(6564). The catalog suffix -B is read as Black. Hebrew retailer listings and dimensions were found only for sibling colour codes (white 6563, silver 6567), so they are not used. | QA: Model code and 6564 code match the Midea Israel page (EM823A2GU-Black). Catalog name says white, which does not match the Black variant, so the exact colour SKU is unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il-en/microwave-oven/microwave/midea-digital-microwave-23l.em823a2gu-black-6564-",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Midea"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח פנימי",
+     "value": "23 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer page says 900W; catalog says 800W. Flagged.",
+     "label": "הספק מיקרוגל",
+     "value": "900 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות עוצמה",
+     "value": "11 רמות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "לוח בקרה",
+     "value": "דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי משקל או לפי זמן"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נעילת ילדים",
+     "value": "כן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת הפעלה דיגיטלית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפשרה לפי משקל המזון או לפי זמן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נעילת בטיחות לילדים על לוח הבקרה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיקרוגל דיגיטלי של Midea בנפח פנימי של 23 ליטר. הספק המיקרוגל 900 W עם 11 דרגות עוצמה, הפשרה לפי משקל או לפי זמן ונעילת ילדים. מתאים למטבח ביתי שמחפש מיקרוגל עומד עם תפעול דיגיטלי פשוט.",
+  "highlights": [
+   "נפח פנימי 23 ליטר",
+   "הספק מיקרוגל 900 W",
+   "11 דרגות עוצמה",
+   "הפשרה לפי משקל או לפי זמן",
+   "נעילת בטיחות לילדים"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח ביתי",
+   "בית עם ילדים, בזכות נעילת לוח הבקרה",
+   "מי שמעדיף לוח בקרה דיגיטלי על פני חוגות"
+  ],
+  "considerations": [
+   "יש למדוד את המקום על השיש לפני הרכישה, מאחר שמידות חיצוניות לא אומתו לדגם זה",
+   "לוודא שקע חשמל זמין בקרבת מקום ההצבה",
+   "לבדוק מול המוכר את גוון הדגם הנמכר"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח הפנימי של המיקרוגל?",
+    "a": "הנפח הפנימי הוא 23 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המיקרוגל?",
+    "a": "לפי עמוד היצרן, הספק המיקרוגל הוא 900 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות עוצמה יש?",
+    "a": "יש 11 דרגות עוצמה לבישול במיקרוגל.",
+    "sources": []
+   },
+   {
+    "q": "איך מפשירים בו מזון?",
+    "a": "אפשר להפשיר לפי משקל המזון או לפי זמן.",
+    "sources": []
+   },
+   {
+    "q": "יש נעילת ילדים?",
+    "a": "כן, אפשר לנעול את לוח הבקרה כדי למנוע הפעלה על ידי ילדים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי של Midea בנפח 23 ליטר, הספק 900 W ו־11 דרגות עוצמה, עם הפשרה לפי משקל או זמן ונעילת ילדים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל Midea",
+   "מיקרוגל מידאה 23 ליטר",
+   "EM823A2GU",
+   "מיקרוגל דיגיטלי",
+   "מיקרוגל 23 ליטר",
+   "מיקרוגל עם נעילת ילדים",
+   "מיקרוגל 900W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח פנימי",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "800W",
+   "finding": "corrected",
+   "correctValue": "900 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "דיגיטלי בעברית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות עוצמה",
+   "catalogValue": "11 רמות בישול שונות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "27 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 48.6 ס\"מ, גובה 29.1 ס\"מ, עומק 40.6 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "12.5 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "לבן",
+   "finding": "contradicted",
+   "correctValue": "שחור / כסוף",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות בישול אוטומטיות",
+   "catalogValue": "8 תוכניות בישול אוטומטיות מובנות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון נעילה בטיחותי בפני ילדים",
+   "catalogValue": "נעילת ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק מיקרוגל",
+   "issue": "The catalog says 800W. The Midea page for EM823A2GU-Black(6564) says 900W. Hebrew retailer listings for sibling colour codes say 800W, so sources conflict.",
+   "severity": "high"
+  },
+  {
+   "field": "גימור",
+   "issue": "The catalog name says לבן (white) and the finish is set to white. The exact model is Black, and the Midea page lists Black / Silver. Hebrew retailer listings for the white model 6563 were not used.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The catalog suffix -B is read as Black. The Midea page names EM823A2GU-Black(6564), which matches the 6564 code.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "Dimensions and net weight were found only on pages for sibling colour codes, so they are not verified for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The Israeli importer was not confirmed on a page for this exact model.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "issue": "Catalog says 800W; the Midea Israel page for EM823A2GU-Black(6564) says 900W. Retailer listings for sibling colour codes reportedly say 800W. Confirm the rated power.",
+   "severity": "high"
+  },
+  {
+   "field": "גימור",
+   "issue": "Catalog name says white, but code 6564 is the Black variant on the Midea page. Confirm which colour SKU is sold.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "Dimensions, net weight, turntable diameter and auto programs in the catalog were not verified for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Israeli importer not confirmed.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts are backed by ok quotes on the Midea Israel page for EM823A2GU-Black(6564). Power 900 W kept from the manufacturer page although the catalog says 800W; flagged for review. The catalog name says white while code 6564 is the Black variant; flagged. Colour not used in content."
+ }
+}

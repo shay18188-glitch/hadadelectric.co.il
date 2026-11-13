@@ -1,0 +1,221 @@
+{
+ "modelNumber": "HEM-2163",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-2163",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "דף היבואן הרשמי מתאר גריל BBQ חשמלי פתוח עם רשת צלייה; אין בו אישור לפלטות נשלפות, ציפוי Non-Stick או פתיחה ל-180 מעלות. המפרט המלא (PDF) לא נמצא. | QA: The official importer page names HEM-2163 exactly."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem2163",
+   "publisher": "המילטון (היבואן הרשמי)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote failed check (quote-too-short).; quote checks: quote-too-short",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוף חימום איכותי מנירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רשת צלייה כרום עם גובה מתכוונן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מפסק הפעלה מואר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתפרק לניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מפסק בטיחות לכיבוי בעת הוצאת גוף החימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידיות אחיזה ורגליות לשימוש בטוח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "גריל BBQ חשמלי של Hemilton בהספק 2000 W, עם גוף חימום מנירוסטה ורשת צלייה מכרום שגובהה מתכוונן. הגריל מתפרק לניקוי וכולל מפסק בטיחות שמכבה אותו בעת הוצאת גוף החימום. מתאים למי שרוצה לצלות בשר וירקות בחשמל, בלי פחם וגז.",
+  "highlights": [
+   "הספק 2000 W",
+   "גוף חימום מנירוסטה",
+   "רשת צלייה כרום עם גובה מתכוונן",
+   "מתפרק לניקוי",
+   "מפסק בטיחות לכיבוי בעת הוצאת גוף החימום"
+  ],
+  "goodFor": [
+   "צלייה במרפסת או בבית כשאין אפשרות לגריל פחם או גז",
+   "מי שרוצה לשלוט במרחק המזון מגוף החימום בעזרת רשת בגובה מתכוונן",
+   "מי שמעדיף גריל שמתפרק לניקוי נוח"
+  ],
+  "considerations": [
+   "זהו גריל פתוח עם רשת צלייה ולא גריל לחיצה סגור עם פלטות – כדאי לוודא שזה הסוג שמתאים לכם",
+   "בהספק 2000 W מומלץ לחבר לשקע תקין ולא למפצל עמוס",
+   "כדאי לתכנן משטח יציב ומרווח להנחת הגריל על הרגליות"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הגריל?",
+    "a": "ההספק הוא 2000 W.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לנקות את הגריל בקלות?",
+    "a": "כן, הגריל מתפרק לניקוי.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשנות את גובה הרשת?",
+    "a": "כן, רשת הצלייה מכרום וגובהה מתכוונן.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "האחריות היא 12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "גריל BBQ חשמלי Hemilton HEM-2163 בהספק 2000 W, עם גוף חימום מנירוסטה ורשת צלייה בגובה מתכוונן. בחדד אלקטריק נהריה",
+  "keywords": [
+   "גריל חשמלי",
+   "Hemilton HEM-2163",
+   "המילטון גריל חשמלי",
+   "גריל BBQ חשמלי",
+   "גריל חשמלי למרפסת",
+   "HEM-2163",
+   "גריל חשמלי 2000W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פלטות גריל נשלפות",
+   "catalogValue": "פלטות גריל נשלפות לניקוי קל",
+   "finding": "contradicted",
+   "correctValue": "רשת צלייה כרום; המכשיר מתפרק לניקוי",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי Non-Stick",
+   "catalogValue": "ציפוי Non-Stick",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פתיחה ל-180 מעלות",
+   "catalogValue": "פתיחה ל-180 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוג המוצר",
+   "issue": "הקטלוג מתאר גריל בריאותי נסגר עם פלטות וטרמוסטט; היבואן מתאר גריל BBQ חשמלי פתוח עם רשת צלייה וגוף חימום מנירוסטה. יש לבדוק את תיאור הקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "תיאור הקטלוג",
+   "issue": "הקטלוג מתאר גריל לחיצה סגור עם פלטות נשלפות, ציפוי Non-Stick, טרמוסטט ופתיחה ל-180 מעלות; דף היבואן מתאר גריל BBQ חשמלי פתוח עם רשת צלייה כרום וגוף חימום מנירוסטה. יש לבדוק ולתקן את המפרט והיכולות בקטלוג.",
+   "severity": "high"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected color (quote failed check). Kept power and warranty and all six features from the importer page. Catalog description (closed contact grill with plates, Non-Stick, 180° opening, thermostat) contradicts the importer page, which describes an open electric BBQ grill with a chrome grate and stainless heating element; content built only from importer facts."
+ }
+}

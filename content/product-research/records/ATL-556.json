@@ -1,0 +1,229 @@
+{
+ "modelNumber": "ATL-556",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-556",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only one Israeli retailer page names ATL-556; it conflicts with the catalog on wattage (24W vs 12W). Dimensions on that page are garbled, so not submitted. | QA: Only one Israeli retailer page names ATL-556; its title and wattage (DOUBLE EFFECTIVE 24W) disagree with the catalog's 12W / 2×6W spec, so the exact unit sold is uncertain."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.technoshlomo.co.il/items/2613694--קטלן-יתושים-DOUBLE-EFFECTIVE-24W-דגם-ATL-556-GOLD-LINE",
+   "publisher": "טכנו שלמה",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Contradicts catalog 12W; retailer lamp data internally inconsistent (FUL24 lamp code vs 18W).",
+     "label": "הספק הקטלן",
+     "value": "24W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Inconsistent with the same page's lamp code FUL24 and with catalog 2×6W.",
+     "label": "הספק נורה",
+     "value": "18W"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורת UV כפולה, אולטרה סגולה, למשיכת יתושים וחרקים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגש תחתון נשלף לאיסוף הפסולת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת הגנה צפופה לבטיחות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שרשרת לתלייה"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניתן לתלייה מהתקרה באמצעות השרשרת המסופקת"
+  }
+ ],
+ "content": {
+  "summary": "קטלן יתושים חשמלי לתלייה של Gold Line, דגם ATL-556, הפועל בנורת UV כפולה המושכת יתושים וחרקים מעופפים. המכשיר כולל רשת הגנה צפופה לבטיחות ומגש תחתון נשלף לניקוי פשוט, ומגיע עם שרשרת לתלייה מהתקרה. מתאים למי שמחפש פתרון קבוע ושקט נגד יתושים בבית.",
+  "highlights": [
+   "נורת UV כפולה למשיכת יתושים וחרקים",
+   "מגש תחתון נשלף לאיסוף הפסולת",
+   "רשת הגנה צפופה לבטיחות",
+   "שרשרת לתלייה מהתקרה כלולה",
+   "אחריות לשנתיים"
+  ],
+  "goodFor": [
+   "תלייה מהתקרה בחדר או במרפסת מקורה",
+   "בית עם ילדים, בזכות רשת ההגנה הצפופה",
+   "מי שרוצה ניקוי קל דרך מגש נשלף"
+  ],
+  "considerations": [
+   "יש לוודא נקודת תלייה בתקרה ושקע חשמל בטווח השרשרת והכבל",
+   "כדאי למקם הרחק מאור חזק אחר כדי שנורת ה-UV תמשוך את החרקים",
+   "יש לרוקן את המגש הנשלף מדי פעם לשמירה על יעילות"
+  ],
+  "faq": [
+   {
+    "q": "איך הקטלן מושך את היתושים?",
+    "a": "הוא משתמש בנורת UV כפולה, אולטרה סגולה, שמושכת יתושים וחרקים מעופפים.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את המכשיר?",
+    "a": "בתחתית יש מגש נשלף שבו מצטברת הפסולת, ואותו שולפים ומרוקנים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתלות אותו?",
+    "a": "כן, הוא ניתן לתלייה מהתקרה באמצעות שרשרת המסופקת עם המכשיר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "האחריות היא לשנתיים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קטלן יתושים לתלייה Gold Line ATL-556 עם נורת UV כפולה, מגש נשלף ורשת הגנה צפופה, כולל שרשרת לתלייה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קטלן יתושים",
+   "קטלן יתושים לתלייה",
+   "Gold Line ATL-556",
+   "קטלן יתושים גולד ליין",
+   "קטלן יתושים UV",
+   "קטלן חרקים חשמלי",
+   "ATL-556"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק כולל",
+   "catalogValue": "12W",
+   "finding": "contradicted",
+   "correctValue": "24W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורות",
+   "catalogValue": "2 נורות UV 6W כל אחת",
+   "finding": "contradicted",
+   "correctValue": "הספק נורה 18W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שרשרת לתלייה",
+   "catalogValue": "שרשרת מתכת לתלייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירה נשלפת",
+   "catalogValue": "מגירה תחתונה נשלפת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "27×24.5×11.5 ס״מ",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Retailer page for ATL-556 says 24W (18W lamp) while catalog says 12W (2x6W); check the box.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "The only retailer page for ATL-556 says 24W killer / 18W lamp (lamp code FUL24/T6/BLB/2G11), while the catalog says 12W with 2×6W UV lamps. Check the box or manufacturer label and fix the catalog spec.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions 27×24.5×11.5 ס״מ could not be verified from any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 0 and 1 (killer wattage 24W, lamp wattage 18W): the only source is one retailer page whose lamp data is internally inconsistent (18W lamp yet lamp code FUL24, a 24W twin-tube 2G11 lamp) and contradicts the catalog (12W, 2×6W UV lamps). Possible listing error or sibling unit, so not published. Kept warranty, features, chain in box and ceiling-hanging installation, which agree with the catalog."
+ }
+}

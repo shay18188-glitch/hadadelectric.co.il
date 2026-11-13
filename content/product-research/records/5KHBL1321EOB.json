@@ -1,0 +1,432 @@
+{
+ "modelNumber": "5KHBL1321EOB",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "KitchenAid",
+  "exactModel": "5KHBL1321EOB",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "לא נמצא דף יבואן או קמעונאי ישראלי לדגם. כל המקורות זרים (בלגיה, גרמניה, צרפת, גאורגיה, אוקראינה). | QA: All sources name 5KHBL1321EOB (Classic hand blender, Onyx Black, EU 220-240 V variant). Zap Israel lists the exact model, so it is sold in Israel; importer not identified."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kitchenaid-ukraine.com/p/blender-kitchenaid-classic-5khbl1321eob-173040",
+   "publisher": "KitchenAid Ukraine",
+   "kind": "retailer",
+   "market": "UA",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://primestore.ge/5khbl1321eob.html?sl=en",
+   "publisher": "Primestore.ge",
+   "kind": "retailer",
+   "market": "GE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.coolblue.be/en/product/934136/kitchenaid-5khbl1321eob.html",
+   "publisher": "Coolblue",
+   "kind": "retailer",
+   "market": "BE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.amazon.de/KitchenAid-CLASSIC-HANDLENDER-5KHBL1321EOB-Black/dp/B09HLZP25V",
+   "publisher": "Amazon.de",
+   "kind": "retailer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1164491",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "180 W"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "2 מהירויות"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות מקסימלית",
+     "value": "11000 סל״ד"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "1.5 מ׳"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Zap only; Coolblue reportedly 20 cm.",
+     "label": "אורך מוט הערבול",
+     "value": "20.3 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Order fixed: 40.6 cm is the height of a stick blender.",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "40.6 × 6.4 × 6.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Primestore quote ok; 4.8 kg elsewhere unquoted.",
+     "label": "משקל",
+     "value": "0.9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כוס מדידה",
+     "value": "700 מ״ל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3",
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מוט הערבול ניתן להסרה ולשטיפה במדיח הכלים"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב פעימות (Pulse)"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כוס מדידה 700 מ״ל עם מכסה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנד מוט KitchenAid Classic בדגם 5KHBL1321EOB, בהספק 180 W עם 2 מהירויות ומהירות מקסימלית של 11000 סל״ד. מתאים למי שמחפש מכשיר קל לערבול מרקים, רטבים ושייקים ישירות בסיר או בכוס.",
+  "highlights": [
+   "הספק 180 W",
+   "2 מהירויות ומצב פעימות (Pulse)",
+   "מהירות מקסימלית 11000 סל״ד",
+   "מוט ערבול נשלף ומתאים למדיח",
+   "כוס מדידה 700 מ״ל עם מכסה באריזה"
+  ],
+  "goodFor": [
+   "הכנת שייקים ורטבים בכוס המדידה המצורפת",
+   "מי שרוצה ניקוי מהיר עם מוט שנשלף למדיח"
+  ],
+  "considerations": [
+   "אורך הכבל 1.5 מ׳ – כדאי לוודא שיש שקע קרוב למשטח העבודה או לכיריים",
+   "יש 2 מהירויות בלבד, ללא כוונון רציף",
+   "גובה המכשיר 40.6 ס״מ – כדאי לבדוק שיש מקום אחסון מתאים במגירה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנד?",
+    "a": "ההספק הוא 180 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש לו?",
+    "a": "יש 2 מהירויות וגם מצב פעימות (Pulse), ומהירות מקסימלית של 11000 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את המוט במדיח?",
+    "a": "כן, מוט הערבול נשלף מהמכשיר וניתן לשטיפה במדיח הכלים.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "באריזה כוס מדידה בנפח 700 מ״ל עם מכסה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנד מוט KitchenAid Classic 5KHBL1321EOB בהספק 180 W עם 2 מהירויות וכוס מדידה 700 מ״ל. מוט נשלף למדיח. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנד מוט KitchenAid",
+   "5KHBL1321EOB",
+   "בלנדר מוט קיטשן אייד",
+   "KitchenAid Classic בלנד מוט",
+   "בלנד מוט שחור",
+   "מוט ערבול למדיח",
+   "בלנד מוט 180 וואט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "180 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50/60 הרץ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "2 מהירויות משתנות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מהירות מקסימלית",
+   "catalogValue": "11,000 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך מוט הערבול",
+   "catalogValue": "20.3 ס\"מ",
+   "finding": "contradicted",
+   "correctValue": "20 ס״מ",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חומר המוט והלהב",
+   "catalogValue": "פלדת אל-חלד (Stainless Steel)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חומר גוף המכשיר",
+   "catalogValue": "פלסטיק קשיח",
+   "finding": "corrected",
+   "correctValue": "מתכת ופלסטיק",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-0.9 ק\"ג",
+   "finding": "contradicted",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נפח כד הערבול",
+   "catalogValue": "700 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ניקוי במדיח",
+   "catalogValue": "מוט הערבול לשטיפה במדיח (מדף עליון)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "ארה\"ב (מותג אמריקאי, מיוצר בסין)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "Coolblue ו-Amazon.de מציינים 4.8 ק״ג, ואילו Primestore ו-KitchenAid Ukraine מציינים כ-0.9 ק״ג. המקורות סותרים זה את זה ויש לבדוק את המשקל.",
+   "severity": "high"
+  },
+  {
+   "field": "מספר מהירויות",
+   "issue": "Amazon.fr מציין 5 מהירויות, Amazon.de מציין 10, ו-Primestore וה-KitchenAid Ukraine מציינים 2. המקורות סותרים זה את זה.",
+   "severity": "high"
+  },
+  {
+   "field": "מתח",
+   "issue": "Amazon.fr מציין 120 וולט, ואילו Primestore מציין 220-240 וולט. נדרש לאמת את המתח לגרסה הישראלית.",
+   "severity": "high"
+  },
+  {
+   "field": "דגם",
+   "issue": "לא נמצא דף יבואן או קמעונאי ישראלי לדגם, והמקורות הם אירופיים וגאורגיים/אוקראיניים בלבד. הגרסה הישראלית לא ברורה.",
+   "severity": "high"
+  },
+  {
+   "field": "ייצור",
+   "issue": "נראה שהדגם הופסק על ידי המותג.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Coolblue מציין 0 W בשדה ההספק, ערך שאינו תקין במקור. הערך 180 W מאומת על ידי שני אתרים אחרים.",
+   "severity": "low"
+  },
+  {
+   "field": "אביזרים",
+   "issue": "Amazon.de מציין Dough Blade בתוך האריזה, ואילו Coolblue מציין שאין אביזרים נוספים. יש לאמת את תוכן האריזה.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אחריות של שנתיים מופיעה רק ב-Coolblue (בלגיה). יש לאמת את תקופת האחריות הרשמית בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "ב-Primestore סדר המידות אינו מסומן. Coolblue מציין גובה 40,6 ס״מ ורוחב ועומק 6,4 ס״מ, כך שהסדר בשורה המשולבת צריך לאימות.",
+   "severity": "low"
+  },
+  {
+   "field": "אורך מוט הערבול",
+   "issue": "Coolblue מציין 20 ס״מ לאורך רגל המוט, ואילו הקטלוג מציין 20.3 ס״מ. יש לבדוק איזה מדד נכון.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Coolblue ו-Amazon.de מציינים לפי החוקר 4.8 ק״ג מול 0.9 ק״ג במקורות אחרים; פורסם 0.9 ק״ג – יש לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר מהירויות",
+   "issue": "לפי החוקר, Amazon.fr ו-Amazon.de מציינים 5 ו-10 מהירויות; שני מקורות עם ציטוט מאשרים 2 מהירויות.",
+   "severity": "medium"
+  },
+  {
+   "field": "אורך מוט הערבול",
+   "issue": "הערך 20.3 ס״מ מגיע מ-Zap בלבד; Coolblue מציין לפי החוקר 20 ס״מ.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא זוהה יבואן ישראלי ולא נמצא דף יצרן; כל המקורות הם חנויות זרות ו-Zap.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכולת אריזה",
+   "issue": "Amazon.de מציין לפי החוקר אביזר נוסף באריזה ו-Coolblue לא; יש לאמת מה כלול בפועל.",
+   "severity": "low"
+  },
+  {
+   "field": "ייצור",
+   "issue": "החוקר מציין שהדגם אולי הופסק על ידי המותג – יש לבדוק.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled dimensions as height × width × depth (Coolblue gives height 40.6 cm, width/depth 6.4 cm per the researcher's flag). Kept weight 0.9 kg from Primestore (ok quote); conflicting 4.8 kg on Coolblue/Amazon.de is unquoted and likely a package or listing error. Kept 2 speeds from two ok quotes despite unquoted Amazon claims of 5/10. Wand length 20.3 cm kept from Zap only; Coolblue reportedly says 20 cm. | code guard removed: summary: \"מוט הערבול באורך 20.3 ס״מ ניתן להסרה ולשטיפה במדיח, ובאריזה כוס מדידה 700 מ״ל עם מכסה.\"; goodFor: \"טחינת מרקים ישירות בסיר בזכות מוט ערבול באורך 20.3 ס״מ\"; goodFor: \"מטבח קטן שבו נוח לאחסן מכשיר במשקל 0.9 ק״ג\""
+ }
+}

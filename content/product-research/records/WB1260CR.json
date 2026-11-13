@@ -1,0 +1,354 @@
+{
+ "modelNumber": "WB1260CR",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "WB1260CR",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Sauter Israel's own product page names WB1260CR (מיחם שבת קרם מכסה שטוח 12 ליטר). The Lior Electric page title names WB1260G, but its description and URL name WB1260CR. Warranty on the Lior page is said to be given by Electra Trade (אלקטרה סחר), the official importer, which was not confirmed on the importer's own page. | QA: Sauter Israel's own page names WB1260CR (12 liter, cream, flat lid). Lior Electric page URL and description name WB1260CR, though its title reportedly says WB1260G."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/product/%D7%9E%D7%99%D7%97%D7%9D-%D7%A9%D7%91%D7%AA-%D7%A7%D7%A8%D7%9D-%D7%9E%D7%9B%D7%A1%D7%94-%D7%A9%D7%98%D7%95%D7%97-12-%D7%9C%D7%99%D7%98%D7%A8-wb1260cr/",
+   "publisher": "Sauter Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%99%D7%97%D7%9D-%D7%A9%D7%91%D7%AA-%D7%A7%D7%A8%D7%9D-12-%D7%9C%D7%99%D7%98%D7%A8-sauter-%D7%A1%D7%90%D7%95%D7%98%D7%A8-%D7%93%D7%92%D7%9D-wb1260cr/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "12 ליטר (כ-60 כוסות)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "קרם מט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מכסה",
+     "value": "מכסה שטוח לחימום מוצרים מעל המיחם"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "נסתר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילת מכסה",
+     "value": "מכסה ננעל בטיחותי"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כשרות",
+     "value": "משמרות השבת (מהודרת)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי פעולה",
+     "value": "מצב הרתחה, מצב שבת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג ברז",
+     "value": "ברז בעל פעולה כפולה למזיגה רציפה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פטור מטבילה והגעלה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום נסתר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון הגנה מובנה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיחם שבת של Sauter בנפח 12 ליטר (כ-60 כוסות), עם גוף נירוסטה בגימור קרם מט ומכסה שטוח שמאפשר לחמם מוצרים מעל המיחם. למיחם מצב הרתחה ומצב שבת, גוף חימום נסתר וכשרות מהודרת של משמרות השבת, והוא פטור מטבילה והגעלה. מתאים למשפחות ולאירוח בשבתות ובחגים.",
+  "highlights": [
+   "נפח 12 ליטר, כ-60 כוסות",
+   "מצב הרתחה ומצב שבת",
+   "כשרות מהודרת של משמרות השבת, פטור מטבילה והגעלה",
+   "מכסה שטוח לחימום מוצרים מעל המיחם",
+   "גוף נירוסטה בצבע קרם מט"
+  ],
+  "goodFor": [
+   "בית שומר שבת שצריך מים חמים לאורך השבת",
+   "אירוח משפחתי בשבתות ובחגים",
+   "מי שרוצה לחמם מאפים או מגשים על המכסה השטוח",
+   "מטבח בעיצוב רטרו בגווני קרם"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש ושקע חשמל קרוב, שכן המידות וההספק לא אומתו",
+   "כדאי לבדוק את ההספק מול היבואן אם חשוב זמן ההרתחה",
+   "גוף חימום נסתר מקל על הניקוי, אך יש לנקות אבנית מעת לעת"
+  ],
+  "faq": [
+   {
+    "q": "כמה כוסות מכיל המיחם?",
+    "a": "המיחם מכיל 12 ליטר, כ-60 כוסות.",
+    "sources": []
+   },
+   {
+    "q": "האם המיחם מתאים לשבת?",
+    "a": "כן. יש לו מצב שבת וכשרות מהודרת של משמרות השבת.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך להטביל את המיחם?",
+    "a": "לפי היבואן המיחם פטור מטבילה והגעלה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחמם אוכל על המכסה?",
+    "a": "כן, המכסה השטוח מיועד לחימום מוצרים מעל המיחם.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיחם שבת Sauter WB1260CR בצבע קרם מט: 12 ליטר (כ-60 כוסות), מכסה שטוח לחימום וכשרות משמרות השבת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיחם שבת 12 ליטר",
+   "מיחם סאוטר",
+   "Sauter WB1260CR",
+   "מיחם קרם",
+   "מיחם 60 כוסות",
+   "מיחם מכסה שטוח",
+   "מיחם משמרות השבת",
+   "מיחם רטרו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "12 ליטר (כ-60 כוסות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1650W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר חיצוני",
+   "catalogValue": "נירוסטה איכותית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "קרם מט (Retro)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג ברז",
+   "catalogValue": "ברז בעל פעולה כפולה (מזיגה רציפה או לחיצה)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אישור כשרות",
+   "catalogValue": "משמרות השבת (כולל פטור מטבילה והגעלה)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצבי פעולה",
+   "catalogValue": "מצב הרתחה ומצב שבת (שמירת חום)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מכסה",
+   "catalogValue": "מכסה עליון עם נעילת בטיחות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הגנה מפעולה ללא מים",
+   "catalogValue": "מנגנון הגנה מובנה המונע פעולה ללא מים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נוריות בקרה",
+   "catalogValue": "נוריות בקרה למעקב אחר מצב ההרתחה ושמירת החום",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מכסה שטוח",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מכסה שטוח לחימום מוצרים מעל המיחם",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "לא נמצא עמוד מדויק לדגם WB1260CR שמציין הספק. הקטלוג כותב 1650W. דף של זאפ המציג את משפחת WB1260 (דגם בסיס, לא CR) כותב 950 W, ודף של קמעונאי שנמצא מציין 1200W בלי שניתן לאמת את הטקסט. יש לאמת את ההספק מול היבואן לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות (רוחב, גובה, עומק) או משקל לדגם WB1260CR בדפים שנבדקו, כולל דף היבואן. לא נוספו שורות מידות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "מתח 230V בקטלוג לא נמצא בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "ההספק בקטלוג (1650W) לא אומת בדף שמציין את הדגם; מקורות אחרים למשפחת WB1260 מציינים ערכים שונים. יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "זהות",
+   "issue": "כותרת הדף של ליאור מוצרי חשמל מציינת WB1260G בעוד הכתובת והתיאור מציינים WB1260CR.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות ומשקל לדגם.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts have ok quotes on pages naming WB1260CR. Power (1650W in catalog) and voltage were not verified and are not published."
+ }
+}

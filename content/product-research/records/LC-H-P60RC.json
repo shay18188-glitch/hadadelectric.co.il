@@ -1,0 +1,365 @@
+{
+ "modelNumber": "LC-H-P60RC",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "LaCasa",
+  "exactModel": "LC-H-P60RC",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The catalog model LC-H-P60RC appears on no fetched page. The Israeli pages print it as LCHP60RC, which is treated as the same model. Hashmal says the LCHP60RC spec is now sold as LC3601RC. LC3601RC pages were not used as evidence for this model because they are a sibling model. | QA: Israeli pages list LCHP60RC, treated as the same unit as LC-H-P60RC. Hashmal notes the spec is now sold as LC3601RC, so the model may be replaced."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-hoods&db136723=9894159",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://hashmal-price.co.il/product/%D7%A7%D7%95%D7%9C%D7%98-%D7%90%D7%93%D7%99%D7%9D-60-%D7%A1%D7%9E-lacasa-%D7%A7%D7%A8%D7%9D-%D7%9B%D7%A4%D7%A8%D7%99-%D7%93%D7%92%D7%9D-lchp60rc/",
+   "publisher": "חשמל במחירים - Hashmal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "59.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "45 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single Zap source; catalog says 500.",
+     "label": "עוצמת שאיבה",
+     "value": "400 מ״ק לשעה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "3 מהירויות"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "58 dB"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תאורה",
+     "value": "תאורת הלוגן כפולה, 28W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Zap lists black country finish; Hashmal cream matches catalog.",
+     "label": "גימור",
+     "value": "קרם כפרי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב פירמידה בגימור קרם כפרי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע מתקדם ושקט"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פנל הפעלה קדמי עם כפתורי לחיצה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פילטר רשת אלומיניום רחיץ"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 פילטרי פחם"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "קולט אדים ברוחב 59.6 ס״מ של LaCasa בעיצוב פירמידה כפרי בגימור קרם. מתאים למי שמחפש קולט אדים בסגנון רטרו שמשתלב במטבח כפרי.",
+  "highlights": [
+   "רוחב 59.6 ס״מ ועומק 45 ס״מ",
+   "תאורת הלוגן כפולה"
+  ],
+  "goodFor": [
+   "מטבח בסגנון כפרי או רטרו שמחפש קולט בגימור קרם",
+   "מי שמעדיף שליטה פשוטה בכפתורי לחיצה בפנל קדמי"
+  ],
+  "considerations": [
+   "יש לוודא שהמקום מעל הכיריים מתאים לרוחב 59.6 ס״מ ועומק 45 ס״מ",
+   "יש לוודא שקע חשמל בקרבת מקום ההתקנה",
+   "פילטר האלומיניום רחיץ ויש לנקות אותו מעת לעת"
+  ],
+  "faq": [
+   {
+    "q": "מה מידות הקולט?",
+    "a": "רוחב 59.6 ס״מ ועומק 45 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קולט אדים כפרי",
+   "קולט אדים קרם",
+   "קולט אדים רטרו",
+   "LaCasa LC-H-P60RC",
+   "LCHP60RC",
+   "קולט אדים 60 ס״מ",
+   "קולט אדים פירמידה LaCasa"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב",
+   "catalogValue": "60 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "59.6 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "500 מק\"ש",
+   "finding": "contradicted",
+   "correctValue": "400 מ³/שעה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "מנוע שקט ומתקדם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "3 דרגות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "תאורת הלוגן כפולה (2 נורות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פילטרים",
+   "catalogValue": "פילטר רשת אלומיניום רחיץ ו-2 פילטרי פחם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבנה",
+   "catalogValue": "ארובה כפולה (טלסקופית)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דגם",
+   "catalogValue": "LC-H-P60RC (מופיע גם כ-LCHP60RC)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "קרם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "45 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "58 dB",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model LC-H-P60RC appears on no fetched page. The pages print it as LCHP60RC, and the facts above rely on that close code.",
+   "severity": "high"
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "issue": "The catalog says 500 m³/h. Zap lists 400 m³/h for LCHP60RC, and that is a single source. A sibling LaCasa 60 cm hood (LC3601RC) is listed at 750 m³/h and was not used. Verify on the product label or manual.",
+   "severity": "high"
+  },
+  {
+   "field": "מודל",
+   "issue": "Hashmal says the LCHP60RC spec is now sold as LC3601RC, which suggests this model was replaced. Confirm whether LCHP60RC is still sold and which model is current.",
+   "severity": "high"
+  },
+  {
+   "field": "גימור",
+   "issue": "Hashmal lists a cream country finish (קרם כפרי). The Zap entry for LCHP60RC lists a black country finish (שחור כפרי), which may be a copy error. Verify the finish.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer page for this model was found, so the Israeli variant and the warranty are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב",
+   "issue": "The catalog name and width say 60 cm. Pages give 59.6 cm, which is likely the nominal size.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Pages name LCHP60RC, not LC-H-P60RC; treated as the same model.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "issue": "Catalog says 500 m3/h; Zap (single source) says 400 m3/h. Verify on label or manual.",
+   "severity": "high"
+  },
+  {
+   "field": "מודל",
+   "issue": "Hashmal says this spec is now sold as LC3601RC; model may be replaced.",
+   "severity": "high"
+  },
+  {
+   "field": "גימור",
+   "issue": "Zap lists a black country finish for this model while Hashmal and the catalog say cream; Zap specs may be partly mixed.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer page found; variant and warranty unverified.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Identity medium: pages name LCHP60RC (catalog LC-H-P60RC without hyphens). Suction 400 m3/h and noise/lighting/speeds rest on a single Zap listing whose finish (black) disagrees with Hashmal (cream); kept with flags. Catalog 500 m3/h is contradicted. Zap kind kept as other (price comparison, not a shop). | code guard removed: summary: \"עוצמת השאיבה היא 400 מ״ק לשעה, עם 3 מהירויות ועוצמת רעש של 58 dB.\"; faq: \"מה עוצמת השאיבה של הקולט?\"; faq: \"כמה מהירויות יש לקולט?\"; faq: \"מה מגיע באריזה?\"; metaDescription: \"קולט אדים כפרי LaCasa LC-H-P60RC בגימור קרם, רוחב 59.6 ס״מ, שאיבה 400 מ״ק לשעה ו־3 מהירויות. בחדד אלקטריק נהריה\"; highlight: \"עוצמת שאיבה 400 מ״ק לשעה\"; highlight: \"3 מהירויות ועוצמת רעש 58 dB\"; highlight: \"פילטר רשת אלומיניום רחיץ ו־2 פילטרי פחם בערכה\"; goodFor: \"כיריים ברוחב סטנדרטי של 60 ס״מ\"; consideration: \"עוצמת השאיבה 400 מ״ק לשעה – כדאי לבדוק שהיא מספיקה לשימוש שלכם\""
+ }
+}

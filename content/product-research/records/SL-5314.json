@@ -1,0 +1,430 @@
+{
+ "modelNumber": "SL-5314",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "SOL",
+  "exactModel": "SL-5314",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "דף המוצר של אבי סופר מזהה את הדגם SL-5314 בשם SOL, ומציין יבואן רשמי: שאוליאן סחר. | QA: דף אבי סופר מציג את SOL SL-5314, מצנן 80 ליטר, תואם לקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מצנן-סול-sl-5314/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "SL-5314"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "שאוליאן סחר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "58 × 132 × 40 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "21.20 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "80 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "350 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זרימת אוויר",
+     "value": "8000 מ״ק/שעה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים",
+     "value": "4-6 ליטר/שעה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "עד 12 שעות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחת (מלאה)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלט רחוק כלול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צידוד תריסי אוורור ימין ושמאל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא להוספת קרח להגברת הקירור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "4 גלגלי סיליקון לניוד קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פילטר מסוג BLUE COOLING PAD"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע צנטריפוגלי לפיזור אוויר אופטימלי ושקט"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "SOL SL-5314 הוא מצנן אוויר נייד רצפתי עם מיכל מים של 80 ליטר וזרימת אוויר של 8000 מ״ק/שעה. הוא כולל 3 מהירויות, טיימר עד 12 שעות, שלט רחוק ותא להוספת קרח. מתאים למי שמחפש קירור נייד בהספק של 350 W, שאפשר להזיז בין חדרים על גלגלים.",
+  "highlights": [
+   "מיכל מים 80 ליטר",
+   "זרימת אוויר 8000 מ״ק/שעה",
+   "3 מהירויות וטיימר עד 12 שעות",
+   "תא להוספת קרח להגברת הקירור",
+   "4 גלגלי סיליקון לניוד קל"
+  ],
+  "goodFor": [
+   "חללים גדולים כמו סלון, מרפסת סגורה או מחסן, בזכות זרימת אוויר של 8000 מ״ק/שעה",
+   "שימוש ממושך בלי למלא מים לעיתים קרובות, הודות למיכל של 80 ליטר",
+   "מעבר בין חדרים בעזרת 4 גלגלי סיליקון",
+   "הפעלה מרחוק ותזמון כיבוי עם שלט וטיימר עד 12 שעות"
+  ],
+  "considerations": [
+   "המצנן בגובה 132 ס״מ, ברוחב 58 ס״מ ובעומק 40 ס״מ, כדאי למדוד את המקום המיועד",
+   "משקלו 21.20 ק״ג ללא מים, ועם מיכל מלא הוא כבד בהרבה",
+   "צריכת המים היא 4-6 ליטר לשעה, ויש לתכנן מילוי מיכל בהתאם",
+   "מצנן אוויר מבוסס אידוי ואינו מחליף מזגן"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "80 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים המצנן צורך?",
+    "a": "4-6 ליטר לשעה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להוסיף קרח?",
+    "a": "כן, יש תא ייעודי להוספת קרח להגברת הקירור.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות ומי היבואן?",
+    "a": "אחריות מלאה לשנה על ידי שאוליאן סחר.",
+    "sources": []
+   },
+   {
+    "q": "יש טיימר ושלט?",
+    "a": "כן, טיימר עד 12 שעות ושלט רחוק כלול.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מצנן אוויר נייד רצפתי SOL SL-5314 עם מיכל מים 80 ליטר, זרימת אוויר 8000 מ״ק/שעה, 3 מהירויות, טיימר ושלט רחוק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מצנן אוויר SOL",
+   "SL-5314",
+   "מצנן סול 80 ליטר",
+   "מצנן אוויר נייד",
+   "קולר מים רצפתי",
+   "מצנן אוויר עם קרח",
+   "מצנן אוויר עם שלט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "350W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל מים",
+   "catalogValue": "80 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זרימת אוויר",
+   "catalogValue": "8,000 מק\"ש (CBM/H)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 132 ס\"מ, רוחב 58 ס\"מ, עומק 40 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "21.20 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "4-6 ליטר לשעה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג פילטר",
+   "catalogValue": "BLUE COOLING PAD",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "צנטריפוגלי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 12 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "3 מהירויות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גלגלים",
+   "catalogValue": "4 גלגלי סיליקון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת טיהור מים",
+   "catalogValue": "מערכת טיהור מים מובנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תא קרח",
+   "catalogValue": "תא עליון ייעודי להוספת קרח",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צידוד תריסים",
+   "catalogValue": "צידוד תריסים אוטומטי (ימין-שמאל)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Sol exlusive",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אפשרויות צבע",
+   "catalogValue": "אפור או לבן",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "זרימת אוויר",
+   "issue": "ערך זרימת האוויר מופיע רק בדף של קמעונאי אחד (אבי סופר) ולא אומת במקור של היבואן או היצרן; נדרש אימות מול המפרט הרשמי.",
+   "severity": "medium"
+  },
+  {
+   "field": "מותג",
+   "issue": "שם המותג בקטלוג הוא Sol exlusive, ובדף הקמעונאי המותג מופיע כ-SOL; כדאי לוודא את כתיב המותג.",
+   "severity": "low"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "מדינת הייצור (סין) וצבעי המוצר לא נמצאו בדף מאומת של הדגם; נדרש אימות.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "המותג בקטלוג רשום Sol exlusive, ובדף הקמעונאי SOL; כדאי לוודא כתיב.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל הנתונים מאומתים מדף קמעונאי ישראלי אחד בלבד, ללא מקור יצרן או יבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts confirmed by a single Israeli retailer page naming the exact model."
+ }
+}

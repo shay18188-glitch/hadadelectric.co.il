@@ -1,0 +1,204 @@
+{
+ "modelNumber": "TT9000",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "TT9000",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only an Israeli retailer page (Orsale) names the exact model with specs; no importer or manufacturer page found. | QA: Orsale page names Sauter TT9000 transparent long-slot toaster, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://orsale.co.il/product/%D7%9E%D7%A6%D7%A0%D7%9D-%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%A7%D7%95%D7%A4%D7%A5-sauter-tt9000-%D7%A1%D7%90%D7%95%D7%98%D7%A8/",
+   "publisher": "Orsale",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1200 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמות השחמה",
+     "value": "7"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך חריץ קלייה",
+     "value": "26 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer's own warranty terms; may differ from importer warranty.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלון תצוגה דו-צדדי מזכוכית, נשלף וקל לניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגש פירורים נשלף"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מצנם Sauter TT9000 עם חריץ קלייה ארוך באורך 26 ס״מ וחלון תצוגה דו-צדדי מזכוכית, שמאפשר לראות את הלחם בזמן הקלייה. הספק של 1200 W ו-7 רמות השחמה מאפשרים לכוון את מידת הקלייה. מתאים למי שאוהב לחם ארוך או פרוסות מכיכר ורוצה לעקוב אחרי ההשחמה בעין.",
+  "highlights": [
+   "חריץ קלייה ארוך באורך 26 ס״מ",
+   "הספק 1200 W",
+   "7 רמות השחמה",
+   "חלון תצוגה דו-צדדי מזכוכית, נשלף וקל לניקוי",
+   "מגש פירורים נשלף"
+  ],
+  "goodFor": [
+   "קליית פרוסות ארוכות מכיכר לחם בחריץ באורך 26 ס״מ",
+   "מי שרוצה לראות את מידת ההשחמה דרך חלון הזכוכית",
+   "מי שמעדיף ניקוי פשוט בזכות חלון ומגש פירורים נשלפים"
+  ],
+  "considerations": [
+   "המצנם בנוי בחריץ ארוך אחד – כדאי לוודא שיש מספיק מקום לרוחבו על השיש",
+   "הספק של 1200 W – מומלץ לא לחבר באותו שקע עם מכשיר חשמלי כבד נוסף",
+   "חלון הזכוכית נשלף לניקוי – כדאי לנקות אותו מדי פעם כדי לשמור על נראות"
+  ],
+  "faq": [
+   {
+    "q": "מה אורך חריץ הקלייה?",
+    "a": "אורך החריץ הוא 26 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה רמות השחמה יש?",
+    "a": "יש 7 רמות השחמה לבחירה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לראות את הלחם בזמן הקלייה?",
+    "a": "כן, יש חלון תצוגה דו-צדדי מזכוכית, והוא נשלף לניקוי.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המצנם?",
+    "a": "ההספק הוא 1200 W.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מצנם שקוף Sauter TT9000 עם חריץ ארוך 26 ס״מ, הספק 1200 W ו-7 רמות השחמה וחלון זכוכית נשלף. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מצנם Sauter TT9000",
+   "סאוטר TT9000",
+   "מצנם שקוף",
+   "מצנם זכוכית",
+   "מצנם חריץ ארוך",
+   "טוסטר קופץ שקוף",
+   "מצנם 2 פרוסות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך חריץ קלייה",
+   "catalogValue": "26 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות השחמה",
+   "catalogValue": "7",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "38.2 × 20.5 × 14.4",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Retailer lists 38.2X14.4X20.5 without axis labels; order unconfirmed, not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions in catalog not verifiable; retailer lists them without axis labels.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty term not published; only a retailer page states one year.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (one year on a retailer page reflects that shop's terms, not necessarily the importer's). Power, slot length, browning levels and two features kept from the Orsale page naming TT9000."
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "modelNumber": "HB1212B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "HB1212B",
+  "israeliImporter": "Electra (לפי תיאור זאפ: יבואן רשמי)",
+  "matchConfidence": "high",
+  "notes": "Only zap.co.il (Israeli price comparison) fetched with exact model; payngo returned 403, importer site search returned nothing. | QA: zap.co.il page names SAUTER HB1212B 1200W black, matching the catalog name. Importer claim not verified from a quote."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1248870",
+   "publisher": "zap.co.il",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1200 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "להב",
+     "value": "נירוסטה (אל־חלד) משונן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בקרת מהירות",
+     "value": "מהירות משתנה בלחיצה על ההדק"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote calls it a blending cup",
+     "label": "נפח כוס ערבול",
+     "value": "600 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח קוצץ",
+     "value": "800 מ״ל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'hot' - not in quote",
+   "text": "מתאים לערבול מרקים, שייקים וקוקטיילים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כוס ערבול 600 מ״ל וקוצץ 800 מ״ל"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר מוט של Sauter, דגם HB1212B בצבע שחור, עם מנוע בהספק 1200 W ומהירות משתנה בלחיצה על ההדק. הערכה כוללת כוס ערבול 600 מ״ל וקוצץ 800 מ״ל, והלהב עשוי נירוסטה משוננת. מתאים למי שמכין מרקים, שייקים וקוקטיילים ורוצה גם לקצוץ באותו מכשיר.",
+  "highlights": [
+   "מנוע בהספק 1200 W",
+   "מהירות משתנה בלחיצה על ההדק",
+   "כוס ערבול 600 מ״ל בערכה",
+   "קוצץ 800 מ״ל בערכה",
+   "להב נירוסטה משונן"
+  ],
+  "goodFor": [
+   "הכנת מרקים ישירות בסיר",
+   "שייקים וקוקטיילים בכוס הערבול",
+   "קיצוץ ירקות ואגוזים בקוצץ המצורף"
+  ],
+  "considerations": [
+   "לבדוק שגודל הקוצץ (800 מ״ל) מתאים לכמויות שאתם מכינים בדרך כלל",
+   "לוודא את הצבע של היחידה בעת ההזמנה",
+   "לבדוק אילו אביזרים נוספים כלולים בערכה בפועל"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "ההספק הוא 1200 W.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "כוס ערבול בנפח 600 מ״ל וקוצץ בנפח 800 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "איך שולטים במהירות?",
+    "a": "המהירות משתנה לפי עוצמת הלחיצה על ההדק.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי הלהב?",
+    "a": "הלהב עשוי נירוסטה (אל־חלד) משוננת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Sauter HB1212B שחור בהספק 1200 W, עם כוס ערבול 600 מ״ל וקוצץ 800 מ״ל ומהירות משתנה בהדק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט Sauter",
+   "Sauter HB1212B",
+   "בלנדר מוט 1200 וואט",
+   "בלנדר מוט עם קוצץ",
+   "בלנדר מוט שחור",
+   "סאוטר בלנדר מוט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוצץ 800 מ״ל",
+   "catalogValue": "קוצץ בנפח 800 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כוס מדידה 600 מ״ל",
+   "catalogValue": "כוס מדידה בנפח 600 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורת LED",
+   "catalogValue": "נורת חיווי LED",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "Listings disagree on colour for HB1212B (black vs white); confirm with importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only a price-comparison page names the exact model; no manufacturer or importer page found.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Researcher reported listings disagree on colour for HB1212B (black vs white); confirm with importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only source is an Israeli price-comparison page (zap.co.il); no manufacturer or importer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט",
+   "issue": "Catalog claims (turbo button, LED indicator, whisk attachment, stand, hot-soup resistance, quiet motor) were not verified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 1 label changed from measuring cup to blending cup to match the quote. Feature 0 reworded: the quote does not say hot soups. In-the-box wording aligned to the quote. Only source is zap.co.il, an Israeli price-comparison model page."
+ }
+}

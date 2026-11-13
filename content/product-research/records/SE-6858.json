@@ -1,0 +1,315 @@
+{
+ "modelNumber": "SE-6858",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Selmor",
+  "exactModel": "SE-6858",
+  "israeliImporter": "סלמור",
+  "matchConfidence": "high",
+  "notes": "Only one fetchable Israeli page with spec lines for this exact model (laserelc.co.il). The importer site selmor.co.il returned HTTP 429 and the shekem-electric and payngo listings returned HTTP 403, so they were not read. Power (120W) and dimensions were not found on any fetched page. | QA: Israeli retailer page names Selmor SE-6858 with 1 liter tank, official importer Selmor; matches catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://laserelc.co.il/%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%9C%D7%94%D7%9B%D7%A0%D7%AA-%D7%A7%D7%95%D7%91%D7%99%D7%95%D7%AA-%D7%A7%D7%A8%D7%97-1-%D7%9C%D7%99%D7%98%D7%A8-%D7%A1%D7%9C%D7%9E%D7%95%D7%A8-selmor-se-6858-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99/",
+   "publisher": "לייזר ליין",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "1 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח סלסלת קרח",
+     "value": "600 מ״ל, נשלפת"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקה יומית",
+     "value": "עד 12 ק״ג קרח ליום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says about 6 minutes; retailer says 6-15.",
+     "label": "קצב ייצור",
+     "value": "8 קוביות קרח בכל מחזור, מחזור כל 6-15 דקות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י היבואן הרשמי סלמור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכשיר ביתי לייצור קוביות קרח, ללא צורך בחיבור לנקודת מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נוריות חיווי שמתריעות כשצריך להוסיף מים למיכל וכשסלסלת הקרח מלאה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלון הצצה שקוף למעקב אחר כמות הקרח"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כף מזיגה לקרח"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ללא צורך בהתקנה: פועל באמצעות מילוי ידני של מיכל המים"
+  }
+ ],
+ "content": {
+  "summary": "מכשיר קרח ביתי של סלמור, דגם SE-6858, שמייצר קוביות קרח בלי חיבור לנקודת מים – פשוט ממלאים את מיכל המים בנפח 1 ליטר. המכשיר מייצר 8 קוביות בכל מחזור ועד 12 ק״ג קרח ליום, עם סלסלה נשלפת בנפח 600 מ״ל. מתאים למי שרוצה קרח זמין במטבח, באירוח או במשרד בלי התקנה.",
+  "highlights": [
+   "ללא חיבור לנקודת מים – מילוי ידני של מיכל 1 ליטר",
+   "עד 12 ק״ג קרח ליום",
+   "8 קוביות קרח בכל מחזור",
+   "סלסלת קרח נשלפת בנפח 600 מ״ל",
+   "נוריות חיווי למים חסרים ולסלסלה מלאה"
+  ],
+  "goodFor": [
+   "אירוח בבית, כשצריך קרח זמין לשתייה קרה",
+   "מטבח בלי נקודת מים פנויה, כי המכשיר עובד במילוי ידני",
+   "משרד או מטבחון קטן שבו אין אפשרות להתקנה",
+   "מי שרוצה להפסיק למלא תבניות קרח במקפיא"
+  ],
+  "considerations": [
+   "צריך שקע חשמל זמין ליד משטח העבודה",
+   "את מיכל המים ממלאים ידנית, ונורית החיווי מתריעה כשצריך להוסיף מים",
+   "יש לרוקן את הסלסלה כשהיא מלאה – נורית חיווי מתריעה על כך",
+   "זמן המחזור לפי הנתונים הוא 6-15 דקות, כך שכדאי להפעיל את המכשיר מראש לפני אירוח"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך לחבר את מכשיר הקרח לברז או לנקודת מים?",
+    "a": "לא. המכשיר פועל באמצעות מילוי ידני של מיכל המים בנפח 1 ליטר ואינו דורש התקנה.",
+    "sources": []
+   },
+   {
+    "q": "כמה קרח המכשיר מייצר?",
+    "a": "בכל מחזור נוצרות 8 קוביות קרח, ומחזור מתבצע כל 6-15 דקות. התפוקה היא עד 12 ק״ג קרח ליום.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים מתי להוסיף מים או לרוקן את הקרח?",
+    "a": "נוריות חיווי מתריעות כשצריך להוסיף מים למיכל וכשסלסלת הקרח מלאה. חלון הצצה שקוף מאפשר לעקוב אחר כמות הקרח.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "שנה אחריות ע״י היבואן הרשמי סלמור.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע עם המכשיר?",
+    "a": "למכשיר מצורפת כף מזיגה לקרח.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר קרח ביתי סלמור SE-6858 ללא חיבור לנקודת מים, מיכל מים 1 ליטר ועד 12 ק״ג קרח ליום, סלסלה נשלפת 600 מ״ל. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכשיר קרח סלמור",
+   "סלמור SE-6858",
+   "SE-6858",
+   "מכשיר להכנת קוביות קרח",
+   "מכונת קרח ביתית",
+   "מכשיר קרח ללא חיבור למים",
+   "מכשיר קרח לבן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "1 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח סלסלת קרח נשלפת",
+   "catalogValue": "600 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב ייצור",
+   "catalogValue": "8 קוביות בכל מחזור של כ-6 דקות",
+   "finding": "corrected",
+   "correctValue": "8 קוביות בכל מחזור, 6-15 דקות למחזור",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקה יומית מקסימלית",
+   "catalogValue": "עד 12 ק\"ג קרח",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "120W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה 28.2 ס\"מ, עומק 26.8 ס\"מ, רוחב 20.6 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיישנים חכמים (מים חסרים / סלסלה מלאה)",
+   "catalogValue": "חיישנים חכמים המתריעים כאשר חסרים מים במיכל או כאשר סלסלת הקרח מלאה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכסה שקוף",
+   "catalogValue": "מכסה שקוף המאפשר מעקב אחר תהליך ההכנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כף מזיגה",
+   "catalogValue": "כף ייעודית למזיגת הקרח",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור ייצור",
+   "catalogValue": "ישראל (מותג מקומי, ייצור בסין)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, ע\"י היבואן הרשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Power 120W and the device dimensions (height 28.2 cm, depth 26.8 cm, width 20.6 cm) are in the catalog but were not found on any page that could be fetched for this exact model. Check against the importer's spec sheet before publishing these values.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב ייצור",
+   "issue": "Catalog says about 6 minutes per cycle; the Israeli retailer page says 6-15 minutes. Sources conflict on cycle time.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Importer site selmor.co.il returned HTTP 429 and two Israeli listings returned HTTP 403, so the official Selmor spec page was not read. Only one retailer page carried spec lines for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק / מידות",
+   "issue": "Catalog power (120W) and dimensions were not found on any fetched page; confirm against the importer's spec sheet before relying on them.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב ייצור",
+   "issue": "Catalog says about 6 minutes per cycle; the Israeli retailer page says 6-15 minutes. Published value follows the retailer.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only one Israeli retailer page was readable; the importer page was not read.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All five facts, three features, one in-the-box item and one installation item are supported by ok quotes on one Israeli retailer page that names SE-6858. Light wording fixes: the cycle-time value now reads as the retailer states it. The catalog's power (120W) and dimensions were not verified and are not published."
+ }
+}

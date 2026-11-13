@@ -1,0 +1,187 @@
+{
+ "modelNumber": "PR93B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PR93B",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Bug page for Premier PR-93 black; its product image file is named PR93B.jpeg, which ties the black PR-93 to this code. | QA: Bug lists Premier PR-93 in black, retro office fridge 86 L; image file PR93B ties it to this code. Suffix B not stated in text."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-משרדי-בעיצוב-רטרו-86-ליטר-premier-9576986665",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "נפח כללי = gross volume",
+     "label": "נפח ברוטו",
+     "value": "86 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "19 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer-stated warranty",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת אחריות"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר משרדי קומפקטי בעיצוב רטרו בצבע שחור של Premier, דגם PR93B. נפח ברוטו של 86 ליטר ומשקל של 19 ק״ג, עם דירוג אנרגטי F. מתאים למי שמחפש מקרר קטן למשרד, לחדר שינה או ליחידת אירוח.",
+  "highlights": [
+   "נפח ברוטו 86 ליטר",
+   "דירוג אנרגטי F",
+   "משקל 19 ק״ג",
+   "אחריות לשנה בכפוף לתעודת אחריות"
+  ],
+  "goodFor": [
+   "משרד או חדר ישיבות שצריך מקום לשתייה ואוכל קל",
+   "חדר שינה, חדר נוער או יחידת אירוח",
+   "מי שמחפש מקרר קטן וקל להזזה"
+  ],
+  "considerations": [
+   "יש למדוד את המקום המיועד ולוודא מרווח אוורור סביב המקרר",
+   "דירוג אנרגטי F – כדאי לקחת בחשבון את צריכת החשמל לאורך זמן",
+   "יש לוודא שקע חשמל זמין ליד מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המקרר?",
+    "a": "נפח ברוטו של 86 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי?",
+    "a": "דירוג אנרגטי F.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקל המקרר?",
+    "a": "המשקל הוא 19 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "האם יש אחריות?",
+    "a": "כן, אחריות לשנה בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר משרדי רטרו שחור Premier PR93B בנפח ברוטו 86 ליטר, משקל 19 ק״ג ודירוג אנרגטי F. מקרר קומפקטי למשרד ולחדר, בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר משרדי",
+   "מקרר רטרו שחור",
+   "Premier PR93B",
+   "מקרר פרמייר",
+   "מקרר קטן למשרד",
+   "מקרר 86 ליטר",
+   "מקרר לחדר שינה",
+   "PR-93"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "ברוטו 86, נטו 84",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "19 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Retailer lists the model as PR-93 black; PR93B appears only in an image filename.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Only source lists the model as PR-93 black; the B suffix appears only in an image filename.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "Warranty term comes from a retailer page; confirm it matches the warranty the store provides.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled capacity fact as gross volume (נפח כללי = ברוטו, matches catalog 86 gross). Warranty quote is the retailer's warranty statement; kept but flagged. Identity medium: retailer names PR-93 black, PR93B appears only in an image filename."
+ }
+}

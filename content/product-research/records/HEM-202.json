@@ -1,0 +1,294 @@
+{
+ "modelNumber": "HEM-202",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-202",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "המקורות כותבים את הדגם HEM202 (ללא מקף). לא נמצא דף מוצר של היצרן או היבואן לדגם הזה; ערכי הפלטות וההספק מגיעים מדפי זאפ ומשני קמעונאים ישראלים. | QA: המקורות כותבים HEM202 ללא מקף, אותו מותג (Hemilton) ואותו סוג מוצר (כירה חשמלית כפולה) עם הספקים זהים לקטלוג; ההבדל הוא כתיב בלבד."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=523076",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.x-press.co.il/product/%D7%A4%D7%9C%D7%98%D7%AA-%D7%91%D7%99%D7%A9%D7%95%D7%9C-%D7%9B%D7%A4%D7%95%D7%9C-%D7%9E%D7%91%D7%99%D7%AA-hemilton-%D7%93%D7%92%D7%9D-hem202",
+   "publisher": "X-PRESS",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "2500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק פלטה גדולה",
+     "value": "1500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק פלטה קטנה",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "בקרת חום",
+     "value": "שני ווסתי טמפרטורה נפרדים"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר פלטה גדולה",
+     "value": "185 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר פלטה קטנה",
+     "value": "155 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "46 × 8 × 28 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הגנות",
+     "value": "הגנה מפני חום יתר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כירה חשמלית כפולה עם בקרת חום אוטומטית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה למי שצריך משטח בישול נייד בלי תשתית גז.",
+  "highlights": [
+   "שני ווסתי טמפרטורה נפרדים",
+   "הגנה מפני חום יתר"
+  ],
+  "goodFor": [
+   "בישול בדירה או ביחידת דיור ללא חיבור גז",
+   "בישול במקביל של שני סירים בעוצמות חום שונות",
+   "פתרון בישול משלים במשרד או במטבחון"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "אפשר לכוון את החום בכל פלטה בנפרד?",
+    "a": "כן, לכירה יש שני ווסתי טמפרטורה נפרדים.",
+    "sources": []
+   },
+   {
+    "q": "יש בכירה הגנה בטיחותית?",
+    "a": "כן, הכירה כוללת הגנה מפני חום יתר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "כירה חשמלית כפולה",
+   "Hemilton HEM-202",
+   "HEM202",
+   "פלטת בישול כפולה",
+   "כירה חשמלית המילטון",
+   "כירה חשמלית 2500W",
+   "פלטות בישול חשמליות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק כולל",
+   "catalogValue": "2500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק פלטה גדולה",
+   "catalogValue": "1500W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק פלטה קטנה",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר פלטה גדולה",
+   "catalogValue": "כ-185 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר פלטה קטנה",
+   "catalogValue": "כ-155 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת טמפרטורה",
+   "catalogValue": "שני תרמוסטטים נפרדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנות",
+   "catalogValue": "מנגנון הגנה מפני התחממות יתר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נוריות חיווי",
+   "catalogValue": "שתי נוריות בקרה נפרדות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רגליות",
+   "catalogValue": "רגליות גומי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גוף חימום",
+   "catalogValue": "פלטות יציקת ברזל (ראשי מתכת)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקטלוג כותב HEM-202, והמקורות כותבים HEM202 ללא מקף. לא נמצא מקור שכותב את המחרוזת עם המקף; זוהה כאותו דגם על בסיס דפי המוצר. יש לאשר.",
+   "severity": "high"
+  },
+  {
+   "field": "מקורות",
+   "issue": "דף X-PRESS נשמר עם טקסט עברי פגום (תווים מוחלפים). נעשה בו שימוש רק בשורות המספריות שנשארו קריאות (הספק הפלטות), והתוויות העבריות שבהן לא נקראו.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "אין דף יצרן או יבואן שמציג את הדגם. דף החיפוש של אתר המילטון לא החזיר דף מוצר ל-HEM202. מידות, קוטר ובקרה מגיעים רק מדף זאפ ולכן לא מפורסמים כעובדה מאומתת.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג גוף חימום",
+   "issue": "חומר פלטות יציקת הברזל והמקור של הייצור (סין) לא נמצאו בדפים שנקראו.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "המקורות כותבים HEM202 ללא מקף, הקטלוג כותב HEM-202. יש לאשר שזה אותו דגם.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "אין דף יצרן או יבואן; כל העובדות מבוססות על דף זאפ בלבד. מתח, נוריות חיווי, רגליות וסוג גוף החימום (יציקת ברזל) שבקטלוג לא אומתו.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "כל העובדות נשענות על ציטוטים תקינים מדף זאפ שמציג את הדגם HEM202. ציטוטי X-PRESS פגומים (קידוד) ולא שימשו לאימות. | code guard removed: summary: \"כירה חשמלית כפולה של Hemilton, דגם HEM-202, עם שתי פלטות בישול בהספק כולל של 2500 W.\"; summary: \"הפלטה הגדולה (1500 W, קוטר 185 מ״מ) והקטנה (1000 W, קוטר 155 מ״מ) נשלטות כל אחת בווסת טמפרטורה נפרד.\"; faq: \"מה ההספק של כל פלטה?\"; faq: \"מה קוטר הפלטות?\"; metaDescription: \"כירה חשמלית כפולה Hemilton HEM-202 בהספק 2500 W, עם שני ווסתי טמפרטורה נפרדים ופלטות 185 ו-155 מ״מ. בחדד אלקטריק נהריה\"; highlight: \"הספק כולל 2500 W\"; highlight: \"פלטה גדולה 1500 W בקוטר 185 מ״מ\"; highlight: \"פלטה קטנה 1000 W בקוטר 155 מ״מ\"; consideration: \"ההספק הכולל הוא 2500 W, ולכן כדאי לחבר לשקע שאינו משותף עם מכשירים חזקים אחרים\"; consideration: \"המידות 46 × 8 × 28 ס״מ: יש לוודא מקום פנוי על השיש\"; consideration: \"יש להתאים את גודל הסירים לקוטר הפלטות, 185 מ״מ ו-155 מ״מ\""
+ }
+}

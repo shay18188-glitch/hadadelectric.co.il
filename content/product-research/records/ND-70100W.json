@@ -1,0 +1,406 @@
+{
+ "modelNumber": "ND-70100W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND-70100W",
+  "israeliImporter": "קלינטון סחר",
+  "matchConfidence": "high",
+  "notes": "Both Israeli retailer pages name Normande ND-70100W, 7 kg front-loading washer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מכונת-כביסה-פתח-חזית-7-קג-normande-92145415",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/מכונת-כביסה-פתח-חזית-נורמנדה-⁦nd-70100w⁩/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "7 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תוף",
+     "value": "45 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "598 × 850 × 485 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "52 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירויות סחיטה",
+     "value": "0 / 600 / 1000 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות כביסה",
+     "value": "16"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A+++"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "129 kWh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים שנתית",
+     "value": "7,700 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רעש במהלך כביסה",
+     "value": "62 dB"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רעש במהלך סחיטה",
+     "value": "72 dB"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זווית פתיחת דלת",
+     "value": "150°"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, על ידי קלינטון סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פאנל הפעלה בעברית עם תצוגת LED ותצוגת זמן נותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת איזון אוטומטית בסחיטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נעילת בטיחות לילדים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Normande ND-70100W היא מכונת כביסה פתח חזית בקיבולת 7 ק״ג, עם סחיטה עד 1000 סל״ד ודירוג אנרגטי A+++. המכונה כוללת 16 תוכניות כביסה ופאנל הפעלה בעברית עם תצוגת זמן נותר. מתאימה למי שמחפש מכונה בסיסית וחסכונית ברוחב סטנדרטי של 598 מ״מ.",
+  "highlights": [
+   "קיבולת כביסה 7 ק״ג ונפח תוף 45 ליטר",
+   "דירוג אנרגטי A+++ וצריכת חשמל שנתית 129 kWh",
+   "סחיטה עד 1000 סל״ד",
+   "16 תוכניות כביסה ופאנל בעברית",
+   "דלת נפתחת לזווית 150° ונעילת בטיחות לילדים"
+  ],
+  "goodFor": [
+   "משקי בית שמחפשים מכונה בקיבולת בינונית של 7 ק״ג",
+   "מי שרוצה לחסוך בחשמל ובמים לאורך השנה",
+   "בתים עם ילדים, בזכות נעילת הבטיחות",
+   "מי שמעדיף ממשק הפעלה בעברית"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 598 × 850 × 485 מ״מ",
+   "מהירות הסחיטה המרבית היא 1000 סל״ד, כך שהכביסה עשויה לצאת לחה יותר ממכונות עם סחיטה גבוהה יותר",
+   "רמת הרעש בסחיטה היא 72 dB, כדאי לקחת זאת בחשבון אם המכונה ממוקמת ליד חדרי שינה",
+   "משקל המכונה 52 ק״ג, יש לתכנן את ההובלה וההצבה בהתאם"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Normande ND-70100W?",
+    "a": "קיבולת הכביסה היא 7 ק״ג, ונפח התוף 45 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה של המכונה?",
+    "a": "המכונה מציעה מהירויות סחיטה של 0, 600 ו-1000 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי והצריכה השנתית?",
+    "a": "הדירוג האנרגטי הוא A+++, עם צריכת חשמל שנתית של 129 kWh וצריכת מים שנתית של 7,700 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכונה?",
+    "a": "רוחב 598 מ״מ, גובה 850 מ״מ ועומק 485 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "אחריות לשנה על ידי קלינטון סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Normande ND-70100W פתח חזית 7 ק״ג, סחיטה עד 1000 סל״ד ודירוג אנרגטי A+++, עם 16 תוכניות כביסה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Normande ND-70100W",
+   "נורמנדה ND-70100W",
+   "מכונת כביסה נורמנדה 7 ק״ג",
+   "מכונת כביסה פתח חזית 7 ק״ג",
+   "מכונת כביסה 1000 סל״ד",
+   "מכונת כביסה A+++",
+   "מכונת כביסה נורמנדה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות סחיטה",
+   "catalogValue": "0 / 600 / 1000 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A+++ (או A בחלק מהמקורות)",
+   "finding": "corrected",
+   "correctValue": "A+++",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "catalogValue": "129 kWh",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים שנתית",
+   "catalogValue": "7,700 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רעש במהלך כביסה",
+   "catalogValue": "62dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רעש במהלך סחיטה",
+   "catalogValue": "72dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תוף",
+   "catalogValue": "45 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 598 מ\"מ, עומק 485 מ\"מ, גובה 850 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "52 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות כביסה",
+   "catalogValue": "16 תוכניות כביסה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פתיחת דלת",
+   "catalogValue": "150°",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחת",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין A+++ או A; שני דפי קמעונאים בישראל מציינים A+++",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין A+++ או A; שני דפי קמעונאים בישראל מציינים A+++ בלבד",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts verified on Israeli retailer pages naming ND-70100W (BUG; energy rating and warranty also on Avi Sofer). Catalog's 'A' energy alternative not supported; A+++ kept."
+ }
+}

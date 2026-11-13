@@ -1,0 +1,391 @@
+{
+ "modelNumber": "SE-376",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Selmor",
+  "exactModel": "SE-376",
+  "israeliImporter": "סלמור",
+  "matchConfidence": "high",
+  "notes": "הדגם נמכר בישראל גם בכתיב 376-SE. דף היבואן הרשמי לא נבדק. המפרט מבוסס על חנויות ישראליות ואתרי השוואה שמזכירים את הדגם במפורש. | QA: שתי חנויות ישראליות ושני אתרי השוואה מציינים במפורש Selmor SE-376, פלטה מתקפלת מסיליקון לכ-4 סירים."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-plata&productid=1221686",
+   "publisher": "WiseBuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/compmodels.aspx?modelid=1221686",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://laserelc.co.il/%D7%A4%D7%9C%D7%98%D7%AA-%D7%A9%D7%91%D7%AA-%D7%9E%D7%AA%D7%A7%D7%A4%D7%9C%D7%AA-%D7%A1%D7%9C%D7%9E%D7%95%D7%A8%D7%99%D7%AA-%D7%A1%D7%9C%D7%9E%D7%95%D7%A8-salmorit-salmor-se-376/",
+   "publisher": "לייזר ליין",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%97%D7%A9%D7%9E%D7%9C_%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%A1%D7%99%D7%A8%D7%99%D7%9D_%D7%A1%D7%99%D7%A8%D7%99%D7%9D_%D7%97%D7%A9%D7%9E%D7%9C%D7%99%D7%99%D7%9D_%D7%95%D7%A4%D7%9C%D7%98%D7%95%D7%AA_%D7%9C%D7%A9%D7%91%D7%AA/%D7%A4%D7%9C%D7%98%D7%AA_%D7%A9%D7%91%D7%AA_%D7%9E%D7%AA%D7%A7%D7%A4%D7%9C%D7%AA_4_%D7%A1%D7%99%D7%A8%D7%99%D7%9D_selmor_%D7%93%D7%92%D7%9D_se-376_%D7%A1%D7%9C%D7%9E%D7%95%D7%A8",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "שני אתרי השוואה; הקטלוג מציין 400W",
+     "label": "הספק",
+     "value": "250 וואט"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמות חימום",
+     "value": "3 עוצמות: כ-60, 80 ו-100 מעלות צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "הקטלוג מציין 52×40",
+     "label": "מידות במצב פתוח",
+     "value": "40 × 61 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר סירים",
+     "value": "כ-4 סירים"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בקרה",
+     "value": "בקר טמפרטורה במגע (טאץ׳)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר המשטח",
+     "value": "סיליקון"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "הקטלוג מציין מכון אחר",
+     "label": "אישור לשבת",
+     "value": "מכון צומת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, על ידי היבואן הרשמי סלמור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "משטח חימום מתקפל מסיליקון לשבת וליום רגיל"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתקפל וקל לאחסון"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי פשוט בניגוב בסמרטוט לח"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מאושר לשימוש בשבת וביום טוב על ידי מכון צומת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "פלטת שבת מתקפלת של סלמור, דגם SE-376, עם משטח חימום גמיש מסיליקון שמתאים לכ-4 סירים. לפלטה בקר טמפרטורה במגע עם 3 עוצמות חימום, כ-60, 80 ו-100 מעלות צלזיוס, והיא מאושרת לשימוש בשבת וביום טוב על ידי מכון צומת. מתאימה למי שמחפש פלטה שמתקפלת לאחסון ומתנקה בניגוב פשוט.",
+  "highlights": [
+   "משטח חימום מתקפל מסיליקון",
+   "מתאימה לכ-4 סירים",
+   "3 עוצמות חימום: כ-60, 80 ו-100 מעלות צלזיוס",
+   "מאושרת לשבת וליום טוב על ידי מכון צומת",
+   "אחריות לשנה מהיבואן הרשמי סלמור"
+  ],
+  "goodFor": [
+   "חימום ושמירה על חום תבשילים בשבת ובחג",
+   "מטבח עם מעט מקום אחסון, בזכות המשטח המתקפל",
+   "שימוש גם ביום רגיל לשמירה על חום האוכל",
+   "מי שרוצה לבחור בין עוצמות חימום לפי סוג המאכל"
+  ],
+  "considerations": [
+   "לוודא שיש על השיש מקום פנוי למשטח בגודל 40 × 61 ס״מ במצב פתוח",
+   "לוודא שקע חשמל קרוב למקום הנחת הפלטה",
+   "לבדוק שהאישור של מכון צומת מתאים להקפדה ההלכתית בבית"
+  ],
+  "faq": [
+   {
+    "q": "כמה סירים אפשר להניח על הפלטה?",
+    "a": "לפי החנויות, הפלטה מתאימה לכ-4 סירים.",
+    "sources": []
+   },
+   {
+    "q": "אילו עוצמות חימום יש לפלטה?",
+    "a": "יש 3 עוצמות חימום, כ-60, 80 ו-100 מעלות צלזיוס, שנבחרות בבקר טמפרטורה במגע.",
+    "sources": []
+   },
+   {
+    "q": "האם הפלטה מאושרת לשבת?",
+    "a": "כן, היא מאושרת לשימוש בשבת וביום טוב על ידי מכון צומת.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את הפלטה?",
+    "a": "המשטח עשוי סיליקון ומתנקה בניגוב בסמרטוט לח.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה על ידי היבואן הרשמי סלמור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פלטת שבת מתקפלת סלמור SE-376 מסיליקון לכ-4 סירים, 3 עוצמות חימום ואישור מכון צומת לשבת וליום טוב. בחדד אלקטריק נהריה",
+  "keywords": [
+   "פלטת שבת מתקפלת",
+   "סלמור SE-376",
+   "Selmor SE-376",
+   "פלטת שבת סיליקון",
+   "פלטת שבת 4 סירים",
+   "משטח חימום לשבת",
+   "פלטת שבת סלמור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "400W",
+   "finding": "corrected",
+   "correctValue": "250 וואט",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Selmor",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר המשטח",
+   "catalogValue": "סיליקון איכותי עמיד בחום (Food Grade)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מידות במצב פתוח",
+   "catalogValue": "52X40 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "40 × 61 ס״מ",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מתאים ל-4 סירים",
+   "catalogValue": "מתאים ל-4 סירים",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מנגנון הגנה",
+   "catalogValue": "הגנה מפני התחממות יתר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "נורת ביקורת להפעלה, כבל חשמל נתיק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אישור שבת",
+   "catalogValue": "המכון המדעי הטכנולוגי להלכה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, על ידי היבואן הרשמי סלמור",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "בקרת טמפרטורה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "בקר טמפרטורה טאץ' עם 3 עוצמות חימום",
+   "sources": [
+    "s4"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 400W, אך שני אתרי השוואה מציינים 250 וואט. יש לתקן את הקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין 52X40 ס\"מ, והדפים מציינים 40 × 61 ס״מ. באחד הדפים (laserelc) מופיע גם 61*41 ס\"מ, לכן יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "אישור שבת",
+   "issue": "הקטלוג מציין 'המכון המדעי הטכנולוגי להלכה', והחנויות מציינות מכון צומת. השם המלא של המכון לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "דף היבואן הרשמי לא נבדק. האימות הוא מחנויות ישראליות ואתרי השוואה בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 400W, ושני אתרי השוואה מציינים 250 וואט. יש לתקן את הקטלוג או לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין 52X40 ס\"מ, והחנות מציינת 40 × 61 ס״מ (לפי המחקר מופיע באותו דף גם 61*41). יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "אישור שבת",
+   "issue": "הקטלוג מציין את המכון המדעי הטכנולוגי להלכה, והחנויות מציינות מכון צומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "דף היבואן הרשמי לא נבדק; האימות מחנויות ואתרי השוואה בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נשמרו מול ציטוטים תקינים. הקטלוג סותר את המקורות בהספק (400W מול 250 וואט) ובמידות (52×40 מול 40×61 ס״מ), ובשם מכון האישור לשבת. ניסוח תוויות מעט תוקן."
+ }
+}

@@ -1,0 +1,338 @@
+{
+ "modelNumber": "BXCG150E",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Black+Decker",
+  "exactModel": "BXCG150E",
+  "israeliImporter": "סיריוס אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "Israeli importer page and Israeli retailer page both name BXCG150E."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sel.co.il/product/bxcg150e/",
+   "publisher": "סיריוס אלקטרוניקה (יבואן רשמי)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.kontrolsat.com/en/coffee-mills/blackdecker-coffee-grinder-150w-50g-bxcg150e-7579.html",
+   "publisher": "Kontrolsat",
+   "kind": "retailer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.lastprice.co.il/p/95963570/מטחנת-קפה-עוצמתית-150W-קומפקטית-Black&Decker/Black&Decker-BXCG150E",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "150 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר הלהב",
+     "value": "נירוסטה (אל חלד)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240V"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מיכל",
+     "value": "60 מ״ל (עד 12 כוסות קפה)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גימור",
+     "value": "שחור מט עם מגע רך"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, אחריות מלאה ע״י סיריוס אלקטרוניקה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single EU retailer; catalog says ~800 g.",
+     "label": "משקל",
+     "value": "0.68 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך כבל",
+     "value": "95 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להב נירוסטה אל חלד לטחינת קפה, תבלינים ופירות יבשים"
+  },
+  {
+   "sources": [
+    "s1",
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה שקוף לצפייה בדרגת הטחינה, עם מנגנון סגירה בטיחותי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עיצוב קומפקטי וקל לאחסון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גלגול כבל בתחתית המכשיר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מטחנת קפה חשמלית קומפקטית של Black+Decker, דגם BXCG150E, עם מנוע 150 W ולהב נירוסטה. המיכל מכיל 60 מ״ל – עד 12 כוסות קפה – ומתאים גם לטחינת תבלינים ופירות יבשים. מתאימה למי שטוחן פולים טריים בבית ורוצה מכשיר קטן שקל לאחסן.",
+  "highlights": [
+   "מנוע 150 W",
+   "מיכל 60 מ״ל – עד 12 כוסות קפה",
+   "להב נירוסטה לקפה, תבלינים ופירות יבשים",
+   "מכסה שקוף עם מנגנון סגירה בטיחותי",
+   "אחריות לשנה ע״י סיריוס אלקטרוניקה"
+  ],
+  "goodFor": [
+   "טחינת פולי קפה טריים לפני הכנה",
+   "טחינת תבלינים ופירות יבשים במטבח הביתי",
+   "מטבח עם מקום מצומצם, בזכות העיצוב הקומפקטי וגלגול הכבל בבסיס"
+  ],
+  "considerations": [
+   "קיבולת המיכל 60 מ״ל – לכמויות גדולות יותר יש לטחון בכמה סבבים",
+   "המכסה חייב להיות סגור כדי שהמנגנון הבטיחותי יאפשר הפעלה"
+  ],
+  "faq": [
+   {
+    "q": "כמה קפה אפשר לטחון בפעם אחת?",
+    "a": "המיכל מכיל 60 מ״ל, שמספיקים לעד 12 כוסות קפה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לטחון במטחנה גם תבלינים?",
+    "a": "כן, להב הנירוסטה מיועד לטחינת קפה, תבלינים ופירות יבשים.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המטחנה?",
+    "a": "המנוע בהספק 150 W.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות מלאה לשנה ע״י סיריוס אלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מטחנת קפה Black+Decker BXCG150E עם מנוע 150 W ומיכל 60 מ״ל לעד 12 כוסות, להב נירוסטה לקפה ותבלינים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מטחנת קפה Black+Decker",
+   "BXCG150E",
+   "מטחנת קפה חשמלית",
+   "מטחנת קפה 150 וואט",
+   "מטחנת תבלינים",
+   "מטחנת קפה קומפקטית",
+   "בלק אנד דקר מטחנת קפה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "150 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל",
+   "catalogValue": "60 מ\"ל (עד 12 כוסות קפה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת פולים",
+   "catalogValue": "50-60 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג להבים",
+   "catalogValue": "להב כפול מפלדת אל-חלד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "שחור מט Soft-Touch",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "כ-10x10.6x18.8 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-800 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קיבולת",
+   "issue": "מקורות סותרים: סיריוס מציין 60 מ״ל עד 12 כוסות קפה, ואילו LastPrice מציין קיבולת פולים של 6 גרם; הקטלוג מציין 50-60 גרם",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצא מקור ישראלי למידות ולמשקל. מקור זר אחד מציין 10×10×18 ס״מ ו-0.68 ק״ג, שונה מהקטלוג (כ-10×10.6×18.8 ס״מ, כ-800 גרם); יש לבדוק על המוצר עצמו",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "הקטלוג: 10x10.6x18.8 ס״מ, כ-800 גרם; אתר קמעונאי זר: 10x10x18 ס״מ, 0.68 ק״ג. לא אומת מול אתר ישראלי/יצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל 0.68 ק״ג ממקור קמעונאי זר יחיד, שונה מהקטלוג (כ-800 גרם); יש לבדוק מול המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג (כ-10×10.6×18.8 ס״מ) לא אומתו מול מקור.",
+   "severity": "low"
+  },
+  {
+   "field": "קיבולת פולים",
+   "issue": "קיבולת הפולים בקטלוג (50-60 גרם) לא אומתה; מקור קמעונאי ישראלי ציין לפי הדיווח 6 גרם. יש לבדוק.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג להבים",
+   "issue": "״להב כפול״ בקטלוג לא אומת; המקור מציין להב נירוסטה בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts have ok quotes on pages naming BXCG150E. Weight (0.68 kg) comes from a single EU retailer and differs from the catalog's ~800 g; kept but flagged. Catalog dimensions and bean capacity not verified. | code guard removed: consideration: \"אורך הכבל 95 ס״מ – כדאי לוודא שקע קרוב למשטח העבודה\""
+ }
+}

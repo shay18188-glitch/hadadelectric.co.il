@@ -1,0 +1,464 @@
+{
+ "modelNumber": "Vacuum Cleaner G20 Max",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Xiaomi",
+  "exactModel": "Vacuum Cleaner G20 Max",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Xiaomi's FAQ (global English page) and the Israeli retailer 100-100 both name the Xiaomi Vacuum Cleaner G20 Max. The sources conflict on motor power, battery capacity and weight, and no separate Israeli importer page was found. | QA: Xiaomi global FAQ and Israeli retailer 100-100 both name the Xiaomi Vacuum Cleaner G20 Max. Israeli importer not identified."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.mi.com/global/support/faq/details/KA-228210/",
+   "publisher": "Xiaomi Global",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://100-100.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-vacuum-cleaner-g20-max-%D7%A9%D7%99%D7%90%D7%95%D7%9E%D7%99-xiaomi/",
+   "publisher": "100-100",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "180 AW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer only",
+     "label": "עוצמת יניקה",
+     "value": "25,000 Pa"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק במצב עוצמה גבוהה",
+     "value": "480 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג שאיבה",
+     "value": "יבש בלבד (לא מיועד לשאיבת נוזלים)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 60 דקות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "manufacturer reportedly lists 3000 mAh; uncertain",
+     "label": "קיבולת סוללה",
+     "value": "2700 mAh"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "25.2 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "כ-3.5 שעות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל אבק",
+     "value": "0.6 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (ללא מוט הארכה)",
+     "value": "340 × 124 × 226 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "implausible for stick vacuum unit; contradicts catalog 1.7 kg",
+     "label": "משקל",
+     "value": "כ-4.25 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "מסך LED המציג את מצב המכשיר בזמן אמת"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיבור לאפליקציה",
+     "value": "לא נתמך"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת ציקלון עם 12 קונוסים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת ייעודית לבעלי חיים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3 מצבי פעולה: חסכוני, רגיל וטורבו"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מוט הארכה, ספק כוח, צינור הארכה, פיית 2-ב-1, מברשת חשמלית קטנה, מברשת לחיות מחמד, מברשת חשמלית עם תאורת LED ומעמד קיר לשואב"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "יש למקם את תחתית מעמד הקיר בגובה 118.5 ס״מ מהרצפה"
+  }
+ ],
+ "content": {
+  "summary": "Xiaomi Vacuum Cleaner G20 Max הוא שואב אבק אלחוטי לשאיבה יבשה, עם עוצמת שאיבה של 180 AW ומיכל אבק בנפח 0.6 ליטר. הסוללה מאפשרת זמן עבודה של עד 60 דקות, עם 3 מצבי פעולה וזמן טעינה של כ-3.5 שעות. בערכה מברשת לחיות מחמד, מברשת חשמלית עם תאורת LED ומעמד קיר, כך שהוא מתאים לניקוי שוטף של הבית.",
+  "highlights": [
+   "עוצמת שאיבה 180 AW",
+   "זמן עבודה עד 60 דקות",
+   "מיכל אבק 0.6 ליטר",
+   "מערכת ציקלון עם 12 קונוסים",
+   "מברשת לחיות מחמד ומברשת עם תאורת LED בערכה"
+  ],
+  "goodFor": [
+   "בתים עם חיות מחמד, בזכות המברשת הייעודית לבעלי חיים",
+   "ניקוי פינות חשוכות עם המברשת החשמלית המוארת",
+   "ניקוי מהיר בין חדרים בלי כבל, עם אחסון וטעינה על מעמד קיר"
+  ],
+  "considerations": [
+   "השואב מיועד לשאיבה יבשה בלבד ואינו מתאים לנוזלים",
+   "מעמד הקיר מותקן כשתחתיתו בגובה 118.5 ס״מ מהרצפה, כדאי לבדוק קיר פנוי ליד שקע",
+   "אין חיבור לאפליקציה או לרשת, השליטה מהמכשיר עצמו",
+   "זמן הטעינה הוא כ-3.5 שעות, כדאי לתכנן טעינה בין שימושים"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן השואב עובד על טעינה אחת?",
+    "a": "עד 60 דקות בין טעינות, בהתאם למצב הפעולה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשאוב איתו נוזלים?",
+    "a": "לא. זהו שואב לשאיבה יבשה בלבד.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מתחבר לאפליקציה?",
+    "a": "לא, הדגם אינו תומך בחיבור לרשת או לאפליקציית Xiaomi Home.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול בערכה?",
+    "a": "מוט הארכה, ספק כוח, צינור הארכה, פיית 2-ב-1, מברשת חשמלית קטנה, מברשת לחיות מחמד, מברשת חשמלית עם תאורת LED ומעמד קיר.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לטעון אותו?",
+    "a": "כ-3.5 שעות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק אלחוטי Xiaomi Vacuum Cleaner G20 Max עם עוצמת שאיבה 180 AW וזמן עבודה עד 60 דקות, כולל מברשת לחיות מחמד. בחדד אלקטריק נהריה",
+  "keywords": [
+   "שואב אבק אלחוטי שיאומי",
+   "Xiaomi G20 Max",
+   "שיאומי G20 Max",
+   "Xiaomi Vacuum Cleaner G20 Max",
+   "שואב אבק אלחוטי לבעלי חיים",
+   "שואב אבק נטען",
+   "שואב אבק שיאומי נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "180AW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "500W",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "2700mAh",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "25.2V",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-3.5 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל אבק",
+   "catalogValue": "0.6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 60 דקות במצב חסכון",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית ציקלון",
+   "catalogValue": "12 קונוסים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "5 שלבים ביעילות של 99.9%",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "מסך LED צבעוני",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל יחידת המנוע",
+   "catalogValue": "כ-1.7 ק\"ג",
+   "finding": "contradicted",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנוע דיגיטלי ללא פחמים",
+   "catalogValue": "מנוע דיגיטלי ללא פחמים בעל מהירות גבוהה במיוחד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "מברשת חשמלית קטנה, פיית חריצים 2-ב-1, מעמד קיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יבש בלבד",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק מנוע",
+   "issue": "Catalog says 500W. The Israeli retailer 100-100 lists 520 W (its spec table says 'עוצמת מנוע: 520 וואט'), and Xiaomi's global FAQ lists 480 W for High Power Mode. Verify the motor power before using the catalog value.",
+   "severity": "high"
+  },
+  {
+   "field": "קיבולת סוללה",
+   "issue": "Catalog and the Israeli retailer 100-100 say 2700mAh, but Xiaomi's global FAQ says the battery pack is 3000mAh. Sources conflict.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog says the motor unit weighs about 1.7 kg. The Israeli retailer lists about 4.25 kg for the vacuum unit. The two figures may describe different parts, so check the weight before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "The Xiaomi FAQ is the global English page, not an Israeli page. The Israeli specs come from one retailer. Confirm the Israeli variant and its specs with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer page was fetched, so the importer is not recorded. Confirm the official importer and warranty period before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מנוע",
+   "issue": "Catalog says 500W; Xiaomi lists 480 W in High Power Mode and the retailer reportedly lists 520 W. Catalog value unsupported.",
+   "severity": "high"
+  },
+  {
+   "field": "קיבולת סוללה",
+   "issue": "Catalog and retailer say 2700mAh, Xiaomi FAQ reportedly says 3000mAh. Not published; verify.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Retailer lists about 4.25 kg, catalog says about 1.7 kg for the motor unit. Not published; verify.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון / תצוגה",
+   "issue": "Catalog 5-stage 99.9% filtration and 'color' LED display not confirmed by sources.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Israeli importer and Israeli variant not confirmed.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected battery capacity 2700 mAh (retailer only; the research notes say Xiaomi's FAQ lists 3000 mAh, so the value is uncertain). Rejected weight 4.25 kg (retailer only; implausible for a cordless stick vacuum and contradicts the catalog 1.7 kg, likely a listing error or packaged weight). Relabelled motor power fact. Catalog motor power 500W is not supported; Xiaomi lists 480 W in High Power Mode."
+ }
+}

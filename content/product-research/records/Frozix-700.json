@@ -1,0 +1,373 @@
+{
+ "modelNumber": "Frozix-700",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sirius",
+  "exactModel": "Frozix-700",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Retailer 100-100 lists the model as FROZIX-700 under the Sirius Living brand. No manufacturer or importer page for this exact model was found; the importer is unknown. | QA: Retailer page names FROZIX-700 under Sirius Living, matching catalog brand and 2.2 L tank. No manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://100-100.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%A7%D7%A8%D7%97-%D7%91%D7%99%D7%AA%D7%99%D7%AA-2-2-%D7%9C%D7%99%D7%98%D7%A8-sirius-living-%D7%A1%D7%99%D7%A8%D7%99%D7%95%D7%A1-%D7%9C%D7%99%D7%95%D7%95%D7%99%D7%A0/",
+   "publisher": "100-100 מבית 100% חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "2.2 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כושר ייצור יומי",
+     "value": "עד 12 ק״ג קרח ב-24 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 6-13 minutes; retailer says 6-9.",
+     "label": "קצב ייצור",
+     "value": "9 קוביות למחזור, 6-9 דקות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Differs from catalog 24.2x35.8x32.8; flagged.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "22 × 32 × 31.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "7.8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240V / 50Hz"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "As stated on retailer page.",
+     "label": "תקופת אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed adjective.",
+   "text": "מכונת קרח בנפח 2.2 ליטר עם גימור נירוסטה בצבע שחור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בחירה בין 2 גדלי קוביות – קטנות או גדולות לפי הצורך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיווי נורות מתריע כשיש צורך להוסיף מים או כאשר מיכל הקרח מלא"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלון תצפית שקוף שמאפשר לראות את תהליך ייצור הקרח בלי לפתוח את המכסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת קירור עם מדחס שמקרר את המים לייצור קרח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית נשיאה מובנית – ניתן להעביר את המכשיר ממקום למקום ללא צורך בחיבור לניקוז"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגש לקוביות קרח וכף לאיסוף הקרח"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכונת קרח ביתית של Sirius, דגם Frozix-700, עם מיכל מים בנפח 2.2 ליטר. המכשיר מייצר עד 12 ק״ג קרח ב-24 שעות, 9 קוביות בכל מחזור של 6-9 דקות, עם בחירה בין קוביות קטנות לגדולות. מתאים למטבח, לאירוח בבית או למשרד, וניתן להעביר אותו ממקום למקום ללא חיבור לניקוז.",
+  "highlights": [
+   "עד 12 ק״ג קרח ב-24 שעות",
+   "9 קוביות בכל מחזור, תוך 6-9 דקות",
+   "מיכל מים בנפח 2.2 ליטר",
+   "בחירה בין 2 גדלי קוביות",
+   "חיווי כשחסרים מים או כשמיכל הקרח מלא"
+  ],
+  "goodFor": [
+   "אירוח בבית כשצריך קרח זמין בלי להכין מראש במקפיא",
+   "מטבח או משרד עם שקע חשמל רגיל וללא חיבור לניקוז",
+   "העברה בין חדרים, מרפסת או משרד בעזרת ידית הנשיאה"
+  ],
+  "considerations": [
+   "לוודא מקום על השיש למידות 22 × 32 × 31.2 ס״מ ולהשאיר מרווח לאוורור",
+   "המכשיר אינו מחובר לברז – יש למלא את מיכל המים ידנית",
+   "להציב ליד שקע חשמל רגיל 220-240V",
+   "משקל המכשיר 7.8 ק״ג – לקחת בחשבון בהעברה"
+  ],
+  "faq": [
+   {
+    "q": "כמה קרח מכונת Frozix-700 מייצרת ביום?",
+    "a": "עד 12 ק״ג קרח ב-24 שעות.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח מחזור קרח?",
+    "a": "בכל מחזור מיוצרות 9 קוביות, תוך 6-9 דקות.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך חיבור למים או לניקוז?",
+    "a": "לא. ממלאים את מיכל המים בנפח 2.2 ליטר, וניתן להעביר את המכשיר ממקום למקום ללא תלות במקור ניקוז.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לבחור את גודל הקוביות?",
+    "a": "כן, יש בחירה בין 2 גדלים – קוביות קטנות או גדולות.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "מגש לקוביות קרח וכף לאיסוף הקרח.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קרח ביתית Sirius דגם Frozix-700 עם מיכל מים 2.2 ליטר, עד 12 ק״ג קרח ב-24 שעות ובחירה בין 2 גדלי קוביות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת קרח ביתית",
+   "מכונת קרח Sirius",
+   "Frozix-700",
+   "סיריוס מכונת קרח",
+   "מכונת קרח 2.2 ליטר",
+   "מכונת קרח לשיש",
+   "מכונת קרח ניידת",
+   "Sirius Living מכונת קרח"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "2.2 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כושר ייצור יומי",
+   "catalogValue": "עד 12 ק\"ג קרח ב-24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב ייצור",
+   "catalogValue": "9 קוביות למחזור (זמן מחזור: 6-13 דקות)",
+   "finding": "corrected",
+   "correctValue": "9 קוביות למחזור, 6-9 דקות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "24.2x35.8x32.8 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "22 × 32 × 31.2 ס״מ (רוחב × גובה × עומק)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "7.8 ק\"ג",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V / 50Hz",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "100W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת סלסלת קרח",
+   "catalogValue": "0.7 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תקופת אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות המכשיר",
+   "issue": "Catalog dimensions 24.2x35.8x32.8 cm do not match the only retailer spec found (22 x 31.2 x 32 cm). Check the physical unit before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "קצב ייצור",
+   "issue": "Catalog cycle time 6-13 minutes; the retailer page says 6-9 minutes. Sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "The 100 W power figure appears on no page found; only one retailer spec page was available.",
+   "severity": "medium"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "Country of origin China was not confirmed on any page that names the exact model.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח מיכל מים",
+   "issue": "Only one Israeli retailer spec page was found for this exact model; no manufacturer or importer page. Israeli importer unknown.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות המכשיר",
+   "issue": "Catalog dimensions 24.2x35.8x32.8 cm differ from the retailer page (22 × 32 × 31.2 cm). Measure the unit.",
+   "severity": "high"
+  },
+  {
+   "field": "קצב ייצור",
+   "issue": "Catalog cycle time 6-13 minutes; retailer page says 6-9 minutes.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog 100W not confirmed by any source; not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת סלסלת קרח",
+   "issue": "Catalog 0.7 kg basket capacity not confirmed; not published.",
+   "severity": "low"
+  },
+  {
+   "field": "תקופת אחריות",
+   "issue": "12-month warranty comes from a retailer page and may be that retailer's warranty; confirm the store's actual warranty terms.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Only one Israeli retailer page found; Israeli importer unknown.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts rest on a single Israeli retailer page (100-100) naming FROZIX-700. Dimensions and cycle time on that page differ from the catalog; published the retailer values and flagged for physical check. Catalog power 100W and basket capacity 0.7 kg unverified and not published. Warranty kept as stated on the retailer page; flagged that it may be the retailer's own warranty."
+ }
+}

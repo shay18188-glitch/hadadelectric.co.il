@@ -1,0 +1,155 @@
+{
+ "modelNumber": "EF-94A",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sachs (זק\"ש)",
+  "exactModel": "EF-94A",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The exact model EF-94A appears only on the Tzomet approved-products list. Retailer pages found by search name EF94 or EF-94 (no A) and describe a 4-pot unit, with no page that states this exact model's power or dimensions. The store catalog name says 6 pots, which conflicts with the sibling listings and the store's own text. Only the Tzomet approval is confirmed for EF-94A. Not verified: importer name, power, dimensions, pot count. | QA: EF-94A appears on the Tzomet approved list; no manufacturer or importer page with specs. Retailers list EF-94/EF94 without the A suffix. Catalog name says 6 pots while the catalog text says 4 pots (EF-96 is the 6-pot sibling)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zomet.org.il/?CategoryID=250&ArticleID=110",
+   "publisher": "צומת",
+   "kind": "regulator",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Model appears on the Tzomet approved list; quote states the approval meaning.",
+     "label": "אישור הלכתי",
+     "value": "אישור מכון צומת לשימוש בשבת"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "פלטת שבת חשמלית של זק״ש, דגם EF-94A, לשמירה על חום המזון בשבת. הדגם מופיע ברשימת המוצרים המאושרים של מכון צומת לשימוש בשבת.",
+  "highlights": [
+   "אישור מכון צומת לשימוש בשבת"
+  ],
+  "goodFor": [
+   "משפחות ששומרות שבת ומחפשות פלטה עם אישור מכון צומת"
+  ],
+  "considerations": [
+   "כדאי לוודא את מספר הסירים ואת מידות המשטח מול המוכר לפני הרכישה",
+   "כדאי לבדוק שיש שקע חשמל זמין ליד מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "האם לפלטה יש אישור לשימוש בשבת?",
+    "a": "כן, הדגם EF-94A מופיע ברשימת המוצרים המאושרים של מכון צומת לשימוש בשבת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פלטת שבת זק״ש EF-94A עם אישור מכון צומת לשימוש בשבת, לשמירה על חום המזון לאורך השבת. פרטים ומידע על הדגם בחדד אלקטריק נהריה",
+  "keywords": [
+   "פלטת שבת",
+   "פלטת שבת זקש",
+   "EF-94A",
+   "פלטת שבת מאושרת צומת",
+   "פלטת שבת EF-94",
+   "פלטת חימום לשבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר (6 סירים)",
+   "catalogValue": "פלטת שבת 6 סירים",
+   "finding": "contradicted",
+   "correctValue": "4 סירים (דגמי זק\"ש הסמוכים; אין עמוד שמפרט EF-94A עצמו)",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "400 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המשטח",
+   "catalogValue": "54X43 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Zaks",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אישור הלכתי",
+   "catalogValue": "בעלת אישור הלכתי ממכון צומת לשימוש בשבת וחג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "capacity",
+   "issue": "שם המוצר בקטלוג הוא '6 סירים', אך הקטלוג עצמו וחנויות שמפרטות את הדגם הסמוך (EF-94 בלי A) מציינות 4 סירים. יש לבדוק את מספר הסירים מול היבואן לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "הדגם EF-94A מופיע ברשימת צומת, אך חנויות ישראליות מציגות את הדגם בשם EF-94 או EF94 ללא הסיומת A. לא נמצא עמוד יצרן או יבואן שמציין את EF-94A עם מפרט.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "שדה המותג בקטלוג הוא 'Zaks' ובטקסט המפרט מופיע 'זק\"ש (Sachs)'. לא אומת על עמוד יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "לא נמצא עמוד שמציין את הספק 400W עבור EF-94A עצמו. חנויות לדגם הסמוך מציינות 400W, אך לא נמצא מאשר מהיבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג מציין 6 סירים, אך טקסט הקטלוג ודגמי EF-94 בחנויות מציינים 4 סירים (דגם 6 הסירים הוא EF-96). יש לבדוק מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "EF-94A מופיע ברשימת צומת, אך חנויות מציגות EF-94/EF94 ללא הסיומת A. לא נמצא מפרט יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הספק 400W ומידות 54×43 ס״מ לא אומתו עבור EF-94A.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "שדה המותג 'Zaks' לעומת 'זק״ש (Sachs)' בטקסט; לא אומת.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only the Tzomet approval is verifiable for EF-94A, on the Tzomet page that lists the exact model. Power, dimensions, pot count and brand are not verified. The catalog name (6 pots) conflicts with the catalog text and sibling listings (4 pots). Content kept minimal."
+ }
+}

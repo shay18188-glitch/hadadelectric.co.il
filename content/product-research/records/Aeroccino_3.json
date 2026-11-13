@@ -1,0 +1,402 @@
+{
+ "modelNumber": "Aeroccino 3",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Nespresso",
+  "exactModel": "Aeroccino 3",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The official manual is for the EUR code 3694 (220-240 V, 50-60 Hz, 430-500 W). The Israeli product page names Aeroccino 3 in black and gives the same capacity and dimensions. No Israeli page shows a model code. | QA: Nespresso Israel page names Aeroccino 3 in black, matching the catalog name and color; capacities and dimensions agree. Manual covers EUR code 3694."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://nespresso-cms.s3.eu-central-1.amazonaws.com/machine-assistance/machine-manuals/User_manual_AEROCCINO+3.pdf",
+   "publisher": "Nespresso user manual",
+   "kind": "manual",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://nespresso.fi/en/accessories/milk-frothers/aeroccino-3/",
+   "publisher": "Nespresso Finland",
+   "kind": "manufacturer",
+   "market": "FI",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.nespresso.rs/en/accessories/18-aeroccino-3-white",
+   "publisher": "Nespresso Serbia",
+   "kind": "manufacturer",
+   "market": "RS",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.nespresso.com/il/he/orders/accessories/original/milk-frother-black",
+   "publisher": "נספרסו ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "430-500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240 V, 50-60 Hz"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "relabelled from heat-up time; removed 'about'",
+     "label": "זמן הכנה",
+     "value": "60 שניות (קצף קר), 70-80 שניות (קצף חם)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מקסימלית להקצפת חלב",
+     "value": "120 מ״ל"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מקסימלית לחימום חלב",
+     "value": "240 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (קוטר × גובה)",
+     "value": "9 × 17 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "0.45 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הקצפה חמה וקרה"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה בלחיצה אחת"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "quote supports quiet operation only, not 'no vibrations'",
+   "text": "פעולה שקטה"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלוש אפשרויות הכנה: קצף חלב חם, קצף קר או חלב חם ללא הקצפה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כיבוי אוטומטי בתום הפעולה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "יש לוודא שתחתית המקציף יבשה לפני השימוש"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין לשטוף את הקנקן במדיח הכלים ואין להשרות אותו במים לניקוי"
+  }
+ ],
+ "content": {
+  "summary": "Aeroccino 3 של נספרסו הוא מקציף חלב חשמלי בצבע שחור שמכין קצף חלב חם, קצף קר או חלב חם ללא הקצפה בלחיצה אחת. הוא מקציף עד 120 מ״ל חלב ומחמם עד 240 מ״ל, וכבה אוטומטית בתום הפעולה. מתאים למי שמכין קפוצ׳ינו או לאטה בבית ומחפש מכשיר קומפקטי בקוטר 9 ס״מ.",
+  "highlights": [
+   "קצף חם, קצף קר או חלב חם ללא הקצפה",
+   "הקצפה של עד 120 מ״ל וחימום של עד 240 מ״ל",
+   "הפעלה בלחיצה אחת וכיבוי אוטומטי",
+   "קצף קר תוך 60 שניות וקצף חם תוך 70-80 שניות",
+   "מידות קומפקטיות: 9 × 17 ס״מ"
+  ],
+  "goodFor": [
+   "הכנת קצף לקפוצ׳ינו ולאטה בבית",
+   "משקאות קרים עם קצף חלב קר",
+   "חימום חלב לשתייה ללא הקצפה",
+   "מטבח עם מעט מקום על השיש"
+  ],
+  "considerations": [
+   "הקנקן אינו מתאים למדיח כלים ואין להשרות אותו במים, כך שהניקוי נעשה ביד",
+   "יש לוודא שתחתית המקציף יבשה לפני השימוש",
+   "קיבולת ההקצפה מוגבלת ל-120 מ״ל בכל הפעלה"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להכין קצף חלב קר?",
+    "a": "כן, המקציף מכין קצף חם, קצף קר או חלב חם ללא הקצפה.",
+    "sources": []
+   },
+   {
+    "q": "כמה חלב אפשר להקציף בפעם אחת?",
+    "a": "עד 120 מ״ל להקצפה ועד 240 מ״ל לחימום חלב.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקחת ההכנה?",
+    "a": "לפי היצרן, כ-60 שניות לקצף קר ו-70-80 שניות לקצף חם.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את הקנקן במדיח?",
+    "a": "לא. לפי הוראות היצרן אין להכניס את הקנקן למדיח ואין להשרות אותו במים.",
+    "sources": []
+   },
+   {
+    "q": "האם המכשיר כבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי בתום הפעולה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקציף חלב נספרסו Aeroccino 3 שחור: קצף חם או קר בלחיצה אחת, הקצפה עד 120 מ״ל וחימום עד 240 מ״ל. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקציף חלב נספרסו",
+   "Aeroccino 3",
+   "אירוצ׳ינו 3",
+   "מקציף חלב שחור",
+   "מקציף חלב חשמלי",
+   "Nespresso Aeroccino 3 שחור",
+   "מקציף חלב לקפוצ׳ינו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "410-490 וואט",
+   "finding": "contradicted",
+   "correctValue": "430-500 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240 וולט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מקסימלית להקצפת חלב",
+   "catalogValue": "120 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "קיבולת מקסימלית לחימום חלב",
+   "catalogValue": "240 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "17 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "קוטר",
+   "catalogValue": "9 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-740 גרם",
+   "finding": "contradicted",
+   "correctValue": "0.45 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "חומרים",
+   "catalogValue": "פלדת אל-חלד ופלסטיק איכותי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "טפלון למניעת הידבקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כ-60 שניות (קצף קר), 70-80 שניות (קצף חם)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "The catalog wattage 410-490 W does not match the official EUR manual for this model, which gives 430-500 W. The lower figure appears for an older model number (3194) in search results.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "The catalog weight of about 740 g conflicts with 0.45 kg on the manufacturer's Finland page and the Serbia page (450 g).",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Nespresso Finland lists Aeroccino 4 as new next to Aeroccino 3, so this model may be superseded. The manual covers only the EUR code 3694, and no Israeli page shows a model code.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is DeLonghi, but all sources name the product as Nespresso Aeroccino 3.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog wattage 410-490 W contradicts the official manual (430-500 W for code 3694).",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight of about 740 g contradicts the manufacturer's 0.45 kg.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog materials and Teflon interior coating could not be verified from sources.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Aeroccino 4 is listed alongside Aeroccino 3 by Nespresso; check whether this model is superseded.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled fact 2 as preparation time (the quote gives frothing time for cold and hot froth, not a heat-up of the unit). Nespresso Israel page reclassified as manufacturer (Nespresso's own Israeli site). Catalog brand DeLonghi contradicts sources, which name Nespresso. Catalog wattage and weight contradicted by manufacturer sources."
+ }
+}

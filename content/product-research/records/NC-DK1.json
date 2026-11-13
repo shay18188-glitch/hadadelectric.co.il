@@ -1,0 +1,395 @@
+{
+ "modelNumber": "NC-DK1",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "NC-DK1",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "NC-DK1 is the 220-240 V overseas variant sold on US and EU-style retailer pages (marked NOT FOR USA). Israeli retail listings found in search (NCDK1BXE, NCDK1WXE) are different suffix codes and were not used as evidence. Manufacturer product pages checked (panasonic.com MEA specs, panasonic.com MY) returned HTTP 404. | QA: All sources are US export retailers selling the 220-240 V NC-DK1; Israeli suffix (NCDK1BXE/WXE) not verified as identical."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samstores.com/product-panasonic-nc-dk1-deluxe-kettle-with-stainless-steel-finish-220-28138.html",
+   "publisher": "SamStores",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.amazon.com/overseas-panasonic-nc-dk1-kettle-acupwr/dp/b00cyppk3q",
+   "publisher": "Amazon",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.worldwidevoltage.com/panasonic-nc-dk1.html",
+   "publisher": "WorldWideVoltage",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.4 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog 1850-2200W; flagged.",
+     "label": "הספק",
+     "value": "3000 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 V"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Single retailer, implausible width, contradicts catalog.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "135 × 255 × 230 mm"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נורית",
+     "value": "נורית LED כחולה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר גוף פנימי",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "יש"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פנים מנירוסטה עם גוף חימום מוסתר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נורית LED כחולה ומד מים נוח לקריאה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מעטפת חיצונית Cool Touch וכיבוי אוטומטי לבטיחות"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסנן אבנית רחיץ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בסיס אלחוטי מסתובב 360° עם אחסון כבל מובנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Seesaw is the operation switch, not a lid button.",
+   "text": "הפעלה במתג נדנדה (Seesaw)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי של Panasonic דגם NC-DK1 בקיבולת 1.4 ליטר והספק 3000 W, עם פנים מנירוסטה וגוף חימום מוסתר. מתאים למי שמחפש קומקום מהיר ונוח לשימוש יומיומי במטבח.",
+  "highlights": [
+   "קיבולת 1.4 ליטר",
+   "הספק 3000 W",
+   "פנים מנירוסטה עם גוף חימום מוסתר",
+   "מסנן אבנית רחיץ"
+  ],
+  "goodFor": [
+   "אזורים עם מים קשים, בזכות מסנן האבנית הרחיץ",
+   "מי שרוצה הרתחה מהירה בזכות ההספק הגבוה",
+   "בתים עם ילדים, בזכות המעטפת החיצונית Cool Touch והכיבוי האוטומטי",
+   "מטבח מסודר, בזכות אחסון הכבל בבסיס"
+  ],
+  "considerations": [
+   "ההספק 3000 W גבוה, כדאי לחבר לשקע תקין ולא למפצל עמוס",
+   "הקומקום מיועד למתח 220-240 V",
+   "מומלץ לנקות את מסנן האבנית מעת לעת"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של הקומקום?",
+    "a": "הקיבולת היא 1.4 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של Panasonic NC-DK1?",
+    "a": "ההספק לפי דפי המוכרים הוא 3000 W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מסנן אבנית?",
+    "a": "כן, הקומקום כולל מסנן אבנית רחיץ.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי, והמעטפת החיצונית בטכנולוגיית Cool Touch.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי Panasonic NC-DK1 בקיבולת 1.4 ליטר והספק 3000 W, פנים נירוסטה, מסנן אבנית רחיץ ובסיס מסתובב. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום פנסוניק",
+   "Panasonic NC-DK1",
+   "NC-DK1",
+   "קומקום חשמלי נירוסטה",
+   "קומקום 1.4 ליטר",
+   "קומקום חשמלי פנסוניק",
+   "קומקום עם מסנן אבנית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.4 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק עוצמתי",
+   "catalogValue": "1850W-2200W",
+   "finding": "contradicted",
+   "correctValue": "3000 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף פנימי",
+   "catalogValue": "פלדת אל-חלד (SUS304)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 230 מ\"מ, רוחב 223 מ\"מ, עומק 158 מ\"מ",
+   "finding": "contradicted",
+   "correctValue": "135 × 255 × 230 mm",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-1.0 ק\"ג (ללא בסיס)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס סיבובי 360 מעלות עם מקום ייעודי לאחסון הכבל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "מסנן אבנית נשלף ורחיץ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מנגנון בטיחות משולש",
+   "catalogValue": "כיבוי אוטומטי בעת רתיחה, הגנה מפני הפעלה ללא מים וכיבוי בהרמה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מבנה דופן כפולה",
+   "catalogValue": "Double Wall, Cool Touch",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "יפן (מיוצר בסין)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "220-240 V",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "israeli_variant",
+   "issue": "No page found for the Israeli-sold NC-DK1. Israeli listings in search (NCDK1BXE, NCDK1WXE) are different suffix codes and were not fetched or used. The NC-DK1 pages describe a 220-240 V unit marked NOT FOR USA. A person must confirm that the store's NC-DK1 is the unit sold in Israel before listing it.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק עוצמתי",
+   "issue": "Catalog says 1850W-2200W. Two retailer pages for NC-DK1 (SamStores, Amazon) and WorldWideVoltage state 3000 W.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog says 230 H x 223 W x 158 D mm. SamStores gives 135 W x 255 H x 230 D mm, which is a different shape. Only one site gives depth, so the combined row is not corroborated. Check the physical unit.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight (about 1.0 kg without base) has no source found in this research.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Manufacturer pages for NC-DK1 (panasonic.com MEA specs and MY product pages) returned HTTP 404, so the facts rest on US retailer pages only. A search snippet listed one retailer as discontinued, but that page was not fetched.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "All sources are US export retailers for the 220-240 V NC-DK1; confirm the store's unit (Israeli suffix NCDK1BXE/WXE) is the same.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog states 1850W-2200W; three retailer pages state 3000 W. Check the rating label on the unit.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions (230 H × 223 W × 158 D mm) contradict the single retailer figure (135 W × 255 H × 230 D mm); neither verified. Measure the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight has no source.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog claims of double wall, boil-dry protection, lift-off shut-off, 77° lid opening and SUS304 are not verified by sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected dimensions (single US retailer, 135 mm width looks implausible for a kettle on its base and contradicts catalog; not corroborated). Reworded feature 5: seesaw switch is the on/off operation method, not a lid-opening button. Translated English values to Hebrew. Power 3000 W kept (three retailer pages agree) but contradicts catalog 1850-2200 W, flagged. | code guard removed: summary: \"הקומקום כולל מסנן אבנית רחיץ, מעטפת Cool Touch וכיבוי אוטומטי, ויושב על בסיס מסתובב 360°.\"; highlight: \"בסיס מסתובב 360° עם אחסון כבל\""
+ }
+}

@@ -1,0 +1,399 @@
+{
+ "modelNumber": "E90TEW2J82 (6526)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "E90TEW2J82 (6526)",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Midea Israel lists the product as 90J82-B(6526) with name E90TEW2J82. A comparison-site listing names the Israeli importer as Hamilton group; not used as evidence. A 6524 white-glass variant (330 W) is also sold under E90TEW2J82. | QA: Midea Israel lists 90J82-B (6526) under the name E90TEW2J82, and that matches the catalog's black glass 250 W unit. A white 6524 variant sold under the same name has different specs."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il/cooking-range/range-hood/midea-range-hood-90cm.90j82-b-6526-",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=916450",
+   "publisher": "Zap price comparison",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/קולט-אדים-90-סמ-midea-907090283",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "800 מק״ש"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "250 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "90 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה ללא ארובה",
+     "value": "49 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה עם ארובה",
+     "value": "89.1–127 ס״מ (מתכוונן)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Comparison-site listing",
+     "label": "עומק",
+     "value": "42 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "The Midea English page reportedly says White Collection",
+     "label": "סדרה",
+     "value": "Black Collection"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Contradicts the catalog (LED). The manufacturer does not confirm it, so it may be a listing error.",
+     "label": "תאורה",
+     "value": "תאורת הלוגן, 2 נורות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מסננים",
+     "value": "פילטר אלומיניום, 3 שכבות, ניתן לרחיצה"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פאנל פיקוד",
+     "value": "פאנל פיקוד חכם, Full Touch Control"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific warranty offer with a price",
+     "label": "אחריות",
+     "value": "שנה (אפשרות להארכה לשנתיים נוספות בתוספת תשלום)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קולט אדים מעוצב מסדרת Black Collection"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מותאם לעבודה במחזור פנימי או בפליטה חיצונית דרך ארובה"
+  }
+ ],
+ "content": {
+  "summary": "עוצמת השאיבה היא 800 מק״ש, הספק המנוע הוא 250 W, והקולט עובד בפליטה חיצונית דרך ארובה או במחזור פנימי. הוא מתאים למטבח עם כיריים רחבות, שבו רוצים קולט שחור עם פאנל מגע.",
+  "highlights": [
+   "עוצמת שאיבה של 800 מק״ש",
+   "פליטה חיצונית דרך ארובה או מחזור פנימי",
+   "פילטר אלומיניום בעל 3 שכבות שאפשר לרחוץ",
+   "פאנל פיקוד חכם Full Touch Control"
+  ],
+  "goodFor": [
+   "דירה שאין בה יציאה לארובה, בעבודה במחזור פנימי",
+   "מטבח בעיצוב כהה שמתאים לו קולט שחור"
+  ],
+  "considerations": [
+   "בדקו שגובה התקרה מתאים לגובה עם ארובה, שמתכוונן בין 89.1 ל־127 ס״מ",
+   "החליטו מראש אם תתקינו פליטה חיצונית דרך ארובה או מחזור פנימי",
+   "ודאו שיש שקע חשמל בקיר מעל הכיריים"
+  ],
+  "faq": [
+   {
+    "q": "מה עוצמת השאיבה של הקולט?",
+    "a": "800 מק״ש, לפי Midea ישראל.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין אותו בלי יציאה לארובה?",
+    "a": "כן. הקולט מותאם לעבודה במחזור פנימי, וגם לפליטה חיצונית דרך ארובה.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את הפילטר?",
+    "a": "הפילטר עשוי אלומיניום ובנוי מ־3 שכבות שאפשר לרחוץ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "קולט אדים 90 ס״מ",
+   "קולט אדים Midea",
+   "E90TEW2J82",
+   "90J82-B",
+   "קולט אדים שחור",
+   "קולט אדים צמוד קיר",
+   "קולט אדים מידאה 90"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב",
+   "catalogValue": "90 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "250W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "800 מק\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות שאיבה",
+   "catalogValue": "3 מהירויות שאיבה לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "2 נורות LED בהספק 1.5W כל אחת",
+   "finding": "contradicted",
+   "correctValue": "תאורת הלוגן כפולה, 2 נורות",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "פאנל פיקוד חכם בטכנולוגיית Full Touch Control",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מסננים",
+   "catalogValue": "פילטר אלומיניום 3 שכבות, רחיץ וניתן לניקוי במדיח",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "כ-60 דציבל",
+   "finding": "corrected",
+   "correctValue": "64 dB(A)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 90 ס\"מ, גובה ללא ארובה 49 ס\"מ, גובה עם ארובה 89.1-127 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "זכוכית שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עיצוב",
+   "catalogValue": "דגם אלכסוני (Inclined) מסדרת Black Collection",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, אפשרות להארכה לשנתיים נוספות בתוספת תשלום",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "E90TEW2J82 is sold as 6526 (black glass, 250 W, 800 מק״ש) and as 6524 (white glass, 330 W). Confirm the catalog's black 250 W entry is the 6526 variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "תאורה",
+   "issue": "The catalog says 2 LED bulbs 1.5 W. The Israeli retailer and the comparison listing say halogen (תאורת הלוגן). The manufacturer page does not state the lighting type.",
+   "severity": "medium"
+  },
+  {
+   "field": "עיצוב",
+   "issue": "The catalog says wall-mounted (צמוד קיר) and inclined. The fetched pages do not confirm mounting or inclined design. Midea English page says White Collection while Midea Israel says Black Collection.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "The catalog says about 60 dB. Midea Israel says 64 dB(A).",
+   "severity": "low"
+  },
+  {
+   "field": "תאורה",
+   "issue": "The catalog says 2 LED bulbs of 1.5 W. Bug and Zap say halogen with 2 bulbs of 15 W. The manufacturer page does not say, so this needs checking.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "E90TEW2J82 is also sold as 6524 (white glass, 330 W). Confirm that the catalog entry is the black 6526 unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "עיצוב",
+   "issue": "No source confirms the wall-mounted or inclined design. The Midea English page reportedly says White Collection, while Midea Israel says Black Collection.",
+   "severity": "low"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "The catalog says about 60 dB. Research reports 64 dB(A) on Midea Israel, but no quote was provided for it.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected lighting (fact 8): the retailer says halogen 2×15 W while the catalog says 2 LED 1.5 W, and the manufacturer page does not state it, so a person should check it. Rejected warranty (fact 11): it describes the retailer's own paid extension, not the product. Kept the rest. | code guard removed: summary: \"קולט אדים של Midea ברוחב 90 ס״מ מסדרת Black Collection, בגימור שחור.\"; faq: \"מה המידות של הקולט?\"; metaDescription: \"קולט אדים Midea E90TEW2J82 ברוחב 90 ס״מ בגימור שחור, עוצמת שאיבה 800 מק״ש ומנוע 250 W, פליטה או מחזור פנימי. בחדד אלקטריק נהריה\"; highlight: \"רוחב 90 ס״מ\"; goodFor: \"מטבח עם כיריים רחבות שצריכות קולט ברוחב 90 ס״מ\"; consideration: \"בדקו שיש מקום לעומק של 42 ס״מ מעל הכיריים\""
+ }
+}

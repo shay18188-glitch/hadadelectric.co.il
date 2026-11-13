@@ -1,0 +1,268 @@
+{
+ "modelNumber": "SL-8822I",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "SOL (סול)",
+  "exactModel": "SL-8822I",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "דף היבואן sol.co.il ודף electrica נוקבים בדגם SL-8822i. חנויות אחרות מציגות SL8822 ללא מקף. | QA: Importer page sol.co.il and Electrica both name SL-8822I."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-8822i",
+   "publisher": "Sol",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electrica.co.il/items/7513477--%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%90%D7%99%D7%A0%D7%93%D7%95%D7%A7%D7%A6%D7%99%D7%94-Sol-SL8822I-%D7%A1%D7%95%D7%9C",
+   "publisher": "Electrica",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "3100 W (כולל בוסטר)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חלוקת הספק בין המוקדים",
+     "value": "1800 W / 1300 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמות עוצמת חום",
+     "value": "10"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "דיגיטלי, 180 דקות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך",
+     "value": "36 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "56 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "4.2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "שאוליאן סחר",
+     "label": "אחריות יבואן",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון קירור עצמי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כירת אינדוקציה זוגית ניידת של Sol, דגם SL-8822I, עם הספק כולל של 3100 W כולל בוסטר, המחולק ל-1800 W ו-1300 W בין שני המוקדים. הכירה מציעה 10 עוצמות חום וטיימר דיגיטלי של 180 דקות, ומידותיה 56×36 ס״מ בגובה 4.2 ס״מ בלבד. מתאימה למי שמחפש משטח בישול נוסף או פתרון בישול נייד על השיש.",
+  "highlights": [
+   "הספק כולל 3100 W כולל בוסטר",
+   "שני מוקדים: 1800 W ו-1300 W",
+   "10 עוצמות חום",
+   "טיימר דיגיטלי 180 דקות",
+   "גובה 4.2 ס״מ בלבד"
+  ],
+  "goodFor": [
+   "תוספת משטח בישול לצד כיריים קיימות, בזכות גובה נמוך של 4.2 ס״מ",
+   "בישול שני תבשילים במקביל בשני מוקדים בעוצמות שונות",
+   "בישול ממושך עם טיימר דיגיטלי של 180 דקות"
+  ],
+  "considerations": [
+   "ודאו שיש על השיש מקום פנוי של 56×36 ס״מ",
+   "ההספק הכולל 3100 W כולל בוסטר – מומלץ לחבר לשקע ייעודי ולא למפצל",
+   "כירת אינדוקציה דורשת סירים ומחבתות המתאימים לאינדוקציה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של כל מוקד?",
+    "a": "המוקד האחד בהספק 1800 W והשני 1300 W, ובסך הכול 3100 W כולל בוסטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה עוצמות חום יש?",
+    "a": "לכירה 10 עוצמות חום.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הכירה?",
+    "a": "אורך 36 ס״מ, רוחב 56 ס״מ וגובה 4.2 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות של שנה על ידי שאוליאן סחר, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כירת אינדוקציה זוגית Sol SL-8822I: הספק 3100 W כולל בוסטר, 10 עוצמות חום וטיימר דיגיטלי 180 דקות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כירת אינדוקציה זוגית",
+   "Sol SL-8822I",
+   "SL8822I",
+   "כיריים אינדוקציה ניידות",
+   "כירת אינדוקציה סול",
+   "כירה חשמלית שני מוקדים",
+   "כיריים אינדוקציה שולחניות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק כולל",
+   "catalogValue": "3500W",
+   "finding": "corrected",
+   "correctValue": "3100 W כולל בוסטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חלוקת הספק",
+   "catalogValue": "2000W / 1500W",
+   "finding": "corrected",
+   "correctValue": "1800 W / 1300 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 180 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "catalogValue": "60-240°C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג משטח",
+   "catalogValue": "זכוכית קריסטלית שחורה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמות חום",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "10",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 3500W (2000/1500) ואילו היבואן מציין 3100W כולל בוסטר (1800/1300).",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 3500W (2000W/1500W) ואילו היבואן מציין 3100W כולל בוסטר (1800W/1300W).",
+   "severity": "high"
+  },
+  {
+   "field": "טווח טמפרטורה / סוג משטח",
+   "issue": "טווח 60–240°C וזכוכית קריסטלית בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "שם מותג",
+   "issue": "שם המותג בקטלוג מאוית 'Sol exlusive'.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept from the importer page and one Israeli retailer page. Catalog power figures (3500W, 2000/1500W) contradict the importer (3100W including booster, 1800/1300W) and were not used. Temperature range and glass type unverifiable."
+ }
+}

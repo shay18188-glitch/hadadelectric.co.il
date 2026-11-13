@@ -1,0 +1,252 @@
+{
+ "modelNumber": "SE-299",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Selmor",
+  "exactModel": "SE-299",
+  "israeliImporter": "Selmor (סלמור)",
+  "matchConfidence": "high",
+  "notes": "Israeli retailer pages name SE-299 / SE299. Brand site product page was blocked (429). | QA: Two Israeli retailer pages name Selmor SE-299 as a home shawarma machine, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://electroeshed.co.il/items/265966-%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%A9%D7%95%D7%95%D7%90%D7%A8%D7%9E%D7%94-%D7%91%D7%99%D7%AA%D7%99-%D7%A1%D7%9C%D7%9E%D7%95%D7%A8-%D7%93%D7%92%D7%9D-SE-299-Selmor",
+   "publisher": "Electro Eshed",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.technoshlomo.co.il/items/4019357-%D7%9E%D7%AA%D7%A7%D7%9F-%D7%A9%D7%95%D7%95%D7%90%D7%A8%D7%9E%D7%94-%D7%91%D7%99%D7%AA%D7%99-Selmor-%D7%A1%D7%9C%D7%9E%D7%95%D7%A8-SE-299",
+   "publisher": "Techno Shlomo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "מובנה, עד 60 דקות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "35 × 49 × 40 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר ייצור",
+     "value": "פלדת אל חלד (נירוסטה)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים יבואן רשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שיפוד מסתובב המחובר למנוע בבסיס המכשיר, לבישול אחיד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתקן פתוח המאפשר גישה נוחה לבשר ולהוצאתו"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שיפוד צלייה אנכי ושיפודי קבב"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מתקן שווארמה ביתי של סלמור, דגם SE-299, לצלייה אנכית על שיפוד מסתובב המונע על ידי מנוע בבסיס המכשיר. הספק 2000 W, טיימר מובנה עד 60 דקות וגוף מנירוסטה. מתאים למי שרוצה להכין שווארמה ושיפודי קבב בבית.",
+  "highlights": [
+   "הספק 2000 W",
+   "טיימר מובנה עד 60 דקות",
+   "גוף מפלדת אל חלד (נירוסטה)",
+   "שיפוד מסתובב לבישול אחיד",
+   "כולל שיפוד צלייה אנכי ושיפודי קבב"
+  ],
+  "goodFor": [
+   "הכנת שווארמה ביתית על שיפוד אנכי מסתובב",
+   "צליית שיפודי קבב בעזרת השיפודים הכלולים",
+   "מי שרוצה גישה נוחה לבשר לחיתוך ולהוצאה בזכות המבנה הפתוח"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש למכשיר במידות 35 × 49 × 40 ס״מ",
+   "מכשיר בהספק 2000 W - מומלץ לחבר לשקע ייעודי ולא למפצל עמוס",
+   "הטיימר מגיע עד 60 דקות, כך שצלייה ארוכה יותר דורשת הפעלה מחדש"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של מתקן השווארמה סלמור SE-299?",
+    "a": "ההספק הוא 2000 W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש למכשיר טיימר?",
+    "a": "כן, טיימר מובנה עד 60 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "שיפוד צלייה אנכי ושיפודי קבב.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכשיר?",
+    "a": "רוחב 35 ס״מ, גובה 49 ס״מ ועומק 40 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "12 חודשים אחריות יבואן רשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מתקן שווארמה ביתי סלמור SE-299 בהספק 2000 W עם טיימר מובנה עד 60 דקות ושיפוד מסתובב לבישול אחיד, גוף נירוסטה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מתקן שווארמה ביתי",
+   "סלמור SE-299",
+   "Selmor SE-299",
+   "מכשיר שווארמה לבית",
+   "גריל אנכי חשמלי",
+   "מתקן שיפודים חשמלי",
+   "שווארמה ביתית סלמור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 35, עומק 40, גובה 49 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "מובנה עד 60 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר ייצור",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוצרת",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים יבואן רשמי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "תוצרת",
+   "issue": "Origin (China) not confirmed by any page.",
+   "severity": "low"
+  },
+  {
+   "field": "תוצרת",
+   "issue": "Catalog origin (China) is not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts confirmed by ok quotes on Israeli retailer pages naming SE-299. Origin country not verified by any source."
+ }
+}

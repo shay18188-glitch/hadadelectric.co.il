@@ -1,0 +1,408 @@
+{
+ "modelNumber": "ATL-186",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-186",
+  "israeliImporter": "יוסף חיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "The only page found that names ATL-186 with a spec table is the Goldline Israel product page. Its warranty line names יוסף חיים בע\"מ. The same brand site also sells a different 120-LED emergency light (תאורת חירום גדולה) with a 6V battery, which is not this model. | QA: The brand's Israeli product page names ATL-186 in the title with a barcode and full spec table. The catalog name is generic and does not conflict; only the catalog spec text disagrees."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%D7%AA%D7%90%D7%95%D7%A8%D7%94-%D7%A0%D7%98%D7%A2%D7%A0%D7%AA-%D7%9B%D7%A4%D7%95%D7%9C%D7%94-120-%D7%A0%D7%95%D7%A8%D7%95%D7%AA-atl-186-led/",
+   "publisher": "Goldline Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-186"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד",
+     "value": "7290020071514"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר נוריות LED",
+     "value": "120"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת אור",
+     "value": "1200 LM"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משך זמן עבודה",
+     "value": "עד 7.5 שעות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גוון אור",
+     "value": "6500K"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוללה",
+     "value": "2 סוללות ליתיום 3.7V נטענות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "label reworded",
+     "label": "מידות (אורך × רוחב × גובה)",
+     "value": "45 × 6 × 2.7 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "importer named per quote",
+     "label": "אחריות",
+     "value": "שנה ע״י יוסף חיים בע״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נדלקת אוטומטית בעת הפסקת חשמל, וניתנת גם להפעלה ידנית ולשימוש נייד בשתי דרגות תאורה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלושה מצבי הפעלה: נמוך, גבוה ואוטומטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נורית ביקורת למעקב אחר מצב הטעינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סוללות נטענות לשימוש רב פעמי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Gold Line ATL-186 היא תאורת חירום נטענת עם 120 נורות LED ועוצמת אור של 1200 LM בגוון 6500K. היא נדלקת אוטומטית בהפסקת חשמל, ומספקת עד 7.5 שעות עבודה משתי סוללות ליתיום 3.7V נטענות. מתאימה לבית, למשרד או לחנות שרוצים תאורה מיידית כשהחשמל נופל, וגם לשימוש נייד.",
+  "highlights": [
+   "120 נורות LED בעוצמת אור של 1200 LM",
+   "נדלקת אוטומטית בעת הפסקת חשמל",
+   "עד 7.5 שעות עבודה",
+   "2 סוללות ליתיום 3.7V נטענות",
+   "שלושה מצבי הפעלה: נמוך, גבוה ואוטומטי"
+  ],
+  "goodFor": [
+   "מסדרון, חדר מדרגות או מטבח שצריכים אור מיד כשיש הפסקת חשמל",
+   "שימוש נייד בהפעלה ידנית, למשל במחסן או במרפסת",
+   "מי שמעדיף אור לבן קר בגוון 6500K"
+  ],
+  "considerations": [
+   "כדי שתידלק אוטומטית בהפסקה, היא צריכה להיות מחוברת לשקע; כבל החשמל באורך 60 ס״מ, לכן כדאי לתכנן את המיקום ליד שקע",
+   "מידות הגוף 45 × 6 × 2.7 ס״מ – כדאי לוודא שיש מקום מתאים להצבה או לתלייה",
+   "משך העבודה הוא עד 7.5 שעות, ותלוי בדרגת התאורה שבוחרים"
+  ],
+  "faq": [
+   {
+    "q": "האם התאורה נדלקת לבד כשיש הפסקת חשמל?",
+    "a": "כן. כשהיא מחוברת לחשמל היא נדלקת אוטומטית בעת הפסקת חשמל, ואפשר להפעיל אותה גם ידנית.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן היא מאירה על סוללה?",
+    "a": "לפי היצרן, עד 7.5 שעות עבודה.",
+    "sources": []
+   },
+   {
+    "q": "איזה סוללות יש בה?",
+    "a": "2 סוללות ליתיום 3.7V נטענות לשימוש רב פעמי.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שהיא נטענת?",
+    "a": "יש נורית ביקורת שמראה את מצב הטעינה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה, ע״י יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תאורת חירום נטענת Gold Line ATL-186 עם 120 נורות LED ו-1200 LM, נדלקת אוטומטית בהפסקת חשמל ועד 7.5 שעות עבודה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תאורת חירום נטענת",
+   "Gold Line ATL-186",
+   "ATL-186",
+   "תאורת חירום גולדליין",
+   "תאורת חירום LED",
+   "פנס חירום להפסקת חשמל",
+   "תאורת חירום אוטומטית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "כמות נוריות",
+   "catalogValue": "60 נוריות LED מסוג SMD",
+   "finding": "corrected",
+   "correctValue": "120 נורות LED",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 10 שעות (Low), ועד כ-5 שעות (Hi)",
+   "finding": "corrected",
+   "correctValue": "עד 7.5 שעות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "אורך כ-40 ס\"מ, רוחב כ-7 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "אורך 45 ס״מ, רוחב 6 ס״מ, גובה 2.7 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "סוללה נטענת מובנית בקיבולת גבוהה",
+   "finding": "corrected",
+   "correctValue": "2 סוללות ליתיום 2X 3.7V נטענות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-20-24 שעות לטעינה מלאה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "220-240V AC",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הפעלה אוטומטית",
+   "catalogValue": "נדלק אוטומטית עם הפסקת החשמל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שתי דרגות עוצמה",
+   "catalogValue": "כולל בורר לבחירת עוצמת התאורה (שתי דרגות עוצמה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית נשיאה נשלפת",
+   "catalogValue": "ידית נשיאה נשלפת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כבל חשמל נשלף",
+   "catalogValue": "כבל חשמל נשלף המאוחסן בגוף המכשיר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת אור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1200 LM",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוון אור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "6500K",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברקוד",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "7290020071514",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "כמות נוריות ומשך עבודה",
+   "issue": "The catalog says 60 LED and up to 10 hours on low, with about 5 hours on high. The Goldline page says 120 LED and up to 7.5 hours. The catalog spec text needs a person to check it against the product.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog says about 40 cm long and 7 cm wide. The Goldline page says 45 cm long, 6 cm wide and 2.7 cm high. The page gives length, not depth, so no combined depth row was published.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "The Goldline brand site also lists a different 120-LED emergency light (תאורת חירום גדולה) with a 6V battery. Confirm the catalog item is the ATL-186 and not that one.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one page names ATL-186 with a full spec table, the brand's Israeli product page. The runtime and lumen figures are not confirmed by a second site.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "The catalog spec text says 60 SMD LEDs, up to 10 hours on low and about 5 on high, about 40 × 7 cm and a single built-in battery. The brand page says 120 LEDs, up to 7.5 hours, 45 × 6 × 2.7 cm and 2 × 3.7V lithium batteries. Check the catalog text against the actual unit.",
+   "severity": "high"
+  },
+  {
+   "field": "identity",
+   "issue": "The brand site also sells a different 120-LED emergency light with a 6V battery. Confirm the stocked item is the ATL-186.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts come from one brand/importer page; no second site confirms the runtime or lumen figures.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All 10 facts and 4 features kept from the Goldline Israel product page that names ATL-186. Dimensions label reworded. Catalog spec text (60 LED, 10/5 hours, 40x7 cm, single built-in battery) contradicts the brand page (120 LED, up to 7.5 hours, 45x6x2.7 cm, 2x3.7V lithium); flagged for a person to check."
+ }
+}

@@ -1,0 +1,328 @@
+{
+ "modelNumber": "DW80H72YBFF",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "DW80H72YBFF",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Samsung Israel page lists SKU DW80H72YBFFML (Israeli variant code) as 13 place settings; catalog says 15 place settings, 46 dB, 45 kg. | QA: Samsung Israel page lists DW80H72YBFFML; catalog code lacks the ML regional suffix. Page URL mentions a 3rd rack while the catalog name says 2 baskets."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/dishwashers/freestanding/dw90h-24-dish-washer-energy-efficiency-ai-wash-3rd-rack-washing-system-13-place-settings-black-dw80h72ybffml/",
+   "publisher": "Samsung Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב נטו",
+     "value": "59.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה נטו",
+     "value": "84.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק נטו",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "50 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "44 dB(A)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רעש במחזור שקט במיוחד",
+     "value": "42 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת אנרגיה",
+     "value": "0.635 kWh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת מים",
+     "value": "9.4 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "9"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "SmartThings app not in the quote; removed",
+   "text": "Wi-Fi מובנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פתיחה אוטומטית של הדלת בסיום התוכנית לשחרור אדים והפחתת לחות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מדיח כלים רחב עומד של Samsung בדגם DW80H72YBFF, בגימור נירוסטה מושחרת. המדיח מכיל 13 מערכות כלים, מציע 9 תוכניות ופועל בעוצמת רעש של 44 dB(A). מתאים למשפחה שמחפשת מדיח שקט עם Wi-Fi מובנה ופתיחה אוטומטית של הדלת בסיום התוכנית.",
+  "highlights": [
+   "קיבולת של 13 מערכות כלים",
+   "עוצמת רעש של 44 dB(A), ו-42 dB(A) במחזור שקט במיוחד",
+   "9 תוכניות הדחה",
+   "צריכת מים של 9.4 ליטר",
+   "Wi-Fi מובנה ופתיחה אוטומטית של הדלת בסיום התוכנית"
+  ],
+  "goodFor": [
+   "מטבח פתוח לסלון, בזכות עוצמת רעש של 44 dB(A) ומחזור שקט במיוחד",
+   "משק בית שמפעיל מדיח מלא ברוב הימים, עם קיבולת של 13 מערכות כלים",
+   "מי שרוצה לעקוב אחרי המדיח מהטלפון באמצעות Wi-Fi מובנה"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 59.8 × 60 × 84.5 ס״מ (רוחב × עומק × גובה)",
+   "יש לוודא שקע חשמל, ברז מים וחיבור לניקוז בסמוך למקום ההתקנה",
+   "המשקל נטו הוא 50 ק״ג, כדאי לתכנן את ההובלה וההצבה בהתאם"
+  ],
+  "faq": [
+   {
+    "q": "כמה מערכות כלים נכנסות במדיח?",
+    "a": "לפי Samsung ישראל, המדיח מכיל 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "עד כמה המדיח שקט?",
+    "a": "עוצמת הרעש היא 44 dB(A), ובמחזור השקט במיוחד 42 dB(A).",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המדיח?",
+    "a": "רוחב 59.8 ס״מ, עומק 60 ס״מ וגובה 84.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים המדיח צורך?",
+    "a": "צריכת המים לפי היצרן היא 9.4 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש למדיח חיבור Wi-Fi?",
+    "a": "כן, למדיח Wi-Fi מובנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים Samsung DW80H72YBFF רחב בנירוסטה מושחרת, 13 מערכות כלים ועוצמת רעש של 44 dB(A), עם Wi-Fi מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מדיח כלים סמסונג",
+   "Samsung DW80H72YBFF",
+   "DW80H72YBFFML",
+   "מדיח כלים רחב",
+   "מדיח כלים נירוסטה מושחרת",
+   "מדיח כלים שקט",
+   "מדיח כלים 13 מערכות",
+   "מדיח כלים עם Wi-Fi"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "15 מערכות כלים",
+   "finding": "corrected",
+   "correctValue": "13 מערכות כלים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "59.8 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "84.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "46 דציבלים",
+   "finding": "corrected",
+   "correctValue": "44 dB(A)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "6",
+   "finding": "corrected",
+   "correctValue": "9",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "10.7 ליטר",
+   "finding": "corrected",
+   "correctValue": "9.4 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "45 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "50 ק\"ג",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Samsung IL lists the model as DW80H72YBFFML; catalog code lacks the ML suffix.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "Catalog says 15 place settings, Samsung IL says 13.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Samsung Israel lists the model as DW80H72YBFFML; catalog code lacks the ML suffix.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "Catalog says 15 place settings; Samsung Israel says 13.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog noise (46 dB), programs (6), water (10.7 L) and weight (45 kg) contradict the manufacturer (44 dB(A), 9, 9.4 L, 50 kg).",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 2 baskets; the manufacturer page URL refers to a 3rd rack. Verify the rack configuration.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 trimmed to what the quote says (Wi-Fi built in; SmartThings app not in the quote). All spec facts kept from the Samsung Israel page for DW80H72YBFFML. Catalog values for capacity (15), noise (46), programs (6), water (10.7) and weight (45) contradict the manufacturer."
+ }
+}

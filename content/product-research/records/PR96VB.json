@@ -1,0 +1,402 @@
+{
+ "modelNumber": "PR96VB",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PR-96VB",
+  "israeliImporter": "אס.ג'י. אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "Retailer pages write the model as PR-96VB; the store catalog writes PR96VB without the hyphen. Both refer to the same black vitrine office fridge. | QA: Retailers write PR-96VB; catalog PR96VB without hyphen. Same 99 litre black vitrine office fridge."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-משרדי-99-ליטר-premier-9576153875",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקררים/מקרר_ויטרינה_premier_דגם_pr-96vb_פרימייר_שחור",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Premier"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "99 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח נטו",
+     "value": "93 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "47 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "83 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "44 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "23 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע פנימי",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י אס.ג'י. אלקטרוניקה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב אלגנטי עם ידיות נסתרות ודלת זכוכית שקופה המאפשרת לראות את התכולה בקלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כולל ארבעה מדפים, מדף יינות, מגירת ירקות ופירות ותאורת LED פנימית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדחס שקט במיוחד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר ויטרינה משרדי של Premier, דגם PR-96VB, בנפח כולל של 99 ליטר (93 ליטר נטו) עם דלת זכוכית שקופה ותאורת LED פנימית. מידותיו 83×47×44 ס״מ (גובה×רוחב×עומק) והוא כולל ארבעה מדפים, מדף יינות ומגירת ירקות ופירות. מתאים למשרד, לחדר אירוח או לבית עסק שבו רוצים לראות את התכולה במבט.",
+  "highlights": [
+   "נפח כולל 99 ליטר, 93 ליטר נטו",
+   "דלת זכוכית שקופה וידיות נסתרות",
+   "ארבעה מדפים, מדף יינות ומגירת ירקות ופירות",
+   "תאורת LED פנימית",
+   "מידות 83×47×44 ס״מ"
+  ],
+  "goodFor": [
+   "מטבחון משרדי לשתייה ונשנושים",
+   "חדר אירוח או פינת קפה שבה רוצים לראות את התכולה דרך הדלת",
+   "בית עסק שצריך מקרר קטן עם מדף יינות"
+  ],
+  "considerations": [
+   "ודאו שיש נישה ברוחב 47 ס״מ ובעומק 44 ס״מ לפחות, בתוספת מרווח אוורור",
+   "דירוג האנרגיה הוא F, כדאי לקחת זאת בחשבון בשימוש רציף",
+   "המשקל 23 ק״ג, יש לתכנן את ההצבה בהתאם",
+   "האחריות היא לשנה ע״י אס.ג'י. אלקטרוניקה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 99 ליטר והנפח נטו 93 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "גובה 83 ס״מ, רוחב 47 ס״מ ועומק 44 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תאורה פנימית?",
+    "a": "כן, המקרר כולל תאורת LED פנימית ודלת זכוכית שקופה.",
+    "sources": []
+   },
+   {
+    "q": "מה החלוקה הפנימית?",
+    "a": "ארבעה מדפים, מדף יינות ומגירת ירקות ופירות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה ע״י אס.ג'י. אלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר ויטרינה משרדי Premier PR-96VB בנפח 99 ליטר, דלת זכוכית שקופה ותאורת LED, ארבעה מדפים ומדף יינות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר ויטרינה משרדי",
+   "Premier PR-96VB",
+   "PR96VB",
+   "מקרר משרדי 99 ליטר",
+   "מקרר דלת זכוכית",
+   "מקרר קטן למשרד",
+   "מקרר פרימייר שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח ברוטו",
+   "catalogValue": "99 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו",
+   "catalogValue": "93 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "83-84 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "47 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "44-45 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "23 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "מדחס שקט במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדפים ומגירה",
+   "catalogValue": "4 מדפים, מדף יינות, מגירת פירות וירקות שקופה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "תאורת LED פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "ANUODAN HL35Y",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "De-Frost (הפשרה ידנית)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R600a/26g",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בקרת טמפרטורה",
+   "catalogValue": "טרמוסטט מכני מתכוונן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אס.ג'י. אלקטרוניקה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שיטת קירור",
+   "issue": "Cooling method, compressor model, refrigerant and thermostat come from the store catalog only; no page read confirms them. Check against the product label.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The sibling PR-95VB has the same 99/93 litre volume and compressor and a clear glass door. Confirm the exact model number PR-96VB before selling.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Retailers write PR-96VB with a hyphen; the catalog writes PR96VB. Same model.",
+   "severity": "low"
+  },
+  {
+   "field": "שיטת קירור",
+   "issue": "Cooling method, compressor, refrigerant and thermostat are from the store catalog only; not confirmed by any page.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sibling PR-95VB shares the 99/93 litre volume; confirm the unit is PR-96VB.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Catalog lists height 83-84 and depth 44-45 cm; retailer pages give 83 and 44 cm.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features backed by ok quotes from two Israeli retailer pages naming PR-96VB."
+ }
+}

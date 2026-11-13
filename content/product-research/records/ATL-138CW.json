@@ -1,0 +1,417 @@
+{
+ "modelNumber": "ATL-138CW",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-138CW",
+  "israeliImporter": "Gold Line",
+  "matchConfidence": "high",
+  "notes": "דגם לבן של מפזר חום לאמבטיה קלאסי. דפי אלקטריק הום וטכנוהום מציינים את הקוד ATL-138CW. אתר גולדליין (goldline.co.il) מציין את הדגם כ-138CW ו-ATL-138C ואינו נכלל כראיה לדגם המדויק. מידות, משקל ודרגת IP לא אומתו. | QA: Both Israeli retailer pages name ATL-138CW, white, Gold Line bathroom heater, 2800W, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://electric-home.co.il/product/%D7%9E%D7%A4%D7%96%D7%A8-%D7%97%D7%95%D7%9D-%D7%9C%D7%90%D7%9E%D7%91%D7%98%D7%99%D7%94-%D7%A7%D7%9C%D7%90%D7%A1%D7%99-%D7%9C%D7%91%D7%9F-atl-138cw-%D7%92%D7%95%D7%9C%D7%93-%D7%9C%D7%99%D7%99%D7%9F/",
+   "publisher": "אלקטריק הום",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.technohome.co.il/items/7443183--%D7%9E%D7%A4%D7%96%D7%A8-%D7%97%D7%95%D7%9D-%D7%9C%D7%90%D7%9E%D7%91%D7%98%D7%99%D7%94-%D7%A7%D7%9C%D7%90%D7%A1%D7%99-%D7%9C%D7%91%D7%9F-%D7%92%D7%95%D7%9C%D7%93-%D7%9C%D7%99%D7%99%D7%9F-ATL-138CW",
+   "publisher": "טכנוהום",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגות חימום",
+     "value": "2 דרגות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תאורה",
+     "value": "תאורת LED פנימית"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הגנה מפני מים",
+     "value": "מוגן מים"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer marketing safety claim, not a specification.",
+     "label": "התאמה לחדרי ילדים",
+     "value": "מיועד לשימוש בחדרי ילדים"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אופן התקנה",
+     "value": "תלייה בחדר אמבטיה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקופת אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת LED פנימית הניתנת להפעלה ללא גופי החימום"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מפוח (טורבו) מובנה לפעולה שקטה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שתי נורות ביקורת למעקב אחר מצב ההפעלה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון מתכוונן לקביעת זווית המפזר"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כבל חשמלי ותקע"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניתן לחברו ישירות לשקע החשמל או לקופסת החשמל"
+  }
+ ],
+ "content": {
+  "summary": "מפזר חום לאמבטיה של Gold Line, דגם ATL-138CW בצבע לבן, מוגן מים ומיועד לתלייה בחדר האמבטיה. הוא מספק הספק של 2800 W בשתי דרגות חימום, וכולל מפוח טורבו מובנה ותאורת LED פנימית שאפשר להפעיל גם בלי החימום. מתאים למי שמחפש חימום מהיר לחדר הרחצה עם אפשרות חיבור לשקע או לקופסת חשמל.",
+  "highlights": [
+   "הספק 2800 W",
+   "2 דרגות חימום",
+   "מוגן מים, לתלייה בחדר אמבטיה",
+   "תאורת LED פנימית הניתנת להפעלה ללא החימום",
+   "אחריות שנתיים"
+  ],
+  "goodFor": [
+   "חימום חדר הרחצה לפני ואחרי מקלחת",
+   "מי שרוצה תאורה עדינה באמבטיה גם בלי להפעיל חימום",
+   "התקנה פשוטה עם כבל ותקע הכלולים במכשיר"
+  ],
+  "considerations": [
+   "בדקו שיש שקע מתאים בקרבת מקום התלייה, או תכננו חיבור לקופסת חשמל על ידי חשמלאי",
+   "הספק של 2800 W דורש מעגל חשמל שעומד בעומס",
+   "בחרו מיקום תלייה שמאפשר לכוון את זווית המפזר לאזור הרצוי"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של מפזר החום ATL-138CW?",
+    "a": "ההספק הוא 2800 W, עם 2 דרגות חימום.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להדליק את התאורה בלי החימום?",
+    "a": "כן, תאורת ה-LED הפנימית ניתנת להפעלה ללא גופי החימום.",
+    "sources": []
+   },
+   {
+    "q": "איך מחברים את המכשיר לחשמל?",
+    "a": "אפשר לחבר אותו ישירות לשקע החשמל עם הכבל והתקע הכלולים, או לחבר לקופסת חשמל.",
+    "sources": []
+   },
+   {
+    "q": "מה תקופת האחריות?",
+    "a": "האחריות היא לשנתיים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מפזר חום לאמבטיה Gold Line ATL-138CW לבן, מוגן מים, הספק 2800 W ב-2 דרגות חימום ותאורת LED פנימית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מפזר חום לאמבטיה",
+   "ATL-138CW",
+   "גולד ליין מפזר חום",
+   "מפזר חום לאמבטיה גולד ליין",
+   "מפזר חום מוגן מים",
+   "מפזר חום לאמבטיה לבן",
+   "מפזר חום 2800W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "2800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות הפעלה",
+   "catalogValue": "2 דרגות הפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגת הספק נמוכה",
+   "catalogValue": "1400W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "230V [50Hz]",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גופי חימום",
+   "catalogValue": "2 גופי חימום איכותיים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בקר הפעלה",
+   "catalogValue": "חוט משיכה אינטגרלי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "התקנה",
+   "catalogValue": "מיועד לתלייה על הקיר",
+   "finding": "corrected",
+   "correctValue": "מיועד לתלייה בחדרי אמבטיה",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דרגת הגנה",
+   "catalogValue": "IP24",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מוגן מים",
+   "catalogValue": "מוגן מים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנגנון הגנה מפני התחממות יתר",
+   "catalogValue": "מנגנון הגנה מפני התחממות יתר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "כבל חשמלי ותקע כלולים במכשיר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תאורת LED פנימית",
+   "catalogValue": "תאורת LED פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מפוח טורבו",
+   "catalogValue": "מפוח (טורבו) מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שתי נורות ביקורת",
+   "catalogValue": "שתי נורות ביקורת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנגנון מתכוונן לזווית פיזור",
+   "catalogValue": "מנגנון מתכוונן לקביעת זווית פיזור החום",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "התאמה לחדרי ילדים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מיועד לשימוש בחדרי ילדים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "IP24",
+   "issue": "הקטלוג מציין דרגת הגנה IP24, אך אף דף שנבדק אינו מאשר אותה. יש לוודא מול דף היבואן או המדריך למשתמש.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות או משקל מאומתים לדגם ATL-138CW. דף Dod-Ali מציין מידות אך מתייחס ל-ATL-138C בלבד, ולכן לא נכלל כראיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח הפעלה",
+   "issue": "מתח ההפעלה 230V והספק 1400W בקטלוג לא נמצאו בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "התקנה",
+   "issue": "הקטלוג כותב מיועד לתלייה על הקיר, ודפי אלקטריק הום וטכנוהום כותבים מיועד לתלייה בחדרי אמבטיה.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקוד ATL-138CW מופיע בדפי אלקטריק הום וטכנוהום. היבואן והקמעונאים משתמשים גם בשמות 138CW ו-ATL-138C לאותו מוצר לבן.",
+   "severity": "low"
+  },
+  {
+   "field": "IP24",
+   "issue": "הקטלוג מציין דרגת הגנה IP24 שלא אומתה בדפים שנבדקו.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח הפעלה / דרגת 1400W",
+   "issue": "230V, 1400W ושני גופי חימום מהקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות ומשקל מאומתים לדגם.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 (safe for children's rooms): a retailer marketing safety claim, not a verifiable specification. All other facts kept from two Israeli retailer pages naming ATL-138CW."
+ }
+}

@@ -1,0 +1,436 @@
+{
+ "modelNumber": "SL-7005",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "SOL",
+  "exactModel": "SL-7005",
+  "israeliImporter": "שאוליאן סחר בע״מ",
+  "matchConfidence": "high",
+  "notes": "דף היבואן מציג את המותג SOL ואת הדגם SL-7005 בלבד; שם היצרן המפעל לא צוין בדף. | QA: Importer page sol.co.il names SL-7005, 1.7 liter, light blue (תכלת), matching the catalog name and color."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-7005-2",
+   "publisher": "SOL (שאוליאן סחר)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "SL-7005"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "תכלת"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "20.5 × 24 × 15 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מד מים",
+     "value": "חלון שקוף"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "לאחר הרתחה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגנה מהפעלה ללא מים",
+     "value": "כיבוי אוטומטי במצב של חוסר מים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מכסה בטיחותי",
+     "value": "עם נעילה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed 'נשלף' not in quote",
+   "text": "בסיס 360 מעלות, נוח לשימוש לימניים ולשמאליים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מפסק הדלקה וכיבוי מואר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מדד חיווי מים קל ונוח לקריאה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כבל החשמל מאוחסן בתחתית הקומקום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "page says 'פילטר קבוע' but care text describes rinsing and returning it; avoided claiming non-removable",
+   "text": "כולל פילטר אבנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון הפעלה תוצרת Strix אנגליה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ממלאים מים בין סימוני MIN ו־MAX וסוגרים היטב את המכסה לפני ההפעלה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין להפעיל ללא מים, עם מכסה פתוח או ללא המסנן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנקים את מסנן האבנית בעדינות תחת זרם מים ומחזירים למקומו"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "trimmed to quote",
+   "text": "את הגוף והבסיס מנגבים לאחר ניתוק וקירור; אין לטבול במים"
+  }
+ ],
+ "content": {
+  "summary": "קומקום חשמלי SOL SL-7005 בעיצוב רטרו בצבע תכלת, בקיבולת 1.7 ליטר ובהספק 2200 W. הקומקום כולל כיבוי אוטומטי לאחר הרתחה, הגנה מהפעלה ללא מים ומכסה בטיחותי עם נעילה, על בסיס 360 מעלות. מתאים למטבח ביתי או למשרד למי שמחפש קומקום שמשתלב בעיצוב.",
+  "highlights": [
+   "קיבולת 1.7 ליטר",
+   "הספק 2200 W",
+   "כיבוי אוטומטי לאחר הרתחה ובמצב של חוסר מים",
+   "מכסה בטיחותי עם נעילה",
+   "מנגנון הפעלה תוצרת Strix אנגליה"
+  ],
+  "goodFor": [
+   "מטבח בעיצוב רטרו שמחפש קומקום בצבע תכלת",
+   "הרתחת מים לכמה כוסות בבת אחת בזכות קיבולת 1.7 ליטר",
+   "משתמשים ימניים ושמאליים בזכות בסיס 360 מעלות",
+   "מי שמעדיף הגנות בטיחות כמו כיבוי אוטומטי ומכסה ננעל"
+  ],
+  "considerations": [
+   "מידות הקומקום 20.5 × 24 × 15 ס״מ – כדאי לוודא מקום על השיש ומתחת לארונות",
+   "הספק 2200 W – מומלץ לחבר לשקע ייעודי ולא למפצל עמוס",
+   "יש לנקות את מסנן האבנית מדי פעם תחת זרם מים",
+   "אין לטבול את הגוף והבסיס במים"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של SOL SL-7005?",
+    "a": "קיבולת הקומקום היא 1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הקומקום?",
+    "a": "ההספק לפי דף היבואן הוא 2200 W.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי לאחר הרתחה וגם כיבוי אוטומטי במצב של חוסר מים.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בקומקום פילטר אבנית?",
+    "a": "כן, הקומקום כולל פילטר אבנית שמנקים בעדינות תחת זרם מים.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הקומקום?",
+    "a": "רוחב 20.5 ס״מ, גובה 24 ס״מ ועומק 15 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי רטרו SOL SL-7005 בצבע תכלת, קיבולת 1.7 ליטר והספק 2200 W, עם כיבוי אוטומטי ומכסה ננעל. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי SOL SL-7005",
+   "SL-7005",
+   "קומקום רטרו תכלת",
+   "קומקום חשמלי 1.7 ליטר",
+   "קומקום SOL",
+   "קומקום חשמלי רטרו",
+   "קומקום תכלת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2200W-3000W",
+   "finding": "corrected",
+   "correctValue": "2200 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף חימום",
+   "catalogValue": "נירוסטה איכותית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "סיבובי 360 מעלות המאפשר שליפה והנחה קלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנוני בטיחות",
+   "catalogValue": "כיבוי אוטומטי לאחר הרתחה והגנה מפני הפעלה ללא מים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "פילטר פנימי נשלף ורחיץ",
+   "finding": "corrected",
+   "correctValue": "כולל פילטר קבוע",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורית ביקורת",
+   "catalogValue": "נורית ביקורת להפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדיד מים",
+   "catalogValue": "מדיד מים שקוף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחסון כבל",
+   "catalogValue": "מקום לאחסון הכבל בתחתית המכשיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עיצוב",
+   "catalogValue": "עיצוב רטרו יוקרתי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון הפעלה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מנגנון הפעלה איכותי תוצרת Strix אנגליה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 2200W-3000W; דף היבואן מציין 2200W בלבד",
+   "severity": "medium"
+  },
+  {
+   "field": "אביזרים",
+   "issue": "הקטלוג מציין פילטר נשלף; דף היבואן מציין כולל פילטר קבוע",
+   "severity": "medium"
+  },
+  {
+   "field": "מותג",
+   "issue": "שם המותג בקטלוג 'Sol exlusive' (כתיב); דף היבואן מציג את המותג SOL",
+   "severity": "low"
+  },
+  {
+   "field": "מקור",
+   "issue": "דף היבואן מסומן כאתר בהרצה ומפנה לאימות נתונים מול היבואן; מדינת הייצור בקטלוג לא אומתה",
+   "severity": "low"
+  },
+  {
+   "field": "פילטר",
+   "issue": "הקטלוג מציין פילטר נשלף ורחיץ; דף היבואן כותב 'פילטר קבוע' אך הוראות הניקוי בו מתארות שטיפה והחזרה למקומו – יש לבדוק",
+   "severity": "medium"
+  },
+  {
+   "field": "מותג",
+   "issue": "שם המותג בקטלוג 'Sol exlusive' (כתיב); דף היבואן מציג SOL",
+   "severity": "low"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "מדינת הייצור בקטלוג (סין) לא אומתה",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 4 reworded to avoid asserting a fixed (non-removable) filter, since the same page's care instructions describe rinsing the filter and returning it to place. Installation 3 trimmed to what the quote says (no 'dry before connecting'). Catalog power range 2200W-3000W corrected to 2200 W per importer page."
+ }
+}

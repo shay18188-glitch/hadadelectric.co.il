@@ -1,0 +1,352 @@
+{
+ "modelNumber": "TSM6A013B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "TSM6A013B",
+  "israeliImporter": "B/S/H",
+  "matchConfidence": "high",
+  "notes": "Bug (Israeli retailer) names the exact model, states official importer, and warranty by B/S/H. The spec sheet is the en-MT (Malta market) version of the same model number. | QA: Bosch spec sheet (Malta market) and Israeli retailer BUG both name TSM6A013B, black coffee grinder 180 W, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מטחנת-קפה-ביתית-bosch-9066013514",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/en-MT/TSM6A013B.pdf",
+   "publisher": "Bosch Home spec sheet",
+   "kind": "manufacturer",
+   "market": "MT",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Bosch"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "180 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת פולי קפה",
+     "value": "עד 75 גרם"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Order follows the spec sheet 170x90x90 mm; axes not named on the sheet.",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "17 × 9 × 9 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "0.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 V"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "100 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Reworded to match the quote.",
+     "label": "אחריות",
+     "value": "ע״י B/S/H"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להב חיתוך מנירוסטה לטחינה מדויקת ודקה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון בטיחות: הטחינה פועלת רק כשהמכסה מחובר ומתג הבטיחות לחוץ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טוחנת עד 75 גרם פולי קפה, מספיק לקנקן קפה שלם"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מטחנת קפה חשמלית קומפקטית של Bosch בצבע שחור, דגם TSM6A013B, בהספק 180 W. היא טוחנת עד 75 גרם פולי קפה בכל הפעלה, כמות שמספיקה לקנקן קפה שלם, בעזרת להב נירוסטה. מתאימה למי שרוצה לטחון פולים טריים בבית במכשיר קטן ופשוט.",
+  "highlights": [
+   "הספק 180 W",
+   "טחינה של עד 75 גרם פולי קפה",
+   "להב חיתוך מנירוסטה",
+   "פועלת רק כשהמכסה מחובר ומתג הבטיחות לחוץ",
+   "אחריות ע״י B/S/H"
+  ],
+  "goodFor": [
+   "טחינת פולים טריים לפני הכנת קנקן קפה",
+   "מטבח עם מעט מקום על השיש, בזכות מידות של 17 × 9 × 9 ס״מ",
+   "מי שמחפש מטחנה פשוטה עם מנגנון בטיחות של מכסה"
+  ],
+  "considerations": [
+   "הכבל באורך 100 ס״מ, כדאי לוודא שיש שקע קרוב למקום ההצבה",
+   "הקיבולת עד 75 גרם פולים בכל טחינה, לכמות גדולה יותר יש לטחון בכמה סבבים",
+   "המטחנה פועלת רק כשהמכסה מחובר, יש להקפיד לסגור אותו לפני ההפעלה"
+  ],
+  "faq": [
+   {
+    "q": "כמה פולי קפה אפשר לטחון בפעם אחת?",
+    "a": "עד 75 גרם פולי קפה, כמות שלפי היצרן מספיקה לקנקן קפה שלם.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המטחנה?",
+    "a": "180 W.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי הלהב?",
+    "a": "להב החיתוך עשוי נירוסטה.",
+    "sources": []
+   },
+   {
+    "q": "מה אורך הכבל?",
+    "a": "100 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות על המוצר?",
+    "a": "האחריות ניתנת ע״י B/S/H.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מטחנת קפה Bosch TSM6A013B בצבע שחור, הספק 180 W וטחינה של עד 75 גרם פולי קפה עם להב נירוסטה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מטחנת קפה בוש",
+   "Bosch TSM6A013B",
+   "TSM6A013B",
+   "מטחנת קפה חשמלית",
+   "מטחנת קפה שחורה",
+   "מטחנת פולי קפה",
+   "מטחנת קפה ביתית",
+   "מטחנת קפה 180 וואט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "180W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל",
+   "catalogValue": "עד 75 גרם פולי קפה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "0.623 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "0.6 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 17 ס\"מ, קוטר 9 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "100 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנגנון בטיחות",
+   "catalogValue": "המכשיר פועל רק כאשר המכסה סגור ומתג הבטיחות לחוץ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סלובניה (Slovenia)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ביצועי טחינה",
+   "catalogValue": "כ-150 גרם לדקה (טחינה דקה)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "The spec sheet gives 170x90x90 mm without naming the axes; the combined row assumes height 170 mm, consistent with the catalog's height of 17 cm. Check the axis order.",
+   "severity": "low"
+  },
+  {
+   "field": "שקילה",
+   "issue": "The catalog net weight 0.623 kg differs from the manufacturer spec sheet (0.6 kg). The spec sheet value is used.",
+   "severity": "low"
+  },
+  {
+   "field": "source_variant",
+   "issue": "The manufacturer spec sheet is the en-MT (Malta) version. The Israeli retailer page confirms the model and the official importer, but no Israeli manufacturer page was found.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Spec sheet gives 170x90x90 mm without naming axes; published as height × width × depth to match the catalog's height of 17 cm.",
+   "severity": "low"
+  },
+  {
+   "field": "weight",
+   "issue": "Catalog net weight 0.623 kg differs from the manufacturer spec sheet value 0.6 kg; spec sheet value published.",
+   "severity": "low"
+  },
+  {
+   "field": "source_variant",
+   "issue": "Manufacturer spec sheet is the Malta-market version; Israeli retailer page confirms the model and B/S/H warranty.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions relabelled to match the spec sheet order (170x90x90 mm read as height × width × depth, consistent with the catalog's height 17 cm and diameter 9 cm). Warranty value reworded to what the quote states. Catalog weight 0.623 kg replaced by the spec sheet's 0.6 kg."
+ }
+}

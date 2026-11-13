@@ -1,0 +1,377 @@
+{
+ "modelNumber": "CK-5545",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "LEXUS",
+  "exactModel": "CK-5545",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "רדיו שעון מעורר עם תצוגת לד. המקור היחיד שנמצא לדגם המדויק הוא דף של קמעונאי ישראלי (באג). לא נמצא מדריך למשתמש או דף יבואן. | QA: Israeli retailer page (BUG) names the exact model LEXUS CK-5545. No manufacturer, importer or manual source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/lexus/clock/radio/ck/5545",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote reads “1.8 with inch mark; contradicts catalog 0.6 inch",
+     "label": "גודל תצוגה",
+     "value": "1.8 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקרן שעה",
+     "value": "כן, מקרין את השעה על הקיר או התקרה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שעון מעורר כפול",
+     "value": "כן, 2 זמני השכמה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר שינה",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח AM",
+     "value": "525–1650 KHz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Garbled number 'כ-02'; cannot verify count",
+     "label": "תחנות קבועות",
+     "value": "כ-02 תחנות קבועות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Garbled '2032 1xCR'; page reportedly also lists a different battery; catalog says 9V",
+     "label": "סוללת גיבוי",
+     "value": "2032 1xCR (לא כלולה)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שעון מעורר כפול לשני משתמשים, עם שני זמני השכמה שונים."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מד טמפרטורה ולחות מובנה."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כניסת USB לטעינת סמארטפון או טאבלט."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "דימר לכיוון עוצמת תאורת התצוגה."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תצוגת שעון בפורמט 12 או 24 שעות."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רדיו FM עם כיוון תחנות דיגיטלי."
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "LEXUS CK-5545 הוא רדיו שעון מעורר עם תצוגת לד בגודל 1.8 אינץ׳ ומקרן שמציג את השעה על הקיר או התקרה. יש בו שעון מעורר כפול עם שני זמני השכמה, טיימר שינה, רדיו FM עם כיוון דיגיטלי ומד טמפרטורה ולחות. מתאים לחדר שינה, גם לזוג שקם בשעות שונות.",
+  "highlights": [
+   "תצוגת לד 1.8 אינץ׳ עם דימר לתאורה",
+   "מקרן שעה על הקיר או התקרה",
+   "שעון מעורר כפול – 2 זמני השכמה",
+   "טיימר שינה לכיבוי אוטומטי של הרדיו",
+   "מד טמפרטורה ולחות וכניסת USB לטעינה"
+  ],
+  "goodFor": [
+   "זוג שמתעורר בשעות שונות וצריך שני זמני השכמה",
+   "מי שרוצה לראות את השעה על התקרה בלי להרים את הראש",
+   "הירדמות עם רדיו שנכבה לבד בעזרת טיימר השינה",
+   "טעינת טלפון ליד המיטה דרך כניסת ה-USB"
+  ],
+  "considerations": [
+   "לוודא שיש שקע חשמל ליד המיטה",
+   "לבדוק שיש קיר או תקרה פנויים מול המכשיר להקרנת השעה",
+   "סוג סוללת הגיבוי לא אומת – כדאי לבדוק בעת הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "אפשר לכוון שני שעונים מעוררים?",
+    "a": "כן, יש שעון מעורר כפול שמאפשר 2 זמני השכמה שונים, למשל לשני משתמשים.",
+    "sources": []
+   },
+   {
+    "q": "האם השעה מוקרנת על התקרה?",
+    "a": "כן, מקרן מובנה מציג את השעה על הקיר או על התקרה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להירדם עם הרדיו?",
+    "a": "כן, טיימר השינה מכבה את הרדיו אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להחליש את תאורת התצוגה בלילה?",
+    "a": "כן, יש דימר לכיוון עוצמת תאורת התצוגה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "רדיו שעון מעורר LEXUS CK-5545 עם מקרן שעה לקיר ולתקרה ושעון מעורר כפול לשני זמני השכמה, תצוגת לד 1.8 אינץ׳. בחדד אלקטריק נהריה",
+  "keywords": [
+   "רדיו שעון מעורר",
+   "LEXUS CK-5545",
+   "שעון מעורר עם מקרן",
+   "שעון מקרין על התקרה",
+   "רדיו שעון לקסוס",
+   "שעון מעורר כפול",
+   "שעון מעורר עם מד טמפרטורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל תצוגה",
+   "catalogValue": "0.6 אינץ'",
+   "finding": "contradicted",
+   "correctValue": "1.8",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקרן שעה",
+   "catalogValue": "מקרן זמן מתכוונן ב-180 מעלות",
+   "finding": "corrected",
+   "correctValue": "מקרן מובנה (קרן אינפרא אדום) להצגת השעה על הקיר/התקרה; זווית 180 מעלות לא מופיעה בדף",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקלט רדיו",
+   "catalogValue": "FM/AM עם סורק תחנות אנלוגי/דיגיטלי",
+   "finding": "corrected",
+   "correctValue": "רדיו FM- כיוון תחנות דיגיטלי",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללת גיבוי",
+   "catalogValue": "תא לסוללת 9V (לא כלולה)",
+   "finding": "contradicted",
+   "correctValue": "2032 1xCR (סוללה לא כלולה)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שעון מעורר כפול",
+   "catalogValue": "שעון מעורר כפול (Dual Alarm)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר שינה",
+   "catalogValue": "Sleep Timer",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נודניק",
+   "catalogValue": "פונקציית Snooze",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צליל התעוררות",
+   "catalogValue": "בחירה בין רדיו לזמזם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מד טמפרטורה ולחות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסת USB",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן (להטענה מהירה של הסמארטפון או טאבלט)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דימר תאורת תצוגה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שעון 12/24",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "display",
+   "issue": "הקטלוג מציין תצוגה של 0.6 אינץ', אך דף הקמעונאי לדגם CK-5545 מציין תצוגת לד בגודל 1.8. יש לבדוק מול היבואן לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "energy",
+   "issue": "בדף הקמעונאי מופיעות שתי סוללות שונות: בטבלת המפרט 2032 1xCR, ובתיאור סוללת 2302 RC. הקטלוג מציין סוללת 9V. נדרשת בדיקה.",
+   "severity": "medium"
+  },
+  {
+   "field": "audio",
+   "issue": "מספר התחנות הקבועות מופיע בדף כ-02, ככל הנראה שגיאת הקלדה במקום 20. לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "display",
+   "issue": "מתח עבודה 230V וזווית ההקרנה 180 מעלות שמופיעים בקטלוג לא נמצאו בשום מקור שנבדק.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף יבואן, דף יצרן או מדריך למשתמש לדגם המדויק. כל העובדות מבוססות על דף קמעונאי אחד.",
+   "severity": "medium"
+  },
+  {
+   "field": "display",
+   "issue": "הקטלוג מציין תצוגה 0.6 אינץ׳, דף הקמעונאי לדגם מציין 1.8.",
+   "severity": "high"
+  },
+  {
+   "field": "energy",
+   "issue": "סוללת גיבוי: הקטלוג מציין 9V, בדף הקמעונאי מופיע 2032 1xCR ולפי החוקר גם סוללה אחרת בתיאור. לא פורסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "audio",
+   "issue": "הקטלוג מציין FM/AM; התיאור בדף מזכיר FM, טבלת המפרט מציינת טווח AM. מספר התחנות הקבועות ('כ-02') משובש ולא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "כל המידע מבוסס על דף קמעונאי ישראלי אחד; לא נמצא מקור יצרן או יבואן. מתח 230V וזווית הקרנה 180 מעלות מהקטלוג לא אומתו.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept display size with inch unit (the quote's leading quote mark is an inch symbol), dual alarm, sleep timer, projector, AM range. Rejected preset count (garbled 'כ-02') and backup battery (garbled '2032 1xCR', and the page reportedly also lists a different battery). All features kept. Catalog 0.6 inch display and 9V battery contradicted by the retailer page."
+ }
+}

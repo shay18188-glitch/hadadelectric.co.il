@@ -1,0 +1,452 @@
+{
+ "modelNumber": "EM823A2GU-W (6563)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "EM823A2GU-W",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Traklin page names EM823A2GU-W (white, title code 6563). Midea Israel page names EM823A2GU with finish לבן. Importer spelled differently across sources, so left null. | QA: Traklin page names EM823A2GU-W white, catalog code 6563, 23 L, matching the catalog name. Midea Israel page names EM823A2GU without the W suffix, with the same specs."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%97%D7%A9%D7%9E%D7%9C_%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C_%D7%95%D7%98%D7%95%D7%A1%D7%98%D7%A8_%D7%90%D7%95%D7%91%D7%9F/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C_%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99_midea_%D7%9C%D7%91%D7%9F_23%D7%9C_6563_%D7%93%D7%92%D7%9D_em823a2gu-w_%D7%9E%D7%99%D7%93%D7%90%D7%94",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.midea.co.il/product/1em823a2gu",
+   "publisher": "Midea Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "EM823A2GU-W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח פנימי",
+     "value": "23 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגות עוצמה",
+     "value": "11"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות בישול אוטומטיות",
+     "value": "8"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זיכרון לתוכניות קבועות",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי משקל או לפי זמן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "27 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "48.6 × 29.1 × 40.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "12.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילת בטיחות לילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Generic retailer line; the same page also mentions 3 years via the importer. Ambiguous.",
+     "label": "אחריות",
+     "value": "5 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת הפעלה דיגיטלית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לחצן הפעלה מהירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צליל התראה בסיום הבישול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיקרוגל דיגיטלי של Midea בנפח 23 ליטר בגימור לבן, עם הספק מיקרוגל של 800 W ו-11 דרגות עוצמה. הוא כולל 8 תוכניות בישול אוטומטיות, הפשרה לפי משקל או לפי זמן ונעילת בטיחות לילדים. מתאים למטבח ביתי שצריך מיקרוגל עומד לחימום, הפשרה ובישול יומיומי.",
+  "highlights": [
+   "נפח פנימי 23 ליטר",
+   "הספק מיקרוגל 800 W עם 11 דרגות עוצמה",
+   "8 תוכניות בישול אוטומטיות וזיכרון ל-3 תוכניות קבועות",
+   "הפשרה לפי משקל או לפי זמן",
+   "נעילת בטיחות לילדים"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח הביתי",
+   "בית עם ילדים, בזכות נעילת הבטיחות",
+   "מי שמחמם שוב ושוב אותן מנות ורוצה לשמור תוכניות קבועות בזיכרון"
+  ],
+  "considerations": [
+   "מידות המכשיר 48.6 × 29.1 × 40.6 ס״מ, כדאי למדוד את המשטח או המדף ולהשאיר מרווח אוורור",
+   "צלחת מסתובבת בקוטר 27 ס״מ, כדאי לוודא שהכלים שלכם נכנסים",
+   "משקל המכשיר 12.5 ק״ג, יש לוודא שהמדף או המתקן נושא את המשקל",
+   "יש לוודא שקע חשמל זמין ליד מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח וההספק של המיקרוגל?",
+    "a": "נפח פנימי של 23 ליטר והספק מיקרוגל של 800 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות עוצמה ותוכניות יש?",
+    "a": "11 דרגות עוצמה ו-8 תוכניות בישול אוטומטיות, וגם זיכרון ל-3 תוכניות קבועות.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להפשיר בו?",
+    "a": "כן, יש הפשרה לפי משקל או לפי זמן.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכשיר?",
+    "a": "רוחב 48.6 ס״מ, גובה 29.1 ס״מ ועומק 40.6 ס״מ, במשקל 12.5 ק״ג.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי Midea EM823A2GU-W לבן, נפח 23 ליטר והספק 800 W עם 8 תוכניות אוטומטיות ונעילת ילדים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל Midea",
+   "EM823A2GU-W",
+   "מיקרוגל 23 ליטר",
+   "מיקרוגל דיגיטלי לבן",
+   "מיקרוגל מידאה",
+   "מיקרוגל 800W",
+   "מיקרוגל עם נעילת ילדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח פנימי",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "800W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה דיגיטלית",
+   "catalogValue": "מערכת הפעלה דיגיטלית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דרגות עוצמה",
+   "catalogValue": "11 דרגות עוצמה שונות לבישול",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צג",
+   "catalogValue": "צג LED דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צלחת",
+   "catalogValue": "צלחת זכוכית מסתובבת בקוטר 27 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 48.6 ס\"מ, גובה 29.1 ס\"מ, עומק 40.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "12.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "8 תוכניות בישול אוטומטיות מוגדרות מראש",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הפשרה",
+   "catalogValue": "הפשרה לפי משקל או לפי זמן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זיכרון",
+   "catalogValue": "זיכרון פנימי ל-3 תוכניות בישול קבועות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הפעלה מהירה",
+   "catalogValue": "לחצן הפעלה מהירה (Quick Start)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "מנגנון נעילת בטיחות לילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צליל התראה",
+   "catalogValue": "צליל התראה בסיום פעולת הבישול",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בישול רב-שלבי",
+   "catalogValue": "בישול רב-שלבי המאפשר תכנות רצף פעולות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5 שנים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אחריות",
+   "issue": "דף Traklin מציין בשורה אחת 3 שנות אחריות דרך היבואן ובשורה אחרת 5 שנות אחריות למיקרוגלים. דף Midea מציין 5 שנים. נדרשת בדיקה מול תעודת האחריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "דף Midea מציין את הדגם EM823A2GU בלי הסיומת W, וציין גימור לבן. דף Traklin מציין EM823A2GU-W במפורש. נדרשת בדיקה שהסיומת W היא רק קוד צבע.",
+   "severity": "low"
+  },
+  {
+   "field": "צג",
+   "issue": "לא נמצא בדפים שנקראו אישור לצג LED. הערך בקטלוג לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות לא אומתה: בדף הקמעונאי מופיעות גם 3 שנים וגם 5 שנים. יש לבדוק מול תעודת האחריות של היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "דף Midea Israel מציין EM823A2GU בלי הסיומת W. יש לוודא שהסיומת היא קוד צבע בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "צג",
+   "issue": "צג LED מהקטלוג לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (id 12): the Traklin quote is a generic line about microwaves and the same page reportedly also states 3 years via the importer, so the value is ambiguous. Kept all other facts, supported by ok quotes on the Traklin page that names EM823A2GU-W."
+ }
+}

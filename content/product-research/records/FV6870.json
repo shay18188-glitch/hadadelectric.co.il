@@ -1,0 +1,378 @@
+{
+ "modelNumber": "FV6870",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Tefal",
+  "exactModel": "FV6870",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Model FV6870 confirmed on Amazon.fr (Model Number) and Zap (FV6870 listing). Trippodo lists the same product under code FV6870E0. Icecat was blocked by a bot check. | QA: Amazon.fr, Trippodo and Zap all name FV6870 (Smart Protect Plus, 2800 W). Trippodo uses suffix FV6870E0; Israeli suffix not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.amazon.fr/Tefal-FV6870-Smart-Protect-vapeur/dp/B08YFH5VNQ",
+   "publisher": "Amazon.fr",
+   "kind": "retailer",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1157460",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.trippodo.com/en/ferri-da-stiro/203282-tefal-smart-protect-plus-fv6870-dry-steam-iron-durilium-airglide-soleplate-2800-w-red-3121040080177.html",
+   "publisher": "Trippodo",
+   "kind": "retailer",
+   "market": "IT",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Tefal"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר דגם",
+     "value": "FV6870"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מגהץ אדים ויבש (Dry & Steam)"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוליה",
+     "value": "Durilium AirGlide"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2800 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog said 50; two sources say 40.",
+     "label": "תפוקת אדים רציפה",
+     "value": "40 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת מכת אדים",
+     "value": "260 גרם לדקה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "270 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גיהוץ אנכי",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "2 מטר"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "כלול"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Reworded to match quotes.",
+   "text": "טכנולוגיית Smart Temp – טמפרטורה אחת המתאימה לכל סוגי הבדים"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת Anti-Drip למניעת טפטופים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מגהץ אדים של Tefal, דגם FV6870, בהספק 2800 W עם סוליית Durilium AirGlide. תפוקת אדים רציפה של 40 גרם לדקה ומכת אדים של 260 גרם לדקה, יחד עם אפשרות לגיהוץ אנכי. מתאים למי שמגהץ באופן קבוע ורוצה גם להסיר קמטים מבגדים תלויים ווילונות.",
+  "highlights": [
+   "הספק 2800 W",
+   "מכת אדים 260 גרם לדקה",
+   "סוליית Durilium AirGlide",
+   "גיהוץ אנכי",
+   "כיבוי אוטומטי"
+  ],
+  "goodFor": [
+   "גיהוץ שוטף של בגדים מסוגי בדים שונים בזכות טכנולוגיית Smart Temp",
+   "הסרת קמטים מבגדים תלויים, ז׳קטים ווילונות בגיהוץ אנכי",
+   "קמטים עקשניים שדורשים מכת אדים חזקה"
+  ],
+  "considerations": [
+   "מיכל המים בנפח 270 מ״ל – בגיהוץ ארוך יש למלא אותו מחדש",
+   "אורך הכבל 2 מטר – כדאי לוודא שקע קרוב לקרש הגיהוץ",
+   "הספק 2800 W – מומלץ לחבר לשקע שאינו עמוס במכשירים נוספים"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר לגהץ בגדים תלויים עם FV6870?",
+    "a": "כן, המגהץ כולל אפשרות לגיהוץ אנכי.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "270 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "האם המגהץ נכבה לבד?",
+    "a": "כן, יש לו כיבוי אוטומטי לבטיחות.",
+    "sources": []
+   },
+   {
+    "q": "מה תפוקת האדים?",
+    "a": "תפוקת אדים רציפה של 40 גרם לדקה ומכת אדים של 260 גרם לדקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ אדים Tefal FV6870 בהספק 2800 W עם מכת אדים 260 גרם לדקה, סוליית Durilium AirGlide וגיהוץ אנכי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Tefal FV6870",
+   "מגהץ אדים טפאל",
+   "FV6870",
+   "מגהץ טפאל 2800 וואט",
+   "מגהץ עם גיהוץ אנכי",
+   "Tefal Smart Protect Plus",
+   "מגהץ אדים Durilium"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "הספק מרבי: 2800W",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "catalogValue": "50 גרם לדקה",
+   "finding": "corrected",
+   "correctValue": "40 גרם לדקה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת מכת אדים",
+   "catalogValue": "260 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג תחתית",
+   "catalogValue": "Durilium Airglide",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "270 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת למניעת אבנית",
+   "catalogValue": "אוסף אבנית נשלף (Calc Collector)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כיבוי אוטומטי",
+   "catalogValue": "כלול (מצב בטיחות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "2 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גיהוץ אנכי",
+   "catalogValue": "אופציה לגיהוץ אנכי",
+   "finding": "missing-added",
+   "correctValue": "כן",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "origin_country",
+   "issue": "Catalog says origin France. No authoritative page for FV6870 confirmed the origin. One Zap listing says תוצרת צפרת, with a spelling error. Verify before relying on it.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Trippodo lists this product under code FV6870E0, and Icecat uses the same suffix. The Israeli variant suffix is unclear. Check the importer code.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Full dimensions (width, height, depth) appear on one retailer page only, so no dimensions row was published.",
+   "severity": "low"
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "issue": "הקטלוג מציין 50 גרם לדקה; שני מקורות מציינים 40 גרם לדקה. יש לעדכן את הקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "סיומת הדגם הישראלית לא אומתה (Trippodo מציג FV6870E0).",
+   "severity": "low"
+  },
+  {
+   "field": "מערכת למניעת אבנית",
+   "issue": "אוסף אבנית נשלף (Calc Collector) שבקטלוג לא אומת באף מקור.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "ארץ ייצור צרפת לא אומתה במקור מוסמך.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Continuous steam corrected from catalog 50 to 40 g/min per Amazon.fr and Trippodo. Smart Temp feature reworded to match the quotes (one temperature for all fabrics). Zap kept as other (price comparison site, not a shop)."
+ }
+}

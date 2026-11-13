@@ -1,0 +1,368 @@
+{
+ "modelNumber": "ATL-414",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-414",
+  "israeliImporter": "יוסף חיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Exact model ATL-414 is named on the Israeli retail pages used here. Listings for ATL-413 and ATL-415 were seen but not used. A Zap listing of an 800W Gold Line unit appears to belong to another model. | QA: Several Israeli retailer pages name Gold Line ATL-414 with 400W and 0.5 L juice container, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%A1%D7%97%D7%98%D7%AA-%D7%92%D7%96%D7%A8-%D7%95%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A9%D7%99%D7%9D-gold-line-906089693",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ivory.co.il/catalog.php?id=38068",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/search.aspx?keyword=ATL-414",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://refaeli.co.il/items/1550907-ATL-414",
+   "publisher": "Refaeli",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.lastprice.co.il/p/51087167/מסחטת-גזר-ופירות-קשים-Gold-line/Gold-Line-ATL~414",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "400 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מיץ",
+     "value": "0.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s5"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Label order aligned with source wording",
+     "label": "מידות (רוחב × אורך × גובה)",
+     "value": "27 × 18.5 × 28 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s5"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "יוסף חיים בע״מ"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only from a Zap search-results page; not a product page",
+     "label": "מק״ט יבואן",
+     "value": "330414"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתח דחיסה גדול במיוחד להכנסת פירות וירקות ללא צורך בחיתוך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שתי מהירויות הפעלה להתאמת סוג הסחיטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית בטיחות שמנתקת את פעולת המכשיר בעת פתיחתה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שני מיכלים נפרדים להפרדת מיץ ופסולת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיכל איסוף פסולת גדול לשימוש ממושך ללא הפסקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיכל מיץ נייד המתחבר ישירות ליציאת המיץ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת נירוסטה גדולה לסחיטה יעילה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 0",
+   "text": "פתח דחיסה גדול במיוחד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מסחטת גזר ופירות קשים של Gold Line, דגם ATL-414, עם מנוע בהספק 400W ומיכל מיץ בנפח 0.5 ליטר. פתח הדחיסה הגדול מאפשר להכניס פירות וירקות בלי לחתוך מראש, ומיכל פסולת נפרד מאפשר סחיטה רציפה. מתאימה למי שרוצה להכין בבית מיץ גזר, תפוחים וירקות קשים.",
+  "highlights": [
+   "מנוע בהספק 400W",
+   "מיכל מיץ בנפח 0.5 ליטר",
+   "פתח דחיסה גדול ללא צורך בחיתוך מוקדם",
+   "שתי מהירויות הפעלה",
+   "ידית בטיחות שמנתקת את המכשיר בפתיחה"
+  ],
+  "goodFor": [
+   "הכנת מיץ גזר ופירות קשים בבית",
+   "סחיטה של כמות גדולה ברצף בזכות מיכל פסולת נפרד וגדול",
+   "מי שרוצה לחסוך זמן הכנה בזכות פתח דחיסה רחב"
+  ],
+  "considerations": [
+   "ודאו מקום על השיש למכשיר במידות 27 × 18.5 × 28 ס״מ",
+   "מיכל המיץ מכיל 0.5 ליטר, לכמויות גדולות יותר יש לרוקן אותו במהלך הסחיטה",
+   "המכשיר לא יפעל כשידית הבטיחות פתוחה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המסחטה?",
+    "a": "למסחטה Gold Line ATL-414 מנוע בהספק 400W.",
+    "sources": []
+   },
+   {
+    "q": "צריך לחתוך את הגזר לפני הסחיטה?",
+    "a": "לא בהכרח. למסחטה פתח דחיסה גדול במיוחד שמאפשר להכניס פירות וירקות ללא חיתוך מוקדם.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המיץ?",
+    "a": "מיכל המיץ מכיל 0.5 ליטר, ומיכל הפסולת נפרד ממנו.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "12 חודשי אחריות של היבואן הרשמי יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מסחטת גזר ופירות קשים Gold Line ATL-414 עם מנוע 400W ומיכל מיץ 0.5 ליטר, פתח דחיסה רחב ושתי מהירויות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מסחטת גזר",
+   "מסחטת פירות קשים",
+   "Gold Line ATL-414",
+   "מסחטה גולד ליין",
+   "ATL-414",
+   "מסחטת מיצים 400W",
+   "מסחטת גזר לבית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "400 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מיץ",
+   "catalogValue": "0.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 27 ס\"מ, אורך 18.5 ס\"מ, גובה 28 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "2 מהירויות הפעלה",
+   "catalogValue": "2 מהירויות הפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רשת סחיטה מפלדת אל-חלד (נירוסטה)",
+   "catalogValue": "רשת סחיטה מפלדת אל-חלד (נירוסטה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון הגנה ובטיחות",
+   "catalogValue": "מנגנון הגנה ובטיחות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה-כסוף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ברקוד",
+   "catalogValue": "7290016240399",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "The manufacturer-style pages label the 18.5 cm side as אורך (length). It is listed here as depth in the combined row. Confirm the depth direction.",
+   "severity": "low"
+  },
+  {
+   "field": "ברקוד",
+   "issue": "The catalog barcode, colour and country of origin did not appear on any page read, so they are unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "ברקוד / צבע / מדינת ייצור",
+   "issue": "Catalog barcode, colour and country of origin were not found on any source page; unverified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions relabelled to width × length × height in the order the sources give. Rejected importer SKU 330414 (only from a Zap search-results page, which also lists sibling models). Rejected feature 7 as a duplicate of feature 0. Zap search page reclassified as other."
+ }
+}

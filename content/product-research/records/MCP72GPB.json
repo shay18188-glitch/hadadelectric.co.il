@@ -1,0 +1,467 @@
+{
+ "modelNumber": "MCP72GPB",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MCP72GPB",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן של בוש לדגם MCP72GPB נמצא באזור EG (אנגלית) ובאתר בוש גרמניה (DE), והמפרטים בשניהם זהים. לא נמצא דף יבואן ישראלי או מפרט ישראלי עבור הסיומת MCP72GPB. אתרי מכירה ישראליים שנמצאו מציינים את הסיומת MCP72GPW, ולכן לא נלקחו כראיה. | QA: Both Bosch manufacturer pages (EG, DE) name MCP72GPB exactly; black colour matches the B suffix. No Israeli importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/eg/en/product/MCP72GPB",
+   "publisher": "Bosch Home (EG)",
+   "kind": "manufacturer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bosch-home.com/de/de/product/kuechengeraete/entsafter-saftpressen/zitruspresse/MCP72GPB",
+   "publisher": "Bosch Hausgeräte (DE)",
+   "kind": "manufacturer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד (GTIN)",
+     "value": "4242002996776"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "40 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיוון סיבוב החרוט",
+     "value": "שמאל וימין"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח קנקן זכוכית",
+     "value": "1.0 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "axis order not stated in source",
+     "label": "מידות",
+     "value": "310 × 170 × 170 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "catalog says 1.87 kg",
+     "label": "משקל נטו",
+     "value": "1.4 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "100 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "פלסטיק עם נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר קנקן",
+     "value": "זכוכית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "reworded",
+     "label": "ניקוי",
+     "value": "חלקים מתאימים למדיח כלים, אביזרים נשלפים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה אוטומטית: הסחיטה מתחילה כשלוחצים את הפרי על החרוט"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חרוט סחיטה מיוחד לפירות קטנים וגדולים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עיצוב 2-ב-1: סוחטים ישירות לתוך קנקן הזכוכית ומגישים ממנו"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "DripStop: ללא טפטוף או שפיכה אחרי הסחיטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה רב-שימושי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "EasyStorage: אחסון נוח לכבל ומכסה הגנה מפני אבק"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה (1 יחידה)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מסחטת הדרים חשמלית של בוש מסדרת VitaStyle Citro, בצבע שחור, עם הספק של 40 W. הסחיטה נעשית ישירות לתוך קנקן זכוכית בנפח 1.0 ליטר שממנו גם מגישים, והחרוט מתחיל לפעול אוטומטית כשלוחצים עליו את הפרי. מתאימה למי שסוחט תפוזים ולימונים בבית ורוצה מכשיר שקל לנקות ולאחסן.",
+  "highlights": [
+   "סחיטה ישירה לקנקן זכוכית בנפח 1.0 ליטר",
+   "הפעלה אוטומטית בלחיצת הפרי על החרוט",
+   "DripStop נגד טפטוף אחרי הסחיטה",
+   "חלקים מתאימים למדיח כלים",
+   "סיבוב החרוט לשני הכיוונים"
+  ],
+  "goodFor": [
+   "הכנת מיץ תפוזים טרי לארוחת בוקר והגשה ישר מהקנקן",
+   "סחיטת פירות הדר קטנים וגדולים כמו לימונים ואשכוליות",
+   "מי שמעדיף מכשיר שקל לפרק ולשטוף במדיח"
+  ],
+  "considerations": [
+   "מידות המכשיר 310 × 170 × 170 מ״מ – כדאי לבדוק מקום על השיש או בארון",
+   "אורך הכבל 100 ס״מ – כדאי לוודא שקע קרוב למקום העבודה",
+   "הקנקן עשוי זכוכית ודורש זהירות בשטיפה ובאחסון"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הקנקן?",
+    "a": "קנקן הזכוכית מכיל 1.0 ליטר, והסחיטה נעשית ישירות לתוכו.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך ללחוץ על כפתור כדי להפעיל?",
+    "a": "לא. המסחטה מתחילה לסחוט אוטומטית כשלוחצים את הפרי על החרוט.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשטוף את החלקים במדיח?",
+    "a": "כן, לפי היצרן החלקים מתאימים למדיח כלים והאביזרים נשלפים.",
+    "sources": []
+   },
+   {
+    "q": "האם המסחטה מטפטפת אחרי השימוש?",
+    "a": "יש בה מנגנון DripStop שנועד למנוע טפטוף ושפיכה אחרי הסחיטה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מסחטת הדרים בוש VitaStyle Citro MCP72GPB בצבע שחור: קנקן זכוכית 1.0 ליטר והפעלה אוטומטית בלחיצת הפרי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מסחטת הדרים בוש",
+   "MCP72GPB",
+   "Bosch VitaStyle Citro",
+   "מסחטת תפוזים חשמלית",
+   "מסחטת הדרים עם קנקן זכוכית",
+   "מסחטת לימונים חשמלית",
+   "בוש מסחטה שחורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "40 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תדירות",
+   "catalogValue": "50/60 הרץ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח קנקן זכוכית",
+   "catalogValue": "1.0 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומרי המכשיר",
+   "catalogValue": "פלסטיק ללא BPA בשילוב נירוסטה וקנקן זכוכית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "310x170x170 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "1.87 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "1.4 kg",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "100 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת תכנון ועיצוב",
+   "catalogValue": "גרמניה (תכנון ועיצוב)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית DripStop",
+   "catalogValue": "טכנולוגיית DripStop למניעת טפטוף",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הפעלה אוטומטית",
+   "catalogValue": "הפעלה אוטומטית בלחיצה על חרוט הסחיטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חלקים ניתנים לשטיפה במדיח",
+   "catalogValue": "חלקים ניתנים לפירוק ושטיפה במדיח הכלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכסה הגנה מפני אבק",
+   "catalogValue": "מכסה הגנה מפני אבק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכסה לאחסון במקרר",
+   "catalogValue": "כולל מכסה לסגירת הקנקן לאחסון במקרר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורית חיווי LED",
+   "catalogValue": "נורית חיווי LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מסננת וקונוס סחיטה מנירוסטה",
+   "catalogValue": "מסננת וקונוס סחיטה מנירוסטה איכותית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כיוון הסחיטה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שמאל וימין",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברקוד (GTIN)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "4242002996776",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הדגם MCP72GPB מופיע בדפי היצרן של בוש (EG ו-DE). אתרי מכירה ישראליים שנמצאו מציינים את הסיומת MCP72GPW, לכן יש לוודא שהקטלוג מתייחס לסיומת הנכונה לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "דף היצרן באזור EG מציג את הדגם כמופסק, ולא נמצא דף יבואן ישראלי עבור MCP72GPB. יש לבדוק אם הדגם עדיין מיובא לישראל.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "הקטלוג מציין 1.87 ק״ג, ואילו היצרן מציין משקל נטו של 1.4 kg. יש לבדוק איזה ערך נכון לקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח ותדירות",
+   "issue": "מתח 220-240 V ותדירות 50/60 Hz לא אומתו בדפי היצרן שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "חומרי המכשיר",
+   "issue": "הטענה 'ללא BPA' וכן מקור הייצור (גרמניה) לא אומתו עבור הדגם MCP72GPB בדפי היצרן שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "הקטלוג מציין 1.87 ק״ג, היצרן מציין 1.4 ק״ג. יש לעדכן את הקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא דף יבואן ישראלי לסיומת MCP72GPB (שחור); אתרים ישראליים מציגים את MCP72GPW (לבן). יש לוודא שהסיומת והצבע בקטלוג נכונים.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "לפי הסוכן, דף היצרן באזור EG מציג את הדגם כמופסק. יש לבדוק.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "מתח, תדירות, ללא BPA, נורית LED, מכסה לאחסון במקרר ומסננת נירוסטה בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions label changed to plain 'מידות' since the source does not state the axis order. Cleaning value reworded (accessories removable). Catalog net weight 1.87 kg contradicts manufacturer 1.4 kg; manufacturer value kept."
+ }
+}

@@ -1,0 +1,422 @@
+{
+ "modelNumber": "Essenza Mini EN85.L",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "De'Longhi",
+  "exactModel": "EN85.L",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Manufacturer pages for EN85.L (Green) found in EG and AE De'Longhi sites. No Israeli page naming EN85.L was found; Israeli shop pages found name EN85 only and were not used. | QA: Both sources are De'Longhi manufacturer pages for EN85.L (Green) in Egypt and UAE. No Israeli page for EN85.L; Israeli variant and the lime/green colour naming are unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.delonghi.com/en-eg/p/essenza-mini-en85.l-essenza-mini-nespresso-coffee-machine/EN85.L.html?pid=0132191652",
+   "publisher": "De'Longhi EG",
+   "kind": "manufacturer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.delonghi.com/en-ae/p/essenza-mini-en85.l-essenza-mini-nespresso-coffee-machine/EN85.L.html",
+   "publisher": "De'Longhi AE",
+   "kind": "manufacturer",
+   "market": "AE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1150 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "לחץ משאבה",
+     "value": "19 בר"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מיכל מים",
+     "value": "0.6 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מכל קפסולות משומשות",
+     "value": "6 קפסולות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "2.015 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog name says ליים; flagged.",
+     "label": "צבע",
+     "value": "ירוק"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "לאחר 9 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 V"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תדירות",
+     "value": "50-60 Hz"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אפשרות להתאים אישית ולשמור בזיכרון את כל המשקאות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Reworded to match quote.",
+   "text": "מערכת חימום Thermoblock של דה לונגי המכינה את הקפה בטמפרטורה האידיאלית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב חיסכון באנרגיה (Nespresso eco mode)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "התראה על ניקוי והסרת אבנית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Not an installation fact.",
+   "text": "מדריך למשתמש ומדריך התחלה מהיר זמינים באתר התמיכה של דה לונגי"
+  }
+ ],
+ "content": {
+  "summary": "מכונת קפה קפסולות Nespresso Essenza Mini EN85.L של דה לונגי, בצבע ירוק. המכונה מגיעה עם משאבה בלחץ 19 בר, מיכל מים של 0.6 ליטר ומערכת חימום Thermoblock. מתאימה למי שמחפש מכונת קפסולות קטנה למטבח או למשרד.",
+  "highlights": [
+   "משאבה בלחץ 19 בר",
+   "מיכל מים 0.6 ליטר",
+   "מכל לעד 6 קפסולות משומשות",
+   "כיבוי אוטומטי לאחר 9 דקות ומצב חיסכון באנרגיה",
+   "משקל 2.015 ק״ג"
+  ],
+  "goodFor": [
+   "מטבח עם מעט מקום על השיש",
+   "מי ששותה קפה מקפסולות Nespresso ורוצה לשמור את המשקאות המועדפים",
+   "מי שרוצה מכונה שנכבית לבד כשלא משתמשים בה"
+  ],
+  "considerations": [
+   "מיכל המים הוא 0.6 ליטר, ולכן צריך למלא אותו לעיתים קרובות כשמכינים הרבה כוסות",
+   "מכל הקפסולות המשומשות מכיל עד 6 קפסולות וצריך לרוקן אותו בהתאם",
+   "המכונה פועלת בקפסולות Nespresso בלבד",
+   "כדאי לוודא את גוון הצבע בחנות, כי היצרן מציין ירוק"
+  ],
+  "faq": [
+   {
+    "q": "מה לחץ המשאבה של Essenza Mini EN85.L?",
+    "a": "המשאבה עובדת בלחץ של 19 בר.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "מיכל המים מכיל 0.6 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם המכונה נכבית לבד?",
+    "a": "כן, היא נכבית אוטומטית לאחר 9 דקות, ויש בה גם מצב חיסכון באנרגיה.",
+    "sources": []
+   },
+   {
+    "q": "כמה קפסולות משומשות נכנסות למכל?",
+    "a": "המכל מכיל עד 6 קפסולות משומשות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קפה קפסולות דה לונגי Nespresso Essenza Mini EN85.L בצבע ירוק, משאבה 19 בר ומיכל מים 0.6 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "אסנזה מיני",
+   "Essenza Mini EN85.L",
+   "מכונת נספרסו קטנה",
+   "מכונת קפה קפסולות דה לונגי",
+   "EN85.L",
+   "נספרסו אסנזה מיני ירוק",
+   "מכונת קפסולות נספרסו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "DeLonghi",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1150-1370 וואט",
+   "finding": "corrected",
+   "correctValue": "1150 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ משאבה",
+   "catalogValue": "19 בר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל מים",
+   "catalogValue": "0.6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מכל קפסולות משומשות",
+   "catalogValue": "עד 6 קפסולות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "2.3 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "2.015 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תדירות",
+   "catalogValue": "50-60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כיבוי אוטומטי",
+   "catalogValue": "כיבוי אוטומטי לאחר 9 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "התראה על ניקוי אבנית",
+   "catalogValue": "התראה על ניקוי אבנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב x עומק x גובה)",
+   "catalogValue": "110x325x205 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "25 שניות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "80 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "איטליה (עיצוב), מיוצר בסין או בהונגריה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצב Eco",
+   "catalogValue": "המופעל לאחר 3 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "ירוק",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "The catalog name says the colour is ליים (lime), while the manufacturer pages list EN85.L as Green. Check the colour wording in the product name.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No Israeli page naming EN85.L was found. Israeli importer and Israeli variant are unconfirmed; the Israeli shop pages found name EN85 only.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog gives 1150-1370 W; manufacturer pages give 1150 W only.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog gives 2.3 kg; manufacturer pages give 2.015 kg.",
+   "severity": "low"
+  },
+  {
+   "field": "מצב Eco",
+   "issue": "Manufacturer pages say Nespresso eco mode and power off after 9 min, but give no minutes for eco mode. The catalog's 3-minute eco figure is not confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says ליים (lime); manufacturer pages list EN85.L as Green. Check the colour wording.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No Israeli page names EN85.L; Israeli importer and variant unconfirmed. Sources are Egypt and UAE manufacturer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says 1150-1370 W; manufacturer says 1150 W.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog says 2.3 kg; manufacturer says 2.015 kg.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Dimensions, heat-up time, cable length, eco-mode 3 minutes and origin country in the catalog are not confirmed by sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1 reworded to match the quote (Thermoblock brews at the ideal temperature; the claim about heating only the needed water is not in the quote). Installation item 0 rejected: it is a note about manuals being online, not an installation fact. Catalog power (1150-1370 W) and weight (2.3 kg) differ from the manufacturer values kept here (1150 W, 2.015 kg)."
+ }
+}

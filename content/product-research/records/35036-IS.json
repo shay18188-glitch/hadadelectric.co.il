@@ -1,0 +1,415 @@
+{
+ "modelNumber": "35036-IS",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "35036-IS",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Israeli retailer pages list this model as Hamilton Beach 35036-IS. No manufacturer, importer or manual page was readable. The catalog brand does not match. | QA: Two Israeli retailer pages name Hamilton Beach 35036-IS, 4 L, matching the catalog model code and capacity. The catalog brand (Sol exlusive) does not match the sources."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/סיר-טיגון-4-ליטר-hamilton-beach-1213106010006",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/סיר-טיגון-המילטון-35036/",
+   "publisher": "Avi Sofer",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Hamilton Beach"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "35036-IS"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג המכשיר",
+     "value": "סיר טיגון (צ'יפסר)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "4 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Basket figure larger than the 4 L capacity; likely a listing error or a different measure.",
+     "label": "תכולת רשת טיגון",
+     "value": "5.1 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote failed check.; quote checks: quote-too-short",
+     "label": "בקרת טמפרטורה",
+     "value": "תרמוסטט"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "טיימר מתכוונן עם צליל"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיכל נשלף",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנון בטיחות",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דפנות קרות",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, יבואן רשמי שאוליאן סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום נשלף רב עוצמה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלון הצצה במכסה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פילטר ריח"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יחידת בקרה נשלפת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלקים נשלפים לניקוי נוח"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אחסון כבל נוח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום שקוע לחימום מהיר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סיר טיגון עמוק (צ'יפסר) של Hamilton Beach, דגם 35036-IS, בנפח 4 ליטר ובהספק 2000 W. הסיר כולל גוף חימום שקוע לחימום מהיר, טיימר מתכוונן עם צליל, חלון הצצה ופילטר ריח, ומיכל וחלקים נשלפים לניקוי נוח. מתאים למי שמטגן בבית צ'יפס, שניצלים ומאפים ורוצה מכשיר ייעודי עם דפנות קרות ומנגנון בטיחות.",
+  "highlights": [
+   "נפח 4 ליטר",
+   "הספק 2000 W עם גוף חימום שקוע לחימום מהיר",
+   "טיימר מתכוונן עם צליל",
+   "מיכל, גוף חימום ויחידת בקרה נשלפים לניקוי",
+   "חלון הצצה ופילטר ריח"
+  ],
+  "goodFor": [
+   "טיגון עמוק בבית של צ'יפס, שניצלים וירקות בציפוי",
+   "מי שרוצה לעקוב אחר הטיגון דרך חלון ההצצה בלי לפתוח את המכסה",
+   "מטבח שבו חשוב להפחית ריחות טיגון בעזרת פילטר ריח",
+   "מי שמעדיף מכשיר שמתפרק לניקוי נוח"
+  ],
+  "considerations": [
+   "הספק 2000 W: כדאי לחבר לשקע נפרד ולא לפצל עם מכשירים חזקים נוספים",
+   "נפח 4 ליטר: יש לבדוק שהכמות מתאימה לגודל המנות שאתם מטגנים",
+   "לבדוק שיש מקום על השיש ליד שקע, הרחק ממקורות מים",
+   "האחריות לשנה ניתנת דרך היבואן שאוליאן סחר"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של הסיר?",
+    "a": "הנפח הוא 4 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכשיר?",
+    "a": "ההספק הוא 2000 W, עם גוף חימום שקוע לחימום מהיר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בסיר טיימר?",
+    "a": "כן, יש טיימר מתכוונן עם צליל.",
+    "sources": []
+   },
+   {
+    "q": "האם קל לנקות אותו?",
+    "a": "כן, המיכל, גוף החימום ויחידת הבקרה נשלפים, כך שהניקוי נוח.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה על ידי היבואן הרשמי שאוליאן סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון עמוק Hamilton Beach דגם 35036-IS בנפח 4 ליטר והספק 2000 W, עם טיימר וחלקים נשלפים לניקוי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סיר טיגון",
+   "צ'יפסר",
+   "סיר טיגון 4 ליטר",
+   "Hamilton Beach 35036-IS",
+   "המילטון ביץ' סיר טיגון",
+   "סיר טיגון עמוק",
+   "סיר טיגון בשמן",
+   "צ'יפסר המילטון"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "4 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Sol exlusive",
+   "finding": "contradicted",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח תרמוסטט 130°C עד 190°C",
+   "catalogValue": "130°C עד 190°C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פילטר פחם מובנה",
+   "catalogValue": "פילטר פחם מובנה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תכולת רשת טיגון",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5.1 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גוף חימום נשלף",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "גוף חימום נשלף רב עוצמה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "The catalog brand Sol exlusive conflicts with the Israeli retailer pages, which name Hamilton Beach for model 35036-IS. Check the brand before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "basket_capacity",
+   "issue": "Retailer pages give 4 ליטר as the capacity and 5.1 ליטר as the basket (תכולת רשת טיגון). The catalog lists only 4 L. Verify which figure the buyer should see.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or manual page was readable (manual sites returned HTTP 403). All facts rest on two Israeli retailer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "thermostat_and_filter",
+   "issue": "The catalog's 130-190 °C thermostat range, charcoal filter and origin country were not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "manual",
+   "issue": "Manual sites name 35036 (US 120V variant, 12-cup); Israeli variant not confirmed by manufacturer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand Sol exlusive contradicts both Israeli retailer pages, which name Hamilton Beach for 35036-IS.",
+   "severity": "high"
+  },
+  {
+   "field": "basket_capacity",
+   "issue": "One retailer lists a 5.1 L basket, larger than the 4 L capacity; rejected as a likely listing error. Verify if needed.",
+   "severity": "low"
+  },
+  {
+   "field": "catalog_specs",
+   "issue": "Catalog thermostat range (130-190 °C), charcoal filter and origin country were not confirmed by any source.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on two Israeli retailer pages; no manufacturer or importer page was readable.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 4 (basket 5.1 L exceeds the 4 L oil capacity on the other page; looks like a listing error or a different measure). Rejected fact 6 (quote failed check). Kept the rest from two Israeli retailer pages naming 35036-IS. Catalog brand Sol exlusive contradicts the sources (Hamilton Beach)."
+ }
+}

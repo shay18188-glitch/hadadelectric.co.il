@@ -1,0 +1,526 @@
+{
+ "modelNumber": "UE65M70H",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "UE65M70H",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף בזקסטור מציין SAMSUNG UE65M70H במפורש. דף סמסונג בריטניה הוא וריאנט UE65M70HAKXXU. לא נמצא יבואן ישראלי מאומת. | QA: Bezeq Store page names SAMSUNG UE65M70H 65 inch exactly; Samsung UK page is the UE65M70HAKXXU variant of the same model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://bstore.bezeq.co.il/electrical/134663",
+   "publisher": "בזקסטור",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.samsung.com/uk/tvs/mini-led-tv/m70h-65-inch-4k-smart-tv-ue65m70hakxxu/",
+   "publisher": "Samsung UK",
+   "kind": "manufacturer",
+   "market": "GB",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "65 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840 × 2160 (4K UHD)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית מסך",
+     "value": "Mini LED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 60Hz; flagged",
+     "label": "קצב רענון",
+     "value": "50 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "HDR",
+     "value": "Mini LED HDR"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד",
+     "value": "Mini LED Processor 4K"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק שמע",
+     "value": "20 W (RMS)"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Tizen OS"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אבטחה",
+     "value": "Samsung Knox"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "relabelled",
+     "label": "רזולוציה מרבית ב־HDMI",
+     "value": "4K ב־60Hz (בכל שלוש הכניסות)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "USB",
+     "value": "כניסת USB-A אחת"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Conflicts with Samsung UK 170 W max per research notes",
+     "label": "צריכת חשמל מרבית",
+     "value": "115 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח הזנה",
+     "value": "AC 100–240V, 50/60Hz"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1444.1 × 831.2 × 76.8 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "1444.1 × 882.2 × 222 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "14.2 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל עם מעמד",
+     "value": "14.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מעמד",
+     "value": "שתי רגליות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע המעמד",
+     "value": "אפור טיטניום"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית Pure Spectrum Color לדיוק צבע ברמת הפיקסל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סמסונג UE65M70H היא טלוויזיה חכמה 65 אינץ׳ בטכנולוגיית Mini LED ברזולוציית 4K (3840 × 2160), עם מערכת ההפעלה Tizen OS. היא כוללת מעבד Mini LED Processor 4K, תמיכה ב־Mini LED HDR ושמע בהספק 20 W. מתאימה למי שמחפש מסך גדול לסלון לצפייה בתוכן 4K ובאפליקציות סטרימינג.",
+  "highlights": [
+   "מסך 65 אינץ׳ Mini LED ברזולוציית 4K",
+   "Mini LED HDR ומעבד Mini LED Processor 4K",
+   "מערכת הפעלה Tizen OS עם אבטחת Samsung Knox",
+   "Wi-Fi 5 ו־Bluetooth 5.3",
+   "שמע בהספק 20 W (RMS)"
+  ],
+  "goodFor": [
+   "סלון שבו רוצים מסך 65 אינץ׳ לצפייה בתוכן 4K",
+   "צפייה באפליקציות סטרימינג ישירות מהטלוויזיה בזכות Tizen OS ו־Wi-Fi 5",
+   "חיבור רמקול או אוזניות אלחוטיים דרך Bluetooth 5.3"
+  ],
+  "considerations": [
+   "רוחב המסך 1444.1 מ״מ – כדאי למדוד את המקום על השידה או הקיר לפני הרכישה",
+   "עם המעמד בשתי רגליות העומק הוא 222 מ״מ, וצריך שידה רחבה מספיק לשתי הרגליות",
+   "לתלייה על הקיר: משקל המסך ללא מעמד הוא 14.2 ק״ג, יש לוודא זרוע מתאימה",
+   "קצב הרענון המצוין הוא 50 Hz וה־HDMI תומך ב־4K ב־60Hz – למי שמחפש משחקים בקצב רענון גבוה כדאי לבדוק זאת"
+  ],
+  "faq": [
+   {
+    "q": "מה הרזולוציה של סמסונג UE65M70H?",
+    "a": "רזולוציית 4K UHD של 3840 × 2160.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "הטלוויזיה פועלת עם Tizen OS של סמסונג, עם אבטחת Samsung Knox.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות והמשקל של המסך?",
+    "a": "ללא מעמד 1444.1 × 831.2 × 76.8 מ״מ ו־14.2 ק״ג; עם מעמד 1444.1 × 882.2 × 222 מ״מ ו־14.5 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "האם יש לטלוויזיה Bluetooth?",
+    "a": "כן, Bluetooth בגרסה 5.3, לצד Wi-Fi 5.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה סמסונג UE65M70H בגודל 65 אינץ׳, Mini LED ברזולוציית 4K עם Tizen OS ו־Mini LED HDR. לפרטים והזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "סמסונג UE65M70H",
+   "UE65M70H",
+   "טלוויזיה 65 אינץ׳ סמסונג",
+   "טלוויזיה Mini LED 65",
+   "Samsung M70H",
+   "טלוויזיה 4K 65 אינץ׳",
+   "טלוויזיה חכמה סמסונג Mini LED"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "65'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K Ultra HD 3840 x 2160p",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית מסך",
+   "catalogValue": "Mini LED",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz (תמיכה ב-DLG 120Hz)",
+   "finding": "corrected",
+   "correctValue": "50 Hz",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "Mini LED Processor 4K / NQ4 AI Gen2 Processor",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק שמע",
+   "catalogValue": "20W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קישוריות HDMI",
+   "catalogValue": "3x HDMI 2.1",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות USB",
+   "catalogValue": "1x USB 2.0",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קישוריות Ethernet",
+   "catalogValue": "Ethernet",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "WiFi",
+   "catalogValue": "WiFi",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth 5.3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1444.1 x 831.2 x 76.8 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "catalogValue": "14.2 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1444.1 x 882.2 x 222 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "14.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Smart TV (Samsung Tizen OS)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "HDR10+",
+   "catalogValue": "HDR10+",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל מרבית",
+   "catalogValue": "לא מופיע בקטלוג",
+   "finding": "missing-added",
+   "correctValue": "115 W",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קצב רענון",
+   "issue": "הקטלוג מציין 60Hz, ודפי היצרן והקמעונאי הישראלי מציינים 50 Hz. לבדוק לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "צריכת חשמל מרבית",
+   "issue": "בזקסטור מציין 115W, דף סמסונג בריטניה מציין 170 W מקסימום. המקורות סותרים זה את זה.",
+   "severity": "medium"
+  },
+  {
+   "field": "וריאנט",
+   "issue": "דף סמסונג הוא וריאנט בריטי (UE65M70HAKXXU). לא נמצא דף סמסונג ישראל לדגם. יש לוודא שהמפרט תואם את הגרסה הישראלית.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא יבואן ישראלי מאומת לדגם.",
+   "severity": "low"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "הקטלוג מציין 60Hz (DLG 120Hz) ובזקסטור מציין 50Hz. יש לבדוק ולעדכן את הקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "צריכת חשמל מרבית",
+   "issue": "בזקסטור מציין 115W ולפי הערות המחקר סמסונג בריטניה מציינת 170 W. לא פורסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "וריאנט",
+   "issue": "דף היצרן הוא של הגרסה הבריטית UE65M70HAKXXU; לוודא שהמידות והמפרט תואמים לגרסה הנמכרת בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מעבד",
+   "issue": "הקטלוג מציין גם NQ4 AI Gen2 Processor, שלא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 13 (max power 115W): the research notes say Samsung UK lists 170 W max, so the sources conflict. Relabelled fact 11 (HDMI) to describe max HDMI resolution. Kept refresh rate 50 Hz from the Israeli retailer, which contradicts the catalog's 60Hz; flagged."
+ }
+}

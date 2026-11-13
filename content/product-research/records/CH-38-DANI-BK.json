@@ -1,0 +1,349 @@
+{
+ "modelNumber": "CH-38-DANI-BK",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Comfort4u",
+  "exactModel": "CH-38-DANI-BK",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The Israeli retailer page for this exact model names the brand Comfort4u and SKU 7290118452430, and says the warranty is one year via סיריוס אלקטרוניקה בע\"מ. The page says 'יבואן רשמי' but does not name the importer. No manufacturer or importer page was found, and the search budget was used up. | QA: The bug.co.il page names the exact model CH-38-DANI-BK under the Comfort4u brand. The catalog says the brand is Carbon. The page names no importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/comfort4u/ch/38/dani/bk",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג כיסא",
+     "value": "כיסא מנהל ארגונומי"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל מקסימלי",
+     "value": "עד 120 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "123-135 cm is too high for a seat height. It is probably the overall height, which would make this a listing error.",
+     "label": "גובה מושב",
+     "value": "מ-123 ס״מ עד 135 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זווית השכבת המשענת",
+     "value": "עד 125°"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנון גז",
+     "value": "בתקן SGS"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עיצוב",
+     "value": "מנהלים/גיימינג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משענת גב",
+     "value": "רשת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גב רשת ומשענת ראש"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 פתחי אוורור בגב הכיסא למניעת זיעה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידיות מרופדות עם כריות רכות להנחת היד או המרפק"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כרית תמיכת צוואר וכרית תמיכת גב"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "כיסא מנהל ארגונומי עם גב רשת ומשענת ראש, בעיצוב שמתאים גם למשרד וגם לגיימינג. משענת הגב נשכבת עד 125°, מנגנון הגז בתקן SGS, והכיסא נושא משקל של עד 120 ק״ג. הוא מגיע עם כרית תמיכת צוואר וכרית תמיכת גב, ומתאים למי שיושב הרבה מול המחשב.",
+  "highlights": [
+   "גב רשת ומשענת ראש",
+   "משענת נשכבת עד 125°",
+   "נושא משקל של עד 120 ק״ג",
+   "מנגנון גז בתקן SGS",
+   "מגיע עם כרית צוואר וכרית גב"
+  ],
+  "goodFor": [
+   "ישיבה ארוכה מול המחשב בבית או במשרד",
+   "גיימינג, בזכות העיצוב והמשענת הנשכבת",
+   "מי שמזיע בישיבה, בזכות גב הרשת ופתחי האוורור"
+  ],
+  "considerations": [
+   "לוודא שמשקל המשתמש לא עולה על 120 ק״ג",
+   "לבדוק שיש מאחורי הכיסא מספיק מקום להשכבת המשענת עד 125°",
+   "הגובה של הכיסא לא אומת. כדאי לבדוק אותו מול גובה השולחן"
+  ],
+  "faq": [
+   {
+    "q": "כמה משקל הכיסא מחזיק?",
+    "a": "לפי המפרט, עד 120 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "עד כמה המשענת נשכבת?",
+    "a": "משענת הגב נשכבת עד 125°, ואפשר לעצור אותה בכל שלב.",
+    "sources": []
+   },
+   {
+    "q": "אילו כריות מגיעות עם הכיסא?",
+    "a": "כרית תמיכת צוואר וכרית תמיכת גב.",
+    "sources": []
+   },
+   {
+    "q": "האם הגב נושם?",
+    "a": "כן. לכיסא יש גב רשת ו-2 פתחי אוורור בגב, שעוזרים למנוע הזעה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "כיסא מנהל ארגונומי",
+   "CH-38-DANI-BK",
+   "כיסא גב רשת",
+   "כיסא מנהל עם משענת ראש",
+   "כיסא גיימינג",
+   "Comfort4u כיסא",
+   "כיסא משרדי ארגונומי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "brand",
+   "catalogValue": "Carbon",
+   "finding": "contradicted",
+   "correctValue": "Comfort4u",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גב רשת (Mesh)",
+   "catalogValue": "גב רשת (Mesh) נושם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה מושב",
+   "catalogValue": "מתחיל ב-123 ס\"מ וניתן להגבהה עד 135 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זווית השכבה",
+   "catalogValue": "נשכבת עד לזווית של 125 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל מקסימלי",
+   "catalogValue": "עד 120 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון גז",
+   "catalogValue": "מנגנון בוכנת גז בתקן SGS",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון גז Class 3",
+   "catalogValue": "Class 3",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כריות עזר",
+   "catalogValue": "שתי כריות עזר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משענות ידיים",
+   "catalogValue": "משענות ידיים מרופדות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משענת ראש מתכווננת",
+   "catalogValue": "משענת ראש מתכווננת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בסיס 5 זרועות",
+   "catalogValue": "בסיס 5 זרועות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גלגלים שקטים",
+   "catalogValue": "גלגלים שקטים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עיצוב",
+   "catalogValue": "עיצוב היברידי לשימוש כמנהלים או גיימינג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שחור",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "The store catalog lists the brand as Carbon. The Israeli retailer page for this exact model names it as Comfort4u (כיסא מנהל ארגונומי CH-38-DANI-BK מבית Comfort4u). No page found ties this model to Carbon.",
+   "severity": "high"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The retailer page says 'יבואן רשמי' but does not name the importer. Only the warranty provider, סיריוס אלקטרוניקה בע\"מ, is named. Importer left null.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one source was found: an Israeli retailer page for this exact model. No manufacturer or importer page was found, and the search budget was used up. Check the facts against a manufacturer page if one can be found.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "The catalog says the brand is Carbon. The Israeli retailer page for this exact model says Comfort4u.",
+   "severity": "high"
+  },
+  {
+   "field": "גובה מושב",
+   "issue": "The catalog and the retailer both give a seat height of 123-135 cm. That is not a realistic seat height and is probably the overall height. The fact was not published. Check the real measurement.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "No importer is named. Only one source was found: an Israeli retailer page.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 2 (seat height 123-135 cm): the retailer calls it seat height, but that range fits the chair's overall height, so it looks like a listing error. All other facts kept from the one Israeli retailer page for this exact model. | code guard removed: metaDescription: \"כיסא מנהל ארגונומי Comfort4u CH-38-DANI-BK עם גב רשת ומשענת ראש, משענת נשכבת עד 125° ונשיאה עד 120 ק״ג. בחדד אלקטריק נהריה\""
+ }
+}

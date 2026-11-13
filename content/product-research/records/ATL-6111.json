@@ -1,0 +1,281 @@
+{
+ "modelNumber": "ATL-6111",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-6111",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף של באג (bug.co.il) מזהה את הדגם ATL-6111 במפורש. לא נמצא יבואן רשמי בעמודים שנבדקו. | QA: עמוד באג מציין במפורש Gold Line ATL-6111, מתקן לשווארמה וצלייה ביתית, תואם לשם בקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מתקן-לשווארמה-וצלייה-ביתית-gold-line-90651233258",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?productid=1098341",
+   "publisher": "Wisebuy",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-6111"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "מתכוונן עד 60 דקות עם כיבוי אוטומטי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה מוברשת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיפודים",
+     "value": "שיפוד צלייה מרכזי + 7 שיפודים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע מסתובב במהירות קבועה לפיזור חום וצלייה אחידה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת הגנה בטיחותית סביב גוף החימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגש לניקוז שומנים"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גימור נירוסטה מוברשת, קל לניקוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אינו מצריך התקנה"
+  }
+ ],
+ "content": {
+  "summary": "מתקן לשווארמה וצלייה ביתית של Gold Line, דגם ATL-6111, עם גוף חימום בהספק 2000W ומנוע מסתובב לצלייה אחידה. המתקן כולל שיפוד צלייה מרכזי ו־7 שיפודים נוספים, מגש לניקוז שומנים וטיימר עד 60 דקות עם כיבוי אוטומטי. מתאים למי שרוצה להכין שווארמה, בשרים, עופות וירקות על השיפוד בבית.",
+  "highlights": [
+   "גוף חימום בהספק 2000W",
+   "שיפוד צלייה מרכזי + 7 שיפודים",
+   "טיימר עד 60 דקות עם כיבוי אוטומטי",
+   "מנוע מסתובב לצלייה אחידה",
+   "מגש לניקוז שומנים ורשת הגנה סביב גוף החימום"
+  ],
+  "goodFor": [
+   "הכנת שווארמה ביתית על שיפוד מרכזי",
+   "צליית שיפודים מסוגים שונים במקביל",
+   "מי שרוצה לכוון זמן צלייה ולהשאיר את המכשיר לכבות לבד"
+  ],
+  "considerations": [
+   "בדקו שיש שקע חשמל זמין קרוב למשטח העבודה, שכן ההספק הוא 2000W",
+   "מידות המכשיר לא אומתו – כדאי לבדוק את המקום על השיש לפני הרכישה",
+   "יש לרוקן ולנקות את מגש ניקוז השומנים לאחר כל שימוש"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Gold Line ATL-6111?",
+    "a": "גוף החימום בהספק 2000W.",
+    "sources": []
+   },
+   {
+    "q": "כמה שיפודים מגיעים עם המתקן?",
+    "a": "שיפוד צלייה מרכזי ועוד 7 שיפודים לסוגי צלייה שונים.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיימר?",
+    "a": "כן, טיימר מתכוונן עד 60 דקות שמכבה את המכשיר אוטומטית בסיום.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך התקנה?",
+    "a": "לא, המכשיר אינו מצריך התקנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מתקן שווארמה וצלייה ביתית Gold Line ATL-6111 בהספק 2000W, עם שיפוד מרכזי ו־7 שיפודים וטיימר עד 60 דקות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מתקן שווארמה ביתי",
+   "Gold Line ATL-6111",
+   "גולד ליין שווארמה",
+   "מכשיר שווארמה לבית",
+   "גריל שיפודים חשמלי",
+   "מתקן צלייה ביתי",
+   "ATL-6111"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "הספק: 2000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "מתכוונן עד 60 דקות עם מנגנון כיבוי אוטומטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר שיפודים",
+   "catalogValue": "שיפוד צלייה מרכזי אחד + 7 שיפודים קטנים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר מעטפת",
+   "catalogValue": "נירוסטה מוברשת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה כ-49 ס\"מ, רוחב כ-33 ס\"מ, עומק כ-39 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "ישראל (מותג ותכנון ישראלי)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות המכשיר",
+   "issue": "לא נמצאו מידות באף עמוד שנבדק; המידות בקטלוג לא אומתו",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן הרשמי של Gold Line לא זוהה בעמודים שנבדקו",
+   "severity": "low"
+  },
+  {
+   "field": "מידות המכשיר",
+   "issue": "המידות בקטלוג (49×33×39 ס״מ) לא נמצאו באף מקור ולא אומתו",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא זוהה יבואן רשמי בעמודים שנבדקו",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "כל העובדות מבוססות על עמוד באג (il-retailer) המזכיר את הדגם במפורש, ורובן גם בעמוד Wisebuy. מידות, מתח ומדינת ייצור מהקטלוג לא אומתו ולא פורסמו."
+ }
+}

@@ -1,0 +1,382 @@
+{
+ "modelNumber": "9154071",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Carrera",
+  "exactModel": "9154071",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Manual (Conrad-hosted, Carrera CRR GENTLE-24, art. 9154071) plus an Israeli retailer page (Shop Electrons) naming SKU 9154071. No Israeli importer page found. | QA: Carrera manual names article number 9154071; Israeli retailer Shop Electrons page names the same SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://asset.conrad.com/media10/add/160267/c1/-/gl/001370131ML01/mode-demploi-1370131-tondeuse-nez-oreilles-carrera-beauty-9154071-9154071-noir-argent-1-pcs.pdf",
+   "publisher": "Carrera user manual (hosted by Conrad)",
+   "kind": "manual",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.shopelectrons.co.il/product/%D7%9E%D7%A1%D7%99%D7%A8-%D7%A9%D7%99%D7%A2%D7%A8-%D7%94%D7%90%D7%A3-%D7%95%D7%94%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%99%D7%9D-3-%D7%91-1/",
+   "publisher": "Shop Electrons",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "narrowed to quote",
+     "label": "סוג המכשיר",
+     "value": "ערכת קוצץ 3 ב-1 לשיער האף והאוזניים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר פריט",
+     "value": "9154071"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "AA not in quote",
+     "label": "סוג סוללה",
+     "value": "סוללה אלקליין 1.5 V"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "EU guarantee from German manual; Israeli warranty set by importer",
+     "label": "אחריות",
+     "value": "36 חודשים מיום הרכישה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר ראשים מתחלפים",
+     "value": "3"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש לקיצוץ שיער באף ובאוזניים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "quote mentions beards only",
+   "text": "ראש לקיצוץ זקן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש לעיצוב גבות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3 ראשים מתחלפים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש לקיצוץ שיער באף ובאוזניים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש לעיצוב גבות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "quote does not show battery or manual included",
+   "text": "סוללת AA 1.5 V אלקליין ומדריך למשתמש"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "quote does not mention a brush",
+   "text": "מברשת ניקוי"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "יש להסיר את כיסוי ההגנה לפני השימוש"
+  },
+  {
+   "sources": [
+    "s1",
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "יש לשמן את הלהב בטיפת שמן ולהשתמש רק בשמן נטול חומציות, למשל שמן מכונות תפירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "יש לשטוף את הלהב תחת מים זורמים ולהניח לו להתייבש לגמרי"
+  }
+ ],
+ "content": {
+  "summary": "קרירה 9154071 היא ערכת קוצץ 3 ב-1 לשיער האף והאוזניים, עם 3 ראשים מתחלפים: ראש לאף ולאוזניים, ראש לקיצוץ זקן וראש לעיצוב גבות. המכשיר פועל על סוללה אלקליין 1.5 V, והלהב נשטף תחת מים זורמים. מתאים למי שמחפש מכשיר טיפוח קטן אחד לאזורים העדינים בפנים.",
+  "highlights": [
+   "3 ראשים מתחלפים",
+   "ראש לקיצוץ שיער באף ובאוזניים",
+   "ראש לעיצוב גבות וראש לקיצוץ זקן",
+   "פועל על סוללה אלקליין 1.5 V",
+   "הלהב נשטף תחת מים זורמים"
+  ],
+  "goodFor": [
+   "טיפוח שוטף של שיער האף והאוזניים בבית",
+   "עיצוב גבות וקיצוץ זקן במכשיר אחד",
+   "שימוש ללא כבל, על סוללה"
+  ],
+  "considerations": [
+   "המכשיר פועל על סוללה אלקליין 1.5 V, כדאי להחזיק סוללה רזרבית",
+   "הלהב דורש שימון בטיפת שמן נטול חומציות, למשל שמן מכונות תפירה",
+   "זהו קוצץ לאזורים עדינים ולא מכונת תספורת לשיער הראש"
+  ],
+  "faq": [
+   {
+    "q": "כמה ראשים מגיעים עם המכשיר?",
+    "a": "3 ראשים מתחלפים: לאף ולאוזניים, לקיצוץ זקן ולעיצוב גבות.",
+    "sources": []
+   },
+   {
+    "q": "על איזה מקור מתח המכשיר פועל?",
+    "a": "על סוללה אלקליין 1.5 V.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את הלהב?",
+    "a": "שוטפים את הלהב תחת מים זורמים ומניחים לו להתייבש לגמרי.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך לשמן את הלהב?",
+    "a": "כן, מומלץ טיפת שמן נטול חומציות, למשל שמן מכונות תפירה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קוצץ שיער אף ואוזניים 3 ב-1 של קרירה, דגם 9154071, עם 3 ראשים מתחלפים ועבודה על סוללה אלקליין 1.5 V. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קוצץ שיער אף ואוזניים",
+   "קרירה 9154071",
+   "Carrera 9154071",
+   "מכשיר להסרת שיער מהאף",
+   "קוצץ גבות",
+   "קוצץ 3 ב-1",
+   "קוצץ שיער אף קרירה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הפעלה",
+   "catalogValue": "סוללת AA 1.5V יחידה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "פלדת אל-חלד (Stainless Steel) איכותית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ניקוי",
+   "catalogValue": "ראשים ניתנים להסרה ולשטיפה תחת מים זורמים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלושה ראשים",
+   "catalogValue": "ראש סיבובי להסרת שיער מהאף ומהאוזניים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלושה ראשים",
+   "catalogValue": "ראש קיצוץ מדויק לעיצוב קווי מתאר (פאות וקו זקן)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלושה ראשים",
+   "catalogValue": "מסרק ייעודי לדילול ועיצוב גבות באורכים שונים",
+   "finding": "corrected",
+   "correctValue": "ראש לעיצוב גבות עם להבים (Eyebrow Trimmer Attachment), לא מסרק",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "שמן לשימון הלהבים",
+   "finding": "contradicted",
+   "correctValue": "השמן אינו נכלל באביזרים. יש להשתמש בשמן נטול חומציות, למשל שמן מכונות תפירה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "מברשת ניקוי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "מכסה הגנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עיצוב",
+   "catalogValue": "גוף קומפקטי וארגונומי לאחיזה נוחה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "36 חודשים מיום הרכישה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "שם המוצר 'מכונת תספורת' אינו תואם לתיאור היצרן: המכשיר הוא מכשיר 3 ב-1 להסרת שיער באף ובאוזניים, לגבות ולקווי זקן, ולא מכונת תספורת לשיער ראש",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "מספר הפריט 9154071 מופיע במדריך של קרירה (CRR GENTLE-24, מתוארך 03.2014). לא נמצא דף יבואן ישראלי או קמעונאי ישראלי עם המודל המדויק; העובדות מבוססות על המדריך בלבד",
+   "severity": "medium"
+  },
+  {
+   "field": "להבים",
+   "issue": "חומר הלהבים והמארז (פלדת אל-חלד) אינו מופיע במדריך. דף קמעונאי גרמני שמזכיר פלדת אל-חלד אינו מציין את המספר 9154071 ולכן לא נספר כראיה",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "שם הקטלוג 'מכונת תספורת' אינו תואם: היצרן מתאר ערכת קוצץ 3 ב-1 לשיער האף והאוזניים",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הקטלוג מציין שמן לשימון ומברשת ניקוי באביזרים; המדריך ממליץ על שמן מכונות תפירה ולא מאשר שהשמן או המברשת כלולים",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "הקטלוג מתאר מסרק לגבות; במדריך מופיע ראש קוצץ לגבות (Eyebrow Trimmer Attachment)",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "המדריך (שוק אירופי, 03.2014) מציין אחריות 36 חודשים; האחריות בישראל לא אומתה",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 0 value narrowed to what the quote says (3-in-1 nose/ear trimmer set). Fact 1 value: quote does not state AA, changed to 1.5 V alkaline battery. Fact 2 (36-month warranty) rejected: EU manual guarantee, not applicable to the Israeli unit. Feature 1 narrowed to beard trimming. inTheBox 2 (battery + manual) and 3 (cleaning brush) rejected: quotes do not show they are included."
+ }
+}

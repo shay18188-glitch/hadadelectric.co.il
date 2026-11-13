@@ -1,0 +1,310 @@
+{
+ "modelNumber": "ATL-218",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-218",
+  "israeliImporter": "יוסף חיים בע״מ",
+  "matchConfidence": "high",
+  "notes": "דף היצרן goldline.co.il מציין אחריות שנה ע״י יוסף חיים בע״מ. | QA: דף היצרן מציין דגם ATL-218 וברקוד זהה לקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/juice-express-3/",
+   "publisher": "Gold Line",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/%D7%9E%D7%A1%D7%97%D7%98%D7%AA-%D7%94%D7%93%D7%A8%D7%99%D7%9D-gold-line-90602181",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "90 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "19.5 × 27.5 × 21 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י יוסף חיים בע״מ"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד",
+     "value": "7290013382542"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "נירוסטה מוברשת בשילוב שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש סחיטה אוניברסלי לסוגי פירות שונים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פילטר סינון שיירים עשוי נירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פתח יציאת מיץ ומזיגה ישירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון STOP לעצירת זרימת המיץ בעת הצורך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתפרקת לניקוי קל ונוח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גימור נירוסטה מוברשת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקום לאחסון הכבל החשמלי בגוף המסחטה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מסחטת הדרים חשמלית של Gold Line, דגם ATL-218, בהספק 90 W ובגימור נירוסטה מוברשת. ראש הסחיטה האוניברסלי מתאים לסוגי פירות שונים, והמיץ נמזג ישירות לכוס דרך פתח יציאה עם מנגנון STOP. מתאימה למי שסוחט תפוזים, לימונים ואשכוליות במטבח הביתי ורוצה מכשיר קומפקטי שמתפרק לניקוי.",
+  "highlights": [
+   "הספק 90 W",
+   "ראש סחיטה אוניברסלי לסוגי פירות שונים",
+   "מזיגה ישירה עם מנגנון STOP",
+   "פילטר סינון מנירוסטה",
+   "מידות 19.5 × 27.5 × 21 ס״מ"
+  ],
+  "goodFor": [
+   "סחיטת מיץ הדרים טרי ישירות לכוס",
+   "מטבח עם מקום מוגבל על השיש, בזכות המידות הקומפקטיות ואחסון הכבל בגוף המכשיר",
+   "מי שמחפש מסחטה שמתפרקת לניקוי מהיר"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש לגובה 27.5 ס״מ, כולל מרווח להנחת כוס מתחת לפתח המזיגה",
+   "המסחטה מיועדת לפירות הדר ולא לסחיטת ירקות או פירות קשים",
+   "האחריות לשנה ניתנת ע״י יוסף חיים בע״מ"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המסחטה?",
+    "a": "ההספק הוא 90 W.",
+    "sources": []
+   },
+   {
+    "q": "אפשר למזוג ישירות לכוס?",
+    "a": "כן, יש פתח יציאת מיץ למזיגה ישירה ומנגנון STOP לעצירת הזרימה בעת הצורך.",
+    "sources": []
+   },
+   {
+    "q": "האם קל לנקות אותה?",
+    "a": "כן, המסחטה מתפרקת לניקוי קל ונוח, והפילטר עשוי נירוסטה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה ע״י יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מסחטת הדרים חשמלית Gold Line ATL-218 בהספק 90 W, עם ראש סחיטה אוניברסלי, פילטר נירוסטה ומזיגה ישירה עם מנגנון STOP. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מסחטת הדרים",
+   "מסחטת הדרים חשמלית",
+   "Gold Line ATL-218",
+   "ATL-218",
+   "מסחטת תפוזים גולד ליין",
+   "מסחטת מיץ נירוסטה",
+   "מסחטה עם מזיגה ישירה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "90 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "27.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "19.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "21 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר סינון",
+   "catalogValue": "פילטר נירוסטה איכותי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור חיצוני",
+   "catalogValue": "נירוסטה מוברשת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין (עבור המותג הישראלי Gold Line)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחסון כבל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מקום לאחסנת הכבל החשמלי בגוף המסחטה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מתח עבודה",
+   "issue": "מתח 230V לא מופיע באף עמוד שנבדק; לאמת מול תווית המוצר או מדריך היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "דף באג מציין 'יבואן רשמי: כן' אך לא מציין את שם היבואן הישראלי.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "מתח 230V שבקטלוג לא אומת באף מקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": ""
+ }
+}

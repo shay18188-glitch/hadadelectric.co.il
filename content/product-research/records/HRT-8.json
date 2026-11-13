@@ -1,0 +1,364 @@
+{
+ "modelNumber": "HRT-8",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Harper",
+  "exactModel": "HRT-8",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only one Israeli retailer page with a full spec table for this exact model was readable (GSM). The importer is not named on any page read; other listings mention an official importer without naming it on the page read. | QA: GSM Israeli retailer page names the exact model HRT-8 suitcase turntable; importer not named."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://gsm-tech.co.il/product/%D7%A4%D7%98%D7%99%D7%A4%D7%95%D7%9F-bluetooth-%D7%9E%D7%96%D7%95%D7%95%D7%93%D7%94-%D7%A2%D7%9D-%D7%A8%D7%9E%D7%A7%D7%95%D7%9C%D7%99%D7%9D-%D7%A1%D7%98%D7%A8%D7%99%D7%90%D7%95-%D7%9E%D7%95%D7%91/",
+   "publisher": "GSM",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירויות ניגון",
+     "value": "33 1/3, 45 ו-78 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג הנעה",
+     "value": "רצועה (Belt Drive)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גדלי תקליטים נתמכים",
+     "value": "7, 10 ו-12 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמקולים מובנים",
+     "value": "סטריאו 2 × 3 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מחט",
+     "value": "קרמית סטריאו"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "Bluetooth 5.0"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסת AUX",
+     "value": "3.5 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Orientation not labelled on source.",
+     "label": "מידות מוצר",
+     "value": "12 × 26 × 35 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקור כוח",
+     "value": "שנאי 5V/1A"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים אחריות יבואן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רמקולים סטריאו מובנים בתוך הפטיפון, ללא צורך בחיבורים נוספים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תיבת תהודה מעץ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שקע לחיבור אוזניות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כיסוי מזוודה לסגירה בסיום השימוש ומניעת הצטברות אבק"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "פטיפון מזוודה נייד של Harper, דגם HRT-8, עם רמקולים סטריאו מובנים 2×3W שמאפשרים לנגן תקליטים בלי מגבר או רמקולים חיצוניים. הפטיפון מנגן ב-33 1/3, 45 ו-78 סל״ד ותומך בתקליטים בגדלים 7, 10 ו-12 אינץ׳, ומאפשר גם הזרמת מוזיקה מהטלפון ב-Bluetooth 5.0. מתאים למי שרוצה להתחיל לנגן ויניל בפשטות או לפטיפון קומפקטי שנסגר כמזוודה.",
+  "highlights": [
+   "רמקולים סטריאו מובנים 2×3W",
+   "3 מהירויות ניגון: 33 1/3, 45 ו-78 סל״ד",
+   "Bluetooth 5.0 וכניסת AUX 3.5 מ״מ",
+   "הנעת רצועה ומחט קרמית סטריאו",
+   "כיסוי מזוודה שמגן מפני אבק"
+  ],
+  "goodFor": [
+   "מי שמתחיל לאסוף תקליטי ויניל ורוצה מערכת אחת בלי מגבר ורמקולים נפרדים",
+   "ניגון אוסף תקליטים מגוון, כולל תקליטי 78 סל״ד ישנים",
+   "שימוש כרמקול לטלפון דרך Bluetooth או כבל AUX",
+   "האזנה שקטה באוזניות דרך השקע הייעודי"
+  ],
+  "considerations": [
+   "ודאו שיש מקום על המדף למידות 12×26×35 ס״מ, כולל מרווח לפתיחת המכסה",
+   "הפטיפון מוזן משנאי 5V/1A, לכן יש למקם אותו ליד שקע חשמל",
+   "הרמקולים המובנים הם 2×3W, כך שמי שמחפש עוצמה גבוהה לחדר גדול כדאי שיבדוק זאת לפני הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך רמקולים חיצוניים כדי לשמוע תקליטים?",
+    "a": "לא. בפטיפון רמקולים סטריאו מובנים 2×3W לשמיעת התקליטים ללא חיבורים נוספים.",
+    "sources": []
+   },
+   {
+    "q": "אילו תקליטים אפשר לנגן בו?",
+    "a": "תקליטים בגדלים 7, 10 ו-12 אינץ׳, במהירויות 33 1/3, 45 ו-78 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשמיע בו מוזיקה מהטלפון?",
+    "a": "כן, דרך Bluetooth 5.0 או בחיבור כבל לכניסת AUX 3.5 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הפטיפון?",
+    "a": "12 חודשים אחריות יבואן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פטיפון מזוודה Harper HRT-8 עם רמקולים סטריאו מובנים 2×3W, Bluetooth 5.0 ו-3 מהירויות ניגון לתקליטי ויניל, בחדד אלקטריק נהריה",
+  "keywords": [
+   "פטיפון מזוודה",
+   "Harper HRT-8",
+   "פטיפון עם רמקולים מובנים",
+   "פטיפון בלוטוס",
+   "פטיפון נייד",
+   "פטיפון רטרו",
+   "פטיפון לתקליטי ויניל",
+   "פטיפון הרפר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מהירויות ניגון",
+   "catalogValue": "33, 45 ו-78 סל\"ד (RPM)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג הנעה",
+   "catalogValue": "רצועה (Belt Drive)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "2X3W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הזנה",
+   "catalogValue": "DC 5V/1A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסת AUX",
+   "catalogValue": "כניסת AUX (3.5 מ\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth (In)",
+   "catalogValue": "קישוריות Bluetooth (In) להזרמת מוזיקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שקע לאוזניות",
+   "catalogValue": "שקע לאוזניות (3.5 מ\"מ)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יציאת שמע RCA",
+   "catalogValue": "יציאת שמע RCA לחיבור רמקולים חיצוניים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתאם לתקליטי 45 סל\"ד",
+   "catalogValue": "כולל מתאם לתקליטי 45 סל\"ד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Auto-Stop",
+   "catalogValue": "פונקציית Auto-Stop לעצירה אוטומטית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ידית נשיאה",
+   "catalogValue": "ידית נשיאה וסגירת קליפס",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות מוצר",
+   "issue": "The retailer page gives 12x26x35 cm without labelling width, height or depth, so the order was not assigned. Confirm the orientation before publishing a labelled width × height × depth row.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No manufacturer, importer or EPREL page was readable for HRT-8. The specs rest on one Israeli retailer page (GSM). Other retailer listings mention an official importer and 12-month warranty, but the importer's name is not verified on a readable page.",
+   "severity": "medium"
+  },
+  {
+   "field": "יציאת שמע RCA",
+   "issue": "The catalog lists an RCA line output, the GSM spec table does not mention one, and no readable page confirms it. Verify before relying on it.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתאם לתקליטי 45 סל\"ד",
+   "issue": "The catalog says a 45 rpm adapter is included, and no readable page confirms it. Verify with the importer or the box contents.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות מוצר",
+   "issue": "The source gives 12x26x35 cm without labelling width, height or depth.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "All facts rest on a single Israeli retailer page; the importer is not named on any readable page.",
+   "severity": "medium"
+  },
+  {
+   "field": "יציאת שמע RCA",
+   "issue": "The catalog lists an RCA line output that no readable source confirms.",
+   "severity": "medium"
+  },
+  {
+   "field": "Auto-Stop / מתאם 45 סל\"ד / ידית נשיאה",
+   "issue": "Catalog mentions Auto-Stop, an included 45 rpm adapter and a carry handle with clip closure; none confirmed on a readable page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features verified by ok quotes on one Israeli retailer page (GSM) that names HRT-8."
+ }
+}

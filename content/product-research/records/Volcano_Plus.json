@@ -1,0 +1,266 @@
+{
+ "modelNumber": "Volcano Plus",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Lumitec",
+  "exactModel": "Volcano Plus",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצא רק עמוד אתר ישראלי אחד (ZipZap) לדגם המדויק; לא נמצא עמוד יצרן או יבואן. המפרט בעמוד שונה מהקטלוג בדרגת ההגנה ובאורך הכבל. | QA: Only one Israeli retailer page describes Lumitec Volcano Plus; no manufacturer or importer page to confirm the specification."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://zipzap.co.il/product/תנור-אינפרא-אדום-שלט-lumitec-לומיטק-volcano-plus/",
+   "publisher": "ZipZap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2500W"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says IP55; retailer page says IP34.",
+     "label": "דרגת הגנה",
+     "value": "IP34"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 1.9 m.",
+     "label": "אורך כבל",
+     "value": "כ-1.7 מ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר הגוף",
+     "value": "מתכת משולבת אלומיניום ופלסטיק"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלט רחוק להדלקה וכיבוי, בחירת דרגת חימום והפעלת טיימר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רפלקטור אחורי לפיזור החום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תרמוסטט מובנה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאם קיר"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות חיבור לחצובה (החצובה לא כלולה בערכה)"
+  }
+ ],
+ "content": {
+  "summary": "תנור חימום אינפרא אדום של Lumitec, דגם Volcano Plus, בהספק 2500W. התנור מגיע עם שלט רחוק להדלקה, לבחירת דרגת חימום ולהפעלת טיימר, וכולל תרמוסטט מובנה ורפלקטור אחורי לפיזור החום. מתאים למי שמחפש חימום ישיר עם אפשרות התקנה על הקיר או על חצובה.",
+  "highlights": [
+   "הספק 2500W",
+   "שלט רחוק עם בחירת דרגת חימום וטיימר",
+   "תרמוסטט מובנה",
+   "דרגת הגנה IP34",
+   "מתאם קיר כלול בערכה"
+  ],
+  "goodFor": [
+   "חימום ישיר של אזור ישיבה או עבודה",
+   "מי שרוצה לשלוט בתנור מרחוק באמצעות שלט",
+   "התקנה על הקיר בעזרת המתאם הכלול, או על חצובה"
+  ],
+  "considerations": [
+   "אורך הכבל כ-1.7 מ׳ – כדאי לוודא שיש שקע קרוב למקום ההתקנה",
+   "דרגת ההגנה IP34 – כדאי לבדוק מול המוכר את התאמת המיקום המתוכנן, במיוחד באזור חשוף",
+   "החצובה אינה כלולה בערכה ונרכשת בנפרד",
+   "תנור בהספק 2500W – מומלץ לחבר לשקע תקין שאינו עמוס במכשירים נוספים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Lumitec Volcano Plus?",
+    "a": "ההספק הוא 2500W.",
+    "sources": []
+   },
+   {
+    "q": "האם התנור מגיע עם שלט?",
+    "a": "כן, השלט מאפשר הדלקה וכיבוי, בחירת דרגת חימום והפעלת טיימר.",
+    "sources": []
+   },
+   {
+    "q": "איך מתקינים את התנור?",
+    "a": "בערכה כלול מתאם קיר, ויש גם אפשרות חיבור לחצובה שאינה כלולה בערכה.",
+    "sources": []
+   },
+   {
+    "q": "מה דרגת ההגנה של התנור?",
+    "a": "דרגת ההגנה היא IP34.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור חימום אינפרא אדום Lumitec Volcano Plus בהספק 2500W עם שלט רחוק, טיימר ותרמוסטט מובנה. ייעוץ ורכישה בחדד אלקטריק נהריה",
+  "keywords": [
+   "Lumitec Volcano Plus",
+   "תנור אינפרא אדום לומיטק",
+   "תנור חימום אינפרא אדום 2500W",
+   "תנור אינפרא אדום עם שלט",
+   "תנור חימום לקיר",
+   "לומיטק וולקנו פלוס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "2500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגת הגנה",
+   "catalogValue": "IP55",
+   "finding": "corrected",
+   "correctValue": "IP34",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "1.9 מטר",
+   "finding": "corrected",
+   "correctValue": "כ-1.7 מ׳",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גוף חימום",
+   "catalogValue": "סיבי פחם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "90×13×9 ס״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "3.1 ק״ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "מסך LED דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "לא נמצא עמוד יצרן או יבואן; רק עמוד ישראלי אחד לדגם המדויק",
+   "severity": "medium"
+  },
+  {
+   "field": "דרגת הגנה",
+   "issue": "הקטלוג מציין IP55 אך העמוד מציין IP34",
+   "severity": "high"
+  },
+  {
+   "field": "דרגת הגנה",
+   "issue": "הקטלוג מציין IP55 אך עמוד הקמעונאי הישראלי מציין IP34; יש לאמת מול היבואן או התווית",
+   "severity": "high"
+  },
+  {
+   "field": "אורך כבל",
+   "issue": "הקטלוג מציין 1.9 מטר אך העמוד מציין כ-1.7 מ׳",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא עמוד יצרן או יבואן; המפרט מבוסס על עמוד קמעונאי ישראלי אחד",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "סוג גוף החימום (סיבי פחם), מידות, משקל ותצוגת LED בקטלוג לא אומתו במקור",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from a single Israeli retailer page (ZipZap) naming the exact model; kept. The page contradicts the catalog on IP rating (IP34 vs IP55) and cable length (about 1.7 m vs 1.9 m); flagged for review. Catalog claims of carbon fiber element, dimensions, weight and LED display are unverified and not published."
+ }
+}

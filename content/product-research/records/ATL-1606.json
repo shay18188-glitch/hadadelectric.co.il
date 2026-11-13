@@ -1,0 +1,329 @@
+{
+ "modelNumber": "ATL-1606",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-1606",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם מאוורר קליפס ושולחני 7 אינץ, 2 ב-1. נמצא בשני אתרים ישראליים הכוללים את הדגם המדויק. יבואן לא צוין במפורש; האחריות בדף היצרן מנוהלת דרך יוסף חיים בע\"מ. | QA: דף גולד ליין ודף שזר מציגים את הדגם ATL-1606 עם אותו ברקוד ומפרט כמו בקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.shazartech.co.il/product/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%A7%D7%9C%D7%99%D7%A4%D7%A1-7-2-%D7%91-1-%D7%93%D7%92%D7%9D-atl-1606/",
+   "publisher": "שזר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.goldline.co.il/product/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-7-2-%D7%91-1-%D7%93%D7%92%D7%9D-atl-1606/",
+   "publisher": "גולדליין מוצרי חשמל ביתיים",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-1606"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד (EAN)",
+     "value": "7290011879242"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "17 × 33 × 23 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר רשת",
+     "value": "21 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל הזנה",
+     "value": "183 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "25 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מאוורר דו-שימושי: שולחני וקליפס"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רשת הגנה",
+     "value": "צפופה במיוחד"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מאוורר דו-שימושי: שולחני או קליפס לתלייה על מדף או שולחן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש מתכוונן מעלה ומטה לפיזור אוויר רחב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "הוסר 'עיצוב ייחודי' כטענה שיווקית",
+   "text": "פעולה שקטה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מאוורר קטן של גולד ליין, דגם ATL-1606, שמשמש גם כמאוורר שולחני וגם כמאוורר קליפס שנתפס על מדף או שולחן. ההספק 25 W, קוטר הרשת 21 ס״מ ויש 2 מהירויות, עם ראש מתכוונן מעלה ומטה. מתאים למי שמחפש מאוורר אישי שקט לשולחן עבודה או ליד המיטה.",
+  "highlights": [
+   "שימוש כמאוורר שולחני או כמאוורר קליפס",
+   "הספק 25 W",
+   "קוטר רשת 21 ס״מ",
+   "2 מהירויות וראש מתכוונן מעלה ומטה",
+   "רשת הגנה צפופה במיוחד"
+  ],
+  "goodFor": [
+   "שולחן עבודה או עמדת מחשב שצריכה זרימת אוויר אישית",
+   "תלייה על מדף או שולחן באמצעות הקליפס כשאין מקום על המשטח",
+   "ליד המיטה או בחדר שבו חשובה פעולה שקטה"
+  ],
+  "considerations": [
+   "אורך כבל ההזנה 183 ס״מ, כדאי לוודא שיש שקע קרוב למקום ההצבה",
+   "לשימוש כקליפס יש לוודא שלמדף או לשולחן יש שפה שהתפסן יכול לאחוז בה",
+   "זהו מאוורר אישי קטן בהספק 25 W, ולא מאוורר לקירור חדר שלם"
+  ],
+  "faq": [
+   {
+    "q": "אפשר לחבר את המאוורר למדף?",
+    "a": "כן, זהו מאוורר דו-שימושי שמשמש כמאוורר שולחני או כמאוורר קליפס שנתפס על מדף או שולחן.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש למאוורר?",
+    "a": "יש 2 מהירויות הפעלה, והראש מתכוונן מעלה ומטה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המאוורר?",
+    "a": "רוחב 17 ס״מ, גובה 33 ס״מ ועומק 23 ס״מ, וקוטר הרשת 21 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות של 12 חודשים על ידי גולד ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר קליפס ושולחני Gold Line ATL-1606 בהספק 25 W עם רשת בקוטר 21 ס״מ ו-2 מהירויות. מאוורר אישי שקט לשולחן או למדף, בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר קליפס",
+   "מאוורר שולחני קטן",
+   "Gold Line ATL-1606",
+   "גולד ליין מאוורר",
+   "ATL-1606",
+   "מאוורר אישי שקט",
+   "מאוורר למדף"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "25W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר רשת",
+   "catalogValue": "21 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "2 דרגות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "גובה 33 ס\"מ, עומק 23 ס\"מ, רוחב 17 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל הזנה",
+   "catalogValue": "183 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברקוד (EAN)",
+   "catalogValue": "7290011879242",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "סין (מותג ישראלי - גולד ליין)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "יבואן",
+   "issue": "דף היצרן מציין אחריות דרך יוסף חיים בע\"מ, אך לא מופיע יבואן רשמי מפורש. יש לוודא מי היבואן לפני פרסום שם יבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן הרשמי לא צוין במפורש במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "הצבע הלבן שבשם הקטלוג לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים מדף היצרן ומדף קמעונאי ישראלי לדגם המדויק."
+ }
+}

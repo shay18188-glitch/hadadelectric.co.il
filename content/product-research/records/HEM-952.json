@@ -1,0 +1,282 @@
+{
+ "modelNumber": "HEM-952",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-952",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The Hemilton Israel page names model HEM-952 and its 2100 W power matches the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem952",
+   "publisher": "Hemilton Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2100 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות חום",
+     "value": "3 (2100 W / 1400 W / 700 W)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שטח חימום מומלץ",
+     "value": "12–15 מ״ר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (אורך × רוחב × גובה)",
+     "value": "355 × 195 × 390 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגנה בנפילה",
+     "value": "כיבוי אוטומטי בנפילה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote says 3 heating elements; 'ceramic spiral' is not in the ok quote, so wording trimmed.",
+   "text": "3 גופי חימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הקרנת חום קדמית עוצמתית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רשת הגנה צפופה ובטיחותית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "תנור חימום של Hemilton, דגם HEM-952, בהספק 2100 W עם 3 דרגות חום (2100 W / 1400 W / 700 W) והקרנת חום קדמית. לפי היצרן הוא מתאים לחימום שטח של 12–15 מ״ר, וכולל כיבוי אוטומטי בנפילה ורשת הגנה צפופה. מתאים לחימום חדר בודד בבית.",
+  "highlights": [
+   "הספק 2100 W",
+   "3 דרגות חום: 2100 W / 1400 W / 700 W",
+   "מתאים לשטח של 12–15 מ״ר",
+   "כיבוי אוטומטי בנפילה",
+   "אחריות 12 חודשים"
+  ],
+  "goodFor": [
+   "חימום חדר שינה, חדר עבודה או סלון קטן",
+   "מי שרוצה לבחור דרגת חום נמוכה כשאין צורך בהספק מלא",
+   "בית עם תנועה בחדר, בזכות הכיבוי האוטומטי בנפילה ורשת ההגנה"
+  ],
+  "considerations": [
+   "בדקו שגודל החדר מתאים לשטח המומלץ של 12–15 מ״ר",
+   "בהספק 2100 W כדאי לחבר לשקע ייעודי ולא למפצל עמוס",
+   "בדקו שיש מקום פנוי למידות 355 × 195 × 390 מ״מ מול אזור הישיבה, כי החום מוקרן קדימה"
+  ],
+  "faq": [
+   {
+    "q": "כמה דרגות חום יש לתנור?",
+    "a": "3 דרגות: 2100 W, 1400 W ו-700 W.",
+    "sources": []
+   },
+   {
+    "q": "לאיזה גודל חדר הוא מתאים?",
+    "a": "לפי היצרן, לחימום שטח של 12–15 מ״ר.",
+    "sources": []
+   },
+   {
+    "q": "מה קורה אם התנור נופל?",
+    "a": "יש מנגנון שמפסיק את הפעולה אוטומטית בנפילה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על התנור?",
+    "a": "אחריות 12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור חימום Hemilton HEM-952 בהספק 2100 W עם 3 דרגות חום, מתאים לשטח של 12–15 מ״ר וכולל כיבוי בנפילה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור חימום המילטון",
+   "Hemilton HEM-952",
+   "HEM-952",
+   "תנור חימום 2100W",
+   "תנור חימום לחדר שינה",
+   "תנור חימום קרמי",
+   "תנור חימום עם כיבוי בנפילה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2100W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות חום",
+   "catalogValue": "2 מצבי עבודה (High/Low)",
+   "finding": "contradicted",
+   "correctValue": "3 דרגות חום: W2100 / W1400 / W700",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אלמנט חימום",
+   "catalogValue": "PTC קרמי איכותי",
+   "finding": "contradicted",
+   "correctValue": "גופי חימום קרמיים ספירליים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 8 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "צג LED דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בקרה",
+   "catalogValue": "לוח מקשי מגע ושלט רחוק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מבנה",
+   "catalogValue": "תנור מגדל (Tower Heater)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הגנה מפני התחממות יתר",
+   "catalogValue": "מנגנון הגנה מפני התחממות יתר",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דרגות חום",
+   "issue": "The store catalog says 2 working modes (High/Low), but the manufacturer page lists 3 heat levels (2100 W, 1400 W, 700 W). Check the catalog text before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "אלמנט חימום",
+   "issue": "The catalog says PTC ceramic; the manufacturer page says ceramic spiral heating elements and never mentions PTC.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The manufacturer page gives length 355, width 195, height 390 mm, without saying which is depth. The row is labelled by the page's own order.",
+   "severity": "low"
+  },
+  {
+   "field": "דרגות חום",
+   "issue": "Catalog says 2 working modes (High/Low); the manufacturer page lists 3 heat levels (2100/1400/700 W).",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog describes a PTC tower heater with timer, LED display, touch panel, remote and oscillation; the manufacturer page describes 3 heating elements with front heat radiation and does not mention these. Check the catalog description against the actual unit.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Manufacturer gives length 355, width 195, height 390 mm without saying which is depth.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All six facts and three features verified on the Hemilton Israel product page for HEM-952. The catalog spec text (2 modes, PTC, tower, timer, remote, LED display) is contradicted or not supported by the manufacturer page; flagged for review. Content built only from the kept facts."
+ }
+}

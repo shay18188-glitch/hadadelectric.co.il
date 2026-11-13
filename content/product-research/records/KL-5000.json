@@ -1,0 +1,362 @@
+{
+ "modelNumber": "KL-5000",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "KL-5000",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצא עמוד קמעונאי ישראלי אחד (Mall4All) עם מפרט מלא לדגם, שמופיע בו כ-KL 5000. לא נמצאו עמוד יצרן, יבואן, מדריך למשתמש או כרטיס EPREL לדגם. | QA: Only one Israeli retailer page, listing the model as KL 5000 (space instead of hyphen); dimensions and specs match the catalog. No manufacturer or importer page; body colour not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://mall4all.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-4-%D7%9C%D7%94%D7%91%D7%95%D7%AA-normande-%D7%93%D7%92%D7%9D-kl-5000",
+   "publisher": "Mall4All",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "50 × 85 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבערי גז",
+     "value": "4 מבערי Sabaf תוצרת איטליה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "46 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פונקציות אפייה",
+     "value": "6 פונקציות אפייה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת בטיחות",
+     "value": "FFD – ניתוק גז אוטומטי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "אלקטרונית לכל המבערים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רשתות כיריים",
+     "value": "עבות, בצבע שחור מט"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום עליון ותחתון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורה פנימית בתא האפייה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Normande KL-5000 הוא תנור משולב צר עם כיריים גז ותא אפייה חשמלי, ברוחב 50 ס״מ. בחלק העליון 4 מבערי Sabaf תוצרת איטליה עם הצתה אלקטרונית ומערכת בטיחות FFD לניתוק גז אוטומטי, ובחלק התחתון תא אפייה בנפח 46 ליטר עם 6 פונקציות אפייה. מתאים למטבחים שבהם המקום לתנור מוגבל.",
+  "highlights": [
+   "רוחב 50 ס״מ – מידות 50 × 85 × 60 ס״מ",
+   "4 מבערי Sabaf תוצרת איטליה",
+   "תא אפייה בנפח 46 ליטר",
+   "6 פונקציות אפייה",
+   "מערכת בטיחות FFD לניתוק גז אוטומטי"
+  ],
+  "goodFor": [
+   "מטבחים קטנים או צרים שבהם אין מקום לתנור רחב",
+   "מי שרוצה כיריים גז ותנור אפייה ביחידה אחת",
+   "מי שמעדיף הצתה אלקטרונית ומנגנון ניתוק גז אוטומטי"
+  ],
+  "considerations": [
+   "מדדו את הנישה: התנור ברוחב 50 ס״מ, בגובה 85 ס״מ ובעומק 60 ס״מ",
+   "חיבור הגז מחייב התקנה על ידי מתקין גז מוסמך",
+   "יש לוודא שקע חשמל קרוב עבור ההצתה האלקטרונית ותא האפייה",
+   "צבע הגוף לא אומת במקור – כדאי לבדוק אותו בחנות"
+  ],
+  "faq": [
+   {
+    "q": "מה המידות של Normande KL-5000?",
+    "a": "רוחב 50 ס״מ, גובה 85 ס״מ ועומק 60 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה מבערי גז יש בכיריים?",
+    "a": "יש 4 מבערי גז של Sabaf תוצרת איטליה, עם הצתה אלקטרונית לכל המבערים.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח תא האפייה?",
+    "a": "נפח תא האפייה הוא 46 ליטר, עם 6 פונקציות אפייה, כולל גוף חימום עליון ותחתון.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מנגנון בטיחות לגז?",
+    "a": "כן, מערכת בטיחות FFD מנתקת את הגז אוטומטית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור משולב גז צר Normande KL-5000 ברוחב 50 ס״מ, עם 4 מבערי Sabaf איטלקיים ותא אפייה בנפח 46 ליטר. מפרט מלא וייעוץ בחדד אלקטריק נהריה",
+  "keywords": [
+   "Normande KL-5000",
+   "נורמנדה KL-5000",
+   "תנור משולב גז צר",
+   "תנור משולב 50 ס״מ",
+   "תנור משולב כיריים גז",
+   "תנור צר למטבח קטן",
+   "מבערי Sabaf"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב: 50 ס\"מ; גובה: 85 ס\"מ; עומק: 60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא האפייה",
+   "catalogValue": "46 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מבערי גז",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבערי SABAF איטלקים",
+   "catalogValue": "מבערי SABAF איטלקים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "6 פונקציות אפייה",
+   "catalogValue": "6 פונקציות אפייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הצתה אלקטרונית",
+   "catalogValue": "הצתה אלקטרונית מובנית בכפתורי הגז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת בטיחות FFD",
+   "catalogValue": "מערכת בטיחות FFD לניתוק גז אוטומטי במקרה של כיבוי הלהבה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רשתות כיריים",
+   "catalogValue": "רשתות כיריים עבות בצבע שחור מט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה פנימית",
+   "catalogValue": "תאורה פנימית בתא האפייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל במצב סטטי",
+   "catalogValue": "0.703 קוט\"ש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל במצב מאוורר",
+   "catalogValue": "0.810 קוט\"ש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דלת זכוכית כפולה",
+   "catalogValue": "דלת זכוכית כפולה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תרמוסטט",
+   "catalogValue": "תרמוסטט לשליטה מדויקת בטמפרטורה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר מכני",
+   "catalogValue": "טיימר מכני",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "2 תבניות אפייה ורשת אחת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "טורקיה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הדף מציין את הדגם כ-\"KL 5000\" עם רווח, והקטלוג כותב \"KL-5000\". לפי שם היצרן והמפרט מדובר באותו דגם, אך יש לוודא מול מדבקת היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין צבע לבן. הדף מציין רק רשתות שחורות מט ואינו מציין את צבע הגוף. יש לבדוק את הצבע מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שדה היבואן בעמוד הקמעונאי ריק, ולא נמצא עמוד יבואן או יצרן לדגם. היבואן הישראלי אינו ידוע.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "כל העובדות שפורסמו מבוססות על עמוד קמעונאי ישראלי יחיד. אין מקור יצרן לאימות המפרט.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "העמוד הקמעונאי מציין את הדגם כ-KL 5000 (עם רווח). יש לוודא מול מדבקת הדגם.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין צבע לבן, אך המקור אינו מאשר את צבע הגוף.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "כל העובדות מבוססות על עמוד קמעונאי ישראלי יחיד; לא נמצא עמוד יצרן או יבואן. דירוג אנרגטי, צריכת חשמל, אביזרים, תרמוסטט, טיימר ודלת זכוכית כפולה מהקטלוג לא אומתו.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features are backed by ok quotes from a single Israeli retailer page (Mall4All) that names the model as KL 5000. Body colour, energy rating, consumption figures and accessories from the catalog are not verified and were not used."
+ }
+}

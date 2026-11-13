@@ -1,0 +1,422 @@
+{
+ "modelNumber": "TP-808",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Topson",
+  "exactModel": "TP-808",
+  "israeliImporter": "Topson",
+  "matchConfidence": "high",
+  "notes": "Retailer listings name TP-808 and say the Israeli warranty is given by Topson, the official importer. The manufacturer's own product page was not reached. A sibling model, TP-808A (black, sold by ACE), is a different listing and was not used as evidence. | QA: Three Israeli retailer pages name TOPSON TP-808 in silver/stainless; sibling TP-808A (black) not used."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://refaeli.co.il/items/1529596-TP-808",
+   "publisher": "Refaeli",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ivory.co.il/catalog.php?id=40435",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.j-rubin.co.il/items/6632626-%D7%9E%D7%A7%D7%A6%D7%99%D7%A3-%D7%97%D7%9C%D7%91-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-TOPSON-TP808",
+   "publisher": "J. Rubin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.zap.co.il/model.aspx?modelid=933760",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן חימום",
+     "value": "כ-80 שניות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורת חימום",
+     "value": "65 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "230V, 50Hz"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת הקצפה",
+     "value": "125 מ״ל"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת חימום",
+     "value": "250 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "reworded to match both quotes",
+     "label": "כיבוי אוטומטי",
+     "value": "כ-2 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר ייצור",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ציפוי פנימי",
+     "value": "טפלון"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "כסוף"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, יבואן רשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בסיס נשלף 360° לשליפה נוחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שני ראשים להחלפה: ראש להקצפה וראש לחימום"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חוברת הדרכה ותעודת אחריות רשמית"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מקציף חלב חשמלי מנירוסטה של TOPSON, דגם TP-808, בהספק 500W. מקציף עד 125 מ״ל חלב ומחמם עד 250 מ״ל, לטמפרטורה של 65 מעלות תוך כ-80 שניות. מתאים למי שמכין קפוצ׳ינו או לאטה בבית ורוצה קצף חלב בלי מכונת אספרסו עם קיטור.",
+  "highlights": [
+   "הספק 500W",
+   "הקצפה עד 125 מ״ל וחימום עד 250 מ״ל",
+   "חימום ל-65 מעלות תוך כ-80 שניות",
+   "ציפוי טפלון פנימי לניקוי קל"
+  ],
+  "goodFor": [
+   "הכנת קצף חלב לקפוצ׳ינו ולאטה בבית",
+   "חימום חלב לשתייה חמה בלי סיר",
+   "מטבח שבו רוצים ניקוי מהיר בזכות ציפוי טפלון"
+  ],
+  "considerations": [
+   "קיבולת ההקצפה היא 125 מ״ל, כך שלכמה כוסות ייתכן שיידרשו כמה סבבים",
+   "יש להחליף בין ראש ההקצפה לראש החימום לפי השימוש",
+   "ציפוי הטפלון מחייב ניקוי עדין בלי כלים שוחקים"
+  ],
+  "faq": [
+   {
+    "q": "כמה חלב אפשר להקציף בבת אחת?",
+    "a": "עד 125 מ״ל להקצפה, ועד 250 מ״ל לחימום בלבד.",
+    "sources": []
+   },
+   {
+    "q": "לאיזו טמפרטורה הוא מחמם וכמה זמן זה לוקח?",
+    "a": "המכשיר מחמם את החלב ל-65 מעלות תוך כ-80 שניות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש כיבוי אוטומטי?",
+    "a": "כן, המכשיר נכבה אוטומטית לאחר כ-2 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות של היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקציף חלב TOPSON TP-808 מנירוסטה, 500W, הקצפה עד 125 מ״ל וחימום ל-65 מעלות תוך כ-80 שניות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקציף חלב",
+   "מקציף חלב טופסון",
+   "TOPSON TP-808",
+   "TP-808",
+   "מקציף חלב חשמלי",
+   "מקציף חלב נירוסטה",
+   "מקציף חלב לקפוצ׳ינו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220V-240V",
+   "finding": "corrected",
+   "correctValue": "230V, 50Hz",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר ייצור",
+   "catalogValue": "פלדת אל-חלד (נירוסטה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת הקצפה",
+   "catalogValue": "עד 115 מ\"ל",
+   "finding": "corrected",
+   "correctValue": "125 מ״ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת חימום",
+   "catalogValue": "עד 240 מ\"ל",
+   "finding": "corrected",
+   "correctValue": "250 מ״ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס סיבובי",
+   "catalogValue": "בסיס סיבובי 360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "כיבוי אוטומטי",
+   "catalogValue": "מנגנון כיבוי אוטומטי לבטיחות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי",
+   "catalogValue": "מונע הידבקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "כפתור מגע עם נוריות חיווי LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצבי פעולה",
+   "catalogValue": "4 מצבי פעולה (קצף חם סמיך, קצף חם קל, חימום, קצף קר)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בידוד תרמי",
+   "catalogValue": "בידוד תרמי למניעת כוויות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כ-80 שניות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קיבולת הקצפה",
+   "issue": "The catalog gives 115 ml frothing and 240 ml heating. Retailer pages that name TP-808 give 125 ml and 250 ml. A search snippet showed 115 ml for the sibling TP-808A at ACE, which is a different model, so the catalog figure may have come from that listing. Check against the box or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "The catalog says 220V-240V. Retailers say 230V 50Hz. Check the rating plate.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "The manufacturer's own product page or manual was not reached. Facts rest on Israeli retailer pages, which say Topson is the official importer. Several are third-party listings that may not match the importer's current stock.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "The sibling TP-808A (black, ACE) is listed under a similar name. Confirm the colour and suffix of the unit being sold.",
+   "severity": "low"
+  },
+  {
+   "field": "קיבולת הקצפה",
+   "issue": "Catalog says 115 ml frothing / 240 ml heating; two Israeli retailer pages for TP-808 say 125 / 250 ml. Catalog figure may come from sibling TP-808A.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "Catalog says 220V-240V; retailer says 230V 50Hz. Check rating plate.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer page or manual reached; facts rest on Israeli retailer pages. Sibling TP-808A (black) exists; confirm colour and suffix of unit sold.",
+   "severity": "low"
+  },
+  {
+   "field": "מצבי פעולה",
+   "issue": "Catalog claims 4 operating modes, LED touch button and thermal insulation; none verified by sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Auto shut-off value reworded to 'כ-2 דקות' to match both quotes. Zap source relabelled as other (price-comparison aggregator). Catalog frothing/heating capacities (115/240 ml) and voltage (220-240V) differ from two Israeli retailer pages (125/250 ml, 230V 50Hz). | code guard removed: highlight: \"בסיס נשלף 360° ושני ראשים להחלפה\""
+ }
+}

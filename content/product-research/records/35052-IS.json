@@ -1,0 +1,367 @@
+{
+ "modelNumber": "35052-IS",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "35052-IS",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Model 35052-IS is listed by Israeli retailers as an 11 L 'health oven' / air-fryer-style unit (תנור בריאותי), not a 5 L fryer pot. No manufacturer or importer page was found in the budget. Electrica states the warranty is handled by שאוליאן סחר, which may be the importer but is not confirmed as such. | QA: The model code 35052-IS matches on both Israeli retailer pages, but they describe an 11 L health oven (air-fryer oven), while the catalog name and specs describe a 5 L air-fryer pot. The catalog data looks wrong for this SKU. No manufacturer page. The importer is unconfirmed (warranty by שאוליאן סחר)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrica.co.il/items/4898743--%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%98%D7%99%D7%92%D7%95%D7%9F-Hamilton-Beach-35052-IS-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F",
+   "publisher": "Electrica (אלקטריקה)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/cooking-steaming-and-frying-appliances/6646-hamilton-beach-health-oven-11-liters-35052-is.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "30-200 מעלות צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "11 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "38 × 45 × 37 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר דיגיטלי",
+     "value": "60 דקות עם כיבוי אוטומטי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיגון וצלייה ללא שימוש בשמן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר דיגיטלי של 60 דקות עם כיבוי אוטומטי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכניות אוטומטיות לצ׳יפס, סטייק, עוף, דגים, צלי, שיפודים וייבוש פירות וירקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית קרה ונוחה לאחיזה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Marketing claim of time saving, not a verifiable spec",
+   "text": "שיטת חימום ייחודית לפיזור חום, עד 25% חיסכון בזמן בישול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "התנור הבריאותי Hamilton Beach 35052-IS מטגן וצולה באוויר חם ללא שימוש בשמן, בתא אפייה של 11 ליטר. יש לו הספק של 2000 W, טווח טמפרטורות של 30-200 מעלות צלזיוס וטיימר דיגיטלי של 60 דקות עם כיבוי אוטומטי. הוא מתאים למי שרוצה תוכניות אוטומטיות לצ׳יפס, עוף, דגים וסטייק במכשיר שעומד על השיש.",
+  "highlights": [
+   "נפח תא אפייה של 11 ליטר",
+   "הספק של 2000 W",
+   "טווח טמפרטורות של 30-200 מעלות צלזיוס",
+   "טיימר דיגיטלי של 60 דקות עם כיבוי אוטומטי",
+   "תוכניות אוטומטיות, כולל ייבוש פירות וירקות"
+  ],
+  "goodFor": [
+   "טיגון צ׳יפס, עוף ודגים ללא שמן",
+   "הכנת שיפודים וצלי בתוכנית אוטומטית",
+   "ייבוש פירות וירקות בטמפרטורה נמוכה"
+  ],
+  "considerations": [
+   "המידות הן 38 × 45 × 37 ס״מ, לכן כדאי למדוד את המקום על השיש ואת הגובה מתחת לארונות העליונים",
+   "ההספק הוא 2000 W, לכן עדיף לחבר אותו לשקע נפרד ולא למפצל יחד עם מכשירים חזקים אחרים",
+   "זהו תנור בריאותי עם תא אפייה, לא סיר עם מגירה, ולכן כדאי לוודא שזה הסוג שאתם מחפשים"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח תא האפייה?",
+    "a": "11 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכשיר?",
+    "a": "2000 W.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "30-200 מעלות צלזיוס.",
+    "sources": []
+   },
+   {
+    "q": "האם יש כיבוי אוטומטי?",
+    "a": "כן, יש לו טיימר דיגיטלי של 60 דקות עם כיבוי אוטומטי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה, על ידי שאוליאן סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בריאותי Hamilton Beach 35052-IS לטיגון ללא שמן: תא אפייה 11 ליטר והספק 2000 W, עם טיימר דיגיטלי וכיבוי אוטומטי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Hamilton Beach 35052-IS",
+   "תנור בריאותי המילטון ביץ׳",
+   "מכשיר טיגון ללא שמן",
+   "סיר טיגון באוויר חם 11 ליטר",
+   "תנור טיגון באוויר חם",
+   "המילטון ביץ׳ 35052",
+   "air fryer Hamilton Beach"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1500 וואט",
+   "finding": "contradicted",
+   "correctValue": "2000 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח כולל",
+   "catalogValue": "5 ליטר",
+   "finding": "contradicted",
+   "correctValue": "11 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "80-200 מעלות צלזיוס",
+   "finding": "contradicted",
+   "correctValue": "30-200 מעלות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 60 דקות עם התרעה קולית וכיבוי אוטומטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V (מתאים לישראל)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "8 תוכניות בישול מובנות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ידית אחיזה קרה",
+   "catalogValue": "ידית אחיזה קרה למגע",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סל טיגון נשלף עם ציפוי Non-stick",
+   "catalogValue": "נשלף עם ציפוי Non-stick",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "brand",
+   "catalogValue": "Hemilton Beach",
+   "finding": "corrected",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "38 × 45 × 37 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "capacity",
+   "issue": "The catalog name and specs describe a 5 L black air-fryer pot at 1500 W and 80-200 °C. Two Israeli retailer pages for model 35052-IS describe an 11 L 'health oven' at 2000 W and 30-200 °C, 38 × 45 × 37 cm. The catalog name 'סיר לטיגון באוויר חם' contradicts the manufacturer-model description and must be checked.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Model 35052-IS appears on both retailer pages, but no manufacturer or importer page was found. The facts rest on two Israeli retailer pages (Electrica, Zabilo) that agree with each other.",
+   "severity": "medium"
+  },
+  {
+   "field": "installation",
+   "issue": "The Israeli importer is not confirmed. Electrica says the warranty is 'שנה ע\"י שאוליאן סחר', which may indicate the importer but is not stated as such.",
+   "severity": "medium"
+  },
+  {
+   "field": "תוכניות בישול",
+   "issue": "The catalog says 8 built-in cooking programs. The retailer pages list about 7 program types and no count of 8, so the number is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "התרעה קולית",
+   "issue": "The catalog says the timer has a voice alert. Retailer pages mention only a 60-minute digital timer with automatic shut-off, so the voice alert is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "The catalog brand spelling 'Hemilton Beach' is a typo. Pages use 'Hamilton Beach'.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "The catalog name and specs (air-fryer pot, 5 L, 1500 W, 80-200 °C) contradict both Israeli retailer pages for 35052-IS (11 L health oven, 2000 W, 30-200 °C). The catalog name and technical specifications need checking.",
+   "severity": "high"
+  },
+  {
+   "field": "brand",
+   "issue": "The catalog brand is spelled 'Hemilton Beach'. The sources use 'Hamilton Beach'.",
+   "severity": "low"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The Israeli importer is unconfirmed. The warranty is listed as handled by שאוליאן סחר.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "The catalog's 8 programs, voice alert, non-stick basket and dishwasher-safe claims could not be verified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Both Israeli retailer pages name 35052-IS and agree on 2000 W, 30-200 °C, 11 L, 38×45×37 cm and a 60-minute timer. The catalog's 1500 W, 5 L and 80-200 °C figures are contradicted. Feature 4 (up to 25% cooking-time saving) was rejected as an unverifiable marketing claim. Zabilo was relabelled il-retailer (Israeli shop, exact model)."
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "modelNumber": "ATL-2777",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-2777",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "הדגם משווק גם בשם My Cake. לא נמצא דף יצרן או יבואן עם מידות או משקל; הנתונים מבוססים על דפי חנויות ישראליות ושירות השוואת מחירים. | QA: Bug, Zap and Wisebuy all name Gold Line ATL-2777, a 4-in-1 baking appliance with interchangeable plates, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1131944",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?productid=1131944",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/מכשיר-אפייה-ביתי-רב-תכליתי-4-ב-1-gold-line-906729597",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "800 W"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זוגות פלטות מתחלפות",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוגי פלטות",
+     "value": "קייקפופס, דונאטס, וופל בלגי ודמויות מצוירות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "ע\"י גולד ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פלטות בציפוי NON STICK למניעת הידבקות וקילוף"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תרמוסטט אוטומטי להגנה מפני התחממות יתר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורת ביקורת להפעלה ונורת מצב מוכן (READY)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכשיר אפייה ביתי של Gold Line, דגם ATL-2777, עם 4 זוגות פלטות מתחלפות להכנת וופל בלגי, דונאטס, קייקפופס ודמויות מצוירות. הספק של 800 W, פלטות בציפוי NON STICK ותרמוסטט אוטומטי. מתאים למי שרוצה מכשיר אחד לכמה סוגי מאפים מתוקים בבית.",
+  "highlights": [
+   "4 זוגות פלטות מתחלפות",
+   "וופל בלגי, דונאטס, קייקפופס ודמויות מצוירות",
+   "הספק 800 W",
+   "ציפוי NON STICK למניעת הידבקות",
+   "נורת מצב מוכן (READY)"
+  ],
+  "goodFor": [
+   "משפחות שאוהבות להכין מאפים מתוקים בבית",
+   "מי שמעדיף מכשיר אחד במקום כמה מכשירי אפייה נפרדים",
+   "הכנת קייקפופס ודמויות מצוירות לימי הולדת ואירוחים"
+  ],
+  "considerations": [
+   "יש לוודא מקום אחסון לפלטות המתחלפות",
+   "מומלץ לבדוק שיש שקע חשמל זמין ליד משטח העבודה",
+   "כדי לשמור על ציפוי ה-NON STICK כדאי להשתמש בכלים שאינם מתכתיים"
+  ],
+  "faq": [
+   {
+    "q": "אילו מאפים אפשר להכין במכשיר?",
+    "a": "המכשיר מגיע עם 4 זוגות פלטות מתחלפות: וופל בלגי, דונאטס, קייקפופס ודמויות מצוירות.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכשיר?",
+    "a": "ההספק הוא 800 W.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שהמכשיר מוכן לאפייה?",
+    "a": "יש נורת ביקורת להפעלה ונורת מצב מוכן (READY).",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני התחממות יתר?",
+    "a": "כן, המכשיר כולל תרמוסטט אוטומטי להגנה מפני התחממות יתר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר אפייה Gold Line ATL-2777 עם 4 זוגות פלטות מתחלפות לוופל, דונאטס וקייקפופס, הספק 800 W וציפוי NON STICK. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכשיר אפייה 4 ב-1",
+   "Gold Line ATL-2777",
+   "מכשיר וופל בלגי",
+   "מכשיר דונאטס",
+   "מכשיר קייקפופס",
+   "גולד ליין מכשיר אפייה",
+   "My Cake גולד ליין"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "800 W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פלטות",
+   "catalogValue": "4 זוגות פלטות מתחלפות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ציפוי",
+   "catalogValue": "NON STICK",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בטיחות",
+   "catalogValue": "תרמוסטט אוטומטי",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות או משקל לדגם ATL-2777 בדפים שנבדקו. יש להשלים מהמוצר או מחוברת ההוראות.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות או משקל לדגם בדפים שנבדקו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features supported by ok quotes on pages naming ATL-2777. Zap and Wisebuy are price-comparison pages, kept as other."
+ }
+}

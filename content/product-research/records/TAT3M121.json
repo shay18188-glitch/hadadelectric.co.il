@@ -1,0 +1,297 @@
+{
+ "modelNumber": "TAT3M121",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "TAT3M121",
+  "israeliImporter": "BSH",
+  "matchConfidence": "high",
+  "notes": "Bosch Germany page names TAT3M121 (MyMoment compact toaster, white). Electrodeal and Zap Israeli pages name the model too. | QA: Bosch manufacturer page and Israeli retailer page both name TAT3M121, white MyMoment compact 2-slot toaster."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrodeal.co.il/items/7715493-%D7%9E%D7%A6%D7%A0%D7%9D-BOSCH-%D7%91%D7%95%D7%A9-TAT3M121",
+   "publisher": "Electrodeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bosch-home.com/de/produktliste/kleingeraete/toaster/TAT3M121",
+   "publisher": "Bosch Hausgeräte DE",
+   "kind": "manufacturer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Bosch"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר פרוסות",
+     "value": "2 פרוסות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "950 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "100 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "mm to cm",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "29.3 × 20.7 × 17.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר הגוף",
+     "value": "פלסטיק"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון למרכוז אוטומטי של פרוסות הלחם לקלייה אחידה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון הרמה גבוהה להוצאה קלה של הצנימים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כיבוי אוטומטי כאשר הלחם נתקע"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגירת פירורים נגישה לניקוי קל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתקן לחימום לחמניות, נשלף ומתקפל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית הפשרה וחימום מחדש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Bosch TAT3M121 הוא מצנם קומפקטי ל-2 פרוסות בצבע לבן מסדרת MyMoment, בהספק 950 W. הוא כולל מרכוז אוטומטי של הפרוסות לקלייה אחידה, מתקן מתקפל לחימום לחמניות ופונקציית הפשרה. מתאים למטבח ביתי שמחפש מצנם קטן ופשוט לשימוש יומיומי.",
+  "highlights": [
+   "הספק 950 W",
+   "קלייה של 2 פרוסות עם מרכוז אוטומטי",
+   "מתקן לחימום לחמניות, נשלף ומתקפל",
+   "פונקציית הפשרה וחימום מחדש",
+   "כיבוי אוטומטי כאשר הלחם נתקע"
+  ],
+  "goodFor": [
+   "מטבח עם משטח עבודה מוגבל, בזכות מידות קומפקטיות",
+   "ארוחות בוקר מהירות עם טוסט או לחמניות מחוממות",
+   "קלייה של לחם קפוא בעזרת פונקציית ההפשרה"
+  ],
+  "considerations": [
+   "ודאו שיש מקום על השיש במידות 29.3 × 20.7 × 17.5 ס״מ",
+   "אורך הכבל 100 ס״מ, כדאי למקם את המצנם בקרבת שקע",
+   "המצנם קולה 2 פרוסות בכל פעם",
+   "גוף המצנם עשוי פלסטיק"
+  ],
+  "faq": [
+   {
+    "q": "כמה פרוסות אפשר לקלות בבת אחת?",
+    "a": "המצנם מיועד ל-2 פרוסות.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המצנם?",
+    "a": "ההספק הוא 950 W.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחמם לחמניות?",
+    "a": "כן, יש מתקן לחימום לחמניות שאפשר להסיר ולקפל.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לקלות לחם קפוא?",
+    "a": "כן, יש פונקציית הפשרה וגם פונקציית חימום מחדש.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את הפירורים?",
+    "a": "יש מגירת פירורים נגישה המאפשרת ניקוי קל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מצנם Bosch TAT3M121 לבן ל-2 פרוסות, הספק 950 W, מרכוז אוטומטי, מתקן לחמניות ופונקציית הפשרה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מצנם בוש",
+   "Bosch TAT3M121",
+   "TAT3M121",
+   "מצנם 2 פרוסות",
+   "מצנם לבן",
+   "מצנם Bosch MyMoment",
+   "טוסטר בוש"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "950W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה 20.7 ס\"מ, רוחב 29.3 ס\"מ, עומק 17.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "100 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "2 פרוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "1.6 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מספר פרוסות",
+   "issue": "Some foreign listings say 4 slices; Bosch and Israeli pages show a 2-slot compact toaster.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "Catalog weight 1.6 kg not confirmed by any fetched source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against Bosch DE manufacturer page or Electrodeal. Dimensions converted mm to cm only. Zap source kind corrected from review to other (price comparison aggregator). Catalog weight 1.6 kg and origin not verified, not published."
+ }
+}

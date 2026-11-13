@@ -1,0 +1,342 @@
+{
+ "modelNumber": "OM-KITCH-DISPLAY8",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Omega",
+  "exactModel": "OM-KITCH-DISPLAY8",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The only source found is an Israeli retailer page (SAYNET) that names the model as מק\"ט OM-KITCH-DISPLAY8 and lists the brand as OMEGA. No manufacturer or importer page was found. | QA: SAYNET page lists מק\"ט OM-KITCH-DISPLAY8, brand OMEGA, kitchen scale, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.saynet.co.il/appliances/mwqlim/migvan-mishkalim/om-kitch-display8.html",
+   "publisher": "SAYNET",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Omega"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Axis order not given on the page; label made neutral.",
+     "label": "מידות",
+     "value": "20 × 15 × 2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כושר שקילה מקסימלי",
+     "value": "עד 5000 גרם"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת דיוק",
+     "value": "1 גרם"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תצוגה",
+     "value": "מסך LCD"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יחידות שקילה",
+     "value": "g / kg / lb / oz"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Dropped 'Li-ion' wording; CR2032 is a lithium coin cell. Contradicts catalog 2×AAA.",
+     "label": "סוג סוללה",
+     "value": "1 × CR2032"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומרי גוף",
+     "value": "זכוכית + פלסטיק ABS"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקנים",
+     "value": "CE, RoHS, LFGB"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התראת עומס יתר והתראת סוללה חלשה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Reworded; LCD already covered as a fact.",
+   "text": "משטח שקילה מזכוכית מחוסמת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "משקל מטבח דיגיטלי של Omega עם משטח זכוכית מחוסמת ומסך LCD. שוקל עד 5000 גרם ברמת דיוק של 1 גרם, ומציג גרם, קילוגרם, ליברה ואונקיה. מתאים לבישול ולאפייה בבית, כשצריך למדוד רכיבים במדויק.",
+  "highlights": [
+   "כושר שקילה עד 5000 גרם",
+   "דיוק של 1 גרם",
+   "יחידות שקילה: g / kg / lb / oz",
+   "משטח זכוכית מחוסמת ומסך LCD",
+   "התראת עומס יתר וסוללה חלשה"
+  ],
+  "goodFor": [
+   "אפייה שדורשת מדידת קמח, סוכר וחמאה בדיוק של גרם",
+   "מעקב אחר כמויות מזון במנות",
+   "מתכונים מחו״ל שכתובים באונקיות או בליברות",
+   "מטבח קטן, בזכות גוף דק בעובי 2 ס״מ"
+  ],
+  "considerations": [
+   "המשקל פועל על סוללת מטבע CR2032 – כדאי להחזיק סוללה רזרבית",
+   "כושר השקילה מוגבל ל-5000 גרם, כולל משקל הקערה",
+   "משטח הזכוכית דורש טיפול זהיר כדי למנוע נפילה או מכה"
+  ],
+  "faq": [
+   {
+    "q": "מה המשקל המקסימלי שאפשר לשקול?",
+    "a": "עד 5000 גרם, ברמת דיוק של 1 גרם.",
+    "sources": []
+   },
+   {
+    "q": "איזו סוללה המשקל צריך?",
+    "a": "סוללת מטבע אחת מסוג CR2032.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשקול באונקיות?",
+    "a": "כן, המשקל מציג g, kg, lb ו-oz.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי המשקל?",
+    "a": "זכוכית ופלסטיק ABS, עם משטח זכוכית מחוסמת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "משקל מטבח דיגיטלי Omega OM-KITCH-DISPLAY8 עם משטח זכוכית מחוסמת, שוקל עד 5000 גרם בדיוק של 1 גרם ומסך LCD. בחדד אלקטריק נהריה",
+  "keywords": [
+   "משקל מטבח דיגיטלי",
+   "משקל מטבח Omega",
+   "OM-KITCH-DISPLAY8",
+   "משקל מטבח עד 5 קילו",
+   "משקל מטבח זכוכית",
+   "משקל לאפייה",
+   "משקל מטבח דיוק גרם"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Omega",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כושר שקילה מקסימלי",
+   "catalogValue": "עד 5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת דיוק",
+   "catalogValue": "1 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "מסך LCD דיגיטלי רחב וקריא",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יחידות שקילה",
+   "catalogValue": "g, kg, lb, oz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור מתח",
+   "catalogValue": "2 סוללות AAA (כלולות בחלק מהאריזות)",
+   "finding": "contradicted",
+   "correctValue": "1 × CR2032 Li-ion (כלולה)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציות מובנות: איפוס (Tare)",
+   "catalogValue": "איפוס (Tare)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פונקציות מובנות: כיבוי אוטומטי",
+   "catalogValue": "כיבוי אוטומטי לאחר זמן ללא שימוש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פונקציות מובנות: חיווי עומס יתר וסוללה נמוכה",
+   "catalogValue": "חיווי עומס יתר וחיווי סוללה נמוכה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מקור מתח",
+   "issue": "The catalog says 2 AAA batteries, but the retailer page lists 1 × CR2032 Li-ion. The battery type must be checked on the product or in the box.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות גוף",
+   "issue": "The retailer gives 20x15x2 CM with no axis labels, so the width, height and depth order is not confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only one Israeli retailer page was found for this exact model. No manufacturer, importer or manual page was found, so specifications are not independently confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "פונקציית איפוס וכיבוי אוטומטי",
+   "issue": "Tare and auto-off are in the catalog but do not appear on the retailer page, so they are unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור מתח",
+   "issue": "Catalog says 2 AAA batteries; the retailer page lists 1 × CR2032. Check the battery type on the unit or box and fix the catalog.",
+   "severity": "high"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only one Israeli retailer page confirms the specs; no manufacturer or importer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "פונקציות",
+   "issue": "Tare and auto-off in the catalog are not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Single Israeli retailer page naming the exact model. Dimensions relabelled without axis order (page gives 20x15x2CM unlabelled). Battery value simplified to 1 × CR2032 (the page's 'Li-ion' wording is a listing quirk for a lithium coin cell). Feature 1 reworded to the tempered-glass platform since the LCD is already a fact. Catalog's 2×AAA battery claim is contradicted by the retailer page."
+ }
+}

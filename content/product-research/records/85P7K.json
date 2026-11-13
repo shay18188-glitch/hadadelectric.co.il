@@ -1,0 +1,674 @@
+{
+ "modelNumber": "85P7K",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "TCL",
+  "exactModel": "85P7K",
+  "israeliImporter": "C-DATA",
+  "matchConfidence": "high",
+  "notes": "דגם 85P7K מופיע בדפי מוכרים ישראליים עם תיאור של יבואן רשמי C-DATA. דף היבואן הרשמי לא נמצא. דף TCL אוסטרליה מתאר גרסה אחרת (AiPQ PRO, 144Hz) ולא נשען עליו. | QA: ארבעה דפי מוכרים ישראליים מציינים את הדגם 85P7K. גרסת TCL אוסטרליה (144Hz, AiPQ Pro) שונה ולא נעשה בה שימוש."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.savoy.co.il/product/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-85-%D7%90%D7%99%D7%A0%D7%A5-tcl-4k-qled-%D7%93%D7%92%D7%9D-85p7k/",
+   "publisher": "Savoy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://maham-ksp.co.il/shop/tv/tv-screen/85-4k-qled-85p7k-tcl/",
+   "publisher": "KSP",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.citydeal.co.il/product/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-85-%D7%90%D7%99%D7%A0%D7%A5-%D7%93%D7%92%D7%9D-qled-4k-%D7%A1%D7%93%D7%A8%D7%94-tcl-85p7k-%D7%A2%D7%9D-google-tv",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-85-%D7%90%D7%99%D7%A0%D7%A5-%D7%98%D7%99-%D7%A1%D7%99-%D7%90%D7%9C-%E2%81%A685p7k%E2%81%A9/",
+   "publisher": "Avi Sofer",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "188.9 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה ללא מעמד",
+     "value": "108.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה עם מעמד",
+     "value": "115.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "CityDeal נותן 6.9 ס״מ; סומן לבדיקה",
+     "label": "עומק ללא מעמד",
+     "value": "63 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק עם מעמד",
+     "value": "372 מ״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Savoy מחליף בין משקל עם מעמד ובלי מעמד",
+     "label": "משקל עם מעמד",
+     "value": "31 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "85 אינץ׳"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K UHD"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג פאנל",
+     "value": "QLED"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בהירות",
+     "value": "450 ניט"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כיסוי צבעים",
+     "value": "93% DCI-P3"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תמיכה ב-HDR",
+     "value": "Dolby Vision, HDR10+, HLG"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "AiPQ"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "KSP מתאר שני רמקולים של 10W וסאב של 20W; 20W אינו בהכרח ההספק הכולל, והקטלוג מציין 40W",
+     "label": "הספק שמע",
+     "value": "20 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ערוצי שמע",
+     "value": "2.1"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תמיכה ב-Dolby Atmos",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יציאות HDMI",
+     "value": "3 (HDMI 2.1, תומך ARC/eARC)"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "Bluetooth 5.4"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "USB",
+     "value": "USB 3.0"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "CityDeal נותן 400×400",
+     "label": "תקן VESA",
+     "value": "600×400 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Avi Sofer מציין שנה אחת",
+     "label": "אחריות",
+     "value": "3 שנים (יבואן רשמי C-DATA)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תמיכה ב-Dolby Vision, HDR10+ ו-HLG"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Chromecast ושיקוף מסך, שליטה קולית, AirPlay ו-Bluetooth"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקלט DVB-T/T2 מובנה לקליטת ערוצי עידן+ באמצעות אנטנה (לא כלולה)"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב ALLM למעבר אוטומטי להשהיה נמוכה במשחקים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הרגליים פרושות על 1,477.5 מ״מ ובעומק 372 מ״מ"
+  }
+ ],
+ "content": {
+  "summary": "TCL 85P7K היא טלוויזיה חכמה בגודל 85 אינץ׳ עם פאנל QLED ברזולוציית 4K UHD ומערכת ההפעלה Google TV. המסך מגיע לבהירות של 450 ניט, מכסה 93% ממרחב הצבע DCI-P3 ותומך ב-Dolby Vision, HDR10+ ו-HLG. מתאימה למי שמחפש מסך גדול מאוד לסלון לצפייה בסרטים, סדרות וספורט.",
+  "highlights": [
+   "מסך QLED בגודל 85 אינץ׳ ברזולוציית 4K UHD",
+   "תמיכה ב-Dolby Vision, HDR10+ ו-HLG",
+   "מערכת הפעלה Google TV עם Chromecast ו-AirPlay",
+   "3 כניסות HDMI 2.1 עם תמיכה ב-ARC/eARC",
+   "מקלט DVB-T/T2 מובנה לערוצי עידן+"
+  ],
+  "goodFor": [
+   "סלון גדול שבו רוצים מסך של 85 אינץ׳",
+   "צפייה בתוכן HDR בפורמטים Dolby Vision ו-HDR10+",
+   "חיבור מקרן קול דרך eARC וקונסולה עם מצב ALLM",
+   "צפייה בערוצי עידן+ דרך אנטנה בלי ממיר"
+  ],
+  "considerations": [
+   "רוחב המסך 188.9 ס״מ והרגליים פרושות על 1,477.5 מ״מ, לכן יש לוודא שהשידה רחבה מספיק",
+   "עומק עם מעמד הוא 372 מ״מ, כדאי למדוד את עומק השידה",
+   "קצב הרענון הוא 60 Hz, שיקול למי שמחפש גיימינג בקצב רענון גבוה",
+   "לתליה על הקיר יש לוודא תקן VESA מול היבואן לפני בחירת זרוע"
+  ],
+  "faq": [
+   {
+    "q": "מה מערכת ההפעלה של הטלוויזיה?",
+    "a": "הטלוויזיה פועלת עם Google TV ותומכת ב-Chromecast, שיקוף מסך, AirPlay ושליטה קולית.",
+    "sources": []
+   },
+   {
+    "q": "אילו פורמטי HDR נתמכים?",
+    "a": "Dolby Vision, HDR10+ ו-HLG.",
+    "sources": []
+   },
+   {
+    "q": "מה קצב הרענון של המסך?",
+    "a": "60 Hz.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לקלוט עידן+ בלי ממיר?",
+    "a": "כן, יש מקלט DVB-T/T2 מובנה. נדרשת אנטנה, שאינה כלולה.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש?",
+    "a": "3 כניסות HDMI 2.1 עם תמיכה ב-ARC/eARC.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה TCL 85P7K בגודל 85 אינץ׳, QLED ברזולוציית 4K עם Google TV ותמיכה ב-Dolby Vision ו-HDR10+. בחדד אלקטריק נהריה",
+  "keywords": [
+   "TCL 85P7K",
+   "טלוויזיה 85 אינץ׳ TCL",
+   "טלוויזיה QLED 85 אינץ׳",
+   "TCL P7K",
+   "טלוויזיה 4K Google TV",
+   "טלוויזיה 85 אינץ׳ נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K UHD (3840x2160)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "פאנל",
+   "catalogValue": "QLED",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בהירות",
+   "catalogValue": "450 nits",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שמע",
+   "catalogValue": "2.1 ערוצים, 40W",
+   "finding": "corrected",
+   "correctValue": "2.1 ערוצים, 20W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "3 יציאות HDMI 2.1",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "USB 2.0",
+   "catalogValue": "USB 2.0",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "USB 3.0",
+   "catalogValue": "USB 3.0",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "5.4",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "WiFi 5",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1890x1089x63 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1889x1086x63 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1890x1152x372 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1889x1152x372 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "31 ק\"ג",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תקן VESA",
+   "catalogValue": "600x400",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "150W (SDR) / 300W (HDR)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "תמיכה ב-HDR",
+   "catalogValue": "Dolby Vision, HDR10+, HLG",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Dolby Atmos",
+   "catalogValue": "Dolby Atmos",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "DTS Virtual:X",
+   "catalogValue": "DTS Virtual:X",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Chromecast מובנה",
+   "catalogValue": "Chromecast מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים (יבואן רשמי C-DATA)",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "משקלי הטלוויזיה עם ובלי מעמד מתחלפים בין דפי מוכרים ישראליים: CityDeal נותן 31 ק״ג עם מעמד ו-30.3 ק״ג בלי, ו-Savoy נותן 30.3 ק״ג עם מעמד ו-31 ק״ג בלי. יש לבדוק בשרטוט היצרן.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "CityDeal מציין 3 שנות אחריות דרך יבואן רשמי C-DATA, ואילו Avi Sofer מציין 1 שנת אחריות. יש לאמת מול היבואן לפני מכירה.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "גובה ללא מעמד בקטלוג הוא 1089 מ״מ, בעוד Savoy נותן 108.6 ס״מ (1086 מ״מ). רוחב הקטלוג 1890 מ״מ, Savoy נותן 188.9 ס״מ. CityDeal נותן עובי 6.9 ס״מ, שאינו תואם לעומק 63 מ״מ. נדרשת בדיקה מול השרטוט.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק שמע",
+   "issue": "הקטלוג מציין 40W, אך דפי המוכרים הישראליים מציינים 20W (Savoy ו-CityDeal) ו-10W לכל רמקול וסאב של 20W (KSP). 40W אינו מופיע בדפים שנקראו.",
+   "severity": "medium"
+  },
+  {
+   "field": "VESA",
+   "issue": "Savoy נותן תקן VESA של 600x400 מ״מ, ואילו CityDeal נותן 400×400 מ״מ. הקטלוג תואם ל-Savoy.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "דפי ישראל נותנים 60 Hz. דף TCL אוסטרליה לגרסה אחרת (AiPQ PRO, 144Hz VRR ו-120Hz MEMC) אינו עדות לדגם הישראלי ולא נעשה בו שימוש. ייתכן שיש וריאנט אזורי.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת חשמל",
+   "issue": "הערכים 150W ו-300W בקטלוג לא נמצאו בדפים שנקראו. יש לבדוק את תווית האנרגיה EPREL או את מפרט היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "USB 2.0",
+   "issue": "יציאת USB 2.0 שבקטלוג לא נמצאה בדפים שנקראו. נמצא רק USB 3.0.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן C-DATA נמצא רק בתיאור של מוכר ישראלי (CityDeal). דף היבואן עצמו לא נמצא.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל עם מעמד ובלי מעמד מתחלף בין CityDeal ל-Savoy (31 ק״ג מול 30.3 ק״ג). יש לבדוק מול שרטוט היצרן.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "CityDeal מציין 3 שנות אחריות דרך C-DATA, Avi Sofer מציין שנה אחת. יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק שמע",
+   "issue": "הקטלוג מציין 40W; Savoy מציין 20W ו-KSP מתאר שני רמקולים של 10W וסאב של 20W. יש לאמת את ההספק הכולל.",
+   "severity": "medium"
+  },
+  {
+   "field": "VESA",
+   "issue": "Savoy נותן 600x400 מ״מ ו-CityDeal נותן 400×400 מ״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין 1890x1089 מ״מ, Savoy נותן 188.9×108.6 ס״מ; CityDeal נותן עובי 6.9 ס״מ לעומת 63 מ״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "גרסת TCL אוסטרליה של P7K היא 144Hz עם AiPQ Pro; הדפים הישראליים מציינים 60 Hz. לוודא שהגרסה הנמכרת היא הישראלית.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת חשמל / USB 2.0",
+   "issue": "צריכת חשמל 150W/300W ו-USB 2.0 מהקטלוג לא נמצאו בדפים שנקראו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "נדחה הספק שמע 20W (KSP מתאר 2 רמקולים של 10W וסאב של 20W, כלומר 20W אינו בהכרח ההספק הכולל). משקל, אחריות ו-VESA סומנו כסתירה בין דפי מוכרים. שאר הנתונים נשמרו."
+ }
+}

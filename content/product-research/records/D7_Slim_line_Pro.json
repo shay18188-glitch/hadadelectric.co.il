@@ -1,0 +1,359 @@
+{
+ "modelNumber": "D7 Slim line Pro",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Andis",
+  "exactModel": "D-7",
+  "israeliImporter": "אליאס אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The manufacturer page (item 32655) lists the model as 'Model D-7' with the product name Slimline Pro T-Blade Trimmer. The Israeli retailer page names it 'Andis D7 Slim line Pro'. Both refer to the same trimmer. The Israeli warranty is handled by Elias Electronics per the retailer page. | QA: The Israeli retailer page names Andis D7 Slim line Pro, which is the Andis D-7 Slimline Pro T-blade trimmer. The Andis page fits the same trimmer, but code marks it as not naming the model, so none of its facts were used. The importer name comes from the retailer page only."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מכונת-תספורת-andis-9178995211",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://andis.com/shop/detail/32655",
+   "publisher": "Andis",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": false,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות מנוע",
+     "value": "5700 סיבובים לדקה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only quote is on a page that does not name the model. The rotary motor still appears in feature 1, from the retailer.; quote checks: ok",
+     "label": "סוג מנוע",
+     "value": "רוטורי (Rotary)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name the model. Duplicates fact 0.; quote checks: ok",
+     "label": "מהירות מנוע (SPM)",
+     "value": "5700 מחזורים לדקה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "Ni-MH"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name the model; quote checks: ok",
+     "label": "מידות (אורך × רוחב × עומק)",
+     "value": "5.63 in × 1.38 in × 1.38 in"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name the model; quote checks: ok",
+     "label": "מידות אריזה (אורך × רוחב × עומק)",
+     "value": "8.13 in × 5.25 in × 2.88 in"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Differs from the catalog (10 mm)",
+     "label": "מסרקי הגבהה",
+     "value": "1.5,3,6,9 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name the model. The Israeli warranty may differ.; quote checks: ok",
+     "label": "אחריות",
+     "value": "2 שנים"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "ארצות הברית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכונת פיניש מקצועית מבית אנדיס, מיועדת לסידור זקן, מסגרות ושרטוטים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע רוטורי מאוזן לחיתוך בקו הצוואר ותיקונים קלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed the marketing words 'new' and 'more efficient'",
+   "text": "עיצוב להב שמזין שיער ביעילות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Andis D7 Slim line Pro היא מכונת פיניש מקצועית נטענת לסידור זקן, מסגרות ושרטוטים. היא מתאימה לספרים ולמי שמסדר זקן וקווי מתאר בבית.",
+  "highlights": [
+   "מנוע רוטורי של 5700 סיבובים לדקה",
+   "סוללת Ni-MH נטענת",
+   "מיועדת לסידור זקן, מסגרות ושרטוטים",
+   "תוצרת ארצות הברית"
+  ],
+  "goodFor": [
+   "ספרים שעושים שרטוטים וקווי מתאר בסוף תספורת",
+   "סידור זקן ומסגרות בבית",
+   "ניקוי קו הצוואר ותיקונים קלים בין תספורות"
+  ],
+  "considerations": [
+   "זו מכונת פיניש לקווים ולתיקונים, לא מכונה לתספורת מלאה",
+   "בדקו שמידות המסרקים שבאריזה מתאימות לאורך שאתם צריכים",
+   "הסוללה היא Ni-MH, לכן כדאי לשים לב לזמני הטעינה והשימוש בפועל"
+  ],
+  "faq": [
+   {
+    "q": "מה מהירות המנוע של Andis D7 Slim line Pro?",
+    "a": "המנוע הרוטורי עובד במהירות של 5700 סיבובים לדקה.",
+    "sources": []
+   },
+   {
+    "q": "איזו סוללה יש במכונה?",
+    "a": "סוללת Ni-MH נטענת.",
+    "sources": []
+   },
+   {
+    "q": "למה המכונה מיועדת?",
+    "a": "לסידור זקן, מסגרות ושרטוטים, לחיתוך בקו הצוואר ולתיקונים קלים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת פיניש נטענת Andis D7 Slim line Pro עם מנוע רוטורי של 5700 סיבובים לדקה ומסרקים של 1.5 עד 9 מ״מ, לזקן ולשרטוטים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Andis D7",
+   "אנדיס D7 Slim line Pro",
+   "מכונת פיניש אנדיס",
+   "מכונת שרטוטים לספרים",
+   "מכונה לסידור זקן",
+   "Andis Slimline Pro",
+   "מכונת תספורת נטענת אנדיס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "ארצות הברית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מהירות מנוע",
+   "catalogValue": "5,700 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "רוטורי (Rotary)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "Ni-MH נטענת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסרקי הגבהה",
+   "catalogValue": "1.5 מ\"מ, 3 מ\"מ, 6 מ\"מ, 10 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1.5, 3, 6, 9 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "100-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "להב",
+   "catalogValue": "להב T מפלדת פחמן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "אלחוטי או חיבור ישיר לחשמל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "שמן סיכה ומברשת ניקוי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "2 שנים",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אליאס אלקטרוניקה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מסרקי הגבהה",
+   "issue": "The catalog lists a 10 mm comb. The Israeli retailer lists combs of 1.5, 3, 6 and 9 mm, and the manufacturer page does not list combs. Confirm the comb set in the box.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "No Israeli or manufacturer page for the D-7 states the mains voltage. The UK variant (item 32665) lists 230 V, but it is a regional variant and was not used as evidence. Check the voltage on the product label.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם דגם",
+   "issue": "The manufacturer writes the model as D-7, while the catalog and the Israeli retailer write D7 Slim line Pro. These are the same trimmer. The name was not changed.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The importer name comes from one Israeli retailer page only. Confirm it with the importer before relying on it.",
+   "severity": "low"
+  },
+  {
+   "field": "מסרקי הגבהה",
+   "issue": "The catalog lists a 10 mm comb. The Israeli retailer lists 1.5, 3, 6 and 9 mm. Check the combs in the box.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The 2-year warranty appears only on the Andis page, which does not name the model, so it was not published. Confirm the warranty with the Israeli importer.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "No source names the model and states the voltage. Check the product label.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The importer name comes from one Israeli retailer page only. Confirm it.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 1, 3, 5, 7, 8: their only quotes come from the Andis page, which code marks as not naming the model. Kept motor speed, Ni-MH battery, comb sizes and country of origin from the Israeli retailer page that names the model. Comb sizes (1.5/3/6/9 mm) differ from the catalog (10 mm). Removed the word 'new' from feature 2. | code guard removed: fact 4 QA value \"1.5, 3, 6, 9 מ״מ\" not supported by quotes; kept \"1.5,3,6,9 מ״מ\"; summary: \"יש בה מנוע רוטורי של 5700 סיבובים לדקה וסוללת Ni-MH, ומגיעים איתה מסרקי הגבהה של 1.5, 3, 6 ו-9 מ״מ.\"; faq: \"אילו מסרקי הגבהה מגיעים עם המכונה?\"; highlight: \"מסרקי הגבהה של 1.5, 3, 6 ו-9 מ״מ\""
+ }
+}

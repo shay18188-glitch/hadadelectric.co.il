@@ -1,0 +1,362 @@
+{
+ "modelNumber": "66336-IS",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "66336-IS",
+  "israeliImporter": "שאוליאן סחר בע״מ",
+  "matchConfidence": "high",
+  "notes": "דף היבואן hamiltonbeach.co.il מציג את הדגם 66336-IS עם מק״ט 1207508230024. שאוליאן סחר מופיעה בתחתית דף היבואן כבעלת הזכויות. מידות הדגם מופיעות ללא יחידת מידה בעמוד. | QA: Importer page hamiltonbeach.co.il names 66336-IS exactly; Israeli retailer Sol and Zap name the same model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/66336-is",
+   "publisher": "Sol",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.hamiltonbeach.co.il/products/66336-is",
+   "publisher": "Hamilton Beach Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1235353",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "66336-IS"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "600 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "מנוע AC מקצועי בהנעה ישירה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Page gives no unit or axis order; mm matches catalog cm values.",
+     "label": "מידות",
+     "value": "205 × 205 × 260 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "כסוף"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר מסננת",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כבל חשמל",
+     "value": "ארוך"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שני ראשי סחיטה מתחלפים לרימון, אשכולית, תפוז, לימון וליים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "spelling fixed",
+   "text": "ידית ארגונומית להפעלה וסחיטה נוחה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת נגד נזילה Drip-Anti"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "wording fixed",
+   "text": "קלה לפירוק ולניקוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מסחטת הדרים ורימונים חשמלית של Hamilton Beach, דגם 66336-IS, עם מנוע AC מקצועי בהנעה ישירה בהספק 600 W וידית לחיצה ארגונומית. המסחטה מגיעה עם שני ראשי סחיטה מתחלפים לרימון, אשכולית, תפוז, לימון וליים, מסננת נירוסטה ומערכת נגד נזילה. מתאימה למי שסוחט מיץ טרי באופן קבוע, כולל רימונים.",
+  "highlights": [
+   "מנוע AC בהנעה ישירה בהספק 600 W",
+   "שני ראשי סחיטה מתחלפים להדרים ולרימונים",
+   "ידית לחיצה ארגונומית",
+   "מסננת נירוסטה",
+   "מערכת נגד נזילה Drip-Anti"
+  ],
+  "goodFor": [
+   "סחיטת רימונים בעונה, הודות לידית הלחיצה והמנוע בהנעה ישירה",
+   "סחיטת תפוזים, אשכוליות, לימונים וליים בעזרת ראשים מתחלפים",
+   "מטבח ביתי שבו רוצים ניקוי מהיר אחרי כל שימוש"
+  ],
+  "considerations": [
+   "בדקו שיש מקום על השיש למסחטה במידות 205 × 205 × 260 מ״מ, כולל מרווח מעל להרמת הידית",
+   "המנוע בהספק 600 W, כדאי לחבר לשקע זמין ליד משטח העבודה",
+   "יש לפרק את חלקי המסחטה לניקוי אחרי כל שימוש"
+  ],
+  "faq": [
+   {
+    "q": "האם המסחטה מתאימה לסחיטת רימונים?",
+    "a": "כן. היא מגיעה עם ראשי סחיטה מתחלפים שמיועדים גם לרימון, ופועלת עם ידית לחיצה ומנוע AC בהנעה ישירה.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המסחטה?",
+    "a": "ההספק הוא 600 W.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויה המסננת?",
+    "a": "המסננת עשויה נירוסטה.",
+    "sources": []
+   },
+   {
+    "q": "האם המסחטה מטפטפת אחרי הסחיטה?",
+    "a": "יש בה מערכת נגד נזילה Drip-Anti.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מסחטת הדרים ורימונים Hamilton Beach 66336-IS: מנוע AC בהנעה ישירה 600 W, ידית ארגונומית ושני ראשים מתחלפים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מסחטת רימונים",
+   "מסחטת הדרים חשמלית",
+   "Hamilton Beach 66336-IS",
+   "המילטון ביץ' מסחטה",
+   "מסחטת תפוזים עם ידית",
+   "מסחטת רימונים 600 וואט",
+   "66336-IS"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר",
+   "catalogValue": "מסחטת הדרים ורימונים 600 וואט",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "brand",
+   "catalogValue": "Hemilton Beach",
+   "finding": "corrected",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "600 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "מנוע AC מקצועי בהנעה ישירה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "20.5X20.5X26.0 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר מסננת",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כבל חשמל",
+   "catalogValue": "ארוך במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת נגד טפטוף",
+   "catalogValue": "Drip-Anti מובנית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-2.5 ק\"ג (משוער על פי דגמים מקבילים)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "ארצות הברית (עיצוב והנדסה); מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions_unit",
+   "issue": "דפי היבואן והקמעונאי מציגים 205 X 205 X 260 ללא יחידת מידה. הערך נרשם כמ״מ לפי ההקשר, ותואם ל-20.5 × 20.5 × 26.0 ס״מ בקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל של כ-2.5 ק\"ג בקטלוג מסומן כמשוער לפי דגמים מקבילים. לא נמצא משקל לדגם 66336-IS באף דף שנבדק.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "הטווח 220-240V בקטלוג לא נמצא בדפים שנבדקו לדגם זה.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "ארץ הייצור בקטלוג לא נמצאה בדפים שנבדקו. יש לאמת מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "שם המותג בקטלוג כתוב Hemilton Beach. השם הנכון לפי דף היבואן הוא Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "שם המותג בקטלוג כתוב Hemilton Beach, ובדף היבואן Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "דף היבואן מציג 205 X 205 X 260 ללא יחידה וללא סדר צירים; היחידה מ״מ הוסקה מהקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל בקטלוג מסומן כמשוער ולא נמצא בדפים שנבדקו.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח / ארץ ייצור",
+   "issue": "המתח וארץ הייצור בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions label changed to generic 'מידות' since the importer page gives no axis order and no unit; mm inferred from catalog 20.5×20.5×26 cm. Sol relabelled il-retailer. Feature 3 wording fixed. Catalog brand typo Hemilton -> Hamilton flagged."
+ }
+}

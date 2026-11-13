@@ -1,0 +1,342 @@
+{
+ "modelNumber": "PX-465",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Pure Acoustics",
+  "exactModel": "PX-465",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Manufacturer page lists PX-465 as Blyss 65 (pair-style outdoor speaker). Figures differ from the catalog on frequency range, tweeter material and bracket dimensions. | QA: Manufacturer page names PX-465 exactly; unclear whether the catalog item is a single speaker or a pair, and no Israeli source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.pure-acoustics.com/product/px-465/",
+   "publisher": "Pure Acoustics",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "150 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "וופר",
+     "value": "6.5 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טוויטר",
+     "value": "1 אינץ' (אלומיניום)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "התנגדות",
+     "value": "8 אוהם"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רגישות",
+     "value": "91dB±3dB"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תגובת תדר",
+     "value": "50Hz-22kHz"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Label corrected to L×W×H per quote",
+     "label": "מידות (אורך × רוחב × גובה)",
+     "value": "31.3 × 20.8 × 21.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Label corrected to L×W×H per quote",
+     "label": "מידות עם מתלה (אורך × רוחב × גובה)",
+     "value": "32.5 × 22.8 × 21.4 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תקן עמידות",
+     "value": "IP65"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רמקול חוץ 2-Way עם וופר 6.5 אינץ'"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גריל רשת אלומיניום עמיד לחלודה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתוכנן לעמוד בכל תנאי מזג האוויר, כולל מערכות השקיה וסילוני מים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גריל אלומיניום ומתלים להתקנה קלה"
+  }
+ ],
+ "content": {
+  "summary": "Pure Acoustics PX-465 הוא רמקול חוץ 2-Way עם וופר 6.5 אינץ' וטוויטר אלומיניום 1 אינץ'. הרמקול בתקן IP65, עם גריל רשת אלומיניום עמיד לחלודה, ומתוכנן לעמוד גם במערכות השקיה. הספק 150 W והתנגדות 8 אוהם, מתאים להתקנה בגינה, במרפסת או ליד הבריכה.",
+  "highlights": [
+   "וופר 6.5 אינץ' וטוויטר אלומיניום 1 אינץ'",
+   "תקן עמידות IP65",
+   "הספק 150 W, התנגדות 8 אוהם",
+   "תגובת תדר 50Hz-22kHz",
+   "גריל רשת אלומיניום עמיד לחלודה"
+  ],
+  "goodFor": [
+   "הגברה בגינה או במרפסת פתוחה",
+   "אזורי בריכה ואזורים החשופים למערכות השקיה",
+   "השלמת מערכת שמע קיימת לאזור חוץ"
+  ],
+  "considerations": [
+   "יש לוודא שהמגבר תומך ברמקולים בהתנגדות 8 אוהם",
+   "מקום ההתקנה צריך להכיל 32.5 × 22.8 × 21.4 ס״מ כולל המתלה",
+   "לבדוק עם המוכר אם המחיר הוא לרמקול בודד או לזוג"
+  ],
+  "faq": [
+   {
+    "q": "האם הרמקול מתאים להתקנה בחוץ?",
+    "a": "כן, הוא בתקן IP65 ומתוכנן לעמוד בכל תנאי מזג האוויר, כולל מערכות השקיה וסילוני מים.",
+    "sources": []
+   },
+   {
+    "q": "מה ההתנגדות של הרמקול?",
+    "a": "8 אוהם.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות כולל המתלה?",
+    "a": "32.5 × 22.8 × 21.4 ס״מ (אורך × רוחב × גובה).",
+    "sources": []
+   },
+   {
+    "q": "איזה טוויטר יש ברמקול?",
+    "a": "טוויטר אלומיניום 1 אינץ', לצד וופר 6.5 אינץ'.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "רמקול חוץ Pure Acoustics PX-465 עם וופר 6.5 אינץ', תקן IP65 והספק 150 W. מתאים לגינה, מרפסת ובריכה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Pure Acoustics PX-465",
+   "PX-465",
+   "רמקול חוץ",
+   "רמקול לגינה",
+   "רמקול עמיד במים",
+   "רמקול IP65",
+   "רמקול 6.5 אינץ'",
+   "רמקול לבריכה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "150 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "וופר",
+   "catalogValue": "6.5 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טוויטר",
+   "catalogValue": "1 אינץ' Titanium Dome",
+   "finding": "corrected",
+   "correctValue": "1 אינץ' אלומיניום",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח תדרים",
+   "catalogValue": "46Hz - 20kHz",
+   "finding": "corrected",
+   "correctValue": "50Hz-22KHz",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "התנגדות",
+   "catalogValue": "8 אוהם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רגישות",
+   "catalogValue": "91dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תקן עמידות",
+   "catalogValue": "IP65",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "31.3x20.8x21.4 ס\"מ (ללא מתלה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "4.4 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן (קיים גם בשחור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מחברים",
+   "catalogValue": "מוזהבים למניעת קורוזיה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "טוויטר",
+   "issue": "Manufacturer lists an aluminum tweeter, the catalog says titanium dome (Indian retailers also say titanium).",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח תדרים",
+   "issue": "Manufacturer says 50Hz-22KHz; catalog and retailers say 46Hz-20kHz or 29Hz-20kHz.",
+   "severity": "medium"
+  },
+  {
+   "field": "כמות",
+   "issue": "Catalog name says a single speaker; retailers sell the PX-465 as a pair.",
+   "severity": "high"
+  },
+  {
+   "field": "כמות",
+   "issue": "Catalog name says a single speaker; the manufacturer page describes outdoor speakers in plural and retailers sell PX-465 as a pair.",
+   "severity": "high"
+  },
+  {
+   "field": "טוויטר",
+   "issue": "Manufacturer lists an aluminum tweeter; catalog says Titanium Dome.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח תדרים",
+   "issue": "Manufacturer says 50Hz-22KHz; catalog says 46Hz-20kHz.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל/צבע/מחברים",
+   "issue": "Weight 4.4 kg, color options and gold connectors in the catalog are not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimension label corrected to length × width × height as the manufacturer quote states (L×W×H). Manufacturer figures replace the catalog's tweeter material (aluminum, not titanium) and frequency range (50Hz-22KHz, not 46Hz-20kHz). Weight, color and gold connectors not verifiable."
+ }
+}

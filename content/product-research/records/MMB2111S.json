@@ -1,0 +1,459 @@
+{
+ "modelNumber": "MMB2111S",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MMB2111S",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם VitaPower Serie 2. דף המפרט של היצרן (en-ZA) מציין צבע Silver. דף הרשת הישראלית מציין שהיבואן רשמי אך לא את שמו. | QA: Bosch VitaPower Serie 2 MMB2111S; manufacturer spec sheet and Israeli retailer page both name the exact model. 450W and 0.6 L match the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/en-ZA/MMB2111S.pdf",
+   "publisher": "BSH Home Appliances (Bosch spec sheet)",
+   "kind": "manufacturer",
+   "market": "ZA",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%A7%D7%95%D7%9E%D7%A4%D7%A7%D7%98%D7%99-%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99-450w-bosch-922221115",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "450 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סיבוב מרבית",
+     "value": "40000 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח המיכל",
+     "value": "0.6 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר המיכל",
+     "value": "טריטן (Tritan)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Label simplified; axis order not given by manufacturer.",
+     "label": "מידות",
+     "value": "367 × 122 × 126 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 1.2 kg.",
+     "label": "משקל נטו",
+     "value": "1.3 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240 V"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "80 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר וגימור הגוף",
+     "value": "ABS, גימור כסוף"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer-stated; confirm with importer.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת ProPerformance לערבול חלק ללא גושים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "להבי ProEdge מפלדת אל-חלד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Wording fixed: blend, not grind.",
+   "text": "ערבול ישירות בבקבוק ToGo עם הגנה מפני דליפות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "SafeLock name not in quote; wording adjusted.",
+   "text": "מנגנון בטיחות המונע פתיחה מקרית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חלקים הניתנים לשטיפה במדיח כלים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בלנדר VitaPower Serie 2 MMB2111S"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כוס ToGo אחת עם מחזיק סכין"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה שתייה אטום לדליפות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר אישי קומפקטי של בוש מסדרת VitaPower Serie 2, דגם MMB2111S, עם מנוע 450 W ומהירות סיבוב של עד 40000 סל״ד. הערבול נעשה ישירות בבקבוק ToGo מטריטן בנפח 0.6 ליטר, שאותו לוקחים איתכם עם מכסה שתייה אטום לדליפות. מתאים למי שמכין שייקים ומשקאות למנה אישית ורוצה מכשיר קטן שנכנס בקלות למטבח.",
+  "highlights": [
+   "מנוע 450 W עם עד 40000 סל״ד",
+   "בקבוק ToGo מטריטן בנפח 0.6 ליטר",
+   "להבי ProEdge מפלדת אל-חלד",
+   "מכסה שתייה אטום לדליפות לנשיאה",
+   "חלקים הניתנים לשטיפה במדיח כלים"
+  ],
+  "goodFor": [
+   "הכנת שייק בוקר אישי ולקיחתו לעבודה או לאימון בבקבוק ToGo",
+   "מטבחים קטנים שבהם חשוב מכשיר קומפקטי",
+   "מי שרוצה ניקוי מהיר בזכות חלקים המתאימים למדיח כלים"
+  ],
+  "considerations": [
+   "נפח הבקבוק 0.6 ליטר מתאים למנה אישית ולא להכנת כמויות גדולות",
+   "אורך כבל החשמל 80 ס״מ, כדאי לוודא שקע קרוב למקום העבודה",
+   "מידות המכשיר 367 × 122 × 126 מ״מ, כדאי לבדוק את הגובה מתחת לארונות העליונים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "המנוע בהספק 450 W ומגיע למהירות סיבוב של עד 40000 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח הבקבוק וממה הוא עשוי?",
+    "a": "הבקבוק בנפח 0.6 ליטר ועשוי טריטן (Tritan).",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשתות ישירות מהבקבוק?",
+    "a": "כן, מערבלים ישירות בבקבוק ToGo, ובאריזה יש מכסה שתייה אטום לדליפות.",
+    "sources": []
+   },
+   {
+    "q": "האם החלקים מתאימים למדיח כלים?",
+    "a": "כן, לפי היצרן החלקים ניתנים לשטיפה במדיח כלים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "לפי הרשת הישראלית האחריות היא לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר אישי Bosch MMB2111S עם מנוע 450 W ובקבוק ToGo מטריטן בנפח 0.6 ליטר לשייקים בדרך. בלנדר בוש VitaPower בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר בוש MMB2111S",
+   "Bosch MMB2111S",
+   "בלנדר אישי בוש",
+   "בלנדר ToGo",
+   "בלנדר שייקים 450 וואט",
+   "Bosch VitaPower Serie 2",
+   "בלנדר עם בקבוק",
+   "בלנדר קומפקטי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "450 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל",
+   "catalogValue": "0.6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר המיכל",
+   "catalogValue": "טריטן (Tritan) עמיד בפני שברים וללא BPA",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "להבי ProEdge מפלדת אל-חלד עם 4 כנפיים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מהירות מנוע",
+   "catalogValue": "עד 40,000 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "1",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 36.7 ס\"מ, רוחב 12.2 ס\"מ, עומק 12.6 ס\"מ",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "1.2 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "1.3 ק״ג (משקל נטו)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "80 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "86 dB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "גרמניה (עיצוב), סלובניה (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון בטיחות",
+   "catalogValue": "SafeLock",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "דף היצרן נותן 367x122x126 מ״מ בלי ציון צירים. דף הרשת הישראלית מציין גובה 12.6 ס״מ ורוחב 36.7 ס״מ, בניגוד לקטלוג שמציין גובה 36.7 ס״מ. יש לבדוק את סדר הצירים.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 1.2 ק״ג. דף היצרן מציין משקל נטו 1.3 ק״ג והרשת הישראלית מציינת 1.2 ק״ג. מקור היצרן נבחר.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "הרשת הישראלית מציינת אחריות של שנה. מקור אירופי שנמצא בחיפוש (לא נפתח) מציין שנתיים. יש לאמת את תקופת האחריות של היבואן הישראלי.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "דף היצרן מציין גרסת Silver. בחיפוש נמצאו גרסאות אפורות וכהות, ואחת מהן מסומנת כלא זמינה עוד. יש לוודא שהגרסה בקטלוג היא הגרסה הנכונה.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא שם היבואן הישראלי בדפים שנפתחו. הרשת מציינת שהיבואן רשמי.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 1.2 ק״ג, דף היצרן מציין משקל נטו 1.3 ק״ג.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "היצרן נותן 367x122x126 מ״מ בלי ציון צירים; הרשת הישראלית מחליפה בין גובה לרוחב לעומת הקטלוג. יש לבדוק סדר צירים.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אחריות של שנה מופיעה רק בדף רשת ישראלית; יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "דף היצרן מציין גרסת Silver; יש לוודא שהגרסה בקטלוג תואמת.",
+   "severity": "low"
+  },
+  {
+   "field": "קטלוג",
+   "issue": "עוצמת רעש 86 dB, מספר מהירויות ומקור הייצור בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions label simplified to 'מידות' (axis order not stated by the manufacturer, flagged). Weight 1.3 kg per manufacturer contradicts catalog 1.2 kg (flagged). Warranty from Israeli retailer kept but flagged for importer confirmation."
+ }
+}

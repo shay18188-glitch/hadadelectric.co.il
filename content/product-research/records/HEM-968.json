@@ -1,0 +1,321 @@
+{
+ "modelNumber": "HEM-968",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-968",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "Retailers list HEM-968 (also written HEM968) as a 3000W halogen patio heater sold by Hemilton, the official importer, in Israel. No manufacturer or importer page was found in this run. | QA: Three Israeli retailers list Hemilton HEM-968 (HEM968) as a 3000W halogen patio heater, with power steps, base and head diameters and color matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/פטריית-חימום-הלוגן-טלסקופית-3000w-hemilton-91809680",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/hemilton-hem968-%D7%A4%D7%98%D7%A8%D7%99%D7%99%D7%AA-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%94%D7%9C%D7%95%D7%92%D7%9F-3000w-%D7%9C%D7%92%D7%99%D7%A0%D7%94-%D7%95%D7%9C%D7%9E%D7%A8%D7%A4%D7%A1%D7%AA-3",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%AA%D7%A0%D7%95%D7%A8%D7%99-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F-hem968/",
+   "publisher": "Avi Sofer",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מקסימלי",
+     "value": "3000 W"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמות חימום",
+     "value": "1200 W / 1800 W / 3000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג גוף חימום",
+     "value": "הלוגן"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר בסיס",
+     "value": "46 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר ראש החימום",
+     "value": "58.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "כסוף"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י המילטון היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סטנד רצפה יציב למניעת התהפכות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון אבטחה מפני התהפכות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתג הפעלה/כיבוי פשוט"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "פטריית חימום חשמלית עומדת מבית Hemilton, דגם HEM-968, עם גוף חימום הלוגן והספק מקסימלי של 3000 W. ניתן לבחור בין שלוש עוצמות חימום: 1200 W, 1800 W ו-3000 W. הפטרייה עומדת על סטנד רצפה יציב עם מנגנון אבטחה מפני התהפכות, ומתאימה לחימום פינת ישיבה בחצר או במרפסת.",
+  "highlights": [
+   "הספק מקסימלי של 3000 W",
+   "שלוש עוצמות חימום: 1200 W / 1800 W / 3000 W",
+   "גוף חימום הלוגן",
+   "סטנד רצפה יציב ומנגנון אבטחה מפני התהפכות",
+   "אחריות שנה ע״י המילטון היבואן הרשמי"
+  ],
+  "goodFor": [
+   "חימום פינת ישיבה במרפסת או בחצר",
+   "מי שרוצה לבחור עוצמת חימום לפי מזג האוויר",
+   "מי שמעדיף חימום חשמלי בלי בלון גז"
+  ],
+  "considerations": [
+   "בהספק של 3000 W כדאי לוודא שהשקע והמעגל החשמלי מתאימים לצריכה כזו",
+   "יש לוודא שיש מקום לבסיס בקוטר 46 ס״מ ולראש חימום בקוטר 58.5 ס״מ",
+   "יש להציב את הפטרייה על משטח ישר כדי שהסטנד יעמוד יציב",
+   "טווח הגובה של העמוד לא אומת, כדאי לבדוק אותו לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "כמה עוצמות חימום יש לפטרייה?",
+    "a": "שלוש עוצמות לבחירה: 1200 W, 1800 W ו-3000 W.",
+    "sources": []
+   },
+   {
+    "q": "איזה סוג גוף חימום יש בה?",
+    "a": "גוף חימום הלוגן.",
+    "sources": []
+   },
+   {
+    "q": "מה קוטר הבסיס וקוטר ראש החימום?",
+    "a": "קוטר הבסיס 46 ס״מ וקוטר ראש החימום 58.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני התהפכות?",
+    "a": "כן, לפטרייה סטנד רצפה יציב ומנגנון אבטחה מפני התהפכות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה ע״י המילטון, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פטריית חימום הלוגן Hemilton HEM-968 בהספק 3000 W עם שלוש עוצמות חימום וסטנד יציב נגד התהפכות, לחצר ולמרפסת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "פטריית חימום הלוגן",
+   "פטריית חימום חשמלית",
+   "Hemilton HEM-968",
+   "המילטון פטריית חימום",
+   "פטריית חימום 3000W",
+   "תנור חימום למרפסת",
+   "פטריית חימום לגינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "3000W",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "עוצמות חימום",
+   "catalogValue": "1200W, 1800W ו-3000W",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "טכנולוגיית הלוגן",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "קוטר ראש החימום (המטרייה)",
+   "catalogValue": "58.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "קוטר הבסיס",
+   "catalogValue": "46 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "גובה מוט טלסקופי",
+   "catalogValue": "בין 160 ס\"מ ל-250 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון כיבוי אוטומטי בעת התהפכות",
+   "catalogValue": "חיישן המנתק את זרם החשמל באופן אוטומטי בעת התהפכות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גובה עמוד",
+   "issue": "Sources conflict on the height range: bug.co.il and citydeal.co.il give about 160-250 ס\"מ (per the manufacturer), while soferavi.co.il gives 160-205 ס\"מ. No height fact was published; a person should check the box or the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "מנגנון כיבוי אוטומטי",
+   "issue": "The catalog says a sensor cuts power automatically when the heater tips over. The retailer pages only mention an anti-tip stand or mechanism, so the automatic power cut-off is unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "No retailer page confirmed the 220-240V voltage. Check the product label or manual.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The soferavi.co.il page says the warranty terms apply to private customers only, not business or institutional buyers.",
+   "severity": "low"
+  },
+  {
+   "field": "גובה עמוד",
+   "issue": "Retailers disagree on the telescopic height range (about 160-250 cm vs 160-205 cm); not published, check the box or the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "מנגנון כיבוי אוטומטי",
+   "issue": "The catalog claims an automatic power cut-off sensor on tip-over; sources only mention an anti-tip stand/mechanism.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "The 220-240V voltage in the catalog was not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features are confirmed by ok quotes on Israeli retailer pages that name HEM-968 and match the catalog. Height range, voltage and the automatic tip-over power cut-off stay unpublished."
+ }
+}

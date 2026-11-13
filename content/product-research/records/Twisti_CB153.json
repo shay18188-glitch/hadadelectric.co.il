@@ -1,0 +1,449 @@
+{
+ "modelNumber": "Twisti CB153",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Shark Ninja",
+  "exactModel": "CB153",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע באתרי קמעונאים ישראלים כ-Twisti CB153 / NINJA TWISTI CB153. לא נמצא דף יצרן או יבואן רשמי לדגם. דגם האמריקאי SS151 (הספק 1600 W) אינו אותו דגם ולא שימש לעובדות. | QA: Israeli retailers (Bug, City Deal, Avi Sofer) list Ninja Twisti CB153 2-in-1 with official importer Sarig Electric warranty."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/ninja/twisti/cb153/2/in/1",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/twisti-2-1-cb153",
+   "publisher": "City Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%A0%D7%99%D7%A0%D7%92%D7%94-twisti-cb153/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Shark Ninja"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1100 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מכל ערבול",
+     "value": "1 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כוס אישית",
+     "value": "700 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (אורך × רוחב × גובה)",
+     "value": "16.5 × 21 × 35 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות אוטומטיות",
+     "value": "חמש תוכניות חכמות בעברית"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "פאנל תצוגה בעברית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Based on the Bug quote; Avi Sofer quote is a generic category policy.",
+     "label": "אחריות",
+     "value": "5 שנות אחריות יבואן רשמי"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "שריג אלקטריק"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כנפי ערבול מובנות במכסה המכל, לדחיפת רכיבים סמיכים אל הלהבים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית Auto IQ לתוכניות אוטומטיות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע smartTORQUE המיועד לעומסים כבדים במהירות גבוהה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "6 להבים לערבול וריסוק קרח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "המכלים ניתנים לשטיפה במדיח כלים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכל ערבול Power Nutri בנפח 1 ליטר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כוס Power Nutri בנפח 700 מ״ל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חוברת מתכונים בעברית"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "הוא מגיע עם מכל ערבול בנפח 1 ליטר וכוס אישית בנפח 700 מ״ל, ובמכסה המכל כנפי ערבול לדחיפת רכיבים סמיכים אל הלהבים. מתאים למי שמכין שייקים, משקאות קפואים ומנות סמיכות ורוצה גם כוס אישית לדרך.",
+  "highlights": [
+   "מנוע smartTORQUE בהספק 1100 W",
+   "מכל ערבול 1 ליטר וכוס אישית 700 מ״ל",
+   "חמש תוכניות חכמות ופאנל תצוגה בעברית",
+   "כנפי ערבול מובנות במכסה לרכיבים סמיכים",
+   "5 שנות אחריות יבואן רשמי - שריג אלקטריק"
+  ],
+  "goodFor": [
+   "הכנת שייקים ומשקאות עם קרח, בזכות 6 להבים לריסוק קרח",
+   "מנות סמיכות, כשכנפי הערבול במכסה דוחפות את הרכיבים אל הלהבים",
+   "שתייה אישית מחוץ לבית בכוס 700 מ״ל",
+   "מי שמעדיף תוכניות אוטומטיות ותצוגה בעברית"
+  ],
+  "considerations": [
+   "מדדו את המקום על השיש: מידות המכשיר 16.5 × 21 × 35 ס״מ",
+   "מכל הערבול בנפח 1 ליטר - כדאי לוודא שמתאים לכמויות שאתם מכינים",
+   "ודאו שהשקע במטבח מתאים למכשיר בהספק 1100 W"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Ninja Twisti CB153?",
+    "a": "לפי דפי המוצר בישראל, הבלנדר מגיע עם מנוע smartTORQUE בהספק 1100 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בקופסה?",
+    "a": "מכל ערבול Power Nutri בנפח 1 ליטר, כוס Power Nutri בנפח 700 מ״ל וחוברת מתכונים בעברית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשטוף את המכלים במדיח?",
+    "a": "כן, המכלים ניתנים לשטיפה במדיח כלים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "5 שנות אחריות של היבואן הרשמי, שריג אלקטריק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר Ninja Twisti CB153 בהספק 1100 W עם מכל ערבול 1 ליטר וכוס אישית 700 מ״ל, 5 שנות אחריות יבואן רשמי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Ninja Twisti CB153",
+   "בלנדר נינג'ה טוויסטי",
+   "CB153",
+   "בלנדר נינג'ה 2 ב-1",
+   "בלנדר עם כוס אישית",
+   "בלנדר לשייקים",
+   "נינג'ה בלנדר 1100W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר (1000 וואט)",
+   "catalogValue": "בלנדר 1000 וואט 2 ב-1",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1100 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V (מותאם לישראל)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מכל ערבול",
+   "catalogValue": "1 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח כוס אישית",
+   "catalogValue": "700 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "אורך 16.5 ס\"מ, רוחב 21 ס\"מ, גובה 35 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-2.6 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "מכלול 6 להבי HYBRID EDGE",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומרים",
+   "catalogValue": "פלסטיק עמיד ללא BPA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף משולב שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "פאנל דיגיטלי בעברית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות",
+   "catalogValue": "Auto-IQ, 5 תוכניות חכמות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנוע smartTORQUE",
+   "catalogValue": "smartTORQUE עוצמתי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכסה Twist Tamper",
+   "catalogValue": "מכסה Twist Tamper ייחודי עם כנפי ערבול מובנות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שטיפה במדיח",
+   "catalogValue": "חלקים ניתנים לשטיפה במדיח כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "עוצב בארצות הברית, מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5 שנות אחריות יבואן רשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג מציין 1000 וואט, אך שלושת אתרי הקמעונאים הישראליים שנבדקו מציינים 1100 W (1100W). יש לבדוק את השם.",
+   "severity": "high"
+  },
+  {
+   "field": "מקור מידע",
+   "issue": "לא נמצא דף יצרן, יבואן או מדריך למשתמש לדגם CB153. כל העובדות מבוססות על שלושה אתרי קמעונאים ישראליים.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל, מתח, חומרים, צבע",
+   "issue": "לא נמצאו בדפים שנבדקו: משקל, מתח 220-240V, חומרים ללא BPA, צבע כסוף משולב שחור, ושם המכסה Twist Tamper.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג מציין 1000 וואט, אך כל המקורות ומפרט הקטלוג עצמו מציינים 1100 W.",
+   "severity": "high"
+  },
+  {
+   "field": "מקורות",
+   "issue": "לא נמצא דף יצרן או יבואן רשמי; כל העובדות מבוססות על אתרי קמעונאים ישראליים.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט הקטלוג",
+   "issue": "משקל, מתח, ללא BPA, צבע ושם המכסה Twist Tamper לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept from Israeli retailer pages naming CB153. Warranty relies on the Bug quote; the Avi Sofer quote is a generic category warranty policy. Catalog name says 1000 W while all sources state 1100 W - flagged. Catalog weight, voltage, BPA-free, color and Twist Tamper name are unverified and not published. | code guard removed: summary: \"Ninja Twisti CB153 הוא בלנדר 2 ב-1 של Shark Ninja עם מנוע smartTORQUE בהספק 1100 W.\""
+ }
+}

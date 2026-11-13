@@ -1,0 +1,367 @@
+{
+ "modelNumber": "ATL-2790",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-2790",
+  "israeliImporter": "יוסף חיים יבוא ושיווק בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Importer page and three Israeli retailers name ATL-2790 exactly."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/atl-2790/",
+   "publisher": "Gold Line Israel (Yosef Chaim importer)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ivory.co.il/catalog.php?id=32922",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.technoshlomo.co.il/items/2613896--%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%9C%D7%94%D7%9B%D7%A0%D7%AA-%D7%A7%D7%A8%D7%A4-%D7%A6%D7%A8%D7%A4%D7%AA%D7%99-%D7%93%D7%92%D7%9D-ATL-2790-GOLD-LINE",
+   "publisher": "Technoshlomo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.bug.co.il/%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%9C%D7%94%D7%9B%D7%A0%D7%AA-%D7%A7%D7%A8%D7%A4-gold-line-90602791",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × אורך × גובה)",
+     "value": "31 × 33 × 6.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל ההזנה",
+     "value": "75 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, דרך היבואן יוסף חיים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ציפוי משטח",
+     "value": "טפלון בלתי דביק"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "משטח הכנה עגול ותחום למניעת נזילות הבלילה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תרמוסטט לכיוון רמת החום הרצויה"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורת ביקורת ונורת מצב מוכן"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of inTheBox item",
+   "text": "אביזר עץ לפיזור אחיד של הבלילה על משטח ההכנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוף חימום המספק פיזור חום אחיד בכל שטח ההכנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of fact 4",
+   "text": "משטח עשוי טפלון בלתי דביק"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כף עץ להפיכה, לקיפול ולהוצאה של הקרפ"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אביזר עץ לפיזור אחיד של הבלילה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכשיר חשמלי להכנת קרפ צרפתי של Gold Line, דגם ATL-2790, בהספק 1000 W. משטח ההכנה העגול והתחום מצופה טפלון בלתי דביק, ותרמוסטט מאפשר לכוון את רמת החום. מתאים למי שרוצה להכין קרפים דקים בבית, עם כף עץ ואביזר לפיזור הבלילה באריזה.",
+  "highlights": [
+   "הספק 1000 W",
+   "משטח עגול ותחום מצופה טפלון בלתי דביק",
+   "תרמוסטט לכיוון רמת החום ונורת מצב מוכן",
+   "כף עץ ואביזר עץ לפיזור הבלילה כלולים",
+   "אחריות שנה דרך היבואן יוסף חיים"
+  ],
+  "goodFor": [
+   "הכנת קרפים דקים בבית בלי מחבת",
+   "מי שרוצה שליטה ברמת החום לפי סוג הבלילה",
+   "מטבח שבו רוצים מכשיר שטוח שקל לאחסן"
+  ],
+  "considerations": [
+   "מידות המכשיר 31 × 33 × 6.5 ס״מ – כדאי לוודא מקום על השיש ובארון",
+   "אורך כבל ההזנה 75 ס״מ – כדאי שיהיה שקע קרוב למקום העבודה",
+   "משטח טפלון – מומלץ להשתמש בכף העץ המצורפת ולא בכלי מתכת"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Gold Line ATL-2790?",
+    "a": "לפי היבואן, ההספק הוא 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "כף עץ להפיכה, לקיפול ולהוצאה של הקרפ, ואביזר עץ לפיזור אחיד של הבלילה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לכוון את החום?",
+    "a": "כן, יש תרמוסטט לכיוון רמת החום ונורת מצב מוכן שמראה מתי המשטח מוכן.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "אחריות לשנה דרך היבואן יוסף חיים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר להכנת קרפ Gold Line ATL-2790 בהספק 1000 W, משטח טפלון בלתי דביק ותרמוסטט לכיוון החום. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכשיר להכנת קרפ",
+   "מכונת קרפ",
+   "Gold Line ATL-2790",
+   "ATL-2790",
+   "מכשיר קרפ צרפתי",
+   "קרפ מייקר גולד ליין",
+   "מכשיר קרפ חשמלי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1200 [W]",
+   "finding": "corrected",
+   "correctValue": "1000 W",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר פלטת צלייה",
+   "catalogValue": "30 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג משטח",
+   "catalogValue": "ציפוי Non-Stick איכותי למניעת הידבקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת חום",
+   "catalogValue": "תרמוסטט מתכוונן לבחירת עוצמת החימום",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נוריות חיווי",
+   "catalogValue": "נורית הפעלה ונורית מצב 'מוכן' (Ready)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מבנה",
+   "catalogValue": "בסיס יציב המבודד מחום, מקום ייעודי לאחסון כבל החשמל בתחתית המכשיר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "מרית עץ (Spatula) ומפזר בלילה מעץ בצורת T",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "ישראל (מותג ישראלי, ייצור בסין)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות (רוחב × אורך × גובה)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "31 × 33 × 6.5 ס״מ",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "אורך כבל ההזנה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "75 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, דרך היבואן יוסף חיים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 1200 W, אך היבואן ושלושה קמעונאים ישראליים מציינים 1000 W לדגם ATL-2790",
+   "severity": "high"
+  },
+  {
+   "field": "קוטר פלטת צלייה",
+   "issue": "קוטר 30 ס״מ, ציפוי Non-Stick וייצור בסין לא נמצאו באף דף שנסרק; לאמת מול היבואן",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הדפים מציינים רוחב 31, אורך 33 וגובה 6.5 ס״מ; לא מופיעה מילה 'עומק' - לאמת את סדר המידות",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 1200 W, אך היבואן וקמעונאי ישראלי מציינים 1000 W לדגם ATL-2790",
+   "severity": "high"
+  },
+  {
+   "field": "קוטר פלטת צלייה",
+   "issue": "קוטר 30 ס״מ שבקטלוג לא נמצא באף מקור; לאמת מול היבואן",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "המקורות מציינים רוחב, אורך וגובה; לאמת שהמידות מתייחסות לגוף המכשיר",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 3 (duplicates inTheBox item 1) and feature 5 (duplicates fact 4). Power is 1000 W per importer and Ivory, contradicting catalog 1200 W."
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "modelNumber": "SE-91B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Selmor",
+  "exactModel": "SE-91B",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "הדגם SE-91B מופיע בשמו המדויק רק בדף זאפ (השוואת מחירים). דפי חנויות אחרים מציגים SE-91 או SE91 בלי סיומת צבע. | QA: SE-91B named only on Zap; other Israeli shops list SE-91 / SE91 without the color suffix."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1072566",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן הכנה",
+     "value": "כ-3 דקות"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "הפינג'אן החכם SE-91B של Selmor הוא מכשיר חשמלי להכנת קפה טורקי בלחיצת כפתור, בצבע שחור.",
+  "highlights": [
+   "צבע שחור"
+  ],
+  "goodFor": [
+   "מי שרוצה להכין קפה טורקי בלי לעמוד ליד הכיריים",
+   "מטבח או פינת קפה שמחפשים בה מכשיר בצבע שחור"
+  ],
+  "considerations": [
+   "כדאי לבדוק מול המוכר את הקיבולת ואת ההספק המדויקים של הדגם, כי הם לא אומתו במקורות"
+  ],
+  "faq": [
+   {
+    "q": "באיזה צבע הדגם SE-91B?",
+    "a": "הדגם SE-91B הוא בצבע שחור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "פינג'אן חשמלי",
+   "פינג'אן חכם",
+   "Selmor SE-91B",
+   "מכונת קפה טורקי",
+   "סלמור פינג'אן",
+   "פינג'אן חשמלי שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "250 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "SE-91B מופיע בשמו המדויק רק בדף זאפ; חנויות אחרות מציגות SE-91. הספק מופיע כ-400-480W והקיבולת כ-25 מ\"ל או 250 מ\"ל בין מקורות - יש לבדוק.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "SE-91B מופיע בשמו המדויק רק בדף זאפ; חנויות אחרות מציגות SE-91 ללא סיומת צבע.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הספק, קיבולת ומידות בקטלוג לא אומתו במקורות; לפי החוקר המקורות סותרים לגבי הקיבולת וההספק.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only two facts verifiable, both from a Zap price-comparison page that names SE-91B. Shufersal page does not name the model and supplies no evidence. Capacity, power and dimensions unverified. | code guard removed: summary: \"לפי המידע הזמין הכנת הקפה נמשכת כ-3 דקות.\"; faq: \"כמה זמן לוקח להכין קפה בפינג'אן SE-91B?\"; metaDescription: \"פינג'אן חשמלי חכם לקפה טורקי Selmor SE-91B בצבע שחור, הכנת קפה בלחיצת כפתור תוך כ-3 דקות. פרטים ומידע על הדגם בחדד אלקטריק נהריה\"; highlight: \"הכנת קפה טורקי בכ-3 דקות\""
+ }
+}

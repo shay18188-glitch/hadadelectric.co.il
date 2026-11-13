@@ -1,0 +1,493 @@
+{
+ "modelNumber": "SL-6633",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "SOL",
+  "exactModel": "SL-6633",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "כירה קרמית כפולה SOL, דגם SL-6633. עמוד היצרן בישראל ועמודי הקמעונאים נושאים את הדגם במפורש. | QA: עמוד היצרן SOL בישראל ושלושה עמודים ישראליים נוספים נושאים את הדגם SL-6633 במפורש, כירה קרמית כפולה."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.petcom.co.il/product/%D7%9B%D7%99%D7%A8%D7%94-%D7%A7%D7%A8%D7%9E%D7%99%D7%AA-%D7%9B%D7%A4%D7%95%D7%9C%D7%94-sol-sl-6633/",
+   "publisher": "Petcom Eilat",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-hobs&productid=931282",
+   "publisher": "WiseBuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.sol.co.il/products/sl-6633",
+   "publisher": "SOL Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.bug.co.il/%D7%9B%D7%99%D7%A8%D7%94-%D7%A7%D7%A8%D7%9E%D7%99%D7%AA-%D7%9B%D7%A4%D7%95%D7%9C%D7%94-sol-90203148",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "3400 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אזורי חימום",
+     "value": "2"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות חימום",
+     "value": "תשע דרגות חימום (P1–P9)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "ייתכן שזהות לדרגות P1–P9",
+     "label": "תוכניות בישול מובנות",
+     "value": "9 תוכניות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "עד 99 דקות לכל אזור חימום"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "היחידה אינה מופיעה בציטוט",
+     "label": "מידות משטח עבודה",
+     "value": "52 × 20"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב חיצוני",
+     "value": "63 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עובי משטח הפעלה",
+     "value": "4 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיבור חשמל",
+     "value": "חד פאזי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג משטח",
+     "value": "זכוכית קריסטלית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "צג דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "לפי עמוד קמעונאי אחד",
+     "label": "אחריות",
+     "value": "שנה אחריות מבית היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תרמוסטט ותשע תוכניות מובנות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה ממצב המתנה בלחיצה ממושכת של שלוש שניות, והכיוון בסיבוב הבורר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אפשרות עבודה עם טיימר או בלי טיימר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידיות אחיזה מבודדות חום"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כיבוי ידני בלחיצה על כפתור ההפעלה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כירה קרמית כפולה ניידת של SOL, דגם SL-6633, עם משטח זכוכית קריסטלית שחורה ושני אזורי חימום. ההספק הכולל 3400 W, עם תשע דרגות חימום, תרמוסטט וטיימר עד 99 דקות לכל אזור. מתאימה למי שצריך שני מוקדי בישול נוספים בלי התקנה קבועה.",
+  "highlights": [
+   "הספק כולל 3400 W",
+   "שני אזורי חימום על משטח זכוכית קריסטלית שחורה",
+   "תשע דרגות חימום P1–P9 ותרמוסטט",
+   "טיימר עד 99 דקות לכל אזור חימום",
+   "ידיות אחיזה מבודדות חום"
+  ],
+  "goodFor": [
+   "תוספת שני מוקדי בישול במטבח קטן או זמני",
+   "בישול בדירה שכורה, ביחידת דיור או בצימר בלי כיריים קבועות",
+   "בישול במקביל בשני סירים עם שליטה נפרדת בזמן לכל אזור"
+  ],
+  "considerations": [
+   "ההספק הכולל 3400 W – כדאי לחבר לשקע ייעודי ולא למפצל עם מכשירים חזקים נוספים",
+   "משטח הזכוכית מתחמם בשימוש – יש להניח את הכירה על משטח יציב ועמיד לחום"
+  ],
+  "faq": [
+   {
+    "q": "כמה אזורי חימום יש בכירה?",
+    "a": "שני אזורי חימום, עם טיימר עד 99 דקות לכל אזור.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הכירה?",
+    "a": "ההספק הכולל הוא 3400 W, בחיבור חשמל חד פאזי.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בה בלי טיימר?",
+    "a": "כן, יש אפשרות עבודה עם טיימר או בלי טיימר.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות חימום יש?",
+    "a": "תשע דרגות חימום, P1 עד P9, ולצדן תרמוסטט.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "לפי עמוד קמעונאי ישראלי, שנה אחריות מבית היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כירה קרמית כפולה SOL SL-6633: הספק 3400 W, שני אזורי חימום, טיימר עד 99 דקות לכל אזור ומשטח זכוכית שחורה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כירה קרמית כפולה",
+   "SOL SL-6633",
+   "כירה חשמלית ניידת",
+   "כיריים קרמיות שני מוקדים",
+   "כירה קרמית SOL",
+   "כירה חשמלית כפולה 3400W",
+   "כירה קרמית עם טיימר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "3400W",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "סוג משטח",
+   "catalogValue": "זכוכית קריסטלית שחורה עמידה",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "בקרה",
+   "catalogValue": "כפתור הפעלה נפרד לכל אזור חימום ותרמוסטט",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "צג דיגיטלי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 99 דקות לכל אזור חימום",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-5 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות משטח עבודה",
+   "catalogValue": "כ-52x20 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נעילה בטיחותית",
+   "catalogValue": "נעילה בטיחותית",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מאוורר מובנה",
+   "catalogValue": "מאוורר מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "רגליות יציבות",
+   "catalogValue": "רגליות יציבות",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "9 תוכניות מובנות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נורית בקרה להתרעה על משטח חם",
+   "catalogValue": "נורית בקרה המתריעה כאשר המשטח עדיין חם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "התאמה לסוגי סירים",
+   "catalogValue": "מתאימה לכל סוגי הסירים והמחבתות (כולל זכוכית, אלומיניום ונירוסטה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Sol exlusive",
+   "finding": "corrected",
+   "correctValue": "SOL",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "רוחב חיצוני",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "63 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עובי משטח הפעלה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "4 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחריות מבית היבואן הרשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "הקטלוג מציג את המותג כ-'Sol exlusive' (שגיאת כתיב ומותג); עמוד היצרן ועמודי הקמעונאים מציגים SOL",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "רוחב חיצוני 63 ס״מ מופיע רק בדף wisebuy; מידות משטח העבודה 52×20 מופיעות בעמוד היצרן ללא גובה ועומק. יש לאמת את המידות מול היבואן לפני שימוש",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_importer",
+   "issue": "שם היבואן הישראלי לא מופיע בעמוד היצרן. עמוד bug מציין שהאחריות מטופלת על ידי גורם בשם שאוליאן, בלי לציין זאת כיבואן רשמי",
+   "severity": "low"
+  },
+  {
+   "field": "weight",
+   "issue": "משקל הקטלוג (כ-5 ק״ג) ומדינת הייצור (סין) לא נמצאו בעמודים שנקראו",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "הקטלוג מציג את המותג כ-'Sol exlusive' (כולל שגיאת כתיב); היצרן והקמעונאים מציגים SOL",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "מידות משטח העבודה 52×20 בעמוד היצרן ללא יחידה; רוחב חיצוני 63 ס״מ רק מאתר השוואת מחירים. יש לאמת מול המוצר",
+   "severity": "medium"
+  },
+  {
+   "field": "programs",
+   "issue": "ייתכן ש-'9 תוכניות מובנות' ו'תשע דרגות חימום P1–P9' הם אותו דבר; לבדוק אם להציג שניהם",
+   "severity": "low"
+  },
+  {
+   "field": "catalog",
+   "issue": "משקל, מדינת ייצור, נורית משטח חם והתאמה לכל סוגי הסירים לא אומתו במקורות",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "האחריות נלקחה מעמוד קמעונאי אחד; לאמת מול היבואן",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נתמכות בציטוט ok מעמוד הנושא את הדגם. מקור WiseBuy סווג מחדש כ-other (אתר השוואת מחירים). מידות משטח העבודה פורסמו ללא יחידה כי הציטוט אינו כולל יחידה. האחריות מקורה בעמוד קמעונאי אחד. | code guard removed: consideration: \"הרוחב החיצוני 63 ס״מ – יש לוודא שיש מספיק מקום פנוי על השיש\""
+ }
+}

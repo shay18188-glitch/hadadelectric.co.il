@@ -1,0 +1,366 @@
+{
+ "modelNumber": "ATL-227",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-227",
+  "israeliImporter": "גולד ליין",
+  "matchConfidence": "high",
+  "notes": "אתר גולד ליין (goldline.co.il) מפרסם את הדגם בשם מסחטת הדרים מקצועית; דף מוצר מפורט של היצרן לא נמצא. דפי באג הם הפירוט המלא. | QA: Bug pages and the Gold Line site name model ATL-227, 300W citrus juicer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%A1%D7%97%D7%98%D7%AA-%D7%94%D7%93%D7%A8%D7%99%D7%9D-gold-line-300w-9795654128",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.goldline.co.il/?s=מסחטת",
+   "publisher": "גולדליין",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/מסחטת-הדרים-gold-line-300w-עודפי-מלאי-9795654155",
+   "publisher": "באג (עודפי מלאי)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-227"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Product name, not a spec",
+     "label": "שם מוצר ביצרן",
+     "value": "מסחטת הדרים מקצועית ATL-227"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "300 W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 1",
+     "label": "הספק מנוע",
+     "value": "300 וואט"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "22.4 × 33 × 25.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 2",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "22.4 × 33 × 25.4 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת אחריות של גולד ליין"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ראשי סחיטה",
+     "value": "2 ראשי סחיטה שונים"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה מוברשת"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחסון כבל",
+     "value": "מקום לגלילת הכבל בגוף המסחטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סחיטה אקטיבית באמצעות ידית לחיצה המאפשרת סחיטה מלאה של הפרי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון בטיחות המפעיל את המכשיר רק בעת לחיצה על ראש הסחיטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Fixed typo",
+   "text": "פילטר לסינון שיירי גרעינים וחתיכות פרי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתח יציאת מיץ למזיגה ישירה עם מנגנון STOP לעצירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקום לגלילת הכבל החשמלי בגוף המסחטה לאחסנה נוחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתפרקת לניקוי מהיר, בגימור נירוסטה מוברשת"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 4",
+   "text": "מקום לגלילת הכבל החשמלי בגוף המסחטה לאחסנה נוחה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 5",
+   "text": "מתפרקת לניקוי מהיר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מסחטת הדרים חשמלית של גולד ליין, דגם ATL-227, בהספק 300 W ובגימור נירוסטה מוברשת. הסחיטה אקטיבית באמצעות ידית לחיצה, עם 2 ראשי סחיטה שונים ופתח מזיגה ישירה עם מנגנון STOP. מתאימה למי שסוחט תפוזים ולימונים בבית ורוצה מכשיר שמתפרק לניקוי מהיר.",
+  "highlights": [
+   "הספק 300 W",
+   "2 ראשי סחיטה שונים להדרים שונים",
+   "ידית לחיצה לסחיטה אקטיבית",
+   "מזיגה ישירה עם מנגנון STOP",
+   "גימור נירוסטה מוברשת"
+  ],
+  "goodFor": [
+   "סחיטת מיץ תפוזים טרי בבוקר ישירות לכוס",
+   "סחיטת הדרים בגדלים שונים בזכות שני ראשי הסחיטה",
+   "מטבח שבו רוצים לאחסן את הכבל בגוף המכשיר"
+  ],
+  "considerations": [
+   "מידות המסחטה 22.4 × 33 × 25.4 ס״מ: כדאי לוודא שיש מקום על השיש או בארון",
+   "המכשיר פועל רק בלחיצה על ראש הסחיטה, כך שהסחיטה דורשת לחיצה ידנית",
+   "האחריות לשנה, בכפוף לתעודת אחריות של גולד ליין"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של מסחטת Gold Line ATL-227?",
+    "a": "הספק המסחטה הוא 300 W.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר למזוג ישירות לכוס?",
+    "a": "כן, יש פתח יציאת מיץ למזיגה ישירה עם מנגנון STOP לעצירה.",
+    "sources": []
+   },
+   {
+    "q": "האם המסחטה מסננת גרעינים?",
+    "a": "כן, יש פילטר לסינון שיירי גרעינים וחתיכות פרי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המסחטה?",
+    "a": "שנה אחריות, בכפוף לתעודת אחריות של גולד ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מסחטת הדרים Gold Line ATL-227 בהספק 300 W, עם 2 ראשי סחיטה ומזיגה ישירה עם מנגנון STOP. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מסחטת הדרים",
+   "מסחטת הדרים גולד ליין",
+   "Gold Line ATL-227",
+   "ATL-227",
+   "מסחטת תפוזים חשמלית",
+   "מסחטה 300 וואט",
+   "מסחטת הדרים עם ידית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "300 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 32 ס\"מ, עומק 25 ס\"מ, רוחב 21.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 22.4 ס\"מ, עומק 25.4 ס\"מ, גובה 33 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר ייצור",
+   "catalogValue": "גימור נירוסטה מוברשת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר ראשי סחיטה",
+   "catalogValue": "2 גדלים שונים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברקוד",
+   "catalogValue": "7290020071187",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג (רוחב 21.5, גובה 32, עומק 25 ס״מ) שונות ממידות הדף של באג (רוחב 22.4, גובה 33, עומק 25.4 ס״מ). יש לבדוק מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "הדף מציין יבואן רשמי אך אינו מזהה את שם היבואן. לא נמצא דף יצרן, מדריך או תעודת אחריות למוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח הפעלה",
+   "issue": "מתח 230V בקטלוג לא אומת באף מקור שנקרא.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג (רוחב 21.5, גובה 32, עומק 25 ס״מ) שונות ממידות באג (רוחב 22.4, גובה 33, עומק 25.4 ס״מ). יש לבדוק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח הפעלה",
+   "issue": "מתח 230V בקטלוג לא אומת באף מקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected duplicate facts 8 (power) and 9 (dimensions) and the product-name fact 5. Rejected duplicate features 6 and 7. Fixed typo 'שיידי' to 'שיירי' in feature 2. Dimensions from Bug differ from catalog."
+ }
+}

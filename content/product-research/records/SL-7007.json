@@ -1,0 +1,482 @@
+{
+ "modelNumber": "SL-7007",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "SL-7007",
+  "israeliImporter": "שאוליין סחר",
+  "matchConfidence": "high",
+  "notes": "Sol official page and the Israeli retailer Refaeli name SL-7007 (cream/beige, 300 ml). Zap lists the model with the same 300 ml and 4 modes. The 500W figure and the 220-240V voltage do not appear on any page naming the beige SL-7007. | QA: Sol official page and Israeli retailer Refaeli both name SL-7007 (cream/beige, 300 ml)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://refaeli.co.il/items/8261387-SL-7007",
+   "publisher": "רפאלי",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1236563",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.sol.co.il/products/sl-7007",
+   "publisher": "Sol",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "19 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר בסיס",
+     "value": "11 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב כולל ידית",
+     "value": "15 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת לחלב מוקצף",
+     "value": "300 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן הקצפה וחימום ממצב קר",
+     "value": "תוך 60 שניות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מצבי פעולה",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נורית בקרה",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "פעולה כמעט חרישית"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנון בטיחות",
+     "value": "STRIX"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בסיס",
+     "value": "נשלף, 360 מעלות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "fixed 'None Stick' wording",
+     "label": "ציפוי פנימי",
+     "value": "נון סטיק"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י שאוליין סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ארבעה מצבי הפעלה: הקצפה חמה וסמיכה, הקצפה חמה ועדינה, הקצפה קרה וחימום בלבד"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "fixed wording",
+   "text": "מיכל עם ציפוי נון סטיק לניקוי קל"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגליות מונעות החלקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית אחיזה ארגונומית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקציף חלב Sol SL-7007 בצבע קרם, עם קיבולת של 300 מ״ל לחלב מוקצף וארבעה מצבי פעולה: הקצפה חמה וסמיכה, הקצפה חמה ועדינה, הקצפה קרה וחימום בלבד. המקציף מקציף ומחמם חלב ממצב קר תוך 60 שניות, כולל מנגנון בטיחות STRIX וכיבוי אוטומטי. מתאים למי שמכין קפוצ׳ינו, לאטה או שוקו בבית ורוצה קצף בלחיצת כפתור.",
+  "highlights": [
+   "קיבולת של 300 מ״ל לחלב מוקצף",
+   "4 מצבי פעולה, כולל הקצפה קרה",
+   "הקצפה וחימום ממצב קר תוך 60 שניות",
+   "מנגנון בטיחות STRIX וכיבוי אוטומטי",
+   "בסיס נשלף 360 מעלות ומיכל נון סטיק"
+  ],
+  "goodFor": [
+   "הכנת קפוצ׳ינו ולאטה בבית עם קצף חם וסמיך",
+   "משקאות קרים עם קצף קר, כמו אייס קפה",
+   "חימום חלב לשוקו ללא הקצפה",
+   "מטבח קטן, הודות למידות קומפקטיות"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש: גובה 19 ס״מ ורוחב כולל ידית 15 ס״מ",
+   "הקיבולת להקצפה היא 300 מ״ל, כך שלכמות גדולה יותר יידרשו כמה סבבים",
+   "למיכל ציפוי נון סטיק, ולכן כדאי לנקות בעדינות ללא כלים שורטים"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן לוקח להקציף חלב?",
+    "a": "המקציף מקציף ומחמם חלב ממצב קר תוך 60 שניות.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להכין קצף קר?",
+    "a": "כן, אחד מארבעת מצבי הפעולה הוא הקצפה קרה.",
+    "sources": []
+   },
+   {
+    "q": "האם המקציף נכבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי ומנגנון בטיחות STRIX.",
+    "sources": []
+   },
+   {
+    "q": "מה קיבולת המקציף?",
+    "a": "300 מ״ל לחלב מוקצף.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנה של אחריות ע״י שאוליין סחר, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקציף חלב Sol SL-7007 בצבע קרם: 4 מצבי פעולה, קיבולת 300 מ״ל והקצפה ממצב קר תוך 60 שניות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקציף חלב",
+   "מקציף חלב Sol",
+   "SL-7007",
+   "Sol SL-7007",
+   "מקציף חלב חשמלי",
+   "מקציף חלב קר וחם",
+   "מקציף חלב קרם"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "500W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מקסימלית להקצפה/חימום",
+   "catalogValue": "300 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון בקרה ובטיחות",
+   "catalogValue": "STRIX",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "Non-Stick איכותי",
+   "finding": "corrected",
+   "correctValue": "None Stick",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס נשלף 360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "19 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר בסיס",
+   "catalogValue": "11 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב כולל ידית",
+   "catalogValue": "15 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות עבודה",
+   "catalogValue": "כ-60 שניות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מספר מצבי פעולה",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פעולה שקטה במיוחד",
+   "catalogValue": "שקטה במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כיבוי אוטומטי",
+   "catalogValue": "כיבוי אוטומטי בסיום הפעולה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורית חיווי LED",
+   "catalogValue": "נורית חיווי LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית אחיזה ארגונומית",
+   "catalogValue": "ידית אחיזה ארגונומית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רגליות מונעות החלקה",
+   "catalogValue": "רגליות מונעות החלקה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מיכל לניקוי קל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מיכל stick None לניקוי קל",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 500W, אך אף עמוד שנבדק אינו מציין הספק לדגם SL-7007 (בז'). בזאפ מופיע 500W ברשומה של SL-7007BL (כחול) שמזכירה גם SL-7007(BAIGE). יש לאמת את ההספק מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "הטווח 220-240V לא נמצא באף עמוד שנבדק. יש לאמת מול תווית המוצר או מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם מותג",
+   "issue": "הקטלוג מציין מותג 'Sol exlusive' (כתיב שגוי), ואתר היצרן ורפאלי מציינים 'Sol'.",
+   "severity": "low"
+  },
+  {
+   "field": "קוטר",
+   "issue": "אתר Sol מציין 'קוטר: 11 ס״מ (כולל ידית 15 ס״מ)', ורפאלי מציין קוטר בסיס 11 ס״מ ורוחב כולל ידית 15 ס״מ. הערכים זהים אך התיאור שונה; נשמרו לפי הניסוח של רפאלי.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 500W, אך אף עמוד שמציין את הדגם הבז׳ SL-7007 אינו מאשר הספק. יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "הטווח 220-240V לא נמצא באף מקור. יש לאמת מול תווית המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מותג",
+   "issue": "בקטלוג המותג מופיע 'Sol exlusive' (כתיב שגוי); היצרן והקמעונאי מציינים 'Sol'.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Corrected the coating wording 'None Stick' to 'נון סטיק' (fact 11, feature 1). Catalog 500W and 220-240V remain unverified and are not published."
+ }
+}

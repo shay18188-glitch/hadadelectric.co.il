@@ -1,0 +1,462 @@
+{
+ "modelNumber": "KX-TG1612",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "KX-TG1612",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Panasonic Malaysia page covers KX-TG1612ML variants; manual aggregator lists KX-TG1612 and KX-TG1612SPR. Israeli retailer (Ivory) lists the unit as base plus one extra handset, while manual aggregator lists 2 handsets (duo). | QA: Sources name KX-TG1612 (manual specs, Ivory) and KX-TG1612ML (Panasonic Malaysia). Ivory lists base plus one extra handset, consistent with a two-handset duo kit. Israeli suffix not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ivory.co.il/catalog.php?id=95535",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.manua.ls/panasonic/kx-tg1612/manual",
+   "publisher": "manua.ls (Panasonic manual and specs)",
+   "kind": "manual",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.panasonic.com/my/consumer/phone-fax-video-intercom/phone-fax/cordless-dect-phone/kx-tg1612ml.html",
+   "publisher": "Panasonic Malaysia",
+   "kind": "manufacturer",
+   "market": "MY",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ספר טלפונים",
+     "value": "עד 50 אנשי קשר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן דיבור",
+     "value": "עד 15 שעות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן המתנה",
+     "value": "170 שעות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "7 שעות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיחה מזוהה (Caller ID)",
+     "value": "יומן שיחות ל-50 שמות ומספרים"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיוג חוזר",
+     "value": "זיכרון ל-10 מספרים אחרונים"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אינטרקום ושיחת ועידה",
+     "value": "אינטרקום ושיחת ועידה עם קו חוץ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "מוארת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "1.25 אינץ׳"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע תאורה אחורית",
+     "value": "ענבר (Amber)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Count from ok quote; AAA type from same spec page",
+     "label": "סוללות לשלוחה",
+     "value": "2 סוללות AAA"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "Ni-MH נטענת"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל שלוחה",
+     "value": "126 גרם"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Lower than handset weight; flagged",
+     "label": "משקל בסיס",
+     "value": "98 גרם"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות שלוחה (רוחב × עומק × גובה)",
+     "value": "49 × 30 × 159 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות בסיס",
+     "value": "90 × 50 × 100 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צלצולים",
+     "value": "6 מנגינות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דיבורית",
+     "value": "יש"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שעון מעורר",
+     "value": "יש"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Reworded",
+   "text": "כולל שלוחה נוספת"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תחנת בסיס"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מטען"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות לתלייה על הקיר"
+  }
+ ],
+ "content": {
+  "summary": "Panasonic KX-TG1612 הוא טלפון ביתי אלחוטי הכולל בסיס ושלוחה נוספת, עם אינטרקום בין השלוחות ושיחת ועידה עם קו חוץ. השלוחה מציעה זמן דיבור של עד 15 שעות, ספר טלפונים לעד 50 אנשי קשר ושיחה מזוהה עם יומן ל-50 שמות ומספרים. מתאים לבית שרוצה טלפון קווי פשוט עם שלוחה בחדר נוסף.",
+  "highlights": [
+   "שלוחה נוספת עם אינטרקום ושיחת ועידה עם קו חוץ",
+   "זמן דיבור של עד 15 שעות ו-170 שעות המתנה",
+   "ספר טלפונים לעד 50 אנשי קשר",
+   "שיחה מזוהה עם יומן ל-50 שמות ומספרים",
+   "מסך מואר 1.25 אינץ׳ בתאורה בגוון ענבר"
+  ],
+  "goodFor": [
+   "בית עם קו טלפון קווי שרוצה שלוחה בחדר נוסף",
+   "שיחות פנים בין חדרים באמצעות האינטרקום",
+   "מי שצריך דיבורית ושעון מעורר בטלפון הביתי"
+  ],
+  "considerations": [
+   "נדרש שקע טלפון קווי ושקע חשמל למיקום הבסיס",
+   "השלוחה פועלת על 2 סוללות AAA נטענות מסוג Ni-MH, וזמן הטעינה כ-7 שעות",
+   "אם מתכננים תלייה על הקיר, כדאי לבחור מראש מיקום ליד שקע הטלפון"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן אפשר לדבר בלי לטעון?",
+    "a": "לפי המפרט, זמן הדיבור הוא עד 15 שעות וזמן ההמתנה 170 שעות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לדבר בין השלוחות?",
+    "a": "כן, יש אינטרקום בין השלוחות ואפשרות לשיחת ועידה עם קו חוץ.",
+    "sources": []
+   },
+   {
+    "q": "כמה אנשי קשר אפשר לשמור?",
+    "a": "ספר הטלפונים שומר עד 50 אנשי קשר.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתלות את הטלפון על הקיר?",
+    "a": "כן, יש אפשרות לתלייה על הקיר.",
+    "sources": []
+   },
+   {
+    "q": "איזו סוללה יש בשלוחה?",
+    "a": "2 סוללות AAA נטענות מסוג Ni-MH.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון אלחוטי Panasonic KX-TG1612 עם שלוחה נוספת: זמן דיבור עד 15 שעות וספר טלפונים ל-50 אנשי קשר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Panasonic KX-TG1612",
+   "KX-TG1612",
+   "טלפון אלחוטי פנסוניק",
+   "טלפון ביתי אלחוטי עם שלוחה",
+   "טלפון אלחוטי עם שתי שלוחות",
+   "טלפון DECT פנסוניק",
+   "טלפון אלחוטי עם אינטרקום"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "ספר טלפונים",
+   "catalogValue": "עד 50 שמות ומספרים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 15 שעות דיבור ו-170 שעות המתנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-7 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוללות",
+   "catalogValue": "2 AAA Ni-MH לשלוחה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LCD 1.25 אינץ' תאורה ענבר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות שלוחה",
+   "catalogValue": "49x30x159 מ\"מ, 126 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות בסיס",
+   "catalogValue": "90x100x50 מ\"מ, 98 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיוג חוזר",
+   "catalogValue": "10 מספרים אחרונים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "שלוחות",
+   "catalogValue": "בסיס ושתי שלוחות / שלוחה 1 נוספת בשם",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "1.9 GHz DECT",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שלוחות",
+   "issue": "Israeli retailer says one extra handset; manual aggregator says 2 handsets. Check box contents.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Manufacturer page found is the Malaysian KX-TG1612ML variant; Israeli SKU appears as KX-TG1612H.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Manufacturer page is the Malaysian KX-TG1612ML variant; the Israeli suffix (possibly KX-TG1612H) is not confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל בסיס",
+   "issue": "Spec source lists base weight 98 g, lower than handset weight 126 g; check against the box or manual.",
+   "severity": "low"
+  },
+  {
+   "field": "תדר",
+   "issue": "Catalog frequency 1.9 GHz DECT not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept with verified quotes. Feature text reworded to 'שלוחה נוספת' as on the Ivory page. Identity medium: manufacturer page is the Malaysian KX-TG1612ML variant; Israeli suffix unclear. Base weight (98 g) lower than handset weight (126 g) as stated by the spec source; flagged for a check."
+ }
+}

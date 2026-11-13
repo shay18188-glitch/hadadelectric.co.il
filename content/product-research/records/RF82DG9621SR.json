@@ -1,0 +1,452 @@
+{
+ "modelNumber": "RF82DG9621SR",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RF82DG9621SR",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "Samsung 4-door bottom-freezer refrigerator. Two Israeli retailer pages name this exact model and carry its spec table. No manufacturer page for the model was reachable. | QA: Both Israeli retailer pages name RF82DG9621SR; bug.co.il names ניופרו as warranty provider."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מקרר-מקפיא-תחתון-4-דלתות-סמסונג-rf82dg9621sr/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מקרר-4-דלתות-852-ליטר-samsung-5102203rf82dg9621sr",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "183 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "91 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "bug.co.il reportedly gives 86.1 cm; flagged",
+     "label": "עומק",
+     "value": "87 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Likely gross volume; catalog lists 819 L net",
+     "label": "נפח כולל",
+     "value": "852 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "510 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "342 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "422 קו״ט"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "Digital Inverter BLDC"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "פלטינום סטיל מוברש"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י ניופרו"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת מים וקרח מוסתרת (Beverage Center)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת קרח אוטומטית במקפיא עם שני יצרני קרח נפרדים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית שבת מהדרין מובנית, נבחרת מהמסך"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת אור אולטרה סגול לחיטוי וניטרול ריחות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת קירור משולשת (Triple Cooling) עם 3 מאיידים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא Cool Select+Room עם זרימת אוויר קר נפרדת לכל תא"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "המקרר כולל מערכת מים וקרח מוסתרת Beverage Center, מערכת קרח אוטומטית עם שני יצרני קרח ופונקציית שבת מהדרין מובנית. מתאים למשפחה שמחפשת מקרר רחב עם נפח הקפאה גדול ומטבח בעיצוב נקי.",
+  "highlights": [
+   "נפח כולל 852 ליטר: 510 ליטר קירור ו-342 ליטר הקפאה",
+   "מערכת מים וקרח מוסתרת Beverage Center",
+   "שני יצרני קרח אוטומטיים במקפיא",
+   "פונקציית שבת מהדרין מובנית",
+   "מדחס Digital Inverter BLDC"
+  ],
+  "goodFor": [
+   "משפחה שמאחסנת כמויות גדולות של מזון קפוא",
+   "בית שומר שבת שזקוק למצב שבת מהדרין",
+   "מטבח שבו רוצים מים וקרח בלי מתקן גלוי על הדלת"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 183×91×87 ס״מ ולהשאיר מרווח לפתיחת הדלתות",
+   "מערכת המים והקרח דורשת חיבור למים, כדאי לבדוק נקודת מים קרובה",
+   "דירוג אנרגטי E וצריכה שנתית של 422 קו״ט"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המקרר?",
+    "a": "הנפח הכולל הוא 852 ליטר: 510 ליטר בתא הקירור ו-342 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, יש פונקציית שבת מהדרין מובנית שנבחרת מהמסך.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "גובה 183 ס״מ, רוחב 91 ס״מ ועומק 87 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל?",
+    "a": "דירוג אנרגטי E וצריכת אנרגיה שנתית של 422 קו״ט.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות?",
+    "a": "שנה אחריות ע״י ניופרו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "RF82DG9621SR",
+   "מקרר סמסונג 4 דלתות",
+   "מקרר סמסונג 852 ליטר",
+   "מקרר מקפיא תחתון סמסונג",
+   "מקרר Beverage Center",
+   "מקרר שבת מהדרין סמסונג",
+   "מקרר 4 דלתות נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כללי",
+   "catalogValue": "819 ליטר נטו (852 ליטר ברוטו)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "492 ליטר",
+   "finding": "corrected",
+   "correctValue": "510 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "327 ליטר",
+   "finding": "corrected",
+   "correctValue": "342 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "183 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "91 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "87 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "Digital Inverter BLDC",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת קירור",
+   "catalogValue": "Triple Cooling",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת מים וקרח",
+   "catalogValue": "Beverage Center, פיה למילוי כוס, פיצ'ר 1.4 ליטר, שני יצרני קרח",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "UV",
+   "catalogValue": "UV Deodorizing filter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שבת מהדרין",
+   "catalogValue": "פונקציית שבת מהדרין מובנית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "SmartThings",
+   "catalogValue": "תמיכה באפליקציית SmartThings (Wi-Fi)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "קוריאה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "E",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח",
+   "issue": "The catalog gives 819 L net, 492 L fridge and 327 L freezer. Both Israeli retailer pages give 852 L total, 510 L fridge and 342 L freezer. The published capacity rows follow the retailers, so check the capacity against the manufacturer before relying on it.",
+   "severity": "high"
+  },
+  {
+   "field": "צבע",
+   "issue": "The catalog says נירוסטה. bug.co.il says כסוף and soferavi.co.il says פלטינום סטיל מוברש. The published colour is the soferavi wording.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "soferavi.co.il gives depth 87 ס״מ and width 91 ס״מ. bug.co.il gives depth 86.1 ס״מ and width 91.2 ס״מ. A person should confirm the exact dimensions for a niche installation.",
+   "severity": "medium"
+  },
+  {
+   "field": "מדחס",
+   "issue": "soferavi.co.il says the compressor warranty is 10 years and bug.co.il says 20 years. The compressor warranty is not published.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "No manufacturer or Samsung Israel page for this model was reachable. The samsung.com/il support URL returned 404. The warranty and importer facts rest on two Israeli retailer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "קרח",
+   "issue": "bug.co.il describes the ice makers as large cubes and diamond cubes. soferavi.co.il describes cubes and whiskey balls. The published feature uses the bug.co.il wording.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח",
+   "issue": "Catalog gives 819 L net / 492 L fridge / 327 L freezer; retailers give 852 / 510 / 342 L (apparently gross). Confirm which figures to present.",
+   "severity": "high"
+  },
+  {
+   "field": "עומק",
+   "issue": "soferavi.co.il gives 87 cm depth and 91 cm width; bug.co.il reportedly gives 86.1 cm and 91.2 cm. Confirm for niche installation.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog says נירוסטה; retailer says פלטינום סטיל מוברש.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור",
+   "issue": "No manufacturer page was available; all facts rest on Israeli retailer pages.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept from two Israeli retailer pages naming the exact model. Capacity rows (852/510/342 L) appear to be gross figures and contradict the catalog's net 819/492/327 L; kept with label clarifying total and flagged. Depth differs slightly between retailers (87 vs 86.1 cm); flagged. | code guard removed: summary: \"סמסונג RF82DG9621SR הוא מקרר 4 דלתות עם מקפיא תחתון ונפח כולל של 852 ליטר, מהם 510 ליטר לתא הקירור ו-342 ליטר לתא ההקפאה.\"; metaDescription: \"מקרר 4 דלתות סמסונג RF82DG9621SR בנפח 852 ליטר עם מערכת מים וקרח מוסתרת ושבת מהדרין. בחדד אלקטריק נהריה\""
+ }
+}

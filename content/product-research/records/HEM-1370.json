@@ -1,0 +1,387 @@
+{
+ "modelNumber": "HEM-1370",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-1370",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The Hemilton product page names HEM-1370 as a white 2-slice toaster sold in Israel with a 12-month warranty through the official importer. The black sibling HEM-1371 appears in retailer listings and was not used. | QA: Hemilton Israel product page names HEM-1370 as a white 2-slice toaster; black sibling HEM-1371 not used."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem1370",
+   "publisher": "Hemilton Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/compmodels.aspx?modelid=1248305",
+   "publisher": "Zap price comparison",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-toster&productid=1248305",
+   "publisher": "Wisebuy price comparison",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HEM-1370"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Hemilton"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "750 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר פרוסות",
+     "value": "2 פרוסות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "המילטון חשמל ואלקטרוניקה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דפנות חיצוניות קרות למגע"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת אוטומטית למירכוז הלחם"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בורר בקרת טמפרטורה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פתחי קלייה רחבים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לחצני הפשרה, חימום חוזר וביטול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגירת פירורים נשלפת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגליות למניעת החלקה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מצנם 2 פרוסות לבן של Hemilton, דגם HEM-1370, בהספק 750 W. למצנם פתחי קלייה רחבים, מערכת אוטומטית למירכוז הלחם ובורר בקרת טמפרטורה, לצד לחצני הפשרה, חימום חוזר וביטול. מתאים למי שמחפש מצנם קומפקטי ופשוט לשימוש יומיומי במטבח.",
+  "highlights": [
+   "הספק 750 W",
+   "2 פרוסות עם פתחי קלייה רחבים",
+   "לחצני הפשרה, חימום חוזר וביטול",
+   "דפנות חיצוניות קרות למגע",
+   "אחריות 12 חודשים ע״י היבואן הרשמי"
+  ],
+  "goodFor": [
+   "ארוחת בוקר מהירה עם 2 פרוסות בכל פעם",
+   "קליית לחם קפוא בעזרת לחצן ההפשרה",
+   "מטבח שבו חשוב שהדפנות יישארו קרות למגע",
+   "סוגי לחם שונים בזכות פתחי הקלייה הרחבים"
+  ],
+  "considerations": [
+   "המצנם קולה 2 פרוסות בכל פעם – כדאי לוודא שזה מספיק לשימוש שלכם",
+   "יש לנקות את מגירת הפירורים הנשלפת באופן קבוע",
+   "יש לוודא שקע חשמל זמין ליד משטח העבודה עבור מכשיר בהספק 750 W"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המצנם HEM-1370?",
+    "a": "ההספק הוא 750 W.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לקלות בו לחם קפוא?",
+    "a": "כן, יש במצנם לחצן הפשרה, וגם לחצני חימום חוזר וביטול.",
+    "sources": []
+   },
+   {
+    "q": "האם הדפנות מתחממות?",
+    "a": "לפי היצרן, הדפנות החיצוניות קרות למגע.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות 12 חודשים ע״י המילטון חשמל ואלקטרוניקה, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מצנם 2 פרוסות לבן Hemilton HEM-1370 בהספק 750 W, עם פתחי קלייה רחבים ולחצני הפשרה וחימום חוזר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מצנם 2 פרוסות",
+   "מצנם המילטון",
+   "Hemilton HEM-1370",
+   "HEM-1370",
+   "מצנם לבן",
+   "מצנם 750W",
+   "מצנם עם הפשרה",
+   "טוסטר קופץ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "דגם",
+   "catalogValue": "HEM-1370",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "750W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "2 פרוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דפנות קרות",
+   "catalogValue": "דפנות קרות למגע",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת מירכוז אוטומטית",
+   "catalogValue": "מערכת אוטומטית למירכוז הלחם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר דרגות השחמה",
+   "catalogValue": "בורר בקרת טמפרטורה (דרגות השחמה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציות הפעלה",
+   "catalogValue": "הפשרה, חימום חוזר, ביטול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירת פירורים",
+   "catalogValue": "מגירת פירורים נשלפת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רגליות נגד החלקה",
+   "catalogValue": "רגליות למניעת החלקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פתחי קלייה",
+   "catalogValue": "פתחי קלייה רחבים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברקוד (EAN)",
+   "catalogValue": "7290020117298",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מבנה",
+   "catalogValue": "גוף פלסטיק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקום ייצור",
+   "catalogValue": "מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות ומשקל",
+   "issue": "לא נמצאו מידות או משקל של המוצר באף דף שנבדק; יש לבדוק מול אריזת היצרן לפני פרסום.",
+   "severity": "low"
+  },
+  {
+   "field": "ברקוד, מתח, חומר גוף, מקום ייצור",
+   "issue": "ערכים אלה מופיעים בקטלוג המקומי אך לא נמצאו בדפי היצרן או בדפי הרשתות שנבדקו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features are backed by ok quotes on pages naming HEM-1370. Power (750 W) comes from two Israeli price-comparison pages (Zap, Wisebuy) and matches the catalog."
+ }
+}

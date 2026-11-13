@@ -1,0 +1,352 @@
+{
+ "modelNumber": "DT1020G0",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Tefal",
+  "exactModel": "DT1020G0",
+  "israeliImporter": "ניופאן",
+  "matchConfidence": "high",
+  "notes": "שני אתרי קמעונאים ישראליים מציינים את הדגם DT1020G0 במפורש. הקטלוג מתאר מגהץ אנכי מלא עם ראש דו-צדדי, אך דפי הקמעונאים מציגים את המוצר כמגהץ קיטור אנכי נייד בשם Origin Travel עם מברשת ריענון. לא נמצא דף יצרן או יבואן שנטען בהצלחה. | QA: Two Israeli retailers (Bug, Traklin) name the exact model DT1020G0 and agree on specs. The catalog's capabilities text (Pure Pop series, reversible head, 2 m cord) is not supported by the sources and may describe a different Tefal model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/נקיון_וכביסה/מגהצים/מגהץ_אדים_קיטור_אנכי_tefal_דגם_dt1020g0_טפאל",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מגהץ-קיטור-אנכי-tefal-88052211dt1020g0",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "סין"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "1200 וואט"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת אדים",
+     "value": "20 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 15 seconds",
+     "label": "זמן חימום",
+     "value": "25 שניות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מכל מים",
+     "value": "70 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog dimensions differ",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "8.6 × 24.4 × 16.1 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says about 0.71 kg",
+     "label": "משקל",
+     "value": "0.75 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקופת אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Dropped marketing phrase",
+   "text": "מתחמם במהירות ומתאים את עצמו לסוג הבד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאים לכל סוגי הבדים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מרענן את הבגדים בעת הגיהוץ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת ריענון לבד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית נשיאה מתקפלת לנוחות באחסון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Tefal DT1020G0 הוא מגהץ קיטור אנכי קומפקטי לגיהוץ וריענון בגדים תלויים בלי קרש גיהוץ. הוא מגיע בהספק של 1200 וואט, תפוקת אדים של 20 גרם לדקה ומכל מים של 70 מ״ל, ומשקלו 0.75 ק״ג. מתאים למי שמחפש מכשיר קל לסידור מהיר של בגדים בבית או בנסיעות.",
+  "highlights": [
+   "הספק מרבי של 1200 וואט",
+   "תפוקת אדים של 20 גרם לדקה",
+   "זמן חימום של 25 שניות",
+   "משקל 0.75 ק״ג וידית נשיאה מתקפלת",
+   "מברשת ריענון לבד"
+  ],
+  "goodFor": [
+   "סידור מהיר של חולצה או שמלה לפני יציאה, בלי להוציא קרש גיהוץ",
+   "אריזה לנסיעות בזכות המשקל הקל והידית המתקפלת",
+   "ריענון בגדים תלויים מכל סוגי הבדים"
+  ],
+  "considerations": [
+   "מכל המים הוא 70 מ״ל, כך שבגיהוץ ממושך יש למלא אותו מחדש",
+   "זמן החימום הוא 25 שניות, יש להמתין לפני תחילת העבודה",
+   "מדובר במגהץ אנכי לבגדים תלויים, ולא תחליף למגהץ קיטור עם קרש לקיפולים חדים"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן לוקח למגהץ להתחמם?",
+    "a": "לפי נתוני הקמעונאים, זמן החימום הוא 25 שניות.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מכל המים?",
+    "a": "נפח המכל הוא 70 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מתאים לנסיעות?",
+    "a": "משקלו 0.75 ק״ג, מידותיו 8.6 × 24.4 × 16.1 ס״מ ויש לו ידית נשיאה מתקפלת, כך שקל לארוז אותו.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "תקופת האחריות היא 12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ קיטור אנכי Tefal DT1020G0 בהספק 1200 וואט ותפוקת אדים של 20 גרם לדקה, קל ונוח לנסיעות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Tefal DT1020G0",
+   "מגהץ קיטור אנכי טפאל",
+   "DT1020G0",
+   "מגהץ אדים אנכי",
+   "מגהץ קיטור נייד",
+   "מגהץ אנכי לנסיעות",
+   "טפאל מגהץ אנכי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק עבודה",
+   "catalogValue": "1200W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "catalogValue": "20 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "15 שניות",
+   "finding": "corrected",
+   "correctValue": "25 שניות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מכל מים",
+   "catalogValue": "70 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "2 מטרים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "ראש דו-צדדי (צד להסרת סיבים וצד קטיפה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל המוצר",
+   "catalogValue": "כ-0.71 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "0.75 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 31.8 ס\"מ, רוחב 14.1 ס\"מ, עומק 5.7 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "גובה 24.4 ס״מ, רוחב 8.6 ס״מ, עומק 16.1 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "צרפת (מותג צרפתי, מיוצר בסין)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "הקטלוג: 31.8 × 14.1 × 5.7 ס״מ ומשקל 0.71 ק״ג. שני קמעונאים ישראליים מציינים 24.4 × 8.6 × 16.1 ס״מ ומשקל 0.75 ק״ג (ככל הנראה מכשיר נייד). יש לבדוק את המידות מול הדף היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "הקמעונאים מציגים את הדגם כ-Tefal Origin Travel, מגהץ קיטור אנכי נייד עם מברשת ריענון. הקטלוג מתאר מגהץ אנכי מסדרת Pure Pop עם ראש הפיך. יש לוודא מהו הדגם בפועל.",
+   "severity": "high"
+  },
+  {
+   "field": "אביזרים כלולים",
+   "issue": "ראש דו-צדדי ואורך כבל של 2 מטרים לא אומתו בדפים שנקראו. הקמעונאים מציינים מברשת ריענון לבד בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור המידע",
+   "issue": "לא נמצא דף יצרן או יבואן בר-אימות לדגם זה. המקורות הם שני קמעונאים ישראליים בלבד, והם מסכימים זה עם זה על מרבית הערכים.",
+   "severity": "medium"
+  },
+  {
+   "field": "תיאור המוצר",
+   "issue": "הקטלוג מתאר מגהץ מסדרת Pure Pop עם ראש הפיך וכבל 2 מטרים; שני הקמעונאים הישראליים מתארים את DT1020G0 כמגהץ קיטור אנכי נייד עם מברשת ריענון. יש לעדכן את תיאור היכולות בקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "הקטלוג: 31.8 × 14.1 × 5.7 ס״מ ו-0.71 ק״ג; הקמעונאים: 8.6 × 24.4 × 16.1 ס״מ ו-0.75 ק״ג.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן חימום",
+   "issue": "הקטלוג: 15 שניות; טרקלין: 25 שניות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור המידע",
+   "issue": "לא נמצא דף יצרן או יבואן; הנתונים מבוססים על שני קמעונאים ישראליים בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All 8 facts kept from two Israeli retailer pages naming DT1020G0. Catalog heat-up time (15s), weight (0.71 kg) and dimensions differ from both retailers; catalog's Pure Pop / reversible-head description does not match the retailer description (Origin Travel style handheld steamer with fabric brush). Feature 0 reworded to drop marketing phrasing."
+ }
+}

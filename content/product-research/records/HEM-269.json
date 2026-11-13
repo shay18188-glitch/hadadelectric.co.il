@@ -1,0 +1,326 @@
+{
+ "modelNumber": "HEM-269",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-269",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The manufacturer's Israeli product page names the exact model HEM-269 and states the official importer. Two Israeli retailer listings also name HEM-269 but were not used as fact sources. | QA: Importer's Israeli product page names the exact model HEM-269."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem269",
+   "publisher": "Hemilton Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HEM-269"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "המילטון חשמל ואלקטרוניקה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "600 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות משטח החימום (רוחב × גובה × עומק)",
+     "value": "70 × 5.5 × 45.2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אישור שבת",
+     "value": "מתאימה לשומרי שבת באישור משמרת השבת"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מוצר",
+     "value": "פלטת חימום חשמלית לחימום ובישול"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת חימום קרמית ייחודית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ציפוי אמאייל איכותי ועמיד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתאימה לחימום כל סוגי הסירים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חסכונית בחשמל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כוללת כבל ומנורת ביקורת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידיות נשיאה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "פלטת שבת חשמלית של Hemilton, דגם HEM-269, לחימום ובישול מזון. משטח החימום ברוחב 70 ס״מ ובעומק 45.2 ס״מ, בהספק 600 W, עם מערכת חימום קרמית וציפוי אמאייל. מתאימה לשומרי שבת באישור משמרת השבת, ומתאימה למשפחות שמחממות כמה סירים ומגשים יחד.",
+  "highlights": [
+   "משטח חימום 70 × 45.2 ס״מ",
+   "הספק 600 W",
+   "מערכת חימום קרמית וציפוי אמאייל",
+   "מתאימה לשומרי שבת באישור משמרת השבת",
+   "ידיות נשיאה, כבל ומנורת ביקורת"
+  ],
+  "goodFor": [
+   "חימום אוכל לשבת ולחג לשומרי שבת",
+   "ארוחות משפחתיות עם כמה סירים על המשטח",
+   "מי שמחפש פלטה רחבה שקל להזיז בזכות ידיות הנשיאה"
+  ],
+  "considerations": [
+   "ודאו שיש על השיש או השולחן מקום פנוי למשטח ברוחב 70 ס״מ ובעומק 45.2 ס״מ",
+   "יש להציב ליד שקע חשמל זמין",
+   "בדקו שאישור משמרת השבת מתאים למנהג שלכם"
+  ],
+  "faq": [
+   {
+    "q": "מה גודל משטח החימום?",
+    "a": "רוחב 70 ס״מ, עומק 45.2 ס״מ וגובה 5.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הפלטה?",
+    "a": "600 W.",
+    "sources": []
+   },
+   {
+    "q": "האם הפלטה מתאימה לשומרי שבת?",
+    "a": "כן, היא מתאימה לשומרי שבת באישור משמרת השבת.",
+    "sources": []
+   },
+   {
+    "q": "אילו סירים אפשר להניח עליה?",
+    "a": "לפי היבואן, היא מתאימה לחימום כל סוגי הסירים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "12 חודשים, באמצעות היבואן הרשמי המילטון חשמל ואלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פלטת שבת Hemilton דגם HEM-269 עם משטח חימום 70 × 45.2 ס״מ והספק 600 W, באישור משמרת השבת. לרכישה ולייעוץ בחדד אלקטריק נהריה",
+  "keywords": [
+   "פלטת שבת",
+   "פלטת שבת גדולה",
+   "Hemilton HEM-269",
+   "פלטת שבת המילטון",
+   "פלטת חימום לשבת",
+   "פלטת שבת 70 ס״מ",
+   "פלטת שבת משמרת השבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "600W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות משטח החימום",
+   "catalogValue": "רוחב 70 ס\"מ, עומק 45.2 ס\"מ, גובה 5.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי",
+   "catalogValue": "אמאייל איכותי ועמיד במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת חימום",
+   "catalogValue": "קרמית ייחודית המוגנת במסילת מתכת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אישורים הלכתיים",
+   "catalogValue": "מכון המדעי טכנולוגי להלכה ומכון צומת",
+   "finding": "contradicted",
+   "correctValue": "מתאימה לשומרי שבת באישור של משמרת השבת",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "עד 6 סירים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אישורים הלכתיים",
+   "issue": "The catalog names two Shabbat-approval institutes (המכון המדעי טכנולוגי להלכה and מכון צומת). The manufacturer's page says only that the product suits Shabbat observers with approval from משמרת השבת. Check the approval wording before publishing it.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "The catalog's 6-pot capacity is not stated on the manufacturer page. Confirm it with the manual or the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "The catalog's 230V voltage, origin country and black colour were not found on any page read. Confirm them against the manual or packaging.",
+   "severity": "low"
+  },
+  {
+   "field": "אישורים הלכתיים",
+   "issue": "The catalog names המכון המדעי טכנולוגי להלכה and מכון צומת; the importer page names only משמרת השבת. Correct the catalog wording.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "The catalog name's 6-pot capacity is not stated on the importer page.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח / צבע / ארץ ייצור",
+   "issue": "230V, black colour and origin country were not found on any page read.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features are backed by ok quotes on the importer page. Reclassified the ZipZap brand listing as 'other' since it is a brand page, not a product page for this model. Catalog Shabbat-approval wording (המכון המדעי טכנולוגי להלכה, צומת) contradicts the importer page (משמרת השבת); 6-pot capacity, 230V, colour not verified."
+ }
+}

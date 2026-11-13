@@ -1,0 +1,333 @@
+{
+ "modelNumber": "TX10",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "S.A.P",
+  "exactModel": "TX10",
+  "israeliImporter": "ס.א.פ חשמל שיווק בע\"מ",
+  "matchConfidence": "high",
+  "notes": "שני עמודי אולסייל ולאסטפרייס מזכירים את הדגם TX10 במפורש. לא נמצא עמוד יצרן או יבואן עם המפרט המלא. | QA: Two Israeli retailer pages name S.A.P TX10 explicitly; no manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.olsale.co.il/items/8166081-%D7%AA%D7%A0%D7%95%D7%A8-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%90%D7%99%D7%A0%D7%A4%D7%A8%D7%90-%D7%90%D7%93%D7%95%D7%9D-%D7%9C%D7%AA%D7%9C%D7%99%D7%99%D7%94-S-A-P",
+   "publisher": "אולסייל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lastprice.co.il/p/50785043/%D7%AA%D7%A0%D7%95%D7%A8-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%90%D7%99%D7%A0%D7%A4%D7%A8%D7%90-%D7%90%D7%93%D7%95%D7%9D-%D7%9C%D7%AA%D7%9C%D7%99%D7%99%D7%94-S.A.P/S.A.P-TX10",
+   "publisher": "לאסטפרייס",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגות חימום",
+     "value": "דרגה אחת"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגת אטימות",
+     "value": "IP65"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source labels 13 cm as length",
+     "label": "מידות (רוחב × אורך × עומק)",
+     "value": "65 × 13 × 6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, מהיבואן ס.א.פ חשמל שיווק"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 3",
+     "label": "אחריות יבואן",
+     "value": "אחריות היבואן הרשמי, ס.א.פ שיווק חשמל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed superlative",
+   "text": "תנור חימום בטכנולוגיית אינפרא אדום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מוגן מים ומתאים לחדר אמבטיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאים גם לתלייה בחוץ, בגינות ובחצרות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מפסק הפעלה בצד המכשיר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תנור לתלייה"
+  }
+ ],
+ "content": {
+  "summary": "S.A.P TX10 הוא תנור חימום אינפרא אדום לתלייה בהספק 2000 W. דרגת האטימות IP65 מאפשרת להתקין אותו בחדר אמבטיה וגם בחוץ, בגינות ובחצרות. מתאים למי שמחפש חימום ממוקד ופשוט להפעלה, עם דרגת חימום אחת ומפסק בצד המכשיר.",
+  "highlights": [
+   "הספק 2000 W",
+   "דרגת אטימות IP65 – מוגן מים",
+   "מתאים לאמבטיה ולתלייה בחוץ",
+   "מידות 65 × 13 × 6 ס״מ",
+   "אחריות לשנה מהיבואן ס.א.פ"
+  ],
+  "goodFor": [
+   "חימום חדר אמבטיה, בזכות דרגת אטימות IP65",
+   "חימום פינת ישיבה בגינה או בחצר",
+   "מי שמעדיף הפעלה פשוטה עם מפסק אחד ודרגת חימום אחת"
+  ],
+  "considerations": [
+   "יש לוודא נקודת חשמל מתאימה לתנור בהספק 2000 W במקום התלייה",
+   "התנור מיועד לתלייה – כדאי לתכנן מקום על הקיר ברוחב 65 ס״מ לפחות",
+   "יש לו דרגת חימום אחת בלבד, ללא אפשרות לווסת את עוצמת החימום",
+   "ההפעלה היא במפסק בצד המכשיר, ולכן כדאי לתלות אותו בגובה שמאפשר גישה נוחה"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להתקין את התנור בחדר אמבטיה?",
+    "a": "כן. התנור מוגן מים בדרגת אטימות IP65 ומתאים לאמבטיה.",
+    "sources": []
+   },
+   {
+    "q": "האם התנור מתאים לשימוש בחוץ?",
+    "a": "כן, הוא מתאים גם לתלייה בחוץ בגינות וחצרות.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של התנור?",
+    "a": "ההספק הוא 2000 W.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של התנור?",
+    "a": "65 × 13 × 6 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה מהיבואן ס.א.פ חשמל שיווק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור חימום אינפרא אדום לתלייה S.A.P דגם TX10 בהספק 2000 W, מוגן מים בדרגת אטימות IP65 ומתאים לחדר אמבטיה ולתלייה בחוץ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור אינפרא אדום לתלייה",
+   "S.A.P TX10",
+   "תנור חימום לאמבטיה",
+   "תנור חימום לחוץ",
+   "תנור אינפרא אדום IP65",
+   "תנור חימום 2000 וואט",
+   "תנור חימום לפרגולה",
+   "תנור חימום S.A.P"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגת הגנה ואטימות",
+   "catalogValue": "IP65",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "רוחב 65 ס\"מ, גובה 13 ס\"מ, עומק 6 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "65 × 13 × 6 ס״מ (הדפים מסמנים 13 ס״מ כ'אורך')",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלט רחוק",
+   "catalogValue": "כולל שלט רחוק (בדגם המעודכן)",
+   "finding": "contradicted",
+   "correctValue": "ללא",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מפסק פיזי",
+   "catalogValue": "מפסק הפעלה פיזי בצידי המכשיר",
+   "finding": "corrected",
+   "correctValue": "מפסק הפעלה בצד המכשיר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220V-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג התקנה",
+   "catalogValue": "תלייה על קיר או תקרה באמצעות תושבת מתכווננת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור קרבון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "מנורת אינפרא-אדום Gold Halogen",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שלט",
+   "issue": "הקטלוג מציין שלט רחוק כולל, אך שני עמודי הקמעונאים לדגם TX10 מציינים 'שלט: ללא'. יש לבדוק את הדגם המעודכן לפני פרסום התיאור.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מסמן 13 ס״מ כ'גובה', ושני עמודי הקמעונאים מסמנים את אותו מספר כ'אורך'. המספרים זהים, אך התווית שונה ולכן כיוון המדידה לא ודאי.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "הערך 220V-240V מופיע רק בקטלוג. לא נמצא לו מקור בעמודים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור מידע",
+   "issue": "לא נמצא עמוד יצרן או יבואן עם מפרט מלא לדגם TX10. כל העובדות מבוססות על שני קמעונאים ישראליים, ואחד מהם (אולסייל) מציג תאריך פרסום מיוני 2025.",
+   "severity": "medium"
+  },
+  {
+   "field": "שלט רחוק",
+   "issue": "הקטלוג מציין שלט רחוק (בדגם המעודכן), אך עמודי הקמעונאים לדגם TX10 מציינים שלט: ללא. יש לבדוק לפני פרסום התיאור בקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מסמן 13 ס״מ כגובה, והמקורות מסמנים אותו כאורך. יש לוודא את כיוון המדידה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל העובדות מבוססות על קמעונאים ישראליים בלבד; לא נמצא עמוד יצרן או יבואן. מתח העבודה, צבע וגוף החימום שבקטלוג לא אומתו.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 5 (importer warranty) rejected as a duplicate of fact 3, which carries the warranty period. Catalog remote-control claim contradicted by retailers and left out of content. Dimension label kept as on the source pages (width × length × depth)."
+ }
+}

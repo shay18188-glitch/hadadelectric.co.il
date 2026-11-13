@@ -1,0 +1,216 @@
+{
+ "modelNumber": "TX-209",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "TX-209",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only a Zap listing (Green Electric) names the model, written TX209, catalog no. 370209. Its power of 600W conflicts with the catalog's 1000W. No manufacturer page found. | QA: Only a Zap listing (Green Electric) names the model as TX209 with 4 interchangeable plates, matching the catalog's 4-shape baker. No manufacturer page; listing sits in an unrelated Zap category, so the exact variant is not fully confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/models.aspx?sog=e-icecreammachine&db136751=8363916",
+   "publisher": "Zap (Green Electric listing)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog 1000W; flagged.",
+     "label": "הספק",
+     "value": "600W"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-internal catalog number, not a product spec.",
+     "label": "מק״ט",
+     "value": "370209"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר פלטות",
+     "value": "4 פלטות מתחלפות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ציפוי פלטות",
+     "value": "Non-stick"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורות לד לחיווי הפעלה וחימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תופסן נעילה לאגירת החום"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכשיר אפייה של Normande דגם TX-209 עם 4 פלטות מתחלפות להכנת מאפים מתוקים ומלוחים בבית. הפלטות בציפוי Non-stick לניקוי קל, ונורות לד מציינות הפעלה וחימום. מתאים למי שרוצה מכשיר אחד לכמה סוגי מאפים קטנים.",
+  "highlights": [
+   "4 פלטות מתחלפות במכשיר אחד",
+   "ציפוי Non-stick לניקוי קל",
+   "נורות לד לחיווי הפעלה וחימום",
+   "תופסן נעילה לאגירת החום",
+   "הספק 600W"
+  ],
+  "goodFor": [
+   "משפחות שאוהבות להכין מאפים קטנים בבית",
+   "מי שרוצה מגוון צורות מאפה בלי לקנות כמה מכשירים",
+   "הכנת חטיפים מתוקים ומלוחים לאירוח"
+  ],
+  "considerations": [
+   "יש לוודא מקום אחסון לפלטות המתחלפות",
+   "כדאי לבדוק את הספק המכשיר מול המפרט שעל האריזה",
+   "לשמירה על ציפוי ה-Non-stick מומלץ להשתמש בכלים שאינם מתכתיים"
+  ],
+  "faq": [
+   {
+    "q": "כמה פלטות מגיעות עם המכשיר?",
+    "a": "המכשיר כולל 4 פלטות שונות מתחלפות להכנת מאפים מתוקים ומלוחים.",
+    "sources": []
+   },
+   {
+    "q": "האם קל לנקות את הפלטות?",
+    "a": "כן, הפלטות מצופות Non-stick לניקוי קל ונוח.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שהמכשיר חם ומוכן?",
+    "a": "נורות לד מציינות את ההפעלה ואת מצב החימום.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר אפייה Normande TX-209 עם 4 פלטות מתחלפות וציפוי Non-stick לניקוי קל, להכנת מאפים מתוקים ומלוחים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכשיר אפייה 4 צורות",
+   "Normande TX-209",
+   "נורמנדה TX209",
+   "מכשיר וופל ודונאטס",
+   "מכשיר אפייה פלטות מתחלפות",
+   "מכשיר לקאפקייקס",
+   "מכשיר מאפינס חשמלי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק עבודה",
+   "catalogValue": "1000W",
+   "finding": "contradicted",
+   "correctValue": "600W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר פלטות",
+   "catalogValue": "4 זוגות פלטות מתחלפות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי פלטות",
+   "catalogValue": "טפלון Non-Stick",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח חשמלי",
+   "catalogValue": "220V-240V",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Model appears only as TX209 on a single Zap listing; no manufacturer page found.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Listing says 600W; catalog says 1000W.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Israeli retailer listing says 600W; catalog says 1000W. Verify against the box or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Model is confirmed only by a single Zap listing (written TX209, filed under ice cream machines); no manufacturer or importer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר פלטות",
+   "issue": "Catalog says 4 pairs of plates; listing says 4 interchangeable plates. Confirm plate shapes (waffle, donut, cupcake, muffin) against the product.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 1 (370209 is the Zap listing's internal catalog number, not a manufacturer spec). Kept power 600W from the single Israeli retailer listing; it contradicts the catalog's 1000W and is flagged for review. Only one source, a Zap listing filed under ice cream machines, names the model as TX209."
+ }
+}

@@ -1,0 +1,243 @@
+{
+ "modelNumber": "SE-787",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Selmor",
+  "exactModel": "SE-787",
+  "israeliImporter": "Selmor",
+  "matchConfidence": "high",
+  "notes": "דף המוצר באתר היבואן סלמור נטען במלואו. לא נמצאו מידות או משקל. | QA: Importer page names SE-787, 2400W, 4 quartz elements."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.selmor.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%A7%D7%95%D7%95%D7%A8%D7%A5-4-%D7%A1%D7%A4%D7%99%D7%A8%D7%9C%D7%95%D7%AA-2400w-%D7%93%D7%92%D7%9D-se-787/",
+   "publisher": "Selmor",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "SE-787"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "2400 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר גופי חימום",
+     "value": "4 גופי חימום מקוורץ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "relabelled",
+     "label": "דרגות חום",
+     "value": "2400 W / 1200 W"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רפלקטור גדול המעניק אפקט חימום יעיל לכל גוף חימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חימום מהיר של שטחים גדולים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נורת ביקורת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מפסק ביטחון שמפסיק אוטומטית את פעולת התנור בזמן נפילה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "תנור חימום קוורץ של סלמור, דגם SE-787, עם 4 גופי חימום מקוורץ והספק מרבי של 2400 W. ניתן לבחור בין שתי דרגות חום, 1200 W או 2400 W, ורפלקטור גדול מכוון את החום קדימה. מפסק ביטחון מכבה את התנור אוטומטית בזמן נפילה, מה שמתאים לשימוש בבית.",
+  "highlights": [
+   "4 גופי חימום מקוורץ",
+   "הספק מרבי 2400 W",
+   "שתי דרגות חום: 1200 W ו-2400 W",
+   "מפסק ביטחון המכבה את התנור בזמן נפילה",
+   "נורת ביקורת"
+  ],
+  "goodFor": [
+   "חימום מהיר של סלון או חלל גדול בימי חורף",
+   "מי שרוצה לבחור בין דרגת חום נמוכה לגבוהה לפי הצורך",
+   "בית עם ילדים או חיות מחמד, בזכות מפסק הביטחון בזמן נפילה"
+  ],
+  "considerations": [
+   "בהפעלה בהספק של 2400 W כדאי לחבר לשקע ישירות ולא למפצל עם מכשירים נוספים",
+   "מידות ומשקל לא פורסמו בדף היבואן, כדאי לבדוק בחנות לפני הרכישה",
+   "תנור קוורץ מחמם בקרינה ישירה, לכן כדאי למקם אותו מול אזור הישיבה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של תנור הקוורץ SE-787?",
+    "a": "ההספק המרבי הוא 2400 W, עם אפשרות לעבוד בדרגה נמוכה של 1200 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה גופי חימום יש בתנור?",
+    "a": "בתנור 4 גופי חימום מקוורץ.",
+    "sources": []
+   },
+   {
+    "q": "האם התנור נכבה אם הוא נופל?",
+    "a": "כן, מפסק ביטחון מפסיק אוטומטית את פעולת התנור בזמן נפילה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על התנור?",
+    "a": "לפי היבואן סלמור, האחריות היא לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור חימום קוורץ סלמור SE-787 עם 4 גופי חימום והספק 2400 W, שתי דרגות חום ומפסק ביטחון בנפילה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור קוורץ סלמור",
+   "SE-787",
+   "סלמור SE-787",
+   "תנור חימום קוורץ 2400W",
+   "תנור קוורץ 4 גופי חימום",
+   "תנור חימום לסלון",
+   "תנור חימום עם מפסק ביטחון"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "2400W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר גופי חימום",
+   "catalogValue": "4 נורות קוורץ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצבי הפעלה",
+   "catalogValue": "2 דרגות חום (1200W ו-2400W)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרי בטיחות",
+   "catalogValue": "מפסק ביטחון בנפילה או הטיה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורת ביקורת",
+   "catalogValue": "קיימת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות ומשקל בדף היבואן. יש להשלים מהמדבקה או מהאריזה.",
+   "severity": "low"
+  },
+  {
+   "field": "אביזרי בטיחות",
+   "issue": "בקטלוג נכתב שהמפסק מנתק בנפילה או הטיה; דף היבואן מציין נפילה בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features verified on the Selmor importer page for SE-787. Relabelled the operating-modes fact as two heat levels. Catalog claims the safety switch also cuts on tilt; the importer page mentions only falling, so content describes fall protection only."
+ }
+}

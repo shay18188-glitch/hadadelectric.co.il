@@ -1,0 +1,458 @@
+{
+ "modelNumber": "EF-160",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "זק\"ש (Sachs)",
+  "exactModel": "EF-160",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דפי באג ואלקטרו קליק מציינים את הדגם EF-160 תחת זקש - Sachs. דף היצרן sachs.co.il לא נטען. יבואן לא צוין בדפים שנקראו. | QA: באג ואלקטרו קליק מציגים מקרר משרדי 80 ליטר עם תא הקפאה של זק\"ש (Sachs) בדגם EF-160, תואם לנפח ולמידות בקטלוג. Zaks בקטלוג הוא אותו מותג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A9%D7%A8%D7%93%D7%99-%D7%9B%D7%95%D7%9C%D7%9C-%D7%AA%D7%90-%D7%94%D7%A7%D7%A4%D7%90%D7%94-80-%D7%9C%D7%99%D7%98%D7%A8-sachs-95764536454",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electroclick.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A9%D7%A8%D7%93%D7%99-%D7%9B%D7%95%D7%9C%D7%9C-%D7%AA%D7%90-%D7%94%D7%A7%D7%A4%D7%90%D7%94---80-%D7%9C%D7%99%D7%98%D7%A8-sachs-%D7%96%D7%A7%D7%A9-ef-160",
+   "publisher": "אלקטרו קליק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח ברוטו",
+     "value": "80 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מקרר",
+     "value": "44 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח הקפאה",
+     "value": "19 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "43 × 84 × 41 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "סותר NF בשם הקטלוג",
+     "label": "שיטת הפשרה",
+     "value": "De Frost (DF), חצי אוטומטית"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורת תא הקפאה",
+     "value": "עד 18- מעלות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "הקטלוג מציין E",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת האחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדפי זכוכית הניתנים לשינוי גובה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתקן ביצים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגירה לאחסון פירות וירקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורה פנימית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תבנית להכנת קוביות קרח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תרמוסטט הניתן לכיוון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנעול מובנה בדלת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר משרדי קומפקטי של זק״ש בדגם EF-160, בנפח ברוטו של 80 ליטר, עם תא מקרר של 44 ליטר ותא הקפאה של 19 ליטר. מידותיו 43 × 84 × 41 ס״מ, שיטת ההפשרה De Frost חצי אוטומטית, והוא כולל מנעול מובנה ותרמוסטט הניתן לכיוון. מתאים למשרד, לחדר עבודה או ליחידת דיור קטנה.",
+  "highlights": [
+   "נפח ברוטו 80 ליטר: 44 ליטר מקרר ו-19 ליטר הקפאה",
+   "מידות קומפקטיות: 43 × 84 × 41 ס״מ",
+   "תא הקפאה המגיע עד 18- מעלות",
+   "מנעול מובנה בדלת",
+   "מדפי זכוכית הניתנים לשינוי גובה ומגירה לפירות וירקות"
+  ],
+  "goodFor": [
+   "מטבחון משרדי שצריך מקרר קטן עם אפשרות נעילה",
+   "חדר עבודה, קליניקה או חדר במעונות עם מקום מצומצם",
+   "מי שצריך גם תא הקפאה קטן לקרח ולמוצרים קפואים"
+  ],
+  "considerations": [
+   "ההפשרה היא De Frost חצי אוטומטית, כלומר יש להפשיר את תא ההקפאה מדי פעם, ולא No Frost",
+   "דירוג האנרגיה הוא F",
+   "יש לוודא שהנישה מתאימה לרוחב 43 ס״מ, גובה 84 ס״מ ועומק 41 ס״מ, עם מרווח לאוורור",
+   "האחריות לשנה, בכפוף לתעודת האחריות"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של מקרר זק״ש EF-160?",
+    "a": "הנפח ברוטו הוא 80 ליטר, מתוכם 44 ליטר בתא המקרר ו-19 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר הוא No Frost?",
+    "a": "לא. לפי דפי המוצר שיטת ההפשרה היא De Frost חצי אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לנעול את המקרר?",
+    "a": "כן, המקרר כולל מנעול מובנה בדלת.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 43 ס״מ, גובה 84 ס״מ ועומק 41 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "לאיזו טמפרטורה מגיע תא ההקפאה?",
+    "a": "תא ההקפאה מסוגל להגיע עד 18- מעלות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר משרדי זק״ש EF-160 בנפח ברוטו 80 ליטר עם תא הקפאה 19 ליטר ומנעול מובנה, מידות 43 × 84 × 41 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר משרדי",
+   "זקש EF-160",
+   "מקרר משרדי עם מקפיא",
+   "מקרר קטן 80 ליטר",
+   "מקרר משרדי עם מנעול",
+   "Sachs EF-160",
+   "מקרר קטן למשרד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "80 ליטר (ברוטו)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 84 ס\"מ, רוחב 43 ס\"מ, עומק 41 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "No Frost (NF)",
+   "finding": "corrected",
+   "correctValue": "De Frost (DF), חצי אוטומטית",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "corrected",
+   "correctValue": "F",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תא הקפאה",
+   "catalogValue": "עד 18- מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדפי זכוכית",
+   "catalogValue": "ניתנים לשינוי גובה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירה",
+   "catalogValue": "מגירה לאחסון פירות וירקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "תאורה פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תרמוסטט",
+   "catalogValue": "תרמוסטט מתכוונן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנעול",
+   "catalogValue": "כולל מנעול בדלת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתקן ביצים",
+   "catalogValue": "מתקן ביצים מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תבנית קוביות קרח",
+   "catalogValue": "תבנית להכנת קוביות קרח כלולה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעמד לבקבוקים בדלת",
+   "catalogValue": "מעמד לבקבוקים בדלת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקפיא עליון נפרד",
+   "catalogValue": "2 דלתות (מקפיא עליון נפרד)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R600",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סיווג אקלים",
+   "catalogValue": "T-Class",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מקרר",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "44 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח הקפאה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "19 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שיטת הפשרה",
+   "issue": "שם המוצר בקטלוג כולל NF ומפרט הקטלוג מציין No Frost, אך דפי הספקים שנקראו מציינים De Frost (DF) חצי אוטומטית. יש לבדוק את השם והמפרט.",
+   "severity": "high"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין E, דפי הספקים מציינים F.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "דף היצרן sachs.co.il לא נטען (FETCH FAILED) ודף היבואן לא נמצא. המקורות היחידים הם שני אתרי קמעונאים ישראליים שמציינים את הדגם EF-160. יש לאשר מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "שיטת הפשרה",
+   "issue": "שם המוצר בקטלוג כולל NF ומפרט הקטלוג מציין No Frost, אך שני דפי הקמעונאים מציינים De Frost (DF) חצי אוטומטית. יש לתקן את השם והמפרט.",
+   "severity": "high"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין E, שני דפי הקמעונאים מציינים F.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "המקורות הם שני קמעונאים ישראליים בלבד; דף היצרן לא נטען ויבואן לא אותר.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות מאומתות בשני דפי קמעונאים ישראליים לדגם EF-160 של זק\"ש. שיטת ההפשרה במקורות היא De Frost ולא No Frost כמו בשם ובמפרט הקטלוג, ודירוג האנרגיה F ולא E. ערך טמפרטורת ההקפאה נוסח כ-18- מעלות."
+ }
+}

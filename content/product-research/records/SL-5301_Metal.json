@@ -1,0 +1,398 @@
+{
+ "modelNumber": "SL-5301 Metal",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "SOL (סול)",
+  "exactModel": "SL-5301",
+  "israeliImporter": "שאוליאן סחר בע״מ",
+  "matchConfidence": "high",
+  "notes": "דגם מאוורר עמוד 16 אינץ׳ מסדרת METAL. הדפים שנבדקו מציינים את הדגם SL-5301 במפורש. לא נמצאו מידות או משקל לדגם. | QA: The importer page and Israeli retailer pages name SL-5301, a 16 inch brushed stainless pedestal fan, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-5301",
+   "publisher": "Sol (סול) - אתר היבואן",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%A2%D7%9E%D7%95%D7%93-16-sol-sl-5301-%D7%A6%D7%91%D7%A2-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%9E%D7%95%D7%91%D7%A8%D7%A9%D7%AA-%D7%90%D7%97%D7%A8/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%A2%D7%9E%D7%95%D7%93-16-sol-9102245697",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר",
+     "value": "16 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "55W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Marketing adjective dropped",
+     "label": "סוג מנוע",
+     "value": "AC"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Not a measurable spec; kept as feature wording",
+     "label": "ספיקת אוויר",
+     "value": "גבוהה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר להבים",
+     "value": "5"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "נירוסטה מוברשת"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "מתכת"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "1.6 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י שאוליאן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of fact 6",
+   "text": "גוף המכשיר וחלקיו מתכתיים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of fact 4",
+   "text": "5 להבים לפיזור אוויר אופטימלי"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ספיקת אוויר גבוהה וחסכוני בחשמל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צידוד ימין-שמאל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בורר שלוש מהירויות: נמוכה, בינונית וגבוהה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מוט טלסקופי להתאמת גובה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לאחר כיוון הגובה מהדקים את בורג המוט ומוודאים שהבסיס ושני הסורגים יציבים"
+  }
+ ],
+ "content": {
+  "summary": "מאוורר עמוד 16 אינץ׳ של Sol מדגם SL-5301, עם גוף וחלקים ממתכת בגימור נירוסטה מוברשת. הוא מגיע עם מנוע AC בהספק 55W, 5 להבים, שלוש מהירויות וצידוד ימין-שמאל. מתאים למי שמחפש מאוורר עמוד מתכתי עם גובה מתכוונן לבית או למשרד.",
+  "highlights": [
+   "קוטר 16 אינץ׳",
+   "מנוע AC בהספק 55W",
+   "5 להבים",
+   "גוף וחלקים ממתכת בגימור נירוסטה מוברשת",
+   "שלוש מהירויות וצידוד ימין-שמאל"
+  ],
+  "goodFor": [
+   "פיזור אוויר בחדר בזכות צידוד ימין-שמאל",
+   "מי שמעדיף מאוורר עם גוף מתכת במקום פלסטיק",
+   "התאמת גובה הזרימה בעזרת המוט הטלסקופי"
+  ],
+  "considerations": [
+   "אורך כבל החשמל 1.6 מטר, כדאי לוודא שקע קרוב למקום ההצבה",
+   "לאחר כיוון הגובה יש להדק את בורג המוט ולוודא שהבסיס והסורגים יציבים",
+   "האחריות לשנה ע״י שאוליאן, כדאי לשמור את תעודת האחריות"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המאוורר?",
+    "a": "55W, עם מנוע AC.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש?",
+    "a": "שלוש מהירויות: נמוכה, בינונית וגבוהה.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לכוונן את הגובה?",
+    "a": "כן, המוט הטלסקופי מאפשר התאמת גובה.",
+    "sources": []
+   },
+   {
+    "q": "מה אורך כבל החשמל?",
+    "a": "1.6 מטר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות ע״י שאוליאן, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר עמוד Sol SL-5301 בקוטר 16 אינץ׳ עם גוף מתכת בגימור נירוסטה מוברשת, הספק 55W ושלוש מהירויות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר עמוד 16 אינץ",
+   "Sol SL-5301",
+   "מאוורר עמוד מתכת",
+   "מאוורר סול",
+   "מאוורר עמוד נירוסטה",
+   "מאוורר עמוד טלסקופי",
+   "SL-5301 Metal"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קוטר",
+   "catalogValue": "16 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר בס״מ",
+   "catalogValue": "כ-40 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "55W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "מנוע AC רב עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מספר להבים",
+   "catalogValue": "5 להבים בעיצוב אווירודינמי",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.6 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חומרי מבנה",
+   "catalogValue": "גוף המכשיר וכלל חלקיו עשויים מתכת",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה מוברשת (כסוף)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "3 דרגות מהירות (Low, Medium, High)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מוט טלסקופי",
+   "catalogValue": "מוט טלסקופי המאפשר כיוונון גובה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו גובה, רוחב או משקל לדגם SL-5301 באף אחד מהדפים שנבדקו. יש לאמת מול חוברת ההוראות או תווית המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "דף דרגון אלקטריק לדגם SL-5301 מציין צבע שחור מט, בעוד היבואן ושאר הדפים מציינים נירוסטה מוברשת. דגם SL-5300 בצבע שחור מט קיים בשוק. יש לאמת את צבע הדגם לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר להבים",
+   "issue": "הקטלוג מציין עיצוב אווירודינמי ללהבים, ואין לכך אישור בדפים שנבדקו. מספר הלהבים (5) אושר.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "לפי סיכום המחקר, דף דרגון אלקטריק ל-SL-5301 מציין שחור מט, בעוד היבואן וליאור מציינים נירוסטה מוברשת. יש לאמת את צבע היחידה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו גובה, משקל או מידות בדפים שנבדקו; הקוטר בס״מ (כ-40) בקטלוג לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "מספר להבים",
+   "issue": "העיצוב האווירודינמי של הלהבים המופיע בקטלוג לא אושר במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 3 (ספיקת אוויר: גבוהה) rejected as a spec value - it is marketing wording with no measurable figure; kept as feature text. Features 0 and 1 rejected as duplicates of facts 6 and 4. Color kept from the importer title and Lior page; Dragon page reportedly lists matte black for SL-5301 (flagged)."
+ }
+}

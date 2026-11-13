@@ -1,0 +1,297 @@
+{
+ "modelNumber": "HEM-2168",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-2168",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The Hemilton Israel and 100-100 pages name this model 2168-HEM; only the Speed4u listing names it as HEM-2168 (SKU). Treated as the same hand mixer, 250W with 5 speeds. | QA: Speed4u lists the product with SKU HEM-2168; Hemilton Israel and 100-100 use 2168-HEM, the same code in reverse order. Same 250W, 5-speed hand mixer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.speed4u.co.il/product/%D7%9E%D7%99%D7%A7%D7%A1%D7%A8-%D7%99%D7%93-hand-mixer-%D7%9E%D7%91%D7%99%D7%AA-hemilton-%D7%93%D7%92%D7%9D-2168-hem-%D7%9E%D7%91%D7%99%D7%AA-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F/",
+   "publisher": "Speed4u",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.hemilton.co.il/product/2168hem",
+   "publisher": "Hemilton Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "250W"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אביזרים",
+     "value": "2 מוטות עירבול, 2 מוטות לישה, מקצף"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote not on page.; quote checks: quote-not-on-page",
+     "label": "יבואן רשמי",
+     "value": "המילטון חשמל ואלקטרוניקה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיקסר יד לעירבול, לישה והקצפה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "5 מהירויות פעולה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 מוטות עירבול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 מוטות לישה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקצף"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מיקסר יד של Hemilton בדגם HEM-2168 לעירבול, לישה והקצפה. הוא מגיע בהספק של 250W עם 5 מהירויות פעולה, וכולל 2 מוטות עירבול, 2 מוטות לישה ומקצף. מתאים למי שמחפש מכשיר ידני להכנות יומיומיות במטבח הביתי.",
+  "highlights": [
+   "הספק 250W",
+   "5 מהירויות פעולה",
+   "2 מוטות עירבול ו-2 מוטות לישה",
+   "מקצף בערכה",
+   "אחריות 12 חודשים"
+  ],
+  "goodFor": [
+   "הקצפה ועירבול של בלילות במטבח הביתי",
+   "לישת בצקים קלים עם מוטות הלישה המצורפים",
+   "מי שמעדיף מיקסר ידני על פני מיקסר שולחני"
+  ],
+  "considerations": [
+   "מדובר במיקסר יד בהספק 250W, ולא במיקסר שולחני עם קערה",
+   "כדאי לבדוק שהאביזרים המצורפים (מוטות עירבול, מוטות לישה ומקצף) מתאימים לשימושים המתוכננים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המיקסר?",
+    "a": "ההספק הוא 250W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש למיקסר?",
+    "a": "למיקסר 5 מהירויות פעולה.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים מגיעים עם המיקסר?",
+    "a": "2 מוטות עירבול, 2 מוטות לישה ומקצף.",
+    "sources": []
+   },
+   {
+    "q": "מה תקופת האחריות?",
+    "a": "האחריות היא ל-12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקסר יד Hemilton HEM-2168 בהספק 250W עם 5 מהירויות, כולל מוטות עירבול, מוטות לישה ומקצף. לעירבול, לישה והקצפה - בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקסר יד",
+   "מיקסר יד המילטון",
+   "Hemilton HEM-2168",
+   "מיקסר יד 250 וואט",
+   "2168-HEM",
+   "מיקסר ידני ללישה",
+   "מיקסר יד 5 מהירויות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Hemilton",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "250W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "5 דרגות מהירות משתנות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "2 מוטות ערבול (מקצפים) מפלדת אל-חלד ו-2 מוטות לישה",
+   "finding": "corrected",
+   "correctValue": "2 מוטות עירבול, 2 מוטות לישה, מקצף",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כפתור שחרור",
+   "catalogValue": "כפתור Eject להוצאה מהירה ובטוחה של האביזרים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ניקוי",
+   "catalogValue": "חלקים מתפרקים לניקוי קל ומהיר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The manufacturer and importer name this model 2168-HEM; the store code HEM-2168 appears as the SKU on the Speed4u listing only. Same product is very likely, but confirm the code mapping before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "No dimensions or weight for this model were found on the fetched pages, so no size or weight facts were recorded.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Hemilton Israel and 100-100 use the code 2168-HEM; HEM-2168 appears only as the Speed4u SKU. Confirm the code mapping.",
+   "severity": "low"
+  },
+  {
+   "field": "אביזרים נלווים",
+   "issue": "The catalog lists 2 stainless whisks and 2 dough hooks; sources list 2 mixing rods, 2 dough hooks and a whisk. Confirm the box contents.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 4 (official importer): quote not found on page. Kept power, speeds, warranty and accessories from the Speed4u page that names the model."
+ }
+}

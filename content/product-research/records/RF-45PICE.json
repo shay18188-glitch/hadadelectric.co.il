@@ -1,0 +1,498 @@
+{
+ "modelNumber": "RF-45PICE",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "FAYNAMELI",
+  "exactModel": "RF-45PICE",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Both Israeli retailer pages name the exact model RF-45PICE. No manufacturer, importer or EU page was found. The RF-60PICE page (hashmal-price.co.il) is a sibling model and was not used as evidence. | QA: Two Israeli retailer pages name the exact model RF-45PICE by FAYNAMELI with 45 kg/day output matching the catalog. No manufacturer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%A7%D7%A8%D7%97-%D7%A4%D7%90%D7%99%D7%99%D7%A0%D7%9E%D7%9C%D7%99-%E2%81%A6rf-45pice%E2%81%A9/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ace.co.il/4491418",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "FAYNAMELI"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר דגם",
+     "value": "RF-45PICE"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote says approximately.",
+     "label": "כושר ייצור יומי",
+     "value": "כ־45 ק״ג קרח ביממה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת אחסון קרח",
+     "value": "15 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Axis order not stated by source.",
+     "label": "מידות מוצר",
+     "value": "500 × 400 × 800 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות אריזה",
+     "value": "580 × 475 × 860 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן הכנת סבב קרח",
+     "value": "כ־10-15 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר גוף המכשיר",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בטנה פנימית",
+     "value": "LLDPE בטיחותית למגע עם מזון"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "לוח בקרה",
+     "value": "דיגיטלי עם תצוגת LED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בידוד תרמי",
+     "value": "קצף CYCLOPENTANE"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Importer name not clearly stated in the quote.",
+     "label": "אחריות",
+     "value": "שנה באמצעות היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פעולה אוטומטית, ללא צורך במילוי ידני של מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית ניקוי אוטומטי בלחיצת כפתור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלון קדמי לצפייה בקרח ללא פתיחת הדלת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "משאבת מים צנטריפוגלית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתחבר ישירות לחשמל ולצנרת המים"
+  }
+ ],
+ "content": {
+  "summary": "מכונת קרח תעשייתית של FAYNAMELI, דגם RF-45PICE, בגוף נירוסטה. המכונה מייצרת כ־45 ק״ג קרח ביממה, אוגרת עד 15 ק״ג קרח ומכינה סבב קרח בכ־10-15 דקות. היא מתחברת ישירות לצנרת המים ומתאימה לבתי קפה, פאבים ועסקים קטנים שצריכים אספקת קרח רציפה.",
+  "highlights": [
+   "כושר ייצור של כ־45 ק״ג קרח ביממה",
+   "קיבולת אחסון קרח של 15 ק״ג",
+   "סבב קרח בכ־10-15 דקות",
+   "חיבור ישיר לצנרת המים, ללא מילוי ידני",
+   "ניקוי אוטומטי בלחיצת כפתור"
+  ],
+  "goodFor": [
+   "בתי קפה ובארים שצריכים קרח לאורך כל היום",
+   "עסק שרוצה מכונה שעובדת ללא מילוי ידני של מים",
+   "מטבח עסקי שמעדיף גוף נירוסטה וניקוי אוטומטי"
+  ],
+  "considerations": [
+   "יש לוודא נקודת מים קרובה לחיבור ישיר לצנרת",
+   "יש לוודא שקע חשמל זמין במקום ההצבה",
+   "יש למדוד את מקום ההצבה מול מידות המכשיר 500 × 400 × 800 מ״מ",
+   "יש לבדוק שהמעבר לאתר מתאים לאריזה במידות 580 × 475 × 860 מ״מ"
+  ],
+  "faq": [
+   {
+    "q": "כמה קרח המכונה מייצרת ביממה?",
+    "a": "כ־45 ק״ג קרח ביממה.",
+    "sources": []
+   },
+   {
+    "q": "כמה קרח ניתן לאחסן במכונה?",
+    "a": "קיבולת האחסון היא 15 ק״ג קרח.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך למלא מים ידנית?",
+    "a": "לא. המכונה מתחברת ישירות לצנרת המים ועובדת באופן אוטומטי.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח סבב קרח?",
+    "a": "כ־10-15 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "שנה באמצעות היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קרח תעשייתית FAYNAMELI RF-45PICE: כ־45 ק״ג קרח ביממה, אחסון 15 ק״ג, גוף נירוסטה וחיבור ישיר למים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת קרח תעשייתית",
+   "מכונת קרח 45 קילו",
+   "FAYNAMELI RF-45PICE",
+   "RF-45PICE",
+   "מכונת קרח לבית קפה",
+   "מכונת קרח לעסק",
+   "מכשיר קרח נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "FAYNAMELI",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת ייצור",
+   "catalogValue": "45 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת אחסון פנימית",
+   "catalogValue": "15 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "500x400x800 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן הכנת סבב קרח",
+   "catalogValue": "10-15 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף המכשיר",
+   "catalogValue": "נירוסטה אלגנטית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג חיבור למים",
+   "catalogValue": "חיבור ישיר וקבוע לצנרת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "דיגיטלי חכם עם תצוגת LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת משאבה",
+   "catalogValue": "צנטריפוגלית בטיחותית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בידוד תרמי",
+   "catalogValue": "קצף CYCLOPENTANE",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בטנה פנימית",
+   "catalogValue": "LLDPE בטיחותית למגע עם מזון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פעולה אוטומטית ללא מילוי ידני",
+   "catalogValue": "פעולה אוטומטית מלאה ללא צורך במילוי ידני",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוי עצמי",
+   "catalogValue": "פונקציית ניקוי עצמי מובנית בלחיצת כפתור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חלון צפייה קדמי",
+   "catalogValue": "חלון צפייה קדמי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R290 (ידידותי לסביבה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כיוונון עובי קוביות הקרח",
+   "catalogValue": "כיוונון עובי קוביות הקרח",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת ניקוז פנימית",
+   "catalogValue": "מערכת ניקוז פנימית נוחה לתחזוקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות אריזה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "580 × 475 × 860 מ״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, אחריות היבואן הרשמי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "RF-45PICE appears only on two Israeli retailer pages (Avi Super, ACE). No manufacturer, importer or EU product page was found, so the facts rely on retailer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות מוצר",
+   "issue": "The retailer pages give 500X 400X 800mm without naming width, height or depth. The axis order is therefore not verified, so the combined width-height-depth row was not written.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג גז קירור",
+   "issue": "The catalog states R290 refrigerant. No fetched page names the refrigerant, so it was not verified.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The retailer says the warranty is the official importer's, but neither page names the importer. The catalog does not name it either.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says 'כסוף' (silver). No fetched page states the colour.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rely on two Israeli retailer pages; no manufacturer or importer page was found.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות מוצר",
+   "issue": "Sources give 500×400×800 mm without stating which axis is width, depth or height.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג גז קירור",
+   "issue": "Catalog lists R290 refrigerant; no source confirms it.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "Catalog name says silver (כסוף); no source states the colour.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Warranty is attributed to the official importer, whose name is not clearly given.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts are backed by ok quotes from two Israeli retailer pages that name RF-45PICE. Dimensions label clarified as unspecified axis order. Warranty wording adjusted to the quote."
+ }
+}

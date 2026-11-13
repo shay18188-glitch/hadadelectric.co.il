@@ -1,0 +1,355 @@
+{
+ "modelNumber": "PVR2D335-BK",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PVR2D335-BK",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Lior Electric (Israeli shop) page names the exact model with a full spec table. Total gross volume 335 L is not stated on it (only net compartment volumes). Catalog says stainless-black finish; page says black. | QA: Israeli retailer page names PVR2D335-BK with a full spec table matching catalog compartment volumes, energy class, noise and refrigerant."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/?s=PVR2D335-BK&post_type=product",
+   "publisher": "Lior Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Converted from mm.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 185 × 66.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "58 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור (נטו)",
+     "value": "237 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה (נטו)",
+     "value": "98 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תא הקפאה",
+     "value": "3 מגירות הקפאה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת זרם",
+     "value": "0.8A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240V / 50Hz"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "46 dB"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "אוטומטית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סיווג אקלים",
+     "value": "SN/N/ST"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גז קירור",
+     "value": "R600a (60 גרם)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog name says blackened stainless; flagged.",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מוצר",
+     "value": "מקרר 2 דלתות – מקפיא תחתון"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דלת",
+     "value": "הפיכה (ימין/שמאל)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תאורה פנימית",
+     "value": "1W"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Catalog says 2 door shelves; source says 3. Flagged.",
+   "text": "חלוקה פנימית: 3 מדפים, מגירת פירות וירקות ו-3 מדפי צד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר ProView PVR2D335-BK בתצורת 2 דלתות עם מקפיא תחתון, בצבע שחור. תא הקירור בנפח 237 ליטר נטו ותא ההקפאה בנפח 98 ליטר נטו עם 3 מגירות, עם הפשרה אוטומטית ורמת רעש של 46 dB. מתאים למי שמחפש מקרר מקפיא תחתון ברוחב 59.5 ס״מ שנכנס לנישה צרה.",
+  "highlights": [
+   "תא קירור 237 ליטר נטו ותא הקפאה 98 ליטר נטו",
+   "מקפיא תחתון עם 3 מגירות הקפאה",
+   "הפשרה אוטומטית",
+   "רמת רעש 46 dB",
+   "דלת הפיכה ימין/שמאל"
+  ],
+  "goodFor": [
+   "מטבח עם נישה צרה, בזכות רוחב של 59.5 ס״מ",
+   "מי שמעדיף גישה לתא הקירור בגובה העיניים ומקפיא תחתון במגירות",
+   "מטבח שבו כיוון פתיחת הדלת צריך להתאים לקיר, בזכות דלת הפיכה",
+   "מי שלא רוצה לטפל בהפשרה ידנית"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 59.5 × 185 × 66.6 ס״מ, כולל מרווח לפתיחת הדלת",
+   "דירוג האנרגיה הוא E – כדאי לקחת זאת בחשבון בהשוואה לדגמים אחרים",
+   "המקרר עובד במתח 220-240V / 50Hz ודורש שקע חשמל זמין בקרבת הנישה",
+   "משקל המקרר 58 ק״ג נטו – כדאי לתכנן את ההובלה וההכנסה למטבח"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של תא הקירור ותא ההקפאה?",
+    "a": "תא הקירור בנפח 237 ליטר נטו ותא ההקפאה בנפח 98 ליטר נטו.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר מפשיר לבד?",
+    "a": "כן, למקרר הפשרה אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשנות את כיוון פתיחת הדלת?",
+    "a": "כן, הדלת הפיכה וניתן להתקין אותה לפתיחה לימין או לשמאל.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המקרר?",
+    "a": "רמת הרעש היא 46 dB.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 59.5 ס״מ, גובה 185 ס״מ ועומק 66.6 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא תחתון ProView PVR2D335-BK: תא קירור 237 ליטר ותא הקפאה 98 ליטר, הפשרה אוטומטית ורוחב 59.5 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "ProView PVR2D335-BK",
+   "מקרר ProView",
+   "מקרר מקפיא תחתון",
+   "מקרר מקפיא תחתון שחור",
+   "מקרר 2 דלתות מקפיא תחתון",
+   "מקרר ברוחב 60 ס״מ",
+   "פרוויו מקרר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "237 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "98 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רעש",
+   "catalogValue": "46dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח כולל",
+   "catalogValue": "335 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה מושחרת",
+   "finding": "corrected",
+   "correctValue": "שחור",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "Catalog says blackened stainless steel; the retailer page says plain black.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog name says blackened stainless steel (נירוסטה מושחרת); the Israeli retailer page says plain black. Confirm the actual finish.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח כולל",
+   "issue": "Total volume 335 L in the catalog name is not stated on the source (only net compartment volumes 237 + 98 L).",
+   "severity": "low"
+  },
+  {
+   "field": "מדפי צד",
+   "issue": "Catalog lists 2 door shelves; the retailer page says 3 door shelves. Confirm.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on a single Israeli retailer search-result page; no manufacturer or importer source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from one Israeli retailer page (Lior Electric) that names the exact model; the URL is a site search result for the model. Dimensions converted from mm to cm. Color on the page is black, while the catalog name says blackened stainless steel; flagged. Total volume 335 L is not stated on the source and is not published as a fact. The page lists 3 door shelves while the catalog says 2; feature kept per the source and flagged."
+ }
+}

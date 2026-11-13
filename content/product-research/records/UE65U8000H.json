@@ -1,0 +1,405 @@
+{
+ "modelNumber": "UE65U8000H",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "UE65U8000H",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "medium",
+  "notes": "דף קמעונאי ישראלי (CityDeal) מציג את הדגם המלא UE65U8000H עם הערה 'יבואן רשמי'. מק\"ט הקמעונאי: UE65U8000H-N. לא נמצא דף יצרן או EPREL לדגם המדויק. דף קמעונאי אחר (bug.co.il) מציג קוד ישראלי UE65U8000HUXIL, שאינו נחשב לדגם המדויק ולא שימש לעובדות. | QA: CityDeal names UE65U8000H (SKU UE65U8000H-N); another retailer lists UE65U8000HUXIL. Israeli suffix unclear; no manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/samsung-ue65u8000h-65-inch-crystal-uhd-4k-tv",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "65 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840 × 2160 (4K UHD)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1444.1 × 831.2 × 76.8 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote mixes stand width with what appear to be overall height/depth with stand; ambiguous attribute.",
+     "label": "מידות מעמד שולחני (רוחב × גובה × עומק)",
+     "value": "1004.6 × 882.2 × 222 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "14.1 ק״ג ללא מעמד / 14.4 ק״ג עם מעמד"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד",
+     "value": "Crystal Processor 4K"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק רמקולים",
+     "value": "20 W (2 ערוצים)"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 (4K 60 Hz)"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Samsung Tizen"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עיצוב",
+     "value": "MetalStream, מסגרת מתכת דקה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעבד Crystal Processor 4K, תמיכה ב-HDR10+, מערכת Tizen, Q‑Symphony ומצב AI Soccer Mode"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Motion Xcelerator עד 120Hz באמצעות DLG"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תואם לתלייה על קיר בתקן VESA 200 × 200 מ״מ"
+  }
+ ],
+ "content": {
+  "summary": "סמסונג UE65U8000H היא טלוויזיה חכמה 65 אינץ׳ ברזולוציית 4K UHD ‏(3840 × 2160) עם מעבד Crystal Processor 4K ומערכת ההפעלה Tizen. היא תומכת ב-HDR10+, כוללת 3 כניסות HDMI ורמקולים בהספק 20 W. מתאימה למי שמחפש מסך גדול לסלון לצפייה בתכנים ב-4K, בספורט ובאפליקציות סטרימינג.",
+  "highlights": [
+   "מסך 65 אינץ׳ ברזולוציית 4K UHD",
+   "מעבד Crystal Processor 4K ותמיכה ב-HDR10+",
+   "מערכת הפעלה Samsung Tizen",
+   "3 כניסות HDMI ‏(4K 60 Hz)",
+   "תואם לתלייה על קיר בתקן VESA 200 × 200 מ״מ"
+  ],
+  "goodFor": [
+   "סלון שבו רוצים מסך גדול של 65 אינץ׳ לצפייה ב-4K",
+   "צפייה בספורט בזכות AI Soccer Mode ו-Motion Xcelerator",
+   "חיבור כמה מכשירים כמו ממיר, קונסולה ונגן דרך 3 כניסות HDMI",
+   "מי שרוצה טלוויזיה חכמה עם אפליקציות מובנות על Tizen"
+  ],
+  "considerations": [
+   "יש לוודא שהקיר או הרהיט מתאימים לרוחב של 1444.1 מ״מ ולגובה של 831.2 מ״מ ללא מעמד",
+   "לתלייה על הקיר נדרשת זרוע תואמת VESA 200 × 200 מ״מ שנושאת משקל של 14.1 ק״ג",
+   "קצב הרענון הוא 60 Hz; מי שמחפש 120Hz אמיתי לגיימינג צריך לדעת שה-120Hz מושג באמצעות DLG",
+   "הרמקולים הם 20 W ב-2 ערוצים; למערכת קולנוע ביתי כדאי לשקול מקרן קול"
+  ],
+  "faq": [
+   {
+    "q": "מה הרזולוציה של סמסונג UE65U8000H?",
+    "a": "הרזולוציה היא 4K UHD ‏(3840 × 2160).",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לתלות את הטלוויזיה על הקיר?",
+    "a": "כן, היא תואמת לתלייה בתקן VESA 200 × 200 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש בטלוויזיה?",
+    "a": "יש 3 כניסות HDMI התומכות ב-4K 60 Hz.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת הפעלה מותקנת בטלוויזיה?",
+    "a": "מערכת ההפעלה היא Samsung Tizen.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקלת הטלוויזיה?",
+    "a": "14.1 ק״ג ללא מעמד ו-14.4 ק״ג עם מעמד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה סמסונג UE65U8000H בגודל 65 אינץ׳, רזולוציית 4K UHD ומעבד Crystal Processor 4K עם Tizen ו-HDR10+. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סמסונג UE65U8000H",
+   "UE65U8000H",
+   "טלוויזיה סמסונג 65 אינץ׳",
+   "טלוויזיה 65 אינץ׳ 4K",
+   "Samsung Crystal UHD 65",
+   "טלוויזיה חכמה Tizen 65",
+   "סמסונג U8000H"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "65 אינץ' (165.1 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "3840x2160 (4K Ultra HD)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "50Hz / 60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Tizen",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורים (HDMI)",
+   "catalogValue": "3x HDMI",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורים (USB)",
+   "catalogValue": "1x USB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "Wi-Fi 5, Bluetooth 5.3, Ethernet LAN",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "20W (2.0 ערוצים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "144.41 ס\"מ רוחב",
+   "finding": "corrected",
+   "correctValue": "1444.1 × 831.2 × 76.8 מ״מ ללא מעמד; מעמד שולחני 1004.6 × 882.2 × 222 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "14.2 ק\"ג",
+   "finding": "contradicted",
+   "correctValue": "14.1 ק״ג ללא מעמד / 14.4 ק״ג עם מעמד",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "Crystal Processor 4K",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תמיכה בעוזרות קוליות",
+   "catalogValue": "Bixby, Alexa, Google Assistant",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "AirPlay 2",
+   "catalogValue": "Apple AirPlay 2",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקוד UE65U8000H מופיע בדף הקמעונאי CityDeal כדגם המלא ובמק\"ט UE65U8000H-N. דף קמעונאי אחר (bug.co.il) מציג קוד ישראלי UE65U8000HUXIL. יש לוודא איזו גרסה מיובאת לישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור יצרן",
+   "issue": "לא נמצא דף יצרן, יבואן או EPREL שמציין את הדגם המדויק UE65U8000H. העובדות מבוססות על דף קמעונאי ישראלי אחד בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "בדף CityDeal מופיעים גם '60Hz' בתיאור וגם '50/60Hz' בטבלת המפרט. יש לבדוק מול מפרט היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות עם מעמד",
+   "issue": "השדה 'מידות עם מעמד' בקטלוג מציג 144.41 ס\"מ, אך זהו רוחב הטלוויזיה ללא מעמד לפי הדף.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "CityDeal מציג UE65U8000H (מק״ט UE65U8000H-N), ודף קמעונאי אחר מציג UE65U8000HUXIL. יש לוודא את הגרסה הישראלית.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל העובדות מבוססות על דף קמעונאי ישראלי אחד; לא נמצא דף יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 14.2 ק״ג, הדף מציין 14.1 ק״ג ללא מעמד / 14.4 ק״ג עם מעמד.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות עם מעמד",
+   "issue": "בקטלוג 144.41 ס״מ מוצג כרוחב עם מעמד, אך זהו רוחב הטלוויזיה ללא מעמד. מידות המעמד בדף לא ברורות ולא פורסמו.",
+   "severity": "low"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "הקטלוג מציין 50Hz / 60Hz; הדף מציין 60Hz בתיאור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 4 (stand dimensions): the quote labels three numbers as 'stand width' while they look like stand-base width plus overall height and depth with stand; the attribute is ambiguous. All other facts kept from one Israeli retailer page that names the exact model."
+ }
+}

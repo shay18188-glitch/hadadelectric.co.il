@@ -1,0 +1,160 @@
+{
+ "modelNumber": "ATL-246",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-246",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "הנתונים מדפי קמעונאים ישראליים בלבד; לא נמצא דף יצרן או יבואן. | QA: Refaeli page names Gold Line ATL-246 hot dog maker, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://refaeli.co.il/items/4471928-ATL-246",
+   "publisher": "רפאלי",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "350W"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיכל מים בציפוי Non-Stick לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מפסק הפעלה מואר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתקן לחימום לחמניות מנירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיכל מזון נשלף ומבודד חום"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכשיר להכנת הוט דוג של Gold Line, דגם ATL-246, המכין נקניקיות באידוי ומחמם את הלחמנייה על מתקן נירוסטה ייעודי. הספק המכשיר 350W, ומיכל המים בציפוי Non-Stick ומיכל המזון הנשלף מקלים על הניקוי. מתאים למי שרוצה להכין הוט דוג בבית בקלות.",
+  "highlights": [
+   "הספק 350W",
+   "מיכל מים בציפוי Non-Stick לניקוי קל",
+   "מתקן לחימום לחמניות מנירוסטה",
+   "מיכל מזון נשלף ומבודד חום",
+   "מפסק הפעלה מואר"
+  ],
+  "goodFor": [
+   "הכנת הוט דוג ביתי עם לחמנייה חמה",
+   "ארוחות מהירות לילדים ולאירוחים קטנים",
+   "מי שמחפש מכשיר שקל לנקות אחרי השימוש"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי על השיש ליד שקע חשמל",
+   "המכשיר עובד באידוי ולכן יש למלא את מיכל המים לפני ההפעלה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המכשיר?",
+    "a": "ההספק של Gold Line ATL-246 הוא 350W.",
+    "sources": []
+   },
+   {
+    "q": "איך מחממים את הלחמנייה?",
+    "a": "המכשיר כולל מתקן מנירוסטה לחימום לחמניות.",
+    "sources": []
+   },
+   {
+    "q": "האם קל לנקות את המכשיר?",
+    "a": "כן, מיכל המים בציפוי Non-Stick ומיכל המזון נשלף לניקוי קל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר להכנת הוט דוג Gold Line ATL-246 בהספק 350W, עם מתקן נירוסטה לחימום לחמניות ומיכל מזון נשלף. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכשיר הוט דוג",
+   "מכשיר להכנת נקניקיות",
+   "Gold Line ATL-246",
+   "גולדליין הוט דוג",
+   "מכשיר הוט דוג ביתי",
+   "ATL-246"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "350W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הזנה",
+   "catalogValue": "230V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר דוקרני נירוסטה",
+   "catalogValue": "2 דוקרנים",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קטגוריה",
+   "issue": "הקטגוריה בקטלוג (וופל, פנקייק, דונאטס) לא תואמת מכשיר להכנת נקניקיות",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל הנתונים מדף קמעונאי ישראלי אחד; מתח הזנה ומספר דוקרנים בקטלוג לא אומתו",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "Single Israeli retailer page (Refaeli) naming ATL-246 confirms 350W power and four features. No manufacturer or importer source."
+ }
+}

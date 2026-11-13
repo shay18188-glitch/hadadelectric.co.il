@@ -1,0 +1,363 @@
+{
+ "modelNumber": "Minipimer 1 MQ10.001MWH",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Braun",
+  "exactModel": "MQ10.001MWH",
+  "israeliImporter": "ברימאג",
+  "matchConfidence": "high",
+  "notes": "הדגם משווק בישראל תחת השם בלנדר מוט 450W BRAUN MQ10.001MWH. דף היצרן הוא באיטלקית ואינו מציג מידות. מקורות הארץ הם חנויות ישראליות בלבד. | QA: Braun manufacturer page and two Israeli retailer pages name MQ10.001MWH (white). Catalog name Minipimer 1 matches the Italian MultiQuick 1 Minipimer naming."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.petcom.co.il/product/%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%9E%D7%95%D7%98-450w-braun-mq10-001mwh-%D7%91%D7%A6%D7%91%D7%A2-%D7%9C%D7%91%D7%9F/",
+   "publisher": "פטקום אלקטריק אילת",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.braunhousehold.com/it-it/p/multiquick-1-minipimer-multiquick-1-mq10.001m-wh/MQ10.001MWH.html?pid=0X22111470",
+   "publisher": "Braun Household IT",
+   "kind": "manufacturer",
+   "market": "IT",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.coelectric.co.il/items/7344502-%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%9E%D7%95%D7%98-%D7%93%D7%92%D7%9D-MQ10-001MWH-BRAUN-%D7%91%D7%A6%D7%91%D7%A2-%D7%9C%D7%91%D7%9F-%D7%91%D7%A8%D7%90%D7%95%D7%9F",
+   "publisher": "CO Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer and retailer agree.",
+     "label": "הספק",
+     "value": "450 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "1"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כוס ערבוב ומדידה",
+     "value": "0.6 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Researcher reports Braun page lists 0.726; retailers list 626 g.",
+     "label": "משקל",
+     "value": "626 גרם"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "1.2 מטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר הלהב",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Single retailer claim; entry-level MQ10 shaft likely plastic; possible listing error.",
+     "label": "חומר המוט",
+     "value": "נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת EasyTwist לחיבור והסרה מהירים של מוט הערבוב"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Dropped motor-unit exclusion not in quote.",
+   "text": "חלקים הניתנים לשטיפה במדיח כלים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כוס ערבוב ומדידה בנפח 0.6 ליטר"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר מוט של Braun מסדרת MultiQuick 1, דגם MQ10.001MWH בצבע לבן. מנוע בהספק 450 W, מהירות אחת ולהב נירוסטה, עם כוס ערבוב ומדידה בנפח 0.6 ליטר. מתאים למי שמחפש בלנדר מוט פשוט להכנת מרקים, רטבים ומחיות.",
+  "highlights": [
+   "מנוע בהספק 450 W",
+   "מהירות אחת להפעלה פשוטה",
+   "להב נירוסטה",
+   "כוס ערבוב ומדידה בנפח 0.6 ליטר באריזה",
+   "מערכת EasyTwist להסרה מהירה של מוט הערבוב"
+  ],
+  "goodFor": [
+   "ריסוק מרקים ורטבים ישירות בסיר",
+   "הכנת מחיות ושייקים בכוס המדידה המצורפת",
+   "מי שמעדיף הפעלה פשוטה במהירות אחת"
+  ],
+  "considerations": [
+   "יש מהירות אחת בלבד, ללא כיוון מהירות",
+   "אורך הכבל 1.2 מטר, כדאי לוודא שקע קרוב למשטח העבודה",
+   "באריזה כוס ערבוב בלבד, ללא אביזרי קיצוץ או הקצפה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "450 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש לו?",
+    "a": "מהירות אחת.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "כוס ערבוב ומדידה בנפח 0.6 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את החלקים במדיח?",
+    "a": "כן, החלקים הנשלפים מוגדרים כניתנים לשטיפה במדיח כלים.",
+    "sources": []
+   },
+   {
+    "q": "מה אורך הכבל?",
+    "a": "1.2 מטר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Braun MQ10.001MWH בצבע לבן: מנוע 450 W, להב נירוסטה וכוס ערבוב ומדידה 0.6 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט Braun",
+   "Braun MQ10.001MWH",
+   "MQ10.001MWH",
+   "בלנדר מוט 450 וואט",
+   "בראון מולטיקוויק 1",
+   "Minipimer 1",
+   "בלנדר מוט לבן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "450 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות מהירות",
+   "catalogValue": "מהירות אחת (1)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כוס מדידה",
+   "catalogValue": "כוס מדידה מפלסטיק בנפח 600 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיה PowerBell",
+   "catalogValue": "PowerBell עם להבי פלדת אל-חלד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר גוף המכשיר",
+   "catalogValue": "פלסטיק (BPA-free)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תחזוקה",
+   "catalogValue": "חלקים ניתנים לשטיפה במדיח כלים (למעט יחידת המנוע)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן וירוק",
+   "finding": "corrected",
+   "correctValue": "לבן",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "626 גרם",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1.2 מטר",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אחריות",
+   "issue": "מקורות ישראליים סותרים בתקופת האחריות: פטקום מציין שנה מבית היבואן הרשמי, וCO Electric מציין שנתיים מלאות מבית ברימאג בכפוף לתקנון היבואן. לא נפרסם ערך עד לאימות מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "דף היצרן של Braun מציין Peso 0.726 (כ-726 גרם) בעוד שני מקורות ישראליים מציינים 626 גרם. יש לאמת מול מפרט היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הטקסט בקטלוג מציין לבן וירוק, אך לא נמצא מקור שמציין ירוק לדגם זה; כל המקורות שנמצאו מציינים לבן בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות (רוחב × גובה × עומק) בדפי היצרן או בחנויות הישראליות שנבדקו. יש להוסיף מידות לאחר אימות.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "השם בקטלוג Minipimer 1 שונה משם הדגם בדפי היצרן (MultiQuick 1). מספר הדגם MQ10.001MWH מופיע בדפים, אך השם לא נבדק מול היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "626 גרם בחנויות ישראליות מול 0.726 שדווח מדף היצרן; יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "חומר המוט",
+   "issue": "חנות אחת מציינת מוט נירוסטה; לא אומת מול היצרן ועלול להיות טעות רישום.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין לבן וירוק, המקורות מציינים לבן בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "מקורות ישראליים סותרים בתקופת האחריות; לא פורסם ערך.",
+   "severity": "high"
+  },
+  {
+   "field": "חומר גוף / PowerBell",
+   "issue": "BPA-free ו-PowerBell שבקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected stainless-steel shaft (fact 7): single retailer claim, MQ10 entry model likely has a plastic shaft, possible listing error. Weight (fact 3) held as conflict: researcher reports the Braun page lists 0.726 while two Israeli retailers list 626 g. Dishwasher feature reworded to drop the motor-unit exclusion, which is not in the quote."
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "modelNumber": "WKWK695-WH",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Westinghouse",
+  "exactModel": "WKWK695-WH",
+  "israeliImporter": "סלמור",
+  "matchConfidence": "high",
+  "notes": "Israeli retailers list the model as WKWK695WH / WKWK-695WH (white pearl and copper). No manufacturer page found. | QA: Both Israeli retailers name the model code with the WH (white) suffix; no manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://tagorc.co.il/items/4633457-%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%9E%D7%A2%D7%95%D7%A6%D7%91-%D7%A8%D7%98%D7%A8%D7%95-1-6-%D7%9C%D7%99%D7%98%D7%A8-2200W-%D7%A2%D7%9D-%D7%9E%D7%93-%D7%98%D7%9E%D7%A4%D7%A8%D7%98%D7%95%D7%A8%D7%94-%D7%9C%D7%91%D7%9F-WKWK695WH-%D7%98%D7%90%D7%92%D7%95%D7%A8-%D7%A1%D7%A0%D7%98%D7%A8-Westinghouse-",
+   "publisher": "טאגור סנטר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electro-buy.co.il/items/3469139-%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%9E%D7%A4%D7%95%D7%90%D7%A8-Westinghouse-WKWK-695WH-%D7%A4%D7%A0%D7%99%D7%A0%D7%94-%D7%A0%D7%97%D7%95%D7%A9%D7%AA-%D7%95%D7%A1%D7%98%D7%99%D7%A0%D7%92%D7%94%D7%90%D7%95%D7%A1",
+   "publisher": "Electro-Buy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.6 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן פנינה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים ע״י היבואן הרשמי סלמור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מד טמפרטורה מובנה 0-100 מעלות צלזיוס"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס מסתובב 360° לנוחות ימניים ושמאליים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי בעיצוב רטרו בצבע לבן פנינה מבית Westinghouse, דגם WKWK695-WH. בקיבולת 1.6 ליטר ובהספק 2200W, עם מד טמפרטורה מובנה המציג את חום המים בין 0 ל-100 מעלות. מתאים למי שמחפש קומקום מעוצב למטבח עם בסיס מסתובב 360° הנוח לימניים ולשמאליים.",
+  "highlights": [
+   "קיבולת 1.6 ליטר",
+   "הספק 2200W",
+   "מד טמפרטורה מובנה 0-100 מעלות צלזיוס",
+   "בסיס מסתובב 360°",
+   "אחריות שנתיים ע״י היבואן הרשמי סלמור"
+  ],
+  "goodFor": [
+   "מטבח בעיצוב רטרו או בגוון בהיר",
+   "מי שרוצה לראות את חום המים בזמן אמת במד הטמפרטורה",
+   "בית שבו גם ימניים וגם שמאליים משתמשים בקומקום, בזכות הבסיס המסתובב"
+  ],
+  "considerations": [
+   "הספק 2200W: כדאי לחבר לשקע שאינו מחובר במקביל למכשירים חזקים נוספים",
+   "קיבולת 1.6 ליטר: לבדוק שהיא מתאימה לכמות המים שאתם מרתיחים בדרך כלל"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של הקומקום?",
+    "a": "1.6 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הקומקום?",
+    "a": "2200W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש לקומקום מד טמפרטורה?",
+    "a": "כן, מד טמפרטורה מובנה המציג 0-100 מעלות צלזיוס.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנתיים ע״י היבואן הרשמי סלמור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי רטרו Westinghouse WKWK695-WH לבן פנינה, 1.6 ליטר, 2200W ומד טמפרטורה מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי רטרו",
+   "קומקום Westinghouse",
+   "WKWK695-WH",
+   "WKWK695WH",
+   "קומקום עם מד טמפרטורה",
+   "קומקום חשמלי לבן",
+   "קומקום 1.6 ליטר",
+   "קומקום וסטינגהאוס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1850-2200W",
+   "finding": "corrected",
+   "correctValue": "2200W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Only retailers write the code as WKWK695WH or WKWK-695WH; no manufacturer page confirms the exact catalog code.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Retailers write the code as WKWK695WH / WKWK-695WH; no manufacturer page confirms the exact catalog code.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog lists power as 1850-2200W; retailer lists 2200W.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept from two Israeli retailer pages naming WKWK695WH / WKWK-695WH. Catalog power range 1850-2200W narrowed to 2200W per retailer. Warranty wording normalised."
+ }
+}

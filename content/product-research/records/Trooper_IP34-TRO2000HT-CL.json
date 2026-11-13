@@ -1,0 +1,346 @@
+{
+ "modelNumber": "Trooper IP34-TRO2000HT-CL",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Matrix",
+  "exactModel": "IP34-TRO2000HT-CL",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The Israeli retailer page (SKU 98882154488) describes the Matrix Trooper 2000W IP34 hanging heater. Its text does not print the full model code IP34-TRO2000HT-CL; the product image file name contains IP34TRO2000HTCL. Sibling model IP34-TRO3000HT-ST (3000W) was seen on a price site and not used. | QA: Retailer page matches by Trooper name, 2000W, IP34 and hanging form; full code IP34-TRO2000HT-CL appears only in the image file name. Brand on the page is Matrix, catalog says Omega."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/פטריית-חימום-מקצועית-לתלייה-matrix-98882154488",
+   "publisher": "BUG (Israeli retailer)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Top of two heat levels.",
+     "label": "הספק מרבי",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגות חימום",
+     "value": "2000 W / 1000 W"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגת הגנה מפני מים",
+     "value": "IP34"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפעלה",
+     "value": "מפסק משיכה ON/OFF"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת התקנה",
+     "value": "תלייה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך שרשרת תלייה",
+     "value": "0.5 מטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says about 1.5 m.",
+     "label": "אורך כבל חשמל",
+     "value": "1.7 מטר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פטריית חימום למרפסת ולגינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאים לשימוש בחצר הבית, בפרגולות, במסעדות ובאולמות אירועים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תלייה באמצעות שרשרת באורך 0.5 מטר"
+  }
+ ],
+ "content": {
+  "summary": "פטריית חימום חשמלית לתלייה מסדרת Trooper, עם שתי דרגות חימום של 2000 W ו-1000 W. דרגת ההגנה IP34 וההפעלה במפסק משיכה ON/OFF. מתאימה למרפסות, לפרגולות, לחצר הבית ולמסעדות.",
+  "highlights": [
+   "שתי דרגות חימום: 2000 W / 1000 W",
+   "דרגת הגנה מפני מים IP34",
+   "הפעלה פשוטה במפסק משיכה ON/OFF",
+   "תלייה בשרשרת באורך 0.5 מטר",
+   "כבל חשמל באורך 1.7 מטר"
+  ],
+  "goodFor": [
+   "חימום מרפסת או פרגולה בערבי חורף",
+   "חצר הבית ופינות ישיבה בגינה",
+   "מסעדות ואולמות אירועים שצריכים חימום תלוי",
+   "מי שמעדיף לבחור בין דרגת חימום גבוהה לנמוכה"
+  ],
+  "considerations": [
+   "יש לוודא נקודת תלייה יציבה בתקרה או בפרגולה עבור השרשרת",
+   "אורך הכבל 1.7 מטר, כדאי לבדוק שיש שקע חשמל קרוב לנקודת התלייה",
+   "בהספק 2000 W מומלץ לחבר לשקע שאינו עמוס במכשירים נוספים",
+   "דרגת ההגנה IP34 – כדאי להתקין במקום מקורה ולא בחשיפה ישירה לגשם"
+  ],
+  "faq": [
+   {
+    "q": "כמה דרגות חימום יש לפטרייה?",
+    "a": "שתי דרגות: 2000 W ו-1000 W.",
+    "sources": []
+   },
+   {
+    "q": "איך מפעילים אותה?",
+    "a": "באמצעות מפסק משיכה ON/OFF.",
+    "sources": []
+   },
+   {
+    "q": "איך מתקינים אותה?",
+    "a": "הפטרייה נתלית באמצעות שרשרת באורך 0.5 מטר.",
+    "sources": []
+   },
+   {
+    "q": "מה אורך כבל החשמל?",
+    "a": "אורך כבל החשמל 1.7 מטר.",
+    "sources": []
+   },
+   {
+    "q": "האם היא עמידה במים?",
+    "a": "דרגת ההגנה שלה היא IP34.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פטריית חימום לתלייה Trooper IP34-TRO2000HT-CL, שתי דרגות חימום 2000W/1000W ודרגת הגנה IP34 למרפסת ולפרגולה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "פטריית חימום לתלייה",
+   "פטריית חימום חשמלית",
+   "Trooper פטריית חימום",
+   "פטריית חימום למרפסת",
+   "תנור חימום לפרגולה",
+   "פטריית חימום 2000W",
+   "IP34-TRO2000HT-CL"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "220V-240V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גוף חימום",
+   "catalogValue": "מנורת הלוגן עוצמתית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דרגת הגנה מפני מים",
+   "catalogValue": "IP34",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת התקנה",
+   "catalogValue": "תלייה באמצעות שרשרת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "כ-1.5 מטר",
+   "finding": "corrected",
+   "correctValue": "1.7 מטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך שרשרת תלייה",
+   "catalogValue": "כ-50 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר המכשיר",
+   "catalogValue": "כ-42 ס״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר גוף המכשיר",
+   "catalogValue": "אלומיניום ופלדה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור/כסוף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Omega",
+   "finding": "contradicted",
+   "correctValue": "Matrix",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הפעלה",
+   "catalogValue": "חוט משיכה (Pull Switch)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The retailer page does not print the full model code IP34-TRO2000HT-CL; it matches by Trooper name, 2000W, IP34, and the image file name IP34TRO2000HTCL. The exact model could not be confirmed on a manufacturer or importer page.",
+   "severity": "high"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog says Omega; the Israeli retailer lists Matrix, and a price site lists Matrix Omega for the sibling model. Verify the brand name before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "issue": "Catalog says about 1.5 m; the retailer lists 1.7 m.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג גוף חימום",
+   "issue": "Catalog says halogen lamp. The retailer page does not state the heater type; a sibling price-site listing describes infrared. Unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח, קוטר, חומר, צבע, מקור",
+   "issue": "No manufacturer or Israeli page for this exact model was found with these values; they remain catalog-only.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Israeli importer not confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand is Omega; the Israeli retailer page lists the product as Matrix Trooper. Verify the brand.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The only source does not print the full code IP34-TRO2000HT-CL in its text (only in an image file name); Israeli variant unconfirmed by manufacturer or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג גוף חימום",
+   "issue": "Catalog says halogen; no source states the heater type.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח, קוטר, חומר, צבע",
+   "issue": "Catalog-only values, not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from one Israeli retailer page (BUG) describing the Matrix Trooper 2000W IP34 hanging heater; the page does not print the full model code. Kept all facts. Catalog cable length (about 1.5 m) differs from the retailer's 1.7 m; catalog brand Omega differs from Matrix on the retailer page. Heater type (halogen) not verified, so not used in content."
+ }
+}

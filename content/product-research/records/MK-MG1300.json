@@ -1,0 +1,149 @@
+{
+ "modelNumber": "MK-MG1300",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "MK-MG1300",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Panasonic Middle East product/spec pages returned 404. Only the Panasonic MEA FAQ names the exact model; other pages name suffix variants only. | QA: Manufacturer FAQ names MK-MG1300 exactly; spec pages 404 and only suffix variants (WTN/WTQ) found elsewhere. Israeli variant unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://panasonic.com/mea/en/support/frequently-asked-questions/small-kitchen-appliances.html",
+   "publisher": "Panasonic Middle East & Africa",
+   "kind": "manufacturer",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer FAQ names the exact model.",
+     "label": "חומר גלגלי השיניים ותיבת ההילוכים",
+     "value": "פלסטיק בעל חוזק גבוה"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מטחנת בשר חשמלית של Panasonic, דגם MK-MG1300. לפי היצרן, גלגלי השיניים ותיבת ההילוכים עשויים מפלסטיק בעל חוזק גבוה.",
+  "highlights": [
+   "גלגלי שיניים ותיבת הילוכים מפלסטיק בעל חוזק גבוה"
+  ],
+  "goodFor": [],
+  "considerations": [
+   "כדאי לוודא שהדגם מגיע עם תקע ישראלי ותואם לרשת החשמל בישראל"
+  ],
+  "faq": [
+   {
+    "q": "ממה עשויים גלגלי השיניים במטחנה?",
+    "a": "לפי Panasonic, גלגלי השיניים ותיבת ההילוכים של MK-MG1300 עשויים מפלסטיק בעל חוזק גבוה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מטחנת בשר חשמלית Panasonic MK-MG1300 עם גלגלי שיניים ותיבת הילוכים מפלסטיק בעל חוזק גבוה. לפרטים ולייעוץ בחדד אלקטריק נהריה",
+  "keywords": [
+   "מטחנת בשר Panasonic",
+   "MK-MG1300",
+   "מטחנת בשר חשמלית",
+   "מטחנת בשר פנסוניק",
+   "Panasonic MK-MG1300"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1300 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קצב טחינה",
+   "catalogValue": "1.2-1.4 ק\"ג לדקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "גובה 30.6 ס\"מ, רוחב 16.4 ס\"מ, עומק 32.7 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-3.0 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומרי גלם",
+   "catalogValue": "להבי פלדת אל-חלד וגוף פלסטיק קשיח איכותי",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model MK-MG1300 appears on no fetched page. Only suffix variants were found (MK-MG1300WTN on shopelectrons.co.il, plus MKMG1300WTN and MKMG1300WTQ elsewhere). No facts were published for the exact model.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "The sibling variant page gives 39.1 × 16.4 × 30.6 cm and 3.4 kg, which conflicts with the catalog's height, width and depth values and its 3.0 kg weight. The page is not evidence for this model, so the catalog values remain unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "תקן חשמל ישראל",
+   "issue": "Israeli variant is unclear. Panasonic official pages returned 404, and no source confirmed the Israeli plug type or Israeli importer for this exact model.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Only sibling pages were found. One mentions one year of warranty and another mentions 24 months. No source confirms the warranty for this exact model.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Power, voltage, grinding rate, dimensions, weight and materials in the catalog could not be verified on any page naming the exact model.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "A sibling suffix variant page lists 39.1 × 16.4 × 30.6 cm and 3.4 kg, which differs from the catalog's dimensions and 3.0 kg weight.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Israeli variant/suffix unclear; only suffix variants MK-MG1300WTN/WTQ found on other pages.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only one verifiable fact (gear/gearbox material) from the Panasonic MEA FAQ, which names the exact model. All catalog specs remain unverified; content kept minimal."
+ }
+}

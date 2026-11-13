@@ -1,0 +1,299 @@
+{
+ "modelNumber": "SL-7205",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sol Exclusive",
+  "exactModel": "SL-7205",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן בישראל (sol.co.il) מציג את הדגם SL-7205 בשם 'מצנם יוקרתי 2 פרוסות'. היבואן הרשום בקטלוג (שאוליאן) לא אותר בדף שמציין את הדגם. הדף מציין שיש לאמת מידות ודגמים מול מרכז השירות של היבואן. | QA: sol.co.il product page for SL-7205, 2-slice toaster in green, matches the catalog SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-7205",
+   "publisher": "Sol Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "240 V ~ 50 Hz"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "2 פרוסות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote says 7 heat levels, electronic.",
+     "label": "דרגות חום",
+     "value": "7 דרגות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "23 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Page says green; mint shade not stated.",
+     "label": "צבע",
+     "value": "ירוק"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוף חימום רב עוצמה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed manual cancel, not in quote.",
+   "text": "פונקציות קלייה, הפשרה וחימום חוזר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפסקה אוטומטית והקפצת הפרוסות בסיום הפעולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגש נשלף לאיסוף ופינוי פירורים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מצנם 2 פרוסות של Sol Exclusive, דגם SL-7205, בצבע ירוק. המצנם מגיע בהספק 1000 W ומציע 7 דרגות חום, יחד עם פונקציות הפשרה וחימום חוזר. מתאים למי שמחפש מצנם קומפקטי ברוחב 23 ס״מ למטבח הביתי.",
+  "highlights": [
+   "הספק 1000 W",
+   "7 דרגות חום",
+   "קלייה, הפשרה וחימום חוזר",
+   "הקפצה אוטומטית של הפרוסות בסיום",
+   "מגש פירורים נשלף"
+  ],
+  "goodFor": [
+   "קלייה יומיומית של 2 פרוסות לחם",
+   "הפשרה וקלייה של לחם קפוא ישירות מהמקפיא",
+   "חימום חוזר של פרוסות שהתקררו",
+   "משטח עבודה צר בזכות רוחב של 23 ס״מ"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי על השיש ברוחב 23 ס״מ לפחות",
+   "כדאי לחבר לשקע ביתי רגיל של 240 V ולא להפעיל במקביל מכשירים רבי הספק נוספים באותו שקע",
+   "מומלץ לרוקן את מגש הפירורים הנשלף באופן קבוע"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המצנם SL-7205?",
+    "a": "לפי דף היצרן, ההספק הוא 1000 W במתח 240 V ~ 50 Hz.",
+    "sources": []
+   },
+   {
+    "q": "כמה פרוסות אפשר לקלות בבת אחת?",
+    "a": "המצנם מתאים ל-2 פרוסות.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות חום יש למצנם?",
+    "a": "יש 7 דרגות חום.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להפשיר לחם קפוא?",
+    "a": "כן, למצנם יש פונקציית הפשרה וגם פונקציית חימום חוזר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מצנם 2 פרוסות Sol Exclusive דגם SL-7205 בצבע ירוק, הספק 1000 W ו-7 דרגות חום, עם פונקציות הפשרה וחימום חוזר. זמין בחדד אלקטריק נהריה",
+  "keywords": [
+   "מצנם 2 פרוסות",
+   "מצנם Sol",
+   "SL-7205",
+   "מצנם סול ירוק",
+   "מצנם Sol Exclusive",
+   "מצנם עם הפשרה",
+   "מצנם ירוק מנטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000W (לפי נתוני יבואן רשמי) / 850W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "240V ~ 50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "2 פרוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דרגות חום",
+   "catalogValue": "7 דרגות השחמה אלקטרוניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר - רוחב",
+   "catalogValue": "רוחב 23 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר - עומק",
+   "catalogValue": "עומק 16 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המכשיר - גובה",
+   "catalogValue": "גובה 17.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "ירוק מנטה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "מקור בישראל (ZAP) מציין את הדגם SL-7205 בהספק 815W, בעוד דף היצרן מציין 1000W והקטלוג מציין 1000W או 850W. יש לאמת את ההספק מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות המכשיר - עומק וגובה",
+   "issue": "דף היצרן מציין רק רוחב (23 ס״מ). עומק 16 ס״מ וגובה 17.5 ס״מ בקטלוג לא אומתו בדף שמציין את הדגם.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "הקטלוג מציין את היבואן שאוליאן. לא נמצא דף שמציין את הדגם SL-7205 בשם היבואן. דף היצרן מנחה לאמת מידות ודגמים מול מרכז השירות של היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "דף היצרן מציין 'ירוק' בלבד. הגוון 'מנטה' לא מופיע בדף שנבדק.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "דף היצרן מציין 1000 W, הקטלוג מציין 1000W או 850W, ולפי החוקר מקור אחר הציג 815W. יש לאמת את ההספק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "עומק 16 ס״מ וגובה 17.5 ס״מ בקטלוג לא אומתו; דף היצרן מציין רוחב בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "דף היצרן מציין 'ירוק' בלבד; הגוון 'מנטה' בשם הקטלוג לא אומת.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1 reworded: the quote covers toasting, defrost and reheat but not manual cancel, so the cancel claim was removed. All facts kept from the Sol manufacturer page naming SL-7205. Power 1000 W per manufacturer page; catalog lists 1000W/850W and the researcher saw 815W elsewhere, flagged."
+ }
+}

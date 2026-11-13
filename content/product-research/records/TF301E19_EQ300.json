@@ -1,0 +1,388 @@
+{
+ "modelNumber": "TF301E19 EQ300",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Siemens",
+  "exactModel": "TF301E19",
+  "israeliImporter": "BSH מכשירים ביתיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "הקוד TF301E19 מופיע בדף היצרן הישראלי, בגיליון המפרט של BSH ובאתר הקמעונאי. EQ300 הוא שם הסדרה. | QA: Siemens Israel page and BSH spec sheet name TF301E19, EQ300 is the series name; color Piano Black matches catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.siemens-home.bsh-group.com/il/he/mkt-product/coffee-machines/freestanding-coffee-machines/eq300-automatic-coffee/TF301E19",
+   "publisher": "Siemens Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/en-ZA/TF301E19.pdf",
+   "publisher": "BSH spec sheet",
+   "kind": "manufacturer",
+   "market": "ZA",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מכונה",
+     "value": "מכונת קפה אוטומטית מסדרת EQ300"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "reordered to match quote order",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "383 × 251 × 433 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "catalog says 6.9",
+     "label": "משקל",
+     "value": "7.1 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "1.4 ליטר (נשלף)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מיכל הפולים",
+     "value": "250 גרם"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1300 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "לחץ משאבה",
+     "value": "15 בר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מטחנה",
+     "value": "מטחנה קרמית (ceramDrive)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תוכנית ניקוי והסרת אבנית",
+     "value": "אוטומטית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת הקצפה",
+     "value": "הקצפת חלב ישירות בכוס"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור פסנתר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "decimal comma normalized",
+     "label": "גובה פיית מזיגה מתכוונן",
+     "value": "8.5–13 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "100 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הכנת משקאות קפה בלחיצת כפתור אחת (oneTouch)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "tap-water rinsing not in quote",
+   "text": "יחידת חליטה נשלפת לניקוי קל והיגיינה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אפשרות לשימוש במסנן מים Brita Intenza (אופציונלי)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "dishwasher claim not in quote",
+   "text": "חלקי פיית החלב ניתנים לפירוק בקלות וקלים לניקוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Siemens EQ300 TF301E19 היא מכונת קפה אוטומטית עם מטחנה קרמית מובנית, שמכינה משקאות קפה בלחיצת כפתור אחת ומקציפה חלב ישירות בכוס. למכונה משאבה בלחץ 15 בר, מיכל מים נשלף של 1.4 ליטר ומיכל פולים של 250 גרם. מתאימה למי שרוצה קפה מפולים טריים בבית בלי לטחון ולהקציף ידנית.",
+  "highlights": [
+   "מטחנה קרמית ceramDrive",
+   "משאבה בלחץ 15 בר",
+   "מיכל מים נשלף 1.4 ליטר",
+   "הקצפת חלב ישירות בכוס",
+   "תוכנית ניקוי והסרת אבנית אוטומטית"
+  ],
+  "goodFor": [
+   "מי שמעדיף קפה מפולים טחונים טריים",
+   "שותי קפוצ'ינו ולאטה שרוצים הקצפה אוטומטית בכוס",
+   "מטבח שבו רוצים מכונה עם תחזוקה פשוטה בזכות יחידת חליטה נשלפת וניקוי אוטומטי"
+  ],
+  "considerations": [
+   "לוודא מקום על השיש: המידות 383 × 251 × 433 מ״מ (גובה × רוחב × עומק), ויש להשאיר מרווח לשליפת מיכל המים",
+   "אורך כבל החשמל 100 ס״מ, כדאי לוודא שקע קרוב",
+   "גובה פיית המזיגה מתכוונן בין 8.5 ל־13 ס״מ, כדאי לבדוק שהכוסות הגבוהות שלכם נכנסות",
+   "מסנן מים Brita Intenza הוא אופציונלי ונרכש בנפרד"
+  ],
+  "faq": [
+   {
+    "q": "האם המכונה טוחנת פולים?",
+    "a": "כן, יש בה מטחנה קרמית ceramDrive ומיכל פולים של 250 גרם.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "1.4 ליטר, והמיכל נשלף למילוי נוח.",
+    "sources": []
+   },
+   {
+    "q": "איך מוקצף החלב?",
+    "a": "המכונה מקציפה את החלב ישירות בכוס.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את המכונה?",
+    "a": "יש תוכנית ניקוי והסרת אבנית אוטומטית, ויחידת החליטה נשלפת לניקוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קפה אוטומטית Siemens EQ300 TF301E19 עם מטחנה קרמית ומשאבה בלחץ 15 בר, הקצפת חלב בכוס. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Siemens EQ300",
+   "TF301E19",
+   "מכונת קפה אוטומטית סימנס",
+   "מכונת קפה טוחנת",
+   "סימנס EQ300",
+   "מכונת קפה עם מטחנה",
+   "מכונת אספרסו אוטומטית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "38.3x25.1x43.3 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "6.9 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "7.1 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1300W",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "1.4 ליטר (נשלף)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מכל פולי קפה",
+   "catalogValue": "250 גרם",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "לחץ משאבה",
+   "catalogValue": "15 בר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "סוג מטחנה",
+   "catalogValue": "מטחנה קראמית ceramDrive",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור פסנתר (Piano Black)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1 מטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "תוכנית calc'nClean",
+   "catalogValue": "תוכנית calc'nClean אוטומטית לניקוי והסרת אבנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פיית מזיגה בגובה מתכוונן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "8,5 - 13 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקוד TF301E19 מופיע בדף היצרן ובגיליון המפרט; EQ300 הוא שם הסדרה ולא חלק מהקוד במקורות",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 6.9 ק״ג, ואילו דף היצרן הישראלי ומפרט BSH מציינים 7.1 ק״ג",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 6.9 ק״ג, דף Siemens ישראל מציין 7.1 ק״ג",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "EQ300 הוא שם הסדרה ואינו חלק מקוד הדגם TF301E19 במקורות",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions relabelled to the quote order (H×W×D, 383×251×433 mm). Weight 7.1 kg replaces catalog 6.9 kg per Siemens Israel. Feature 1 trimmed (tap-water rinsing not in quote); feature 3 trimmed (dishwasher-safe not in truncated quote). Spout height value reformatted."
+ }
+}

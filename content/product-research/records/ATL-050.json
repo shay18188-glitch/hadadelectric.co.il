@@ -1,0 +1,294 @@
+{
+ "modelNumber": "ATL-050",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-050",
+  "israeliImporter": "יוסף חיים בע״מ",
+  "matchConfidence": "high",
+  "notes": "נמצאו עמוד היבואן/המותג ועמוד חנות ישראלית לדגם המדויק. | QA: Importer/brand page and an Israeli retailer page both name Gold Line ATL-050, a pita maker matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%D7%A1%D7%99%D7%A8-%D7%92%D7%A8%D7%99%D7%9C-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%9C%D7%90%D7%A4%D7%99%D7%99%D7%AA-%D7%A4%D7%99%D7%AA%D7%95%D7%AA-1800w-%D7%93%D7%92%D7%9D-atl-050/",
+   "publisher": "גולדליין",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://laserelc.co.il/%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%92%D7%A8%D7%99%D7%9C-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%9C%D7%90%D7%A4%D7%99%D7%99%D7%AA-%D7%A4%D7%99%D7%AA%D7%95%D7%AA-%D7%92%D7%95%D7%9C%D7%93-%D7%9C%D7%99%D7%99%D7%9F-gold-line-atl-050/",
+   "publisher": "לייזר ליין",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טמפרטורת עבודה",
+     "value": "250 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 40 cm; importer says 30 cm.",
+     "label": "קוטר משטח האפייה",
+     "value": "30 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י יוסף חיים בע״מ"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-050"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חלונות צפייה",
+     "value": "2 חלונות שקופים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תרמוסטט אוטומטי השולט בטמפרטורת האפייה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוף חימום עליון בטכנולוגיית הלוגן במבנה ספירלי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוף חימום תחתון עם ציפוי NON STICK המונע הידבקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה מובנה המאפשר פתיחה נוחה ללא חשש מכוויה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית אחיזה מבודדת חום"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Retailer page.",
+   "text": "מתאים להכנת פיתות, לאפות, פיצות ומאפים ללא גלוטן"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכשיר חשמלי לאפיית פיתות של Gold Line, דגם ATL-050, בהספק 1800 W ועם משטח אפייה בקוטר 30 ס״מ. תא האפייה עובד בטמפרטורה של 250 מעלות הנשלטת ע״י תרמוסטט אוטומטי, עם גוף חימום עליון בטכנולוגיית הלוגן וגוף חימום תחתון NON STICK. מתאים למי שרוצה להכין בבית פיתות, לאפות, פיצות ומאפים ללא גלוטן.",
+  "highlights": [
+   "הספק 1800 W",
+   "משטח אפייה בקוטר 30 ס״מ",
+   "טמפרטורת עבודה של 250 מעלות עם תרמוסטט אוטומטי",
+   "גוף חימום עליון הלוגן וגוף חימום תחתון NON STICK",
+   "2 חלונות שקופים למעקב אחר האפייה"
+  ],
+  "goodFor": [
+   "הכנת פיתות ולאפות טריות בבית",
+   "אפיית פיצות ביתיות",
+   "הכנת מאפים ללא גלוטן"
+  ],
+  "considerations": [
+   "קוטר משטח האפייה הוא 30 ס״מ, כדאי לוודא שגודל המאפים שאתם מתכננים מתאים",
+   "הטמפרטורה נשלטת ע״י תרמוסטט אוטומטי, כך שאין בחירה ידנית של רמת חום",
+   "הספק 1800 W, מומלץ לחבר לשקע נפרד ולא לפצל עם מכשירים חזקים נוספים"
+  ],
+  "faq": [
+   {
+    "q": "מה קוטר משטח האפייה?",
+    "a": "קוטר משטח האפייה הוא 30 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "לאיזו טמפרטורה מגיע המכשיר?",
+    "a": "טמפרטורת העבודה של תא האפייה היא 250 מעלות, והיא נשלטת ע״י תרמוסטט אוטומטי.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לראות את המאפה בזמן האפייה?",
+    "a": "כן, במכשיר 2 חלונות שקופים המאפשרים מעקב.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "אחריות לשנה ע״י יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר לאפיית פיתות Gold Line ATL-050 בהספק 1800 W עם משטח אפייה בקוטר 30 ס״מ ותרמוסטט אוטומטי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכשיר להכנת פיתות",
+   "Gold Line ATL-050",
+   "מכשיר אפיית פיתות גולד ליין",
+   "סיר גריל חשמלי לאפיית פיתות",
+   "מכשיר לאפות חשמלי",
+   "טאבון חשמלי לפיתות",
+   "ATL-050"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר משטח צלייה",
+   "catalogValue": "40 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "30 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תרמוסטט מתכוונן",
+   "catalogValue": "תרמוסטט מתכוונן לשליטה ברמת החום",
+   "finding": "contradicted",
+   "correctValue": "תרמוסטט אוטומטי בטמפרטורה קבועה של 250 מעלות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי Non-Stick",
+   "catalogValue": "ציפוי Non-Stick",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורות ביקורת",
+   "catalogValue": "נורות ביקורת",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קוטר משטח צלייה",
+   "issue": "הקטלוג מציין 40 ס״מ, היבואן וחנות ישראלית מציינים 30 ס״מ.",
+   "severity": "high"
+  },
+  {
+   "field": "תרמוסטט",
+   "issue": "הקטלוג מציין תרמוסטט מתכוונן, היבואן מתאר תרמוסטט אוטומטי ל-250 מעלות.",
+   "severity": "medium"
+  },
+  {
+   "field": "קוטר משטח צלייה",
+   "issue": "הקטלוג מציין 40 ס״מ, היבואן מציין 30 ס״מ.",
+   "severity": "high"
+  },
+  {
+   "field": "תרמוסטט",
+   "issue": "הקטלוג מציין תרמוסטט מתכוונן, היבואן מתאר תרמוסטט אוטומטי בטמפרטורת עבודה של 250 מעלות.",
+   "severity": "medium"
+  },
+  {
+   "field": "נורות ביקורת",
+   "issue": "נורות הביקורת המופיעות בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features confirmed on the Gold Line importer page (and one feature on an Israeli retailer page). Catalog diameter 40 cm is contradicted by the importer (30 cm); catalog 'adjustable thermostat' is described by the importer as an automatic thermostat at 250 degrees. Minor wording fixes to feature texts."
+ }
+}

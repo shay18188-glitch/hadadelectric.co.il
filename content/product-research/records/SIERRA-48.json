@@ -1,0 +1,527 @@
+{
+ "modelNumber": "SIERRA-48",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "TAIYO",
+  "exactModel": "SIERRA-48",
+  "israeliImporter": "סיריוס אלקטרוניקה בע״מ",
+  "matchConfidence": "high",
+  "notes": "No official TAIYO product page or manual was found. Specs come from the Israeli distributor Sirius Electronics page (sel.co.il) and an Israeli retailer page (htzone.co.il) that both name the model SIERRA-48. | QA: Israeli distributor page and an Israeli retailer page both name SIERRA-48 with a 121 cm (48 inch) diameter, matching the catalog. No manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sel.co.il/product/sierra-48/",
+   "publisher": "סיריוס אלקטרוניקה",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.htzone.co.il/item/158389/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%AA%D7%A7%D7%A8%D7%94-%D7%9E%D7%A2%D7%95%D7%A6%D7%91-48%E2%80%9D-%D7%A2%D7%9D-%D7%AA%D7%90%D7%95%D7%A8%D7%AA-CCT-%D7%95%D7%A9%D7%9C%D7%98-TAIYO-|-%D7%93%D7%92%D7%9D-SIERRA-48-/salewebview/2213",
+   "publisher": "HTZone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר",
+     "value": "121 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך מוט תקרתי",
+     "value": "15 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Page says הספק, not specifically motor power.",
+     "label": "הספק",
+     "value": "35 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "6"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח הפעלה",
+     "value": "230-240V / 50Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "DC"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק תאורת LED מובנית",
+     "value": "20 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג תאורה",
+     "value": "LED SMD"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גווני אור",
+     "value": "3000K / 4000K / 6000K"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע גוף",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע כנפיים",
+     "value": "עץ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Page says גימור כנף: ABS.",
+     "label": "גימור כנפיים",
+     "value": "ABS"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר כנפיים",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "מובנה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיווני אוורור",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, סיריוס אלקטרוניקה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות מנוע",
+     "value": "10 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כוונון 6 מהירויות: הילוך 1-2 רוח נעימה, הילוך 3-4 רוח טבעית, הילוך 5-6 רוח קרה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed claim not in quote.",
+   "text": "מצב חורף: שינוי כיוון הסיבוב של הכנפיים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאורת LED בשלושה צבעים, כולל לבן קריר 6000K לתאורת משרד וללמידה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טיימר מובנה ושני כיווני אוורור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חסכוני בצריכת אנרגיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע DC שקט, מתאים לשינה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט רחוק"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מוט תקרתי באורך 15 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "TAIYO SIERRA-48 הוא מאוורר תקרה בקוטר 121 ס״מ עם 3 כנפיים בגימור עץ ותאורת LED מובנית. מנוע DC שקט בהספק 35 W, 6 מהירויות ומצב חורף, ותאורה של 20 W בשלושה גווני אור: 3000K, 4000K ו-6000K. כולל שלט רחוק וטיימר מובנה, ומתאים לחדר שינה או לסלון שבו רוצים מאוורר ותאורה בגוף אחד.",
+  "highlights": [
+   "קוטר 121 ס״מ עם 3 כנפיים",
+   "מנוע DC שקט בהספק 35 W",
+   "6 מהירויות ו-2 כיווני אוורור (מצב חורף)",
+   "תאורת LED מובנית 20 W בגווני 3000K / 4000K / 6000K",
+   "שלט רחוק וטיימר מובנה"
+  ],
+  "goodFor": [
+   "חדר שינה, בזכות מנוע DC שקט וטיימר מובנה",
+   "חדר שצריך גם תאורה וגם אוורור מאותה נקודה בתקרה",
+   "שימוש בחורף, עם הפיכת כיוון הסיבוב של הכנפיים",
+   "מי שרוצה לשלוט במהירות, בתאורה ובטיימר משלט רחוק"
+  ],
+  "considerations": [
+   "המוט התקרתי באורך 15 ס״מ, כדאי לבדוק את גובה התקרה ואת המרחק מהכנפיים לראש",
+   "קוטר הכנפיים 121 ס״מ, יש לוודא מרווח מספיק מקירות, ארונות ומנורות",
+   "ההתקנה דורשת נקודת חשמל בתקרה וחיבור למתח 230-240V",
+   "האחריות הכללית היא שנה דרך סיריוס אלקטרוניקה, והאחריות על המנוע 10 שנים"
+  ],
+  "faq": [
+   {
+    "q": "האם יש למאוורר תאורה?",
+    "a": "כן, תאורת LED SMD מובנית בהספק 20 W עם שלושה גווני אור: 3000K, 4000K ו-6000K.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש?",
+    "a": "6 מהירויות, ובנוסף 2 כיווני אוורור כולל מצב חורף.",
+    "sources": []
+   },
+   {
+    "q": "האם מגיע שלט רחוק?",
+    "a": "כן, שלט רחוק כלול באריזה, והמאוורר כולל טיימר מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות דרך סיריוס אלקטרוניקה, ו-10 שנים אחריות על המנוע.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר תקרה TAIYO SIERRA-48 בקוטר 121 ס״מ עם מנוע DC שקט ותאורת LED של 20 W בשלושה גווני אור, כולל שלט רחוק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר תקרה TAIYO SIERRA-48",
+   "TAIYO SIERRA-48",
+   "מאוורר תקרה עם תאורה",
+   "מאוורר תקרה 48 אינץ'",
+   "מאוורר תקרה מנוע DC",
+   "מאוורר תקרה עם שלט",
+   "מאוורר תקרה טאיו",
+   "מאוורר תקרה שקט לחדר שינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קוטר",
+   "catalogValue": "121 ס\"מ (48 אינץ')",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "35W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק תאורה",
+   "catalogValue": "20W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח נכנס",
+   "catalogValue": "230-240V / 50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "DC Motor שקט עם סלילי נחושת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר כנפיים",
+   "catalogValue": "3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר כנפיים",
+   "catalogValue": "ABS בגימור עץ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע גוף",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך מוט תקרתי",
+   "catalogValue": "15 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תאורה",
+   "catalogValue": "LED SMD עם טכנולוגיית CCT",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גווני אור",
+   "catalogValue": "3000K, 4000K, 6000K",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שלט",
+   "catalogValue": "שלט רחוק כלול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "6 דרגות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "סין (מותג יפני)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, סיריוס אלקטרוניקה; 10 שנים על המנוע",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "origin_country",
+   "issue": "The catalog origin 'סין (מותג יפני)' names two countries of origin, and no fetched page states the country of origin. Check it before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מנוע",
+   "issue": "The pages list 35W as the fan's rated power (הספק) without saying it is the motor power. The catalog labels it as motor power.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "No official TAIYO product page, spec PDF or manual was found. All specs come from distributor and retailer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Sirius Electronics appears as the seller and the warranty provider. No manufacturer page confirms it as the official importer.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Overall height, depth and weight of the fan were not found on any fetched page. The packaging size on a retailer page is not the product size and was not recorded.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Catalog origin 'סין (מותג יפני)' is not confirmed by any source.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No official TAIYO manufacturer page or manual; all facts come from the Israeli distributor and one Israeli retailer.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מנוע",
+   "issue": "Sources give 35W as הספק without saying it is motor power, as the catalog labels it.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept. Reworded feature 1 (winter mode) to what the quote says, without the added claim about warm-air distribution direction; softened feature 5 from 'שקט במיוחד' to 'שקט' as in the quote; trimmed the money-saving wording of feature 4. | code guard removed: faq: \"מה קוטר המאוורר?\""
+ }
+}

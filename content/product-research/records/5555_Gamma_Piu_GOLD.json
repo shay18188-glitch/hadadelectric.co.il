@@ -1,0 +1,485 @@
+{
+ "modelNumber": "5555 Gamma Piu GOLD",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gamma Più",
+  "exactModel": "5555",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "דף היצרן ודפי הקמעונאים הישראליים מזהים את הדגם 5555. דפי הקמעונאים מציינים צבע שחור, לא זהב. | QA: הדגם 5555 של Gamma Più מזוהה ביצרן ובקמעונאים ישראליים, אך גרסת הצבע זהב לא מופיעה במקורות (שחור בלבד)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.shopelectrons.co.il/product/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%A9%D7%99%D7%A2%D7%A8-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-%D7%92%D7%9E%D7%90-%D7%9C%D7%9E%D7%A1%D7%A4%D7%A8%D7%95%D7%AA-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-%D7%90%D7%99/",
+   "publisher": "שופ אלקטרונז",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%A9%D7%99%D7%A2%D7%A8-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-gamma-piu-%D7%92%D7%90%D7%9E%D7%94-%D7%A4%D7%99%D7%95-%D7%93%D7%92%D7%9D-5555/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://gammapiu.it/en/products/5555",
+   "publisher": "Gamma Più",
+   "kind": "manufacturer",
+   "market": "IT",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://electrosale.co.il/product/gamma-5555-%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%A9%D7%99%D7%A2%D7%A8-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-%D7%90%D7%99%D7%98%D7%9C%D7%99%D7%94-2500-%D7%95%D7%90%D7%98/",
+   "publisher": "אלקטרוסייל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדינת ייצור",
+     "value": "איטליה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "שני קמעונאים ישראליים; היצרן לפי החוקר 2000-2400 W",
+     "label": "הספק",
+     "value": "2000-2500 W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 V"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זרימת אוויר חם",
+     "value": "30 ליטר לשנייה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "לחץ אוויר",
+     "value": "32 mbar"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תדר",
+     "value": "50/60 Hz"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "70 dB"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך המכשיר",
+     "value": "223 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "550 גרם"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "3.0 מטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פילטר",
+     "value": "נשלף לניקוי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר פיות",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקופת אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "תיקון כתיב",
+   "text": "גריל מצופה טורמלין המיינן את האוויר ומעניק ברק לשיער"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קנה מבודד חום לאחיזה נוחה ללא חשש מכוויות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוף חימום כפול לחום אחיד"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פיה צרה במיוחד להחלקה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתאים במיוחד לייבוש בזמן טיפולי קרטין"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פילטר נשלף לניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 פיות עם פטנט למניעת התחממות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מייבש שיער מקצועי Gamma Più 5555 בתוצרת איטליה, בהספק 2000-2500 W ומשקל 550 גרם. כולל גריל מצופה טורמלין, גוף חימום כפול וקנה מבודד חום, ומגיע עם 2 פיות, אחת מהן צרה במיוחד להחלקה. מתאים למי שמייבש ומחליק שיער באופן קבוע, כולל ייבוש בזמן טיפולי קרטין.",
+  "highlights": [
+   "הספק 2000-2500 W",
+   "גריל מצופה טורמלין המיינן את האוויר",
+   "קנה מבודד חום לאחיזה בטוחה",
+   "כבל חשמל באורך 3.0 מטר",
+   "משקל 550 גרם"
+  ],
+  "goodFor": [
+   "ייבוש והחלקה בעזרת הפיה הצרה",
+   "ייבוש שיער במהלך טיפולי קרטין",
+   "שימוש בעמדת איפור או מספרה בזכות כבל באורך 3.0 מטר"
+  ],
+  "considerations": [
+   "יש לוודא את צבע המכשיר הנמכר לפני הרכישה",
+   "הפילטר נשלף, ומומלץ לנקות אותו מדי פעם לשמירה על זרימת האוויר",
+   "עוצמת הרעש היא 70 dB"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המייבש?",
+    "a": "2000-2500 W לפי נתוני קמעונאים בישראל.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מתאים לטיפולי קרטין?",
+    "a": "כן, היצרן מציין שהוא מתאים במיוחד לייבוש בזמן טיפולי קרטין.",
+    "sources": []
+   },
+   {
+    "q": "כמה פיות מגיעות עם המייבש?",
+    "a": "2 פיות, כולל פיה צרה במיוחד להחלקה.",
+    "sources": []
+   },
+   {
+    "q": "מה אורך הכבל?",
+    "a": "כבל החשמל באורך 3.0 מטר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש שיער מקצועי Gamma Più 5555 תוצרת איטליה, הספק 2000-2500 W, גריל טורמלין וקנה מבודד חום. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש שיער גאמה פיו 5555",
+   "Gamma Piu 5555",
+   "מייבש שיער מקצועי",
+   "מייבש שיער לקרטין",
+   "מייבש שיער טורמלין",
+   "מייבש שיער תוצרת איטליה",
+   "גאמה 5555"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר (צבע זהב)",
+   "catalogValue": "מייבש שיער 2500 וואט זהב",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2100-2500 וואט",
+   "finding": "corrected",
+   "correctValue": "2000-2500 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "זרימת אוויר",
+   "catalogValue": "30-33 ליטר לשנייה",
+   "finding": "corrected",
+   "correctValue": "30 Lt/sec",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ אוויר",
+   "catalogValue": "26-32 mbar",
+   "finding": "corrected",
+   "correctValue": "32 mbar",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "550 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך המכשיר",
+   "catalogValue": "223 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "3 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "70-71 דציבל",
+   "finding": "corrected",
+   "correctValue": "70 dB",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "catalogValue": "180°C",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טכנולוגיית Tormalionic",
+   "catalogValue": "Tormalionic",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "איטליה (Made in Italy)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "50/60 Hz",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תקופת אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s4"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "color",
+   "issue": "הקטלוג מציין זהב, אבל דפי הקמעונאים הישראליים שנבדקו מציינים צבע שחור בלבד. יש לוודא מהו הצבע של הדגם 5555 הנמכר.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "היצרן מציין 2000-2400 W, ואילו הקמעונאים הישראליים מציינים 2000-2500 W. הקטלוג מציין 2100-2500 וואט. מקור הנתון בישראל הוא היבואן/קמעונאי.",
+   "severity": "medium"
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "issue": "היצרן מציין 354°F, שהם כ-179°C, ולא 180°C כפי שמופיע בקטלוג. לא נמצא עמוד מאשר 180°C.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא שם יבואן רשמי מפורש בעמודי היבואן הישראליים. ליאור מוצרי חשמל מציין מ. ברוכים לשירות האחריות.",
+   "severity": "low"
+  },
+  {
+   "field": "color",
+   "issue": "הקטלוג מציין זהב, אך המקורות שנבדקו מציינים שחור בלבד. יש לוודא את גרסת הצבע.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "לפי החוקר היצרן מציין 2000-2400 W, ואילו הקמעונאים הישראליים והקטלוג מציינים עד 2500 W. יש לוודא.",
+   "severity": "medium"
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "issue": "הערך 180°C בקטלוג לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "תוקן שגיאת כתיב בתכונה 0 (מייננן). התווית של זרימת האוויר הובהרה כ'זרימת אוויר חם' כפי שבציטוט. ההספק 2000-2500 W נשמר משני קמעונאים ישראליים אך היצרן מציין לפי החוקר 2000-2400 W — סומן לבדיקה. צבע זהב לא אומת."
+ }
+}

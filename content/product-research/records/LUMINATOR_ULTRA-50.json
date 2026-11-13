@@ -1,0 +1,563 @@
+{
+ "modelNumber": "LUMINATOR ULTRA-50",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Packard Bell",
+  "exactModel": "LUMINATOR ULTRA-50",
+  "israeliImporter": "סיריוס אלקטרוניקה בע״מ",
+  "matchConfidence": "high",
+  "notes": "דף היבואן מציין דגם LUMINATOR ULTRA-50 ומק״ט זהה; דף הקמעונאי ליאור מציין את אותו דגם וקוד 374422. | QA: Importer page and Israeli retailer page both name LUMINATOR ULTRA-50."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sel.co.il/product/luminator-ultra-50/",
+   "publisher": "סיריוס אלקטרוניקה (יבואן)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%A7%D7%A8%D7%9F-%D7%95%D7%99%D7%93%D7%90%D7%95-lumens-5000-%D7%A2%D7%9D-%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%99%D7%AA-%D7%A9%D7%99%D7%A7%D7%95%D7%A3-%D7%9E%D7%A1%D7%9A-wifi/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רזולוציה טבעית",
+     "value": "1280 × 720 (תומך בקלט 1080P)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יחס ניגודיות",
+     "value": "2000:1"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יחס גובה-רוחב",
+     "value": "16:9 ו-4:3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גודל הקרנה",
+     "value": "36 עד 160 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בהירות",
+     "value": "5000 לומן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יחס הקרנה",
+     "value": "1.2:1"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך חיי נורה",
+     "value": "50,000 שעות"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תדרי WiFi",
+     "value": "2.4G/5G"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גרסת Bluetooth",
+     "value": "5.0"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Page lists ports under a mislabelled Working Voltage row",
+     "label": "חיבורים",
+     "value": "HDMI, USB, AUDIO OUT, TYPE-C"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמקול מובנה",
+     "value": "2 × 2 W (4 Ω)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת הספק",
+     "value": "45 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "1.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "היפוך תמונה",
+     "value": "360 מעלות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עדשה",
+     "value": "זכוכית מצופה רב-שכבתית, מיקוד ידני"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "1 שנה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מרחק הקרנה",
+     "value": "1.2 עד 5 מטר מהקיר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שיקוף מסך אלחוטי בטכנולוגיית WiFi לסמארטפונים עם Android ו-iOS"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed promotional wording",
+   "text": "בהירות של 5000 לומנס"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Replaced 'extra long' wording with the quoted figure",
+   "text": "אורך חיי נורה של כ-50,000 שעות שימוש"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט IR כלול בערכה לשליטה בפונקציות המקרן"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקרן וידאו"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כבל חשמל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כבל HDMI"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלט רחוק"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הוראות הפעלה"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מרחק הקרנה מומלץ של 1.2 עד 5 מטר מהקיר"
+  }
+ ],
+ "content": {
+  "summary": "מקרן וידאו LUMINATOR ULTRA-50 של Packard Bell לצפייה ביתית, עם בהירות של 5000 לומן ורזולוציה טבעית של 1280 × 720 עם תמיכה בקלט 1080P. גודל ההקרנה נע בין 36 ל-160 אינץ׳ במרחק של 1.2 עד 5 מטר מהקיר. כולל שיקוף מסך אלחוטי בטכנולוגיית WiFi לטלפונים עם Android ו-iOS ו-Bluetooth 5.0, ומתאים למי שמחפש מקרן קל לסלון או לחדר.",
+  "highlights": [
+   "בהירות של 5000 לומן",
+   "גודל הקרנה של 36 עד 160 אינץ׳",
+   "שיקוף מסך אלחוטי ב-WiFi ל-Android ו-iOS",
+   "Bluetooth 5.0 ו-WiFi בתדרי 2.4G/5G",
+   "משקל 1.2 ק״ג"
+  ],
+  "goodFor": [
+   "צפייה בסרטים וסדרות מהטלפון בשיקוף מסך אלחוטי",
+   "חדרים שבהם אפשר להציב את המקרן במרחק של 1.2 עד 5 מטר מהקיר",
+   "העברה בין חדרים בזכות משקל של 1.2 ק״ג",
+   "חיבור מכשירים בכבל HDMI, USB או TYPE-C"
+  ],
+  "considerations": [
+   "הרזולוציה הטבעית היא 1280 × 720; קלט 1080P נתמך אך אינו הרזולוציה הטבעית",
+   "יש לוודא מרחק פנוי של 1.2 עד 5 מטר בין המקרן לקיר או למסך",
+   "הרמקול המובנה הוא 2 × 2 W; לסאונד חזק יותר אפשר לחבר רמקול דרך AUDIO OUT או Bluetooth 5.0",
+   "המיקוד ידני, ולכן יש לכוונן את העדשה בכל שינוי מיקום"
+  ],
+  "faq": [
+   {
+    "q": "מה הרזולוציה של המקרן?",
+    "a": "הרזולוציה הטבעית היא 1280 × 720, והמקרן תומך בקלט 1080P.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשקף את המסך מהטלפון?",
+    "a": "כן, המקרן תומך בשיקוף מסך בטכנולוגיית WiFi למכשירי Android ו-iOS.",
+    "sources": []
+   },
+   {
+    "q": "באיזה מרחק מהקיר צריך להציב אותו?",
+    "a": "מרחק ההקרנה הוא 1.2 עד 5 מטר מהקיר, וגודל התמונה נע בין 36 ל-160 אינץ׳.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "מקרן וידאו, כבל חשמל, כבל HDMI, שלט רחוק והוראות הפעלה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרן?",
+    "a": "לפי דף המוצר בחנות ישראלית, האחריות היא 1 שנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרן וידאו Packard Bell LUMINATOR ULTRA-50 עם בהירות 5000 לומן ושיקוף מסך WiFi ל-Android ו-iOS. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרן וידאו",
+   "Packard Bell LUMINATOR ULTRA-50",
+   "מקרן 5000 לומן",
+   "מקרן עם שיקוף מסך",
+   "מקרן WiFi",
+   "מקרן קולנוע ביתי",
+   "מקרן Packard Bell"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טכנולוגיית הקרנה",
+   "catalogValue": "LED LCD",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת הארה",
+   "catalogValue": "5000 לומנס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה טבעית",
+   "catalogValue": "Full HD 1920x1080",
+   "finding": "corrected",
+   "correctValue": "1280 × 720 (תומך ב-1080P)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יחס ניגודיות",
+   "catalogValue": "3000:1",
+   "finding": "corrected",
+   "correctValue": "2000:1",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך חיי נורה",
+   "catalogValue": "עד 50,000 שעות עבודה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גודל הקרנה",
+   "catalogValue": "50 אינץ' עד 200 אינץ'",
+   "finding": "corrected",
+   "correctValue": "36 עד 160 אינץ׳",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מרחק הקרנה",
+   "catalogValue": "1.5 - 5 מטרים",
+   "finding": "corrected",
+   "correctValue": "1.2 עד 5 מטר מהקיר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסות",
+   "catalogValue": "2x HDMI, 2x USB, VGA, AV In",
+   "finding": "contradicted",
+   "correctValue": "HDMI, USB, AUDIO OUT, TYPE-C",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יציאות",
+   "catalogValue": "3.5mm Audio Out",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמקול מובנה",
+   "catalogValue": "5W",
+   "finding": "corrected",
+   "correctValue": "2 × 2 W (4 Ω)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיקוף מסך WiFi",
+   "catalogValue": "תומך ב-Android ו-iOS",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלט רחוק",
+   "catalogValue": "שלט רחוק המצורף לערכה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תיקון עיוות תמונה (Keystone)",
+   "catalogValue": "ידני",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נגן מדיה מ-USB",
+   "catalogValue": "ניגון קבצים מזיכרון USB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1.2 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1 שנה",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "45 W",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גודל הקרנה",
+   "issue": "שם הקטלוג מציין גודל הקרנה של 50 עד 200 אינץ׳, בעוד היבואן מציין 36 עד 160 אינץ׳",
+   "severity": "high"
+  },
+  {
+   "field": "רזולוציה טבעית",
+   "issue": "אתר קמעונאי אחד (sancenter.co.il) מציין בתיאורו גם 720x1280 לצד 1280x720; היבואן וליאור מציינים 1280x720 בלבד",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "היבואן מציין רק Machine Size: 11x24 cm ללא גובה או עומק, ולכן מידות מלאות (רוחב × גובה × עומק) לא אומתו",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "מפרט הקטלוג (Full HD 1920x1080, ניגודיות 3000:1, הקרנה 50-200 אינץ׳, מרחק 1.5-5 מ׳, כניסות VGA/AV, רמקול 5W) סותר את דף היבואן והקמעונאי",
+   "severity": "high"
+  },
+  {
+   "field": "חיבורים",
+   "issue": "בדף היבואן רשימת החיבורים מופיעה תחת שורה בשם Working Voltage; כדאי לאמת את רשימת החיבורים ומספרם",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות מלאות לא אומתו (רק 11x24 ס״מ בדף הקמעונאי)",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 9 (ports) is listed on the importer page under a mislabelled 'Working Voltage' row; kept as connections since the values are clearly port names. Features 1-2 reworded to remove promotional wording. Catalog spec values for resolution (Full HD), contrast (3000:1), projection size (50-200 inch), distance (1.5-5 m), inputs (VGA, AV, 2x HDMI) and speaker (5W) are contradicted by the importer and retailer pages."
+ }
+}

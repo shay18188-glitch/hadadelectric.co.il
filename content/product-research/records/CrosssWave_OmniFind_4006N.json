@@ -1,0 +1,430 @@
+{
+ "modelNumber": "CrosssWave OmniFind 4006N",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "BISSELL",
+  "exactModel": "CrossWave OmniFind 4006N",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "דפי היצרן של BISSELL בצרפת ובהולנד חסומים באימות אנושי ולא נקראו. העובדות מבוססות על שני קמעונאים ישראלים שמציינים את הדגם 4006N. | QA: Sources name BISSELL CrossWave OmniFind 4006N; the catalog spelling CrosssWave is a typo of the same model code."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.terminalx.com/R353040001",
+   "publisher": "TerminalX",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://electric-home.co.il/product/crosswave-omnifind-4006n-bissell/",
+   "publisher": "Electric Home",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "27 × 110.7 × 27 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "4.8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח סוללה",
+     "value": "25.9V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן פעולה מרבי",
+     "value": "עד 25 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "4 שעות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיכל מים נקיים",
+     "value": "630 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיכל מים מלוכלכים",
+     "value": "440 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סיבוב המברשת",
+     "value": "1132 סל״ד על רצפות קשות, 1052 סל״ד על שטיחים"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "24 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "reworded to match quote",
+   "text": "ניקוי רצפות קשות, כולל פרקט, עץ וקרמיקה, וגם שטיחים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שני מיכלים נפרדים, אחד למים נקיים ואחד למים מלוכלכים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת ניקוי עצמית בלחיצת כפתור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורה קדמית בעוצמה משתנה שמאפשרת לראות שיער על הרצפה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכשיר BISSELL CrossWave OmniFind 4006N"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת רצפתית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסנן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעמד טעינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "דוגמית חומר ניקוי"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "BISSELL CrossWave OmniFind 4006N הוא שואב שוטף אלחוטי לרצפות קשות כמו פרקט, עץ וקרמיקה, וגם לשטיחים. הוא פועל על סוללה של 25.9V עד 25 דקות, עם מיכל מים נקיים של 630 מ״ל ומיכל מים מלוכלכים של 440 מ״ל. מתאים לבית שרוצה לנקות רצפה בלי דלי ומגב, עם ניקוי עצמי בלחיצת כפתור.",
+  "highlights": [
+   "זמן פעולה של עד 25 דקות על סוללת 25.9V",
+   "מיכל מים נקיים 630 מ״ל ומיכל מים מלוכלכים 440 מ״ל נפרדים",
+   "מערכת ניקוי עצמית בלחיצת כפתור",
+   "תאורה קדמית בעוצמה משתנה לזיהוי שיער על הרצפה",
+   "24 חודשי אחריות יבואן"
+  ],
+  "goodFor": [
+   "בית עם רצפות פרקט, עץ או קרמיקה שצריך גם שטיחים",
+   "מי שרוצה להפריד בין מים נקיים למים מלוכלכים בזמן הניקוי",
+   "בית עם שיער על הרצפה, בזכות התאורה הקדמית"
+  ],
+  "considerations": [
+   "זמן הפעולה הוא עד 25 דקות לטעינה, וטעינה מלאה לוקחת 4 שעות",
+   "המכשיר שוקל 4.8 ק״ג וגובהו 110.7 ס״מ, כדאי לוודא מקום אחסון ליד שקע עבור מעמד הטעינה",
+   "מיכל המים הנקיים מכיל 630 מ״ל, כך שבבית גדול ייתכן שיהיה צורך למלא אותו שוב"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן אפשר לעבוד בטעינה אחת?",
+    "a": "עד 25 דקות, וטעינה מלאה לוקחת 4 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מתאים גם לשטיחים?",
+    "a": "כן, הוא מנקה רצפות קשות כמו פרקט, עץ וקרמיקה וגם שטיחים.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכלי המים?",
+    "a": "מיכל המים הנקיים מכיל 630 מ״ל ומיכל המים המלוכלכים 440 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "מה מקבלים בקופסה?",
+    "a": "את המכשיר, מברשת רצפתית, מסנן, מעמד טעינה ודוגמית חומר ניקוי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "24 חודשי אחריות של המילטון חשמל ואלקטרוניקה, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב שוטף אלחוטי BISSELL CrossWave OmniFind 4006N: עד 25 דקות פעולה, מיכל מים נקיים 630 מ״ל ומיכל מלוכלכים נפרד. בחדד אלקטריק נהריה",
+  "keywords": [
+   "ביסל קרוסווייב אומניפיינד",
+   "BISSELL CrossWave OmniFind 4006N",
+   "שואב שוטף אלחוטי",
+   "שואב שוטף ביסל",
+   "4006N",
+   "שואב שוטף לפרקט",
+   "CrossWave OmniFind"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "משקל",
+   "catalogValue": "כ-4.8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח סוללה",
+   "catalogValue": "25.2V",
+   "finding": "corrected",
+   "correctValue": "25.9V",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן מקסימלי",
+   "catalogValue": "עד 30 דקות",
+   "finding": "corrected",
+   "correctValue": "25 דקות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "כ-4 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים נקיים",
+   "catalogValue": "כ-600 מ\"ל",
+   "finding": "corrected",
+   "correctValue": "630 מ״ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים מלוכלכים",
+   "catalogValue": "כ-385 מ\"ל",
+   "finding": "corrected",
+   "correctValue": "440 מ״ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "כ-69 דציבלים",
+   "finding": "corrected",
+   "correctValue": "68 dB",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שאיבה ושטיפה בו-זמנית",
+   "catalogValue": "שאיבה ושטיפה בו-זמנית של רצפות קשות ושטיחים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב ניקוי עצמי",
+   "catalogValue": "מצב ניקוי עצמי אוטומטי בלחיצת כפתור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסנן קפלים הניתן לשטיפה",
+   "catalogValue": "מסנן קפלים הניתן לשטיפה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Power Mop",
+   "catalogValue": "טכנולוגיית 'Power Mop'",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Tangle-Free",
+   "catalogValue": "מברשת 'Tangle-Free'",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Edge Cleaning",
+   "catalogValue": "Edge Cleaning",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "27 × 110.7 × 27 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקטלוג מציין CrosssWave OmniFind 4006N עם s כפולה. אף דף לא מופיע בשם הזה; הדפים מציינים CrossWave OmniFind 4006N, והקוד 4006N מופיע בכל הדפים שנקראו.",
+   "severity": "high"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "הקטלוג מציין 69 dB. מקור ישראלי אחד (Electric Home) מציין 68 dB, ולא נמצא מקור שני לערך הזה. יש לאמת מול דף היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור יצרן",
+   "issue": "דפי BISSELL הרשמיים בצרפת ובהולנד חסומים באימות אנושי. העובדות מבוססות על קמעונאים ישראלים בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקטלוג מציין CrosssWave עם s כפולה; כל המקורות מציינים CrossWave OmniFind 4006N.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "ערכי הקטלוג למתח סוללה (25.2V), זמן עבודה (30 דקות) ונפחי מיכלים (600/385 מ״ל) שונים מדף TerminalX (25.9V, 25 דקות, 630/440 מ״ל). מומלץ לאמת מול היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "הקטלוג מציין 69 dB ומקור אחד מציין 68 dB; הערך לא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "העובדות מבוססות על קמעונאי ישראלי אחד בלבד; דפי היצרן לא נקראו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 reworded to match the quote (the quote lists hard floors and carpets, not simultaneous vacuum and wash). All facts rest on one Israeli retailer (TerminalX) naming CrossWave OmniFind 4006N; catalog values for battery voltage, run time and tank volumes differ from that page."
+ }
+}

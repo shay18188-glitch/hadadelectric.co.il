@@ -1,0 +1,425 @@
+{
+ "modelNumber": "HF-42",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Homex",
+  "exactModel": "HF-42",
+  "israeliImporter": "סיריוס אלקטרוניקה בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Exact model HF-42 is named on the Israeli retailer BUG page (SKU 7290118450108), on the Walla review and on the Zap price-comparison page. No manufacturer or importer page was reachable; the retailer and review pages were used as sources. | QA: BUG, Walla and Zap all name HF-42 by Homex; BUG states the Israeli importer warranty."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/homex/hf/42",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://home.walla.co.il/item/3605082",
+   "publisher": "Walla! בית ועיצוב",
+   "kind": "review",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1199103",
+   "publisher": "Zap השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "80 W (מנוע AC)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירויות אוורור",
+     "value": "שלוש רמות מהירות: גבוהה, בינונית ונמוכה"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק תאורת LED",
+     "value": "42 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת תאורה",
+     "value": "3000 לומן"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגת אטימות",
+     "value": "IP20 (לשימוש פנימי)"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמקול Bluetooth",
+     "value": "מובנה"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שליטה",
+     "value": "שלט רחוק ואפליקציה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "כן, עם הגדרה אוטומטית של זמני הפעלה וכיבוי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כנפיים",
+     "value": "נסתרות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע\"י סיריוס אלקטרוניקה בע\"מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע שקט במיוחד וחסכוני באנרגיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת RGB בצבעים אדום, כחול וירוק"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Homex HF-42 הוא מאוורר תקרה עם כנפיים נסתרות, תאורת LED ורמקול Bluetooth מובנה. המנוע בהספק 80W עם שלוש רמות מהירות, והתאורה בהספק 42W מספקת 3000 לומן עם בחירת גוון ותאורת RGB. מתאים לחדר שינה, חדר ילדים או סלון למי שרוצה מאוורר, מנורה ורמקול בגוף אחד עם שליטה בשלט או באפליקציה.",
+  "highlights": [
+   "מנוע AC בהספק 80W עם שלוש רמות מהירות",
+   "תאורת LED בהספק 42W ו-3000 לומן",
+   "רמקול Bluetooth מובנה",
+   "שליטה בשלט רחוק ובאפליקציה, כולל טיימר",
+   "כנפיים נסתרות למראה נקי"
+  ],
+  "goodFor": [
+   "חדר שבו המאוורר משמש גם כגוף התאורה המרכזי",
+   "מי שרוצה להשמיע מוזיקה מהטלפון דרך רמקול בתקרה",
+   "חדר ילדים או חדר משחקים שנהנה מתאורת RGB צבעונית",
+   "מי שמעדיף לתזמן הפעלה וכיבוי עם טיימר"
+  ],
+  "considerations": [
+   "דרגת האטימות IP20 מתאימה לשימוש פנימי בלבד, לא למרפסת פתוחה או לחדר רחצה",
+   "יש לוודא נקודת חיבור לחשמל בתקרה וחיזוק מתאים לתליית מאוורר",
+   "השליטה באפליקציה דורשת טלפון חכם; אפשר להסתפק בשלט הרחוק"
+  ],
+  "faq": [
+   {
+    "q": "האם יש במאוורר תאורה?",
+    "a": "כן, תאורת LED בהספק 42W עם עוצמה של 3000 לומן, אפשרות לבחירת גוון ותאורת RGB באדום, כחול וירוק.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש למאוורר?",
+    "a": "שלוש רמות מהירות: גבוהה, בינונית ונמוכה.",
+    "sources": []
+   },
+   {
+    "q": "איך שולטים במאוורר?",
+    "a": "באמצעות שלט רחוק או אפליקציה, כולל טיימר להגדרה אוטומטית של זמני הפעלה וכיבוי.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין אותו בחוץ?",
+    "a": "דרגת האטימות היא IP20, המתאימה לשימוש פנימי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה ע\"י סיריוס אלקטרוניקה בע\"מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר תקרה Homex HF-42 עם כנפיים נסתרות, רמקול Bluetooth ותאורת LED של 3000 לומן, מנוע 80W ושלוש מהירויות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Homex HF-42",
+   "מאוורר תקרה עם רמקול",
+   "מאוורר תקרה כנפיים נסתרות",
+   "מאוורר תקרה עם תאורת LED",
+   "מאוורר תקרה עם שלט ואפליקציה",
+   "מאוורר תקרה Homex",
+   "מאוורר תקרה לבן",
+   "מאוורר תקרה RGB"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מנוע",
+   "catalogValue": "AC בהספק 80W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורת LED",
+   "catalogValue": "42W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת הארה",
+   "catalogValue": "3000 לומן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגת אטימות",
+   "catalogValue": "IP20",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "3 מהירויות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוני תאורה",
+   "catalogValue": "לבן, טבעי, חם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורת RGB",
+   "catalogValue": "אדום, ירוק, כחול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמקול בלוטות'",
+   "catalogValue": "מובנה, סטריאו",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "הגדרה אוטומטית של זמני הפעלה וכיבוי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אפליקציה",
+   "catalogValue": "Tuya Smart",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כנפיים",
+   "catalogValue": "נסתרות הנפתחות בעת ההפעלה (מתקפל)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוטר",
+   "catalogValue": "42 אינץ' (כ-106 ס\"מ)",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קוטר",
+   "issue": "The catalog gives 42 inch (about 106 cm). Zap confirms 42 inch, but no page gives the cm figure, and the inch-to-cm conversion is not published. Check the diameter against the packing label or the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "אפליקציה",
+   "issue": "The catalog names the Tuya Smart app. The Walla review names the app as i-lamp, and the retailer page only says smart app. Confirm which app the Israeli importer ships with.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "No page found for this model gives the working voltage. The catalog value 220-240V is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "The model number HF-42 appears on the BUG page, the Walla review and the Zap page. The Zap page lists it as HF42 without the hyphen in places. The Israeli retailers that returned 403 (cwc.co.il, netoneto.co.il, shekem-electric.co.il) could not be read.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The one-year warranty comes from the retailer page only. The Walla review calls the importer SIRIUS LIVING, which may be a brand name of the same importer. Confirm with the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "קוטר",
+   "issue": "Catalog diameter (42 inch, about 106 cm) is not confirmed in a kept quote; verify against packaging or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "אפליקציה",
+   "issue": "Catalog names Tuya Smart; Walla names i-lamp; BUG says only app. Confirm which app ships with the Israeli unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "Catalog 220-240V not found on any source.",
+   "severity": "low"
+  },
+  {
+   "field": "כנפיים",
+   "issue": "Catalog says blades open on startup (foldable); sources only say hidden blades.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features are supported by ok quotes on the BUG page that names HF-42; LED power also confirmed by the Walla review."
+ }
+}

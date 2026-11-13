@@ -1,0 +1,381 @@
+{
+ "modelNumber": "QP2724/10 OneBlade",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "QP2724/10",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף המוצר של Philips בישראל (philips.co.il) החזיר 404. העובדות מבוססות על דפי Philips של הודו ובחריין, שמציגים את הדגם QP2724/10 במפורש. מפרט הסוללה, זמן הטעינה, דירוג עמידות המים והמידות לא נמצאו בדפים שנקראו. | QA: Philips India and Bahrain pages name QP2724/10 exactly. Philips Israel page returned 404; Israeli variant not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.philips.co.in/c-p/QP2724_10/oneblade-face",
+   "publisher": "Philips India",
+   "kind": "manufacturer",
+   "market": "IN",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.philips.com.bh/c-p/QP2724_10/oneblade-face",
+   "publisher": "Philips Bahrain",
+   "kind": "manufacturer",
+   "market": "BH",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Philips"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "QP2724/10"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שם הסדרה",
+     "value": "OneBlade Face"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות חיתוך",
+     "value": "12000 תנועות לדקה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "quote says dual-sided blade",
+     "label": "סוג להב",
+     "value": "להב דו-צדדי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "same page also mentions a 5-in-1 adjustable comb; in-box comb set unclear",
+     "label": "מסרקים להתאמת אורך",
+     "value": "3 מסרקים: 1, 3 ו-5 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "warranty from Philips India page; Israeli warranty not verified",
+     "label": "אחריות יצרן",
+     "value": "2 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גילוח, עיצוב קצוות וקיצוץ בהתקן אחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת הגנה כפולה: ציפוי מחליק וקצוות מעוגלים להגנה על העור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתוכנן לחתוך שיער ולא עור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "conflict",
+   "note": "conflicts with 3 click-on stubble combs quote on the same page",
+   "text": "מסרק מתכוונן 5 ב-1"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Philips OneBlade Face QP2724/10 הוא מכשיר אחד לגילוח, עיצוב קצוות וקיצוץ זקן. יחידת החיתוך נעה במהירות של 12000 תנועות לדקה, והלהב הדו-צדדי מאפשר ליצור קווים מדויקים. מערכת הגנה כפולה של ציפוי מחליק וקצוות מעוגלים נועדה לחתוך שיער ולא עור, ומתאימה למי שמחזיק זיפים או זקן קצר ורוצה מכשיר אחד לכל השלבים.",
+  "highlights": [
+   "גילוח, עיצוב קצוות וקיצוץ בהתקן אחד",
+   "יחידת חיתוך במהירות 12000 תנועות לדקה",
+   "להב דו-צדדי לעיצוב קצוות מדויק",
+   "מערכת הגנה כפולה: ציפוי מחליק וקצוות מעוגלים"
+  ],
+  "goodFor": [
+   "מי שמתחזק זיפים או זקן קצר ורוצה מכשיר אחד לקיצוץ ולגילוח",
+   "עיצוב קווי זקן ולחיים בעזרת הלהב הדו-צדדי",
+   "עור שנוטה לגירוי, בזכות הציפוי המחליק והקצוות המעוגלים"
+  ],
+  "considerations": [
+   "לבדוק אילו מסרקים כלולים באריזה הנמכרת בישראל",
+   "לבדוק את סוג הסוללה, זמן העבודה ושיטת הטעינה מול המדריך למשתמש",
+   "לבדוק את תנאי האחריות בישראל לפני הקנייה",
+   "לוודא אילו להבי חילוף מתאימים לדגם"
+  ],
+  "faq": [
+   {
+    "q": "האם ה-OneBlade Face מגלח או רק מקצץ?",
+    "a": "המכשיר מיועד לגילוח, לעיצוב קצוות ולקיצוץ בהתקן אחד.",
+    "sources": []
+   },
+   {
+    "q": "האם הלהב חותך את העור?",
+    "a": "Philips מציינת מערכת הגנה כפולה של ציפוי מחליק וקצוות מעוגלים, שנועדה לחתוך שיער ולא עור.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות החיתוך?",
+    "a": "יחידת החיתוך נעה במהירות של 12000 תנועות לדקה.",
+    "sources": []
+   },
+   {
+    "q": "איך מעצבים קווים מדויקים?",
+    "a": "הלהב הדו-צדדי מאפשר לעבוד בשני הכיוונים וליצור קצוות מדויקים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת גילוח Philips OneBlade Face QP2724/10 לגילוח, עיצוב וקיצוץ, להב דו-צדדי ו-12000 תנועות לדקה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Philips OneBlade QP2724",
+   "QP2724/10",
+   "וואן בלייד פיליפס",
+   "מכונת גילוח OneBlade",
+   "OneBlade Face",
+   "מכונת גילוח וקיצוץ זקן",
+   "פיליפס וואן בלייד פייס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "יצרן",
+   "catalogValue": "Philips",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הגנה כפולה",
+   "catalogValue": "ציפוי חלק וקצוות מעוגלים להגנה על העור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יחידת חיתוך מהירה",
+   "catalogValue": "12,000 פעולות לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להב דו-כיווני",
+   "catalogValue": "להב דו-כיווני המאפשר גילוח בכל כיוון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסרק מתכוונן 5 ב-1",
+   "catalogValue": "דרגות 1-5 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה אלחוטי",
+   "catalogValue": "45 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "8 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "סוללת NiMH נטענת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שיטת טעינה",
+   "catalogValue": "כבל USB-A (כלול במארז)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח כניסה",
+   "catalogValue": "5V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "IPX7",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג להב",
+   "catalogValue": "QP210, QP220, QP610, QP620",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "החלפת להב",
+   "catalogValue": "החלפה מומלצת פעם ב-4 חודשים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מעקב אחר קווי מתאר הפנים",
+   "catalogValue": "מעקב אחר קווי מתאר הפנים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שימוש רטוב או יבש",
+   "catalogValue": "מתאים לשימוש רטוב עם קצף/ג'ל או יבש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "2 שנים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוללה ומקור הזנה",
+   "issue": "מפרט הסוללה (NiMH, 45 דקות עבודה, 8 שעות טעינה) וטעינת USB-A לא נמצאו בדפי היצרן שנקראו. תוצאת חיפוש אחת מתארת את המכשיר כ-Corded Electric, בניגוד למפרט הקטלוג. יש לאמת מול המדריך למשתמש או אתר Philips בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "עמידות למים",
+   "issue": "דירוג IPX7 בקטלוג לא נמצא בדפי היצרן שנקראו, ואין אישור לשימוש רטוב או יבש. יש לאמת מול המדריך למשתמש.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג להב",
+   "issue": "רשימת דגמי הלהבים בקטלוג (QP210, QP220, QP610, QP620) לא אומתה. דף Philips בחריין מציג להבי חילוף QP220/51 ו-QP630/51, כך שהרשימה דורשת בדיקה.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמינות בישראל",
+   "issue": "דף Philips בישראל החזיר 404, ולא נמצא יבואן רשמי או אחריות ישראלית מאומתת לדגם. האחריות של 2 שנים מבוססת על דפי Philips של הודו ובחריין בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "סטטוס הדגם",
+   "issue": "תוצאת חיפוש מאתר השוואת קטלוגים מסמנת את הדגם כמוצר ישן. לא נבדק בדף שנקרא, ויש לוודא שהדגם עדיין מיובא.",
+   "severity": "low"
+  },
+  {
+   "field": "מסרקים",
+   "issue": "דף Philips הודו מזכיר גם 3 מסרקי זיפים (1, 3, 5 מ״מ) וגם מסרק מתכוונן 5 ב-1; הקטלוג מציין מסרק 5 ב-1. יש לבדוק מה כלול באריזה בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוללה וטעינה",
+   "issue": "מפרט הסוללה (NiMH, 45 דקות, 8 שעות טעינה, USB-A, 5V) לא אומת בדפי היצרן שנקראו.",
+   "severity": "medium"
+  },
+  {
+   "field": "עמידות למים",
+   "issue": "דירוג IPX7 ושימוש רטוב/יבש מהקטלוג לא אומתו.",
+   "severity": "medium"
+  },
+  {
+   "field": "להבי חילוף",
+   "issue": "רשימת הלהבים בקטלוג (QP210, QP220, QP610, QP620) לא אומתה; דף בחריין מציג QP220/51 ו-QP630/51.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אחריות 2 שנים מופיעה רק בדף Philips הודו; תנאי האחריות בישראל לא אומתו ולכן לא פורסמו.",
+   "severity": "low"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "דף Philips ישראל החזיר 404; יש לוודא שהדגם והגרסה תואמים לשוק הישראלי.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (2 years quoted from Philips India page only; Israeli warranty terms not verified). Marked comb fact and the 5-in-1 comb feature as conflict: the same page quotes both 3 click-on stubble combs (1, 3, 5 mm) and a 5-in-1 adjustable comb, so the in-box comb set needs checking. Kept identity, cutter speed, dual-sided blade and the protection/trim-edge-shave features."
+ }
+}

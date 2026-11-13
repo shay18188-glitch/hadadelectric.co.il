@@ -1,0 +1,327 @@
+{
+ "modelNumber": "HEM-958",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-958",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "מקור יחיד: דף קמעונאי ישראלי לדגם HEM-958. לא נמצא דף יבואן או יצרן לדגם זה. | QA: Israeli retailer page names HEMILTON HEM-958 quartz heater 2500W, matching the catalog name, power and heating elements."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/תנורי-חימום-המילטון-hem958/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HEM-958"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מקסימלי",
+     "value": "2500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר גופי חימום",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פריסת גופי החימום",
+     "value": "3 קדמיים ואחד עליון"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגות חום",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שטח חימום מומלץ",
+     "value": "כ-20 מ״ר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "converted from 760 × 280 × 580 mm",
+     "label": "מידות (אורך × רוחב × גובה)",
+     "value": "76 × 28 × 58 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנון הגנה",
+     "value": "הפסקת פעולה בנפילה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י המילטון היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקרן אחורי לפיזור חום יעיל בחדר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת הגנה צפופה ובטיחותית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "תנור חימום קוורץ של המילטון, דגם HEM-958, בהספק של 2500 W עם 4 גופי חימום – 3 קדמיים ואחד עליון – ו-3 דרגות חום לבחירה. מקרן אחורי מפזר את החום בחדר, ומנגנון הגנה מפסיק את הפעולה בנפילה. מתאים לחימום חדר בשטח של כ-20 מ״ר.",
+  "highlights": [
+   "הספק מקסימלי 2500 W",
+   "4 גופי חימום קוורץ: 3 קדמיים ואחד עליון",
+   "3 דרגות חום לבחירה",
+   "מנגנון הגנה להפסקת פעולה בנפילה",
+   "אחריות לשנה ע״י המילטון היבואן הרשמי"
+  ],
+  "goodFor": [
+   "חימום חדר בשטח של כ-20 מ״ר",
+   "מי שרוצה לבחור בין 3 דרגות חום לפי הצורך",
+   "בית עם תנועה בחדר, הודות להפסקת פעולה בנפילה ורשת הגנה צפופה"
+  ],
+  "considerations": [
+   "ודאו שיש מקום לתנור במידות 76 × 28 × 58 ס״מ",
+   "בהספק של 2500 W כדאי לחבר לשקע ייעודי ולא למפצל עמוס",
+   "שטח החימום המומלץ הוא כ-20 מ״ר; לחדר גדול יותר ייתכן שיידרש חימום נוסף"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של תנור המילטון HEM-958?",
+    "a": "ההספק המקסימלי הוא 2500 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה גופי חימום יש בתנור?",
+    "a": "4 גופי חימום: 3 בחזית ואחד עליון.",
+    "sources": []
+   },
+   {
+    "q": "לאיזה גודל חדר הוא מתאים?",
+    "a": "הוא מיועד לחימום שטח של כ-20 מ״ר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בתנור מנגנון בטיחות?",
+    "a": "כן, מנגנון הגנה מפסיק את הפעולה בנפילה, ויש רשת הגנה צפופה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על התנור?",
+    "a": "אחריות לשנה ע״י המילטון היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור חימום קוורץ המילטון HEM-958 בהספק 2500 W עם 4 גופי חימום ו-3 דרגות חום, ומקרן אחורי, לחימום שטח של כ-20 מ״ר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "המילטון HEM-958",
+   "HEM-958",
+   "תנור חימום קוורץ",
+   "תנור קוורץ 2500 וואט",
+   "תנור חימום המילטון",
+   "תנור חימום 4 גופים",
+   "תנור חימום לחדר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2500 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר גופי חימום",
+   "catalogValue": "4 נורות קוורץ (3 גופי חימום בחזית וגוף חימום אחד עליון)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות חום",
+   "catalogValue": "3 דרגות חום לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "אורך 76 ס\"מ, רוחב 28 ס\"מ, גובה 58 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שטח חימום",
+   "catalogValue": "עד כ-20 מ\"ר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקרן אחורי",
+   "catalogValue": "מקרן אחורי מובנה לפיזור חום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון הגנה",
+   "catalogValue": "מנתק זרם אוטומטית בנפילה או התהפכות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רשת הגנה",
+   "catalogValue": "רשת הגנה חיצונית צפופה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220V-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טרמוסטט מובנה",
+   "catalogValue": "טרמוסטט מובנה לשליטה על עוצמת החום",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גלגלים",
+   "catalogValue": "4 גלגלים בבסיס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "לדגם HEM-958 נמצא דף קמעונאי ישראלי אחד בלבד. לא נמצא דף יבואן, יצרן או מדריך למשתמש; יש לאמת מול המילטון לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הדף מציין אורך, רוחב וגובה בלבד, ללא עומק; השורה המשולבת סומנה לפי הסדר שבדף.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "כל הנתונים מבוססים על דף קמעונאי ישראלי אחד; לא נמצא דף יבואן או יצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מנגנון הגנה",
+   "issue": "הקטלוג מציין ניתוק גם בהתהפכות, טרמוסטט מובנה, 4 גלגלים ומתח 220-240V – לא אומתו במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts rest on a single Israeli retailer page that names HEM-958. Dimensions converted from mm to cm (760×280×580 מ״מ). Catalog claims on voltage, thermostat, wheels, tip-over cutoff and origin are not verified and not published."
+ }
+}

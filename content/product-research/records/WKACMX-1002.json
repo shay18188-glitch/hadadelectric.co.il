@@ -1,0 +1,194 @@
+{
+ "modelNumber": "WKACMX-1002",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Westinghouse",
+  "exactModel": "WKACMX-1002",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Confirmed only by Israeli retailer page (Cook Shop); no manufacturer or manual page found. | QA: Only an Israeli retailer page names WKACMX-1002; no manufacturer or manual source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://cookshop.co.il/מוצר/מכונת-אספרסו-אוטומטית-עם-טוחן-westinghouse-דגם-wkacmx-1002/",
+   "publisher": "Cook Shop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1350 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר דרגות טחינה",
+     "value": "15"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים נשלף",
+     "value": "1.5 ליטר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בקר טמפרטורה מובנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקציף חלב בקיטור מובנה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת אספרסו אוטומטית של Westinghouse, דגם WKACMX-1002, עם מטחנת קפה פנימית. המטחנה מציעה 15 דרגות טחינה, ומיכל המים הנשלף מכיל 1.5 ליטר. המכונה כוללת מקציף חלב בקיטור ובקר טמפרטורה מובנה, ומתאימה למי שרוצה להכין קפה מפולים טריים בבית.",
+  "highlights": [
+   "מטחנת קפה פנימית עם 15 דרגות טחינה",
+   "מיכל מים נשלף בנפח 1.5 ליטר",
+   "הספק 1350 W",
+   "מקציף חלב בקיטור מובנה",
+   "בקר טמפרטורה מובנה"
+  ],
+  "goodFor": [
+   "מי שמעדיף לטחון פולים טריים לפני כל הכנה",
+   "חובבי משקאות חלב שרוצים להקציף חלב בקיטור",
+   "מי שרוצה לכוון את דרגת הטחינה לפי סוג הפולים והטעם"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי על השיש ליד שקע חשמל, המכונה בהספק 1350 W",
+   "מיכל המים נשלף, כדאי לוודא גישה נוחה למילוי",
+   "הקצפת חלב נעשית בקיטור ידני ולא במערכת חלב אוטומטית"
+  ],
+  "faq": [
+   {
+    "q": "האם יש במכונה מטחנה מובנית?",
+    "a": "כן, יש מטחנת קפה פנימית עם 15 דרגות טחינה.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "מיכל המים נשלף ונפחו 1.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להקציף חלב?",
+    "a": "כן, יש במכונה מקציף חלב בקיטור מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכונה?",
+    "a": "ההספק הוא 1350 W.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת אספרסו אוטומטית Westinghouse WKACMX-1002 עם מטחנה פנימית ב-15 דרגות טחינה ומיכל מים נשלף 1.5 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Westinghouse WKACMX-1002",
+   "מכונת אספרסו עם טוחן",
+   "מכונת קפה אוטומטית Westinghouse",
+   "מכונת קפה עם מטחנה",
+   "מכונת אספרסו אוטומטית",
+   "WKACMX-1002"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1350W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "1.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות טחינה",
+   "catalogValue": "15",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ משאבה",
+   "catalogValue": "20 בר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "32.1×18.4×43.3 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "identity",
+   "issue": "Model confirmed only by one Israeli retailer page; no manufacturer or manual source found.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog pump pressure (20 bar) and dimensions are unverified by any source.",
+   "severity": "low"
+  },
+  {
+   "field": "considerations",
+   "issue": "Milk frothing described as steam wand; confirm it is manual and not an automatic milk system.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts confirmed by a single Israeli retailer page (Cook Shop) naming the exact model. Label of fact 0 kept, value reformatted to 1350 W. Pump pressure and dimensions from catalog are unverified and not published."
+ }
+}

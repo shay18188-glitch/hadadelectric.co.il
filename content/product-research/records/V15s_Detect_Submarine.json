@@ -1,0 +1,338 @@
+{
+ "modelNumber": "V15s Detect Submarine",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Dyson",
+  "exactModel": "V15s Detect Submarine",
+  "israeliImporter": "קבוצת פוקס טק",
+  "matchConfidence": "high",
+  "notes": "דגם שואב שוטף אלחוטי, מק\"ט 448798-01. נמצא בדפי שני קמעונאים ישראליים עם השם המדויק של הדגם. | QA: Two Israeli retailer pages name V15s Detect Submarine exactly; CityDeal names Fox Tech group as warranty provider."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/dyson/v15s/detect/submarine",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%a9%d7%95%d7%98%d7%a3-%d7%93%d7%99%d7%99%d7%a1%d7%95%d7%9f-%d7%93%d7%92%d7%9d-dyson-v15s-detect-submarine-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Dyson"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה מרבית",
+     "value": "240 AW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות מנוע",
+     "value": "עד 125,000 סל״ד"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה מרבי בטעינה",
+     "value": "עד 60 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote does not say HEPA; removed that word.",
+     "label": "סינון",
+     "value": "לוכד 99.99% מהחלקיקים בגודל 0.3 מיקרון (לפי בדיקות Dyson)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מכל אבק",
+     "value": "0.76 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "כ־4.5 שעות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "3.8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים בבית הלקוח, ע״י קבוצת פוקס טק"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote says sealed, not HEPA.",
+   "text": "סינון אטום בכל המכשיר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישן Piezo שמתאים את עוצמת השאיבה לכמות האבק במצב Auto"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סוללה נשלפת שמתחלפת בלחיצה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ראש שטיפה Submarine עם רולר לח שאוסף את הנוזלים והשאריות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Dyson V15s Detect Submarine הוא שואב אבק אלחוטי שמשלב שאיבה יבשה עם ראש שטיפה Submarine, שמעביר רולר לח על הרצפה ואוסף את הנוזלים והשאריות. השואב מגיע לעוצמת שאיבה מרבית של 240 AW, עם עד 60 דקות פעולה בטעינה ומכל אבק של 0.76 ליטר. מתאים למי שרוצה מכשיר אחד לשאיבה ולשטיפת רצפות קשות.",
+  "highlights": [
+   "עוצמת שאיבה מרבית של 240 AW",
+   "ראש שטיפה Submarine עם רולר לח",
+   "עד 60 דקות פעולה בטעינה",
+   "חיישן Piezo שמתאים את עוצמת השאיבה לכמות האבק במצב Auto",
+   "סוללה נשלפת שמתחלפת בלחיצה"
+  ],
+  "goodFor": [
+   "בית עם רצפות קשות שצריך גם שאיבה וגם שטיפה",
+   "ניקוי כתמים ושאריות לחות מהרצפה עם ראש ה-Submarine",
+   "מי שמעדיף שואב אלחוטי עם סוללה נשלפת"
+  ],
+  "considerations": [
+   "זמן טעינה מלאה הוא כ־4.5 שעות, כדאי לתכנן נקודת טעינה קבועה",
+   "משקל המכשיר 3.8 ק״ג, כדאי לבדוק שנוח לכם לעבוד איתו ביד",
+   "עד 60 דקות הוא זמן העבודה המרבי בטעינה; במצבי עוצמה גבוהים הזמן קצר יותר"
+  ],
+  "faq": [
+   {
+    "q": "האם ה-V15s Detect Submarine שוטף רצפות?",
+    "a": "כן. ראש ה-Submarine מעביר רולר לח על הרצפה ואוסף את הנוזלים והשאריות.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן הוא עובד בטעינה אחת?",
+    "a": "עד 60 דקות פעולה בטעינה, וטעינה מלאה אורכת כ־4.5 שעות.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מכל האבק?",
+    "a": "מכל האבק היבש הוא בנפח 0.76 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "שנתיים בבית הלקוח, ע״י קבוצת פוקס טק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק אלחוטי שוטף Dyson V15s Detect Submarine: עוצמת שאיבה 240 AW, ראש שטיפה Submarine ועד 60 דקות פעולה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Dyson V15s Detect Submarine",
+   "דייסון V15s Submarine",
+   "שואב שוטף דייסון",
+   "שואב אבק אלחוטי שוטף",
+   "דייסון V15 שוטף",
+   "שואב אבק דייסון אלחוטי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "240AW",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "3.8-4.1 ק\"ג (בהתאם לאביזר)",
+   "finding": "corrected",
+   "correctValue": "3.8 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה מקסימלי",
+   "catalogValue": "עד 60 דקות (במצב Eco)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מכל אבק",
+   "catalogValue": "0.76 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מכל מים נקיים",
+   "catalogValue": "300 מ\"ל (ראש Submarine)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "4.5 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "HEPA מלאה הלוכדת 99.99% מהחלקיקים עד 0.1 מיקרון",
+   "finding": "corrected",
+   "correctValue": "HEPA בכל המכשיר, 99.99% מחלקיקים בגודל 0.3 מיקרון",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "נשלפת (Click-in)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציג טווח 3.8-4.1 ק״ג, ואילו המפרט שנמצא הוא 3.8 ק״ג בלבד. הטווח לפי אביזר לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "הקטלוג מציין סינון עד 0.1 מיקרון, אך המפרט שנמצא הוא 0.3 מיקרון.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מכל מים נקיים",
+   "issue": "נפח מכל המים של ראש Submarine (300 מ\"ל) לא נמצא בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציג טווח 3.8-4.1 ק״ג; המקור מציין 3.8 ק״ג בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "הקטלוג מציין HEPA ו-0.1 מיקרון; המקור מציין סינון אטום הלוכד 99.99% מחלקיקים בגודל 0.3 מיקרון.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מכל מים נקיים",
+   "issue": "נפח 300 מ״ל שבקטלוג לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 4 and feature 0: the quotes say sealed filtration (סינון אטום) capturing 99.99% of particles at 0.3 micron, not HEPA; reworded to match. Catalog states 0.1 micron and a 3.8-4.1 kg range; sources say 0.3 micron and 3.8 kg. Clean-water tank volume unverified."
+ }
+}

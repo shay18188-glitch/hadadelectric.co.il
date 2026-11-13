@@ -1,0 +1,385 @@
+{
+ "modelNumber": "BC-50 GLASS BLACK",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Luxor",
+  "exactModel": "BC-50",
+  "israeliImporter": "א.ח.י דיגיטל שיווק ומסחר בע\"מ",
+  "matchConfidence": "low",
+  "notes": "דפי הקמעונאים שנבדקו מזהים את הדגם כ-BC-50 בצבע שחור. הקוד BC-50 GLASS BLACK לא מופיע בהם. דגם בעל דלת זכוכית מופיע בדף אחר תחת BC-50GS של מותג Gold Line, ולכן לא נמצא מקור שמאשר דלת זכוכית לדגם Luxor BC-50. | QA: Sources name Luxor BC-50 black only, not the GLASS variant. A glass-door model appears elsewhere as Gold Line BC-50GS. The glass-door Luxor unit could not be confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hacontainer.co.il/items/9068606-%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%99%D7%A0%D7%99-%D7%91%D7%A8-LUXOR-BC-50-%D7%A6%D7%91%D7%A2-%D7%A9%D7%97%D7%95%D7%A8",
+   "publisher": "HaContainer",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://hashmal-price.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%99%D7%A0%D7%99-%D7%91%D7%A8-luxor-%D7%93%D7%92%D7%9D-bc-50/",
+   "publisher": "Hashmal Price",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Source describes BC-50 mini bar, not the glass-door variant",
+     "label": "יצרן",
+     "value": "Luxor"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Not the GLASS variant",
+     "label": "דגם",
+     "value": "BC-50"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Different variant",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Solid-door BC-50 dimensions; contradict catalog",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "45.5 × 49 × 49 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Different variant",
+     "label": "נפח כללי",
+     "value": "51 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Different variant",
+     "label": "נפח נטו",
+     "value": "46 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Different variant",
+     "label": "תא אחסון",
+     "value": "45 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Freezer compartment points to the solid-door mini bar, not a vitrine",
+     "label": "תא הקפאה",
+     "value": "5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Different variant",
+     "label": "שיטת קירור",
+     "value": "מדחס"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Different variant",
+     "label": "טווח טמפרטורה",
+     "value": "0 עד 10 מעלות צלזיוס"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Different variant",
+   "text": "מקרר מיני בר משרדי, מתאים למשרדים קטנים, חדרי אירוח וחדרי עבודה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Different variant",
+   "text": "אפשרות לשנות את כיוון פתיחת הדלת, ימינה או שמאלה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Different variant",
+   "text": "בידוד כפול המונע איבוד טמפרטורה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Different variant",
+   "text": "מותאם לתנאי האקלים בישראל (תקן T)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Different variant",
+   "text": "גז קירור ידידותי לסביבה, ללא HCFC"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [],
+  "goodFor": [],
+  "considerations": [],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": []
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "50 ליטר",
+   "finding": "contradicted",
+   "correctValue": "51 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח נטו",
+   "catalogValue": "48 ליטר",
+   "finding": "contradicted",
+   "correctValue": "46 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "גובה 46 ס״מ, רוחב 48 ס״מ, עומק 50 ס״מ",
+   "finding": "contradicted",
+   "correctValue": "45.5 × 49 × 49 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F",
+   "finding": "contradicted",
+   "correctValue": "A",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "De-Frost (ידנית)",
+   "finding": "contradicted",
+   "correctValue": "DE FROST אוטומטי",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "מדחס (Compressor)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תרמוסטט",
+   "catalogValue": "0-10 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דלת זכוכית כפולה (וטרינה)",
+   "catalogValue": "דלת זכוכית כפולה (וטרינה) עם בידוד תרמי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורה פנימית LED",
+   "catalogValue": "תאורה פנימית LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גז",
+   "catalogValue": "R600a",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "17.5 ק״ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תא אחסון",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "45 ליטר",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקוד BC-50 GLASS BLACK לא מופיע בדפים שנבדקו. הדפים מזהים את הדגם כ-BC-50 של Luxor בצבע שחור. דגם בעל דלת זכוכית מופיע בדף נפרד תחת BC-50GS של מותג Gold Line, ויש לוודא מול היבואן איזה דגם נמכר בחנות.",
+   "severity": "high"
+  },
+  {
+   "field": "דלת זכוכית",
+   "issue": "הקטלוג מציין דלת זכוכית כפולה (וטרינה), אך דפי ה-BC-50 של Luxor שנבדקו לא מזכירים דלת זכוכית. תיאור הדלת הכפולה מופיע רק בדף של BC-50GS של Gold Line.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג (48 × 46 × 50 ס״מ) שונות מהמידות בדף השמל-פרייס (45.5 × 49 × 49 ס״מ). יש למדוד את המוצר או לאמת מול היבואן לפני שמפרסמים.",
+   "severity": "high"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין דירוג F, ואילו דף הקונטיינר מציין דירוג אנרגטי A לאותו דגם.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח",
+   "issue": "הקטלוג מציין נפח כולל 50 ליטר ונטו 48 ליטר, ואילו דף השמל-פרייס מציין 51 ליטר כולל ו-46 ליטר נטו.",
+   "severity": "medium"
+  },
+  {
+   "field": "שיטת הפשרה",
+   "issue": "הקטלוג מציין הפשרה ידנית, ואילו דף השמל-פרייס מציין DE FROST אוטומטי.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן ומקורות",
+   "issue": "היבואן הרשמי לפי דף הקונטיינר הוא א.ח.י דיגיטל. לא נמצא עמוד יצרן או יבואן עבור הדגם, והעובדות מבוססות על דפי קמעונאים בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "המקורות מתארים את Luxor BC-50 בצבע שחור ללא דלת זכוכית ועם תא הקפאה, ואילו הקטלוג מתאר מקרר ויטרינה עם דלת זכוכית. יש לוודא מול היבואן איזה דגם נמכר בפועל.",
+   "severity": "high"
+  },
+  {
+   "field": "דלת זכוכית",
+   "issue": "לא נמצא מקור שמאשר דלת זכוכית לדגם Luxor BC-50. דגם עם דלת זכוכית מופיע בשם BC-50GS של Gold Line.",
+   "severity": "high"
+  },
+  {
+   "field": "מפרט",
+   "issue": "נפח, מידות, דירוג אנרגטי ושיטת הפשרה בקטלוג שונים מהמופיע בדפי הקמעונאים של BC-50. יש לאמת מול היבואן או מדבקת המוצר.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "fail",
+  "notes": "The catalog item is a glass-door display (vitrine) mini fridge, BC-50 GLASS BLACK. Both sources describe the Luxor BC-50 black mini bar with no mention of a glass door, and they list a 5 L freezer compartment, which a glass-door vitrine usually does not have. Capacity, dimensions, energy rating and defrost method also differ from the catalog. The sources appear to describe the solid-door sibling, so identity is low and every fact is rejected."
+ }
+}

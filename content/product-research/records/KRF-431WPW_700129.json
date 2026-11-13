@@ -1,0 +1,403 @@
+{
+ "modelNumber": "KRF-431WPW (700129)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Konka",
+  "exactModel": "KRF-431WPW",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "דף אבי סופר (קמעונאי ישראלי) מציג את הדגם בשם KONKA KRF-431WPW ומציין יבואן רשמי ואחריות לשנה דרך המילטון. לא נמצאה הוראת שימוש או כרטיס אנרגטי EPREL לדגם הזה. דף הום סנטר לא נטען (HTTP 429). | QA: דף קמעונאי ישראלי (אבי סופר) מציג את KONKA KRF-431WPW לבן, 4 דלתות, 427 ליטר, תואם לשם הקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מקרר-מקפיא-תחתון-4-דלתות-קונקה-krf-431wpw-לבן/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל נטו",
+     "value": "427 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "141 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "286 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "83 × 183.4 × 67 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סיווג אקלים",
+     "value": "Class T (מותאם לאקלים הישראלי)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E (לפי הדירוג האירופאי)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית לבנה"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צג טמפרטורה",
+     "value": "דיגיטלי קדמי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, דרך היבואן הרשמי המילטון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקרר 4 דלתות בגימור זכוכית לבנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "6 תאי הקפאה נפרדים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר Konka KRF-431WPW עם 4 דלתות ומקפיא תחתון, בגימור זכוכית לבנה ובנפח כולל של 427 ליטר נטו. תא הקירור בנפח 286 ליטר ותא ההקפאה בנפח 141 ליטר, עם 6 תאי הקפאה נפרדים ומערכת No Frost. סיווג אקלים Class T מותאם לאקלים הישראלי, ומתאים למי שמחפש מקרר משפחתי עם הרבה מקום הקפאה.",
+  "highlights": [
+   "נפח כולל 427 ליטר נטו",
+   "תא הקפאה 141 ליטר עם 6 תאים נפרדים",
+   "מערכת No Frost",
+   "סיווג אקלים Class T מותאם לאקלים הישראלי",
+   "צג טמפרטורה דיגיטלי קדמי"
+  ],
+  "goodFor": [
+   "משפחה שמקפיאה כמויות ורוצה תא הקפאה של 141 ליטר",
+   "מי שרוצה לסדר מזון קפוא לפי סוגים ב-6 תאים נפרדים",
+   "מטבח שמתאים לו מקרר בגימור זכוכית לבנה",
+   "מי שמעדיף לא להפשיר קרח ידנית בזכות No Frost"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה: המקרר ברוחב 83 ס״מ, בגובה 183.4 ס״מ ובעומק 67 ס״מ",
+   "דירוג האנרגיה הוא E לפי הדירוג האירופאי",
+   "האחריות היא לשנה דרך היבואן הרשמי המילטון"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "427 ליטר נטו: 286 ליטר בתא הקירור ו-141 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 83 ס״מ, גובה 183.4 ס״מ ועומק 67 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר מתאים לאקלים בישראל?",
+    "a": "כן, סיווג האקלים שלו הוא Class T, המותאם לאקלים הישראלי.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות?",
+    "a": "אחריות לשנה דרך היבואן הרשמי המילטון.",
+    "sources": []
+   },
+   {
+    "q": "כמה תאי הקפאה יש?",
+    "a": "יש 6 תאי הקפאה נפרדים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר 4 דלתות Konka KRF-431WPW בזכוכית לבנה, 427 ליטר נטו, No Frost ו-6 תאי הקפאה. ייעוץ והזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר קונקה 4 דלתות",
+   "Konka KRF-431WPW",
+   "KRF-431WPW",
+   "מקרר 427 ליטר",
+   "מקרר זכוכית לבנה",
+   "מקרר מקפיא תחתון 4 דלתות",
+   "מקרר No Frost קונקה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל נטו",
+   "catalogValue": "427 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "286 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "141 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (לפי תקן אירופאי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סיווג אקלים",
+   "catalogValue": "Class T (מתאים לאקלים הישראלי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (גובה)",
+   "catalogValue": "183.4 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב)",
+   "catalogValue": "83 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (עומק)",
+   "catalogValue": "67 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "זכוכית לבנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת בקרה",
+   "catalogValue": "דיגיטלית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורת LED פנימית",
+   "catalogValue": "תאורת LED פנימית רחבה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדפי זכוכית מחוסמת",
+   "catalogValue": "מדפי זכוכית מחוסמת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מגירות בקבוקים בדלתות",
+   "catalogValue": "מגירות בקבוקים בדלתות המקרר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ידיות מוסתרות",
+   "catalogValue": "ידיות מוסתרות לעיצוב נקי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רגליות מתכווננות",
+   "catalogValue": "רגליות מתכווננות לייצוב",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פעולה שקטה",
+   "catalogValue": "פעולה שקטה במיוחד",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מדינת ייצור",
+   "issue": "הקטלוג מציין סין. בדף הקמעונאי שנבדק לא מופיעה מדינת ייצור. תוצאת חיפוש אחת הזכירה אנגליה; לא נבדק בעמוד מקור.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח כולל נטו",
+   "issue": "תוצאת חיפוש לדף הום סנטר (שלא נטען) הזכירה 426 ליטר במקום 427. דף אבי סופר מציין 427 ליטר נטו, ולכן נשאר 427.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "בתוצאות החיפוש הופיע דגם דומה KRF-431WPB עם גימור זכוכית שחורה. לא נבדק בעמוד מקור. לוודא שהדגם הנמכר הוא WPW (לבן).",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן המילטון מצוין בדף הקמעונאי אבל לא נבדק בדף היבואן או במדריך. לא נמצא מדריך או כרטיס EPREL לדגם הזה.",
+   "severity": "low"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "הקטלוג מציין סין; לא אומת במקור.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "קיים דגם דומה KRF-431WPB בזכוכית שחורה; לוודא שהיחידה הנמכרת היא WPW לבנה.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל העובדות מבוססות על דף קמעונאי ישראלי יחיד; לא נמצא דף יצרן, מדריך או EPREL.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים מדף אבי סופר שמציין את הדגם המדויק KRF-431WPW."
+ }
+}

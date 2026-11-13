@@ -1,0 +1,491 @@
+{
+ "modelNumber": "WW80FG5L32AB",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW80FG5L32AB",
+  "israeliImporter": "ניופרו (Newpro)",
+  "matchConfidence": "high",
+  "notes": "Two Israeli retailer pages name this exact model and the official importer. No Samsung Israel product page, manual or EU energy label for this exact suffix was reached. Net weight not found. | QA: Two Israeli retailer pages list the exact model WW80FG5L32AB with 8 kg and 1200 rpm, matching the catalog name. No Samsung Israel page reached."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://zabilo.com/en/front-loading-washing-machines/13728-ww80fg5l32ab.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/מכונת-כביסה-פתח-חזית-סמסונג-⁦ww80fg5l32ab⁩-2/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Samsung"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "ניופרו (Newpro)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מקסימלית",
+     "value": "1200 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "Digital Inverter"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Depth 47 cm is slim for 8 kg; worth confirming against the importer.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 47 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "48 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "14"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית Super Speed",
+     "value": "39 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית מהירה",
+     "value": "15 דקות"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הגנה מפני נחשולי מתח וברקים",
+     "value": "מובנית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילת ילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר פתח טעינה",
+     "value": "33 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote supports downloading extra programs via SmartThings.",
+     "label": "אפליקציה",
+     "value": "SmartThings – הורדת תוכניות נוספות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Trimmed claim about extending garment life.",
+   "text": "טכנולוגיית AI Eco Bubble לשמירה על איכות הכביסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Hygiene Steam לחיטוי באדים מפני חיידקים ואלרגנים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Dropped 'boiler', a mistranslation.",
+   "text": "תוכנית Drum Clean לניקוי התוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום קרמי להפחתת הצטברות אבנית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed warranty claim not in the quote.",
+   "text": "ניתן להתקין בעצמכם, אך יש לפנות לשירות ההתקנה לפני פתיחת האריזה"
+  }
+ ],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של Samsung, דגם WW80FG5L32AB, בקיבולת 8 ק״ג עם סחיטה עד 1200 סל״ד ומנוע Digital Inverter. המידות 60 × 85 × 47 ס״מ, דירוג אנרגטי A ו-14 תוכניות, כולל תוכנית מהירה של 15 דקות ותוכנית Hygiene Steam. מתאימה למי שמחפש מכונה בעומק רדוד עם תוכניות מהירות וחיטוי באדים.",
+  "highlights": [
+   "קיבולת 8 ק״ג וסחיטה עד 1200 סל״ד",
+   "עומק 47 ס״מ – מידות 60 × 85 × 47 ס״מ",
+   "דירוג אנרגטי A וצריכת מים של 48 ליטר למחזור",
+   "תוכנית Super Speed של 39 דקות ותוכנית מהירה של 15 דקות",
+   "תוכנית Hygiene Steam לחיטוי באדים"
+  ],
+  "goodFor": [
+   "מקום צר או נישה רדודה, בזכות עומק של 47 ס״מ",
+   "מי שצריך כביסה מהירה – תוכנית של 15 דקות ו-Super Speed של 39 דקות",
+   "בתים עם ילדים, בזכות נעילת ילדים ותוכנית חיטוי באדים",
+   "אזורים עם מים קשים, בזכות גוף חימום קרמי להפחתת אבנית"
+  ],
+  "considerations": [
+   "מדדו את הנישה: נדרשים רוחב 60 ס״מ, גובה 85 ס״מ ועומק 47 ס״מ, ועוד מרווח לצנרת ולפתיחת הדלת",
+   "יש לפנות לשירות ההתקנה לפני פתיחת האריזה",
+   "ודאו שקע חשמל מוארק וברז וניקוז זמינים בקרבת המכונה",
+   "לשימוש בתוכניות נוספות דרך SmartThings נדרש טלפון חכם עם האפליקציה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת ומהירות הסחיטה?",
+    "a": "קיבולת 8 ק״ג וסחיטה מקסימלית של 1200 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכונה?",
+    "a": "רוחב 60 ס״מ, גובה 85 ס״מ ועומק 47 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "יש תוכנית כביסה מהירה?",
+    "a": "כן, תוכנית מהירה של 15 דקות ותוכנית Super Speed של 39 דקות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין לבד?",
+    "a": "אפשר, אך יש לפנות לשירות ההתקנה לפני פתיחת האריזה.",
+    "sources": []
+   },
+   {
+    "q": "מי היבואן בישראל?",
+    "a": "ניופרו (Newpro).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Samsung WW80FG5L32AB פתח חזית, 8 ק״ג, סחיטה 1200 סל״ד ועומק 47 ס״מ עם מנוע Digital Inverter. בחדד אלקטריק נהריה",
+  "keywords": [
+   "WW80FG5L32AB",
+   "מכונת כביסה סמסונג 8 קג",
+   "מכונת כביסה סמסונג WW80FG5L32AB",
+   "מכונת כביסה צרה עומק 47",
+   "מכונת כביסה 1200 סלד",
+   "מכונת כביסה פתח חזית סמסונג",
+   "סמסונג Digital Inverter מכונת כביסה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "catalogValue": "1200 סל\"ד",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "Digital Inverter (אינוורטר דיגיטלי)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס\"מ, גובה 85 ס\"מ, עומק 47 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צריכת מים למחזור",
+   "catalogValue": "כ-48 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LED דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "Bespoke AI",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכנית Hygiene Steam",
+   "catalogValue": "חיטוי באדים והסרת 99.9% מהבקטריות והאלרגנים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכנית Super Speed",
+   "catalogValue": "39 דקות",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "תוכנית מהירה",
+   "catalogValue": "15 דקות",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "Drum Clean+",
+   "catalogValue": "Drum Clean+",
+   "finding": "corrected",
+   "correctValue": "Drum Clean",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SmartThings",
+   "catalogValue": "תמיכה באפליקציית SmartThings",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום קרמי",
+   "catalogValue": "גוף חימום קרמי להפחתת הצטברות אבנית",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מגן נחשולי מתח וברקים",
+   "catalogValue": "מגן נחשולי מתח וברקים מובנה",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "תוף Diamond Drum",
+   "catalogValue": "תוף Diamond Drum",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "14 תוכניות",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "יבואן רשמי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "ניופרו (Newpro)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "weight",
+   "issue": "No page with the net weight of this exact model was found, so no weight fact is published.",
+   "severity": "low"
+  },
+  {
+   "field": "תוכנית Hygiene Steam",
+   "issue": "The catalog claims 99.9% bacteria and allergen removal. No fetched page states that figure, so it is not published.",
+   "severity": "low"
+  },
+  {
+   "field": "מדינת מקור",
+   "issue": "The catalog says China. No fetched page confirmed the origin country.",
+   "severity": "low"
+  },
+  {
+   "field": "model_suffix",
+   "issue": "Sibling suffixes such as WW80FG5L32ABSH and WW80FG5L32ABGK exist in other markets. The Israeli retailers list this exact suffix, but a Samsung Israel page was not reached to confirm it.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Depth 47 cm comes from one Israeli retailer page only; confirm against the importer or Samsung Israel before relying on it for niche fitting.",
+   "severity": "low"
+  },
+  {
+   "field": "model_suffix",
+   "issue": "No Samsung Israel page was reached to confirm the exact Israeli suffix; sibling suffixes exist abroad.",
+   "severity": "low"
+  },
+  {
+   "field": "catalog",
+   "issue": "Catalog claims 99.9% bacteria removal, Bespoke AI control panel, LED display and origin China; none were confirmed by a source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts rest on two Israeli retailer pages naming the exact model. Reworded the Drum Clean feature (quote says drum and 'boiler', a translation of the tub) and the installation note to match the quote. SmartThings fact relabelled to downloading extra programs via the app, as the quote says."
+ }
+}

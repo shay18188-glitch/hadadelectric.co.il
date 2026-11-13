@@ -1,0 +1,282 @@
+{
+ "modelNumber": "NARA3",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Aiwa",
+  "exactModel": "NARA3",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצא עמוד קמעונאי ישראלי אחד (Sbitany, בערבית) לדגם NARA3. הוא סותר את הקטלוג: הספק 50W ולא 60W, סוללה 1800mAh ולא 4400mAh, IPX5 ולא IPX6, והמידות שונות. לא נמצא עמוד יצרן או יבואן. | QA: The retailer page names Aiwa NARA3, but almost every spec differs from the catalog (50W vs 60W, 1800mAh vs 4400mAh, IPX5 vs IPX6, very different dimensions). It is unclear whether the catalog describes a different variant or has wrong specs. No manufacturer or importer page was found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sbitany.com/index.php?route=product/product&product_id=50727",
+   "publisher": "Sbitany",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "50 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג מגבר",
+     "value": "Class D"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טווח תדרים",
+     "value": "60 הרץ – 20 קילו-הרץ"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Matches catalog.",
+     "label": "גרסת Bluetooth",
+     "value": "5.0"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן הפעלה",
+     "value": "עד 5 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוללה",
+     "value": "11.1 וולט, 1800mAh"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עמידות למים",
+     "value": "IPX5"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote gives no axis order, so the W×H×D label was dropped.",
+     "label": "מידות",
+     "value": "18.2 × 24.5 × 16.6 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית TWS לחיבור אלחוטי של שני רמקולים לסטריאו"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת Bass Reflex לחיזוק הבס"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש רמקול נייד לבית, לחצר או למפגשים, עם אפשרות לחבר שני רמקולים לסטריאו.",
+  "highlights": [
+   "TWS לחיבור שני רמקולים לסטריאו"
+  ],
+  "goodFor": [
+   "מי שרוצה סאונד סטריאו עם שני רמקולים מאותו דגם בחיבור TWS"
+  ],
+  "considerations": [
+   "לחיבור סטריאו TWS צריך רמקול שני מאותו דגם"
+  ],
+  "faq": [
+   {
+    "q": "אפשר לחבר שני רמקולים יחד?",
+    "a": "כן, טכנולוגיית TWS מאפשרת לחבר שני רמקולים לסטריאו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Aiwa NARA3",
+   "רמקול Aiwa",
+   "רמקול בלוטוס נייד",
+   "רמקול נייד עמיד למים",
+   "רמקול TWS",
+   "רמקול Bluetooth 50W",
+   "רמקול נייד לחצר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "60W RMS",
+   "finding": "corrected",
+   "correctValue": "50 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גרסת Bluetooth",
+   "catalogValue": "5.0",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "4400mAh ליתיום",
+   "finding": "corrected",
+   "correctValue": "11.1 וולט 1800mAh",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 8-10 שעות",
+   "finding": "corrected",
+   "correctValue": "עד 5 שעות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח תדרים",
+   "catalogValue": "80Hz-15kHz",
+   "finding": "corrected",
+   "correctValue": "60 הרץ – 20 קילו-הרץ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תקן עמידות למים",
+   "catalogValue": "IPX6",
+   "finding": "corrected",
+   "correctValue": "IPX5",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "366x143x188 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "18.2 × 24.5 × 16.6 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-4 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יחס אות לרעש",
+   "catalogValue": "≥80dB",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "specs",
+   "issue": "הקטלוג סותר את עמוד הקמעונאי: 60W מול 50W, 4400mAh מול 1800mAh, IPX6 מול IPX5, מידות שונות. יש לבדוק מול היבואן או המוצר.",
+   "severity": "high"
+  },
+  {
+   "field": "source",
+   "issue": "מקור יחיד: קמעונאי ישראלי בערבית. לא נמצא עמוד יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "specs",
+   "issue": "הקטלוג סותר את עמוד הקמעונאי כמעט בכל נתון: הספק 60W מול 50W, סוללה 4400mAh מול 1800mAh, זמן עבודה 8-10 שעות מול 5 שעות, IPX6 מול IPX5, טווח תדרים ומידות שונים. יש לוודא מול המוצר או היבואן איזו גרסה נמכרת.",
+   "severity": "high"
+  },
+  {
+   "field": "source",
+   "issue": "מקור יחיד: Sbitany, קמעונאי פלסטיני (לא ישראלי) בערבית. לא נמצא עמוד יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "לא ברור אם נתוני הקטלוג מתארים גרסה אחרת של NARA3 או שהם שגויים.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only source is Sbitany, a Palestinian (Ramallah) retailer page in Arabic, not an Israeli shop, so its kind is corrected from il-retailer to retailer. Dimensions label changed to plain 'מידות' because the quote does not state the axis order. All quotes are ok and on a page naming NARA3, but they contradict the catalog on power, battery, runtime, frequency range, IP rating and dimensions. | code guard removed: summary: \"Aiwa NARA3 הוא רמקול Bluetooth נייד עם הספק כולל של 50 W ומגבר Class D.\"; summary: \"הוא מתחבר ב-Bluetooth 5.0, עמיד לרסס מים בתקן IPX5 ומציע זמן הפעלה של עד 5 שעות.\"; faq: \"מה ההספק של Aiwa NARA3?\"; faq: \"כמה זמן הרמקול עובד על סוללה?\"; faq: \"האם הרמקול עמיד למים?\"; metaDescription: \"רמקול Bluetooth נייד Aiwa NARA3 בהספק 50 W, עמידות לרסס מים IPX5 ו-Bluetooth 5.0 עם חיבור TWS לסטריאו. בחדד אלקטריק נהריה\"; highlight: \"הספק כולל 50 W עם מגבר Class D\"; highlight: \"Bluetooth 5.0\"; highlight: \"עמידות לרסס מים בתקן IPX5\"; highlight: \"זמן הפעלה של עד 5 שעות\"; goodFor: \"מפגשים בחצר או במרפסת, בזכות עמידות IPX5 לרסס מים\"; goodFor: \"השמעת מוזיקה מהטלפון באופן אלחוטי ב-Bluetooth 5.0\"; consideration: \"זמן ההפעלה הוא עד 5 שעות, כדאי לתכנן טעינה לפני אירוע ארוך\"; consideration: \"IPX5 מגן מפני רסס מים ולא מתאים לטבילה\"; consideration: \"כדאי לבדוק את המידות 18.2 × 24.5 × 16.6 ס״מ מול מקום האחסון או הנשיאה\""
+ }
+}

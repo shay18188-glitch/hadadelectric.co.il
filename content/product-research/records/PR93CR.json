@@ -1,0 +1,332 @@
+{
+ "modelNumber": "PR93CR",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PR93CR",
+  "israeliImporter": "אס.ג'י. אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "דף טרקלין נושא את הדגם PR-93CR. דף באג מציג PR-93 קרם עם אותו ברקוד. מידות העומק סותרות בין שני הדפים (49.5 מול 53.5 ס״מ) ולכן לא נרשמו. | QA: Traklin names PR-93CR in cream; Bug lists PR-93 cream with the same barcode and importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקררים/מקרר_משרדי_רטרו_86_ליטר_premier_דגם_pr-93cr_קרם",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מקרר-משרדי-בעיצוב-רטרו-86-ליטר-premier-9576986666",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "86 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says E; quote says F per European standard.",
+     "label": "דירוג אנרגטי (לפי התקן האירופי)",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "19 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "45 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "82.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "קרם (פנים לבן)"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Marketing claim, not a measurable spec.",
+     "label": "מדחס",
+     "value": "שקט במיוחד"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, באמצעות אס.ג'י. אלקטרוניקה"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ברקוד (EAN)",
+     "value": "7290116082387"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שני מדפי זכוכית ומגירה לפירות וירקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא קירור פנימי ייעודי למוצרים הדורשים טמפרטורה נמוכה יותר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית פתיחה חיצונית בעיצוב רטרו"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Premier PR93CR הוא מקרר משרדי קטן בעיצוב רטרו בצבע קרם, בנפח 86 ליטר. מידותיו 82.5 ס״מ גובה ו-45 ס״מ רוחב, והוא שוקל 19 ק״ג. בפנים שני מדפי זכוכית, מגירה לפירות וירקות ותא קירור פנימי, והוא מתאים למשרד, לחדר שינה או כמקרר נוסף.",
+  "highlights": [
+   "נפח 86 ליטר",
+   "עיצוב רטרו בצבע קרם עם ידית חיצונית",
+   "שני מדפי זכוכית ומגירה לפירות וירקות",
+   "תא קירור פנימי ייעודי",
+   "אחריות לשנה באמצעות אס.ג'י. אלקטרוניקה"
+  ],
+  "goodFor": [
+   "מטבחון במשרד או בחדר ישיבות",
+   "חדר שינה, חדר נוער או יחידת דיור קטנה",
+   "מקרר נוסף לשתייה ולמזון בבית",
+   "מי שמחפש מקרר קטן שמשתלב בעיצוב רטרו"
+  ],
+  "considerations": [
+   "מדדו את המקום: גובה 82.5 ס״מ ורוחב 45 ס״מ, ובדקו את העומק מול המכשיר עצמו",
+   "דירוג האנרגיה הוא F לפי התקן האירופי",
+   "ודאו שקיים שקע חשמל זמין בקרבת מקום המקרר"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "86 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של Premier PR93CR?",
+    "a": "גובה 82.5 ס״מ ורוחב 45 ס״מ. משקל המקרר 19 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "יש במקרר תא קירור?",
+    "a": "כן, יש תא קירור פנימי ייעודי למוצרים הדורשים טמפרטורה נמוכה יותר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "אחריות לשנה באמצעות אס.ג'י. אלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר משרדי רטרו Premier PR93CR בצבע קרם: נפח 86 ליטר, שני מדפי זכוכית ותא קירור פנימי. מידות 82.5×45 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר משרדי רטרו",
+   "Premier PR93CR",
+   "PR-93CR",
+   "מקרר רטרו קרם",
+   "מקרר קטן 86 ליטר",
+   "מקרר משרדי פרמייר",
+   "מקרר לחדר שינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "93 ליטר ברוטו / 84 נטו",
+   "finding": "corrected",
+   "correctValue": "86 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "corrected",
+   "correctValue": "F",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "83.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "82.5 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "44.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "45 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "48.3 ס\"מ",
+   "finding": "contradicted",
+   "sources": []
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "הפשרה ידנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "41 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "עומק סותר בין מקורות (49.5 / 53.5 ס״מ) ומהקטלוג (48.3). יש לבדוק מול המכשיר.",
+   "severity": "medium"
+  },
+  {
+   "field": "capacity",
+   "issue": "שם המוצר בקטלוג מציין 84 ליטר, הקמעונאים מציינים 86 ליטר.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא דף יצרן; דף באג מציג PR-93 קרם בלי הסיומת CR, מאותו ברקוד.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "שם הקטלוג מציין 84 ליטר, ושני הקמעונאים מציינים 86 ליטר.",
+   "severity": "high"
+  },
+  {
+   "field": "energy",
+   "issue": "הקטלוג מציין דירוג E, ודף טרקלין מציין F לפי התקן האירופי.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "העומק סותר בין המקורות (49.5 / 53.5 ס״מ) לבין הקטלוג (48.3 ס״מ). גם הגובה והרוחב בקטלוג שונים מהמקור.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא דף יצרן. דף באג מציג PR-93 קרם בלי הסיומת CR, עם אותו ברקוד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 6 (quiet compressor): marketing wording with no measurable value. Energy rating relabelled to note the European standard as quoted. Capacity 86 L and dimensions from the Traklin page contradict the catalog (84 L, 83.5×44.5 cm); depth left out because sources disagree."
+ }
+}

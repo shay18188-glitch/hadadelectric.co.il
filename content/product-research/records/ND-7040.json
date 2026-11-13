@@ -1,0 +1,299 @@
+{
+ "modelNumber": "ND-7040",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND-7040",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "רק מקור אחד נמצא: דף חיפוש Zap ובו מודל בשם ND7040 (ללא מקף) של מכונת כביסה פתח חזית 7 ק״ג, מוצע על ידי חשמל חכם. לא נמצא דף יצרן או יבואן שמזכיר את הדגם. חיפוש באתר Normande Israel לא החזיר תוצאה עבור הדגם. | QA: Zap lists Normande ND7040, 7 kg front-load washer at 1000 rpm, matching the catalog name; hyphen difference only. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/search.aspx?keyword=ND-7040",
+   "publisher": "Zap השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/search.aspx?keyword=ND7040",
+   "publisher": "Zap השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Normande"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "7 ק״ג"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תוף",
+     "value": "39 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מהירות סחיטה",
+     "value": "עד 1000 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog says LED digital display; wording from Zap listing.",
+     "label": "הפעלה",
+     "value": "פאנל מגע בעברית מלאה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פתח טעינה קדמי"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Not in catalog text; verify.",
+   "text": "מנוע אינוורטר חסכוני ושקט"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תוכנית לילה להפעלה שקטה בשעות הלילה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה למי שמחפש מכונה בגודל בינוני עם הפעלה פשוטה בעברית.",
+  "highlights": [
+   "פאנל מגע בעברית מלאה",
+   "מנוע אינוורטר חסכוני ושקט",
+   "תוכנית לילה להפעלה שקטה"
+  ],
+  "goodFor": [
+   "משקי בית שמכבסים כמויות בינוניות של כביסה",
+   "מי שמעדיף להפעיל את המכונה בעברית",
+   "כביסה בשעות הערב והלילה בזכות תוכנית הלילה השקטה"
+  ],
+  "considerations": [
+   "יש למדוד את מקום ההתקנה ולוודא מרווח לפתיחת הדלת הקדמית",
+   "כדאי לוודא שקע חשמל מוארק וברז מים קרוב למקום ההצבה",
+   "ניקוז: יש לוודא נקודת ניקוז מתאימה לצינור המכונה"
+  ],
+  "faq": [
+   {
+    "q": "האם הפאנל בעברית?",
+    "a": "כן, ההפעלה היא דרך פאנל מגע בעברית מלאה.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לכבס בלילה בשקט?",
+    "a": "במכונה יש תוכנית לילה להפעלה שקטה ומנוע אינוורטר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Normande ND-7040",
+   "ND7040",
+   "מכונת כביסה נורמנדה",
+   "מכונת כביסה 7 ק\"ג",
+   "מכונת כביסה פתח קדמי",
+   "מכונת כביסה 1000 סל\"ד",
+   "מכונת כביסה אינוורטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה",
+   "catalogValue": "1000 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות כביסה",
+   "catalogValue": "15 תוכניות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "LED דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "גובה 85 ס\"מ, רוחב 60 ס\"מ, עומק 41 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוף",
+   "catalogValue": "עשוי נירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "טורקיה (יוצר על ידי Vestel)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח תוף",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "39 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מנוע אינוורטר",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "מספר הדגם בקטלוג הוא ND-7040, ובדף המקור הופיע רק בשם ND7040 (ללא מקף). הנתונים נשענים על התאמה לקוד הקרוב הזה, ולא על דף שמזכיר את ND-7040 במדויק.",
+   "severity": "high"
+  },
+  {
+   "field": "מקורות",
+   "issue": "נמצא מקור אחד בלבד (דף השוואת מחירים Zap, מוצר שמוצע על ידי חשמל חכם). אין דף יצרן, יבואן או מדריך שמאשר את הנתונים, ולכן עובדות אלה לא יפורסמו לבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם מוצר",
+   "issue": "הנתונים שנמצאו מתאימים לשם הקטלוג (7 ק״ג, פתח קדמי, 1000 סל״ד), אך מידות, דירוג אנרגטי, מספר תוכניות וצבע לא אומתו.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "המקור מציג ND7040 ללא מקף; ההתאמה לדגם ND-7040 סבירה אך לא אומתה בדף יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "המקור היחיד הוא דף חיפוש ב-Zap, ללא דף יצרן, יבואן או חנות ישראלית.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הקטלוג מציין תצוגת LED דיגיטלית, והמקור מתאר פאנל מגע; גם מנוע אינוורטר אינו מופיע בקטלוג. יש לבדוק מול המוצר.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only source is a Zap price-comparison search page (both URLs are the same search, with and without hyphen); kept as kind 'other', not il-retailer. Model on page is ND7040 without hyphen, treated as the same SKU at medium confidence. Panel label reworded to 'הפעלה'. Inverter motor and touch panel are not in the catalog text and need checking. | code guard removed: summary: \"מכונת כביסה Normande ND-7040 בפתח קדמי, בקיבולת 7 ק״ג ונפח תוף של 39 ליטר.\"; summary: \"המכונה סוחטת עד 1000 סל״ד, מופעלת דרך פאנל מגע בעברית מלאה וכוללת מנוע אינוורטר ותוכנית לילה שקטה.\"; faq: \"מה הקיבולת של Normande ND-7040?\"; faq: \"מה מהירות הסחיטה?\"; metaDescription: \"מכונת כביסה Normande ND-7040 פתח קדמי, קיבולת 7 ק״ג וסחיטה עד 1000 סל״ד, פאנל מגע בעברית ומנוע אינוורטר. בחדד אלקטריק נהריה\"; highlight: \"קיבולת כביסה 7 ק״ג\"; highlight: \"סחיטה עד 1000 סל״ד\""
+ }
+}

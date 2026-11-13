@@ -1,0 +1,411 @@
+{
+ "modelNumber": "DPA144",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Moulinex",
+  "exactModel": "DPA144",
+  "israeliImporter": "ניופאן",
+  "matchConfidence": "high",
+  "notes": "מוכר גם בשם La Moulinette / Multi Moulinette. נפח המיכל אינו עקבי בין המקורות: 500 מ״ל באתר היצרן ובאבי סופר, לעומת 330 גרם / 0.3 ליטר באתר באג. | QA: Moulinex DPA144 (La Moulinette / Multi Moulinette) named on manufacturer and Israeli retailer pages. Importer named only on one retailer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.moulinex-me.com/en/Choppers--Shredders/MULTI-MOULINETTE-DPA144/p/1510001698",
+   "publisher": "Moulinex Middle East",
+   "kind": "manufacturer",
+   "market": "ME",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/קוצץ-מזון-חשמלי-רב-תכליתי-4-ב-1-moulinex-88002402dpa144",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/מוצרים/קוצץ-מזון-חשמלי-מולינקס-dpa144/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.tefal.sa/en/moulinex-la-moulinette-dpa144-4in1-1000w-powelix.html",
+   "publisher": "Tefal Saudi Arabia (Moulinex)",
+   "kind": "manufacturer",
+   "market": "SA",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%97%D7%A9%D7%9E%D7%9C_%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%9E%D7%A2%D7%91%D7%93%D7%99_%D7%9E%D7%96%D7%95%D7%9F_%D7%91%D7%9C%D7%A0%D7%93%D7%A8%D7%99%D7%9D_%D7%95%D7%A7%D7%95%D7%A6%D7%A6%D7%99_%D7%99%D7%A8%D7%A7%D7%95%D7%AA/%D7%A7%D7%95%D7%A6%D7%A5_%D7%99%D7%A8%D7%A7%D7%95%D7%AA_moulinex_%D7%93%D7%92%D7%9D_dpa144_%D7%9E%D7%95%D7%9C%D7%99%D7%A0%D7%A7%D7%A1",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "להבים",
+     "value": "פלדת אל חלד (נירוסטה)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer 500 ml and Avi Sofer 0.5L agree",
+     "label": "נפח מיכל",
+     "value": "0.5 ליטר"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 1",
+     "label": "נפח מיכל קיצוץ",
+     "value": "0.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli retailer; Saudi site differs (other market)",
+     "label": "תקופת אחריות",
+     "value": "שנה אחת"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "צרפת"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "17 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "23.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "2.42 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית להבי Powelix"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה פשוטה בשיטת 1-2-3"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Fixed wording to match quote",
+   "text": "ארבע פונקציות במכשיר אחד: טחינה, קיצוץ, גריסה וערבוב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת הגנה מובנית על המנוע מפני התחממות יתר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of fact 7",
+   "text": "להבי חיתוך מפלדת אל חלד (נירוסטה)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Reworded to what the quote says",
+   "text": "מאפשר צפייה ישירה בהכנה במהלך הקיצוץ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Disputed: Tefal SA reportedly says not dishwasher safe",
+   "text": "מיכל ניתן לשטיפה במדיח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קוצץ מזון חשמלי של Moulinex מסדרת La Moulinette, דגם DPA144. מנוע בהספק 1000 W ומיכל בנפח 0.5 ליטר עם להבי Powelix מנירוסטה, וארבע פונקציות: טחינה, קיצוץ, גריסה וערבוב. מתאים למי שמכין במטבח בצל, עשבי תיבול, בשר טחון או אגוזים בכמויות ביתיות ומחפש מכשיר קומפקטי.",
+  "highlights": [
+   "מנוע בהספק 1000 W",
+   "מיכל בנפח 0.5 ליטר",
+   "להבי Powelix מפלדת אל חלד",
+   "הפעלה פשוטה בשיטת 1-2-3",
+   "הגנה מובנית על המנוע מפני התחממות יתר"
+  ],
+  "goodFor": [
+   "קיצוץ וטחינה מהירים של ירקות, עשבי תיבול ובשר במטבח הביתי",
+   "מטבח עם משטח עבודה מצומצם, בזכות מידות קומפקטיות",
+   "מי שרוצה מכשיר אחד לטחינה, קיצוץ, גריסה וערבוב"
+  ],
+  "considerations": [
+   "נפח המיכל 0.5 ליטר – מתאים לכמויות קטנות עד בינוניות ולא לעיבוד כמויות גדולות בבת אחת",
+   "בדקו מקום אחסון: רוחב 17 ס״מ וגובה 23.7 ס״מ",
+   "לפני שטיפה במדיח כדאי לבדוק את הוראות היצרן בחוברת המוצר",
+   "האחריות לפי המשווק בישראל – שנה אחת"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של קוצץ Moulinex DPA144?",
+    "a": "הקוצץ מגיע עם מנוע בהספק 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח המיכל?",
+    "a": "נפח המיכל הוא 0.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מאיזה חומר עשויים הלהבים?",
+    "a": "הלהבים עשויים מפלדת אל חלד (נירוסטה) ומבוססים על טכנולוגיית Powelix.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות ומשקל המכשיר?",
+    "a": "רוחב 17 ס״מ, גובה 23.7 ס״מ ומשקל 2.42 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "איפה מיוצר הקוצץ?",
+    "a": "ארץ הייצור היא צרפת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קוצץ מזון חשמלי Moulinex DPA144 מסדרת La Moulinette: מנוע 1000 W, מיכל 0.5 ליטר ולהבי Powelix מנירוסטה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קוצץ מולינקס DPA144",
+   "Moulinex DPA144",
+   "מולינקס La Moulinette",
+   "קוצץ מזון חשמלי",
+   "קוצץ בשר ובצל",
+   "קוצץ 1000 וואט",
+   "מולינט מולינקס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל",
+   "catalogValue": "330 גרם / 800 מ\"ל",
+   "finding": "contradicted",
+   "correctValue": "0.5 ליטר (500 מ״ל)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "צרפת (France)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שטיפה במדיח",
+   "catalogValue": "חלקי המכשיר ניתנים לשטיפה במדיח",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר להבים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "bowl_capacity",
+   "issue": "נפח המיכל סותר: הקטלוג מציין 330 גרם / 800 מ״ל, אתר היצרן ואבי סופר מציינים 500 מ״ל / 0.5 ליטר, ואתר באג מציין 330 גרם / 0.3 ליטר. ערך 800 מ״ל אינו מופיע באף מקור שנבדק.",
+   "severity": "high"
+  },
+  {
+   "field": "blades",
+   "issue": "מספר הלהבים סותר: אתר היצרן מציין להב אחד (Number of blades 1), ואתר באג מציין 2 להבים.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions_weight",
+   "issue": "לא נמצאו מידות או משקל במקורות ישראליים או במקור היצרן שנבדקו. יש לבדוק בתווית המוצר או בדף המפרט.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_importer",
+   "issue": "היבואן (ניופאן) מופיע רק בדף אחד של קמעונאי ישראלי. יש לוודא מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "אחריות: אבי סופר מציג שנה, אתר Tefal סעודיה מציג 2 שנים; לא פורסם",
+   "severity": "medium"
+  },
+  {
+   "field": "dishwasher",
+   "issue": "טרקלין חשמל: המיכל ניתן לשטיפה במדיח; אתר Tefal סעודיה: לא מתאים למדיח; יש לבדוק במדריך",
+   "severity": "medium"
+  },
+  {
+   "field": "capacity",
+   "issue": "הקטלוג מציין 330 גרם / 800 מ״ל; מקורות היצרן והקמעונאים הישראלים מציינים 0.5 ליטר",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת מיכל",
+   "issue": "הקטלוג מציין 330 גרם / 800 מ״ל; אתר היצרן ואבי סופר מציינים 500 מ״ל / 0.5 ליטר. יש לעדכן את מפרט הקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "שטיפה במדיח",
+   "issue": "באג וטרקלין מציינים שהמיכל מתאים למדיח, ואתר Tefal סעודיה מציין שלא; הקטלוג טוען שכל החלקים מתאימים למדיח. יש לבדוק בחוברת ההוראות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר להבים",
+   "issue": "אתר היצרן מציין להב אחד ובאג מציין 2 להבים.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אבי סופר מציג שנה אחת, אתר Tefal סעודיה מציג 2 שנים. יש לוודא את תנאי האחריות של היבואן בישראל.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן מופיע רק בדף קמעונאי אחד; לא אומת.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 8 (duplicate of fact 1). Rejected feature 4 (duplicate of fact 7). Rejected feature 6 (dishwasher-safe disputed by Tefal SA per research flags). Corrected feature 2 wording to match the four functions quoted (mince, chop, grind, mix). Reworded feature 5 to what the quote says. Catalog capacity 330 g / 800 ml contradicted by manufacturer (500 ml)."
+ }
+}

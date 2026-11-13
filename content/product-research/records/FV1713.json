@@ -1,0 +1,352 @@
+{
+ "modelNumber": "FV1713",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Tefal",
+  "exactModel": "FV1713",
+  "israeliImporter": "ש.א. מוצרי פרימיום",
+  "matchConfidence": "high",
+  "notes": "Tefal Virtuo FV1713, מגהץ אדים 2000W. מקורות ישראליים בלבד: טופדיל וזאפ. לא נמצא דף יצרן או יבואן מאומת. מידות ומשקל לא פורסמו. | QA: Israeli retailer page names Tefal FV1713 with 2000W, matching catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.topdeal.co.il/product/tefal-fv1713/",
+   "publisher": "טופדיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1228732",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן",
+     "value": "ש.א. מוצרי פרימיום"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת אדים רציפה",
+     "value": "24 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יריית קיטור",
+     "value": "90 גרם לדקה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Foreign sources say 250 ml; Israeli pages say 200 ml",
+     "label": "נפח מיכל מים",
+     "value": "200 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "1.9 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific term, disputed; verify with importer",
+     "label": "תקופת אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סוליית גיהוץ גדולה בציפוי Non Stick (PTFE)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית ניקוי אבנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאים לגיהוץ אנכי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מבנה ארגונומי לשימוש ביד אחת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מגהץ אדים Tefal FV1713 בהספק 2000W לגיהוץ ביתי יומיומי. הוא מספק תפוקת אדים רציפה של 24 גרם לדקה ויריית קיטור של 90 גרם לדקה, עם מיכל מים של 200 מ״ל וסוליית Non Stick. מתאים למי שמחפש מגהץ אדים פשוט וקל לתפעול, כולל אפשרות לגיהוץ אנכי.",
+  "highlights": [
+   "הספק 2000W",
+   "תפוקת אדים רציפה 24 גרם לדקה",
+   "יריית קיטור 90 גרם לדקה",
+   "מיכל מים 200 מ״ל",
+   "אפשרות לגיהוץ אנכי"
+  ],
+  "goodFor": [
+   "גיהוץ שוטף של בגדים בבית",
+   "רענון בגדים תלויים על קולב או וילונות בגיהוץ אנכי",
+   "טיפול בקמטים עקשניים בעזרת יריית הקיטור"
+  ],
+  "considerations": [
+   "מיכל המים בנפח 200 מ״ל, ולכן בגיהוץ ארוך יידרש מילוי חוזר",
+   "אורך הכבל 1.9 מטר — כדאי לוודא שקע קרוב לקרש הגיהוץ",
+   "מומלץ להשתמש בפונקציית ניקוי האבנית באופן קבוע, במיוחד באזורים עם מים קשים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Tefal FV1713?",
+    "a": "ההספק הוא 2000W.",
+    "sources": []
+   },
+   {
+    "q": "כמה אדים המגהץ מוציא?",
+    "a": "תפוקת אדים רציפה של 24 גרם לדקה ויריית קיטור של 90 גרם לדקה.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "200 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לגהץ איתו בגדים תלויים?",
+    "a": "כן, המגהץ מתאים לגיהוץ אנכי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ אדים Tefal FV1713 בהספק 2000W עם יריית קיטור 90 גרם לדקה ומיכל מים 200 מ״ל. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Tefal FV1713",
+   "מגהץ אדים טפאל",
+   "מגהץ טפאל FV1713",
+   "מגהץ אדים 2000W",
+   "Tefal Virtuo",
+   "מגהץ אדים לגיהוץ אנכי",
+   "מגהץ אדים Non Stick"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "הספק מרבי: 2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "catalogValue": "24 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכת אדים (Steam Boost)",
+   "catalogValue": "90 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "200 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תחתית",
+   "catalogValue": "תחתית Non-stick (מונעת הידבקות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.9 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הסרת אבנית (Anti-calc)",
+   "catalogValue": "מערכת Anti-calc מובנית להסרת אבנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גיהוץ אנכי",
+   "catalogValue": "גיהוץ אנכי לרענון בגדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית התזת מים (Spray)",
+   "catalogValue": "כלולה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "ש.א. מוצרי פרימיום",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תקופת אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "תקופת אחריות",
+   "issue": "טופדיל מציין 12 חודשים, ותוצאות חיפוש זרות מציינות שנתיים. לאמת מול היבואן לפני פרסום אחריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מיכל מים",
+   "issue": "מדריך בריטי ופרסום גרמני מציינים 250 מ\"ל; דפי ישראל מציינים 200 מ\"ל. פורסם הערך הישראלי.",
+   "severity": "low"
+  },
+  {
+   "field": "סוליה",
+   "issue": "מדריך בריטי מציין סוליה קרמית; דפי ישראל מציינים Non Stick PFTE. פורסם הערך הישראלי.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות ומשקל לא אומתו מדף יצרן, יבואן או מדף ישראלי. מקורות זרים סותרים זה את זה, ולכן לא פורסמו.",
+   "severity": "medium"
+  },
+  {
+   "field": "תקופת אחריות",
+   "issue": "טופדיל מציין 12 חודשים ומקורות אחרים מציינים שנתיים; לא פורסם, לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מיכל מים",
+   "issue": "מקורות זרים מציינים 250 מ״ל; פורסם הערך מהדפים הישראליים (200 מ״ל).",
+   "severity": "low"
+  },
+  {
+   "field": "סוליה",
+   "issue": "מדריך בריטי מציין סוליה קרמית; הדפים הישראליים מציינים Non Stick. לאמת את הגרסה הישראלית.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (12 months is a retailer listing term; search results suggested two years). Kind of zap.co.il kept as other (price comparison). Feature wording PFTE corrected to PTFE."
+ }
+}

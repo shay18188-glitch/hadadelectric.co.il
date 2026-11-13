@@ -1,0 +1,459 @@
+{
+ "modelNumber": "WQP14-W7633C-W (6466)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "WQP14-W7633C-W",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "דף היבואן הרשמי בישראל מזהה את הדגם בשם המלא WQP14-W7633C-W. המספר 6466 שבקטלוג אינו מופיע בדף זה. | QA: Official Israeli importer page names WQP14-W7633C-W, white, 14 place settings, matching the catalog name. 6466 is an internal catalog code."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.co.il/product/wqp14w7633cw",
+   "publisher": "מידאה ישראל (היבואן הרשמי המילטון)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Midea"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 84.5 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "14 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תוכניות הדחה",
+     "value": "8 (5 בבחירה ישירה + 3 דרך האפליקציה)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפעלה מאוחרת (Delay Start)",
+     "value": "3/6/9 שעות מראש"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי אירופאי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "להתקנה חופשית"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קישוריות",
+     "value": "WIFI, אפליקציית SMART HOME של Midea"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "price of extension removed",
+     "label": "אחריות",
+     "value": "שנה, עם אפשרות להרחבה בשנתיים נוספות בתוספת תשלום בכפוף לתקנון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "8 תוכניות הדחה: 5 בבחירה ישירה ו־3 נוספות דרך האפליקציה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לחצן חצי כמות לחיסכון במים ובאנרגיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לחצן ייבוש מוגבר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "3 מתזים לניקוי כלים מיטבי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "2 סלסלות כלים עם ידית אחיזה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סלסלה אמצעית בעלת שני גבהים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגירת סכו״ם עליונה מתקפלת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נורית חיווי להתראה על חוסר במלח או בנוזל הברקה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מדיח רחב להתקנה חופשית"
+  }
+ ],
+ "content": {
+  "summary": "Midea WQP14-W7633C-W הוא מדיח כלים רחב בצבע לבן להתקנה חופשית, בקיבולת 14 מערכות כלים. יש בו 8 תוכניות הדחה, 3 מתזים וחיבור WIFI לאפליקציית SMART HOME של Midea. מתאים למי שמחפש מדיח רחב ומרווח שאפשר לשלוט בו גם מהטלפון.",
+  "highlights": [
+   "קיבולת 14 מערכות כלים",
+   "8 תוכניות הדחה, 3 מהן דרך האפליקציה",
+   "חיבור WIFI לאפליקציית SMART HOME של Midea",
+   "הפעלה מאוחרת של 3/6/9 שעות מראש",
+   "לחצן חצי כמות ולחצן ייבוש מוגבר"
+  ],
+  "goodFor": [
+   "משפחה שמדיחה כמויות גדולות של כלים בכל הפעלה",
+   "מי שרוצה להפעיל ולעקוב אחרי המדיח מהטלפון",
+   "הפעלה בשעות מאוחרות בעזרת הפעלה מאוחרת",
+   "ימים עם מעט כלים, בזכות לחצן חצי כמות"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי של לפחות 59.8 × 84.5 × 60 ס״מ (רוחב × גובה × עומק)",
+   "המדיח מיועד להתקנה חופשית ולא לשילוב מלא בארון",
+   "דירוג האנרגיה האירופאי הוא E",
+   "3 מתוך 8 התוכניות זמינות רק דרך האפליקציה ודורשות רשת WIFI"
+  ],
+  "faq": [
+   {
+    "q": "כמה כלים נכנסים למדיח?",
+    "a": "קיבולת המדיח היא 14 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט במדיח מהטלפון?",
+    "a": "כן, המדיח מתחבר ב־WIFI לאפליקציית SMART HOME של Midea, ודרכה זמינות 3 תוכניות נוספות.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המדיח?",
+    "a": "רוחב 59.8 ס״מ, גובה 84.5 ס״מ ועומק 60 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתזמן הפעלה?",
+    "a": "כן, יש פונקציית Delay Start להפעלה 3, 6 או 9 שעות מראש.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה, עם אפשרות להרחבה בשנתיים נוספות בתוספת תשלום בכפוף לתקנון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים רחב Midea WQP14-W7633C-W לבן, 14 מערכות כלים ו־8 תוכניות הדחה עם חיבור WIFI לאפליקציה. להשוואה ולהזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "מדיח כלים מידאה",
+   "Midea WQP14-W7633C-W",
+   "מדיח כלים רחב לבן",
+   "מדיח כלים 14 מערכות",
+   "מדיח כלים WIFI",
+   "מדיח כלים חופשי",
+   "מדיח מידאה 14 מערכות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "14 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 59.8 ס\"מ, עומק 60 ס\"מ, גובה 84.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "11 ליטר למחזור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות הדחה",
+   "catalogValue": "8 תוכניות הדחה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שמות התוכניות הנוספות (היגיינית, ניקוי עצמי, כלי זכוכית)",
+   "catalogValue": "3 נוספות דרך האפליקציה: היגיינית, ניקוי עצמי, כלי זכוכית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הפעלה מאוחרת",
+   "catalogValue": "3/6/9/12 שעות",
+   "finding": "corrected",
+   "correctValue": "3/6/9 שעות מראש",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחצן חצי כמות",
+   "catalogValue": "Half Load",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחצן ייבוש מוגבר",
+   "catalogValue": "לחצן ייבוש מוגבר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתזים",
+   "catalogValue": "3 מתזים לניקוי אופטימלי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פנים המדיח",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סלסלה אמצעית",
+   "catalogValue": "סלסלה אמצעית מתכווננת",
+   "finding": "corrected",
+   "correctValue": "סלסלה אמצעית בעלת שני גבהים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירת סכו\"ם עליונה",
+   "catalogValue": "מגירת סכו\"ם עליונה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פאנל פיקוד אלקטרוני עם תצוגה דיגיטלית",
+   "catalogValue": "פאנל פיקוד אלקטרוני עם תצוגה דיגיטלית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבור WIFI",
+   "catalogValue": "WIFI לשליטה מרחוק באפליקציית Midea SMART HOME",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Midea",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקטלוג מציין WQP14-W7633C-W (6466). דף היבואן מזהה את הדגם כ-WQP14-W7633C-W בלבד, ולא מופיע בו הסיומת 6466. הנתונים הוקשרו לדגם המלא.",
+   "severity": "low"
+  },
+  {
+   "field": "הפעלה מאוחרת",
+   "issue": "הקטלוג מציין 3/6/9/12 שעות, דף היבואן מציין 3/6/9 שעות בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת מים",
+   "issue": "צריכת המים בקטלוג (11 ליטר) לא אומתה במקור שנבדק.",
+   "severity": "low"
+  },
+  {
+   "field": "שמות תוכניות האפליקציה",
+   "issue": "שמות 3 התוכניות דרך האפליקציה (היגיינית, ניקוי עצמי, כלי זכוכית) לא אומתו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Warranty value reworded to drop the paid-extension price. Catalog delay-start (3/6/9/12) differs from importer page (3/6/9); flagged."
+ }
+}

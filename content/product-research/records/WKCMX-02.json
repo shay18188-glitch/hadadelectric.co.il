@@ -1,0 +1,140 @@
+{
+ "modelNumber": "WKCMX-02",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Westinghouse",
+  "exactModel": "WKCMX-02",
+  "israeliImporter": "Selmor (Extra Fun)",
+  "matchConfidence": "medium",
+  "notes": "נמצאו רק עמודי חיפוש של קמעונאים ישראליים שמזכירים את הדגם בשמו בלבד, ללא טבלת מפרט. | QA: Search-result listings name WKCMX-02 as a Westinghouse Nespresso-compatible espresso machine; colour and full spec not confirmed. Importer not shown in quotes."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.multi-shop.co.il/search?q=WKCMX-02",
+   "publisher": "Multi-Shop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://selmor.co.il/search?q=WKCMX-02",
+   "publisher": "Selmor",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two Israeli retailer listings agree",
+     "label": "תאימות קפסולות",
+     "value": "קפסולות נספרסו"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת אספרסו לקפסולות של Westinghouse, דגם WKCMX-02, התואמת קפסולות נספרסו. מתאימה למי שכבר משתמש בקפסולות נספרסו ומחפש מכונה ביתית פשוטה להכנת אספרסו.",
+  "highlights": [
+   "תואמת קפסולות נספרסו"
+  ],
+  "goodFor": [
+   "מי שכבר קונה קפסולות נספרסו",
+   "הכנת אספרסו בבית מקפסולות"
+  ],
+  "considerations": [
+   "לוודא שהקפסולות שאתם רגילים אליהן הן בפורמט נספרסו",
+   "לבדוק את מידות המכונה מול המקום על משטח העבודה לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "אילו קפסולות מתאימות ל-Westinghouse WKCMX-02?",
+    "a": "המכונה תואמת קפסולות נספרסו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת אספרסו קפסולות Westinghouse WKCMX-02 בצבע שחור, תואמת קפסולות נספרסו, להכנת אספרסו ביתי פשוט ונוח. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Westinghouse WKCMX-02",
+   "מכונת קפה ווסטינגהאוס",
+   "מכונת אספרסו קפסולות",
+   "מכונת קפה תואמת נספרסו",
+   "WKCMX-02",
+   "מכונת קפסולות שחורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תאימות",
+   "catalogValue": "קפסולות נספרסו וקפסולות תואמות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1400W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "לחץ משאבה",
+   "catalogValue": "20 בר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "כ-900 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "11.2×24.1×35 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "specs",
+   "issue": "לא נמצא עמוד מפרט מלא לדגם המדויק; רק תאימות נספרסו אומתה",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הספק 1400W, לחץ 20 בר, מיכל 900 מ״ל ומידות בקטלוג לא אומתו מול מקור כלשהו",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "המקורות הם עמודי תוצאות חיפוש של קמעונאים בלבד; הצבע והגרסה הישראלית לא אומתו",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only Israeli retailer search-result pages name the model; just Nespresso capsule compatibility is verifiable. Catalog specs (1400W, 20 bar, 900 ml, dimensions) remain unverified."
+ }
+}

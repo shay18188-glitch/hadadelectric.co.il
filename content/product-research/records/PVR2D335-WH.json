@@ -1,0 +1,420 @@
+{
+ "modelNumber": "PVR2D335-WH",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PVR2D335-WH",
+  "israeliImporter": "אמטל",
+  "matchConfidence": "high",
+  "notes": "Bug.co.il page for the exact model prints a full spec table; no manufacturer or EPREL page found. | QA: Bug page title names ProView PVR2D335-WH, bottom-freezer 335 L, matching the catalog SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-מקפיא-תחתון-335-ליטר-proview-9572328515",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מקרר מקפיא תחתון"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "335 ליטר נטו"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "237 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "98 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "185 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "66.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "59.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגיה",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240V/50Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת זרם",
+     "value": "0.8A"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "VFC70YT"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "No Frost (NF), הפשרה אוטומטית"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "46dB"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת האחריות של אמטל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "דלת הפיכה – אפשר לשנות את כיוון הפתיחה לימין או לשמאל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפשרה אוטומטית ללא צורך בהתערבות ידנית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "ProView PVR2D335-WH הוא מקרר במבנה מקפיא תחתון בצבע לבן, בנפח כולל של 335 ליטר נטו: 237 ליטר לתא הקירור ו־98 ליטר לתא ההקפאה. המקרר פועל בשיטת No Frost עם הפשרה אוטומטית, ומידותיו 59.5 × 66.6 × 185 ס״מ (רוחב × עומק × גובה). מתאים למי שמחפש מקרר בינוני ברוחב סטנדרטי עם דלת הפיכה.",
+  "highlights": [
+   "נפח כולל 335 ליטר נטו",
+   "תא קירור 237 ליטר ותא הקפאה 98 ליטר",
+   "No Frost עם הפשרה אוטומטית",
+   "רוחב 59.5 ס״מ וגובה 185 ס״מ",
+   "דלת הפיכה לימין או לשמאל"
+  ],
+  "goodFor": [
+   "מטבח עם נישה צרה יחסית, בזכות רוחב של 59.5 ס״מ",
+   "מי שמעדיף מקפיא תחתון ותא קירור בגובה העיניים",
+   "מי שלא רוצה להפשיר קרח ידנית, בזכות No Frost והפשרה אוטומטית",
+   "מטבח שבו כיוון פתיחת הדלת צריך להתאים למיקום, בזכות דלת הפיכה"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה: המקרר ברוחב 59.5 ס״מ, עומק 66.6 ס״מ וגובה 185 ס״מ, ולהשאיר מרווח לאוורור",
+   "דירוג האנרגיה הוא E – כדאי לקחת זאת בחשבון בהשוואה לדגמים אחרים",
+   "רמת הרעש היא 46dB – רלוונטי במטבח פתוח לסלון",
+   "החשמל הנדרש הוא 220-240V/50Hz – יש לוודא שקע תקין בקרבת מקום"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 335 ליטר נטו: 237 ליטר בתא הקירור ו־98 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר No Frost?",
+    "a": "כן, המקרר פועל בשיטת No Frost עם הפשרה אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 59.5 ס״מ, עומק 66.6 ס״מ וגובה 185 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשנות את כיוון פתיחת הדלת?",
+    "a": "כן, הדלת הפיכה וניתן להתקין אותה לפתיחה לימין או לשמאל.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "אחריות לשנה, בכפוף לתעודת האחריות של אמטל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא תחתון ProView PVR2D335-WH בנפח 335 ליטר נטו, No Frost והפשרה אוטומטית, רוחב 59.5 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "ProView PVR2D335-WH",
+   "מקרר פרוויו 335 ליטר",
+   "מקרר מקפיא תחתון 335 ליטר",
+   "מקרר No Frost מקפיא תחתון",
+   "מקרר ProView לבן",
+   "מקרר ברוחב 60 ס״מ",
+   "PVR2D335"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "335 ליטר נטו",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "237 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "98 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "59.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "185 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "66.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "No Frost (NF) הפשרה אוטומטית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגיה",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "46dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח וצריכת חשמל",
+   "catalogValue": "220-240V/50HZ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת זרם",
+   "catalogValue": "0.8A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "VFC70YT",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גז",
+   "catalogValue": "R600a (60 גרם)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סיווג אקלים",
+   "catalogValue": "ST/N/SN",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוג גז",
+   "issue": "R600a and climate class not verified on any page",
+   "severity": "low"
+  },
+  {
+   "field": "סוג גז / סיווג אקלים",
+   "issue": "R600a (60 גרם) וסיווג אקלים ST/N/SN מהקטלוג לא אומתו באף מקור",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל הנתונים ממקור יחיד – דף קמעונאי ישראלי (באג); לא נמצא דף יצרן או יבואן",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts come from a single Israeli retailer page (Bug) that names the exact model; values match the catalog. Gas type and climate class not verified and not published."
+ }
+}

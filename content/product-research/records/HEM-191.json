@@ -1,0 +1,228 @@
+{
+ "modelNumber": "HEM-191",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-191",
+  "israeliImporter": "Hemilton",
+  "matchConfidence": "medium",
+  "notes": "Retailer page lists model as 191-HEM; only a single Israeli retailer page found. | QA: Zap page names HEM-191; the BUG page reportedly writes 191-HEM but did not pass the model-name check. Specs match the catalog (950W, 4.8 ליטר, 30 כוסות)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/search.aspx?keyword=HEM-191",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מיחם-מים-לשבת-48-ליטר-30-כוסות-מאושר-לשימוש-בשבת-hemilton-977842452",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "950W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מצבי פעולה",
+     "value": "הרתחה ושבת (שמירת חום)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "4.8 ליטר (30 כוסות)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only quote is on a page that does not name the model; quote checks: ok",
+     "label": "גובה",
+     "value": "40 ס״מ (כולל מכסה)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only quote is on a page that does not name the model; quote checks: ok",
+     "label": "רוחב",
+     "value": "33 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only quote is on a page that does not name the model; quote checks: ok",
+     "label": "עומק",
+     "value": "30 ס״מ (כולל ברז)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only quote is on a page that does not name the model; quote checks: ok",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog says משמרת השבת; flagged",
+     "label": "אישור לשימוש בשבת",
+     "value": "מכון צומת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only quote is on a page that does not name the model",
+   "text": "ברז מזיגה פלסטי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "יש לו שני מצבי פעולה, הרתחה ושבת לשמירת חום, והוא מאושר לשימוש בשבת על ידי מכון צומת. מתאים למשפחה שרוצה מים חמים זמינים לאורך השבת והחגים.",
+  "highlights": [
+   "שני מצבי פעולה: הרתחה ושבת (שמירת חום)",
+   "מאושר לשימוש בשבת על ידי מכון צומת"
+  ],
+  "goodFor": [
+   "שמירת מים חמים לאורך השבת במצב שמירת חום",
+   "אירוח משפחתי שבו מכינים הרבה כוסות תה וקפה",
+   "בית שמקפיד על מוצר עם אישור הלכתי לשבת"
+  ],
+  "considerations": [
+   "ודאו שיש שקע חשמל זמין ליד המקום שבו יעמוד המיחם לאורך השבת",
+   "בדקו שהאישור ההלכתי של מכון צומת מתאים להנהגה שלכם"
+  ],
+  "faq": [
+   {
+    "q": "האם המיחם מאושר לשימוש בשבת?",
+    "a": "כן, המיחם מאושר לשימוש בשבת על ידי מכון צומת ויש לו מצב שבת לשמירת חום.",
+    "sources": []
+   },
+   {
+    "q": "אילו מצבי פעולה יש למיחם?",
+    "a": "שני מצבים: הרתחה ומצב שבת לשמירת חום.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מיחם לשבת",
+   "מיחם 30 כוסות",
+   "Hemilton HEM-191",
+   "מיחם המילטון",
+   "מיחם מים 4.8 ליטר",
+   "מיחם נירוסטה",
+   "מיחם מאושר לשבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "950W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "4.8 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Retailer writes 191-HEM; same model assumed",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog says Shabbat approval by משמרת השבת; both sources say מכון צומת",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "BUG page reportedly lists the model as 191-HEM; dimensions and warranty from that page were not published because it did not pass the model-name check",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept power, capacity, operating modes and Shabbat approval, each with an ok quote on the Zap page that names HEM-191. Rejected height, width, depth, warranty and the plastic tap feature: their only quotes come from the BUG page, which does not name the model code in the payload check. Catalog says the Shabbat approval is from משמרת השבת; both sources say מכון צומת. | code guard removed: summary: \"מיחם מים חשמלי של Hemilton, דגם HEM-191, בקיבולת 4.8 ליטר (30 כוסות) ובהספק 950W.\"; faq: \"כמה מים נכנסים במיחם?\"; faq: \"מה ההספק של המיחם?\"; metaDescription: \"מיחם מים לשבת Hemilton HEM-191 בקיבולת 4.8 ליטר (30 כוסות), הספק 950W ומצב שבת לשמירת חום, מאושר על ידי מכון צומת. בחדד אלקטריק נהריה\"; highlight: \"קיבולת 4.8 ליטר (30 כוסות)\"; highlight: \"הספק 950W\"; consideration: \"התאימו את הקיבולת של 4.8 ליטר לכמות השתייה החמה בבית\""
+ }
+}

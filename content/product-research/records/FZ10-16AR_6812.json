@@ -1,0 +1,454 @@
+{
+ "modelNumber": "FZ10-16AR (6812)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "FZ10-16AR",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "מאוורר מגדל דיגיטלי עם שלט, לבן ושחור. הדף הישראלי של באג מציין אחריות של 3 שנים דרך המילטון. | QA: Midea datasheet and BUG Israeli page both name FZ10-16AR, white/black tower fan with remote; the (6812) catalog code is an internal code not seen in page text."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/content/dam/midea-aem/de/klimatisieren-heizen/ventilatoren-luftkuhler/turmventilator-fz10-16ar/Midea-FZ10-16AR-Datenblatt.pdf",
+   "publisher": "Midea Europe GmbH",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מאוורר-מגדל-דיגיטלי-כולל-שלט-midea-91511016",
+   "publisher": "באג (BUG)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "45 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "6"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סיבוב מקסימלית",
+     "value": "1350 סל״ד"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli retailer only; flagged",
+     "label": "מהירות זרימת אוויר",
+     "value": "120 מטר לדקה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זווית צידוד אופקי",
+     "value": "60 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש (הספק קול)",
+     "value": "58 dB(A)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רעש במהירות הנמוכה ביותר",
+     "value": "50 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר כיבוי",
+     "value": "עד 12 שעות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "label order corrected to H x W x D per datasheet",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "111.1 × 32.5 × 32.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "decimal normalized",
+     "label": "משקל נטו",
+     "value": "5.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן ושחור"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח חשמל",
+     "value": "220-240 V, חד-פאזי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "3 שנים ע״י המילטון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט רחוק לשליטה בפונקציות המאוורר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צידוד אופקי שמאלה וימינה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצבי אוורור: אוורור רגיל, הדמיית רוח טבעית ומצב שינה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לחצני מגע בלוח הבקרה שבחלקו העליון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כיבוי תצוגה אוטומטי לאחר 30 שניות ללא הפעלה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט רחוק"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מאוורר מגדל דיגיטלי של Midea, דגם FZ10-16AR, בצבע לבן ושחור, עם שלט רחוק. הוא מציע 6 מהירויות, צידוד אופקי של 60 מעלות וטיימר כיבוי עד 12 שעות, עם הספק מנוע של 45 W. מצב שינה וכיבוי תצוגה אוטומטי הופכים אותו למתאים לחדר שינה, וגובהו 111.1 ס״מ על בסיס צר.",
+  "highlights": [
+   "6 מהירויות ו-3 מצבי אוורור: רגיל, רוח טבעית ושינה",
+   "צידוד אופקי בזווית של 60 מעלות",
+   "טיימר כיבוי עד 12 שעות",
+   "רעש של 50 dB(A) במהירות הנמוכה ביותר",
+   "3 שנות אחריות ע״י המילטון"
+  ],
+  "goodFor": [
+   "חדר שינה – מצב שינה, טיימר כיבוי וכיבוי תצוגה אוטומטי לאחר 30 שניות",
+   "סלון או חדר עבודה שבו רוצים פיזור אוויר רחב בזכות הצידוד האופקי",
+   "מי שמעדיף לשלוט במאוורר מהספה או מהמיטה עם השלט הרחוק",
+   "חדרים עם מעט מקום רצפה – מאוורר מגדל בבסיס של 32.5 × 32.5 ס״מ"
+  ],
+  "considerations": [
+   "יש לוודא מקום לגובה של 111.1 ס״מ ולבסיס של 32.5 × 32.5 ס״מ",
+   "נדרש שקע חשמל רגיל 220-240 V בקרבת מקום המאוורר",
+   "הרעש במהירות הנמוכה הוא 50 dB(A), ובמהירויות גבוהות הוא עולה – כדאי לקחת בחשבון לשימוש ליד המיטה"
+  ],
+  "faq": [
+   {
+    "q": "כמה מהירויות יש למאוורר?",
+    "a": "למאוורר 6 מהירויות, ובנוסף 3 מצבי אוורור: רגיל, הדמיית רוח טבעית ומצב שינה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיימר?",
+    "a": "כן, טיימר כיבוי עד 12 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם התצוגה מאירה כל הלילה?",
+    "a": "לא, התצוגה כבה אוטומטית לאחר 30 שניות ללא הפעלה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות והמשקל?",
+    "a": "גובה 111.1 ס״מ, רוחב ועומק 32.5 ס״מ, ומשקל נטו של 5.6 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "3 שנות אחריות ע״י המילטון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר מגדל דיגיטלי Midea FZ10-16AR עם שלט רחוק: 6 מהירויות, צידוד 60 מעלות וטיימר עד 12 שעות. לבן-שחור, בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר מגדל Midea",
+   "Midea FZ10-16AR",
+   "מאוורר מגדל עם שלט",
+   "מאוורר מגדל דיגיטלי",
+   "מאוורר שקט לחדר שינה",
+   "מאוורר עמוד מידאה",
+   "מאוורר מגדל לבן שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "45W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "6 מהירויות לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סיבוב מקסימלית",
+   "catalogValue": "1350 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות זרימת אוויר",
+   "catalogValue": "120 מטר לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "כיבוי אוטומטי של עד 12 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זווית צידוד",
+   "catalogValue": "60 מעלות (אופקי)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "מסך LED דיגיטלי גדול עם לחצני מגע",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "החל מ-50 dB(A)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 111 ס\"מ, רוחב 32.5 ס\"מ, עומק 32.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "5.6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שילוב לבן ושחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצבי פעולה",
+   "catalogValue": "רגיל, מצב שינה והדמיית רוח טבעית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח חשמל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "220-240 V, חד-פאזי",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מהירות זרימת אוויר",
+   "issue": "הדף של היצרן (Midea) מציין 14 מ״ק לדקה (m³/min) בטבלת Luftleistung, ואילו הדף הישראלי של באג מציין 120 מטר לדקה. היחידות והמספרים אינם תואמים; יש לבדוק לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "תצוגה",
+   "issue": "הדף של היצרן מציין LED Display בפירוט התכונות, אך בטבלת המפרט השדה LED Anzeige ריק. באג מציין לחצני מגע אך לא את סוג המסך. התיאור 'מסך LED דיגיטלי גדול' בקטלוג אינו מאומת במלואו.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "המספר FZ10-16AR מופיע בדפי היצרן ובדף באג. הקוד (6812) בקטלוג מופיע רק בשם קובץ תמונה בדף באג ולא בטקסט של אף דף שנבדק.",
+   "severity": "low"
+  },
+  {
+   "field": "מהירות זרימת אוויר",
+   "issue": "120 מטר לדקה מופיע רק בדף באג; דף היצרן מציין ספיקת אוויר במ״ק לדקה בערך שונה. יש לוודא שהנתון מתאר מהירות אוויר ולא ספיקה.",
+   "severity": "medium"
+  },
+  {
+   "field": "תצוגה",
+   "issue": "התיאור 'מסך LED דיגיטלי גדול' בקטלוג אינו מאומת במלואו במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקוד (6812) בקטלוג אינו מופיע בטקסט המקורות; הדגם FZ10-16AR תואם.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fixed dimension label order to height × width × depth to match the datasheet (H x B x T) and the value; normalized weight decimal to 5.6 ק״ג. Airflow 120 m/min comes only from the BUG page while the Midea datasheet lists airflow volume in m³/min; kept as air velocity with a review flag."
+ }
+}

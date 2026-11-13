@@ -1,0 +1,445 @@
+{
+ "modelNumber": "AV-105-BT",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Pure Acoustics",
+  "exactModel": "AV-105-BT",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Israeli retailer pages (Oded Electronics, com4tech) list the item as AV-105-BT. The manufacturer page (pure-acoustics.com, speaker id 1800) could not be fetched. A manua.ls manual lists the model as AV-105BT and calls it a media player, and the hifitest.de spec list gives 18.5W RMS output. The catalog's 40W figure is not supported by those sources. | QA: Israeli retailers and hifitest.de name AV-105-BT; manua.ls and Flipkart write AV-105BT. Manufacturer page not fetched; product type (amplifier vs. media player with speakers) and power rating differ between catalog and sources."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "http://oded-electronics.com/%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA-%D7%9B%D7%A8%D7%99%D7%96%D7%94",
+   "publisher": "Oded Electronics",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.com4tech.co.il/product-category/%D7%A8%D7%A1%D7%99%D7%91%D7%A8%D7%99%D7%9D-%D7%9E%D7%92%D7%91%D7%A8%D7%99%D7%9D-%D7%95%D7%A8%D7%9E%D7%A7%D7%95%D7%9C%D7%99%D7%9D/%D7%A8%D7%9E%D7%A7%D7%95%D7%9C%D7%99%D7%9D-pureacoustics/",
+   "publisher": "com4tech",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.hifitest.de/test/ausstattungsliste/hifi-sonstiges/pure-acoustics-av-105-bt-24533",
+   "publisher": "Hifitest",
+   "kind": "review",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.flipkart.com/pure-acoustics-av-105bt-18-5-w-bluetooth-home-theatre/p/itmefwhahgfvgufu",
+   "publisher": "Flipkart",
+   "kind": "retailer",
+   "market": "IN",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.manua.ls/pure-acoustics/av-105-bt/manual",
+   "publisher": "Manua.ls (manual)",
+   "kind": "manual",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מוצר",
+     "value": "מגבר מוזיקה שקוע"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תיאור היצרן",
+     "value": "מגבר מולטימדיה שקוע בקיר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog 40W; flagged.",
+     "label": "הספק יציאה",
+     "value": "18.5W RMS"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עכבה",
+     "value": "4 Ohm"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עיוות הרמוני כולל (THD)",
+     "value": "0.03%"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תגובת תדר",
+     "value": "20Hz–20kHz"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "AC 220V 50Hz"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "קישוריות Bluetooth אלחוטית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כניסת USB לניגון מוזיקה ממקל זיכרון"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חריץ כרטיס SD לניגון קבצי מוזיקה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "רדיו FM עם סריקה אוטומטית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כניסת AUX לחיבור סמארטפונים ומכשירי מוזיקה אחרים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אקולייזר 5 פסים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שלט רחוק באינפרה-אדום (IR)"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מתאים לחיבור של עד 2 רמקולים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 1.",
+   "text": "חיבור USB לניגון מוזיקה מכונן הבזק"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 2.",
+   "text": "חריץ כרטיס SD"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 6.",
+   "text": "שלט רחוק IR"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 7.",
+   "text": "חיבור עד 2 רמקולים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Pure Acoustics AV-105-BT הוא מגבר מולטימדיה שקוע בקיר להשמעת מוזיקה בבית. המוזיקה מגיעה מ-Bluetooth, USB, כרטיס SD, כניסת AUX או רדיו FM, ומתאים למי שרוצה מוזיקת רקע בחדר בלי מערכת גלויה.",
+  "highlights": [
+   "מגבר מולטימדיה שקוע בקיר",
+   "הספק יציאה 18.5W RMS",
+   "קישוריות Bluetooth, USB, SD ו-AUX",
+   "רדיו FM עם סריקה אוטומטית"
+  ],
+  "goodFor": [
+   "מוזיקת רקע בחדר, במטבח או בסלון עם רמקולים שקועים",
+   "הזרמת מוזיקה מהטלפון דרך Bluetooth",
+   "ניגון ישיר ממקל USB או מכרטיס SD בלי טלפון",
+   "מי שמעדיף שליטה מרחוק בשלט IR"
+  ],
+  "considerations": [
+   "התקנה שקועה בקיר דורשת הכנה מראש של חיווט לרמקולים ולחשמל"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להשמיע מוזיקה מהטלפון?",
+    "a": "כן, דרך Bluetooth אלחוטי או דרך כניסת AUX.",
+    "sources": []
+   },
+   {
+    "q": "יש רדיו?",
+    "a": "כן, רדיו FM עם סריקה אוטומטית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגבר מוזיקה שקוע בקיר Pure Acoustics AV-105-BT עם Bluetooth, USB, SD ורדיו FM, הספק 18.5W RMS ושלט רחוק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מגבר שקוע בקיר",
+   "Pure Acoustics AV-105-BT",
+   "מגבר מוזיקה שקוע",
+   "מגבר Bluetooth שקוע",
+   "מגבר קיר לרמקולים",
+   "מגבר שקוע עם רדיו FM",
+   "פיור אקוסטיקס מגבר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג מגבר",
+   "catalogValue": "Class D",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק יציאה",
+   "catalogValue": "40W (20W x 2)",
+   "finding": "contradicted",
+   "correctValue": "18.5W RMS",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טווח תדרים",
+   "catalogValue": "20Hz - 20kHz",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עכבה",
+   "catalogValue": "4Ω",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עיוות הרמוני כולל (THD)",
+   "catalogValue": "0.03%",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "110/220V 50Hz/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "11.5X7X4.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מרחק קליטת אינפרה-אדום",
+   "catalogValue": "עד 10 מטרים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קישוריות Bluetooth",
+   "catalogValue": "Bluetooth",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נגן מדיה תומך בפורמטים",
+   "catalogValue": "MP3, WMA, WAV, MP4, AVI",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רדיו FM",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "FM radio with auto-scan",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מספר רמקולים מחוברים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "up to 2 speakers",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק יציאה",
+   "issue": "Catalog says 40W (20W x 2). The only spec source that gives an output figure (hifitest.de, one foreign review site, not published on its own) says 18.5W RMS. Confirm the rated output with the manufacturer before relying on the catalog figure.",
+   "severity": "high"
+  },
+  {
+   "field": "סוג מוצר",
+   "issue": "Catalog and Israeli retailers call it an in-wall music amplifier. A manua.ls manual page calls the AV-105 BT a media player with built-in stereo speakers, which conflicts with the amplifier-only description. Check what is in the box and whether speakers are included.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות המוצר",
+   "issue": "Catalog gives 11.5X7X4.5 cm. The hifitest.de list gives 2.8 x 4.5 x 2.3 inches, in a different order and not convertible under the rules. Dimensions remain unverified and should be measured or checked with the manufacturer.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Manufacturer page (pure-acoustics.com) could not be fetched. Manua.ls writes the model as AV-105BT, and an earlier search snippet said com4tech lists the amplifier under AV-2096 while the fetched page shows AV-105-BT. Verify the model code with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "No Israeli importer or Israeli warranty information was found. Warranty, installation and in-the-box facts are not researched.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "Catalog gives 110/220V 50Hz/60Hz. The review source only gives AC 220V 50Hz. Confirm the 110V and 60Hz claims with the manufacturer manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "נגן מדיה תומך בפורמטים",
+   "issue": "Catalog claims MP3, WMA, WAV, MP4 and AVI playback. No authoritative source confirmed this. The manua.ls claim comes from a page that looks machine-generated.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק יציאה",
+   "issue": "Catalog says 40W (20W x 2); hifitest.de and Flipkart say 18.5W RMS. Confirm the rated output with the manufacturer or importer.",
+   "severity": "high"
+  },
+  {
+   "field": "סוג מוצר",
+   "issue": "Manua.ls page reportedly describes a media player with built-in speakers, conflicting with the in-wall amplifier description. Check what is in the box.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "Catalog gives 110/220V 50/60Hz; source gives only AC 220V 50Hz.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות המוצר",
+   "issue": "Catalog dimensions 11.5X7X4.5 cm are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "No Israeli importer or manufacturer page confirmed; model written AV-105BT on some sources.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected duplicate features 8, 9, 10, 11 (repeat 1, 2, 6, 7). Output power 18.5W RMS is kept from two sources but contradicts the catalog's 40W; flagged. Voltage published as the source states (220V 50Hz only). | code guard removed: summary: \"הוא מספק הספק יציאה של 18.5W RMS בעכבה של 4 Ohm ותומך בחיבור של עד 2 רמקולים.\"; faq: \"כמה רמקולים אפשר לחבר?\"; faq: \"מה הספק היציאה?\"; highlight: \"אקולייזר 5 פסים ושלט רחוק IR\"; consideration: \"יש לוודא שהרמקולים מתאימים לעכבה של 4 Ohm\"; consideration: \"המגבר תומך בעד 2 רמקולים, כדאי לתכנן את מספר הרמקולים בהתאם\"; consideration: \"מתח העבודה לפי המקור הוא AC 220V 50Hz\""
+ }
+}

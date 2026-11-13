@@ -1,0 +1,314 @@
+{
+ "modelNumber": "26483-56",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Russell Hobbs",
+  "exactModel": "26483-56",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only one foreign retailer page (Planeo, CZ) names this exact model and could be fetched. The manufacturer, Israeli importer and other retailer pages returned HTTP 403 or were not reachable, and the search budget was used up. Facts are single-source and will not publish until a second site confirms them. | QA: Planeo page names Russell Hobbs 26483-56, same code and suffix as the catalog, 2400 W matches the catalog name. Israeli variant not confirmed by an Israeli source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.planeo.cz/russell-hobbs-26483-56",
+   "publisher": "Planeo",
+   "kind": "retailer",
+   "market": "CZ",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2400 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog says 90 g; flagged.",
+     "label": "מכת אדים",
+     "value": "115 גרם"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote gives no time unit; catalog says 30 g/min; flagged.",
+     "label": "תפוקת אדים רציפה",
+     "value": "35 גרם"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "240 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך כבל",
+     "value": "2 מטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תחתית",
+     "value": "קרמית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית Auto-steam לוויסות אדים אוטומטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת נגד טפטוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת נגד אבנית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים לגיהוץ ביתי שוטף למי שמחפש מגהץ אדים פשוט עם וויסות אדים אוטומטי ומערכות נגד טפטוף ונגד אבנית.",
+  "highlights": [
+   "תחתית קרמית",
+   "טכנולוגיית Auto-steam לוויסות אדים אוטומטי"
+  ],
+  "goodFor": [
+   "גיהוץ ביתי שוטף של בגדים יומיומיים",
+   "קמטים עקשניים שדורשים מכת אדים",
+   "מי שמעדיף שהמגהץ יווסת את כמות האדים בעצמו",
+   "בתים עם מים קשים, בזכות מערכת נגד אבנית"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "מאיזה חומר עשויה התחתית?",
+    "a": "התחתית קרמית.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני טפטוף ואבנית?",
+    "a": "כן, למגהץ יש מערכת נגד טפטוף ומערכת נגד אבנית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מגהץ אדים Russell Hobbs",
+   "ראסל הובס 26483-56",
+   "מגהץ 2400 וואט",
+   "מגהץ תחתית קרמית",
+   "Russell Hobbs 26483-56",
+   "מגהץ אדים",
+   "מגהץ ראסל הובס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2400 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "240 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "2 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תחתית",
+   "catalogValue": "קרמית המועשרת במרכך בדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכת אדים",
+   "catalogValue": "90 גרם",
+   "finding": "contradicted",
+   "correctValue": "115 גרם",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "catalogValue": "30 גרם לדקה",
+   "finding": "contradicted",
+   "correctValue": "35 גרם",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית Auto-steam",
+   "catalogValue": "טכנולוגיית Auto-steam (וויסות אדים אוטומטי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת נגד טפטוף",
+   "catalogValue": "מערכת נגד טפטוף (Anti-drip)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית ניקוי עצמי",
+   "catalogValue": "פונקציית ניקוי עצמי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גיהוץ אנכי",
+   "catalogValue": "גיהוץ אנכי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "בריטניה (מיוצר בסין)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מכת אדים",
+   "issue": "The catalog says 90 g steam burst. The Planeo page says 115 g (115g parní ráz). Sources conflict and the catalog value needs a manual check.",
+   "severity": "high"
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "issue": "The catalog says 30 g per minute. The Planeo page says 35 g (35g stálý výstup páry) without a time unit. The catalog value needs a manual check.",
+   "severity": "high"
+  },
+  {
+   "field": "מקור מידע",
+   "issue": "Only one foreign retailer page names the exact model and could be read. The manufacturer, Israeli importer and other retailer pages returned HTTP 403, and the search budget was used up. All facts are single-source and will not publish until a second site confirms them.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "Planeo lists 14 cm height, 11.4 cm width, 27.5 cm depth and 1 kg weight, but each value sits on its own line, so no quote was recorded. Dimensions and weight are not in the submission and need checking.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "The catalog brand is spelled Russel Hobbs. Manufacturer sites use Russell Hobbs. Name not changed.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sibling models 26482-56, 26483GCC and 26481-56 appear in search results with different specs. They were not used as evidence.",
+   "severity": "low"
+  },
+  {
+   "field": "מכת אדים",
+   "issue": "Catalog says 90 g; the only source (Planeo) says 115 g. Catalog value needs correction or manual check.",
+   "severity": "high"
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "issue": "Catalog says 30 g/min; Planeo says 35 g with no time unit. Needs manual check.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור מידע",
+   "issue": "Single foreign retailer source; no manufacturer or Israeli source confirmed the specs or the Israeli variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכונות",
+   "issue": "Self-clean and vertical ironing in the catalog were not confirmed by any source.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand spelled 'Russel Hobbs'; manufacturer spelling is Russell Hobbs.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from one foreign retailer page (Planeo, CZ) that names the exact model. Kept all facts and features; steam burst (115 g) and continuous steam (35 g) contradict the catalog (90 g / 30 g per minute) and are flagged. Continuous steam value kept without a time unit because the quote gives none. | code guard removed: summary: \"מגהץ אדים של Russell Hobbs, דגם 26483-56, בהספק 2400 W עם תחתית קרמית.\"; summary: \"המגהץ מציע מכת אדים של 115 גרם, מיכל מים בנפח 240 מ״ל וכבל באורך 2 מטר.\"; faq: \"מה ההספק של המגהץ?\"; faq: \"מה נפח מיכל המים?\"; faq: \"מה אורך הכבל?\"; metaDescription: \"מגהץ אדים Russell Hobbs 26483-56 בהספק 2400 W עם מכת אדים של 115 גרם ותחתית קרמית. מיכל 240 מ״ל. בחדד אלקטריק נהריה\"; highlight: \"הספק 2400 W\"; highlight: \"מכת אדים של 115 גרם\"; highlight: \"מיכל מים בנפח 240 מ״ל\"; consideration: \"כבל באורך 2 מטר: כדאי לוודא שיש שקע קרוב לקרש הגיהוץ\"; consideration: \"מיכל של 240 מ״ל: בגיהוץ ארוך ייתכן שתצטרכו למלא מים שוב\"; consideration: \"הספק 2400 W: עדיף לחבר ישירות לשקע ולא למפצל עמוס\""
+ }
+}

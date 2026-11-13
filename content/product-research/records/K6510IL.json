@@ -1,0 +1,259 @@
+{
+ "modelNumber": "K6510IL",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Beko",
+  "exactModel": "K6510IL",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "high",
+  "notes": "אין דף יצרן או יבואן ישראלי שנמצא; המידע מחנויות ישראליות הנושאות את הדגם המדויק. | QA: Three Israeli retailer pages name K6510IL exactly; no manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/כיריים-גז-זכוכית-4-להבות-beko-9010621235",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/%d7%9b%d7%99%d7%a8%d7%99%d7%99%d7%9d-%d7%92%d7%96-%d7%91%d7%a7%d7%95-k6510il-%d7%a9%d7%97%d7%95%d7%a8/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.citydeal.co.il/product/4-beko-k6510il",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two retailers agree.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "64.6 × 4.6 × 52.4 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote block is separate from outer dimensions; matches catalog cut-out.",
+     "label": "מידות חיתוך להתקנה (רוחב × עומק)",
+     "value": "56 × 49 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערך מבערים",
+     "value": "3 מבערי גז + מבער ווק SABAF"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג משטח",
+     "value": "זכוכית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote failed check (quote-too-short).; quote checks: quote-too-short",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תומכי סירים",
+     "value": "בציפוי אמייל"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Single retailer page.",
+     "label": "אחריות",
+     "value": "שנה, ע״י היבואן מיני ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הצתה אלקטרונית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישני ביטחון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז Beko K6510IL עם משטח זכוכית, 3 מבערי גז ומבער ווק SABAF. הכיריים כוללות הצתה אלקטרונית וחיישני ביטחון, ותומכי הסירים בציפוי אמייל. מתאימות למטבח שבו מבשלים בגז ורוצים מבער ווק להקפצה.",
+  "highlights": [
+   "3 מבערי גז + מבער ווק SABAF",
+   "משטח זכוכית",
+   "הצתה אלקטרונית",
+   "חיישני ביטחון",
+   "מידות חיתוך להתקנה 56 × 49 ס״מ"
+  ],
+  "goodFor": [
+   "בישול בווק והקפצות על מבער ווק SABAF",
+   "מי שמעדיף משטח זכוכית שקל לנגב",
+   "משפחה שרוצה כיריים עם חיישני ביטחון"
+  ],
+  "considerations": [
+   "יש לוודא שחיתוך השיש מתאים למידות 56 × 49 ס״מ",
+   "הרוחב החיצוני הוא 64.6 ס״מ, כדאי למדוד את המקום על השיש",
+   "התקנת כיריים גז מחייבת טכנאי גז מוסמך",
+   "ההצתה האלקטרונית דורשת שקע חשמל סמוך"
+  ],
+  "faq": [
+   {
+    "q": "כמה מבערים יש בכיריים?",
+    "a": "3 מבערי גז ומבער ווק SABAF.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך בשיש?",
+    "a": "56 × 49 ס״מ (רוחב × עומק).",
+    "sources": []
+   },
+   {
+    "q": "האם יש חיישני ביטחון?",
+    "a": "כן, הכיריים כוללות חיישני ביטחון.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה, ע״י היבואן מיני ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Beko K6510IL עם משטח זכוכית, 3 מבערי גז ומבער ווק SABAF, הצתה אלקטרונית וחיישני ביטחון. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז בקו",
+   "Beko K6510IL",
+   "K6510IL",
+   "כיריים גז זכוכית",
+   "כיריים עם מבער ווק",
+   "כיריים גז 4 מבערים",
+   "כיריים בקו זכוכית שחורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 64.6 ס\"מ, עומק 52.4, גובה 4.6",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות התקנה",
+   "catalogValue": "56 × 49 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבערים",
+   "catalogValue": "4 מבערים כולל ווק SABAF",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "שם הקטלוג אומר 60 ס\"מ; הדפים מציינים כיריים 65 ס\"מ (רוחב חיצוני 64.6)",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "שם הקטלוג אומר 60 ס\"מ, אך הרוחב החיצוני לפי החנויות הוא 64.6 ס\"מ",
+   "severity": "low"
+  },
+  {
+   "field": "facts",
+   "issue": "צבע לא אומת (ציטוט קצר מדי); אין דף יצרן או יבואן, כל הנתונים מחנויות ישראליות",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 4 (color) because its quote failed the check (quote-too-short). Niche dimensions kept from Bug quote; the quote does not label the block as cut-out, so a person should confirm."
+ }
+}

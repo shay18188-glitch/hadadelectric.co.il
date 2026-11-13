@@ -1,0 +1,348 @@
+{
+ "modelNumber": "ES-ED20",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "ES-ED20",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Manufacturer manual (2014) is shared by ES-ED90/70/50/20. No Israeli importer or retailer page found. Amazon.de page is for variant ES-ED20-V503. | QA: Manual is shared by ES-ED90/70/50/20; Amazon.de page is ES-ED20-V503. Israeli variant/suffix unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://help.na.panasonic.com/wp-content/uploads/2023/02/ESED20_ED50_ED70_ED90_ENG_FRE_ESP.pdf",
+   "publisher": "Panasonic North America",
+   "kind": "manual",
+   "market": "NA",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.amazon.de/-/en/Panasonic-ES-ED20-V503-Wet-Dry-epilator/dp/B00BOHKUJE",
+   "publisher": "Amazon.de (ES-ED20-V503)",
+   "kind": "retailer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן עבודה אלחוטי",
+     "value": "כ-30 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote only shows NORMAL; SOFT not evidenced for ES-ED20 in a shared multi-model manual",
+     "label": "מצבי הפעלה",
+     "value": "NORMAL ו-SOFT"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Retailer page for ES-ED20-V503",
+     "label": "מספר פינצטות",
+     "value": "48"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טווח תנועת ראש מתנדנד",
+     "value": "60 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manual: approx. 1 hour",
+     "label": "זמן טעינה",
+     "value": "כשעה אחת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "ליתיום-יון (Li-ion)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 8, merged there",
+     "label": "מתח",
+     "value": "המרת מתח אוטומטית"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח",
+     "value": "100-240V, התאמת מתח אוטומטית"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שימוש",
+     "value": "לשימוש ביתי בלבד"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Foam claim removed, not in quote",
+   "text": "ניתן לשימוש על עור יבש או רטוב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניתן לשטוף את גוף המכשיר תחת מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Manual warns about the light, implying a built-in light",
+   "text": "נורת הארה מובנית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת ניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote too short",
+   "text": "נרתיק אחסון"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכשיר אפילציה אלחוטי של Panasonic, דגם ES-ED20, לשימוש על עור יבש או רטוב. מתאים למי שמחפשת אפילציה ביתית גם במקלחת.",
+  "highlights": [
+   "כ-30 דקות עבודה אלחוטית",
+   "טעינה של כשעה אחת",
+   "שימוש על עור יבש או רטוב"
+  ],
+  "goodFor": [
+   "אפילציה במקלחת או על עור יבש",
+   "שימוש אלחוטי ללא כבל בזמן הטיפול"
+  ],
+  "considerations": [
+   "זמן העבודה האלחוטי הוא כ-30 דקות, כדאי לטעון לפני טיפול ארוך",
+   "המכשיר מיועד לשימוש ביתי בלבד",
+   "ניתן לשטוף את גוף המכשיר תחת מים, מומלץ לנקות אחרי כל שימוש"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להשתמש במכשיר במקלחת?",
+    "a": "כן, המכשיר מיועד לאפילציה על עור יבש או רטוב.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן הסוללה מחזיקה?",
+    "a": "כ-30 דקות עבודה אלחוטית, עם סוללת ליתיום-יון.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקחת טעינה?",
+    "a": "כשעה אחת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Panasonic ES-ED20",
+   "מכשיר אפילציה פנסוניק",
+   "אפילציה רטוב יבש",
+   "מכשיר אפילציה אלחוטי",
+   "ES-ED20",
+   "אפילטור פנסוניק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "60 דקות",
+   "finding": "corrected",
+   "correctValue": "כ-1 שעה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה אלחוטי",
+   "catalogValue": "כ-30 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "מלאה (ניתן לשטיפה ולשימוש באמבטיה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת",
+   "catalogValue": "דיסקיות כפולה (Double Disc)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר פינצטות",
+   "catalogValue": "48",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "2 דרגות (Normal/Soft)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "Li-ion",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "100-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "יפן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ראש גמיש",
+   "catalogValue": "נע בזווית של עד 60 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שימוש",
+   "catalogValue": "לשימוש ביתי",
+   "finding": "missing-added",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "origin_country",
+   "issue": "The catalog says Japan. The only spec-table page found, for the ES-ED20-V520 variant, says China. No page confirms the origin of ES-ED20.",
+   "severity": "high"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "No Israeli importer or Israeli retailer page names ES-ED20. The Israeli variant and its voltage, plug and warranty are unclear. The only spec table found is for ES-ED20-V520, a different suffix.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "The catalog's tweezer count (48), double-disc system, two speeds and Li-ion battery come from the V520 variant page, which says one speed. They are not confirmed for ES-ED20 itself.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "The manufacturer manual is a 2014 print shared by four models (ES-ED90, ES-ED70, ES-ED50, ES-ED20). It may be dated, and the model may be discontinued. Warranty length also conflicts across sources (1 year and 3 years), so it is not recorded here.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "No Israeli importer or Israeli retailer page names ES-ED20; the Israeli suffix and its plug and warranty are unconfirmed. Tweezer count and head angle come only from an Amazon.de page for ES-ED20-V503.",
+   "severity": "high"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Catalog says Japan; a variant spec page reportedly says China. Not confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog lists 2 speeds (Normal/Soft) and charging time of 60 minutes; manual confirms approx. 1 hour charging, but the SOFT mode is not confirmed for ES-ED20 and a variant page reportedly lists one speed.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Manufacturer manual is a 2014 print shared by four models; the model may be discontinued.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 3 (duplicate of fact 8, merged into it). Rejected fact 4: the quote only shows NORMAL mode, SOFT is not in the quote and a variant page reportedly lists one speed. Trimmed feature 0 (foam use not in quote). Rejected inTheBox 1 (quote too short). Corrected charging time label wording. | code guard removed: summary: \"המכשיר כולל 48 פינצטות וראש מתנדנד בטווח של 60 מעלות, ופועל על סוללת ליתיום-יון כ-30 דקות לאחר טעינה של כשעה.\"; faq: \"אפשר להשתמש בו בחו״ל?\"; metaDescription: \"מכשיר אפילציה Panasonic ES-ED20 לשימוש יבש ורטוב, עם 48 פינצטות וכ-30 דקות עבודה אלחוטית. בחדד אלקטריק נהריה\"; highlight: \"48 פינצטות\"; highlight: \"ראש מתנדנד בטווח של 60 מעלות\"; goodFor: \"נסיעות לחו״ל, הודות להתאמת מתח אוטומטית 100-240V\""
+ }
+}

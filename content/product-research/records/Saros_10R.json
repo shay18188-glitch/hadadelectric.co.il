@@ -1,0 +1,294 @@
+{
+ "modelNumber": "Saros 10R",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Roborock",
+  "exactModel": "Saros 10R",
+  "israeliImporter": "באג מולטיסיסטם בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Importer page (bug.co.il) names Saros 10R, EAN 6936905904119, black. Other Israeli pages (kravitz, netoneto, bigelectric, i-cell) returned 429/403 and were not used. Facts limited to what the importer page states. | QA: Official Israeli importer page for Roborock Saros 10R."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/roborock/saros/10r",
+   "publisher": "באג (יבואן רשמי)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "22000 Pa"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות שואב",
+     "value": "350 × 353 × 79.8 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל שואב",
+     "value": "4.1 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 11.4 kg; importer says 8.5 kg incl. ramp.",
+     "label": "משקל תחנת עגינה (כולל לוח רמפה)",
+     "value": "8.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש במצב סטנדרטי",
+     "value": "65 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "2.5 שעות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י היבואן הרשמי באג מולטיסיסטם"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניווט תלת-ממדי עם חיישני 3D ומצלמת RGB לזיהוי מכשולים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתמודד עם ספים בשכבה כפולה בגובה עד 4 ס״מ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מסיר את המגבים אוטומטית לפני משימות שאיבה בלבד וניקוי שטיחים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תואם לתקן Matter לשליטה בבית חכם"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Roborock Saros 10R הוא שואב רובוטי שוטף עם עוצמת שאיבה של 22000 Pa וניווט תלת-ממדי המשלב חיישני 3D ומצלמת RGB לזיהוי מכשולים. גובה הרובוט 79.8 מ״מ, והוא מתמודד עם ספים בשכבה כפולה עד 4 ס״מ. מתאים לבתים עם שטיחים, ספים ורהיטים נמוכים, ולמי שמשלב את הבית החכם בתקן Matter.",
+  "highlights": [
+   "עוצמת שאיבה 22000 Pa",
+   "ניווט עם חיישני 3D ומצלמת RGB לזיהוי מכשולים",
+   "מעבר ספים בשכבה כפולה עד 4 ס״מ",
+   "הסרת מגבים אוטומטית לפני ניקוי שטיחים",
+   "תואם לתקן Matter"
+  ],
+  "goodFor": [
+   "בתים עם שטיחים לצד ריצוף, בזכות הסרת המגבים לפני ניקוי שטיחים",
+   "דירות עם ספים בין חדרים, עד 4 ס״מ בשכבה כפולה",
+   "ניקוי מתחת לרהיטים נמוכים, עם גובה רובוט של 79.8 מ״מ",
+   "בית חכם המבוסס על תקן Matter"
+  ],
+  "considerations": [
+   "ודאו שהמרווח מתחת לספות ולמיטות גבוה מ-79.8 מ״מ כדי שהרובוט יוכל להיכנס",
+   "בדקו שהספים בבית אינם גבוהים מ-4 ס״מ",
+   "תכננו מקום ושקע חשמל לתחנת העגינה, שמשקלה 8.5 ק״ג כולל לוח הרמפה",
+   "האחריות היא לשנה ע״י היבואן הרשמי באג מולטיסיסטם"
+  ],
+  "faq": [
+   {
+    "q": "מה עוצמת השאיבה של Roborock Saros 10R?",
+    "a": "עוצמת השאיבה היא 22000 Pa.",
+    "sources": []
+   },
+   {
+    "q": "האם הרובוט עובר ספים?",
+    "a": "כן, הוא מתמודד עם ספים בשכבה כפולה בגובה עד 4 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם הרובוט מרטיב שטיחים?",
+    "a": "לפני משימות שאיבה בלבד וניקוי שטיחים הרובוט מסיר את המגבים שלו אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקחת טעינה?",
+    "a": "טעינה מהירה נמשכת 2.5 שעות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה ע״י היבואן הרשמי באג מולטיסיסטם בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב רובוטי שוטף Roborock Saros 10R עם עוצמת שאיבה 22000 Pa ומעבר ספים עד 4 ס״מ, ניווט 3D ומצלמת RGB. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Roborock Saros 10R",
+   "רובורוק סארוס 10R",
+   "שואב רובוטי שוטף",
+   "שואב רובוטי Roborock",
+   "שואב רובוטי עם תחנת עגינה",
+   "שואב רובוטי Matter"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "22,000Pa",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות שואב",
+   "catalogValue": "350x353x79.8 מ\"מ (גובה 7.98 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל שואב",
+   "catalogValue": "4.1 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "65dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "6400mAh",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 180 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "66W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל אבק",
+   "catalogValue": "270 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עוצמת רעש",
+   "issue": "The importer page gives 55 dB for quiet mode and 65 dB for standard mode. The catalog 65 dB matches standard mode only.",
+   "severity": "low"
+  },
+  {
+   "field": "סוללה",
+   "issue": "Battery 6400mAh, runtime 180 minutes and power 66W were not confirmed on a fetched page. Only one importer page was read; other Israeli retailer pages were blocked (429/403).",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל תחנת עגינה",
+   "issue": "Catalog specs say 11.4 kg; importer page says 8.5 kg including ramp board.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוללה / זמן עבודה / הספק / נפח מיכלים",
+   "issue": "Catalog values 6400mAh, 180 min, 66W, 270 ml dust bin, 69 ml water tank and dock dimensions were not confirmed by a fetched page.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features are backed by ok quotes from the official importer page (bug.co.il) that names Saros 10R. Dock weight 8.5 kg (including ramp) differs from catalog 11.4 kg; flagged."
+ }
+}

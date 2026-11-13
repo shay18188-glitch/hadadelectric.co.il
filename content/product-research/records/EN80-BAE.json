@@ -1,0 +1,292 @@
+{
+ "modelNumber": "EN80-BAE",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "DeLonghi",
+  "exactModel": "EN80.BAE",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Manufacturer pages for EN80.BAE (Spain, Netherlands) confirm the model name, black colour, Thermoblock heating and 19 bar pump. Israeli listings found name the model EN80B or EN80.B, not EN80.BAE, so they are not used as evidence. Israeli importer not confirmed. Power, dimensions, weight, water tank and capacity could not be confirmed for this exact model. | QA: Manufacturer pages (ES, NL, DE) name EN80.BAE, matching catalog EN80-BAE apart from punctuation. Israeli listings use EN80B / EN80.B; whether the unit sold here is the same bundle with Aeroccino 3 is not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.delonghi.com/es-es/p/inissia-en80.bae-inissia-nespresso-coffee-machine/EN80.BAE.html",
+   "publisher": "De'Longhi Spain",
+   "kind": "manufacturer",
+   "market": "ES",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.delonghi.com/nl-nl/p/inissia-en80.bae-inissia-nespresso-coffee-machine/EN80.BAE.html",
+   "publisher": "De'Longhi Netherlands",
+   "kind": "manufacturer",
+   "market": "NL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.delonghi.com/de-de/p/inissia-en80.bae-inissia-nespresso-coffee-machine/EN80.BAE.html",
+   "publisher": "De'Longhi Germany",
+   "kind": "manufacturer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "לחץ משאבה",
+     "value": "19 בר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת חימום",
+     "value": "Thermoblock"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת Thermoblock מחממת רק את כמות המים הנדרשת לכל משקה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עיצוב Inissia זוכה פרס Red Dot לעיצוב מוצר 2014"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת קפה לקפסולות נספרסו מסדרת Inissia של DeLonghi, בצבע שחור. המכונה משתמשת במשאבה בלחץ 19 בר ובמערכת חימום Thermoblock שמחממת רק את המים הנדרשים לכל משקה. מתאימה למי שמחפש מכונת קפסולות פשוטה לשימוש ביתי יומיומי.",
+  "highlights": [
+   "משאבה בלחץ 19 בר",
+   "מערכת חימום Thermoblock",
+   "מחממת רק את כמות המים הנדרשת לכל משקה",
+   "עיצוב Inissia זוכה פרס Red Dot",
+   "צבע שחור"
+  ],
+  "goodFor": [
+   "שתיית אספרסו מקפסולות נספרסו בבית",
+   "מי שרוצה מכונה שמחממת רק את המים הדרושים לכל כוס",
+   "מטבח בעיצוב כהה שמתאים לו גוף שחור"
+  ],
+  "considerations": [
+   "המכונה פועלת עם קפסולות נספרסו בלבד – כדאי לוודא שזו מערכת הקפסולות שאתם משתמשים בה",
+   "כדאי לוודא בחנות שמקציף החלב כלול באריזה של הדגם הנמכר",
+   "כדאי לבדוק את תנאי האחריות בישראל לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה לחץ המשאבה של המכונה?",
+    "a": "לפי היצרן, המכונה מצוידת במשאבה בלחץ 19 בר.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת חימום יש במכונה?",
+    "a": "המכונה משתמשת במערכת Thermoblock של DeLonghi, שמחממת רק את המים הנדרשים לכל משקה.",
+    "sources": []
+   },
+   {
+    "q": "באיזה צבע הדגם?",
+    "a": "הדגם EN80.BAE מגיע בצבע שחור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קפה לקפסולות נספרסו DeLonghi Inissia דגם EN80-BAE בצבע שחור, עם משאבה בלחץ 19 בר ומערכת חימום Thermoblock. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת קפה נספרסו איניסיה",
+   "DeLonghi Inissia",
+   "EN80-BAE",
+   "EN80.BAE",
+   "מכונת קפסולות נספרסו",
+   "איניסיה שחורה",
+   "מכונת קפה דלונגי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "DeLonghi",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ משאבה",
+   "catalogValue": "19 בר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור (Intense Black)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת חימום",
+   "catalogValue": "טרמובלוק (Thermoblock)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1260W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "0.7 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת תא קפסולות משומשות",
+   "catalogValue": "9-11 קפסולות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "כ-25 שניות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות (רוחב x עומק x גובה)",
+   "catalogValue": "12x32x23 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-2.4 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "0.8 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שם המוצר",
+   "catalogValue": "מקציף חלב אירוצ'ינו 3 (Aeroccino 3)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "identity",
+   "issue": "Israeli retail and price-comparison listings name this coffee machine EN80B or EN80.B, not EN80.BAE. The Israeli variant and its importer are unclear, so no Israeli source was used.",
+   "severity": "high"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Power 1260 W, voltage, water tank, capacity, warm-up time, dimensions, weight and cable length are not confirmed on any page naming EN80.BAE. Sibling-model pages were found but were not used.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Manufacturer pages give different warranty periods: 3 years on the Spanish page and 2 years on the Dutch page. The Israeli warranty must be checked.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says the machine includes an Aeroccino 3 frother. The manufacturer pages checked do not confirm this, and one retailer question asks whether the frother is included.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog model EN80-BAE is written EN80.BAE on manufacturer pages. Same model, different punctuation.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "Israeli listings name the machine EN80B / EN80.B rather than EN80.BAE; the Israeli variant and importer are unclear.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "Catalog name says an Aeroccino 3 frother is included; no verified quote confirms it for this SKU.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog power, voltage, water tank, capsule capacity, warm-up time, dimensions, weight and cable length are not verified on any page naming this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Manufacturer pages in different countries state different warranty periods; Israeli warranty must be checked.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All three facts and both features are backed by ok quotes on De'Longhi manufacturer pages naming EN80.BAE. Catalog specs for power, voltage, water tank, capsule capacity, warm-up time, dimensions, weight and cable length are unverified and not published. Aeroccino 3 inclusion is not confirmed by the quotes, so content does not claim it. Identity set to medium because the Israeli variant (EN80B / EN80.B in Israeli listings) is unclear."
+ }
+}

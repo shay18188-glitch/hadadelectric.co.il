@@ -1,0 +1,436 @@
+{
+ "modelNumber": "SPIDER-FORMULA",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Spider",
+  "exactModel": "SPIDER-FORMULA",
+  "israeliImporter": "סיריוס אלקטרוניקה בע״מ",
+  "matchConfidence": "high",
+  "notes": "Bug lists brand SPIDER, warranty by Sirius Electronics Ltd. Spider is the brand; Sirius is the importer. | QA: All four Israeli pages name model SPIDER-FORMULA / Spider Formula gaming chair; brand is Spider, Sirius Electronics is the importer/warranty provider."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1181125",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=c-gamingchair&productid=1181125",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://royalphone.co.il/product/%D7%9B%D7%99%D7%A1%D7%90-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-spider-formula/",
+   "publisher": "Royal Phone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.bug.co.il/brand/spider/spider/formula",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Spider"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 12",
+     "label": "אחריות",
+     "value": "אחריות יבואן רשמי"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 12",
+     "label": "תקופת אחריות",
+     "value": "שנה"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, סיריוס אלקטרוניקה בע״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זווית הטיית משענת",
+     "value": "עד 125°"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סיבוב מושב",
+     "value": "360 מעלות"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנון גז",
+     "value": "בתקן SGS"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נשיאה מקסימלי",
+     "value": "עד 120 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות משענת גב",
+     "value": "84×54 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות מושב",
+     "value": "64×52 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר גלגלים",
+     "value": "6 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר בסיס גלגלים",
+     "value": "70 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח גובה כללי",
+     "value": "123-135 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 פתחי אוורור בגב הכיסא לכניסת אוויר ומניעת זיעה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלדת מתכת"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ריפוד עבה ונוח"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כרית תמיכת צוואר וכרית תמיכת גב"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "כיסא גיימרים Spider Formula עם משענת נשכבת עד 125° ומושב מסתובב 360 מעלות. הכיסא בנוי על שלדת מתכת לנשיאה של עד 120 ק״ג, עם מנגנון גז בתקן SGS לכיוון גובה בטווח 123-135 ס״מ. מתאים למשחקים ולעבודה ממושכת מול המחשב, כולל כרית צוואר וכרית גב.",
+  "highlights": [
+   "משענת נשכבת עד 125°",
+   "נשיאה של עד 120 ק״ג על שלדת מתכת",
+   "טווח גובה כללי 123-135 ס״מ במנגנון גז בתקן SGS",
+   "2 פתחי אוורור בגב הכיסא",
+   "כולל כרית תמיכת צוואר וכרית תמיכת גב"
+  ],
+  "goodFor": [
+   "ישיבה ממושכת מול מחשב למשחקים או לעבודה",
+   "מי שרוצה לשכב אחורה בהפסקות בזכות משענת נשכבת",
+   "מי שמחפש תמיכה נוספת לצוואר ולגב באמצעות כריות"
+  ],
+  "considerations": [
+   "ודאו שמשקל המשתמש אינו עולה על 120 ק״ג",
+   "בדקו שיש מקום לבסיס גלגלים בקוטר 70 ס״מ מתחת לשולחן",
+   "התאימו את טווח הגובה 123-135 ס״מ לגובה השולחן שלכם"
+  ],
+  "faq": [
+   {
+    "q": "עד כמה המשענת נשכבת?",
+    "a": "המשענת נשכבת עד 125°.",
+    "sources": []
+   },
+   {
+    "q": "מה משקל הנשיאה המקסימלי?",
+    "a": "הכיסא מיועד לנשיאה של עד 120 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "כרית תמיכת צוואר וכרית תמיכת גב.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הכיסא?",
+    "a": "אחריות לשנה ע״י סיריוס אלקטרוניקה בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיסא גיימרים Spider Formula עם משענת נשכבת עד 125° ונשיאה של עד 120 ק״ג, שלדת מתכת וכריות תמיכה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיסא גיימרים",
+   "Spider Formula",
+   "כיסא גיימינג ספיידר",
+   "SPIDER-FORMULA",
+   "כיסא גיימרים נשכב",
+   "כיסא מחשב ארגונומי",
+   "כיסא גיימרים עד 120 קג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Sirius",
+   "finding": "contradicted",
+   "correctValue": "Spider",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זווית הטיית משענת (שכיבה)",
+   "catalogValue": "עד 125 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נשיאה מקסימלי",
+   "catalogValue": "עד 120 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כרית תמיכה לגב התחתון",
+   "catalogValue": "כרית תמיכה לגב התחתון",
+   "finding": "corrected",
+   "correctValue": "כרית תמיכת גב",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פתחי אוורור",
+   "catalogValue": "2 פתחי אוורור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון גז",
+   "catalogValue": "מנגנון גז בתקן SGS",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סיבוב",
+   "catalogValue": "360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מידות משענת גב",
+   "catalogValue": "84x54 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מידות מושב",
+   "catalogValue": "64x52 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "טווח גובה כללי",
+   "catalogValue": "123-135 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "קוטר בסיס גלגלים",
+   "catalogValue": "70 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "קוטר גלגלים",
+   "catalogValue": "6 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "ריפוד",
+   "catalogValue": "דמוי עור PU",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אחריות יבואן רשמי, שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "The catalog brand is Sirius, but Zap and Wisebuy list the manufacturer as Spider. Sirius Electronics appears on Wisebuy only as a seller. The catalog's claim of an Israeli brand is not confirmed.",
+   "severity": "high"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is Sirius, but all sources name the manufacturer/brand as Spider; Sirius Electronics is the importer providing the warranty.",
+   "severity": "high"
+  },
+  {
+   "field": "ריפוד",
+   "issue": "Catalog claims PU leather upholstery; no source confirmed the material.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty facts 1 and 2 as duplicates of fact 12 (one year, Sirius Electronics), which carries the importer and period together. Brand in catalog (Sirius) differs from sources (Spider); flagged."
+ }
+}

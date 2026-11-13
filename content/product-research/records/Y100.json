@@ -1,0 +1,303 @@
+{
+ "modelNumber": "Y100",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "UWANT",
+  "exactModel": "Y100",
+  "israeliImporter": "אס ג׳י אלקטרוניקה",
+  "matchConfidence": "medium",
+  "notes": "The only Israeli page found (citydeal) sells the product as UWANT Y100 Steam, an 18,000Pa upholstery and spot cleaner with a steam mode. Another Israeli retailer lists it as Y100STEAM (page could not be fetched). The catalog describes a 1500W, 3 bar handheld steam cleaner with a 1 L tank, which does not match this product. | QA: UWANT Y100 is sold in Israel as Y100 Steam, a spot and upholstery cleaner with a steam mode, imported by אס ג׳י אלקטרוניקה. Same model code, but the catalog specs describe a different type of handheld steam cleaner, so the catalog listing needs a manual check."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/uwant-y100-steam-stain-cleaner",
+   "publisher": "City Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "18,000Pa"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורת קיטור",
+     "value": "100°C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורת מים חמים",
+     "value": "60°C"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכלי מים",
+     "value": "1.2 ליטר מים נקיים ו-1.2 ליטר מים מלוכלכים"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "5 מטרים"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע\"י אס ג׳י אלקטרוניקה, יבואן רשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיקור 99.9% מהחיידקים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלושה מצבי עבודה: מים קרים, מים חמים וקיטור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי עצמי לצינור בלחיצת כפתור אחת"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יחידה ראשית (כולל צינור)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "UWANT Y100 הוא מכשיר לניקוי כתמים וריפודים עם מצב קיטור, המשלב שאיבה ושטיפה במכשיר אחד. הוא מציע שלושה מצבי עבודה – מים קרים, מים חמים ב-60°C וקיטור ב-100°C – ועוצמת שאיבה של 18,000Pa. מתאים למי שרוצה לנקות ספות, שטיחים וריפודים בבית ולחטא אותם בקיטור.",
+  "highlights": [
+   "עוצמת שאיבה של 18,000Pa",
+   "מצב קיטור ב-100°C לחיטוי עמוק",
+   "מיכל מים נקיים ומיכל מים מלוכלכים של 1.2 ליטר כל אחד",
+   "כבל חשמל באורך 5 מטרים",
+   "ניקוי עצמי לצינור בלחיצת כפתור"
+  ],
+  "goodFor": [
+   "ניקוי כתמים מספות, ריפודים ושטיחים",
+   "חיטוי משטחים בקיטור ללא צורך בכימיקלים חזקים",
+   "הסרת כתמי שומן בעזרת מצב המים החמים"
+  ],
+  "considerations": [
+   "זהו מכשיר לניקוי כתמים וריפודים עם מצב קיטור, ולא מנקה קיטור ידני קלאסי – כדאי לוודא שזה סוג המכשיר שאתם מחפשים",
+   "המיכלים מכילים 1.2 ליטר כל אחד, ולכן בניקוי שטחים גדולים יידרש מילוי וריקון חוזר",
+   "כבל החשמל באורך 5 מטרים – כדאי לבדוק שיש שקע קרוב לאזור הניקוי"
+  ],
+  "faq": [
+   {
+    "q": "אילו מצבי עבודה יש למכשיר?",
+    "a": "יש לו שלושה מצבים: מים קרים, מים חמים ב-60°C לניקוי שומנים וקיטור ב-100°C לחיטוי עמוק.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח המיכלים?",
+    "a": "מיכל המים הנקיים ומיכל המים המלוכלכים מכילים 1.2 ליטר כל אחד.",
+    "sources": []
+   },
+   {
+    "q": "מה אורך כבל החשמל?",
+    "a": "אורך כבל החשמל הוא 5 מטרים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "שנה אחריות ע\"י אס ג׳י אלקטרוניקה, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכשיר לניקוי כתמים וריפודים עם קיטור UWANT Y100: שאיבה 18,000Pa, קיטור 100°C ומיכלים של 1.2 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "UWANT Y100",
+   "מכשיר לניקוי ריפודים",
+   "מנקה כתמים קיטור",
+   "UWANT Y100 Steam",
+   "מכשיר לניקוי ספות",
+   "שואב שוטף לריפודים",
+   "מכשיר ניקוי בקיטור UWANT"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק חשמלי",
+   "catalogValue": "1500W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "לחץ קיטור מקסימלי",
+   "catalogValue": "3 בר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן חימום מהיר",
+   "catalogValue": "כ-15 עד 30 שניות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מיכל מים",
+   "catalogValue": "1000 מ\"ל (1 ליטר)",
+   "finding": "corrected",
+   "correctValue": "1.2 ליטר נקי ו-1.2 ליטר מלוכלך",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טמפרטורת קיטור ביציאה",
+   "catalogValue": "עד 100 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "כ-4 מטרים",
+   "finding": "corrected",
+   "correctValue": "5 מטרים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220V-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קטילת חיידקים",
+   "catalogValue": "99.9%",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קטגוריה",
+   "catalogValue": "מכשיר לניקוי בקיטור",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "18,000Pa",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "No page found names plain Y100 with the catalog specs. The Israeli listing calls it UWANT Y100 Steam, and another retailer lists Y100STEAM. The model identity needs a manual check.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק חשמלי",
+   "issue": "The catalog says this is a 1500W, 3 bar handheld steam cleaner with a 1 L tank. The only Israeli page found describes an 18,000Pa upholstery and spot cleaner with two 1.2 L tanks and a 5 m cable. The catalog name and specs appear to describe a different product.",
+   "severity": "high"
+  },
+  {
+   "field": "לחץ קיטור מקסימלי",
+   "issue": "No page found gives the steam pressure in bar or the wattage. Both catalog values are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "The catalog specs (1500W, 3 bar, 1 L tank, 4 m cable) describe a handheld steam cleaner; the Israeli retailer page for UWANT Y100 Steam describes a spot/upholstery cleaner with 18,000Pa suction, two 1.2 L tanks and a 5 m cable. The catalog specs and description should be checked and replaced.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sold in Israel as UWANT Y100 Steam (also listed as Y100STEAM); confirm the catalog SKU is this unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "facts",
+   "issue": "All facts rest on a single Israeli retailer page; no manufacturer page was available.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from one Israeli retailer page (City Deal) that names UWANT Y100 Steam. Kept all six facts, three features and the in-the-box item. The catalog specs (1500W, 3 bar, 1 L tank, 4 m cable) are not supported and contradict the retailer page (two 1.2 L tanks, 5 m cable, 18,000Pa suction); the catalog describes a handheld steam cleaner while the sources describe a steam spot/upholstery cleaner. Identity set to medium."
+ }
+}

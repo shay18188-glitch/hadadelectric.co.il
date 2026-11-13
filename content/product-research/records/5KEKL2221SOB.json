@@ -1,0 +1,336 @@
+{
+ "modelNumber": "5KEKL2221SOB",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "KitchenAid",
+  "exactModel": "5KEKL2221SOB",
+  "israeliImporter": "ניופאן",
+  "matchConfidence": "high",
+  "notes": "שני אתרי קמעונאים ישראליים מציגים את הדגם המדויק. מק״ט באתר באג: 98N.1352.5KEKL2221SOB. | QA: Two Israeli retailer pages name the exact model 5KEKL2221SOB, 1.25 liters. The researcher's importer (ניופאן) is not backed by a quote."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/קומקום-חשמלי-125-ליטר-kitchenaid-98n13525kekl2221sob",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%A7%D7%99%D7%A6%D7%A0%D7%90%D7%99%D7%99%D7%93-5kekl2221sob/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "פלדת אל-חלד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר ידית ומכסה",
+     "value": "אלומיניום"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1850-2200 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל",
+     "value": "1.25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote has no axis labels; Bug labels axes differently. Generic label used.",
+     "label": "מידות",
+     "value": "26.2 × 17.8 × 22.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "1.14 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "אחריות יבואן רשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסנן אבנית נשלף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כיבוי אוטומטי כשהמים בקומקום מתאדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס 360° להנחה ושליפה מכל כיוון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיה המונעת טפטוף"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי בעיצוב רטרו של KitchenAid, דגם 5KEKL2221SOB, בנפח 1.25 ליטר. גוף הקומקום עשוי פלדת אל-חלד, הידית והמכסה מאלומיניום, וההספק הוא 1850-2200 W. הוא מתאים למי שרוצה קומקום קומפקטי עם מסנן אבנית נשלף וכיבוי אוטומטי כשהמים מתאדים.",
+  "highlights": [
+   "נפח 1.25 ליטר",
+   "הספק 1850-2200 W",
+   "גוף מפלדת אל-חלד, ידית ומכסה מאלומיניום",
+   "מסנן אבנית נשלף",
+   "בסיס 360° ופיה המונעת טפטוף"
+  ],
+  "goodFor": [
+   "מטבח קטן או משרד, בזכות נפח של 1.25 ליטר",
+   "אזורים עם מים קשים, בזכות מסנן האבנית הנשלף",
+   "מי שמחפשים קומקום מפלדת אל-חלד בעיצוב רטרו"
+  ],
+  "considerations": [
+   "נפח 1.25 ליטר: אם מרתיחים הרבה מים בבת אחת, כדאי לבדוק שהנפח מספיק",
+   "הספק של עד 2200 W: כדאי לחבר לשקע שאינו עמוס במכשירים נוספים",
+   "מידות 26.2 × 17.8 × 22.6 ס״מ: כדאי לוודא שיש מקום על המשטח ומתחת לארונות העליונים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של הקומקום?",
+    "a": "1.25 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק שלו?",
+    "a": "1850-2200 W.",
+    "sources": []
+   },
+   {
+    "q": "יש לו מסנן אבנית?",
+    "a": "כן, מסנן אבנית נשלף.",
+    "sources": []
+   },
+   {
+    "q": "הוא נכבה לבד?",
+    "a": "כן, הוא נכבה אוטומטית כשהמים בקומקום מתאדים.",
+    "sources": []
+   },
+   {
+    "q": "ממה הוא עשוי?",
+    "a": "הגוף עשוי פלדת אל-חלד, והידית והמכסה עשויים אלומיניום.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי רטרו KitchenAid 5KEKL2221SOB שחור, נפח 1.25 ליטר, הספק 1850-2200 W וגוף פלדת אל-חלד. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום KitchenAid",
+   "5KEKL2221SOB",
+   "קומקום קיצנאייד שחור",
+   "קומקום רטרו",
+   "קומקום חשמלי 1.25 ליטר",
+   "קומקום פלדת אל-חלד",
+   "קומקום KitchenAid שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1850-2200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.25 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V / 50-60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "פלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר ידית ומכסה",
+   "catalogValue": "אלומיניום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "1.14 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 26.2 ס\"מ, רוחב 17.8 ס\"מ, עומק 22.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור (Onyx Black)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "ארצות הברית (מותג), סין (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אחריות יבואן רשמי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "תוויות המידות באתר באג (גובה 26.2, רוחב 22.6, עומק 17.8) סותרות את אתר אבי סופר ואת הקטלוג (רוחב 17.8, עומק 22.6). אבי סופר מציג 26.2 X 17.8 X 22.6 בסדר גובה-רוחב-עומק. נדרשת בדיקה במידה על המכשיר או במפרט היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "מתח ותדר (220-240V / 50-60Hz) לא נמצאו באף עמוד שנשלף, ולכן לא אומתו.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "השם Onyx Black לא נמצא בעמודים הישראליים שנשלפו; השחור אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "תוצאת חיפוש (לא נשלפה) הציגה וריאנט אירופי בשם 5KEKL2221EOB. לא נבדק אם הוא זהה לדגם הישראלי.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "אבי סופר מציג 26.2 X 17.8 X 22.6 בלי לציין איזה ציר הוא איזה, ובאג מציג את הרוחב והעומק בסדר אחר. המידות פורסמו בלי שיוך לצירים, ולכן כדאי לאמת מול מפרט היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "קיים וריאנט אירופי 5KEKL2221EOB. לא אומת אם הוא זהה לדגם הישראלי.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "המתח 220-240V / 50-60Hz שבקטלוג לא אומת באף מקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions: the quote gives 26.2 X 17.8 X 22.6 without axis labels and Bug labels the axes differently, so the label was changed to a generic 'מידות' and the value kept in the quoted order. All other facts and features are kept as is."
+ }
+}

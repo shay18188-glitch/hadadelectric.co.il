@@ -1,0 +1,471 @@
+{
+ "modelNumber": "TC034B2U (6603)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "TC034B2U",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "בדפי הקמעונאים מופיע הדגם כ-TC034B2U עם קוד 6603 (גימור שחור). דף היבואן midea.co.il/product/tc034b2u מציג כותרת TC034A2U, ולכן לא שימש כראיה. | QA: One Shop names MIDEA TC034B2U, 34 ליטר, code 6603, black finish, matching the catalog. CityDeal's page is the white finish of the same model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.one-shop.co.il/items/7856252-%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%91%D7%A0%D7%95%D7%99-MIDEA-TC034B2U-34-%D7%9C%D7%99%D7%98%D7%A8-6603",
+   "publisher": "One Shop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%91%D7%A0%D7%95%D7%99-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%92%D7%A8%D7%99%D7%9C-34-%D7%9C%D7%99%D7%98%D7%A8-midea-%D7%93%D7%92%D7%9D-tc034b2u-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99---%D7%92%D7%99%D7%9E%D7%95%D7%A8-%D7%9C%D7%91%D7%9F",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מיקרוגל בנוי משולב גריל"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח פנימי",
+     "value": "34 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "31.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גריל",
+     "value": "1100 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק טורבו",
+     "value": "2500 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 38.8 × 46.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 21.5 kg",
+     "label": "משקל",
+     "value": "22 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "56 × 38 × 55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source says 8 cooking programs; 'automatic' not stated",
+     "label": "תוכניות בישול",
+     "value": "8"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי משקל או זמן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר דיגיטלי",
+     "value": "עד 95 דקות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "לוח פיקוד",
+     "value": "דיגיטלי עם לחצני מגע"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילה בפני ילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source page is the white-finish listing of the same model",
+     "label": "אחריות",
+     "value": "5 שנים ע״י המילטון, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לוח פיקוד דיגיטלי עם לחצני מגע"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון נעילה בפני ילדים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיקרוגל בנוי, מיועד להתקנה בתוך נישה בארון המטבח"
+  }
+ ],
+ "content": {
+  "summary": "מיקרוגל בנוי של Midea, דגם TC034B2U בגימור שחור, בנפח 34 ליטר ומשולב גריל. הוא מציע הספק מיקרוגל של 1000 W, גריל של 1100 W ומצב טורבו של 2500 W, עם 8 תוכניות בישול והפשרה לפי משקל או זמן. מתאים למי שמתכנן מטבח עם נישה ייעודית למיקרוגל ורוצה גם חימום וגם צלייה במכשיר אחד.",
+  "highlights": [
+   "נפח פנימי 34 ליטר",
+   "הספק מיקרוגל 1000 W וגריל 1100 W",
+   "מצב טורבו 2500 W",
+   "8 תוכניות בישול והפשרה לפי משקל או זמן",
+   "נעילה בפני ילדים ולוח מגע דיגיטלי"
+  ],
+  "goodFor": [
+   "מטבח עם נישה בנויה למיקרוגל בגימור שחור",
+   "חימום והפשרה יומיומיים לצד צלייה בגריל",
+   "בית עם ילדים, בזכות נעילת הבטיחות"
+  ],
+  "considerations": [
+   "יש לוודא שמידות הנישה בארון הן 56 × 38 × 55 ס״מ",
+   "המידות החיצוניות הן 59.5 × 38.8 × 46.8 ס״מ, וכדאי לבדוק התאמה לחזית הארון",
+   "משקל המכשיר 22 ק״ג, כך שההתקנה דורשת ארון יציב",
+   "יש לתכנן שקע חשמל בקרבת הנישה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המיקרוגל?",
+    "a": "הנפח הפנימי הוא 34 ליטר, עם צלחת מסתובבת בקוטר 31.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "מידות ההתקנה הן רוחב 56, גובה 38 ועומק 55 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בו גריל?",
+    "a": "כן, הוא משולב גריל בהספק 1100 W ומצב טורבו בהספק 2500 W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת ילדים?",
+    "a": "כן, יש מנגנון נעילה בפני ילדים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות 5 שנים ע״י המילטון, היבואן הרשמי, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל בנוי Midea TC034B2U בגימור שחור, 34 ליטר משולב גריל 1100 W והספק מיקרוגל 1000 W, לנישה ברוחב 56 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל בנוי Midea",
+   "TC034B2U",
+   "מיקרוגל בנוי 34 ליטר",
+   "מיקרוגל בנוי משולב גריל",
+   "מיקרוגל בנוי שחור",
+   "מיקרוגל מידאה",
+   "מיקרוגל אינטגרלי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "34 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גריל",
+   "catalogValue": "1100W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק טורבו",
+   "catalogValue": "2500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "זכוכית שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 59.5 ס״מ, גובה 38.8 ס״מ, עומק 46.8 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה להתקנה",
+   "catalogValue": "רוחב 56 ס״מ, גובה 38 ס״מ, עומק 55 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "315 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "21.5 ק״ג",
+   "finding": "corrected",
+   "correctValue": "22 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "8 תוכניות בישול אוטומטיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר דיגיטלי",
+   "catalogValue": "עד 95 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון נעילה בטיחותי בפני ילדים",
+   "catalogValue": "קיים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית הפשרה",
+   "catalogValue": "לפי זמן או משקל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V~50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תא בישול פנימי מנירוסטה",
+   "catalogValue": "נירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "דף היבואן midea.co.il/product/tc034b2u מציג כותרת TC034A2U ו'גימור - לבן', ולכן אינו ראיה לדגם זה. קמעונאים מציגים את TC034B2U בשני צבעים עם קודים שונים: שחור 6603 ולבן 6611. יש לוודא שהקוד בקטלוג (6603, שחור) הוא הנכון.",
+   "severity": "medium"
+  },
+  {
+   "field": "תא בישול פנימי",
+   "issue": "לא נמצא מידע על חומר התא הפנימי בדפים שנבדקו; הערך בקטלוג לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 21.5 ק״ג, ודף הקמעונאי מציין 22 ק״ג.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "הדגם נמכר בשחור (6603) ובלבן; דף היבואן מציג כותרת TC034A2U בגימור לבן. יש לוודא שקוד 6603 בקטלוג הוא השחור.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "האחריות נלקחה מדף CityDeal של גרסת הגימור הלבן של אותו דגם.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on One Shop's page for TC034B2U 6603 (black). The warranty comes from a CityDeal page whose URL names the white finish; it was kept because the importer warranty is not colour-specific, and it is flagged. The catalog weight (21.5 kg) differs from the retailer's 22 kg. The label of fact 13 was tidied."
+ }
+}

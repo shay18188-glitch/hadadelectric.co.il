@@ -1,0 +1,343 @@
+{
+ "modelNumber": "FJ-CHRT91B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Fujicom",
+  "exactModel": "FJ-CHRT91B",
+  "israeliImporter": "פוג'יקום ישראל",
+  "matchConfidence": "high",
+  "notes": "דף היבואן פוג'יקום ישראל מזכיר את הדגם בשמו המלא ומפרט את המאפיינים העיקריים. דף הקמעונאי זבילו מזכיר את הדגם ומציין מידות ועוצמת יניקה. אין דף מפרט מלא של היצרן לדגם זה. | QA: The importer page and the Israeli retailer page both name FJ-CHRT91B; width, color and installation match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://fujicom.co.il/%D7%9E%D7%95%D7%A6%D7%A8/%D7%A7%D7%95%D7%9C%D7%98-%D7%90%D7%93%D7%99%D7%9D-%D7%90%D7%A8%D7%95%D7%91%D7%94-%D7%A6%D7%9E%D7%95%D7%93-%D7%A7%D7%99%D7%A8-%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%9B%D7%A4%D7%A8%D7%99-90-%D7%A1/",
+   "publisher": "פוג'יקום ישראל",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/he/%D7%A7%D7%95%D7%9C%D7%98%D7%99-%D7%90%D7%93%D7%99%D7%9D/12210-fj-chrt91b.html",
+   "publisher": "זבילו",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת יניקה מקסימלית",
+     "value": "עד 890 מ״ק/שעה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "פילטרים",
+     "value": "2 פילטרים סופחי שומן"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "90 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer quote says height 70 cm, not explicitly maximum.",
+     "label": "גובה",
+     "value": "70 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "שלוש"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "לוח בקרה",
+     "value": "5 לחצנים: הדלקה/כיבוי, 3 בוררי מהירות ותאורה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שמנת (קרם)"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "ארובה צמוד קיר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים בכפוף לתעודת האחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עיצוב כפרי/רטרו ייחודי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתלה דקורטיבי לתליית סירים, מחבתות, מגבות ועוד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "התקנה צמודת קיר בארובה"
+  }
+ ],
+ "content": {
+  "summary": "קולט אדים ארובה צמוד קיר של Fujicom ברוחב 90 ס״מ, בעיצוב כפרי/רטרו בגוון שמנת. עוצמת היניקה מגיעה עד 890 מ״ק/שעה, עם 3 מהירויות ותאורה המופעלות בלחצנים. מתלה דקורטיבי לתליית סירים, מחבתות ומגבות הופך אותו למתאים למטבח בסגנון וינטג׳ עם כיריים רחבות.",
+  "highlights": [
+   "רוחב 90 ס״מ, התקנת ארובה צמוד קיר",
+   "עוצמת יניקה עד 890 מ״ק/שעה",
+   "3 מהירויות ותאורה, הפעלה ב־5 לחצנים",
+   "2 פילטרים סופחי שומן",
+   "מתלה דקורטיבי לסירים, מחבתות ומגבות"
+  ],
+  "goodFor": [
+   "מטבח בעיצוב כפרי או רטרו שמחפש קולט בגוון שמנת",
+   "כיריים ברוחב 90 ס״מ על קיר",
+   "מי שמעדיף הפעלה פשוטה בלחצנים",
+   "מי שרוצה מקום לתליית סירים ומגבות מעל אזור הבישול"
+  ],
+  "considerations": [
+   "ודאו שיש קיר פנוי מעל הכיריים ברוחב 90 ס״מ ומוצא לארובה",
+   "בדקו את הגובה הפנוי מעל הכיריים מול גובה הקולט של 70 ס״מ",
+   "ודאו שיש שקע חשמל סמוך למיקום ההתקנה",
+   "הפילטרים סופחי שומן ודורשים ניקוי תקופתי"
+  ],
+  "faq": [
+   {
+    "q": "מה עוצמת היניקה של הקולט?",
+    "a": "עוצמת היניקה המקסימלית היא עד 890 מ״ק/שעה.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש לקולט?",
+    "a": "יש 3 מהירויות, המופעלות בלחצנים יחד עם לחצן הדלקה/כיבוי ולחצן תאורה.",
+    "sources": []
+   },
+   {
+    "q": "איך מתקינים את הקולט?",
+    "a": "זהו קולט ארובה צמוד קיר, ברוחב 90 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "12 חודשים בכפוף לתעודת האחריות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתלות עליו כלי מטבח?",
+    "a": "כן, יש מתלה דקורטיבי לתליית סירים, מחבתות, מגבות ועוד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קולט אדים ארובה רטרו Fujicom FJ-CHRT91B ברוחב 90 ס״מ בגוון שמנת, יניקה עד 890 מ״ק/שעה ו־3 מהירויות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קולט אדים רטרו",
+   "קולט אדים 90 ס״מ",
+   "Fujicom FJ-CHRT91B",
+   "קולט אדים כפרי",
+   "קולט אדים קרם",
+   "קולט אדים ארובה צמוד קיר",
+   "פוג׳יקום קולט אדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Fujicom",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "90 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "גובה מקסימלי",
+   "catalogValue": "70 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק שאיבה מקסימלי",
+   "catalogValue": "890 מק\"ש",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מספר מהירויות הפעלה",
+   "catalogValue": "3 מהירויות",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "פאנל הפעלה מכני עם 5 לחצנים (הדלקה/כיבוי, 3 בוררי מהירות, תאורה)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "סוג פילטרים",
+   "catalogValue": "2 פילטרים סופחי שומן",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "שטיפת פילטרים",
+   "catalogValue": "הניתנים לשטיפה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג התקנה",
+   "catalogValue": "צמוד קיר (ארובה)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "קרם",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "טורקיה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק שאיבה מקסימלי",
+   "issue": "דף הקמעונאי זבילו מציין טווח עוצמת שאיבה של 800-990 מ״ק/שעה, בעוד דף היבואן מציין עד 890 מ״ק/שעה. יש לוודא מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "טבלת המפרט בדף הקמעונאי זבילו מציינת צבע לבן, בעוד דף היבואן וכותרת המוצר מציינים שמנת (קרם).",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "תוצאת חיפוש שלא נפתחה מציינת יבואן רשמי אחר. דף היבואן פוג'יקום ישראל הוא המקור שנבדק.",
+   "severity": "low"
+  },
+  {
+   "field": "עוצמת יניקה",
+   "issue": "דף הקמעונאי זבילו מציין לפי החוקר טווח 800-990 מ״ק/שעה, ודף היבואן מציין עד 890 מ״ק/שעה. פורסם ערך היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "לפי החוקר טבלת המפרט בזבילו מציינת לבן, בעוד דף היבואן מציין שמנת. פורסם ערך היבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts confirmed by the importer page (fujicom.co.il); height confirmed by the Israeli retailer page zabilo. Label wording polished only. | code guard removed: fact 3 QA value \"3 מהירויות\" not supported by quotes; kept \"שלוש\""
+ }
+}

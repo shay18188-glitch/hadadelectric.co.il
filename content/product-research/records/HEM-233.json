@@ -1,0 +1,342 @@
+{
+ "modelNumber": "HEM-233",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-233",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The Israeli retailer page for HEM-233 (bug.co.il) names the product and says the seller is an official importer (יבואן רשמי), but does not name the importer. A CWC listing title carries a Midea label; this is unconfirmed and not used. | QA: Bug.co.il page title names Hemilton HEM-233, 2.5 litre, black, matching the catalog name. Importer not named."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/סיר-לטיגון-עמוק-25-ליטר-hemilton-9321664815",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HEM-233"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "2.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Lower bound 0 is the off position on the dial; published as maximum only.",
+     "label": "טמפרטורה מרבית",
+     "value": "190°C"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "30.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך",
+     "value": "28.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "22.2 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה עליון נשלף עם פילטר אלומיניום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלון צפייה עליון רחב ושקוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סיר טיגון עם ציפוי טפלון לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון נעילה בטיחותי שמשתחרר בלחיצה על לחצן הפתיחה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סיר טיגון עמוק חשמלי של Hemilton, דגם HEM-233, בנפח 2.5 ליטר ובהספק 1800 W. ווסת הטמפרטורה מגיע עד 190°C, ובמכסה חלון צפייה רחב ופילטר אלומיניום. מתאים למי שמטגן בבית צ׳יפס, שניצלים או סופגניות ורוצה מכשיר ייעודי עם סיר בציפוי טפלון לניקוי קל.",
+  "highlights": [
+   "נפח 2.5 ליטר",
+   "הספק 1800 W",
+   "ווסת טמפרטורה עד 190°C",
+   "חלון צפייה עליון רחב ושקוף",
+   "מכסה נשלף עם פילטר אלומיניום"
+  ],
+  "goodFor": [
+   "טיגון עמוק ביתי של צ׳יפס, שניצלים וסופגניות",
+   "מי שרוצה לעקוב אחרי הטיגון דרך חלון הצפייה בלי לפתוח את המכסה",
+   "מי שמעדיף סיר עם ציפוי טפלון שקל לנקות"
+  ],
+  "considerations": [
+   "בדקו שיש מקום על השיש למכשיר במידות 30.5 × 28.2 × 22.2 ס״מ",
+   "הספק 1800 W – עדיף לחבר לשקע נפרד ולא למפצל עם מכשירים חזקים נוספים",
+   "פילטר האלומיניום במכסה נשלף – כדאי לנקות אותו מעת לעת"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של סיר הטיגון Hemilton HEM-233?",
+    "a": "נפח הסיר הוא 2.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכשיר?",
+    "a": "ההספק הוא 1800 W.",
+    "sources": []
+   },
+   {
+    "q": "לאיזו טמפרטורה אפשר לכוון את השמן?",
+    "a": "ווסת הטמפרטורה מגיע עד 190°C.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לראות את המזון בזמן הטיגון?",
+    "a": "כן, במכסה יש חלון צפייה עליון רחב ושקוף.",
+    "sources": []
+   },
+   {
+    "q": "קל לנקות את הסיר?",
+    "a": "הסיר מצופה טפלון לניקוי קל, והמכסה נשלף עם פילטר אלומיניום.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון עמוק חשמלי Hemilton HEM-233 בנפח 2.5 ליטר והספק 1800 W, עם חלון צפייה רחב ומכסה נשלף עם פילטר אלומיניום. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סיר טיגון עמוק",
+   "Hemilton HEM-233",
+   "סיר טיגון חשמלי 2.5 ליטר",
+   "סיר טיגון בשמן",
+   "מטגנת שמן חשמלית",
+   "סיר טיגון המילטון",
+   "HEM-233"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1800 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת שמן מקסימלית",
+   "catalogValue": "2.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תרמוסטט 130°C עד 190°C",
+   "catalogValue": "130°C עד 190°C",
+   "finding": "contradicted",
+   "correctValue": "מ-0 עד 190 מעלות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פילטר פחם קבוע במכסה",
+   "catalogValue": "פילטר פחם קבוע",
+   "finding": "contradicted",
+   "correctValue": "מכסה עליון נשלף עם פילטר אלומיניום",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קערה פנימית עם ציפוי Non-stick",
+   "catalogValue": "ציפוי Non-stick",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חלון הצצה גדול במכסה",
+   "catalogValue": "חלון הצצה גדול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נוריות ביקורת",
+   "catalogValue": "נוריות ביקורת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום נסתר",
+   "catalogValue": "גוף חימום נסתר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סל טיגון עם ידית מתקפלת",
+   "catalogValue": "סל טיגון עם ידית מתקפלת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דפנות קרות למגע (Cool Touch)",
+   "catalogValue": "דפנות קרות למגע",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "רוחב 30.5 ס״מ, אורך 28.2 ס״מ, עומק 22.2 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "תרמוסטט",
+   "issue": "The catalog says the temperature range is 130°C to 190°C. The Israeli retailer page gives 0 to 190 (190⁰ - 0⁰). The sources conflict and no manufacturer page was found to settle it.",
+   "severity": "high"
+  },
+  {
+   "field": "פילטר",
+   "issue": "The catalog says the lid has a permanent charcoal filter. The retailer page says a removable lid with an aluminium filter. Check the physical unit or the manual.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one Israeli retailer page for this exact model was found. No manufacturer, importer or manual page was found, so the facts rest on a single retailer.",
+   "severity": "medium"
+  },
+  {
+   "field": "manufacturer",
+   "issue": "The retailer page names the brand Hemilton and says the seller is an official importer, but it does not name the importer. A CWC listing title carries a Midea label that could not be confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "issue": "Catalog says 130°C to 190°C; the Israeli retailer page says 0 to 190. Only the 190°C maximum is published. Check the dial on the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "פילטר",
+   "issue": "Catalog says a permanent charcoal filter in the lid; the retailer page says a removable lid with an aluminium filter. Check the unit or manual and fix the catalog text.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on a single Israeli retailer page; no manufacturer, importer or manual source was found.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Temperature fact rewritten as maximum temperature 190°C: the retailer's '190⁰ - 0⁰' lower bound of 0 is almost certainly the dial's off position, not a frying temperature, and contradicts the catalog's 130-190°C. All other facts and features kept from the single Israeli retailer page that names HEM-233."
+ }
+}

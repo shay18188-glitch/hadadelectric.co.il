@@ -1,0 +1,211 @@
+{
+ "modelNumber": "ATL-8812C",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-8812C",
+  "israeliImporter": "יוסף חיים יבוא ושיווק בע״מ",
+  "matchConfidence": "high",
+  "notes": "Gold Line page names the model as a 2-in-1 battery-operated hand frother, not a 500W electric jug frother as the catalog describes. | QA: Manufacturer page names ATL-8812C in cream (קרם), a hand frother, consistent with catalog name 'מקציף חלב ידני צבע שמנת'."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/מקציף-הפלא-2-ב-1-קרם-atl-8812c/",
+   "publisher": "Gold Line Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "label reworded",
+     "label": "שם המוצר",
+     "value": "מקציף הפלא 2 ב-1"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מקור הפעלה",
+     "value": "סוללות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "added warranty provider from quote",
+     "label": "אחריות",
+     "value": "שנה ע״י יוסף חיים בע״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הקצפה מידית של חלב, קפה ועוד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ערבול ביצים להכנת חביתות ופנקייק"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתקן להעמדת המוצר ואביזריו על השיש"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מקציף ידני 2 ב-1 של Gold Line בצבע קרם, הפועל באמצעות סוללות. מתאים להקצפה מידית של חלב וקפה וגם לערבול ביצים לחביתות ופנקייק. כולל מתקן להעמדת המכשיר ואביזריו על השיש, ומתאים למי שמחפש מקציף קטן ללא חיבור לחשמל.",
+  "highlights": [
+   "פועל באמצעות סוללות, ללא כבל",
+   "הקצפה מידית של חלב וקפה",
+   "ערבול ביצים לחביתות ופנקייק",
+   "מתקן להעמדת המכשיר ואביזריו על השיש",
+   "אחריות שנה ע״י יוסף חיים בע״מ"
+  ],
+  "goodFor": [
+   "הכנת קצף חלב לקפה בבית בלי מכונת קפה",
+   "ערבול ביצים מהיר לחביתה או לבלילת פנקייק",
+   "מטבח שבו רוצים מכשיר קטן שעומד מסודר על השיש"
+  ],
+  "considerations": [
+   "המכשיר פועל על סוללות, כדאי להחזיק סוללות חלופיות בבית",
+   "זהו מקציף ידני ואינו מחמם את החלב, החימום נעשה בנפרד"
+  ],
+  "faq": [
+   {
+    "q": "האם המקציף צריך חיבור לחשמל?",
+    "a": "לא, המכשיר פועל באמצעות סוללות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בו גם לביצים?",
+    "a": "כן, הוא מתאים גם לערבול ביצים להכנת חביתות ופנקייק.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה ע״י יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקציף חלב ידני 2 ב-1 Gold Line ATL-8812C בצבע קרם, פועל על סוללות ומתאים גם לערבול ביצים. כולל מתקן העמדה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקציף חלב ידני",
+   "Gold Line ATL-8812C",
+   "ATL-8812C",
+   "מקציף הפלא 2 ב-1",
+   "מקציף חלב על סוללות",
+   "מקציף חלב גולדליין",
+   "מקציף ידני לקפה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "500W",
+   "finding": "contradicted",
+   "correctValue": "פועל באמצעות סוללות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "contradicted",
+   "correctValue": "פועל באמצעות סוללות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת הקצפה",
+   "catalogValue": "עד 115 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת חימום",
+   "catalogValue": "עד 240 מ\"ל",
+   "finding": "contradicted",
+   "correctValue": "מכשיר ידני על סוללות, ללא חימום",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "description",
+   "issue": "The manufacturer page describes a battery-powered 2-in-1 hand frother with egg-whisking use; the catalog describes a 500W jug frother with heating, 3 modes and non-stick coating. Catalog text likely belongs to another product.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog specs (500W, 230V, heating up to 240 ml, frothing up to 115 ml, non-stick, 360 base, overheat protection) contradict the manufacturer page, which describes a battery-operated hand frother. Catalog spec text likely belongs to another product.",
+   "severity": "high"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog capabilities (3 modes including hot frothing and milk heating, transparent lid) do not match the manufacturer's battery hand frother description.",
+   "severity": "high"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Manufacturer page (Gold Line Israel) confirms ATL-8812C is a battery-operated 2-in-1 hand frother in cream, matching the catalog name. Catalog technical specs (500W, 230V, heating capacity, 3 modes, non-stick, 360 base) contradict the manufacturer page and were not used. Product type label reworded to 'שם המוצר'."
+ }
+}

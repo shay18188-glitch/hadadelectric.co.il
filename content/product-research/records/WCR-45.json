@@ -1,0 +1,244 @@
+{
+ "modelNumber": "WCR-45",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sirius Living",
+  "exactModel": "WCR-45",
+  "israeliImporter": "סיריוס אלקטרוניקה בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Importer page sel.co.il names WCR-45. | QA: Importer product page names WCR-45; capacity, power and weight match catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sel.co.il/product/wcr-45/",
+   "publisher": "סיריוס אלקטרוניקה",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "21 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כמות בקבוקים",
+     "value": "8 בקבוקים"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240V/50Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "65W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "25.2 × 50 × 45 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "9.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "10-18 מעלות צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דלת",
+     "value": "דלת זכוכית כפולה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קירור תרמו-אלקטרי שקט במיוחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאורת פנים כחולה, צג דיגיטלי ומדפי כרום"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניתן למקם בנישה או בארון; רגליות מתכווננות לפילוס"
+  }
+ ],
+ "content": {
+  "summary": "מקרר יין קומפקטי של Sirius בנפח 21 ליטר, המכיל עד 8 בקבוקים. הקירור תרמו-אלקטרי ושקט, עם שליטה בטמפרטורה בין 10 ל-18 מעלות צלזיוס ודלת זכוכית כפולה. מתאים למי שמחפש מקרר יין קטן למטבח, לסלון או לפינת אירוח.",
+  "highlights": [
+   "נפח 21 ליטר, עד 8 בקבוקים",
+   "טווח טמפרטורה 10-18 מעלות צלזיוס",
+   "קירור תרמו-אלקטרי שקט במיוחד",
+   "דלת זכוכית כפולה",
+   "רוחב 25.2 ס״מ בלבד"
+  ],
+  "goodFor": [
+   "אוסף יין קטן בבית",
+   "מקום צר במטבח או בסלון, הודות לרוחב של 25.2 ס״מ",
+   "חדרים שבהם חשוב שקט, בזכות הקירור התרמו-אלקטרי",
+   "שמירת יינות בטמפרטורת הגשה בין 10 ל-18 מעלות"
+  ],
+  "considerations": [
+   "ודאו שהמקום המיועד מתאים למידות 25.2 × 50 × 45 ס״מ (רוחב × גובה × עומק)",
+   "יש לוודא שקע חשמל 220-240V בקרבת מקום ההצבה",
+   "הקיבולת מוגבלת ל-8 בקבוקים – מתאים לאוסף קטן",
+   "טווח הטמפרטורה הוא 10-18 מעלות צלזיוס, ולא לקירור משקאות לטמפרטורות נמוכות יותר"
+  ],
+  "faq": [
+   {
+    "q": "כמה בקבוקים נכנסים למקרר?",
+    "a": "המקרר מכיל עד 8 בקבוקים, בנפח כולל של 21 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "לאיזה טווח טמפרטורות אפשר לכוון אותו?",
+    "a": "ניתן לשלוט בטמפרטורה בין 10 ל-18 מעלות צלזיוס.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר רועש?",
+    "a": "המקרר פועל בטכנולוגיית קירור תרמו-אלקטרית שקטה במיוחד.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להכניס אותו לנישה או לארון?",
+    "a": "לפי היבואן ניתן למקם אותו בנישה או בארון, והרגליות מתכווננות לפילוס.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 25.2 ס״מ, גובה 50 ס״מ ועומק 45 ס״מ, ומשקלו 9.5 ק״ג.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר יין Sirius WCR-45 בנפח 21 ליטר ל-8 בקבוקים, קירור תרמו-אלקטרי שקט וטמפרטורה 10-18 מעלות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר יין",
+   "מקרר יין 8 בקבוקים",
+   "Sirius WCR-45",
+   "WCR-45",
+   "מקרר יין קטן",
+   "מקרר יין תרמו-אלקטרי",
+   "מקרר יין סיריוס",
+   "מקרר יין 21 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "21 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "65W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "9.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts verified on the importer page (sel.co.il) naming WCR-45; matches catalog."
+ }
+}

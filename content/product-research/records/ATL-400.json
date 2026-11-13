@@ -1,0 +1,378 @@
+{
+ "modelNumber": "ATL-400",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-400",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם ATL-400 מופיע באתר היצרן goldline.co.il ובאתר הקמעונאי BUG. מידות ומספר הרגליות סותרים בין המקורות, ראו reviewFlags. | QA: Manufacturer page goldline.co.il names ATL-400 (פלטה שבת 4 סירים ענקית / ATL-400); BUG and Zap also name the model. Warranty is given by יוסף חיים בע\"מ, importer role not stated explicitly."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%A4%D7%9C%D7%98%D7%AA-%D7%A9%D7%91%D7%AA-%D7%92%D7%93%D7%95%D7%9C%D7%94-gold-line-99045521880",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.goldline.co.il/product/%D7%A4%D7%9C%D7%98%D7%AA-%D7%A9%D7%91%D7%AA-%D7%92%D7%93%D7%95%D7%9C%D7%94-%D7%91%D7%A8%D7%90%D7%A9%D7%99%D7%AA/",
+   "publisher": "Gold Line Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=38684",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "400 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר סירים",
+     "value": "4 סירים"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר המשטח",
+     "value": "מתכת מצופה אמייל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רגליות",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer figures; catalog says height 6 cm",
+     "label": "מידות (רוחב × אורך × גובה)",
+     "value": "42.5 × 59 × 7 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד",
+     "value": "7290001895894"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת חימום רציפה השומרת על רמת חום אחידה בכל שטח הפלטה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מאושרת לשימוש בשבת על ידי מכון צ.מ.ת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בעלת אישור כשר למהדרין מהמכון המדעי טכנולוגי צומת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין אפשרות להגביר או להקטין את עוצמת החום, בהתאם לדרישות ההלכה לשבת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "זוג ידיות מבודדות חום לאחיזה נוחה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגליות נירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פינות מעוגלות לבטיחות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "פלטת שבת חשמלית של Gold Line לארבעה סירים, דגם ATL-400, בהספק 400 W ומשטח מתכת מצופה אמייל. הפלטה מאושרת לשימוש בשבת על ידי מכון צומת, וחום הפלטה קבוע ואינו ניתן לכיוון. מתאימה למי שמחמם כמה סירים יחד לסעודות שבת וחג.",
+  "highlights": [
+   "מקום לארבעה סירים",
+   "הספק 400 W",
+   "מאושרת לשימוש בשבת על ידי מכון צומת",
+   "משטח מתכת מצופה אמייל ורגליות נירוסטה",
+   "אחריות לשנה"
+  ],
+  "goodFor": [
+   "חימום כמה סירים יחד לסעודות שבת וחג",
+   "משפחות המקפידות על פלטה עם אישור הלכתי של מכון צומת",
+   "מי שמחפש פלטה עם חום אחיד ללא כפתורי כיוון"
+  ],
+  "considerations": [
+   "מידות הפלטה לפי היצרן הן 42.5 × 59 × 7 ס״מ, כדאי לוודא שיש מקום פנוי על השיש",
+   "החום קבוע ואינו ניתן להגברה או להקטנה",
+   "יש לוודא שקע חשמל קרוב, ורצוי לחבר אותה לשעון שבת לפי הצורך"
+  ],
+  "faq": [
+   {
+    "q": "כמה סירים נכנסים על הפלטה?",
+    "a": "הפלטה מיועדת לארבעה סירים.",
+    "sources": []
+   },
+   {
+    "q": "האם הפלטה מאושרת לשבת?",
+    "a": "כן, היא מאושרת לשימוש בשבת על ידי מכון צומת.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשנות את עוצמת החום?",
+    "a": "לא, אין אפשרות להגביר או להקטין את החום, בהתאם לדרישות ההלכה.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הפלטה?",
+    "a": "ההספק הוא 400 W.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה על ידי יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "פלטת שבת Gold Line ATL-400 לארבעה סירים, הספק 400 W ואישור מכון צומת לשימוש בשבת. משטח אמייל ורגליות נירוסטה, בחדד אלקטריק נהריה",
+  "keywords": [
+   "פלטת שבת 4 סירים",
+   "Gold Line ATL-400",
+   "פלטת שבת גולד ליין",
+   "פלטה חשמלית לשבת",
+   "פלטת שבת גדולה",
+   "פלטת שבת מאושרת מכון צומת",
+   "ATL400"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "400W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 59 ס\"מ, אורך 42.5 ס\"מ, גובה 6 ס\"מ",
+   "finding": "contradicted",
+   "correctValue": "רוחב 42.5 ס\"מ, אורך 59 ס\"מ, גובה 7 ס\"מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "עד 4 סירים בו-זמנית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אישור שבת",
+   "catalogValue": "מאושרת לשימוש בשבת ובחגים על ידי מכון צ.מ.ת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר המשטח",
+   "catalogValue": "מתכת מצופה אמייל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג רגליות",
+   "catalogValue": "נירוסטה (4 או 6 רגליות בהתאם לסדרה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "מידות באתר היצרן (רוחב 42.5, אורך 59, גובה 7 ס״מ) שונות מאלו שב-BUG ובקטלוג (59 × 42.5 × 6); פורסמו מידות היצרן, יש לבדוק מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "באתר BUG מופיע 2 סירים כקיבולת מוערכת, בעוד היצרן וזאפ מציינים 4 סירים.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג רגליות",
+   "issue": "מספר הרגליות משתנה בין המקורות: היצרן מציין נירוסטה ללא מספר, BUG מציין 6 ו-Zap מציין 4. הקטלוג כותב 4 או 6.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן הרשמי לא מזוהה בבירור. היצרן מציין את יוסף חיים בע\"מ רק כגורם האחריות.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "היצרן מציין גובה 7 ס״מ ורוחב 42.5 / אורך 59 ס״מ, בעוד הקטלוג כותב רוחב 59, אורך 42.5 וגובה 6 ס״מ. פורסמו מידות היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "בעמוד BUG מופיע 2 סירים, ככל הנראה טעות רישום; היצרן וזאפ מציינים 4 סירים.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג רגליות",
+   "issue": "מספר הרגליות אינו אחיד בין המקורות (4 או 6) ולא פורסם.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept. Dimensions published per manufacturer (42.5 × 59 × 7 ס״מ), which contradicts the catalog height of 6 cm. BUG page also lists '2 סירים' as capacity, which looks like a listing error; capacity of 4 pots confirmed by the manufacturer and Zap. Color kept from BUG (consistent with catalog). Leg count not published."
+ }
+}

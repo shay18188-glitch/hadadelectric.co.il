@@ -1,0 +1,400 @@
+{
+ "modelNumber": "48182",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Morphy Richards",
+  "exactModel": "48182",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "עמוד היבואן/יצרן לא נמצא; המידע מחנויות ישראליות וסקירת WiseBuy. | QA: Israeli retailers and a WiseBuy review name model 48182 by Morphy Richards, imported by Sarig. No manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/morphyrichards-48182",
+   "publisher": "City Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/brand/morphyrichards/48182",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.wisebuy.co.il/proreview.aspx?productid=1242348",
+   "publisher": "WiseBuy",
+   "kind": "review",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://zabilo.com/en/juice-extractors/12121-48182.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג המסחטה",
+     "value": "מסחטה איטית / כבישה קרה"
+    },
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פליטת קליפות וציפה",
+     "value": "רציפה, ללא הפסקות לשחרור סתימות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחריות מלאה + 4 שנים מוגבלות על המנוע"
+    },
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Warranty length is covered by fact 1.",
+     "label": "יבואן רשמי",
+     "value": "שריג אלקטריק"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Removed unquoted 'assembled' qualifier.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "14 × 48 × 19 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Review measurement, not a manufacturer figure.",
+     "label": "רמת רעש (נמדדה בסקירה)",
+     "value": "62–64 דציבל"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מכלים",
+     "value": "2 מכלים – אחד לציפה ואחד למיץ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר המכלים",
+     "value": "ללא BPA"
+    },
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פתח הזנה",
+     "value": "רחב, להכנסת פירות שלמים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סחיטה איטית בדחיסה לשמירה על הוויטמינים, המינרלים והערכים התזונתיים של המיץ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פליטת קליפות וציפה באופן רציף, ללא הפסקות לשחרור סתימות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאימה למיצי פירות, ירקות, עלים ועשב חיטה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אין להכניס את חלקי המסחטה למדיח כלים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת ניקוי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חוברת מתכונים בעברית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote not on page.",
+   "text": "דוחסן לדחיפת הרכיבים פנימה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אביזר להכנת סורבה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מסחטת מיצים איטית של Morphy Richards, דגם 48182, הפועלת בשיטת כבישה קרה ומתאימה לפירות, ירקות, עלים ועשב חיטה. פתח ההזנה הרחב מאפשר להכניס פירות שלמים, והקליפות והציפה נפלטות ברציפות למכל נפרד. מתאימה למי שמכין מיצים טריים בבית ורוצה לקצר את זמן החיתוך וההכנה.",
+  "highlights": [
+   "סחיטה איטית בכבישה קרה",
+   "פתח הזנה רחב להכנסת פירות שלמים",
+   "פליטה רציפה של קליפות וציפה ללא הפסקות",
+   "2 מכלים ללא BPA – למיץ ולציפה",
+   "שנה אחריות מלאה + 4 שנים מוגבלות על המנוע"
+  ],
+  "goodFor": [
+   "הכנת מיצי ירקות ועלים ירוקים, כולל עשב חיטה",
+   "מי שרוצה להכניס פירות שלמים בלי לחתוך לחתיכות קטנות",
+   "סחיטה של כמויות ברצף בלי לעצור לשחרור סתימות",
+   "הכנת סורבה בעזרת האביזר המצורף"
+  ],
+  "considerations": [
+   "את החלקים יש לשטוף ביד, אין להכניס אותם למדיח"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להכניס את החלקים למדיח כלים?",
+    "a": "לא. יש לשטוף את החלקים ביד, ובאריזה מצורפת מברשת ניקוי.",
+    "sources": []
+   },
+   {
+    "q": "צריך לחתוך את הפירות לפני הסחיטה?",
+    "a": "פתח ההזנה רחב ומיועד להכנסת פירות שלמים.",
+    "sources": []
+   },
+   {
+    "q": "המסחטה מתאימה לעלים ירוקים?",
+    "a": "כן, היא מתאימה למיצי פירות, ירקות, עלים ועשב חיטה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המסחטה?",
+    "a": "שנה אחריות מלאה ועוד 4 שנים מוגבלות על המנוע, מטעם היבואן שריג אלקטריק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מסחטת מיצים איטית Morphy Richards 48182 בכבישה קרה, עם פתח רחב לפירות שלמים ופליטת ציפה רציפה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מסחטת מיצים איטית",
+   "Morphy Richards 48182",
+   "מורפי ריצ'רדס מסחטה",
+   "מסחטה כבישה קרה",
+   "מסחטת מיץ ירוק",
+   "מסחטה לעשב חיטה",
+   "מסחטה איטית פתח רחב"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Morphy richards",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "סחיטה איטית בדחיסה (Cold Press)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "2 מיכלים, מברשת ניקוי, חוברת מתכונים בעברית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומרים",
+   "catalogValue": "מיכלים ללא BPA",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פתח הזנה",
+   "catalogValue": "פתח הזנה רחב להכנסת פירות שלמים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פליטת קליפות וציפה",
+   "catalogValue": "פליטה רציפה ללא סתימות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שימושים",
+   "catalogValue": "פירות קשים, ירקות, עלים ירוקים ועשב חיטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "City Deal lists 5 years of warranty under the Sharig Electric terms, while BUG and WiseBuy say 1 full year plus 4 limited years on the motor. Check the importer's current terms.",
+   "severity": "medium"
+  },
+  {
+   "field": "performance",
+   "issue": "Motor power (W), capacity and dimensions/weight were not found on any page fetched for this exact model, so these facts are not recorded.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "The catalog says China (סין) but no fetched page states the country of origin for this model.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "מידות ורעש מקורם בסקירת WiseBuy בלבד ולא בעמוד יצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "City Deal reportedly lists 5 years of warranty, while BUG and WiseBuy say 1 full year plus 4 limited years on the motor. Check the importer's current terms.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "The catalog says China, but no source states the country of origin.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "The dimensions and noise level come only from the WiseBuy review, not from a manufacturer page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected in-the-box item 2 (tamper) because its quote failed. Removed the unquoted 'when assembled' note from the dimensions. Recast fact 8 as the official importer, since the warranty itself is covered by fact 1. Labelled noise as a review measurement. | code guard removed: faq: \"מה המידות של המסחטה?\"; consideration: \"גובה המסחטה 48 ס״מ – כדאי לוודא שיש מספיק מקום מתחת לארונות העליונים\"; consideration: \"רמת הרעש שנמדדה בסקירה היא 62–64 דציבל\""
+ }
+}

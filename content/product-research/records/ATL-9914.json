@@ -1,0 +1,410 @@
+{
+ "modelNumber": "ATL-9914",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-9914",
+  "israeliImporter": "יוסף חיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בדף היבואן ובדפי משווקים ישראליים כ-ATL-9914. לא נמצא דף מפרט מלא של היצרן; העובדות מבוססות על דפי היבואן והמשווקים. | QA: All sources are Israeli pages naming ATL-9914, 1.5 liter fryer by Gold Line."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ivory.co.il/catalog.php?id=120494",
+   "publisher": "אייבורי",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/סיר-טיגון-חשמלי-15-ליטר-gold-line-1000w-906545614",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.goldline.co.il/product-tag/%D7%A1%D7%99%D7%A8-%D7%97%D7%A9%D7%9E%D7%9C%D7%99/",
+   "publisher": "Gold Line Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.lior-electric.co.il/product/%D7%A1%D7%99%D7%A8-%D7%98%D7%99%D7%92%D7%95%D7%9F-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-1-5-%D7%9C%D7%99%D7%98%D7%A8-gold-line-%D7%93%D7%92%D7%9D-atl-9914/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s5",
+   "url": "https://refaeli.co.il/items/3475022-ATL-9914",
+   "publisher": "רפאלי",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s6",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1039907",
+   "publisher": "זאפ",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 900W; two retailer pages say 1000W.",
+     "label": "הספק",
+     "value": "1000 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל השמן",
+     "value": "1.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Width includes handles; depth excludes basket handle.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "22 × 20 × 26 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר מעטפת",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ידיות",
+     "value": "זוג ידיות מבודדות חום"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s5"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "wording fixed",
+   "text": "פילטר פחם לסינון ריחות טיגון"
+  },
+  {
+   "sources": [
+    "s6"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "תרמוסטט מתכוונן לבחירת חום השמן הרצוי"
+  },
+  {
+   "sources": [
+    "s5"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה עם חלון שקוף לבקרה אחר הטיגון"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "typo fixed",
+   "text": "נורית ביקורת להפעלה ומצב READY המעדכן על הגעת השמן לטמפרטורת עבודה"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון בטיחות המנתק את המכשיר בהעדר שמן"
+  },
+  {
+   "sources": [
+    "s5"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת טיגון ומיכל שמן פנימי נשלפים לניקוי"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת מזון נשלפת ומתקפלת לאחסון נוח"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of facts 3 and 5",
+   "text": "דפנות נירוסטה עם זוג ידיות מבודדות חום"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סיר טיגון חשמלי בשמן של Gold Line, דגם ATL-9914, עם מיכל שמן בנפח 1.5 ליטר והספק 1000 W. לסיר מעטפת נירוסטה, תרמוסטט מתכוונן, מכסה עם חלון שקוף ופילטר פחם לסינון ריחות טיגון. מתאים למי שמחפש סיר טיגון קומפקטי לשימוש ביתי, עם רשת ומיכל פנימי נשלפים לניקוי.",
+  "highlights": [
+   "מיכל שמן בנפח 1.5 ליטר",
+   "הספק 1000 W",
+   "תרמוסטט מתכוונן לבחירת חום השמן",
+   "פילטר פחם לסינון ריחות טיגון",
+   "מנגנון בטיחות המנתק את המכשיר בהעדר שמן"
+  ],
+  "goodFor": [
+   "טיגון עמוק בכמויות קטנות במטבח ביתי",
+   "מטבח עם מקום מוגבל על השיש או בארון, בזכות מידות 22 × 20 × 26 ס״מ",
+   "מי שרוצה לעקוב אחר הטיגון דרך חלון שקוף בלי לפתוח את המכסה"
+  ],
+  "considerations": [
+   "נפח המיכל הוא 1.5 ליטר – כדאי לוודא שהוא מספיק לכמויות שאתם מטגנים בדרך כלל",
+   "בדקו שיש מקום על השיש לסיר במידות 22 × 20 × 26 ס״מ, ושהעומק אינו כולל את ידית הרשת",
+   "מומלץ לחבר לשקע זמין ליד משטח העבודה, הרחק ממקורות מים"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח מיכל השמן?",
+    "a": "מיכל השמן מכיל 1.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הסיר?",
+    "a": "לפי דפי משווקים ישראליים, ההספק הוא 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "האם קל לנקות את הסיר?",
+    "a": "כן, רשת הטיגון ומיכל השמן הפנימי נשלפים לניקוי.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה במקרה שאין שמן בסיר?",
+    "a": "כן, יש מנגנון בטיחות מובנה המנתק את המכשיר בהעדר שמן.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון חשמלי Gold Line ATL-9914 עם מיכל שמן 1.5 ליטר, הספק 1000 W ותרמוסטט מתכוונן. פרטים והזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "סיר טיגון חשמלי",
+   "סיר טיגון בשמן",
+   "Gold Line ATL-9914",
+   "גולד ליין סיר טיגון",
+   "סיר טיגון 1.5 ליטר",
+   "ATL-9914",
+   "סיר טיגון עמוק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "900W",
+   "finding": "corrected",
+   "correctValue": "1000 W",
+   "sources": [
+    "s5"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל שמן",
+   "catalogValue": "1.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "130 עד 190 מעלות צלזיוס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורית ביקורת",
+   "catalogValue": "נורית ביקורת למעקב אחר מצב ההפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "פילטר קבוע לסינון ריחות ועשן",
+   "finding": "corrected",
+   "correctValue": "פילטר פחם לסינון ריחות טיגון",
+   "sources": [
+    "s5"
+   ]
+  },
+  {
+   "field": "מכסה עם חלון הצצה",
+   "catalogValue": "מכסה עם חלון הצצה גדול",
+   "finding": "confirmed",
+   "sources": [
+    "s5"
+   ]
+  },
+  {
+   "field": "ציפוי מיכל פנימי",
+   "catalogValue": "Non-stick",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סלסלת טיגון מנירוסטה",
+   "catalogValue": "סלסלת טיגון מנירוסטה עם ידית מתפרקת ומתקפלת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "קומפקטי ומתאים לאחסון נוח",
+   "finding": "corrected",
+   "correctValue": "22 ס״מ × 20 ס״מ × 26 ס״מ (רוחב × גובה × עומק)",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "חומר מעטפת",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "נירוסטה",
+   "sources": [
+    "s4"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 900W, אבל דפי היבואן והמשווקים הישראליים מציינים 1000W לאותו דגם",
+   "severity": "high"
+  },
+  {
+   "field": "טמפרטורה",
+   "issue": "טווח הטמפרטורות 130–190 מעלות, המתח 230V ומדינת הייצור לא נמצאו בדפים שנבדקו",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 900W, אבל דפי משווקים ישראליים מציינים 1000W לאותו דגם",
+   "severity": "high"
+  },
+  {
+   "field": "מפרט קטלוג",
+   "issue": "טווח הטמפרטורות 130–190, מתח 230V, ציפוי Non-stick, סלסלה מנירוסטה וארץ ייצור לא אומתו במקורות",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Power kept as 1000 W per two Israeli retailer pages (catalog says 900W, flagged). Fixed wording of feature 0 (charcoal filter for frying odours) and typo in feature 3. Rejected duplicate feature 7 (same as fact 5). Gold Line site relabelled importer."
+ }
+}

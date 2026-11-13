@@ -1,0 +1,339 @@
+{
+ "modelNumber": "Crosswave Omniforce Edge Pro 4000N",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bissell",
+  "exactModel": "4000N",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "Israeli retailer pages name the model as BISSELL CROSSWAVE OMNIFORCE EDGE PRO 4000N and state official importer. No manufacturer or importer page for this exact model was reached. | QA: Both Israeli retailer pages name BISSELL CROSSWAVE OMNIFORCE EDGE PRO 4000N; one names Hamilton as the official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/שואב-שוטף-ביסל-crosswave-omniforce-edge-pro-4000n/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%95%D7%A9%D7%95%D7%98%D7%A3-%D7%A8%D7%A6%D7%A4%D7%95%D7%AA-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-bissell-crosswave-omni-force-edge-pro-4000n",
+   "publisher": "City Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "27 × 110.7 × 27 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says about 5.6 kg.",
+     "label": "משקל",
+     "value": "3.88 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד כ-30 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 70%.",
+     "label": "עוצמת שאיבה",
+     "value": "שאיבה מוגברת ב-75%"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי ניקוי",
+     "value": "TURBO / POWER MOP / POWER VAC"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הטיה",
+     "value": "עד 170 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Other Israeli retailer reportedly states one year.",
+     "label": "תקופת אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת בטכנולוגיה המונעת הסתבכות שיער"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי עצמי אוטומטי בלחיצת כפתור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית ZERO GAP לניקוי עד קו הקיר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Bissell CrossWave OmniForce Edge Pro 4000N הוא שואב שוטף אלחוטי ששואב ושוטף רצפות במעבר אחד. הסוללה מספיקה לעד כ-30 דקות ניקוי, המשקל 3.88 ק״ג וטכנולוגיית ZERO GAP מנקה עד קו הקיר. מתאים למי שרוצה לשאוב ולשטוף בלי לגרור כבל ובלי לעבור על הרצפה פעמיים.",
+  "highlights": [
+   "עד כ-30 דקות ניקוי אלחוטי",
+   "משקל 3.88 ק״ג",
+   "מצבי TURBO, POWER MOP ו-POWER VAC",
+   "ניקוי עצמי אוטומטי בלחיצת כפתור",
+   "ZERO GAP לניקוי עד קו הקיר"
+  ],
+  "goodFor": [
+   "בית עם רצפות קשות שצריך לשאוב ולשטוף לעיתים קרובות",
+   "בית עם בעלי חיים או שיער ארוך, בזכות מברשת שמונעת הסתבכות שיער",
+   "ניקוי לאורך קירות ופנלים בזכות ZERO GAP",
+   "ניקוי מתחת לרהיטים נמוכים בזכות הטיה של עד 170 מעלות"
+  ],
+  "considerations": [
+   "זמן העבודה עד כ-30 דקות לטעינה; בבית גדול ייתכן שיידרש להטעין באמצע",
+   "גובה המכשיר 110.7 ס״מ ובסיסו 27 × 27 ס״מ – כדאי לתכנן מקום אחסון וטעינה ליד שקע",
+   "תקופת האחריות מופיעה באופן שונה במקורות – כדאי לוודא מול היבואן"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן אפשר לנקות בטעינה אחת?",
+    "a": "לפי מקורות ישראליים, הסוללה מספיקה לעד כ-30 דקות של ניקוי אלחוטי.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקל המכשיר?",
+    "a": "המשקל הוא 3.88 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "אילו מצבי ניקוי יש?",
+    "a": "יש שלושה מצבים: TURBO, POWER MOP ו-POWER VAC.",
+    "sources": []
+   },
+   {
+    "q": "האם המכשיר מנקה את עצמו?",
+    "a": "כן, יש מחזור ניקוי עצמי אוטומטי שמופעל בלחיצת כפתור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב שוטף אלחוטי Bissell CrossWave OmniForce Edge Pro 4000N – עד כ-30 דקות ניקוי, ניקוי עצמי אוטומטי ו-ZERO GAP. בחדד אלקטריק נהריה",
+  "keywords": [
+   "ביסל קרוסווייב 4000N",
+   "Bissell CrossWave OmniForce Edge Pro",
+   "שואב שוטף אלחוטי ביסל",
+   "שואב שוטף 4000N",
+   "Bissell 4000N",
+   "שואב שוטף לרצפות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "זמן עבודה מקסימלי",
+   "catalogValue": "עד 30 דקות רצופות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל מכשיר",
+   "catalogValue": "כ-5.6 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "3.88 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצבי עבודה (Power Vac / Turbo)",
+   "catalogValue": "מצב Power Vac; מצב Turbo",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שאיבה יבשה מוגברת",
+   "catalogValue": "70% יותר במצב שאיבה יבשה",
+   "finding": "corrected",
+   "correctValue": "שאיבה מוגברת ב-75%",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מיכל מים נקיים",
+   "catalogValue": "כ-850 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מיכל מים מלוכלכים",
+   "catalogValue": "כ-600 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "75 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח סוללה",
+   "catalogValue": "25.2V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "ארצות הברית (מיוצר בסין)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג מברשת",
+   "catalogValue": "מברשת רולר רב-משטחית (Tangle-Free)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "Catalog says about 5.6 kg, but both Israeli retailer pages give 3.88 kg for this model. Check the catalog weight.",
+   "severity": "high"
+  },
+  {
+   "field": "תקופת אחריות",
+   "issue": "Sources conflict. One Israeli retailer says two years under the importer's terms, the other says one year (אחריות לשנה) under the importer. Confirm with the importer before quoting a warranty period.",
+   "severity": "high"
+  },
+  {
+   "field": "מיכל מים נקיים ומלוכלכים",
+   "issue": "No authoritative page for this exact model was reached with tank capacities, so the catalog values remain unverified. Foreign listings give conflicting figures.",
+   "severity": "medium"
+  },
+  {
+   "field": "רמת רעש ומתח סוללה",
+   "issue": "No Israeli or manufacturer page reached with noise level or battery voltage for this exact model. Catalog values are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "Catalog says manufactured in China with US origin. Not verified by any page reached.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog says about 5.6 kg; Israeli retailer page gives 3.88 kg for this model. Update the catalog weight.",
+   "severity": "high"
+  },
+  {
+   "field": "תקופת אחריות",
+   "issue": "Israeli retailers disagree (two years vs one year under the importer). Confirm with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "issue": "Catalog says 70% stronger suction; Israeli retailer says 75%. Check catalog text.",
+   "severity": "medium"
+  },
+  {
+   "field": "מיכלי מים, רמת רעש, מתח סוללה",
+   "issue": "Catalog values for tank capacities, noise level and battery voltage were not verified by any source.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Warranty fact (id 6) marked conflict: the researcher reports the second Israeli retailer page says one year under the importer while the first says two years. All other facts kept from ok quotes on pages naming the model."
+ }
+}

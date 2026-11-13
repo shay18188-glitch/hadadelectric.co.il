@@ -1,0 +1,357 @@
+{
+ "modelNumber": "60GH503B (6737)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "60GH503-B(6737)",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "Midea's own page lists the model as 60GH503-B(6737). The Israeli retailer page lists it as 60GH503B 6737 and names Hamilton as the official importer. | QA: Midea IL page lists 60GH503-B(6737); Israeli retailer lists 60GH503B 6737, same SKU as catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il-en/cooking-range/built-in-hob/midea-gas-hob-4-burner-60-cm-60gh503",
+   "publisher": "Midea",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-%D7%9E%D7%99%D7%93%D7%90%D7%94-60gh503b-6737-%D7%A9%D7%97%D7%95%D7%A8/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "600×515×90 mm from manufacturer",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 9 × 51.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות חיתוך להתקנה",
+     "value": "56 × 48 ס״מ (רוחב × עומק)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מבער טורבו כפול",
+     "value": "3600 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מבערים בינוניים",
+     "value": "1750 W לכל מבער (2 מבערים)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מבער קטן",
+     "value": "1000 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "quote does not say black; color in fact 7",
+     "label": "סוג משטח",
+     "value": "זכוכית מחוסמת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תושבות סירים",
+     "value": "ברזל יצוק"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיישני בטיחות",
+     "value": "ניתוק אוטומטי של אספקת הגז בכיבוי הלהבה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "retailer page states both 1 year and two years; importer wording not in quote",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מבערים איטלקיים מתוצרת SABAF"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת הצתה אלקטרונית לכל מבער"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ברז לשליטה מדויקת על עוצמת הלהבה לכל מבער"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז Midea 60GH503B ברוחב 60 ס״מ עם משטח זכוכית מחוסמת שחורה ו-4 מבערים מתוצרת SABAF. הכיריים כוללות מבער טורבו כפול בהספק 3600 W, תושבות סירים מברזל יצוק וחיישני בטיחות המנתקים את אספקת הגז בכיבוי הלהבה. מתאימות למטבח עם נישת שיש סטנדרטית שמחפש כיריים גז עם הצתה אלקטרונית.",
+  "highlights": [
+   "מבער טורבו כפול בהספק 3600 W",
+   "4 מבערים מתוצרת SABAF איטליה",
+   "משטח זכוכית מחוסמת בצבע שחור",
+   "תושבות סירים מברזל יצוק",
+   "חיישני בטיחות לניתוק אספקת הגז בכיבוי הלהבה"
+  ],
+  "goodFor": [
+   "בישול מהיר בווק או בסיר גדול על מבער הטורבו הכפול",
+   "מטבח בעיצוב כהה שמתאים לו משטח זכוכית שחור",
+   "בישול במקביל במספר סירים בעוצמות שונות",
+   "מי שמחפש כיריים גז עם ניתוק גז אוטומטי בכיבוי להבה"
+  ],
+  "considerations": [
+   "לוודא שחיתוך השיש מתאים למידות 56 × 48 ס״מ",
+   "ההתקנה והחיבור לגז נעשים על ידי מתקין גז מוסמך",
+   "מערכת ההצתה האלקטרונית דורשת שקע חשמל בקרבת הכיריים",
+   "לבדוק את תנאי האחריות מול היבואן לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה מידות החיתוך בשיש להתקנת הכיריים?",
+    "a": "מידות החיתוך הן 56 × 48 ס״מ (רוחב × עומק).",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המבערים?",
+    "a": "מבער טורבו כפול 3600 W, שני מבערים בינוניים 1750 W כל אחד ומבער קטן 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בכיריים הגנה מפני דליפת גז?",
+    "a": "כן, חיישני בטיחות מנתקים אוטומטית את אספקת הגז במקרה של כיבוי הלהבה.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויות תושבות הסירים?",
+    "a": "תושבות הסירים עשויות מברזל יצוק לפיזור חום אחיד.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות החיצוניות של הכיריים?",
+    "a": "60 × 9 × 51.5 ס״מ (רוחב × גובה × עומק).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Midea 60GH503B ברוחב 60 ס״מ, זכוכית מחוסמת שחורה ומבער טורבו כפול 3600 W עם 4 מבערי SABAF. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז מידאה",
+   "Midea 60GH503B",
+   "60GH503B 6737",
+   "כיריים גז 60 ס״מ זכוכית שחורה",
+   "כיריים גז מבער טורבו",
+   "כיריים גז SABAF",
+   "כיריים גז זכוכית מחוסמת",
+   "כיריים גז 4 מבערים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 60 ס\"מ, עומק 51.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות התקנה",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 48 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4 מבערי גז",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספקי מבערים",
+   "catalogValue": "טורבו 3600W, שני בינוניים 1750W, קטן 1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבערים SABAF",
+   "catalogValue": "מתוצרת SABAF איטליה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג משטח",
+   "catalogValue": "זכוכית מחוסמת שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיישני בטיחות FFD",
+   "catalogValue": "ניתוק אוטומטי של אספקת הגז בכיבוי להבה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תושבות סירים",
+   "catalogValue": "ברזל יצוק",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Midea",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "The Israeli retailer page header says 1 year of warranty, but its spec section says two years (שנתיים) through the official importer. Check the warranty term with the importer before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Height (90 mm) comes only from Midea's page. The Israeli retailer page gives only width and depth.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "Israeli retailer page states both 1 year and two years of warranty; warranty not published, confirm with importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Height (9 cm) comes only from the manufacturer page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 10): the retailer page contradicts itself (1 year in header vs two years in specs) and the 'official importer' wording is not in the quote. Corrected surface type (fact 6) to tempered glass only; black color is kept separately in fact 7."
+ }
+}

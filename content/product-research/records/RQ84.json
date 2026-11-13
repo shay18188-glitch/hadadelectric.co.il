@@ -1,0 +1,421 @@
+{
+ "modelNumber": "RQ84",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RQ84",
+  "israeliImporter": "קבוצת ח.י",
+  "matchConfidence": "high",
+  "notes": "היבואן מציין מק\"ט RQ84BG (זכוכית שחורה). קמעונאים מציינים גם RQ84-QZERO ו-RQ84BGQZ. | QA: Importer page names model RQ84 QZero 591 L; importer SKU RQ84BG (black glass) matches the catalog finish."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/compmodels.aspx?modelid=1218664",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.hye.co.il/6921727080226.html",
+   "publisher": "קבוצת ח.י (HYE)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "90.8 × 190 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח כללי",
+     "value": "591 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "381 ליטר נטו"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "210 ליטר נטו"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שיטת הפשרה",
+     "value": "No Frost"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנה מלאה + שנתיים אחריות נוספת מוגבלת + 7 שנות אחריות על המדחס"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגירת וואקום Vacuum Fresh Drawer לשמירה על טריות המזון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קו אפס: מקרר בסגירה עם ארונות המטבח (Ultrathin Slot-In)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צירי קו אפס Flexi Hinge הנפתחים בזווית של 103°"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גב מתכת Metal Tech לפיזור הקור במקרר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מחולל יונים Hi-Nano בתא הקירור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית Inverter לחיסכון בחשמל ופעולה שקטה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צג דיגיטלי טאץ׳ מוטמע"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית הקפאה מהירה Super Freeze"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אוורור תחתי Underside Diversion Cooling System למניעת לחות ועובש"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת זרימת אוויר Multi Air Flow"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "התראה על דלת פתוחה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש מקרר רחב עם מגירת וואקום ומראה נקי במטבח מעוצב.",
+  "highlights": [
+   "התקנה בקו אפס עם ארונות המטבח וצירים הנפתחים ל-103°",
+   "הפשרה No Frost וטכנולוגיית Inverter",
+   "מגירת וואקום Vacuum Fresh Drawer ומחולל יונים Hi-Nano",
+   "אחריות יבואן: שנה מלאה + שנתיים נוספות מוגבלות + 7 שנות אחריות על המדחס"
+  ],
+  "goodFor": [
+   "מטבח מעוצב שבו המקרר צריך להיות בקו אחד עם הארונות",
+   "משפחה שזקוקה לתא הקפאה גדול לאחסון מזון קפוא",
+   "מי שרוצה מקרר No Frost שאינו דורש הפשרה ידנית",
+   "שמירה על ירקות ומזון טרי לאורך זמן בעזרת מגירת הוואקום"
+  ],
+  "considerations": [
+   "דירוג האנרגיה הוא E, כדאי לקחת זאת בחשבון בהשוואה לדגמים אחרים",
+   "לבדוק שיש שקע חשמל זמין בנישה, מאחורי המקרר",
+   "לברר מול היבואן את תנאי האחריות המוגבלת הנוספת"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להתקין אותו בקו אפס עם ארונות המטבח?",
+    "a": "כן. היבואן מציין התקנה בקו אפס עם ארונות המטבח, צירי Flexi Hinge הנפתחים ל-103° ואוורור תחתי למניעת לחות בצידי המקרר.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר צריך הפשרה ידנית?",
+    "a": "לא, המקרר בשיטת הפשרה No Frost.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "לפי היבואן קבוצת ח.י: שנה מלאה, שנתיים אחריות נוספת מוגבלת ו-7 שנות אחריות על המדחס.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Hisense RQ84",
+   "מקרר הייסנס 4 דלתות",
+   "מקרר QZero",
+   "RQ84BG",
+   "מקרר 591 ליטר",
+   "מקרר קו אפס",
+   "מקרר זכוכית שחורה",
+   "מקרר No Frost 4 דלתות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כללי",
+   "catalogValue": "591 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "381 ליטר נטו",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "210 ליטר נטו",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 190 ס\"מ, רוחב 90.8 ס\"מ, עומק 60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "NO FROST",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "זכוכית שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגירת וואקום",
+   "catalogValue": "Vacuum Fresh Drawer",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אוורור תחתי",
+   "catalogValue": "Underside Diversion Cooling System",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צירי קו אפס",
+   "catalogValue": "Flexi Hinge 103 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גב מתכת",
+   "catalogValue": "Metal Tech",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הקפאה מהירה",
+   "catalogValue": "Super Freeze",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קירור מהיר",
+   "catalogValue": "Super Cool",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תא קירור ימני מודולרי",
+   "catalogValue": "My Fresh Choice",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת קירור כפולה",
+   "catalogValue": "Twin Cooling System",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "המספר RQ84 מופיע בדף היבואן (דגם RQ84) ובזאפ, אבל מק\"ט היבואן הוא RQ84BG (זכוכית שחורה). קמעונאים כותבים גם RQ84-QZERO ו-RQ84BGQZ. יש לוודא את הסיומת המדויקת.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף היבואן מציין שנה מלאה + שנתיים נוספות מוגבלות + 7 שנות מדחס, בעוד שם הקובץ המצורף בדף היבואן מציין תעודת אחריות של 3 שנים. מקורות אחרים מציינים תנאים שונים. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות נישה להתקנה",
+   "issue": "לא נמצאו מידות נישה או משקל בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "מק\"ט היבואן הוא RQ84BG (זכוכית שחורה) וקמעונאים כותבים גם RQ84-QZERO ו-RQ84BGQZ; לוודא שהסיומת בקטלוג תואמת את היחידה הנמכרת.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "בדף היבואן יש קובץ תעודת אחריות שכותרתו מציינת 3 שנים, לצד ניסוח של שנה מלאה + שנתיים מוגבלות + 7 שנות מדחס; לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ונפחים",
+   "issue": "המידות, נפחי התאים, דירוג האנרגיה ושיטת ההפשרה מבוססים על דף זאפ בלבד ולא על דף היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "תכונות בקטלוג",
+   "issue": "Super Cool, My Fresh Choice ו-Twin Cooling System מהקטלוג לא אומתו במקורות שנבדקו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features are backed by ok quotes on pages naming RQ84 (importer page and Zap). Zap is a price-comparison aggregator, kept as kind other. | code guard removed: summary: \"מקרר 4 דלתות של Hisense מסדרת QZero בנפח כללי של 591 ליטר, עם 381 ליטר נטו לתא הקירור ו-210 ליטר נטו לתא ההקפאה.\"; summary: \"המקרר בהפשרה No Frost, במידות 90.8 × 190 × 60 ס״מ, ומתוכנן להתקנה בקו אפס עם ארונות המטבח בזכות צירי Flexi Hinge ואוורור תחתי.\"; faq: \"מה הנפח של המקרר Hisense RQ84?\"; faq: \"מה המידות של המקרר?\"; metaDescription: \"מקרר 4 דלתות Hisense RQ84 QZero בנפח 591 ליטר, הפשרה No Frost והתקנה בקו אפס עם ארונות המטבח. בחדד אלקטריק נהריה\"; highlight: \"נפח כללי 591 ליטר: 381 ליטר קירור ו-210 ליטר הקפאה (נטו)\"; consideration: \"לוודא שרוחב הנישה מתאים לרוחב המקרר של 90.8 ס״מ ושהגובה מתאים ל-190 ס״מ\""
+ }
+}

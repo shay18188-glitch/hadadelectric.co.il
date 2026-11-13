@@ -1,0 +1,375 @@
+{
+ "modelNumber": "ATL-930",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-930",
+  "israeliImporter": "יוסף חיים יבוא ושיווק בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Handheld steam cleaner kit sold in Israel under the Gold Line brand. Brand site and Israeli retailers name the model ATL-930. Product-level dimensions and weight were not found on any fetched page. | QA: Two Israeli retailer pages and the Gold Line site name ATL-930; handheld steam cleaner matches the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://laserelc.co.il/%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%9C%D7%A0%D7%99%D7%A7%D7%95%D7%99-%D7%91%D7%A7%D7%99%D7%98%D7%95%D7%A8-%D7%A7%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%AA-%D7%92%D7%95%D7%9C%D7%93-%D7%9C%D7%99%D7%99%D7%9F-gold-line-atl-930/",
+   "publisher": "לייזר ליין",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://mandarin-e.co.il/product/%D7%90%D7%A7%D7%93%D7%97-%D7%A0%D7%99%D7%A7%D7%95%D7%99-%D7%91%D7%A7%D7%99%D7%98%D7%95%D7%A8-gold-line-%D7%92%D7%95%D7%9C%D7%93-%D7%9C%D7%99%D7%99%D7%9F-%D7%9E%D7%93%D7%92%D7%9D-atl-930/",
+   "publisher": "מנדרין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=806263",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.goldline.co.il/steam/",
+   "publisher": "גולדליין",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מכשיר",
+     "value": "קיטורית ידנית לניקוי וחיטוי"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "250 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י היבואן הרשמי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "relabelled from סוג חימום",
+     "label": "שיטת פעולה",
+     "value": "לחץ אדים חמים ממים בלבד"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בטיחות",
+     "value": "פקק שסתום למניעת פתיחה בזמן שהמים תחת לחץ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתחממת ומוכנה לפעולה תוך דקות ספורות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of fact 5",
+   "text": "פקק שסתום לחץ בטיחותי למניעת פתיחה בזמן שהמים תחת לחץ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "dropped 'large'",
+   "text": "מיכל מים עם פקק סגירה בטיחותי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כבל חשמלי ארוך לניידות נוחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורית ביקורת למעקב בזמן העבודה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי וחיטוי באדי מים בלבד, ללא צורך בכימיקלים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת קרצוף, מגב חלונות, מברשת רצפה, פיה דקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיה ראשית ארוכה, צינור שרשורי גמיש, משפך מזיגה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כוס מדידה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Gold Line ATL-930 היא קיטורית ידנית לניקוי וחיטוי באדים חמים ממים בלבד, ללא צורך בכימיקלים. היא מגיעה עם הספק של 1000 W ומיכל מים של 250 מ״ל, ומתחממת ומוכנה לפעולה תוך דקות ספורות. מתאימה למי שמחפש מכשיר קומפקטי לניקוי נקודתי בבית, עם ערכת אביזרים הכוללת מגב חלונות, מברשות ופיה דקה.",
+  "highlights": [
+   "הספק 1000 W",
+   "מיכל מים 250 מ״ל עם פקק סגירה בטיחותי",
+   "ניקוי וחיטוי באדי מים בלבד, ללא כימיקלים",
+   "פקק שסתום המונע פתיחה בזמן שהמים תחת לחץ",
+   "שנת אחריות ע״י היבואן הרשמי"
+  ],
+  "goodFor": [
+   "ניקוי נקודתי של חלונות בעזרת מגב החלונות המצורף",
+   "ניקוי מקומות צרים בעזרת הפיה הדקה והצינור השרשורי הגמיש",
+   "בתים שמעדיפים ניקוי וחיטוי ללא חומרי ניקוי כימיים"
+  ],
+  "considerations": [
+   "מיכל המים הוא 250 מ״ל, כך שבעבודות ארוכות יש לעצור ולמלא מחדש",
+   "אין לפתוח את המיכל בזמן שהמים תחת לחץ; פקק השסתום נועד למנוע זאת",
+   "לא נמצאו מידות ומשקל של המכשיר עצמו, כדאי לבדוק בחנות"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Gold Line ATL-930?",
+    "a": "ההספק הוא 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "מיכל המים הוא 250 מ״ל, ובאריזה יש כוס מדידה ומשפך למילוי.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך חומרי ניקוי?",
+    "a": "לא. המכשיר פועל באמצעות לחץ אדים חמים ממים בלבד, ללא צורך בכימיקלים.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "מברשת קרצוף, מגב חלונות, מברשת רצפה, פיה דקה, פיה ראשית ארוכה, צינור שרשורי גמיש, משפך מזיגה וכוס מדידה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנת אחריות ע״י היבואן הרשמי גולד ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קיטורית ידנית Gold Line ATL-930: הספק 1000 W ומיכל מים 250 מ״ל, ניקוי וחיטוי באדי מים ללא כימיקלים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Gold Line ATL-930",
+   "קיטורית ידנית",
+   "מכשיר לניקוי בקיטור",
+   "קיטורית גולד ליין",
+   "ATL-930",
+   "מנקה קיטור ידני",
+   "קיטורית לניקוי חלונות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "250 מ\"ל (קיבולת אפקטיבית)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נורית ביקורת חכמה",
+   "catalogValue": "נורית ביקורת חכמה המציינת מוכנות לעבודה",
+   "finding": "corrected",
+   "correctValue": "נורית ביקורת למעקב בזמן העבודה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג חימום",
+   "catalogValue": "קיטור בלחץ גבוה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל קומפקטי",
+   "catalogValue": "משקל קומפקטי המותאם לעבודה ידנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Power 1000 W is taken from one Israeli retailer page only; the price comparison page shows 1,000 W too but was not used as a quote.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "No product-level width, height, depth or weight was found. The only dimensions seen are packaging dimensions (height 23 cm, width 25 cm) on one retailer page, which are not product dimensions and were not recorded.",
+   "severity": "medium"
+  },
+  {
+   "field": "נורית",
+   "issue": "Catalog says the indicator light shows readiness to work. The retailer text says it tracks the light during work. Check the wording.",
+   "severity": "low"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "The retailer shows the 250 ml tank as effective capacity in the catalog. Retailers show the tank as 250 ml; check it against the manual.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "No product dimensions or weight were found on any source.",
+   "severity": "medium"
+  },
+  {
+   "field": "נורית",
+   "issue": "Catalog says the indicator shows readiness to work; the retailer says it is for monitoring during work. Check the wording.",
+   "severity": "low"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "Country of origin (China) was not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled fact 4 (סוג חימום -> שיטת פעולה) and reworded its value to match the quote. Rejected feature 1 as a duplicate of safety fact 5. Removed the word 'large' from feature 2 (tank is 250 ml). Merged in-the-box wording to the retailer quotes (משפך מזיגה / משפך למילוי)."
+ }
+}

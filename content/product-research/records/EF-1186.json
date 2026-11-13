@@ -1,0 +1,369 @@
+{
+ "modelNumber": "EF-1186",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sachs",
+  "exactModel": "EF-1186",
+  "israeliImporter": "זקש",
+  "matchConfidence": "high",
+  "notes": "דף היבואן/הקמעונאי מציג את הדגם כ-Sachs EF-1186 ומציין יבואן רשמי זקש. שם המותג בקטלוג החנות הוא Zaks. מידות ותכונות אומתו בדף קמעונאי ישראלי אחד בלבד. | QA: דף Bug מציג Sachs EF-1186 עם חיבור ישיר לצנרת, באחריות זקש. מותג הקטלוג Zaks הוא תעתיק של זקש/Sachs."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מכונת-קרח-ביתית-12-קג-כולל-חיבור-ישיר-לצנרת-sachs-979798541",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "זקש"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקה ליממה",
+     "value": "20 ק״ג קרח"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מחזוריות ייצור",
+     "value": "24 קוביות קרח ב-15-18 דקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת מיכל קרח",
+     "value": "1.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "37 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "38 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "28 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "שגיאת כתיב בדף המקור",
+     "label": "חומר מעטפת",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תצוגה",
+     "value": "לוח בקרה בתאורת LED"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת האחריות של זקש"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיבור ישיר לצנרת המים (הזנה ישירה מברז מים)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 גדלים של קוביות קרח לבחירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלון שקוף למעקב אחר כמות הקרח במיכל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בידוד לשמירה על טמפרטורה אחידה לאורך זמן"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת קרח ביתית של זקש (Sachs) דגם EF-1186 עם חיבור ישיר לצנרת המים, כך שאין צורך למלא מים ידנית. המכונה מייצרת 20 ק״ג קרח ביממה, במחזורים של 24 קוביות ב-15-18 דקות, עם מיכל קרח של 1.2 ק״ג ו-2 גדלי קוביות לבחירה. מתאימה לבית או למשרד שבהם יש נקודת מים זמינה ליד מקום ההצבה.",
+  "highlights": [
+   "חיבור ישיר לצנרת המים - ללא מילוי ידני",
+   "תפוקה של 20 ק״ג קרח ביממה",
+   "24 קוביות קרח בכל מחזור של 15-18 דקות",
+   "מיכל קרח בקיבולת 1.2 ק״ג עם חלון שקוף",
+   "מעטפת נירוסטה ולוח בקרה בתאורת LED"
+  ],
+  "goodFor": [
+   "בית או משרד שבו צורכים קרח באופן שוטף ולא רוצים למלא מים ידנית",
+   "אירוח, כשצריך ייצור קרח רציף לאורך היום",
+   "משטח עבודה במטבח עם מקום מצומצם, בזכות מידות של 37×28×38 ס״מ"
+  ],
+  "considerations": [
+   "יש לוודא שיש נקודת מים (ברז) קרובה למקום ההצבה לצורך החיבור הישיר",
+   "כדאי למדוד את המקום: גובה 37 ס״מ, רוחב 28 ס״מ ועומק 38 ס״מ",
+   "המיכל מחזיק 1.2 ק״ג קרח, ולכן לכמויות גדולות כדאי להעביר קרח למקפיא",
+   "האחריות היא לשנה, בכפוף לתעודת האחריות של זקש"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך למלא מים במכונה?",
+    "a": "לא. המכונה מתחברת ישירות לצנרת המים ומקבלת הזנה ישירה מברז מים.",
+    "sources": []
+   },
+   {
+    "q": "כמה קרח המכונה מייצרת?",
+    "a": "עד 20 ק״ג קרח ביממה, במחזורים של 24 קוביות ב-15-18 דקות.",
+    "sources": []
+   },
+   {
+    "q": "כמה קרח נכנס במיכל?",
+    "a": "מיכל הקרח מחזיק 1.2 ק״ג, ויש חלון שקוף שמאפשר לראות את כמות הקרח.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לבחור את גודל הקוביות?",
+    "a": "כן, יש 2 גדלים של קוביות קרח לבחירה דרך לוח הבקרה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "אחריות לשנה, בכפוף לתעודת האחריות של היבואן זקש.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קרח זקש EF-1186 עם חיבור ישיר לצנרת המים, תפוקה של 20 ק״ג קרח ביממה ומיכל 1.2 ק״ג. מעטפת נירוסטה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת קרח עם חיבור לצנרת",
+   "מכונת קרח ביתית",
+   "זקש EF-1186",
+   "Sachs EF-1186",
+   "מכונת קרח זקש",
+   "מכונת קרח 20 קג",
+   "מכונת קרח נירוסטה",
+   "מכונת קרח לבית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תפוקת ייצור",
+   "catalogValue": "כ-20 ק\"ג קרח ביממה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מחזוריות עבודה",
+   "catalogValue": "24 קוביות בכל 15-18 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל קרח",
+   "catalogValue": "1.2 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גדלי קוביות",
+   "catalogValue": "2 גדלים לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "37 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "35-38 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "38 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "26-28 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "28 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "לוח בקרה עם תאורת LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר מעטפת",
+   "catalogValue": "נירוסטה איכותית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג חיבור",
+   "catalogValue": "חיבור ישיר לצנרת המים (הזנה ישירה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "דף היבואן הקמעונאי מציג את המותג כ-Sachs (זקש - Sachs), והקטלוג מציג Zaks. היבואן הרשמי הוא זקש. יש לוודא את שם המותג בקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "מדינת הייצור (סין) לא אומתה בדף שנקרא.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "הקטלוג מציג את המותג כ-Zaks, ודף המקור מציג Sachs עם יבואן זקש. יש לוודא את כתיב המותג בקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "מדינת הייצור (סין) לא אומתה במקור.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "בקטלוג מופיעים טווחי עומק 35-38 ס״מ ורוחב 26-28 ס״מ; המקור מציין 38 ס״מ ו-28 ס״מ.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "כל העובדות מבוססות על דף קמעונאי ישראלי אחד (Bug) שמציין את הדגם המדויק. ציטוט החומר כולל שגיאת כתיב בדף (מנירוטה) - הערך נירוסטה נשמר."
+ }
+}

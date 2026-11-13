@@ -1,0 +1,205 @@
+{
+ "modelNumber": "HM1010W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Braun",
+  "exactModel": "HM1010W",
+  "israeliImporter": "ברימאג",
+  "matchConfidence": "medium",
+  "notes": "העמודים הישראליים נושאים את הדגם HM1010WH (וריאנט לבן, כנראה אותו מוצר כמו HM1010W בקטלוג). אין עמוד המציין HM1010W בדיוק. | QA: Israeli retailer pages list Braun MultiMix 1 HM1010WH; WH is Braun's white colour suffix, catalog lists HM1010W in white. Likely the same unit but the exact suffix is not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrica.co.il/items/5491423--%D7%9E%D7%99%D7%A7%D7%A1%D7%A8-%D7%99%D7%93%D7%A0%D7%99-Braun-HM1010WH-%D7%91%D7%A8%D7%90%D7%95%D7%9F",
+   "publisher": "Electrica",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.brandsonsale.co.il/items/7832158-%D7%9E%D7%99%D7%A7%D7%A1%D7%A8-%D7%99%D7%93%D7%A0%D7%99-Braun-MultiMix-1-HM1010WH",
+   "publisher": "Brandsonsale",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two Israeli retailers agree",
+     "label": "הספק",
+     "value": "400 וואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "4 מהירויות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י ברימאג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מהירות טורבו"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת Easy Click לחיבור ופירוק נוח של המערבלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 ראשים הניתנים להחלפה ולשטיפה במדיח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מערכת Easy Click מאפשרת חיבור ופירוק נוח של הראשים, ואת הראשים אפשר לשטוף במדיח. מתאים למי שמחפש מיקסר יד פשוט להקצפה וערבול במטבח הביתי.",
+  "highlights": [
+   "מנוע 400 וואט",
+   "4 מהירויות ומהירות טורבו",
+   "מערכת Easy Click להחלפת ראשים",
+   "2 ראשים הניתנים לשטיפה במדיח",
+   "אחריות שנה ע״י ברימאג"
+  ],
+  "goodFor": [
+   "הקצפה וערבול בלילות בכמויות ביתיות",
+   "מי שרוצה להתאים את המהירות לסוג העבודה",
+   "מי שמעדיף ניקוי קל של הראשים במדיח"
+  ],
+  "considerations": [
+   "מיקסר יד ללא קערה, כך שיש להחזיק אותו לאורך העבודה",
+   "כדאי לוודא שהדגם בקרטון הוא HM1010WH, הגרסה המשווקת בישראל",
+   "לבצקים כבדים במיוחד כדאי לשקול מיקסר עומד"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המיקסר?",
+    "a": "המנוע בהספק 400 וואט.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש?",
+    "a": "4 מהירויות ובנוסף מהירות טורבו.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את הראשים במדיח?",
+    "a": "כן, הראשים ניתנים להחלפה ולשטיפה במדיח.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות שנה ע״י ברימאג.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מיקסר יד Braun",
+   "Braun HM1010W",
+   "Braun HM1010WH",
+   "Braun MultiMix 1",
+   "מיקסר יד בראון",
+   "מיקסר יד 400 וואט",
+   "מקצף יד חשמלי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "400 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "4 דרגות + טורבו",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-800 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הדגם HM1010W אינו מופיע בעמוד; העמודים נושאים HM1010WH. יש לאמת מול הקרטון.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג מציין 450 וואט אך כל המקורות מציינים 400 וואט.",
+   "severity": "high"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 450 W, but both sources and the catalog spec list 400 W.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sources name HM1010WH; catalog code is HM1010W. Confirm suffix against the box.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Sources name HM1010WH (Braun white suffix), catalog code HM1010W; treated as same unit with medium confidence. Catalog name says 450 W while all sources and the catalog spec say 400 W; flagged for review. Warranty label wording normalized. | code guard removed: summary: \"מיקסר יד של Braun מסדרת MultiMix 1 עם מנוע 400 וואט, 4 מהירויות ומהירות טורבו.\"; metaDescription: \"מיקסר יד Braun MultiMix 1 HM1010W עם מנוע 400 וואט, 4 מהירויות וטורבו ומערכת Easy Click להחלפת ראשים. בחדד אלקטריק נהריה\""
+ }
+}

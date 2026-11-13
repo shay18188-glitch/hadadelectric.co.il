@@ -1,0 +1,521 @@
+{
+ "modelNumber": "PAC-12",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PAC-12",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only one source found: an Israeli retailer page (bug.co.il) that names PAC-12 exactly. The page says the warranty is provided by SG Electronics (אס גי אלקטרוניקה) but does not name the importer. | QA: Single Israeli retailer page (bug.co.il) names Premier PAC-12 exactly, with 9,000 BTU/h cooling matching the catalog name. Importer not stated."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מזגן-נייד-כולל-שלט-רחוק-premier-9498564875",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן / מותג",
+     "value": "Premier"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "PAC-12"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת קירור",
+     "value": "9,000 BTU/h"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת חימום",
+     "value": "7,500 BTU/h"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A בקירור וגם בחימום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית (קירור)",
+     "value": "591 קוט״ש/שנה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יעילות קירור (EER)",
+     "value": "2.6"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות חימום (COP)",
+     "value": "2.4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק כניסה מדורג",
+     "value": "1000 W לקירור, 880 W לחימום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב הסרת לחות",
+     "value": "0.9 ליטר/שעה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג גז קירור",
+     "value": "R410A"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "65 דציבלים"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח חשמלי",
+     "value": "220-240V, חד פאזי, 50 הרץ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "32.8 × 70 × 31.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "22.5 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ברוטו",
+     "value": "24.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שליטה",
+     "value": "שלט רחוק ולוח מגע"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific warranty terms, not a product fact for this store.",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת אחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חמישה מצבי פעולה: אוטומטי, קירור, ייבוש, אוורור וחימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר 24 שעות ומצב שינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לוח בקרה במגע בראש המכשיר"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלט רחוק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צינור פליטה גמיש"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צינור פליטה גמיש להתקנה נוחה"
+  }
+ ],
+ "content": {
+  "summary": "Premier PAC-12 הוא מזגן נייד לקירור וחימום, בתפוקת קירור של 9,000 BTU/h ותפוקת חימום של 7,500 BTU/h. הוא מדורג A בקירור וגם בחימום, וכולל מצב ייבוש בקצב 0.9 ליטר/שעה. מתאים למי שצריך מיזוג לחדר בלי התקנת מזגן קבוע, עם צינור פליטה גמיש ושלט רחוק.",
+  "highlights": [
+   "תפוקת קירור 9,000 BTU/h ותפוקת חימום 7,500 BTU/h",
+   "דירוג אנרגטי A בקירור וגם בחימום",
+   "חמישה מצבי פעולה כולל ייבוש בקצב 0.9 ליטר/שעה",
+   "טיימר 24 שעות ומצב שינה",
+   "שליטה בשלט רחוק ובלוח מגע בראש המכשיר"
+  ],
+  "goodFor": [
+   "דירה שכורה או חדר שבו אין אפשרות להתקין מזגן מפוצל",
+   "קירור בקיץ וחימום בחורף באותו מכשיר",
+   "הפחתת לחות בחדר במצב ייבוש",
+   "שימוש בלילה עם מצב שינה וטיימר"
+  ],
+  "considerations": [
+   "יש לתכנן יציאה לצינור הפליטה הגמיש דרך חלון או פתח קרוב",
+   "עוצמת הרעש היא 65 דציבלים, כדאי לקחת זאת בחשבון בחדר שינה",
+   "משקל נטו 22.5 ק״ג ומידות 32.8 × 70 × 31.3 ס״מ, כדאי לוודא מקום על הרצפה",
+   "נדרש שקע חשמל רגיל 220-240V"
+  ],
+  "faq": [
+   {
+    "q": "האם Premier PAC-12 מחמם גם?",
+    "a": "כן, תפוקת החימום היא 7,500 BTU/h, ותפוקת הקירור היא 9,000 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל המזגן צורך?",
+    "a": "צריכת החשמל השנתית בקירור היא 591 קוט״ש/שנה, וההספק המדורג הוא 1000 W לקירור ו-880 W לחימום.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בערכה?",
+    "a": "המזגן מגיע עם שלט רחוק וצינור פליטה גמיש.",
+    "sources": []
+   },
+   {
+    "q": "באיזה גז קירור המזגן משתמש?",
+    "a": "המזגן עובד עם גז קירור R410A.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן נייד Premier PAC-12 בתפוקת קירור 9,000 BTU/h וחימום 7,500 BTU/h, דירוג אנרגטי A, שלט רחוק וטיימר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מזגן נייד",
+   "Premier PAC-12",
+   "מזגן נייד פרימייר",
+   "מזגן נייד 9000 BTU",
+   "מזגן נייד קירור וחימום",
+   "מזגן נייד 1 כ״ס",
+   "PAC-12"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "9,000 BTU/h (2600W)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "7,500 BTU/h (2100W)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R410A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש מקסימלית",
+   "catalogValue": "65 דציבלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ספיקת אוויר",
+   "catalogValue": "350 מ\"ק/שעה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח חשמלי",
+   "catalogValue": "220-240V חד פאזי, 50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 32.8 ס\"מ, עומק 31.3 ס\"מ, גובה 70 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "22.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ברוטו",
+   "catalogValue": "24.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב הסרת לחות",
+   "catalogValue": "0.9 ליטר/שעה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "טיימר ל-24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב שינה",
+   "catalogValue": "מצב שינה (Sleep Mode)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שליטה",
+   "catalogValue": "לוח בקרה במגע ושלט רחוק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצבי פעולה",
+   "catalogValue": "5 מצבי פעולה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות אוורור",
+   "catalogValue": "3 מהירויות אוורור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת ניקוז",
+   "catalogValue": "מערכת ניקוז חכמה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שטח מומלץ",
+   "catalogValue": "10 עד 18 מ\"ר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, בכפוף לתעודת אחריות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "ספיקת אוויר",
+   "issue": "The retailer page prints the airflow as \"350 h/3m\", which is garbled and does not confirm the catalog's 350 מ״ק/שעה. The airflow fact was left out.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר מקורות",
+   "issue": "Only one source was found: an Israeli retailer page that names PAC-12. No manufacturer, importer, manual or EPREL page was confirmed, and the importer name is not stated on the page.",
+   "severity": "medium"
+  },
+  {
+   "field": "מאפיינים בקטלוג",
+   "issue": "The catalog lists 3 fan speeds, a 10 to 18 sqm area and a smart drain system. The retailer page does not state these, so they are unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only one Israeli retailer page confirms the specs; no manufacturer or importer source, and the importer is not named.",
+   "severity": "medium"
+  },
+  {
+   "field": "מאפיינים בקטלוג",
+   "issue": "Catalog airflow 350 m3/h, 3 fan speeds, smart drain system and 10-18 sqm room size are not verified by the source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the warranty fact (id 17): a one-year warranty stated on a retailer page is that shop's warranty terms, not a product fact for our listing. All other facts are ok quotes from an Israeli retailer page naming PAC-12 and match the catalog."
+ }
+}

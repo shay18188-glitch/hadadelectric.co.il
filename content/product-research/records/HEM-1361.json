@@ -1,0 +1,349 @@
+{
+ "modelNumber": "HEM-1361",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-1361",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "שני דפי קמעונאים ישראליים מציינים את הדגם HEM-1361 במפורש ומתארים טוסטר לחיצה 6 פרוסות עם פתיחה עד 180 מעלות. לא נמצא דף יצרן או יבואן עם מידות או משקל. דגם HEM-1360 (טוסטר גריל 4 פרוסות) הוא דגם אחר ולא שימש כמקור. | QA: שני קמעונאים ישראליים מציינים את HEM-1361 במפורש כטוסטר לחיצה 6 פרוסות, תואם לשם בקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/טוסטר-לחיצה-6-פרוסות-נפתח-180-מעלות-hemilton-9061361054",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/טוסטר-לחיצה-המילטון-hem1361/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Hemilton"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר דגם",
+     "value": "HEM-1361"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר פרוסות",
+     "value": "6 פרוסות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה מוברשת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "משטחי צלייה עם ציפוי מונע הידבקות מזון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתיחה של 180° לשימוש כמשטח גריל גדול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לשונית נעילה לאחסון אנכי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגירת איסוף שומנים נשלפת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בורר לשינוי טמפרטורה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טוסטר לחיצה של Hemilton, דגם HEM-1361, להכנת עד 6 פרוסות בבת אחת בהספק של 2000 W. המכשיר נפתח ל-180° ומשמש גם כמשטח גריל גדול, עם בורר טמפרטורה ומשטחים בציפוי מונע הידבקות. מתאים למי שמכין כמה טוסטים יחד ורוצה גם אפשרות של גריל פתוח.",
+  "highlights": [
+   "עד 6 פרוסות בבת אחת",
+   "הספק 2000 W",
+   "פתיחה של 180° לשימוש כמשטח גריל",
+   "משטחי צלייה בציפוי מונע הידבקות",
+   "מגירת איסוף שומנים נשלפת"
+  ],
+  "goodFor": [
+   "הכנת כמה טוסטים במקביל לארוחת בוקר או ערב משפחתית",
+   "צלייה על משטח פתוח בזכות הפתיחה ל-180°",
+   "מטבח עם מקום מוגבל, בזכות לשונית הנעילה לאחסון אנכי"
+  ],
+  "considerations": [
+   "הספק של 2000 W: כדאי לחבר לשקע שאינו עמוס במכשירים חזקים נוספים",
+   "בפתיחה ל-180° המכשיר תופס משטח עבודה רחב יותר, כדאי לוודא שיש מקום על השיש",
+   "מידות ומשקל המכשיר אינם מפורטים, כדאי לבדוק בחנות לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "כמה פרוסות אפשר להכין בבת אחת?",
+    "a": "עד 6 פרוסות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בו כגריל פתוח?",
+    "a": "כן, הוא נפתח ל-180° ומשמש כמשטח גריל גדול.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט בטמפרטורה?",
+    "a": "כן, יש בורר לשינוי טמפרטורה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה על ידי המילטון, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר לחיצה Hemilton HEM-1361 ל-6 פרוסות, הספק 2000 W ופתיחה של 180° לשימוש כגריל. ציפוי מונע הידבקות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר לחיצה 6 פרוסות",
+   "Hemilton HEM-1361",
+   "טוסטר המילטון",
+   "טוסטר גריל לחיצה",
+   "טוסטר נפתח 180 מעלות",
+   "HEM-1361",
+   "טוסטר לחיצה 2000W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "הספק עוצמתי: 2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "עד 6 פרוסות בו זמנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פתיחה 180 מעלות",
+   "catalogValue": "אפשרות לפתיחה מלאה של 180 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטחי צלייה",
+   "catalogValue": "ציפוי Non-Stick איכותי למניעת הדבקות וניקוי קל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "וסת טמפרטורה",
+   "catalogValue": "טרמוסטט מתכוונן לשליטה בדרגת החום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לשונית נעילה",
+   "catalogValue": "מנגנון נעילה המאפשר אחסון בעמידה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נוריות חיווי",
+   "catalogValue": "נורית הפעלה (אדומה) ונורית מוכן לשימוש (ירוקה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "גימור כסוף (נירוסטה) משולב שחור",
+   "finding": "corrected",
+   "correctValue": "נירוסטה מוברשת",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ידית קרה למגע (Cool Touch)",
+   "catalogValue": "ידית קרה למגע (Cool Touch)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מגירת איסוף שומנים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מגירת איסוף שומנים מתפרקת",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משטח צלייה",
+   "issue": "דף הקמעונאי מציין משטח צלייה של 230X340 ס\"מ. מידה זו גדולה מדי לטוסטר שולחני ונראית כטעות הקלדה (ייתכן 23X34 ס\"מ). לא נכלל כעובדה מאומתת. לבדוק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "מידות המכשיר ומשקלו לא נמצאו בשני דפי הקמעונאים שנפתחו. לא נרשמו.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף יצרן או יבואן עם מפרט מלא. העובדות מבוססות על שני קמעונאים ישראליים בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "נוריות חיווי",
+   "issue": "צבעי הנוריות (אדומה וירוקה) מהקטלוג לא נמצאו בדפי הקמעונאים.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "230V ~ 50Hz ומקור הייצור מהקטלוג לא נמצאו בדפי הקמעונאים.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "מידות ומשקל המכשיר לא נמצאו במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "נוריות חיווי / מתח / ידית קרה",
+   "issue": "צבעי הנוריות, מתח העבודה 230V ~ 50Hz וידית Cool Touch מהקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "אין דף יצרן או יבואן; העובדות מבוססות על שני קמעונאים ישראליים בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "כל העובדות והתכונות מבוססות על ציטוטים תקינים משני דפי קמעונאים ישראליים המציינים את הדגם HEM-1361."
+ }
+}

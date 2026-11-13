@@ -1,0 +1,331 @@
+{
+ "modelNumber": "HEM-213",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-213",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "Importer's own product page found at hemilton.co.il/product/hem213. Origin country and voltage not found on any page. | QA: Importer page and two Israeli retailers name HEM-213, 2.5 L, white."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem213",
+   "publisher": "Hemilton Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/סיר-לטיגון-עמוק-25-ליטר-hemilton-932164814",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Hemilton"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Lower bound 0C on importer page looks like a listing error; kept only the maximum.",
+     "label": "טמפרטורה מרבית",
+     "value": "עד 190°C"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת שמן",
+     "value": "2.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "המילטון חשמל ואלקטרוניקה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה עליון נשלף עם פילטר אלומיניום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חלון צפייה עליון רחב ושקוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ציפוי טפלון לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון נעילה בטיחותי שמשתחרר בלחיצה על לחצן הפתיחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed unquoted detachable oil tank claim.",
+   "text": "מסנן נשלף לניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מפסק הפעלה ונורית ביקורת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סיר טיגון עמוק חשמלי של Hemilton, דגם HEM-213 בצבע לבן, בקיבולת שמן של 2.5 ליטר ובהספק 1800 W. ווסת טמפרטורה עד 190°C, חלון צפייה שקוף במכסה וציפוי טפלון לניקוי קל. מתאים לטיגון ביתי של צ'יפס, שניצלים ומאכלים מטוגנים.",
+  "highlights": [
+   "קיבולת שמן 2.5 ליטר",
+   "הספק 1800 W",
+   "ווסת טמפרטורה עד 190°C",
+   "מכסה נשלף עם פילטר אלומיניום וחלון צפייה שקוף",
+   "אחריות 12 חודשים מהיבואן הרשמי"
+  ],
+  "goodFor": [
+   "טיגון עמוק ביתי של צ'יפס ושניצלים",
+   "מי שרוצה לעקוב אחרי הטיגון דרך חלון הצפייה בלי לפתוח את המכסה",
+   "מי שמעדיף ניקוי קל בזכות ציפוי טפלון ומסנן נשלף"
+  ],
+  "considerations": [
+   "הספק 1800 W – כדאי לחבר לשקע נפרד ולא למפצל עם מכשירים חזקים נוספים",
+   "קיבולת השמן 2.5 ליטר – לוודא שמתאימה לכמויות שאתם מטגנים",
+   "יש להשאיר מקום פנוי על השיש לפתיחת המכסה העליון"
+  ],
+  "faq": [
+   {
+    "q": "מה קיבולת השמן של HEM-213?",
+    "a": "קיבולת השמן היא 2.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של סיר הטיגון?",
+    "a": "ההספק הוא 1800 W.",
+    "sources": []
+   },
+   {
+    "q": "עד איזו טמפרטורה אפשר לכוון?",
+    "a": "הווסת מאפשר כיוון טמפרטורה עד 190°C.",
+    "sources": []
+   },
+   {
+    "q": "האם קל לנקות את הסיר?",
+    "a": "כן, לסיר ציפוי טפלון לניקוי קל, והמסנן והמכסה העליון נשלפים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות 12 חודשים ע״י המילטון חשמל ואלקטרוניקה, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון עמוק Hemilton HEM-213 לבן, קיבולת שמן 2.5 ליטר והספק 1800 W, עם חלון צפייה ופילטר אלומיניום. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סיר טיגון עמוק",
+   "סיר טיגון בשמן",
+   "Hemilton HEM-213",
+   "המילטון סיר טיגון",
+   "סיר טיגון 2.5 ליטר",
+   "HEM-213",
+   "סיר טיגון חשמלי לבן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "1800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת שמן",
+   "catalogValue": "2.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "catalogValue": "130°C עד 190°C",
+   "finding": "contradicted",
+   "correctValue": "0 עד 190 °C",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "פילטר פחם מובנה",
+   "finding": "contradicted",
+   "correctValue": "פילטר אלומיניום במכסה העליון",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורות ביקורת",
+   "catalogValue": "נורת הפעלה ונורת מצב מוכנות",
+   "finding": "contradicted",
+   "correctValue": "מפסק הפעלה ונורית ביקורת",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "טווח טמפרטורה",
+   "issue": "Catalog says 130-190 C; importer page says 0-190 C.",
+   "severity": "high"
+  },
+  {
+   "field": "פילטר",
+   "issue": "Catalog says carbon filter; importer says aluminium filter in lid.",
+   "severity": "medium"
+  },
+  {
+   "field": "נורות ביקורת",
+   "issue": "Catalog lists two lights; importer lists one indicator light.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "issue": "Catalog says 130-190°C; importer page says 0-190°C (likely a typo). Published only the 190°C maximum; verify the lower bound.",
+   "severity": "medium"
+  },
+  {
+   "field": "פילטר",
+   "issue": "Catalog says built-in carbon filter; importer page says aluminium filter in the lid.",
+   "severity": "medium"
+  },
+  {
+   "field": "נורות ביקורת",
+   "issue": "Catalog lists power and ready lights; importer page lists a power switch and one indicator light.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 3 (temperature range): importer page reads 190C - 0C, a lower bound of 0 is implausible for a fryer thermostat and contradicts the catalog's 130C; published only the upper limit 'עד 190°C'. Feature 4 text claimed a detachable oil tank not in the quote; reduced to the quoted removable filter."
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "modelNumber": "SL-7204",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "SOL",
+  "exactModel": "SL-7204",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only one Israeli retailer listing names SL-7204 (Traklin manufacturer page, sky blue, 2 slices). No manufacturer, importer, manual or spec page for this exact model was found. Sibling models SL-7507 and SL-7407 are not evidence for this model. | QA: Traklin listing names SOL SL-7204, sky blue, 2 slices, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/manufacturer.aspx?id=435",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "תכלת"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "2 פרוסות"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מצנם SOL דגם SL-7204 לשתי פרוסות בצבע תכלת. מתאים למטבח ביתי שצריך מצנם קומפקטי לארוחת בוקר.",
+  "highlights": [
+   "קיבולת של 2 פרוסות",
+   "צבע תכלת"
+  ],
+  "goodFor": [
+   "הכנת טוסט לארוחת בוקר בבית",
+   "מטבח שמחפש מצנם בצבע תכלת"
+  ],
+  "considerations": [
+   "המצנם מיועד ל-2 פרוסות בכל הפעלה"
+  ],
+  "faq": [
+   {
+    "q": "כמה פרוסות נכנסות במצנם SOL SL-7204?",
+    "a": "המצנם מיועד ל-2 פרוסות.",
+    "sources": []
+   },
+   {
+    "q": "באיזה צבע מגיע הדגם SL-7204?",
+    "a": "הדגם בצבע תכלת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מצנם SOL דגם SL-7204 לשתי פרוסות בצבע תכלת, מצנם קומפקטי למטבח הביתי לארוחת בוקר מהירה. לפרטים והזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "מצנם 2 פרוסות",
+   "מצנם SOL",
+   "SL-7204",
+   "מצנם סול תכלת",
+   "מצנם תכלת",
+   "טוסטר 2 פרוסות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "צבע",
+   "catalogValue": "תכלת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "2 פרוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1000W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "240V 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 17.5 ס\"מ, רוחב 23 ס\"מ, עומק 16 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר דרגות השחמה",
+   "catalogValue": "7",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "technical_specifications",
+   "issue": "No manufacturer, importer or spec page for SL-7204 was found. The catalog power, voltage, dimensions and toasting levels are unverified. The only Israeli listing names the model with colour and slot count, with no specs.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Power, voltage, dimensions and browning levels in the catalog are not verified by any source.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "Only colour and slot count are verifiable from a single Israeli retailer listing naming SL-7204. All other catalog specs remain unverified."
+ }
+}

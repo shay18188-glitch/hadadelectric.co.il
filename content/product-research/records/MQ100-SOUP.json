@@ -1,0 +1,179 @@
+{
+ "modelNumber": "MQ100-SOUP",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Braun",
+  "exactModel": "MQ100-SOUP",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Pages name the product MQ 100 Soup (MultiQuick 1); the exact string MQ100-SOUP with hyphen is not printed. No Israeli importer page found. | QA: Manufacturer page and Israeli retailer page name the MQ 100 Soup (MultiQuick 1); the hyphenated catalog code is the same model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.braunhousehold.com/en-hk/e/food-preparation/hand-blenders/multiquick-1",
+   "publisher": "Braun Household HK",
+   "kind": "manufacturer",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.manuals.co.uk/braun/multiquick-1-mq-100-soup/manual",
+   "publisher": "manuals.co.uk",
+   "kind": "manual",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.minizol.co.il/570402-%D7%91%D7%9C%D7%A0%D7%93%D7%A8%D7%99%D7%9D/471458",
+   "publisher": "מיני זול",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "450 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote has no value and failed the check.; quote checks: numbers-not-in-quote",
+     "label": "מספר מהירויות",
+     "value": "1"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "SplashControl name not in the quote.",
+   "text": "רגל בעיצוב שמונע התזות בזמן הערבול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה פשוטה בלחיצה אחת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "הבלנדר מופעל בלחיצה פשוטה ובנוי למנוע התזות בזמן העבודה. מתאים למי שמחפש בלנדר מוט בסיסי ונוח להכנת מרקים, רטבים ומחיות במטבח הביתי.",
+  "highlights": [
+   "מנוע בהספק 450 W",
+   "הפעלה פשוטה בלחיצה אחת",
+   "עיצוב שמונע התזות בזמן הערבול",
+   "בצבע לבן"
+  ],
+  "goodFor": [
+   "טחינת מרקים ישירות בסיר",
+   "הכנת רטבים ומחיות בכמויות ביתיות",
+   "מי שמעדיף מכשיר פשוט עם הפעלה בלחיצה אחת"
+  ],
+  "considerations": [
+   "ההפעלה היא בלחיצה אחת, ללא פירוט של מהירויות נוספות במקורות – כדאי לבדוק אם נדרשת שליטה במהירות",
+   "כדאי לוודא את האביזרים המצורפים באריזה מול החנות"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "המנוע בהספק 450 W.",
+    "sources": []
+   },
+   {
+    "q": "האם הבלנדר מתיז בזמן העבודה?",
+    "a": "לפי היצרן, הבלנדר בנוי למנוע התזות כדי לשמור על המטבח נקי.",
+    "sources": []
+   },
+   {
+    "q": "איך מפעילים את הבלנדר?",
+    "a": "ההפעלה פשוטה, בלחיצה אחת על הכפתור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "בלנדר מוט בראון",
+   "Braun MQ100",
+   "MQ 100 Soup",
+   "בראון MultiQuick 1",
+   "בלנדר מוט 450 וואט",
+   "בלנדר מוט למרקים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "450 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Catalog model MQ100-SOUP appears on pages as MQ 100 Soup; verify against the box.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sources print the model as MQ 100 Soup, not MQ100-SOUP; verify against the box.",
+   "severity": "low"
+  },
+  {
+   "field": "מספר מהירויות",
+   "issue": "Number of speeds in the catalog (one speed) could not be verified from a valid quote.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 1 (number of speeds): the only quote is a JSON key with no value and failed the check. Feature 0 reworded to drop the SplashControl name, which the quote does not mention. | code guard removed: summary: \"בלנדר מוט Braun MQ100-SOUP מסדרת MultiQuick 1, עם מנוע בהספק 450 W.\"; metaDescription: \"בלנדר מוט Braun MQ100-SOUP מסדרת MultiQuick 1: מנוע 450 W, הפעלה בלחיצה אחת ועיצוב שמונע התזות. בחדד אלקטריק נהריה\""
+ }
+}

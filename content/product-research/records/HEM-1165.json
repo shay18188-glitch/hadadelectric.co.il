@@ -1,0 +1,460 @@
+{
+ "modelNumber": "HEM-1165",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-1165",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "דף היבואן (hemilton.co.il) ודפי הקמעונאים מציגים את הדגם HEM-1165 בשם טוסטר אובן 20 ליטר. הקישור 'למפרט המלא' בדף היבואן לא נקרא, ולכן מתח 230V/50Hz, מספר וחומר גופי החימום, פעמון ההתראה ומשקל לא אומתו. | QA: Importer page and Israeli retailers name HEM-1165 as a 20 litre toaster oven."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem1165",
+   "publisher": "Hemilton Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%90%D7%95%D7%91%D7%9F-20-%D7%9C%D7%99%D7%98%D7%A8-hemilton-9257116520",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.htzone.co.il/item/149470/%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%90%D7%95%D7%91%D7%9F-20-%D7%9C%D7%99%D7%98%D7%A8-1000-%D7%95%D7%95%D7%90%D7%98-%D7%9C%D7%91%D7%99%D7%A9%D7%95%D7%9C_-%D7%A6%D7%9C%D7%99%D7%99%D7%94-%D7%90%D7%95-%D7%90%D7%A4%D7%99%D7%99%D7%94-HEMILTON-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F-%D7%93%D7%92%D7%9D-HEM-1165/subcategory/2639/sale/salewebview/2213",
+   "publisher": "HTZone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "As stated by importer; height vs depth ordering looks unusual, flagged.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "41 × 39 × 28 ס״מ (ללא ידית)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "20 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 1380W; importer and BUG say 1000W.",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טמפרטורה מרבית",
+     "value": "עד 230 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "60 דקות עם כיבוי אוטומטי"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תוכניות בישול",
+     "value": "3 תוכניות: חימום עליון, חימום תחתון, חימום עליון ותחתון"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Catalog name says black; sources reportedly mixed. Needs physical check.",
+     "label": "צבע",
+     "value": "אפור כהה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דלת",
+     "value": "זכוכית קדמית כפולה, בטיחותית וחסינת חום"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "One retailer reportedly lists 12 months; flagged.",
+     "label": "אחריות יבואן",
+     "value": "3 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב הפעלה קבוע (שבת)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דפנות פנימיות מטפלון לניקוי קל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורית חיווי הפעלה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תבנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רשת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית אחיזה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "טוסטר אובן של Hemilton דגם HEM-1165 בנפח 20 ליטר, לבישול, אפייה וצלייה. הוא מגיע עם הספק של 1000 W, ווסת טמפרטורה עד 230 מעלות וטיימר של 60 דקות עם כיבוי אוטומטי, וכולל מצב הפעלה קבוע לשבת. מתאים למטבח שמחפש תנור קטן משלים לחימום, אפייה וצלייה של מנות קטנות.",
+  "highlights": [
+   "נפח 20 ליטר",
+   "הספק 1000 W",
+   "ווסת טמפרטורה עד 230 מעלות",
+   "טיימר 60 דקות עם כיבוי אוטומטי",
+   "מצב הפעלה קבוע (שבת)"
+  ],
+  "goodFor": [
+   "חימום ואפייה של מנות קטנות בלי להדליק תנור גדול",
+   "שמירה על אוכל חם בשבת בזכות מצב הפעלה קבוע",
+   "מטבח קטן או משרד שצריכים תנור שולחני משלים"
+  ],
+  "considerations": [
+   "לבדוק שיש על השיש מקום למידות 41 × 39 × 28 ס״מ, ועוד מרווח לידית",
+   "ווסת הטמפרטורה מגיע עד 230 מעלות, כדאי לוודא שזה מספיק למתכונים שלכם",
+   "לוודא את צבע היחידה בחנות לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של הטוסטר אובן HEM-1165?",
+    "a": "הנפח הוא 20 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בו מצב שבת?",
+    "a": "כן, יש בו מצב הפעלה קבוע (שבת).",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "תבנית, רשת וידית אחיזה.",
+    "sources": []
+   },
+   {
+    "q": "אילו תוכניות בישול יש?",
+    "a": "3 תוכניות: חימום עליון, חימום תחתון וחימום עליון ותחתון יחד.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן אחריות?",
+    "a": "3 שנים אחריות יבואן, בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר אובן Hemilton HEM-1165 בנפח 20 ליטר, טיימר 60 דקות עם כיבוי אוטומטי ומצב שבת, ווסת עד 230 מעלות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר אובן 20 ליטר",
+   "HEM-1165",
+   "טוסטר אובן המילטון",
+   "Hemilton HEM-1165",
+   "טוסטר אובן עם מצב שבת",
+   "טוסטר אובן 1000W",
+   "טוסטר אובן קטן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח פנימי",
+   "catalogValue": "20 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1380W",
+   "finding": "corrected",
+   "correctValue": "1000 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "100-250 מעלות צלזיוס",
+   "finding": "corrected",
+   "correctValue": "עד 230 מעלות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 60 דקות הכולל פעמון התראה ומצב Stay On",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גופי חימום",
+   "catalogValue": "4 גופי חימום עשויים נירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בורר מצבים",
+   "catalogValue": "4 מצבי פעולה (כבוי, חימום עליון, חימום תחתון, חימום משולב)",
+   "finding": "corrected",
+   "correctValue": "3 תוכניות בישול (חימום עליון, חימום תחתון, חימום עליון ותחתון) ומצב שבת",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורית ביקורת",
+   "catalogValue": "נורית ביקורת לפעולה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "צבע שחור",
+   "finding": "corrected",
+   "correctValue": "אפור כהה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דלת",
+   "catalogValue": "דלת זכוכית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "תבנית, רשת, ידית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "41 × 39 × 28 ס״מ (ללא ידית)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב הפעלה קבוע (שבת)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מצב הפעלה קבוע (שבת)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 1380W, אך דף היבואן ושלושת הקמעונאים הישראלים מציינים הספק כולל 1000W.",
+   "severity": "high"
+  },
+  {
+   "field": "צבע",
+   "issue": "שם המוצר בקטלוג מציין 'שחור' ובדף BUG מופיע גם 'צבע שחור' בטבלת המאפיינים, אך דף היבואן, HTZone, גיטק ודף BUG בתיאור מציינים אפור כהה. יש לבדוק את צבע המוצר הנמכר לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף היבואן, HTZone ו-BUG מציינים 3 שנים (דף היבואן: 36 חודשים), אך גיטק מציין אחריות של 12 חודשים. מקורות סותרים.",
+   "severity": "medium"
+  },
+  {
+   "field": "טמפרטורה",
+   "issue": "הקטלוג מציין טווח 100-250 מעלות צלזיוס; הדפים מציינים ווסת עד 230 מעלות בלבד, ולא מופיע מינימום.",
+   "severity": "medium"
+  },
+  {
+   "field": "בורר מצבים",
+   "issue": "הקטלוג מציין 4 מצבי פעולה כולל כיבוי; הדפים מציינים 3 תוכניות בישול ומצב הפעלה קבוע (שבת).",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט מלא",
+   "issue": "לא נקרא המפרט המלא של היבואן. מתח 230V/50Hz, מספר וחומר גופי החימום, פעמון ההתראה ומשקל לא אומתו מול מקור.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 1380W, אך דף היבואן ו-BUG מציינים הספק כולל 1000W.",
+   "severity": "high"
+  },
+  {
+   "field": "צבע",
+   "issue": "שם המוצר בקטלוג מציין שחור, ואילו דף היבואן ורוב הקמעונאים מציינים אפור כהה. יש לבדוק את צבע היחידה הנמכרת.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף אחד של קמעונאי (גיטק) מציין לפי הדיווח 12 חודשים לעומת 3 שנים במקורות האחרים.",
+   "severity": "medium"
+  },
+  {
+   "field": "טמפרטורה",
+   "issue": "הקטלוג מציין טווח 100-250 מעלות; המקורות מציינים עד 230 מעלות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "סדר המידות בדף היבואן (גובה 39, עומק 28) נראה חריג לטוסטר אובן; כדאי לאמת.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט",
+   "issue": "מתח, מספר וחומר גופי החימום ופעמון ההתראה מהקטלוג לא אומתו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected colour (dark gray on sources vs black in catalog name; BUG table reportedly also says black) pending a check. Kept 1000 W and up to 230 degrees from importer page over catalog values. Kept 3-year warranty from importer-backed retailer quotes; one retailer reportedly states 12 months."
+ }
+}

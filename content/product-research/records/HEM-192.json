@@ -1,0 +1,290 @@
+{
+ "modelNumber": "HEM-192",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "192-HEM",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "medium",
+  "notes": "Israeli retailer BUG lists the product as 192-HEM (reverse order of the catalog code HEM-192), same description as catalog. No manufacturer page found. | QA: BUG lists 192-HEM, the reverse order of the catalog code HEM-192; capacity 6.5 L / 40 cups, 950W and dimensions match the catalog, so it is very likely the same unit."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מיחם-מים-לשבת-65-ליטר-40-כוסות-מאושר-לשימוש-בשבת-hemilton-97782453",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "950 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "6.5 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כמות כוסות",
+     "value": "40 כוסות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "45 ס״מ (כולל מכסה)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "33 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "30 ס״מ (כולל ברז)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר",
+     "value": "נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שני מצבי פעולה: מצב הרתחה ומצב שבת (שמירת חום)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Catalog says משמרת השבת; flagged",
+   "text": "מאושר לשימוש בשבת על ידי מכון צומת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום נסתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון הגנה מפני שימוש ללא מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה עליון מנירוסטה הניתן לנעילה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדיד מים חיצוני"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיחם מים לשבת של המילטון מנירוסטה, בנפח 6.5 ליטר (40 כוסות) ובהספק 950 W. למיחם שני מצבי פעולה, הרתחה ומצב שבת לשמירת חום, והוא מאושר לשימוש בשבת על ידי מכון צומת. מתאים לבית שמחזיק מים חמים לאורך השבת ולאירוח.",
+  "highlights": [
+   "נפח 6.5 ליטר – 40 כוסות",
+   "הספק 950 W",
+   "מצב הרתחה ומצב שבת לשמירת חום",
+   "מאושר לשימוש בשבת על ידי מכון צומת",
+   "גוף נירוסטה עם גוף חימום נסתר"
+  ],
+  "goodFor": [
+   "שמירת מים חמים לאורך השבת במצב שמירת חום",
+   "אירוח ושולחן שבת שבו נדרשות כוסות רבות של שתייה חמה",
+   "מי שמחפש מיחם עם אישור לשימוש בשבת"
+  ],
+  "considerations": [
+   "מידות המיחם 45 ס״מ גובה (כולל מכסה) × 33 ס״מ רוחב × 30 ס״מ עומק (כולל ברז) – כדאי לוודא שיש מקום על השיש",
+   "יש לוודא שקע חשמל זמין קרוב למקום ההצבה",
+   "יש למלא מים לפני הפעלה; למיחם הגנה מפני שימוש ללא מים, אך מומלץ לעקוב אחרי המדיד החיצוני"
+  ],
+  "faq": [
+   {
+    "q": "כמה מים נכנסים במיחם?",
+    "a": "המיחם מכיל 6.5 ליטר, כ-40 כוסות.",
+    "sources": []
+   },
+   {
+    "q": "האם המיחם מתאים לשבת?",
+    "a": "כן, יש לו מצב שבת לשמירת חום והוא מאושר לשימוש בשבת על ידי מכון צומת.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המיחם?",
+    "a": "ההספק הוא 950 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המיחם?",
+    "a": "גובה 45 ס״מ כולל מכסה, רוחב 33 ס״מ ועומק 30 ס״מ כולל ברז.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המיחם?",
+    "a": "אחריות לשנה, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיחם מים לשבת המילטון HEM-192 מנירוסטה, 6.5 ליטר (40 כוסות), 950 W, עם מצב שבת ואישור מכון צומת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיחם לשבת",
+   "מיחם 40 כוסות",
+   "מיחם המילטון",
+   "HEM-192",
+   "מיחם נירוסטה",
+   "מיחם 6.5 ליטר",
+   "מיחם מאושר לשבת",
+   "מיחם מים חמים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "950W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תכולה",
+   "catalogValue": "6.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "45 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "33 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Page names the model as 192-HEM, reversed from HEM-192",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The retailer page lists the model as 192-HEM, reversed from the catalog's HEM-192.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog says the Shabbat approval is from 'משמרת השבת', the retailer page says 'מכון צומת'; confirm which is correct.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from one Israeli retailer page (BUG) that lists the model as 192-HEM. Kept all quoted facts; feature text on Shabbat approval kept as quoted (מכון צומת), which differs from the catalog's 'משמרת השבת' and is flagged."
+ }
+}

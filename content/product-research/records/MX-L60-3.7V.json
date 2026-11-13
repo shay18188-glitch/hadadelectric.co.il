@@ -1,0 +1,387 @@
+{
+ "modelNumber": "MX-L60-3.7V",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Omega",
+  "exactModel": "MX-L60-3.7V",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The only fetched page that names this exact model is an Israeli retailer listing (Depot365), which gives the brand as אומגה. No manufacturer datasheet or importer page naming this model was found. Saynet lists the Omega brand but its page does not name this model, so it is not used as evidence. | QA: The only source is an Israeli retailer page (Depot365) naming the exact model MX-L60-3.7V and the brand אומגה. No manufacturer or importer page was found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.depot365.co.il/items/4279065-%D7%AA%D7%90%D7%95%D7%A8%D7%AA-%D7%97%D7%99%D7%A8%D7%95%D7%9D-%D7%A0%D7%98%D7%A2%D7%A0%D7%AA-%D7%A0%D7%99%D7%99%D7%93%D7%AA-60-LED-MX-L60-3-7V-%D7%90%D7%95%D7%9E%D7%92%D7%94",
+   "publisher": "Depot365",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Axis order not stated on the page.",
+     "label": "מידות המוצר",
+     "value": "66×36×360 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת אור",
+     "value": "400 לומן בעוצמה גבוהה, 200 לומן בעוצמה נמוכה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן פעולה בחירום",
+     "value": "2–3 שעות בעוצמה גבוהה, 5–6 שעות בעוצמה נמוכה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח הפעלה",
+     "value": "220-240V AC"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog 1500mAh; flagged.",
+     "label": "סוללה",
+     "value": "ליתיום 3.7V, 2.2Ah"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אטימות",
+     "value": "IP20 (לשימוש פנימי בלבד)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Garbled quote; retailer warranty may be shop policy; other listing reportedly 12 months.",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הדלקה אוטומטית בעת הפסקת חשמל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הגנה מפני טעינת יתר ופריקת יתר של הסוללה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כפתורי בדיקה והדלקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורית בקרה לחיווי טעינה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "תאורת חירום נטענת של Omega לשימוש פנימי, שנדלקת אוטומטית בעת הפסקת חשמל. היא מפיקה 400 לומן בעוצמה גבוהה או 200 לומן בעוצמה נמוכה, ופועלת 2–3 שעות בעוצמה גבוהה ו-5–6 שעות בעוצמה נמוכה על סוללת ליתיום 3.7V. מתאימה לבית, למשרד ולחדרי מדרגות פנימיים.",
+  "highlights": [
+   "הדלקה אוטומטית בעת הפסקת חשמל",
+   "400 לומן בעוצמה גבוהה, 200 לומן בעוצמה נמוכה",
+   "זמן פעולה בחירום: 2–3 שעות בעוצמה גבוהה, 5–6 שעות בעוצמה נמוכה",
+   "סוללת ליתיום 3.7V, 2.2Ah עם הגנה מפני טעינת יתר ופריקת יתר",
+   "כפתור בדיקה ונורית בקרה לחיווי טעינה"
+  ],
+  "goodFor": [
+   "תאורת גיבוי במסדרון, במטבח או בחדר מדרגות פנימי בזמן הפסקת חשמל",
+   "משרדים וחנויות שרוצים תאורה שנדלקת לבד כשהחשמל נופל",
+   "מי שרוצה לבחור בין תאורה חזקה לזמן פעולה ארוך יותר בעוצמה נמוכה"
+  ],
+  "considerations": [
+   "דירוג IP20 מיועד לשימוש פנימי בלבד, ולא למקום חשוף לגשם או לרטיבות",
+   "יש לוודא שקע או נקודת חשמל 220-240V קרובה למקום ההתקנה כדי שהסוללה תישאר טעונה",
+   "כדאי למדוד את מקום ההתקנה מול מידות המוצר 66×36×360 מ״מ",
+   "מומלץ ללחוץ מדי פעם על כפתור הבדיקה כדי לוודא שהיחידה תקינה"
+  ],
+  "faq": [
+   {
+    "q": "האם התאורה נדלקת לבד כשיש הפסקת חשמל?",
+    "a": "כן, היחידה נדלקת אוטומטית בעת הפסקת חשמל.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן היא מאירה בזמן הפסקה?",
+    "a": "2–3 שעות בעוצמה גבוהה ו-5–6 שעות בעוצמה נמוכה.",
+    "sources": []
+   },
+   {
+    "q": "כמה אור היא נותנת?",
+    "a": "400 לומן בעוצמה גבוהה ו-200 לומן בעוצמה נמוכה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין אותה בחוץ?",
+    "a": "לא. דירוג האטימות הוא IP20, לשימוש פנימי בלבד.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שהיא נטענת?",
+    "a": "ביחידה יש נורית בקרה לחיווי טעינה וכפתור בדיקה לבדיקת תקינות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תאורת חירום נטענת Omega MX-L60-3.7V: הדלקה אוטומטית בהפסקת חשמל, 400 לומן ועד 5–6 שעות בעוצמה נמוכה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תאורת חירום נטענת",
+   "תאורת חירום Omega",
+   "MX-L60-3.7V",
+   "תאורת חירום לד",
+   "תאורת חירום לבית",
+   "פנס חירום הפסקת חשמל",
+   "תאורת חירום אומגה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר נוריות",
+   "catalogValue": "60 לדים (LED) מסוג SMD",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מתח כניסה",
+   "catalogValue": "220-240V / 50-60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50-60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "ליתיום 3.7V 1500mAh",
+   "finding": "contradicted",
+   "correctValue": "ליתיום 3.7V 2.2Ah",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "כ-20 עד 24 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משך פעולה",
+   "catalogValue": "עד 3 שעות בעוצמה גבוהה, עד 6 שעות בעוצמה נמוכה",
+   "finding": "corrected",
+   "correctValue": "2H-3H בעוצמה גבוהה, 5H-6H בעוצמה נמוכה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "אורך 36 ס\"מ, רוחב 6.6 ס\"מ, עומק 3.5 ס\"מ",
+   "finding": "contradicted",
+   "correctValue": "66×36×360mm",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת אטימות",
+   "catalogValue": "IP20 לשימוש פנימי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הדלקה אוטומטית",
+   "catalogValue": "הדלקה אוטומטית מידית בעת הפסקת חשמל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר עוצמה",
+   "catalogValue": "2 דרגות תאורה (High/Low)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כפתור בדיקה",
+   "catalogValue": "כפתור בדיקה (TEST)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנה מפני טעינת יתר ופריקת יתר",
+   "catalogValue": "הגנה מובנית מפני טעינת יתר ופריקת יתר של הסוללה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית נשיאה ותלייה על קיר",
+   "catalogValue": "ידית נשיאה נשלפת ואפשרות לתלייה קבועה על קיר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת אור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "400 לומן בעוצמה גבוהה, 200 לומן בעוצמה נמוכה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוללה",
+   "issue": "The catalog says 1500mAh. The Israeli retailer page for this exact model says 2.2Ah. The catalog battery capacity needs a person's check against the printed label or the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog gives 36 × 6.6 × 3.5 cm (length, width, depth). The retailer gives 66×36×360mm without axis labels. The depth differs (35mm in the catalog, 36mm on the retailer page), and the axis order is not stated. Check the physical product.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The Israeli retailer page says two years. A search snippet from another Israeli listing for this model said 12 months, but that page was not fetched, so it is not evidence. Confirm the warranty period with the importer or the printed box.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer page that names this exact model was found. Saynet lists Omega products, but its page does not name this model. The Israeli importer is unconfirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "מספר דגם",
+   "issue": "The facts rest on a single Israeli retailer page. No manufacturer datasheet or manual for this model was found. Some other listings show variant model numbers (MX-L60, OM-L60-3.7V) or the brand Matrix. Check the printed label to confirm the model and brand.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוללה",
+   "issue": "The catalog says 1500mAh; the Israeli retailer page for this exact model says 2.2Ah. Check the printed label or the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog 36 × 6.6 × 3.5 cm vs retailer 66×36×360mm (no axis labels); depth differs (35 vs 36 mm). Check the physical product.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty not published: the retailer quote is garbled and may be the shop's own term; another listing reportedly says 12 months. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "משך פעולה",
+   "issue": "Catalog says up to 3 h high / 6 h low; retailer says 2–3 h high / 5–6 h low. Catalog text may need adjusting.",
+   "severity": "low"
+  },
+  {
+   "field": "מספר דגם",
+   "issue": "All facts rest on one Israeli retailer page; other listings show variant codes (MX-L60, OM-L60-3.7V) or brand Matrix. Confirm model and brand on the printed label. Israeli importer unknown.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the warranty fact (id 6): the quote is garbled (\"45OC-0שנתיים אחריות\") and a retailer's warranty term may be the shop's own policy rather than the importer's; another listing reportedly says 12 months. Reworded dimensions with a space and מ״מ. All other facts and features kept from the Depot365 page, which names the exact model and brand."
+ }
+}

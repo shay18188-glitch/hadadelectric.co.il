@@ -1,0 +1,417 @@
+{
+ "modelNumber": "MW6623B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "MW6623B",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "high",
+  "notes": "הדגם נמצא בדף הקטגוריה של Sauter בישראל, ומפרט הטכני נמצא בדף ACE שמציין יבואן רשמי ואחריות של אלקטרה. | QA: Sauter Israel category page and ACE product page both name MW6623B, 25 L built-in microwave with grill, black glass. ACE states Electra as official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/product-category/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D-%D7%A7%D7%98%D7%A0%D7%99%D7%9D-%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C%D7%99%D7%9D/",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ace.co.il/4481596",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "900 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גריל",
+     "value": "1,000 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמות עוצמה",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אפשרויות בישול",
+     "value": "8"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 38.8 × 40.1 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "31.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Niche width 65 cm for a 59.5 cm built-in unit looks like a retailer listing error; catalog says 56-60 cm.",
+     "label": "מידות נישה להתקנה",
+     "value": "רוחב 65 ס״מ × גובה 40 ס״מ × עומק 50 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילת בטיחות",
+     "value": "נעילה מפני ילדים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חזית",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, מטעם היבואן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפעלה דיגיטלית באמצעות לחצני מגע"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר למטבח"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'ענקית'.",
+   "text": "צלחת מסתובבת בקוטר 31.5 ס״מ"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Suspect niche width, see fact 7.",
+   "text": "התקנה בנישה: רוחב 65 ס״מ, גובה 40 ס״מ, עומק 50 ס״מ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Generic retailer boilerplate, not product-specific.",
+   "text": "במידה ורוכשים מוצר המחייב הרכבה, יש לוודא שההתקנה מבוצעת על ידי מתקין מורשה מטעם היבואן"
+  }
+ ],
+ "content": {
+  "summary": "מיקרוגל בנוי של Sauter בנפח 25 ליטר עם גריל וחזית זכוכית שחורה. הספק המיקרוגל 900 W והגריל 1,000 W, עם 5 רמות עוצמה ו-8 אפשרויות בישול. מתאים למי שמתכנן מטבח עם מיקרוגל אינטגרלי בארון ורוצה גם גריל להשחמה.",
+  "highlights": [
+   "נפח 25 ליטר",
+   "מיקרוגל 900 W וגריל 1,000 W",
+   "5 רמות עוצמה ו-8 אפשרויות בישול",
+   "צלחת מסתובבת בקוטר 31.5 ס״מ",
+   "נעילת בטיחות מפני ילדים"
+  ],
+  "goodFor": [
+   "מטבח עם ארון או טור תנורים שמיועד למיקרוגל בנוי",
+   "מי שרוצה מיקרוגל עם גריל במכשיר אחד",
+   "בית עם ילדים, בזכות נעילת הבטיחות",
+   "מטבח בעיצוב כהה שמתאים לחזית זכוכית שחורה"
+  ],
+  "considerations": [
+   "מידות המכשיר 59.5 × 38.8 × 40.1 ס״מ – כדאי לבדוק את מידות הנישה המדויקות מול הוראות ההתקנה של היצרן לפני ההזמנה",
+   "יש לוודא שקע חשמל זמין בתוך הארון או בסמוך לנישה",
+   "הצלחת בקוטר 31.5 ס״מ – כדאי לוודא שהכלים שבהם משתמשים נכנסים"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המיקרוגל?",
+    "a": "25 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בו גריל?",
+    "a": "כן, גריל בהספק 1,000 W לצד מיקרוגל בהספק 900 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה רמות עוצמה ותוכניות יש?",
+    "a": "5 רמות עוצמה ו-8 אפשרויות בישול.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת ילדים?",
+    "a": "כן, יש פונקציית נעילת בטיחות מפני ילדים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה, מטעם היבואן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל בנוי Sauter MW6623B בנפח 25 ליטר, מיקרוגל 900 W וגריל 1,000 W, חזית זכוכית שחורה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sauter MW6623B",
+   "מיקרוגל בנוי סאוטר",
+   "מיקרוגל בנוי 25 ליטר",
+   "מיקרוגל בנוי עם גריל",
+   "מיקרוגל זכוכית שחורה",
+   "מיקרוגל אינטגרלי",
+   "MW6623B"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "900W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק גריל",
+   "catalogValue": "1,000W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "25 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 59.5 ס\"מ, גובה 38.8 ס\"מ, עומק 40.1 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "31.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות גומחה להתקנה",
+   "catalogValue": "עומק 50 ס\"מ, גובה 40 ס\"מ, רוחב מומלץ כ-56-60 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 65 ס״מ, גובה 40 ס״מ, עומק 50 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "זכוכית שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "5 דרגות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "8 תוכניות בישול אוטומטיות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פונקציית הפשרה",
+   "catalogValue": "הפשרה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גריל להשחמה",
+   "catalogValue": "גריל להשחמה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת בטיחות מפני ילדים",
+   "catalogValue": "מנגנון נעילת בטיחות מפני ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, מטעם היבואן",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות גומחה להתקנה",
+   "issue": "הקטלוג מציין רוחב גומחה כ-56-60 ס\"מ, ואילו דף ACE ומפרט היבואן מציינים רוחב 65 ס\"מ. יש לבדוק לפני התקנה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור המפרט",
+   "issue": "דף היצרן בישראל מאשר את הדגם ונפח 25 ליטר, אך המפרט המלא נמצא רק בדף הקמעונאי ACE. לא נמצא דף מפרט רשמי של היצרן עם המידות.",
+   "severity": "low"
+  },
+  {
+   "field": "הפשרה וגריל להשחמה",
+   "issue": "תכונות הפשרה והשחמה שבקטלוג לא נמצאו בדפים שנסרקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות נישה להתקנה",
+   "issue": "דף ACE מציין רוחב נישה 65 ס״מ למכשיר ברוחב 59.5 ס״מ, בעוד הקטלוג מציין 56-60 ס״מ. יש לאמת מול הוראות ההתקנה של היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור המפרט",
+   "issue": "רוב המפרט מבוסס על דף קמעונאי אחד (ACE); דף Sauter ישראל מאשר רק דגם, נפח וצבע.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected niche dimensions (fact 7, installation 0): ACE lists niche width 65 cm for a 59.5 cm wide built-in unit, which looks like a listing error and conflicts with the catalog's 56-60 cm. Rejected generic retailer installation boilerplate (installation 1). Reworded feature 2 to drop 'ענקית'."
+ }
+}

@@ -1,0 +1,338 @@
+{
+ "modelNumber": "SL-7008",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "SOL",
+  "exactModel": "SL-7008",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "נמצא דף קמעונאי ישראלי אחד (טרקלין) שמזכיר את הדגם במפורש. דף היבואן ודף היצרן לא נמצאו; דף Payngo החזיר 403. | QA: Traklin page names SOL SL-7008 black 4-mode milk frother, matching the catalog name and color."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/product.aspx?id=21204",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "SL-7008"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "SOL"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת לחלב מוקצף",
+     "value": "300 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "label simplified",
+     "label": "קוטר",
+     "value": "11 ס״מ (15 ס״מ כולל ידית)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן הקצפה וחימום ממצב קר",
+     "value": "תוך 60 שניות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "הקצפה חמה וסמיכה, הקצפה חמה ועדינה, הקצפה קרה, חימום"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, דרך היבואן שאוליאן סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס 360 מעלות נשלף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגליות מונעות החלקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורית בקרה LED"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פעילות מהירה ושקטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "quote garbles 'Non-stick'; coating claim not published",
+   "text": "מיכל לניקוי קל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקציף חלב חשמלי של SOL בצבע שחור, דגם SL-7008, עם ארבעה מצבי הפעלה: הקצפה חמה וסמיכה, הקצפה חמה ועדינה, הקצפה קרה וחימום חלב. הוא מקציף ומחמם חלב ממצב קר תוך 60 שניות, וקיבולת החלב המוקצף היא 300 מ״ל. מתאים למי שמכין קפוצ׳ינו, לאטה או אייס קפה בבית ורוצה קצף בלי מכונת אספרסו עם מקציף מובנה.",
+  "highlights": [
+   "ארבעה מצבים: הקצפה חמה וסמיכה, חמה ועדינה, קרה וחימום",
+   "הקצפה וחימום ממצב קר תוך 60 שניות",
+   "קיבולת לחלב מוקצף 300 מ״ל",
+   "בסיס 360 מעלות נשלף ורגליות מונעות החלקה",
+   "אחריות שנה דרך היבואן שאוליאן סחר"
+  ],
+  "goodFor": [
+   "הכנת קפוצ׳ינו ולאטה בבית עם קצף חם",
+   "הכנת אייס קפה בעזרת מצב ההקצפה הקרה",
+   "חימום חלב לשתייה בלי סיר וכיריים",
+   "שימוש בבוקר כשרוצים תוצאה מהירה ופעולה שקטה"
+  ],
+  "considerations": [
+   "קיבולת החלב המוקצף היא 300 מ״ל, כדאי לבדוק שזה מספיק לכמות הכוסות שאתם מכינים בפעם אחת",
+   "הקוטר כולל ידית הוא 15 ס״מ, כדאי לוודא מקום פנוי על השיש ליד שקע חשמל",
+   "האחריות ניתנת דרך היבואן שאוליאן סחר, כדאי לשמור את החשבונית"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להכין בו קצף קר לאייס קפה?",
+    "a": "כן, יש בו מצב הקצפה קרה לצד שני מצבי הקצפה חמה ומצב חימום בלבד.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח להקציף חלב?",
+    "a": "לפי היצרן הוא מקציף ומחמם חלב ממצב קר תוך 60 שניות.",
+    "sources": []
+   },
+   {
+    "q": "כמה חלב מוקצף אפשר להכין בבת אחת?",
+    "a": "קיבולת החלב המוקצף היא 300 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקציף?",
+    "a": "אחריות לשנה דרך היבואן שאוליאן סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקציף חלב SOL דגם SL-7008 בצבע שחור עם הקצפה חמה, הקצפה קרה וחימום, וקיבולת 300 מ״ל לחלב מוקצף תוך 60 שניות, בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקציף חלב",
+   "מקציף חלב SOL",
+   "SL-7008",
+   "מקציף חלב חשמלי",
+   "מקציף חלב שחור",
+   "מקציף חלב להקצפה קרה",
+   "מקציף חלב סול"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת מירבית להקצפה",
+   "catalogValue": "300 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "19 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר",
+   "catalogValue": "11 ס\"מ (15 ס\"מ כולל ידית)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "360 מעלות נשלף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון בקרה",
+   "catalogValue": "STRIX איכותי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורית בקרה",
+   "catalogValue": "נורית בקרה LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "Non-stick",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "500W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, דרך היבואן שאוליאן סחר",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק ומתח",
+   "issue": "ההספק 500W והמתח 220-240V שבקטלוג לא נמצאו באף מקור שנקרא. יש לאמת מול דף היבואן או תווית המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור יחיד",
+   "issue": "רק דף קמעונאי ישראלי אחד (טרקלין) מזכיר את הדגם המדויק. דף היבואן ודף היצרן לא נמצאו, ודף Payngo החזיר 403. העובדות מבוססות על מקור אחד בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "ציפוי פנימי",
+   "issue": "דף טרקלין כותב 'מיכל stick None', ולא Non-stick כמו בקטלוג. לא פורסם מקור שמאשר את הציפוי.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק ומתח",
+   "issue": "ההספק 500W והמתח 220-240V שבקטלוג לא נמצאו במקור שנקרא. יש לאמת מול היבואן או תווית המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "ציפוי פנימי",
+   "issue": "דף טרקלין כותב 'מיכל stick None' ולא Non-stick במפורש. הציפוי לא אומת ולא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור יחיד",
+   "issue": "כל העובדות מבוססות על דף קמעונאי ישראלי אחד (טרקלין). דף היבואן והיצרן לא נמצאו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 3 label simplified to 'קוטר' since the value already states the handle-inclusive figure. All facts rely on a single Israeli retailer page (Traklin) that names SL-7008 in black."
+ }
+}

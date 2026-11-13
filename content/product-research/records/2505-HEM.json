@@ -1,0 +1,391 @@
+{
+ "modelNumber": "2505-HEM",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-2505",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The catalog code 2505-HEM appears on no page. The only page found names the model HEM-2505 (retailer BUG, Israel). Dimensions and weight were not found in the sources available. cwc.co.il returned HTTP 403 and was not usable. | QA: Catalog 2505-HEM vs retailer page HEM-2505; same brand and matching specs, single Israeli retailer source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מגהץ-אדים-אלחוטי-כולל-תחתית-קרמית-hemilton-913274778",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HEM-2505"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Hemilton"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 320 ml",
+     "label": "נפח מיכל מים",
+     "value": "300 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפעלה",
+     "value": "אלחוטית (נטען)"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "On a cordless iron this is presumably the base cord",
+     "label": "אורך כבל חשמל",
+     "value": "1.8 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחריות על ידי היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "removed 'חדשני'",
+   "text": "מעמד טעינה לשימוש אלחוטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "trimmed marketing wording",
+   "text": "כמות אדים מוגברת בקצה הפלטה הקרמית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ווסת טמפרטורה לגיהוץ לפי סוג הבד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לחצן לניקוי עצמי מאבנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות לגיהוץ יבש או גיהוץ עם אדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון בטיחות מפני התחממות יתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נוריות חיווי לבקרה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "removed 'מקסימלי'",
+   "text": "תחתית בעלת מבנה 3D לפיזור קיטור"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מגהץ אדים אלחוטי של Hemilton עם תחתית קרמית, הספק 2200 W ומיכל מים של 300 מ״ל. המגהץ נטען על מעמד ומאפשר לגהץ בלי כבל שמפריע לתנועה, עם ווסת טמפרטורה לפי סוג הבד ולחצן לניקוי עצמי מאבנית. מתאים למי שמגהץ בבית ורוצה חופש תנועה על קרש הגיהוץ.",
+  "highlights": [
+   "הספק 2200 W",
+   "הפעלה אלחוטית עם מעמד טעינה",
+   "מיכל מים של 300 מ״ל",
+   "לחצן לניקוי עצמי מאבנית",
+   "גיהוץ יבש או עם אדים"
+  ],
+  "goodFor": [
+   "גיהוץ ביתי בלי כבל שנגרר על הבד",
+   "בגדים מבדים שונים בזכות ווסת הטמפרטורה",
+   "מי שמעדיף לבחור בין גיהוץ יבש לגיהוץ עם אדים"
+  ],
+  "considerations": [
+   "יש להחזיר את המגהץ למעמד לטעינה במהלך הגיהוץ",
+   "כבל המעמד באורך 1.8 מטר, כדאי לוודא שיש שקע קרוב לקרש הגיהוץ",
+   "מיכל של 300 מ״ל, בגיהוץ ארוך ייתכן שיהיה צורך למלא מחדש"
+  ],
+  "faq": [
+   {
+    "q": "האם המגהץ אלחוטי?",
+    "a": "כן, המגהץ נטען על מעמד ופועל בלי כבל מחובר אליו.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "מיכל המים הפנימי הוא 300 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "האם יש ניקוי מאבנית?",
+    "a": "כן, יש לחצן לניקוי עצמי מאבנית.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות על ידי היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ אדים אלחוטי Hemilton HEM-2505 עם תחתית קרמית, הספק 2200 W ומיכל מים 300 מ״ל, כולל ניקוי עצמי מאבנית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מגהץ אלחוטי",
+   "מגהץ אדים אלחוטי",
+   "Hemilton HEM-2505",
+   "מגהץ Hemilton",
+   "מגהץ תחתית קרמית",
+   "מגהץ 2200 וואט",
+   "מגהץ אדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "2200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מכל מים",
+   "catalogValue": "320 מ\"ל",
+   "finding": "corrected",
+   "correctValue": "300 מ\"ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תחתית",
+   "catalogValue": "קרמית איכותית להחלקה קלה על גבי הבד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר טמפרטורה",
+   "catalogValue": "בורר טמפרטורה ידני",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר עוצמת אדים",
+   "catalogValue": "בורר עוצמת אדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס טעינה סיבוב 360 מעלות",
+   "catalogValue": "סיבוב של 360 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן חימום מהיר",
+   "catalogValue": "זמן חימום מהיר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Anti-Calc",
+   "catalogValue": "מערכת Anti-Calc למניעת הצטברות אבנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Anti-Drip",
+   "catalogValue": "מערכת Anti-Drip למניעת טפטוף מים בטמפרטורות נמוכות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Self-Clean",
+   "catalogValue": "פונקציית Self-Clean (ניקוי עצמי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גיהוץ אנכי",
+   "catalogValue": "תמיכה בגיהוץ אנכי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גיהוץ אלחוטי",
+   "catalogValue": "גיהוץ אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכת אדים / התזת רסס",
+   "catalogValue": "אפשרות להתזת רסס מים קדמי ומכת אדים עוצמתית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחריות על ידי היבואן הרשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model number 2505-HEM appears on no page. The page found names the model as HEM-2505, which is a close code and was used on that basis. Confirm the catalog code before relying on these facts.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח מכל מים",
+   "issue": "Catalog says 320 ml; the retailer page says 300 ml.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "No dimensions or weight were found. Only one source was usable (the manufacturer and importer pages were not found, and cwc.co.il returned HTTP 403).",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog code 2505-HEM does not appear on any page; the retailer page names HEM-2505. Confirm the catalog code.",
+   "severity": "high"
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "issue": "A 1.8 m cord is listed for a cordless iron; presumably the charging base cord. Confirm.",
+   "severity": "low"
+  },
+  {
+   "field": "catalog features",
+   "issue": "360-degree base, vertical ironing, Anti-Calc, Anti-Drip and spray/steam shot from the catalog were not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Identity is medium: the only source (BUG, Israeli retailer) names HEM-2505, the catalog code reversed; brand, cordless design, ceramic soleplate and 2200 W all match. Water tank corrected to 300 ml from the retailer page (catalog says 320 ml). Cord length kept as the cord of the charging base on a cordless iron, flagged for checking. Feature wording toned down (removed 'חדשני', 'יעיל במיוחד', 'מקסימלי')."
+ }
+}

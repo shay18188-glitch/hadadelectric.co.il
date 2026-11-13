@@ -1,0 +1,358 @@
+{
+ "modelNumber": "PR50B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PR50B",
+  "israeliImporter": "אס.ג'י. אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "Israeli retailer pages list the model as PR50B (bug.co.il) and PR-50B (traklin.co.il), same specs. Catalog name calls it a minibar; both retailers describe it as a compact office fridge (cube design) with freezer compartment. | QA: Bug.co.il lists PR50B and Traklin lists PR-50B, both Premier compact cube fridges with freezer compartment. Catalog name calls it a minibar; same model code."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-משרדי-כולל-תא-הקפאה-50-ליטר-premier-926352549",
+   "publisher": "Bug.co.il",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "48 × 49 × 44 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "13 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כללי",
+     "value": "50 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "41 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת הפשרה",
+     "value": "De Frost"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog T is a climate class, not an energy rating.",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחת (בכפוף לתעודת האחריות)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקרר משרדי קומפקטי בעיצוב קובייה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאים לחדרי עבודה, משרדים וחדרי אירוח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורה פנימית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Fixed typo in source wording.",
+   "text": "ידית דלת מוסתרת למראה נקי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טמפרטורה ניתנת לכיוון בהתאם לצורך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגליות מתכווננות ליציבות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Premier PR50B הוא מקרר משרדי קומפקטי בעיצוב קובייה בנפח 50 ליטר, עם תא קירור של 41 ליטר ותא הקפאה של 5 ליטר. מידותיו 48 × 49 × 44 ס״מ ומשקלו 13 ק״ג, כך שהוא נכנס בקלות מתחת לשולחן או בפינה. מתאים למשרד, לחדר עבודה או לחדר אירוח.",
+  "highlights": [
+   "נפח כללי 50 ליטר",
+   "תא הקפאה של 5 ליטר",
+   "מידות 48 × 49 × 44 ס״מ",
+   "טמפרטורה ניתנת לכיוון",
+   "תאורה פנימית וידית מוסתרת"
+  ],
+  "goodFor": [
+   "משרד או חדר עבודה שצריך מקום לשתייה ואוכל קל",
+   "חדר אירוח או יחידת דיור קטנה",
+   "מקום צר שבו מקרר רגיל לא נכנס"
+  ],
+  "considerations": [
+   "לבדוק שהמקום המיועד מתאים למידות 48 × 49 × 44 ס״מ ולהשאיר מרווח לאוורור",
+   "שיטת ההפשרה היא De Frost, כך שנדרשת הפשרה תקופתית של תא ההקפאה",
+   "הדירוג האנרגטי הוא F",
+   "לוודא שקע חשמל זמין בקרבת המקום"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Premier PR50B?",
+    "a": "הנפח הכללי הוא 50 ליטר: תא קירור של 41 ליטר ותא הקפאה של 5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 48 ס״מ, גובה 49 ס״מ ועומק 44 ס״מ, ומשקלו 13 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בו תא הקפאה?",
+    "a": "כן, יש תא הקפאה פנימי בנפח 5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לכוון את הטמפרטורה?",
+    "a": "כן, הטמפרטורה ניתנת לכיוון בהתאם לצורך.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "שנה אחת, בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר משרדי Premier PR50B בעיצוב קובייה: נפח 50 ליטר עם תא הקפאה 5 ליטר, מידות 48 × 49 × 44 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Premier PR50B",
+   "מקרר משרדי 50 ליטר",
+   "מקרר קובייה פרימייר",
+   "מקרר קטן עם תא הקפאה",
+   "PR-50B",
+   "מקרר למשרד",
+   "מקרר לחדר אירוח"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח ברוטו",
+   "catalogValue": "50 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו",
+   "catalogValue": "43 ליטר",
+   "finding": "corrected",
+   "correctValue": "תא קירור 41 ליטר, תא הקפאה 5 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "De-Frost (הפשרה ידנית)",
+   "finding": "corrected",
+   "correctValue": "De Frost (הפשרה חצי אוטומטית)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "T",
+   "finding": "contradicted",
+   "correctValue": "F",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 51 ס\"מ, רוחב 44 ס\"מ, עומק 47 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 48 ס״מ, גובה 49 ס״מ, עומק 44 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-15 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "13 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טמפרטורה ניתנת לכיוון (טרמוסטט)",
+   "catalogValue": "טרמוסטט מתכוונן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "41 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גז",
+   "catalogValue": "R600a",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור מט",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "Catalog name says מיני בר, but both Israeli retailers list PR50B as a compact office fridge (מקרר משרדי) in cube design with a freezer compartment. Premier's minibar model in these listings is PR-40B. Check the product name and category.",
+   "severity": "high"
+  },
+  {
+   "field": "energy",
+   "issue": "Catalog energy rating T conflicts with the retailer's F. Verify before publishing the energy rating.",
+   "severity": "high"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Catalog dimensions and weight (51/44/47 cm, about 15 kg) differ from the retailer listings (48/49/44 cm, 13 kg). Verify against the manufacturer or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer or importer page was found for PR50B; facts come from two Israeli retailer pages that agree with each other. Manufacturer spec sheet not checked.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says מיני בר אטום; Israeli retailers list PR50B as a compact office cube fridge with a freezer compartment. Check name and category wording.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog dimensions (51/44/47 cm), weight (about 15 kg), net volume 43 L and energy 'T' differ from the retailer listing (48×49×44 cm, 13 kg, 41+5 L, energy F). Catalog T looks like a climate class. Verify and update the catalog text.",
+   "severity": "high"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer or importer page was found; facts come from Israeli retailer pages only.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept from the bug.co.il page that names PR50B. Catalog specs differ: dimensions, weight, net volume and the energy field (catalog T is a climate class, retailer gives energy rating F). Lightly reworded the hidden-handle feature."
+ }
+}

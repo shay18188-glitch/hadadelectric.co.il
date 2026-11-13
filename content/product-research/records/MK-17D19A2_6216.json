@@ -1,0 +1,424 @@
+{
+ "modelNumber": "MK-17D19A2 (6216)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "MK-17D19A2",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן הישראלי לדגם MK-17D19A2 מציג גרסה שחורה עם קוד מוצר MEK-170M1BPK-6217. אתר Bug מציג גרסה לבנה. דף היצרן בגאורגיה מציג גרסה לבנה עם מידות ומשקל. | QA: Bug (Israeli retailer) lists Midea MK-17D19A2 white 1.7 L, matching the catalog. Midea Georgia page for MK-17D19A2 matches dimensions and weight. Midea Israel page is the black variant (6217); catalog suffix 6216 is presumably the white variant but does not appear on any page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/קומקום-חשמלי-17-ליטר-midea-939846241",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.midea.com/il/small-appliances/electric-kettle/mek-170m1bpk-6217.6217",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.midea.com/ge-en/small-appliances/electric-kettles/kettle-mk-17d19a2",
+   "publisher": "Midea Georgia",
+   "kind": "manufacturer",
+   "market": "GE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1850-2200 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote is from the black double-wall variant page (stainless interior); not the white unit.",
+     "label": "חומר גוף",
+     "value": "פלסטיק"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "24.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "18.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק",
+     "value": "21.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "0.91 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "בכפוף לתעודת אחריות",
+     "label": "אחריות",
+     "value": "3 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בסיס מסתובב ב-360 מעלות, ניתן להציב את הקומקום בכל זווית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אחסון כבל חשמל מובנה בבסיס המכשיר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פתיחת מכסה בלחיצה אחת, מכסה קופצני"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תרמוסטט Strix שמכבה את הקומקום כשהמים רותחים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי לבן של Midea, דגם MK-17D19A2, בנפח 1.7 ליטר ובהספק 1850-2200 W. הקומקום מגיע עם בסיס מסתובב ב-360 מעלות, תרמוסטט Strix שמכבה אותו ברתיחה ופתיחת מכסה בלחיצה אחת. מתאים למטבח ביתי שמחפש קומקום פשוט ונוח לשימוש יומיומי.",
+  "highlights": [
+   "נפח 1.7 ליטר",
+   "הספק 1850-2200 W",
+   "בסיס מסתובב ב-360 מעלות",
+   "תרמוסטט Strix עם כיבוי ברתיחה",
+   "אחסון כבל מובנה בבסיס"
+  ],
+  "goodFor": [
+   "הכנת כמה כוסות תה או קפה בהרתחה אחת, בזכות נפח של 1.7 ליטר",
+   "מטבח שבו נוח להרים ולהניח את הקומקום מכל כיוון, בזכות הבסיס המסתובב",
+   "משטח עבודה מסודר, עם כבל שנאסף לתוך הבסיס"
+  ],
+  "considerations": [
+   "מידות הקומקום: גובה 18.7 ס״מ, רוחב 24.8 ס״מ ועומק 21.5 ס״מ. כדאי לוודא שיש מקום מתחת לארונות העליונים לפתיחת המכסה",
+   "הספק של עד 2200 W: עדיף לחבר לשקע שאינו משותף עם מכשירים חזקים אחרים",
+   "האחריות היא 3 שנים בכפוף לתעודת אחריות. כדאי לשמור את התעודה והחשבונית"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של הקומקום?",
+    "a": "1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה לבד כשהמים רותחים?",
+    "a": "כן, הקומקום מצויד בתרמוסטט Strix שמכבה אותו כשהמים רותחים.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות והמשקל של הקומקום?",
+    "a": "גובה 18.7 ס״מ, רוחב 24.8 ס״מ, עומק 21.5 ס״מ, ומשקל נטו של 0.91 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "כמה שנות אחריות יש על הקומקום?",
+    "a": "3 שנים, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי Midea MK-17D19A2 לבן בנפח 1.7 ליטר, הספק 1850-2200 W ובסיס מסתובב ב-360 מעלות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי Midea",
+   "MK-17D19A2",
+   "קומקום מידאה לבן",
+   "קומקום חשמלי 1.7 ליטר",
+   "קומקום חשמלי לבן",
+   "קומקום Midea 1.7 ליטר",
+   "קומקום עם בסיס מסתובב"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1850W-2200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "פלסטיק חיצוני",
+   "finding": "contradicted",
+   "correctValue": "פלסטיק חיצוני ופנים נירוסטה 304 בדופן כפולה (גרסה שחורה)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "0.91 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 18.7 ס\"מ, רוחב 24.8 ס\"מ, עומק 21.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "מסתובב 360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תרמוסטט",
+   "catalogValue": "Strix איכותי",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50/60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחסון כבל",
+   "catalogValue": "מקום לאחסון כבל החשמל בבסיס המכשיר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "פתיחת מכסה",
+   "catalogValue": "One-Touch",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון הגנה",
+   "catalogValue": "כיבוי אוטומטי ברתיחה והגנה מפני הרתחה יבשה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדיד מפלס מים",
+   "catalogValue": "שקוף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פילטר למניעת מעבר אבנית",
+   "catalogValue": "פילטר למניעת מעבר אבנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף כפול",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "דופן כפולה מבודדת (גרסה שחורה)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "material",
+   "issue": "הקטלוג מציין גוף פלסטיק לבן. דף מידאה ישראל לדגם MK-17D19A2 (גרסה שחורה, קוד MEK-170M1BPK-6217) מתאר דופן כפולה עם פנים נירוסטה 304. Bug ודף מידאה בגאורגיה מציגים גרסה לבנה מפלסטיק. יש לוודא איזו גרסה מסופקת לפני פרסום צבע וחומר.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "דף מידאה ישראל לגרסה השחורה מציין 2200W בלבד. Bug ודף מידאה בגאורגיה מציינים 1850-2200 W. הערך המפורסם הוא 1850-2200 W לפי Bug.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "קוד המוצר בדף מידאה ישראל הוא MEK-170M1BPK-6217, ושם הדגם MK-17D19A2 מופיע רק בכותרת. מחרוזת הדגם בקטלוג כוללת '(6216)' שאינו מופיע באף דף שנקרא.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות והמשקל מגיעים מדף מידאה בגאורגיה (ge-en) ולא מדף ישראלי. הערכים תואמים את הקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "importer",
+   "issue": "היבואן הישראלי לא אומת. Bug מציין 3 שנות אחריות בכפוף לתעודה של המילטון ואינו מזהה את היבואן בשמו. השדה נשאר ריק.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הסיומת (6216) בקטלוג לא מופיעה באף מקור. דף מידאה ישראל הוא לגרסה השחורה MEK-170M1BPK-6217 עם דופן כפולה ופנים נירוסטה. יש לוודא שהיחידה הנמכרת היא הגרסה הלבנה מפלסטיק.",
+   "severity": "medium"
+  },
+  {
+   "field": "חומר גוף",
+   "issue": "החומר לא פורסם כי הציטוט היחיד מגיע מדף הגרסה השחורה. יש לאשר מול האריזה שהגוף מפלסטיק.",
+   "severity": "low"
+  },
+  {
+   "field": "importer",
+   "issue": "היבואן הישראלי לא אומת.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected body material (quote comes from the Israeli Midea page for the black double-wall variant MEK-170M1BPK-6217, not the white unit). Reworded warranty value to 3 שנים. Other facts kept from the Bug page for the white MK-17D19A2 and the Midea Georgia page for MK-17D19A2."
+ }
+}

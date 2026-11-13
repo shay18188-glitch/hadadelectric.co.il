@@ -1,0 +1,242 @@
+{
+ "modelNumber": "ESE770",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sassonic",
+  "exactModel": "ESE770",
+  "israeliImporter": "אליאס",
+  "matchConfidence": "high",
+  "notes": "Space ZeroCut ESE770. עמודי קמעונאים ישראלים בלבד; לא נמצא אתר יצרן/יבואן נגיש. סתירה במפרט הסכין בין עמודים (0.1 מ״מ מול 1.0 מ״מ). | QA: Three Israeli pages name Sassonic Space ZeroCut ESE770, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lashantel.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA-sassonic-space-zerocut-ese770-%D7%A1%D7%A1%D7%95%D7%A0%D7%99%D7%A7/",
+   "publisher": "לה שנטל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.shopelectrons.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA-%D7%A4%D7%99%D7%A0%D7%99%D7%A9-sassonic-space-zerocut-ese770/",
+   "publisher": "שופ אלקטרונז",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.eliashave.co.il/items/3111011-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA-Sassonic-Space-ZeroCut-ESE770-",
+   "publisher": "אליאס",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "Space ZeroCut ESE770"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "label clarified",
+     "label": "סכין",
+     "value": "0.1 מ״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מסרקי הגבהה",
+     "value": "1 מ״מ, 2 מ״מ ו-3 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "90 דקות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "90 דקות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים, יבואן רשמי (אליאס)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "trimmed to what the quote states",
+   "text": "מרווח בחלק התחתון של הסכין המאפשר דיוק בעיצובים מיוחדים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלושה מסרקי מידה: 1 מ״מ, 2 מ״מ ו-3 מ״מ"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכונת תספורת ופיניש נטענת Sassonic Space ZeroCut ESE770 לשיער ולזקן. סכין 0.1 מ״מ עם מרווח בחלק התחתון של הלהב לדיוק בעיצובים, וזמן עבודה של 90 דקות לאחר 90 דקות טעינה. מתאימה למי שמחפש מכונת גימור לקווים ועיצובים, בבית או במספרה.",
+  "highlights": [
+   "סכין 0.1 מ״מ לגימור קרוב",
+   "מרווח בחלק התחתון של הסכין לדיוק בעיצובים",
+   "90 דקות עבודה לאחר 90 דקות טעינה",
+   "שלושה מסרקי מידה: 1 מ״מ, 2 מ״מ ו-3 מ״מ",
+   "אחריות 12 חודשים ע״י היבואן הרשמי אליאס"
+  ],
+  "goodFor": [
+   "גימור קווים ועיצובים בשיער ובזקן",
+   "עבודה אלחוטית ממושכת בלי להתחבר לחשמל",
+   "קיצור אחיד בעזרת מסרקי מידה קצרים"
+  ],
+  "considerations": [
+   "מדובר במכונת פיניש: המסרקים המצורפים קצרים (עד 3 מ״מ), ולתספורת ארוכה יותר נדרשת מכונה נוספת",
+   "יש לתכנן טעינה של כ-90 דקות לפני שימוש ארוך",
+   "האחריות ניתנת דרך היבואן הרשמי אליאס – כדאי לשמור את החשבונית"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "כ-90 דקות עבודה לאחר טעינה מלאה.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לטעון את המכונה?",
+    "a": "כ-90 דקות.",
+    "sources": []
+   },
+   {
+    "q": "אילו מסרקים מגיעים עם המכונה?",
+    "a": "שלושה מסרקי מידה: 1 מ״מ, 2 מ״מ ו-3 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "12 חודשים ע״י חברת אליאס, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת תספורת ופיניש נטענת Sassonic Space ZeroCut ESE770: סכין 0.1 מ״מ ו-90 דקות עבודה לשיער וזקן, עם מסרקי מידה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "ססוניק ESE770",
+   "Sassonic Space ZeroCut",
+   "מכונת פיניש ססוניק",
+   "מכונת תספורת נטענת",
+   "מכונת תספורת לזקן",
+   "ESE-770",
+   "מכונת תספורת השבורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "להב 0.1 מ״מ",
+   "catalogValue": "0.1 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה ועבודה",
+   "catalogValue": "90 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסרקים",
+   "catalogValue": "1,2,3 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "blade",
+   "issue": "עמודים מסוימים (באג, חלק מעמוד אליאס) מציינים סכין 1.0 מ״מ ואחרים 0.1 מ״מ",
+   "severity": "medium"
+  },
+  {
+   "field": "סכין",
+   "issue": "לפי החוקר חלק מהעמודים מציינים סכין 1.0 מ״מ ואחרים 0.1 מ״מ; פורסם 0.1 מ״מ על סמך שני עמודים – כדאי לאמת מול היבואן",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled blade fact from 'חדות סכין' to 'סכין'. Re-kinded eliashave.co.il as importer (Elias is the official importer). Researcher reported some pages state a 1.0 mm blade; no ok quote supports it, so 0.1 mm is kept and flagged."
+ }
+}

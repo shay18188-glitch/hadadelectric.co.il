@@ -1,0 +1,492 @@
+{
+ "modelNumber": "Q1 14323-IS",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "14323-IS Q1",
+  "israeliImporter": "שאוליאן סחר בע״מ",
+  "matchConfidence": "high",
+  "notes": "הקטלוג מציג 'Q1 14323-IS'. דף היצרן הישראלי והחנויות מציגים '14323-IS Q1' (אותו דגם לפי הקוד היצרני). המפרט בדף היצרן: קוטר 7.5 ס״מ וגובה 43 ס״מ בלבד; רוחב ועומק אינם מופיעים, ולכן לא נוצרה שורת מידות משולבת. | QA: Catalog 'Q1 14323-IS' and sources '14323-IS Q1' are the same model code in different order; both Israeli pages describe a cordless handheld vacuum matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hamiltonbeach.co.il/products/14323-is-q1",
+   "publisher": "Hamilton Beach Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://refaeli.co.il/items/8005720-14323-IS",
+   "publisher": "Refaeli",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מוצר",
+     "value": "שואב אבק ידני אלחוטי נטען"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "90 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת יניקה",
+     "value": "8–15 kPa"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "Brushless DC"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוללה",
+     "value": "Li-ion 11.1V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "כ-4 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן פעולה (מצב רגיל)",
+     "value": "כ-16–20 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן פעולה (מצב טורבו)",
+     "value": "כ-7–10 דקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל איסוף",
+     "value": "0.25 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Refaeli reportedly says washable; manufacturer page governs.",
+     "label": "סוג מסנן",
+     "value": "HEPA (מסנן נייר, אינו רחיץ)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יעילות סינון",
+     "value": "99.9% מחלקיקי האבק"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים ע״י היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת סינון ציקלונית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סוללה נשלפת עם טעינה מהירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיווי טעינה שעובר מאדום לכחול בסיום הטעינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תחנת עגינה ואחסון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתאים לכל סוגי המשטחים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חלקים נשלפים לקלות הניקוי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אביזר חריצים לפינות ולמסילות ומברשת קטנה לניקוי נקודתי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צינור ארוך לרצפות ושטיחים"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מיועד לשאיבה יבשה בתוך הבית בלבד"
+  }
+ ],
+ "content": {
+  "summary": "Hamilton Beach 14323-IS Q1 הוא שואב אבק ידני אלחוטי נטען עם מנוע Brushless DC בהספק 90 W ועוצמת יניקה של 8–15 kPa. סוללת Li-ion 11.1V נשלפת מספקת כ-16–20 דקות פעולה במצב רגיל, ומערכת סינון ציקלונית עם מסנן HEPA. מתאים למי שמחפש שואב ידני לניקוי יבש מהיר בבית, עם תחנת עגינה לאחסון.",
+  "highlights": [
+   "מנוע Brushless DC בהספק 90 W",
+   "עוצמת יניקה 8–15 kPa",
+   "כ-16–20 דקות פעולה במצב רגיל, כ-7–10 דקות בטורבו",
+   "סוללה נשלפת, טעינה כ-4 שעות",
+   "סינון ציקלוני ומסנן HEPA ביעילות 99.9% מחלקיקי האבק"
+  ],
+  "goodFor": [
+   "ניקוי יבש מהיר של פירורים ואבק בבית בלי כבל",
+   "ניקוי פינות ומסילות בעזרת אביזר החריצים",
+   "שאיבת רצפות ושטיחים עם הצינור הארוך",
+   "אחסון מסודר על תחנת העגינה"
+  ],
+  "considerations": [
+   "השואב מיועד לשאיבה יבשה בתוך הבית בלבד, לא לנוזלים",
+   "מסנן ה-HEPA אינו רחיץ ויש לנקותו יבש בלבד",
+   "מיכל האיסוף בנפח 0.25 ליטר דורש ריקון תכוף",
+   "במצב טורבו זמן הפעולה מתקצר לכ-7–10 דקות"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן השואב עובד על טעינה אחת?",
+    "a": "כ-16–20 דקות במצב רגיל וכ-7–10 דקות במצב טורבו.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקחת טעינה?",
+    "a": "כ-4 שעות. חיווי הסוללה עובר מאדום לכחול כאשר הטעינה הושלמה.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשטוף את המסנן?",
+    "a": "לא. מסנן הנייר HEPA אינו רחיץ ואין להרטיב אותו.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "אביזר חריצים לפינות ולמסילות, מברשת קטנה לניקוי נקודתי וצינור ארוך לרצפות ושטיחים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנתיים אחריות ע״י היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק ידני אלחוטי Hamilton Beach 14323-IS Q1: מנוע Brushless 90 W, יניקה 8–15 kPa וסוללה נשלפת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "שואב אבק ידני אלחוטי",
+   "Hamilton Beach 14323-IS",
+   "המילטון ביץ' שואב ידני",
+   "שואב אבק ידני נטען",
+   "שואב אבק ידני HEPA",
+   "שואב אבק ידני סוללה נשלפת",
+   "14323-IS Q1"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Hemilton Beach",
+   "finding": "corrected",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "65W",
+   "finding": "corrected",
+   "correctValue": "90 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "7.4V",
+   "finding": "corrected",
+   "correctValue": "11.1V",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "2000mAh",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "ליתיום-יון (Li-ion) נטענת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "כ-4.5kPa",
+   "finding": "corrected",
+   "correctValue": "8–15 kPa",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל איסוף",
+   "catalogValue": "0.5 ליטר",
+   "finding": "corrected",
+   "correctValue": "0.25 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "4-5 שעות",
+   "finding": "corrected",
+   "correctValue": "כ-4 שעות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה רציף",
+   "catalogValue": "עד 15 דקות",
+   "finding": "corrected",
+   "correctValue": "16–20 דקות (מצב רגיל); 7–10 דקות (מצב טורבו)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "פילטר בד רחיץ ורב-פעמי",
+   "finding": "corrected",
+   "correctValue": "HEPA; מסנן הנייר אינו רחיץ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "פיית מברשת ואביזר לפינות (Crevice Tool)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורית חיווי",
+   "catalogValue": "נורית חיווי למצב הטעינה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "סין (מותג אמריקאי)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "BRUSHLESS DC",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "קוטר 7.5 ס״מ; גובה 43 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "מספר הדגם בקטלוג 'Q1 14323-IS' אינו מופיע בשום דף כך; נשענו על '14323-IS Q1' שמופיע בדף היבואן ובחנות ישראלית. יש לאמת שזה אותו מוצר לפני עדכון.",
+   "severity": "high"
+  },
+  {
+   "field": "מפרט מנוע ויניקה",
+   "issue": "מפרט הקטלוג סותר את דף היצרן הישראלי: מנוע 65W מול 90 W, יניקה כ-4.5kPa מול 8–15 kPa, ומתח 7.4V מול 11.1V.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח מיכל ותכולה",
+   "issue": "הקטלוג מציג מיכל 0.5 ליטר וזמן טעינה 4-5 שעות ושימוש עד 15 דקות; דף היצרן מציג מיכל 0.25 ליטר, טעינה כ-4 שעות ושימוש 16–20 דקות (רגיל) או 7–10 דקות (טורבו).",
+   "severity": "high"
+  },
+  {
+   "field": "סוג מסנן",
+   "issue": "הקטלוג מציג פילטר בד רחיץ; דף היצרן קובע שמסנן הנייר HEPA אינו רחיץ. חנות ישראלית (Refaeli) מציינת 'HEPA כפול, רחיץ'. המקורות סותרים; דף היצרן גובר.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת סוללה",
+   "issue": "הערך 2000mAh בקטלוג לא נמצא בשום מקור שנבדק.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "דף היצרן מציג קוטר וגובה בלבד; רוחב ועומק חסרים.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is spelled 'Hemilton Beach'; the manufacturer is Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog specs contradict the Israeli manufacturer page: 65W vs 90 W, 7.4V vs 11.1V, ~4.5kPa vs 8–15 kPa, 0.5 L vs 0.25 L, washable cloth filter vs non-washable HEPA, up to 15 min vs 16–20 min. 2000mAh not found in any source.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog shows 'Q1 14323-IS'; sources show '14323-IS Q1'. Same code, different order — confirm.",
+   "severity": "low"
+  },
+  {
+   "field": "filter",
+   "issue": "Refaeli reportedly describes the filter as washable double HEPA, contradicting the manufacturer page (not washable).",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept from the Israeli manufacturer page and the Refaeli page. Catalog spec values (65W, 7.4V, 4.5kPa, 0.5 L, washable cloth filter, 2000mAh) contradict the manufacturer page and are not published. Label of fact 4 clarified to include voltage."
+ }
+}

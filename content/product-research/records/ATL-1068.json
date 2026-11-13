@@ -1,0 +1,406 @@
+{
+ "modelNumber": "ATL-1068",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-1068",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף הרכישה של באג מציין 'יבואן רשמי: כן' אך לא מציין את שם היבואן. הדף מציין את הדגם ATL-1068 במפורש. | QA: Bug page names model ATL-1068, Gold Line, 30 cups, matching the catalog name. Importer name not stated."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מיחם-נירוסטה-מהודר-30-כוסות-מאושר-עי-מכון-צמת-gold-line-90644056074",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "כ-30 כוסות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אישור שבת",
+     "value": "מאושר לשימוש בשבת ע״י מכון צ.מ.ת"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פטור מטבילה",
+     "value": "כן, לפי האישור המצורף"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הגנה מפני הפעלה ללא מים",
+     "value": "ניתוק אוטומטי בהעדר מים"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גופי חימום",
+     "value": "שניים נפרדים (להרתחה ולשמירה על חום), ללא תרמוסטט"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר המיכל",
+     "value": "נירוסטה איכותית ועבה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ידיות",
+     "value": "זוג ידיות מבודדות חום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "ROUGH COATING"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדיד מים",
+     "value": "מדיד שקוף חיצוני"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מגש ניקוז",
+     "value": "מגנטי ונשלף"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פילטר",
+     "value": "פילטר מיקרוני לסינון מי השתייה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "trimmed unsupported wording",
+   "text": "מאושר לשימוש בשבת ע״י מכון צ.מ.ת, עם שמירת חום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ברז מחוזק ודו-שימושי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "removed unsupported benefit claim",
+   "text": "גופי חימום נסתרים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיחם נירוסטה של Gold Line, דגם ATL-1068, בקיבולת של כ-30 כוסות. המיחם מאושר לשימוש בשבת ע״י מכון צ.מ.ת, עם שני גופי חימום נפרדים ללא תרמוסטט – אחד להרתחה ואחד לשמירה על חום. מתאים למשפחות ולאירוח בשבתות ובחגים.",
+  "highlights": [
+   "קיבולת של כ-30 כוסות",
+   "מאושר לשימוש בשבת ע״י מכון צ.מ.ת",
+   "שני גופי חימום נפרדים ללא תרמוסטט",
+   "ניתוק אוטומטי בהעדר מים",
+   "מיכל נירוסטה ומדיד מים שקוף חיצוני"
+  ],
+  "goodFor": [
+   "שמירה על מים חמים לאורך השבת בבית שומר שבת",
+   "אירוח משפחתי שבו מוזגים כוסות רבות של תה וקפה",
+   "מי שמעדיף מיחם עם פטור מטבילה לפי האישור המצורף"
+  ],
+  "considerations": [
+   "יש לבדוק את גובה המיחם מול המקום המיועד על השיש, מתחת לארונות עליונים",
+   "כדאי למקם את המיחם ליד שקע חשמל, הרחק ממעבר",
+   "לבדוק את מפלס המים במדיד השקוף לפני כניסת השבת",
+   "לנקות מדי פעם את הפילטר ואת מגש הניקוז הנשלף"
+  ],
+  "faq": [
+   {
+    "q": "האם המיחם מאושר לשימוש בשבת?",
+    "a": "כן, המיחם מאושר לשימוש בשבת ע״י מכון צ.מ.ת ופועל עם שני גופי חימום נפרדים ללא תרמוסטט.",
+    "sources": []
+   },
+   {
+    "q": "כמה כוסות מכיל המיחם?",
+    "a": "קיבולת המיחם היא כ-30 כוסות.",
+    "sources": []
+   },
+   {
+    "q": "האם המיחם צריך טבילה?",
+    "a": "לפי דף המוצר, המיחם פטור מטבילה על פי האישור המצורף.",
+    "sources": []
+   },
+   {
+    "q": "מה קורה אם המים במיחם נגמרים?",
+    "a": "מנגנון הגנה מובנה מנתק את פעילות המכשיר אוטומטית בהעדר מים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיחם נירוסטה Gold Line ATL-1068 לכ-30 כוסות, מאושר לשבת ע״י מכון צ.מ.ת, עם שני גופי חימום נפרדים וניתוק אוטומטי בהעדר מים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיחם שבת",
+   "מיחם 30 כוסות",
+   "Gold Line ATL-1068",
+   "מיחם גולד ליין",
+   "מיחם נירוסטה",
+   "מיחם מאושר צמת",
+   "מיחם פטור מטבילה",
+   "מיחם לשבת נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת (כוסות)",
+   "catalogValue": "כ-30 כוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "כ-6.2 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "950W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "40 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר מבנה",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גופי חימום",
+   "catalogValue": "שני גופי חימום נפרדים ונסתרים ללא תרמוסטט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "פילטר מיקרוני מובנה לסינון אבנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגש ניקוז",
+   "catalogValue": "מגש ניקוז מגנטי נשלף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב שבת",
+   "catalogValue": "מאושר לשימוש בשבת על ידי מכון צ.מ.ת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנה בהיעדר מים",
+   "catalogValue": "מנגנון הגנה המנתק את המכשיר אוטומטית בהיעדר מים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברז",
+   "catalogValue": "ברז מחוזק דו-שימושי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידיות",
+   "catalogValue": "וידיות מבודדות חום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "ROUGH COATING",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כשרות",
+   "catalogValue": "פטור מטבילה באישור KGC KOSHER",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הערך 950W שבקטלוג לא נמצא בדף שנבדק עבור הדגם ATL-1068. דף אחר של באג מציין 950W לדגם ATL-68 (דגם אחר, 5.5 ליטר), ולכן אינו ראיה לדגם זה.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח וגובה",
+   "issue": "הנפח 6.2 ליטר והגובה 40 ס\"מ שבקטלוג לא אומתו בדף שנבדק עבור הדגם ATL-1068.",
+   "severity": "medium"
+  },
+  {
+   "field": "כשרות",
+   "issue": "אישור KGC KOSHER שבקטלוג לא מופיע בדף שנבדק; הדף מציין פטור מטבילה לפי אישור צ.מ.ת מצורף.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "הדף מציין 'יבואן רשמי: כן' אך לא מציין את שם היבואן. יש לוודא מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "ההספק 950W שבקטלוג לא אומת בדף הדגם ATL-1068; הערך הזה הופיע רק עבור דגם אחר (ATL-68).",
+   "severity": "high"
+  },
+  {
+   "field": "נפח וגובה",
+   "issue": "הנפח 6.2 ליטר והגובה 40 ס״מ שבקטלוג לא אומתו במקור.",
+   "severity": "medium"
+  },
+  {
+   "field": "כשרות",
+   "issue": "אישור KGC KOSHER שבקטלוג לא מופיע במקור; הדף מציין פטור מטבילה לפי אישור מצורף.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שם היבואן בישראל לא צוין במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Single Israeli retailer page (bug.co.il) naming ATL-1068. All 11 facts kept. Feature 0 trimmed: quote supports Shabbat approval and heat keeping, not 'continuous without thermostat' wording (that is covered by fact 3). Feature 2 trimmed to 'hidden heating elements' since the cleaning/limescale benefit is not in the quote. Catalog power 950W, volume 6.2 L, height 40 cm and KGC kosher not verified."
+ }
+}

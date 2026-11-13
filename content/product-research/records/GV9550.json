@@ -1,0 +1,320 @@
+{
+ "modelNumber": "GV9550",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Tefal",
+  "exactModel": "GV9550",
+  "israeliImporter": "ניופאן",
+  "matchConfidence": "high",
+  "notes": "Pro Express Ultimate steam generator iron. Traklin lists the model as GV-9550; CityDeal lists GV9550 and says official importer, 5-year warranty. | QA: Two Israeli retailer pages name GV9550 / GV-9550 Pro Express Ultimate, 2600W, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%A0%D7%A7%D7%99%D7%95%D7%9F_%D7%95%D7%9B%D7%91%D7%99%D7%A1%D7%94/%D7%9E%D7%92%D7%94%D7%A6%D7%99%D7%9D/%D7%9E%D7%92%D7%94%D7%A5_%D7%A7%D7%99%D7%98%D7%95%D7%A8_tefal_2600w_gv-9550_%D7%98%D7%A4%D7%90%D7%9C",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%92%D7%94%D7%A5-%D7%A7%D7%99%D7%98%D7%95%D7%A8-tefal-pro-express-ultimate-gv9550",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "2600 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "unit spelling",
+     "label": "לחץ קיטור",
+     "value": "8 בר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת אדים מרבית",
+     "value": "520 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן חימום",
+     "value": "2 דקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "1.9 ליטר, נשלף"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "28.4 × 34.4 × 44.7 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Traklin terms differ in wording; flagged",
+     "label": "אחריות",
+     "value": "5 שנים, עפ״י תקנון היבואן ניופאן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות לשימוש במי ברז"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות לגיהוץ אנכי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אוסף אבנית נשלף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תחתית Thin Durilium Air Glide Auto Clean"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "reworded",
+   "text": "קיטור המסייע לחיטוי ולרענון הבגד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Tefal GV9550 הוא מגהץ קיטור עם מחולל קיטור (סדרת Pro Express Ultimate) בהספק 2600 W. הוא מספק לחץ קיטור של 8 בר ותפוקת אדים מרבית של 520 גרם לדקה, עם מיכל מים נשלף בנפח 1.9 ליטר ואפשרות לגיהוץ אנכי. מתאים למי שמגהץ כמויות גדולות של כביסה ורוצה גם לרענן בגדים תלויים.",
+  "highlights": [
+   "לחץ קיטור 8 בר",
+   "תפוקת אדים מרבית 520 גרם לדקה",
+   "מיכל מים נשלף 1.9 ליטר",
+   "מוכן לעבודה תוך 2 דקות",
+   "אוסף אבנית נשלף ואפשרות לשימוש במי ברז"
+  ],
+  "goodFor": [
+   "גיהוץ כמויות כביסה גדולות בלי מילוי מים תכוף, בזכות מיכל של 1.9 ליטר",
+   "ריענון בגדים תלויים ווילונות בגיהוץ אנכי",
+   "בדים עבים וקמטים עיקשים, הודות ללחץ קיטור של 8 בר"
+  ],
+  "considerations": [
+   "יחידת הבסיס תופסת מקום: מידות 28.4 × 34.4 × 44.7 ס״מ, כדאי לוודא מקום על קרש הגיהוץ או לידו",
+   "יש לרוקן את אוסף האבנית הנשלף מעת לעת, במיוחד בשימוש במי ברז",
+   "תנאי האחריות לפי תקנון היבואן ניופאן"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להשתמש במי ברז?",
+    "a": "כן, המגהץ מאפשר שימוש במי ברז ומצויד באוסף אבנית נשלף.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לו להתחמם?",
+    "a": "המגהץ מוכן לעבודה תוך 2 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "1.9 ליטר, והמיכל נשלף למילוי נוח.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לגהץ בגדים תלויים?",
+    "a": "כן, יש אפשרות לגיהוץ אנכי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ קיטור Tefal GV9550 Pro Express Ultimate: לחץ קיטור 8 בר, תפוקת אדים 520 גרם לדקה ומיכל נשלף 1.9 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Tefal GV9550",
+   "טפאל GV9550",
+   "מגהץ קיטור טפאל",
+   "Pro Express Ultimate",
+   "מחולל קיטור טפאל",
+   "מגהץ קיטור 2600 וואט",
+   "מגהץ עם גיהוץ אנכי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "2600 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ קיטור",
+   "catalogValue": "8 בר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "catalogValue": "120 גרם לדקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מכת מחץ (טורבו)",
+   "catalogValue": "520 גרם לדקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "1.9 ליטר (נשלף)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "2 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תחתית",
+   "catalogValue": "Durilium Airglide Autoclean",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "1.7 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת איסוף אבנית",
+   "catalogValue": "Calc Collector ייחודי",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "Traklin lists the weight as 55.52 ק\"ג, which is implausible for this iron. Not recorded. Check the manufacturer weight.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Traklin states 12 months of importer warranty plus an optional 4-year extension after registration; CityDeal states 5 years. Likely the same terms, but confirm before publishing the warranty fact.",
+   "severity": "medium"
+  },
+  {
+   "field": "אורך כבל",
+   "issue": "Cable length, Calc Collector name and continuous steam output (120 g/min) were not found on the fetched Israeli pages. Left unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "CityDeal states 5 years per importer (ניופאן) terms; Traklin reportedly states 12 months plus an optional 4-year extension after registration. Confirm the published warranty wording.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Traklin weight value (55.52 ק״ג) is implausible and was not used; weight remains unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט קטלוגי",
+   "issue": "Catalog continuous steam (120 g/min), cable length (1.7 m) and Calc Collector name were not found on the sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 1: unit spelling corrected to בר. Fact 6: warranty wording tied to the importer terms quoted by CityDeal; Traklin reportedly states 12 months plus a 4-year extension after registration, flagged. Feature 4: sanitizing claim reworded more neutrally. Catalog continuous steam (120 g/min), cable length (1.7 m) and Calc Collector name not verified."
+ }
+}

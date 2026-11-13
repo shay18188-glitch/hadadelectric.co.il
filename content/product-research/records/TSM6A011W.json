@@ -1,0 +1,408 @@
+{
+ "modelNumber": "TSM6A011W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "TSM6A011W",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף בוש ישראל מציג את הדגם בשם מטחנת קפה לבן TSM6A011W. דף בוש הבינלאומי מציג את אותם מפרטי יסוד (180 W, 170x90x90 mm, 0.6 kg, 150 g/min). | QA: Both Bosch international and Bosch Israel pages name TSM6A011W; color, power, weight and dimensions match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/ne/en/mkt-product/TSM6A011W",
+   "publisher": "Bosch Home Appliances",
+   "kind": "manufacturer",
+   "market": "international",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bosch-home.co.il/he/mkt-category/coffee-grinders",
+   "publisher": "Bosch Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "axis order not stated in the quote",
+     "label": "מידות",
+     "value": "17 × 9 × 9 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות אריזה (גובה × רוחב × עומק)",
+     "value": "21 × 9.5 × 9.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "0.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כמות פולי קפה מרבית לטחינה",
+     "value": "75 גרם"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "180 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב טחינה דקה",
+     "value": "150 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "1"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "פונקציית פולסים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חלון צפייה",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "פלסטיק"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר קערת טחינה",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תדר",
+     "value": "50/60 Hz"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "100 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "flagged: international page lists safety device as not applicable",
+     "label": "מנגנון בטיחות",
+     "value": "טחינה רק כאשר המכסה מחובר ומתג הבטיחות מופעל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להב דו-כנפי מנירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית פולסים לשליטה בדרגת הטחינה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טחינה מתבצעת רק כאשר המכסה מחובר ומתג הבטיחות מופעל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חלון צפייה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מטחנת קפה חשמלית של בוש בצבע לבן, דגם TSM6A011W, עם מנוע בהספק 180 W ולהב דו-כנפי מנירוסטה. המטחנה טוחנת עד 75 גרם פולי קפה בכל פעם, ופונקציית הפולסים מאפשרת לשלוט בדרגת הטחינה. מתאימה למי שרוצה לטחון פולים טריים בבית במכשיר קטן ופשוט.",
+  "highlights": [
+   "הספק 180 W",
+   "עד 75 גרם פולי קפה בטחינה",
+   "להב דו-כנפי וקערת טחינה מנירוסטה",
+   "פונקציית פולסים וחלון צפייה",
+   "משקל 0.6 ק״ג ומידות 17 × 9 × 9 ס״מ"
+  ],
+  "goodFor": [
+   "טחינת פולי קפה טריים לפני כל הכנה",
+   "מטבח עם מעט מקום על השיש, בזכות מידות קומפקטיות",
+   "מי שמעדיף לשלוט בדרגת הטחינה ידנית בעזרת פולסים"
+  ],
+  "considerations": [
+   "למטחנה מהירות אחת בלבד, ודרגת הטחינה נקבעת לפי משך ההפעלה בפולסים",
+   "כמות הטחינה מוגבלת ל-75 גרם פולים בכל פעם",
+   "אורך הכבל 100 ס״מ, כדאי לוודא שקע קרוב למקום השימוש"
+  ],
+  "faq": [
+   {
+    "q": "כמה פולי קפה אפשר לטחון בפעם אחת?",
+    "a": "עד 75 גרם פולי קפה.",
+    "sources": []
+   },
+   {
+    "q": "איך קובעים את דרגת הטחינה?",
+    "a": "למטחנה מהירות אחת ופונקציית פולסים, כך שדרגת הטחינה נקבעת לפי משך ההפעלה.",
+    "sources": []
+   },
+   {
+    "q": "האם המטחנה פועלת כשהמכסה פתוח?",
+    "a": "לפי בוש ישראל, הטחינה מתבצעת רק כאשר המכסה מחובר ומתג הבטיחות מופעל.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויים הלהב והקערה?",
+    "a": "הלהב הדו-כנפי וקערת הטחינה עשויים נירוסטה, והגוף מפלסטיק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מטחנת קפה בוש TSM6A011W לבנה: מנוע 180 W, טוחנת עד 75 גרם פולים, להב נירוסטה ופונקציית פולסים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מטחנת קפה בוש",
+   "TSM6A011W",
+   "בוש TSM6A011W",
+   "מטחנת קפה חשמלית",
+   "מטחנת קפה לבנה",
+   "מטחנת פולי קפה",
+   "מטחנת קפה 180 וואט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "180W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל פולי קפה",
+   "catalogValue": "75 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "להב דו-כנפי מפלדת אל-חלד",
+   "catalogValue": "להב דו-כנפי מפלדת אל-חלד (Stainless Steel)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קערת טחינה פנימית מפלדת אל-חלד",
+   "catalogValue": "קערת טחינה פנימית מפלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחצן הפעלה בטיחותי",
+   "catalogValue": "לחצן הפעלה בטיחותי המאפשר פעולה רק כאשר המכסה סגור ונעול",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "0.6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 17 ס\"מ, קוטר 9 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פעולה שקטה יחסית לביצועי המנוע",
+   "catalogValue": "פעולה שקטה יחסית לביצועי המנוע",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "פונקציית בטיחות",
+   "issue": "דף בוש הבינלאומי מציין Safety device: Not applicable, בעוד דף בוש ישראל מתאר טחינה רק עם המכסה מחובר ומתג בטיחות מופעל. יש לבדוק מול המוצר לפני פרסום סעיף הבטיחות.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "לא נמצא דף יבואן ישראלי עם מפרט מלא לדגם. הנתונים מבוססים על דף בוש הבינלאומי ודף בוש ישראל שמציג את הדגם בקטגוריה בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "מנגנון בטיחות",
+   "issue": "דף בוש הבינלאומי מציין Safety device: Not applicable, בעוד דף בוש ישראל מתאר טחינה רק כשהמכסה מחובר ומתג הבטיחות מופעל. יש לאמת מול המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "דף היצרן מציג 170x90x90 mm ללא סדר צירים; הקטלוג מתאר גובה 17 ס״מ וקוטר 9 ס״מ.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled product dimensions to plain 'מידות' since the product quote does not state the axis order; kept the lid safety fact from Bosch Israel but flagged the international page's 'Safety device: Not applicable' for a check."
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "modelNumber": "ATL-189",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-189",
+  "israeliImporter": "יוסף חיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "דף גולדליין הישראלי מציין אחריות שנה דרך יוסף חיים בע\"מ. דף lastprice מציין יבואן רשמי. דגם ATL-189 מופיע בכל הדפים שנבדקו. | QA: Gold Line's own Israeli site and three Israeli retailers name ATL-189 and describe the same 36 SMD LED portable rechargeable light. The catalog's technical description (two halogen heads) does not match these sources and needs owner review."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%D7%AA%D7%90%D7%95%D7%A8%D7%94-%D7%A0%D7%98%D7%A2%D7%A0%D7%AA-%D7%A0%D7%99%D7%99%D7%93%D7%AA-36-%D7%A0%D7%95%D7%A8%D7%95%D7%AA-smd-led-%D7%A4%D7%A0%D7%A1-%D7%95%D7%AA%D7%90%D7%95%D7%A8%D7%AA-%D7%A6/",
+   "publisher": "Goldline Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/תאורה-נטענת-ניידת-36-נורות-led-כולל-פנס-ותאורת-צד-gold-line-9249453453",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.lastprice.co.il/p/25217111/%D7%AA%D7%90%D7%95%D7%A8%D7%94-%D7%A0%D7%98%D7%A2%D7%A0%D7%AA-%D7%A0%D7%99%D7%99%D7%93%D7%AA-36-%D7%A0%D7%95%D7%A8%D7%95%D7%AA-Led-%D7%9B%D7%95%D7%9C%D7%9C-%D7%A4%D7%A0%D7%A1-%D7%95%D7%AA%D7%90%D7%95%D7%A8%D7%AA-%D7%A6%D7%93-Gold-Line/Gold-Line-ATL~189",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד",
+     "value": "7290019406389"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer listing attribute, not a product fact.",
+     "label": "יבואן רשמי",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר נוריות",
+     "value": "36 נוריות SMD LED"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Bug describes a lithium battery; type unclear.",
+     "label": "סוללה",
+     "value": "6V/4AH, אטומה מוליכה חומצה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Gold Line spec line says sealed lead-acid 6V/4AH.",
+     "label": "סוג סוללה",
+     "value": "סוללת ליתיום"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה אוטומטית בעת הפסקת חשמל, או הפעלה ידנית לפי הצורך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פנס עוצמתי ומצב תאורת צד לפיזור אור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בורר מצבים לבחירת מצב ההפעלה הרצוי"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורת ביקורת למעקב אחר הטעינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כבל חשמל נשלף לחיבור ישיר לשקע"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית נשיאה רחבה לניוד נוח"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאימה לשימוש בבית, במשרד ובטיולים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Gold Line ATL-189 היא תאורת חירום נטענת וניידת עם 36 נוריות SMD LED, פנס עוצמתי ומצב תאורת צד לפיזור אור. היא נדלקת אוטומטית בעת הפסקת חשמל וניתנת גם להפעלה ידנית, עם ידית נשיאה רחבה ונורת ביקורת לטעינה. מתאימה לבית, למשרד ולטיולים.",
+  "highlights": [
+   "36 נוריות SMD LED",
+   "הפעלה אוטומטית בהפסקת חשמל או ידנית",
+   "פנס עוצמתי ומצב תאורת צד",
+   "נורת ביקורת למעקב אחר הטעינה",
+   "אחריות לשנה"
+  ],
+  "goodFor": [
+   "תאורת גיבוי בבית בזמן הפסקות חשמל",
+   "תאורה במשרד כשהחשמל נופל",
+   "תאורה ניידת בטיולים בזכות ידית הנשיאה"
+  ],
+  "considerations": [
+   "יש להשאיר את היחידה מחוברת לשקע כדי שתהיה טעונה ומוכנה להפסקת חשמל",
+   "סוג הסוללה מופיע באופן שונה במקורות שונים, כדאי לברר מול החנות",
+   "בדקו שיש שקע זמין במקום שבו תוצב התאורה"
+  ],
+  "faq": [
+   {
+    "q": "האם התאורה נדלקת לבד בהפסקת חשמל?",
+    "a": "כן, היא נדלקת אוטומטית בעת הפסקת חשמל, וניתן גם להפעיל אותה ידנית.",
+    "sources": []
+   },
+   {
+    "q": "כמה נוריות יש בתאורה?",
+    "a": "36 נוריות SMD LED, בנוסף לפנס עוצמתי ומצב תאורת צד.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שהיא נטענת?",
+    "a": "יש נורת ביקורת למעקב אחר הטעינה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תאורת חירום נטענת Gold Line ATL-189 עם 36 נוריות SMD LED, פנס עוצמתי ותאורת צד והדלקה אוטומטית בהפסקת חשמל. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תאורת חירום נטענת",
+   "Gold Line ATL-189",
+   "ATL-189",
+   "תאורת חירום גולד ליין",
+   "תאורה נטענת ניידת LED",
+   "תאורת חירום להפסקת חשמל",
+   "פנס נטען עם תאורת צד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תאורה",
+   "catalogValue": "2 פנסי הלוגן בעוצמה של 20W כל אחד (בסך הכל 40W)",
+   "finding": "contradicted",
+   "correctValue": "36 נוריות SMD LED, פנס עוצמתי אחד ומצב תאורת צד",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שני פנסי תאורה מתכווננים",
+   "catalogValue": "שני פנסי תאורה מתכווננים המאפשרים כיוון אלומת האור לזוויות שונות",
+   "finding": "contradicted",
+   "correctValue": "פנס עוצמתי אחד ומצב תאורת צד",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "נטענת מסוג Lead-Acid במתח 6V וקיבולת 4.5Ah",
+   "finding": "corrected",
+   "correctValue": "6V/4AH, אטומה מוליכה חומצה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית נשיאה",
+   "catalogValue": "ידית נשיאה ארגונומית לניידות נוחה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "20-24 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "כ-3 שעות עבודה רציפה בשימוש בשני הפנסים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח כניסה",
+   "catalogValue": "230V AC",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה כ-28 ס\"מ, רוחב כ-27 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "לחצן TEST",
+   "catalogValue": "לחצן TEST לבדיקת תקינות המערכת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הגנה מפני טעינת יתר",
+   "catalogValue": "הגנה מובנית מפני טעינת יתר ופריקת יתר של הסוללה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ברקוד",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "7290019406389",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "product_description",
+   "issue": "הקטלוג מתאר שני פנסי הלוגן 20W, סה\"כ 40W, ושני פנסים מתכווננים. דף היצרן ודפי הקמעונאים מתארים 36 נוריות SMD LED ופנס עוצמתי אחד. יש לבדוק את תיאור המוצר לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "battery",
+   "issue": "דף היצרן מציין סוללה 6V/4AH אטומה מוליכה חומצה, אך אותו דף וגם דפי הקמעונאים מתארים סוללת ליתיום. סוג הסוללה אינו ברור ויש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "dimensions",
+   "issue": "מידות, משקל, מתח כניסה, זמן טעינה וזמן עבודה לא נמצאו באף דף שנבדק. ערכי הקטלוג לא אומתו.",
+   "severity": "medium"
+  },
+  {
+   "field": "display",
+   "issue": "זאפ מציין 6 נורות בסוג LED, בניגוד ל-36 נוריות SMD LED בדף היצרן ובדפי הקמעונאים. יש לבדוק את מספר הנוריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog technical_specifications",
+   "issue": "הקטלוג מתאר שני פנסי הלוגן 20W ושני פנסים מתכווננים, בעוד דף Gold Line ודפי הקמעונאים מתארים 36 נוריות SMD LED, פנס אחד ותאורת צד. יש לתקן את תיאור הקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "battery",
+   "issue": "דף Gold Line מציין סוללה 6V/4AH אטומה מוליכה חומצה, ואילו Bug מציין סוללת ליתיום. יש לאמת את סוג הסוללה.",
+   "severity": "high"
+  },
+  {
+   "field": "catalog specs",
+   "issue": "מתח כניסה, זמן טעינה, זמן עבודה, מידות, לחצן TEST והגנת טעינת יתר מהקטלוג לא אומתו באף מקור.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Battery type facts 2 (lead-acid 6V/4AH, Gold Line page) and 4 (lithium, Bug) disagree, marked conflict. Fact 5 (official importer yes) rejected as a retailer listing attribute, not a product fact. Catalog spec text (2 halogen heads 20W each, 230V, 20-24h charge, dimensions) is contradicted or unverified by all sources."
+ }
+}

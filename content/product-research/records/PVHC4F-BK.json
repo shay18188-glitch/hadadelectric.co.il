@@ -1,0 +1,216 @@
+{
+ "modelNumber": "PVHC4F-BK",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PVHC4F-BK",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The only page I could fetch that names the exact model is an Israeli retailer listing (Comphone). It gives the model name and type only, with no spec table. Search snippets for other Israeli retailers describe a 4-zone 3600W hob, but those pages were not fetched (Compshop returned HTTP 403), so no spec facts are published. The importer is not named on any fetched page. Additional searches (Hebrew/English, Amtel, Bug, Cell-Tec, Compshop 403) found no spec table for the exact model. | QA: Two Israeli retailer pages name the exact code PVHC4F-BK as a ProView ceramic hob, matching the catalog. Size and zone count are not confirmed by any fetched page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://comphone.co.il/pvhc4f-bk-%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%A7%D7%A8%D7%9E%D7%99%D7%95%D7%AA-proview/",
+   "publisher": "Comphone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.doricoh.co.il/831900-%D7%9C%D7%90-%D7%A4%D7%A2%D7%99%D7%9C-",
+   "publisher": "Doricoh",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "PVHC4F-BK"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Normalized casing from PROVIEW.",
+     "label": "מותג",
+     "value": "ProView"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "כיריים קרמיות"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים קרמיות של ProView, דגם PVHC4F-BK. משטח קרמי חשמלי מתאים למי שמחפש כיריים חשמליות במקום כיריים גז.",
+  "highlights": [
+   "כיריים קרמיות חשמליות",
+   "מותג ProView",
+   "דגם PVHC4F-BK"
+  ],
+  "goodFor": [
+   "מטבח ללא חיבור גז",
+   "מי שמעדיף בישול חשמלי על משטח קרמי"
+  ],
+  "considerations": [
+   "לבדוק מול החנות את מידות הנישה ומידות החיתוך לפני ההתקנה",
+   "לוודא שקיימת נקודת חשמל מתאימה להספק הכיריים במטבח"
+  ],
+  "faq": [
+   {
+    "q": "איזה סוג כיריים זה?",
+    "a": "אלה כיריים קרמיות חשמליות של ProView.",
+    "sources": []
+   },
+   {
+    "q": "מה מספר הדגם?",
+    "a": "מספר הדגם הוא PVHC4F-BK.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך חיבור גז?",
+    "a": "לא, אלה כיריים קרמיות חשמליות ולכן אינן דורשות חיבור גז.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים קרמיות ProView דגם PVHC4F-BK – כיריים חשמליות עם משטח קרמי למטבח ללא גז. פרטים, מידות והתאמה לנישה בחדד אלקטריק נהריה",
+  "keywords": [
+   "PVHC4F-BK",
+   "כיריים קרמיות ProView",
+   "פרוויו כיריים",
+   "כיריים קרמיות",
+   "כיריים חשמליות",
+   "כיריים קרמיות 60 ס״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר דגם",
+   "catalogValue": "PVHC4F-BK",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "ProView",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג",
+   "catalogValue": "כיריים קרמיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מוקדי בישול",
+   "catalogValue": "4 מוקדים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "3600W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פירוט מוקדים",
+   "catalogValue": "2 מוקדים 1200W ו-2 מוקדים 1800W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 58 ס\"מ, עומק 51 ס\"מ, גובה 5.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות חיתוך",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 49 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V/50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "performance",
+   "issue": "No fetched manufacturer, importer or retailer page gives the specs for PVHC4F-BK (3600W total, 4 zones, 1200W/1800W burners, 60 cm size, 220-240V). The only mentions are search snippets from Israeli retailers, and the Compshop listing returned HTTP 403. Check the specs against the manufacturer manual or the importer before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "dimensions",
+   "issue": "In search results, the 1200W/1800W burner split and the 490 mm cut-out appear for the sibling two-zone model PVHC2F-BK (outer 290 x 510 x 55 mm, niche 270 x 490 mm), not for PVHC4F-BK. The catalog's 56 x 49 cm cut-out and burner split may have been copied from that sibling. Verify them for the 4-zone model.",
+   "severity": "high"
+  },
+  {
+   "field": "installation",
+   "issue": "The Israeli importer is not named on any fetched page. A retailer lists 'אחריות יבואן' (importer warranty) without naming the importer. Proview International Holdings, the Hong Kong brand owner on Wikipedia, is reported to have stopped operating, so the current maker and Israeli distributor are unclear. Confirm who imports and supports this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog specs (4 zones, 3600W total, 1200W/1800W burners, 58×51×5.5 cm, cut-out 56×49 cm, 220-240V) are not confirmed by any fetched page. The burner split and 49 cm cut-out may be copied from the two-zone sibling PVHC2F-BK. Verify against the manual or importer.",
+   "severity": "high"
+  },
+  {
+   "field": "identity",
+   "issue": "The Israeli importer is not named on any fetched page, and the Doricoh listing URL is marked inactive. Confirm who imports and supports this model.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only identity facts (model, brand, type) are verifiable from two Israeli retailer pages. No spec facts were researched, so the catalog specs (4 zones, 3600W, burner split, dimensions, cut-out) remain unverified. The Doricoh URL slug contains 'לא פעיל' (inactive), so that listing may be discontinued; Comphone alone supports the facts. Brand label normalized to ProView."
+ }
+}

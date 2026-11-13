@@ -1,0 +1,357 @@
+{
+ "modelNumber": "MFW3X10W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MFW3X10W",
+  "israeliImporter": "BSH",
+  "matchConfidence": "high",
+  "notes": "דף היצרן (מפרט PL) מציין את הדגם MFW3X10W בצבע לבן. דף המשווק בישראל מציין את הדגם המדויק ומציין יבואן רשמי BSH. | QA: Bosch PL spec sheet and an Israeli retailer page both name MFW3X10W; retailer states BSH warranty."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/pl-PL/MFW3X10W.pdf",
+   "publisher": "Bosch Home",
+   "kind": "manufacturer",
+   "market": "PL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%98%D7%97%D7%A0%D7%AA-%D7%91%D7%A9%D7%A8-%D7%91%D7%95%D7%A9-mfw3x10w/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מנוע מקסימלי (Blocking Power)",
+     "value": "2000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק נקוב",
+     "value": "500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב טחינה",
+     "value": "2.5 ק״ג לדקה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Spec gives 250x160x230 mm; reordered label to match.",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "25 × 16 × 23 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Label changed from diameter to size; spec says only 'Komora mielenia: 8 cm'.",
+     "label": "גודל תא הטחינה",
+     "value": "8 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "From Israeli retailer page.",
+     "label": "אחריות",
+     "value": "אחריות מלאה לשנה על ידי BSH"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית Reverse להפיכת כיוון הטחינה ולשחרור חסימות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "להב דו צדדי המאפשר שימוש לאורך זמן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגליות גומי ליציבות מוגברת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגש מילוי גדול ודוחסן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'on the body' - not in quote.",
+   "text": "פתרון משולב לאחסון אביזרים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כל חלקי הפלסטיק הבאים במגע עם מזון ללא BPA"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed stainless steel - not in quote.",
+   "text": "שלוש רשתות טחינה בקוטר חורים 2.7, 4 ו-8 מ״מ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed kishke - not in quote.",
+   "text": "אביזר להכנת נקניקיות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מטחנת בשר חשמלית של בוש, דגם MFW3X10W, בהספק נקוב של 500 W והספק מנוע מקסימלי (Blocking Power) של 2000 W. קצב הטחינה מגיע ל-2.5 ק״ג לדקה, ובאריזה שלוש רשתות טחינה ואביזר להכנת נקניקיות. מתאימה למי שטוחן בשר בבית באופן קבוע ורוצה מכשיר עם פונקציית Reverse ופתרון אחסון משולב לאביזרים.",
+  "highlights": [
+   "קצב טחינה של 2.5 ק״ג לדקה",
+   "הספק מנוע מקסימלי 2000 W, הספק נקוב 500 W",
+   "פונקציית Reverse לשחרור חסימות",
+   "שלוש רשתות טחינה: 2.7, 4 ו-8 מ״מ",
+   "אביזר להכנת נקניקיות כלול"
+  ],
+  "goodFor": [
+   "טחינת בשר בבית בכמויות, בזכות קצב של 2.5 ק״ג לדקה",
+   "הכנת נקניקיות ביתיות עם האביזר הכלול",
+   "מי שרוצה לבחור מרקם טחינה בעזרת שלוש רשתות בגדלים שונים"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש לגוף בגובה 25 ס״מ, רוחב 16 ס״מ ועומק 23 ס״מ",
+   "ההספק הנקוב הוא 500 W; ה-2000 W הוא הספק מנוע מקסימלי (Blocking Power)",
+   "האחריות היא לשנה על ידי היבואן BSH"
+  ],
+  "faq": [
+   {
+    "q": "מה ההבדל בין 2000 W ל-500 W?",
+    "a": "2000 W הוא הספק המנוע המקסימלי (Blocking Power), ו-500 W הוא ההספק הנקוב של המכשיר.",
+    "sources": []
+   },
+   {
+    "q": "כמה בשר אפשר לטחון בדקה?",
+    "a": "לפי היצרן, קצב הטחינה הוא 2.5 ק״ג לדקה.",
+    "sources": []
+   },
+   {
+    "q": "אילו רשתות טחינה כלולות?",
+    "a": "שלוש רשתות בקוטר חורים 2.7, 4 ו-8 מ״מ, וגם אביזר להכנת נקניקיות.",
+    "sources": []
+   },
+   {
+    "q": "מה עושים אם הבשר נתקע?",
+    "a": "פונקציית Reverse הופכת את כיוון הטחינה ומסייעת לשחרר חסימות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המטחנה?",
+    "a": "אחריות מלאה לשנה על ידי BSH.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מטחנת בשר בוש MFW3X10W, קצב טחינה 2.5 ק״ג לדקה והספק מנוע מקסימלי 2000 W, כולל שלוש רשתות ואביזר נקניקיות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מטחנת בשר בוש",
+   "Bosch MFW3X10W",
+   "MFW3X10W",
+   "מטחנת בשר חשמלית",
+   "מטחנת בשר 2000 וואט",
+   "מטחנת בשר CompactPower",
+   "מטחנת בשר עם אביזר נקניקיות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע מקסימלי",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק עבודה נקוב",
+   "catalogValue": "500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב טחינה",
+   "catalogValue": "עד 2.5 ק\"ג לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 25 ס\"מ, רוחב 16 ס\"מ, עומק 23 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רשתות טחינה",
+   "catalogValue": "3 רשתות (2.7 מ\"מ, 4 מ\"מ ו-8 מ\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזר להכנת נקניקיות",
+   "catalogValue": "כלול",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סכין דו-צדדית",
+   "catalogValue": "סכין טחינה דו-צדדית מפלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פונקציית רוורס",
+   "catalogValue": "פונקציית רוורס (Reverse) לשחרור חסימות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רגליות גומי",
+   "catalogValue": "רגליות גומי ליציבות מרבית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תא אחסון משולב",
+   "catalogValue": "תא אחסון משולב בגוף המכשיר עבור הרשתות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מוצא",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג מציין '2000 וואט', אך זהו הספק Blocking Power המרבי; ההספק הנקוב לפי היצרן הוא 500 W. כדאי לבדוק את ניסוח השם.",
+   "severity": "low"
+  },
+  {
+   "field": "color",
+   "issue": "דף היצרן מציין צבע לבן לדגם MFW3X10W; הטקסט בקטלוג אינו מציין צבע.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "שם הקטלוג מציין 2000 וואט, שהוא הספק Blocking Power המקסימלי; ההספק הנקוב לפי היצרן הוא 500 W.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "ארץ הייצור (פולין) לא אומתה במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Reworded dimensions label to match the spec order; changed chamber label to a neutral 'size'; removed unquoted details (on-body storage, stainless steel discs, kishke) from feature 4 and inTheBox 0/1."
+ }
+}

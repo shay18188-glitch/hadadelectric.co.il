@@ -1,0 +1,354 @@
+{
+ "modelNumber": "ATL-136",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-136",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף הקמעונאי מציין יבואן רשמי ומאשר שבת, אך לא מציין את שם היבואן. לא נמצא דף יצרן או יבואן לדגם זה. | QA: דף BUG מציין מיחם Gold Line דגם ATL-136 עם אותה קיבולת, הספק ומידות כמו בקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מיחם-60-כוסות-gold-line-9071366311",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Gold Line"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "8.6 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1600 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "31 × 48 × 30 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "150 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "2 מצבים: הרתחה ושמירת חום (מצב שבת)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "ע״י גולד ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום נסתר ומנגנון הגנה המנתק את גוף החימום בהיעדר מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ללא טרמוסטט, מאושר לשימוש בשבת על ידי צ.מ.ת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדיד שקוף המראה את כמות המים במכשיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף עשוי נירוסטה משובחת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה בעל נעילה עשוי נירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ברז פלסטיק דו שימושי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיחם נירוסטה של Gold Line, דגם ATL-136, בקיבולת 8.6 ליטר והספק 1600 W. המיחם פועל בשני מצבים, הרתחה ושמירת חום, ומאושר לשימוש בשבת על ידי צ.מ.ת ללא טרמוסטט. מתאים למשפחות, לאירוחים ולשבתות וחגים.",
+  "highlights": [
+   "קיבולת 8.6 ליטר",
+   "הספק 1600 W",
+   "מאושר לשימוש בשבת על ידי צ.מ.ת, ללא טרמוסטט",
+   "גוף חימום נסתר ומנגנון ניתוק בהיעדר מים",
+   "מדיד מים שקוף ומכסה נירוסטה עם נעילה"
+  ],
+  "goodFor": [
+   "שבתות וחגים, בזכות מצב שמירת חום ואישור צ.מ.ת",
+   "אירוח משפחתי שדורש כמות גדולה של מים חמים",
+   "מי שמחפש מיחם נירוסטה עם גוף חימום נסתר"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש למידות 31 × 48 × 30 ס״מ (רוחב × גובה × עומק)",
+   "אורך הכבל 150 ס״מ, כדאי לבדוק שיש שקע קרוב למקום ההצבה",
+   "יש לבדוק בעזרת המדיד השקוף שיש מספיק מים לפני הפעלה ממושכת"
+  ],
+  "faq": [
+   {
+    "q": "האם המיחם מתאים לשבת?",
+    "a": "כן. המיחם ללא טרמוסטט ומאושר לשימוש בשבת על ידי צ.מ.ת, ויש לו מצב שמירת חום (מצב שבת).",
+    "sources": []
+   },
+   {
+    "q": "מה הקיבולת וההספק של המיחם?",
+    "a": "קיבולת של 8.6 ליטר והספק של 1600 W.",
+    "sources": []
+   },
+   {
+    "q": "מה קורה אם המים נגמרים?",
+    "a": "מנגנון הגנה מנתק את גוף החימום בהיעדר מים.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המיחם?",
+    "a": "31 × 48 × 30 ס״מ (רוחב × גובה × עומק), ואורך הכבל 150 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיחם נירוסטה Gold Line דגם ATL-136 בקיבולת 8.6 ליטר והספק 1600 W, מאושר לשבת על ידי צ.מ.ת ללא טרמוסטט. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיחם Gold Line ATL-136",
+   "מיחם גולד ליין",
+   "מיחם לשבת",
+   "מיחם נירוסטה",
+   "מיחם 8.6 ליטר",
+   "מיחם ללא טרמוסטט",
+   "מיחם מאושר צ.מ.ת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8.6 ליטר (כ-60 כוסות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1600W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 31 ס\"מ, עומק 30 ס\"מ, גובה 48 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "150 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר למניעת הצטברות אבנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מכסה",
+   "catalogValue": "מכסה שטוח עשוי נירוסטה עם נעילה בטיחותית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ברז",
+   "catalogValue": "פלסטיק דו-שימושי (לחיצה רציפה או רגעית)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שבת",
+   "catalogValue": "מאושר לשימוש בשבת על ידי מכון צ.מ.ת (ללא טרמוסטט)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טבילה",
+   "catalogValue": "פטור מטבילה על פי אישור הרב אליהו הכהן רוזנברג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצבי הפעלה",
+   "catalogValue": "הרתחה ושמירת חום (מצב שבת)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שבת / טבילה",
+   "issue": "הדף מאשר שימוש בשבת ללא טרמוסטט, אך אינו מזכיר פטור מטבילה. הפטור מטבילה בקטלוג לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג מכסה",
+   "issue": "הקטלוג מציין מכסה שטוח, והדף מציין רק מכסה בעל נעילה עשוי נירוסטה. לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם דגם",
+   "issue": "בתוצאות חיפוש נמצא דף של מיחם 60 כוסות בשם בראשית עם המק״ט ATL-136 ואישור טבילה. לא נפתח ולא נאמת, ויש לבדוק אם זה אותו מוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "נמצא מקור אחד בלבד (קמעונאי ישראלי). לא נמצא דף יצרן או יבואן לדגם זה. מומלץ לאמת מול אתר היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג מכסה",
+   "issue": "הקטלוג מציין מכסה שטוח; המקור מציין רק מכסה נירוסטה בעל נעילה. לא אומת שהמכסה שטוח.",
+   "severity": "low"
+  },
+  {
+   "field": "טבילה",
+   "issue": "הפטור מטבילה שבקטלוג לא אומת במקור.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "מקור יחיד (קמעונאי ישראלי); לא נמצא דף יצרן או יבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "כל העובדות והתכונות מאומתות בציטוט תקין מדף קמעונאי ישראלי (BUG) שמציין את הדגם המדויק. מכסה שטוח ופטור מטבילה מהקטלוג לא אומתו ולכן לא נכללו בתוכן."
+ }
+}

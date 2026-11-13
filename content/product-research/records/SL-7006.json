@@ -1,0 +1,321 @@
+{
+ "modelNumber": "SL-7006",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "SOL (סול)",
+  "exactModel": "SL-7006",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Importer's own page (sol.co.il) and an Israeli retailer name the exact model. | QA: Importer page sol.co.il/products/sl-7006 names the exact model in green; Electro-Buy page names Sol SL-7006 green 1.7 L."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-7006",
+   "publisher": "Sol Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electro-buy.co.il/items/8934029-%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%9E%D7%A4%D7%95%D7%90%D7%A8-1-7-%D7%9C%D7%99%D7%98%D7%A8-Sol-SL-7006-%D7%99%D7%A8%D7%95%D7%A7-%D7%A1%D7%95%D7%9C",
+   "publisher": "Electro-Buy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "נסתר"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "20.5 × 24 × 15 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "ירוק"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, דרך היבואן הרשמי שאוליאן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון הפעלה איכותי תוצרת Strix מאנגליה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חלון שקוף עם מד מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אחסון כבל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כיבוי אוטומטי לאחר הרתחה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כיבוי אוטומטי במצב של חוסר מים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כולל פילטר קבוע"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס 360 מעלות לשימוש ימניים ושמאליים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מפסק כיבוי והדלקה מואר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי של Sol בצבע ירוק, דגם SL-7006, עם הספק 2200 W וקיבולת 1.7 ליטר. גוף החימום נסתר ומנגנון ההפעלה מתוצרת Strix מאנגליה, עם כיבוי אוטומטי לאחר הרתחה ובמצב של חוסר מים. מתאים למי שמחפש קומקום מעוצב למטבח עם חלון מד מים ובסיס מסתובב.",
+  "highlights": [
+   "הספק 2200 W",
+   "קיבולת 1.7 ליטר",
+   "גוף חימום נסתר",
+   "מנגנון הפעלה Strix מאנגליה",
+   "כיבוי אוטומטי לאחר הרתחה ובחוסר מים"
+  ],
+  "goodFor": [
+   "הרתחת מים לכמה כוסות בבת אחת, הודות לקיבולת של 1.7 ליטר",
+   "מטבח שבו הקומקום עומד על השיש ומשתלב בעיצוב, בצבע ירוק",
+   "משתמשים ימניים ושמאליים, בזכות הבסיס המסתובב",
+   "מי שמעדיף ניקוי קל, עם גוף חימום נסתר"
+  ],
+  "considerations": [
+   "מידות הקומקום: 20.5 × 24 × 15 ס״מ (רוחב × גובה × עומק) – כדאי לוודא שיש מקום מתחת לארונות העליונים",
+   "הספק של 2200 W – מומלץ לחבר לשקע ייעודי ולא למפצל עמוס",
+   "האחריות היא שנה דרך היבואן הרשמי שאוליאן"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של הקומקום?",
+    "a": "הקיבולת היא 1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי לאחר הרתחה וכיבוי אוטומטי במצב של חוסר מים.",
+    "sources": []
+   },
+   {
+    "q": "האם גוף החימום חשוף?",
+    "a": "לא, גוף החימום נסתר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הקומקום?",
+    "a": "שנה, דרך היבואן הרשמי שאוליאן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי Sol SL-7006 בצבע ירוק, הספק 2200 W וקיבולת 1.7 ליטר, גוף חימום נסתר ומנגנון Strix. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי ירוק",
+   "Sol SL-7006",
+   "קומקום סול",
+   "קומקום חשמלי 1.7 ליטר",
+   "קומקום רטרו",
+   "קומקום עם גוף חימום נסתר",
+   "קומקום Strix"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 20.5 ס״מ, עומק 15 ס״מ, גובה 24 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "ירוק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון",
+   "catalogValue": "Strix איכותי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, דרך היבואן הרשמי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "Catalog brand reads 'Sol exlusive' (misspelled); importer site uses Sol / SOL.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Made-in-China not confirmed by any page; only Strix mechanism origin (England) is stated.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand reads 'Sol exlusive' (misspelled); importer site uses Sol.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Made-in-China in catalog is not confirmed by any source; only the Strix mechanism origin (England) is stated.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features confirmed by ok quotes on the importer page and an Israeli retailer page naming SL-7006."
+ }
+}

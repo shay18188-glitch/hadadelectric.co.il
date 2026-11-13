@@ -1,0 +1,159 @@
+{
+ "modelNumber": "IK-201",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bush",
+  "exactModel": "IK-201",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "נמצא רק בעמוד קמעונאי ישראלי (LastPrice) ובשם IK-201-3X20W; לא נמצא עמוד יצרן או מדריך. | QA: LastPrice page names BUSH IK-201 3X20W, matching the catalog's 3 lamps of 20W."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lastprice.co.il/p/53034493/קוטל-חרקים-Bush/BUSH-IK~201~3X20W",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נורות UV",
+     "value": "3 נורות אולטרה סגולות, 3 × 20W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer wording mixes radius with m²; published as stated.",
+     "label": "שטח כיסוי",
+     "value": "יעיל לרדיוס של עד 150 מ״ר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת הגנה צפופה עם מפסק ביטחון המכבה את המכשיר בעת החלפת נורות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קטלן יתושים חשמלי של Bush, דגם IK-201, הפועל עם 3 נורות אולטרה סגולות של 20W למשיכת חרקים מעופפים. לפי המשווק הוא יעיל לרדיוס של עד 150 מ״ר. רשת הגנה צפופה ומפסק ביטחון מכבים את המכשיר בעת החלפת נורות, ולכן הוא מתאים למי שמחפש פתרון ללא כימיקלים לבית או לחצר מקורה.",
+  "highlights": [
+   "3 נורות UV של 20W כל אחת",
+   "יעיל לרדיוס של עד 150 מ״ר",
+   "רשת הגנה צפופה",
+   "מפסק ביטחון המכבה את המכשיר בעת החלפת נורות"
+  ],
+  "goodFor": [
+   "שטחים פתוחים יחסית בבית או בחצר מקורה",
+   "מי שמעדיף הדברת יתושים ללא ריסוס",
+   "בית עם ילדים, בזכות מפסק הביטחון ברשת"
+  ],
+  "considerations": [
+   "יש לוודא שקע חשמל זמין קרוב למקום ההצבה או התלייה",
+   "נורות UV מתבלות עם הזמן; כדאי לברר זמינות נורות חלופיות של 20W",
+   "יש להציב במקום מוגן מגשם ישיר"
+  ],
+  "faq": [
+   {
+    "q": "כמה נורות יש בקטלן Bush IK-201?",
+    "a": "שלוש נורות אולטרה סגולות של 20W כל אחת.",
+    "sources": []
+   },
+   {
+    "q": "איזה שטח הקטלן מכסה?",
+    "a": "לפי המשווק הוא יעיל לרדיוס של עד 150 מ״ר.",
+    "sources": []
+   },
+   {
+    "q": "האם בטוח להחליף בו נורות?",
+    "a": "כן, מפסק ביטחון מכבה את המכשיר בעת החלפת נורות, והרשת צפופה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קטלן יתושים Bush IK-201 עם 3 נורות UV של 20W, יעיל לרדיוס של עד 150 מ״ר ומפסק ביטחון להחלפת נורות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קטלן יתושים",
+   "קטלן יתושים Bush",
+   "Bush IK-201",
+   "IK-201",
+   "קוטל חרקים חשמלי",
+   "קטלן יתושים לחצר",
+   "קטלן יתושים UV"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "60W (3 נורות UV של 20W כל אחת)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שטח כיסוי",
+   "catalogValue": "עד 150 מ\"ר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "source",
+   "issue": "מקור יחיד, קמעונאי; עמוד אחר מצוטט 65W מול 60W; אין עמוד יצרן",
+   "severity": "medium"
+  },
+  {
+   "field": "source",
+   "issue": "Only one Israeli retailer page; no manufacturer page or manual. Another page reportedly cites 65W versus 60W.",
+   "severity": "medium"
+  },
+  {
+   "field": "שטח כיסוי",
+   "issue": "Retailer states a radius in m², an inconsistent unit; verify the real coverage figure.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Reworded fact 0 value to 3 × 20W and fact 1 to Hebrew unit. Single Israeli retailer source; no manufacturer page."
+ }
+}
