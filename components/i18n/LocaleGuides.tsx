@@ -147,6 +147,7 @@ export async function LocaleGuidePage({ guide, locale }: { guide: Guide; locale:
                 columns={guide.dimensionsTable.columns}
                 caption={t.tableCaption}
                 locale={locale}
+                analysisDate={hasNativeGuide(guide.slug, locale) ? undefined : guide.publishedDate}
               />
             )}
           </div>

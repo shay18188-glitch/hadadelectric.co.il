@@ -17,10 +17,13 @@ const TEXT: Record<Locale, {
   depth: string;
   height: string;
   footnote: (shown: number, matched: number) => string;
+  /** The prose was written against the catalog of one day; the table is live. */
+  asOf: (date: string) => string;
 }> = {
   he: {
     model: "דגם",
     column: {
+      screen: "מסך",
       body: "מידות המוצר (ר × ג × ע)",
       withStand: "כולל מעמד (ר × ג × ע)",
       vesa: "תקן תלייה VESA",
@@ -30,12 +33,15 @@ const TEXT: Record<Locale, {
     width: "רוחב",
     depth: "עומק",
     height: "גובה",
+    asOf: (date) =>
+      ` הסיכומים בטקסט נכתבו לפי הקטלוג ב‑${date}; הטבלה נבנית מחדש מהקטלוג הפעיל, ולכן כשיש הבדל במספר הדגמים או בטווחים — הטבלה היא המעודכנת.`,
     footnote: (shown, matched) =>
       `${shown} דגמים מתוך ${matched} שנמצאים בקטלוג בקטגוריה הזו. המידות מגיעות מגיליון המפרט של היצרן או היבואן כפי שהוא מופיע ברשומת המוצר; דגמים שלא פורסמה עבורם מידה מדויקת אינם מופיעים בטבלה. מומלץ לאמת מול הדגם המדויק לפני חיתוך שיש, הזמנת נגרות או תלייה על הקיר.`,
   },
   ru: {
     model: "Модель",
     column: {
+      screen: "Экран",
       body: "Корпус (Ш × В × Г)",
       withStand: "С подставкой (Ш × В × Г)",
       vesa: "Крепление VESA",
@@ -45,12 +51,15 @@ const TEXT: Record<Locale, {
     width: "ширина",
     depth: "глубина",
     height: "высота",
+    asOf: (date) =>
+      ` Выводы в тексте написаны по каталогу на ${date}; таблица собирается из текущего каталога, поэтому при расхождении в числе моделей или диапазонах актуальна таблица.`,
     footnote: (shown, matched) =>
       `${shown} моделей из ${matched}, которые есть в нашем каталоге в этой категории. Размеры взяты из технического паспорта производителя или импортёра, как он указан в карточке товара; модели без точных опубликованных размеров в таблицу не включены. Перед покупкой тумбы, заказом мебели или креплением на стену сверьтесь с конкретной моделью.`,
   },
   en: {
     model: "Model",
     column: {
+      screen: "Screen",
       body: "Body (W × H × D)",
       withStand: "With stand (W × H × D)",
       vesa: "VESA mount",
@@ -60,10 +69,22 @@ const TEXT: Record<Locale, {
     width: "width",
     depth: "depth",
     height: "height",
+    asOf: (date) =>
+      ` The summary in the text reflects the catalog on ${date}; the table is rebuilt from the live catalog, so where the model count or ranges differ, the table is current.`,
     footnote: (shown, matched) =>
       `${shown} of the ${matched} models in our catalog in this category. Dimensions come from the manufacturer's or importer's spec sheet as listed on the product record; models without a published exact measurement are left out. Check the exact model before cutting a worktop, ordering joinery or wall-mounting.`,
   },
 };
+
+function formatAnalysisDate(iso: string, locale: Locale): string {
+  const [year, month, day] = iso.split("-").map(Number);
+  if (locale === "en") {
+    return new Date(Date.UTC(year, month - 1, day)).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+  }
+  return locale === "ru"
+    ? `${String(day).padStart(2, "0")}.${String(month).padStart(2, "0")}.${year}`
+    : `${day}.${month}.${year}`;
+}
 
 /** "רוחב 56 ס״מ · עומק 48 ס״מ" — only the axes the supplier actually published. */
 function formatCutout(cutout: MeasuredProduct["cutout"], t: (typeof TEXT)[Locale]): string {
@@ -89,11 +110,19 @@ export function DimensionsTable({
   columns,
   caption,
   locale = "he",
+  analysisDate,
 }: {
   table: TableData;
   columns: DimensionsColumn[];
   caption: string;
   locale?: Locale;
+  /**
+   * ISO date the guide's prose was written against. Its counts and ranges
+   * ("40 measured models", "42–65.9 cm") are a snapshot while the table is
+   * live, so the two drift apart as the catalog changes; stating the date
+   * turns a contradiction into an explained difference.
+   */
+  analysisDate?: string;
 }) {
   if (table.rows.length === 0) return null;
   const t = TEXT[locale];
@@ -135,7 +164,9 @@ export function DimensionsTable({
                     // there reverses the visual order of the two measurements.
                     dir={column === "cutout" ? undefined : "ltr"}
                   >
-                    {column === "vesa"
+                    {column === "screen"
+                      ? (row.screenInches ? `${row.screenInches}″` : "—")
+                      : column === "vesa"
                       ? (row.vesa ?? "—")
                       : column === "cutout"
                         ? formatCutout(row.cutout, t)
@@ -151,6 +182,7 @@ export function DimensionsTable({
       </div>
       <p className="mt-3 text-xs leading-5 text-graphite-soft/58">
         {t.footnote(table.rows.length, table.matched)}
+        {analysisDate && t.asOf(formatAnalysisDate(analysisDate, locale))}
       </p>
     </figure>
   );

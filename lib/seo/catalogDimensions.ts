@@ -24,11 +24,18 @@ export interface MeasuredProduct {
   vesa: string | null;
   cutout: CutoutDimensions | null;
   availability: Product["availability"];
+  /** Diagonal from the product name, for televisions and monitors only. */
+  screenInches: number | null;
 }
 
 /** Rebuilds the spec blob the parser expects from the normalized spec pairs. */
 function specsText(product: Product): string {
   return product.specs.map((spec) => (spec.label ? `${spec.label}: ${spec.value}` : spec.value)).join("; ");
+}
+
+function screenInchesFromName(name: string): number | null {
+  const match = name.match(/(\d{2})\s*['\u05f3"\u05f4]/);
+  return match ? Number(match[1]) : null;
 }
 
 export function measure(product: Product): MeasuredProduct | null {
@@ -68,10 +75,16 @@ export function measure(product: Product): MeasuredProduct | null {
     vesa: dimensions.vesa,
     cutout: dimensions.cutout,
     availability: product.availability,
+    screenInches: isDisplay ? screenInchesFromName(product.name) : null,
   };
 }
 
-export type DimensionsColumn = "body" | "withStand" | "vesa" | "cutout";
+/**
+ * "screen" is a label column, not a measurement: it never qualifies a row on
+ * its own, and its presence orders the table by screen size, which is how a
+ * reader comparing every television size scans it.
+ */
+export type DimensionsColumn = "screen" | "body" | "withStand" | "vesa" | "cutout";
 
 export interface DimensionsTableSpec {
   categorySlug: string;
@@ -155,10 +168,15 @@ export async function buildDimensionsTable(spec: DimensionsTableSpec): Promise<D
     .filter((row): row is MeasuredProduct => row !== null)
     .filter((row) =>
       spec.columns.some((column) =>
-        column === "vesa" ? row.vesa : column === "cutout" ? row.cutout : row[column]
+        column === "screen" ? false : column === "vesa" ? row.vesa : column === "cutout" ? row.cutout : row[column]
       )
     )
-    .sort((a, b) => (a.brand ?? "").localeCompare(b.brand ?? "") || a.modelNumber.localeCompare(b.modelNumber));
+    .sort(
+      (a, b) =>
+        (spec.columns.includes("screen") ? (a.screenInches ?? 0) - (b.screenInches ?? 0) : 0) ||
+        (a.brand ?? "").localeCompare(b.brand ?? "") ||
+        a.modelNumber.localeCompare(b.modelNumber)
+    );
 
   const bodies = rows.map((row) => row.body).filter((body): body is Dimensions => body !== null);
 

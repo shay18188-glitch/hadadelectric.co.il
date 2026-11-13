@@ -21,7 +21,7 @@ export interface GuideDimensionsTable {
   /** Narrows to a measured body width band, inclusive, e.g. 60 cm fridges. */
   minWidthCm?: number;
   maxWidthCm?: number;
-  columns: ("body" | "withStand" | "vesa" | "cutout")[];
+  columns: ("screen" | "body" | "withStand" | "vesa" | "cutout")[];
   caption: string;
 }
 

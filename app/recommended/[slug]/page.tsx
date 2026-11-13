@@ -15,6 +15,8 @@ import { categoryImageFor } from "@/lib/categoryVisuals";
 import { getRecommendationProducts } from "@/lib/seo/recommendationProducts";
 import { buildComparison } from "@/lib/seo/specExtract";
 import { SpecComparisonTable } from "@/components/SpecComparisonTable";
+import { RecommendationPicks, type ResolvedPick } from "@/components/RecommendationPicks";
+import { getRecommendationPicks } from "@/content/recommendationPicks";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { collectionPageJsonLd, faqJsonLd } from "@/lib/schema/jsonld";
 
@@ -59,6 +61,17 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
   if (products.length < 4) notFound();
 
   const inStockCount = products.filter((product) => product.availability === "in_stock").length;
+
+  // Editorial picks, shown only while each model is in stock. Fewer than two
+  // is not a choice, so the section then stays out and the grid carries the page.
+  const productsByModel = new Map(products.map((product) => [product.modelNumber, product]));
+  const resolvedPicks: ResolvedPick[] = getRecommendationPicks(page.slug).flatMap((pick) => {
+    const product = productsByModel.get(pick.model);
+    return product && product.availability === "in_stock" ? [{ pick, product }] : [];
+  });
+  const showPicks = resolvedPicks.length >= 2;
+  const pickedModels = new Set(resolvedPicks.map(({ product }) => product.modelNumber));
+  const picksMethod = `בחרנו ${resolvedPicks.length} מתוך ${inStockCount} הדגמים שמסומנים כרגע במלאי — דגם אחד לכל מצב שימוש, לפי גיליונות המפרט של היצרנים והמחקר שלנו על כל דגם. הסדר אינו דירוג, ודגם שיוצא מהמלאי יוצא גם מהרשימה.`;
   const brands = Array.from(
     new Map(
       products
@@ -105,7 +118,7 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
               </div>
 
               <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-                <Link href="#models" className="tap-scale inline-flex min-h-12 items-center justify-center rounded-full bg-graphite px-6 py-3 text-sm font-black text-white transition hover:bg-brand-blue">
+                <Link href={showPicks ? "#picks" : "#models"} className="tap-scale inline-flex min-h-12 items-center justify-center rounded-full bg-graphite px-6 py-3 text-sm font-black text-white transition hover:bg-brand-blue">
                   לצפייה בדגמים
                 </Link>
                 <WhatsAppButton
@@ -171,6 +184,10 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
             ))}
           </div>
         </section>
+
+        {showPicks && (
+          <RecommendationPicks picks={resolvedPicks} method={picksMethod} shortTitle={page.shortTitle} />
+        )}
 
         <section id="models" className="scroll-mt-28 bg-surface py-14 md:py-20" aria-labelledby="models-heading">
           <div className="container-page">
@@ -259,7 +276,11 @@ export default async function RecommendedPage({ params }: RecommendedPageProps) 
             description: page.seoDescription,
             path: `/recommended/${page.slug}`,
             image: categoryImageFor(page.categorySlug),
-            items: products.map((product) => ({
+            // Picks lead the list: they are the page's answer, the rest is the shelf.
+            items: [
+              ...resolvedPicks.map(({ product }) => product),
+              ...products.filter((product) => !pickedModels.has(product.modelNumber)),
+            ].map((product) => ({
               name: product.name,
               path: `/products/${encodeURIComponent(product.slug)}`,
               image: product.imageUrl,

@@ -241,6 +241,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
                   table={dimensionsTable}
                   columns={guide.dimensionsTable.columns}
                   caption={guide.dimensionsTable.caption}
+                  analysisDate={guide.publishedDate}
                 />
                 {/* The table answers "how big is this category". Someone holding
                     a tape measure has the inverse question, so hand them the
