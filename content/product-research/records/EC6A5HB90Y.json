@@ -1,0 +1,332 @@
+{
+ "modelNumber": "EC6A5HB90Y",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Siemens",
+  "exactModel": "EC6A5HB90Y",
+  "israeliImporter": "BSH Israel",
+  "matchConfidence": "high",
+  "notes": "דף המוצר של סימנס ישראל מציג את הדגם המדויק; המוצר מסומן כלא זמין עוד. | QA: דף סימנס ישראל ודף המפרט בעברית מציגים את הדגם המדויק EC6A5HB90Y."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.siemens-home.bsh-group.com/il/he/mkt-product/cooking-and-baking/hobs/gas-hobs/EC6A5HB90Y",
+   "publisher": "Siemens Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/he-IL/EC6A5HB90Y.pdf",
+   "publisher": "Siemens Israel spec sheet",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "התווית תוקנה; סדר הצירים לא מצוין בציטוט",
+     "label": "מידות המוצר (מ״מ)",
+     "value": "53 × 582 × 520 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (גובה × רוחב × עומק)",
+     "value": "45 × 560-562 × 480-492 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "100 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקע",
+     "value": "תקע ישראלי עם פינים שטוחים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עובי משטח עבודה מינימלי (ללא מרווח / עם מרווח)",
+     "value": "30 מ״מ / 12 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מבערים (קילוואט)",
+     "value": "1 × 1.0, 1 × 3.3, 2 × 1.75"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג חיבור גז",
+     "value": "7800 ואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוגי מבערים",
+     "value": "מבער סטנדרטי, מבער סטנדרטי, מבער חסכוני, מבער ווק"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג הגז",
+     "value": "גז נוזלי G30, G31, 28-30/37 מיליבר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר המשטח",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר תומכי הסירים",
+     "value": "ברזל יצוק עם רגליות מגומי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "stepFlame – שליטה מדויקת בעוצמת הלהבה ב-9 רמות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבער ווק של 3.3 קילוואט"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הצתה בכפתור ההפעלה ביד אחת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיישני בטיחות למניעת דליפת גז"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז מובנות של סימנס ברוחב 60 ס״מ עם משטח נירוסטה ותומכי סירים מברזל יצוק. 4 מבערים, ביניהם מבער ווק של 3.3 קילוואט, ובקרת stepFlame עם 9 רמות עוצמת להבה. מתאימות למטבח ביתי שמבשלים בו על גז נוזלי ורוצים גם בישול עדין וגם הקפצה בווק.",
+  "highlights": [
+   "4 מבערים: ווק 3.3 קילוואט, 2 סטנדרטיים 1.75 קילוואט וחסכוני 1.0 קילוואט",
+   "stepFlame – 9 רמות עוצמת להבה",
+   "משטח נירוסטה ותומכי סירים מברזל יצוק",
+   "הצתה בכפתור ההפעלה ביד אחת",
+   "חיישני בטיחות למניעת דליפת גז"
+  ],
+  "goodFor": [
+   "בישול בווק והקפצה על מבער של 3.3 קילוואט",
+   "החלפת כיריים גז קיימות בנישה של 60 ס״מ",
+   "מי שרוצה שליטה מדויקת בלהבה ב-9 רמות קבועות",
+   "סירים כבדים על תומכי ברזל יצוק"
+  ],
+  "considerations": [
+   "לוודא שפתח החיתוך בשיש תואם נישה של 560-562 × 480-492 מ״מ",
+   "עובי משטח העבודה המינימלי הוא 30 מ״מ ללא מרווח או 12 מ״מ עם מרווח שמוזמן בנפרד",
+   "הכיריים מוגדרות לגז נוזלי G30/G31 – ההתקנה והחיבור בידי מתקין גז מוסמך",
+   "נדרש שקע חשמל להצתה בטווח כבל של 100 ס״מ, עם תקע ישראלי"
+  ],
+  "faq": [
+   {
+    "q": "כמה מבערים יש בכיריים ומה ההספק שלהם?",
+    "a": "4 מבערים: מבער ווק של 3.3 קילוואט, 2 מבערים סטנדרטיים של 1.75 קילוואט ומבער חסכוני של 1.0 קילוואט.",
+    "sources": []
+   },
+   {
+    "q": "מה גודל הנישה הנדרש בשיש?",
+    "a": "לפי היצרן: 45 × 560-562 × 480-492 מ״מ (גובה × רוחב × עומק).",
+    "sources": []
+   },
+   {
+    "q": "לאיזה סוג גז הכיריים מתאימות?",
+    "a": "לגז נוזלי G30/G31 בלחץ 28-30/37 מיליבר.",
+    "sources": []
+   },
+   {
+    "q": "האם הכיריים צריכות חשמל?",
+    "a": "כן, להצתה. אורך כבל החשמל 100 ס״מ והתקע ישראלי עם פינים שטוחים.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויים המשטח ותומכי הסירים?",
+    "a": "המשטח מנירוסטה ותומכי הסירים מברזל יצוק עם רגליות מגומי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז סימנס EC6A5HB90Y ברוחב 60 ס״מ, נירוסטה, 4 מבערים כולל ווק 3.3 קילוואט ובקרת stepFlame ב-9 רמות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז סימנס",
+   "EC6A5HB90Y",
+   "סימנס EC6A5HB90Y",
+   "כיריים גז 60 ס״מ נירוסטה",
+   "כיריים גז עם מבער ווק",
+   "כיריים גז ברזל יצוק",
+   "כיריים גז מובנות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מבער ווק",
+   "catalogValue": "3.3 קילוואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 58.2, עומק 52, גובה 5.6 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות לחיתוך",
+   "catalogValue": "רוחב 56, עומק 48-49 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "100 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "availability_status",
+   "issue": "דף היצרן מציין שהדגם הופסק ביבוא הרשמי; לבדוק מול הספק",
+   "severity": "low"
+  },
+  {
+   "field": "availability_status",
+   "issue": "דף היצרן מסמן את הדגם כלא זמין עוד ביבוא הרשמי; לבדוק מול הספק",
+   "severity": "low"
+  },
+  {
+   "field": "מידות המוצר",
+   "issue": "סדר הצירים בציטוט 53x582x520 לא מצוין; הקטלוג רושם גובה 5.6 ס״מ ועומק 52 ס״מ – לוודא",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "תווית מידות המוצר תוקנה: הציטוט אינו מציין סדר צירים, והסדר עומק×רוחב×גובה שנרשם אינו מתיישב עם הערכים (53 מ״מ הוא הגובה). שאר העובדות אומתו מול דף סימנס ישראל. | code guard removed: fact 8 QA value \"2 מבערים סטנדרטיים, מבער חסכוני, מבער ווק\" not supported by quotes; kept \"מבער סטנדרטי, מבער סטנדרטי, מבער חסכוני, מבער ווק\""
+ }
+}

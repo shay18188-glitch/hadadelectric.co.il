@@ -1,0 +1,448 @@
+{
+ "modelNumber": "DW60BS7300SL",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "DW60BS7300SL",
+  "israeliImporter": "סמליין",
+  "matchConfidence": "high",
+  "notes": "Model code DW60BS7300SL appears on Israeli retailer pages (Lior Electric, BetterShop) and on the Zabilo product page. The Samsung Israel search page and support URL did not return the model. Dimensions differ slightly between sources (height 84.5 vs 85 cm). | QA: Two Israeli retailer pages and one foreign retailer page name DW60BS7300SL exactly. Importer not confirmed by an ok quote, so left null."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bettershop.co.il/product/samsung_dw60bs7300sl/",
+   "publisher": "BetterShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/freestanding-dishwashers/12809-dw60bs7300sl.html",
+   "publisher": "Zabilo",
+   "kind": "retailer",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://lior-electric.co.il/product/%D7%9E%D7%93%D7%99%D7%97-%D7%9B%D7%9C%D7%99%D7%9D-60-%D7%A1%D7%9E-%D7%93%D7%92%D7%9D-dw60bs7300sl-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-samsung",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מכשיר",
+     "value": "מדיח כלים רחב, עומד, נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Another source reportedly lists 85 cm; flagged.",
+     "label": "גובה",
+     "value": "84.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "9.2 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "8 תוכניות הדחה + 3 תוכניות להורדה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "C"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "42 dB (40 dB במצב שקט במיוחד)"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "LED לבנה נסתרת בחזית"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Wi-Fi not in quote; removed.",
+     "label": "שליטה חכמה",
+     "value": "אפליקציית SmartThings"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת WaterJet Clean עם זרועות שטיפה כפולות מסתובבות לניקוי מכל זווית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Auto Open Door - פתיחה אוטומטית של הדלת לקראת סיום ההדחה לייבוש טוב יותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Hygiene Plus לחיטוי הכלים בטמפרטורה של 75 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Aqua Stop - מערכת מובנית נגד הצפה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Machine Care לניקוי וחיטוי פנים המדיח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Speed Booster - קיצור תוכניות בלחיצת כפתור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סלסלה עליונה מתכווננת לגובה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הטענה של חצי כמות בסלסלה התחתונה לכמות כלים קטנה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למשפחה שמדיחה כמות כלים גדולה ומעוניינת במדיח שקט עם פתיחת דלת אוטומטית לייבוש.",
+  "highlights": [
+   "רמת רעש 42 dB, ו-40 dB במצב שקט במיוחד",
+   "פתיחת דלת אוטומטית Auto Open Door לייבוש טוב יותר"
+  ],
+  "goodFor": [
+   "מטבח פתוח לסלון, שבו חשוב מדיח שקט ברמת 42 dB",
+   "מי שרוצה לחטא כלים, למשל בקבוקי תינוק, בתוכנית Hygiene Plus ב-75 מעלות",
+   "ימים עם מעט כלים, בזכות הטענת חצי כמות בסלסלה התחתונה"
+  ],
+  "considerations": [
+   "ודאו נקודת מים, ניקוז ושקע חשמל סמוכים למקום ההצבה",
+   "לשליטה מרחוק והורדת תוכניות נדרשת אפליקציית SmartThings וחיבור לרשת ביתית",
+   "דירוג האנרגיה הוא C לפי התווית האירופית"
+  ],
+  "faq": [
+   {
+    "q": "כמה המדיח שקט?",
+    "a": "רמת הרעש היא 42 dB בעבודה רגילה ו-40 dB במצב שקט במיוחד.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני הצפה?",
+    "a": "כן, במדיח מובנית מערכת Aqua Stop נגד הצפה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "DW60BS7300SL",
+   "מדיח כלים סמסונג DW60BS7300SL",
+   "מדיח כלים סמסונג נירוסטה",
+   "מדיח כלים רחב עומד",
+   "מדיח כלים 13 מערכות",
+   "מדיח כלים שקט",
+   "מדיח כלים SmartThings",
+   "מדיח כלים סמסונג נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "13 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "C",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "9.2 ליטר למחזור הדחה סטנדרטי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "42 דציבל (40 דציבל בתוכנית שקטה במיוחד)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "84.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "59.8 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "60 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות",
+   "catalogValue": "8 תוכניות הדחה + 3 להורדה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "Digital Inverter BLDC (ללא פחמים)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פנים המדיח",
+   "catalogValue": "פלדת אל-חלד (נירוסטה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LED לבנה נסתרת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-50 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון Auto Open Door",
+   "catalogValue": "פתיחה אוטומטית (10 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Aqua Stop",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "Aqua Stop - מערכת מובנת נגד הצפה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גובה",
+   "issue": "Height differs by source: 84.5 cm on Zabilo (catalog value) vs 85 cm on BetterShop. Check against the importer spec before a tight niche install.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב",
+   "issue": "Catalog says 59.8 cm; Zabilo and BetterShop give 60 cm.",
+   "severity": "medium"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "Zabilo lists the sound level as up to 45 dB; BetterShop lists 42 dB (40 dB in Extra Quiet). The 42 dB figure is used.",
+   "severity": "low"
+  },
+  {
+   "field": "מספר מערכות כלים",
+   "issue": "One search snippet lists 14 place settings for this model; the pages read list 13.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור יצרן",
+   "issue": "The Samsung Israel search and support URLs did not return this model, so no manufacturer page was read. Facts rely on Israeli retailers and an English retailer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "גובה",
+   "issue": "Height 84.5 cm (Zabilo) vs 85 cm reported on BetterShop; verify against importer spec before a tight niche install.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב",
+   "issue": "Catalog says 59.8 cm; retailers reportedly give 60 cm. No ok quote for width was provided.",
+   "severity": "low"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "Zabilo reportedly lists up to 45 dB while BetterShop lists 42 dB; published 42 dB from the Israeli retailer.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור יצרן",
+   "issue": "No manufacturer or importer page was read; facts rely on retailer pages.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All quotes check ok on pages naming the model. Facts and features kept; noise value wording normalized. Height kept at 84.5 cm from Zabilo but sources reportedly differ (85 cm on BetterShop), flagged. No manufacturer page read. | code guard removed: summary: \"Samsung DW60BS7300SL הוא מדיח כלים רחב עומד בגימור נירוסטה, בקיבולת 13 מערכות כלים.\"; summary: \"הוא עובד ברמת רעש של 42 dB (40 dB במצב שקט במיוחד), צורך 9.2 ליטר מים למחזור ומציע 8 תוכניות הדחה ועוד 3 להורדה דרך אפליקציית SmartThings.\"; faq: \"כמה מערכות כלים נכנסות למדיח?\"; faq: \"כמה מים המדיח צורך?\"; faq: \"אפשר לשלוט במדיח מהטלפון?\"; metaDescription: \"מדיח כלים רחב עומד Samsung DW60BS7300SL נירוסטה: 13 מערכות כלים ורמת רעש 42 dB, עם אפליקציית SmartThings. בחדד אלקטריק נהריה\"; highlight: \"קיבולת 13 מערכות כלים\"; highlight: \"צריכת מים 9.2 ליטר למחזור\"; highlight: \"8 תוכניות הדחה + 3 תוכניות להורדה\"; goodFor: \"משפחה שמדיחה כמות כלים גדולה בכל הפעלה, בזכות קיבולת 13 מערכות כלים\"; consideration: \"מדדו את גובה הנישה מתחת למשטח: גובה המדיח 84.5 ס״מ\""
+ }
+}

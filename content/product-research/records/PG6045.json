@@ -1,0 +1,253 @@
+{
+ "modelNumber": "PG6045",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Remington",
+  "exactModel": "PG6045",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Model PG6045 (All in One Grooming Kit, blue/silver) confirmed on a manual aggregator page and on Amazon US. No Israeli importer or Israeli retailer page found for this exact model. | QA: PG6045 named on a manual aggregator page and on Amazon US. Israeli variant (plug, voltage) not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.usermanuals.au/remington/pg6045/manual",
+   "publisher": "UserManuals.au",
+   "kind": "other",
+   "market": "AU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.amazon.com/Remington-PG6045-PG-6045/dp/B00KD7WYPE",
+   "publisher": "Amazon.com",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 40 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Manual says maximum hair length.",
+     "label": "אורך שיער מקסימלי",
+     "value": "16 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Manual says minimum hair length.",
+     "label": "אורך שיער מינימלי",
+     "value": "1.5 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר להבים",
+     "value": "טיטניום"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "כחול וכסף"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נורית חיווי טעינה",
+     "value": "כן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "להבים בציפוי טיטניום עם השחזה עצמית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מסרקים ייעודיים לאוזניים, לגבות ולאף"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "ערכת טיפוח לגבר של Remington, דגם PG6045, לעיצוב זקן ולטיפוח פנים. מתאימה למי שמחפש כלי אחד לזקן, לאף, לאוזניים ולגבות.",
+  "highlights": [
+   "זמן עבודה של עד 40 דקות",
+   "להבים בציפוי טיטניום עם השחזה עצמית",
+   "מסרקים ייעודיים לאוזניים, לגבות ולאף",
+   "נורית חיווי טעינה"
+  ],
+  "goodFor": [
+   "שמירה על זקן קצר או בינוני באורך אחיד",
+   "טיפוח אזור האף, האוזניים והגבות בכלי אחד",
+   "מי שמעדיף ערכה אחת במקום כמה מכשירים נפרדים"
+  ],
+  "considerations": [
+   "יש לבדוק את סוג התקע והמתח של היחידה הנמכרת בישראל",
+   "כדאי לעקוב אחרי נורית החיווי ולטעון לפני שימוש ארוך"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובדת הערכה בטעינה?",
+    "a": "לפי נתוני היצרן, עד 40 דקות עבודה.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויים הלהבים?",
+    "a": "הלהבים בציפוי טיטניום ובעלי השחזה עצמית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לטפל באף ובאוזניים?",
+    "a": "כן, הערכה כוללת מסרקים ייעודיים לאוזניים, לגבות ולאף.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Remington PG6045",
+   "ערכת טיפוח לגבר רמינגטון",
+   "טרימר לזקן Remington",
+   "PG6045",
+   "ערכת טיפוח לגבר",
+   "טרימר לאף ואוזניים",
+   "קוצץ זקן רמינגטון"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "חומר להבים",
+   "catalogValue": "להבי טיטניום מתקדמים בציפוי Titanium",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 40 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך חיתוך",
+   "catalogValue": "1.5 עד 16 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורית חיווי",
+   "catalogValue": "נורית חיווי למצב הטעינה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כחול וכסף",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טעינה באמצעות כבל USB",
+   "catalogValue": "טעינה באמצעות כבל USB (כלול במארז)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח חשמלי אוניברסלי",
+   "catalogValue": "מתח חשמלי אוניברסלי לשימוש בכל העולם",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "importer",
+   "issue": "No Israeli importer or Israeli retailer page found for PG6045. The Israeli variant, voltage and plug type are unverified. Sources are a US marketplace and a manual aggregator page.",
+   "severity": "medium"
+  },
+  {
+   "field": "combs",
+   "issue": "Catalog says 8 combs with a 2-16 mm adjustable comb. The sources give comb sizes only partly, so the count is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "No Israeli importer or Israeli retailer page for PG6045; Israeli plug and voltage unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog",
+   "issue": "Catalog claims of USB charging, universal voltage, 5 attachment heads and 8 combs are not confirmed by the sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled min/max cutting length as hair length settings to match the manual wording. All six facts and both features kept. Identity medium: no Israeli importer or Israeli retailer page. | code guard removed: summary: \"הערכה עובדת עד 40 דקות בטעינה ומאפשרת אורכי שיער מ-1.5 עד 16 מ״מ, עם להבים בציפוי טיטניום בהשחזה עצמית.\"; faq: \"מה טווח אורכי השיער שאפשר לקבוע?\"; metaDescription: \"ערכת טיפוח לגבר Remington PG6045: עד 40 דקות עבודה, אורך שיער 1.5 עד 16 מ״מ ולהבי טיטניום. בחדד אלקטריק נהריה\"; highlight: \"אורך שיער מ-1.5 מ״מ ועד 16 מ״מ\"; consideration: \"כדאי לוודא שטווח האורכים של 1.5 עד 16 מ״מ מתאים לסגנון הזקן או השיער שלכם\""
+ }
+}

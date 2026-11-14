@@ -1,0 +1,471 @@
+{
+ "modelNumber": "WAN24009II",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "WAN24009II",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Manufacturer spec sheet (Italian edition) names WAN24009II. Israeli importer not confirmed on a manufacturer page. Energy label PDF could not be read. | QA: Manufacturer spec sheet names the exact catalog code WAN24009II; Italian edition, Israeli importer not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/it-IT/WAN24009II.pdf",
+   "publisher": "BSH (Bosch) specification sheet",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סחיטה מקסימלית",
+     "value": "1200 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2300 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת אנרגיה ל-100 מחזורים (תוכנית Eco 40-60)",
+     "value": "49 קוט״ש"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת מים (תוכנית Eco 40-60)",
+     "value": "50 ליטר למחזור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג יעילות סחיטה",
+     "value": "B"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "71 dB(A)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג רעש",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 84.5 × 59.0 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "69.7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "עומדת חופשית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote does not mention steam or dry clothes",
+   "text": "תוכנית Iron Assist שמפחיתה קמטים עד 50%"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע SilentPowerDrive שקט"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Italian-market service offer; not confirmed for Israel",
+   "text": "10 שנות שירות על מנוע SilentPowerDrive"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ActiveWater Plus לשימוש יעיל במים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית Reload להוספת כביסה לאחר תחילת התוכנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכניות מהירות של 15 ו-30 דקות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Bosch WAN24009II היא מכונת כביסה עומדת חופשית בפתח קדמי עם קיבולת של 9 ק״ג ומהירות סחיטה של עד 1200 סל״ד. המכונה בדירוג אנרגטי A וצורכת 49 קוט״ש ל-100 מחזורים בתוכנית Eco 40-60. מתאימה למשפחה שמכבסת כמויות גדולות ורוצה מכונה חסכונית עם תוכנית Iron Assist להפחתת קמטים.",
+  "highlights": [
+   "קיבולת כביסה של 9 ק״ג",
+   "סחיטה עד 1200 סל״ד",
+   "דירוג אנרגטי A, ‏49 קוט״ש ל-100 מחזורים",
+   "Iron Assist להפחתת קמטים עד 50%",
+   "תוכניות מהירות של 15 ו-30 דקות"
+  ],
+  "goodFor": [
+   "משפחות שמכבסות כמויות גדולות של כביסה, בזכות תוף של 9 ק״ג",
+   "מי שרוצה לחסוך בחשמל ובמים עם דירוג אנרגטי A ו-50 ליטר למחזור בתוכנית Eco 40-60",
+   "מי שממהר וצריך תוכנית מהירה של 15 או 30 דקות",
+   "מי שרוצה פחות גיהוץ בזכות Iron Assist"
+  ],
+  "considerations": [
+   "ודאו שהנישה מתאימה למידות 59.8 × 84.5 × 59.0 ס״מ, כולל מרווח לברז ולצינור הניקוז",
+   "המכונה בהספק 2300 W – מומלץ שקע ייעודי ותקין",
+   "משקל נטו של 69.7 ק״ג – כדאי לתכנן את ההובלה וההצבה מראש",
+   "דירוג יעילות הסחיטה הוא B, כך שהכביסה עשויה לצאת מעט לחה יותר ממכונות בדירוג A"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Bosch WAN24009II?",
+    "a": "המכונה מכבסת עד 9 ק״ג כביסה יבשה במחזור.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המקסימלית?",
+    "a": "עד 1200 סל״ד, בדירוג יעילות סחיטה B.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל ומים היא צורכת?",
+    "a": "בתוכנית Eco 40-60 היא צורכת 49 קוט״ש ל-100 מחזורים ו-50 ליטר מים למחזור, בדירוג אנרגטי A.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכונה?",
+    "a": "רוחב 59.8 ס״מ, גובה 84.5 ס״מ ועומק 59.0 ס״מ. היא מיועדת להתקנה עומדת חופשית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להוסיף כביסה אחרי שהתוכנית התחילה?",
+    "a": "כן, פונקציית Reload מאפשרת להוסיף פריטים לאחר תחילת התוכנית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Bosch WAN24009II בקיבולת 9 ק״ג, סחיטה עד 1200 סל״ד ודירוג אנרגטי A, עם Iron Assist להפחתת קמטים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Bosch WAN24009II",
+   "מכונת כביסה בוש 9 קג",
+   "מכונת כביסה 9 קילו",
+   "מכונת כביסה 1200 סלד",
+   "מכונת כביסה בוש סדרה 4",
+   "מכונת כביסה פתח קדמי",
+   "WAN24009II מחיר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מירבית",
+   "catalogValue": "1200 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "catalogValue": "49 קוט\"ש ל-100 מחזורים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "כ-50 ליטר למחזור (Eco 40-60)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש בסחיטה",
+   "catalogValue": "71dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 84.5 ס\"מ, רוחב 59.8 ס\"מ, עומק 59.0 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-70 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "69.7 ק״ג (משקל נטו)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תוף",
+   "catalogValue": "כ-63 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2300 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Iron Assist",
+   "catalogValue": "הפחתת קמטים עד 50%",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע EcoSilence Drive",
+   "catalogValue": "מנוע מגנטי ללא פחמים, שקט ועמיד",
+   "finding": "corrected",
+   "correctValue": "SilentPowerDrive",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ActiveWater Plus",
+   "catalogValue": "ניהול מדויק של צריכת המים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SpeedPerfect",
+   "catalogValue": "קיצור עד 65%",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פונקציית Reload",
+   "catalogValue": "הוספת פריטים לאחר תחילת התוכנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "AntiVibration Design",
+   "catalogValue": "מבנה דפנות למניעת רעידות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכנית מהירה",
+   "catalogValue": "15 דקות או 30 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור ייצור",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "origin_country",
+   "issue": "Catalog says made in Poland. The only manufacturer page read is the Italian edition and does not state origin. Check the Israeli importer's documentation.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog calls the motor EcoSilence Drive. The manufacturer sheet calls it SilentPowerDrive.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "Manufacturer pages read are the Italian edition. Israeli importer and Hebrew-panel variant were not confirmed on a manufacturer page. Israeli importer unknown.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog calls the motor EcoSilence Drive; the manufacturer sheet calls it SilentPowerDrive.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "Only the Italian edition of the spec sheet was read; Israeli importer and Hebrew-panel variant not confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Catalog says made in Poland; not stated on the manufacturer sheet read.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog drum volume (63 L), SpeedPerfect 65% and AntiVibration claims could not be verified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 reworded to what the quote supports (no steam/dry-clothes claim). Feature 2 (10-year motor service) rejected: Italian-market service offer, not applicable to Israel. Water value clarified as per cycle per the Eco 40-60 figure on the sheet."
+ }
+}

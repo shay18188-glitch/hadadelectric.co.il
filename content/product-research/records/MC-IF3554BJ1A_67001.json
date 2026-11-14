@@ -1,0 +1,583 @@
+{
+ "modelNumber": "MC-IF3554BJ1A (67001)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "MC-IF3554BJ1A 67001",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "Midea Israel product page shows product code 67001 with the model name truncated to MC-IF3554BJ. Avi Sofer names MC-IF3554BJ1A 67001 exactly. Bug lists the hyphenated variant MC-IF3554BJ1-A, which is treated as the same product. | QA: Avi Sofer page names MC-IF3554BJ1A 67001 exactly; Midea Israel page shows product code 67001."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.co.il/product/mcif3554bj1a",
+   "publisher": "Midea Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%90%D7%99%D7%A0%D7%93%D7%95%D7%A7%D7%A6%D7%99%D7%94-%D7%9E%D7%99%D7%93%D7%90%D7%94-67001-mc-if3554bj1a-%D7%A9%D7%97%D7%95%D7%A8/",
+   "publisher": "Avi Sofer",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מק״ט מוצר",
+     "value": "67001"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "width added from same quote",
+     "label": "סוג",
+     "value": "כיריים אינדוקציה ברוחב 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59 × 6.2 × 52 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות חיתוך להתקנה (רוחב × עומק)",
+     "value": "56 × 49 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מוקדי בישול",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "3500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מוקד קטן (160 מ״מ)",
+     "value": "1300 W / 1500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק שני מוקדים בינוניים (180 מ״מ)",
+     "value": "2000 W / 1800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מוקד גדול (210 מ״מ)",
+     "value": "2600 W / 2300 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "reworded",
+     "label": "הפעלת כל המוקדים בו-זמנית",
+     "value": "4 מוקדים, עד עוצמה 7"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות חום",
+     "value": "9"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגברת עוצמה (Boost)",
+     "value": "5 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר כיבוי",
+     "value": "עד 99 דקות"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נעילת ילדים",
+     "value": "נעילת בטיחות לילדים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "מנגנון בטיחות לכיבוי אוטומטי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משטח",
+     "value": "זכוכית קרמית מחוסמת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיבור חשמלי",
+     "value": "חד פאזי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "paid extension not published",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "9 דרגות חום לבחירה עם הגברת עוצמה BOOST למשך 5 דקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אפשרות להפעלת 4 מוקדי בישול בו-זמנית, עד עוצמה 7"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פעולת חימום מתמשכת גם בעוצמה נמוכה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לוח פיקוד מגע מלא (Full Touch Control)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נדרש חיתוך בשיש של 56 ס״מ רוחב ו-49 ס״מ עומק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נדרש חיבור חשמל חד פאזי, הספק כולל 3500W"
+  }
+ ],
+ "content": {
+  "summary": "כיריים אינדוקציה של Midea ברוחב 60 ס״מ עם 4 מוקדי בישול ומשטח זכוכית קרמית מחוסמת בגימור שחור. הכיריים מתחברות לחשמל חד פאזי בהספק כולל של 3500 W, ומציעות 9 דרגות חום, הגברת עוצמה BOOST וטיימר כיבוי עד 99 דקות. מתאימות למטבח ביתי שמחפש כיריים אינדוקציה מובנות בלי צורך בחיבור תלת פאזי.",
+  "highlights": [
+   "4 מוקדי אינדוקציה, כולל מוקד גדול בקוטר 210 מ״מ",
+   "חיבור חשמל חד פאזי, הספק כולל 3500 W",
+   "9 דרגות חום והגברת עוצמה BOOST ל-5 דקות",
+   "טיימר כיבוי עד 99 דקות ונעילת בטיחות לילדים",
+   "משטח זכוכית קרמית מחוסמת בגימור שחור"
+  ],
+  "goodFor": [
+   "בית עם חיבור חשמל חד פאזי שרוצה לעבור לאינדוקציה",
+   "משפחה עם ילדים, בזכות נעילת הבטיחות ומנגנון הכיבוי האוטומטי",
+   "בישול על כמה סירים במקביל, עם אפשרות להפעיל את 4 המוקדים בו-זמנית",
+   "החלפת כיריים ישנות ברוחב 60 ס״מ במשטח מובנה"
+  ],
+  "considerations": [
+   "יש לוודא שהחיתוך בשיש מתאים: 56 × 49 ס״מ",
+   "כשכל 4 המוקדים פועלים יחד, העוצמה מוגבלת לדרגה 7",
+   "יש לוודא נקודת חשמל מתאימה להספק כולל של 3500 W",
+   "אינדוקציה דורשת כלי בישול מתאימים לאינדוקציה"
+  ],
+  "faq": [
+   {
+    "q": "האם הכיריים דורשות חיבור תלת פאזי?",
+    "a": "לא. הכיריים מיועדות לחיבור חשמל חד פאזי, בהספק כולל של 3500 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך בשיש?",
+    "a": "נדרש חיתוך ברוחב 56 ס״מ ובעומק 49 ס״מ. מידות הכיריים עצמן הן 59 × 6.2 × 52 ס״מ (רוחב × גובה × עומק).",
+    "sources": []
+   },
+   {
+    "q": "אפשר להפעיל את כל המוקדים יחד?",
+    "a": "כן, אפשר להפעיל את 4 המוקדים בו-זמנית, עד עוצמה 7.",
+    "sources": []
+   },
+   {
+    "q": "יש בכיריים טיימר ונעילת ילדים?",
+    "a": "כן. יש טיימר כיבוי עד 99 דקות ונעילת בטיחות לילדים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הכיריים?",
+    "a": "האחריות היא לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים אינדוקציה Midea MC-IF3554BJ1A ברוחב 60 ס״מ, 4 מוקדים וחיבור חד פאזי בהספק 3500 W. זכוכית קרמית שחורה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים אינדוקציה מידאה",
+   "Midea MC-IF3554BJ1A",
+   "כיריים אינדוקציה חד פאזי",
+   "כיריים אינדוקציה 60 ס\"מ",
+   "מידאה 67001",
+   "כיריים אינדוקציה 4 מוקדים",
+   "כיריים אינדוקציה שחורות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג",
+   "catalogValue": "כיריים אינדוקציה ברוחב 60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבור חשמל",
+   "catalogValue": "חד-פאזי (1-Phase)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כבל חשמל",
+   "catalogValue": "כולל כבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק כולל מקסימלי",
+   "catalogValue": "3500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מוקדי בישול",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מוקד קטן",
+   "catalogValue": "160 מ\"מ, 1300W/1500W Boost",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מוקדים בינוניים",
+   "catalogValue": "180 מ\"מ, 1800W/2000W Boost",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מוקד גדול",
+   "catalogValue": "210 מ\"מ, 2300W/2600W Boost",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 59 ס\"מ, עומק 52 ס\"מ, גובה 6.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות התקנה",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 49 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח",
+   "catalogValue": "זכוכית קרמית מחוסמת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות עוצמה",
+   "catalogValue": "9",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "BOOST",
+   "catalogValue": "עד 5 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לוח פיקוד",
+   "catalogValue": "Full Touch Control",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 99 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישן זיהוי סירים",
+   "catalogValue": "Pan Sensor",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיווי חום שיורי",
+   "catalogValue": "חיווי חום שיורי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הגנה מפני חימום יתר",
+   "catalogValue": "מנגנון הגנה מפני חימום יתר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "נעילת בטיחות לילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הפעלה בו-זמנית",
+   "catalogValue": "4 מוקדים עד עוצמה 7",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חימום רציף",
+   "catalogValue": "חימום רציף גם בעוצמות נמוכות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "זכוכית שחורה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model string MC-IF3554BJ1A (67001) is matched on Avi Sofer's page. Midea Israel's page shows only product code 67001 and the truncated name MC-IF3554BJ. Bug uses the hyphenated MC-IF3554BJ1-A. Confirm the model string before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מוקדים בינוניים וגדול",
+   "issue": "The manufacturer page lists 2000W/1800W and 2600W/2300W, the reverse of the catalog's normal/Boost order for the medium and large zones. The page does not say which figure is Boost. The small zone matches. Check before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "כבל חשמל",
+   "issue": "The catalog says the cooktop includes a power cable. No fetched page confirms this.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מוקדים בינוניים וגדול",
+   "issue": "The manufacturer page lists 2000W/1800W and 2600W/2300W, the reverse of the catalog's normal/Boost order; it does not say which figure is Boost.",
+   "severity": "medium"
+  },
+  {
+   "field": "כבל חשמל",
+   "issue": "Catalog says a power cable is included; no source confirms it.",
+   "severity": "low"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog lists pan sensor, residual heat indicator and overheat protection; no source confirms these.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 1 value extended to include the 60 cm width from the same quote. Fact 9 label/value reworded to state 4 zones simultaneously up to level 7. Warranty kept as one year only (paid extension omitted). Zone power figures kept in the manufacturer's order without labelling which is Boost."
+ }
+}

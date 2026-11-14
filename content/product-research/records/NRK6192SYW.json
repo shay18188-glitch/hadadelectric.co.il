@@ -1,0 +1,331 @@
+{
+ "modelNumber": "NRK6192SYW",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Gorenje",
+  "exactModel": "NRK6192SYW",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "No manufacturer, EPREL or manual page naming NRK6192SYW was found. The Serbian retailer page names the model as 'GORENJE NRK 6192 SYW' (60 cm, single unit, 302 L). The Israeli retailer page names 'HY-NRK6192SYW' but describes a 120 cm, 640 L two-unit pair (SKU 942138), which does not match the catalog. | QA: Serbian retailer page names NRK 6192 SYW with specs matching the catalog. No manufacturer/EPREL page found; Israeli retailer lists HY-NRK6192SYW as a two-unit 120 cm pair, so the Israeli configuration sold under this code is unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bigbang.rs/frizideri/gorenje-nrk-6192-syw-84634",
+   "publisher": "BigBang",
+   "kind": "retailer",
+   "market": "RS",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://multistore.co.il/product/hy-nrk6192syw-gorenje-%D7%9E%D7%A7%D7%A8%D7%A8-1-20-%D7%9E%D7%98%D7%A8-%D7%92%D7%95%D7%A8%D7%A0%D7%99%D7%94-%D7%9C%D7%91%D7%9F/",
+   "publisher": "Multi Store",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 185 × 59.2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח כולל נטו",
+     "value": "302 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "203 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "99 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כושר הקפאה",
+     "value": "12 ק״ג ב-24 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מחובר",
+     "value": "70 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote says 'Do 17 h' (up to).",
+     "label": "זמן שמירת קור בהפסקת חשמל",
+     "value": "עד 17 שעות"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Supported by Serbian page; Israeli page is for a two-unit pair.",
+     "label": "רמת רעש",
+     "value": "38 dB(A)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source is the Israeli page describing a two-unit pair configuration.",
+   "text": "טכנולוגיית NoFrost PLUS"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת IonAir עם MultiFlow 360° לפיזור אוויר בתא הקירור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source is the Israeli page describing a two-unit pair configuration.",
+   "text": "מערכת אזעקה המתריעה בפני דלת פתוחה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [
+   "רמת רעש 38 dB(A)"
+  ],
+  "goodFor": [
+   "מטבח פתוח או דירה שבה חשוב מקרר שקט יחסית"
+  ],
+  "considerations": [
+   "לוודא שיש שקע חשמל מוארק בקרבת מקום"
+  ],
+  "faq": [
+   {
+    "q": "כמה רועש המקרר?",
+    "a": "רמת הרעש המוצהרת היא 38 dB(A).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Gorenje NRK6192SYW",
+   "NRK6192SYW",
+   "מקרר גורניה מקפיא תחתון",
+   "מקרר מקפיא תחתון 60 ס״מ",
+   "מקרר 300 ליטר לבן",
+   "מקרר גורניה לבן",
+   "מקרר מקפיא תחתון שקט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל נטו",
+   "catalogValue": "302 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "203 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "99 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח כולל ברוטו",
+   "catalogValue": "320 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המקרר (ר×ג×ע)",
+   "catalogValue": "60 × 185 × 59.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "58.5 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "240 קוט\"ש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "38 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מחובר",
+   "catalogValue": "70 ואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כושר הקפאה",
+   "catalogValue": "12 ק\"ג ב-24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן שמירה במקרה של הפסקת חשמל",
+   "catalogValue": "17 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "The Israeli retailer page for HY-NRK6192SYW (SKU 942138) describes a 120 cm integrated two-unit pair: 121 × 185.5 × 60 cm, built-in niche 125 × 187 × 68 cm, rated 640 L for two connected units. The catalog says 60 × 185 × 59.2 cm, single 302 L unit. The 60 cm figure comes only from a Serbian retailer. Confirm which configuration is sold as NRK6192SYW before publishing dimensions, capacity or features.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח",
+   "issue": "The 640 L figure on the Israeli page is for two connected units, not the 302 L single unit in the catalog. The 302 L, 203 L and 99 L figures come from a single Serbian retailer page only.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer, EPREL or user manual page naming NRK6192SYW was found. The model appears only on retailer pages, written as 'NRK 6192 SYW' (Serbian) and 'HY-NRK6192SYW' (Israeli). Check the rating plate and EPREL entry.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Energy class conflicts: the Serbian retailer lists A++, the Israeli retailer lists A, and the catalog says A per the Israeli importer declaration. Verify on the EU energy label or EPREL entry.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "The Serbian retailer lists weight as 59 kg; the catalog says 58.5 kg net. Net vs gross is not stated on the page.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "The Israeli retailer lists HY-NRK6192SYW as a 120 cm two-unit pair (640 L). Confirm the unit sold under this catalog code is the single 60 cm / 302 L fridge.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer, EPREL or manual page naming NRK6192SYW was found; all facts come from one Serbian retailer page. Check the rating plate and EPREL entry.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Energy class differs between sources (A++ Serbian retailer, A Israeli retailer and catalog); not published. Verify on the energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "Catalog says 58.5 kg, Serbian retailer 59 kg; not published.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Facts verified only against the Serbian BigBang page, which names NRK 6192 SYW and matches the catalog single 60 cm / 302 L unit. The Israeli Multi Store page (HY-NRK6192SYW) describes a 120 cm two-unit pair, so it is relabelled 'retailer' (not a page about this exact single unit) and features supported only by it (NoFrost PLUS, open-door alarm) are rejected. Noise kept via the Serbian quote. | code guard removed: summary: \"Gorenje NRK6192SYW הוא מקרר לבן עם מקפיא תחתון, ברוחב 60 ס״מ ובגובה 185 ס״מ.\"; summary: \"הנפח הנטו הכולל הוא 302 ליטר: 203 ליטר בתא הקירור ו-99 ליטר בתא ההקפאה.\"; summary: \"רמת הרעש היא 38 dB(A), והוא מתאים למטבח עם נישה סטנדרטית ברוחב 60 ס״מ.\"; faq: \"מה הנפח של המקרר?\"; faq: \"מה המידות של המקרר?\"; faq: \"כמה זמן נשמר הקור בהפסקת חשמל?\"; metaDescription: \"מקרר מקפיא תחתון Gorenje NRK6192SYW לבן: נפח נטו 302 ליטר, רוחב 60 ס״מ ורמת רעש 38 dB(A). מידע מלא וייעוץ בחדד אלקטריק נהריה\"; highlight: \"נפח נטו כולל 302 ליטר\"; highlight: \"תא קירור 203 ליטר ותא הקפאה 99 ליטר\"; highlight: \"מידות 60 × 185 × 59.2 ס״מ\"; highlight: \"כושר הקפאה 12 ק״ג ב-24 שעות\"; goodFor: \"מטבח עם נישה ברוחב 60 ס״מ\"; goodFor: \"מי שמעדיף מקפיא תחתון עם מגירות ונפח הקפאה של 99 ליטר\"; consideration: \"למדוד את הנישה: נדרשים רוחב של 60 ס״מ, גובה של 185 ס״מ ועומק של 59.2 ס״מ, ועוד מרווח לאוורור ולפתיחת הדלת\"; consideration: \"לבדוק שהדגם שנמכר הוא יחידה בודדת של 60 ס״מ ולא צמד יחידות\""
+ }
+}

@@ -1,0 +1,563 @@
+{
+ "modelNumber": "UE43U8000F",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "UE43U8000F",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "The exact model UE43U8000F appears on the Israeli retailer CityDeal page and on the What Hi-Fi UK review. The Israeli importer is Neoproc (ניופרו). | QA: CityDeal (Israeli retailer, importer Neopro) and What Hi-Fi both name UE43U8000F, 43 inch, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/samsung-ue43u8000f-%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-43-%D7%90%D7%99%D7%A0%D7%A5-crystal-uhd-4k-%D7%93%D7%92%D7%9D-2025-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.whathifi.com/tv-home-cinema/televisions/samsung-u8000f-ue43u8000f",
+   "publisher": "What Hi-Fi?",
+   "kind": "review",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "UE43U8000F"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "957.8 × 558.8 × 76.3 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "957.8 × 609 × 157 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקן VESA",
+     "value": "200 × 200 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "43 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840 × 2160 (4K UHD)"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פורמטי HDR",
+     "value": "HDR10+, HDR10, HLG"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "Crystal 4K"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבורי רשת ואלחוט",
+     "value": "Wi-Fi 5, Bluetooth 5.3, LAN (Ethernet)"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק רמקולים",
+     "value": "20W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ערוצי שמע",
+     "value": "2 ערוצים"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Kept on What Hi-Fi quote; CityDeal quote not on page.",
+     "label": "מערכת הפעלה",
+     "value": "Tizen"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "G"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אבטחת מידע",
+     "value": "Samsung Knox"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, דרך היבואן הרשמי ניופרו"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעבד Crystal 4K לשיפור צבעים ובהירות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב MetalStream מתכתי ודק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Q-Symphony לסנכרון קול עם סאונדבר תואם (נמכר בנפרד)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ALLM להפחתת השהייה במשחקים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Apple AirPlay לשידור תכנים מהאייפון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תואם לתקן VESA 200 × 200 מ״מ לתליה על קיר"
+  }
+ ],
+ "content": {
+  "summary": "Samsung UE43U8000F היא טלוויזיה חכמה בגודל 43 אינץ' ברזולוציית 4K UHD (3840 × 2160) עם מעבד Crystal 4K ותמיכה ב-HDR10+, HDR10 ו-HLG. היא פועלת על מערכת Tizen, כוללת 3 כניסות HDMI, Wi-Fi 5 ו-Bluetooth 5.3, ותומכת ב-Apple AirPlay. מתאימה לחדר שינה, לחדר ילדים או לסלון קטן, עם אחריות שנה דרך היבואן הרשמי ניופרו.",
+  "highlights": [
+   "מסך 43 אינץ' ברזולוציית 4K UHD",
+   "תמיכה ב-HDR10+, HDR10 ו-HLG",
+   "מערכת הפעלה Tizen עם Apple AirPlay",
+   "3 כניסות HDMI, Wi-Fi 5 ו-Bluetooth 5.3",
+   "תקן VESA 200 × 200 מ״מ לתליה על קיר"
+  ],
+  "goodFor": [
+   "חדר שינה או חדר ילדים שבו מסך 43 אינץ' מתאים למרחק הצפייה",
+   "משתמשי אייפון שרוצים לשדר תכנים ישירות עם AirPlay",
+   "חיבור קונסולה עם ALLM להפחתת השהייה במשחקים",
+   "מי שמחזיק סאונדבר סמסונג תואם ורוצה סנכרון קול עם Q-Symphony"
+  ],
+  "considerations": [
+   "לתליה על קיר יש לוודא שהזרוע תואמת לתקן VESA 200 × 200 מ״מ",
+   "על שידה צריך משטח ברוחב 957.8 מ״מ ובעומק 157 מ״מ לפחות עבור המעמד",
+   "הרמקולים המובנים הם 2 ערוצים בהספק 20W, ומי שמחפש צליל מלא יותר ישקול סאונדבר",
+   "דירוג האנרגיה של הדגם הוא G"
+  ],
+  "faq": [
+   {
+    "q": "אילו פורמטי HDR הטלוויזיה תומכת?",
+    "a": "HDR10+, HDR10 ו-HLG.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתלות אותה על הקיר?",
+    "a": "כן, היא תואמת לתקן VESA 200 × 200 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש בה?",
+    "a": "יש בה 3 כניסות HDMI, וגם חיבור LAN, Wi-Fi 5 ו-Bluetooth 5.3.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשדר אליה מהאייפון?",
+    "a": "כן, היא תומכת ב-Apple AirPlay לשידור תכנים מהאייפון.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות דרך היבואן הרשמי ניופרו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה Samsung UE43U8000F בגודל 43 אינץ' 4K UHD עם HDR10+ ומערכת Tizen, 3 כניסות HDMI ו-AirPlay. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung UE43U8000F",
+   "UE43U8000F",
+   "טלוויזיה סמסונג 43 אינץ'",
+   "טלוויזיה 43 אינץ' 4K",
+   "סמסונג U8000F",
+   "טלוויזיה חכמה 43",
+   "טלוויזיה Crystal UHD 43"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רזולוציה",
+   "catalogValue": "3,840 x 2,160 (4K UHD)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד תמונה",
+   "catalogValue": "Crystal Processor 4K",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "50Hz/60Hz (Motion Xcelerator)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDR",
+   "catalogValue": "HDR10+ ו-HLG",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שמע",
+   "catalogValue": "הספק 20W, מערכת 2 ערוצים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "3 כניסות HDMI",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "כניסת USB-A אחת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "יציאת שמע אופטית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "Ethernet (LAN), Wi-Fi, Bluetooth",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "957.8 x 558.8 x 76.3 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "957.8 x 609 x 157 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "כ-6.4 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "AC220-240V 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל מקסימלית",
+   "catalogValue": "100W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור/אפור טיטניום",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תקן VESA",
+   "catalogValue": "200x200 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Tizen (Smart TV)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אבטחה",
+   "catalogValue": "Samsung Knox",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלט רחוק",
+   "catalogValue": "שלט רחוק חכם כלול",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "G",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קצב רענון",
+   "issue": "Sources conflict on the refresh rate. The Israeli retail listing says 50Hz and the What Hi-Fi review says the screen is 60Hz. Check the panel spec on the box or the manufacturer sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "The catalog lists black and titanium grey, but the Israeli retail listing describes black only. Check the colour of the stock unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל עם מעמד",
+   "issue": "No page naming the exact model gave a weight, so the catalog weight is unverified. A sibling Israeli SKU with a regional suffix lists a different weight, so do not rely on it.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Israeli retail listings show the stocked SKU with a regional suffix (UE43U8000FUXIL). Confirm the stock unit matches the catalog model.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Israeli listings may show the stocked SKU with a regional suffix (UE43U8000FUXIL). Confirm the stock unit matches the catalog model.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog says black/titanium grey; the Israeli retailer listing says black only.",
+   "severity": "low"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "Catalog lists 50Hz/60Hz; refresh rate was not verified as a fact. Check the manufacturer sheet.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל עם מעמד",
+   "issue": "Catalog weight (6.4 kg) was not verified by any source naming the exact model.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All 17 facts have an ok quote on a page naming UE43U8000F. Fact 12 (Tizen) kept on the What Hi-Fi quote; the CityDeal quote for it failed."
+ }
+}

@@ -1,0 +1,528 @@
+{
+ "modelNumber": "GIEI838980INH",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Grundig",
+  "exactModel": "GIEI838980INH",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "המקור: עלון היצרן הגרמני (Beko Grundig Deutschland) לדגם GIEI 838980 INH עם רווחים. לא נמצא עמוד ישראלי לדגם המדויק. נמצא רק דגם אח GIEI638980INH אצל קמעונאי ישראלי, ולכן לא נשען עליו. | QA: German manufacturer datasheet for GIEI 838980 INH (same code with spaces). No Israeli page for this exact model was found, so the Israeli variant is unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.grundig.com/content/dam/grundig/de/de/pdf/product/7757183023.pdf",
+   "publisher": "Grundig (Beko Grundig Deutschland GmbH)",
+   "kind": "manufacturer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "770 × 48 × 510 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "decimal comma written as a point",
+     "label": "משקל (ללא אריזה)",
+     "value": "13.9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "7200 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אזורי בישול",
+     "value": "4 אזורי אינדוקציה ו-2 אזורי Flexi"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות עוצמה",
+     "value": "15"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סלילי אינדוקציה",
+     "value": "10"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "removed 'three-phase': datasheet states 2N",
+     "label": "מתח עבודה ותדר",
+     "value": "380-415 V 2N, 50 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "140 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Autark = independent of oven",
+   "text": "כיריים אינדוקציה עצמאיות (ללא תלות בתנור) ברוחב 80 ס״מ עם Full FlexiCook"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "2 אזורי Flexi גמישים לצד 4 אזורי אינדוקציה, לכלים בגדלים וצורות שונות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית Booster לחימום מהיר"
+  },
+  {
+   "sources": [
+    "s1",
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לוח בקרה LED Direct Access עם מקשי מגע"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "זיהוי סירים חכם"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טיימר ואות צליל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "3 תוכניות בישול אוטומטיות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בישול Auto-Slide"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "10 סלילי אינדוקציה לחלוקת חום אחידה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נעילת ילדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הגנה מפני חימום יתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הגנה מפני גלישת נוזלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיווי חום שיורי נפרד לכל אזור"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיבור חשמלי בכבל לנקודת חיבור קבועה לכיריים, אורך הכבל 140 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "כיריים אינדוקציה של Grundig ברוחב 80 ס״מ, דגם GIEI838980INH, עם 4 אזורי אינדוקציה ו-2 אזורי Flexi גמישים. ההספק הכולל הוא 7200 W, עם 15 דרגות עוצמה ופונקציית Booster. מתאימות למי שמבשל בכמה סירים במקביל או משתמש בכלים גדולים ומוארכים, ויש לו חיבור חשמל מתאים.",
+  "highlights": [
+   "4 אזורי אינדוקציה ו-2 אזורי Flexi גמישים",
+   "הספק כולל 7200 W",
+   "15 דרגות עוצמה ופונקציית Booster",
+   "3 תוכניות בישול אוטומטיות",
+   "נעילת ילדים, הגנה מחימום יתר ומגלישת נוזלים"
+  ],
+  "goodFor": [
+   "בישול בכמה סירים ומחבתות במקביל",
+   "שימוש בכלים גדולים או מוארכים על אזורי ה-Flexi",
+   "בתים עם ילדים, בזכות נעילת ילדים וחיווי חום שיורי",
+   "התקנה עצמאית ללא תלות בתנור"
+  ],
+  "considerations": [
+   "יש לוודא חיבור חשמל של 380-415 V 2N התואם הספק של 7200 W, ולתאם עם חשמלאי",
+   "יש לבדוק שמידות הנישה במשטח מתאימות לכיריים במידות 770 × 510 מ״מ",
+   "אורך הכבל 140 ס״מ, כדאי לוודא שנקודת החיבור קרובה מספיק",
+   "בכיריים אינדוקציה נדרשים כלים מתאימים לאינדוקציה"
+  ],
+  "faq": [
+   {
+    "q": "כמה אזורי בישול יש בכיריים?",
+    "a": "4 אזורי אינדוקציה ו-2 אזורי Flexi גמישים.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק ומתח העבודה?",
+    "a": "הספק כולל של 7200 W ומתח 380-415 V 2N, 50 Hz.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות והמשקל?",
+    "a": "770 × 48 × 510 מ״מ (רוחב × גובה × עומק), ומשקל 13.9 ק״ג ללא אריזה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בכיריים מנגנוני בטיחות?",
+    "a": "כן, נעילת ילדים, הגנה מפני חימום יתר, הגנה מגלישת נוזלים וחיווי חום שיורי לכל אזור.",
+    "sources": []
+   },
+   {
+    "q": "האם הכיריים תלויות בתנור?",
+    "a": "לא, אלה כיריים עצמאיות שמותקנות ללא תלות בתנור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים אינדוקציה Grundig GIEI838980INH ברוחב 80 ס״מ: 4 אזורי אינדוקציה ו-2 אזורי Flexi, הספק 7200 W. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים אינדוקציה 80 ס\"מ",
+   "Grundig GIEI838980INH",
+   "כיריים אינדוקציה גרונדיג",
+   "כיריים אינדוקציה פלקסי",
+   "כיריים אינדוקציה 7200W",
+   "כיריים אינדוקציה עם בוסטר",
+   "כיריים אינדוקציה תלת פאזי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב חיצוני",
+   "catalogValue": "77 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "51 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "5.2 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "4.8 ס״מ (48 מ״מ)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "7200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "380V-415V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות נישה להבניה",
+   "catalogValue": "75x49 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקטעי חימום",
+   "catalogValue": "8 מקטעי חימום אינדוקציה",
+   "finding": "contradicted",
+   "correctValue": "10 סלילי אינדוקציה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אזורי FullFlexi",
+   "catalogValue": "2 אזורי FullFlexi",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות עוצמה לכל אזור",
+   "catalogValue": "15 דרגות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Booster",
+   "catalogValue": "פונקציית Booster (טורבו)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות WiFi ו-HomeWhiz",
+   "catalogValue": "WiFi מובנית, אפליקציית HomeWhiz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "LED Direct Access",
+   "catalogValue": "לוח בקרה LED Direct Access עם חיישני מגע",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיהוי סירים",
+   "catalogValue": "זיהוי סירים אוטומטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר דיגיטלי",
+   "catalogValue": "טיימר דיגיטלי עם כיבוי אוטומטי לכל מוקד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות אוטומטיות",
+   "catalogValue": "3 תוכניות בישול אוטומטיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HobToHood",
+   "catalogValue": "תמיכה בטכנולוגיית HobToHood",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "נעילת ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנה מחימום יתר ומגלישת נוזלים",
+   "catalogValue": "הגנה מפני חימום יתר, הגנה מגלישת נוזלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיווי חום שיורי",
+   "catalogValue": "חיווי חום שיורי לכל אזור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "140 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח זכוכית שחור ללא מסגרת",
+   "catalogValue": "משטח זכוכית קרמית שחורה ללא מסגרת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "13,9 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גובה",
+   "issue": "הקטלוג מציין 5.2 ס״מ, ועלון היצרן מציין 48 מ״מ (4.8 ס״מ). יש לתקן את שדה הגובה.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "עלון היצרן כותב את הדגם 'GIEI 838980 INH' עם רווחים. המבנה זהה לדגם הקטלוג, אך לא נמצא עמוד ללא רווחים. יש לאמת שהמספר המלא נכון.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן ישראלי",
+   "issue": "לא נמצא עמוד ישראלי לדגם GIEI838980INH. נמצא רק הדגם האח GIEI638980INH (בספרה הרביעית 6 במקום 8). יש לאמת מול היבואן שהדגם מיובא לישראל ומה הגרסה.",
+   "severity": "high"
+  },
+  {
+   "field": "מקטעי חימום",
+   "issue": "הקטלוג מציין 8 מקטעי חימום, ועלון היצרן מציין 10 סלילי אינדוקציה. מדובר בשני מושגים שונים, יש לבדוק.",
+   "severity": "medium"
+  },
+  {
+   "field": "WiFi ו-HobToHood",
+   "issue": "תכונות החיבור (WiFi, HomeWhiz, HobToHood) לא אומתו בעלון הגרמני שנמצא. יש לאמת מול היצרן או היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות נישה להבניה",
+   "issue": "הקטלוג מציין 75x49 ס״מ, ועלון היצרן מציין 750 x 490 מ״מ ללא ציון ברור של הצירים. לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "שם הקטלוג מציין 3-פאזי, ועלון היצרן מציין 380-415 V 2N (שתי פאזות ואפס). יש לאמת את אופן החיבור בגרסה הישראלית.",
+   "severity": "medium"
+  },
+  {
+   "field": "גובה",
+   "issue": "הקטלוג מציין 5.2 ס״מ, ועלון היצרן מציין 48 מ״מ.",
+   "severity": "high"
+  },
+  {
+   "field": "מקטעי חימום",
+   "issue": "הקטלוג מציין 8 מקטעי חימום, ועלון היצרן מציין 10 סלילי אינדוקציה ו-4 אזורי אינדוקציה עם 2 אזורי Flexi.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן ישראלי",
+   "issue": "המקור היחיד הוא עלון היצרן הגרמני. לא נמצא עמוד ישראלי לדגם המדויק, יש לאמת את הגרסה המיובאת.",
+   "severity": "medium"
+  },
+  {
+   "field": "WiFi, HomeWhiz, HobToHood, מידות נישה, משטח ללא מסגרת",
+   "issue": "נתונים בקטלוג שלא אומתו במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Voltage value corrected: the datasheet says 380-415 V 2N / 50 Hz (two phases plus neutral), not explicitly three-phase, so the 'תלת-פאזי' wording was removed and flagged. Weight decimal written with a point. Feature 0 reworded: 'Autark' means independent of an oven, not 'separate'. Catalog height 5.2 cm contradicts the datasheet's 48 mm."
+ }
+}

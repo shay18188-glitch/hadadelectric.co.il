@@ -1,0 +1,475 @@
+{
+ "modelNumber": "RB70BKI",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RB70BKI",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Exact model RB70BKI found on two Israeli retailer product pages (Zabilo, Sofer Avi), which print the same spec table. No manufacturer, importer or EU EPREL page naming RB70BKI was found; hisense.co.il search for RB70BKI returned nothing. The importer is not named on the pages read. | QA: Two Israeli retailer pages name the exact model RB70BKI with the same capacities and dimensions as the catalog. No manufacturer or importer page confirms it."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://zabilo.com/he/%D7%9E%D7%A7%D7%A8%D7%A8-2-%D7%93%D7%9C%D7%AA%D7%95%D7%AA/13653-hisense-rb70bki.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-%D7%94%D7%99%D7%99%D7%A1%D7%A0%D7%A1-%E2%81%A6rb70bki%E2%81%A9-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%9E/",
+   "publisher": "Sofer Avi",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "RB70BKI"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "623 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "422 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "201 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "79.4 × 172 × 80.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E (לפי התקן החדש)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "Inverter"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת הפשרה",
+     "value": "Total No Frost"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת פיזור אוויר",
+     "value": "Multi Air Flow"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צג בקרה",
+     "value": "צג דיגיטלי פנימי לבקרת טמפרטורה ולחות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה מושחרת (Fingerprint Proof)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ציפוי",
+     "value": "VCM"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנון שבת וחג",
+     "value": "עד 80 שעות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יצרן קרח אוטומטי במגירת ההקפאה, המחובר ישירות לרשת המים הביתית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Fast Freeze removed: not in the ok quote",
+   "text": "פונקציית Super Cool להורדת טמפרטורה מהירה לקירור מזון טרי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נירוסטה מושחרת דוחה טביעות אצבע"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניתן לשנות את כיוון פתיחת הדלת (במקור נפתח לימין)"
+  }
+ ],
+ "content": {
+  "summary": "מקרר מקפיא תחתון של Hisense, דגם RB70BKI, בנפח כולל של 623 ליטר: 422 ליטר לתא הקירור ו-201 ליטר לתא ההקפאה. המקרר עובד במדחס Inverter עם הפשרה Total No Frost, וכולל יצרן קרח אוטומטי המחובר לרשת המים ומנגנון שבת וחג. מתאים למשפחה שמחפשת מקרר גדול בגימור נירוסטה מושחרת דוחה טביעות אצבע.",
+  "highlights": [
+   "נפח כולל 623 ליטר: 422 ליטר קירור ו-201 ליטר הקפאה",
+   "מדחס Inverter והפשרה Total No Frost",
+   "יצרן קרח אוטומטי המחובר לרשת המים",
+   "מנגנון שבת וחג לעבודה רציפה עד 80 שעות",
+   "נירוסטה מושחרת עם ציפוי VCM דוחה טביעות אצבע"
+  ],
+  "goodFor": [
+   "משפחה גדולה שקונה בכמויות וצריכה מקום רב בתא הקירור",
+   "מי שמקפיא הרבה ומעדיף מקפיא תחתון עם מגירות",
+   "בית שומר שבת שצריך מנגנון שבת וחג",
+   "מי שרוצה קרח זמין בלי למלא תבניות"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה: רוחב 79.4 ס״מ, גובה 172 ס״מ ועומק 80.5 ס״מ, ולהשאיר מרווח לפתיחת הדלתות",
+   "יצרן הקרח דורש חיבור לרשת המים, כדאי לוודא נקודת מים ליד מקום ההצבה",
+   "דירוג האנרגיה הוא E לפי התקן החדש",
+   "הדלת נפתחת במקור לימין, ואפשר לשנות את כיוון הפתיחה לפי המטבח"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר RB70BKI?",
+    "a": "הנפח הכולל הוא 623 ליטר, מתוכם 422 ליטר בתא הקירור ו-201 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מנגנון שבת?",
+    "a": "כן, יש מנגנון שבת וחג לעבודה רציפה של עד 80 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם יצרן הקרח צריך חיבור למים?",
+    "a": "כן, יצרן הקרח האוטומטי נמצא במגירת ההקפאה ומחובר ישירות לרשת המים הביתית.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 79.4 ס״מ, גובה 172 ס״מ ועומק 80.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשנות את כיוון פתיחת הדלת?",
+    "a": "כן, הדלת נפתחת במקור לימין וניתן לשנות את כיוון הפתיחה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא תחתון Hisense RB70BKI בנפח 623 ליטר, מדחס Inverter, יצרן קרח ומנגנון שבת, נירוסטה מושחרת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Hisense RB70BKI",
+   "מקרר הייסנס 623 ליטר",
+   "מקרר מקפיא תחתון הייסנס",
+   "מקרר נירוסטה מושחרת",
+   "מקרר עם יצרן קרח",
+   "מקרר מקפיא תחתון עם מנגנון שבת",
+   "RB70BKI"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "623 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "422 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "201 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 172 ס\"מ, רוחב 79.4 ס\"מ, עומק 80.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (לפי תקנות חדשות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "Inverter דינמי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "Total No-Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת פיזור אוויר",
+   "catalogValue": "Multi Air Flow",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה מושחרת עם ציפוי VCM דוחה טביעות אצבע",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג",
+   "catalogValue": "דיגיטלי פנימי לבקרת טמפרטורה ולחות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון שבת",
+   "catalogValue": "עד 80 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יצרן קרח",
+   "catalogValue": "יצרן קרח אוטומטי מובנה עם חיבור ישיר לרשת המים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Super Cool ו-Fast Freeze",
+   "catalogValue": "פונקציות Super Cool ו-Fast Freeze לקירור והקפאה מהירים במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כיוון פתיחת הדלת",
+   "catalogValue": "אפשרות לשינוי כיוון פתיחת הדלת (במקור ימין)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "LED פנימית בחלק העליון ובדפנות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מבנה תא קירור",
+   "catalogValue": "3 מדפי זכוכית (2 מתכווננים), 5 מדפים בדלת, 2 מגירות ירקות ופירות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מבנה תא הקפאה",
+   "catalogValue": "2 מגירות עמוקות נשלפות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "התראה קולית",
+   "catalogValue": "התראה קולית על דלת פתוחה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "Warranty terms are not confirmed for this exact model. Sofer Avi lists Hisense fridges as one full year plus two paid years, and its series list includes RB70 without the full model suffix. Zabilo says the warranty must be activated with the importer by purchase date. Check the importer's warranty certificate before quoting.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The Israeli importer is not named on the pages read. The Sofer Avi page names a warranty group (קבוצת ח.י.) but does not say it is the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or EU EPREL product page naming RB70BKI was found. All specs come from two Israeli retailer pages that print the same table.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog",
+   "issue": "Catalog details not found on any page read: LED lighting, shelf and drawer layout, and the door-open audible alarm. Check them against the unit or the manual before publishing them as specs.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All specs come from two Israeli retailer pages; no manufacturer, importer or EPREL page names RB70BKI.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Israeli importer not named on the pages read; check warranty terms with the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "catalog",
+   "issue": "Catalog mentions Fast Freeze, LED lighting, shelf/drawer layout and door-open alarm, none confirmed by an ok quote.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1 reworded to Super Cool only: the ok quote does not mention Fast Freeze. Merged finish and VCM coating facts kept separately as quoted. All specs come from two Israeli retailer pages; no manufacturer or importer page."
+ }
+}

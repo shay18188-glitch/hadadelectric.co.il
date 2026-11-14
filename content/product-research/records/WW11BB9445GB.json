@@ -1,0 +1,488 @@
+{
+ "modelNumber": "WW11BB9445GB",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW11BB9445GB",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Samsung's own Israeli product page and manual were not reachable in this run. Facts come from Israeli retailer pages that name this exact model (Bug, Electrica), one English retailer page (Zabilo) and a price-comparison listing (Zap). Zap lists a sibling variant WW11BB944DGB in one listing; it was not used as evidence. | QA: Bug, Electrica, Zabilo and Zap pages all name WW11BB9445GB with 11 kg capacity; manufacturer page not available."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-11-%D7%A7%D7%92-samsung-5102200ww11bb9445gb",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/front-loading-washing-machines/10949-ww11bb9445gb.html",
+   "publisher": "Zabilo",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1200042",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.electrica.co.il/items/6310265-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-Samsung-WW11BB9445GB-11-%D7%A7-%D7%92-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92",
+   "publisher": "Electrica",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "11 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1400 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירויות סחיטה",
+     "value": "0, 400, 800, 1000, 1200, 1400 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "צריכת חשמל ל-100 מחזורי כביסה",
+     "value": "53 kWh"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "צריכת מים למחזור",
+     "value": "54 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "reordered to match quote order",
+     "label": "מידות (רוחב × עומק × גובה)",
+     "value": "60 × 61 × 85 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק כולל (כולל בליטות)",
+     "value": "64 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר פתח הטענה",
+     "value": "33 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "משקל נטו",
+     "value": "73 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "רמת רעש",
+     "value": "72 dB"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית כביסה מהירה (Super Speed)",
+     "value": "39 דקות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "לוח בקרה",
+     "value": "מסך LED דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "washing machines have no compressor; likely listing template error",
+     "label": "אחריות",
+     "value": "שנה + 10 שנות אחריות על המדחס"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית AI Ecobubble שמזהה את סוג הבד ורמת הלכלוך ושומרת על הבגדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שקילה אוטומטית רציפה באמצעות מנוע אינוורטר מגנטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Auto Dispense – הזנה אוטומטית של ג׳ל כביסה ומרכך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Hygiene Steam בקיטור לנטרול בקטריות ואלרגנים, מתאימה לבגדי תינוקות ולסובלים מאלרגיות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה וניטור מהטלפון באפליקציית SmartThings"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום קרמי שמפחית הצטברות אבנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הגנה מובנית מפני נחשולי מתח וברקים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר לסיום מושהה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של Samsung מסדרת Bespoke בגימור שחור, בקיבולת 11 ק״ג ובמהירות סחיטה מרבית של 1400 סל״ד. היא מדורגת A באנרגיה, כוללת הזנה אוטומטית של ג׳ל ומרכך ותוכנית מהירה של 39 דקות. מתאימה למשפחות עם כמויות כביסה גדולות שרוצות שליטה מהאפליקציה.",
+  "highlights": [
+   "קיבולת כביסה 11 ק״ג",
+   "סחיטה עד 1400 סל״ד",
+   "דירוג אנרגטי A",
+   "תוכנית Super Speed של 39 דקות",
+   "הזנה אוטומטית של ג׳ל ומרכך (Auto Dispense)"
+  ],
+  "goodFor": [
+   "משפחות עם כמויות כביסה גדולות, כולל שמיכות ומצעים",
+   "מי שרוצה לחסוך במינון חומרי כביסה בזכות ההזנה האוטומטית",
+   "בתים עם תינוקות או סובלים מאלרגיות, בזכות תוכנית Hygiene Steam",
+   "מי שרוצה לשלוט ולעקוב אחרי הכביסה מהטלפון באפליקציית SmartThings"
+  ],
+  "considerations": [
+   "העומק הכולל עם הבליטות הוא 64 ס״מ – כדאי למדוד מקום גם לפתיחת הדלת",
+   "לשליטה מהאפליקציה נדרשת רשת Wi‑Fi באזור ההתקנה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של המכונה?",
+    "a": "המכונה מכבסת עד 11 ק״ג בכל מחזור.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה?",
+    "a": "עד 1400 סל״ד, עם בחירה בין 0, 400, 800, 1000, 1200 ו-1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תוכנית קצרה?",
+    "a": "כן, תוכנית Super Speed משלימה כביסה ב-39 דקות.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט במכונה מהטלפון?",
+    "a": "כן, באמצעות אפליקציית SmartThings.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Samsung Bespoke WW11BB9445GB בקיבולת 11 ק״ג, סחיטה 1400 סל״ד ודירוג אנרגטי A, עם הזנה אוטומטית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "WW11BB9445GB",
+   "מכונת כביסה סמסונג 11 קג",
+   "Samsung Bespoke מכונת כביסה שחורה",
+   "מכונת כביסה פתח חזית 11 קג",
+   "מכונת כביסה עם הזנה אוטומטית",
+   "סמסונג AI Ecobubble",
+   "מכונת כביסה 1400 סלד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "11 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A (לפי תקינה חדשה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס\"מ, גובה 85 ס\"מ, עומק 61 ס\"מ (עומק כולל בליטות: 64 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "כ-73 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "קרמי למניעת הצטברות אבנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכנית Super Speed",
+   "catalogValue": "כביסה מלאה ב-39 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "Digital Inverter BLDC מגנטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שפות ממשק",
+   "catalogValue": "עברית ואנגלית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "סין (תכנון ועיצוב: קוריאה הדרומית)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Hygiene Steam 99.9%",
+   "catalogValue": "מנטרלת 99.9% מהחיידקים והאלרגנים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "SpaceMax",
+   "catalogValue": "נפח תוף גדול במארז סטנדרטי",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The exact model WW11BB9445GB appears on every source used (Bug, Electrica, Zabilo, Zap). Samsung's own Israeli product page and manual were not reachable, so the manufacturer-level confirmation is missing.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "The combined width x height x depth row rests on one Zap listing line (60x61x85 in width x depth x height order). Bug and Electrica give the same numbers line by line, not in one line.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "Net weight 73 kg and noise 72 dB come from one English-language retailer page only (Zabilo). They need a second site before they count as confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם מוצר",
+   "issue": "Zap lists a sibling variant WW11BB944DGB in one listing. It is not used as evidence for this exact model, and the catalog name is not changed.",
+   "severity": "low"
+  },
+  {
+   "field": "שפות ממשק / Jog Dial / מתח עבודה / מדינת ייצור",
+   "issue": "These catalog claims were not found on any fetched page and remain unverifiable.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Bug lists '10 years on the compressor' for a washing machine; this looks like a template error and was rejected. Confirm the actual warranty terms (motor warranty) with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No Samsung manufacturer page or manual was available; facts come from retailers only.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נטו / רעש / צריכת מים וחשמל",
+   "issue": "Come from one English retailer page (Zabilo) only.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 13 (warranty): a washing machine has no compressor, so '10 years on the compressor' looks like a retailer listing error copied from a refrigerator template. Dimensions label reworded to match quote order. Energy, water, weight and noise rest on one retailer page (Zabilo) only. | code guard removed: faq: \"מה המידות של המכונה?\"; consideration: \"לוודא שבנישה יש מקום לרוחב 60 ס״מ ולגובה 85 ס״מ\"; consideration: \"משקל נטו של 73 ק״ג – כדאי לתכנן את ההובלה וההצבה מראש\""
+ }
+}

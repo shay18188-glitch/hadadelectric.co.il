@@ -1,0 +1,551 @@
+{
+ "modelNumber": "32P400",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "32P400",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצא דף מוכר ישראלי אחד (באג) שמציין את הדגם 32P400 במפורש. לא נמצא דף יצרן או יבואן רשמי שמציין את הדגם. | QA: Single Israeli retailer page (Bug) naming Premier 32P400; specs match the catalog closely. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/טלוויזיה-חכמה-ללא-מסגרת-32-dled-premier-963240032",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "32 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית מסך",
+     "value": "DLED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "HD"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תדירות רענון",
+     "value": "50/60 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זווית צפייה",
+     "value": "178 מעלות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פורמטי HDR",
+     "value": "HDR10, HLG"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיקוף מסך",
+     "value": "Chromecast מובנה"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Marketing boilerplate; catalog says 2.4GHz only",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5 (2.4/5G)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.1"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Same page also lists 3×HDMI 1.4",
+     "label": "כניסות HDMI",
+     "value": "2 (אחת תומכת eARC)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות USB",
+     "value": "2 (USB 2.0)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Width identical with and without stand",
+     "label": "רוחב",
+     "value": "71.88 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה (כולל מעמד)",
+     "value": "46.75 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק (כולל מעמד)",
+     "value": "18.05 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק (ללא מעמד)",
+     "value": "5.87 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "4.3 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת Google TV עם חנות Google Play להורדת אפליקציות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפעלה קולית באמצעות Google Assistant"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב Game Mode למשחקים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Chromecast מובנה לשיקוף מסך ממכשיר אנדרואיד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Likely boilerplate for a budget DLED panel",
+   "text": "שליטה בתאורה דינמית (Micro Dimming)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקלט עידן+ מובנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב מסך ללא מסגרת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניתנת להתקנה על קיר בתקן VESA"
+  }
+ ],
+ "content": {
+  "summary": "Premier 32P400 היא טלוויזיה חכמה 32 אינץ׳ ברזולוציית HD עם מסך DLED ומערכת Google TV. יש בה Chromecast מובנה, הפעלה קולית ב-Google Assistant ומקלט עידן+ מובנה, ומשקלה 4.3 ק״ג בלבד. מתאימה לחדר שינה, למטבח או כמסך שני בבית.",
+  "highlights": [
+   "מסך DLED בגודל 32 אינץ׳ ברזולוציית HD",
+   "מערכת הפעלה Google TV עם Chromecast מובנה",
+   "תמיכה ב-HDR10 ו-HLG",
+   "מקלט עידן+ מובנה",
+   "עומק 5.87 ס״מ ללא מעמד ומשקל 4.3 ק״ג"
+  ],
+  "goodFor": [
+   "חדר שינה או חדר ילדים שבו מספיק מסך קומפקטי",
+   "צפייה בשירותי סטרימינג דרך Google TV בלי ממיר חיצוני",
+   "צפייה בערוצי עידן+ ישירות דרך המקלט המובנה",
+   "תלייה על קיר בזכות משקל נמוך ותקן VESA"
+  ],
+  "considerations": [
+   "ודאו שיש מקום למעמד: הרוחב 71.88 ס״מ והעומק עם המעמד 18.05 ס״מ",
+   "לתלייה על קיר יש לרכוש זרוע בתקן VESA המתאימה לדגם",
+   "הרזולוציה היא HD ולא Full HD, כך שהיא מתאימה בעיקר לצפייה ממרחק קצר",
+   "בדקו מול המוכר את מספר כניסות ה-HDMI אם אתם מחברים כמה מכשירים"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "הטלוויזיה פועלת עם Google TV, כולל חנות Google Play, Chromecast מובנה והפעלה קולית ב-Google Assistant.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לראות ערוצי עידן+ בלי ממיר?",
+    "a": "כן, לטלוויזיה יש מקלט עידן+ מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הטלוויזיה עם המעמד?",
+    "a": "רוחב 71.88 ס״מ, גובה 46.75 ס״מ ועומק 18.05 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לתלות אותה על הקיר?",
+    "a": "כן, היא ניתנת להתקנה על קיר בתקן VESA, ומשקלה 4.3 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלוויזיה?",
+    "a": "אחריות לשנה, בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה Premier 32P400 בגודל 32 אינץ׳, מסך DLED HD עם Google TV ו-Chromecast מובנה ומקלט עידן+. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Premier 32P400",
+   "טלוויזיה 32 אינץ׳ חכמה",
+   "טלוויזיה Google TV 32",
+   "טלוויזיה פרמייר 32",
+   "טלוויזיה קטנה לחדר שינה",
+   "טלוויזיה עם עידן+ מובנה",
+   "32P400"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "32 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "DLED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "HD 1366x768",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיכרון RAM ואחסון",
+   "catalogValue": "1.5GB RAM, 8GB Flash",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "A55*4-1.5GHz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת שמע",
+   "catalogValue": "2x8W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "HDMI",
+   "catalogValue": "2 כניסות HDMI (אחת eARC)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "USB",
+   "catalogValue": "2 כניסות USB 2.0",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth 5.1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi 2.4GHz",
+   "finding": "corrected",
+   "correctValue": "Wi-Fi 5 (2.4/5G)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "LAN",
+   "catalogValue": "כניסת רשת LAN",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "50/60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זווית צפייה",
+   "catalogValue": "178 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד (רוחב, עומק)",
+   "catalogValue": "71.88 x 42.17 x 5.87 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה ללא מעמד",
+   "catalogValue": "42.17 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "71.88 x 46.75 x 18.05 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "4.3 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "VESA",
+   "catalogValue": "VESA 200x200 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Premier",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "HDMI",
+   "issue": "מפרט הרשימה בדף באג מציין 3 כניסות HDMI 1.4, ואילו תיאור המוצר ומפרט הטבלה מציינים 2 כניסות HDMI (אחת עם eARC). יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "רזולוציה",
+   "issue": "הקטלוג מציין 1366x768, ודף המוכר הישראלי היחיד שנמצא מציין רק HD ללא מספרי רזולוציה. לא נמצא דף יצרן שיאשר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור מידע",
+   "issue": "לא נמצא דף יצרן או יבואן רשמי שמציין את הדגם 32P400. כל העובדות מבוססות על דף מוכר ישראלי אחד. מומלץ לאמת מול Premier או היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "דף המוכר מציין אחריות 'ע\"י אס גי אלקטרוניקה' אך לא מציין במפורש שהיא היבואן הרשמית.",
+   "severity": "low"
+  },
+  {
+   "field": "כניסות HDMI",
+   "issue": "דף המוכר מציין גם 2 כניסות HDMI עם eARC וגם 3 כניסות HDMI 1.4. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "Wi-Fi",
+   "issue": "דף המוכר מציין Wi-Fi 5 דו-תדרי, ואילו הקטלוג מציין 2.4GHz בלבד. יש לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור מידע",
+   "issue": "כל העובדות מבוססות על דף מוכר ישראלי אחד; לא נמצא דף יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "רזולוציה",
+   "issue": "הקטלוג מציין 1366x768, המקור מציין רק HD.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected Wi-Fi 5 dual-band claim (marketing boilerplate contradicting catalog 2.4GHz). Marked HDMI as conflict because the same page also lists 3×HDMI 1.4. Rejected Micro Dimming feature as likely boilerplate on a 32 inch DLED panel. Fixed width label (same with or without stand)."
+ }
+}

@@ -1,0 +1,491 @@
+{
+ "modelNumber": "24DMS4G113-W (6727)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "24DMS4G113-W (6727)",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "medium",
+  "notes": "The Midea Israel page names 24DMS4G113 (white). The Israeli shop page names 24DMS4G113 6727 with the white finish. | QA: Midea Israel page names 24DMS4G113 in white; the -W suffix and the 6727 code are not on the manufacturer page, and a stainless variant (6726) shares the base number."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.co.il/product/24dms4g113-white",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/he/%D7%AA%D7%A0%D7%95%D7%A8-%D7%90%D7%A4%D7%99%D7%94-%D7%9E%D7%A9%D7%95%D7%9C%D7%91/6787-midea-24dms4g113-6727.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "65 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תוכניות בישול ואפייה",
+     "value": "8 תוכניות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source does not name the model.; quote checks: ok",
+     "label": "טיימר כיבוי אוטומטי",
+     "value": "עד 120 דקות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source does not name the model.; quote checks: ok",
+     "label": "טווח טמפרטורה",
+     "value": "50°–250°C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערי גז",
+     "value": "4 מבערים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מבער גז גדול",
+     "value": "3 קילוואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מבערי גז בינוניים",
+     "value": "2 מבערים, 1.75 קילוואט כל אחד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מבער גז קטן",
+     "value": "1 קילוואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "אלקטרונית"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source does not name the model.; quote checks: ok",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source does not name the model.; quote checks: ok",
+     "label": "דלת",
+     "value": "זכוכית כפולה מחוסמת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, עם אפשרות לשנתיים נוספות בתוספת תשלום"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source does not name the model.",
+   "text": "מערכת טורבו לפיזור חום אחיד בחלל התנור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source does not name the model.",
+   "text": "תאורה פנימית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source does not name the model.",
+   "text": "מגירת אחסון תחתונה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source does not name the model.",
+   "text": "רגליות מתכווננות להתאמה למשטח המטבח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ברז נפרד לכל מבער לשליטה על עוצמת הלהבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיישני בטיחות שמנתקים אוטומטית את אספקת הגז כשהלהבה כבה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source does not name the model.",
+   "text": "תבנית אחת ורשת אחת"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source does not name the model.",
+   "text": "חיבור גז חייב להתבצע על ידי מתקין גז מורשה"
+  }
+ ],
+ "content": {
+  "summary": "תנור משולב כיריים גז של Midea ברוחב 60 ס״מ, עם תא אפייה בנפח 65 ליטר ו-8 תוכניות בישול ואפייה. הכיריים כוללות 4 מבערי גז בעוצמות שונות, עד 3 קילוואט במבער הגדול, עם הצתה אלקטרונית וחיישני בטיחות שמנתקים את הגז כשהלהבה כבה. מתאים למטבח שמחפש תנור וכיריים גז ביחידה עומדת אחת.",
+  "highlights": [
+   "תא אפייה בנפח 65 ליטר",
+   "8 תוכניות בישול ואפייה",
+   "4 מבערי גז, הגדול בהספק 3 קילוואט",
+   "הצתה אלקטרונית",
+   "חיישני בטיחות לניתוק אספקת הגז בכיבוי הלהבה"
+  ],
+  "goodFor": [
+   "מטבח עם חיבור גז שצריך תנור וכיריים ביחידה אחת",
+   "בישול במקביל על כמה סירים בעוצמות שונות",
+   "החלפת תנור משולב ישן במידה סטנדרטית של 60 ס״מ"
+  ],
+  "considerations": [
+   "ודאו שהמקום המיועד מתאים למידות 60 × 85 × 60 ס״מ",
+   "החיבור לגז צריך להיעשות על ידי מתקין גז מורשה",
+   "ההצתה האלקטרונית דורשת שקע חשמל בקרבת התנור",
+   "בדקו את הגוון של היחידה בחנות, כי תחת אותו מספר דגם קיימת גם גרסה בחזית שונה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח תא האפייה?",
+    "a": "65 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה מבערים יש בכיריים ומה ההספק שלהם?",
+    "a": "4 מבערים: מבער גדול בהספק 3 קילוואט, שני מבערים בינוניים בהספק 1.75 קילוואט כל אחד ומבער קטן בהספק 1 קילוואט.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני דליפת גז?",
+    "a": "כן, חיישני בטיחות מנתקים אוטומטית את אספקת הגז אם הלהבה כבה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של התנור?",
+    "a": "רוחב 60 ס״מ, גובה 85 ס״מ ועומק 60 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה, עם אפשרות לשנתיים נוספות בתוספת תשלום.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "תנור משולב גז",
+   "Midea 24DMS4G113",
+   "תנור משולב מידאה",
+   "תנור משולב 60 ס״מ",
+   "תנור משולב לבן",
+   "תנור עם כיריים גז",
+   "מידאה תנור גז"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס\"מ, גובה 85 ס\"מ, עומק 60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא האפייה",
+   "catalogValue": "65 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "8",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50-250 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "כיבוי אוטומטי עד 120 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבערי גז",
+   "catalogValue": "4 להבות (מבער גדול 3KW, שני מבערים בינוניים 1.75KW, מבער קטן 1KW)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הצתה",
+   "catalogValue": "אלקטרונית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישני בטיחות (FFD)",
+   "catalogValue": "לניתוק אוטומטי של אספקת הגז בכיבוי הלהבה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דלת",
+   "catalogValue": "זכוכית מחוסמת כפולה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "תבנית אחת ורשת אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת טורבו",
+   "catalogValue": "טורבו אקטיבי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מגירת אחסון",
+   "catalogValue": "מגירת אחסון תחתונה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רגליות מתכווננות",
+   "catalogValue": "רגליות מתכווננות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מכסה זכוכית עליון",
+   "catalogValue": "מכסה זכוכית עליון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה + שנתיים בתוספת תשלום",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The -W suffix appears on no fetched page. Midea Israel names 24DMS4G113 and the Israeli shop names 24DMS4G113 6727 with the white finish. The 6727 code matches, so check the catalog code.",
+   "severity": "medium"
+  },
+  {
+   "field": "color",
+   "issue": "A search snippet listed a stainless-front variant (6726) under the same 24DMS4G113 number. The fetched pages describe only the white unit; confirm the front finish of this store item.",
+   "severity": "medium"
+  },
+  {
+   "field": "energy_rating",
+   "issue": "The catalog energy class A could not be verified on the fetched pages.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "The -W suffix and the 6727 code do not appear on the manufacturer page, which names 24DMS4G113 (white). Check the catalog code.",
+   "severity": "medium"
+  },
+  {
+   "field": "color",
+   "issue": "A stainless-front variant (6726) reportedly shares the 24DMS4G113 number; confirm the front finish of this store item.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 3 (timer), 4 (temperature range), 10 (color), 11 (door), features 0-3, inTheBox 0 and installation 0: their only evidence is the Zabilo page, which the check says does not name the model. Kept the Midea Israel manufacturer facts. | code guard removed: metaDescription: \"תנור משולב גז Midea דגם 24DMS4G113 ברוחב 60 ס״מ: תא אפייה בנפח 65 ליטר, 4 מבערי גז עם הצתה אלקטרונית וחיישני בטיחות. בחדד אלקטריק נהריה\""
+ }
+}

@@ -1,0 +1,420 @@
+{
+ "modelNumber": "MX-ST50F",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "MX-ST50F/IL",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Israeli Samsung page names MX-ST50F/IL. Other regional suffixes (ZA, EN, XE, XU, XY) exist and are not the same variant. Dimension label order on the Samsung page (width x height x depth) conflicts with the catalog and with the 101 Multimedia listing; see reviewFlags. | QA: Samsung Israel page for MX-ST50F/IL, black, 240W, matches the catalog SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/audio-devices/sound-tower/st50f-black-mx-st50f-il/",
+   "publisher": "Samsung ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://101-multimedia.com/product/samsung-sound-tower-mx-st50f",
+   "publisher": "101 Multimedia",
+   "kind": "retailer",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote shows MX-ST50F; /IL suffix is in URL only.",
+     "label": "דגם יצרן",
+     "value": "MX-ST50F"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מרבי (בחיבור לחשמל)",
+     "value": "240 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק במצב סוללה",
+     "value": "90 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן הפעלה על סוללה",
+     "value": "עד 18 שעות בטעינה אחת"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote has no axis labels; height 73.6 is clear, width/depth order flagged.",
+     "label": "מידות",
+     "value": "36.5 × 73.6 × 35.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "18.4 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עמידות למים",
+     "value": "IPX4"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Label clarified.",
+     "label": "מערכת הפעלה נדרשת לאפליקציה",
+     "value": "Android 8.0 ואילך"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed tweeter/waveguide claim not in quote.",
+   "text": "וופרים כפולים ושלושה מצבי בס בהתאמה אישית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית מוליך גלים לפיזור מיטבי של התדרים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "LED and app control not in quote.",
+   "text": "תאורת מסיבות בהתאמה אישית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Bluetooth Multi Connection: חיבור סימולטני של עד שני סמארטפונים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שתי כניסות מיקרופון (לשני מיקרופונים, או למיקרופון ולגיטרה)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "DJ/jam session wording not in quote.",
+   "text": "אפקטים כמו FX וסמפלרים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיבור לרמקול Sound Tower זהה נוסף (ST40F ו-ST50F בלבד)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סוללה חלופית ניתנת לרכישה במרכז שירות של Samsung ישראל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Samsung Sound Tower MX-ST50F הוא רמקול מסיבות עם הספק מרבי של 240W בחיבור לחשמל ו-90W במצב סוללה. הסוללה מספקת עד 18 שעות האזנה בטעינה אחת, והרמקול עמיד למים בתקן IPX4. מתאים למי שמארח מסיבות בבית או בחוץ ורוצה גם כניסות למיקרופון וגיטרה.",
+  "highlights": [
+   "הספק מרבי 240W בחיבור לחשמל, 90W על סוללה",
+   "עד 18 שעות האזנה בטעינה אחת",
+   "עמידות למים בתקן IPX4",
+   "שתי כניסות מיקרופון, אחת מהן גם לגיטרה",
+   "חיבור סימולטני של עד שני סמארטפונים"
+  ],
+  "goodFor": [
+   "מסיבות בחצר, במרפסת או בגינה, הודות לסוללה ולעמידות IPX4",
+   "קריוקי או נגינה עם שתי כניסות למיקרופון וגיטרה",
+   "אירוח שבו שני אנשים מחליפים שירים מהטלפון"
+  ],
+  "considerations": [
+   "משקל הרמקול 18.4 ק״ג, כדאי לבדוק איך תשנעו אותו",
+   "גובהו 73.6 ס״מ, ודאו שיש מקום מתאים לאחסון",
+   "במצב סוללה ההספק יורד ל-90W, לעוצמה מלאה נדרש חיבור לשקע",
+   "האפליקציה דורשת Android 8.0 ואילך"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "לפי Samsung, עד 18 שעות בטעינה אחת.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש ברמקול בחוץ?",
+    "a": "כן, הרמקול עמיד למים בתקן IPX4.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר מיקרופון וגיטרה?",
+    "a": "כן, יש שתי כניסות למיקרופון: לשני מיקרופונים, או למיקרופון ולגיטרה.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק במצב סוללה?",
+    "a": "90W במצב סוללה, לעומת הספק מרבי של 240W בחיבור לחשמל.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר שני רמקולים יחד?",
+    "a": "כן, עם Sound Tower זהה נוסף. התכונה פועלת בדגמי ST40F ו-ST50F בלבד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "רמקול מסיבות Samsung Sound Tower MX-ST50F: הספק מרבי 240W, עד 18 שעות על סוללה ועמידות IPX4. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung MX-ST50F",
+   "Sound Tower ST50F",
+   "רמקול מסיבות סמסונג",
+   "רמקול בידורית",
+   "רמקול בלוטוס נייד עם סוללה",
+   "רמקול קריוקי עם כניסת מיקרופון",
+   "רמקול עמיד למים IPX4"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק כולל",
+   "catalogValue": "240 וואט (בחיבור לחשמל AC), 90 וואט (במצב סוללה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצורת רמקולים",
+   "catalogValue": "2.0 ערוצים (2 וופרים 6.5 אינץ', 2 טוויטרים 1 אינץ')",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיי סוללה",
+   "catalogValue": "עד 18 שעות עבודה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-3.5 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "תקן IPX4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "Bluetooth 5.4, USB, AUX 3.5mm",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כניסות",
+   "catalogValue": "כניסת מיקרופון (6.3 מ\"מ), כניסת גיטרה/מיקרופון משולבת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פורמטי שמע",
+   "catalogValue": "AAC, WAV, MP3, FLAC",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות (רוחב/גובה/עומק)",
+   "catalogValue": "35.3 x 73.6 x 36.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "36.5 x 73.6 x 35.3 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "18.4 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "100-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצב Bass Booster",
+   "catalogValue": "עם 3 מצבים (Deep, Punchy, Gentle)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Auracast",
+   "catalogValue": "תמיכה בטכנולוגיית Auracast לשרשור מספר רמקולים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גלגלים וידית",
+   "catalogValue": "גלגלים מובנים וידית טלסקופית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Bluetooth Multi Connection",
+   "catalogValue": "שני מכשירים במקביל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "issue": "The catalog gives width 35.3 and depth 36.5 cm. Samsung Israel labels its 365 x 736 x 353 mm line as width x height x depth, which gives width 36.5 and depth 35.3. The 101 Multimedia listing gives 353 x 736 x 365 mm with no labels. Check the width and depth against the physical unit before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The Israeli Samsung page names MX-ST50F/IL. The catalog's MX-ST50F is the same model with the regional suffix removed. Other regional suffixes (ZA, EN, XE, XU, XY) appear on other sites and may differ in plug, voltage or warranty.",
+   "severity": "medium"
+  },
+  {
+   "field": "תצורת רמקולים",
+   "issue": "The 1 inch tweeter size and the 6.5 inch woofer size in the catalog were not confirmed on the Israeli page. Only the 101 Multimedia listing gives 6.5 inch, and no source gave the tweeter size. The Samsung Israel page gives duals only.",
+   "severity": "low"
+  },
+  {
+   "field": "קישוריות",
+   "issue": "Bluetooth 5.4, WAV and FLAC support, 3.5 mm AUX and 6.3 mm mic input were not found on the Israeli page or the second listing. Confirm against the manual.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog lists 35.3 x 73.6 x 36.5 cm (W/H/D); Samsung page gives 365 x 736 x 353 mm and the researcher reports it labels this W x H x D, while 101 Multimedia gives 353 x 736 x 365 mm unlabeled. Confirm width vs depth.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Israeli Samsung page uses MX-ST50F/IL; catalog has MX-ST50F without suffix. Confirm the stocked unit is the /IL variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog woofer/tweeter sizes, charge time, Bluetooth 5.4, audio formats, AUX/6.3 mm inputs, voltage and Auracast were not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 0 value set to MX-ST50F (the quote does not show the /IL suffix; it is in the URL only). Fact 4 label made neutral since the quote has no axis labels. Fact 7 label clarified. Features 0, 2, 5, 6, 7 reworded to match only what the quotes say (removed tweeter/waveguide, LED/app control, DJ/jam session, 'wireless stereo' and 'replaceable' claims not in the quotes)."
+ }
+}

@@ -1,0 +1,440 @@
+{
+ "modelNumber": "GV9821E0",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Tefal",
+  "exactModel": "GV9821E0",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "המודל מופיע בדף היצרן כ-Reference GV9821E0 ובדף היבואן/הקמעונאי בישראל כמק\"ט GV9821E0. דף היצרן מציג את המודל יחד עם GV9820+21. | QA: Ivory lists SKU GV9821E0; Tefal page covers GV9820/GV9821 Pro Express Vision."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ivory.co.il/catalog.php?id=104848",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.tefal.com/Linen-Care/Steam-Stations/PRO-EXPRESS-VISION-GV9820+21/p/1830008290",
+   "publisher": "Tefal",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Tefal"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "GV9821E0"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Manufacturer page states a 2740-3260 W range; flagged.",
+     "label": "הספק מרבי",
+     "value": "3000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "לחץ קיטור",
+     "value": "9 באר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת אדים רציפה",
+     "value": "180 גרם/דקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת אדים מרבית",
+     "value": "800 גרם/דקה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "1.2 ליטר (נשלף)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "24.5 × 29.6 × 41.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "5.34 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer statement; Israeli listings conflict on warranty length; importer not verified.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורית LED בקצה המגהץ נדלקת אוטומטית כאשר המגהץ במצב אופקי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote speaks of steam diffusion, not self-cleaning; reworded.",
+   "text": "תחתית Durilium AirGlide Autoclean לפיזור אדים אחיד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קיטור משתחרר אוטומטית עם תחילת הגיהוץ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גיהוץ אנכי של בגדים תלויים על קולב או וילונות במקומם"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת נגד טפטוף למניעת כתמי מים על הבגד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אוסף אבנית נשלף לתחזוקה קלה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות מילוי מים גם במהלך הגיהוץ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פעולת חיטוי וריענון הבגד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Tefal Pro Express Vision GV9821E0 היא מערכת גיהוץ בקיטור (מגהץ עם מחולל קיטור) בהספק 3000 W. היא מספקת לחץ קיטור של 9 באר, תפוקת אדים רציפה של 180 גרם/דקה ומטח של עד 800 גרם/דקה, עם מיכל מים נשלף בנפח 1.2 ליטר. מתאימה למי שמגהץ כמויות כביסה גדולות וגם רוצה לגהץ אנכית בגדים תלויים.",
+  "highlights": [
+   "לחץ קיטור 9 באר",
+   "תפוקת אדים רציפה 180 גרם/דקה ומטח עד 800 גרם/דקה",
+   "מיכל מים נשלף 1.2 ליטר עם מילוי גם במהלך הגיהוץ",
+   "נורית LED בקצה המגהץ שנדלקת אוטומטית",
+   "אוסף אבנית נשלף ומערכת נגד טפטוף"
+  ],
+  "goodFor": [
+   "גיהוץ ערימות כביסה גדולות בלי לעצור למילוי תכוף, בזכות מיכל נשלף של 1.2 ליטר",
+   "בדים עבים וקמטים עיקשים, בזכות לחץ קיטור של 9 באר ומטח של עד 800 גרם/דקה",
+   "גיהוץ אנכי של חולצות על קולב או וילונות במקומם",
+   "אזורים עם מים קשים, בזכות אוסף אבנית נשלף"
+  ],
+  "considerations": [
+   "המכשיר שוקל 5.34 ק״ג ומידותיו 24.5 × 29.6 × 41.5 ס״מ – כדאי לוודא מקום אחסון וקרש גיהוץ שיכול לשאת את הבסיס",
+   "בהספק 3000 W מומלץ לחבר לשקע ישיר בקיר ולא למפצל עמוס",
+   "יש לרוקן ולנקות את אוסף האבנית מעת לעת לפי הוראות היצרן"
+  ],
+  "faq": [
+   {
+    "q": "מה לחץ הקיטור של Tefal GV9821E0?",
+    "a": "לחץ הקיטור הוא 9 באר, עם תפוקת אדים רציפה של 180 גרם/דקה ומטח של עד 800 גרם/דקה.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים והאם הוא נשלף?",
+    "a": "המיכל בנפח 1.2 ליטר, נשלף, וניתן למלא אותו גם במהלך הגיהוץ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לגהץ בגדים תלויים?",
+    "a": "כן, המערכת מאפשרת גיהוץ אנכי של בגדים על קולב או בדים במקומם.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקלת המערכת ומה מידותיה?",
+    "a": "המשקל 5.34 ק״ג והמידות 24.5 × 29.6 × 41.5 ס״מ (רוחב × גובה × עומק).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מערכת גיהוץ בקיטור Tefal Pro Express Vision GV9821E0: לחץ קיטור 9 באר ומטח אדים עד 800 גרם/דקה, מיכל 1.2 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Tefal GV9821E0",
+   "טפאל GV9821",
+   "Tefal Pro Express Vision",
+   "מערכת גיהוץ בקיטור טפאל",
+   "מגהץ קיטור 9 באר",
+   "מגהץ עם מחולל קיטור",
+   "מגהץ קיטור 3000 וואט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Tefal",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "3000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ קיטור",
+   "catalogValue": "9 באר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "catalogValue": "180 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת אדים מרבית (Steam Boost)",
+   "catalogValue": "800 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "1.2 ליטר (נשלף)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן חימום מהיר",
+   "catalogValue": "2 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג תחתית",
+   "catalogValue": "Durilium AirGlide Autoclean",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 29.6 ס\"מ, רוחב 24.5 ס\"מ, עומק 41.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "5.34 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כיבוי אוטומטי לבטיחות",
+   "catalogValue": "לאחר 8 דקות ללא תנועה או 30 שניות במצב מונח על התחתית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית גיהוץ",
+   "catalogValue": "Smart Steam",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "צרפת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תאורת LED בקצה המגהץ",
+   "catalogValue": "Smart LED Vision",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחריות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אחריות",
+   "issue": "מודעות ישראליות שונות מציינות תקופות אחריות שונות (שנה מול חמש שנים). יש לאמת מול היבואן הרשמי לפני מכירה.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "היבואן הרשמי בישראל לא אומת מדף מקור. מודעות שונות מציינות יבואנים שונים.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "דף היצרן מציין טווח הספק של 2740 עד 3260 W, וחלק מהמודעות מציינות 3260 W. הקטלוג והמודעה הישראלית מציינים 3000 W.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "דף היצרן מציג את המודל יחד עם GV9820+21, והמודעה הישראלית מציגה לעיתים את השם בלי הסיומת E0. מק\"ט GV9821E0 אומת בדפים אלו.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות לא אומתה: מודעות ישראליות שונות מציינות שנה או חמש שנים. יש לאמת מול היבואן הרשמי.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "היבואן הרשמי בישראל לא אומת מדף מקור.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מרבי",
+   "issue": "דף היצרן מציין טווח הספק 2740–3260 W; הקטלוג והמודעה הישראלית מציינים 3000 W.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן חימום / כיבוי אוטומטי",
+   "issue": "זמן חימום של 2 דקות ותנאי הכיבוי האוטומטי שבקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 9): Israeli listings disagree (one year vs five years) and the retailer page is not the importer; must be confirmed with the official importer. All other facts and features kept from ok quotes on pages naming the model."
+ }
+}

@@ -1,0 +1,285 @@
+{
+ "modelNumber": "ER-DGP65",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "ER-DGP65",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Exact-model evidence found only on Multitronic (Finnish retailer, ID ER-DGP65). Manufacturer and Israeli importer pages were not reachable (HTTP 403). The Israeli retailer bug.co.il lists the product as ER-DGP65K (colour-suffix variant), so it was not used as evidence. | QA: Single exact-model source (Multitronic, Finland). Israeli retailer lists ER-DGP65K; suffix/variant sold in Israel not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://multitronic.fi/en/products/4506155/panasonic-er-dgp65-cordless--rechargeable-hair-clipper",
+   "publisher": "Multitronic",
+   "kind": "retailer",
+   "market": "FI",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "250 גרם"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "ליתיום-יון"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן עבודה אלחוטי",
+     "value": "50 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "1 שעה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך חיתוך מינימלי",
+     "value": "0.8 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote: cutting range 0.8 mm to 15 mm using the three included guide combs; metric shift from 1.5 cm.",
+     "label": "אורך חיתוך מקסימלי (עם מסרקי ההגבהה)",
+     "value": "15 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Ambiguous retailer spec row; contradicts catalog blade steps and comb lengths.",
+     "label": "מספר שלבי אורך",
+     "value": "3"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "להבי X-Taper 2.0 בציפוי DLC וטיטניום לעמידות מוגברת"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שלושה מסרקי הגבהה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שמן להב ומברשת ניקוי"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה למי שמחפש מכונה קלה לתספורת ועיצוב בבית או במספרה.",
+  "highlights": [
+   "סוללת ליתיום-יון"
+  ],
+  "goodFor": [
+   "תספורות מלאות בבית ללא תלות בשקע"
+  ],
+  "considerations": [
+   "יש לשמן את הלהב ולנקות אותו בעזרת השמן והמברשת שבאריזה"
+  ],
+  "faq": [
+   {
+    "q": "מה כלול באריזה?",
+    "a": "שלושה מסרקי הגבהה, שמן להב ומברשת ניקוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Panasonic ER-DGP65",
+   "ER-DGP65",
+   "מכונת תספורת פנסוניק",
+   "מכונת תספורת נטענת",
+   "מכונת תספורת מקצועית",
+   "מכונת תספורת אלחוטית",
+   "פנסוניק ER-DGP65"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "משקל",
+   "catalogValue": "כ-250 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה אלחוטי רציף",
+   "catalogValue": "כ-50 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "60 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "סוללת ליתיום-יון (Li-ion)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להב",
+   "catalogValue": "להב X-taper 2.0 בציפוי DLC וטיטניום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסרקי הגבהה",
+   "catalogValue": "3 מסרקי הגבהה דו-צדדיים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר גובה חיתוך",
+   "catalogValue": "0.8 עד 2.0 מ״מ ב-5 שלבים של 0.3 מ״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "176x48x48 מ״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "יפן",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_variant",
+   "issue": "Israeli retailer bug.co.il lists the product as Panasonic ER-DGP65K (colour-suffix variant) with the catalog spec text. It was not used as evidence. Confirm the stocked model is ER-DGP65 and not ER-DGP65K.",
+   "severity": "high"
+  },
+  {
+   "field": "evidence_coverage",
+   "issue": "Only one exact-model page was fetched successfully (Multitronic, a Finnish retailer). Manufacturer, importer and other retailer pages returned HTTP 403 or failed. Facts from this single source will not publish until a second site or a manufacturer page confirms them.",
+   "severity": "high"
+  },
+  {
+   "field": "cutting_length",
+   "issue": "Catalog gives a maximum cutting length of 2.0 mm, while Multitronic gives 1.5 cm with the included combs. The sources conflict. Verify the blade-height range and the comb range.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Catalog says Japan. Search snippets from other retailers mention China as country of origin. Neither was confirmed on a fetched page. Verify the country of origin.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_variant",
+   "issue": "Israeli retailer lists ER-DGP65K; confirm the stocked unit's exact suffix and Israeli variant.",
+   "severity": "high"
+  },
+  {
+   "field": "evidence_coverage",
+   "issue": "All facts come from a single Finnish retailer page; manufacturer page not verified.",
+   "severity": "medium"
+  },
+  {
+   "field": "cutting_length",
+   "issue": "Catalog states blade adjustment 0.8–2.0 mm in 5 steps; source gives 0.8–15 mm with combs and a '3 length steps' row that was rejected. Verify blade and comb ranges.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Catalog says Japan; not confirmed on any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 6 (number of length steps = 3): the retailer spec row is ambiguous and contradicts the catalog's 5 blade steps and 6 comb lengths; likely refers to the 3 combs. Relabelled fact 5 as maximum cutting length with the included combs and expressed it as 15 mm (quote also states 15 mm). Only source is a Finnish retailer page. | code guard removed: summary: \"מכונת תספורת נטענת של Panasonic, דגם ER-DGP65, עם סוללת ליתיום-יון המספקת 50 דקות עבודה אלחוטית מטעינה של שעה.\"; summary: \"להבי X-Taper 2.0 בציפוי DLC וטיטניום, וטווח חיתוך מ-0.8 מ״מ ועד 15 מ״מ עם שלושת מסרקי ההגבהה הכלולים.\"; faq: \"כמה זמן אפשר לעבוד עם המכונה בלי כבל?\"; faq: \"מה טווח אורכי החיתוך?\"; faq: \"מאיזה חומר הלהבים?\"; metaDescription: \"מכונת תספורת נטענת Panasonic ER-DGP65: 50 דקות עבודה אלחוטית, להבי X-Taper 2.0 בציפוי DLC וטיטניום, חיתוך מ-0.8 מ״מ. בחדד אלקטריק נהריה\"; highlight: \"50 דקות עבודה אלחוטית מטעינה של שעה\"; highlight: \"להבי X-Taper 2.0 בציפוי DLC וטיטניום\"; highlight: \"טווח חיתוך 0.8–15 מ״מ עם שלושה מסרקי הגבהה\"; highlight: \"משקל 250 גרם\"; goodFor: \"חיתוך קצר מאוד מ-0.8 מ״מ לקווי מתאר וגימור\"; goodFor: \"עבודה ממושכת ביד בזכות משקל של 250 גרם\"; consideration: \"אורך החיתוך המקסימלי עם המסרקים הכלולים הוא 15 מ״מ – לשיער ארוך יותר יידרשו מסרקים נוספים או מספריים\"; consideration: \"זמן העבודה האלחוטי הוא 50 דקות – כדאי לטעון לפני תספורת ארוכה\""
+ }
+}

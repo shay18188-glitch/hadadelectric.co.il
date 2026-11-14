@@ -1,0 +1,361 @@
+{
+ "modelNumber": "65M90M1 (6695)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "65M90M1 (6695)",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "The Israeli retailer page for the cream finish names the model as 65M90M1/ 6695. The Midea Israel product page found for 65M90M1 is the black finish and was not used as evidence for this model. | QA: Israeli retailer page names model 65M90M1 6695 retro cream, matching catalog name and finish."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%90%D7%A4%D7%99%D7%94-%D7%91%D7%A0%D7%95%D7%99-midea-%D7%9E%D7%99%D7%93%D7%90%D7%94-65m90m1-6695-%D7%A8%D7%98%D7%A8%D7%95-%D7%A6%D7%91%D7%A2-%D7%A9%D7%9E%D7%A0%D7%AA/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "65M90M1 (6695)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 60 × 58 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "56.5 × 59.5 × 55.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "70 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות בישול ואפייה",
+     "value": "9"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "50-250 מעלות צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "שמנת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer-stated; see flag.",
+     "label": "אחריות",
+     "value": "שנה מלאה על ידי המילטון, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא אפייה XL בנפח פנימי של 70 ליטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת אפייה טורבו אקטיבית לאפייה אחידה בכל חלל התנור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת אוורור היקפית לשמירה על ארונות המטבח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לוח פיקוד חכם בעל מנגנון בקרה מכני"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא אפייה בציפוי אמייל איכותי וקל לניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "דלת בעלת 3 שכבות זכוכית מחוסמת"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תבנית אחת ורשת אחת"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "תנור בנוי מכני של Midea בסגנון רטרו בגימור שמנת, דגם 65M90M1 (6695). תא אפייה בנפח 70 ליטר, 9 תוכניות בישול ואפייה וטווח טמפרטורות של 50-250 מעלות צלזיוס. מתאים למי שמחפש תנור בנוי עם שליטה מכנית פשוטה ומראה רטרו שמשתלב במטבח כפרי.",
+  "highlights": [
+   "תא אפייה בנפח 70 ליטר",
+   "9 תוכניות בישול ואפייה",
+   "מערכת אפייה טורבו אקטיבית לאפייה אחידה",
+   "דלת בעלת 3 שכבות זכוכית מחוסמת",
+   "דירוג אנרגטי A"
+  ],
+  "goodFor": [
+   "מטבח בעיצוב רטרו או כפרי שמתאים לו גימור שמנת",
+   "מי שמעדיף לוח פיקוד מכני על פני מסך דיגיטלי",
+   "אפייה של מגשים גדולים בזכות תא אפייה בנפח 70 ליטר"
+  ],
+  "considerations": [
+   "לוודא שמידות הנישה במטבח מתאימות: 56.5 × 59.5 × 55.5 ס״מ (רוחב × גובה × עומק)",
+   "מידות התנור עצמו הן 59.5 × 60 × 58 ס״מ, כדאי לבדוק מול חזית הארונות",
+   "להתקנת תנור בנוי מומלץ לוודא נקודת חשמל מתאימה ליד הנישה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח תא האפייה הוא 70 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "רוחב 56.5 ס״מ, גובה 59.5 ס״מ ועומק 55.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות יש לתנור?",
+    "a": "לתנור 9 תוכניות לבישול ואפייה, עם לוח פיקוד מכני.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע עם התנור?",
+    "a": "תבנית אחת ורשת אחת.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על התנור?",
+    "a": "לפי דף המוצר בחנות ישראלית: שנה מלאה על ידי המילטון, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי מכני Midea 65M90M1 (6695) רטרו בגימור שמנת, נפח 70 ליטר ו-9 תוכניות אפייה, דירוג אנרגטי A. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור בנוי מידאה",
+   "Midea 65M90M1",
+   "תנור רטרו שמנת",
+   "תנור בנוי מכני",
+   "תנור בנוי 70 ליטר",
+   "תנור מידאה רטרו",
+   "65M90M1 6695"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "רוחב 59.5 ס״מ, גובה 60 ס״מ, עומק 58 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות התקנה (גומחה)",
+   "catalogValue": "רוחב 56.5 ס״מ, גובה 59.5 ס״מ, עומק 55.5 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא אפייה",
+   "catalogValue": "70 ליטר (XL)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50-250 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "3000W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-32 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "תבנית אחת, רשת אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק מרבי",
+   "issue": "The power rating (3000 W) and weight (about 32 kg) in the catalog were not found on the cream-finish page checked. The only page found that shows W3000 is the black-finish Midea page, which is not evidence for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Israeli retailer lists one year full warranty by the importer. The black-finish Midea page lists one year plus an optional paid extension to two years, so check the warranty terms on the cream model before publishing warranty claims.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty terms come from an Israeli retailer page only; confirm with the importer before publishing.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מרבי / משקל / מתח",
+   "issue": "Catalog values 3000W, about 32 kg and 220-240V were not verified on any source for the cream model.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "Single Israeli retailer page naming 65M90M1 6695 cream finish; all quotes ok and match labels."
+ }
+}

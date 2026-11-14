@@ -1,0 +1,331 @@
+{
+ "modelNumber": "MC812M814",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MC812M814",
+  "israeliImporter": "BSH",
+  "matchConfidence": "high",
+  "notes": "דגם MultiTalent 8 של בוש. נמצא בחנויות ישראליות עם שם הדגם המלא ומק\"ט 4242005347537 בעמוד בטר שופ. לא נמצא עמוד יצרן ישראלי או בוש ישראל שמזכיר את הדגם. | QA: Three Israeli retailer pages name MC812M814 and agree on 1250W, 3.9 L bowl, 1.5 L blender, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://laserelc.co.il/mc812m814/",
+   "publisher": "לייזר ליין",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/bosch_mc812m814/",
+   "publisher": "בטר שופ",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1250 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח קערה",
+     "value": "3.9 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח בלנדר",
+     "value": "1.5 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת בצק מקסימלית",
+     "value": "1.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "25 × 43 × 30 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בורר מהירות",
+     "value": "אלקטרוני + Pulse"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "1.1 מטר"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בטיחות",
+     "value": "מנגנון נעילה בטיחותי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer statement; confirm with importer",
+     "label": "אחריות",
+     "value": "שנתיים + 8 שנים על המנוע (ע״י היבואן הרשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'perfect results' claim",
+   "text": "זיהוי חכם: המעבד קובע באופן אוטומטי את המהירות הנכונה עבור כל אביזר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed unquoted 'for easy cleaning'",
+   "text": "בלנדר 1.5 ליטר עם סכין מתפרקת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא אחסון פנימי לכבל החשמל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מעבד מזון Bosch MC812M814 עם מנוע בהספק 1250 W, קערה שקופה בנפח 3.9 ליטר ובלנדר בנפח 1.5 ליטר. הקערה מתאימה ללישת עד 1.5 ק״ג בצק, ומערכת זיהוי חכם קובעת אוטומטית את המהירות הנכונה לכל אביזר. מתאים למי שמבשל ואופה בבית באופן קבוע ורוצה מכשיר אחד ללישה, קיצוץ ובלנדר.",
+  "highlights": [
+   "מנוע בהספק 1250 W",
+   "קערה בנפח 3.9 ליטר ללישת עד 1.5 ק״ג בצק",
+   "בלנדר 1.5 ליטר עם סכין מתפרקת",
+   "זיהוי חכם של האביזר והתאמת מהירות אוטומטית",
+   "בורר מהירות אלקטרוני + Pulse"
+  ],
+  "goodFor": [
+   "אפייה ביתית של בצקים בכמויות של עד 1.5 ק״ג",
+   "הכנת שייקים ורטבים בבלנדר המצורף",
+   "מי שמעדיף שהמכשיר יתאים את המהירות לאביזר בעצמו"
+  ],
+  "considerations": [
+   "מידות המכשיר 25 × 43 × 30 ס״מ – כדאי לוודא גובה פנוי מתחת לארונות העליונים",
+   "אורך כבל החשמל 1.1 מטר – כדאי לוודא שקע קרוב למקום העבודה",
+   "כדאי לבדוק את תנאי האחריות מול היבואן הרשמי"
+  ],
+  "faq": [
+   {
+    "q": "כמה בצק אפשר ללוש במעבד המזון?",
+    "a": "הקערה בנפח 3.9 ליטר מתאימה ללישה של עד 1.5 ק״ג בצק.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של Bosch MC812M814?",
+    "a": "הספק המנוע הוא 1250 W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בלנדר?",
+    "a": "כן, בלנדר בנפח 1.5 ליטר עם סכין מתפרקת.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכשיר?",
+    "a": "רוחב 25 ס״מ, גובה 43 ס״מ ועומק 30 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מעבד מזון Bosch MC812M814 בהספק 1250 W עם קערה 3.9 ליטר ללישת עד 1.5 ק״ג בצק ובלנדר 1.5 ליטר. זיהוי אביזר חכם. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מעבד מזון בוש",
+   "Bosch MC812M814",
+   "MC812M814",
+   "מעבד מזון 1250 וואט",
+   "בוש MultiTalent 8",
+   "מעבד מזון עם בלנדר",
+   "מעבד מזון ללישת בצק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1250 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח קערה",
+   "catalogValue": "3.9 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח בלנדר",
+   "catalogValue": "1.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה 43 ס\"מ, רוחב 25 ס\"מ, עומק 30 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.1 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "5.4 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "גרמניה (תכנון ועיצוב), סלובניה (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "לא נמצא משקל בעמודים ישראליים שנבדקו. מקורות גרמניים שנמצאו בחיפוש נותנים ערכים שונים (4.9 ק\"ג ו-5.4 ק\"ג), והעמודים שנפתחו לא אומתו. יש לבדוק את משקל היצרן לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "ערך המתח בקטלוג (220-240V) לא אומת בעמודים ישראליים שנפתחו.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור היצרן",
+   "issue": "לא נמצא עמוד יצרן או בוש ישראל לדגם MC812M814. הנתונים מבוססים על עמודי חנויות ישראליות בלבד, והם עקביים זה עם זה.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תנאי האחריות (שנתיים + 8 שנים על המנוע) מבוססים על עמוד חנות בלבד; לאמת מול היבואן BSH.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל הקטלוג (5.4 ק״ג) לא אומת; מקורות חיצוניים מציינים ערכים שונים.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "אין עמוד יצרן לדגם; כל הנתונים מעמודי חנויות ישראליות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Trimmed marketing wording from feature 0 ('לקבלת תוצאות מושלמות'). Warranty kept as stated by an Israeli retailer, flagged for confirmation with the importer. Weight, voltage and origin not verified and not published."
+ }
+}

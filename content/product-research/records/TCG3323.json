@@ -1,0 +1,314 @@
+{
+ "modelNumber": "TCG3323",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "TCG3323",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם TCG3323 מופיע בתיעוד היצרן כ-Contact grill שחור (Grill, Black). ברשתות הישראליות הוא מוצג כטוסטר לחיצה 4 פרוסות עם פלטות נשלפות. | QA: BSH spec sheet and two Israeli retailers name TCG3323 exactly; black contact grill with removable plates matches the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/en-MT/TCG3323.pdf",
+   "publisher": "BSH (Bosch) spec sheet",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/טוסטר-לחיצה-בוש-tcg3323/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.traklin.co.il/מוצרי_חשמל_למטבח/טוסטר_לחיצה_ומצנמים/טוסטר_לחיצה_bosch_דגם_tcg3323_בוש",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Spec sheet lists 133x399x325 mm (H×W×D).",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "39.9 × 13.3 × 32.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "3.7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משטח צלייה",
+     "value": "310 × 220 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "פלטות נשלפות",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "90 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציר צף המאפשר בישול אחיד גם למזון עבה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed unquoted count of modes.",
+   "text": "עבודה במצב סגור להכנת טוסטים, או במצב פתוח עם הגבהה לחימום פיצות, נקניקיות ובורקסים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בקרת טמפרטורה עם 5 דרגות ופונקציית הפעלה/כיבוי משולבת"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פלטות גריל מאלומיניום עם ציפוי מונע הדבקה, ניתנות לניקוי במדיח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Bosch TCG3323 הוא טוסטר לחיצה (גריל מגע) שחור בהספק 2000 W, עם משטח צלייה של 310 × 220 מ״מ ופלטות אלומיניום נשלפות עם ציפוי מונע הדבקה שניתנות לניקוי במדיח. ציר צף מאפשר בישול אחיד גם למזון עבה, ובקרת טמפרטורה של 5 דרגות מאפשרת התאמה לסוג המזון. מתאים למי שמכין טוסטים, כריכים וחימום מאפים בבית ורוצה ניקוי פשוט.",
+  "highlights": [
+   "הספק 2000 W",
+   "משטח צלייה 310 × 220 מ״מ",
+   "פלטות נשלפות עם ציפוי מונע הדבקה, ניתנות לניקוי במדיח",
+   "ציר צף לבישול אחיד גם למזון עבה",
+   "בקרת טמפרטורה עם 5 דרגות"
+  ],
+  "goodFor": [
+   "הכנת טוסטים וכריכים לחוצים",
+   "חימום פיצות, נקניקיות ובורקסים במצב פתוח עם הגבהה",
+   "מי שמעדיף לנקות את הפלטות במדיח כלים",
+   "כריכים עבים בזכות הציר הצף"
+  ],
+  "considerations": [
+   "מידות המכשיר 39.9 × 13.3 × 32.5 ס״מ – כדאי לוודא מקום על השיש",
+   "אורך הכבל 90 ס״מ – כדאי לבדוק את המרחק לשקע",
+   "בהספק 2000 W מומלץ לחבר לשקע נפרד ולא למפצל עמוס",
+   "משקל המכשיר 3.7 ק״ג – לקחת בחשבון אם מאחסנים אותו בארון"
+  ],
+  "faq": [
+   {
+    "q": "האם הפלטות של Bosch TCG3323 נשלפות?",
+    "a": "כן, הפלטות נשלפות, עשויות אלומיניום עם ציפוי מונע הדבקה וניתנות לניקוי במדיח.",
+    "sources": []
+   },
+   {
+    "q": "מה גודל משטח הצלייה?",
+    "a": "משטח הצלייה הוא 310 × 220 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להכין בו כריכים עבים?",
+    "a": "כן, הציר הצף מאפשר בישול אחיד גם למזון עבה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט בטמפרטורה?",
+    "a": "כן, יש בקרת טמפרטורה עם 5 דרגות ופונקציית הפעלה/כיבוי משולבת.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק ואורך הכבל?",
+    "a": "ההספק 2000 W ואורך כבל החשמל 90 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר לחיצה Bosch TCG3323 שחור: הספק 2000 W, משטח צלייה 310 × 220 מ״מ ופלטות נשלפות לניקוי במדיח, עם ציר צף. בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר לחיצה בוש",
+   "Bosch TCG3323",
+   "TCG3323",
+   "טוסטר לחיצה פלטות נשלפות",
+   "גריל מגע בוש",
+   "טוסטר לחיצה 2000W",
+   "טוסטר בוש שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח צלייה",
+   "catalogValue": "310x220 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה 13.3 ס\"מ, רוחב 39.9 ס\"מ, עומק 32.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-3.7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "90 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פלטות נשלפות",
+   "catalogValue": "כן, ניתנות לשטיפה במדיח כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "בורר טמפרטורה",
+   "catalogValue": "תרמוסטט רציף עם 5 דרגות חום",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "יוון",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "category",
+   "issue": "הקטלוג מסווג את המוצר כ'טוסטר גריל לחיצה', ואילו תיעוד היצרן מתאר אותו כ-Contact grill (גריל לחיצה שולחני) עם מצב טוסטר. כדאי לוודא שהקטגוריה מתאימה.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "The catalog name says 4 slices; no source verifies a slice count.",
+   "severity": "low"
+  },
+  {
+   "field": "category",
+   "issue": "Manufacturer describes it as a contact grill; confirm the category fits.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1: removed the claim of 'three modes' since the quote does not state a count; kept the closed/open-raised description. Label for dimensions clarified. All other facts verified against the BSH spec sheet."
+ }
+}

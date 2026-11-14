@@ -1,0 +1,316 @@
+{
+ "modelNumber": "TurboCut Diamond ESE9000",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sassonic",
+  "exactModel": "TurboCut Diamond ESE9000",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only one source reached: the Israeli retailer page bug.co.il (SKU 9448877463), which names this exact model and says the seller is the official importer (יבואן רשמי: כן). The page does not name the importer; it says the one-year warranty is handled by Elias Electronics (אליאס אלקטרוניקה). No manufacturer, importer, manual or EPREL page for this model was reachable; two other Israeli retailer searches and the Sassonic site failed to fetch. | QA: Israeli retailer page bug.co.il names Sassonic TurboCut Diamond ESE9000 exactly. Importer not named; warranty by Elias Electronics (אליאס אלקטרוניקה). Only one source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מכונת-תספורת-נטענת-sassonic-9448877463",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם מלא",
+     "value": "TurboCut Diamond ESE9000"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג הפעלה",
+     "value": "נטענת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says about 120 minutes; retailer page says 70.",
+     "label": "זמן טעינה",
+     "value": "70 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says up to 180 minutes; retailer page says two hours.",
+     "label": "זמן עבודה",
+     "value": "שעתיים רצופות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מסרקים לשינוי גובה",
+     "value": "5 מסרקים מגנטיים במידות 1.5,3,6,10 ו-13 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 0.5-3.5 mm; retailer page says 0.3-3 mm.",
+     "label": "כיוון סכין",
+     "value": "0.3 עד 3 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י אליאס אלקטרוניקה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכונת תספורת מקצועית עם סכין יהלום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע אלקטרומגנטי עוצמתי לעבודה מהירה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sassonic TurboCut Diamond ESE9000 היא מכונת תספורת נטענת מקצועית עם סכין יהלום ומנוע אלקטרומגנטי עוצמתי. טעינה של 70 דקות מספקת שעתיים של עבודה רצופה, וכיוון הסכין נע בין 0.3 ל-3 מ״מ. מגיעה עם 5 מסרקים מגנטיים לשינוי גובה, ומתאימה לתספורות בבית או לעבודה מקצועית.",
+  "highlights": [
+   "סכין יהלום",
+   "זמן עבודה של שעתיים רצופות",
+   "טעינה של 70 דקות",
+   "כיוון סכין 0.3–3 מ״מ"
+  ],
+  "goodFor": [
+   "תספורות ארוכות ללא חוט, בזכות שעתיים של עבודה רצופה",
+   "דירוגים ופייד בעזרת כיוון סכין עדין בין 0.3 ל-3 מ״מ",
+   "מי שמחליף אורכים לעיתים קרובות, עם מסרקים מגנטיים שמתחלפים בקלות"
+  ],
+  "considerations": [
+   "זמן העבודה מטעינה אחת הוא שעתיים – כדאי לטעון מראש לפני יום עבודה ארוך",
+   "המסרק הארוך ביותר הוא 13 מ״מ – לשיער ארוך יותר תידרש מספריים",
+   "האחריות לשנה ניתנת ע״י אליאס אלקטרוניקה – כדאי לשמור את חשבונית הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובדת המכונה על טעינה אחת?",
+    "a": "שעתיים של עבודה רצופה, לאחר טעינה של 70 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח כיוון הסכין?",
+    "a": "בין 0.3 ל-3 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "שנה אחריות ע״י אליאס אלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת תספורת נטענת Sassonic TurboCut Diamond ESE9000 עם סכין יהלום, שעתיים עבודה רצופה ו-5 מסרקים מגנטיים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sassonic TurboCut Diamond ESE9000",
+   "ESE9000",
+   "מכונת תספורת Sassonic",
+   "מכונת תספורת נטענת",
+   "מכונת תספורת מקצועית",
+   "מכונת תספורת סכין יהלום",
+   "סאסוניק מכונת תספורת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מנוע",
+   "catalogValue": "מנוע עוצמתי המגיע ל-10,000 סל\"ד (RPM)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "להב",
+   "catalogValue": "להב יהלום (Diamond DLC)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "סוללת ליתיום-יון (Li-ion) פרימיום",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 180 דקות של שימוש אלחוטי רציף",
+   "finding": "corrected",
+   "correctValue": "שעתיים רצופות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-120 דקות",
+   "finding": "corrected",
+   "correctValue": "70 דקות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח חיתוך (מנוף כיוון)",
+   "catalogValue": "0.5 מ\"מ עד 3.5 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "0.3 עד 3 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V (מתח אוניברסלי)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מסרקים",
+   "catalogValue": "סט מסרקי הגבהה (מגנטים או קליפס)",
+   "finding": "corrected",
+   "correctValue": "5 מסרקים מגנטיים: 1.5, 3, 6, 10 ו-13 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "מעמד טעינה, שמן לשימון ומברשת ניקוי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג הפעלה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "נטענת",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "זמן עבודה וזמן טעינה",
+   "issue": "The catalog says up to 180 minutes of work and about 120 minutes to charge. The retailer page says a 70-minute charge gives two hours of continuous work. The sources conflict and the catalog figures are not on any page reached.",
+   "severity": "high"
+  },
+  {
+   "field": "טווח כיוון סכין",
+   "issue": "The catalog says 0.5 to 3.5 mm. The retailer page says 0.3 to 3 mm.",
+   "severity": "high"
+  },
+  {
+   "field": "מידע חסר",
+   "issue": "Only one source (one Israeli retailer page) was reachable. Motor speed, voltage, battery type and the accessory list in the catalog could not be confirmed by any page, and no manufacturer, importer or EPREL page was found for this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן רשמי",
+   "issue": "The retailer page says the seller is the official importer but does not name the importer. It names Elias Electronics (אליאס אלקטרוניקה) only as the warranty handler.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן עבודה וזמן טעינה",
+   "issue": "Catalog says up to 180 minutes work and about 120 minutes charge; the retailer page says 70 minutes charge gives two hours. Catalog specs should be checked against the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "כיוון סכין",
+   "issue": "Catalog says 0.5-3.5 mm; the retailer page says 0.3-3 mm.",
+   "severity": "high"
+  },
+  {
+   "field": "מפרט לא מאומת",
+   "issue": "Motor speed (10,000 RPM), voltage, Li-ion battery and accessory list (stand, oil, brush) in the catalog are not confirmed by any source; only one retailer page was reachable.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Importer not named; Elias Electronics is named only as warranty provider.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All seven facts and both features are backed by ok quotes from one Israeli retailer page naming the exact model. Catalog figures for work time (180 min), charge time (120 min) and blade range (0.5-3.5 mm) contradict the retailer page and were not published; the retailer values were kept. Motor speed, voltage, battery type and accessories remain unverified. | code guard removed: fact 4 QA value \"5 מסרקים מגנטיים במידות 1.5, 3, 6, 10 ו-13 מ״מ\" not supported by quotes; kept \"5 מסרקים מגנטיים במידות 1.5,3,6,10 ו-13 מ״מ\"; faq: \"אילו מסרקים מגיעים עם המכונה?\"; highlight: \"5 מסרקים מגנטיים: 1.5, 3, 6, 10 ו-13 מ״מ\""
+ }
+}

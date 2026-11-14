@@ -1,0 +1,294 @@
+{
+ "modelNumber": "MultiQuick 3 MQ3020 Pesto",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Braun",
+  "exactModel": "MQ 3020 Pesto",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "No Israeli or Braun official page found for this model; evidence from Egyptian retailers, Amazon.fr and a Braun manual hosted by Darty. | QA: Sources are Egyptian and French retailer pages for Braun MQ3020 (MQ3020WH); the Pesto bundle with MQ 20 350 ml chopper and 600 ml beaker matches the catalog, but no manufacturer or Israeli page confirms the exact local SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://almoufeed.com/en/product/mq3020wh/",
+   "publisher": "Almoufeed",
+   "kind": "retailer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://btech.com/en/p/braun-mq3020-hand-blender",
+   "publisher": "B.Tech",
+   "kind": "retailer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "700 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote check failed (numbers-not-in-quote).; quote checks: numbers-not-in-quote",
+     "label": "בקרת מהירות",
+     "value": "שליטה כפולה במהירות (2 דרגות)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר המוט",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר הלהב",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חלקים ניתנים לשטיפה במדיח",
+     "value": "כן (לפי הוראות היצרן)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך כבל החשמל",
+     "value": "1.2 מ׳"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיני קוצץ",
+     "value": "350 מ״ל"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כוס מדידה",
+     "value": "600 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חלקים ללא BPA במגע עם מזון",
+     "value": "כן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית PowerBell Plus עם SplashControl ולהב קיצוץ נוסף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת EasyClick להחלפה מהירה של אביזרים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בלנדר מוט MultiQuick 3"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מיני קוצץ MQ 20 (350 מ״ל)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כוס מדידה 600 מ״ל"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Braun MultiQuick 3 MQ3020 Pesto הוא בלנדר מוט בהספק 700 W עם מוט ולהב מנירוסטה. בערכה מיני קוצץ בנפח 350 מ״ל וכוס מדידה בנפח 600 מ״ל, וטכנולוגיית PowerBell Plus עם SplashControl ולהב קיצוץ נוסף. מתאים למי שמחפש בלנדר יד למרקים, רטבים וקיצוץ עשבי תיבול ואגוזים במטבח הביתי.",
+  "highlights": [
+   "מנוע בהספק 700 W",
+   "מיני קוצץ 350 מ״ל לפסטו, עשבי תיבול ואגוזים",
+   "כוס מדידה 600 מ״ל בערכה",
+   "PowerBell Plus עם SplashControl ולהב קיצוץ נוסף",
+   "מערכת EasyClick להחלפת אביזרים מהירה"
+  ],
+  "goodFor": [
+   "הכנת פסטו ורטבים בכמויות קטנות במיני קוצץ",
+   "ריסוק מרקים ישירות בסיר בזכות מוט הנירוסטה",
+   "הכנת שייקים ומחיות בכוס המדידה המצורפת",
+   "מטבח שבו רוצים להחליף בין אביזרים במהירות"
+  ],
+  "considerations": [
+   "נפח המיני קוצץ 350 מ״ל – לכמויות גדולות יותר יידרש קיצוץ בכמה סבבים",
+   "שטיפה במדיח אפשרית לחלקים לפי הוראות היצרן – כדאי לבדוק בחוברת אילו חלקים",
+   "גרסת הערכה המקומית לא אומתה מול היבואן – כדאי לבדוק את תכולת האריזה בעת הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Braun MQ3020 Pesto?",
+    "a": "הספק המנוע הוא 700 W.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי המוט?",
+    "a": "המוט והלהב עשויים נירוסטה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את החלקים במדיח?",
+    "a": "כן, החלקים ניתנים לשטיפה במדיח לפי הוראות היצרן, והחלקים הבאים במגע עם מזון הם ללא BPA.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Braun MultiQuick 3 MQ3020 Pesto בהספק 700 W עם מיני קוצץ 350 מ״ל וכוס מדידה 600 מ״ל. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט בראון",
+   "Braun MQ3020",
+   "MultiQuick 3 Pesto",
+   "בלנדר מוט 700 וואט",
+   "בלנדר מוט עם קוצץ",
+   "בראון מולטיקוויק 3",
+   "בלנדר יד לפסטו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "700 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מיכל קיצוץ",
+   "catalogValue": "350 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כוס מדידה",
+   "catalogValue": "600 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "PowerBell Plus",
+   "catalogValue": "PowerBell Plus",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "No Israeli or Braun official page found; evidence is from Egyptian retailers.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Evidence only from foreign retailer pages (EG, FR) for MQ3020; no manufacturer or Israeli importer page confirms the Pesto SKU sold locally.",
+   "severity": "medium"
+  },
+  {
+   "field": "בקרת מהירות",
+   "issue": "Two-speed claim in catalog not verified by a passing quote; rejected.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 1 (speed control): quote failed the numbers check ('Dual speed control' does not state 2 as a number). All other facts, features and box contents are backed by ok quotes from retailer pages naming MQ3020. Identity medium: sources describe MQ3020 (WH) generally; Pesto set and Israeli variant not confirmed by manufacturer or Israeli source. | code guard removed: faq: \"מה כלול בערכה?\"; faq: \"מה אורך כבל החשמל?\"; consideration: \"אורך הכבל 1.2 מ׳ – כדאי לוודא שיש שקע קרוב למשטח העבודה\""
+ }
+}

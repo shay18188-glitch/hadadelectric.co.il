@@ -1,0 +1,432 @@
+{
+ "modelNumber": "EW6T3603AM",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EW6T3603AM",
+  "israeliImporter": "Electrolux Israel",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בדף החיפוש של היבואן ובדף קמעונאי ישראלי עם מפרט מלא. הקמעונאי מציין עומק כללי 61 ס״מ ועומק 60 ס״מ; בקטלוג מופיע עומק 60 ס״מ. | QA: Importer search page and an Israeli retailer page both name EW6T3603AM with 6 kg capacity, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.anakelectric.co.il/items/7435159-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-Electrolux-EW6T3603AM-6-%D7%A7-%D7%92-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1",
+   "publisher": "anakelectric.co.il",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electrolux.co.il/?s=EW6T3603AM",
+   "publisher": "Electrolux Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer also lists overall depth 61 cm.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "40 × 91 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1000 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג יעילות אנרגטית",
+     "value": "D"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים לתוכנית אקו 40-60",
+     "value": "47 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל לתוכנית אקו 40-60",
+     "value": "0.94 קו״ט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משך תוכנית אקו 40-60",
+     "value": "כ-197 דקות"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש בסחיטה",
+     "value": "75 דציבל"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Reworded to match quote.",
+   "text": "טכנולוגיית SensiCare עם שקילה אוטומטית רציפה של הכביסה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "SoftPlus לפיזור אחיד של המרכך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגירת דטרגנטים FlexiDoze Plus נשלפת לניקיון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התחלה מושהית עד 20 שעות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית אנטי אלרגיה עם קיטור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכניות ידניות בהסמכת Blue Woolmark לכביסת צמר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote confirms the feature only, not the claimed cycle-shortening behaviour.",
+   "text": "מערכת TimeManager"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 רגליות כוונון ו-2 גלגלים נשלפים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Generic store policy text covering many product types, not a product specification.",
+   "text": "נדרש טכנאי להתקנה מטעם היבואן"
+  }
+ ],
+ "content": {
+  "summary": "מכונת כביסה של Electrolux בקיבולת 6 ק״ג וברוחב 40 ס״מ בלבד, עם סחיטה עד 1000 סל״ד. המכונה כוללת טכנולוגיית SensiCare עם שקילה אוטומטית, תוכנית אנטי אלרגיה עם קיטור והתחלה מושהית עד 20 שעות. מתאימה למי שמחפש מכונה צרה לחלל מצומצם.",
+  "highlights": [
+   "רוחב 40 ס״מ, גובה 91 ס״מ, עומק 60 ס״מ",
+   "קיבולת כביסה 6 ק״ג",
+   "סחיטה עד 1000 סל״ד",
+   "תוכנית אנטי אלרגיה עם קיטור",
+   "התחלה מושהית עד 20 שעות"
+  ],
+  "goodFor": [
+   "חדרי כביסה או מרפסות שירות צרות, בזכות רוחב 40 ס״מ",
+   "בתים שבהם מכבסים פריטי צמר עדינים, עם תוכניות בהסמכת Blue Woolmark",
+   "מי שרוצה להפעיל כביסה בשעה נוחה, עם התחלה מושהית עד 20 שעות",
+   "בני בית עם רגישות לאלרגנים, בזכות תוכנית אנטי אלרגיה עם קיטור"
+  ],
+  "considerations": [
+   "הספק 2200 W מצריך שקע תקין וייעודי בקרבת המכונה",
+   "רמת הרעש בסחיטה היא 75 דציבל, כדאי לקחת זאת בחשבון אם המכונה ממוקמת ליד חדרי שינה",
+   "דירוג יעילות אנרגטית D לפי התקן החדש"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Electrolux EW6T3603AM?",
+    "a": "קיבולת כביסה של 6 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים וחשמל צורכת תוכנית אקו 40-60?",
+    "a": "47 ליטר ו-0.94 קו״ט, ומשך התוכנית כ-197 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מהי מהירות הסחיטה המרבית?",
+    "a": "1000 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לדחות את תחילת הכביסה?",
+    "a": "כן, התחלה מושהית עד 20 שעות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Electrolux EW6T3603AM ברוחב 40 ס״מ, קיבולת 6 ק״ג וסחיטה עד 1000 סל״ד. מפרט מלא ושאלות נפוצות בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux EW6T3603AM",
+   "EW6T3603AM",
+   "מכונת כביסה אלקטרולוקס 6 קג",
+   "מכונת כביסה צרה 40 סמ",
+   "מכונת כביסה פתח עליון אלקטרולוקס",
+   "אלקטרולוקס PerfectCare 600",
+   "מכונת כביסה 6 קג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Electrolux",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1000 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה 91 ס\"מ, רוחב 40 ס\"מ, עומק 60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג יעילות אנרגטית",
+   "catalogValue": "D (לפי תקן אירופאי חדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים לתוכנית אקו 40-60",
+   "catalogValue": "47 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה לתוכנית אקו 40-60",
+   "catalogValue": "0.94 קו\"ט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משך תוכנית אקו",
+   "catalogValue": "כ-197 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש בסחיטה",
+   "catalogValue": "75 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סדרה",
+   "catalogValue": "PerfectCare 600",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון הגנה מפני הצפה",
+   "catalogValue": "כן",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "הקמעונאי מציין עומק כללי 61 ס״מ (כולל דלת) ועומק 60 ס״מ. הקטלוג משתמש ב-60 ס״מ; לבדיקה אם הערך הוא עומק המכשיר בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח, מדינת ייצור, מנגנון הגנה מפני הצפה",
+   "issue": "לא נמצא מקור שמאשר את הערכים בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקמעונאי מציין עומק 60 ס״מ ועומק כללי 61 ס״מ; לוודא איזה ערך מוצג.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח, מדינת ייצור, מנגנון הגנה מפני הצפה",
+   "issue": "ערכי הקטלוג לא אומתו במקורות שנבדקו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected installation #1 (generic store delivery/installation policy, not a product fact). Reworded feature #6: the quote only confirms TimeManager exists, not that it shortens cycles. All other facts verified on the Israeli retailer page or the importer page. | code guard removed: faq: \"מה מידות המכונה?\"; consideration: \"יש למדוד את הנישה: 40 ס״מ רוחב, 91 ס״מ גובה ו-60 ס״מ עומק (עומק כללי 61 ס״מ לפי הקמעונאי)\""
+ }
+}

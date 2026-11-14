@@ -1,0 +1,390 @@
+{
+ "modelNumber": "HILW75222SW",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Beko",
+  "exactModel": "HILW75222SW",
+  "israeliImporter": "מיניליין",
+  "matchConfidence": "high",
+  "notes": "The Israeli retailer page and comparison pages name Beko HILW75222SW as a 75 cm built-in gas hob. The manufacturer site was not reachable; a French listing gives a different weight and dimensions, so weight is left unverified. | QA: Bezeq Store, Wisebuy and Zap all name Beko HILW75222SW as a 75 cm white glass built-in gas hob; importer Miniline per the Bezeq Store warranty line."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://bstore.bezeq.co.il/electrical/118577",
+   "publisher": "Bezeq Store",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-hobs&productid=1062842",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1062842",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.amazon.fr/Beko-HILW75222SW-plaque-Int%C3%A9gr%C3%A9-Blanc/dp/B07K25W7RB",
+   "publisher": "Amazon.fr",
+   "kind": "retailer",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "75 × 4.6 × 52.4 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות חיתוך בשיש להתקנה",
+     "value": "56 × 49 ס״מ (רוחב × עומק)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבערים",
+     "value": "4 מבערי גז + להבת ווק SABAF"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מבער הווק המרכזי",
+     "value": "5000 ואט"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר המשטח",
+     "value": "זכוכית מחוסמת לבנה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Per Bezeq Store; another listing reportedly says two years.",
+     "label": "אחריות יבואן רשמי",
+     "value": "שנה + שנה נוספת בכפוף לרישום באתר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תומכי סירים מברזל יצוק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הצתה אלקטרונית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישני ביטחון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התקנה של מוצר גז מחויבת על פי חוק על ידי טכנאי גז מורשה"
+  }
+ ],
+ "content": {
+  "summary": "Beko HILW75222SW הן כיריים גז מובנות ברוחב 75 ס״מ עם משטח זכוכית מחוסמת לבנה. הכיריים כוללות 4 מבערי גז ולהבת ווק SABAF מרכזית בהספק 5000 ואט, תומכי סירים מברזל יצוק, הצתה אלקטרונית וחיישני ביטחון. מתאימות למי שמחפש כיריים לבנות עם מבער ווק חזק לבישול יומיומי.",
+  "highlights": [
+   "4 מבערי גז + להבת ווק SABAF",
+   "מבער ווק מרכזי בהספק 5000 ואט",
+   "משטח זכוכית מחוסמת לבנה",
+   "תומכי סירים מברזל יצוק",
+   "הצתה אלקטרונית וחיישני ביטחון"
+  ],
+  "goodFor": [
+   "בישול בווק ובסירים גדולים על מבער מרכזי חזק",
+   "מטבח בעיצוב בהיר שמתאים למשטח זכוכית לבן",
+   "מי שמעדיף כיריים עם חיישני ביטחון והצתה אלקטרונית"
+  ],
+  "considerations": [
+   "יש לוודא שמידות החיתוך בשיש הן 56 × 49 ס״מ (רוחב × עומק)",
+   "ההתקנה מחויבת על פי חוק על ידי טכנאי גז מורשה",
+   "הצתה אלקטרונית דורשת שקע חשמל סמוך לכיריים",
+   "כדאי לבדוק את תנאי האחריות מול היבואן ולרשום את המוצר באתר לקבלת השנה הנוספת"
+  ],
+  "faq": [
+   {
+    "q": "כמה מבערים יש בכיריים?",
+    "a": "4 מבערי גז ובנוסף להבת ווק SABAF מרכזית.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של מבער הווק?",
+    "a": "מבער הווק המרכזי בהספק 5000 ואט.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך בשיש?",
+    "a": "רוחב 56 ס״מ ועומק 49 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מי מתקין את הכיריים?",
+    "a": "על פי חוק, התקנת מוצר גז מבוצעת על ידי טכנאי גז מורשה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות יבואן רשמי לשנה, ושנה נוספת בכפוף לרישום באתר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Beko HILW75222SW ברוחב 75 ס״מ, זכוכית מחוסמת לבנה, 4 מבערים + להבת ווק 5000 ואט ותומכי ברזל יצוק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Beko HILW75222SW",
+   "כיריים גז בקו",
+   "כיריים גז 75 ס\"מ",
+   "כיריים גז זכוכית לבנה",
+   "כיריים גז מובנות",
+   "כיריים עם מבער ווק",
+   "כיריים גז לבנות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב",
+   "catalogValue": "75 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "52.4 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "4.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיתוך להתקנה (שיש)",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 49 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "16.5 ק\"ג",
+   "finding": "contradicted",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "חומר המשטח",
+   "catalogValue": "זכוכית מחוסמת לבנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "5 להבות גז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תומכי סירים",
+   "catalogValue": "ברזל יצוק (Cast Iron)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גז כולל",
+   "catalogValue": "12400 ואט (12.4 קילו-וואט)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "הספק מבער ווק מרכזי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5000 ואט",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50 הרץ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל (להצתה)",
+   "catalogValue": "1 ואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג כפתורים",
+   "catalogValue": "כפתורי סיבוב קדמיים",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל נטו",
+   "issue": "The catalog gives 16.5 kg, but the French listing for this model gives 12 kg and different dimensions. No Israeli source gives a weight, so the catalog value needs a person to check it.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The Israeli retailer page gives one year of importer warranty plus one more year on registration, while a zap listing says two years. Check the importer's terms.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק גז כולל",
+   "issue": "The total gas power of 12.4 kW is confirmed only by a French retailer page.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "Catalog gives 16.5 kg; a French listing gives a different weight and no Israeli source confirms it. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Bezeq Store says one year plus one more on registration; a Zap listing reportedly says two years. Confirm with the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק גז כולל",
+   "issue": "12.4 kW total gas power appears only via a French retailer and has no ok quote; not published.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts are backed by ok quotes from Israeli pages naming HILW75222SW. Catalog weight (16.5 kg), total gas power and electrical specs are not published."
+ }
+}

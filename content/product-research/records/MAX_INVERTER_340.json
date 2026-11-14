@@ -1,0 +1,546 @@
+{
+ "modelNumber": "MAX INVERTER 340",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electra",
+  "exactModel": "MAX INV 340",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "medium",
+  "notes": "The Israeli retailer page names the model ELECTRA MAX INV 340 (title and body 'Electra Max Inverter 340', SKU 110ELCTMAX340IN). The store catalog says MAX INVERTER 340; treated as the same unit. A WiFi variant (MAX INVERTER WIFI 340) exists on another retailer page and was NOT used as evidence. No manufacturer or importer page for this exact model was found. | QA: Only evidence is an Israeli retailer page for ELECTRA MAX INV 340, taken as the catalog's MAX INVERTER 340. Specs match the catalog, but a WiFi variant exists and the retailer lists the unit as 2.5 HP while the catalog name says 3 HP."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מזגן-עילי-אלקטרה-max-inv-340/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת קירור",
+     "value": "24,260 BTU/h"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת חימום",
+     "value": "18,766 BTU/h"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote pairs the value with the heating BTU range; garbled block.",
+     "label": "תפוקת קירור בוואט",
+     "value": "7,110 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not name the attribute; garbled block, redundant with BTU fact.",
+     "label": "תפוקת חימום בוואט",
+     "value": "5,500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק נצרך בקירור",
+     "value": "2,503 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק נצרך בחימום",
+     "value": "2,356 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ספיקת אוויר",
+     "value": "580 CFM / 980 מ״ק לשעה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות בקירור (SEER)",
+     "value": "6.11"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות בחימום (SCOP)",
+     "value": "4.8"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A++"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח הזנה",
+     "value": "230V / 50Hz / חד־פאזי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הגנה (מאמ״ת)",
+     "value": "Type C 1×16 A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבורי צנרת",
+     "value": "3/8 × 5/8 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote order height/length ambiguous; matches catalog and is physically plausible.",
+     "label": "אורך צנרת מקסימלי",
+     "value": "50 מטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Same ambiguity as id 13.",
+     "label": "הפרש גובה מקסימלי בצנרת",
+     "value": "25 מטר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה באפליקציית SMART"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי עצמי של הסוללה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיזור אוויר 4D"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יחידת פנים (מאייד) קצרה במיוחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוז דו־צדדי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי הידרופילי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3+5 מהירויות למפוח המאייד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב שבת מובנה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Electra MAX INVERTER 340 הוא מזגן עילי אינוורטר לקירור וחימום, עם תפוקת קירור של 24,260 BTU/h ותפוקת חימום של 18,766 BTU/h. הוא מדורג A++ עם מקדם SEER של 6.11 ו־SCOP של 4.8, וכולל שליטה באפליקציית SMART ומצב שבת מובנה. מתאים למי שמחפש מזגן עילי חסכוני לחלל גדול יחסית, עם מאייד קצר שמקל על ההתקנה.",
+  "highlights": [
+   "תפוקת קירור 24,260 BTU/h",
+   "דירוג אנרגטי A++, SEER 6.11 ו־SCOP 4.8",
+   "שליטה באפליקציית SMART",
+   "מצב שבת מובנה",
+   "ניקוי עצמי של הסוללה"
+  ],
+  "goodFor": [
+   "חלל מגורים גדול שצריך קירור וחימום מאותה יחידה",
+   "בית שומר שבת, בזכות מצב שבת מובנה",
+   "קיר צר יחסית, בזכות המאייד הקצר והניקוז הדו־צדדי",
+   "מי שרוצה להפעיל את המזגן מהטלפון"
+  ],
+  "considerations": [
+   "יש לוודא קו חשמל ייעודי עם מאמ״ת Type C 1×16 A בלוח",
+   "צריכת ההספק בקירור היא 2,503 W, כדאי לבדוק עם החשמלאי את עומס החשמל בדירה",
+   "אורך הצנרת המרבי הוא 50 מטר והפרש הגובה המרבי 25 מטר, יש לתאם עם המתקין את מיקום יחידת החוץ",
+   "חיבורי הצנרת הם 3/8 × 5/8 אינץ׳, חשוב כשמחליפים מזגן ומשתמשים בצנרת קיימת"
+  ],
+  "faq": [
+   {
+    "q": "מה תפוקת הקירור והחימום של המזגן?",
+    "a": "תפוקת הקירור היא 24,260 BTU/h ותפוקת החימום 18,766 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "האם המזגן חסכוני בחשמל?",
+    "a": "המזגן מדורג A++, עם מקדם יעילות SEER של 6.11 בקירור ו־SCOP של 4.8 בחימום.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מצב שבת?",
+    "a": "כן, המזגן כולל מצב שבת מובנה.",
+    "sources": []
+   },
+   {
+    "q": "איזה מאמ״ת צריך להתקנה?",
+    "a": "נדרש מאמ״ת Type C 1×16 A, במתח 230V / 50Hz חד־פאזי.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט במזגן מהטלפון?",
+    "a": "כן, באמצעות אפליקציית SMART.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן עילי אלקטרה MAX INVERTER 340 אינוורטר: תפוקת קירור 24,260 BTU/h, דירוג A++ ומצב שבת מובנה. ייעוץ והתקנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "אלקטרה MAX INVERTER 340",
+   "מזגן אלקטרה מקס אינוורטר 340",
+   "Electra MAX INV 340",
+   "מזגן עילי אלקטרה",
+   "מזגן אינוורטר A++",
+   "מזגן עם מצב שבת",
+   "מזגן עילי לסלון גדול",
+   "מזגן אלקטרה נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "24,260 BTU/h",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "18,766 BTU/h",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק נצרך קירור",
+   "catalogValue": "2,503W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק נצרך חימום",
+   "catalogValue": "2,356W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בקירור",
+   "catalogValue": "6.11 SEER",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בחימום",
+   "catalogValue": "4.8 SCOP",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A++",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זרם עבודה קירור",
+   "catalogValue": "8A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זרם עבודה חימום",
+   "catalogValue": "9A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח זינה",
+   "catalogValue": "230V/50Hz/1Ph",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנה (מאמ\"ת)",
+   "catalogValue": "Type C 1x16A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ספיקת אוויר",
+   "catalogValue": "580CFM / 980 M3/h",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורי צנרת",
+   "catalogValue": "3/8\" x 5/8\"",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך צנרת מקסימלי",
+   "catalogValue": "50 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה צנרת מקסימלי",
+   "catalogValue": "25 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות יחידת פנים",
+   "catalogValue": "1040x327x220 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות יחידת חוץ",
+   "catalogValue": "890x673x342 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שם המוצר",
+   "catalogValue": "מזגן 3 כ\"ס",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "ישראל (תכנון) / סין (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שליטה מרחוק באפליקציית SMART",
+   "catalogValue": "שליטה מרחוק באמצעות אפליקציית SMART",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגע יבש ופקד קירי",
+   "catalogValue": "מגע יבש ופקד קירי אופציונליים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תפוקת קירור בוואט",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "7,110 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום בוואט",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5,500 W",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model MAX INVERTER 340 appears on no page. The only evidence is the retailer page for ELECTRA MAX INV 340 (SKU 110ELCTMAX340IN). A person should confirm this is the same unit and not a sibling.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says 3 כ\"ס, but the retailer page lists the same 24,260 BTU/h unit as 2.5 כ\"ס.",
+   "severity": "high"
+  },
+  {
+   "field": "גרסה",
+   "issue": "Another Israeli retailer lists MAX INVERTER WIFI 340 with the same electrical and BTU figures. Confirm whether the store's unit has WiFi. Its listed warranty is 5 years, while the retailer used here lists 1 year.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "No page for this exact model gives the unit dimensions. The catalog values (1040x327x220 and 890x673x342 mm) are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "זרם עבודה",
+   "issue": "Operating current (8A cooling, 9A heating) appears on no fetched page for this model.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty terms conflict between sources: the retailer here says one year, and the WiFi-variant retailer says five years. Verify with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog model MAX INVERTER 340 is evidenced only by one retailer page for ELECTRA MAX INV 340; confirm it is the same unit and not the WiFi variant.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "Catalog name says 3 כ״ס, the retailer page lists this 24,260 BTU/h unit as 2.5 כ״ס. Verify horsepower class.",
+   "severity": "high"
+  },
+  {
+   "field": "צנרת",
+   "issue": "Source shows 'גובה / אורך: 50/25' which could be read as height 50 m and length 25 m; published as length 50 m, height 25 m per catalog. Confirm with Electra spec sheet.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Indoor and outdoor unit dimensions and operating current are not verified by any source.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty terms differ between Israeli retailers; verify with the importer.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 2 and 3 (cooling/heating output in watts): the quotes attach the wrong ranges to the values (7,110W is shown next to the heating BTU range 30,000~6,000), so the page block looks garbled; the BTU/h facts already cover output. Kept pipe length 50 m / height 25 m per catalog, but the quote's label order (height / length: 50/25) is ambiguous and flagged. Single Israeli retailer source only."
+ }
+}

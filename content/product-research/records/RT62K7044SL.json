@@ -1,0 +1,491 @@
+{
+ "modelNumber": "RT62K7044SL",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RT62K7044SL",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "נמצאו דפים של משווקים ישראליים בלבד (BetterShop, E-Zone, קרייזמן). לא נמצא דף היצרן או יבואן לדגם זה בתוצאות החיפוש. וריאנטים דומים שלא נכללו: RT62K7044BS (נירוסטה מושחרת) ו-650 ליטר (Hasb). | QA: Three Israeli retailer pages name the exact model RT62K7044SL with platinum steel finish, matching the catalog. Importer name appears only on one retailer page, so it is left unset."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kreizman.co.il/product/rt62k7044sl-samsung/",
+   "publisher": "קרייזמן חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/samsung_rt62k7044sl/",
+   "publisher": "BetterSHOP",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.e-zone.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-samsung-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-632-%D7%9C%D7%99%D7%98%D7%A8-rt62k7044sl",
+   "publisher": "E-Zone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "186 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "83.1 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "75.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק גוף",
+     "value": "65.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק כולל ידיות",
+     "value": "80 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "632 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "466 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "166 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Researcher reports 310 elsewhere; flagged.",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "307 קוט״ש"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מדחס",
+     "value": "דיגיטל אינוורטר (BLDC)"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "No Frost"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "5 תוכניות שונות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצב שבת",
+     "value": "מובנה, באישור המכון המדעי הטכנולוגי להלכה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "פלטינום סטיל"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבר דלת מינימלי לאחר פירוק הדלתות",
+     "value": "67.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer claim; warranty terms depend on importer.",
+     "label": "אחריות על המדחס",
+     "value": "10 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed unsupported wording.",
+   "text": "מערכת קירור כפולה Twin Cooling Plus עם שני מאיידים ושני מאווררים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Smart Conversion: הפעלת המקרר בתוכניות שונות, כגון מקרר מיני, מקרר ענק ומצב חופשה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Space Max: הגדלת נפח המקרר ללא הגדלת המידות החיצוניות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed uniform-temperature claim.",
+   "text": "Multi Flow: פיזור אוויר רב-זרימתי בתא הקירור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed Silver Nano.",
+   "text": "Silver Deodorizer לספיגת ריחות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed Ice Max name.",
+   "text": "מתקן קרח נשלף להגדלת נפח האחסון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סמסונג RT62K7044SL הוא מקרר מקפיא עליון בנפח כולל של 632 ליטר, עם 466 ליטר בתא הקירור ו-166 ליטר בתא ההקפאה. המקרר פועל בשיטת No Frost עם מדחס דיגיטל אינוורטר, וכולל מצב שבת מובנה באישור המכון המדעי הטכנולוגי להלכה. מתאים למשפחה שצריכה נפח קירור גדול ומקפיא עליון בגימור פלטינום סטיל.",
+  "highlights": [
+   "נפח כולל 632 ליטר: 466 ליטר קירור ו-166 ליטר הקפאה",
+   "שיטת קירור No Frost",
+   "מדחס דיגיטל אינוורטר (BLDC)",
+   "מצב שבת מובנה באישור המכון המדעי הטכנולוגי להלכה",
+   "דירוג אנרגטי E, צריכה שנתית 307 קוט״ש"
+  ],
+  "goodFor": [
+   "משפחה שזקוקה לתא קירור גדול לקניות שבועיות",
+   "בית שומר שבת שמחפש מצב שבת מובנה ומאושר",
+   "מי שמעדיף מקפיא עליון בלי צורך בהפשרה ידנית",
+   "מי שרוצה לשנות את אופן הפעלת המקרר, למשל מצב חופשה"
+  ],
+  "considerations": [
+   "יש לוודא שגומחת המקרר מתאימה למידות 186 × 83.1 ס״מ, עם עומק גוף של 65.7 ס״מ",
+   "העומק כולל ידיות הוא 80 ס״מ, כדאי לבדוק שהדלתות והמעבר במטבח לא נחסמים",
+   "מעבר הדלת המינימלי לאחר פירוק הדלתות הוא 67.5 ס״מ, יש למדוד את פתחי הכניסה לבית",
+   "דירוג האנרגיה הוא E, כדאי להביא בחשבון צריכה שנתית של 307 קוט״ש"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המקרר?",
+    "a": "הנפח הכולל הוא 632 ליטר: 466 ליטר בתא הקירור ו-166 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, יש מצב שבת מובנה באישור המכון המדעי הטכנולוגי להלכה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "גובה 186 ס״מ, רוחב 83.1 ס״מ ועומק 75.7 ס״מ. העומק כולל ידיות הוא 80 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר ייכנס בדלת צרה?",
+    "a": "לאחר פירוק הדלתות נדרש מעבר מינימלי של 67.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "איזה מדחס יש במקרר?",
+    "a": "מדחס דיגיטל אינוורטר (BLDC), ולפי המשווק ניתנת עליו אחריות של 10 שנים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא עליון סמסונג RT62K7044SL בנפח 632 ליטר, No Frost ומדחס דיגיטל אינוורטר עם מצב שבת מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סמסונג RT62K7044SL",
+   "RT62K7044SL",
+   "מקרר מקפיא עליון סמסונג",
+   "מקרר 632 ליטר",
+   "מקרר סמסונג נירוסטה",
+   "מקרר No Frost מקפיא עליון",
+   "מקרר עם מצב שבת",
+   "מקרר סמסונג אינוורטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גובה",
+   "catalogValue": "186.2 ס״מ",
+   "finding": "corrected",
+   "correctValue": "186 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "83.6 ס״מ",
+   "finding": "corrected",
+   "correctValue": "83.1 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "78.8 ס״מ",
+   "finding": "corrected",
+   "correctValue": "75.7 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק גוף",
+   "catalogValue": "64.7 ס״מ",
+   "finding": "corrected",
+   "correctValue": "65.7 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "622 ליטר נטו (461 קירור, 161 הקפאה), 632 ברוטו",
+   "finding": "corrected",
+   "correctValue": "632 ליטר (466 קירור, 166 הקפאה)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "310 קוט״ש",
+   "finding": "corrected",
+   "correctValue": "307 קוט״ש",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מדחס",
+   "catalogValue": "Digital Inverter (BLDC)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מעבר דלת מינימלי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "67.5 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח",
+   "issue": "הקטלוג מציין 622 ליטר נטו (461 קירור, 161 הקפאה). המשווקים מציינים 632 ליטר כולל, 466 קירור ו-166 הקפאה. יש לבדוק את שם המוצר ואת שדה הנפח.",
+   "severity": "high"
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "issue": "המקורות חלוקים: 307 קוט״ש ב-BetterShop וב-E-Zone, 310 קוט״ש בקרייזמן ובקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין 186.2 × 83.6 × 78.8 ס״מ. המשווקים מציינים 186 × 83.1 × 75.7 ס״מ, עם עומק גוף 65.7 ס״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן ניופרו מופיע רק בדף של BetterShop. לא נמצא דף של סמסונג ישראל או של היבואן לדגם זה, ולכן אין מקור יצרן לנתונים.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח",
+   "issue": "הקטלוג מציין 622 ליטר נטו (461 קירור, 161 הקפאה) ושם המוצר כולל 622 ליטר, ואילו המשווקים מציינים 632 ליטר כולל (466 קירור, 166 הקפאה). יש לבדוק מול נתוני היצרן.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות שפורסמו מגיעות ממשווק אחד (קרייזמן) וסותרות את הקטלוג (186.2 × 83.6 × 78.8 ס״מ, עומק גוף 64.7 ס״מ). יש לאמת מול מפרט היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "issue": "307 קוט״ש לפי BetterShop, והקטלוג מציין 310 קוט״ש. יש לאמת מול תווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אחריות 10 שנים על המדחס מופיעה רק בדף משווק; יש לוודא מול תנאי היבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Trimmed feature wording not supported by quotes: removed 'separate cooling of compartments' (feature 0), 'uniform temperature' (feature 3), 'Silver Nano' (feature 4), 'Ice Max' name (feature 5). All dimension and capacity facts come from a single Israeli retailer (Kreizman) and differ from the catalog; flagged for checking."
+ }
+}

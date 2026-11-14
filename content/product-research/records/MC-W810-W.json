@@ -1,0 +1,398 @@
+{
+ "modelNumber": "MC-W810-W",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "CHiQ",
+  "exactModel": "MC-W810-W",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היבואן הישראלי (chiq-israel.co.il) נושא את מק\"ט MC-W810-W ואת כל המפרט. הדף אינו מציין בשם את היבואן. שם המותג בקטלוג HCIQ, בדף CHiQ. | QA: דף chiq-israel.co.il נושא את מק\"ט MC-W810-W, 10 ק״ג, 1400 סל״ד, תואם לשם הקטלוג. המותג בקטלוג רשום HCIQ ואילו היצרן הוא CHiQ."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.chiq-israel.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A9%D7%9C-chiq-%D7%91%D7%A0%D7%A4%D7%97-10-%D7%A7%D7%99%D7%9C%D7%95/",
+   "publisher": "CHiQ Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "10 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1400 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח מהירות סחיטה",
+     "value": "500 עד 1400 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "BLDC עם טכנולוגיית אינוורטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 84.7 × 57.7 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר תוכניות כביסה",
+     "value": "18"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה חכמה בלחיצה אחת: שבב בינה מלאכותית מזהה את משקל הבגדים ומתאים את כמות המים ועוצמת הכביסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כביסה בקיטור להסרת לכלוך, ריחות וחיידקים בעדינות וללא שחיקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית הפעלה שקטה להפחתת רעשים בזמן הפעולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "הוסר האזכור של בקרת יציבות אלקטרונית שאינו מופיע בציטוט",
+   "text": "ארבעה בולמי זעזועים מסוג SPA לשיפור היציבות והפחתת רעידות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של CHiQ בקיבולת 10 ק״ג, עם מהירות סחיטה מרבית של 1400 סל״ד ומנוע BLDC אינוורטר. היא מציעה 18 תוכניות כביסה, כביסה בקיטור וזיהוי אוטומטי של משקל הכביסה, בדירוג אנרגטי A. מתאימה למשפחות שמכבסות כמויות גדולות ומחפשות מכונה בגודל סטנדרטי.",
+  "highlights": [
+   "קיבולת כביסה 10 ק״ג",
+   "סחיטה עד 1400 סל״ד",
+   "מנוע BLDC עם טכנולוגיית אינוורטר",
+   "18 תוכניות כביסה כולל כביסה בקיטור",
+   "דירוג אנרגטי A"
+  ],
+  "goodFor": [
+   "משפחות שמכבסות כמויות גדולות כמו מצעים ושמיכות בזכות קיבולת 10 ק״ג",
+   "מי שרוצה כביסה יבשה יותר בסוף התוכנית בזכות סחיטה עד 1400 סל״ד",
+   "בתים שבהם המכונה קרובה לחדרי מגורים, בזכות מנוע אינוורטר וטכנולוגיית הפעלה שקטה",
+   "מי שרוצה להסיר ריחות מבגדים בעזרת כביסה בקיטור"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה: המכונה ברוחב 60 ס״מ, גובה 84.7 ס״מ ועומק 57.7 ס״מ, ולהשאיר מרווח לצינורות ולפתיחת הדלת",
+   "כדאי לוודא שקע חשמל מוארק ייעודי ונקודת מים וניקוז קרובים",
+   "שם המותג בכרטיס המוצר רשום HCIQ, והיצרן הוא CHiQ"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של מכונת הכביסה CHiQ MC-W810-W?",
+    "a": "קיבולת הכביסה היא 10 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה?",
+    "a": "מהירות הסחיטה המרבית היא 1400 סל״ד, וניתן להתאים אותה בטווח שבין 500 ל-1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכונה?",
+    "a": "רוחב 60 ס״מ, גובה 84.7 ס״מ ועומק 57.7 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות כביסה יש?",
+    "a": "יש 18 תוכניות כביסה מובנות, ובהן כביסה בקיטור.",
+    "sources": []
+   },
+   {
+    "q": "איזה מנוע יש במכונה?",
+    "a": "מנוע BLDC עם טכנולוגיית אינוורטר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה CHiQ MC-W810-W פתח חזית 10 ק״ג, סחיטה 1400 סל״ד, מנוע אינוורטר ו-18 תוכניות. מפרט ומידות בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת כביסה CHiQ",
+   "CHiQ MC-W810-W",
+   "MC-W810-W",
+   "מכונת כביסה 10 ק\"ג",
+   "מכונת כביסה 1400 סל\"ד",
+   "מכונת כביסה אינוורטר",
+   "מכונת כביסה פתח חזית לבנה",
+   "מכונת כביסה עם קיטור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "10 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "BLDC אינוורטר חסכוני ושקט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה, רוחב, עומק",
+   "catalogValue": "84.7 ס\"מ, 60 ס\"מ, 57.7 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות כביסה",
+   "catalogValue": "18",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "HCIQ",
+   "finding": "corrected",
+   "correctValue": "CHiQ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר תוף",
+   "catalogValue": "53 ס\"מ",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "65 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק נומינלי",
+   "catalogValue": "2000W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח תוף",
+   "catalogValue": "54 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוטר פתח דלת",
+   "catalogValue": "33 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זווית פתיחת דלת",
+   "catalogValue": "135 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג פתיחה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "פתח חזית",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קוטר תוף",
+   "issue": "דף היבואן מציין קוטר תוף 530 ס\"מ (ככל הנראה טעות הקלדה של 53 ס\"מ). הקטלוג מציין 53 ס\"מ. לא נרשם ערך בתכונות.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין משקל נטו 65 ק\"ג. דף היבואן מציין 'משקל 10 ק\"ג', שנראה כקיבולת ולא כמשקל. המשקל לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מותג",
+   "issue": "הקטלוג מציין מותג HCIQ. דף היבואן ומק\"ט המוצר מציינים CHiQ. מומלץ לבדוק את שם המותג בכרטיס המוצר.",
+   "severity": "low"
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "issue": "תוצאת חיפוש מאתר השוואת מחירים (לא נפתחה ולא שמשה כראיה) מציינת 1200 סל\"ד למכונה דומה של CHiQ בקיבולת 10 ק\"ג. דף היבואן מציין 1400 סל\"ד למק\"ט הזה. יש לוודא.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "דף היבואן אינו מציין בשם את היבואן הישראלי, ולכן שדה היבואן נשאר ריק.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "לא נמצאה תקופת אחריות רשמית לדגם בדף היבואן. מדיניות האחריות מקושרת אך לא נפתחה.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק נומינלי",
+   "issue": "ההספק (2000W) והמתח שבקטלוג לא אומתו בדף היבואן שנבדק.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "בקטלוג המותג רשום HCIQ, ובדף היבואן ובשם הדגם הוא CHiQ.",
+   "severity": "low"
+  },
+  {
+   "field": "קוטר תוף",
+   "issue": "דף היבואן מציין קוטר תוף 530 ס\"מ, ככל הנראה טעות הקלדה. ערך הקטלוג (53 ס\"מ) לא אומת ולא פורסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל נטו בקטלוג (65 ק\"ג) לא אומת; דף היבואן מציין 'משקל 10 ק\"ג' שנראה כקיבולת.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק ומתח",
+   "issue": "ההספק והמתח שבקטלוג לא אומתו במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "כל העובדות והתכונות נתמכות בציטוטים תקינים מדף היבואן הישראלי של CHiQ הנושא את המק\"ט המדויק. אין סתירות בין המקורות."
+ }
+}

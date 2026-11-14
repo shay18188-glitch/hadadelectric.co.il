@@ -1,0 +1,494 @@
+{
+ "modelNumber": "MSM2650B CleverMixx",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MSM2650B",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן (EG, IN) וגיליון המפרט של BSH מזהים את הדגם MSM2650B (CleverMixx). לא נמצא יבואן ישראלי מאומת עם מפרט; שירות סי.אס.בי מוזכר כשירות הרשמי של בוש בישראל ומציע חלק חילוף לדגם, אך לא הוזן כיבואן. | QA: Bosch EG and IN product pages and the BSH spec sheet all name MSM2650B CleverMixx 600 W, matching the catalog model and wattage."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/eg/en/product/kitchentools/handblenders/others/MSM2650B",
+   "publisher": "Bosch Home Appliances EG",
+   "kind": "manufacturer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/en-IN/MSM2650B.pdf",
+   "publisher": "Bosch (BSH) - גיליון מפרט",
+   "kind": "manufacturer",
+   "market": "IN",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bosch-home.in/en/product/kitchen-appliances/hand-blenders/others/MSM2650B",
+   "publisher": "Bosch Home Appliances IN",
+   "kind": "manufacturer",
+   "market": "IN",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג המוצר",
+     "value": "בלנדר מוט (Hand blender)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Source gives 385x60x60 mm without axis labels; label made neutral.",
+     "label": "מידות",
+     "value": "38.5 × 6 × 6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "1.3 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "120 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "600 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "1"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Flagged: spec sheet reportedly lists dark grey/anthracite.",
+     "label": "צבע",
+     "value": "שחור פסנתר (Piano black)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "להב",
+     "value": "להב 4 כנפיים, נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר רגל הערבול",
+     "value": "מתכת"
+    },
+    {
+     "sources": [
+      "s2",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Reworded to match spec sheet scope.",
+     "label": "ניקוי",
+     "value": "כל האביזרים ניתנים לשטיפה במדיח (בקוצץ האוניברסלי – למעט תיבת ההילוכים)"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נעילת בטיחות",
+     "value": "נעילת בייונט בחיבור מוט הערבול"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע 600 וואט לעיבוד מרכיבים קשים ולהפעלת מגוון אביזרים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להב QuattroBlade לחיתוך יעיל ולערבול עדין, עם פונקציית AntiSplash"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית AntiSplash למניעת התזות בזמן הערבול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה בלחיצת כפתור"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית ארגונומית הנוחה לאחיזה בזמן הערבול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote confirms demountable only, not stainless material.",
+   "text": "רגל ערבול נשלפת"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מוט ערבול מנירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מקצף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קוצץ אוניברסלי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כוס ערבול ומדידה עם פייה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Bosch CleverMixx MSM2650B הוא בלנדר מוט בהספק 600 W עם רגל ערבול ממתכת ולהב QuattroBlade בעל 4 כנפיים מנירוסטה. בערכה מוט ערבול, מקצף, קוצץ אוניברסלי וכוס מדידה, וכל האביזרים ניתנים לשטיפה במדיח. מתאים למי שמכין מרקים, מחיות ורטבים וגם רוצה לקצוץ ולהקציף בעזרת מכשיר אחד.",
+  "highlights": [
+   "מנוע 600 W",
+   "להב QuattroBlade עם 4 כנפיים מנירוסטה ופונקציית AntiSplash",
+   "רגל ערבול ממתכת, נשלפת",
+   "בערכה: מקצף, קוצץ אוניברסלי וכוס ערבול ומדידה",
+   "אביזרים ניתנים לשטיפה במדיח"
+  ],
+  "goodFor": [
+   "הכנת מרקים ומחיות ישירות בסיר בזכות רגל ערבול ממתכת",
+   "קיצוץ עשבי תיבול ואגוזים בעזרת הקוצץ האוניברסלי",
+   "הקצפת שמנת וחלבונים בעזרת המקצף",
+   "מטבח שבו רוצים מכשיר אחד קומפקטי במקום כמה מכשירים"
+  ],
+  "considerations": [
+   "יש מהירות אחת בלבד, ללא כיוון מהירות או טורבו",
+   "אורך הכבל 120 ס״מ – כדאי לוודא שקע קרוב למשטח העבודה",
+   "בקוצץ האוניברסלי תיבת ההילוכים אינה מיועדת למדיח"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Bosch MSM2650B?",
+    "a": "הספק המנוע הוא 600 W.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "מוט ערבול מנירוסטה, מקצף, קוצץ אוניברסלי וכוס ערבול ומדידה עם פייה.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשטוף את האביזרים במדיח?",
+    "a": "כן, כל האביזרים ניתנים לשטיפה במדיח, למעט תיבת ההילוכים של הקוצץ האוניברסלי.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש לבלנדר?",
+    "a": "מהירות אחת, המופעלת בלחיצת כפתור.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויה רגל הערבול?",
+    "a": "רגל הערבול עשויה מתכת, והלהב בעל 4 כנפיים מנירוסטה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Bosch CleverMixx MSM2650B – מנוע 600 W, רגל ערבול ממתכת עם להב QuattroBlade, מקצף וקוצץ בערכה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט בוש",
+   "Bosch MSM2650B",
+   "CleverMixx",
+   "בלנדר מוט 600 וואט",
+   "בלנדר מוט עם קוצץ ומקצף",
+   "בוש קלבר מיקס",
+   "מוט ערבול רגל מתכת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "600 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית להבים",
+   "catalogValue": "QuattroBlade - להב בעל 4 כנפיים מנירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר הרגלית",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומרי המכשיר (גוף)",
+   "catalogValue": "פלסטיק",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חומרי המכשיר (ללא BPA)",
+   "catalogValue": "ללא BPA בכל החלקים במגע עם מזון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "גובה 38.5 ס״מ, קוטר 6 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "1.3 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.20 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מיכל ערבוב ומדידה שקוף (700 מ״ל) עם מכסה",
+   "catalogValue": "700 מ״ל עם מכסה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוצץ אוניברסלי (500 מ״ל) עם מכסה",
+   "catalogValue": "500 מ״ל עם מכסה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקצף בלון מנירוסטה",
+   "catalogValue": "מקצף בלון מנירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ניקוי: אביזרים במדיח",
+   "catalogValue": "אביזרים ניתנים לשטיפה במדיח כלים (למעט יחידת המנוע והתמסורת)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור/אנתרציט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סלובניה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נעילת בטיחות (בייונט)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "נעילת בייונט בחיבור מוט הערבוב",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "AntiSplash",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "טכנולוגיית AntiSplash למניעת התזות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "דף היצרן EG מציין Piano black, וגיליון המפרט IN מציין Dark grey metallic, anthracite. יש לוודא את צבע הגרסה הנמכרת בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "דף היצרן נותן 385x60x60 mm ללא תוויות צירים. הקטלוג מתאר גובה 38.5 ס״מ וקוטר 6 ס״מ. הסדר בשורת המידות המשולבת הוא הנחה ויש לאמת לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מיכל ומדידה",
+   "issue": "הנפחים 700 מ״ל ו-500 מ״ל נמצאו רק באתר קמעונאי דני, ולכן לא פורסמו. לבדוק מול האביזרים בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא יבואן ישראלי מאומת עם המפרט. שירות סי.אס.בי מוזכר כשירות הרשמי של בוש בישראל אך לא הוזן כיבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "דף היצרן EG מציין Piano black, הקטלוג מציין שחור/אנתרציט ולפי החוקר גיליון המפרט מציין אפור כהה מטאלי/אנתרציט. לוודא את צבע היחידה הנמכרת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "היצרן נותן 385x60x60 mm ללא תוויות צירים; פורסם ללא ציון צירים.",
+   "severity": "low"
+  },
+  {
+   "field": "נפחי אביזרים",
+   "issue": "נפחי הכוס (700 מ״ל) והקוצץ (500 מ״ל) בקטלוג לא אומתו במקור יצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא אומת יבואן ישראלי.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions label changed to plain 'מידות' since the manufacturer gives 385x60x60 mm without axis labels. Cleaning value reworded so the gear-box exception applies to the universal chopper, as in the spec sheet. Feature 5 reworded: the quote only confirms a demountable mixer foot, not its material. In-the-box 'universal shredder' rendered as קוצץ אוניברסלי."
+ }
+}

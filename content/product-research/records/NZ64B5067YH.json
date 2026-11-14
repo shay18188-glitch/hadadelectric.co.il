@@ -1,0 +1,507 @@
+{
+ "modelNumber": "NZ64B5067YH",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "NZ64B5067YH",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "מוכר גם כ-NZ64B5067 (Electro Click). manua.ls מציין גם את הווריאנטים NZ64B5067YH/U1 ו-NZ64B5067YY. לא נמצא דף ישראלי של היבואן או של סמסונג ישראל לדגם המדויק דרך החיפוש. | QA: Electro Click (Israeli retailer) page names NZ64B5067YH with white ceramic glass, matching the catalog's white induction hob. Israeli importer not identified."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://electroclick.co.il/product/samsung-nz64b5067yh/",
+   "publisher": "Electro Click",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.manua.ls/samsung/nz64b5067yh/manual",
+   "publisher": "manua.ls",
+   "kind": "manual",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג כיריים",
+     "value": "כיריים אינדוקציה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "NZ64B5067YH"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59 × 4.8 × 52 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "catalog says 11.3 kg; flagged",
+     "label": "משקל",
+     "value": "11 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב חיתוך",
+     "value": "560 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק חיתוך",
+     "value": "480 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק התקנה נדרש מתחת למשטח",
+     "value": "5.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבור חשמלי חד-פאזי",
+     "value": "25 או 32 אמפר, בקו חשמל נפרד מלוח החשמל"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר אזורי בישול",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "7400 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק לאזור בישול",
+     "value": "2,200 W (3,700 W במצב Boost)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמות עוצמה",
+     "value": "15 + Boost"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג בקרה",
+     "value": "מגע והחלקה (Touch & Slide)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משטח",
+     "value": "זכוכית קרמית לבנה (Schott Ceran)"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבור לאפליקציה",
+     "value": "SmartThings"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קישוריות",
+     "value": "Wi-Fi"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בטיחות",
+     "value": "נעילת ילדים, מחוון חום שיורי, כיבוי בטיחות ופאוזה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זיהוי סיר",
+     "value": "זיהוי סיר אוטומטי"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "טיימר מטבח ועצירה (Pause)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Dual Flex Zone – שני אזורים גמישים גדולים לכלים מוארכים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Slim Fit – גוף דק של 4.8 ס״מ המשאיר יותר מקום למגירה מתחת לכיריים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "SmartThings – ניטור ומעקב אחר הבישול מהסמארטפון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "זיהוי סיר אוטומטי וזיהוי כלים קטנים – הכיריים מזהות את הכלי ומתריעות כשהוא קטן מדי לאזור"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "החיבור מחייב חשמלאי מוסמך או מתקין מטעם היבואן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התקנה עילית בלבד (הדגם אינו מיועד להתקנה שטוחה)"
+  }
+ ],
+ "content": {
+  "summary": "כיריים אינדוקציה של סמסונג, דגם NZ64B5067YH, עם 4 אזורי בישול ומשטח זכוכית קרמית לבנה. הספק כולל של 7400 W, ‏15 רמות עוצמה + Boost ושני אזורי Dual Flex לכלים מוארכים. גוף דק של 4.8 ס״מ משאיר מקום למגירה מתחת, וחיבור Wi-Fi לאפליקציית SmartThings מאפשר מעקב אחר הבישול מהסמארטפון. מתאימות למי שמחפש כיריים אינדוקציה לבנות עם אזורים גמישים וחיבור חכם.",
+  "highlights": [
+   "4 אזורי בישול, הספק כולל 7400 W",
+   "שני אזורי Dual Flex לכלים מוארכים",
+   "גוף דק של 4.8 ס״מ – מקום למגירה מתחת",
+   "Wi-Fi ואפליקציית SmartThings",
+   "משטח זכוכית קרמית לבנה (Schott Ceran)"
+  ],
+  "goodFor": [
+   "מטבח שבו רוצים מגירה ישירות מתחת לכיריים, בזכות הגוף הדק",
+   "בישול בתבניות או סירים מוארכים על אזורי ה-Dual Flex",
+   "מי שרוצה לעקוב אחר הבישול מהטלפון דרך SmartThings",
+   "מטבח בעיצוב בהיר שמתאים למשטח זכוכית לבן"
+  ],
+  "considerations": [
+   "יש לוודא חיתוך במשטח של 560 × 480 מ״מ ועומק פנוי של 5.8 ס״מ מתחת למשטח",
+   "בחיבור חד-פאזי נדרש קו חשמל נפרד מלוח החשמל של 25 או 32 אמפר",
+   "החיבור מחייב חשמלאי מוסמך או מתקין מטעם היבואן",
+   "הדגם מיועד להתקנה עילית בלבד ולא להתקנה שטוחה"
+  ],
+  "faq": [
+   {
+    "q": "כמה אזורי בישול יש בכיריים?",
+    "a": "יש 4 אזורי בישול, כולל שני אזורי Dual Flex גמישים לכלים מוארכים.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך הנדרשות במשטח?",
+    "a": "רוחב חיתוך 560 מ״מ ועומק חיתוך 480 מ״מ, ונדרש עומק התקנה של 5.8 ס״מ מתחת למשטח.",
+    "sources": []
+   },
+   {
+    "q": "איזה חיבור חשמלי נדרש?",
+    "a": "בחיבור חד-פאזי נדרש קו חשמל נפרד מלוח החשמל של 25 או 32 אמפר, והחיבור מחייב חשמלאי מוסמך או מתקין מטעם היבואן.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט בכיריים מהטלפון?",
+    "a": "הכיריים מתחברות ב-Wi-Fi לאפליקציית SmartThings, שמאפשרת ניטור ומעקב אחר הבישול מהסמארטפון.",
+    "sources": []
+   },
+   {
+    "q": "אילו מנגנוני בטיחות יש?",
+    "a": "נעילת ילדים, מחוון חום שיורי, כיבוי בטיחות, פאוזה וזיהוי סיר אוטומטי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים אינדוקציה סמסונג NZ64B5067YH לבנות: 4 אזורי בישול עם Dual Flex, הספק 7400 W וחיבור Wi-Fi ל-SmartThings. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סמסונג NZ64B5067YH",
+   "NZ64B5067YH",
+   "כיריים אינדוקציה סמסונג",
+   "כיריים אינדוקציה לבנות",
+   "כיריים אינדוקציה 60 ס״מ",
+   "כיריים Slim Fit סמסונג",
+   "כיריים אינדוקציה Wi-Fi",
+   "כיריים אינדוקציה Dual Flex"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג כיריים",
+   "catalogValue": "אינדוקציה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "60 ס״מ",
+   "finding": "corrected",
+   "correctValue": "59 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "רוחב 590 מ״מ, עומק 520 מ״מ, גובה 48 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "11.3 ק״ג",
+   "finding": "contradicted",
+   "correctValue": "11 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "7.4 קילוואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה (התקנה)",
+   "catalogValue": "560x480 מ״מ, גובה 58 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר אזורי בישול",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "15 רמות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סדרה",
+   "catalogValue": "Bespoke Slim Fit",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיהוי כלים קטנים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "זיהוי כלים קטנים – הכיריים מזהות את הכלי ומתריעות כשהוא קטן מדי לאזור",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל נטו",
+   "issue": "מקור ישראלי (Electro Click) מציין 11 ק״ג, ו-manua.ls מציין 11300 g (11.3 ק״ג). הקטלוג מציין 11.3 ק״ג. יש לאמת מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "לא זוהה יבואן ישראלי ולא נמצא דף של סמסונג ישראל לדגם המדויק. יש לאמת שהווריאנט YH הוא הווריאנט המיובא לישראל, וכי אין הבדלי מפרט בין ווריאנטי NZ64B5067YH/U1 ו-NZ64B5067YY שמופיעים באתרי מדריכים.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "Electro Click מציין 11 ק״ג והקטלוג מציין 11.3 ק״ג; יש לאמת מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "לא זוהה יבואן ישראלי ולא נמצא דף של סמסונג ישראל לדגם; יש לאמת שהווריאנט YH הוא הווריאנט המיובא.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב",
+   "issue": "שם הקטלוג מציין 60 ס״מ בעוד הרוחב בפועל 59 ס״מ (כמקובל לכיריים בתקן 60).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept all facts from the Israeli retailer page that names the exact model. Clarified the per-zone power label. Weight kept as 11 kg from the retailer page while the catalog states 11.3 kg — flagged. manua.ls relabelled as manual."
+ }
+}

@@ -1,0 +1,541 @@
+{
+ "modelNumber": "MAX INVERTER 140",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electra",
+  "exactModel": "MAX INVERTER 140",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Retailer pages call this model MAX INV 140 (Bettershop, Ivory SKU MAX-INV-140) or Electra Max Inverter 140 (ACE, Ivory). No official Electra or importer page was found. Facts come from Israeli retailers only. | QA: Three Israeli retailer pages name Electra Max Inverter 140 / MAX INV 140 with matching BTU, SEER and SCOP values. No manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bettershop.co.il/product/electra-max-inv-140/",
+   "publisher": "Bettershop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ivory.co.il/catalog.php?id=111895",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.ace.co.il/4464810",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מזגן עילי אינוורטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת קירור",
+     "value": "9,365 BTU/h"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת חימום",
+     "value": "11,020 BTU/h"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק נצרך בקירור",
+     "value": "850 W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק נצרך בחימום",
+     "value": "920 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A++"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות בקירור (SEER)",
+     "value": "6.2"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות בחימום (SCOP)",
+     "value": "4.52"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח הזנה",
+     "value": "230V / 50Hz / חד פאזי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Per retailers, subject to Electra terms.",
+     "label": "אחריות",
+     "value": "5 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "conflict",
+   "note": "Sibling 'Max Inverter WIFI 140' exists; Wi-Fi on this unit unconfirmed.",
+   "text": "שליטה באפליקציה ייעודית באמצעות Wi-Fi"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי עצמי של הסוללה לשמירה על היגיינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי הידרופילי שמונע הצטברות לחות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוז דו-צדדי לגמישות בהתקנה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב שבת מובנה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיזור אוויר 4D"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מאייד (יחידה פנימית) קצר במיוחד"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Electra Max Inverter 140 הוא מזגן עילי אינוורטר עם תפוקת קירור של 9,365 BTU/h ותפוקת חימום של 11,020 BTU/h. הוא מדורג A++ עם SEER של 6.2 ו-SCOP של 4.52, וכולל מצב שבת מובנה וניקוי עצמי של הסוללה. מתאים למי שמחפש מזגן עילי חסכוני לחדר לקירור בקיץ ולחימום בחורף.",
+  "highlights": [
+   "תפוקת קירור 9,365 BTU/h ותפוקת חימום 11,020 BTU/h",
+   "דירוג אנרגטי A++",
+   "SEER 6.2 בקירור ו-SCOP 4.52 בחימום",
+   "מצב שבת מובנה ופיזור אוויר 4D",
+   "אחריות 5 שנים לפי הקמעונאים"
+  ],
+  "goodFor": [
+   "חדר שינה או חדר עבודה שצריך גם קירור וגם חימום",
+   "בית שומר שבת, בזכות מצב שבת מובנה",
+   "מי שרוצה לחסוך בחשמל עם מזגן אינוורטר בדירוג A++",
+   "קיר שבו מקום ההתקנה מוגבל, בזכות ניקוז דו-צדדי ומאייד קצר"
+  ],
+  "considerations": [
+   "ודאו שיש נקודת חשמל 230V חד פאזית מתאימה בקרבת מקום ההתקנה",
+   "תאמו עם המתקין את מיקום היחידה החיצונית ואת כיוון הניקוז",
+   "אם שליטה באפליקציה חשובה לכם, בדקו מול המוכר שהדגם כולל Wi-Fi",
+   "התייעצו עם מתקין לגבי התאמת תפוקת הקירור לגודל החדר"
+  ],
+  "faq": [
+   {
+    "q": "מה תפוקת הקירור והחימום של המזגן?",
+    "a": "תפוקת הקירור היא 9,365 BTU/h ותפוקת החימום היא 11,020 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "האם המזגן חסכוני בחשמל?",
+    "a": "המזגן מדורג A++, עם SEER של 6.2 בקירור ו-SCOP של 4.52 בחימום. ההספק הנצרך הוא 850 W בקירור ו-920 W בחימום.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מצב שבת?",
+    "a": "כן, למזגן יש מצב שבת מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המזגן?",
+    "a": "לפי הקמעונאים, האחריות היא 5 שנים על ידי אלקטרה, בכפוף לתנאי היצרן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן עילי אינוורטר Electra Max Inverter 140: קירור 9,365 BTU/h, דירוג A++ ומצב שבת מובנה. ייעוץ והתקנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "אלקטרה מקס אינוורטר 140",
+   "Electra Max Inverter 140",
+   "MAX INV 140",
+   "מזגן עילי אלקטרה",
+   "מזגן אינוורטר A++",
+   "מזגן עם מצב שבת",
+   "מזגן עילי לחדר שינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם",
+   "catalogValue": "מזגן 1.2 כ\"ס",
+   "finding": "contradicted",
+   "correctValue": "1 כ״ס",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Electra",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "9,365 BTU/h (טווח: 3,700-11,300 BTU/h) / 2,745W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "11,020 BTU/h (טווח: 3,600-13,400 BTU/h) / 3,230W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A++",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקדם יעילות",
+   "catalogValue": "קירור SEER 6.2, חימום SCOP 4.52",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק נצרך",
+   "catalogValue": "קירור 850W, חימום 920W",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ספיקת אוויר",
+   "catalogValue": "260 CFM (כ-440 מ\"ק לשעה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח הזנה",
+   "catalogValue": "230V / 50Hz / 1Ph",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מאמ\"ת מומלץ",
+   "catalogValue": "10A (דגם C)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבורי צנרת",
+   "catalogValue": "1/4\"x3/8\"",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צנרת מקסימלית (גובה/אורך)",
+   "catalogValue": "10/25 מטר",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות יחידה פנימית",
+   "catalogValue": "715x285x194 מ\"מ",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות יחידה חיצונית",
+   "catalogValue": "720x495x270 מ\"מ",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "WiFi",
+   "catalogValue": "WiFi מובנה לשליטה באפליקציית Electra Smart",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב שבת",
+   "catalogValue": "מצב שבת מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פיזור אוויר",
+   "catalogValue": "פיזור אוויר 4D",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ניקוי עצמי",
+   "catalogValue": "פונקציית ניקוי עצמי (Self Cleaning) של הסוללה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי הידרופילי",
+   "catalogValue": "ציפוי הידרופילי (Gold Coating)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוז דו-צדדי",
+   "catalogValue": "אפשרות לניקוז דו-צדדי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות מפוח",
+   "catalogValue": "8 מהירויות מפוח (3+5 מהירויות)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית Inverter",
+   "catalogValue": "טכנולוגיית Inverter",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "ישראל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5 שנים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שם",
+   "issue": "The catalog name says 1.2 כ\"ס. Bettershop lists the model as 1 כ״ס (title 'מזגן עילי אלקטרה מקס 1 כ”ס'), and BTU ratings match a 1 HP unit.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimension sources conflict. Indoor unit: ACE gives 71.5 × 28.5 × 19.4 cm, Bettershop gives 71.5 × 25 × 19 cm. Outdoor unit: Bettershop gives 72 × 49.5 × 27 cm, ACE gives 72 × 27 × 49.5 cm (height and depth swapped). The catalog's 715x285x194 and 720x495x270 mm match ACE (indoor) and Bettershop (outdoor). Verify against the manufacturer's spec sheet before publishing dimensions.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "No page uses the exact string 'MAX INVERTER 140'. Pages use 'MAX INV 140' (Bettershop, Ivory SKU MAX-INV-140) and 'Electra Max Inverter 140' (ACE, Ivory). Same model family, but confirm the code.",
+   "severity": "medium"
+  },
+  {
+   "field": "WiFi",
+   "issue": "Zap lists a separate sibling named 'Electra Max Inverter WIFI 140'. The Bettershop page for this model describes Wi-Fi control, but another listing for the same name does not. Confirm whether this exact model has Wi-Fi.",
+   "severity": "medium"
+  },
+  {
+   "field": "צנרת מקסימלית",
+   "issue": "ACE lists pipe length as 'צנרת (גובה / אורך): 25/10 מטר', the reverse of the catalog's 10/25. Confirm against the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "No official Electra or Israeli importer page was found. All facts come from Israeli retailers (Bettershop, ACE, Ivory). The Israeli importer is not confirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "רעש",
+   "issue": "No noise level (dB) found on any fetched page. Not published.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "No unit weight found on any fetched page. Not published.",
+   "severity": "low"
+  },
+  {
+   "field": "שם",
+   "issue": "Catalog name says 1.2 כ״ס; Bettershop titles this model 1 כ״ס. Confirm horsepower against Electra.",
+   "severity": "high"
+  },
+  {
+   "field": "WiFi",
+   "issue": "A sibling 'Electra Max Inverter WIFI 140' exists and listings disagree on Wi-Fi for this model. Confirm before claiming Wi-Fi/Electra Smart.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Indoor and outdoor dimensions conflict between ACE and Bettershop; not published. Verify from the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "צנרת מקסימלית",
+   "issue": "ACE lists 25/10 m (height/length), reverse of catalog 10/25. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sources use 'MAX INV 140' / 'Max Inverter 140'; no official Electra page found. Confirm model code.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Wi-Fi feature (feature 0) marked conflict: a separate sibling 'Max Inverter WIFI 140' exists and the payload notes another listing without Wi-Fi, so Wi-Fi on this exact unit is unconfirmed. Type label reworded to Hebrew. Catalog name says 1.2 כ״ס while Bettershop titles it 1 כ״ס; flagged, not changed. Dimensions, airflow, breaker and pipe lengths not published (unverified or conflicting)."
+ }
+}

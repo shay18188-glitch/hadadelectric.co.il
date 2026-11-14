@@ -1,0 +1,511 @@
+{
+ "modelNumber": "H65S80EUX",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Haier",
+  "exactModel": "H65S80EUX",
+  "israeliImporter": "ניופאן",
+  "matchConfidence": "high",
+  "notes": "דף מוכר ישראלי (BUG) מזכיר את הדגם המדויק ואת ניופאן כגורם האחריות. דף יצרן בפקיסטן שנבדק נושא כותרת של דגם אחר (H65S80GUX) ולכן לא שימש כראיה. | QA: BUG page names the exact model H65S80EUX, 65 inch, warranty by Newpan, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/טלוויזיה-חכמה-65-haier-qled-31005000h65s80eux",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "H65S80EUX"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "65 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840 × 2160 (4K)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source says QLED & DLED",
+     "label": "סוג מסך",
+     "value": "QLED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח צבעים",
+     "value": "Quantum dot"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog 24W; flagged",
+     "label": "הספק רמקולים",
+     "value": "19 W (2 × 9.5 W)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עיבוד סאונד",
+     "value": "Dolby Digital, DBX-TV"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.1"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "מובנה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות USB",
+     "value": "2 (USB 2.0)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "4 (HDMI 2.1, ALLM, VRR, eARC)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב ללא מעמד",
+     "value": "144.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה ללא מעמד",
+     "value": "83.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק ללא מעמד",
+     "value": "8.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "14.7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחת, באמצעות ניופאן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed unsupported Hebrew claim",
+   "text": "שליטה קולית באמצעות Google Assistant במגוון שפות לחיפוש תוכן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Chromecast מובנה לשיקוף מסך מהטלפון, הטאבלט או המחשב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב ללא מסגרת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed antenna-not-included clause",
+   "text": "תומך DVB-T2 לקליטת שידורי עידן פלוס"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חנות אפליקציות הכוללת אפליקציות ישראליות, כגון Yes+ ו-Cellcom TV"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טלוויזיה חכמה Haier H65S80EUX בגודל 65 אינץ׳ עם מסך QLED ברזולוציית 4K ומערכת ההפעלה Google TV. הטלוויזיה כוללת 4 כניסות HDMI 2.1 עם ALLM, VRR ו-eARC, וחנות אפליקציות עם אפליקציות ישראליות כמו Yes+ ו-Cellcom TV. מתאימה למי שמחפש מסך גדול לסלון עם צפייה בסטרימינג וחיבור קונסולות ומערכות שמע.",
+  "highlights": [
+   "מסך QLED בגודל 65 אינץ׳ ברזולוציית 4K (3840 × 2160)",
+   "מערכת הפעלה Google TV עם Chromecast מובנה",
+   "4 כניסות HDMI 2.1 עם ALLM, VRR ו-eARC",
+   "תמיכה ב-DVB-T2 לקליטת שידורי עידן פלוס",
+   "אחריות לשנה אחת באמצעות ניופאן"
+  ],
+  "goodFor": [
+   "סלון שבו רוצים מסך 4K גדול לצפייה בסדרות וסרטים בסטרימינג",
+   "משחק בקונסולות שמנצלות HDMI 2.1 עם VRR ו-ALLM",
+   "חיבור מקרן קול דרך eARC לשיפור הסאונד",
+   "צפייה באפליקציות ישראליות כמו Yes+ ו-Cellcom TV ישירות מהטלוויזיה"
+  ],
+  "considerations": [
+   "יש לוודא שהמקום מתאים לרוחב של 144.5 ס״מ ולגובה של 83.7 ס״מ ללא מעמד",
+   "לתלייה על הקיר יש לבחור זרוע שנושאת את משקל המסך, 14.7 ק״ג ללא מעמד",
+   "הספק הרמקולים הוא 19 W, ומי שרוצה סאונד חזק יותר יכול לשקול מקרן קול דרך eARC",
+   "לקליטת שידורי עידן פלוס נדרשת אנטנה מתאימה"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "הטלוויזיה פועלת עם Google TV וכוללת Chromecast מובנה לשיקוף מסך מהטלפון, הטאבלט או המחשב.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לצפות באפליקציות ישראליות?",
+    "a": "כן, חנות האפליקציות כוללת אפליקציות ישראליות כמו Yes+ ו-Cellcom TV.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש?",
+    "a": "יש 4 כניסות HDMI 2.1 עם תמיכה ב-ALLM, VRR ו-eARC.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המסך ללא מעמד?",
+    "a": "רוחב 144.5 ס״מ, גובה 83.7 ס״מ ועומק 8.6 ס״מ, ומשקל 14.7 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלוויזיה?",
+    "a": "אחריות לשנה אחת באמצעות ניופאן, בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה Haier H65S80EUX בגודל 65 אינץ׳, מסך QLED ברזולוציית 4K עם Google TV ו-4 כניסות HDMI 2.1 עם eARC. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Haier H65S80EUX",
+   "טלוויזיה האייר 65 אינץ",
+   "טלוויזיה QLED 65",
+   "טלוויזיה Google TV 65 אינץ",
+   "טלוויזיה 4K 65 אינץ",
+   "האייר ניופאן טלוויזיה",
+   "טלוויזיה חכמה 65 אינץ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "65 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "3840x2160 (4K Ultra HD)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית פאנל",
+   "catalogValue": "QLED (Quantum Dot)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "120Hz (באמצעות טכנולוגיית DLG/MEMC)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בהירות",
+   "catalogValue": "320 nits (טיפוסי)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יחס ניגודיות",
+   "catalogValue": "6000:1",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד וזיכרון",
+   "catalogValue": "ARM Cortex CA55 / 2GB RAM + 32GB ROM",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק שמע",
+   "catalogValue": "24W (שני רמקולים של 12W)",
+   "finding": "contradicted",
+   "correctValue": "19W (2*9.5W)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi Dual-band (2.4/5G)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "5.1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDMI",
+   "catalogValue": "4 כניסות HDMI 2.1 (eARC, ALLM, VRR)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "USB",
+   "catalogValue": "2 כניסות USB 2.0",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבור רשת RJ45",
+   "catalogValue": "RJ45",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "רוחב 1445.6 מ\"מ, גובה 837 מ\"מ, עומק 84.3 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "144.5 × 83.7 × 8.6 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "כ-16.2 ק\"ג",
+   "finding": "contradicted",
+   "correctValue": "14.7 ק״ג (ללא מעמד)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V ~ 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "catalogValue": "400x300 מ\"מ",
+   "finding": "contradicted",
+   "correctValue": "300*400",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור/מטאלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחת",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק שמע",
+   "issue": "הקטלוג מציין 24W (2×12W). דף המוכר הישראלי מציין 19W (2*9.5W), ו-tvsfaq.com מציין 20W. יש לבדוק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "issue": "הקטלוג מציין 400x300 מ\"מ. דף המוכר הישראלי מציין 300*400. כיוון הערך לא ברור.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרטי תצוגה ומעבד",
+   "issue": "בהירות, ניגודיות, מעבד, זיכרון, מתח עבודה, RJ45 וצבע לא אומתו בדף מקור שמזכיר את הדגם המדויק.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק שמע",
+   "issue": "הקטלוג מציין 24W (2×12W), ודף המוכר הישראלי מציין 19W (2×9.5W). יש לבדוק מול היבואן ולעדכן את הקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "הקטלוג מציין משקל כ-16.2 ק״ג ועומק 84.3 מ״מ, ודף המוכר מציין 14.7 ק״ג ועומק 8.6 ס״מ. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרטים שלא אומתו",
+   "issue": "קצב רענון, בהירות, ניגודיות, מעבד, זיכרון, Dolby Atmos/Vision ו-VESA בקטלוג לא אומתו במקור שמזכיר את הדגם המדויק.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0: removed the claim of Hebrew voice commands (quote only says many languages). Feature 3: removed the 'antenna not included' clause, which is not in the quote. Speaker power 19W kept from the Israeli retailer page but contradicts the catalog's 24W; flagged."
+ }
+}

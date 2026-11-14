@@ -1,0 +1,412 @@
+{
+ "modelNumber": "75R55",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "ROWA",
+  "exactModel": "75R55",
+  "israeliImporter": "ב.ט.י אלקטרוניקה",
+  "matchConfidence": "medium",
+  "notes": "Citydeal lists the set as made by TCL under the ROWA brand. Several retailer listings for the name disagree on panel and memory; see reviewFlags. | QA: Citydeal and ACE pages name the ROWA 75R55 / R55 75 inch. Conflicting listings elsewhere describe a Mini-LED 144Hz panel under a similar name, so the exact Israeli spec should be confirmed with the importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-rowa-r55-%D7%91%D7%92%D7%95%D7%93%D7%9C-75-%D7%90%D7%99%D7%A0%D7%A5-4k-hdr-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "Citydeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ace.co.il/7001353",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "75 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K UHD"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Other listings claim 144Hz; flagged.",
+     "label": "קצב רענון",
+     "value": "60Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תמיכה ב-HDR",
+     "value": "HDR10"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סאונד",
+     "value": "Dolby Audio"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל",
+     "value": "200 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote says without packaging; matches catalog no-stand dimensions.",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1667 × 959 × 74 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "18 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה קולית עם Google TV"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסך Bezel-less בעיצוב מתכתי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שיקוף אלחוטי Google Cast מהנייד לטלוויזיה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טלוויזיה חכמה של ROWA בגודל 75 אינץ' ברזולוציית 4K UHD, עם מערכת ההפעלה Google TV ותמיכה ב-HDR10. הסאונד מבוסס Dolby Audio, ויש שיקוף אלחוטי Google Cast מהנייד. מתאימה למי שמחפש מסך גדול לסלון עם אפליקציות סטרימינג מובנות ושליטה קולית.",
+  "highlights": [
+   "מסך 75 אינץ' ברזולוציית 4K UHD",
+   "מערכת הפעלה Google TV עם שליטה קולית",
+   "תמיכה ב-HDR10",
+   "סאונד Dolby Audio",
+   "שיקוף אלחוטי Google Cast מהנייד"
+  ],
+  "goodFor": [
+   "סלון גדול שבו רוצים מסך 75 אינץ' לצפייה משפחתית",
+   "צפייה בשירותי סטרימינג דרך Google TV בלי ממיר נוסף",
+   "הקרנת תמונות וסרטונים מהנייד באמצעות Google Cast"
+  ],
+  "considerations": [
+   "רוחב המסך ללא מעמד הוא 1667 מ״מ – כדאי למדוד את הקיר או את המזנון לפני הרכישה",
+   "משקל הטלוויזיה 18 ק״ג – בתלייה על הקיר יש לוודא קיר ומתקן מתאימים",
+   "קצב הרענון הוא 60Hz – למי שמחפש מסך לגיימינג מהיר כדאי לבדוק אם זה מספיק",
+   "צריכת החשמל היא 200 W – כדאי לחבר לשקע תקין ורצוי דרך מגן מתח"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "הטלוויזיה מגיעה עם Google TV, כולל שליטה קולית.",
+    "sources": []
+   },
+   {
+    "q": "מה הרזולוציה של המסך?",
+    "a": "רזולוציית 4K UHD עם תמיכה ב-HDR10.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הטלוויזיה בלי מעמד?",
+    "a": "1667 × 959 × 74 מ״מ, ומשקלה 18 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשקף מהטלפון לטלוויזיה?",
+    "a": "כן, יש שיקוף אלחוטי Google Cast מהנייד לטלוויזיה.",
+    "sources": []
+   },
+   {
+    "q": "מה קצב הרענון?",
+    "a": "קצב הרענון הוא 60Hz.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה ROWA 75R55 בגודל 75 אינץ' 4K UHD עם Google TV, HDR10 וסאונד Dolby Audio. מידות, משקל ומפרט מלא בחדד אלקטריק נהריה",
+  "keywords": [
+   "טלוויזיה 75 אינץ'",
+   "ROWA 75R55",
+   "טלוויזיה רואה 75",
+   "טלוויזיה 4K Google TV",
+   "טלוויזיה חכמה 75 אינץ' 4K",
+   "רואה R55",
+   "מסך 75 UHD"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1667x959x74 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "18 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K UHD",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תמיכה ב-DLG 120Hz",
+   "catalogValue": "DLG 120Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "HDR",
+   "catalogValue": "HDR10",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HLG",
+   "catalogValue": "HLG",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שמע",
+   "catalogValue": "Dolby Audio",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמקולים 2x15W",
+   "catalogValue": "2x15W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Google Cast",
+   "catalogValue": "Google Cast",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1667x1027x349 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "AC 100V-240V, 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "VESA",
+   "catalogValue": "300x300",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זיכרון",
+   "catalogValue": "2GB RAM ו-16GB אחסון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "Wi-Fi 5, Bluetooth 5.4, HDMI CEC, USB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "ב.ט.י אלקטרוניקה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קצב רענון",
+   "issue": "Some listings for the 75R55 name describe a Mini-LED panel at 144Hz with Dolby Vision IQ, which conflicts with the 60Hz, HDR10-only spec on Citydeal. Check the importer's spec sheet for the panel type.",
+   "severity": "medium"
+  },
+  {
+   "field": "זיכרון",
+   "issue": "Listings disagree on memory (2GB RAM with 16GB storage versus 32GB storage). The catalog value was not confirmed on any page that could be read.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות עם מעמד",
+   "issue": "Stand dimensions in the catalog were not found on any readable page. The Bigelectric page that lists them returned HTTP 403.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The brand is ROWA, but Citydeal says the set is made by TCL. Confirm which manufacturer name should be shown to customers.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Some retailers list the 75R75 or 55R75 next to the 75R55 name. The pages used here do name the exact model 75R55.",
+   "severity": "low"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "Other listings for the 75R55 name describe a Mini-LED 144Hz panel with Dolby Vision IQ, conflicting with the 60Hz HDR10 spec published here. Confirm the panel with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "זיכרון",
+   "issue": "Catalog memory (2GB RAM, 16GB storage) not confirmed; listings disagree. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog values for stand dimensions, VESA 300x300, voltage, Wi-Fi/Bluetooth versions, HLG, DLG 120Hz and 2x15W speakers were not verified on any readable page.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Citydeal says the set is made by TCL under the ROWA brand; confirm the manufacturer and importer names to show.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features rest on a single Israeli retailer page (Citydeal) naming ROWA R55 75 inch; kept. Identity set to medium because other listings for the name describe a different panel (Mini-LED 144Hz). Catalog items for HLG, 2x15W speakers, DLG 120Hz, VESA, memory, connectivity and stand dimensions were not verified and are not published."
+ }
+}

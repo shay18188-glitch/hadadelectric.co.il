@@ -1,0 +1,431 @@
+{
+ "modelNumber": "WAN28218IT",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "WAN28218IT",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Facts come from the Bosch Italy product page for this exact model (manufacturer, IT market). No Israeli manufacturer or importer page for this model was found. The AliBuy page (IL) is cited only as a second site for the 1400 rpm spin speed. | QA: Exact model code WAN28218IT on the Bosch Italy page; the IT suffix denotes the Italian market variant, so the Israeli unit is likely a parallel import. No official Israeli importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/it/it/mkt-product/lavatrici-e-asciugatrici/lavatrici/lavatrici-a-carica-frontale/WAN28218IT",
+   "publisher": "Bosch Italy",
+   "kind": "manufacturer",
+   "market": "IT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://ali-buy.com/bosch-wan28218it/",
+   "publisher": "AliBuy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סדרה",
+     "value": "Serie 4"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1400 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "catalog says 71 dB",
+     "label": "רעש בסחיטה",
+     "value": "72 dB(A)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רעש בכביסה",
+     "value": "51 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "spin-drying efficiency class",
+     "label": "דירוג יעילות סחיטה (תוכנית Eco 40-60)",
+     "value": "B"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "reordered to match manufacturer order H×W×D",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "84.5 × 59.8 × 59.0 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "66 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "160 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Iron Assist: טיפול אדים שמפחית קמטים עד 50%"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "SpeedPerfect: קיצור זמן הכביסה עד 65% עם תוצאות ניקיון טובות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "quote does not mention allergens",
+   "text": "Hygiene Plus: תוכנית היגיינית שמסלקת חיידקים ובקטריות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיסכון של עד 50% במים בכביסות עם עומס חלקי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח קדמי של Bosch מסדרת Serie 4, דגם WAN28218IT, בקיבולת 8 ק״ג ומהירות סחיטה מרבית של 1400 סל״ד. המכונה בדירוג אנרגטי A, ורמת הרעש שלה בסחיטה היא 72 dB(A). מתאימה למי שמחפש מכונה בגודל סטנדרטי עם תוכניות מהירות ותוכנית היגיינה.",
+  "highlights": [
+   "קיבולת כביסה 8 ק״ג",
+   "סחיטה עד 1400 סל״ד",
+   "דירוג אנרגטי A",
+   "SpeedPerfect: קיצור זמן הכביסה עד 65%",
+   "Iron Assist: הפחתת קמטים עד 50%"
+  ],
+  "goodFor": [
+   "משקי בית שמכבסים כמויות בינוניות עד גדולות בזכות קיבולת 8 ק״ג",
+   "מי שרוצה לקצר זמני כביסה עם SpeedPerfect",
+   "מי שמעדיף לגהץ פחות בזכות Iron Assist",
+   "כביסה שדורשת היגיינה, כמו מצעים ומגבות, עם תוכנית Hygiene Plus"
+  ],
+  "considerations": [
+   "מדדו את הנישה: המכונה בגובה 84.5 ס״מ, ברוחב 59.8 ס״מ ובעומק 59.0 ס״מ",
+   "ודאו שיש שקע חשמל בטווח של כבל באורך 160 ס״מ",
+   "הדגם מיועד לשוק האיטלקי (סיומת IT); כדאי לברר מי היבואן ומה תנאי האחריות",
+   "רמת הרעש בסחיטה היא 72 dB(A), שיקול אם המכונה מוצבת ליד חדרי שינה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Bosch WAN28218IT?",
+    "a": "המכונה מכבסת עד 8 ק״ג בכל מחזור.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המרבית?",
+    "a": "מהירות הסחיטה המרבית היא 1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכונה?",
+    "a": "גובה 84.5 ס״מ, רוחב 59.8 ס״מ ועומק 59.0 ס״מ, לפי היצרן.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועשת המכונה?",
+    "a": "לפי היצרן, 51 dB(A) בשלב הכביסה ו-72 dB(A) בשלב הסחיטה.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי?",
+    "a": "דירוג אנרגטי A בסולם A עד G.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Bosch WAN28218IT מסדרת Serie 4: קיבולת 8 ק״ג, סחיטה 1400 סל״ד ודירוג אנרגטי A. לפרטים ולייעוץ בחדד אלקטריק נהריה",
+  "keywords": [
+   "Bosch WAN28218IT",
+   "מכונת כביסה בוש 8 קג",
+   "מכונת כביסה בוש Serie 4",
+   "WAN28218IT",
+   "מכונת כביסה 1400 סלד",
+   "מכונת כביסה פתח קדמי בוש",
+   "מכונת כביסה דירוג אנרגטי A"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A (לפי התקן האירופי החדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "catalogValue": "46 קוט\"ש ל-100 מחזורים (בתוכנית Eco)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "47 ליטר למחזור עבודה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "EcoSilence Drive",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש בסחיטה",
+   "catalogValue": "71dB",
+   "finding": "corrected",
+   "correctValue": "72 dB(A)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 84.8 ס\"מ, רוחב 59.8 ס\"מ, עומק 55.0 ס\"מ (עומק כולל דלת: 63.2 ס\"מ)",
+   "finding": "corrected",
+   "correctValue": "גובה 84.5 ס״מ, רוחב 59.8 ס״מ, עומק 59.0 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נקי",
+   "catalogValue": "כ-70 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "66.0 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240 וולט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2300 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Depth and height conflict. The manufacturer page gives 84.5 x 59.8 x 59.0 cm. The AliBuy page gives 84.8 x 59.8 cm with depth 63.2 cm including the door. The catalog's 55.0 cm depth matches neither. Check the depth before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "רמת רעש בסחיטה",
+   "issue": "The manufacturer gives 72 dB(A) for spin. The AliBuy page says 71 dB and the catalog says 71 dB. Verify against the EU energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נקי",
+   "issue": "Net weight conflicts across sources: the manufacturer gives 66.0 kg, the AliBuy page says about 69 kg, and the catalog says about 70 kg.",
+   "severity": "medium"
+  },
+  {
+   "field": "מנוע",
+   "issue": "The manufacturer's Italian page names the drive SilentPowerDrive. The catalog and AliBuy name it EcoSilence Drive. Naming differs across sources.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli manufacturer or importer page for this model was found. Only the AliBuy page names an importer (MA ASPEC, one-year warranty), and that page is not an official source. israeliImporter is left null. Confirm the Israeli importer and warranty term.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "The 2300 W power figure in the catalog is not on any page fetched. It is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "issue": "The 46 kWh per 100 cycles and 47 litres per cycle figures are not on any page fetched. They are unverified and were not recorded as facts.",
+   "severity": "low"
+  },
+  {
+   "field": "שוק",
+   "issue": "The Israeli variant is unclear. The specs come from the Italian Bosch page for the same exact model code. Check that the Israeli unit matches.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog depth 55.0 cm and height 84.8 cm disagree with the manufacturer's 84.5 × 59.8 × 59.0 cm.",
+   "severity": "high"
+  },
+  {
+   "field": "רמת רעש בסחיטה",
+   "issue": "Catalog says 71 dB; manufacturer gives 72 dB(A).",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נקי",
+   "issue": "Catalog says about 70 kg; manufacturer gives 66.0 kg.",
+   "severity": "medium"
+  },
+  {
+   "field": "מנוע",
+   "issue": "Catalog names EcoSilence Drive; the manufacturer page names the drive differently. Unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "שוק/יבואן",
+   "issue": "IT suffix is the Italian market variant; Israeli importer and warranty unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת אנרגיה/מים/הספק",
+   "issue": "Catalog energy (46 kWh/100 cycles), water (47 L) and power (2300 W) figures were not verified on any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on the Bosch Italy page for the exact model. Dimensions relabelled to the order the manufacturer gives (H×W×D). Hygiene Plus feature corrected: the quote says germs and bacteria, not allergens. AliBuy recategorised as il-retailer. Catalog spin noise (71 dB), dimensions (depth 55.0 cm) and weight (about 70 kg) disagree with the manufacturer."
+ }
+}

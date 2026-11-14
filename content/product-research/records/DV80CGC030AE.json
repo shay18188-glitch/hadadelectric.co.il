@@ -1,0 +1,411 @@
+{
+ "modelNumber": "DV80CGC030AE",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "DV80CGC030AE",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בדפי מוצר של שלושה קמעונאים ישראלים (bug.co.il, bettershop.co.il, 100-100.co.il). לא נמצא דף של סמסונג ישראל או EPREL עבור הדגם המדויק. דף של סמסונג בריטניה שנבדק מתייחס לדגם אחר (DV80CGC0B0AE) ולא שימש כראיה. | QA: Three Israeli retailer pages name the exact model DV80CGC030AE with 8 kg heat pump dryer matching the catalog. No manufacturer page for the exact SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A7%D7%95%D7%A0%D7%93%D7%A0%D7%A1%D7%95%D7%A8-8-%D7%A7%D7%92-%D7%9B%D7%95%D7%9C%D7%9C-%D7%9E%D7%A9%D7%90%D7%91%D7%AA-%D7%97%D7%95%D7%9D-samsung-5102201dv80cgc030ae",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/samsung-dv80cgc030ae/",
+   "publisher": "BetterShop (בטרשופ)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://100-100.co.il/product/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-8-%D7%A7%D7%92-%D7%93%D7%92%D7%9D-dv80cgc030ae-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-samsung/",
+   "publisher": "100-100 מבית 100% חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת ייבוש",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "bettershop lists 60 cm depth; flagged",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 65 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רעש במהלך ייבוש",
+     "value": "63 dB"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית ייבוש מהיר",
+     "value": "35 דקות (עד 1 ק״ג)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "retailers disagree on warranty term",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבור חכם",
+     "value": "Auto Cycle Link – סנכרון בין המייבש למכונת הכביסה דרך אפליקציית SmartThings"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית ייבוש",
+     "value": "משאבת חום עם מנוע דיגיטל אינוורטר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ייבוש בשיטת קונדנסור (מעבה) ללא צורך בצינור פליטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת LED בתוך התוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית ייעודית לייבוש בגדי צמר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית ייעודית לייבוש בגדי חוץ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בחירת תוכניות נוספות דרך אפליקציית SmartThings"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ללא צורך בצינור פליטת אדים – אין צורך בפתח יציאה לקיר או לחלון"
+  }
+ ],
+ "content": {
+  "summary": "מייבש כביסה של Samsung בקיבולת 8 ק״ג, הפועל בטכנולוגיית משאבת חום עם מנוע דיגיטל אינוורטר ובשיטת קונדנסור, כך שאין צורך בצינור פליטת אדים. רמת הרעש במהלך ייבוש היא 63 dB, ויש תוכנית ייבוש מהיר של 35 דקות לעד 1 ק״ג. מתאים למי שמחפש מייבש שאפשר להציב גם בחדר כביסה סגור או בארון, עם חיבור לאפליקציית SmartThings.",
+  "highlights": [
+   "קיבולת ייבוש 8 ק״ג",
+   "משאבת חום עם מנוע דיגיטל אינוורטר",
+   "קונדנסור – ללא צינור פליטה",
+   "רעש במהלך ייבוש 63 dB",
+   "Auto Cycle Link – סנכרון עם מכונת הכביסה דרך SmartThings"
+  ],
+  "goodFor": [
+   "דירות בלי פתח פליטה לקיר או לחלון, בזכות שיטת הקונדנסור",
+   "מי שמייבש כמות קטנה בדחיפות – תוכנית מהירה של 35 דקות לעד 1 ק״ג",
+   "בעלי מכונת כביסה של Samsung שרוצים סנכרון תוכניות דרך SmartThings",
+   "ייבוש בגדי צמר ובגדי חוץ בתוכניות ייעודיות"
+  ],
+  "considerations": [
+   "מדדו את הנישה: המידות הן 60 × 85 × 65 ס״מ (רוחב × גובה × עומק), והשאירו מרווח לפתיחת הדלת",
+   "במייבש קונדנסור יש לרוקן את מיכל המים או לחבר לניקוז, ולנקות את הפילטר באופן קבוע",
+   "תכננו שקע חשמל סמוך למקום ההצבה",
+   "אם מתכננים להציב מעל מכונת כביסה, ודאו שקיימת ערכת חיבור מתאימה"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך צינור פליטה החוצה?",
+    "a": "לא. המייבש עובד בשיטת קונדנסור (מעבה) עם משאבת חום, ואין צורך בצינור פליטת אדים.",
+    "sources": []
+   },
+   {
+    "q": "מה הקיבולת של המייבש?",
+    "a": "קיבולת הייבוש היא 8 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המייבש?",
+    "a": "רמת הרעש במהלך ייבוש היא 63 dB.",
+    "sources": []
+   },
+   {
+    "q": "יש תוכנית ייבוש מהירה?",
+    "a": "כן, תוכנית ייבוש מהיר של 35 דקות לכמות של עד 1 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר אותו לאפליקציה?",
+    "a": "כן, דרך אפליקציית SmartThings אפשר לבחור תוכניות נוספות ולהשתמש ב-Auto Cycle Link לסנכרון עם מכונת הכביסה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה Samsung DV80CGC030AE עם משאבת חום, 8 ק״ג, קונדנסור ללא צינור פליטה ורעש 63 dB. לפרטים ולהזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "DV80CGC030AE",
+   "מייבש כביסה סמסונג 8 קג",
+   "מייבש כביסה משאבת חום סמסונג",
+   "מייבש כביסה היט פאמפ",
+   "מייבש קונדנסור סמסונג",
+   "Samsung DV80CGC030AE",
+   "מייבש כביסה בלי צינור פליטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות: גובה 85, רוחב 60, עומק 65 ס\"מ",
+   "catalogValue": "גובה 85 ס\"מ, רוחב 60 ס\"מ, עומק 65 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A++ (או A לפי התקן הישראלי)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "650W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תוכנית מהירה",
+   "catalogValue": "ייבוש תוך 35 דקות (לכמות של עד 1 ק\"ג)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת עיבוי",
+   "catalogValue": "קונדנסור ללא צורך בצינור פליטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "Digital Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LED דיגיטלית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תמיכה באפליקציית SmartThings וחיבור Wi-Fi",
+   "catalogValue": "SmartThings ו-Wi-Fi",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "דפי הקמעונאים חלוקים: bug.co.il מציין דירוג A, ו-bettershop.co.il מציין A++. הקטלוג מציין A++ (או A). נדרשת בדיקה מול תווית היצרן או התקן הישראלי. לא פורסם.",
+   "severity": "high"
+  },
+  {
+   "field": "עומק",
+   "issue": "bettershop.co.il מציין עומק של 60 ס\"מ, ואילו bug.co.il ו-100-100.co.il מציינים 65 ס\"מ. נדרשת בדיקה לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "bug.co.il ו-bettershop.co.il מציינים שנה אחת מהיבואן. 100-100.co.il מציין 5 שנים ו-20 שנות אחריות למנוע. נדרש אישור מהיבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק מקסימלי",
+   "issue": "הקטלוג מציין 650 W, ו-100-100.co.il מציין 650 Wh (יחידה שונה). לא פורסם. נדרש אימות מול היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף של היצרן או היבואן (סמסונג ישראל) עבור הדגם המדויק. כל העובדות מבוססות על שלושה קמעונאים ישראלים. דגם האחות DV80CGC0B0AE אינו ראיה לדגם זה.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "קמעונאים ישראליים חלוקים בתקופת האחריות (שנה מול 5 שנים ו-20 שנה למנוע). לא פורסם; נדרש אישור מהיבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "bettershop.co.il מציין עומק 60 ס״מ, שני קמעונאים אחרים מציינים 65 ס״מ. פורסם 65 ס״מ; כדאי לאמת מול היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "קמעונאים חלוקים (A מול A++). לא פורסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מקסימלי",
+   "issue": "ערך 650 בקטלוג לא אומת (W מול Wh). לא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "כל העובדות מבוססות על דפי קמעונאים ישראליים בלבד; אין דף יצרן לדגם המדויק.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 4): Israeli retailers disagree (one year vs. five years / 20 years on motor), needs importer confirmation. Dimensions kept at 65 cm depth (two retailers) but flagged because one retailer lists 60 cm. All facts rely on Israeli retailer pages only."
+ }
+}

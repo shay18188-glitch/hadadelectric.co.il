@@ -1,0 +1,463 @@
+{
+ "modelNumber": "CM9120BI",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Beko",
+  "exactModel": "CM9120BI",
+  "israeliImporter": "מיניליין",
+  "matchConfidence": "high",
+  "notes": "Four Israeli retailer pages name Beko CM9120BI, a 9 kg front-loading washer, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.mispar1.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA---9-%D7%A7%D7%92-beko-%D7%91%D7%A7%D7%95-cm9120bi",
+   "publisher": "החשמל לצרכן (mispar1)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/beko-cm9120bi/",
+   "publisher": "BetterShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.c-hachashmal.co.il/items/8859305-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-Beko-CM9120BI-9-%D7%A7-%D7%92-%D7%91%D7%A7%D7%95-%D7%9E%D7%94%D7%99%D7%A8%D7%95%D7%AA-%D7%A1%D7%97%D7%99%D7%98%D7%94-1200-%D7%A1%D7%9C-%D7%93",
+   "publisher": "צ'ק חשמל (c-hachashmal)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.hasb.co.il/items/6330007-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-9-%D7%A7-%D7%92-CM9120BI-beko",
+   "publisher": "HASB",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "CM9120BI"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "מיניליין"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1,200 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "48 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות כביסה",
+     "value": "15"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "84 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר פתח הדלת",
+     "value": "34 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע ProSmart Inverter: פעולה שקטה ויעילה, עם חיסכון באנרגיה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית SteamTherapy להסרת ריחות לא נעימים מהבגדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "HomeWhiz: הורדת תוכניות נוספות דרך האפליקציה ובלוטות׳"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר השהייה מ-0 עד 24 שעות"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "AddXtra: פתיחת הדלת במהלך הכביסה להוספת בגדים בשלבים מסוימים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Beko CM9120BI היא מכונת כביסה בפתח חזיתי בקיבולת 9 ק״ג, עם מהירות סחיטה מרבית של 1,200 סל״ד ודירוג אנרגטי A. המכונה כוללת 15 תוכניות כביסה, מנוע ProSmart Inverter ופתח דלת בקוטר 34 ס״מ. מתאימה למשפחה שמכבסת כמויות גדולות ומחפשת מכונה ברוחב 60 ס״מ סטנדרטי.",
+  "highlights": [
+   "קיבולת כביסה 9 ק״ג",
+   "מהירות סחיטה מרבית 1,200 סל״ד",
+   "15 תוכניות כביסה",
+   "צריכת מים 48 ליטר למחזור",
+   "פתח דלת בקוטר 34 ס״מ"
+  ],
+  "goodFor": [
+   "משפחה שמכבסת כמויות גדולות, כולל פריטים מגושמים, בזכות קיבולת 9 ק״ג ופתח דלת בקוטר 34 ס״מ",
+   "מי שרוצה להפעיל כביסה בשעה נוחה בעזרת טיימר השהייה מ-0 עד 24 שעות",
+   "מי ששוכח לפעמים פריט ורוצה להוסיף אותו באמצע הכביסה עם AddXtra",
+   "מי שמעוניין בתוכניות נוספות דרך אפליקציית HomeWhiz"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה לרוחב 60 ס״מ ולגובה 84 ס״מ, ולבדוק את העומק מול היבואן לפני ההזמנה",
+   "כדאי לוודא שיש ליד מקום ההתקנה ברז מים, ניקוז ושקע חשמל מתאים",
+   "שליטה בתוכניות נוספות דרך HomeWhiz מחייבת טלפון עם בלוטות׳ והאפליקציה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Beko CM9120BI?",
+    "a": "המכונה מכבסת עד 9 ק״ג כביסה יבשה במחזור.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המרבית?",
+    "a": "מהירות הסחיטה המרבית היא 1,200 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים המכונה צורכת?",
+    "a": "לפי נתוני המשווקים, צריכת המים היא 48 ליטר למחזור.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להוסיף בגדים אחרי שהכביסה התחילה?",
+    "a": "כן, פונקציית AddXtra מאפשרת לפתוח את הדלת במהלך הכביסה בשלבים מסוימים ולהוסיף בגדים.",
+    "sources": []
+   },
+   {
+    "q": "מי היבואן הרשמי?",
+    "a": "היבואן הרשמי בישראל הוא מיניליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Beko CM9120BI בקיבולת 9 ק״ג, סחיטה עד 1,200 סל״ד ו-15 תוכניות כביסה, יבואן רשמי מיניליין. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Beko CM9120BI",
+   "מכונת כביסה בקו 9 קג",
+   "מכונת כביסה Beko",
+   "CM9120BI",
+   "מכונת כביסה פתח חזיתי 9 קג",
+   "מכונת כביסה 1200 סלד",
+   "מכונת כביסה אינוורטר בקו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1200 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "כ-48 ליטר למחזור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "catalogValue": "49 קוט\"ש ל-100 מחזורים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש בסחיטה",
+   "catalogValue": "72 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "84 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "64 ס\"מ (כולל בליטות)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות כביסה",
+   "catalogValue": "15",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוף",
+   "catalogValue": "נירוסטה במבנה AquaWave",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "צג דיגיטלי LED",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "טורקיה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית StainExpert לכתמים",
+   "catalogValue": "24 סוגי כתמים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר השהייה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "טיימר השהייה מ-0 עד 24 שעות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עומק",
+   "issue": "מקורות סותרים: 58 ס״מ בדפי mispar1 ו-BetterShop, לעומת 64 ס״מ (כולל בליטות) בדפי HASB ו-צ'ק חשמל ובקטלוג. לא נרשם שדה עומק; יש לבדוק על המכונה או בתווית היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "צריכת אנרגיה ורמת רעש",
+   "issue": "הערכים 49 קוט״ש ל-100 מחזורים ו-72 דציבל שבקטלוג לא נמצאו בדפים שנקראו, ולכן לא נרשמו כעובדות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "טורקיה מופיעה רק בקטלוג ולא אומתה בדפים שנקראו.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "HASB מציין שהדירוג האנרגטי הישראלי עלול להיות שונה מהתקן האירופי; הערך A מופיע באתרים הישראליים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "עומק",
+   "issue": "מקורות סותרים לגבי העומק (58 ס״מ מול 64 ס״מ כולל בליטות); לא פורסם שדה עומק ויש לבדוק מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "צריכת אנרגיה ורמת רעש",
+   "issue": "הערכים בקטלוג (49 קוט״ש ל-100 מחזורים, 72 דציבל) לא אומתו במקורות.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "HASB מציין שהדירוג הישראלי עלול להיות שונה מהתקן האירופי; יש לוודא מול תווית האנרגיה.",
+   "severity": "low"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "טורקיה מופיעה רק בקטלוג ולא אומתה.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts and features are supported by ok quotes on Israeli retailer pages that name CM9120BI. Depth is not published because sources conflict (58 vs 64 cm)."
+ }
+}

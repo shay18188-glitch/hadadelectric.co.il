@@ -1,0 +1,451 @@
+{
+ "modelNumber": "75NU850B6LA",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "75NU850B6LA",
+  "israeliImporter": "ח.י. סחר בישראל",
+  "matchConfidence": "high",
+  "notes": "Two Israeli retailers name 75NU850B6LA exactly. The LG Levant page lists the .AMNE regional suffix of the same model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/lg-75nu850b6la-nano-4k-ai-75-inch",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/טלוויזיה-75-אינץ-אל-גי-⁦75nu850b6la⁩/",
+   "publisher": "Avi Super",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.lg.com/levant_en/tvs-soundbars/lg-75nu850b6la",
+   "publisher": "LG Levant",
+   "kind": "manufacturer",
+   "market": "Levant",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "75 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote is VRR up to 60Hz; consistent with catalog native 60Hz",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פורמטי HDR",
+     "value": "HDR10, HLG"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "α7 AI 4K Gen9"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "webOS 26"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שלט",
+     "value": "AI Magic Remote"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "Bluetooth 5.3"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "166.9 × 96.3 × 7.21 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "166.9 × 102.6 × 36.1 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "22.1 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל עם מעמד",
+     "value": "22.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer statement; should match store's own warranty terms",
+     "label": "אחריות",
+     "value": "שנה אחריות ע״י היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Nano Detail Enhancer לחידוד מרקם ועומק לתמונת 4K מציאותית יותר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עיצוב Linear Flow דק וגימור מוצק המשתלב בחלל"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת webOS עם חוויות AI המאובטחות על ידי LG Shield"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "LG 75NU850B6LA היא טלוויזיית NanoCell חכמה בגודל 75 אינץ׳ ברזולוציית 4K, עם מעבד α7 AI 4K Gen9 ומערכת webOS 26. היא תומכת ב-HDR10 ו-HLG, ומגיעה עם שלט AI Magic Remote. מתאימה לסלון גדול שבו רוצים מסך רחב לצפייה בסרטים, ספורט ותוכן סטרימינג.",
+  "highlights": [
+   "מסך 75 אינץ׳ ברזולוציית 4K",
+   "מעבד α7 AI 4K Gen9",
+   "מערכת הפעלה webOS 26 ושלט AI Magic Remote",
+   "תמיכה ב-HDR10 ו-HLG",
+   "עומק ללא מעמד של 7.21 ס״מ"
+  ],
+  "goodFor": [
+   "סלון מרווח שבו מסך 75 אינץ׳ ממלא את הקיר",
+   "צפייה בתוכן 4K ו-HDR10 משירותי סטרימינג דרך webOS 26",
+   "תלייה על הקיר בזכות עומק דק של 7.21 ס״מ ללא מעמד",
+   "חיבור רמקולים או אוזניות אלחוטיות דרך Bluetooth 5.3"
+  ],
+  "considerations": [
+   "רוחב המסך הוא 166.9 ס״מ – יש למדוד את הקיר או את המזנון לפני ההזמנה",
+   "בהעמדה על מעמד העומק הוא 36.1 ס״מ – יש לוודא שהמזנון עמוק מספיק",
+   "קצב הרענון הוא 60 Hz – גיימרים שמחפשים קצב גבוה יותר צריכים לקחת זאת בחשבון",
+   "משקל המסך ללא מעמד הוא 22.1 ק״ג – לתלייה יש לבחור זרוע קיר שמתאימה למשקל"
+  ],
+  "faq": [
+   {
+    "q": "מה הרזולוציה וקצב הרענון של LG 75NU850B6LA?",
+    "a": "רזולוציית 4K וקצב רענון של 60 Hz.",
+    "sources": []
+   },
+   {
+    "q": "אילו פורמטי HDR נתמכים?",
+    "a": "הטלוויזיה תומכת ב-HDR10 וב-HLG.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הטלוויזיה?",
+    "a": "ללא מעמד: 166.9 × 96.3 × 7.21 ס״מ. עם מעמד: 166.9 × 102.6 × 36.1 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "webOS 26, עם שלט AI Magic Remote.",
+    "sources": []
+   },
+   {
+    "q": "האם יש לטלוויזיה Wi-Fi ו-Bluetooth?",
+    "a": "כן, Wi-Fi 5 ו-Bluetooth 5.3.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה LG 75NU850B6LA NanoCell בגודל 75 אינץ׳ ברזולוציית 4K, עם מעבד α7 AI 4K Gen9 ומערכת webOS 26. בחדד אלקטריק נהריה",
+  "keywords": [
+   "LG 75NU850B6LA",
+   "טלוויזיה LG 75 אינץ",
+   "טלוויזיה 75 אינץ 4K",
+   "LG NanoCell 75",
+   "75NU850B6LA מחיר",
+   "טלוויזיה חכמה webOS 75 אינץ",
+   "מסך 75 נאנו LG"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "מסך 75' NANO",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K Ultra HD 3840 x 2160",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "α7 AI Processor 4K Gen9",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "webOS 26",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פורמטי HDR",
+   "catalogValue": "HDR10, HLG",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1669 x 963 x 72.1 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1669 x 1026 x 361 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "22.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "catalogValue": "22.1 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות (Wi-Fi)",
+   "catalogValue": "Wi-Fi 5",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גיימינג",
+   "catalogValue": "VRR (עד 60Hz), ALLM",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תואם VESA",
+   "catalogValue": "300 x 300 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל (SDR)",
+   "catalogValue": "127W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V, 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחריות ע״י היבואן הרשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "israeli_variant",
+   "issue": "דף LG Levant מציין 75NU850B6LA.AMNE, בעוד שדפי הקמעונאים הישראליים מציינים 75NU850B6LA. יש לוודא שהגרסה הישראלית זהה.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "דפי הקמעונאים מציינים שנה אחריות של היבואן הרשמי. בקטלוג לא מופיע ערך אחריות. יש לאשר את תנאי האחריות.",
+   "severity": "low"
+  },
+  {
+   "field": "power_vesa",
+   "issue": "צריכת החשמל (127W SDR), תאימות VESA 300 x 300 ומתח העבודה לא נמצאו באף עמוד שנשלף. נשארו ללא אימות.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "דף LG Levant מציין את הגרסה 75NU850B6LA.AMNE, ודפי הקמעונאים הישראליים מציינים 75NU850B6LA. יש לוודא שהגרסה הישראלית זהה.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "האחריות (שנה ע״י היבואן הרשמי) מבוססת על דף קמעונאי. יש לוודא שהיא תואמת את תנאי האחריות של החנות.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "תאימות VESA, צריכת החשמל ומתח העבודה שבקטלוג לא אומתו באף מקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts are backed by ok quotes from Israeli retailer pages naming 75NU850B6LA, and they match the catalog. Features come from the LG Levant manufacturer page. VESA, power consumption and voltage were not verified and are not published."
+ }
+}

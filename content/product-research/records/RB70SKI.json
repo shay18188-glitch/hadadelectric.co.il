@@ -1,0 +1,466 @@
+{
+ "modelNumber": "RB70SKI",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RB70SKI",
+  "israeliImporter": "קבוצת ח.י.",
+  "matchConfidence": "high",
+  "notes": "מקרר 2 דלתות, מקפיא תחתון, נירוסטה. המידע מבוסס על דפי מוצר של קמעונאים ישראליים; לא נמצא דף יצרן או EPREL עבור הדגם המדויק. | QA: Two Israeli retailer pages name RB70SKI / RB70-SKI, 623 L bottom-freezer with matching 422/201 L split and dimensions. No manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-2-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-623-%D7%9C%D7%99%D7%98%D7%A8-hisense-rb70ski-%D7%A0%D7%99%D7%A8%D7%95%D7%A1",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/מקרר-מקפיא-תחתון-הייסנס-rb70-ski/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כללי",
+     "value": "623 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "422 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "201 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "quote says NO FROST, not Total No Frost",
+     "label": "שיטת הפשרה",
+     "value": "No Frost"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "79.4 × 172 × 80.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מדחס",
+     "value": "Inverter"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה עם ציפוי VCM דוחה טביעות אצבע"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנון שבת וחג",
+     "value": "עבודה רציפה של עד 80 שעות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "corrected to quote wording",
+     "label": "תאורה",
+     "value": "LED עליונה ובדפנות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "retailer-stated warranty terms; not confirmed by importer",
+     "label": "אחריות",
+     "value": "שנה מלאה + שנתיים אחריות נוספת מוגבלת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יצרן קרח אוטומטי מובנה במגירת המקפיא, עם חיבור ישיר לרשת המים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון שבת וחג לעבודה רציפה של עד 80 שעות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקרר 2 דלתות עם מקפיא תחתון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "reworded",
+   "text": "יש למדוד את גובה הנישה (172 ס״מ) ורוחבה (79.4 ס״מ) ולהשאיר בנוסף את מרווחי האוורור הנדרשים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יצרן הקרח האוטומטי דורש חיבור ישיר לקו מים פעיל במטבח"
+  }
+ ],
+ "content": {
+  "summary": "Hisense RB70SKI הוא מקרר 2 דלתות עם מקפיא תחתון בנפח כללי של 623 ליטר, מתוכם 422 ליטר לתא הקירור ו-201 ליטר לתא ההקפאה. הוא כולל מדחס אינוורטר, הפשרת No Frost, יצרן קרח אוטומטי במגירת המקפיא ומנגנון שבת וחג. מתאים למשפחה שצריכה נפח אחסון גדול ומקפיא מרווח, במטבח עם נישה ברוחב מתאים וחיבור למים.",
+  "highlights": [
+   "נפח כללי 623 ליטר: 422 ליטר קירור ו-201 ליטר הקפאה",
+   "מדחס אינוורטר והפשרת No Frost",
+   "יצרן קרח אוטומטי במגירת המקפיא",
+   "מנגנון שבת וחג לעבודה רציפה של עד 80 שעות",
+   "גימור נירוסטה עם ציפוי VCM דוחה טביעות אצבע"
+  ],
+  "goodFor": [
+   "משפחה שקונה בכמויות וצריכה מקפיא גדול (201 ליטר)",
+   "בית שומר שבת שזקוק למנגנון שבת וחג",
+   "מי שרוצה קרח זמין בלי למלא תבניות"
+  ],
+  "considerations": [
+   "רוחב המקרר 79.4 ס״מ וגובהו 172 ס״מ: מדדו את הנישה והשאירו מרווחי אוורור",
+   "עומק 80.5 ס״מ: בדקו שהמקרר לא בולט מעבר לקו הארונות",
+   "יצרן הקרח דורש חיבור לקו מים פעיל, יש לתכנן נקודת מים ליד הנישה",
+   "דירוג אנרגטי E"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Hisense RB70SKI?",
+    "a": "הנפח הכללי הוא 623 ליטר: 422 ליטר בתא הקירור ו-201 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 79.4 ס״מ, גובה 172 ס״מ ועומק 80.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מנגנון שבת?",
+    "a": "כן, יש מנגנון שבת וחג המאפשר עבודה רציפה של עד 80 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם יצרן הקרח צריך חיבור למים?",
+    "a": "כן, יצרן הקרח האוטומטי דורש חיבור ישיר לקו מים פעיל במטבח.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר No Frost?",
+    "a": "כן, שיטת ההפשרה היא No Frost, והמדחס הוא אינוורטר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא תחתון Hisense RB70SKI בנפח 623 ליטר, מדחס אינוורטר, יצרן קרח ומנגנון שבת. מידות 79.4×172×80.5 ס״מ בחדד אלקטריק נהריה",
+  "keywords": [
+   "Hisense RB70SKI",
+   "מקרר הייסנס RB70SKI",
+   "מקרר מקפיא תחתון 623 ליטר",
+   "מקרר הייסנס מקפיא תחתון",
+   "מקרר עם יצרן קרח",
+   "מקרר אינוורטר נירוסטה",
+   "RB70-SKI"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כללי",
+   "catalogValue": "623 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "422 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "201 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "172 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "79.4 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "80.5 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "Total No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (לפי תקן חדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג מדחס",
+   "catalogValue": "Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דלתות",
+   "catalogValue": "2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כיוון פתיחת דלת",
+   "catalogValue": "ימין (ניתן לשינוי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדפי דלת",
+   "catalogValue": "5 מדפים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V (סטנדרטי לישראל)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "LED פנימית בתא הקירור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה VCM דוחה טביעות אצבע",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון שבת וחג",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 80 שעות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יצרן קרח",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "יצרן קרח אוטומטי במגירת המקפיא",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף יצרן, יבואן או EPREL שמזכיר את הדגם RB70SKI. כל הציטוטים מדפי קמעונאים ישראליים; citydeal מזכיר את הדגם המדויק, ו-soferavi מזכיר אותו כ-RB70-SKI. יש לאמת את דירוג האנרגיה והאחריות מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תנאי האחריות מיוחסים לקמעונאי ולא ליבואן ישירות; יש לאשר מול קבוצת ח.י.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "המתח 230V בקטלוג לא אומת באף דף שנקרא.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "כל המקורות הם קמעונאים ישראליים; לא נמצא דף יצרן, יבואן או EPREL לדגם.",
+   "severity": "medium"
+  },
+  {
+   "field": "שיטת הפשרה",
+   "issue": "בקטלוג Total No Frost, במקור רק NO FROST.",
+   "severity": "low"
+  },
+  {
+   "field": "שם הקטלוג",
+   "issue": "השם בקטלוג אומר 'כסוף' בעוד המקורות מתארים גימור נירוסטה.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תנאי האחריות מופיעים רק אצל קמעונאי ונדחו; יש לאמת מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "230V בקטלוג לא אומת בשום מקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 6: value changed from Total No Frost to No Frost (quote says NO FROST only). Fact 9: lighting value corrected to the quote wording (LED top and sides). Fact 10 (warranty) rejected: retailer-stated terms, not confirmed by importer. Installation 0 reworded so ventilation gaps are added to the unit size rather than included in it."
+ }
+}

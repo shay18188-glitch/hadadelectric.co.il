@@ -1,0 +1,523 @@
+{
+ "modelNumber": "RELAX INVERTER 170",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electra",
+  "exactModel": "RELAX INVERTER 170",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Israeli retailer pages name the model as ELECTRA RELAX INVERTER 170 (ACE) and Electra Relax INVERTER 170 / Relax INV 170 (Ivory). No manufacturer or importer page for this exact model was reached: the Electra site search returned no product, and further fetches failed (HTTP 429 or almost no text). Facts come from two Israeli retailers only. | QA: Two Israeli retailer pages (ACE, Ivory) name Electra Relax Inverter 170; no manufacturer or importer page reached. Specs on both match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ace.co.il/4475235",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ivory.co.il/catalog.php?id=128478",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת קירור",
+     "value": "12,355 BTU/h"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת חימום",
+     "value": "10,966 BTU/h"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות קירור עונתי (SEER)",
+     "value": "6.27"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות חימום עונתי (SCOP)",
+     "value": "5.07"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק נצרך בקירור",
+     "value": "1,350 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote shows ++A (RTL rendering of A++).",
+     "label": "דירוג אנרגטי",
+     "value": "A++"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote lacks axis labels; order per catalog.",
+     "label": "מידות יחידת פנים (רוחב × גובה × עומק)",
+     "value": "80.5 × 28.5 × 19.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote lacks axis labels; order per catalog.",
+     "label": "מידות יחידת חוץ (רוחב × גובה × עומק)",
+     "value": "72 × 49.5 × 27 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבורי צנרת",
+     "value": "1/4״ ו-3/8״"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Ivory reportedly states 1 year manufacturer plus 2 years; retailer warranty terms differ.",
+     "label": "אחריות",
+     "value": "3 שנים (אחריות מלאה מול היבואן הרשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית אינוורטר לחיסכון באנרגיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה מרחוק באפליקציית Smart Home"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "8 מהירויות מפוח במאייד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיזור אוויר 4D"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי עצמי של הסוללה ומצב שבת מובנה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Retailer pricing statement, not a product fact.",
+   "text": "מחיר המזגן המוצג באתר אינו כולל התקנה ואביזרי התקנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נדרש מאמ״ת דגם C ‏1×10A"
+  }
+ ],
+ "content": {
+  "summary": "Electra Relax Inverter 170 הוא מזגן עילי אינוורטר עם תפוקת קירור של 12,355 BTU/h ותפוקת חימום של 10,966 BTU/h. המזגן מדורג A++ עם מקדם SEER של 6.27 ו-SCOP של 5.07, וכולל שליטה באפליקציית Smart Home, ניקוי עצמי של הסוללה ומצב שבת מובנה. מתאים למי שמחפש מזגן חסכוני לקירור וחימום של חדר עם שליטה מהטלפון.",
+  "highlights": [
+   "תפוקת קירור 12,355 BTU/h ותפוקת חימום 10,966 BTU/h",
+   "דירוג אנרגטי A++, ‏SEER ‏6.27 ו-SCOP ‏5.07",
+   "שליטה מרחוק באפליקציית Smart Home",
+   "8 מהירויות מפוח ופיזור אוויר 4D",
+   "ניקוי עצמי של הסוללה ומצב שבת מובנה"
+  ],
+  "goodFor": [
+   "מי שמחפש מזגן אינוורטר חסכוני לשימוש בקיץ ובחורף",
+   "משפחות שומרות שבת בזכות מצב שבת מובנה",
+   "מי שרוצה להפעיל את המזגן מהטלפון לפני ההגעה הביתה",
+   "מי שמעדיף כיוון עדין של זרימת האוויר בזכות 8 מהירויות מפוח ופיזור 4D"
+  ],
+  "considerations": [
+   "יש לוודא מקום על הקיר ליחידת פנים במידות 80.5 × 28.5 × 19.4 ס״מ",
+   "יש לבדוק מיקום ליחידת החוץ במידות 72 × 49.5 × 27 ס״מ",
+   "נדרש מאמ״ת דגם C ‏1×10A בלוח החשמל, כדאי לבדוק עם חשמלאי",
+   "חיבורי הצנרת הם 1/4״ ו-3/8״, יש לתאם עם המתקין"
+  ],
+  "faq": [
+   {
+    "q": "מה תפוקת הקירור והחימום של Electra Relax Inverter 170?",
+    "a": "תפוקת הקירור היא 12,355 BTU/h ותפוקת החימום היא 10,966 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי של המזגן?",
+    "a": "המזגן מדורג A++, עם מקדם יעילות עונתי SEER של 6.27 בקירור ו-SCOP של 5.07 בחימום.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט במזגן מהטלפון?",
+    "a": "כן, המזגן נשלט באמצעות אפליקציית Smart Home.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במזגן מצב שבת?",
+    "a": "כן, המזגן כולל מצב שבת מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה נדרש בלוח החשמל להתקנה?",
+    "a": "נדרש מאמ״ת דגם C ‏1×10A.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן אינוורטר של אלקטרה Relax Inverter 170: קירור 12,355 BTU/h, דירוג אנרגטי A++ ושליטה באפליקציית Smart Home. בחדד אלקטריק נהריה",
+  "keywords": [
+   "אלקטרה רילקס אינוורטר 170",
+   "Electra Relax Inverter 170",
+   "מזגן 1.5 כ״ס אינוורטר",
+   "מזגן אלקטרה 1.5 כ״ס",
+   "מזגן עילי אלקטרה",
+   "Relax INV 170",
+   "מזגן עם מצב שבת",
+   "מזגן Smart Home אלקטרה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "12,355 BTU/h",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "10,966 BTU/h",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SEER",
+   "catalogValue": "6.27",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SCOP",
+   "catalogValue": "5.07",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A++ (לפי תקינה אירופאית)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק נצרך בקירור",
+   "catalogValue": "1,350W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק נצרך בחימום",
+   "catalogValue": "1,190W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זרם עבודה",
+   "catalogValue": "3.5A קירור, 5A חימום",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח הזנה",
+   "catalogValue": "230V / 50Hz / חד פאזי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ספיקת אוויר",
+   "catalogValue": "320 CFM (כ-540 מ\"ק/שעה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות יחידת פנים",
+   "catalogValue": "רוחב 805, גובה 285, עומק 194 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות יחידת חוץ",
+   "catalogValue": "רוחב 720, גובה 495, עומק 270 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיבורי צנרת",
+   "catalogValue": "1/4\" ו-3/8\"",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צנרת מקסימלית",
+   "catalogValue": "אורך 25 מטר, גובה 10 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "8 מהירויות מפוח",
+   "catalogValue": "8",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פיזור אוויר 4D",
+   "catalogValue": "4D",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצב שבת",
+   "catalogValue": "מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ניקוי עצמי של הסוללה",
+   "catalogValue": "מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ניקוז דו-צדדי",
+   "catalogValue": "אפשרי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי הידרופילי",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "מובנה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אינוורטר",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "ישראל (תכנון והנדסה), מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים (אחריות מלאה מול היבואן הרשמי)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "לא נמצא עמוד יצרן או יבואן עם הדגם. המידע מבוסס על שני עמודי קמעונאים ישראליים (ACE, Ivory) שמציגים את הדגם כ-RELAX INVERTER 170 / RELAX INV 170. מפרט יצרן, מדריך למשתמש או EPREL לא אותרו.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג כותב A++ לפי תקינה אירופאית, ועמודי הקמעונאים כותבים ++A. יש לבדוק את תווית האנרגיה על היחידה לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "ACE מציין 3 שנות אחריות מלאות מול היבואן. Ivory מציין שנה אחת מול היצרן ועוד שנתיים לשימוש פרטי ללא תשלום. יש לאשר מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צנרת מקסימלית",
+   "issue": "ACE מציין 'צנרת (גובה/אורך)' עם הערכים 25/10 ו-Ivory מציין 10 / 25 באותה כותרת. סדר הערכים לא ברור, והקטלוג מציין אורך 25 מטר וגובה 10 מטר. לא פורסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק נצרך בחימום",
+   "issue": "Ivory מציג ערך 1,190 ללא תווית ברורה ו-ACE לא מציג ערך חימום לצריכה. הערך בקטלוג לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "Wi-Fi",
+   "issue": "הקטלוג מציין Wi-Fi מובנה, אך עמודי ACE ו-Ivory מציגים אפליקציית Smart Home בלבד. לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא עמוד יצרן או יבואן לדגם; כל הנתונים מעמודי קמעונאים ישראליים (ACE, Ivory).",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "ACE ו-Ivory מציגים תנאי אחריות שונים. יש לאשר מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "Wi-Fi",
+   "issue": "הקטלוג מציין Wi-Fi מובנה; המקורות מזכירים אפליקציית Smart Home בלבד. יש לוודא אם נדרש מודול Wi-Fi.",
+   "severity": "low"
+  },
+  {
+   "field": "צנרת מקסימלית",
+   "issue": "סדר ערכי אורך/גובה הצנרת לא ברור במקורות; לא פורסם.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected installation item 0 (price/installation-cost statement, not a product fact). Marked warranty as conflict: ACE says 3 years full via importer, Ivory (per researcher) states 1 year manufacturer plus 2 years. Dimension quotes from Ivory list numbers without axis labels; the W×H×D order follows the catalog and all numbers are in the quotes."
+ }
+}

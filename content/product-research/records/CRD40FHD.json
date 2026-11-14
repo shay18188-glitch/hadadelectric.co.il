@@ -1,0 +1,482 @@
+{
+ "modelNumber": "CRD40FHD",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "MAG",
+  "exactModel": "CRD40FHD",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Retailers list the panel as 39.5 inch, marketed as 40 inch. No official MAG spec sheet was found. The review page states a different size and weight, see reviewFlags. | QA: Israeli retailer page names MAG CRD40 39.5'' Full HD with matching specs; panel is 39.5 inch marketed as 40 inch."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldtop.co.il/product-details.aspx?proid=55879",
+   "publisher": "Goldtop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://expert-reviews.co.il/TV-screens/mag-crd40fhd/",
+   "publisher": "Expert Reviews",
+   "kind": "review",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "39.5 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "Full HD ‏1920×1080"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית תצוגה",
+     "value": "LED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "review states 300 nits without an ok quote",
+     "label": "בהירות",
+     "value": "200cd/m²"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יחס ניגודיות דינמי",
+     "value": "1:5,000,000"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זוויות צפייה",
+     "value": "178° אופקי / 178° אנכי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר גוונים",
+     "value": "16.7 מיליון"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיונר דיגיטלי",
+     "value": "DVB-C/T2 מובנה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "order is W×D×H; label made neutral",
+     "label": "מידות עם מעמד",
+     "value": "903 × 245 × 584 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות ללא מעמד",
+     "value": "903 × 95 × 525 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "6.4 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל מקסימלית",
+     "value": "75 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכה במצב המתנה",
+     "value": "0.5 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "AC 100-240V 50-60Hz"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "retailer's own warranty term, not a product spec",
+     "label": "אחריות",
+     "value": "שנה מלאה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעבד תמונה 3D+3D"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות תלייה על קיר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "MAG CRD40FHD הוא מסך LED בגודל 39.5 אינץ׳ ברזולוציית Full HD ‏1920×1080. הוא כולל טיונר DVB-C/T2 מובנה ו-2 כניסות HDMI. מתאים לחדר שינה, למטבח או לעסק שצריך מסך פשוט לצפייה בשידורים ובממיר או מחשב.",
+  "highlights": [
+   "מסך 39.5 אינץ׳ ברזולוציית Full HD ‏1920×1080",
+   "טיונר דיגיטלי DVB-C/T2 מובנה",
+   "2 כניסות HDMI",
+   "זוויות צפייה 178° אופקי ואנכי",
+   "משקל נטו 6.4 ק״ג"
+  ],
+  "goodFor": [
+   "חדר שינה או מטבח שצריכים מסך בגודל בינוני",
+   "צפייה בשידורים דיגיטליים דרך הטיונר המובנה",
+   "חיבור ממיר, קונסולה או מחשב דרך HDMI",
+   "מסך תצוגה בעסק שנתלה על קיר"
+  ],
+  "considerations": [
+   "רוחב המסך 903 מ״מ ועומק המעמד 245 מ״מ, כדאי למדוד את המזנון",
+   "יש 2 כניסות HDMI בלבד, כדאי לספור את המכשירים שתחברו",
+   "לתלייה על קיר צריך זרוע תואמת, המידות ללא מעמד הן 903 × 95 × 525 מ״מ"
+  ],
+  "faq": [
+   {
+    "q": "מה גודל המסך בפועל?",
+    "a": "גודל המסך הוא 39.5 אינץ׳.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיונר מובנה?",
+    "a": "כן, טיונר דיגיטלי DVB-C/T2 מובנה.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש?",
+    "a": "2 כניסות HDMI.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתלות אותו על הקיר?",
+    "a": "כן, יש אפשרות תלייה על קיר. המידות ללא מעמד הן 903 × 95 × 525 מ״מ והמשקל נטו 6.4 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל?",
+    "a": "צריכה מקסימלית של 75 W ו-0.5 W במצב המתנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מסך LED מאג MAG CRD40FHD בגודל 39.5 אינץ׳, Full HD ‏1920×1080 עם טיונר DVB-C/T2 מובנה ו-2 כניסות HDMI. בחדד אלקטריק נהריה",
+  "keywords": [
+   "MAG CRD40FHD",
+   "מסך מאג 40 אינץ",
+   "טלוויזיה 40 אינץ Full HD",
+   "מאג CRD40",
+   "מסך 40 אינץ עם טיונר",
+   "טלוויזיה MAG",
+   "מסך LED 40 אינץ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "39.5 אינץ' (משווק כ-40 אינץ')",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "Full HD 1920x1080",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית פאנל",
+   "catalogValue": "LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן תגובה",
+   "catalogValue": "5ms",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בהירות",
+   "catalogValue": "200cd/m²",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יחס ניגודיות דינמי",
+   "catalogValue": "1:5,000,000",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זוויות צפייה",
+   "catalogValue": "178 מעלות (אופקי ואנכי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר גוונים",
+   "catalogValue": "16.7 מיליון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "20W (שני רמקולים של 10W כל אחד)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת חשמל מקסימלית",
+   "catalogValue": "פחות מ-75W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל בהמתנה",
+   "catalogValue": "0.5W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "AC 100-240V 50-60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות כולל מעמד",
+   "catalogValue": "903x245x584 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "903x95x525 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "6.4 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ברוטו",
+   "catalogValue": "9.9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תקן תלייה",
+   "catalogValue": "VESA 200x200 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "The catalog name says 40 inch. The retailer pages give a 39.5 inch panel, marketed as 40 inch.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "The expert review gives 900 x 510 x 60 mm and 4.5 kg. The retailer page gives 903 x 245 x 584 mm with stand and 6.4 kg net. The retailer figures are used.",
+   "severity": "medium"
+  },
+  {
+   "field": "display",
+   "issue": "Sources conflict on brightness (review 300 nits, retailer 200 cd/m2) and on HDR support (review text says HDR yes, its spec table says no). The review also gives no source for 60Hz on a retailer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "smart",
+   "issue": "Sources conflict on whether the set has a smart operating system. The review says no. One listing says yes. Not published as a fact.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 40 inch; the retailer page gives a 39.5 inch panel marketed as 40 inch.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "The review page gives 900 × 510 × 60 mm and 4.5 kg, unlike the retailer figures used here.",
+   "severity": "medium"
+  },
+  {
+   "field": "display",
+   "issue": "Review states 300 nits and conflicting HDR claims versus retailer 200 cd/m²; 60Hz, 5ms and speaker power are not backed by an ok quote.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog",
+   "issue": "VESA 200×200 and energy rating F in the catalog are unverified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 9 label corrected: the quoted order 903*245*584 is width × depth × height with stand (245 is the stand depth), so the label no longer claims W×H×D. Fact 15 (warranty) rejected: it is the Goldtop shop's warranty term, not necessarily the warranty given with this store's unit. Review-page values (300 nits, 4.5 kg, 900×510×60) have no ok quotes and are not used. | code guard removed: consideration: \"המסך עצמו 39.5 אינץ׳ ולא 40 אינץ׳ מלאים\""
+ }
+}

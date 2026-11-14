@@ -1,0 +1,155 @@
+{
+ "modelNumber": "LCV70GB",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "LaCasa",
+  "exactModel": "LCV70GB",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only a Zap price-comparison listing (carrying a Me-Electric description) names the exact model; no importer, manual or retailer product page found. LCV70GW is a white sibling and was not used. | QA: Single Zap search listing names the exact model LCV70GB with 5 burners, black tempered glass and cast iron grates, consistent with the catalog name. No manufacturer, importer or manual page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/search.aspx?keyword=LCV70GB",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "5 מבערים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משטח",
+     "value": "זכוכית מחוסמת בגוון שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Reworded for clarity",
+     "label": "רשתות מבערים",
+     "value": "ברזל יצוק (Cast Iron)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "להבת טורבו ווק"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "המשטח עשוי זכוכית מחוסמת בגוון שחור והרשתות יצוקות מברזל. מתאים למי שמבשל הרבה ומחפש מבער ווק לצד מבערים רגילים.",
+  "highlights": [
+   "להבת טורבו ווק",
+   "משטח זכוכית מחוסמת בגוון שחור",
+   "רשתות מבערים מברזל יצוק (Cast Iron)"
+  ],
+  "goodFor": [
+   "הקפצה בווק ובישול בחום גבוה עם להבת הטורבו",
+   "מטבח בעיצוב כהה המשתלב עם משטח זכוכית שחור"
+  ],
+  "considerations": [
+   "יש לבדוק את מידות החיתוך במשטח העבודה מול הוראות היצרן לפני ההזמנה",
+   "התקנת כיריים גז מחייבת טכנאי גז מוסמך",
+   "רשתות ברזל יצוק כבדות יחסית, כדאי לקחת זאת בחשבון בניקוי"
+  ],
+  "faq": [
+   {
+    "q": "ממה עשוי המשטח?",
+    "a": "המשטח עשוי זכוכית מחוסמת בגוון שחור.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויות הרשתות?",
+    "a": "הרשתות יצוקות מברזל (Cast Iron).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "כיריים גז LaCasa",
+   "LCV70GB",
+   "לה קאזה כיריים",
+   "כיריים גז 5 מבערים",
+   "כיריים זכוכית שחורה",
+   "כיריים עם מבער ווק",
+   "כיריים גז 70 ס״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "5 להבות גז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח",
+   "catalogValue": "זכוכית מחוסמת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "identity",
+   "issue": "Only one aggregator page names LCV70GB; dimensions and other catalog specs unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Only one aggregator (Zap) listing names LCV70GB; no manufacturer or importer source.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog dimensions, cut-out size, flame-failure sensors and ignition are not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All three facts and the turbo wok feature are supported by ok quotes on a Zap listing that names LCV70GB. Only one aggregator source; identity set to medium. Source kept as 'other' (price-comparison search page, not an Israeli shop's product page). Dimensions, cut-out, safety sensors and ignition from the catalog are unverified and not published. | code guard removed: summary: \"כיריים גז של LaCasa בדגם LCV70GB עם 5 מבערים, כולל להבת טורבו ווק.\"; faq: \"כמה מבערים יש בכיריים?\"; metaDescription: \"כיריים גז LaCasa LCV70GB עם 5 מבערים ולהבת טורבו ווק, משטח זכוכית מחוסמת שחורה ורשתות ברזל יצוק. בחדד אלקטריק נהריה\"; highlight: \"5 מבערים\"; goodFor: \"בישול במספר סירים במקביל בזכות 5 מבערים\""
+ }
+}

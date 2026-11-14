@@ -1,0 +1,466 @@
+{
+ "modelNumber": "QE55QN85D-NEOQLED",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "QE55QN85D",
+  "israeliImporter": "סמליין",
+  "matchConfidence": "medium",
+  "notes": "הדגם QE55QN85D נמצא בעמוד של קמעונאי ישראלי (אבי סופר) עם שם הדגם המלא. קוד הקטלוג QE55QN85D-NEOQLED לא מופיע בשום עמוד שנבדק. לא נמצא עמוד יצרן או יבואן לדגם המדויק. | QA: Israeli retailer page names QE55QN85D and the official importer סמליין; the catalog suffix -NEOQLED is a store label, and the full Israeli Samsung suffix is not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-55-%D7%90%D7%99%D7%A0%D7%A5-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-qe55qn85d/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1227.6 × 706.4 × 46.1 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Depth 234.9 vs catalog 243.9; single retailer source, possible transposition.",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "1227.6 × 766 × 234.9 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "17.1 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל עם מעמד",
+     "value": "20.1 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K (3,840 × 2,160)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית תצוגה",
+     "value": "Neo QLED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "HDR",
+     "value": "Neo Quantum HDR, HDR 10+"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "120 הרץ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "NQ4 AI Gen2"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק שמע (RMS)",
+     "value": "40 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת רמקולים",
+     "value": "2.2 ערוצים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Dolby Atmos",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "HDMI 1/2/3/4 listed.",
+     "label": "כניסות HDMI",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Relabelled.",
+     "label": "HDMI בקצב פריימים גבוה",
+     "value": "4K 120 הרץ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.2"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל (אופיינית)",
+     "value": "80 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל (מרבית)",
+     "value": "195 W"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, יבואן רשמי (סמליין)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רכזת SmartThings מובנית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סמסונג QE55QN85D היא טלוויזיית Neo QLED ברזולוציית 4K, עם קצב רענון של 120 הרץ ומעבד NQ4 AI Gen2. היא כוללת 4 כניסות HDMI התומכות ב-4K 120 הרץ, תמיכה ב-HDR 10+ ושמע 2.2 ערוצים בהספק 40 W עם Dolby Atmos. מתאימה לסלון שבו צופים בסרטים, ספורט ומשחקי קונסולה.",
+  "highlights": [
+   "מסך Neo QLED ברזולוציית 4K (3,840 × 2,160)",
+   "קצב רענון 120 הרץ",
+   "4 כניסות HDMI עם תמיכה ב-4K 120 הרץ",
+   "שמע 2.2 ערוצים, 40 W RMS עם Dolby Atmos",
+   "Wi-Fi 5 ו-Bluetooth 5.2"
+  ],
+  "goodFor": [
+   "משחקי קונסולה בקצב 4K 120 הרץ דרך HDMI",
+   "צפייה בתוכן HDR 10+ מאפליקציות סטרימינג",
+   "בית חכם עם רכזת SmartThings מובנית",
+   "חיבור כמה מכשירים במקביל בזכות 4 כניסות HDMI"
+  ],
+  "considerations": [
+   "לתלייה על הקיר יש לוודא שהקיר והזרוע מתאימים למשקל של 17.1 ק״ג ללא מעמד",
+   "רוחב המסך 1227.6 מ״מ – כדאי למדוד את הקיר או את שידת הטלוויזיה מראש",
+   "צריכת החשמל המרבית 195 W – כדאי לחבר לשקע תקין ולא למפצל עמוס",
+   "האחריות היא שנה דרך היבואן הרשמי סמליין – כדאי לשמור את החשבונית"
+  ],
+  "faq": [
+   {
+    "q": "האם הטלוויזיה מתאימה ל-PS5 או Xbox?",
+    "a": "כן, כל 4 כניסות ה-HDMI תומכות ב-4K 120 הרץ, וקצב הרענון של המסך הוא 120 הרץ.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות והמשקל של המסך ללא מעמד?",
+    "a": "1227.6 × 706.4 × 46.1 מ״מ ומשקל של 17.1 ק״ג ללא מעמד.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תמיכה ב-Dolby Atmos?",
+    "a": "כן, מערכת שמע 2.2 ערוצים בהספק 40 W RMS עם תמיכה ב-Dolby Atmos.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל הטלוויזיה צורכת?",
+    "a": "צריכה אופיינית של 80 W ומרבית של 195 W.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנת אחריות דרך סמליין, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה Samsung Neo QLED דגם QE55QN85D ברזולוציית 4K, קצב רענון 120 הרץ ו-4 כניסות HDMI בתמיכת 4K 120 הרץ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "QE55QN85D",
+   "סמסונג QN85D 55",
+   "טלוויזיה Neo QLED 55 אינץ׳",
+   "טלוויזיה סמסונג 55 אינץ׳ 120 הרץ",
+   "טלוויזיה 55 אינץ׳ לגיימינג",
+   "Samsung QN85D",
+   "טלוויזיה 4K סמסונג סמליין"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "55 אינץ' (138 ס\"מ אלכסוני)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K UHD (3,840 x 2,160)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית תצוגה",
+   "catalogValue": "Neo QLED עם Quantum Matrix (נוריות Mini LED)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "120Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד תמונה",
+   "catalogValue": "NQ4 AI Gen2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDR",
+   "catalogValue": "Neo Quantum HDR, HDR10+, HLG",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שמע",
+   "catalogValue": "2.2 ערוצים בהספק 40W (RMS)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסות HDMI",
+   "catalogValue": "4 כניסות HDMI 2.1 (תומכות ב-4K@120Hz, VRR, ALLM)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קישוריות אלחוטית",
+   "catalogValue": "Wi-Fi 5, Bluetooth 5.2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1227.6 x 706.4 x 46.1 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1227.6 x 766.0 x 243.9 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1227.6 × 766 × 234.9 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "17.1 ק\"ג (ללא מעמד), 20.1 ק\"ג (עם מעמד)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V, 50/60Hz",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "טיטניום כסוף (Titanium Silver)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל (אופייני)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "80 W",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "קוד הקטלוג QE55QN85D-NEOQLED לא מופיע בשום עמוד שנבדק. נעשה שימוש בקוד הבסיס QE55QN85, שמופיע בעמוד הקמעונאי הישראלי. סמסונג משתמשת בסיומות אזוריות (למשל BTXXU לבריטניה), ויש לוודא שזה הקוד הנכון לשוק הישראלי.",
+   "severity": "high"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "הקטלוג מציין 220-240V, אך העמוד הישראלי מציין AC110-120V~ 50/60Hz. זו סתירה בין המקורות; יש לבדוק מול היבואן לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור מאומת",
+   "issue": "לא נמצא עמוד יצרן או יבואן שמציין את הדגם המדויק QE55QN85D. כל העובדות מבוססות על עמוד קמעונאי ישראלי אחד בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog code QE55QN85D-NEOQLED does not appear in sources; the retailer page names QE55QN85D. Confirm the Israeli SKU suffix with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות עם מעמד",
+   "issue": "Depth with stand: retailer 234.9 mm vs catalog 243.9 mm. Not published; verify against Samsung spec sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "Retailer page lists 110-120V, contradicting catalog 220-240V; likely a retailer listing error, verify with importer.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on a single Israeli retailer page; no manufacturer or importer page found.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 1 (dimensions with stand): the retailer lists depth 234.9 mm while the catalog has 243.9 mm, a likely digit transposition on one side, and there is no second source. Relabelled fact 13 to describe the HDMI high-frame-rate support. Retailer page also lists 110-120V supply, which looks like a listing error and was not used."
+ }
+}

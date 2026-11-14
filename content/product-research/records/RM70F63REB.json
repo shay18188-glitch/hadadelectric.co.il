@@ -1,0 +1,555 @@
+{
+ "modelNumber": "RM70F63REB",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RM70F63REB",
+  "israeliImporter": "ניופרו (מקבוצת ניופאן)",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בחנויות ישראליות בשם RM70F63REB, ובטבלת מפרט אחת בשם RM70F63REBML (גימור זכוכית שחורה). לא נמצא דף יצרן ישראלי; העובדות מבוססות על דפי חנויות ישראליות שמציינות את הדגם. | QA: Three Israeli retailers name RM70F63REB with 648 L and black glass finish; citydeal lists the full code RM70F63REBML, which appears to be the regional suffix of the same unit."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-4-דלתות-648-ליטר-כולל-התקן-שבת-מובנה-מהדרין-samsung-5102203rm70f63reb",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקררים/מקרר_4_דלתות_samsung_דגם_rm70f63reb_סמסונג_שחור",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.citydeal.co.il/product/samsung-rm70f63reb-bespoke-%D7%9E%D7%A7%D7%A8%D7%A8-4-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-%D7%91%D7%A0%D7%A4%D7%97-648-%D7%9C%D7%99%D7%98%D7%A8-%D7%91%D7%A6%D7%91%D7%A2",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "RM70F63REB"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל נטו",
+     "value": "648 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "402 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "246 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "91.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "185.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק כולל דלתות",
+     "value": "68.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק גוף",
+     "value": "61 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "129 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Per the manufacturer diagram cited by citydeal, includes a rear clearance of 5 cm.",
+     "label": "עומק התקנה (כולל מרווח אחורי)",
+     "value": "73.3 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "bug.co.il reportedly lists 361; flagged.",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "351 קוט״ש"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגיה",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אקלים",
+     "value": "T (טרופי)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "AI Inverter"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שבת מהדרין",
+     "value": "מובנית"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קישוריות",
+     "value": "Wi-Fi מובנית (SmartThings)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Paraphrase of a general Samsung statement; Israeli importer terms unclear and bug.co.il reportedly also mentions 20 years.",
+     "label": "אחריות על המדחס",
+     "value": "10 שנים"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחריות ע״י ניופרו, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית SpaceMax עם דפנות דקות יותר להגדלת נפח האחסון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Zero-line / 70 cm niche quote failed; kept only the door part.",
+   "text": "דלתות שטוחות הנפתחות בזווית של 90 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "AI wording not in quote.",
+   "text": "התאמה אוטומטית של מחזור ההפשרה לשמירה על טמפרטורה עקבית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדף החלקה לפריטים גבוהים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Wi-Fi מובנית עם תמיכה באפליקציית SmartThings"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית שבת מהדרין מובנית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Generic, not informative.",
+   "text": "מקרר Samsung בגוון שחור"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Generic, not informative.",
+   "text": "מדפים ומגירות בהתאם למפרט הדגם"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתוכנן להתקנה עם מרווח של 4 מ״מ בלבד מכל צד"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לפני ההתקנה יש לבדוק את רוחב הנישה, הגובה, עומק ההתקנה ומרחב פתיחת הדלתות"
+  }
+ ],
+ "content": {
+  "summary": "Samsung RM70F63REB הוא מקרר ארבע דלתות בגימור זכוכית שחורה עם נפח כולל של 648 ליטר: 402 ליטר בתא הקירור ו-246 ליטר בתא ההקפאה. מידותיו 185.3 × 91.2 × 68.3 ס״מ, עם עומק גוף של 61 ס״מ ומרווח של 4 מ״מ בלבד מכל צד. הוא כולל מדחס AI Inverter, שבת מהדרין מובנית ו-Wi-Fi עם SmartThings, ומתאים למשפחה שמחפשת מקרר גדול שמשתלב בשורת ארונות המטבח.",
+  "highlights": [
+   "נפח כולל 648 ליטר: 402 ליטר קירור ו-246 ליטר הקפאה",
+   "רוחב 91.2 ס״מ ועומק גוף 61 ס״מ",
+   "שבת מהדרין מובנית",
+   "מדחס AI Inverter ו-Wi-Fi מובנית עם SmartThings",
+   "דלתות שטוחות הנפתחות בזווית של 90 מעלות"
+  ],
+  "goodFor": [
+   "משפחה גדולה שצריכה נפח אחסון רחב גם בתא ההקפאה",
+   "מטבח שבו רוצים שהמקרר ישתלב בשורת הארונות עם מרווח צד של 4 מ״מ",
+   "בית שומר שבת שמחפש מצב שבת מהדרין מובנה",
+   "מי שרוצה לשלוט ולעקוב אחרי המקרר מהטלפון דרך SmartThings"
+  ],
+  "considerations": [
+   "ודאו שרוחב הנישה מתאים לרוחב של 91.2 ס״מ ולמרווח של 4 מ״מ מכל צד",
+   "משקל נטו של 129 ק״ג, כדאי לתכנן את ההובלה וההכנסה למטבח",
+   "דירוג אנרגיה E וצריכה שנתית של 351 קוט״ש"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Samsung RM70F63REB?",
+    "a": "נפח כולל של 648 ליטר: 402 ליטר בתא הקירור ו-246 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "גובה 185.3 ס״מ, רוחב 91.2 ס״מ ועומק כולל דלתות של 68.3 ס״מ, עם עומק גוף של 61 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, יש בו פונקציית שבת מהדרין מובנית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לחבר את המקרר לאפליקציה?",
+    "a": "כן, יש בו Wi-Fi מובנית עם תמיכה באפליקציית SmartThings.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר ארבע דלתות Samsung RM70F63REB בגימור זכוכית שחורה: נפח כולל 648 ליטר ורוחב 91.2 ס״מ, עם שבת מהדרין מובנית ו-Wi-Fi. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung RM70F63REB",
+   "RM70F63REB",
+   "מקרר סמסונג 4 דלתות",
+   "מקרר 648 ליטר",
+   "מקרר קו אפס סמסונג",
+   "מקרר זכוכית שחורה",
+   "מקרר Bespoke Kitchen Fit",
+   "מקרר שבת מהדרין סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל נטו",
+   "catalogValue": "648 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "402 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "246 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "91.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "185.3 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עומק כולל דלתות",
+   "catalogValue": "68.3 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עומק גוף",
+   "catalogValue": "61 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "129 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "351 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגיה",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אקלים",
+   "catalogValue": "T",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כושר הקפאה",
+   "catalogValue": "12 ק\"ג ב-24 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "issue": "דף bug.co.il מציין 361 קוט\"ש, בעוד טרקלין וסיטי דיל מציינים 351 קוט\"ש (הערך שפורסם). בדקו מול תווית היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות על המדחס",
+   "issue": "דף bug.co.il מציין גם 10 שנות אחריות על המדחס וגם 20 שנה בתיאור המדחס, וסיטי דיל מציין 10 שנים לפי Samsung. פורסם 10 שנים.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות כללית",
+   "issue": "תנאי השירות שונים בין החנויות: באג מציין שנה + 10 שנות מדחס, טרקלין וסיטי דיל מציינים הרחבה ל-3 שנות שירות ב-99 ש\"ח. יש לוודא מה מוצע בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "סיטי דיל מציין את הדגם כ-RM70F63REBML (סיומת ML, גימור זכוכית שחורה). הקוד RM70F63REB מופיע בכל הדפים שנבדקו; יש לוודא שזו הגרסה הישראלית שנמכרת.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "issue": "פורסם 351 קוט״ש לפי טרקלין; לפי המחקר דף bug.co.il מציין 361 קוט״ש. יש לבדוק מול תווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות על המדחס",
+   "issue": "נדחה: סיטי דיל מציין 10 שנים לפי Samsung ובאג מציין גם 20 שנה. יש לוודא את תנאי היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "סיטי דיל מציין את הקוד המלא RM70F63REBML. יש לוודא שזו הגרסה הישראלית הנמכרת.",
+   "severity": "low"
+  },
+  {
+   "field": "קו אפס / עומק נישה",
+   "issue": "הטענה להתאמה לנישה בעומק 70 ס״מ לא אומתה בציטוט, ועומק ההתקנה לפי תרשים היצרן הוא 73.3 ס״מ. יש לבדוק מול תרשים ההתקנה של היצרן.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the 10-year compressor warranty (citydeal paraphrases a Samsung global statement; bug.co.il reportedly also mentions 20 years, and Israeli warranty terms vary by store). Rejected the two generic in-the-box items. Reworded feature 1 to the verified 90-degree flat doors only (the zero-line/70 cm quote failed), feature 2 to drop the unquoted AI claim, feature 3 to drop the unquoted 'quiet compressor', and installation 0 for clarity. Energy 351 kWh kept on the single ok quote but flagged because bug.co.il reportedly lists 361. | code guard removed: faq: \"איזה מרווח צריך להשאיר בהתקנה?\"; consideration: \"עומק ההתקנה לפי תרשים היצרן הוא 73.3 ס״מ כולל מרווח אחורי של 5 ס״מ, כדאי למדוד את עומק הנישה\""
+ }
+}

@@ -1,0 +1,630 @@
+{
+ "modelNumber": "KX-TGD313",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "KX-TGD313",
+  "israeliImporter": "ברימאג דיגיטל",
+  "matchConfidence": "high",
+  "notes": "מערכת טלפון אלחוטי DECT: יחידת בסיס ושתי שלוחות נוספות (סה\"כ שלוש שלוחות). ברשתות הישראליות הדגם מופיע כ-KXTGD313 ללא מקף. | QA: Israeli retailers list the same model as KXTGD313 with Brimag Digital warranty; manua.ls names KX-TGD313. Catalog name (base + 2 additional handsets, 3 in total) matches the TGD313 naming."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrica.co.il/items/2676461-%D7%98%D7%9C%D7%A4%D7%95%D7%9F-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-Panasonic-%D7%93%D7%92%D7%9D-KXTGD313-%D7%A4%D7%A0%D7%A1%D7%95%D7%A0%D7%99%D7%A7",
+   "publisher": "Electrica",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.manua.ls/panasonic/kx-tgd313/manual",
+   "publisher": "manua.ls",
+   "kind": "other",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.ace.co.il/4483227",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.bug.co.il/%D7%98%D7%9C%D7%A4%D7%95%D7%9F-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA-2-%D7%A9%D7%9C%D7%95%D7%97%D7%95%D7%AA-panasonic-92010313",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "LCD removed, not in quotes",
+     "label": "צג",
+     "value": "צג מואר בגודל 1.8 אינץ׳"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רזולוציית צג",
+     "value": "103 × 65 פיקסלים"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ספר טלפונים",
+     "value": "עד 120 רשומות, בעברית ובאנגלית"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שפות תפריט",
+     "value": "עברית, אנגלית, רוסית"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חסימת שיחות",
+     "value": "עד 50 מספרים"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שירות לילה",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שמרטף",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אינטרקום והעברת שיחות",
+     "value": "כן, בין השלוחות האלחוטיות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיחת ועידה",
+     "value": "בין 2 שלוחות אלחוטיות וקו חוץ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפעלה בזמן הפסקת חשמל",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן שיחה רציף",
+     "value": "עד 16 שעות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן המתנה",
+     "value": "עד 200 שעות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "כ-7 שעות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוללות",
+     "value": "2 סוללות AAA נטענות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות שלוחה (רוחב × עומק × גובה)",
+     "value": "48 × 34 × 165 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "axis order not stated",
+     "label": "מידות יחידת הבסיס",
+     "value": "90 × 109 × 85 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל שלוחה",
+     "value": "130 g"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל יחידת הבסיס",
+     "value": "120 g"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "consistent with 6-handset total",
+     "label": "שלוחות אלחוטיות נוספות",
+     "value": "ניתן לחבר עד 3 שלוחות אלחוטיות נוספות"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דיבורית",
+     "value": "כן, בשלוחה האלחוטית"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית שמע",
+     "value": "Clear Sound"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זיהוי מתקשר",
+     "value": "כן, לפני הצלצול הראשון"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצב ECO",
+     "value": "לחצן ECO"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים, ברימאג דיגיטל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תפריט בעברית, אנגלית ורוסית עם ניווט באמצעות אייקונים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of fact 15",
+   "text": "זיהוי מתקשר לפני הצלצול הראשון"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of fact 18",
+   "text": "שמרטף - קבלת התראה גם לשלוחה האלחוטית הנוספת"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of fact 19",
+   "text": "שיחת אינטרקום והעברת שיחות בין השלוחות האלחוטיות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לחצנים מוארים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "ambiguous handset count for a 3-handset set",
+   "text": "בסיס ושתי שלוחות אלחוטיות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Panasonic KX-TGD313 היא מערכת טלפון ביתי אלחוטי עם תפריט בעברית, אנגלית ורוסית וספר טלפונים של עד 120 רשומות. השלוחה מציעה עד 16 שעות שיחה רציפה, דיבורית, זיהוי מתקשר לפני הצלצול הראשון וחסימת עד 50 מספרים. מתאימה לבית שבו רוצים כמה שלוחות עם אינטרקום והעברת שיחות ביניהן.",
+  "highlights": [
+   "תפריט בעברית, אנגלית ורוסית",
+   "ספר טלפונים של עד 120 רשומות",
+   "עד 16 שעות שיחה ועד 200 שעות המתנה",
+   "חסימת שיחות של עד 50 מספרים",
+   "אינטרקום והעברת שיחות בין השלוחות"
+  ],
+  "goodFor": [
+   "בית עם כמה חדרים שבו רוצים שלוחה בכל קומה או חדר, עם אינטרקום והעברת שיחות",
+   "משתמשים שמעדיפים תפריט בעברית או ברוסית",
+   "מי שמקבל שיחות מטרידות ורוצה לחסום מספרים",
+   "הורים שרוצים פונקציית שמרטף בין השלוחות"
+  ],
+  "considerations": [
+   "יחידת הבסיס צריכה שקע חשמל ונקודת קו טלפון סמוכים",
+   "ניתן להוסיף עד 3 שלוחות אלחוטיות נוספות, כדאי לתכנן מראש כמה שלוחות תצטרכו"
+  ],
+  "faq": [
+   {
+    "q": "האם יש תפריט בעברית?",
+    "a": "כן, התפריט זמין בעברית, אנגלית ורוסית, וספר הטלפונים תומך בעברית ובאנגלית.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן אפשר לדבר בשלוחה?",
+    "a": "עד 16 שעות שיחה רציפה ועד 200 שעות בהמתנה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחסום מספרים?",
+    "a": "כן, ניתן להגדיר עד 50 מספרים לחסימת שיחות נכנסות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש דיבורית?",
+    "a": "כן, הדיבורית מובנית בשלוחה האלחוטית.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנתיים אחריות על ידי היבואן ברימאג דיגיטל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון אלחוטי Panasonic KX-TGD313 עם תפריט בעברית, ספר טלפונים ל-120 רשומות ועד 16 שעות שיחה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Panasonic KX-TGD313",
+   "KXTGD313",
+   "טלפון אלחוטי פנסוניק",
+   "טלפון אלחוטי עם שלוחות",
+   "טלפון ביתי אלחוטי בעברית",
+   "פנסוניק טלפון 3 שלוחות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "צג",
+   "catalogValue": "LCD בגודל 1.8 אינץ' (103x65 פיקסלים) עם תאורה אחורית לבנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תדר עבודה",
+   "catalogValue": "DECT 1.88 GHz - 1.90 GHz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ספר טלפונים",
+   "catalogValue": "תמיכה בעברית ובאנגלית, עד 120 שמות ומספרים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "סוללות",
+   "catalogValue": "2 סוללות נטענות מסוג AAA Ni-MH לכל שלוחה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 16 שעות דיבור רצופות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן המתנה",
+   "catalogValue": "עד 200 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-7 שעות לטעינה מלאה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שפות ממשק",
+   "catalogValue": "עברית, אנגלית, רוסית",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "יכולת הרחבה",
+   "catalogValue": "תמיכה בעד 6 שלוחות אלחוטיות ו-4 יחידות בסיס סה\"כ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Power Back-up Operation",
+   "catalogValue": "המשך עבודה של הטלפון בזמן הפסקת חשמל (כאשר השלוחה מונחת על הבסיס)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Clear Sound",
+   "catalogValue": "טכנולוגיה לשיפור איכות השמע והפחתת רעשי רקע",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חסימת שיחות מטרידות",
+   "catalogValue": "חסימת עד 50 מספרי טלפון ספציפיים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Eco Mode Plus",
+   "catalogValue": "הפחתה משמעותית של עוצמת השידור והקרינה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פונקציית שמרטף",
+   "catalogValue": "ניטור רעש בחדר ושליחת התראה לשלוחה אחרת או למספר חיצוני",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אינטרקום",
+   "catalogValue": "תקשורת פנימית בין השלוחות, העברת שיחות ושיחת ועידה בין 2 שלוחות לקו חוץ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "שירות לילה",
+   "catalogValue": "הגדרת שעות בהן המכשיר לא יצלצל",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "דיבורית",
+   "catalogValue": "מובנית בשלוחה האלחוטית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שעון מעורר מתקדם",
+   "catalogValue": "התראות יומיות, שבועיות או חד-פעמיות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים, יבואן רשמי ברימאג דיגיטל",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "זיהוי מתקשר לפני הצלצול",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן, לפני הצלצול הראשון",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "יכולת הרחבה",
+   "issue": "מקורות מתנגשים: דפי הקמעונאים הישראליים מציינים עד 3 שלוחות נוספות (סה\"כ 4 שלוחות), ואילו דף manua.ls ומפרט היצרן מציינים עד 6 שלוחות ו-4 יחידות בסיס. יש לאמת מול היבואן לפני פרסום יכולת ההרחבה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות ומשקל נמצאו רק בדף manua.ls, שאינו מקור יצרן או יבואן ואינו מופיע בדפי הקמעונאים הישראליים. ללא אימות נוסף הערכים אינם מפורסמים. לא ברור סדר הצירים של מידות יחידת הבסיס.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הדגם המופיע בקטלוג KX-TGD313 מופיע בדפי היצרן ובדף manua.ls. רשתות הקמעונאים בישראל מציגות אותו כ-KXTGD313 ללא מקף, ודפי מידע חוצי-אזורים מציינים גם סיומות כמו KX-TGD313NLG ו-KX-TGD313EB. יש לוודא שהגרסה הנמכרת בישראל היא הגרסה הנכונה.",
+   "severity": "low"
+  },
+  {
+   "field": "inTheBox",
+   "issue": "Bug lists 'בסיס ושתי שלוחות' while the catalog describes 3 handsets in total; confirm the handset count in the Israeli box.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Dimensions and weights come only from manua.ls; base axis order is not stated.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Display value reworded (LCD not in quotes). Clear Sound value shortened to drop promotional wording. In-the-box item rejected: 'בסיס ושתי שלוחות' is ambiguous against a 3-handset TGD313 set. Features 1-3 rejected as duplicates of facts 15, 18, 19. Fact 12 kept: 3 additional handsets on top of the 3 included is consistent with the 6-handset limit, so the flagged conflict is not real. | code guard removed: consideration: \"הסוללות הן AAA נטענות; זמן טעינה מלא הוא כ-7 שעות\""
+ }
+}

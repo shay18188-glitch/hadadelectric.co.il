@@ -1,0 +1,393 @@
+{
+ "modelNumber": "75GP095 (6752)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "75GP095",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "הדגם 75GP095 (6752) מופיע בדפי המוכרים בישראל bug.co.il ו-lior-electric.co.il (כותרת: 75GP095-B/6752). לא נמצא דף יצרן או יבואן עבור הדגם. לא נמצא עלון יצרן לדגם זה. | QA: Two Israeli retailer pages name 75GP095 / 75GP095-B/6752 Midea 5-burner black glass gas hob matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-5-%D7%9E%D7%91%D7%A2%D7%A8%D7%99%D7%9D-51-%D7%A1%D7%9E-midea-901669597",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-5-%D7%9C%D7%94%D7%91%D7%95%D7%AA-midea-%D7%9E%D7%99%D7%93%D7%90%D7%94-75gp095-b6752-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A9%D7%97%D7%95%D7%A8/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "source labels 75 as length and 51 as width; for a hob these are width and depth",
+     "label": "מידות (רוחב × גובה × עומק, כולל תושבות)",
+     "value": "75 × 9.7 × 51 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות חיתוך בשיש (גומחה)",
+     "value": "56 × 48 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער טורבו (להבה כפולה)",
+     "value": "3.6 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער גדול",
+     "value": "3 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבערים בינוניים (2)",
+     "value": "1.75 kW כל אחד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער קטן",
+     "value": "1 kW"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג המשטח",
+     "value": "זכוכית מחוסמת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תושבות סירים",
+     "value": "ברזל יצוק"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מבערים",
+     "value": "מבערים איטלקיים מתוצרת SABAF"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "הצתה אלקטרונית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיישני בטיחות",
+     "value": "ניתוק אוטומטי של אספקת הגז בכיבוי הלהבה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "other Israeli retailer reportedly states one year; unresolved",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "5 להבות בישול בעוצמות שונות, כולל להבת טורבו כפולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ברז נפרד לכל מבער לשליטה מדויקת על עוצמת הלהבה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז Midea 75GP095 ברוחב 75 ס״מ עם משטח זכוכית מחוסמת שחורה ו-5 מבערים איטלקיים מתוצרת SABAF. הכיריים כוללות מבער טורבו בלהבה כפולה של 3.6 kW, תושבות סירים מברזל יצוק, הצתה אלקטרונית וחיישני בטיחות שמנתקים את הגז בכיבוי הלהבה. מתאימות למטבח שמבשלים בו על כמה סירים במקביל ורוצים גם להבה חזקה להקפצה ולהרתחה.",
+  "highlights": [
+   "5 מבערים, כולל מבער טורבו בלהבה כפולה של 3.6 kW",
+   "מבערים איטלקיים מתוצרת SABAF",
+   "משטח זכוכית מחוסמת בצבע שחור",
+   "תושבות סירים מברזל יצוק",
+   "חיישני בטיחות לניתוק הגז בכיבוי הלהבה"
+  ],
+  "goodFor": [
+   "בישול במקביל על כמה סירים ומחבתות",
+   "הקפצה בווק והרתחה מהירה בעזרת מבער הטורבו",
+   "מטבח שמחפש משטח זכוכית שחור קל לניגוב"
+  ],
+  "considerations": [
+   "יש לוודא שחיתוך השיש מתאים למידות הגומחה 56 × 48 ס״מ",
+   "רוחב הכיריים 75 ס״מ ועומקן 51 ס״מ — כדאי לבדוק את המקום על השיש",
+   "ההצתה אלקטרונית, לכן נדרשת נקודת חשמל בקרבת הכיריים",
+   "חיבור הגז צריך להתבצע על ידי מתקין גז מוסמך"
+  ],
+  "faq": [
+   {
+    "q": "כמה מבערים יש בכיריים?",
+    "a": "5 מבערים: מבער טורבו בלהבה כפולה של 3.6 kW, מבער גדול של 3 kW, שני מבערים בינוניים של 1.75 kW כל אחד ומבער קטן של 1 kW.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך בשיש?",
+    "a": "מידות הגומחה להתקנה הן 56 × 48 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בכיריים מנגנון בטיחות?",
+    "a": "כן, חיישני בטיחות מנתקים אוטומטית את אספקת הגז במקרה של כיבוי הלהבה.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויות תושבות הסירים?",
+    "a": "תושבות הסירים עשויות מברזל יצוק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Midea 75GP095 ברוחב 75 ס״מ, 5 מבערי SABAF עם מבער טורבו 3.6 kW ומשטח זכוכית מחוסמת שחורה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז מידאה",
+   "Midea 75GP095",
+   "כיריים גז 75 ס״מ",
+   "כיריים גז זכוכית שחורה",
+   "כיריים 5 מבערים",
+   "כיריים גז עם מבער טורבו",
+   "כיריים מבערי SABAF"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "5 להבות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער טורבו (3.6KW)",
+   "catalogValue": "מבער טורבו עם להבה כפולה (3.6KW)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער גדול (3KW)",
+   "catalogValue": "מבער גדול (3KW)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבערים בינוניים (1.75KW כל אחד)",
+   "catalogValue": "שני מבערי גז בינוניים (1.75KW כל אחד)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער קטן (1KW)",
+   "catalogValue": "מבער גז קטן (1KW)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג המשטח",
+   "catalogValue": "זכוכית מחוסמת שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תושבות סירים",
+   "catalogValue": "ברזל יצוק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מבערים",
+   "catalogValue": "מבערים איטלקיים מתוצרת SABAF",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות (רוחב 75, עומק 51, גובה 9.7)",
+   "catalogValue": "רוחב 75 ס\"מ, עומק 51 ס\"מ, גובה 9.7 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות להתקנה (רוחב 56, עומק 48)",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 48 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבור חשמל",
+   "catalogValue": "חד פאזי (עבור מערכת ההצתה)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות חיצוניות",
+   "issue": "קטלוג הפנים מסמן 75 ס\"מ כרוחב ו-51 ס\"מ כעומק. דף bug.co.il מסמן 75 ס\"מ כאורך ו-51 ס\"מ כרוחב, וכך גם מידות הגומחה (56 אורך, 48 רוחב). המספרים זהים, אך התוויות שונות. יש לבדוק מול עלון היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף bug.co.il מציין שנתיים אחריות דרך המילטון. דף lior-electric.co.il מציין אחריות מלאה לשנה על ידי המילטון. המקורות סותרים.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הדגם 75GP095 מופיע בכותרות דפי המוכרים (bug.co.il, lior-electric.co.il בתור 75GP095-B/6752). לא נמצא דף יצרן או יבואן שמציין את הדגם המלא 75GP095 (6752). הקוד 6752 מופיע רק בדפי מוכרים ובקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור ומתח",
+   "issue": "לא נמצא מקור לנתוני מדינת המקור (סין) ולחיבור החשמל (חד פאזי) בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "bug.co.il מציין אחריות שנתיים דרך המילטון, ולפי החוקר lior-electric.co.il מציין שנה. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הדגם מאומת רק בדפי משווקים ישראליים (כולל הסיומת 75GP095-B/6752); לא נמצא דף יצרן או יבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Warranty rejected: bug.co.il says two years while the researcher reports lior-electric says one year; unresolved. Dimension labels normalised (75 width, 51 depth, 9.7 height incl. pan supports). Niche label clarified."
+ }
+}

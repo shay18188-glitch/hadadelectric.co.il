@@ -1,0 +1,325 @@
+{
+ "modelNumber": "MMB6176B/01",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MMB6176B/01",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only the Israeli retailer ACDC page names MMB6176B/01 with specs. Bosch Israel and the Bosch spec sheet name the base model MMB6176B without /01, so their values (dimensions, weight, speed, noise, cord, warranty) were not recorded as facts for this exact model. | QA: Only an Israeli retailer page names MMB6176B/01; Bosch sources name the base model MMB6176B only, and disagree with the retailer on jug material."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.acdc.co.il/items/6251535-%D7%91%D7%9C%D7%A0%D7%93%D7%A8-BOSCH-%D7%93%D7%92%D7%9D-MMB6176B-01-%D7%91%D7%95%D7%A9",
+   "publisher": "ACDC",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1200 וואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "2 מהירויות + הפעלה לסירוגין (פולס)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כד",
+     "value": "1.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Retailer says Tritan; Bosch base-model pages and catalog specs say ThermoSafe glass.",
+     "label": "חומר הכד",
+     "value": "טריטן (פלסטיק)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer-stated importer warranty; Bosch base model sheet mentions a separate motor warranty.",
+     "label": "אחריות יבואן רשמי",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "להבי ProEdge מנירוסטה, המיוצרים בסולינגן שבגרמניה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כולל מטחנת קפה ותבלינים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלקי הבלנדר נשטפים בקלות במדיח הכלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כל חלקי הפלסטיק הבאים במגע עם מזון הם BPA free (ללא ביספנול A)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר שולחני של BOSCH, דגם MMB6176B/01, עם מנוע בהספק 1200 וואט וכד בנפח 1.5 ליטר. יש בו 2 מהירויות והפעלה לסירוגין, להבי ProEdge מנירוסטה ומטחנת קפה ותבלינים. מתאים למי שמכין שייקים, רטבים ומרקים וגם רוצה לטחון קפה ותבלינים באותו מכשיר.",
+  "highlights": [
+   "מנוע בהספק 1200 וואט",
+   "כד בנפח 1.5 ליטר",
+   "2 מהירויות והפעלה לסירוגין (פולס)",
+   "להבי ProEdge מנירוסטה מתוצרת סולינגן, גרמניה",
+   "כולל מטחנת קפה ותבלינים"
+  ],
+  "goodFor": [
+   "הכנת שייקים, רטבים ומחיתות במטבח הביתי",
+   "טחינת פולי קפה ותבלינים בעזרת המטחנה המצורפת",
+   "מי שמעדיף ניקוי פשוט במדיח הכלים"
+  ],
+  "considerations": [
+   "חומר הכד (זכוכית או טריטן) לא אומת סופית — כדאי לבדוק על המוצר לפני הקנייה",
+   "יש לוודא מקום על השיש ליד שקע חשמל",
+   "האחריות שצוינה היא 12 חודשים דרך היבואן הרשמי — כדאי לברר את התנאים המלאים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "1200 וואט.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח הכד?",
+    "a": "1.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מטחנת קפה?",
+    "a": "כן, הבלנדר כולל מטחנת קפה ותבלינים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את החלקים במדיח?",
+    "a": "כן, חלקי הבלנדר נשטפים במדיח הכלים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר BOSCH דגם MMB6176B/01 בהספק 1200 וואט עם כד 1.5 ליטר ומטחנת קפה ותבלינים, להבי ProEdge מנירוסטה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר בוש",
+   "Bosch MMB6176B",
+   "MMB6176B/01",
+   "בלנדר 1200 וואט",
+   "בלנדר עם מטחנת קפה",
+   "בלנדר שולחני בוש",
+   "בלנדר 1.5 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות מנוע",
+   "catalogValue": "עד 30,000 סל\"ד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת כד",
+   "catalogValue": "1.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר הכד",
+   "catalogValue": "זכוכית ThermoSafe",
+   "finding": "contradicted",
+   "correctValue": "טריטן (פלסטיק)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דרגות מהירות",
+   "catalogValue": "2 מהירויות + פונקציית פולס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג להבים",
+   "catalogValue": "ProEdge מפלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50/60 הרץ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "4.1 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל ברוטו",
+   "catalogValue": "5.1 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה 410 מ\"מ, רוחב 230 מ\"מ, עומק 195 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "100 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סלובניה (אירופה)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "The catalog name says 120 וואט and כוס פלסטיק, but the Israeli retailer page says 1200 W and a Tritan jug. The name needs a person's review; no new name is proposed here.",
+   "severity": "high"
+  },
+  {
+   "field": "חומר הכד",
+   "issue": "Sources conflict: the Bosch pages for the base model MMB6176B say glass (borosilicate / ThermoSafe), while the ACDC retailer page for MMB6176B/01 says Tritan plastic. Confirm the jug material on the unit or from the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Sources conflict: the Bosch spec sheet for the base model gives a 10-year motor warranty, while the ACDC retailer page gives 12 months official importer warranty. Confirm the Israeli warranty terms.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer page checked names MMB6176B/01. Bosch Israel and the Bosch spec sheet name only MMB6176B, so dimensions, weight, speed, cord, colour and voltage could not be recorded for this exact model.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 120 וואט and כוס פלסטיק; the retailer page says 1200 W. Name needs review.",
+   "severity": "high"
+  },
+  {
+   "field": "חומר הכד",
+   "issue": "Retailer says Tritan plastic, Bosch base-model pages and catalog specs say ThermoSafe glass. Confirm on the unit or with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Retailer gives 12 months importer warranty; Bosch base-model sheet mentions a long motor warranty. Confirm Israeli terms.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer page names the /01 suffix; Israeli variant identity rests on one retailer page.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected jug material (Tritan) as conflicting with Bosch base-model pages that describe a ThermoSafe glass jug; jug material must be confirmed. Other facts kept from the ACDC page naming MMB6176B/01."
+ }
+}

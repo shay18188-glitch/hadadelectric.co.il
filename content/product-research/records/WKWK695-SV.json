@@ -1,0 +1,343 @@
+{
+ "modelNumber": "WKWK695-SV",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Westinghouse",
+  "exactModel": "WKWK695-SV",
+  "israeliImporter": "סלמור",
+  "matchConfidence": "high",
+  "notes": "Exact-model pages: orsale.co.il (WKWK-695SV) and tagorc.co.il (WKWK695SV). Importer name comes from a listing of the same body without the SV suffix, so it is flagged for review. | QA: Two Israeli retailer pages name the exact model (WKWK-695SV / WKWK695SV) with matching 1.6 L and 2200W. Importer name came from a sibling listing without the SV suffix, so not asserted."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.tagorc.co.il/product/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%9E%D7%A2%D7%95%D7%A6%D7%91-%D7%A8%D7%98%D7%A8%D7%95-1-6-%D7%9C%D7%99%D7%98%D7%A8-22-3/",
+   "publisher": "טאגור סנטר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://orsale.co.il/product/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%97%D7%A9%D7%9E%D7%9C%D7%99-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-westinghouse-%D7%95%D7%95%D7%A1%D7%98%D7%99%D7%A0%D7%92%D7%94%D7%90%D7%95%D7%A1-wkwk-695s/",
+   "publisher": "אורסייל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "1.6 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200W"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מד טמפרטורה",
+     "value": "מובנה, 0-100°C"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "relabelled",
+     "label": "תרמוסטט",
+     "value": "OTTER (אנגליה), עם הגנה מפני הפעלה ללא מים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר חיצוני",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "נירוסטה מוברשת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקופת אחריות",
+     "value": "24 חודשים על ידי היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קומקום נירוסטה נשלף, קל להפעלה ולניקוי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הוצאה והכנסה של הקומקום בסיבוב של 360°, נוח לימניים ולשמאליים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פילטר נשלף וניתן לניקוי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מפסק עם נורת ביקורת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי בעיצוב רטרו של Westinghouse, דגם WKWK695-SV, בגוף נירוסטה מוברשת. נפח 1.6 ליטר והספק 2200W, עם מד טמפרטורה מובנה המציג 0-100°C ותרמוסטט OTTER עם הגנה מפני הפעלה ללא מים. מתאים למי שמכין תה וקפה ורוצה לראות את חום המים בזמן אמת.",
+  "highlights": [
+   "נפח 1.6 ליטר",
+   "הספק 2200W",
+   "מד טמפרטורה מובנה 0-100°C",
+   "תרמוסטט OTTER עם הגנה מפני הפעלה ללא מים",
+   "בסיס סיבובי 360° ופילטר נשלף"
+  ],
+  "goodFor": [
+   "הכנת תה או קפה כשחשוב לדעת את חום המים",
+   "מטבח בעיצוב רטרו עם גימור נירוסטה מוברשת",
+   "שימוש נוח לימניים ולשמאליים בזכות הבסיס הסיבובי"
+  ],
+  "considerations": [
+   "הספק 2200W: כדאי לחבר לשקע שאינו עמוס במכשירים חזקים נוספים",
+   "הגימור הוא נירוסטה מוברשת, כדאי לוודא שמתאים לגוון המטבח",
+   "הפילטר נשלף, כדאי לנקות אותו מדי פעם מאבנית"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של הקומקום?",
+    "a": "1.6 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לראות את טמפרטורת המים?",
+    "a": "כן, יש מד טמפרטורה מובנה המציג 0-100°C.",
+    "sources": []
+   },
+   {
+    "q": "מה קורה אם מפעילים את הקומקום בלי מים?",
+    "a": "תרמוסטט OTTER מספק הגנה במקרה של הפעלה ללא מים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "24 חודשי אחריות על ידי היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי רטרו Westinghouse WKWK695-SV מנירוסטה, 1.6 ליטר ו-2200W עם מד טמפרטורה 0-100°C. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי רטרו",
+   "קומקום Westinghouse",
+   "WKWK695-SV",
+   "קומקום עם מד טמפרטורה",
+   "קומקום נירוסטה 1.6 ליטר",
+   "קומקום וסטינגהאוס",
+   "קומקום חשמלי 2200W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "1.6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר",
+   "catalogValue": "נירוסטה (פלדת אל-חלד) בשילוב רכיבי פלסטיק איכותיים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תרמוסטט",
+   "catalogValue": "מנגנון OTTER אנגלי לבטיחות מרבית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מד טמפרטורה",
+   "catalogValue": "שעון אנלוגי מובנה המציג טמפרטורה מ-0 עד 100 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס 360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "מסנן אבנית נשלף וניתן לשטיפה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חלון מים",
+   "catalogValue": "מדיד מים שקוף הממוקם בגוף הקומקום",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף (Silver/Stainless Steel)",
+   "finding": "corrected",
+   "correctValue": "נירוסטה מוברשת",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין כסוף, ואתרי הקמעונאים מציינים נירוסטה מוברשת. כדאי לוודא את הגימור במוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שם היבואן סלמור מופיע בעמוד של אותו גוף בלי הסיומת SV, ולכן לא נכלל כעובדה מאומתת לדגם המדויק.",
+   "severity": "low"
+  },
+  {
+   "field": "חומר",
+   "issue": "רכיבי הפלסטיק שבקטלוג לא אומתו בעמודים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "חלון מים",
+   "issue": "חלון המים השקוף לא אומת בעמודים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "מידות ומשקל לא נמצאו בעמודים שנבדקו; לא נכללו.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין כסוף, ואתרי הקמעונאים מציינים נירוסטה מוברשת. כדאי לוודא את הגימור.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שם היבואן לא אומת לדגם המדויק עם הסיומת SV.",
+   "severity": "low"
+  },
+  {
+   "field": "חומר / חלון מים",
+   "issue": "רכיבי הפלסטיק וחלון המים השקוף שבקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled fact 3 as thermostat with boil-dry protection; all other facts kept as researched."
+ }
+}

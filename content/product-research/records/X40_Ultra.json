@@ -1,0 +1,420 @@
+{
+ "modelNumber": "X40 Ultra",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Dreame",
+  "exactModel": "X40 Ultra",
+  "israeliImporter": "קבוצת קריסטלינו",
+  "matchConfidence": "high",
+  "notes": "Only one readable page names this model: a 2024 Israeli tech article (Gadgety). The Dreame Israel product pages returned HTTP 429, the Israeli retailer pages returned 403 or timeouts, and the Dreame store page failed. The research budget of 8 URLs was spent after that, so no second source was reached. Dimensions, weight, colour, origin and navigation details are unverified. | QA: Gadgety article about the Dreame X40 Ultra launch in Israel names the exact model. Only one source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.gadgety.co.il/326743/dreame-x40-ultra-israel/",
+   "publisher": "Gadgety",
+   "kind": "review",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "12,000 Pa"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Catalog says 260 minutes; review says 3.5 hours.",
+     "label": "זמן עבודה מקסימלי",
+     "value": "עד 3.5 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "22 mm in quote, metric shift.",
+     "label": "יכולת מעבר מכשולים",
+     "value": "עד 2.2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת סוללה",
+     "value": "6,400 mAh"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל אבק (רובוט)",
+     "value": "300 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח מיכל מים (רובוט)",
+     "value": "80 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Reverse of catalog; likely transposed in the article. Needs manufacturer confirmation.",
+     "label": "נפח מיכל מים נקיים (תחנה)",
+     "value": "4 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Reverse of catalog; likely transposed in the article. Needs manufacturer confirmation.",
+     "label": "נפח מיכל מים מלוכלכים (תחנה)",
+     "value": "4.5 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח שקית אבק (תחנה)",
+     "value": "3.2 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תדירות ריקון שקית האבק",
+     "value": "פעם ב-75 ימים (לדברי היצרן)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Relabelled.",
+     "label": "טמפרטורת ניקוי פדים",
+     "value": "70°C"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ניקוי וייבוש של פדי הניקוי בתחנת העגינה בטמפרטורה של 70 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Kept without the tank volumes.",
+   "text": "החלפת מים אוטומטית לרובוט מתוך התחנה, עם מיכל מים נקיים ומיכל מים מלוכלכים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "זרוע קרצוף ומברשת צד נעות לניקוי צמוד לקיר ומתחת לרהיטים נמוכים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הרמת דיסקיות הקרצוף למעבר מעל מכשולים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מיפוי הבית והימנעות ממכשולים בעזרת מצלמת RGB ובינה מלאכותית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצבי שאיבה, שטיפה, ושאיבה עם שטיפה בו זמנית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Dreame X40 Ultra הוא שואב רובוטי שוטף עם תחנת עגינה שמרוקנת את האבק לשקית ומנקה ומייבשת את פדי הניקוי. מתאים למי שמחפש רובוט ששואב ושוטף בו זמנית עם מינימום תחזוקה ידנית.",
+  "highlights": [],
+  "goodFor": [
+   "בתים גדולים שבהם הרובוט צריך לעבוד זמן רב בטעינה אחת",
+   "בתים עם רצפות קשות שצריכות גם שאיבה וגם שטיפה",
+   "מי שרוצה לרוקן את האבק לעיתים רחוקות, בזכות שקית האבק בתחנה",
+   "בתים עם ספי דלתות ומעברים נמוכים"
+  ],
+  "considerations": [
+   "תחנת העגינה כוללת מיכלי מים ושקית אבק, ולכן כדאי לוודא שיש לה מקום ליד שקע חשמל",
+   "שקית האבק בתחנה מתכלה ויש להחליף אותה מדי פעם",
+   "יש לבדוק את גובה הרהיטים בבית מול גובה הרובוט לפני הקנייה"
+  ],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Dreame X40 Ultra",
+   "דרימי X40 Ultra",
+   "שואב רובוטי שוטף",
+   "שואב רובוטי Dreame",
+   "רובוט שואב שוטף עם תחנת ריקון",
+   "שואב רובוטי עם ניקוי פדים",
+   "Dreame X40 Ultra מחיר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "12,000Pa",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "6,400mAh",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל אבק (רובוט)",
+   "catalogValue": "300 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים פנימי (רובוט)",
+   "catalogValue": "80 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים נקיים (תחנה)",
+   "catalogValue": "4.5 ליטר",
+   "finding": "corrected",
+   "correctValue": "4 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים מלוכלכים (תחנה)",
+   "catalogValue": "4 ליטר",
+   "finding": "corrected",
+   "correctValue": "4.5 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח שקית אבק (תחנה)",
+   "catalogValue": "3.2 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה מקסימלי",
+   "catalogValue": "עד 260 דקות",
+   "finding": "corrected",
+   "correctValue": "עד 3.5 שעות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יכולת מעבר מכשולים",
+   "catalogValue": "עד 2.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שטיפת מופים במים חמים",
+   "catalogValue": "70°C",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-150 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת ניווט",
+   "catalogValue": "LDS Laser + AI Action + RGB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה הרובוט",
+   "catalogValue": "9.7 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוטר הרובוט",
+   "catalogValue": "35 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות תחנת עגינה",
+   "catalogValue": "42.6x49.9x60.65 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל הרובוט",
+   "catalogValue": "כ-4 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הרמת מופים",
+   "catalogValue": "10.5 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "Only one readable page names this model, a 2024 news article. Every fact rests on that single site, so none of them is published until a second site or a manufacturer or importer page confirms it. The importer and retailer pages failed to load.",
+   "severity": "high"
+  },
+  {
+   "field": "זמן עבודה מקסימלי",
+   "issue": "The catalog says up to 260 minutes. The article says up to 3.5 hours, which is about 210 minutes. The catalog value was marked corrected.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מיכל מים נקיים (תחנה)",
+   "issue": "The catalog values for the clean and dirty water tanks are swapped. The article gives 4 L clean and 4.5 L dirty.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "No fetched page gives the robot or station dimensions, the weight, the colour or the origin. These need a manufacturer or EU fiche check.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The article is dated May 2024. It describes the X40 Ultra as replacing the X30 Ultra, so check whether the model is still current with the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on a single Israeli review article from 2024; no manufacturer or importer page was readable.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח מיכלי מים (תחנה)",
+   "issue": "The article gives 4 L clean and 4.5 L dirty, the reverse of the catalog (4.5 L clean, 4 L dirty). Both rejected; confirm with the manufacturer spec before changing the catalog.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן עבודה מקסימלי",
+   "issue": "Catalog says up to 260 minutes; the article says up to 3.5 hours. Confirm with the manufacturer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "Robot and station dimensions, weight, colour, charging time and navigation details are unverified.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 6 and 7 (station clean/dirty tank volumes): the single review article gives 4 L clean and 4.5 L dirty, the reverse of the catalog, and a dirty tank larger than the clean one looks like a transposition in the article; needs a manufacturer check. Relabelled fact 10 to the pad-cleaning temperature and wrote 70°C. All other facts rest on one Israeli review page and were kept as quoted. | code guard removed: summary: \"הרובוט מספק עוצמת שאיבה של 12,000 Pa, סוללה של 6,400 mAh לעד 3.5 שעות עבודה, ועובר מכשולים בגובה של עד 2.2 ס״מ.\"; faq: \"כמה זמן הרובוט עובד בטעינה אחת?\"; faq: \"האם הרובוט גם שוטף?\"; faq: \"באיזו תדירות צריך לרוקן את שקית האבק?\"; faq: \"האם הרובוט עובר ספים?\"; metaDescription: \"שואב רובוטי שוטף Dreame X40 Ultra עם עוצמת שאיבה של 12,000 Pa ועד 3.5 שעות עבודה, ותחנה שמנקה ומייבשת פדים. בחדד אלקטריק נהריה\"; highlight: \"עוצמת שאיבה של 12,000 Pa\"; highlight: \"סוללה של 6,400 mAh לעד 3.5 שעות עבודה\"; highlight: \"שקית אבק של 3.2 ליטר בתחנה\"; highlight: \"ניקוי וייבוש פדים בתחנה בטמפרטורה של 70 מעלות\"; highlight: \"מעבר מכשולים בגובה של עד 2.2 ס״מ\"; consideration: \"מיכל המים ברובוט הוא 80 מ״ל, והמים מתחלפים מתוך מיכלי התחנה שיש למלא ולרוקן ידנית\""
+ }
+}

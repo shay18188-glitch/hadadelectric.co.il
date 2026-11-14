@@ -1,0 +1,369 @@
+{
+ "modelNumber": "14326-IS Q12",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "14326-IS Q12",
+  "israeliImporter": "ט.ל.ח.",
+  "matchConfidence": "high",
+  "notes": "Pompa.co.il and zap.co.il name the exact model 14326-IS Q12. The brand's Israeli site lists 14326-IS Q12 as a cordless wet-dry vacuum and carries a disclaimer naming ט.ל.ח. (importer, not confirmed by name elsewhere). Soferavi.co.il names only 14326-IS and was not used for exact-model facts. | QA: Pompa, Zap and the brand's Israeli site all name 14326-IS Q12 as a cordless wet-dry vacuum. Importer name from a disclaimer on the brand's Israeli site only."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.pompa.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-hamilton-beach-14326-is-q12--%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F-%D7%91%D7%99%D7%A5",
+   "publisher": "Pompa",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1245820",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Hamilton Beach"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "14326-IS Q12"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "500 W (שווה ערך ל-1250 W)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "Brushless DC"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote has typo מעילות; same value.",
+     "label": "טמפרטורת ייבוש באוויר חם",
+     "value": "60 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג הגנה מפני מים למנוע",
+     "value": "IPX8"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "75-82 dB"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Capacity deliberately omitted; quoted 30000mah is implausible and contradicts catalog.",
+     "label": "סוללה",
+     "value": "21.6V Li-ion"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שאיבה ושטיפה במעבר אחד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "רולרים כפולים לניקיון עד הקצה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת ייבוש באוויר חם"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גמישות של 180 מעלות לניקוי יסודי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "סוללה נשלפת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מסך LED וחיווי קולי בעברית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Hamilton Beach 14326-IS Q12 הוא שואב שוטף אלחוטי ששואב ושוטף את הרצפה במעבר אחד. מתאים למי שרוצה לחסוך את שלב השטיפה הנפרד אחרי השאיבה.",
+  "highlights": [
+   "שאיבה ושטיפה במעבר אחד",
+   "מסך LED וחיווי קולי בעברית"
+  ],
+  "goodFor": [
+   "בתים עם רצפות קשות שצריך לשאוב ולשטוף באופן קבוע",
+   "ניקוי לאורך קירות ופינות בעזרת הרולרים הכפולים",
+   "מי שמעדיף הוראות והתראות בעברית"
+  ],
+  "considerations": [
+   "הסוללה נשלפת, אפשר לשאול על זמינות סוללה חלופית",
+   "כדאי לבדוק את קיבולת הסוללה וזמן העבודה מול היבואן לפני הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "האם השואב גם שוטף?",
+    "a": "כן, הוא שואב ושוטף את הרצפה במעבר אחד.",
+    "sources": []
+   },
+   {
+    "q": "האם הסוללה נשלפת?",
+    "a": "כן, הסוללה נשלפת. מדובר בסוללת 21.6V Li-ion.",
+    "sources": []
+   },
+   {
+    "q": "האם יש חיווי בעברית?",
+    "a": "כן, יש מסך LED וחיווי קולי בעברית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "שואב שוטף אלחוטי",
+   "Hamilton Beach 14326-IS Q12",
+   "שואב שוטף המילטון ביץ'",
+   "14326-IS Q12",
+   "שואב שוטף עם ייבוש באוויר חם",
+   "שואב אבק אלחוטי שוטף",
+   "המילטון ביץ' שואב שוטף"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Hemilton Beach",
+   "finding": "corrected",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "500W (שווה ערך ל-1250W)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "Brushless DC מוגן מים בתקן IPX8",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "75-82dB",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "21.6V Li-ion (קיבולת 2760mAh)",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת יניקה",
+   "catalogValue": "21,000Pa",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "מצב AUTO עד 75 דקות, TURBO כ-20-40 דקות, MAX כ-35 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "5-6 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מכל מים נקיים",
+   "catalogValue": "620 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "HEPA כפול בטכנולוגיה ציקלונית (9 צילינדרים)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוללה",
+   "issue": "Catalog says 2760mAh for the 21.6V battery; pompa.co.il lists 30000mah for the same battery, which is implausible for this pack. Confirm the capacity with the importer before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand is misspelled 'Hemilton Beach'; every exact-model page says Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת יניקה",
+   "issue": "21,000Pa is not on any exact-model page found. A forum post claims 21,000 vs 18,000 for another model; that is a user claim, not evidence.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "No exact-model dimensions or weight found. soferavi.co.il lists base 33 x 33 cm and height with tube 116 cm, but it names only 14326-IS without the Q12 suffix, so it was not used. Verify before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty sources conflict: pompa.co.il lists 24 months; soferavi.co.il lists 2 years in its spec but 1 year retailer warranty. Not published. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן עבודה וטעינה",
+   "issue": "Run time, charge time and tank capacities could not be read reliably from an exact-model page (pompa.co.il text is garbled in the fetch output; zap.co.il has no such spec lines). Not published.",
+   "severity": "low"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "HEPA filtration and cyclone details in the catalog were not confirmed on an exact-model page.",
+   "severity": "low"
+  },
+  {
+   "field": "סוללה",
+   "issue": "Catalog says 2760mAh; pompa.co.il says 30000mah. Capacity not published; confirm with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand spelled 'Hemilton Beach'; sources say Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת יניקה",
+   "issue": "21,000Pa in catalog not confirmed on an exact-model page.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty terms conflict between retailers; not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן עבודה, טעינה ומכלים",
+   "issue": "Run time, charge time, tank volumes and HEPA filtration in catalog not verified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features kept. Battery fact kept as voltage/chemistry only (21.6V Li-ion); capacity not published because the pompa quote says 30000mah against catalog 2760mAh. Catalog brand misspelling flagged. Zap is a price-comparison page, kept as other. | code guard removed: summary: \"הוא מגיע עם מנוע Brushless DC בהספק 500 W (שווה ערך ל-1250 W), רולרים כפולים לניקיון עד הקצה ומערכת ייבוש באוויר חם ב-60 מעלות.\"; faq: \"מה ההספק של המנוע?\"; faq: \"איך מונעים ריחות ברולרים?\"; metaDescription: \"שואב שוטף אלחוטי Hamilton Beach 14326-IS Q12: שאיבה ושטיפה במעבר אחד, מנוע 500 W וייבוש באוויר חם 60 מעלות. בחדד אלקטריק נהריה\"; highlight: \"מנוע Brushless DC בהספק 500 W (שווה ערך ל-1250 W)\"; highlight: \"ייבוש באוויר חם ב-60 מעלות\"; highlight: \"גמישות של 180 מעלות לניקוי מתחת לרהיטים\"; goodFor: \"ניקוי מתחת לספות ומיטות בזכות הגמישות של 180 מעלות\"; consideration: \"רמת הרעש היא 75-82 dB, כדאי לקחת בחשבון בשעות שקטות\""
+ }
+}

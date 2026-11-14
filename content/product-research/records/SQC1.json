@@ -1,0 +1,446 @@
+{
+ "modelNumber": "SQC1",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "SQC1",
+  "israeliImporter": "קבוצת ח.י",
+  "matchConfidence": "high",
+  "notes": "LG 2.1 soundbar with wireless subwoofer. The model SQC1 is named on the LG Australia product page, on the Israeli importer's product page and on the Israeli retailer page. Weight and Bluetooth version conflict between sources; see reviewFlags. | QA: LG SQC1 named on LG Australia, the Israeli importer page and an Israeli retailer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lg.com/au/speakers/soundbars/sqc1/",
+   "publisher": "LG Australia",
+   "kind": "manufacturer",
+   "market": "AU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/lg_sqc1/",
+   "publisher": "בטרשופ",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.hye.co.il/8806087079555.html",
+   "publisher": "קבוצת ח.י (יבואן LG בישראל)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "160 W"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ערוצי שמע",
+     "value": "2.1"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סאבוופר",
+     "value": "אלחוטי"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Israeli pages say 9.8 cm depth; LG value used.",
+     "label": "מידות מקרן הקול (רוחב × גובה × עומק)",
+     "value": "66 × 5.6 × 9.9 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות סאבוופר (רוחב × גובה × עומק)",
+     "value": "18.55 × 30.3 × 20.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבור אלחוטי",
+     "value": "Bluetooth"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סנכרון סאונד עם טלוויזיית LG",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, קבוצת ח.י"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "2.1 is not surround; marketing overclaim.",
+   "text": "סאונד קולנועי היקפי של 2.1 ערוצי שמע"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Vague marketing line.",
+   "text": "סינרגיה מלאה עם הטלוויזיה של LG"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Retailer-only claim, not confirmed by LG or importer; may belong to a sibling model.",
+   "text": "AI Sound Pro – ניתוח הסאונד והתאמתו לסוג התוכן המשודר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שליטה במקרן הקול בעזרת שלט הטלוויזיה של LG, ללא צורך בשלט נוסף"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "LG SQC1 הוא מקרן קול (סאונד בר) בתצורת 2.1 ערוצים עם סאבוופר אלחוטי והספק כולל של 160 W. מקרן הקול ברוחב 66 ס״מ ובגובה 5.6 ס״מ, ומתחבר בבלוטות׳ לסמארטפון ולטאבלט. מתאים למי שרוצה לשדרג את הסאונד של הטלוויזיה, במיוחד עם טלוויזיית LG שהשלט שלה שולט גם במקרן הקול.",
+  "highlights": [
+   "הספק כולל 160 W בתצורת 2.1 ערוצים",
+   "סאבוופר אלחוטי",
+   "מקרן קול בגובה 5.6 ס״מ ורוחב 66 ס״מ",
+   "סנכרון סאונד ושליטה בשלט של טלוויזיית LG",
+   "אחריות שנה ע״י קבוצת ח.י"
+  ],
+  "goodFor": [
+   "שדרוג סאונד לטלוויזיה בסלון או בחדר שינה",
+   "בעלי טלוויזיית LG שרוצים לשלוט בהכול בשלט אחד",
+   "השמעת מוזיקה מהטלפון בבלוטות׳",
+   "מי שרוצה סאבוופר בלי כבל בין הסאבוופר למקרן הקול"
+  ],
+  "considerations": [
+   "ודאו שיש מתחת למסך או על המזנון מקום לרוחב 66 ס״מ ושהגובה של 5.6 ס״מ לא מסתיר את תחתית המסך",
+   "הסאבוופר אלחוטי אבל עדיין צריך שקע חשמל במקום שבו מציבים אותו; מידותיו 18.55 × 30.3 × 20.5 ס״מ",
+   "השליטה בשלט הטלוויזיה וסנכרון הסאונד מתוארים עבור טלוויזיות LG; עם מותג אחר כדאי לבדוק מראש"
+  ],
+  "faq": [
+   {
+    "q": "האם הסאבוופר של LG SQC1 אלחוטי?",
+    "a": "כן, הסאבוופר אלחוטי, כך שאין צורך בכבל בינו לבין מקרן הקול.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של מקרן הקול?",
+    "a": "ההספק הכולל של המערכת הוא 160 W בתצורת 2.1 ערוצים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט בו עם השלט של הטלוויזיה?",
+    "a": "לפי היבואן, שלט הטלוויזיה של LG שולט גם במקרן הקול, כך שאין צורך בשני שלטים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשמיע מוזיקה מהטלפון?",
+    "a": "כן, מקרן הקול תומך בהזרמת מוזיקה אלחוטית בבלוטות׳.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות ע״י קבוצת ח.י, היבואנית של LG בישראל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרן קול LG SQC1 בתצורת 2.1 עם סאבוופר אלחוטי והספק כולל 160 W, חיבור בלוטות׳ ושליטה בשלט טלוויזיית LG. בחדד אלקטריק נהריה",
+  "keywords": [
+   "LG SQC1",
+   "מקרן קול LG",
+   "סאונד בר LG",
+   "סאונד בר עם סאבוופר אלחוטי",
+   "מקרן קול 2.1",
+   "סאונד בר 160 וואט",
+   "מקרן קול לטלוויזיה LG",
+   "סאונד בר בלוטות׳"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמה כוללת",
+   "catalogValue": "160 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצורת רמקולים",
+   "catalogValue": "2.1 ערוצים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth 4.0",
+   "finding": "contradicted",
+   "correctValue": "Bluetooth 4.2 (לפי היבואן)",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "כניסה אופטית",
+   "catalogValue": "Optical",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבור USB",
+   "catalogValue": "USB",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כניסת Portable In (3.5mm)",
+   "catalogValue": "Portable In (3.5mm)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פורמטי שמע נתמכים",
+   "catalogValue": "LPCM, Dolby Digital, MP3, WMA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות מקרן קול",
+   "catalogValue": "רוחב 66 ס\"מ, גובה 5.6 ס\"מ, עומק 9.9 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל מקרן קול",
+   "catalogValue": "1.7 ק\"ג",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות סאבוופר",
+   "catalogValue": "רוחב 18.5 ס\"מ, גובה 30.3 ס\"מ, עומק 20.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל סאבוופר",
+   "catalogValue": "2.94 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "2.98 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "מקרן קול - 18 וואט, סאבוופר - 24 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב המתנה",
+   "catalogValue": "פחות מ-0.5 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Auto Sound Engine",
+   "catalogValue": "Auto Sound Engine",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Bluetooth Stand-by",
+   "catalogValue": "Bluetooth Stand-by",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שליטה בשלטי טלוויזיה של מותגים אחרים",
+   "catalogValue": "LG, סמסונג, סוני ועוד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "LG Sound Sync לטלוויזיות LG",
+   "catalogValue": "סנכרון סאונד אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה (קבוצת ח.י)",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל מקרן הקול",
+   "issue": "LG Australia lists the soundbar at 1.31 kg, while the Israeli importer and Israeli retailer list 3.1 kg; the catalog says 1.7 kg, which matches neither. The weight was not published; a person should check the weight against the box or the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "Bluetooth",
+   "issue": "The catalog says Bluetooth 4.0. The Israeli importer page says Bluetooth 4.2, and LG Australia lists only version 4. Sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק מקרן הקול",
+   "issue": "LG Australia gives 9.9 cm depth; the Israeli importer and retailer pages give 9.8 cm. The published value follows LG Australia.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "The 160 W figure is a total. Israeli pages say only בעוצמה של 160 וואט and do not state whether it is RMS or THD 10%. The subwoofer output is not verified.",
+   "severity": "low"
+  },
+  {
+   "field": "שליטה בשלטים",
+   "issue": "The catalog says the soundbar can be controlled by other TV brands' remotes (Samsung, Sony). No fetched page confirms this; one user review says the LG magic remote does not control it. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל מקרן הקול",
+   "issue": "LG Australia lists 1.31 kg, Israeli importer and retailer list 3.1 kg, catalog says 1.7 kg. Not published; check against box or importer.",
+   "severity": "high"
+  },
+  {
+   "field": "Bluetooth",
+   "issue": "Catalog says Bluetooth 4.0; importer says 4.2; LG Australia says 4. Version not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל סאבוופר",
+   "issue": "Catalog 2.94 kg vs retailer 2.98 kg; not published.",
+   "severity": "low"
+  },
+  {
+   "field": "שליטה בשלטים של מותגים אחרים",
+   "issue": "Catalog claims control by Samsung/Sony remotes; no source confirms. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "AI Sound Pro",
+   "issue": "Only the retailer page mentions AI Sound Pro; not confirmed by LG or importer, so not published.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 0 (calls 2.1 channels 'surround cinema' — marketing overclaim, the channel count is already a fact), feature 1 (vague marketing line), feature 2 (AI Sound Pro appears only on a retailer page and may be generic copy from a sibling LG model; not confirmed by LG or the importer). Reworded feature 3. All facts kept."
+ }
+}

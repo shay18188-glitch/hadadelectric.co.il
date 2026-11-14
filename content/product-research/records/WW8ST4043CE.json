@@ -1,0 +1,510 @@
+{
+ "modelNumber": "WW8ST4043CE",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW8ST4043CE",
+  "israeliImporter": "מיניליין",
+  "matchConfidence": "medium",
+  "notes": "הדגם WW8ST4043CE מופיע בכותרת דף סמסונג ישראל ובדפי שתי חנויות בישראל. בגוף דף סמסונג מופיע הקוד WW8ST4040CE/KJ, לכן מפרטי הדף של היצרן לא נכללו כעובדה (ראו reviewFlags). | QA: Two Israeli retailers name WW8ST4043CE; the Samsung Israel page title mentions it but its body shows WW8ST4040CE/KJ. Israeli suffix/variant relation not confirmed by the manufacturer. Importer named on one shop page only."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-8-%D7%A7%D7%92-samsung-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-ww8st4043ce/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electric-shop.co.il/items/6261022-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-Samsung-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-%D7%93%D7%92%D7%9D-WW8ST4043CE-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92",
+   "publisher": "כל אלקטריק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.samsung.com/il/washers-and-dryers/washing-machines/ww4000t-front-loading-hygiene-steam-digital-inverter-technology-drum-clean-8kg-white-ww8st4040ce-kj/",
+   "publisher": "Samsung ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "8 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מקסימלית",
+     "value": "1400 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "D"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק כולל",
+     "value": "63.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר פתח הכביסה",
+     "value": "33 ס״מ (דלת 49 ס״מ)"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צג",
+     "value": "תצוגה דיגיטלית LED כחולה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר השהיה",
+     "value": "עד 19 שעות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Samsung page body shows WW8ST4040CE/KJ; warranty term is date-conditional and not confirmed by Israeli shops.",
+     "label": "מנוע אינוורטר",
+     "value": "10 שנות אחריות על מנוע האינוורטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Generic retailer line, not a product spec.",
+     "label": "אחריות",
+     "value": "אחריות על ידי היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Hygiene Steam לנטרול בקטריות ואלרגנים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע Digital Inverter BLDC ללא פחמים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed app claim not in quote.",
+   "text": "Smart Check – מערכת ניטור שגיאות אוטומטית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית כביסה מהירה של 15 דקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית יומית מהירה באורך של כשעה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed fabric-protection claim not in quote.",
+   "text": "תוף Diamond Drum (תוף יהלום)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית לניקוי וחיטוי של התוף והדוד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote does not mention auto weighing or water saving.",
+   "text": "פיקוד אלקטרוני Fuzzy Logic לבקרת טמפרטורות וחיסכון באנרגיה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגן נחשולי מתח וברקים מובנה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נעילת ילדים (Child Lock)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום קרמי המפחית הצטברות אבנית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של Samsung בקיבולת 8 ק״ג, עם סחיטה של עד 1400 סל״ד ומנוע Digital Inverter ללא פחמים. כוללת תוכנית Hygiene Steam בקיטור לנטרול בקטריות ואלרגנים, תוכנית מהירה של 15 דקות וטיימר השהיה של עד 19 שעות. מתאימה למשפחה שמכבסת בתדירות גבוהה ומחפשת גם תוכנית היגיינית לבגדי תינוקות או לסובלים מאלרגיות.",
+  "highlights": [
+   "קיבולת כביסה של 8 ק״ג",
+   "סחיטה של עד 1400 סל״ד",
+   "תוכנית Hygiene Steam לנטרול בקטריות ואלרגנים",
+   "מנוע Digital Inverter BLDC ללא פחמים",
+   "טיימר השהיה עד 19 שעות"
+  ],
+  "goodFor": [
+   "משפחות עם תינוקות או בני בית הסובלים מאלרגיות, בזכות תוכנית Hygiene Steam",
+   "מי שצריך כביסה דחופה – תוכנית מהירה של 15 דקות",
+   "הפעלה בשעות מאוחרות או בתעריף חשמל נוח בעזרת טיימר השהיה של עד 19 שעות",
+   "בתים עם מים קשים, בזכות גוף חימום קרמי המפחית הצטברות אבנית"
+  ],
+  "considerations": [
+   "העומק הכולל הוא 63.5 ס״מ – כדאי למדוד את הנישה כולל מרווח לברז ולצינור הניקוז מאחור.",
+   "דירוג האנרגיה הוא D – כדאי להשוות לדגמים אחרים אם צריכת החשמל חשובה לכם.",
+   "יש לוודא שקע חשמל מוארק וברז מים קרוב למקום ההתקנה.",
+   "את הרוחב המדויק ותנאי האחריות כדאי לאשר מול הצוות לפני הרכישה."
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של מכונת הכביסה Samsung WW8ST4043CE?",
+    "a": "הקיבולת היא עד 8 ק״ג כביסה יבשה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תוכנית קיטור?",
+    "a": "כן, תוכנית Hygiene Steam מנטרלת בקטריות ואלרגנים בעזרת אדים.",
+    "sources": []
+   },
+   {
+    "q": "מה העומק הכולל של המכונה?",
+    "a": "העומק הכולל הוא 63.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתזמן את הכביסה מראש?",
+    "a": "כן, יש טיימר השהיה של עד 19 שעות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Samsung WW8ST4043CE בקיבולת 8 ק״ג עם סחיטה עד 1400 סל״ד ותוכנית Hygiene Steam בקיטור. ייעוץ והזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung WW8ST4043CE",
+   "WW8ST4043CE",
+   "מכונת כביסה סמסונג 8 קג",
+   "מכונת כביסה פתח חזית 8 ק״ג",
+   "מכונת כביסה 1400 סל״ד",
+   "מכונת כביסה עם קיטור",
+   "מכונת כביסה סמסונג אינוורטר",
+   "מכונת כביסה נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "D",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60, גובה 85, עומק 60 (עומק כולל 63.5) ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "Digital Inverter BLDC (מנוע אינוורטר ללא פחמים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג",
+   "catalogValue": "דיגיטלי LED כחול",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "קרמי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Hygiene Steam",
+   "catalogValue": "נטרול עד 99.9% מהבקטריות והאלרגנים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Mixed Load",
+   "catalogValue": "תוכנית Mixed Load יומית באורך של כשעה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכנית כביסה מהירה",
+   "catalogValue": "15 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוף",
+   "catalogValue": "Diamond Drum",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Eco Drum Clean",
+   "catalogValue": "ניקוי וחיטוי עצמי של התוף והדוד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פיקוד Fuzzy Logic",
+   "catalogValue": "שקילה אוטומטית וחיסכון במים ובחשמל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר השהיה",
+   "catalogValue": "עד 19 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מגן נחשולים",
+   "catalogValue": "מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "Child Lock",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Smart Check",
+   "catalogValue": "מערכת ניטור לאיתור תקלות דרך אפליקציה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות מנוע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "10 שנות אחריות על מנוע האינוורטר",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "דף סמסונג ישראל מציג ממדי נטו 550 x 850 x 600 מ״מ (רוחב 550), בעוד שתי החנויות מציגות רוחב 60 ס״מ. בדף סמסונג מופיע גם הקוד WW8ST4040CE/KJ, לכן ייתכן שהמידות שייכות לדגם אחר. יש לאמת את הרוחב מול היבואן או מדבקת המכונה לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "כותרת ותיאור דף סמסונג ישראל מזכירים את WW8ST4043CE, אבל גוף הדף מציג WW8ST4040CE/KJ. שני דפי החנויות מזכירים את WW8ST4043CE בשם המוצר. לא נמצא EPREL או דף מדריך שמאשר את הדגם המדויק.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "האחריות של 10 שנים על מנוע האינוורטר בדף סמסונג חלה, לפי הדף, רק על מכונות שנרכשו החל מ-01/04/2026. שתי החנויות מציגות תנאי אחריות כללי שונים ולא מאשרות את התנאי הזה. יש לאשר את תנאי האחריות לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שם היבואן (מיניליין) מופיע רק בדף של חנות אחת. בדף סמסונג לא נמצא שם יבואן מאשר.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "דף סמסונג ישראל מציג בגוף הדף את WW8ST4040CE/KJ ולא את WW8ST4043CE; הקשר בין הסיומות לא אושר על ידי היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "דף סמסונג מציג רוחב 55 ס״מ בעוד החנויות והקטלוג מציגים 60 ס״מ; יש לאמת את הרוחב מול היבואן או מדבקת המכונה.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אחריות 10 שנים על מנוע האינוורטר מופיעה רק בדף סמסונג ומותנית בתאריך רכישה; לא פורסמה, יש לאשר מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "בקטלוג נטען נטרול 99.9% מהבקטריות, Smart Check דרך אפליקציה ושקילה אוטומטית – לא נמצאו בציטוטים מאומתים.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 7 (10-year inverter warranty: from Samsung page whose body shows WW8ST4040CE/KJ and is date-conditional) and fact 8 (generic warranty line, not a spec). Corrected feature wording: Smart Check (quote does not mention an app), Diamond Drum (quote does not mention fabric protection), Fuzzy Logic (quote speaks of temperature control and energy saving, not auto weighing or water saving). | code guard removed: faq: \"מה מהירות הסחיטה המקסימלית?\""
+ }
+}

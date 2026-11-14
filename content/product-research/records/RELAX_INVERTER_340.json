@@ -1,0 +1,555 @@
+{
+ "modelNumber": "RELAX INVERTER 340",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electra",
+  "exactModel": "RELAX INVERTER 340",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "ACE ו-Ivory מזהים את הדגם בשם ELECTRA RELAX INVERTER 340 ומפרטים את המפרט הטכני. דף היצרן electra.co.il לא החזיר תוצאה לדגם זה, ולכן כל העובדות מבוססות על מוכרים ישראליים. דפי ההשוואה מציגים את הדגם כ-2.5 כ\"ס. | QA: Both Israeli retailer pages name ELECTRA RELAX INVERTER 340 and their specs match the catalog. Manufacturer page not available. Retailers describe it as 2.5 HP while the catalog name says 3 HP."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ivory.co.il/catalog.php?id=128484",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ace.co.il/4475237",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת קירור",
+     "value": "24,260 BTU/h"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת חימום",
+     "value": "18,766 BTU/h"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק נצרך בקירור",
+     "value": "2,503 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק נצרך בחימום",
+     "value": "2,356 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זרם עבודה בקירור",
+     "value": "8 A"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זרם עבודה בחימום",
+     "value": "9 A"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "CPM in source is a typo for CFM",
+     "label": "ספיקת אוויר",
+     "value": "980 מ״ק/שעה (580 CFM)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות בקירור (SEER)",
+     "value": "6.11"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות בחימום (SCOP)",
+     "value": "4.8"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "++A"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח הזנה",
+     "value": "230 V / 50 Hz / 1 Ph"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מאמ״ת נדרש",
+     "value": "1×16 A (אופיין C)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבורי צנרת",
+     "value": "3/8 × 5/8 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailers disagree on warranty terms; verify against warranty certificate",
+     "label": "אחריות",
+     "value": "3 שנים מלאות ע״י היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "8 מהירויות מפוח ביחידה הפנימית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיזור אוויר 4D"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי עצמי של הסוללה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב שבת מובנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפליקציית Smart Home לשליטה מהנייד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי הידרופילי מוזהב למניעת קורוזיה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Electra RELAX INVERTER 340 הוא מזגן עילי אינוורטר עם תפוקת קירור של 24,260 BTU/h ותפוקת חימום של 18,766 BTU/h. המזגן מדורג ++A, עם מקדם יעילות SEER 6.11 בקירור ו-SCOP 4.8 בחימום. הוא כולל מצב שבת מובנה, פיזור אוויר 4D ושליטה מהנייד באפליקציית Smart Home, ומתאים למי שמחפש מזגן לחלל גדול בבית.",
+  "highlights": [
+   "תפוקת קירור 24,260 BTU/h",
+   "דירוג אנרגטי ++A, SEER 6.11 ו-SCOP 4.8",
+   "מצב שבת מובנה",
+   "פיזור אוויר 4D ו-8 מהירויות מפוח",
+   "שליטה מהנייד באפליקציית Smart Home"
+  ],
+  "goodFor": [
+   "סלון או חלל פתוח שדורש תפוקת קירור גבוהה",
+   "משפחה שומרת שבת, בזכות מצב שבת מובנה",
+   "מי שרוצה לשלוט במזגן מהנייד",
+   "שימוש לאורך כל השנה, בקירור ובחימום"
+  ],
+  "considerations": [
+   "יש לוודא בלוח החשמל מאמ״ת 1×16 A ייעודי למזגן",
+   "צריכת ההספק בקירור היא 2,503 W, כדאי לוודא שקו החשמל מתאים",
+   "חיבורי הצנרת הם 3/8 × 5/8 אינץ׳, יש לתאם עם המתקין",
+   "יש לבדוק את תנאי האחריות בתעודת האחריות לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה תפוקת הקירור של Electra RELAX INVERTER 340?",
+    "a": "תפוקת הקירור היא 24,260 BTU/h, ותפוקת החימום היא 18,766 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במזגן מצב שבת?",
+    "a": "כן, המזגן כולל מצב שבת מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי של המזגן?",
+    "a": "המזגן מדורג ++A, עם SEER 6.11 בקירור ו-SCOP 4.8 בחימום.",
+    "sources": []
+   },
+   {
+    "q": "איזה מאמ״ת נדרש להתקנה?",
+    "a": "נדרש מאמ״ת 1×16 A באופיין C, במתח הזנה 230 V חד-פאזי.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט במזגן מהטלפון?",
+    "a": "כן, באמצעות אפליקציית Smart Home.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן עילי אינוורטר Electra RELAX INVERTER 340: תפוקת קירור 24,260 BTU/h, דירוג אנרגטי ++A ומצב שבת מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "אלקטרה רילקס אינוורטר 340",
+   "Electra RELAX INVERTER 340",
+   "מזגן אלקטרה רילקס",
+   "מזגן עילי אינוורטר אלקטרה",
+   "מזגן עם מצב שבת",
+   "מזגן 24000 BTU",
+   "מזגן אלקטרה לסלון"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "24,260 BTU/h (טווח: 5,800-27,900)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "18,766 BTU/h (טווח: 6,000-30,000)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק נצרך בקירור",
+   "catalogValue": "2,503 וואט (טווח: 240-3,030)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק נצרך בחימום",
+   "catalogValue": "2,356 וואט (טווח: 260-3,140)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זרם עבודה",
+   "catalogValue": "קירור 8A, חימום 9A",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקדם יעילות קירור (SEER)",
+   "catalogValue": "6.11",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקדם יעילות חימום (SCOP)",
+   "catalogValue": "4.8",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "++A",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח זינה",
+   "catalogValue": "230V / 50Hz / 1 Ph",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיבורי צנרת",
+   "catalogValue": "3/8\" x 5/8\"",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ספיקת אוויר יחידה פנימית",
+   "catalogValue": "580 CFM (980 מ\"ק/שעה)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות יחידה פנימית",
+   "catalogValue": "1040x327x220 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות יחידה חיצונית",
+   "catalogValue": "890x673x342 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך צנרת מקסימלי",
+   "catalogValue": "50 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה צנרת מקסימלי",
+   "catalogValue": "25 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דגם מאמ\"ת",
+   "catalogValue": "1x16A",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצב שבת מובנה",
+   "catalogValue": "מצב שבת מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פיזור אוויר 4D",
+   "catalogValue": "פיזור אוויר 4D",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוי עצמי",
+   "catalogValue": "ניקוי עצמי של הסוללה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "8 מהירויות מפוח",
+   "catalogValue": "8 מהירויות מפוח",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי הידרופילי מוזהב",
+   "catalogValue": "ציפוי הידרופילי מוזהב למניעת קורוזיה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מאייד קצר במיוחד",
+   "catalogValue": "מאייד קצר במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוז דו-צדדי",
+   "catalogValue": "אפשרות לניקוז דו-צדדי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi מובנה",
+   "catalogValue": "Wi-Fi מובנה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "ישראל (מותג ותכנון) / סין (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים מלאות ע״י היבואן הרשמי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "שם הקטלוג מציין 3 כ\"ס, אך תפוקת הקירור 24,260 BTU/h ודפי המוכרים מציינים 2.5 כ\"ס.",
+   "severity": "high"
+  },
+  {
+   "field": "warranty",
+   "issue": "Ivory מציין שנה אחריות ע\"י היצרן ושנתיים נוספות לשימוש פרטי, ואילו ACE מציין 3 שנים מלאות ע\"י היבואן. יש לבדוק את תעודת האחריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "צנרת",
+   "issue": "אורך וגובה הצנרת המקסימליים מופיעים בסדר הפוך: ACE מציין גובה/אורך 50/25, ו-Ivory מציין גובה/אורך 25/50. לכן לא נכנסו עובדות לגבי הצנרת.",
+   "severity": "medium"
+  },
+  {
+   "field": "Wi-Fi",
+   "issue": "הקטלוג מציין Wi-Fi מובנה, אך לא מצאתי אישור לכך בדפי המוכרים שנפתחו (Ivory ו-ACE).",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות תואמות לקטלוג (ACE: רוחב 104, גובה 32.7, עומק 22 ס\"מ ליחידה פנימית), אך ACE מציג אותן בשורות נפרדות ו-Ivory מציג שורה לא מתויגת, ולכן לא נכנסו כעובדות.",
+   "severity": "low"
+  },
+  {
+   "field": "ספיקה",
+   "issue": "הקטלוג מציין CFM, ו-ACE מציין CPM. מדובר באותה יחידה בפועל, אך כדאי לוודא את הניסוח.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "שם הקטלוג מציין 3 כ״ס, אך דפי המוכרים מציגים את הדגם כ-2.5 כ״ס (תפוקת קירור 24,260 BTU/h). יש לבדוק מול היצרן.",
+   "severity": "high"
+  },
+  {
+   "field": "warranty",
+   "issue": "תנאי האחריות שונים בין המוכרים (ACE: 3 שנים מלאות ע״י היבואן; Ivory: שנה ע״י היצרן ושנתיים נוספות לשימוש פרטי). יש לבדוק מול תעודת האחריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "Wi-Fi",
+   "issue": "הקטלוג מציין Wi-Fi מובנה; המקורות מאזכרים רק אפליקציית Smart Home. יש לוודא אם נדרש מודול נפרד.",
+   "severity": "medium"
+  },
+  {
+   "field": "צנרת",
+   "issue": "אורך וגובה צנרת מקסימליים מופיעים בסדר הפוך בין המוכרים ולא פורסמו.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות היחידות לא אומתו כעובדות; יש לבדוק מול היצרן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 13): ACE says 3 full years by the importer while Ivory reportedly states 1 year manufacturer plus 2 for private use; needs the warranty certificate. Airflow unit corrected from CPM (retailer typo) to CFM. Breaker label cleaned. Pipe length/height and dimensions were not submitted as facts."
+ }
+}

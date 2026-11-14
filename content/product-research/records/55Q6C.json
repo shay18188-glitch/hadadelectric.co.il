@@ -1,0 +1,535 @@
+{
+ "modelNumber": "55Q6C",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "TCL",
+  "exactModel": "55Q6C",
+  "israeliImporter": "C-DATA",
+  "matchConfidence": "high",
+  "notes": "Both Israeli retailer pages name model 55Q6C and the official importer C-DATA. The store catalog calls it QLED MINILED; the pages say QD-MiniLED. | QA: Both Israeli retailer pages name TCL 55Q6C and importer C-DATA."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/tcl-55q6c-55-inch-qd-miniled-google-tv-2026",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%A0%D7%99%D7%A7%D7%94/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%95%D7%AA_%D7%95%D7%9E%D7%A1%D7%9B%D7%99%D7%9D/%D7%9E%D7%A1%D7%9A_55_tcl_4k_qd-miniled_google_tv_%D7%93%D7%92%D7%9D_55q6c",
+   "publisher": "Traklin Hashmal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "55 אינץ'"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית תצוגה",
+     "value": "QD-MiniLED"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840×2160 (4K UHD)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "144 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עמעום מקומי",
+     "value": "180 אזורי תאורה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בהירות שיא",
+     "value": "עד 1000 nits"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "AiPQ Processor (Gen 3.0)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פורמטי HDR",
+     "value": "Dolby Vision IQ, HDR10, HLG, IMAX Enhanced"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת שמע",
+     "value": "ONKYO 2.1, 40W בסה״כ"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "Bluetooth 5.4"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "4 (מתוכן 2 מסוג HDMI 2.1)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "122.9 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה עם מעמד",
+     "value": "77.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה ללא מעמד",
+     "value": "71.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל עם מעמד",
+     "value": "12.4 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "12.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקן תלייה",
+     "value": "VESA 300×300 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "3 שנים, דרך היבואן הרשמי C-DATA"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסך 144Hz עם VRR לגיימינג חלק"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תמיכה בטכנולוגיית Dolby Atmos"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעבד AiSR לשיפור הרזולוציה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תואם לתלייה על קיר בתקן VESA 300×300 מ״מ"
+  }
+ ],
+ "content": {
+  "summary": "TCL 55Q6C היא טלוויזיית 55 אינץ' ברזולוציית 4K עם מסך QD-MiniLED ומערכת Google TV. המסך כולל 180 אזורי תאורה, בהירות שיא של עד 1000 nits וקצב רענון של 144Hz עם VRR. מתאימה למי שמחפש תמונה בהירה לסלון, צפייה בתוכן HDR ומשחקי קונסולה.",
+  "highlights": [
+   "מסך QD-MiniLED עם 180 אזורי תאורה",
+   "בהירות שיא של עד 1000 nits",
+   "קצב רענון 144Hz עם VRR",
+   "מערכת שמע ONKYO 2.1 בעוצמה כוללת של 40W עם Dolby Atmos",
+   "Google TV מובנית"
+  ],
+  "goodFor": [
+   "גיימרים עם קונסולה מתקדמת, בזכות 144Hz ו-VRR וכניסות HDMI 2.1",
+   "צפייה בסרטים ובסדרות ב-Dolby Vision IQ ו-IMAX Enhanced",
+   "סלון מואר, בזכות בהירות שיא של עד 1000 nits",
+   "מי שרוצה אפליקציות סטרימינג ישירות בטלוויזיה דרך Google TV"
+  ],
+  "considerations": [
+   "רוחב הטלוויזיה 122.9 ס״מ וגובהה עם מעמד 77.6 ס״מ – כדאי למדוד את הרהיט או המקום על הקיר",
+   "לתלייה על הקיר נדרשת זרוע בתקן VESA 300×300 מ״מ",
+   "רק 2 מתוך 4 כניסות ה-HDMI הן HDMI 2.1 – חברו את הקונסולה לכניסה המתאימה",
+   "תמיכה ב-HDR10+ לא מופיעה במפרט שנבדק"
+  ],
+  "faq": [
+   {
+    "q": "כמה כניסות HDMI יש בטלוויזיה?",
+    "a": "יש 4 כניסות HDMI, מתוכן 2 מסוג HDMI 2.1.",
+    "sources": []
+   },
+   {
+    "q": "האם הטלוויזיה מתאימה לגיימינג?",
+    "a": "כן, קצב הרענון הוא 144Hz עם תמיכה ב-VRR, ויש 2 כניסות HDMI 2.1.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "הטלוויזיה פועלת על Google TV.",
+    "sources": []
+   },
+   {
+    "q": "מה תקן התלייה על הקיר?",
+    "a": "VESA 300×300 מ״מ. משקל הטלוויזיה ללא מעמד הוא 12.2 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלוויזיה?",
+    "a": "3 שנות אחריות דרך היבואן הרשמי C-DATA.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה TCL 55Q6C בגודל 55 אינץ' 4K עם מסך QD-MiniLED, קצב רענון 144Hz ובהירות עד 1000 nits ו-Google TV. בחדד אלקטריק נהריה",
+  "keywords": [
+   "TCL 55Q6C",
+   "טלוויזיה TCL 55 אינץ'",
+   "טלוויזיה QD-MiniLED",
+   "טלוויזיה 55 אינץ' 4K",
+   "טלוויזיה 144Hz",
+   "TCL Q6C",
+   "טלוויזיה Google TV 55",
+   "טלוויזיה לגיימינג 55 אינץ'"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "55 אינץ' (139.7 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "3840x2160 (4K Ultra HD)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית תצוגה",
+   "catalogValue": "QD-MiniLED (Quantum Dot + Mini LED)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "144Hz Native (עד 288Hz בטכנולוגיית Game Accelerator)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עמעום מקומי",
+   "catalogValue": "FALD עם עד 512 אזורים (משתנה לפי גודל)",
+   "finding": "corrected",
+   "correctValue": "180 אזורי תאורה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בהירות שיא",
+   "catalogValue": "עד 1000 nits",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מעבד תמונה",
+   "catalogValue": "AiPQ Pro Processor (Gen 3.0)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פורמטי HDR",
+   "catalogValue": "Dolby Vision IQ, HDR10+, HDR10, HLG, IMAX Enhanced",
+   "finding": "contradicted",
+   "correctValue": "Dolby Vision IQ, HDR10, HLG, IMAX Enhanced (HDR10+ not listed)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת שמע",
+   "catalogValue": "ONKYO 2.1 ערוצים, 40W סה\"כ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כניסות HDMI",
+   "catalogValue": "4 כניסות HDMI 2.1",
+   "finding": "corrected",
+   "correctValue": "4 כניסות HDMI, מתוכן 2 מסוג HDMI 2.1",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi 5 (Dual Band 2.4G/5G)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth 5.4",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "122.9 x 77.6 x 29.7 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "כ-12.4 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תקן תלייה",
+   "catalogValue": "VESA 300x300 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עמעום מקומי",
+   "issue": "Catalog says up to 512 local dimming zones; both Israeli retailer pages say 180 zones.",
+   "severity": "high"
+  },
+  {
+   "field": "כניסות HDMI",
+   "issue": "Catalog says all four HDMI inputs are HDMI 2.1; the retailer page says two of the four are HDMI 2.1.",
+   "severity": "medium"
+  },
+  {
+   "field": "פורמטי HDR",
+   "issue": "Catalog lists HDR10+; neither Israeli retailer page lists it.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות עם מעמד",
+   "issue": "Stand depth 29.7 cm is not on any fetched page; only width, height with and without stand, and weights are verified.",
+   "severity": "low"
+  },
+  {
+   "field": "עמעום מקומי",
+   "issue": "Catalog says up to 512 local dimming zones; the Israeli retailer page says 180 zones.",
+   "severity": "high"
+  },
+  {
+   "field": "פורמטי HDR",
+   "issue": "Catalog lists HDR10+; the retailer page does not list it.",
+   "severity": "medium"
+  },
+  {
+   "field": "מעבד תמונה",
+   "issue": "Catalog says AiPQ Pro; the retailer page says AiPQ processor Gen 3.0.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות עם מעמד",
+   "issue": "Stand depth 29.7 cm is not on any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts are backed by ok quotes from Israeli retailer pages naming 55Q6C. Catalog discrepancies (dimming zones, HDMI 2.1 count, HDR10+, stand depth) flagged for review."
+ }
+}

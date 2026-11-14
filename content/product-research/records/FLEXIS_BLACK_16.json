@@ -1,0 +1,460 @@
+{
+ "modelNumber": "FLEXIS BLACK 16",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Haier",
+  "exactModel": "FLEXIS BLACK 16",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Zabilo names the model FLEXIS BLACK 16 (2021 series, black, 1.25 HP). Zap lists the same spec set as Flexis 16 Black שנת 2021 and is used only for catalog confirmation, not as evidence. Importer name (ניופאן) seen only in search snippets; the importer page did not fetch. A sibling model FLEXIS 16 ECO-BK / Flexis Eco 16 Black (2022) exists and was not used as evidence. | QA: Only an Israeli retailer page names the exact model; no manufacturer or importer page. A 2022 sibling (Flexis Eco 16 Black) exists with similar numbers."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://zabilo.com/en/air-conditioners-1-to-125-hp/8353-flexis-black-16-2021-series.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/compmodels.aspx?modelid=1138394",
+   "publisher": "Zap (price comparison)",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת קירור",
+     "value": "13,023 BTU"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת חימום",
+     "value": "12,624 BTU"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיה",
+     "value": "ON/OFF (ללא Inverter)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog name 1.4 כ\"ס; flagged.",
+     "label": "הספק (כ״ס)",
+     "value": "1.25 כ״ס"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote does not name the unit; matches catalog indoor width.",
+     "label": "רוחב יחידה פנימית",
+     "value": "86.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה יחידה פנימית",
+     "value": "30.1 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק יחידה פנימית",
+     "value": "19.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "יש – שליטה מאפליקציה בסמארטפון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה מרחוק במזגן מהסמארטפון באמצעות אפליקציית WIFI"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישן תנועה חכם Eco Sensor"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב שינה מתקדם (Advanced SLEEP) לשינה נוחה ולחיסכון באנרגיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פעולה שקטה במיוחד (Super Quiet) בלחיצת כפתור בשלט"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב ייבוש לגריעת לחות בקיץ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי הידרופילי ביחידה הפנימית והחיצונית נגד קורוזיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות ניקוז מים משני צדי המאייד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפעלה מחדש אוטומטית לאחר הפסקת חשמל (Auto Restart)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב Auto למעבר אוטומטי בין קירור לחימום לפי טמפרטורת החדר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כפתור נעילת פונקציות השלט"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיזור אוויר למרחק גדול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Haier FLEXIS BLACK 16 הוא מזגן עילי בצבע שחור בטכנולוגיית ON/OFF (ללא Inverter), עם תפוקת קירור של 13,023 BTU ותפוקת חימום של 12,624 BTU. הוא בדירוג אנרגטי A וכולל שליטה מהסמארטפון באמצעות אפליקציית WIFI וחיישן תנועה Eco Sensor. מתאים למי שמחפש מזגן עילי בעיצוב שחור לחדר, עם שליטה מרחוק ומצבי שינה ופעולה שקטה.",
+  "highlights": [
+   "תפוקת קירור 13,023 BTU ותפוקת חימום 12,624 BTU",
+   "דירוג אנרגטי A",
+   "שליטה מהסמארטפון באפליקציית WIFI",
+   "חיישן תנועה חכם Eco Sensor",
+   "יחידה פנימית בצבע שחור במידות 86.6×30.1×19.6 ס״מ"
+  ],
+  "goodFor": [
+   "חדר שבו רוצים מזגן עילי בצבע שחור שמשתלב בעיצוב כהה",
+   "מי שרוצה להפעיל את המזגן מהטלפון לפני שמגיעים הביתה",
+   "חדר שינה, בזכות מצב שינה מתקדם ופעולה שקטה במיוחד",
+   "שימוש בקיץ ובחורף, עם קירור, חימום ומצב ייבוש"
+  ],
+  "considerations": [
+   "מדדו את הקיר: היחידה הפנימית ברוחב 86.6 ס״מ, בגובה 30.1 ס״מ ובעומק 19.6 ס״מ",
+   "זהו מזגן ON/OFF ללא Inverter – המדחס פועל ונכבה במקום לווסת את מהירותו",
+   "ודאו שיש רשת WIFI זמינה במיקום ההתקנה כדי להשתמש באפליקציה",
+   "בדקו מול איש המקצוע את כושר הסוס הנכון לחדר – המקור מציין 1.25 כ״ס"
+  ],
+  "faq": [
+   {
+    "q": "מה תפוקת הקירור והחימום של Haier FLEXIS BLACK 16?",
+    "a": "תפוקת הקירור היא 13,023 BTU ותפוקת החימום היא 12,624 BTU.",
+    "sources": []
+   },
+   {
+    "q": "האם המזגן הוא Inverter?",
+    "a": "לא, זהו מזגן בטכנולוגיית ON/OFF ללא Inverter.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט במזגן מהטלפון?",
+    "a": "כן, המזגן כולל אפליקציית WIFI לשליטה מרחוק מהסמארטפון.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות היחידה הפנימית?",
+    "a": "היחידה הפנימית במידות 86.6×30.1×19.6 ס״מ (רוחב×גובה×עומק).",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי של המזגן?",
+    "a": "המזגן בדירוג אנרגטי A.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן עילי Haier FLEXIS BLACK 16 בצבע שחור: קירור 13,023 BTU, דירוג אנרגטי A ושליטה מאפליקציית WIFI. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Haier FLEXIS BLACK 16",
+   "מזגן האייר פלקסיס שחור",
+   "מזגן עילי שחור",
+   "מזגן Haier 1.25 כ״ס",
+   "מזגן עם WIFI",
+   "מזגן Flexis 16",
+   "מזגן ON/OFF האייר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "כ״ס (שם המוצר)",
+   "catalogValue": "1.4 כ\"ס",
+   "finding": "contradicted",
+   "correctValue": "1.25 כ״ס",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "13,023 BTU",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "12,624 BTU",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בקירור (COP)",
+   "catalogValue": "4.05",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בחימום (COP)",
+   "catalogValue": "4.1",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיה (ON/OFF)",
+   "catalogValue": "ON/OFF",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות יחידה פנימית (רוחב/גובה/עומק)",
+   "catalogValue": "86.6 * 30.1 * 19.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור מט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות יחידה חיצונית (רוחב/גובה/עומק)",
+   "catalogValue": "86.0 * 55.0 * 34.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ספיקת אוויר",
+   "catalogValue": "382 CFM",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח הזנה",
+   "catalogValue": "230V/50Hz/1Ph",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוטר צנרת",
+   "catalogValue": "1/4\" - 1/2\"",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "כ״ס (שם המוצר)",
+   "issue": "Catalog name says 1.4 כ\"ס, but the retailer page for FLEXIS BLACK 16 says 1.25HP and 13023 BTU. Check the product name before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The retailer page names FLEXIS BLACK 16 exactly. The Zap page names it Flexis 16 Black שנת 2021, and a 2022 Flexis Eco 16 Black sibling exists with the same numbers, so confirm the exact model code against Haier's manual or EPREL. No manufacturer or importer page was reached.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The retailer page gives 86.6 x 30.1 x 19.6 cm without saying which unit it describes. They match the catalog's indoor unit. The outdoor unit dimensions, airflow, voltage and origin could not be verified.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Importer not confirmed on a fetched page. The Newpan importer page did not load.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר (כ״ס)",
+   "issue": "Catalog name says 1.4 כ\"ס but the retailer page for FLEXIS BLACK 16 says 1.25HP; confirm horsepower against the importer or manual.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Only one Israeli retailer page names the exact model; a 2022 sibling Flexis Eco 16 Black exists. Confirm the exact model code with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Retailer page does not state which unit the 86.6×30.1×19.6 cm dimensions describe; they match the catalog indoor unit. Outdoor unit dimensions, airflow and voltage unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Israeli importer not confirmed on a fetched page.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from one Israeli retailer page (Zabilo) naming FLEXIS BLACK 16 exactly; source kind corrected from retailer to il-retailer. Dimension quotes do not say indoor unit, but 86.6/30.1/19.6 match the catalog indoor unit and differ from the outdoor unit, so labels kept as indoor. Horsepower 1.25 kept from the retailer title; it contradicts the catalog name (1.4)."
+ }
+}

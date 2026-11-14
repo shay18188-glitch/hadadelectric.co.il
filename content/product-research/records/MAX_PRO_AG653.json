@@ -1,0 +1,414 @@
+{
+ "modelNumber": "MAX PRO AG653",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "AG653",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "Pages name the model as AG653 MAX PRO (Ninja Israel: Foodi AG653 MAX PRO). Israeli retailers name the importer as שריג אלקטריק. Ninja Israel's page and the retailer pages disagree on warranty and weight; see reviewFlags. | QA: Israeli retailer pages name Ninja Foodi MAX PRO AG653, matching catalog model MAX PRO AG653."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://electric-home.co.il/product/%D7%A0%D7%99%D7%A0%D7%92%D7%94-%D7%92%D7%A8%D7%99%D7%9C-%D7%9E%D7%A7%D7%A1-%D7%A4%D7%A8%D7%95-ninja-grill-max-pro-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99/",
+   "publisher": "Electric Home",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.shopelectrons.co.il/product/%D7%A0%D7%99%D7%A0%D7%92%D7%94-%D7%92%D7%A8%D7%99%D7%9C-%D7%94%D7%97%D7%93%D7%A9-ninja-foodi-max-pro-ag653/",
+   "publisher": "ShopElectrons",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://ninja-grill.co.il/models/ag653",
+   "publisher": "Ninja Grill Israel",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "39.8 × 29.5 × 44.1 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2,460 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "40 עד 260 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות בישול",
+     "value": "7 תוכניות בישול"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single non-retailer source; distinct from the 3.8 L air-fry basket.",
+     "label": "קיבולת תא הבישול",
+     "value": "6.4 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח סלסלת טיגון באוויר חם",
+     "value": "3.8 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Dropped 'Smart Probe' wording not in quote.",
+     "label": "מדחום",
+     "value": "מדחום דיגיטלי מובנה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "ninja-grill.co.il reportedly states one year; verify with importer.",
+     "label": "אחריות",
+     "value": "שנתיים (יבואן רשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Dropped 'no need to flip' not in quote.",
+   "text": "טכנולוגיית Cyclonic Air לבישול מהיר ואחיד מכל הצדדים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום תחתון המאפשר לבשל גם עם מכסה פתוח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדחום דיגיטלי מובנה שעוקב אחר מידת העשייה ומכבה את הגריל אוטומטית כשהבשר מוכן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כל החלקים ניתנים לשטיפה במדיח כלים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 פלטות גריל מתחלפות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חוברת בעברית עם מתכוני שף, טיפים וטבלאות זמני צלייה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ninja Foodi MAX PRO AG653 הוא גריל חשמלי ביתי עם 7 תוכניות בישול, הספק של 2,460 W וטווח טמפרטורות של 40 עד 260 מעלות. הוא כולל סלסלת טיגון באוויר חם בנפח 3.8 ליטר ומדחום דיגיטלי מובנה שמכבה את הגריל כשהבשר מוכן. מתאים למי שרוצה לצלות, לטגן באוויר חם ולבשל במכשיר אחד על השיש.",
+  "highlights": [
+   "7 תוכניות בישול",
+   "הספק 2,460 W",
+   "טווח טמפרטורות 40 עד 260 מעלות",
+   "סלסלת טיגון באוויר חם בנפח 3.8 ליטר",
+   "מדחום דיגיטלי מובנה עם כיבוי אוטומטי כשהבשר מוכן"
+  ],
+  "goodFor": [
+   "צליית בשר בבית עם שליטה במידת העשייה בעזרת המדחום המובנה",
+   "מי שרוצה גריל וטיגון באוויר חם במכשיר אחד",
+   "בישול עם מכסה פתוח בזכות גוף החימום התחתון",
+   "מי שמעדיף ניקוי במדיח כלים"
+  ],
+  "considerations": [
+   "ודאו שיש על השיש מקום למכשיר במידות 39.8 × 29.5 × 44.1 ס״מ",
+   "בהספק 2,460 W כדאי לחבר לשקע נפרד ולא למפצל עם מכשירים נוספים",
+   "בררו את תנאי האחריות מול היבואן, כי המקורות אינם אחידים"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח סלסלת הטיגון באוויר חם?",
+    "a": "3.8 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות של הגריל?",
+    "a": "40 עד 260 מעלות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מדחום לבשר?",
+    "a": "כן, מדחום דיגיטלי מובנה עוקב אחר מידת העשייה ומכבה את הגריל אוטומטית כשהבשר מוכן.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את החלקים במדיח?",
+    "a": "כן, כל החלקים ניתנים לשטיפה במדיח כלים.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכשיר?",
+    "a": "רוחב 39.8 ס״מ, גובה 29.5 ס״מ ועומק 44.1 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "גריל חשמלי Ninja MAX PRO AG653 עם 7 תוכניות בישול ומדחום דיגיטלי מובנה, הספק 2,460 W וסלסלת טיגון 3.8 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "נינג'ה גריל מקס פרו",
+   "Ninja AG653",
+   "Ninja Foodi MAX PRO",
+   "גריל חשמלי נינג'ה",
+   "סיר גריל נינג'ה",
+   "גריל עם טיגון באוויר חם",
+   "נינג'ה גריל AG653"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2460 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "40°C עד 260°C",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 29.5 ס\"מ, רוחב 39.8 ס\"מ, עומק 44.1 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-14.5 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "כ-8.5 ק\"ג",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נפח סלסלת טיגון באוויר חם",
+   "catalogValue": "3.8 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתאים לכ-1 ק\"ג צ'יפס",
+   "catalogValue": "מתאים לכ-1 ק\"ג צ'יפס",
+   "finding": "corrected",
+   "correctValue": "900 גרם",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות בישול (7 ב-1)",
+   "catalogValue": "7 ב-1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחום דיגיטלי",
+   "catalogValue": "מדחום דיגיטלי חכם (Probe)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מברשת ניקוי / פלטה שטוחה כלולות",
+   "catalogValue": "פלטת גריל, פלטה שטוחה, סלסלת טיגון, מדחום, מברשת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ציפוי Non-Stick ללא PTFE/PFOA",
+   "catalogValue": "ציפוי קרמי Non-Stick ללא PTFE/PFOA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתאים לעד 6 סטייקים",
+   "catalogValue": "מתאים לעד 6 סטייקים או המבורגרים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "ארצות הברית (מותג), ארץ ייצור: סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים (יבואן רשמי)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "Catalog says about 14.5 kg. Ninja Israel's page says about 8.5 kg. The page gives no quote long enough to publish, so no weight fact is published. Check the weight before relying on it.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Sources conflict. Ninja Israel's page says one official year, while the ShopElectrons retailer page says two years through the official importer. The published warranty fact uses the two-year figure, so check it with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח",
+   "issue": "Ninja Israel's page gives a 6.4 L cooking chamber, while the catalog gives a 3.8 L air-fry basket. These measure different things, so the catalog basket figure is not contradicted. Confirm the label wording.",
+   "severity": "low"
+  },
+  {
+   "field": "מתאים לכ-1 ק\"ג צ'יפס",
+   "issue": "Catalog says the basket fits about 1 kg of chips. The ShopElectrons retailer page says 900 grams. Use the retailer's figure after checking with the manufacturer.",
+   "severity": "low"
+  },
+  {
+   "field": "שם מוצר",
+   "issue": "Pages name this model Foodi AG653 MAX PRO or NINJA MAX PRO AG653. The catalog name is unchanged, and the pages use the model code AG653.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "ShopElectrons says two years via importer שריג אלקטריק; ninja-grill.co.il reportedly says one year. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog says about 14.5 kg; ninja-grill.co.il reportedly says about 8.5 kg. No weight published; verify.",
+   "severity": "high"
+  },
+  {
+   "field": "מתאים לכ-1 ק\"ג צ'יפס",
+   "issue": "Catalog says about 1 kg of chips; a retailer page reportedly says 900 g. Not published; verify.",
+   "severity": "low"
+  },
+  {
+   "field": "קיבולת תא הבישול",
+   "issue": "6.4 L comes only from ninja-grill.co.il, whose official status is unclear. Confirm.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Warranty marked conflict: ShopElectrons says two years via importer, while ninja-grill.co.il reportedly says one year. ninja-grill.co.il relabelled as other (not verifiably the official importer site). Cooking chamber 6.4 L kept from that page only; label clarified. Weight not published."
+ }
+}

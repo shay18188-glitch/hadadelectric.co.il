@@ -1,0 +1,487 @@
+{
+ "modelNumber": "BBS1041GQC",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "BBS1041GQC",
+  "israeliImporter": "BSH",
+  "matchConfidence": "high",
+  "notes": "Bosch Unlimited 10 cordless stick vacuum with accessories. Israeli retailers Bug and Traklin name the exact model. The manufacturer spec sheet (nl-NL) names the exact model and gives dimensions. No Israeli BSH page was reached. | QA: Two Israeli retailers and the BSH spec sheet name BBS1041GQC exactly."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/nl-NL/BBS1041GQC.pdf",
+   "publisher": "BSH spec sheet (nl-NL)",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/שואב-אבק-אלחוטי-כולל-מוט-מתקפל-bosch-915784512",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.traklin.co.il/product.aspx?id=21974",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "1300 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "250 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק",
+     "value": "216 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Spec sheet reportedly 2.9 kg; flagged",
+     "label": "משקל (מוכן לפעולה, כולל צינור ואביזר)",
+     "value": "3.7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "6"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה מרבי (מצב Eco ללא מברשת חשמלית)",
+     "value": "עד 80 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה עם מברשת חשמלית (מצב Eco)",
+     "value": "עד 65 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה במצב Turbo (עם מברשת טורבו חשמלית)",
+     "value": "עד 11 דקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת סוללה",
+     "value": "4.0 Ah"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח סוללה",
+     "value": "18 V"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "65 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל אבק",
+     "value": "0.4 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "80 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Other Israeli retailer reportedly states a different term; unconfirmed",
+     "label": "אחריות יצרן",
+     "value": "שנתיים + 8 שנים נוספות מוגבלות על המנוע"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מוט גמיש Flex Tube המתכופף בזווית של 90° לניקוי מתחת לרהיטים ובמקומות בעלי גישה מוגבלת, ללא צורך להתכופף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית Micro Cleaning לזיהוי ולשאיבת חלקיקי אבק ולכלוך זעירים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע טורבו סיבובי כפול מתוצרת גרמניה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיכל אבק בנפח 0.4 ליטר עם מנגנון דחיסת פסולת המפחית עד 50% מהצורך בריקון המיכל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת טורבו חשמלית All Floor HighPower Brush לניקוי מגוון רצפות ושטיחים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סוללת 18V מסדרת Power for ALL, התואמת גם לכלי עבודה אלחוטיים של Bosch לבית ולגינה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פילטר היגייני בטכנולוגיית Pure Air"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת טורבו חשמלית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת עדינה עם LED"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מטען מהיר"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כולל מתקן עגינה לקיר ומקום לתליית אביזר"
+  }
+ ],
+ "content": {
+  "summary": "Bosch BBS1041GQC הוא שואב אבק אלחוטי עם סוללה נשלפת 18V בקיבולת 4.0Ah מסדרת Power for ALL. זמן העבודה מגיע עד 80 דקות במצב Eco ללא מברשת חשמלית ועד 65 דקות עם מברשת חשמלית, והטעינה המלאה נמשכת 65 דקות. המוט הגמיש Flex Tube מתכופף ב-90° לשאיבה מתחת לרהיטים, ומתאים למי שמחפש שואב אלחוטי לניקוי שוטף של כל הבית.",
+  "highlights": [
+   "סוללה 18V בקיבולת 4.0Ah מסדרת Power for ALL",
+   "עד 80 דקות עבודה במצב Eco ללא מברשת חשמלית",
+   "מוט גמיש Flex Tube המתכופף ב-90°",
+   "מיכל אבק 0.4 ליטר עם מנגנון דחיסת פסולת",
+   "6 מצבי הפעלה"
+  ],
+  "goodFor": [
+   "ניקוי מתחת לספות, מיטות וארונות בזכות המוט המתכופף ב-90°",
+   "בתים עם שטיחים ומגוון סוגי רצפות, עם מברשת הטורבו החשמלית",
+   "מי שכבר מחזיק כלי עבודה או גינה של Bosch מסדרת Power for ALL 18V",
+   "ניקוי שוטף של כל הבית בסבב אחד במצב Eco"
+  ],
+  "considerations": [
+   "יש להתקין את מתקן העגינה על הקיר ליד שקע חשמל לטעינה",
+   "במצב Turbo זמן העבודה עם מברשת הטורבו החשמלית הוא עד 11 דקות",
+   "המשקל מוכן לפעולה הוא 3.7 ק״ג, כדאי לבדוק נוחות אחיזה",
+   "נפח מיכל האבק 0.4 ליטר, כך שבשטחים גדולים יידרש ריקון במהלך הניקוי"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובד השואב על טעינה אחת?",
+    "a": "עד 80 דקות במצב Eco ללא מברשת חשמלית, עד 65 דקות במצב Eco עם מברשת חשמלית, ועד 11 דקות במצב Turbo עם מברשת הטורבו.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקחת טעינה מלאה?",
+    "a": "טעינה מלאה נמשכת 65 דקות עם המטען המהיר הכלול.",
+    "sources": []
+   },
+   {
+    "q": "האם הסוללה מתאימה לכלים אחרים של Bosch?",
+    "a": "כן, זו סוללת 18V מסדרת Power for ALL, התואמת גם לכלי עבודה אלחוטיים של Bosch לבית ולגינה.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל האבק?",
+    "a": "0.4 ליטר, עם מנגנון דחיסת פסולת המפחית עד 50% מהצורך בריקון.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "מברשת טורבו חשמלית, מברשת עדינה עם LED, מטען מהיר ומתקן עגינה לקיר עם מקום לתליית אביזר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק אלחוטי Bosch BBS1041GQC עם סוללת 18V 4.0Ah ועד 80 דקות עבודה במצב Eco, מוט גמיש Flex Tube. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Bosch BBS1041GQC",
+   "שואב אבק אלחוטי בוש",
+   "Bosch Unlimited 10",
+   "שואב אלחוטי עם סוללה נשלפת",
+   "שואב אבק Power for ALL 18V",
+   "שואב אבק עם מוט מתכופף"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוללה",
+   "catalogValue": "נשלפת מסוג Li-Ion 18V 4.0Ah",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 80 דקות במצב Eco (ללא אביזר חשמלי), 65 דקות במצב Eco עם מברשת, 25 דקות במצב Auto ו-11 דקות במצב Turbo",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-65 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "3.7 ק\"ג (מכשיר מוכן לשימוש)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מכל אבק",
+   "catalogValue": "0.4 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "פילטר HEPA המסנן מעל 99.99% מהחלקיקים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצבי עבודה",
+   "catalogValue": "6 מצבים (Eco, Auto, Turbo, Silent, Car, Carpet)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "TurboSpin תוצרת גרמניה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צג",
+   "catalogValue": "TFT צבעוני המציג זמן עבודה ומצבים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "גרמניה (תכנון ומנוע)",
+   "finding": "contradicted",
+   "correctValue": "תוצרת פולין",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "origin_country",
+   "issue": "Catalog says German design and motor. Bug.co.il lists the product as made in Poland (תוצרת פולין), with only the motor described as German. Confirm the origin text before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty sources conflict. Traklin says one year by the official importer (BSH) plus a note, while Bug says two years plus 8 years on the motor, and Coolblue (not used as evidence) also says two years. Confirm the Israeli warranty term with BSH.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Weight sources conflict. The nl-NL spec sheet gives 2.9 kg ready to use with tube and floor nozzle, while Israeli retailers give 3.7 kg ready to use. The published value uses the Israeli 3.7 kg figure.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "HEPA efficiency conflicts. Bug and the spec sheet say above 99.99%, while Traklin says above 99.9%. The catalog's 99.99% is supported by Bug, but the conflict should be checked.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions come only from the nl-NL spec sheet (height 1300 mm, width 250 mm, depth 216 mm) and are not stated on the Israeli pages. A 1300 mm height is unusually tall for a stick vacuum, so confirm whether this is the full extended length.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Israeli retailers reportedly state different warranty terms (Traklin vs Bug); warranty not published until confirmed with BSH.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Israeli retailer gives 3.7 kg ready to use; the nl-NL spec sheet reportedly gives 2.9 kg. Confirm which applies.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Catalog says German design and motor; Bug lists made in Poland with German motor. Confirm origin text.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Height 1300 mm from spec sheet may be full extended length; confirm.",
+   "severity": "low"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "Catalog HEPA 99.99% claim not verified by kept facts; Traklin reportedly says 99.9%.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact (id 13): researcher reports Traklin states a different Israeli warranty term than Bug, so the term is unconfirmed. Weight 3.7 kg kept from the Israeli retailer, though the nl-NL spec sheet reportedly lists 2.9 kg; flagged. Dimensions kept from the manufacturer spec sheet; flagged height."
+ }
+}

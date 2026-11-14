@@ -1,0 +1,546 @@
+{
+ "modelNumber": "VS15A60AGR5",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "VS15A60AGR5",
+  "israeliImporter": "ניופרו (קבוצת ניופאן)",
+  "matchConfidence": "high",
+  "notes": "דף סמסונג ישראל ודף באג מציגים את הדגם כ-VS15A60AGR5/ML (גרסה ישראלית). סדרת Jet 65 Stick. | QA: Samsung Israel and Bug pages name VS15A60AGR5/ML, the Israeli market suffix of the catalog model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/vacuum-cleaners/stick/vs9000rl-stick-more-advance-cleaning-performance-digital-inverter-motor-jet-cyclone-silver-vs15a60agr5-ml",
+   "publisher": "Samsung ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/שואב-אבק-אלחוטי-samsung-5102210vs15a60agr5",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת יניקה מרבית",
+     "value": "עד 150 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק כניסה",
+     "value": "עד 410 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer",
+     "label": "רמת רעש",
+     "value": "86 dB"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "מנוע אינוורטר דיגיטלי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "no HEPA claim",
+     "label": "מערכת סינון",
+     "value": "סינון רב-שכבתי של 99.999%"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 40 דקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל אבק",
+     "value": "0.8 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מיכל אבק רחיץ",
+     "value": "ניתן לשטיפה מלאה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "quote writes 2,000mA",
+     "label": "קיבולת סוללה",
+     "value": "2,000 mAh"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוללה נשלפת",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer only, catalog says 2.3 kg",
+     "label": "משקל",
+     "value": "2.16 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל יחידה נישאת",
+     "value": "1.48 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מברשת צרה מתארכת",
+     "value": "עד 43 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות על המנוע",
+     "value": "10 שנים"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנה, ע״י ניופרו (בכפוף לתעודת האחריות)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית Jet Cyclone עם 9 ציקלונים ו-27 פתחי כניסת אוויר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת Jet Fit עם ראש המסתובב ב-180 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Pet Tool ללכידת שיער של חיות מחמד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סוללה נשלפת; סוללה נוספת נמכרת בנפרד כאביזר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תחנת טעינה 2 ב-1 לאחסון וטעינה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת Jet Fit"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Pet Tool לשיער חיות מחמד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת צרה הניתנת להארכה עד 43 ס״מ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תחנת טעינה 2 ב-1"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניתן להתקין את תחנת הטעינה על הקיר לחיסכון במקום"
+  }
+ ],
+ "content": {
+  "summary": "היחידה הנישאת שוקלת 1.48 ק״ג, מיכל האבק בנפח 0.8 ליטר וניתן לשטיפה מלאה, והסוללה נשלפת. מתאים לניקוי שוטף של הבית, כולל בתים עם חיות מחמד בזכות אביזר Pet Tool.",
+  "highlights": [
+   "עוצמת יניקה של עד 150 W",
+   "זמן עבודה של עד 40 דקות עם סוללה נשלפת",
+   "יחידה נישאת במשקל 1.48 ק״ג",
+   "מיכל אבק בנפח 0.8 ליטר הניתן לשטיפה מלאה",
+   "10 שנות אחריות על המנוע"
+  ],
+  "goodFor": [
+   "בתים עם חיות מחמד, בזכות אביזר Pet Tool ללכידת שיער",
+   "ניקוי שטיחים ורצפות קשות עם מברשת Jet Fit",
+   "ניקוי חריצים ופינות צרות עם מברשת צרה המתארכת",
+   "דירות שבהן רוצים לאחסן את השואב על הקיר בתחנת הטעינה"
+  ],
+  "considerations": [
+   "תחנת הטעינה מיועדת להתקנה על הקיר: כדאי לתכנן מקום ליד שקע חשמל",
+   "רמת הרעש היא 86 dB, ששווה לקחת בחשבון בשאיבה בשעות שקטות",
+   "לשימוש ארוך יותר אפשר לרכוש סוללה נוספת, שנמכרת בנפרד",
+   "האחריות על המנוע היא 10 שנים, ואחריות היבואן היא שנה בכפוף לתעודת האחריות"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן השואב עובד על סוללה אחת?",
+    "a": "עד 40 דקות לפי Samsung, עם סוללה בקיבולת 2,000 mAh.",
+    "sources": []
+   },
+   {
+    "q": "האם הסוללה נשלפת?",
+    "a": "כן, הסוללה נשלפת, וסוללה נוספת נמכרת בנפרד כאביזר.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל האבק והאם אפשר לשטוף אותו?",
+    "a": "נפח המיכל הוא 0.8 ליטר, והוא ניתן לשטיפה מלאה.",
+    "sources": []
+   },
+   {
+    "q": "האם השואב מתאים לשיער של חיות מחמד?",
+    "a": "כן, הוא מגיע עם אביזר Pet Tool ללכידת שיער של חיות מחמד.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על השואב?",
+    "a": "10 שנות אחריות על המנוע לפי Samsung, ושנה אחריות יבואן ע״י ניופרו בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Samsung VS15A60AGR5",
+   "שואב אבק אלחוטי סמסונג",
+   "Samsung Jet 65",
+   "שואב אבק אלחוטי לחיות מחמד",
+   "שואב אבק סמסונג ג'ט",
+   "VS15A60AGR5/ML",
+   "שואב אבק אלחוטי עם סוללה נשלפת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת יניקה מרבית",
+   "catalogValue": "150W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מנוע (Input)",
+   "catalogValue": "410W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "Digital Inverter Motor",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "2000mAh",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח סוללה",
+   "catalogValue": "21.6V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 40 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "210 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל אבק",
+   "catalogValue": "0.8 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "86 דציבלים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "HEPA רב-שכבתית הלוכדת 99.999%",
+   "finding": "contradicted",
+   "correctValue": "מערכת סינון רב-שכבתית של 99.999%",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "2.3 ק״ג",
+   "finding": "corrected",
+   "correctValue": "2.16 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "יחידה נישאת",
+   "catalogValue": "1.48 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות: עומק",
+   "catalogValue": "203 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות: גובה",
+   "catalogValue": "1120 מ״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות: רוחב",
+   "catalogValue": "250 מ״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מברשת צרה מאריכה",
+   "catalogValue": "עד 43 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות מנוע",
+   "catalogValue": "10 שנות אחריות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמדת טעינה 2-ב-1",
+   "catalogValue": "עמדת טעינה 2-ב-1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף/Chrometal",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה (בכפוף לתעודת האחריות)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "דף סמסונג ישראל ודף באג מציגים את הדגם כ-VS15A60AGR5/ML. הקטלוג מציג VS15A60AGR5 ללא סיומת. יש לוודא שזו אותה גרסה.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 2.3 ק״ג, ושני מקורות ישראליים מציינים משקל נטו של 2.16 ק״ג (דף באג מציין משקל נטו 2.16 ק״ג; דף סמסונג מציין 2.16 נטו).",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "הקטלוג מציין HEPA. דף סמסונג מתאר מערכת רב-שכבתית של 99.999% בלי לציין HEPA, ודף באג מציין פילטר HEPA: ללא. יש לבדוק לפני שמציגים HEPA.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן טעינה",
+   "issue": "זמן הטעינה 210 דקות, מתח הסוללה 21.6V וגובה/רוחב המוצר לא אומתו בדפים שנקראו.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "המקורות מציגים את הדגם כ-VS15A60AGR5/ML (גרסה ישראלית); הקטלוג ללא סיומת. יש לוודא שזו אותה יחידה.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 2.3 ק״ג; דף באג מציין 2.16 ק״ג. המשקל 2.16 ק״ג אומת רק ממקור קמעונאי.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "הקטלוג מציין HEPA; דף Samsung מתאר סינון רב-שכבתי של 99.999% בלי HEPA, ודף באג מציין שאין פילטר HEPA. יש להסיר HEPA מהקטלוג אם לא מאומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט",
+   "issue": "זמן טעינה 210 דקות, מתח סוללה 21.6V, גובה ורוחב המוצר לא אומתו בדפים שנקראו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Battery capacity value written as 2,000 mAh. Weight 2.16 kg comes from an Israeli retailer only and contradicts the catalog 2.3 kg; flagged. Filtration published without HEPA. Charge time, battery voltage, height and width not verified, so not published. | code guard removed: summary: \"שואב אבק אלחוטי מסדרת Jet 65 של Samsung עם מנוע אינוורטר דיגיטלי, עוצמת יניקה של עד 150 W וזמן עבודה של עד 40 דקות.\"; metaDescription: \"שואב אבק אלחוטי Samsung VS15A60AGR5 Jet 65: יניקה של עד 150 W, עד 40 דקות עבודה וסוללה נשלפת. בחדד אלקטריק נהריה\""
+ }
+}

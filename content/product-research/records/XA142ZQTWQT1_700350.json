@@ -1,0 +1,381 @@
+{
+ "modelNumber": "XA142ZQTWQT1 (700350)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Konka",
+  "exactModel": "XA142ZQTWQT1",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "מקט 700350 מופיע בעמוד המילטון (לבן) ובעמוד קים אלקטריק. עמוד המילטון (שחור) מציין: היבואן הרשמי. לא נמצא עמוד יצרן או EPREL. תוצאת חיפוש (לא נקראה) מציינת דירוג D בקטלוג Konka 2024. | QA: מקט 700350 ודגם XA142ZQTWQT1 בצבע לבן מופיעים בעמוד המילטון ובעמוד קים אלקטריק."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/xa142zqtwqt1-white",
+   "publisher": "המילטון",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://kimelectric.co.il/product/700350-xa142zqtwqt1-%D7%9E%D7%93%D7%99%D7%97-%D7%9B%D7%9C%D7%99%D7%9D-%D7%A8%D7%97%D7%91-free-standing-%D7%9E%D7%91%D7%99%D7%AA-konka/",
+   "publisher": "קים אלקטריק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.hemilton.co.il/product/xa142zqtwqt1-black",
+   "publisher": "המילטון",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 84.5 × 58.8 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכות כלים",
+     "value": "14 מערכות כלים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סלסלות",
+     "value": "3 סלסלות (2 סלסלות הדחה ומגש סכו״ם עליון)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים למחזור הדחה (תוכנית חסכונית)",
+     "value": "9.8 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות הדחה",
+     "value": "8"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "השהיית התחלת הדחה",
+     "value": "עד 24 שעות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "two IL retailers agree; unverified against energy label",
+     "label": "דירוג אנרגטי",
+     "value": "C"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתיחת דלת אוטומטית בסיום ההדחה לייבוש מהיר"
+  },
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הדחת חצי כמות (סלסלה עליונה או תחתונה בנפרד)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הצבה חופשית (Free Standing), רוחב 60 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "מדיח כלים רחב של Konka בהצבה חופשית, ברוחב 60 ס״מ ובגימור לבן. הוא מכיל 14 מערכות כלים ב־3 סלסלות, צורך 9.8 ליטר מים למחזור בתוכנית החסכונית ומציע 8 תוכניות הדחה. מתאים למטבח שיש בו מקום פנוי למדיח עומד ולמי שמדיח כמויות גדולות של כלים.",
+  "highlights": [
+   "14 מערכות כלים",
+   "9.8 ליטר מים למחזור בתוכנית החסכונית",
+   "פתיחת דלת אוטומטית בסיום ההדחה לייבוש מהיר",
+   "הדחת חצי כמות בסלסלה עליונה או תחתונה"
+  ],
+  "goodFor": [
+   "משפחה שמדיחה כמות גדולה של כלים בכל מחזור",
+   "מטבח ללא נישה למדיח אינטגרלי, בזכות ההצבה החופשית",
+   "מי שרוצה להפעיל את המדיח בשעה מאוחרת יותר בעזרת השהיית התחלה עד 24 שעות",
+   "ימים עם מעט כלים, בעזרת הדחת חצי כמות"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי ברוחב 60 ס״מ, בגובה 84.5 ס״מ ובעומק 58.8 ס״מ",
+   "יש לתכנן נקודת חשמל, ברז מים וניקוז ליד מקום ההצבה",
+   "הדירוג האנרגטי הוא C, כדאי לבדוק את תווית האנרגיה על המכשיר"
+  ],
+  "faq": [
+   {
+    "q": "כמה כלים נכנסים במדיח?",
+    "a": "המדיח מכיל 14 מערכות כלים ב־3 סלסלות: 2 סלסלות הדחה ומגש סכו״ם עליון.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים הוא צורך?",
+    "a": "9.8 ליטר מים למחזור הדחה בתוכנית החסכונית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להדיח רק חלק מהכלים?",
+    "a": "כן, יש הדחת חצי כמות שבה בוחרים להדיח את הסלסלה העליונה או התחתונה בנפרד.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המדיח?",
+    "a": "רוחב 60 ס״מ, גובה 84.5 ס״מ ועומק 58.8 ס״מ, להצבה חופשית.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המדיח?",
+    "a": "12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים רחב Konka XA142ZQTWQT1 לבן בהצבה חופשית: 14 מערכות כלים ו־8 תוכניות הדחה, 9.8 ליטר מים למחזור. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מדיח כלים Konka",
+   "XA142ZQTWQT1",
+   "מדיח כלים רחב 60 ס״מ",
+   "מדיח כלים 14 מערכות",
+   "מדיח כלים לבן",
+   "מדיח כלים הצבה חופשית",
+   "קונקה מדיח כלים",
+   "700350"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "רוחב 60 ס\"מ, עומק 58.8 ס\"מ, גובה 84.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "14 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות הדחה",
+   "catalogValue": "8 תוכניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "כ-9.8 ליטר למחזור הדחה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "C",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "47dB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבנה פנימי",
+   "catalogValue": "3 סלסלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג",
+   "catalogValue": "מדיח כלים רחב (60 ס\"מ) בהצבה חופשית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גימור",
+   "issue": "המילטון מציג גם גרסה שחורה באותו דגם (עמוד black: 'גימור: שחור'), ועמוד הלבן וקים אלקטריק מציינים לבן. הקטלוג: לבן. יש לוודא איזה צבע מסופק.",
+   "severity": "medium"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "הרעש 47dB מהקטלוג לא נמצא בדפים שנקראו. לא נמצאה תווית אנרגיה או מפרט מלא עם צריכת חשמל (kWh).",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "תוצאת חיפוש (לא נקראה ולא משמשת כראיה) מציינת דירוג D בקטלוג Konka 2024, בעוד שתי חנויות ישראליות מציינות C. יש לבדוק בתווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "לא נמצא עמוד יצרן, יבואן רשמי או EPREL לדגם. כל העובדות מבוססות על שתי חנויות ישראליות (המילטון, קים אלקטריק).",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הדירוג C מבוסס על שתי חנויות ישראליות בלבד; יש לבדוק מול תווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "ערך הרעש 47dB שבקטלוג לא נמצא באף מקור שנקרא.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור",
+   "issue": "לא נמצא עמוד יצרן, יבואן או EPREL; כל העובדות מחנויות ישראליות.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts supported by ok quotes on two Israeli retailer pages naming the model; 700350 SKU appears on both. Energy rating C kept but flagged for label check. | code guard removed: highlight: \"8 תוכניות הדחה, כולל מהירה של 29 דקות\""
+ }
+}

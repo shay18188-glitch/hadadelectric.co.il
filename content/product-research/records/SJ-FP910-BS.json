@@ -1,0 +1,455 @@
+{
+ "modelNumber": "SJ-FP910-BS",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "SJ-FP910-BS",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "Pages naming SJ-FP910-BS exactly: FirstPrice and Segev Electric. Citydeal names the same model as SJ-FP910BS (no hyphen) and is used for the combined dimensions and energy line. Search snippets also showed 661 L and 850 L listings for similar codes; those are not used as evidence. | QA: FirstPrice and Segev Electric name SJ-FP910-BS exactly; Citydeal names SJ-FP910BS (same model, no hyphen). Capacity 668 L and 5 doors match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://segevelectric.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-5-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-sharp-%D7%A9%D7%A8%D7%A4-%D7%93%D7%92%D7%9D-sj-fp910-bs/",
+   "publisher": "שגב אלקטריק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-5-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-sharp-%D7%93%D7%92%D7%9D-sj-fp910bs-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://firstprice.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-5-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-sharp-sj-fp910-bs/",
+   "publisher": "FirstPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "ראלקו"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "90.8 × 185 × 79.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote gives minimum required width only, relabelled.",
+     "label": "רוחב נישה מינימלי נדרש",
+     "value": "95 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח אחסון נטו כולל",
+     "value": "668 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור נטו",
+     "value": "433 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה נטו",
+     "value": "235 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מדחס",
+     "value": "J-Tech Inverter"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "360 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote says cooling method No-Frost; relabelled.",
+     "label": "שיטת קירור",
+     "value": "No Frost"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקופת אחריות",
+     "value": "שנה אחת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת Plasmacluster Ion Pro לטיפול באוויר בתא הקירור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote names the technology only; moisture claim removed.",
+   "text": "טכנולוגיית ActivFresh Hybrid"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא גמיש עם טמפרטורה משתנה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Two cube sizes not in quote; removed.",
+   "text": "יצרן קרח חשמלי מובנה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote says 48 bulbs, peripheral lighting.",
+   "text": "תאורה היקפית LED של 48 נורות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר של Sharp, דגם SJ-FP910-BS, בנפח נטו כולל של 668 ליטר: 433 ליטר בתא הקירור ו-235 ליטר בתא ההקפאה. המקרר מגיע בגימור נירוסטה, עם מדחס J-Tech Inverter, קירור No Frost ויצרן קרח חשמלי מובנה. מתאים למשפחות גדולות ולמי שמחפש מקרר רחב עם תא הקפאה גדול.",
+  "highlights": [
+   "נפח נטו כולל 668 ליטר",
+   "תא הקפאה של 235 ליטר",
+   "מדחס J-Tech Inverter",
+   "קירור No Frost",
+   "יצרן קרח חשמלי מובנה"
+  ],
+  "goodFor": [
+   "משפחות גדולות שקונות בכמויות",
+   "מי שמקפיא הרבה מזון ורוצה תא הקפאה גדול",
+   "מטבח עם נישה רחבה למקרר"
+  ],
+  "considerations": [
+   "יש לוודא נישה ברוחב של 95 ס״מ לפחות",
+   "עומק המקרר 79.6 ס״מ, כדאי לבדוק שהוא מתאים לעומק הנישה ולמעבר במטבח",
+   "יש לבדוק שהדלתות ופתחי הכניסה לבית מאפשרים העברת מקרר ברוחב 90.8 ס״מ",
+   "דירוג אנרגטי E עם צריכה שנתית של 360 קוט״ש"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של תא ההקפאה?",
+    "a": "נפח נטו של 235 ליטר בתא ההקפאה, ו-433 ליטר בתא הקירור.",
+    "sources": []
+   },
+   {
+    "q": "איזה רוחב נישה נדרש?",
+    "a": "רוחב נישה מינימלי נדרש של 95 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל השנתית?",
+    "a": "360 קוט״ש בשנה, דירוג אנרגטי E.",
+    "sources": []
+   },
+   {
+    "q": "מי היבואן הרשמי?",
+    "a": "ראלקו, שדרכה ניתנים האחריות והשירות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש יצרן קרח?",
+    "a": "כן, יש יצרן קרח חשמלי מובנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר Sharp SJ-FP910-BS בנפח נטו של 668 ליטר עם תא הקפאה של 235 ליטר, מדחס J-Tech Inverter וקירור No Frost. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sharp SJ-FP910-BS",
+   "SJ-FP910-BS",
+   "מקרר שארפ 5 דלתות",
+   "מקרר 668 ליטר",
+   "מקרר 5 דלתות נירוסטה",
+   "מקרר שארפ מקפיא תחתון",
+   "מקרר שארפ ראלקו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח אחסון נטו כולל",
+   "catalogValue": "668 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו תא קירור",
+   "catalogValue": "433 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו תא הקפאה",
+   "catalogValue": "235 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "185 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "90.8 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "79.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב נישה מינימלי נדרש",
+   "catalogValue": "95 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "catalogValue": "360 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג מדחס",
+   "catalogValue": "J-Tech Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "No-Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר דלתות",
+   "catalogValue": "5",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נטו משקל",
+   "catalogValue": "114 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה בהירה (BS)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדפי זכוכית",
+   "catalogValue": "מדפי זכוכית מחוסמת רחבים",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Citydeal names the model as SJ-FP910BS without the hyphen. FirstPrice and Segev Electric name SJ-FP910-BS exactly, so the model number is supported.",
+   "severity": "medium"
+  },
+  {
+   "field": "גימור",
+   "issue": "Catalog says נירוסטה בהירה. The pages say only נירוסטה (stainless steel); the word בהירה is not on any page read.",
+   "severity": "low"
+  },
+  {
+   "field": "נטו משקל",
+   "issue": "No fetched page gave the net weight (catalog says 114 ק\"ג); verify against the manufacturer spec before relying on it.",
+   "severity": "low"
+  },
+  {
+   "field": "גימור",
+   "issue": "Catalog says נירוסטה בהירה; sources say only נירוסטה.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "Catalog net weight 114 ק״ג not found on any source; verify.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled niche fact as minimum required width and defrost fact as cooling method. Feature 3 trimmed: the quote does not mention two cube sizes. All sources are Israeli retailer pages naming the model."
+ }
+}

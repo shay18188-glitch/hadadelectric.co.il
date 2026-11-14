@@ -1,0 +1,528 @@
+{
+ "modelNumber": "BRB80F26CEF0ML",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "BRB80F26CEF0ML",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Samsung Israel product page and the Bug (באג) Israeli listing both name the exact model. The importer's name is not stated on the pages checked. Sibling BRB80F26CES0 was seen in results but not used as evidence. | QA: Samsung Israel page and Bug listing both name BRB80F26CEF0ML exactly; capacity 267 L and size match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%90%D7%99%D7%A0%D7%98%D7%92%D7%A8%D7%9C%D7%99-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-267-%D7%9C%D7%99%D7%98%D7%A8-samsung-95434511",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.samsung.com/il/refrigerators/built-in-bottom-mount-freezer/brb80f-mono-267l-white-brb80f26cef0ml/",
+   "publisher": "Samsung Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מקרר אינטגרלי, מקפיא תחתון"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כללי נטו",
+     "value": "267 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "193 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "74 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "540 × 1775 × 550 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 73 kg; flagged.",
+     "label": "משקל",
+     "value": "62 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says No Frost; flagged.",
+     "label": "שיטת קירור",
+     "value": "קירור מונו (Mono Cooling)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת קירור",
+     "value": "6 ק״ג ל-24 שעות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "35 dBA"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגירת ‎+Optimal Fresh: מגירה נפרדת לשימור בשר ודגים בטמפרטורה נמוכה יותר מהמקרר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הקפאה מהירה בלחיצת כפתור (Power Freeze)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לוחית קירור, מדף ותעלה ממתכת לשמירה על הקור בתוך המקרר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Reworded: quote does not mention thin walls.",
+   "text": "נפח 267 ליטר בעיצוב עומק סטנדרטי של 550 מ״מ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Reworded: SmartThings not in quote.",
+   "text": "מצב AI Energy לחיסכון של עד 10% בצריכת האנרגיה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקרר אינטגרלי להתקנה מובנית בארון, מקפיא תחתון"
+  }
+ ],
+ "content": {
+  "summary": "מקרר אינטגרלי של Samsung עם מקפיא תחתון, להתקנה מובנית בארון המטבח. נפח נטו כולל של 267 ליטר, מתוכם 193 ליטר לתא הקירור ו-74 ליטר לתא ההקפאה, במידות 540 × 1775 × 550 מ״מ. מתאים למי שמתכנן מטבח עם חזית ארון אחידה ורוצה מקרר שקט ברמת רעש של 35 dBA.",
+  "highlights": [
+   "נפח נטו כולל 267 ליטר: 193 ליטר קירור ו-74 ליטר הקפאה",
+   "מידות 540 × 1775 × 550 מ״מ להתקנה אינטגרלית",
+   "רמת רעש 35 dBA",
+   "מגירת ‎+Optimal Fresh לבשר ודגים",
+   "הקפאה מהירה Power Freeze"
+  ],
+  "goodFor": [
+   "מטבח מתוכנן עם חזיתות ארון אחידות שבו המקרר מוסתר",
+   "מטבח פתוח לסלון שבו רמת רעש נמוכה חשובה",
+   "מי שמאחסן בשר ודגים ורוצה מגירה נפרדת וקרה יותר"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה בארון מתאימה למידות 540 × 1775 × 550 מ״מ ולהוראות ההתקנה של היצרן",
+   "המקרר אינטגרלי ודורש דלת ארון חזיתית והתקנה מובנית",
+   "שיטת הקירור לפי היצרן היא קירור מונו, כדאי לבדוק שזה מתאים לציפיות",
+   "דירוג אנרגטי E לפי הסולם האירופאי"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "נפח נטו כולל של 267 ליטר: 193 ליטר בתא הקירור ו-74 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 540 מ״מ, גובה 1775 מ״מ ועומק 550 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר שקט?",
+    "a": "רמת הרעש המוצהרת היא 35 dBA.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להעמיד אותו חופשי במטבח?",
+    "a": "זהו מקרר אינטגרלי, המיועד להתקנה מובנית בתוך ארון.",
+    "sources": []
+   },
+   {
+    "q": "מה קיבולת הקירור?",
+    "a": "6 ק״ג ל-24 שעות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר אינטגרלי מקפיא תחתון Samsung BRB80F26CEF0ML בנפח 267 ליטר, רמת רעש 35 dBA ורוחב 540 מ״מ. מגירת Optimal Fresh בחדד אלקטריק נהריה",
+  "keywords": [
+   "BRB80F26CEF0ML",
+   "מקרר אינטגרלי סמסונג",
+   "מקרר אינטגרלי מקפיא תחתון",
+   "מקרר אינטגרלי 267 ליטר",
+   "מקרר מובנה Samsung",
+   "מקרר לבנייה מקפיא תחתון",
+   "Samsung BRB80F"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח נטו כולל",
+   "catalogValue": "267 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור נטו",
+   "catalogValue": "193 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה נטו",
+   "catalogValue": "74 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המקרר (נטו)",
+   "catalogValue": "רוחב 54 ס\"מ, גובה 177.5 ס\"מ, עומק 55 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "No Frost (אוויר יבש)",
+   "finding": "contradicted",
+   "correctValue": "קירור מונו (Mono Cooling)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (דירוג אירופאי חדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "231 קוט\"ש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "35 דציבל (dBA)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "כ-73 ק\"ג",
+   "finding": "contradicted",
+   "correctValue": "62 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן שלג (Snow White)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות נישה מומלצות",
+   "catalogValue": "רוחב 55.5-56 ס\"מ, גובה 177.8-178 ס\"מ, עומק 56-59 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Wi-Fi מובנה",
+   "catalogValue": "Wi-Fi מובנה, אפליקציית SmartThings",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדחס Digital Inverter",
+   "catalogValue": "5 מהירויות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Metal Cooling",
+   "catalogValue": "גב מתכתי לשמירה על טמפרטורה יציבה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "All-Around Cooling",
+   "catalogValue": "פיזור אוויר אחיד בכל חלקי המקרר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SpaceMax",
+   "catalogValue": "דפנות בידוד דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מגירת Optimal Fresh+",
+   "catalogValue": "מגירה לשימור בשר ודגים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Power Freeze",
+   "catalogValue": "הקפאה מהירה בלחיצת כפתור",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Easy Slide",
+   "catalogValue": "מדף נשלף",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצב חופשה",
+   "catalogValue": "Vacation Mode",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "התראת דלת פתוחה ודלת הפיכה",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אקלים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "T",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת קירור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "6 ק״ג ל-24 שעות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שיטת קירור",
+   "issue": "הקטלוג מציין No Frost. דף היצרן ודף באג מציינים קירור מונו (Mono Cooling). בדף היצרן מופיע גם טקסט שיווקי כללי על No Frost, וכותרת ה-schema של הדף מזכירה Twin Cooling. יש לוודא את סוג הקירור של היחידה.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין כ-73 ק״ג. דף היצרן ודף באג מציינים 62 ק״ג משקל נטו.",
+   "severity": "high"
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "issue": "לא נמצא עמוד עם ערך קוט״ש לדגם המדויק. נמצא ערך 231 kWh רק לדגם המקביל BRB80F26CES0, ולכן ערך הקטלוג לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה ומידות נישה",
+   "issue": "ערכי מתח העבודה (220-240V) ומידות הנישה המומלצות לא אומתו בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מדחס Digital Inverter",
+   "issue": "תכונת Digital Inverter מופיעה בקטלוג אך לא נמצאה בדפים שנבדקו לדגם המדויק.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שם היבואן הרשמי לא מופיע בדפים שנבדקו; בדף באג מופיע רק 'יבואן רשמי: כן'.",
+   "severity": "low"
+  },
+  {
+   "field": "שיטת קירור",
+   "issue": "הקטלוג מציין No Frost, אך דף היצרן ודף באג מציינים קירור מונו (Mono Cooling). יש לוודא.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין כ-73 ק״ג, המקורות מציינים 62 ק״ג.",
+   "severity": "high"
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "issue": "ערך 231 קוט״ש בקטלוג לא אומת לדגם המדויק.",
+   "severity": "medium"
+  },
+  {
+   "field": "Wi-Fi ו-Digital Inverter",
+   "issue": "Wi-Fi/SmartThings ומדחס Digital Inverter בקטלוג לא אומתו בציטוטים.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות נישה ומתח",
+   "issue": "מידות הנישה המומלצות ומתח העבודה בקטלוג לא אומתו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 3 reworded: the quote supports 267 L at standard 550 mm depth, not thin insulation walls. Feature 4 reworded: the quote does not mention SmartThings. Catalog cooling type (No Frost) and weight (73 kg) contradicted by sources; flagged."
+ }
+}

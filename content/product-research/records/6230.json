@@ -1,0 +1,360 @@
+{
+ "modelNumber": "6230",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Ankarsrum",
+  "exactModel": "6230",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Israeli listings (bug.co.il, citydeal.co.il) sell the 6230 under colour-suffixed codes such as AKM6230-MW, AKM6230-B and Assistent Original 6230 Black. Facts below come from pages that name 6230 for the 1500 W Israeli/EU version. Colour variants were not checked individually. | QA: Israeli retailer pages name AKM 6230 with 1500 W motor and 7 L bowl matching the catalog; Israeli listings use colour-suffixed codes, so the exact colour variant is unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%d7%9e%d7%99%d7%a7%d7%a1%d7%a8-ankarsrum-akm-6230-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9%d7%9e%d7%99-0",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מיקסר-מקצועי-כולל-ערכת-אביזרים-ankarsrum-976456566",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.ankarsrum.com/",
+   "publisher": "Ankarsrum",
+   "kind": "manufacturer",
+   "market": "SE",
+   "exactModel": false,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדינת ייצור",
+     "value": "שוודיה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "26.8 × 36 × 40 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "8.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "1500 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח קערת נירוסטה",
+     "value": "7 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת בצק מקסימלית",
+     "value": "5 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח קערת הקצפה",
+     "value": "3.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Warranty depends on importer; Bug lists 1 year. Not publishable without importer confirmation.",
+     "label": "אחריות יצרן",
+     "value": "7 שנים (על מכלול המנוע)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'fewer vibrations' — not in the quote.",
+   "text": "מיקום המנוע בבסיס המכשיר מסייע ליציבות גבוהה יותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף יצוק מאלומיניום, מיוצר בשוודיה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קערת נירוסטה 7 ליטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קערת הקצפה שקופה 3.5 ליטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ספר מתכונים של Ankarsrum בעברית"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ankarsrum 6230 הוא מיקסר עומד מתוצרת שוודיה עם גוף יצוק מאלומיניום ומנוע 1500 W הממוקם בבסיס המכשיר. הוא מגיע עם קערת נירוסטה של 7 ליטר וקערת הקצפה שקופה של 3.5 ליטר, ומתאים ללישת בצק בכמות של עד 5 ק״ג. מתאים למי שאופה לחם, חלות ובצקים כבדים באופן קבוע.",
+  "highlights": [
+   "מנוע 1500 W",
+   "קערת נירוסטה 7 ליטר",
+   "קיבולת בצק עד 5 ק״ג",
+   "קערת הקצפה שקופה 3.5 ליטר",
+   "גוף יצוק מאלומיניום, מיוצר בשוודיה"
+  ],
+  "goodFor": [
+   "אפייה ביתית של כמויות גדולות של בצק לחם וחלות",
+   "מי שצריך גם לישה וגם הקצפה, עם קערה נפרדת לכל משימה",
+   "מטבח שבו רוצים מיקסר יציב עם מנוע בבסיס"
+  ],
+  "considerations": [
+   "מידות המכשיר 26.8 × 36 × 40 ס״מ — כדאי לוודא מקום על השיש ומתחת לארונות העליונים",
+   "משקל 8.6 ק״ג — כדאי לתכנן מקום קבוע ולא להזיז אותו לעיתים קרובות",
+   "תנאי האחריות תלויים ביבואן — כדאי לברר אותם לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "כמה בצק אפשר ללוש ב-Ankarsrum 6230?",
+    "a": "לפי נתוני המוצר, עד 5 ק״ג בצק בקערת הנירוסטה של 7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המנוע?",
+    "a": "המנוע בהספק 1500 W.",
+    "sources": []
+   },
+   {
+    "q": "אילו קערות מגיעות באריזה?",
+    "a": "קערת נירוסטה 7 ליטר וקערת הקצפה שקופה 3.5 ליטר, וכן ספר מתכונים בעברית.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות ומשקל המיקסר?",
+    "a": "רוחב 26.8 ס״מ, גובה 36 ס״מ ועומק 40 ס״מ, ומשקלו 8.6 ק״ג.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקסר עומד Ankarsrum 6230 מתוצרת שוודיה: מנוע 1500 W, קערת נירוסטה 7 ליטר ולישה של עד 5 ק״ג בצק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "אנקרסרום 6230",
+   "Ankarsrum 6230",
+   "מיקסר אנקרסרום",
+   "Ankarsrum Assistent Original",
+   "מיקסר עומד 7 ליטר",
+   "מיקסר ללישת בצק",
+   "מיקסר שוודי",
+   "AKM6230"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "1500W (בגרסה האירופאית/ישראלית) או 600W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח קערת נירוסטה",
+   "catalogValue": "7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח קערת הקצפה שקופה",
+   "catalogValue": "3.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת בצק מקסימלית",
+   "catalogValue": "5 ק\"ג בצק (1.5 ליטר נוזלים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל המכשיר",
+   "catalogValue": "כ-8.6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 36 ס\"מ, רוחב 26.8 ס\"מ, עומק 40 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "שוודיה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "מובנה, עד 12 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בקרת מהירות",
+   "catalogValue": "45-130 סל\"ד",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Israeli listings use colour-suffixed codes (AKM6230-MW, AKM6230-B, AKM6230-R and others). The catalog code 6230 is the family number, so confirm which colour variant the store sells.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מנוע",
+   "issue": "The catalog text also gives 600 W. The Israeli listings checked say 1500 W, so the 600 W figure is not confirmed for the Israeli version.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Sources conflict. ankarsrum.com says 7 years, CityDeal says 7 years on the motor assembly only, and Bug lists 1 year and says it is not the official importer. Confirm the warranty terms with the official Israeli importer.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Israeli listings use colour-suffixed codes (AKM6230-MW, AKM6230-B and others); confirm which colour variant this catalog entry is.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מנוע",
+   "issue": "Catalog text also mentions 600 W; Israeli sources say 1500 W. Remove the 600 W mention from catalog text.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty sources conflict (7 years on motor vs 1 year at an unofficial importer). Confirm with the official Israeli importer.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Timer up to 12 minutes, 220-240V and 45-130 rpm speed range were not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 7 (warranty 7 years on motor): warranty terms depend on the importer and sources conflict (Bug lists 1 year, unofficial importer). Manufacturer homepage reclassified as other context only; it does not name the model. Timer, voltage and speed range from the catalog are unverified and not published."
+ }
+}

@@ -1,0 +1,545 @@
+{
+ "modelNumber": "QE55Q6FAAUXIL",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "QE55Q6FAAUXIL",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן הישראלי מציג את הדגם בשם 55'' QLED Q6F 4K Smart TV (2025). היבואן לא אומת בדף. | QA: דף סמסונג ישראל לדגם QE55Q6FAAUXIL (55'' QLED Q6F 4K Smart TV 2025)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/tvs/qled-tv/q6f-55-inch-qled-4k-smart-tv-qe55q6faauxil/",
+   "publisher": "Samsung Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "55 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "4K (3,840 × 2,160)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "50Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית תצוגה",
+     "value": "QLED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "HDR",
+     "value": "Quantum HDR"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "Q4 Lite"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק רמקולים (RMS)",
+     "value": "20W"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Tizen"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "הוספת נקודת ההתחלה מהציטוט",
+     "label": "תמיכה בעדכוני מערכת",
+     "value": "עד 7 שנים החל משנת 2025"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אבטחת מידע",
+     "value": "Samsung Knox"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ערוץ החזרת שמע HDMI",
+     "value": "eARC/ARC"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל (מרבית)",
+     "value": "125 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל (טיפוסית)",
+     "value": "84.0 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל במצב המתנה",
+     "value": "0.50 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית (תקן אירופאי)",
+     "value": "117 kWh"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1224.6 × 707.8 × 76.6 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "1224.6 × 759.1 × 199 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "10.0 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל עם מעמד",
+     "value": "10.3 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נפח צבע של 100% עם Quantum Dot"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שדרוג תכנים לרזולוציה של עד 4K"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "השם Quick Remote אינו בציטוט",
+   "text": "גישה לתכונות מרכזיות של הטלוויזיה מהמכשיר הנייד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מעמד מתכוונן להתאמת מיקום הטלוויזיה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סמסונג QE55Q6FAAUXIL היא טלוויזיית QLED חכמה בגודל 55 אינץ׳ ברזולוציית 4K, עם מעבד Q4 Lite, Quantum HDR ונפח צבע של 100% עם Quantum Dot. הטלוויזיה פועלת על מערכת Tizen עם תמיכה בעדכוני מערכת עד 7 שנים החל משנת 2025, וכוללת Wi-Fi 5, Bluetooth 5.3 ו-HDMI eARC. מתאימה לסלון או לחדר שינה למי שמחפש מסך 4K חכם לצפייה בסטרימינג ובשידורים.",
+  "highlights": [
+   "מסך QLED בגודל 55 אינץ׳ ברזולוציית 4K (3,840 × 2,160)",
+   "מעבד תמונה Q4 Lite ו-Quantum HDR",
+   "מערכת Tizen עם תמיכה בעדכוני מערכת עד 7 שנים החל משנת 2025",
+   "רמקולים בהספק 20W ו-HDMI eARC לחיבור מקרן קול",
+   "עומק של 76.6 מ״מ ללא מעמד"
+  ],
+  "goodFor": [
+   "צפייה בתכני סטרימינג ב-4K דרך מערכת Tizen",
+   "חיבור מקרן קול דרך HDMI eARC",
+   "תלייה על הקיר בזכות עומק של 76.6 מ״מ ללא מעמד",
+   "מי שמחפש טלוויזיה חכמה שתקבל עדכוני מערכת לאורך זמן"
+  ],
+  "considerations": [
+   "קצב הרענון הוא 50Hz – כדאי לקחת זאת בחשבון אם משחקים בקונסולה ומחפשים קצב גבוה יותר",
+   "ברוחב 1224.6 מ״מ ועם מעמד בעומק 199 מ״מ – כדאי למדוד את המזנון לפני הרכישה",
+   "לתלייה על הקיר יש להתאים זרוע לטלוויזיה במשקל 10.0 ק״ג",
+   "צריכת החשמל הטיפוסית היא 84.0 W"
+  ],
+  "faq": [
+   {
+    "q": "מה קצב הרענון של הטלוויזיה?",
+    "a": "קצב הרענון הוא 50Hz.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לחבר מקרן קול?",
+    "a": "כן, הטלוויזיה תומכת ב-HDMI eARC/ARC וגם ב-Bluetooth 5.3.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן תקבל הטלוויזיה עדכוני מערכת?",
+    "a": "לפי סמסונג, עד 7 שנים החל משנת 2025.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הטלוויזיה עם המעמד?",
+    "a": "1224.6 × 759.1 × 199 מ״מ (רוחב × גובה × עומק), ומשקל 10.3 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל של הטלוויזיה?",
+    "a": "צריכה טיפוסית של 84.0 W, מרבית של 125 W, וצריכה שנתית של 117 kWh לפי התקן האירופאי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה סמסונג QLED 55 אינץ׳ QE55Q6FAAUXIL ברזולוציית 4K עם מעבד Q4 Lite ו-Quantum HDR, מערכת Tizen חכמה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "QE55Q6FAAUXIL",
+   "סמסונג Q6F 55",
+   "טלוויזיה סמסונג 55 אינץ QLED",
+   "Samsung QLED Q6F",
+   "טלוויזיה 55 אינץ 4K",
+   "טלוויזיה חכמה סמסונג 55",
+   "QLED 55 אינץ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "55 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K Ultra HD (3,840 x 2,160)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד תמונה",
+   "catalogValue": "Q4 Lite",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDR: Quantum HDR, HDR10+",
+   "catalogValue": "Quantum HDR, HDR10+",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDR: HLG",
+   "catalogValue": "HLG",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "20W (2 ערוצים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "5.3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi 5",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDMI eARC",
+   "catalogValue": "3 כניסות HDMI (כולל eARC)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסת USB-A",
+   "catalogValue": "1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יציאה אופטית וכניסת RF",
+   "catalogValue": "יציאה אופטית, כניסת RF",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1224.6 x 707.8 x 76.6 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1224.6 x 759.1 x 199 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "10 ק\"ג (ללא מעמד), 10.3 ק\"ג (עם מעמד)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל טיפוסית",
+   "catalogValue": "84W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "G",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תקן VESA",
+   "catalogValue": "200x200 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Tizen Smart TV",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Samsung Knox",
+   "catalogValue": "אבטחת מידע מובנית Samsung Knox",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SmartThings, OTS Lite, Q-Symphony, ALLM, Solarcell, Mobile to TV",
+   "catalogValue": "תכונות חכמות ותאורה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "קוריאה הדרומית (עיצוב ופיתוח), מיוצר במפעלי סמסונג ברחבי העולם",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_variant",
+   "issue": "אתר מפרט חיצוני מציין וריאנט אחר של הדגם (QE55Q6FAMLXXN) עם לוח VA בגודל 54.6 אינץ׳ וקצב רענון 100/120Hz. הוא לא נכלל כראיה לדגם זה, ויש לאמת מול המפרט הישראלי",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_importer",
+   "issue": "היבואן הרשמי בישראל לא אומת בדף היצרן שנבדק",
+   "severity": "low"
+  },
+  {
+   "field": "שם מוצר",
+   "issue": "חלק מדפי הרשת מציגים את הדגם תחת קוד Q7F. יש לוודא את הדגם על גבי האריזה",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_importer",
+   "issue": "היבואן הרשמי בישראל לא אומת בדף היצרן",
+   "severity": "low"
+  },
+  {
+   "field": "catalog",
+   "issue": "דירוג אנרגטי G, תקן VESA 200×200, HLG ויציאה אופטית בקטלוג לא אומתו במקורות",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות מאומתות בדף סמסונג ישראל לדגם המדויק. תוקנה תווית עדכוני המערכת; תכונה 2 נוסחה מחדש כי הציטוט אינו מזכיר Quick Remote בשמו."
+ }
+}

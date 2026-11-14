@@ -1,0 +1,315 @@
+{
+ "modelNumber": "ND-6464B",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND-6464B",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Bug lists the black variant as ND-6464 (SKU 929343436), with the image file named ND-6464B; CH-CH names ND-6464B itself but has no spec table. | QA: CH-CH names ND-6464B (matte black) but has no specs; Bug spec page lists the black variant as ND-6464 with image named ND-6464B. Specs match the catalog exactly, so likely same unit, suffix not fully confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ch-ch.co.il/242435-%D7%AA%D7%A0%D7%95%D7%A8-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-/332100-Normande",
+   "publisher": "CH-CH",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/תנור-משולב-כיריים-4-להבות-normande-929343436",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מוצר",
+     "value": "תנור משולב כיריים גז - 4 להבות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור מט"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "66 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות אפייה",
+     "value": "6"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבערי גז",
+     "value": "4 מבערים מתוצרת Sabaf איטליה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער ווק",
+     "value": "3.8 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבערים בינוניים",
+     "value": "2 × 1.75 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער קטן",
+     "value": "1.0 kW"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה (חום סטטי)",
+     "value": "0.782 kWh למחזור"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה (טורבו)",
+     "value": "0.861 kWh למחזור"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "85 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer's own warranty term, not a product attribute.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת בטיחות לניתוק גז אוטומטי בכיבוי להבה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "דלת זכוכית כפולה לבידוד חום ובטיחות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 תבניות ורשת"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Normande ND-6464B הוא תנור משולב כיריים גז ברוחב 60 ס״מ בגימור שחור מט. תא האפייה בנפח 66 ליטר עם 6 תוכניות אפייה, ומעליו 4 מבערי גז מתוצרת Sabaf איטליה, כולל מבער ווק בהספק 3.8 kW. מתאים למטבח עם חיבור גז שמחפש תנור וכיריים ביחידה אחת.",
+  "highlights": [
+   "תא אפייה בנפח 66 ליטר",
+   "4 מבערי גז מתוצרת Sabaf איטליה",
+   "מבער ווק בהספק 3.8 kW",
+   "6 תוכניות אפייה",
+   "ניתוק גז אוטומטי בכיבוי להבה"
+  ],
+  "goodFor": [
+   "מטבח עם חיבור גז שצריך תנור וכיריים ביחידה עומדת אחת",
+   "בישול בווק וטיגון מהיר על מבער חזק",
+   "אפייה ובישול במגוון מצבים כמו חום עליון, תחתון, גריל וטורבו"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי ברוחב 60 ס״מ, עומק 60 ס״מ וגובה 85 ס״מ",
+   "חיבור הכיריים לגז צריך להתבצע על ידי מתקין גז מוסמך",
+   "יש לוודא שקע חשמל זמין ליד מקום ההצבה עבור התנור"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח תא האפייה?",
+    "a": "66 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה מבערים יש בכיריים ומה ההספק שלהם?",
+    "a": "4 מבערים מתוצרת Sabaf: מבער ווק 3.8 kW, שני מבערים של 1.75 kW כל אחד ומבער קטן 1.0 kW.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני דליפת גז?",
+    "a": "כן, מערכת בטיחות מנתקת את הגז אוטומטית כשהלהבה כבה.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "2 תבניות ורשת.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות התנור?",
+    "a": "גובה 85 ס״מ, רוחב 60 ס״מ ועומק 60 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור משולב כיריים גז Normande ND-6464B שחור מט: תא אפייה 66 ליטר, 4 מבערי Sabaf כולל מבער ווק 3.8 kW. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Normande ND-6464B",
+   "תנור משולב גז נורמנדי",
+   "תנור משולב כיריים גז 60 ס״מ",
+   "תנור משולב שחור",
+   "ND-6464B",
+   "תנור משולב 4 להבות",
+   "תנור משולב גז שחור מט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא אפייה",
+   "catalogValue": "66 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Spec page is for black ND-6464 listing; exact suffix B appears only in image name and CH-CH listing. Verify against importer sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Bug's spec page lists the black variant as ND-6464; suffix B confirmed only by CH-CH title and Bug image filename. Verify against importer spec sheet.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (id 13): it is the retailer's warranty term on Bug, not a product spec. All other facts kept from Bug spec page; colour and type from CH-CH which names ND-6464B."
+ }
+}

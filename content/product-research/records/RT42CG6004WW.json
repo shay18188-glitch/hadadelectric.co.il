@@ -1,0 +1,437 @@
+{
+ "modelNumber": "RT42CG6004WW",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RT42CG6004WW",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "medium",
+  "notes": "Israeli retailer pages (BetterShop, CityDeal) name RT42CG6004WW. Samsung Israel's official page lists this unit as RT42CG6004WWML (suffix ML) and was not used as evidence because the suffix differs. | QA: Two Israeli retailer pages name RT42CG6004WW; Samsung Israel lists the unit as RT42CG6004WWML, so the Israeli suffix is unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-samsung-%D7%93%D7%92%D7%9D-rt42cg6004ww-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/samsung_rt42cg6004ww/",
+   "publisher": "BetterShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "70 × 178.5 × 67.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל (ברוטו)",
+     "value": "420 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח נטו כולל",
+     "value": "415 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "323+97=420, gross split",
+     "label": "נפח תא קירור (ברוטו)",
+     "value": "323 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "gross split",
+     "label": "נפח תא הקפאה (ברוטו)",
+     "value": "97 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "243 קוט״ש"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מדחס",
+     "value": "Digital Inverter (BLDC ללא פחמים)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer copy conflicts on warranty terms; value contains a price.",
+     "label": "אחריות יבואן",
+     "value": "שנה מלאה + 3 שנים נוספות בתוספת 99 ש״ח"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית SpaceMax™ לנפח פנימי גדול יותר בזכות דפנות דקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת No Frost לנוחות שימוש גבוהה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Power Cool לקירור מהיר וקירור היקפי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed compartment claim not in quote",
+   "text": "All Around Cooling לפיזור אוויר אחיד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב Pure Flat עם ידיות שקועות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Samsung RT42CG6004WW הוא מקרר מקפיא עליון לבן בנפח ברוטו של 420 ליטר (415 ליטר נטו), עם מערכת No Frost ומדחס Digital Inverter. מידותיו 70 × 178.5 × 67.5 ס״מ, ודירוגו האנרגטי E עם צריכה שנתית של 243 קוט״ש. מתאים למי שמחפש מקרר מקפיא עליון מרווח בעיצוב שטוח עם ידיות שקועות.",
+  "highlights": [
+   "נפח ברוטו 420 ליטר, 415 ליטר נטו",
+   "תא קירור 323 ליטר ותא הקפאה 97 ליטר (ברוטו)",
+   "מערכת No Frost",
+   "מדחס Digital Inverter",
+   "צריכת אנרגיה שנתית 243 קוט״ש, דירוג E"
+  ],
+  "goodFor": [
+   "מטבח עם נישה ברוחב 70 ס״מ למקרר מקפיא עליון",
+   "מי שמעדיף מקרר No Frost ללא צורך בהפשרה ידנית",
+   "מי שצריך קירור מהיר של מצרכים חדשים בעזרת Power Cool"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה: רוחב 70 ס״מ, גובה 178.5 ס״מ ועומק 67.5 ס״מ",
+   "דירוג אנרגטי E וצריכה שנתית של 243 קוט״ש",
+   "חלוקת הנפח 323/97 ליטר היא ברוטו; הנפח השימושי הכולל הוא 415 ליטר נטו"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המקרר?",
+    "a": "420 ליטר ברוטו ו-415 ליטר נטו, מתוכם תא קירור של 323 ליטר ותא הקפאה של 97 ליטר (ברוטו).",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 70 ס״מ, גובה 178.5 ס״מ ועומק 67.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר No Frost?",
+    "a": "כן, המקרר כולל מערכת No Frost.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל המקרר צורך?",
+    "a": "צריכת האנרגיה השנתית היא 243 קוט״ש, בדירוג אנרגטי E, עם מדחס Digital Inverter.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא עליון Samsung RT42CG6004WW בנפח 420 ליטר, No Frost ומדחס Digital Inverter, רוחב 70 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "RT42CG6004WW",
+   "סמסונג RT42CG6004WW",
+   "מקרר מקפיא עליון סמסונג",
+   "מקרר 420 ליטר",
+   "מקרר No Frost לבן",
+   "מקרר סמסונג מקפיא עליון לבן",
+   "מקרר רוחב 70 ס״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Samsung",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח ברוטו",
+   "catalogValue": "420 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח נטו כולל",
+   "catalogValue": "415 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "317 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "98 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "כ-241 קוט\"ש לשנה",
+   "finding": "corrected",
+   "correctValue": "243 קוט״ש לשנה",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה יומית",
+   "catalogValue": "0.66 קוט\"ש ליממה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת קירור",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מדחס",
+   "catalogValue": "Digital Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות - עומק",
+   "catalogValue": "67.2 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "67.5 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות - גובה ורוחב",
+   "catalogValue": "178.5 ס\"מ, 70 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-59 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "תאילנד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה מלאה + 3 שנים נוספות בתוספת 99 ש״ח, ע\"י ניופרו היבואן הרשמי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Samsung Israel's official page lists this unit as RT42CG6004WWML (suffix ML). The exact model RT42CG6004WW appears only on Israeli retailer pages, and the ML page was not used as evidence. Confirm the Israeli variant before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח",
+   "issue": "Retailers conflict. BetterShop gives 420 L gross with 323 L fridge and 97 L freezer; CityDeal gives 415 L net. The catalog's 317 L fridge and 98 L freezer match CityDeal's net split, which could not be quoted on one line.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות - עומק",
+   "issue": "Catalog depth is 67.2 cm, but both retailers give 67.5 cm. Check door-to-wall depth before a niche install.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty terms conflict. BetterShop's copy claims a 10-year compressor warranty, while its warranty line and CityDeal give 1 year from the importer plus 3 years of service for 99 ₪. Verify the official terms with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "No retailer page for this exact model gives a weight, so the catalog's 59 kg is unverified. Samsung's ML-variant page lists 58.5 kg net, but it is not used as evidence.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת אנרגיה יומית",
+   "issue": "The catalog's daily figure of 0.66 kWh is unverified. Retailer pages give the annual figure as 243 kWh, not 241 kWh.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Samsung Israel lists the unit as RT42CG6004WWML; confirm the Israeli suffix of the catalog SKU.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח תא קירור / הקפאה",
+   "issue": "Catalog lists 317/98 L (likely net split); published values are the gross split 323/97 L. Check catalog wording.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות - עומק",
+   "issue": "Catalog depth 67.2 cm vs 67.5 cm on both retailer pages.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "issue": "Catalog says about 241 kWh/year; retailer gives 243 kWh/year. Daily 0.66 kWh unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty terms conflict between retailer copy; verify official terms with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight 59 kg not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact (retailer copy conflicts on warranty terms and the value includes a price). Trimmed All Around Cooling feature wording to what the quote supports. Fridge/freezer split 323/97 L is the gross split from BetterShop; catalog 317/98 L appears to be the net split and is not published."
+ }
+}

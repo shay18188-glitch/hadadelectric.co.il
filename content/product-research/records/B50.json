@@ -1,0 +1,451 @@
+{
+ "modelNumber": "B50",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Arylic",
+  "exactModel": "Arylic B50",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Arylic B50 2-channel Bluetooth stereo amplifier with Bluetooth transmitter and receiver modes. Israeli importer not found in research. The manufacturer product page returned HTTP 429 and was not read; facts rest on retailer pages. | QA: All sources are retailer pages for Arylic B50; manufacturer page not read and Israeli variant/importer unknown."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soundimports.eu/en/arylic-b50.html",
+   "publisher": "SoundImports",
+   "kind": "retailer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.audiophonics.fr/en/integrated-amplifiers/arylic-b50-amplifier-two-way-bluetooth-52-aptx-hd-hdmi-arc-2x50w-4-p-17257.html",
+   "publisher": "Audiophonics",
+   "kind": "retailer",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.amazon.com/Arylic-B50-Transmitter-Amplifiers-Transmission/dp/B0DMVDFQX1",
+   "publisher": "Amazon.com",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק יציאה ב-4 Ω",
+     "value": "2 × 50 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק יציאה ב-8 Ω",
+     "value": "2 × 30 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Orientation removed; sources disagree on which side is depth.",
+     "label": "מידות",
+     "value": "185 × 155 × 50 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "0.9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גרסת בלוטות׳",
+     "value": "5.2"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קודקים נתמכים",
+     "value": "aptX HD, aptX, AAC, SBC"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טווח בלוטות׳",
+     "value": "עד 15 מטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "ספק כוח",
+     "value": "24V 4.16A (כלול)"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not state terminal type.",
+     "label": "חיבור רמקולים",
+     "value": "מחברי הברגה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בלוטות׳ דו-כיווני: קבלת אודיו ממכשיר בלוטות׳ והעברתו לאוזניות או לרמקול אלחוטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חיבור עד 2 מכשירי בלוטות׳ בו-זמנית, במצב שידור וגם במצב קבלה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Volume control claim removed; not in quote.",
+   "text": "כניסת HDMI ARC עם CEC: הדלקה וכיבוי של הטלוויזיה והמגבר יחד משלט הטלוויזיה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כניסת פונו (MM/MC) לחיבור פטיפון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כניסת RCA סטריאו אנלוגית (Line In)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "יציאת סאב-וופר RCA לחיבור סאב-וופר אקטיבי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפליקציית GO CONTROL חינמית ל-iOS ול-Android"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כוונון צליל מתקדם בתוכנת ACPWorkBench"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מגבר Arylic B50"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שלט רחוק"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ספק כוח"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "ההספק הוא 2 × 50 W ב-4 Ω ו-2 × 30 W ב-8 Ω, ויש בו כניסת HDMI ARC עם CEC, כניסת פונו לפטיפון ויציאת סאב-וופר. מתאים למי שרוצה להפעיל זוג רמקולים פסיביים מהטלוויזיה, מהפטיפון ומהטלפון במכשיר אחד קטן.",
+  "highlights": [
+   "הספק 2 × 50 W ב-4 Ω",
+   "כניסת HDMI ARC עם CEC לחיבור לטלוויזיה",
+   "כניסת פונו (MM/MC) לפטיפון",
+   "יציאת סאב-וופר RCA"
+  ],
+  "goodFor": [
+   "חיבור רמקולים פסיביים לטלוויזיה דרך HDMI ARC והפעלה משלט הטלוויזיה",
+   "האזנה לפטיפון בלי קדם-מגבר נפרד, בזכות כניסת הפונו",
+   "שידור הסאונד של הטלוויזיה לאוזניות בלוטות׳ בשעות שקטות"
+  ],
+  "considerations": [
+   "בדקו שהטלוויזיה תומכת ב-HDMI ARC וב-CEC",
+   "ודאו שהרמקולים מתאימים לעכבה של 4 Ω או 8 Ω; ההספק ב-8 Ω הוא 2 × 30 W",
+   "לסאב-וופר נדרש דגם אקטיבי, דרך יציאת RCA"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר לחבר את המגבר לטלוויזיה?",
+    "a": "כן, יש כניסת HDMI ARC עם CEC, כך ששלט הטלוויזיה מדליק ומכבה את הטלוויזיה והמגבר יחד.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשמוע את הטלוויזיה באוזניות בלוטות׳?",
+    "a": "כן, הבלוטות׳ דו-כיווני ומאפשר לשדר אודיו לאוזניות או לרמקול אלחוטי, ועד 2 מכשירים בו-זמנית.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך קדם-מגבר לפטיפון?",
+    "a": "לא, יש במגבר כניסת פונו (MM/MC) לחיבור פטיפון.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "המגבר, שלט רחוק וספק כוח.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Arylic B50",
+   "מגבר Arylic",
+   "מגבר בלוטות׳",
+   "מגבר HDMI ARC",
+   "מגבר עם כניסת פונו",
+   "מגבר סטריאו קטן",
+   "משדר בלוטות׳ לטלוויזיה",
+   "מגבר לרמקולים פסיביים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק יציאה",
+   "catalogValue": "50W x 2 ב-4 אומם, 30W x 2 ב-8 אומם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גרסת בלוטות'",
+   "catalogValue": "5.2",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טווח קליטה/שידור",
+   "catalogValue": "עד 15 מטרים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "קודקים נתמכים",
+   "catalogValue": "aptX HD, aptX, aptX AD, aptX LL, AAC, SBC",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "185x155x50 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-900 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "יציאת סאב-וופר אקטיבי (RCA)",
+   "catalogValue": "RCA",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כניסות אופטית (עד 192kHz/24bit)",
+   "catalogValue": "עד 192kHz/24bit",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תגובת תדר",
+   "catalogValue": "20Hz - 20kHz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יחס אות לרעש (SNR)",
+   "catalogValue": "מעל 93dB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עיוות הרמוני (THD+N)",
+   "catalogValue": "פחות מ-0.1% ב-1W 1kHz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עכבת רמקולים",
+   "catalogValue": "4-8 אומם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "USB Host",
+   "catalogValue": "תמיכה בעד 128GB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח אספקה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "24V 4.16A (כלול)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Retailers disagree on which side is the depth. Audiophonics lists L*P*H 185*155*50mm, which the dimensions fact follows. SoundImports lists D x W x H 185 x 155 x 50mm, which would make the depth 185 mm. Check the orientation before publishing dimensions.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Israeli retailer page for the B50 was found. The Israeli variant (plug, voltage, warranty) is unclear. The manufacturer product page returned HTTP 429 and could not be read.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says streaming amplifier, but the B50 is a Bluetooth amplifier with Bluetooth transmitter and receiver modes and no Wi-Fi streaming. Check the name against the product.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Retailers disagree on which side is depth (Audiophonics L*P*H 185*155*50, SoundImports D x W x H 185 x 155 x 50). Published without orientation.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Israeli retailer page found; Israeli variant (plug, warranty) unclear. Manufacturer page not read.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "Catalog name says streaming amplifier; sources describe a Bluetooth amplifier with transmitter/receiver modes, no Wi-Fi streaming mentioned.",
+   "severity": "low"
+  },
+  {
+   "field": "קודקים נתמכים",
+   "issue": "Catalog lists aptX AD and aptX LL; sources list only aptX HD, aptX, AAC, SBC.",
+   "severity": "low"
+  },
+  {
+   "field": "טווח בלוטות׳",
+   "issue": "The 15 m range quote is in Hebrew on an amazon.com page (likely machine-translated listing); only source for this fact.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 2: dimensions relabelled without orientation because retailers disagree on which side is depth; value given as 185 × 155 × 50 מ״מ. Fact 7: label changed to ספק כוח. Fact 8 rejected: quote only says 'Speaker terminals', does not support screw terminals. Feature 2 corrected: quote supports on/off via TV remote (CEC) only, not volume control. | code guard removed: summary: \"Arylic B50 הוא מגבר סטריאו קומפקטי עם בלוטות׳ 5.2 דו-כיווני: הוא מקבל מוזיקה מהטלפון ומשדר אודיו לאוזניות או לרמקול אלחוטי.\"; faq: \"אילו קודקים נתמכים?\"; metaDescription: \"מגבר בלוטות׳ Arylic B50: הספק 2 × 50 W ב-4 Ω, כניסת HDMI ARC וכניסת פונו לפטיפון, בלוטות׳ 5.2 דו-כיווני. בחדד אלקטריק נהריה\"; highlight: \"בלוטות׳ 5.2 דו-כיווני עם aptX HD, aptX, AAC ו-SBC\"; goodFor: \"מערכת קטנה על מדף, במידות 185 × 155 × 50 מ״מ\"; consideration: \"המגבר פועל עם ספק כוח חיצוני 24V 4.16A הכלול באריזה, לכן תכננו מקום לספק ליד שקע\""
+ }
+}

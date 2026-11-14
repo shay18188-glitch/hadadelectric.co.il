@@ -1,0 +1,364 @@
+{
+ "modelNumber": "S45TR",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "S45TR",
+  "israeliImporter": "קבוצת ח.י.",
+  "matchConfidence": "high",
+  "notes": "דגם S45TR של LG: מקרן קול 4.1 ערוצים עם סאב-וופר אלחוטי ורמקולים אחוריים אלחוטיים, לטלוויזיות LG. | QA: דף LG ישראל ודף אבי סופר מציינים את S45TR במפורש, מקרן קול 4.1 ערוצים."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%A7%D7%A8%D7%9F-%D7%A7%D7%95%D7%9C-%D7%90%D7%9C-%D7%92%D7%99-%E2%81%A6s45tr%E2%81%A9-%D7%A9%D7%97%D7%95%D7%A8/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lg.com/il/audio/lg-s45tr",
+   "publisher": "LG ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "400 W"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ערוצי שמע",
+     "value": "4.1 ערוצים"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גרסת Bluetooth",
+     "value": "5.3"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות יחידה מרכזית (רוחב × גובה × עומק)",
+     "value": "72 × 6.3 × 8.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל יחידה מרכזית",
+     "value": "1.65 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל סאב-וופר",
+     "value": "4.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנה, קבוצת ח.י."
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עיבוד שמע AI Sound Pro שמתאים את הצליל לתוכן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה במקרן הקול באמצעות שלט הטלוויזיה של LG"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הזרמת מוזיקה אלחוטית דרך Bluetooth"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סאב-וופר אלחוטי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "הוסר 'אלחוטיים' שאינו בציטוט",
+   "text": "רמקולים אחוריים (2 יחידות)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "LG S45TR הוא מקרן קול 4.1 ערוצים בהספק כולל של 400 W, עם סאב-וופר אלחוטי ורמקולים אחוריים לצליל סראונד. היחידה המרכזית ברוחב 72 ס״מ, ועיבוד AI Sound Pro מתאים את הצליל לתוכן. מתאים למי שיש לו טלוויזיית LG ורוצה לשלוט בסאונד מאותו שלט.",
+  "highlights": [
+   "4.1 ערוצים עם רמקולים אחוריים",
+   "הספק כולל 400 W",
+   "סאב-וופר אלחוטי",
+   "Bluetooth 5.3 להזרמת מוזיקה",
+   "שליטה משלט הטלוויזיה של LG"
+  ],
+  "goodFor": [
+   "סלון שבו רוצים צליל סראונד לסרטים בלי לפרוש כבל לסאב-וופר",
+   "בעלי טלוויזיית LG שמעדיפים שלט אחד",
+   "האזנה למוזיקה מהטלפון דרך Bluetooth"
+  ],
+  "considerations": [
+   "ודאו שיש מקום ברוחב 72 ס״מ מתחת לטלוויזיה או על המזנון",
+   "תכננו מקום ושקע חשמל לסאב-וופר ולרמקולים האחוריים",
+   "השליטה משלט הטלוויזיה מתאימה לטלוויזיות LG"
+  ],
+  "faq": [
+   {
+    "q": "כמה ערוצים יש במקרן הקול LG S45TR?",
+    "a": "4.1 ערוצים, כולל סאב-וופר ורמקולים אחוריים.",
+    "sources": []
+   },
+   {
+    "q": "האם הסאב-וופר אלחוטי?",
+    "a": "כן, הסאב-וופר אלחוטי.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק הכולל?",
+    "a": "ההספק הכולל הוא 400 W.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט בו עם שלט הטלוויזיה?",
+    "a": "כן, שלט הטלוויזיה של LG שולט גם במקרן הקול.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות של היבואן הרשמי קבוצת ח.י.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרן קול LG S45TR 4.1 ערוצים, הספק 400 W, סאב-וופר אלחוטי ורמקולים אחוריים, Bluetooth 5.3. בחדד אלקטריק נהריה",
+  "keywords": [
+   "LG S45TR",
+   "מקרן קול LG S45TR",
+   "סאונדבר LG 4.1",
+   "מקרן קול עם רמקולים אחוריים",
+   "סאונדבר עם סאב וופר אלחוטי",
+   "מקרן קול לטלוויזיה LG",
+   "סאונדבר 400W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שמע כוללת",
+   "catalogValue": "400W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ערוצי שמע",
+   "catalogValue": "4.1 ערוצים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר רמקולים",
+   "catalogValue": "5",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סאבוופר",
+   "catalogValue": "אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth 5.3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDMI Out (ARC)",
+   "catalogValue": "HDMI Out (ARC)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Optical In",
+   "catalogValue": "Optical In",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "USB",
+   "catalogValue": "USB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות יחידה מרכזית",
+   "catalogValue": "720x63x87 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות סאבוופר",
+   "catalogValue": "171x320x252 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל יחידה מרכזית",
+   "catalogValue": "1.65 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל סאבוופר",
+   "catalogValue": "4.2 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל רמקולים אחוריים",
+   "catalogValue": "2.1 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור מוברש",
+   "finding": "corrected",
+   "correctValue": "שחור",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל רמקולים אחוריים",
+   "issue": "דף LG ישראל נותן 2.1 ק״ג לרמקול האחורי (2 יחידות), ודף אבי סופר נותן 1.17 ק״ג. המקורות סותרים.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין 'שחור מוברש'; הדפים שנקראו מציינים 'שחור' בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל רמקולים אחוריים",
+   "issue": "המחקר מדווח שדף LG ישראל ודף אבי סופר סותרים במשקל הרמקול האחורי; הערך לא פורסם, יש לבדוק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין 'שחור מוברש'; המקורות מציינים 'שחור' בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "inTheBox 0: הוסר 'אלחוטיים' כי הציטוט אומר רק 'רמקול אחורי (2 ליח׳)'. שאר העובדות נשמרו."
+ }
+}

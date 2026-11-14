@@ -1,0 +1,482 @@
+{
+ "modelNumber": "SC-NE5",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "SC-NE5",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The model is a 2013 launch (NE series). The manufacturer regional spec page and the Israeli importer were not found. Facts come from a manual aggregator page that names the model and from two English review pages. | QA: Sources name SC-NE5 but are US-market review/aggregator pages; Israeli variant (voltage, plug) unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.manua.ls/panasonic/sc-ne5/specifications",
+   "publisher": "manua.ls",
+   "kind": "other",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ecoustics.com/products/panasonic-ne1-ne3-ne5-wireless-speakers/",
+   "publisher": "ecoustics",
+   "kind": "review",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.digitaltrends.com/home-theater/panasonic-sc-ne5-review/",
+   "publisher": "Digital Trends",
+   "kind": "review",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דגם",
+     "value": "SC-NE5"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "AirPlay",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "DLNA",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסת AUX",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote says 30-pin iOS devices; catalog mentions Lightning.",
+     "label": "יציאת USB",
+     "value": "כן, לטעינה וחיבור מכשירי iOS"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Aggregator spec page.",
+     "label": "שקע אוזניות",
+     "value": "3.5 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוגי דיסקים נתמכים",
+     "value": "CD, CD-R, CD-RW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote does not specify FM.",
+     "label": "תחנות רדיו שמורות",
+     "value": "30"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Contradicts catalog 8 cm.",
+     "label": "וופרים",
+     "value": "3 אינץ׳"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טוויטרים",
+     "value": "1 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק RMS כולל",
+     "value": "40 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבעים",
+     "value": "שחור, אפור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "הזרמת מוזיקה אלחוטית באמצעות AirPlay"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Quote does not mention the dock unit.",
+   "text": "נגן CD התומך בדיסקים מסוג CD, CD-R ו-CD-RW"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפשרות לתליית הרמקול על הקיר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "5 מצבי אקוולייזר מוגדרים מראש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "המערכת תומכת בהזרמה דרך Bluetooth, AirPlay ו-DLNA, וכוללת גם כניסת AUX ויציאת USB. מתאימה למי שרוצה לשלב ניגון דיסקים עם הזרמה אלחוטית מהטלפון ביחידה אחת שאפשר גם לתלות על הקיר.",
+  "highlights": [
+   "הזרמה אלחוטית ב-Bluetooth, AirPlay ו-DLNA",
+   "נגן CD התומך ב-CD, CD-R ו-CD-RW",
+   "אפשרות לתליית הרמקול על הקיר"
+  ],
+  "goodFor": [
+   "מי שיש לו אוסף דיסקים ורוצה גם הזרמה אלחוטית מהטלפון",
+   "משתמשי iPhone ו-Mac שמזרימים מוזיקה ב-AirPlay",
+   "סלון או חדר שבו רוצים לחסוך מקום באמצעות תלייה על הקיר"
+  ],
+  "considerations": [
+   "אם מתכננים לתלות את הרמקול על הקיר, כדאי לבדוק מראש את מקום התלייה ואת המרחק לשקע החשמל",
+   "AirPlay ו-DLNA דורשים רשת ביתית; כדאי לוודא כיסוי רשת במקום ההצבה",
+   "יציאת ה-USB מיועדת לטעינה וחיבור מכשירי iOS; כדאי לבדוק תאימות למכשיר שלכם"
+  ],
+  "faq": [
+   {
+    "q": "אילו סוגי דיסקים המערכת מנגנת?",
+    "a": "המערכת תומכת בדיסקים מסוג CD, CD-R ו-CD-RW.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להזרים מוזיקה מהטלפון?",
+    "a": "כן, המערכת תומכת ב-Bluetooth, AirPlay ו-DLNA.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר נגן חיצוני בכבל?",
+    "a": "כן, יש במערכת כניסת AUX.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Panasonic SC-NE5",
+   "SC-NE5",
+   "מערכת סטריאו פנסוניק",
+   "מערכת סטריאו עם נגן CD",
+   "מערכת סטריאו אלחוטית",
+   "מערכת סטריאו AirPlay",
+   "מערכת שמע Bluetooth עם CD"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק יציאה",
+   "catalogValue": "40W RMS",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "הספק יציאה (20W לכל ערוץ)",
+   "catalogValue": "20W לכל ערוץ, 1kHz, 6ohms, 10% THD",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "וופר",
+   "catalogValue": "8 ס\"מ (קונוס במבוק)",
+   "finding": "contradicted",
+   "correctValue": "3 אינץ׳",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טוויטר",
+   "catalogValue": "2.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תמיכה בדיסקים",
+   "catalogValue": "CD, CD-R/-RW, CD-DA, MP3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רדיו",
+   "catalogValue": "טיונר FM עם זיכרון ל-30 תחנות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "AirPlay",
+   "catalogValue": "AirPlay",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "DLNA",
+   "catalogValue": "DLNA",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "USB",
+   "catalogValue": "כניסת USB",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "AUX",
+   "catalogValue": "כניסת AUX (3.5 מ\"מ)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ספק כוח",
+   "catalogValue": "AC 110-240V, 50/60Hz",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבעים",
+   "catalogValue": "שחור, אפור/כסף",
+   "finding": "corrected",
+   "correctValue": "שחור, אפור",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות יחידת רמקול",
+   "catalogValue": "570 x 206 x 100 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל יחידת רמקול",
+   "catalogValue": "2.8 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות יחידת עגינה/CD",
+   "catalogValue": "192 x 206 x 93 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל יחידת עגינה/CD",
+   "catalogValue": "0.9 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "יחידת רמקול 14W, יחידת עגינה 23W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אקוולייזר",
+   "catalogValue": "מצבים מוגדרים מראש (Heavy, Clear, Soft, Vocal, Flat)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model",
+   "issue": "The model launched in 2013 and no current manufacturer page or Israeli importer listing was found. Check whether it is still sold new in Israel.",
+   "severity": "high"
+  },
+  {
+   "field": "וופר",
+   "issue": "The catalog gives an 8 cm woofer. Both review pages give 3-inch woofers (about 7.6 cm), so the catalog figure does not match the sources.",
+   "severity": "high"
+  },
+  {
+   "field": "ספק כוח",
+   "issue": "The manual found in the sources lists AC 120 V, 60 Hz, which is the North American version. The catalog says 110-240V 50/60Hz. Israel uses 230 V 50 Hz, so confirm the Israeli variant's voltage and plug before selling.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "No source with the dimensions or weights of the units was found. The catalog values are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Hebrew listing was found. The Israeli variant is unclear.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "The manufacturer regional spec pages returned 404 and the sources are third-party or review pages in English.",
+   "severity": "medium"
+  },
+  {
+   "field": "וופר",
+   "issue": "Catalog lists an 8 cm woofer; review sources state two 3-inch woofers.",
+   "severity": "high"
+  },
+  {
+   "field": "ספק כוח",
+   "issue": "Sources are US-market; catalog 110-240V 50/60Hz is unverified. Confirm the Israeli variant's voltage and plug.",
+   "severity": "high"
+  },
+  {
+   "field": "model",
+   "issue": "Model launched in 2013; no current manufacturer page or Israeli importer found. Check it is not discontinued.",
+   "severity": "high"
+  },
+  {
+   "field": "USB",
+   "issue": "Review says USB connects 30-pin iOS devices while catalog mentions Lightning compatibility.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "Dimensions, weights and power consumption in the catalog are unverified.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Reworded USB value to describe the port; relabelled FM presets as radio presets (quote does not say FM); woofer label made plural; CD feature reworded since the quote does not mention the dock unit. Catalog woofer (8 cm) and power supply (110-240V) are not supported by sources; dimensions/weights unverified. | code guard removed: fact 10 QA value \"2 × 3 אינץ׳\" not supported by quotes; kept \"3 אינץ׳\"; summary: \"Panasonic SC-NE5 היא מערכת סטריאו אלחוטית עם נגן CD, בהספק RMS כולל של 40 W.\"; faq: \"מה ההספק של המערכת?\"; metaDescription: \"מערכת סטריאו אלחוטית Panasonic SC-NE5 עם נגן CD, הספק 40 W RMS והזרמה ב-Bluetooth ו-AirPlay. מפרט ושאלות נפוצות בחדד אלקטריק נהריה\"; highlight: \"הספק RMS כולל של 40 W\"; highlight: \"30 תחנות רדיו שמורות\""
+ }
+}

@@ -1,0 +1,632 @@
+{
+ "modelNumber": "SOLO INV 140NG",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Tadiran",
+  "exactModel": "SOLO INV 140NG",
+  "israeliImporter": "Tadiran",
+  "matchConfidence": "high",
+  "notes": "Listings on two Israeli shops (BetterSHOP, Azuri) name the exact model and show Tadiran as official importer. Some listings are labelled 2023, 2024 or 2025 under the same name; specs quoted here are from the 2023-labelled Azuri listing and the BetterSHOP listing. | QA: Both Israeli shop pages name SOLO INV 140NG, 1 hp wall-mounted Tadiran inverter; specs match the catalog. Model-year labelling (2023/2024/2025) varies across listings."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bettershop.co.il/product/tadiran_solo_inverter_140ng/",
+   "publisher": "BetterSHOP",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.azuri.co.il/items/6207269--%D7%9E%D7%96%D7%92%D7%9F-%D7%A2%D7%99%D7%9C%D7%99-Solo-Inv-140NG-%D7%A9%D7%A0%D7%AA-2023-Tadiran-1-0-%D7%9B-%D7%A1-%D7%AA%D7%93%D7%99%D7%A8%D7%90%D7%9F",
+   "publisher": "Azuri",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מזגן",
+     "value": "מזגן עילי, 1 כ״ס"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיה",
+     "value": "אינוורטר (Inverter)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת קירור נומינלית",
+     "value": "8530 BTU/h"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת חימום נומינלית",
+     "value": "9550 BTU/h"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק קירור נומינלי",
+     "value": "2500 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק חימום נומינלי",
+     "value": "2800 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זרם עבודה בקירור (נומינלי)",
+     "value": "3.55 A"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זרם עבודה בחימום (מינימום-מקסימום)",
+     "value": "1.51-7.5 A"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ספיקת אוויר (יחידה פנימית, גבוהה)",
+     "value": "320 CFM"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (קירור)",
+     "value": "A++"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (חימום)",
+     "value": "A+"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח הזנה",
+     "value": "230 V / 50 Hz / 1 Ph"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote reads 10C",
+     "label": "נתיך (פיוז)",
+     "value": "10 A (C)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר צנרת בין היחידות",
+     "value": "1/4 - 3/8 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כבל חיבור בין היחידות",
+     "value": "4 × 1.5 ממ״ר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source header order inconsistent; physical reading matches catalog",
+     "label": "מידות יחידה פנימית (רוחב × גובה × עומק)",
+     "value": "770 × 251 × 190 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות יחידה חיצונית (רוחב × גובה × עומק)",
+     "value": "732 × 555 × 330 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Researcher reports Azuri states one year; conflicting retailer claims",
+     "label": "תקופת אחריות",
+     "value": "5 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה מרחוק באמצעות Wi-Fi מובנה מהטלפון החכם"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "7 מהירויות מפוח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי עצמי של הסוללה למניעת עובש וריחות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיהור אוויר עם נורת לד ופילטר PM2.5"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר X4 להפעלה והפסקה אוטומטית בעד ארבעה פרקי זמן ב-24 שעות"
+  },
+  {
+   "sources": [
+    "s1",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית שבת והתקן כשרות באישור משמרת השבת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי הידרופילי ביחידה הפנימית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "תדיראן סולו אינוורטר SOLO INV 140NG הוא מזגן עילי בהספק 1 כ״ס בטכנולוגיית אינוורטר, עם תפוקת קירור נומינלית של 8530 BTU/h ותפוקת חימום של 9550 BTU/h. דירוג האנרגיה בקירור הוא A++ ובחימום A+, והמזגן כולל Wi-Fi מובנה, 7 מהירויות מפוח ופונקציית שבת. מתאים לחדר שינה, חדר ילדים או חדר עבודה.",
+  "highlights": [
+   "אינוורטר, 1 כ״ס",
+   "קירור 8530 BTU/h, חימום 9550 BTU/h",
+   "דירוג אנרגטי A++ בקירור ו-A+ בחימום",
+   "Wi-Fi מובנה לשליטה מהטלפון",
+   "פונקציית שבת והתקן כשרות"
+  ],
+  "goodFor": [
+   "חדר שינה או חדר ילדים שזקוקים לקירור וחימום",
+   "בית שומר שבת, בזכות פונקציית שבת והתקן כשרות",
+   "מי שרוצה להפעיל את המזגן מהטלפון לפני שמגיעים הביתה",
+   "מי שמחפש מזגן חסכוני עם דירוג A++ בקירור"
+  ],
+  "considerations": [
+   "ודאו שיש על הקיר רוחב פנוי של 770 מ״מ לפחות ליחידה הפנימית",
+   "בדקו מקום ליחידה החיצונית במידות 732 × 555 × 330 מ״מ",
+   "המזגן דורש הזנה של 230 V ונתיך 10 A (C) — מומלץ לבדוק עם חשמלאי",
+   "ההתקנה כוללת צנרת 1/4 - 3/8 אינץ׳ וכבל 4 × 1.5 ממ״ר בין היחידות"
+  ],
+  "faq": [
+   {
+    "q": "האם המזגן גם מחמם?",
+    "a": "כן, תפוקת החימום הנומינלית היא 9550 BTU/h, עם דירוג אנרגטי A+ בחימום.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט במזגן מהטלפון?",
+    "a": "כן, למזגן Wi-Fi מובנה לשליטה מרחוק באמצעות טלפון חכם.",
+    "sources": []
+   },
+   {
+    "q": "האם המזגן מתאים לשבת?",
+    "a": "כן, יש לו פונקציית שבת והתקן כשרות באישור משמרת השבת.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של היחידה הפנימית?",
+    "a": "770 × 251 × 190 מ״מ (רוחב × גובה × עומק).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן עילי תדיראן סולו אינוורטר SOLO INV 140NG, 1 כ״ס: קירור 8530 BTU/h, דירוג A++ ו-Wi-Fi מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תדיראן סולו אינוורטר",
+   "SOLO INV 140NG",
+   "מזגן תדיראן 1 כוח סוס",
+   "מזגן עילי 1 כ״ס",
+   "מזגן אינוורטר תדיראן",
+   "תדיראן סולו 140NG",
+   "מזגן עם WiFi",
+   "מזגן לחדר שינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "דגם",
+   "catalogValue": "SOLO INV 140NG",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "אינוורטר (Inverter)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת קירור נומינלית",
+   "catalogValue": "8,530 BTU/h (טווח 2,400-10,230)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תפוקת חימום נומינלית",
+   "catalogValue": "9,550 BTU/h (טווח 2,400-12,960)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק קירור",
+   "catalogValue": "2,500W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק חימום",
+   "catalogValue": "2,800W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A++",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בקירור (SEER)",
+   "catalogValue": "6.8",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בחימום (SCOP)",
+   "catalogValue": "4.1",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זרם עבודה בקירור",
+   "catalogValue": "3.55A (טווח 1.42-6)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זרם עבודה בחימום",
+   "catalogValue": "3.79A (טווח 1.51-7.5)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח זינה",
+   "catalogValue": "230V/50Hz/1Ph",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נתיך (פיוז)",
+   "catalogValue": "10C",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות יחידה פנימית (עומק/גובה/רוחב)",
+   "catalogValue": "190x251x770 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל יחידה פנימית",
+   "catalogValue": "8.5 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות יחידה חיצונית (עומק/גובה/רוחב)",
+   "catalogValue": "330x555x732 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל יחידה חיצונית",
+   "catalogValue": "24 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר צנרת",
+   "catalogValue": "1/4-3/8 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ספיקת אוויר יחידה פנימית",
+   "catalogValue": "320 CFM",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג קרר",
+   "catalogValue": "R32/R410A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שליטה מרחוק WiFi",
+   "catalogValue": "WiFi מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "7 מהירויות מפוח",
+   "catalogValue": "7 Fan Speeds",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוי עצמי",
+   "catalogValue": "Self Clean",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית שבת וכשרות",
+   "catalogValue": "Shabbat and kashrut",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסנן PM2.5",
+   "catalogValue": "PM2.5 filter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי הידרופילי",
+   "catalogValue": "Hydrophilic coating",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Cold Plasma",
+   "catalogValue": "Cold Plasma air purification",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Self Dry / I Feel / 4D / Sleep / Auto Restart",
+   "catalogValue": "Self Dry, I Feel, 4D air distribution, Sleep mode, Auto change-over, Auto Restart",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5 שנים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "TIMER X4: עד ארבע פרקי זמן ב-24 שעות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "Sources conflict on warranty length: BetterSHOP states 5 years by Tadiran, while the Azuri listing states one year (שנה אחריות). Confirm with Tadiran before publishing a warranty claim.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_year",
+   "issue": "Shop listings show this name under several model years (2023, 2024, 2025). Spec sheets are not identical across every listing's labelling, so confirm the current production version and its specs with Tadiran.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "The retailer spec labels read depth/height/width, but the numbers list 770 first. The store catalog (190x251x770 read as depth/height/width) matches the physical reading of width 770, height 251, depth 190, and the row was written as width × height × depth on that basis.",
+   "severity": "low"
+  },
+  {
+   "field": "noise",
+   "issue": "No noise level (dB) for this model was found on the pages checked. The noise group is empty.",
+   "severity": "low"
+  },
+  {
+   "field": "seer_scop",
+   "issue": "SEER 6.8 and SCOP 4.1 appear only in a table on one shop page and are not quoted as facts; the catalog values were checked against that table only.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "BetterSHOP states 5 years by Tadiran while Azuri reportedly states one year; warranty not published until confirmed with Tadiran.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_year",
+   "issue": "Listings use this name for several model years (2023, 2024, 2025); confirm specs match the current production version.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Source header says depth/height/width but lists 770 first; published as width × height × depth per physical reading and catalog.",
+   "severity": "low"
+  },
+  {
+   "field": "catalog",
+   "issue": "Catalog lists refrigerant R32/R410A, Cold Plasma, I Feel, 4D and other functions not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 17): BetterSHOP states 5 years but the researcher reports the Azuri listing states one year; not publishable until confirmed. Fuse value written as 10 A (C curve) to match the quote 10C. All other facts and features kept from il-retailer pages naming the exact model."
+ }
+}

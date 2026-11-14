@@ -1,0 +1,478 @@
+{
+ "modelNumber": "KGG6437K",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "KGG6437K",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "high",
+  "notes": "הנתונים מדפי קמעונאים ישראליים שמציינים את הדגם במפורש. לא נמצא דף יצרן, יבואן או מדריך למשתמש שנשלף. | QA: Three Israeli retailer pages name KGG6437K explicitly; no manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/electrolux-kgg6437k-%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-60-%D7%A1%D7%9E-4-%D7%9C%D7%94%D7%91%D7%95%D7%AA-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A9%D7%97%D7%95%D7%A8%D7%94-%D7%90%D7%9C",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/כיריים-גז-זכוכית-4-מבערים-electrolux-947235246",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/מוצרים/כיריים-גז-אלקטרולוקס-⁦kgg6437k⁩-זכוכית-שחור/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "כיריים גז 60 ס״מ, 4 להבות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משטח",
+     "value": "זכוכית שחורה מחוסמת"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "חשמלית מובנית, דרך כפתור הבורר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תושבות לסירים",
+     "value": "2 תושבות ברזל יצוק"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גז מרבי",
+     "value": "8350 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער ווק טורבו (קדמי שמאלי)",
+     "value": "3550 W / 122 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער מהיר למחצה (אחורי שמאלי)",
+     "value": "1900 W / 70 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער עזר (קדמי ימני)",
+     "value": "1000 W / 54 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער מהיר למחצה (אחורי ימני)",
+     "value": "1900 W / 70 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות חיצוניות (רוחב × עומק)",
+     "value": "590 × 520 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source header order does not match numbers; dimensions named explicitly, consistent with catalog.",
+     "label": "מידות חיתוך להתקנה",
+     "value": "רוחב 560 מ״מ, עומק 480 מ״מ, גובה 45 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ניתוק גז אוטומטי",
+     "value": "ניתוק גז אוטומטי בכיבוי להבה (Flame Failure)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנה, ע״י מיני ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מבערי Speed Burner, יעילים ב-20% לעומת מבער סטנדרטי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בוררי גז עם 9 דרגות עוצמת אש לכל להבה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כפתורי בורר מסתובבים כסופים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "משטח זכוכית מחוסמת קל לניקוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ההתקנה מחייבת טכנאי גז מוסמך לפי החוק (בתשלום)"
+  }
+ ],
+ "content": {
+  "summary": "כיריים גז Electrolux KGG6437K ברוחב 60 ס״מ עם 4 מבערים על משטח זכוכית שחורה מחוסמת. מבער ווק טורבו קדמי של 3550 W והספק גז מרבי של 8350 W, עם ניתוק גז אוטומטי בכיבוי להבה. מתאימות למטבח ביתי שמחפש כיריים זכוכית עם מבער ווק חזק להקפצה וטיגון.",
+  "highlights": [
+   "מבער ווק טורבו 3550 W בקוטר 122 מ״מ",
+   "הספק גז מרבי 8350 W",
+   "משטח זכוכית שחורה מחוסמת קל לניקוי",
+   "ניתוק גז אוטומטי בכיבוי להבה (Flame Failure)",
+   "הצתה חשמלית מובנית בכפתור הבורר"
+  ],
+  "goodFor": [
+   "בישול בווק והקפצה בזכות מבער טורבו של 3550 W",
+   "מטבחים עם נישת כיריים סטנדרטית ברוחב 60 ס״מ",
+   "מי שמעדיף משטח זכוכית שקל לנגב",
+   "בישול במקביל על 4 מבערים בגדלים שונים"
+  ],
+  "considerations": [
+   "לוודא חיתוך במשטח העבודה ברוחב 560 מ״מ ועומק 480 מ״מ, וגובה פנוי של 45 מ״מ",
+   "ההתקנה מחייבת טכנאי גז מוסמך לפי החוק, בתשלום",
+   "ההצתה חשמלית, ולכן כדאי לוודא נקודת חשמל זמינה ליד הכיריים",
+   "התושבות הן 2 תושבות ברזל יצוק ולא תושבת נפרדת לכל מבער"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של מבער הווק?",
+    "a": "מבער הווק טורבו הקדמי השמאלי מספק 3550 W בקוטר 122 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות חיתוך נדרשות להתקנה?",
+    "a": "רוחב 560 מ״מ, עומק 480 מ״מ וגובה 45 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש ניתוק גז אוטומטי?",
+    "a": "כן, מנגנון Flame Failure מנתק את הגז כשהלהבה כבה.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות על הכיריים?",
+    "a": "אחריות לשנה ע״י מיני ליין.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות החיצוניות?",
+    "a": "590 × 520 מ״מ (רוחב × עומק).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Electrolux KGG6437K זכוכית שחורה, 4 מבערים עם מבער ווק טורבו 3550 W והספק מרבי 8350 W. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז אלקטרולוקס",
+   "Electrolux KGG6437K",
+   "KGG6437K",
+   "כיריים גז זכוכית שחורה",
+   "כיריים גז 60 ס״מ",
+   "כיריים עם מבער ווק",
+   "כיריים גז 4 מבערים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבער ווק טורבו (קדמי שמאלי)",
+   "catalogValue": "3550 ואט / 122 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבער חצי מהיר (אחורי שמאלי)",
+   "catalogValue": "1900 ואט / 70 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער חיצוני (קדמי ימני)",
+   "catalogValue": "1000 ואט / 54 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גז מרבי",
+   "catalogValue": "8350 ואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 59 ס\"מ, עומק 52 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות גומחה",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 48 ס\"מ, גובה מינימלי 4.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר המשטח",
+   "catalogValue": "זכוכית מחוסמת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תושבות",
+   "catalogValue": "ברזל יצוק",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג הצתה",
+   "catalogValue": "אלקטרונית מובנית בכפתורי ההפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מיקום כפתורי הפעלה",
+   "catalogValue": "חזית הכיריים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "כ-13.1 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "איטליה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גז",
+   "catalogValue": "גז טבעי (G20) עם אפשרות הסבה לגז פחמימני מעובה (LPG)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, ע״י מיני ליין (יבואן רשמי)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "התקנה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "נדרש טכנאי גז מוסמך לפי החוק, בתשלום",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל נטו",
+   "issue": "משקל הכיריים לא נמצא באף דף שנפתח. הערך בקטלוג לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "ארץ הייצור (איטליה) לא נמצאה בדפים שנפתחו. יש לאמת מול המוצר או תעודת האחריות.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "הקמעונאים מסמנים את המידות החיצוניות בצורה לא אחידה (ע x ר). דף BUG מציין רוחב 59 ס״מ ואורך 52 ס״מ, ולכן הערך נרשם כרוחב × עומק.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "כל המקורות הם קמעונאים ישראליים. לא נשלף דף יצרן, יבואן או מדריך למשתמש עבור הדגם המדויק.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "כל המקורות הם קמעונאים ישראליים; לא נמצא דף יצרן או מדריך לדגם.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נטו / מדינת ייצור / סוג גז",
+   "issue": "ערכי הקטלוג (13.1 ק״ג, איטליה, G20/LPG) לא אומתו באף מקור.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled niche cut-out dimensions to name each dimension explicitly (source column order ע×ר×ג does not match the numbers). Source kinds unchanged."
+ }
+}

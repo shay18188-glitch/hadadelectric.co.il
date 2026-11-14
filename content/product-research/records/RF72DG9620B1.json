@@ -1,0 +1,454 @@
+{
+ "modelNumber": "RF72DG9620B1",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RF72DG9620B1",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "medium",
+  "notes": "דף Samsung ישראל נושא את שם הדגם המדויק בכותרת, אך טבלת המפרט שבו מציגה נפח נטו של 646 ליטר (396 קירור / 250 הקפאה), בניגוד ל-678 ליטר שבקטלוג ולאתרי הקמעונאים. ראו reviewFlags. | QA: Three Israeli retailers name RF72DG9620B1 directly; the Samsung Israel page carries the model in its title but sits under the RF65DG965EB1ML URL. Importer: Traklin and Citydeal say ניופרו, Bug says not official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-4-דלתות-678-ליטר-samsung-9577524255",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.samsung.com/il/refrigerators/french-door/rf9000d-rf9000dc-t-style-french-door-beverage-center-678l-black-rf65dg965eb1ml/",
+   "publisher": "Samsung ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.citydeal.co.il/product/%d7%9e%d7%a7%d7%a8%d7%a8-4-%d7%93%d7%9c%d7%aa%d7%95%d7%aa-%d7%9e%d7%a7%d7%a4%d7%99%d7%90-%d7%aa%d7%97%d7%aa%d7%95%d7%9f-678-%d7%9c%d7%99%d7%98%d7%a8-samsung-rf72dg9620b1-%d7%a9%d7%97%d7%95%d7%a8",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקררים/מקרר_4_דלתות_עם_קיוסק_samsung_דגם_rf72dg9620b1_שחור_סמסונג",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "91 × 183 × 73 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק גוף (ללא דלתות)",
+     "value": "61.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "147 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer figure; manufacturer page lists 646 L net - likely gross vs net, flagged.",
+     "label": "נפח כולל",
+     "value": "678 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "See volume flag.",
+     "label": "נפח תא קירור",
+     "value": "414 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "See volume flag.",
+     "label": "נפח תא הקפאה",
+     "value": "264 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "368 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "37 dB"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות מדחס",
+     "value": "10 שנים"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Per Traklin.",
+     "label": "אחריות יבואן",
+     "value": "שנה (ניופרו)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מדחס אינוורטר דיגיטלי עם 10 שנות אחריות על המדחס"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת Beverage Center מוסתרת עם מתקן מים וקרח"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קירור משולש Triple&Metal Cooling עם 3 מאיידים ו-3 מאווררים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא Cool Select+ Room עם 5 מצבי טמפרטורה שניתן להפוך ממקפיא למקרר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית Silver Nano נגד בקטריות וריחות לא נעימים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב שבת מהדרין מובנה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתקן קרח אוטומטי כפול לקוביות קרח וכדורי ויסקי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נדרש מעבר דלת מינימלי של 63 ס״מ להכנסת המקרר"
+  }
+ ],
+ "content": {
+  "summary": "הדגם כולל מערכת Beverage Center מוסתרת עם מתקן מים וקרח, מתקן קרח אוטומטי כפול ותא Cool Select+ Room עם 5 מצבי טמפרטורה. מתאים למשפחה שמחפשת מקרר גדול עם מצב שבת מהדרין מובנה ומדחס אינוורטר דיגיטלי עם 10 שנות אחריות.",
+  "highlights": [
+   "נפח כולל 678 ליטר: 414 ליטר קירור ו-264 ליטר הקפאה",
+   "מערכת Beverage Center מוסתרת עם מתקן מים וקרח",
+   "תא Cool Select+ Room עם 5 מצבי טמפרטורה",
+   "מצב שבת מהדרין מובנה",
+   "מדחס אינוורטר דיגיטלי עם 10 שנות אחריות על המדחס"
+  ],
+  "goodFor": [
+   "משפחה גדולה שזקוקה לנפח קירור והקפאה גדול",
+   "בית שומר שבת שמעוניין במצב שבת מהדרין מובנה",
+   "מי שרוצה מים וקרח מהמקרר בלי מתקן חיצוני על הדלת",
+   "מי שמחפש גמישות בתא שניתן להפוך ממקפיא למקרר"
+  ],
+  "considerations": [
+   "מידות המקרר 91 × 183 × 73 ס״מ ועומק הגוף ללא דלתות 61.5 ס״מ - כדאי למדוד את הנישה במטבח",
+   "נדרש מעבר דלת מינימלי של 63 ס״מ להכנסת המקרר לבית",
+   "משקל המקרר 147 ק״ג - כדאי לתכנן את ההובלה וההכנסה מראש",
+   "צריכת האנרגיה השנתית היא 368 קוט״ש"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 678 ליטר: 414 ליטר בתא הקירור ו-264 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, למקרר מצב שבת מהדרין מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה רוחב פתח הדלת הנדרש להכנסת המקרר?",
+    "a": "נדרש מעבר דלת מינימלי של 63 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המקרר?",
+    "a": "רמת הרעש של המקרר היא 37 dB.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המדחס?",
+    "a": "המדחס האינוורטר הדיגיטלי מגיע עם 10 שנות אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מקרר 4 דלתות סמסונג",
+   "RF72DG9620B1",
+   "מקרר סמסונג 678 ליטר",
+   "מקרר עם קיוסק מים",
+   "מקרר סמסונג שחור",
+   "מקרר מקפיא תחתון סמסונג",
+   "מקרר עם מצב שבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Samsung",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח כולל",
+   "catalogValue": "678 ליטר",
+   "finding": "contradicted",
+   "correctValue": "646 ליטר נטו (396 קירור / 250 הקפאה) לפי היצרן",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 183 ס\"מ, רוחב 91.2 ס\"מ, עומק 72.3 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "147 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "368 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "37dB",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור מט",
+   "finding": "corrected",
+   "correctValue": "שחור פחם",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Beverage Center / קיוסק מים",
+   "catalogValue": "קיוסק מים פנימי וקנקן AutoFill 1.4 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס Digital Inverter",
+   "catalogValue": "מדחס Digital Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Silver Nano",
+   "catalogValue": "טכנולוגיית Silver Nano להשמדת בקטריות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Cool Select+ Room",
+   "catalogValue": "5 מצבי טמפרטורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SmartThings",
+   "catalogValue": "תמיכה באפליקציית SmartThings",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח כולל",
+   "issue": "שם הקטלוג מציין 678 ליטר (414 קירור / 264 הקפאה), וכך מופיע באתרי הקמעונאים Bug ו-Citydeal. דף Samsung ישראל לדגם, שכותרתו נושאת את RF72DG9620B1, מציג נפח נטו 646 ליטר (396 קירור / 250 הקפאה), וכך גם Traklin. הדף של Samsung נמצא תחת כתובת של דגם אחר (RF65DG965EB1ML). יש לאמת מול הדגם הפיזי או תווית האנרגיה לפני שמות המוצר מתפרסמים.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Bug מציין 'יבואן רשמי: לא', בעוד Citydeal ו-Traklin מציינים את ניופרו כיבואן הרשמי. יש לוודא את היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "Citydeal מציין בטבלה 'צבע: SR פלטינום סטיל מוברש' בזמן שהוא מציין שחור פחם בכותרת. Samsung מציין שחור פחם. צבע הדגם השחור מאומת, הצבע הפלטינום לא.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח כולל",
+   "issue": "Bug ו-Citydeal מציינים 678 ליטר (414 קירור / 264 הקפאה), אך דף Samsung ישראל (תחת כתובת של RF65DG965EB1ML) ו-Traklin מציינים 646 ליטר נטו (396 / 250). כנראה ברוטו מול נטו - יש לאמת מול תווית האנרגיה.",
+   "severity": "high"
+  },
+  {
+   "field": "זהות מקור היצרן",
+   "issue": "דף היצרן נמצא תחת כתובת של דגם אחר (RF65DG965EB1ML) למרות שכותרתו נושאת RF72DG9620B1; משקל ורעש נלקחו ממנו.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Bug מציין שאינו יבואן רשמי, בעוד Citydeal ו-Traklin מציינים את ניופרו. יש לוודא.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "Samsung מציין שחור פחם בעוד הקטלוג מציין שחור מט; Citydeal מציג בטבלה צבע פלטינום סטיל מוברש. יש לוודא את הצבע.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept; volume figures 678/414/264 come from Israeli retailers while the Samsung Israel page (under a sibling-model URL RF65DG965EB1ML) lists 646 L net (396/250), most likely net vs gross. Flagged for human check. Samsung source page is under a different model URL, so identity set to medium. | code guard removed: summary: \"מקרר 4 דלתות של Samsung עם מקפיא תחתון ונפח כולל של 678 ליטר, מתוכם 414 ליטר תא קירור ו-264 ליטר תא הקפאה.\"; metaDescription: \"מקרר 4 דלתות Samsung RF72DG9620B1 בנפח 678 ליטר עם מתקן מים וקרח מוסתר ומצב שבת מהדרין מובנה. בחדד אלקטריק נהריה\""
+ }
+}

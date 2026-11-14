@@ -1,0 +1,448 @@
+{
+ "modelNumber": "TB303 DETECT",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "TB303 DETECT",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "Exact model TB303 Detect named by BUG, Zabilo and La2ta (Israeli retailers). No manufacturer page found; ninjakitchen.com search has no TB303. La2ta lists width 18 and depth 23 cm, conflicting with BUG and Zabilo (21 x 21); the latter two agree. | QA: BUG and Zabilo (Israeli retailers) name Ninja TB303 Detect; Zabilo mentions the official importer Sarig. No manufacturer page available."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/בלנדר-שייקר-עוצמתי-ninja-90622589015",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/blenders/11729-ninja-tb303-detect.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://la2ta.com/index.php?route=product%2Fproduct&language=en-gb&product_id=49184",
+   "publisher": "La2ta",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "1200 W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source is La2ta page that does not name the model; quote checks: ok",
+     "label": "מהירויות",
+     "value": "3 מהירויות (נמוכה, בינונית, גבוהה) וטיימר דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל הבלנדר",
+     "value": "2.1 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כוסות שייקר",
+     "value": "2 כוסות בנפח 680 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "BUG quote; La2ta (not naming model) lists different width/depth",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "21 × 44 × 21 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחריות מלאה + 2 שנות אחריות נוספות מוגבלות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חלקי הבלנדר",
+     "value": "BPA Free, ניתנים לשטיפה במדיח"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source is La2ta page that does not name the model; quote also lacks Thick Mode/Blending; quote checks: ok",
+     "label": "תוכניות",
+     "value": "Mince, Small Chop, Large Chop, Crush, Max Crush, Thick Mode, Blending"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית BlendSense שמתאימה אוטומטית את המהירות והזמן לקבלת מרקם חלק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Torque Detect: זיהוי מרכיבים טריים או קפואים והגברת העוצמה אוטומטית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Ice Detect: זיהוי כמות הקרח והתאמת ההכנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Portion Detect: זיהוי כמות המרכיבים והתאמת הזמן והמהירות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Liquid Detect: התראה כשצריך להוסיף נוזלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכלול להבי Total Crushing לריסוק קרח ופירות קפואים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכלול להבי Hybrid Edge לערבול וריסוק קרח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה בלנדר עם פיית מזיגה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only La2ta, page does not name the model",
+   "text": "צג דיגיטלי עם טבעת LED צבעונית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only La2ta, page does not name the model",
+   "text": "מצב Thick Mode למרקמים סמיכים הניתנים לאכילה בכפית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיכל בלנדר בנפח 2.1 ליטר עם מכסה ופיית מזיגה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 כוסות שייקר בנפח 680 מ״ל עם מכסה לגימה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חוברת הוראות הפעלה בעברית"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ninja TB303 Detect הוא בלנדר ושייקר עם מנוע 1200 W, מיכל בנפח 2.1 ליטר ו-2 כוסות שייקר בנפח 680 מ״ל. טכנולוגיית BlendSense ופונקציות הזיהוי מתאימות את המהירות והזמן לפי המרכיבים, ומכלול להבי Total Crushing מיועד לריסוק קרח ופירות קפואים. מתאים למי שמכין גם שייקים אישיים לדרך וגם כמויות גדולות יותר במיכל.",
+  "highlights": [
+   "מנוע 1200 W",
+   "מיכל בלנדר 2.1 ליטר עם פיית מזיגה",
+   "2 כוסות שייקר 680 מ״ל עם מכסה לגימה",
+   "BlendSense עם Torque Detect, Ice Detect, Portion Detect ו-Liquid Detect",
+   "חלקים BPA Free הניתנים לשטיפה במדיח"
+  ],
+  "goodFor": [
+   "הכנת שייקים אישיים בכוס שייקר ולקיחתם לדרך",
+   "ריסוק קרח ופירות קפואים לשייקים ומשקאות קרים",
+   "מי שמעדיף שהבלנדר יתאים את המהירות והזמן אוטומטית",
+   "הכנת כמות גדולה יותר במיכל ומזיגה נוחה"
+  ],
+  "considerations": [
+   "בדקו שיש מקום על השיש ומתחת לארונות העליונים לגובה של 44 ס״מ",
+   "המכשיר תופס שטח של 21 × 21 ס״מ על השיש",
+   "Liquid Detect מתריע כשחסרים נוזלים, כך שמתכונים סמיכים עשויים לדרוש הוספת נוזל"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Ninja TB303 Detect?",
+    "a": "למנוע הספק של 1200 W.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "מיכל בלנדר בנפח 2.1 ליטר עם מכסה ופיית מזיגה, 2 כוסות שייקר בנפח 680 מ״ל עם מכסה לגימה וחוברת הוראות בעברית.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את החלקים במדיח?",
+    "a": "כן, המיכלים, המכסים והלהבים ניתנים לשטיפה במדיח והם BPA Free.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחריות מלאה ועוד 2 שנות אחריות נוספות מוגבלות, בכפוף לתקנון.",
+    "sources": []
+   },
+   {
+    "q": "האם הבלנדר מרסק קרח?",
+    "a": "כן, מכלול להבי Total Crushing מיועד לריסוק קרח ופירות קפואים, ו-Ice Detect מזהה את כמות הקרח.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר ושייקר Ninja TB303 Detect עם מנוע 1200 W, מיכל 2.1 ליטר ו-2 כוסות שייקר 680 מ״ל וטכנולוגיית BlendSense. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Ninja TB303 Detect",
+   "בלנדר נינג'ה",
+   "בלנדר שייקר Ninja",
+   "TB303",
+   "בלנדר 1200 וואט",
+   "בלנדר עם כוסות שייקר",
+   "Ninja Detect בלנדר",
+   "בלנדר לריסוק קרח"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "1200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מכל עיקרי",
+   "catalogValue": "2.1 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת ערבול מקסימלית",
+   "catalogValue": "1.9 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "2 כוסות שייקר בנפח 680 מ\"ל עם מכסי לגימה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "מכלול להבי Total Crushing ומכלול להבי Hybrid Edge",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 44 ס\"מ, רוחב 21 ס\"מ, עומק 21 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "3 מהירויות הפעלה ידניות (נמוכה, בינונית, גבוהה)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "צג דיגיטלי מתקדם עם טיימר וטבעת LED צבעונית",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "בטיחות",
+   "catalogValue": "חלקי הפלסטיק BPA Free וניתנים לשטיפה במדיח",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית BlendSense",
+   "catalogValue": "מערכת חכמה המזהה סוג ומרקם הרכיבים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות עבודה",
+   "catalogValue": "כתישת קרח (Crush/Max Crush), מצב סמיך (Thick Mode), תוכניות קיצוץ (Mince, Small/Large Chop)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "No manufacturer/importer page found; three Israeli retailers (BUG, Zabilo, La2ta) name TB303 Detect.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת ערבול מקסימלית",
+   "issue": "The catalog's maximum blending capacity of 1.9 liters appears on no page read.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "La2ta lists 18 W x 23 D cm, conflicting with BUG and Zabilo (21 x 21).",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer or importer page; identity rests on Israeli retailers BUG and Zabilo.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog's 1.9 liter max blending capacity, 3 manual speeds, LED ring display and program list were not verified on a page naming the model.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "La2ta lists different width/depth (18 × 23 cm) than BUG and Zabilo (21 × 21 cm).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 (speeds) and fact 7 (programs), and features 8 (LED ring display) and 9 (Thick Mode): their only evidence is La2ta, whose page does not name the model. La2ta reclassified as retailer. Kept facts and features are backed by BUG and Zabilo pages naming TB303 Detect. Dimensions kept from BUG (21 × 44 × 21 cm)."
+ }
+}

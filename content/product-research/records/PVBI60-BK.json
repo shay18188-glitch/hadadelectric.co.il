@@ -1,0 +1,346 @@
+{
+ "modelNumber": "PVBI60-BK",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PVBI60-BK",
+  "israeliImporter": "אמטל",
+  "matchConfidence": "high",
+  "notes": "מקור יחיד: עמוד באג (קמעונאי ישראלי) לדגם המדויק. | QA: Bug page names PVBI60-BK; black glass door and 60 L capacity match the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/תנור-בנוי-60-ליטר-proview-92934524251",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "60 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "2700W-3220W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גוף חימום עליון פנימי",
+     "value": "1900 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גוף חימום עליון חיצוני",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "50-250°C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח וספק כוח",
+     "value": "220-240V/50Hz"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "59.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "59.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "49.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog lists 26-30.12 kg range",
+     "label": "משקל",
+     "value": "26 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "58.9 × 56 × 55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תא פנימי",
+     "value": "אמייל שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דלת",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת האחריות של אמטל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "איוורור פנימי ותאורה פנימית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגש ורשת"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "ProView PVBI60-BK הוא תנור בנוי מכני בנפח 60 ליטר, עם דלת זכוכית שחורה ותא פנימי מאמייל שחור. התנור מתאים לנישה במידות 58.9 × 56 × 55 ס״מ ומגיע לטווח טמפרטורה של 50-250°C. מתאים למי שמחפש תנור בנוי בסיסי עם שליטה מכנית פשוטה ואחריות יבואן של אמטל.",
+  "highlights": [
+   "נפח 60 ליטר",
+   "טווח טמפרטורה 50-250°C",
+   "הספק מרבי 2700W-3220W",
+   "תא פנימי מאמייל שחור",
+   "כולל מגש ורשת"
+  ],
+  "goodFor": [
+   "החלפת תנור בנוי קיים בנישה סטנדרטית ברוחב 60 ס״מ",
+   "מטבח בעיצוב כהה שמתאים לדלת זכוכית שחורה",
+   "מי שמעדיף שליטה מכנית פשוטה על פני תצוגה דיגיטלית"
+  ],
+  "considerations": [
+   "יש לוודא שמידות הנישה הן לפחות 58.9 × 56 × 55 ס״מ",
+   "ההספק המרבי מגיע ל-3220W, כדאי לוודא שקע ומעגל חשמל מתאימים",
+   "משקל התנור 26 ק״ג, ולכן ההתקנה בנישה דורשת שני אנשים",
+   "האחריות לשנה בכפוף לתעודת האחריות של אמטל"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח התנור הוא 60 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "מידות הנישה הן 58.9 ס״מ רוחב, 56 ס״מ גובה ו-55 ס״מ עומק.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורה של התנור?",
+    "a": "התנור פועל בטווח של 50-250°C.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "התנור מגיע עם מגש ורשת.",
+    "sources": []
+   },
+   {
+    "q": "מי היבואן ומה האחריות?",
+    "a": "האחריות היא לשנה, בכפוף לתעודת האחריות של אמטל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי מכני ProView PVBI60-BK בנפח 60 ליטר, דלת זכוכית שחורה וטווח טמפרטורה 50-250°C. מתאים לנישה 58.9 × 56 × 55 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור בנוי ProView",
+   "PVBI60-BK",
+   "תנור בנוי 60 ליטר",
+   "תנור בנוי שחור",
+   "תנור בנוי מכני",
+   "פרוויו תנור בנוי",
+   "תנור בנוי אמטל"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "60 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "2700W-3220W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "catalogValue": "50-250 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "59.5x59.5x49.4 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיתוך",
+   "catalogValue": "56x58.9x55 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "26-30.12 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "26 ק\"ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות",
+   "catalogValue": "8 פונקציות בישול",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מקורות",
+   "issue": "מקור יחיד (קמעונאי); לא נמצא עמוד יצרן או יבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל הנתונים ממקור יחיד (קמעונאי ישראלי); לא נמצא עמוד יצרן או יבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין טווח משקל 26-30.12 ק״ג; המקור מציין 26 ק״ג בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "תוכניות",
+   "issue": "8 פונקציות בישול בקטלוג לא אומתו במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from a single Israeli retailer page (Bug) naming the exact model. Catalog net weight range 26-30.12 kg narrowed to 26 kg per source; 8 cooking functions unverifiable and not published."
+ }
+}

@@ -1,0 +1,526 @@
+{
+ "modelNumber": "EEQ47200L",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EEQ47200L",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "מדיח כלים רחב אינטגרלי מלא, 60 ס״מ, 13 מערכות כלים. הדגם מופיע בשם המוצר באתר Electrolux Israel ובדפי הקמעונאים ליאור ובאג. שם היבואן הרשמי לא אומת בדפים שנפתחו. | QA: Model EEQ47200L named on Electrolux Israel search page and on Israeli retailer product pages; full-integrated 60 cm, 13 place settings, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1148570",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%93%D7%99%D7%97-%D7%9B%D7%9C%D7%99%D7%9D-%D7%A8%D7%97%D7%91-%D7%90%D7%99%D7%A0%D7%98%D7%92%D7%A8%D7%9C%D7%99-electrolux-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1-eeq47200l/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.electrolux.co.il/?s=EEQ47200L",
+   "publisher": "Electrolux Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.bug.co.il/מדיח-כלים-אינטגרלי-מלא-electrolux-919345345245",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.6 × 81.8–87.8 × 55 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "converted from mm",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "60 × 82–88 × 57 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכות כלים",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (תקן חדש)",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "catalog says A++",
+     "label": "דירוג אנרגטי (תקן ישן)",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "lior reportedly lists 0.921",
+     "label": "צריכת חשמל למחזור",
+     "value": "0.94 קוט״ש"
+    },
+    {
+     "sources": [
+      "s4",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים בתוכנית Eco",
+     "value": "9.9 ליטר למחזור"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "46 dB"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר פנים המדיח",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אופן התקנה",
+     "value": "אינטגרלי מלא"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מניעת הצפה",
+     "value": "WaterStop"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "AirDry: פתיחה אוטומטית של הדלת בסוף התוכנית לייבוש מהיר וחסכוני"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע אינוורטר שקט וחסכוני"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "SensorControl: מזהה את כמות הכלים ומתאים את צריכת החשמל והמים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Beam on Floor: הקרנת נקודת סטטוס על הרצפה בזמן העבודה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית מהירה של 30 דקות ב-60 מעלות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סלסלה עליונה מתכווננת לגובה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר הפעלה מאוחרת של 1 עד 24 שעות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Machine Care: תוכנית ניקוי עצמי בת 60 דקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פנל הפעלה נסתר כשהדלת סגורה"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "PerfectFit: אפשרות להתקנת דלת צפה עם צוקל נמוך"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "trimmed to the ok quote",
+   "text": "אפשרות לחיבור מים קרים או חמים עד 60°"
+  }
+ ],
+ "content": {
+  "summary": "Electrolux EEQ47200L הוא מדיח כלים רחב אינטגרלי מלא בגודל 13 מערכות כלים, שמותקן בתוך ארון המטבח מאחורי דלת חזית. הוא עובד ברמת רעש של 46 dB, צורך 9.9 ליטר מים למחזור בתוכנית Eco, וכולל AirDry לפתיחת דלת אוטומטית בסוף התוכנית. מתאים למי שמתכנן מטבח עם חזית אחידה ומחפש מדיח שקט.",
+  "highlights": [
+   "13 מערכות כלים",
+   "עוצמת רעש 46 dB",
+   "9.9 ליטר מים למחזור בתוכנית Eco",
+   "AirDry: פתיחה אוטומטית של הדלת בסוף התוכנית",
+   "הגנת WaterStop מפני הצפה"
+  ],
+  "goodFor": [
+   "מטבח שבו רוצים שהמדיח יוסתר מאחורי חזית ארון",
+   "מטבח פתוח לסלון, בזכות רמת רעש של 46 dB",
+   "מי שרוצה להפעיל את המדיח בשעות הלילה עם טיימר הפעלה מאוחרת",
+   "שטיפה מהירה בין ארוחות בתוכנית של 30 דקות"
+  ],
+  "considerations": [
+   "מדדו את הנישה: נדרשים 60 × 82–88 × 57 ס״מ (רוחב × גובה × עומק)",
+   "יש להכין דלת חזית תואמת לארון, כי מדובר במדיח אינטגרלי מלא",
+   "ניתן לחבר למים קרים או חמים עד 60°, כדאי לבדוק את נקודת המים מראש",
+   "דירוג האנרגיה הוא E בתקן החדש"
+  ],
+  "faq": [
+   {
+    "q": "אילו מידות נישה צריך למדיח EEQ47200L?",
+    "a": "נישה ברוחב 60 ס״מ, בגובה 82–88 ס״מ ובעומק 57 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה כלים נכנסים במדיח?",
+    "a": "המדיח מכיל 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המדיח?",
+    "a": "עוצמת הרעש בעבודה רגילה היא 46 dB.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים וחשמל הוא צורך?",
+    "a": "9.9 ליטר מים למחזור בתוכנית Eco, וצריכת חשמל של 0.94 קוט״ש למחזור.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לחבר אותו למים חמים?",
+    "a": "כן, יש אפשרות לחיבור מים קרים או חמים עד 60°.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים אינטגרלי מלא Electrolux EEQ47200L: 13 מערכות כלים, עוצמת רעש 46 dB ופתיחת דלת AirDry. ייעוץ והזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "EEQ47200L",
+   "Electrolux EEQ47200L",
+   "מדיח כלים אינטגרלי מלא אלקטרולוקס",
+   "מדיח כלים רחב אינטגרלי",
+   "מדיח כלים 13 מערכות",
+   "מדיח כלים שקט 46 דציבל",
+   "מדיח אלקטרולוקס AirDry"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "גובה 81.8-87.8 ס\"מ (מתכוונן), רוחב 59.6 ס\"מ, עומק 55 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה (נישה)",
+   "catalogValue": "גובה 82-88 ס\"מ, רוחב 60 ס\"מ, עומק 57 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-37 ק\"ג (מוצר נקי), כ-38.6 ק\"ג (כולל אריזה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "13 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1950 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "9.9 ליטר למחזור בתוכנית Eco",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "catalogValue": "כ-0.94 קוט\"ש למחזור",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "46 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (לפי התקן האירופי החדש), מקביל ל-A++ בתקן הישן",
+   "finding": "contradicted",
+   "correctValue": "E לפי התקן החדש; A לפי התקן הישן",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "תוכניות",
+   "catalogValue": "8 תוכניות הדחה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר פנים המדיח",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג המדיח",
+   "catalogValue": "אינטגרלי מלא רחב (60 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אופן התקנה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אינטגרלי מלא",
+   "sources": [
+    "s4"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין שהדירוג הישן שווה ל-A++, אך הדף של באג מציין דירוג ישן A.",
+   "severity": "high"
+  },
+  {
+   "field": "משך תוכנית הדחה סטנדרטית",
+   "issue": "ליאור מציין 240 דקות, באג מציין 227 דקות. המשך לא נכלל בעובדות.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת חשמל למחזור",
+   "issue": "ליאור מציין 0.921 קוט\"ש, באג והקטלוג מציינים 0.94. נרשם הערך של באג.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת מים",
+   "issue": "ליאור מציין 10 ליטר בתוכנית Eco 50°C, באג וזאפ מציינים 9.9 ליטר. נרשם 9.9.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק, מתח, משקל, מקור",
+   "issue": "לא נמצאו בדפים שנפתחו, ולכן לא אומתו.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שם היבואן הרשמי לא אומת בדפים שנפתחו. באג מציין יבואן רשמי בלי שם.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור העובדות של היצרן",
+   "issue": "דף Electrolux Israel שנפתח הוא דף תוצאות חיפוש ולא דף מוצר. הוא מציג את שם הדגם ושתי תכונות בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין A++ בתקן הישן, דף באג מציין A.",
+   "severity": "high"
+  },
+  {
+   "field": "צריכת חשמל ומים",
+   "issue": "ליאור מציין 0.921 קוט״ש ו-10 ליטר, באג וזאפ מציינים 0.94 קוט״ש ו-9.9 ליטר.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק, מתח, משקל, ארץ ייצור",
+   "issue": "ערכי הקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "שם היבואן הרשמי בישראל לא אומת.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Niche dimensions converted from mm to cm. Installation text trimmed to the quoted water-connection fact. Catalog old energy rating (A++) contradicted by bug.co.il (A); energy and water figures differ slightly at lior-electric (flagged)."
+ }
+}

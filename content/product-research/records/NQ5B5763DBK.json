@@ -1,0 +1,407 @@
+{
+ "modelNumber": "NQ5B5763DBK",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "NQ5B5763DBK",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם Bespoke AI בסדרה 5, תנור משולב מיקרוגל 50 ליטר בצבע שחור (Clean Black). דף התמיכה הישראלי של Samsung מציג את הדגם בסיומת /U1. לא נמצא שם היבואן הרשמי בדפים שנבדקו. | QA: Samsung SE and Samsung IL support pages name NQ5B5763DBK/U1; Bug IL lists the same model, 50 L, black."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/תנור-משולב-מיקרוגל-50-ליטר-samsung-5102206nq5b5763dbk",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.samsung.com/se/business/cooking-appliances/ovens/nq7000b-5series-natural-steam-combi-nq5b5763dbk-u1",
+   "publisher": "Samsung Sverige",
+   "kind": "manufacturer",
+   "market": "SE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "50 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 45.6 × 57 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "56 × 44.6 × 54.9 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "38.9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גריל עליון",
+     "value": "1400 W / 1100 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גריל תחתון",
+     "value": "1000 W"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Touch control and knob not in quote; decimal fixed.",
+     "label": "צג",
+     "value": "LCD בגודל 2.25 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer's own warranty term, not a product spec.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Trimmed to quote.",
+   "text": "פונקציית Air Fry להכנת מאכלים בטעם מטוגן ללא טיגון עמוק"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Steam cleaning removed (separate feature).",
+   "text": "בישול באדים Natural Steam באמצעות כלי ייעודי המונח בתחתית התנור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי בקיטור Steam Cleaning להסרת לכלוך קל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Remote control not stated in quote.",
+   "text": "חיבור Wi-Fi מובנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "5 תוכניות הפשרה אוטומטית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיועד להתקנה בנישה במידות סטנדרטיות"
+  }
+ ],
+ "content": {
+  "summary": "Samsung NQ5B5763DBK הוא תנור משולב מיקרוגל להתקנה בנישה, בנפח 50 ליטר ובצבע שחור. הוא משלב מיקרוגל בהספק 800 W, גריל, בישול באדים Natural Steam ופונקציית Air Fry. מתאים למי שרוצה מכשיר אחד בנישה שמחליף מיקרוגל נפרד ומוסיף אפשרויות בישול.",
+  "highlights": [
+   "נפח 50 ליטר",
+   "הספק מיקרוגל 800 W",
+   "בישול באדים Natural Steam",
+   "פונקציית Air Fry",
+   "חיבור Wi-Fi מובנה"
+  ],
+  "goodFor": [
+   "מטבח שבו רוצים לחסוך מקום ולשלב מיקרוגל ותנור במכשיר אחד בנישה",
+   "מי שמכין מאכלים בטעם מטוגן ללא טיגון עמוק",
+   "מי שמעוניין לבשל באדים בנוסף לחימום ואפייה"
+  ],
+  "considerations": [
+   "יש לוודא שמידות הנישה במטבח מתאימות: 56 × 44.6 × 54.9 ס״מ",
+   "המשקל הנטו הוא 38.9 ק״ג, כדאי לוודא שהארון או הנישה מתאימים לעומס",
+   "כדאי לבדוק מראש את נקודת החשמל המיועדת למכשיר מול הוראות ההתקנה של היצרן"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח התא הוא 50 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המיקרוגל?",
+    "a": "הספק המיקרוגל הוא 800 W.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "מידות הנישה להתקנה הן 56 × 44.6 × 54.9 ס״מ (רוחב × גובה × עומק).",
+    "sources": []
+   },
+   {
+    "q": "האם יש בתנור בישול באדים?",
+    "a": "כן, יש פונקציית Natural Steam באמצעות כלי ייעודי המונח בתחתית התנור, וגם ניקוי בקיטור.",
+    "sources": []
+   },
+   {
+    "q": "האם התנור מתחבר ל-Wi-Fi?",
+    "a": "כן, יש בו חיבור Wi-Fi מובנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור משולב מיקרוגל Samsung NQ5B5763DBK בנפח 50 ליטר, מיקרוגל 800 W ובישול באדים Natural Steam, להתקנה בנישה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung NQ5B5763DBK",
+   "NQ5B5763DBK",
+   "תנור משולב מיקרוגל סמסונג",
+   "מיקרוגל משולב תנור 50 ליטר",
+   "מיקרוגל בילט אין סמסונג",
+   "תנור מיקרוגל עם אדים",
+   "מיקרוגל Air Fry סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "50 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "595 x 456 x 570 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות גומחה להתקנה",
+   "catalogValue": "560 x 446 x 549 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "38.9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "800W-900W",
+   "finding": "corrected",
+   "correctValue": "800 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גריל",
+   "catalogValue": "2600W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק טורבו (קונבקציה)",
+   "catalogValue": "2600W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת הספק מקסימלית",
+   "catalogValue": "2700W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V / 50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LCD בגודל 2.25 אינץ׳ עם בקרת מגע וחוגה סיבובית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "אמייל קרמי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "Wi-Fi מובנית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דורש חיבור חשמל של 16 אמפר",
+   "catalogValue": "16 אמפר",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק מיקרוגל",
+   "issue": "הקטלוג מציין 800W-900W, אך היצרן מציין 800 W למיקרוגל. נדרש לתקן את הטווח.",
+   "severity": "medium"
+  },
+  {
+   "field": "דורש חיבור חשמל של 16 אמפר",
+   "issue": "לא נמצא מקור לדרישת חיבור של 16 אמפר בדפים שנבדקו. יש לאמת מול המפרט הרשמי.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "issue": "הקטלוג מציין 800W-900W; המקור הישראלי מציין 800W.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק גריל",
+   "issue": "הקטלוג מציין גריל 2600W; המקור הישראלי מציין גריל עליון 1400W/1100W ותחתון 1000W. יש לאמת מול מפרט היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "חיבור חשמל 16 אמפר",
+   "issue": "דרישת 16 אמפר בקטלוג לא אומתה במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Display value fixed to 2.25 and trimmed to what the quote supports (touch/knob not in quote). Warranty rejected: retailer-specific warranty term, not a product spec. Feature wording trimmed to quotes: Air Fry (no tray/airflow claim), Natural Steam (dedicated dish, steam cleaning moved to its own feature), Wi-Fi (remote control not in quote)."
+ }
+}

@@ -1,0 +1,433 @@
+{
+ "modelNumber": "MS23K3513AK",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "MS23K3513AK",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Samsung Israel lists this model as MS23K3513AK/LI. The Samsung Africa page lists the same model as MS23K3513AK/EU. The Israeli retailer page for MS23K3513AK says official importer. | QA: Samsung Israel page lists MS23K3513AK/LI; Samsung Africa page (/EU) used for detailed specs matches the Israeli page on capacity and dimensions."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/c/p/MS23K3513AK/LI",
+   "publisher": "Samsung Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מיקרוגל-דיגיטלי-23-ליטר-samsung-5102209ms23k3513ak",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.samsung.com/africa_en/microwave-ovens/solo/microwave-solo-ms23k3513ak-eu",
+   "publisher": "Samsung Africa",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "23 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "mm to cm",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "48.9 × 27.5 × 37.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "כ-12 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "800 W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל מרבית",
+     "value": "1150 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמות חימום",
+     "value": "6"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר צלחת זכוכית מסתובבת",
+     "value": "288 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפשרה מהירה",
+     "value": "5 סוגי מזון"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "reworded",
+     "label": "נטרול ריחות",
+     "value": "תוכנית Deodorization"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ציפוי חלל פנימי",
+     "value": "CERAMIC INSIDE™"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ציפוי פנימי CERAMIC INSIDE™ קל לניקוי ועמיד לשריטות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית Keep Warm לשמירה על חום המזון ללא בישול יתר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכנית Deodorization לנטרול ריחות מתא הבישול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סמסונג MS23K3513AK הוא מיקרוגל סולו דיגיטלי בנפח 23 ליטר בגוף שחור. הוא מגיע בהספק מיקרוגל של 800 W, עם 6 עוצמות חימום וציפוי פנימי CERAMIC INSIDE™ שקל לנקות. מתאים למי שמחפש מיקרוגל לחימום והפשרה יומיומיים במידות משטח רגילות.",
+  "highlights": [
+   "נפח 23 ליטר",
+   "הספק מיקרוגל 800 W",
+   "6 עוצמות חימום",
+   "ציפוי פנימי CERAMIC INSIDE™ קל לניקוי",
+   "הפשרה מהירה ל-5 סוגי מזון"
+  ],
+  "goodFor": [
+   "חימום מזון והפשרה מהירה של בשר, עוף, דגים וירקות",
+   "מי שרוצה פנים מיקרוגל שקל לנגב ועמיד לשריטות",
+   "שמירה על חום המנה עד ההגשה בעזרת Keep Warm",
+   "מטבח שבו חשוב לסלק ריחות בישול מהתא"
+  ],
+  "considerations": [
+   "מדדו את מקום ההצבה: המידות הן 48.9 × 27.5 × 37.4 ס״מ, והעומק אינו כולל את הידית",
+   "צריכת החשמל המרבית היא 1150 W, כדאי לחבר לשקע שאינו עמוס במכשירים נוספים",
+   "בדקו שהכלים שלכם נכנסים לצלחת מסתובבת בקוטר 288 מ״מ",
+   "משקל המכשיר כ-12 ק״ג, יש לוודא שהמדף או המשטח יציבים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח וההספק של סמסונג MS23K3513AK?",
+    "a": "נפח של 23 ליטר והספק מיקרוגל של 800 W, עם צריכת חשמל מרבית של 1150 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה עוצמות חימום יש במיקרוגל?",
+    "a": "יש 6 עוצמות חימום ובישול.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המיקרוגל?",
+    "a": "רוחב 48.9 ס״מ, גובה 27.5 ס״מ ועומק 37.4 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם הפנים קל לניקוי?",
+    "a": "כן, החלל מצופה CERAMIC INSIDE™ שקל לניקוי ועמיד לשריטות, ויש גם תוכנית Deodorization לנטרול ריחות.",
+    "sources": []
+   },
+   {
+    "q": "איזו הפשרה יש במכשיר?",
+    "a": "פונקציית הפשרה מהירה שמחשבת את זמן ההפשרה ל-5 סוגי מזון נפוצים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי סמסונג MS23K3513AK שחור בנפח 23 ליטר, הספק 800 W וציפוי CERAMIC INSIDE™ קל לניקוי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "MS23K3513AK",
+   "מיקרוגל סמסונג 23 ליטר",
+   "מיקרוגל סמסונג שחור",
+   "מיקרוגל דיגיטלי 23 ליטר",
+   "Samsung MS23K3513AK",
+   "מיקרוגל ציפוי קרמי",
+   "מיקרוגל סולו סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "800 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צריכת חשמל מרבית",
+   "catalogValue": "1150 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "דרגות עוצמת חימום",
+   "catalogValue": "6 דרגות עוצמת חימום",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 48.9 ס\"מ, גובה 27.5 ס\"מ, עומק 37.4 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "12 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר צלחת זכוכית מסתובבת",
+   "catalogValue": "288 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "Ceramic Inside (אמייל קרמי) אנטי-בקטריאלי",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הפשרה מהירה",
+   "catalogValue": "5 סוגי מזון נפוצים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Keep Warm",
+   "catalogValue": "פונקציית Keep Warm לשמירה על חום המזון",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נטרול ריחות",
+   "catalogValue": "תוכנית Deodorization",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "LED (צבע Ice Blue)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שיטת בקרה",
+   "catalogValue": "כפתורים וחוגה (Tact+Dial)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "מלזיה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות בישול אוטומטיות",
+   "catalogValue": "20 תוכניות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצב ECO",
+   "catalogValue": "חיסכון משמעותי בחשמל במצב המתנה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "מנגנון נעילת בטיחות מפני ילדים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עומק כולל ידית",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "39.2 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "Israeli variant",
+   "issue": "Samsung Israel lists this model as MS23K3513AK/LI. The catalog number has no suffix, so confirm the suffix on the stocked unit's label.",
+   "severity": "low"
+  },
+  {
+   "field": "depth",
+   "issue": "The catalog depth of 37.4 cm is the body depth. The Israeli retailer lists 39.2 cm including the handle.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "The Israeli retailer page states one year of warranty via a warranty provider. This was not confirmed against the importer, so check the warranty terms before quoting it.",
+   "severity": "low"
+  },
+  {
+   "field": "Israeli variant",
+   "issue": "Samsung Israel lists the model as MS23K3513AK/LI; detailed specs come from the /EU page. Confirm the suffix on the stocked unit.",
+   "severity": "low"
+  },
+  {
+   "field": "depth",
+   "issue": "Depth 37.4 cm is the body depth; an Israeli retailer lists 39.2 cm including the handle (not verified by quote).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified. Reworded the Deodorization fact value to Hebrew. Dimensions converted from mm to cm (body depth 37.4 cm excludes the handle)."
+ }
+}

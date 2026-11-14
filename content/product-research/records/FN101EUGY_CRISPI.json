@@ -1,0 +1,387 @@
+{
+ "modelNumber": "FN101EUGY CRISPI",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "FN101EUGY",
+  "israeliImporter": "שריג",
+  "matchConfidence": "high",
+  "notes": "The Israeli retailer page names the model FN101EUGY and the official importer. Power, weight and warranty conflict between sources, see reviewFlags. | QA: Israeli retailer pages name Ninja CRISPi FN101EUGY with Sarig as official importer; capacities 3.8 and 1.4 liters match the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.petcom.co.il/product/%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA-%D7%91%D7%99%D7%A9%D7%95%D7%9C-%D7%A0%D7%99%D7%99%D7%93%D7%AA-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-ninja-crispi-fn101eugy/",
+   "publisher": "Petcom Electric Eilat",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.deby-electric.co.il/product/%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA-%D7%91%D7%99%D7%A9%D7%95%D7%9C-%D7%9E%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-ninja-crispi-%D7%93%D7%92%D7%9D-fn101eugy/",
+   "publisher": "Deby Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.citydeal.co.il/product/ninja-crispi-fn101eugy-glass-air-fryer",
+   "publisher": "City Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://multitronic.fi/en/products/4584794/ninja-crispi-fn101eugy--3-8-l--1-2-kg--1700-w--airfryer--cyberspace-blue",
+   "publisher": "Multitronic",
+   "kind": "retailer",
+   "market": "FI",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two Israeli retailers agree; catalog 1700 W flagged.",
+     "label": "הספק",
+     "value": "1650 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source labels 34 as length.",
+     "label": "מידות (רוחב × גובה × אורך)",
+     "value": "30.4 × 34.5 × 34 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "3 שנים, יבואן רשמי (שריג)"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבנה האחריות",
+     "value": "שנה מלאה ועוד שנתיים מוגבלת"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל גדול",
+     "value": "3.8 ליטר"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל קטן",
+     "value": "1.4 ליטר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "4 תוכניות אוטומטיות במכשיר אחד: טיגון באוויר, צלייה, חימום מחדש והחזרת פריכות, ושמירה על חום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 מיכלי זכוכית CleanCrisp עמידים לחום, ללא PFAS/PTFE"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יחידת ההפעלה מזהה את המיכל ומתאימה את טמפרטורת הבישול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Manufacturer claim.",
+   "text": "לפי היצרן, עד 75% פחות שומן בהשוואה לטיגון מסורתי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כל האביזרים בטוחים לשטיפה במדיח הכלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגליות עמידות לחום המאפשרות הנחה על שיש, גרניט ובוצ׳ר עץ"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה אחסון אטום לשמירה במקרר"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ninja CRISPi FN101EUGY היא מערכת טיגון באוויר חם עם יחידת הפעלה ניידת ושני מיכלי זכוכית בנפח 3.8 ליטר ו-1.4 ליטר. יחידת ההפעלה מזהה איזה מיכל מחובר ומתאימה את הטמפרטורה, ויש בה 4 תוכניות: טיגון באוויר, צלייה, החזרת פריכות ושמירה על חום. מתאימה למי שרוצה לבשל, להגיש ולאחסן באותו כלי זכוכית, עם אחריות של 3 שנים מהיבואן הרשמי שריג.",
+  "highlights": [
+   "שני מיכלי זכוכית: 3.8 ליטר ו-1.4 ליטר",
+   "הספק 1650 W",
+   "4 תוכניות: טיגון באוויר, צלייה, החזרת פריכות ושמירה על חום",
+   "מיכלי זכוכית ללא PFAS/PTFE",
+   "אחריות 3 שנים מהיבואן הרשמי שריג"
+  ],
+  "goodFor": [
+   "מי שמעדיף לבשל בכלי זכוכית ולראות את האוכל במהלך הבישול",
+   "הכנת מנה עיקרית במיכל הגדול ותוספת במיכל הקטן",
+   "מי שרוצה לאחסן שאריות במקרר באותו מיכל, עם מכסה אחסון אטום",
+   "מי שמחפש ניקוי פשוט, כשכל האביזרים בטוחים למדיח"
+  ],
+  "considerations": [
+   "בדקו שיש מקום על השיש למכשיר במידות 30.4 × 34.5 × 34 ס״מ",
+   "ההספק 1650 W, כדאי לחבר לשקע שאינו משותף עם מכשירי חימום אחרים",
+   "המיכלים עשויים זכוכית, כדאי לשים לב בהרמה ובאחסון",
+   "האחריות היא שנה מלאה ועוד שנתיים מוגבלת, כדאי לבדוק את תנאי שריג"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המיכלים?",
+    "a": "במארז יש שני מיכלי זכוכית: מיכל גדול של 3.8 ליטר ומיכל קטן של 1.4 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו תוכניות יש במכשיר?",
+    "a": "4 תוכניות: טיגון באוויר, צלייה, חימום מחדש והחזרת פריכות, ושמירה על חום.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את החלקים במדיח?",
+    "a": "כן, לפי דף המוצר כל האביזרים בטוחים לשטיפה במדיח הכלים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "3 שנות אחריות מהיבואן הרשמי שריג: שנה מלאה ועוד שנתיים אחריות מוגבלת.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להניח את יחידת ההפעלה על משטח עץ?",
+    "a": "יחידת ההפעלה מגיעה עם רגליות עמידות לחום שמאפשרות הנחה על שיש, גרניט ובוצ׳ר עץ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון באוויר חם Ninja CRISPi FN101EUGY עם שני מיכלי זכוכית 3.8 ו-1.4 ליטר והספק 1650 W, אחריות 3 שנים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "נינג'ה קריספי",
+   "Ninja CRISPi FN101EUGY",
+   "סיר טיגון באוויר עם קערת זכוכית",
+   "נינג'ה סיר טיגון זכוכית",
+   "FN101EUGY",
+   "סיר טיגון ללא PFAS",
+   "מערכת בישול מזכוכית Ninja"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1700W",
+   "finding": "contradicted",
+   "correctValue": "1650W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכלים",
+   "catalogValue": "3.8 ליטר ו-1.4 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות (מארז)",
+   "catalogValue": "גובה 34.5 ס\"מ, רוחב 30.4 ס\"מ, עומק 34 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-3.8 ק\"ג (ליחידה בלבד, כ-5.9 ק\"ג למארז המלא)",
+   "finding": "unverifiable",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "ניקוי במדיח",
+   "catalogValue": "קערות הזכוכית, מכסי האחסון וצלחות הקריספר בטוחים לשטיפה במדיח",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "4 ב-1",
+   "catalogValue": "טיגון באוויר חם, צלייה, ReCrisp, Keep Warm",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "catalogValue": "עד 185°C-210°C (בהתאם לתוכנית)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיסכון באנרגיה",
+   "catalogValue": "עד 50% בהשוואה לתנור רגיל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "כ-90 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "The catalog says 1700 W. The Israeli retailer page (City Deal) says 1650W, and the Finnish retailer page says 1700 W. Check the importer's spec sheet before publishing a power value.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The Israeli retailer page gives 3 שנות אחריות in one line and שנה ע\"י שריג in another. The Finnish retailer gives 2 years. The catalog states no warranty. Confirm the official Israeli warranty with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "The catalog gives about 3.8 kg for the unit and 5.9 kg for the package. The Finnish retailer gives 5.08 kg for the unit and 6.88 kg for the package. No Israeli source was found for weight, so it is not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog labels 34.5 × 30.4 × 34 cm as package dimensions. The Israeli retailer lists these as product dimensions and labels the 34 cm figure as length (אורך), not depth. The Finnish retailer gives width 300 mm. Verify both product and package dimensions.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The catalog model is 'FN101EUGY CRISPI'. Pages name FN101EUGY and CRISPi as the product line. The EU code FN101EUGY is the variant sold here, so check that the Israeli importer uses the same code.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח, טמפרטורה, חיסכון באנרגיה, אורך כבל",
+   "issue": "No Israeli or manufacturer page confirmed these catalog values. The voltage matches one foreign retailer only, so it is not published.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says 1700W; two Israeli retailer pages say 1650W while a Finnish retailer lists 1700 W. Confirm with importer spec sheet.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog labels 34.5 × 30.4 × 34 cm as package dimensions; Israeli retailers list them as product dimensions. Verify.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight (3.8/5.9 kg) unverified; a foreign retailer lists different figures. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Voltage, max temperature, energy-saving claim and cable length in the catalog were not verified by an Israeli or manufacturer source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Power kept as 1650 W from two Israeli retailer pages (catalog says 1700 W; flagged). Dimensions label changed from depth to length, as the retailer pages label the 34 cm figure. Fat-reduction claim attributed to the manufacturer."
+ }
+}

@@ -1,0 +1,408 @@
+{
+ "modelNumber": "EIS62450",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EIS62450",
+  "israeliImporter": "מיניליין",
+  "matchConfidence": "high",
+  "notes": "נבדקו דפי קמעונאים ישראליים (טרקלין חשמל, Citydeal) ודף חיפוש של Electrolux Israel. לא נמצא דף מוצר יצרני או גיליון מפרט עם משקל. | QA: שני דפי קמעונאים ישראליים (טרקלין חשמל, Citydeal) מציינים את הדגם EIS62450; אחריות יבואן רשמי מיניליין."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%91%D7%99%D7%A9%D7%95%D7%9C_%D7%95%D7%90%D7%A4%D7%99%D7%99%D7%94/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D_%D7%97%D7%A9%D7%9E%D7%9C%D7%99%D7%95%D7%AA__%D7%A7%D7%A8%D7%9E%D7%99%D7%95%D7%AA__%D7%90%D7%99%D7%A0%D7%93%D7%95%D7%A7%D7%A6%D7%99%D7%94/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D_%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1_%D7%90%D7%99%D7%A0%D7%93%D7%95%D7%A7%D7%A6%D7%99%D7%94_60_%D7%A1%D7%9E_electrolux_%D7%93%D7%92%D7%9D_eis62450_%D7%A9%D7%97%D7%95%D7%A8",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/electrolux-eis62450",
+   "publisher": "Citydeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג כיריים",
+     "value": "אינדוקציה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "גרמניה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר אזורי בישול",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק חשמלי מרבי",
+     "value": "7350 ואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אזור בישול ימני אחורי",
+     "value": "180 מ״מ, 1800 ואט (טורבו: 2800 ואט)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × עומק)",
+     "value": "590 × 520 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (גובה × רוחב × עומק)",
+     "value": "44 × 560 × 490 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבור חשמלי נדרש",
+     "value": "חד-פאזי: שקע סיקון 25 או 32 אמפר; תלת-פאזי: שקע שוקו או אדום"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, יבואן רשמי מיניליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "הוסר 'מונעת גלישה' שאינו בציטוט",
+   "text": "טכנולוגיית SenseBoil לבקרת רתיחה אוטומטית, מנטרת רתיחה של 1 עד 5 ליטר מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית Bridge לחיבור שני אזורי חימום בצד שמאל לאזור בישול אחד בגודל 210×450 מ״מ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "תוקן שם הטכנולוגיה",
+   "text": "סנכרון Hob2Hood עם קולט אדים תואם להפעלה וסנכרון אוטומטיים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התקנה קלה ומהירה בתוך הגומחה במטבח בשיטת התאמה בלחיצה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיבור חד-פאזי דורש שקע סיקון 25 או 32 אמפר; חיבור תלת-פאזי דורש שקע שוקו או אדום"
+  }
+ ],
+ "content": {
+  "summary": "כיריים אינדוקציה של Electrolux, דגם EIS62450, עם 4 אזורי בישול וזכוכית שחורה, מתוצרת גרמניה. פונקציית Bridge מחברת את שני האזורים השמאליים לאזור אחד בגודל 210×450 מ״מ, וחיישן SenseBoil מנטר רתיחה של 1 עד 5 ליטר מים. מתאימות למי שמחפש כיריים אינדוקציה מובנות עם סנכרון Hob2Hood לקולט אדים תואם.",
+  "highlights": [
+   "4 אזורי בישול אינדוקציה",
+   "הספק מרבי 7350 ואט",
+   "Bridge – אזור בישול משולב בגודל 210×450 מ״מ",
+   "SenseBoil לבקרת רתיחה אוטומטית",
+   "סנכרון Hob2Hood עם קולט אדים תואם"
+  ],
+  "goodFor": [
+   "בישול בכלים מוארכים או פלנצ׳ה בזכות אזור ה-Bridge",
+   "מטבח עם קולט אדים תואם Hob2Hood",
+   "החלפת כיריים מובנות בגומחה סטנדרטית"
+  ],
+  "considerations": [
+   "לוודא שחיתוך השיש מתאים לנישה של 44 × 560 × 490 מ״מ",
+   "בחיבור חד-פאזי נדרש שקע סיקון 25 או 32 אמפר; בתלת-פאזי שקע שוקו או אדום",
+   "סנכרון Hob2Hood פועל רק עם קולט אדים תואם",
+   "שם הקטלוג מציין משטח גמיש מלא, אך המקורות מתארים איחוד של שני אזורים בלבד"
+  ],
+  "faq": [
+   {
+    "q": "מה גודל הנישה הנדרשת להתקנה?",
+    "a": "גובה 44 מ״מ, רוחב 560 מ״מ ועומק 490 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "איזה שקע חשמל צריך?",
+    "a": "בחיבור חד-פאזי נדרש שקע סיקון 25 או 32 אמפר, ובחיבור תלת-פאזי שקע שוקו או אדום.",
+    "sources": []
+   },
+   {
+    "q": "מה עושה פונקציית Bridge?",
+    "a": "היא מחברת את שני אזורי החימום בצד שמאל לאזור בישול אחד בגודל 210×450 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הכיריים?",
+    "a": "אחריות לשנה על ידי מיניליין, היבואן הרשמי בישראל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים אינדוקציה Electrolux EIS62450 עם 4 אזורי בישול, פונקציית Bridge ובקרת רתיחה SenseBoil. מתוצרת גרמניה, בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים אינדוקציה אלקטרולוקס",
+   "Electrolux EIS62450",
+   "EIS62450",
+   "כיריים אינדוקציה 60 ס״מ",
+   "כיריים אינדוקציה עם Bridge",
+   "כיריים Hob2Hood",
+   "כיריים אינדוקציה זכוכית שחורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג כיריים",
+   "catalogValue": "אינדוקציה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר אזורי בישול",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק חשמלי מרבי",
+   "catalogValue": "7350 ואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות (רxע)",
+   "catalogValue": "590x520 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה (רxעxג)",
+   "catalogValue": "560x490x44 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אזור בישול ימני אחורי",
+   "catalogValue": "180 מ\"מ, 1800/2800 ואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית Bridge (אזור 210x450 מ\"מ)",
+   "catalogValue": "אזור ענק בגודל 210x450 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "גרמניה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבור חשמלי",
+   "catalogValue": "חד-פאזי (שקע 25/32 אמפר) או תלת-פאזי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אזורי בישול שמאליים וימני קדמי (210/145 מ\"מ, הספקים)",
+   "catalogValue": "210 מ\"מ 2300/3200 ואט; 145 מ\"מ 1400/2500 ואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-11 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מחווני חום נותר CleverHeat",
+   "catalogValue": "3 רמות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר כיבוי",
+   "catalogValue": "עד 99 דקות לכל להבה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, יבואן רשמי מיניליין",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "זכוכית שחורה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "לא נמצא נתון משקל מאומת באף מקור שנבדק; המשקל בקטלוג (כ-11 ק״ג) לא אומת",
+   "severity": "low"
+  },
+  {
+   "field": "מידות חיצוניות",
+   "issue": "אתרי הקמעונאים משתמשים באותיות שונות לתיאור המידות (עxר). הערכים עקביים בין המקורות, אך כדאי לוודא מול גיליון היבואן",
+   "severity": "low"
+  },
+  {
+   "field": "אזורי בישול קדמיים",
+   "issue": "הספקי האזורים הקדמיים בקטלוג לא נמצאו בדפים שנשלפו; רק האזור האחורי-ימני אומת",
+   "severity": "low"
+  },
+  {
+   "field": "שם מוצר",
+   "issue": "שם הקטלוג מציין 'משטח מלא גמיש', אך המקורות מתארים פונקציית Bridge לאיחוד שני אזורים בלבד",
+   "severity": "medium"
+  },
+  {
+   "field": "אזורי בישול",
+   "issue": "הספקים וקטרים של שלושת האזורים האחרים ומשקל, טיימר ומחווני חום נותר בקטלוג לא אומתו במקורות",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל הנתונים מדפי קמעונאים בלבד; לא נמצא דף יצרן או גיליון מפרט",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים מדפי קמעונאים ישראליים לדגם המדויק. תוקן שם הטכנולוגיה Hood2Hob ל-Hob2Hood (השם של Electrolux). שם הקטלוג 'משטח מלא גמיש' אינו נתמך במקורות – המקורות מתארים פונקציית Bridge לאיחוד שני אזורים בלבד."
+ }
+}

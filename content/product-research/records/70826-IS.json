@@ -1,0 +1,426 @@
+{
+ "modelNumber": "70826-IS",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "70826-IS",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Importer page (hamiltonbeach.co.il) and manual PDF name the exact model. Dimensions and weight not published on any page found. Importer page says 1000W; the 1300W in the catalog name is an AC-equivalent claim that appears only on the sol.co.il marketing blurb. | QA: Importer page hamiltonbeach.co.il names 70826-IS exactly."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hamiltonbeach.co.il/products/70826-is",
+   "publisher": "Hamilton Beach Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "DC"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "מובנה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כמות עיבוד מרבית",
+     "value": "500 גרם"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "30-minute rest not in quote, removed",
+     "label": "זמן עבודה רצוף מרבי",
+     "value": "3 דקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח הקערה",
+     "value": "3 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר גוף המעבד",
+     "value": "יציקת אלומיניום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור מט"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תוכניות מובנות",
+     "value": "5 תוכניות (פולס, הקצפה, לישה, ערבול, ניקוי עצמי)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "listed modes added from quote",
+     "label": "מצבי חיתוך ועיבוד",
+     "value": "7 מצבים: קוביות, פריסה דקה, פריסה עבה, גירוד דק, גירוד עבה, פרמזן או חזרת, צ׳יפס"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "תצוגת LED דיגיטלית"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת אבטחה",
+     "value": "המכשיר אינו פועל אם אחד המרכיבים אינו מורכב כראוי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "per importer; some retailers say otherwise",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הנעה ישירה ללא תמסורת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגליות מיוחדות למניעת החלקת המכשיר בזמן העבודה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קופסת אחסון לאביזרים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אביזרי המכשיר ניתנים לפירוק מהיר וקל"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קערה ומכסה עם פתח הזנה בשלושה גדלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אביזר לקוביות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אביזר ללישה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "4 דיסקיות נירוסטה (2 מהן דו-צדדיות)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סכין חיתוך מפלדת אל חלד"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מעבד המזון Hamilton Beach 70826-IS מגיע עם מנוע DC בהספק 1000 W, קערה בנפח 3 ליטר וגוף מיציקת אלומיניום. הוא כולל אביזר ייעודי לחיתוך קוביות, 7 מצבי חיתוך ועיבוד ו-5 תוכניות מובנות כולל לישה והקצפה. מתאים למי שמכין הרבה סלטים, ירקות חתוכים ובצקים במטבח הביתי.",
+  "highlights": [
+   "מנוע DC בהספק 1000 W עם הנעה ישירה ללא תמסורת",
+   "קערה בנפח 3 ליטר",
+   "אביזר לקוביות ו-7 מצבי חיתוך ועיבוד",
+   "5 תוכניות מובנות: פולס, הקצפה, לישה, ערבול, ניקוי עצמי",
+   "תצוגת LED דיגיטלית עם טיימר מובנה"
+  ],
+  "goodFor": [
+   "הכנת סלטים וירקות חתוכים לקוביות אחידות",
+   "לישת בצקים והקצפה במכשיר אחד",
+   "מי שרוצה מגוון פריסות וגירודים בעזרת דיסקיות נירוסטה"
+  ],
+  "considerations": [
+   "זמן העבודה הרצוף מוגבל ל-3 דקות, כדאי לחלק עבודות ארוכות למנות",
+   "הכמות המרבית לעיבוד לפי טבלת היצרן היא 500 גרם",
+   "יש להרכיב את כל החלקים כראוי, אחרת מערכת האבטחה לא תאפשר הפעלה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של מעבד המזון 70826-IS?",
+    "a": "לפי היבואן ההספק הוא 1000 W, עם מנוע DC והנעה ישירה ללא תמסורת.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח הקערה?",
+    "a": "נפח הקערה הוא 3 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא חותך לקוביות?",
+    "a": "כן, באריזה יש אביזר לקוביות, והמכשיר כולל 7 מצבי חיתוך ועיבוד.",
+    "sources": []
+   },
+   {
+    "q": "אילו תוכניות מובנות יש?",
+    "a": "5 תוכניות: פולס, הקצפה, לישה, ערבול וניקוי עצמי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "לפי היבואן האחריות היא לשנתיים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מעבד מזון Hamilton Beach 70826-IS: מנוע DC בהספק 1000 W, קערה 3 ליטר ואביזר לקוביות, 7 מצבי חיתוך. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מעבד מזון המילטון ביץ'",
+   "Hamilton Beach 70826-IS",
+   "70826-IS",
+   "מעבד מזון עם קוביות",
+   "מעבד מזון 3 ליטר",
+   "מעבד מזון מנוע DC",
+   "מעבד מזון חותך קוביות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000W (מנוע DC, המקביל ל-1300W במנועי AC)",
+   "finding": "corrected",
+   "correctValue": "1000 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת קערה",
+   "catalogValue": "3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "אלומיניום יצוק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות עבודה",
+   "catalogValue": "5 תוכניות אוטומטיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור מט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "אורך 26 ס\"מ, רוחב 22 ס\"מ, גובה 43 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-8.5 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדיח כלים",
+   "catalogValue": "חלקים ניתנים לשטיפה במדיח כלים",
+   "finding": "contradicted",
+   "correctValue": "שטיפה ידנית בלבד, ללא מדיח",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Product name says 1300 וואט; the importer's spec says 1000W DC (1300W appears only in a marketing blurb).",
+   "severity": "high"
+  },
+  {
+   "field": "מדיח כלים",
+   "issue": "Catalog says parts are dishwasher-safe; importer page says hand wash only, no dishwasher.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Importer says 2 years; some retailers say 1 year.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions and weight not published on any page found.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog name says 1300 וואט; importer spec says 1000W DC.",
+   "severity": "high"
+  },
+  {
+   "field": "מדיח כלים",
+   "issue": "Catalog says parts are dishwasher-safe; research reports the importer says hand wash only. Not published; check before keeping the catalog claim.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Importer says 2 years; some retailers reportedly say 1 year.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions and weight not verified on any source.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 10 value trimmed to 3 דקות: the 30-minute rest is not in the quote. Fact 6 value expanded with the listed modes from the quote. sol.co.il relabelled il-retailer. | code guard removed: consideration: \"שם המוצר מציין 1300 וואט, אך מפרט היבואן מציין הספק של 1000 W במנוע DC\""
+ }
+}

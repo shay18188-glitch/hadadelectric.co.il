@@ -1,0 +1,456 @@
+{
+ "modelNumber": "Signa S2",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Polk Audio",
+  "exactModel": "Signa S2",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Polk US product page (SKU 112625-01-00-101B, listed as Signa S2 Refurbished) and Polk-branded Signa S2 spec sheet (hosted on a US retailer domain). No Israeli importer or Israeli listing found. | QA: Polk US page (refurbished listing of Signa S2) and Polk Signa S2 spec sheet both name the exact model and match the catalog specs; Israeli importer and variant not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://static.pcrichard.com/docs/SIGNAS2_Specifications-Sheet_01.pdf",
+   "publisher": "Polk Signa S2 spec sheet (PDF)",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.polkaudio.com/en-us/product/signa-s2/112625-01-00-101B.html",
+   "publisher": "Polk Audio (US)",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות מקרן קול (רוחב × גובה × עומק)",
+     "value": "90 × 5.5 × 8.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל מקרן קול",
+     "value": "1.8 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות סאבוופר (רוחב × גובה × עומק)",
+     "value": "17.1 × 34.1 × 31.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל סאבוופר",
+     "value": "5.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quotes failed number check; quote checks: numbers-not-in-quote, numbers-not-in-quote",
+     "label": "דרייברים במקרן הקול",
+     "value": "2 דרייברים Midrange בגודל 1.25 אינץ׳, 2 טוויטרים בגודל 1 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרייבר סאבוופר",
+     "value": "5.25 אינץ׳ (165 מ״מ)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "פענוח שמע",
+     "value": "Dolby Digital 5.1"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תגובת תדר",
+     "value": "45 Hz – 20,000 Hz"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כניסות",
+     "value": "HDMI ARC, אופטית, AUX ‏(3.5mm), Bluetooth"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "US warranty, sources conflict, not the Israeli warranty",
+     "label": "אחריות",
+     "value": "שנה לאלקטרוניקה, 3 שנים לדרייברים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Polk VoiceAdjust – כוונון רמת הדיבור לשיפור בהירות הדיאלוג"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שליטה בעוצמת הקול משלט הטלוויזיה דרך HDMI ARC (נדרשת טלוויזיה עם CEC)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיבור ונגינה ישירה מהסמארטפון או הטאבלט דרך Bluetooth"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט IR"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כבל HDMI באורך 1.5 מטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כבל אופטי באורך 1.5 מטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "quote does not mention a power supply",
+   "text": "שני כבלי חשמל"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניתן לתלות על הקיר או להניח מול הטלוויזיה"
+  }
+ ],
+ "content": {
+  "summary": "Polk Signa S2 היא מערכת מקרן קול עם סאבוופר אלחוטי, עם פענוח Dolby Digital 5.1 ותגובת תדר של 45 Hz – 20,000 Hz. מקרן הקול ברוחב 90 ס״מ ובגובה 5.5 ס״מ בלבד, והסאבוופר כולל דרייבר 5.25 אינץ׳. מתאימה למי שרוצה לשדרג את הצליל של הטלוויזיה בחיבור HDMI ARC פשוט ולשמוע דיאלוג ברור יותר.",
+  "highlights": [
+   "פענוח Dolby Digital 5.1",
+   "סאבוופר אלחוטי עם דרייבר 5.25 אינץ׳",
+   "מקרן קול נמוך בגובה 5.5 ס״מ",
+   "כניסות HDMI ARC, אופטית, AUX ו-Bluetooth",
+   "Polk VoiceAdjust לבהירות הדיבור"
+  ],
+  "goodFor": [
+   "שדרוג הצליל של טלוויזיה בסלון בלי לפזר רמקולים בחדר",
+   "צפייה בסרטים ובסדרות עם דגש על דיאלוג ברור",
+   "הצבה מתחת לטלוויזיה בזכות הגובה הנמוך של המקרן",
+   "השמעת מוזיקה מהטלפון דרך Bluetooth"
+  ],
+  "considerations": [
+   "ודאו שיש מקום לסאבוופר במידות 17.1 × 34.1 × 31.2 ס״מ ושקע חשמל זמין לידו",
+   "לשליטה משלט הטלוויזיה נדרשת טלוויזיה עם HDMI ARC ו-CEC מופעל",
+   "בדקו שרוחב המקרן, 90 ס״מ, מתאים לטלוויזיה ולמזנון",
+   "לתלייה על הקיר בדקו את אפשרויות ההרכבה מול הקיר והטלוויזיה"
+  ],
+  "faq": [
+   {
+    "q": "האם הסאבוופר אלחוטי?",
+    "a": "כן, הסאבוופר אלחוטי ומתחבר למקרן הקול ללא כבל שמע, אך צריך שקע חשמל.",
+    "sources": []
+   },
+   {
+    "q": "איך מחברים לטלוויזיה?",
+    "a": "דרך HDMI ARC או כניסה אופטית. כבל HDMI וכבל אופטי באורך 1.5 מטר כלולים באריזה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט בווליום עם שלט הטלוויזיה?",
+    "a": "כן, בחיבור HDMI ARC לטלוויזיה שתומכת ב-CEC.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לנגן מוזיקה מהטלפון?",
+    "a": "כן, דרך Bluetooth מסמארטפון, טאבלט או מכשיר תואם.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתלות את מקרן הקול על הקיר?",
+    "a": "כן, ניתן לתלות אותו על הקיר או להניח אותו מול הטלוויזיה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרן קול עם סאבוופר אלחוטי Polk Signa S2: פענוח Dolby Digital 5.1, חיבור HDMI ARC ו-Bluetooth ומקרן ברוחב 90 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Polk Signa S2",
+   "מקרן קול Polk",
+   "מקרן קול עם סאבוופר",
+   "סאונדבר עם סאבוופר אלחוטי",
+   "מקרן קול Dolby Digital",
+   "מקרן קול HDMI ARC",
+   "סאונדבר Polk"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות מקרן קול (רוחב, גובה, עומק)",
+   "catalogValue": "רוחב 90 ס״מ, גובה 5.46 ס״מ, עומק 8.18 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל מקרן קול",
+   "catalogValue": "1.8 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות סאבוופר",
+   "catalogValue": "רוחב 17.07 ס״מ, גובה 34.04 ס״מ, עומק 31.22 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל סאבוופר",
+   "catalogValue": "5.2 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה מקרן קול (Slim)",
+   "catalogValue": "2 אינץ׳",
+   "finding": "corrected",
+   "correctValue": "2.15 אינץ׳ (5.46 ס״מ)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דרייברים במקרן הקול",
+   "catalogValue": "2 רמקולים לטווח מלא 1.25x4.4 אינץ׳ ו-2 טוויטרים 1 אינץ׳",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרייבר סאבוופר",
+   "catalogValue": "וופר בקוטר 5.25 אינץ׳",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח תדרים",
+   "catalogValue": "45Hz - 20kHz",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "Bluetooth, HDMI ARC, כניסה אופטית, AUX 3.5mm",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פענוח שמע",
+   "catalogValue": "Dolby Digital 5.1",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100V-230V AC, 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "40W (במצב המתנה: 0.3W-1.6W)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "עוצב בארצות הברית, מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצבי שמע (Movie, Music, Night Mode)",
+   "catalogValue": "מצב סרט, מצב מוזיקה, מצב לילה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה לאלקטרוניקה, 3 שנים לדרייברים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "israeli_variant",
+   "issue": "לא נמצא יבואן ישראלי או דף מוצר ישראלי לדגם Signa S2 בשלושה חיפושים. כל המקורות הם של Polk ארה״ב ומסמך מפרט. יש לאשר יבואן, אחריות ומפרט מקומי.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף Polk האמריקאי מציין 'Warranty: 1 Year Amplifiers & 3 Years Speakers', ובפרטי הדף 'Electronics Warranty 1 years' ו-'Drivers Warranty 2 years'. מסמך המפרט מציין 3 שנים לדרייברים. המקורות סותרים זה את זה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות סאבוופר",
+   "issue": "עומק הסאבוופר: 31.2 ס״מ במסמך המפרט, לעומת 30.99 ס״מ (12.2 אינץ׳) בדף Polk האמריקאי. הקטלוג מציין 31.22 ס״מ. לבדוק.",
+   "severity": "low"
+  },
+  {
+   "field": "הדף שנבדק",
+   "issue": "דף Polk שנבדק הוא דף המוצר 'Signa S2 Refurbished' (מק״ט 112625-01-00-101B). המפרט הושווה למסמך המפרט של היצרן, אך כדאי לוודא שהמפרט זהה למוצר חדש.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת חשמל",
+   "issue": "צריכת החשמל (40W), מתח העבודה וארץ הייצור לא אומתו בדפים שנקראו.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "לא נמצא יבואן ישראלי או דף ישראלי לדגם; כל המקורות אמריקאיים. יש לאשר יבואן ומפרט מקומי.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "האחריות לא פורסמה: מקורות היצרן האמריקאיים סותרים (שנתיים או שלוש לדרייברים) ואינם מעידים על אחריות היבואן בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות סאבוופר",
+   "issue": "עומק הסאבוופר שונה מעט בין מסמך המפרט (31.2 ס״מ) לדף Polk (30.99 ס״מ).",
+   "severity": "low"
+  },
+  {
+   "field": "גובה מקרן קול",
+   "issue": "הקטלוג מציין גובה 2 אינץ׳; לפי היצרן הגובה כ-5.5 ס״מ. כדאי לעדכן את ניסוח היכולות.",
+   "severity": "low"
+  },
+  {
+   "field": "דרייברים במקרן הקול",
+   "issue": "מפרט הדרייברים של המקרן לא אומת בבדיקת הציטוטים ולא פורסם.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 4 (driver quotes failed the number check). Rejected fact 9 (warranty): US sources disagree (1y/3y on spec sheet vs 1y/2y on Polk page) and a US warranty does not describe the Israeli importer warranty. Corrected inTheBox 3 to what the quote says (two power cords), dropping the unsupported power-supply wording."
+ }
+}

@@ -1,0 +1,472 @@
+{
+ "modelNumber": "HC5632-15",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "HC5632/15",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "high",
+  "notes": "Model HC5632/15 named on two Israeli retailer pages (Electroeshed and Lior Electric). No manufacturer or Philips Israel page was fetched. Both retailers name Electra as the official importer. Warranty length conflicts between the two pages (2 years vs 1 year), so no warranty fact is published. | QA: Both Israeli retailer pages name Philips HC5632/15; the catalog hyphen form is the same code with a URL-safe separator."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electroeshed.co.il/items/5917047-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA-Philips-HC5632-15-%D7%A4%D7%99%D7%9C%D7%99%D7%A4%D7%A1",
+   "publisher": "Electroeshed",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA-%D7%99%D7%91%D7%A9-%D7%A8%D7%98%D7%95%D7%91-philips-%D7%A4%D7%99%D7%9C%D7%99%D7%A4%D7%A1-series-5000-%D7%93%D7%92%D7%9D-hc5632-15/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HC5632/15"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Philips"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגות אורך",
+     "value": "28 דרגות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח אורכים",
+     "value": "0.5 עד 28 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "להבים",
+     "value": "פלדת אל חלד עם השחזה עצמית"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עמידות במים",
+     "value": "100% עמיד במים, ניתן לשטיפה תחת מים זורמים"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה אלחוטי",
+     "value": "כ-90 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "שעה אחת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית DualCut לחיתוך יעיל ומהיר פי 2 לכל סוגי השיער"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Trim-n-Flow Pro name not in quote; dropped",
+   "text": "מסרק עיצוב שמונע מהשיער להיתקע ומאפשר תספורת רציפה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב טורבו להגברת המהירות וחיתוך שיער עבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שימוש אלחוטי או חוטי רציף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בחירת אורך באמצעות סיבוב גלגלת במרכז המכונה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסרק זקן (2 מ״מ)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 מסרקי שיער (ארוך וקצר)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכונת התספורת Philips HC5632/15 מציעה 28 דרגות אורך בין 0.5 ל-28 מ״מ, הנבחרות בסיבוב גלגלת במרכז המכונה. היא עובדת כ-90 דקות באופן אלחוטי אחרי טעינה של שעה אחת, וניתן להשתמש בה גם בחיבור לחשמל. מתאימה למי שמסתפר בבית ורוצה מכונה אחת לשיער ולזקן.",
+  "highlights": [
+   "28 דרגות אורך מ-0.5 עד 28 מ״מ",
+   "כ-90 דקות עבודה אלחוטית אחרי טעינה של שעה אחת",
+   "להבי פלדת אל חלד בהשחזה עצמית",
+   "100% עמיד במים לשטיפה תחת מים זורמים",
+   "מצב טורבו לשיער עבה"
+  ],
+  "goodFor": [
+   "תספורת ביתית עם מגוון אורכים, משיער קצר מאוד ועד ארוך יחסית",
+   "עיצוב זקן בעזרת מסרק הזקן המצורף",
+   "שיער עבה, בזכות מצב הטורבו",
+   "מי שמעדיף לשטוף את המכונה במים אחרי כל שימוש"
+  ],
+  "considerations": [
+   "זמן העבודה האלחוטי הוא כ-90 דקות; לתספורות ארוכות אפשר לעבור לשימוש חוטי",
+   "כדאי לוודא שיש שקע חשמל קרוב לאזור התספורת לטעינה או לשימוש חוטי",
+   "האורך נבחר בגלגלת על המכונה, כך שכדאי להכיר את הדרגות לפני התספורת הראשונה"
+  ],
+  "faq": [
+   {
+    "q": "כמה דרגות אורך יש במכונה?",
+    "a": "28 דרגות אורך, מ-0.5 ועד 28 מ״מ, הנבחרות בסיבוב גלגלת במרכז המכונה.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן היא עובדת בלי חוט?",
+    "a": "כ-90 דקות של שימוש אלחוטי אחרי טעינה של שעה אחת.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בה כשהסוללה ריקה?",
+    "a": "כן, ניתן להשתמש בה גם בחיבור לחשמל באופן רציף.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף אותה במים?",
+    "a": "כן, המכונה 100% עמידה במים וניתן לנקות אותה תחת מים זורמים.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "מסרק זקן של 2 מ״מ ושני מסרקי שיער, ארוך וקצר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת תספורת Philips HC5632/15: 28 דרגות אורך מ-0.5 עד 28 מ״מ, כ-90 דקות עבודה אלחוטית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת תספורת פיליפס",
+   "Philips HC5632/15",
+   "HC5632",
+   "מכונת תספורת אלחוטית",
+   "מכונת תספורת עמידה במים",
+   "מכונת תספורת לזקן ולשיער"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב ראש החיתוך",
+   "catalogValue": "41 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "פלדת אל-חלד עם מנגנון השחזה עצמית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דרגות אורך",
+   "catalogValue": "28",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח אורכים",
+   "catalogValue": "0.5 מ\"מ עד 28 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דיוק (קפיצות)",
+   "catalogValue": "1 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "ליתיום-יון (Li-Ion)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 90 דקות בשימוש אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "טעינה מלאה תוך שעה אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "100-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תחזוקה - עמידות במים",
+   "catalogValue": "עמידות מלאה במים (100% washable)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תחזוקה - שימון",
+   "catalogValue": "אין צורך בשימון הלהבים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית DualCut",
+   "catalogValue": "להב דו-צדדי לחיתוך מהיר פי 2",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית Trim-n-Flow Pro",
+   "catalogValue": "עיצוב מסרק המונע מהשיער להיתקע",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצב טורבו",
+   "catalogValue": "הגברת מהירות המנוע לשיער עבה וצפוף",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שימוש חוטי או אלחוטי",
+   "catalogValue": "כבל חשמל מחובר או אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזר: מסרק לזקן (2 מ\"מ)",
+   "catalogValue": "מסרק לזקן (2 מ\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אביזר: 2 מסרקים מתכווננים (3-15 מ\"מ ו-16-28 מ\"מ)",
+   "catalogValue": "2 מסרקים מתכווננים לשיער",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזר: מספריים",
+   "catalogValue": "מספריים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזר: מסרק עיצוב",
+   "catalogValue": "מסרק עיצוב",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזר: נרתיק אחסון רך",
+   "catalogValue": "נרתיק אחסון רך",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אביזר: מברשת ניקוי",
+   "catalogValue": "מברשת ניקוי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Philips",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור ייצור (origin_country)",
+   "catalogValue": "הולנד (Philips היא חברה הולנדית; המוצר מיוצר לרוב בסין או באינדונזיה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בחירת אורך באמצעות גלגלת",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "בחירה פשוטה באמצעות סיבוב הגלגלת במרכז המכונה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model is HC5632-15 with a hyphen. The pages name the model as HC5632/15 with a slash, and no page prints the hyphenated form. The research relied on this close code, so the catalog number needs a check.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The two Israeli retailer pages conflict on warranty length. Electroeshed says two years and Lior Electric says one year, both attributing it to Electra. No warranty fact is published.",
+   "severity": "high"
+  },
+  {
+   "field": "origin_country",
+   "issue": "The catalog origin text is self-contradictory: it names the Netherlands as the origin and then says the product is mostly made in China or Indonesia. No fetched page confirms either.",
+   "severity": "low"
+  },
+  {
+   "field": "סוגי מסרקים",
+   "issue": "The catalog gives comb lengths of 3-15 mm and 16-28 mm. The fetched retailer pages list two hair combs without lengths, so the comb sizes are unconfirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog uses HC5632-15; sources print HC5632/15. Same code, but confirm the catalog form.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The two Israeli retailer pages conflict on warranty length (two years vs one year, both via Electra). No warranty published.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Catalog origin text is self-contradictory (Netherlands vs made in China/Indonesia) and unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog cutter width 41 mm, 1 mm steps, Li-Ion, 100-240V, no-oil and comb lengths 3-15/16-28 mm were not confirmed by any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1 reworded: the quote describes the comb design but does not name Trim-n-Flow Pro, so the trademark name was dropped. Feature 3 wording tightened to what the quote supports. All other facts kept as researched."
+ }
+}

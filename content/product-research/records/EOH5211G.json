@@ -1,0 +1,334 @@
+{
+ "modelNumber": "EOH5211G",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EOH5211G",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Electrolux Israel site search lists the model EOH5211G as a built-in multifunction oven. No manufacturer spec sheet was reachable; specs come from two Israeli retailers that print the same table. Israeli importer not confirmed. | QA: Two Israeli retailers print the same spec table for EOH5211G matching the catalog; Electrolux Israel site lists the model. Importer not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ace.co.il/4479344",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://kreizman.co.il/product/eoh-5211-g-electrolux/",
+   "publisher": "Kreizman",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 59.4 × 56.9 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "56 × 59 × 55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "ACE description text mentions 71 L elsewhere; both spec tables say 72.",
+     "label": "נפח תא אפייה",
+     "value": "72 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source prints Kw/h; power unit is kW.",
+     "label": "הספק חימום מרבי",
+     "value": "2.8 kW"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "50°C – 275°C"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה בתוכנית טורבו",
+     "value": "0.81 kWh"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור פחם בשילוב זכוכית שחורה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית 4D EvenCooking® לפיזור חום אחיד בכל חלל התנור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Manufacturer marketing claim.",
+   "text": "חלל אפייה InfiSpace® עם נפח גדול ב-20% בהשוואה לחללים סטנדרטיים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Dropped defrost: catalog program list does not include it.",
+   "text": "9 תוכניות אפייה ובישול, כולל חום טורבו, גריל, קונבנציונלי ופיצה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "תנור בנוי דיגיטלי של Electrolux בצבע שחור פחם עם זכוכית שחורה, דגם EOH5211G, עם תא אפייה בנפח 72 ליטר. התנור כולל טכנולוגיית 4D EvenCooking® לפיזור חום אחיד, 9 תוכניות אפייה ובישול וטווח טמפרטורות של 50°C – 275°C. מתאים למי שמחפש תנור בנוי בדירוג אנרגטי A לנישה ברוחב 56 ס״מ.",
+  "highlights": [
+   "נפח תא אפייה 72 ליטר",
+   "טכנולוגיית 4D EvenCooking® לפיזור חום אחיד",
+   "9 תוכניות אפייה ובישול",
+   "טווח טמפרטורות 50°C – 275°C",
+   "דירוג אנרגטי A"
+  ],
+  "goodFor": [
+   "אפייה ובישול יומיומיים בתא אפייה בנפח 72 ליטר",
+   "מי שאופה פיצה או משתמש בגריל, עם תוכניות ייעודיות",
+   "מטבח בעיצוב כהה, בזכות גימור שחור פחם וזכוכית שחורה"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה במטבח מתאימה למידות 56 × 59 × 55 ס״מ (רוחב × גובה × עומק)",
+   "מידות התנור עצמו 59.5 × 59.4 × 56.9 ס״מ, כדאי לבדוק את חזית הארון",
+   "הספק החימום המרבי 2.8 kW, כדאי לוודא שקע ונקודת חשמל מתאימים"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח תא האפייה של Electrolux EOH5211G?",
+    "a": "נפח תא האפייה הוא 72 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "נישה ברוחב 56 ס״מ, גובה 59 ס״מ ועומק 55 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות של התנור?",
+    "a": "התנור פועל בטווח של 50°C – 275°C.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי של התנור?",
+    "a": "דירוג אנרגטי A, וצריכת האנרגיה בתוכנית טורבו היא 0.81 kWh.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Electrolux EOH5211G בצבע שחור, נפח 72 ליטר, 9 תוכניות אפייה ודירוג אנרגטי A. לנישה ברוחב 56 ס״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור בנוי Electrolux",
+   "EOH5211G",
+   "אלקטרולוקס EOH5211G",
+   "תנור בנוי שחור",
+   "תנור בנוי 72 ליטר",
+   "תנור בילט אין אלקטרולוקס",
+   "תנור בנוי דיגיטלי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא אפייה",
+   "catalogValue": "72 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 59.5 ס״מ, עומק 56.9 ס״מ, גובה 59.4 ס״מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מידות גומחה להבניה",
+   "catalogValue": "רוחב 56 ס״מ, עומק 55 ס״מ, גובה 59 ס״מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "הספק חימום מרבי",
+   "catalogValue": "2.8 קילוואט",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50°C – 275°C",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צריכת אנרגיה לתוכנית טורבו",
+   "catalogValue": "0.81 קילוואט/שעה",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צריכת אנרגיה לתוכנית קונבנציונלית",
+   "catalogValue": "0.93 קילוואט/שעה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור פחם בשילוב זכוכית שחורה",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "איטליה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "capacity",
+   "issue": "The ACE listing description says 71 liters, while its title and spec table say 72 liters. The spec table and Kreizman agree on 72.",
+   "severity": "medium"
+  },
+  {
+   "field": "importer",
+   "issue": "The Israeli importer is not confirmed. The Electrolux Israel site search lists the model, but no spec sheet or importer page was reachable.",
+   "severity": "low"
+  },
+  {
+   "field": "energy",
+   "issue": "The catalog's conventional-program consumption of 0.93 kWh could not be found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "power",
+   "issue": "The retailers print the units as Kw/h. The value here uses kW and kWh as the standard units.",
+   "severity": "low"
+  },
+  {
+   "field": "capacity",
+   "issue": "ACE listing description mentions 71 liters while its title and spec table say 72; Kreizman also says 72.",
+   "severity": "low"
+  },
+  {
+   "field": "features",
+   "issue": "ACE lists a defrost program among the 9 programs, but the catalog program list does not include defrost; verify the program list.",
+   "severity": "low"
+  },
+  {
+   "field": "importer",
+   "issue": "Israeli importer not confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "energy",
+   "issue": "Catalog conventional-program consumption 0.93 kWh not found on any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All 8 facts kept; units normalized from Kw/h to kW/kWh. Feature 2 reworded to drop the defrost program, which the catalog's program list does not include. Feature 1 (20% larger) kept as manufacturer marketing wording from a retailer page."
+ }
+}

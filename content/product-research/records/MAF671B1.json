@@ -1,0 +1,487 @@
+{
+ "modelNumber": "MAF671B1",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MAF671B1",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן הגרמני ודף הספק הפולני מזהים את הדגם MAF671B1 (סדרה 6, שחור). לא נמצא דף ישראלי של היצרן או היבואן שמזכיר את הדגם, ולכן לא צוין יבואן. | QA: Bosch DE manufacturer page names MAF671B1 (Serie 6, black, 7.2 l), matching the catalog name. No Israeli importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/de/de/product/kuechengeraete/air-fryer/1-kammer/MAF671B1",
+   "publisher": "Bosch Hausgeräte DE",
+   "kind": "manufacturer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/pl-PL/MAF671B1.pdf",
+   "publisher": "Bosch spec sheet (PL)",
+   "kind": "manufacturer",
+   "market": "PL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סדרה",
+     "value": "Serie 6"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד (EAN)",
+     "value": "4242005525997"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote is H×B×T 314×309×388 mm; reordered correctly.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "30.9 × 31.4 × 38.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 5.6 kg.",
+     "label": "משקל נטו",
+     "value": "5.8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח סל הטיגון",
+     "value": "7.2 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר סלים",
+     "value": "1"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "40–200 °C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כוונון טמפרטורה",
+     "value": "במדרגות של 5 °C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "8"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "לוח בקרה",
+     "value": "מגע (Touch Control)"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "63 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "90 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית Air Frying – מתחילים לבשל מיד, ללא חימום מוקדם"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed claim about not pulling the basket.",
+   "text": "חלון צפייה למעקב אחר תהליך הבישול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עצירה אוטומטית כשהסל נשלף והגנה מפני חימום יתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote does not specify which parts.",
+   "text": "חלקים המתאימים לשטיפה במדיח כלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Warmhalten = keep warm.",
+   "text": "תוכניות מוגדרות מראש: לחם, דגים, צ'יפס, שמירה על חום, בשר, מאפים קטנים, עוף וירקות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סט גריל (1 יחידה)"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כבל חשמל באורך 90 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "סיר טיגון באוויר חם של Bosch מסדרת Serie 6, דגם MAF671B1 בצבע שחור, עם סל יחיד בנפח 7.2 ליטר והספק 1800 W. טווח הטמפרטורות הוא 40–200 °C בכוונון של 5 °C, ויש 8 תוכניות מוגדרות מראש ולוח בקרה במגע. מתאים למי שמבשל כמויות גדולות בסל אחד ורוצה לעקוב אחרי האוכל דרך חלון צפייה.",
+  "highlights": [
+   "סל טיגון בנפח 7.2 ליטר",
+   "הספק 1800 W",
+   "טווח טמפרטורות 40–200 °C בכוונון של 5 °C",
+   "8 תוכניות מוגדרות מראש, כולל שמירה על חום",
+   "חלון צפייה ועצירה אוטומטית כשהסל נשלף"
+  ],
+  "goodFor": [
+   "בישול כמויות גדולות בסל אחד",
+   "מי שרוצה תוכניות מוכנות לצ'יפס, עוף, דגים, ירקות ומאפים",
+   "מי שרוצה לעקוב אחרי הבישול דרך חלון צפייה",
+   "התחלת בישול מיידית ללא חימום מוקדם"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש למכשיר במידות 30.9 × 31.4 × 38.8 ס״מ",
+   "כבל החשמל באורך 90 ס״מ – כדאי שיהיה שקע קרוב",
+   "הספק 1800 W – עדיף שקע שאינו משותף עם מכשירים כבדים אחרים",
+   "משקל המכשיר 5.8 ק״ג"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הסל של Bosch MAF671B1?",
+    "a": "לסיר סל טיגון יחיד בנפח 7.2 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "40–200 °C, בכוונון במדרגות של 5 °C.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות יש לסיר?",
+    "a": "8 תוכניות: לחם, דגים, צ'יפס, שמירה על חום, בשר, מאפים קטנים, עוף וירקות.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשטוף חלקים במדיח?",
+    "a": "כן, לפי היצרן יש חלקים המתאימים לשטיפה במדיח כלים.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "לפי היצרן, מגיע עם סט גריל אחד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון באוויר חם Bosch MAF671B1 שחור מסדרת Serie 6: סל 7.2 ליטר, הספק 1800 W ו-8 תוכניות מוגדרות מראש. בחדד אלקטריק נהריה",
+  "keywords": [
+   "סיר טיגון באוויר חם בוש",
+   "Bosch MAF671B1",
+   "MAF671B1",
+   "סיר טיגון ללא שמן 7.2 ליטר",
+   "בוש סדרה 6 סיר טיגון",
+   "air fryer בוש שחור",
+   "סיר טיגון באוויר חם סל גדול"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח סלסלה",
+   "catalogValue": "7.2 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "40 עד 200 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 31.4 ס״מ, רוחב 30.9 ס״מ, עומק 38.8 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "5.6 ק״ג",
+   "finding": "corrected",
+   "correctValue": "5.8 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "90 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "63 dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "8 תוכניות אוטומטיות מובנות כולל שמירה על חום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כוח לבישול עוף",
+   "catalogValue": "עד 1.8 ק״ג עוף שלם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת מנות",
+   "catalogValue": "5 מנות צ'יפס",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "צג LED עם לחצני מגע (Touch Control)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוי במדיח",
+   "catalogValue": "מגירה ורשת נשלפות מתאימות לשטיפה במדיח כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיסכון בזמן ובאנרגיה",
+   "catalogValue": "עד 65% מהר יותר ועד 70% חיסכון באנרגיה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין (תחת פיקוח הנדסי של Bosch גרמניה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ברקוד (EAN)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "4242005525997",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל נטו",
+   "issue": "הקטלוג מציין 5.6 ק״ג, ודף היצרן הגרמני ודף הספק הפולני מציינים 5.8 ק״ג",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר תוכניות",
+   "issue": "דף היצרן הגרמני מונה 8 תוכניות כולל שמירה על חום, ודף הספק הפולני מונה 7 תוכניות אוטומטיות ותוכנית חימום נפרדת",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן ישראלי",
+   "issue": "לא נמצא דף ישראלי של היצרן או היבואן שמזכיר את הדגם MAF671B1, ולכן לא אומת שהדגם הנמכר בישראל הוא הווריאנט הזה",
+   "severity": "medium"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "ארץ הייצור בקטלוג לא נמצאה בדפי היצרן שנבדקו",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "הקטלוג מציין 5.6 ק״ג ודף היצרן מציין 5.8 ק״ג",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן ישראלי",
+   "issue": "לא נמצא דף ישראלי של היצרן או היבואן לדגם, הווריאנט הישראלי לא אומת",
+   "severity": "low"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "ארץ הייצור בקטלוג לא אומתה במקורות",
+   "severity": "low"
+  },
+  {
+   "field": "תיאור קטלוג",
+   "issue": "הקטלוג מזכיר תאורה פנימית, התראת Shake וחיסכון של 65%/70% – לא אומתו בציטוטים",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1 reworded to what the quote says (viewing window to watch cooking). Feature 3 reworded: the quote says only that dishwasher-safe parts exist, not which ones. Feature 4: Warmhalten translated as keep-warm, not heating. Weight 5.8 kg from manufacturer replaces catalog 5.6 kg."
+ }
+}

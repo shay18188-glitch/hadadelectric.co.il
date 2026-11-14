@@ -1,0 +1,369 @@
+{
+ "modelNumber": "LFC319X",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "LFC319X",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "EPREL fiche 50375 names model identifier LFC319X 942022008. Electrolux Israel product page names LFC319X and gives dimensions, noise and max airflow. | QA: EPREL fiche 50375 and the Electrolux Israel product page both name LFC319X; dimensions and airflow match the catalog 90 cm chimney hood."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://electrolux.co.il/product/kitchen/cooking/hoods/%D7%A7%D7%95%D7%9C%D7%98-%D7%90%D7%93%D7%99%D7%9D-%D7%90%D7%A8%D7%95%D7%91%D7%94-90-%D7%A1%D7%9E/",
+   "publisher": "Electrolux Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://eprel.ec.europa.eu/informationsheet/Fiche_50375_EN.pdf",
+   "publisher": "EPREL (EU energy label)",
+   "kind": "regulator",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote is H×W×D; reordered.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "898 × 690–1,020 × 450 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב יניקה מקסימלי",
+     "value": "420 מ״ק לשעה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב יניקה מינימלי",
+     "value": "235 מ״ק לשעה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג יעילות סינון שומן",
+     "value": "D"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Decimal comma to point.",
+     "label": "יעילות תאורה",
+     "value": "9.6 לוקס לוואט"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש מקסימלית",
+     "value": "66 דציבל"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש מינימלית",
+     "value": "53 דציבל"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Decimal comma to point.",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "72.8 קוט״ש לשנה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "D"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Decimal comma to point.",
+     "label": "צריכת חשמל במצב כבוי",
+     "value": "0.01 ואט"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה ללא טביעות אצבע"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גימור נירוסטה ללא טביעות אצבע"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קולט אדים ארובה של Electrolux ברוחב 898 מ״מ, בגימור נירוסטה ללא טביעות אצבע. קצב היניקה המקסימלי הוא 420 מ״ק לשעה, ורמת הרעש נעה בין 53 ל-66 דציבל. מתאים למי שמחפש קולט ארובה רחב ונקי למראה מעל הכיריים.",
+  "highlights": [
+   "קצב יניקה מקסימלי של 420 מ״ק לשעה",
+   "רמת רעש של 53 דציבל במהירות הנמוכה",
+   "גובה ארובה מתכוונן בין 690 ל-1,020 מ״מ",
+   "גימור נירוסטה ללא טביעות אצבע",
+   "דירוג אנרגטי D"
+  ],
+  "goodFor": [
+   "מטבח עם כיריים רחבות שצריך קולט ארובה ברוחב 898 מ״מ",
+   "מטבחים בגבהי תקרה שונים, בזכות ארובה מתכווננת",
+   "מי שמעדיף משטח נירוסטה שקל לשמור נקי מטביעות אצבע"
+  ],
+  "considerations": [
+   "ודאו שיש מקום על הקיר לרוחב 898 מ״מ ולעומק 450 מ״מ מעל הכיריים",
+   "מדדו את הגובה מעל הכיריים עד התקרה: הארובה מתכווננת בין 690 ל-1,020 מ״מ",
+   "בדקו שקע חשמל ומסלול ליציאת אוויר בנקודת ההתקנה",
+   "דירוג האנרגיה ויעילות סינון השומן הם D, כדאי לקחת זאת בחשבון בהשוואה לדגמים אחרים"
+  ],
+  "faq": [
+   {
+    "q": "מה עוצמת היניקה של הקולט?",
+    "a": "קצב היניקה המקסימלי הוא 420 מ״ק לשעה והמינימלי 235 מ״ק לשעה.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש הקולט?",
+    "a": "רמת הרעש היא 53 דציבל במהירות הנמוכה ו-66 דציבל במהירות הגבוהה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הקולט?",
+    "a": "רוחב 898 מ״מ, עומק 450 מ״מ, וגובה מתכוונן בין 690 ל-1,020 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל הקולט צורך?",
+    "a": "צריכת האנרגיה השנתית היא 72.8 קוט״ש, ודירוג האנרגיה הוא D.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קולט אדים ארובה Electrolux LFC319X ברוחב 898 מ״מ, יניקה של 420 מ״ק לשעה ורעש של 53–66 דציבל, נירוסטה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קולט אדים ארובה 90 ס\"מ",
+   "Electrolux LFC319X",
+   "קולט אדים אלקטרולוקס",
+   "LFC319X",
+   "קולט אדים נירוסטה 90",
+   "קולט אדים ארובה אלקטרולוקס",
+   "קולט אדים שקט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב",
+   "catalogValue": "89.8 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "45 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "69.0 - 102.0 ס\"מ (מתכוונן)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב יניקה מקסימלי",
+   "catalogValue": "420 מ\"ק לשעה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קצב יניקה מינימלי",
+   "catalogValue": "235 מ\"ק לשעה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמת רעש מקסימלית",
+   "catalogValue": "66 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמת רעש מינימלית",
+   "catalogValue": "53 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "D",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה עמידה לטביעות אצבע",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יעילות זרימה אווירודינמית",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "E",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "9.4 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "120 ואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "3 (לחצנים מכניים)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוטר יציאת אוויר",
+   "catalogValue": "150 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "2 נורות LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מסננים",
+   "catalogValue": "3 מסנני שומן מאלומיניום רחיצים",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נתונים לא מאומתים",
+   "issue": "Motor power 120 W, 3 speeds, net weight 9.4 kg, 150 mm air outlet, LED lighting and aluminium filters from the catalog were not found on any page read. Check them against the product box or the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "תוקף המקור",
+   "issue": "The Electrolux Israel product page is dated 2024. Confirm the dimensions and noise figures against the current unit before relying on them.",
+   "severity": "low"
+  },
+  {
+   "field": "נתונים לא מאומתים",
+   "issue": "Catalog motor power 120 W, 3 speeds, net weight 9.4 kg, 150 mm outlet, 2 LED lights and 3 aluminium grease filters were not found on any source; check against the manual or box.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All 11 facts kept from ok quotes on pages naming LFC319X. Decimal commas from the EU fiche rewritten as decimal points (9.6, 72.8, 0.01). Dimension order restated as W×H×D from the Electrolux Israel H×W×D quote. Catalog motor power, speeds, weight, outlet diameter, lighting and filter details were not verified and are not published."
+ }
+}

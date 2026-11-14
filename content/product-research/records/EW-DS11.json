@@ -1,0 +1,295 @@
+{
+ "modelNumber": "EW-DS11",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "EW-DS11",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "No Panasonic or Israeli page readable for this model (HK page 404, Japan PDF 404). Facts come from foreign retailer pages (Amazon Japan, YesStyle, Japan Goods Finder), which name EW-DS11 or EW-DS11-W/-S colour variants. Model is an older Pocket Doltz, newer versions exist. | QA: Sources name EW-DS11 and colour suffixes (-W, -S, black) on Japanese/international retailer pages; no manufacturer or Israeli page. Israeli variant unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.amazon.co.jp/-/en/Panasonic-EW-DS11-W-Vibration-Toothbrush-Limited/dp/B0044C3SWM",
+   "publisher": "Amazon Japan",
+   "kind": "retailer",
+   "market": "JP",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.yesstyle.com/en/panasonic-doltz-electric-pocket-toothbrush-ew-ds11-black-1-pc/info.html/pid.1059938518",
+   "publisher": "YesStyle",
+   "kind": "retailer",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://japangoodsfinder.ecwid.com/Panasonic-Pocket-DOLTZ-Sonic-Tooth-Brush-EW-DS11-S-Silver-p5557664",
+   "publisher": "Japan Goods Finder",
+   "kind": "retailer",
+   "market": "JP",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות",
+     "value": "כ-16,000 תנודות לדקה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג רטט",
+     "value": "רטט סוני"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ספק כוח",
+     "value": "סוללת AAA אחת"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "כ-45 גרם (כולל סוללה ומכסה)"
+    },
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "16 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר",
+     "value": "ABS"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ראש מברשת בעל קצוות כפולים להגעה לרווחים בין השיניים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גוף המכשיר ניתן לשטיפה"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה מגן לשמירה על היגיינה ולנשיאה נוחה בתיק"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Panasonic EW-DS11 היא מברשת שיניים חשמלית קומפקטית מסדרת Pocket Doltz, הפועלת על סוללת AAA אחת ללא צורך בבסיס טעינה. היא מפיקה רטט סוני של כ-16,000 תנודות לדקה, שוקלת כ-45 גרם וגובהה 16 ס״מ. מתאימה למי שמחפש מברשת חשמלית קטנה לתיק, למשרד או לנסיעות.",
+  "highlights": [
+   "רטט סוני של כ-16,000 תנודות לדקה",
+   "פועלת על סוללת AAA אחת – ללא מטען",
+   "משקל של כ-45 גרם כולל סוללה ומכסה",
+   "ראש מברשת עם קצוות כפולים להגעה בין השיניים",
+   "מכסה מגן וגוף שניתן לשטוף"
+  ],
+  "goodFor": [
+   "נשיאה בתיק יד או בתיק איפור לצחצוח במהלך היום",
+   "נסיעות וטיולים בלי לסחוב מטען או בסיס טעינה",
+   "שימוש במשרד או בעבודה"
+  ],
+  "considerations": [
+   "יש להחזיק סוללות AAA רזרביות, כי המברשת אינה נטענת",
+   "כדאי לוודא זמינות של ראשי מברשת חלופיים לדגם",
+   "מדובר במברשת נסיעות קומפקטית ולא במברשת עם מצבי ניקוי מרובים"
+  ],
+  "faq": [
+   {
+    "q": "איך מפעילים את המברשת?",
+    "a": "היא פועלת על סוללת AAA אחת, כך שאין צורך במטען או בבסיס טעינה.",
+    "sources": []
+   },
+   {
+    "q": "כמה היא שוקלת?",
+    "a": "כ-45 גרם, כולל הסוללה והמכסה.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשטוף אותה?",
+    "a": "כן, גוף המכשיר ניתן לשטיפה.",
+    "sources": []
+   },
+   {
+    "q": "האם היא מתאימה לתיק?",
+    "a": "כן. גובהה 16 ס״מ ויש לה מכסה מגן ששומר על הסיבים היגייניים בזמן הנשיאה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מברשת שיניים חשמלית Panasonic EW-DS11 לנסיעות: רטט סוני של כ-16,000 תנודות לדקה, סוללת AAA אחת ומשקל כ-45 גרם. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Panasonic EW-DS11",
+   "מברשת שיניים חשמלית פנסוניק",
+   "מברשת שיניים סונית",
+   "מברשת שיניים חשמלית לנסיעות",
+   "מברשת שיניים על סוללה",
+   "Pocket Doltz",
+   "מברשת שיניים חשמלית קטנה לתיק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מהירות",
+   "catalogValue": "16,000 תנודות לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ספק כוח",
+   "catalogValue": "סוללת AAA אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-45 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "כ-37 דציבלים",
+   "finding": "contradicted",
+   "correctValue": "51 dB (retailer claim)",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "כ-180 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבעים",
+   "catalogValue": "אדום, שחור, ורוד",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "No manufacturer or Israeli page readable; facts are from foreign retailers only.",
+   "severity": "high"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "Catalog says 37 dB, a retailer page says 51 dB.",
+   "severity": "medium"
+  },
+  {
+   "field": "סטטוס מוצר",
+   "issue": "Older model; newer versions exist (EW-DS12, EW-DS1C).",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer or Israeli page; facts come only from foreign retailers (Japan/international). Israeli variant unclear.",
+   "severity": "high"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "Catalog says about 37 dB; a retailer page says 51 dB. Not verified, not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "Catalog runtime of about 180 minutes is not verified by any source.",
+   "severity": "low"
+  },
+  {
+   "field": "סטטוס מוצר",
+   "issue": "Older Pocket Doltz model; newer versions exist (EW-DS12, EW-DS1C). Check it is still current.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features kept; each has ok quotes on pages naming EW-DS11 (colour variants -W/-S/black). Sources are foreign retailers only (Japan/international), so identity set to medium. Catalog noise level (37 dB) and runtime (180 min) are not verified and not published; a retailer cites 51 dB."
+ }
+}

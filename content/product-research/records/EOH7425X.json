@@ -1,0 +1,548 @@
+{
+ "modelNumber": "EOH7425X",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EOH7425X",
+  "israeliImporter": "מיניליין",
+  "matchConfidence": "high",
+  "notes": "דפי מוכרים בישראל (CityDeal, Ezone) מציינים אחריות שנה ע״י מיניליין היבואן הרשמי. לא נמצא דף מוצר רשמי של היצרן או היבואן עם מפרט למודל זה. דפי המוכרים מסכימים על 71 ליטר ועל ייצור בגרמניה, בניגוד לקטלוג. | QA: שני דפי מוכרים ישראליים מציינים את הדגם המדויק EOH7425X, תנור בנוי נירוסטה של Electrolux, באחריות מיניליין. לא נמצא דף יצרן רשמי."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%91%D7%99%D7%9C%D7%93-%D7%90%D7%99%D7%9F-71-%D7%9C%D7%99%D7%98%D7%A8-electrolux-eoh7425x-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח שמיש",
+     "value": "71 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "סדר התווית תוקן לפי הציטוט (גxרxע)",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "59.4 × 59.4 × 56.7 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (גובה × רוחב × עומק)",
+     "value": "58.9 × 56 × 55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "50°C – 275°C"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה לתוכנית טורבו",
+     "value": "0.81 kWh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה לתוכנית קונבנציונלית",
+     "value": "0.99 kWh"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות עבודה",
+     "value": "9"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "נירוסטה ללא טביעות אצבע"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "סותר את הקטלוג (פולין); מקור מוכר בלבד בשורת שיווק, דורש אימות מול היבואן",
+     "label": "מדינת ייצור",
+     "value": "גרמניה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י מיניליין היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת SurroundCook לבישול ואפייה בו זמנית במספר תבניות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא אפייה InfiSpace גדול ב-20% מתנור סטנדרטי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "דלת קרה CoolDoor Plus עם 3 שכבות זכוכית רפלקטור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי Aqua Cleaning בסיוע אדים ב-90°C ב-30 דקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סט מסילות טלסקופיות לתבנית אחת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום עליון מתפרק כלפי מטה לניקוי פשוט וקל"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגשי InfiSpace: 2 רגילים, 1 עמוק ו-1 רשת"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Electrolux EOH7425X הוא תנור בנוי בגימור נירוסטה ללא טביעות אצבע, עם תא אפייה בנפח שמיש של 71 ליטר ו-9 תוכניות עבודה. מערכת SurroundCook מאפשרת בישול ואפייה בו זמנית במספר תבניות, וניקוי Aqua Cleaning בסיוע אדים מקל על התחזוקה. מתאים למי שמחפש תנור בנוי מרווח לנישה סטנדרטית במטבח.",
+  "highlights": [
+   "נפח שמיש של 71 ליטר",
+   "9 תוכניות עבודה, כולל טורבו אקטיבי, פיצה וגריל",
+   "דירוג אנרגטי A",
+   "דלת קרה CoolDoor Plus עם 3 שכבות זכוכית",
+   "ניקוי Aqua Cleaning בסיוע אדים ב-90°C"
+  ],
+  "goodFor": [
+   "אפייה במספר תבניות בו זמנית בזכות SurroundCook",
+   "בתים עם ילדים, בזכות דלת קרה עם 3 שכבות זכוכית",
+   "מי שרוצה ניקוי קל בעזרת אדים וגוף חימום עליון מתפרק",
+   "החלפת תנור בנוי בנישה ברוחב 56 ס״מ"
+  ],
+  "considerations": [
+   "יש לוודא שמידות הנישה הן לפחות 58.9 × 56 × 55 ס״מ (גובה × רוחב × עומק)",
+   "עומק התנור 56.7 ס״מ, כדאי לבדוק את עומק הארון ומיקום השקע מאחור",
+   "המסילות הטלסקופיות מגיעות לתבנית אחת בלבד",
+   "האחריות היא לשנה ע״י מיניליין היבואן הרשמי"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של התנור?",
+    "a": "הנפח השמיש של תא האפייה הוא 71 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "מידות הגומחה הנדרשות הן 58.9 × 56 × 55 ס״מ (גובה × רוחב × עומק).",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את התנור?",
+    "a": "התנור כולל ניקוי Aqua Cleaning בסיוע אדים ב-90°C ב-30 דקות, וגוף החימום העליון מתפרק כלפי מטה לניקוי התקרה.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "מגשי InfiSpace: 2 רגילים, 1 עמוק ו-1 רשת.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "התנור פועל בטווח של 50°C עד 275°C.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Electrolux EOH7425X נירוסטה: נפח שמיש 71 ליטר, 9 תוכניות עבודה, SurroundCook וניקוי באדים. לפרטים בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux EOH7425X",
+   "תנור בנוי אלקטרולוקס",
+   "EOH7425X",
+   "תנור בנוי נירוסטה",
+   "תנור בנוי 71 ליטר",
+   "תנור SurroundCook",
+   "תנור בנוי עם ניקוי אדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר: 72 ליטר",
+   "catalogValue": "72 ליטר",
+   "finding": "corrected",
+   "correctValue": "71 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא האפייה",
+   "catalogValue": "72 ליטר",
+   "finding": "corrected",
+   "correctValue": "71 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "2790 וואט",
+   "finding": "contradicted",
+   "correctValue": "3.5 (מצוין כ-kWh בדף המוכר, היחידה לא ברורה)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50°C - 275°C",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות: גובה 59.4 ס״מ, רוחב 59.4 ס״מ, עומק 56.8 ס״מ",
+   "catalogValue": "59.4 / 59.4 / 56.8 ס״מ",
+   "finding": "corrected",
+   "correctValue": "59.4 × 59.4 × 56.7 ס״מ (עומק 567 מ״מ)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה: גובה 60 ס״מ",
+   "catalogValue": "60 ס״מ",
+   "finding": "corrected",
+   "correctValue": "58.9 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה: רוחב 56 ס״מ",
+   "catalogValue": "56 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה: עומק 55 ס״מ",
+   "catalogValue": "55 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח רשת 230 וולט",
+   "catalogValue": "230 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל נטו 31.4 ק״ג",
+   "catalogValue": "31.4 ק״ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור נירוסטה עם ציפוי דוחה טביעות אצבע",
+   "catalogValue": "נירוסטה עם ציפוי דוחה טביעות אצבע",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זכוכית שחורה בדלת",
+   "catalogValue": "זכוכית שחורה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורה פנימית הלוגן 40 וואט",
+   "catalogValue": "הלוגן 40 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים: רשת אחת ו-2 תבניות (עמוקה ושטוחה)",
+   "catalogValue": "רשת אחת ו-2 תבניות",
+   "finding": "corrected",
+   "correctValue": "2 מגשים רגילים, מגש עמוק אחד ורשת אחת",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור: פולין",
+   "catalogValue": "פולין",
+   "finding": "contradicted",
+   "correctValue": "גרמניה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית SurroundCook",
+   "catalogValue": "SurroundCook",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת VelvetClosing לסגירת דלת שקטה",
+   "catalogValue": "VelvetClosing",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "9 תוכניות בישול ואפייה",
+   "catalogValue": "9",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דלת קרה עם 3 שכבות זכוכית",
+   "catalogValue": "3 שכבות זכוכית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסילות טלסקופיות לתבנית",
+   "catalogValue": "מסילות טלסקופיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זכוכית פנימית ודלת ניתנות לפירוק",
+   "catalogValue": "ניתנות לפירוק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום עליון מתפרק כלפי מטה",
+   "catalogValue": "מתפרק כלפי מטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Aqua Cleaning (ניקוי בעזרת אדים)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח",
+   "issue": "שם המוצר בקטלוג מציין 72 ליטר, אך שני דפי המוכרים (CityDeal, Ezone) מציינים 71 ליטר נפח שמיש. יש לתקן את השם והנפח לאחר בדיקה.",
+   "severity": "high"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "הקטלוג מציין פולין כמדינת ייצור; דפי המוכרים מציינים תוצרת גרמניה. יש לוודא מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מקסימלי",
+   "issue": "הקטלוג מציין 2790 וואט; דפי המוכרים מציינים 3.5 במפרט הספק מקסימלי, עם היחידה kWh שאינה הגיונית לתנור. לא פורסמה עובדה על הספק. יש לבדוק בתווית היצרן או במדריך.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות נישה",
+   "issue": "הקטלוג מציין גובה נישה 60 ס״מ; דפי המוכרים מציינים 58.9 ס״מ (589 מ״מ). יש לבדוק לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל נטו (31.4 ק״ג) בקטלוג לא נמצא באף דף שנבדק. לא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור רשמי",
+   "issue": "לא נמצא דף מוצר רשמי של היצרן או היבואן עבור EOH7425X. העובדות מבוססות על שני דפי מוכרים ישראליים בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר / נפח",
+   "issue": "הקטלוג מציין 72 ליטר; דף המוכר מציין נפח שמיש 71 ליטר.",
+   "severity": "high"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "הקטלוג מציין פולין; דף המוכר מציין תוצרת גרמניה. לא פורסם, יש לוודא מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מקסימלי",
+   "issue": "הקטלוג מציין 2790 וואט ולא נמצא אימות; דף המוכר מציג ערך ביחידה לא הגיונית. לא פורסם.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות נישה וחיצוניות",
+   "issue": "הקטלוג מציין גובה נישה 60 ס״מ ועומק תנור 56.8 ס״מ; דף המוכר מציין 58.9 ס״מ ו-56.7 ס״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "אביזרים",
+   "issue": "הקטלוג מציין רשת ו-2 תבניות; דף המוכר מציין 2 מגשים רגילים, מגש עמוק ורשת.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור רשמי",
+   "issue": "אין דף יצרן או יבואן; כל העובדות מדף מוכר ישראלי אחד.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות מבוססות על דף CityDeal בלבד (מוכר ישראלי לדגם המדויק). תווית המידות תוקנה לסדר גובה × רוחב × עומק כפי שבציטוט. מדינת הייצור (גרמניה) נדחתה כי היא סותרת את הקטלוג (פולין) ומקורה בדף מוכר בלבד."
+ }
+}

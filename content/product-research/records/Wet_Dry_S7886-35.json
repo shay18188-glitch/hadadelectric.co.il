@@ -1,0 +1,472 @@
+{
+ "modelNumber": "Wet  Dry S7886-35",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "S7886/35",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "high",
+  "notes": "הדגם S7886/35 מופיע בדף היצרן ובשלושה אתרים ישראליים (באג, טרקלין, סיטי דיל). מידות ומשקל לא נמצאו בדפים שנבדקו. | QA: Catalog code 'Wet  Dry S7886-35' is the Philips S7886/35; manufacturer and three Israeli retailer pages name S7886/35."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.philips.co.uk/shop/UK_Klarna/personal-care/face-shavers/shaver-series-7000-wet-dry-electric-shaver/p/S7886_35",
+   "publisher": "Philips",
+   "kind": "manufacturer",
+   "market": "GB",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/%d7%9e%d7%9b%d7%95%d7%a0%d7%aa-%d7%92%d7%99%d7%9c%d7%95%d7%97-%d7%97%d7%a9%d7%9e%d7%9c%d7%99%d7%aa-%d7%9c%d7%a9%d7%99%d7%9e%d7%95%d7%a9-%d7%a8%d7%98%d7%95%d7%91-%d7%95%d7%99%d7%91%d7%a9-s788635",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/מכונת-גילוח-נטענת-יבש/רטוב-philips-9443453454",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.traklin.co.il/מוצרי_טיפוח_ועיצוב/מכונות_גילוח_ותספורת/מכונת_גילוח_רטוביבש_philips_דגם_s788635_פיליפס",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות חיתוך",
+     "value": "עד 90,000 פעולות חיתוך בדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיישן Power Adapt",
+     "value": "קריאת צפיפות השיער 250 פעמים בשנייה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שימוש",
+     "value": "רטוב ויבש"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "ליתיום-יון"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 60 דקות גילוח אלחוטי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "1 שעה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טעינה מהירה",
+     "value": "5 דקות לגילוח אחד"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים, ע״י אלקטרה"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Time-limited promotion, not a product attribute.",
+     "label": "הרחבת אחריות במבצע",
+     "value": "5/7 שנים במבצע"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור וכחול"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote does not name Nano SkinGlide; reworded.",
+   "text": "ציפוי מגן בין ראשי הגילוח לעור להחלקה חלקה יותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "45 להבים המשחיזים את עצמם, מיוצרים באירופה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיישן תנועה שעוקב אחר אופן הגילוח ומנחה לתנועה יעילה יותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראשים גמישים המסתובבים ב-360° להתאמה לקווי הפנים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיבור לאפליקציית Philips GroomTribe להדרכת גילוח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוזם פאות פופ-אפ משולב"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עמיד במים, אפשר לגלח גם במקלחת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתיחה בנגיעה אחת לניקוי קל"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עמדת טעינה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת ניקוי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תיק נסיעות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מטען USB (ללא מתאם מתח)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "הסוללה מספקת עד 60 דקות גילוח אלחוטי ונטענת במלואה בשעה, וטעינה מהירה של 5 דקות מספיקה לגילוח אחד. מתאימה למי שרוצה גילוח צמוד ונוח, גם במקלחת.",
+  "highlights": [
+   "עד 90,000 פעולות חיתוך בדקה",
+   "עד 60 דקות גילוח אלחוטי, טעינה מלאה בשעה",
+   "טעינה מהירה של 5 דקות לגילוח אחד",
+   "שימוש רטוב ויבש, עמידה במים",
+   "אחריות שנתיים ע״י אלקטרה"
+  ],
+  "goodFor": [
+   "מי שמעדיף לגלח במקלחת או עם ג׳ל וקצף",
+   "נסיעות, בזכות תיק הנסיעות והסוללה הנטענת",
+   "מי שרוצה הדרכה לשיפור טכניקת הגילוח דרך אפליקציה",
+   "גילוח קווי פנים ולסת בזכות ראשים גמישים"
+  ],
+  "considerations": [
+   "המטען בחיבור USB ומתאם מתח אינו כלול בקופסה, כדאי לוודא שיש בבית מתאם USB לשקע",
+   "חיבור לאפליקציית GroomTribe דורש סמארטפון",
+   "גוזם הפאות מובנה בידית, אין ראשי טיפוח נוספים בקופסה"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להשתמש במכונה במקלחת?",
+    "a": "כן. המכונה עמידה במים ומתאימה לגילוח יבש, לגילוח רטוב עם ג׳ל או קצף ולגילוח במקלחת.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "עד 60 דקות גילוח אלחוטי בטעינה מלאה, והטעינה המלאה לוקחת שעה.",
+    "sources": []
+   },
+   {
+    "q": "מה אם שכחתי לטעון?",
+    "a": "טעינה מהירה של 5 דקות מספיקה לגילוח אחד.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול בקופסה?",
+    "a": "עמדת טעינה, מברשת ניקוי, תיק נסיעות ומטען USB, ללא מתאם מתח.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנתיים אחריות ע״י אלקטרה, בכפוף לתעודת האחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מכונת גילוח פיליפס",
+   "Philips S7886/35",
+   "פיליפס סדרה 7000",
+   "מכונת גילוח רטוב יבש",
+   "S7886",
+   "מכונת גילוח נטענת",
+   "מכונת גילוח לגברים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מערכת חיתוך",
+   "catalogValue": "להבי SteelPrecision המבצעים עד 90,000 פעולות חיתוך בדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעקב קווי מתאר",
+   "catalogValue": "ראשים גמישים ב-360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי",
+   "catalogValue": "ציפוי Protective SkinGlide",
+   "finding": "corrected",
+   "correctValue": "Nano SkinGlide Coating",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישן Power Adapt",
+   "catalogValue": "חיישן Power Adapt",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "Li-ion (ליתיום-יון)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "60 דקות של גילוח אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "טעינה מלאה בשעה אחת, תמיכה בטעינה מהירה של 5 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "מסך LED מתקדם הכולל חיווי עוצמת סוללה, הנחיות ניקוי ונעילת נסיעה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "100-240V (התאמה אוניברסלית)",
+   "finding": "contradicted",
+   "correctValue": "מטען USB-A 5 V, מתאם מתח לא כלול",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "עמדת טעינה, נרתיק נסיעות קשיח, קוצץ פאות מובנה ומברשת ניקוי",
+   "finding": "corrected",
+   "correctValue": "עמדת טעינה, תיק נסיעות, גוזם פאות פופ-אפ משולב, מברשת ניקוי, מטען USB (ללא מתאם מתח)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קישוריות Bluetooth",
+   "catalogValue": "חיבור לאפליקציית GroomTribe",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שימוש Wet & Dry",
+   "catalogValue": "עמידות מלאה למים, גילוח יבש ורטוב",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "מספר הדגם בקטלוג הוא Wet  Dry S7886-35. הדפים מציינים S7886/35, ולא נמצא דף שמציג את הכתיב של הקטלוג. נעשה שימוש בקוד קרוב.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף הדגם מציין 2 שנות אחריות, ובמבצע יבואן הרשמי מופיעה הרחבה ל-5/7 שנים בהרשמה ובכפוף לתקנון המבצע. יש לבדוק מה חל על המכונה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "הקטלוג מציין 100-240V, אך הדף של היצרן מציין מטען USB בעל מתח 5 V ללא מתאם מתח. יש לבדוק את אביזרי הטעינה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "מידות ומשקל לא נמצאו באף אחד מהדפים שנבדקו, ולכן לא נרשמו.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "קוד הקטלוג 'Wet  Dry S7886-35' שונה מקוד היצרן S7886/35.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח",
+   "issue": "הקטלוג מציין 100-240V, אך בקופסה מטען USB ללא מתאם מתח; יש לבדוק את נתוני הטעינה בקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "תצוגה",
+   "issue": "תיאור מסך LED עם נעילת נסיעה בקטלוג לא אומת במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "ציפוי",
+   "issue": "הקטלוג מציין Protective SkinGlide; לא אומת שם הציפוי המדויק.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 8 (promotional warranty extension, not a product spec). Reworded feature 0 (quote does not name 'Nano' coating) and fixed spelling in feature 1. Catalog 100-240V and LED display claims not verified. | code guard removed: summary: \"מכונת גילוח Philips סדרה 7000 דגם S7886/35 לגילוח רטוב ויבש, עם ראשים גמישים ב-360° וחיישן Power Adapt שמתאים את העוצמה לצפיפות השיער.\"; metaDescription: \"מכונת גילוח Philips סדרה 7000 S7886/35 לגילוח רטוב ויבש, עד 60 דקות אלחוטי וטעינה מלאה בשעה. בחדד אלקטריק נהריה\""
+ }
+}

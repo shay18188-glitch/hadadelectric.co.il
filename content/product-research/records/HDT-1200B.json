@@ -1,0 +1,385 @@
+{
+ "modelNumber": "HDT-1200B",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hyundai",
+  "exactModel": "HDT-1200B",
+  "israeliImporter": "סמיקום לקסיס בע״מ",
+  "matchConfidence": "high",
+  "notes": "The black HDT-1200B is listed on Israeli retail and price-comparison pages, usually together with the white HDT-1200W or the combined HDT1200B/W listing. Only quotes that name HDT-1200B are used. No Hyundai or importer product page was found. | QA: Israeli retailer page and Zap pages name HDT-1200B in black, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lprsystem.co.il/product/%D7%98%D7%9C%D7%A4%D7%95%D7%9F-%D7%91%D7%99%D7%AA%D7%99-%D7%A9%D7%97%D7%95%D7%A8-hyundai-1200b",
+   "publisher": "אל פי אר אונליין",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/compmodels.aspx?modelid=881237",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=881237",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HDT-1200B"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Hyundai"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג המכשיר",
+     "value": "טלפון שולחני חוטי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "סמיקום לקסיס בע״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "reworded",
+     "label": "חיוג חוזר",
+     "value": "יש (Redial)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "reworded",
+     "label": "מצבי חיוג",
+     "value": "טונים ופולסים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "reworded",
+     "label": "בקרת צלצול",
+     "value": "יש"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מיקום התקנה",
+     "value": "שולחני או תלייה על הקיר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "לחצנים גדולים, בקרת עוצמת צלצול והשתקת מיקרופון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "עיצוב דק וקומפקטי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ניתן להציב על שולחן או לתלות על הקיר"
+  }
+ ],
+ "content": {
+  "summary": "Hyundai HDT-1200B הוא טלפון ביתי חוטי בצבע שחור, בעיצוב דק וקומפקטי. הוא מתאים להצבה על שולחן או לתלייה על הקיר, וכולל חיוג חוזר, בחירה בין חיוג טונים לפולסים ובקרת צלצול. מתאים למי שמחפש טלפון קווי פשוט עם לחצנים גדולים לבית או למשרד.",
+  "highlights": [
+   "טלפון חוטי בעיצוב דק וקומפקטי",
+   "הצבה על שולחן או תלייה על הקיר",
+   "חיוג חוזר (Redial) ובחירה בין טונים לפולסים",
+   "לחצנים גדולים, בקרת צלצול והשתקת מיקרופון",
+   "אחריות 12 חודשים מהיבואן סמיקום לקסיס"
+  ],
+  "goodFor": [
+   "מטבח או מסדרון שבהם נוח לתלות את הטלפון על הקיר",
+   "משתמשים שמעדיפים לחצנים גדולים ותפעול פשוט",
+   "עמדת עבודה או משרד שצריכים טלפון קווי בסיסי",
+   "קווים או מרכזיות שדורשים חיוג פולסים"
+  ],
+  "considerations": [
+   "יש לוודא שקע טלפון קווי זמין במיקום ההתקנה",
+   "לתלייה על הקיר כדאי לבדוק מראש את מיקום השקע ביחס לנקודת התלייה",
+   "זהו טלפון חוטי, ולכן השפופרת מחוברת בכבל ואינה ניידת ברחבי הבית"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר לתלות את Hyundai HDT-1200B על הקיר?",
+    "a": "כן, הטלפון מתאים גם להצבה על שולחן וגם לתלייה על הקיר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בטלפון חיוג חוזר?",
+    "a": "כן, הטלפון כולל חיוג חוזר (Redial) למספר האחרון.",
+    "sources": []
+   },
+   {
+    "q": "האם הטלפון תומך בחיוג פולסים?",
+    "a": "כן, אפשר לבחור בין חיוג טונים לחיוג פולסים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלפון?",
+    "a": "אחריות 12 חודשים על ידי היבואן הרשמי סמיקום לקסיס.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון ביתי חוטי Hyundai HDT-1200B בצבע שחור, להצבה על שולחן או לתלייה על הקיר, עם חיוג חוזר וטונים/פולסים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Hyundai HDT-1200B",
+   "טלפון ביתי חוטי",
+   "טלפון קווי שחור",
+   "טלפון יונדאי",
+   "טלפון לתלייה על הקיר",
+   "טלפון שולחני חוטי",
+   "טלפון עם לחצנים גדולים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג טלפון",
+   "catalogValue": "טלפון חוטי קומפקטי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אפשרויות התקנה",
+   "catalogValue": "שולחני או תלייה על הקיר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מצבי חיוג",
+   "catalogValue": "טונים (Tone) ופולסים (Pulse)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת צלצול",
+   "catalogValue": "לחצן כיוון עוצמת צלצול (גבוה/נמוך)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציות חיוג",
+   "catalogValue": "חיוג חוזר למספר אחרון (Redial)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציות חיוג - Flash",
+   "catalogValue": "לחצן הבזק (Flash)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "ללא צג (ללא זיהוי שיחה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דיבורית (Speaker)",
+   "catalogValue": "לא כולל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "12 חודשים על ידי היבואן הרשמי סמיקום לקסיס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "קוריאה הדרומית (מותג), מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מק\"ט/ברקוד",
+   "catalogValue": "7291044042610",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוג המכשיר",
+   "issue": "Zap listings for this model family mix corded (טלפון חוטי) with DECT technology. The catalog and most listings say corded. Confirm on the box or the importer's spec sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "שנת השקה",
+   "issue": "Zap shows older dates: one listing is dated 2009 and the HDT1200B/W spec entry is dated 7/2014. The model may be old or discontinued. The LPR page was modified in 2025, so it may still be sold.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Zap lists black and white variants together, and the HDT-1200W is a separate white model. The LPR page and the catalog say black only. Check the colour before publishing.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "No dimensions or weight were found on the fetched pages, and the catalog has none. Do not invent them.",
+   "severity": "low"
+  },
+  {
+   "field": "תצוגה, דיבורית, Flash, מדינת ייצור",
+   "issue": "Display, speaker, flash button and country of origin were not found on any fetched page. The catalog values are unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג המכשיר",
+   "issue": "Some Zap listings in this model family mention DECT; catalog and retailer say corded. Confirm on the box.",
+   "severity": "medium"
+  },
+  {
+   "field": "שנת השקה",
+   "issue": "Zap entries are dated 2009 and 2014; the model may be old or discontinued.",
+   "severity": "medium"
+  },
+  {
+   "field": "תצוגה, דיבורית, Flash, מדינת ייצור",
+   "issue": "Catalog values for display, speaker, flash button and origin were not found on any source and remain unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Catalog spells the importer סמיקון לקסיס; the retailer page says סמיקום לקסיס.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept with ok quotes on pages naming HDT-1200B. Reworded values for redial, dialing modes and ring control. Zap pages relabelled from review to other (price-comparison aggregator). Flash, display, speaker, dimensions and origin unverified and not published."
+ }
+}

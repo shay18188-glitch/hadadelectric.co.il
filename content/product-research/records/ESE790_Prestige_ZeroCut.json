@@ -1,0 +1,289 @@
+{
+ "modelNumber": "ESE790 Prestige ZeroCut",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sassonic",
+  "exactModel": "ESE790",
+  "israeliImporter": "אליאס אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "מצאתי את הדגם ESE790 בשני אתרי קמעונאות ישראליים. לא נמצא דף יצרן או יבואן עם מפרט מלא. | QA: Two Israeli retailer pages name the exact model Sassonic Prestige ZeroCut ESE790; no manufacturer or importer page was found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lashantel.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA-sassonic-prestige-zerocut-ese790-%D7%A1%D7%A1%D7%95%D7%A0%D7%99%D7%A7/",
+   "publisher": "Lashantel",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ace.co.il/4483617",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 3 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סכין חיתוך",
+     "value": "0.1 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "ליתיום"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צג",
+     "value": "צג דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote says metallic design",
+     "label": "עיצוב גוף",
+     "value": "מתכתי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פאנל חלופי בצבע כסוף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "conflict",
+   "note": "ACE: 1/2/3 mm; Lashantel: 1/2/3/6/9/12 mm",
+   "text": "מסרקי מידה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכונת תספורת נטענת Sassonic Prestige ZeroCut ESE790 עם סכין 0.1 מ״מ לגימור קרוב לעור. סוללת ליתיום מספקת עד 3 שעות עבודה אלחוטית, וצג דיגיטלי מציג את מצב הסוללה. מתאימה למי שמחפש מכונה לתספורת, קווי מתאר וגימור זקן בבית.",
+  "highlights": [
+   "סכין חיתוך 0.1 מ״מ",
+   "עד 3 שעות עבודה בטעינה",
+   "סוללת ליתיום",
+   "צג דיגיטלי",
+   "עיצוב גוף מתכתי עם פאנל חלופי בצבע כסוף"
+  ],
+  "goodFor": [
+   "גימור קרוב לעור וקווי מתאר בזכות סכין 0.1 מ״מ",
+   "עבודה אלחוטית ממושכת עם עד 3 שעות עבודה",
+   "מי שרוצה לעקוב אחר מצב הסוללה בצג דיגיטלי"
+  ],
+  "considerations": [
+   "ערכת מסרקי המידה המצורפת משתנה בין מקורות – כדאי לבדוק אילו מסרקים כלולים באריזה",
+   "סכין 0.1 מ״מ מיועדת לגימור קרוב לעור; לתספורת באורך יש להשתמש במסרקי מידה",
+   "האחריות היא לשנה – כדאי לשמור את חשבונית הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובדת המכונה בטעינה אחת?",
+    "a": "עד 3 שעות עבודה, עם סוללת ליתיום.",
+    "sources": []
+   },
+   {
+    "q": "כמה קרוב לעור המכונה חותכת?",
+    "a": "המכונה מגיעה עם סכין 0.1 מ״מ לגימור קרוב מאוד לעור.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תצוגה של מצב הסוללה?",
+    "a": "כן, המכונה כוללת צג דיגיטלי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "אחריות מקורית לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת תספורת נטענת Sassonic Prestige ZeroCut ESE790 עם סכין 0.1 מ״מ ועד 3 שעות עבודה, צג דיגיטלי וגוף מתכתי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sassonic ESE790",
+   "ססוניק ESE790",
+   "Prestige ZeroCut",
+   "מכונת תספורת נטענת",
+   "מכונת תספורת ססוניק",
+   "מכונת תספורת 0.1 מ״מ",
+   "מכונת גימור זקן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "ליתיום-יון (Li-ion)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 180 דקות (3 שעות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג",
+   "catalogValue": "צג דיגיטלי LCD המציג את אחוז טעינת הסוללה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דרגת חיתוך",
+   "catalogValue": "0.1 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פאנל חלופי",
+   "catalogValue": "פאנל מתכתי חלופי בצבע כסוף",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מסרקי מידה",
+   "catalogValue": "3 מסרקים (1, 2, 3 מ\"מ), בדגמים מסוימים עד 12 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח טעינה",
+   "catalogValue": "100-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מסרקי מידה",
+   "issue": "המקורות סותרים: ACE מציין מסרקים של 1, 2 ו-3 מ\"מ, ואילו Lashantel מציין מסרקים של 1, 2, 3, 6, 9 ו-12 מ\"מ. יש לבדוק את ערכת המסרקים מול המוצר בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מנוע / מידות / משקל / מטען",
+   "issue": "מהירות המנוע (8,000 סל״ד שמופיעה באתרים אחרים), מידות, משקל וזמן טעינה לא נמצאו בדפים שנבדקו ולכן לא נרשמו כעובדה.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא דף יצרן או יבואן רשמי עם מפרט מלא. כל העובדות מבוססות על שני אתרי קמעונאות ישראליים שמזכירים את הדגם ESE790 בשמו.",
+   "severity": "medium"
+  },
+  {
+   "field": "מסרקי מידה",
+   "issue": "המקורות סותרים: ACE מציין מסרקים של 1, 2 ו-3 מ\"מ, ו-Lashantel מציין 1, 2, 3, 6, 9 ו-12 מ\"מ. יש לבדוק מול האריזה בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "לא נמצא דף יצרן או יבואן רשמי; כל העובדות מבוססות על שני אתרי קמעונאות ישראליים.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept all six facts (both Israeli retailer pages name Sassonic Prestige ZeroCut ESE790). Marked the comb-guide set in the box as conflict: ACE lists 1/2/3 mm guides, Lashantel lists 1/2/3/6/9/12 mm. Kept the silver replacement panel."
+ }
+}

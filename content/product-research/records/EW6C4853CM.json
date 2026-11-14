@@ -1,0 +1,416 @@
+{
+ "modelNumber": "EW6C4853CM",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EW6C4853CM",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן הישראלי מזהה את הדגם EW6C4853CM כמייבש קונדנסור PERFECTCARE סדרה 600 בקיבולת 8 ק\"ג. | QA: The Electrolux Israel page names EW6C4853CM as an 8 kg condenser dryer; matches catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrolux.co.il/product/laundry/condenser-tumble-dryers/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A7%D7%95%D7%A0%D7%93%D7%A0%D7%A1%D7%95%D7%A8-8-%D7%A7%D7%92-3/",
+   "publisher": "Electrolux Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-drayer&productid=1023262",
+   "publisher": "WiseBuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת ייבוש",
+     "value": "עד 8 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל מי עיבוי",
+     "value": "5.3 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2800 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית ייבוש",
+     "value": "גוף חימום + קונדנסור"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "B"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Page writes Kw; per-cycle energy.",
+     "label": "צריכת אנרגיה למחזור כותנה (נסחט ב-1400 סל״ד, 120 דקות)",
+     "value": "4.10 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "65 דציבל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer 850X600X640/665 mm; axis order per WiseBuy.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 66.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "From 640/665 mm.",
+     "label": "עומק (ללא דלת / כולל דלת ובליטות)",
+     "value": "64 / 66.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיוון פתיחת הדלת",
+     "value": "ניתן לשינוי, 4 אפשרויות לידית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית SensiCare מתאימה את זמן הייבוש למשקל הכביסה למניעת ייבוש יתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "התוף מסתובב בשני הכיוונים למניעת קימוט הבגדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע אינוורטר ללא פחמים ומברשות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ייבוש של עד 8 ק״ג כביסה בבת אחת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מיכל מי העיבוי ממוקם בצד שמאל של המכשיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צינור ניקוז ישיר נמכר בנפרד"
+  }
+ ],
+ "content": {
+  "summary": "מייבש כביסה קונדנסור של Electrolux, דגם EW6C4853CM, בקיבולת של עד 8 ק״ג. המייבש עובד עם גוף חימום וקונדנסור, כך שאין צורך בפתח יציאת אוויר לחוץ, ומי העיבוי נאספים במיכל של 5.3 ליטר. טכנולוגיית SensiCare מתאימה את זמן הייבוש למשקל הכביסה ומנוע האינוורטר פועל ללא פחמים. מתאים למשפחה שמייבשת כמויות כביסה גדולות ורוצה מייבש ללא צינור פליטה.",
+  "highlights": [
+   "קיבולת ייבוש של עד 8 ק״ג",
+   "ייבוש בקונדנסור עם מיכל מי עיבוי של 5.3 ליטר",
+   "טכנולוגיית SensiCare להתאמת זמן הייבוש למשקל הכביסה",
+   "מנוע אינוורטר ללא פחמים ומברשות",
+   "דירוג אנרגטי B"
+  ],
+  "goodFor": [
+   "דירה ללא אפשרות להוציא צינור פליטה לחלון או לקיר",
+   "משפחה שמייבשת כמויות גדולות של כביסה בבת אחת",
+   "מי שרוצה להימנע מייבוש יתר ומקימוט הבגדים"
+  ],
+  "considerations": [
+   "העומק כולל דלת ובליטות הוא 66.5 ס״מ – כדאי למדוד את הנישה או את המרפסת לפני הרכישה",
+   "יש לרוקן את מיכל מי העיבוי באופן קבוע, או לרכוש בנפרד צינור ניקוז ישיר",
+   "ההספק הוא 2800 W – מומלץ לחבר לשקע תקין שאינו משותף עם מכשירים כבדים אחרים",
+   "מיכל מי העיבוי נמצא בצד שמאל – כדאי לוודא גישה נוחה אליו"
+  ],
+  "faq": [
+   {
+    "q": "האם המייבש צריך צינור פליטה לחוץ?",
+    "a": "לא. זהו מייבש קונדנסור עם גוף חימום, ומי העיבוי נאספים במיכל של 5.3 ליטר. אפשר לרכוש בנפרד צינור ניקוז ישיר.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המייבש?",
+    "a": "רוחב 60 ס״מ, גובה 85 ס״מ ועומק 64 ס״מ, או 66.5 ס״מ כולל הדלת והבליטות.",
+    "sources": []
+   },
+   {
+    "q": "כמה כביסה אפשר לייבש בבת אחת?",
+    "a": "עד 8 ק״ג כביסה בבת אחת.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המייבש?",
+    "a": "עוצמת הרעש במהלך עבודה רגילה היא 65 דציבל.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשנות את כיוון פתיחת הדלת?",
+    "a": "כן, כיוון פתיחת הדלת ניתן לשינוי, עם 4 אפשרויות לידית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה קונדנסור Electrolux EW6C4853CM בקיבולת 8 ק״ג, עם מיכל מי עיבוי 5.3 ליטר וטכנולוגיית SensiCare. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש כביסה אלקטרולוקס",
+   "EW6C4853CM",
+   "מייבש קונדנסור 8 ק״ג",
+   "מייבש כביסה ללא פליטה",
+   "Electrolux PerfectCare 600 מייבש",
+   "מייבש כביסה קונדנסור",
+   "מייבש כביסה נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת ייבוש",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "B",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שיטת ייבוש",
+   "catalogValue": "קונדנסור (מעבה) עם גוף חימום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "אינוורטר ללא פחמים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "65 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוף",
+   "catalogValue": "Silk Drum מנירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל מי עיבוי",
+   "catalogValue": "5.3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "60 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "64 / 66.5 ס\"מ (ללא דלת / כולל דלת ובליטות)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק כולל",
+   "catalogValue": "66.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן עם דלת שקופה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רגליות",
+   "catalogValue": "4 רגליות מתכווננות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כיוון פתיחת דלת",
+   "catalogValue": "ניתן לשינוי (4 כיווני ידית)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עומק",
+   "issue": "הקטלוג מציין עומק 60 ס\"מ, אך היצרן מפרט 640/665 מ\"מ (עומק כולל דלת ובליטות 66.5 ס\"מ). יש לתקן את שדה העומק.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "דף היצרן מציג את המידות כ-850X600X640/665 עם תווית סדר צירים לא ברורה. סדר הצירים נלקח מהאתרים הקמעונאיים (רוחב 60, גובה 85). יש לוודא מול תווית האנרגיה או מפרט היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "ביצועים בפועל",
+   "issue": "חלק מחוות הדעת באתר וייז-באי מתארות ריח מתכתי ופליטת אדים על הבגדים ושירות תגובה איטי. אלה חוות דעת של גולשים בודדים ואינן מאומתות.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "בקטלוג מופיע עומק 60 ס״מ, אך היצרן מציין 64 ס״מ ללא הדלת ו-66.5 ס״מ כולל הדלת והבליטות.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "סדר הצירים בדף היצרן (850X600X640/665) לא מסומן; רוחב וגובה נלקחו מאתר השוואת מחירים. יש לוודא מול תווית האנרגיה.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט קטלוג",
+   "issue": "תוף Silk Drum, רגליות מתכווננות ומתח 230V לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Source kinds corrected: WiseBuy and Zap are price-comparison sites, marked other. All facts verified against the Electrolux Israel page; label wording lightly adjusted. Catalog depth 60 cm contradicts manufacturer 64/66.5 cm."
+ }
+}

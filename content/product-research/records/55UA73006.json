@@ -1,0 +1,570 @@
+{
+ "modelNumber": "55UA73006",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "55UA73006LA",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The catalog model 55UA73006 is the base of the Israeli model 55UA73006LA. LG Israel and the Israeli retailers name 55UA73006LA. Specs agree across these sources. | QA: All sources, including LG Israel, name 55UA73006LA, the Israeli variant of catalog model 55UA73006. Size, panel and specs match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lg.com/il/tv/lg-55ua73006la",
+   "publisher": "LG ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מוצרי_אלקטרוניקה/טלוויזיות_ומסכים/מסך_55_lg_4k_smart_דגם_55ua73006la_אל_גי",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://citydeal.co.il/product/lg-55ua73006la-%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-55-%D7%90%D7%99%D7%A0%D7%A5-4k-ua7300-webos25-2025-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.soferavi.co.il/מוצרים/טלוויזיה-55-אינץ-אל-גי-55ua73006la/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1226 × 710 × 58.9 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "1226 × 776 × 292 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "10.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "55 אינץ׳"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תצוגה",
+     "value": "4K UHD LED"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תאורה אחורית",
+     "value": "Direct LED"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון טבעי",
+     "value": "60Hz"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "VRR (קצב רענון משתנה)",
+     "value": "עד 60Hz"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "HDR",
+     "value": "HDR10 / HLG"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "α7 AI Processor 4K Gen8"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת שמע",
+     "value": "20 W, 2.0 ערוצים"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עיבוד שמע",
+     "value": "AI Sound Pro (9.1.2 וירטואלי)"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 (תומך eARC, ALLM)"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות USB",
+     "value": "2 (USB 2.0)"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.1"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "webOS 25"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל במצב המתנה",
+     "value": "מתחת ל-0.5 W"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "AC 100~240V, 50-60Hz"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Warranty terms from one retailer; may differ per seller.",
+     "label": "אחריות",
+     "value": "שנה (יבואן רשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת webOS 25 עם 4 שנים של שדרוגי מערכת"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תמיכה ב-AirPlay 2 וב-Matter"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב ALLM להפחתת השהייה אוטומטית במשחקים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "LG 55UA73006 היא טלוויזיה חכמה 55 אינץ׳ ברזולוציית 4K UHD עם תאורה אחורית Direct LED ומעבד α7 AI Processor 4K Gen8. היא פועלת על webOS 25, תומכת ב-HDR10 ו-HLG, וכוללת 3 כניסות HDMI עם eARC ו-ALLM. מתאימה לסלון או לחדר שינה למי שמחפש טלוויזיה חכמה לצפייה בסטרימינג ושידורים.",
+  "highlights": [
+   "מסך 55 אינץ׳ 4K UHD LED עם תאורה אחורית Direct",
+   "מעבד α7 AI Processor 4K Gen8",
+   "webOS 25 עם 4 שנים של שדרוגי מערכת",
+   "3 כניסות HDMI עם eARC ו-ALLM",
+   "שמע 20 W ב-2.0 ערוצים עם AI Sound Pro"
+  ],
+  "goodFor": [
+   "צפייה בתוכן סטרימינג 4K עם HDR10 ו-HLG",
+   "חיבור מקרן קול דרך eARC",
+   "משחקי קונסולה עם ALLM להפחתת השהייה",
+   "בתים עם מכשירי Apple בזכות AirPlay 2"
+  ],
+  "considerations": [
+   "קצב הרענון הטבעי הוא 60Hz, כך שגיימרים שמחפשים קצב גבוה יותר צריכים לבדוק דגמים אחרים",
+   "ברוחב 1226 מ״מ ובעומק 292 מ״מ עם מעמד, כדאי למדוד את רוחב ועומק הרהיט לפני הקנייה",
+   "לתלייה על הקיר, משקל המסך ללא מעמד הוא 10.2 ק״ג",
+   "השמע המובנה הוא 20 W ב-2.0 ערוצים; למי שרוצה סאונד מלא יותר כדאי לשקול מקרן קול דרך eARC"
+  ],
+  "faq": [
+   {
+    "q": "האם הטלוויזיה תומכת ב-HDR?",
+    "a": "כן, היא תומכת ב-HDR10 וב-HLG.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש בטלוויזיה?",
+    "a": "יש 3 כניסות HDMI, עם תמיכה ב-eARC וב-ALLM.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת הפעלה מותקנת?",
+    "a": "webOS 25, עם 4 שנים של שדרוגי מערכת.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המסך?",
+    "a": "ללא מעמד 1226 × 710 × 58.9 מ״מ, ועם מעמד 1226 × 776 × 292 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשדר מאייפון לטלוויזיה?",
+    "a": "כן, הטלוויזיה תומכת ב-AirPlay 2.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה LG 55UA73006 בגודל 55 אינץ׳ 4K UHD עם מעבד α7 Gen8 ו-webOS 25, תמיכה ב-HDR10 ו-3 כניסות HDMI. בחדד אלקטריק נהריה",
+  "keywords": [
+   "LG 55UA73006",
+   "55UA73006LA",
+   "טלוויזיה LG 55 אינץ",
+   "טלוויזיה 4K 55 אינץ",
+   "LG UA7300",
+   "טלוויזיה חכמה webOS",
+   "טלוויזיה 55 אינץ נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "55 אינץ' (139 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "4K Ultra HD (3840 x 2160)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "טכנולוגיית פאנל",
+   "catalogValue": "LED עם תאורה אחורית ישירה (Direct LED)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "50Hz / 60Hz",
+   "finding": "corrected",
+   "correctValue": "60Hz",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מעבד תמונה",
+   "catalogValue": "α7 AI Processor 4K Gen8",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "תמיכה ב-HDR",
+   "catalogValue": "HDR10, HLG, Active HDR",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "שמע",
+   "catalogValue": "2.0 ערוצים בהספק 20W",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "כניסות HDMI",
+   "catalogValue": "3 כניסות HDMI (תומכות eARC ו-ALLM)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "כניסות USB",
+   "catalogValue": "2 כניסות USB 2.0",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "תקשורת",
+   "catalogValue": "Wi-Fi 5 (802.11ac), Bluetooth 5.1",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1226 x 710 x 58.9 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1226 x 776 x 292 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "10.4 ק\"ג (עם מעמד)",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "catalogValue": "10.2 ק\"ג (ללא מעמד)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "77W במצב SDR, כ-105W במצב HDR",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V, 50-60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "VESA",
+   "catalogValue": "300 x 300 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "webOS 25",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שלט רחוק",
+   "catalogValue": "שלט Magic Remote נדרש בנפרד בחלק מהחבילות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "AirPlay 2 ו-Apple Home",
+   "catalogValue": "תמיכה ב-Apple AirPlay 2 ו-Apple Home",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model 55UA73006 appears on the pages only as the Israeli model 55UA73006LA with the market suffix LA. Confirm the catalog should carry the LA suffix.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל עם מעמד",
+   "issue": "The LG Israel page lists 14.9 kg next to the with-stand weight label, while the catalog says 10.4 kg with stand. Check the with-stand weight.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת חשמל",
+   "issue": "The 77 W and 105 W power figures were not found on any fetched page. Check them against the LG manual or EPREL.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sources name the Israeli model 55UA73006LA; catalog carries 55UA73006 without the LA suffix.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל עם מעמד",
+   "issue": "Catalog says 10.4 kg with stand; the LG Israel page reportedly shows 14.9 kg near that label. Verify the with-stand weight.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "Catalog lists 50Hz / 60Hz; sources state 60Hz native. Update the catalog spec.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת חשמל",
+   "issue": "Catalog 77 W SDR / 105 W HDR figures not found on any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact 19: the one-year importer warranty is a single retailer's terms and may differ for this store. All other facts and features are supported by ok quotes on pages naming 55UA73006LA."
+ }
+}

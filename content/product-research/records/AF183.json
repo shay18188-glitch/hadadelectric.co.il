@@ -1,0 +1,258 @@
+{
+ "modelNumber": "AF183",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "AF183",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "Importer site sarig.com blocked (HTTP 403); facts come from two Israeli retailer pages naming AF183. No dimensions or weight found for this exact model. | QA: Both Israeli retailer pages name Ninja AF183 with 6.2 L capacity matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://electric-home.co.il/product/%D7%A1%D7%99%D7%A8-%D7%98%D7%99%D7%92%D7%95%D7%9F-%D7%91%D7%90%D7%95%D7%95%D7%99%D7%A8-%D7%97%D7%9D-6-2-%D7%9C%D7%99%D7%98%D7%A8-max-pro-ninja-af183-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E/",
+   "publisher": "Electric Home",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%A1%D7%99%D7%A8-%D7%98%D7%99%D7%92%D7%95%D7%9F-%D7%A0%D7%99%D7%A0%D7%92%D7%94-af183/",
+   "publisher": "Avi Super",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "6.2 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כמות בישול",
+     "value": "עד 900 גרם צ'יפס או 4 נתחי חזה עוף"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 וואט"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורה מרבית",
+     "value": "240 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות בישול",
+     "value": "6 תוכניות: קריספי מקס, טיגון באוויר חם, צלייה, אפייה, חימום מחדש, ייבוש מזון"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פאנל תצוגה",
+     "value": "דיגיטלי בעברית"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote covers both drawer and crisper plate.",
+     "label": "מגירה ומשטח השחמה",
+     "value": "ציפוי Non-Stick קרמי, נשלפים ומתאימים למדיח כלים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עד 75% פחות שומן בהשוואה לטיגון בשמן רגיל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית קריספי מקס: ממזון קפוא לפריך תוך דקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "משטח השחמה מתכוונן לשני גבהים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Ninja AF183 הוא סיר טיגון באוויר חם עם מגירה אחת בנפח 6.2 ליטר והספק 2000 וואט. הוא מגיע עד 240 מעלות ומציע 6 תוכניות, בהן קריספי מקס וייבוש מזון, עם לוח תצוגה דיגיטלי בעברית. מתאים למי שמכין כמויות של עד 900 גרם צ'יפס או 4 נתחי חזה עוף בבת אחת ורוצה גם לייבש פירות וירקות.",
+  "highlights": [
+   "נפח 6.2 ליטר",
+   "הספק 2000 וואט",
+   "טמפרטורה עד 240 מעלות",
+   "6 תוכניות כולל ייבוש מזון",
+   "מגירה ומשטח השחמה קרמיים, נשלפים ומתאימים למדיח"
+  ],
+  "goodFor": [
+   "הכנת צ'יפס ונאגטס קפואים במצב קריספי מקס",
+   "בישול מנה משפחתית של עד 4 נתחי חזה עוף",
+   "ייבוש פירות וירקות לחטיפים ביתיים",
+   "מי שמעדיף ממשק בעברית"
+  ],
+  "considerations": [
+   "יש לוודא שקע חשמל זמין קרוב למשטח, המכשיר בהספק 2000 וואט",
+   "כדאי להשאיר מרווח אוורור סביב המכשיר על השיש",
+   "המידות והמשקל לא אומתו מול היצרן, כדאי למדוד את המקום לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Ninja AF183?",
+    "a": "נפח מגירת הבישול הוא 6.2 ליטר, מספיק לעד 900 גרם צ'יפס או 4 נתחי חזה עוף.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לייבש בו מזון?",
+    "a": "כן, זו אחת מ-6 התוכניות שלו, לצד קריספי מקס, טיגון באוויר חם, צלייה, אפייה וחימום מחדש.",
+    "sources": []
+   },
+   {
+    "q": "האם החלקים מתאימים למדיח כלים?",
+    "a": "כן, המגירה ומשטח ההשחמה בעלי ציפוי Non-Stick קרמי, נשלפים ומתאימים למדיח כלים.",
+    "sources": []
+   },
+   {
+    "q": "האם התצוגה בעברית?",
+    "a": "כן, לוח התצוגה הדיגיטלי בעברית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "סיר טיגון באוויר חם Ninja AF183 בנפח 6.2 ליטר והספק 2000 וואט, 6 תוכניות כולל ייבוש מזון ותצוגה בעברית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "נינג'ה AF183",
+   "Ninja AF183",
+   "סיר טיגון באוויר חם נינג'ה",
+   "סיר טיגון באוויר 6.2 ליטר",
+   "סיר טיגון עם ייבוש מזון",
+   "נינג'ה מקס פרו",
+   "סיר טיגון בלי שמן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח",
+   "catalogValue": "6.2 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "40°C עד 240°C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 28.7 ס\"מ, גובה 30.5 ס\"מ, עומק 37.9 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-5.2 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות ומשקל",
+   "issue": "Catalog dimensions, weight and 40°C minimum temperature appear on no fetched page; the catalog calls them approximate.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "Catalog dimensions, weight and 40°C minimum temperature were not found on any fetched page.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts and features are supported by ok quotes on two Israeli retailer pages naming AF183. Catalog dimensions, weight and 40°C minimum temperature were not verified and are not published."
+ }
+}

@@ -1,0 +1,481 @@
+{
+ "modelNumber": "ZVENM7K1",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Zanussi",
+  "exactModel": "ZVENM7K1",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "דף המוצר ב-citydeal.co.il מזכיר את המודל במפורש ומציין שהמשווק הרשמי בישראל הוא ראלקו. דף קמעונאי בריטי (euronics.co.uk) נותן משקל ומידות נוספים, אך אינו מספיק לפרסום לבדו. לא נמצא דף יצרן או EPREL ישיר למודל. | QA: Israeli retailer page and UK retailer page both name ZVENM7K1 exactly; specs match catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%D7%AA%D7%A0%D7%95%D7%A8-%D7%91%D7%A0%D7%95%D7%99-zanussi-zvenm7k1-%D7%96%D7%A0%D7%95%D7%A1%D7%99-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.euronics.co.uk/catalogue/cooking/microwaves/built-in-microwave-ovens/zanussi-zvenm7k1-43-litres-combination-microwave-black/p/ZANZVENM7K1",
+   "publisher": "Euronics UK",
+   "kind": "retailer",
+   "market": "GB",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא האפייה",
+     "value": "43 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מפלסי אפייה",
+     "value": "2"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote says power 1000W; catalog identifies it as microwave power.",
+     "label": "הספק מיקרוגל",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "50°C – 275°C"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "595 × 455 × 567 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "560 × 450 × 550 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific warranty offer, not a product fact.",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תנור בנוי בגובה 45 ס״מ, קומפקטי ומשולב מיקרוגל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "9 תוכניות בישול, כולל פונקציית גריל מובנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בישול באוויר חם עם מאוורר לחימום אחיד של כל הכלים בתנור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חימום מהיר, המחמם את התנור מהר ב-40% מהרגיל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "QuickCook: שילוב תנור ומיקרוגל לתוצאות במחצית מהזמן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Fast Cooking: מיקרוגל וגריל פועלים יחד לגימור פריך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בקרת זמן מודרכת עם הצעת טמפרטורה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נעילה מפני ילדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Residual heat indicator not in quote; removed.",
+   "text": "כיבוי אוטומטי של התנור"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדף רשת מצופה כרום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אגן ניקוז עמוק מצופה אמייל אפור"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Zanussi ZVENM7K1 הוא תנור בנוי קומפקטי בגובה 45 ס״מ המשלב תנור ומיקרוגל, בנפח 43 ליטר ובגימור שחור. הוא מציע 9 תוכניות בישול, מיקרוגל בהספק 1000 W ופונקציית QuickCook המשלבת תנור ומיקרוגל לקיצור זמן הבישול. מתאים למטבח שרוצה לחסוך מקום ולקבל תנור ומיקרוגל ביחידה בנויה אחת.",
+  "highlights": [
+   "נפח 43 ליטר עם 2 מפלסי אפייה",
+   "מיקרוגל בהספק 1000 W",
+   "9 תוכניות בישול כולל גריל",
+   "טווח טמפרטורה 50°C – 275°C",
+   "דירוג אנרגטי A"
+  ],
+  "goodFor": [
+   "מטבח עם נישה בגובה 45 ס״מ שרוצה לשלב תנור ומיקרוגל ביחידה אחת",
+   "מי שרוצה לקצר זמני בישול בעזרת שילוב תנור ומיקרוגל",
+   "בית עם ילדים, בזכות נעילה מפני ילדים",
+   "מטבח בעיצוב כהה עם גימור שחור"
+  ],
+  "considerations": [
+   "לוודא שמידות הנישה תואמות 560 × 450 × 550 מ״מ (רוחב × גובה × עומק)",
+   "מידות התנור עצמו 595 × 455 × 567 מ״מ — לבדוק מקום לחזית ולדלת",
+   "לבדוק שקע חשמל זמין בסמוך לנישה",
+   "נפח 43 ליטר קטן מתנור בנוי בגובה מלא — לשקול אם מתאים לתבניות שבשימוש"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח תא האפייה הוא 43 ליטר, עם 2 מפלסי אפייה.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המיקרוגל?",
+    "a": "הספק המיקרוגל הוא 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "נישה ברוחב 560 מ״מ, גובה 450 מ״מ ועומק 550 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות בישול יש?",
+    "a": "יש 9 תוכניות בישול, כולל גריל מובנה ופונקציות QuickCook ו-Fast Cooking.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "התנור פועל בטווח של 50°C עד 275°C.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי משולב מיקרוגל Zanussi ZVENM7K1 בשחור: נפח 43 ליטר, מיקרוגל 1000 W ו-9 תוכניות בישול. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Zanussi ZVENM7K1",
+   "תנור משולב מיקרוגל זנוסי",
+   "תנור בנוי 45 ס״מ",
+   "תנור מיקרוגל בנוי שחור",
+   "תנור קומפקטי משולב מיקרוגל",
+   "זנוסי תנור בנוי",
+   "תנור בנוי 43 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא האפייה",
+   "catalogValue": "43 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "1000 ואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גריל",
+   "catalogValue": "1900 ואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק תנור",
+   "catalogValue": "1650 ואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50°C עד 275°C",
+   "finding": "confirmed",
+   "correctValue": "50°C – 275°C",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "גובה 455 מ\"מ, רוחב 595 מ\"מ, עומק 567 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה להתקנה",
+   "catalogValue": "גובה 450 מ\"מ, רוחב 560 מ\"מ, עומק 550 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "37.6 ק\"ג",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.5 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "LED עם כפתורים נשלפים (Push-Pull)",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר פנים",
+   "catalogValue": "אמייל מבריק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר מפלסי אפייה",
+   "catalogValue": "2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "9 תוכניות בישול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חימום מהיר",
+   "catalogValue": "מקצר את זמן ההמתנה ב-40%",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנוני בטיחות",
+   "catalogValue": "נעילת ילדים, כיבוי אוטומטי, חיווי חום שיורי ומאוורר קירור",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "איטליה (מקור המותג), מיוצר באירופה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "display",
+   "issue": "הקטלוג מתאר תצוגת LED עם כפתורים נשלפים, ודף citydeal מציין גם תצוגת LED וגם 'תצוגת התנור – כפתורים אנלוגיים' בדף המפרט. לבדוק מול המוצר בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק גריל ותנור",
+   "issue": "הערכים 1900 W ו-1650 W נמצאו רק בדף קמעונאי בריטי, ולא בדף ישראלי או של היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "המשקל 37.6 ק״ג נמצא רק בדף קמעונאי בריטי ולא בדף ישראלי או של היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "display",
+   "issue": "הקטלוג מתאר תצוגת LED עם כפתורים נשלפים, ודף הקמעונאי הישראלי מציין גם כפתורים אנלוגיים. לבדוק מול המוצר בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק גריל, הספק תנור, משקל",
+   "issue": "1900 W, 1650 W ו-37.6 ק״ג שבקטלוג לא אומתו במקור ישראלי או של היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "הדף הישראלי מציין 'הספק 1000W' ללא פירוט; פורסם כהספק מיקרוגל לפי הקטלוג.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (retailer-specific offer from CityDeal, not a product fact). Relabelled 1000 W as microwave power per catalog. Feature 8 trimmed to auto shut-off only (residual heat indicator not in quote). Niche dimensions label given explicit order."
+ }
+}

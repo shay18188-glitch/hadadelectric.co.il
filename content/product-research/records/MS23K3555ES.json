@@ -1,0 +1,603 @@
+{
+ "modelNumber": "MS23K3555ES",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "MS23K3555ES",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Samsung Israel site search returned no product page for this model. Evidence comes from Samsung France, the Samsung FR user manual (suffix /EF), the Israeli retailer Zabilo and Electromenager-Compare. Other suffixes (/EN, /EG, /ND) exist for other markets and are not used as evidence. | QA: Samsung France page and Israeli retailer Zabilo both name MS23K3555ES. Israeli variant suffix and importer not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/fr/microwave-ovens/solo/microwave-oven-solo-ms23k3555es/",
+   "publisher": "Samsung France",
+   "kind": "manufacturer",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/microwaves/3256-ms23k3555es.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_FR&OriginYN=N&ModelType=N&ModelName=MS23K3555ES&CttFileID=10077029&CDCttType=UM&VPath=UM%2F202502%2F20250218205037124%2FO_DE68_04431F_07_IB_FULL_MW3500K_MS23K3555ES_EF_FR_250207.pdf",
+   "publisher": "Samsung France user manual",
+   "kind": "manual",
+   "market": "FR",
+   "exactModel": false,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.electromenager-compare.com/four-SAMMS23K3555ES-SAMSUNG-MS23K3555ES.htm",
+   "publisher": "Electromenager-Compare",
+   "kind": "other",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Removed placement claim; covered by fact 17",
+     "label": "סוג",
+     "value": "מיקרוגל סולו (ללא גריל)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "23 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "800 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמות עוצמה",
+     "value": "6"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Zabilo quote ok",
+     "label": "תוכניות בישול אוטומטיות",
+     "value": "20"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפשרה אוטומטית",
+     "value": "5 סוגי מזון"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source is a page that does not name the model; quote checks: ok",
+     "label": "בישול באדים (Healthy Steam)",
+     "value": "כן, 17 תוכניות מוגדרות מראש"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן בישול מרבי",
+     "value": "99 דקות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source is a page that does not name the model; quote checks: ok",
+     "label": "פונקציית ניטרול ריחות (Deodorize)",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only source is a page that does not name the model; quote checks: ok",
+     "label": "נעילת ילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "LED, כחול"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From 275 x 489 x 374 mm (HxLxP)",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "48.9 × 27.5 × 37.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק כולל ידית",
+     "value": "39.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות תא בישול (רוחב × גובה × עומק)",
+     "value": "33.0 × 21.1 × 32.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source says about 12 kg",
+     "label": "משקל",
+     "value": "12 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s4",
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Other sources say grey/inox; flagged",
+     "label": "צבע",
+     "value": "שחור וכסוף"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "28.8 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "התקנה חופשית (עומד על משטח)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote does not say standby specifically",
+   "text": "מצב חיסכון באנרגיה (ECO) המפחית את צריכת החשמל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפשרה אוטומטית לפי סוג מזון, עם חישוב אוטומטי של זמן ההפשרה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only source is a page that does not name the model",
+   "text": "בישול באדים (Healthy Steam) לפי תוכניות מוגדרות מראש"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תזמון בישול עד 99 דקות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "להצבה חופשית על משטח יציב; אינו מיועד להתקנה מובנית"
+  }
+ ],
+ "content": {
+  "summary": "Samsung MS23K3555ES הוא מיקרוגל סולו דיגיטלי בנפח 23 ליטר להצבה חופשית על השיש. הוא מציע הספק מיקרוגל של 800 W, ‏6 רמות עוצמה ו-20 תוכניות בישול אוטומטיות, לצד הפשרה אוטומטית לפי סוג מזון. מתאים למי שמחפש מיקרוגל לחימום, הפשרה ובישול יומיומי בלי גריל.",
+  "highlights": [
+   "נפח 23 ליטר",
+   "הספק מיקרוגל 800 W עם 6 רמות עוצמה",
+   "20 תוכניות בישול אוטומטיות",
+   "הפשרה אוטומטית ל-5 סוגי מזון",
+   "תצוגת LED כחולה ותזמון עד 99 דקות"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח ביתי",
+   "מי שמעדיף תוכניות אוטומטיות במקום כיוון זמן ידני",
+   "מי שלא צריך גריל ומחפש מיקרוגל סולו פשוט",
+   "הצבה על שיש או משטח פנוי ולא בתוך ארון"
+  ],
+  "considerations": [
+   "מדובר במיקרוגל סולו ללא גריל, כך שאינו מתאים להשחמה או צלייה",
+   "הדגם מיועד להצבה חופשית ולא להתקנה מובנית בארון",
+   "המשקל הוא כ-12 ק״ג, כדאי לתכנן משטח יציב"
+  ],
+  "faq": [
+   {
+    "q": "האם יש לו גריל?",
+    "a": "לא. זהו מיקרוגל סולו ללא גריל, בהספק מיקרוגל של 800 W.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין אותו בתוך ארון?",
+    "a": "הדגם מיועד להצבה חופשית על משטח יציב ואינו מיועד להתקנה מובנית.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות אוטומטיות יש?",
+    "a": "יש 20 תוכניות בישול אוטומטיות, והפשרה אוטומטית ל-5 סוגי מזון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל סולו Samsung MS23K3555ES בנפח 23 ליטר, הספק 800 W ו-20 תוכניות בישול אוטומטיות. מיקרוגל דיגיטלי שחור-כסוף בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל סמסונג 23 ליטר",
+   "MS23K3555ES",
+   "Samsung MS23K3555ES",
+   "מיקרוגל סולו סמסונג",
+   "מיקרוגל דיגיטלי 23 ליטר",
+   "מיקרוגל 800 וואט",
+   "מיקרוגל שחור כסוף"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "800 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "1250 וואט",
+   "finding": "corrected",
+   "correctValue": "1150 W (הספק חיבור)",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "6 דרגות חימום",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "28.8 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "אמייל קרמי כחול אנטיבקטריאלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LED כחול",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "48.9 × 27.5 × 37.4 ס\"מ (39.2 כולל ידית)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות תא בישול",
+   "catalogValue": "33.0 × 21.1 × 32.4 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "12 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור וכסוף",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית TDS",
+   "catalogValue": "מערכת הפצה תלת-מוקדית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Deodorize",
+   "catalogValue": "תוכנית לניטרול ריחות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מצב ECO",
+   "catalogValue": "חסכון באנרגיה במצב המתנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Quick Defrost",
+   "catalogValue": "5 תוכניות הפשרה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בישול בריא",
+   "catalogValue": "20 תוכניות בישול אוטומטיות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Healthy Steam",
+   "catalogValue": "בישול באדים עם סיר זכוכית",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Keep Warm",
+   "catalogValue": "שמירה על חום המזון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "המסה/ריכוך",
+   "catalogValue": "שוקולד, סוכר וחמאה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "שעון ותזמון בישול",
+   "catalogValue": "עד 99 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צריכת חשמל",
+   "issue": "הקטלוג מציין 1250 וואט; Electromenager-Compare מציין הספק חיבור 1150 W. יש לבדוק את הערך הנכון לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג: שחור וכסוף. Zabilo מציין Grey color. Samsung France מציין Inox. Electromenager-Compare מציין דלת שחורה ומסגרת כסופה. מקורות לא מתיישבים; לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "issue": "Electromenager-Compare מציין 28.8 ס״מ; Zabilo מציין 29 ס״מ. ערך הקטלוג תואם למקור הראשון בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "גרסה אזורית",
+   "issue": "דף Samsung הוא לגרסה הצרפתית MS23K3555ES/EF והמדריך גם הוא FR. Electromenager-Compare מציין גרסאות /EN (Benelux) ו-/EG (Germany). הגרסה המיובאת לישראל לא ברורה; לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "סטטוס דגם",
+   "issue": "ייתכן שהדגם הוצא משימוש: Electromenager-Compare מציין תאריך יציאה משוער 'Courant 2016'. לא נמצא דף מוצר ישראלי של Samsung לדגם זה.",
+   "severity": "medium"
+  },
+  {
+   "field": "בישול באדים",
+   "issue": "הקטלוג מציין 20 תוכניות בישול בריא. המדריך מציין 20 תוכניות בישול אוטומטיות ו-17 תוכניות בישול באדים. ייתכן בלבול בשמות התוכניות.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן הישראלי לא זוהה בתוך המקורות שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת חשמל",
+   "issue": "הקטלוג מציין 1250 וואט; מקור השוואה מציין הספק חיבור 1150 W. הערך לא אומת ולא פורסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "מקורות שונים מתארים את הצבע כשחור וכסוף, אפור או נירוסטה. לאמת מול המוצר בפועל.",
+   "severity": "low"
+  },
+  {
+   "field": "גרסה אזורית",
+   "issue": "המקורות של היצרן הם לגרסה הצרפתית; הסיומת הישראלית והיבואן לא אומתו.",
+   "severity": "medium"
+  },
+  {
+   "field": "סטטוס דגם",
+   "issue": "ייתכן שהדגם ותיק (מקור השוואה מציין 2016) ולא נמצא דף מוצר של Samsung ישראל.",
+   "severity": "low"
+  },
+  {
+   "field": "בישול באדים / נעילת ילדים / ניטרול ריחות",
+   "issue": "מופיעים בקטלוג ובמדריך הצרפתי אך לא אומתו בדף שמזכיר את הדגם; לא פורסמו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 6 (17 steam programs), 8 (deodorize), 9 (child lock) and feature 2 (steam cooking): only evidence is the FR manual, whose fetched page does not name the model. Simplified fact 0 value to solo microwave (installation type is covered by fact 17). Fact 11 kept on the Electromenager-Compare quote (mm converted to cm). Catalog power consumption 1250 W not verified. | code guard removed: faq: \"מה נפח המיקרוגל Samsung MS23K3555ES?\"; faq: \"מה קוטר הצלחת המסתובבת?\"; consideration: \"יש לוודא מקום על המשטח במידות 48.9 × 27.5 × 37.4 ס״מ, ועומק של 39.2 ס״מ כולל הידית\""
+ }
+}

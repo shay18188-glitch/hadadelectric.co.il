@@ -1,0 +1,511 @@
+{
+ "modelNumber": "KDG40XR683ANT (700140)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Konka",
+  "exactModel": "KDG40XR683ANT",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "הדגם KDG40XR683ANT מופיע בשמו המלא בדפי electrica, soferavi ו-zabilo. מזהה 700140 מופיע בדף zabilo ובקטלוג. לא נמצא דף יצרן או יבואן ישיר; המפרטים מבוססים על דפי מוכרים ישראליים לדגם המדויק. | QA: Three Israeli retailer pages name KDG40XR683ANT; zabilo also lists 700140. Warranty by Hamilton, the official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrica.co.il/items/7558136-%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-40-KONKA-GOOGLE-TV-LED-%D7%93%D7%92%D7%9D-KDG40XR683ANT-%D7%A7%D7%95%D7%A0%D7%A7%D7%94",
+   "publisher": "Electrica",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/tvs-27-43/12088-kdg40xr683ant.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-40-%D7%90%D7%99%D7%A0%D7%A5-%D7%A7%D7%95%D7%A0%D7%A7%D7%94-kdg40xr683ant/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "892.2 × 564.6 × 216 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "892.2 × 504.3 × 72 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "40 אינץ'"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "1920 × 1080 (Full HD)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית תצוגה",
+     "value": "LED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "HDR",
+     "value": "HDR10"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק שמע",
+     "value": "2 × 5 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי שמע",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "מובנה, 802.11 b/g/n/ac"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיונר דיגיטלי",
+     "value": "DVB-T / T2 (קליטת עידן פלוס)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, דרך היבואן המילטון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב ללא מסגרת, דק ומינימלי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפליקציות Netflix, YouTube ו-Disney Plus מובנות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תמיכה בנגינת מוזיקה ווידאו מכניסת USB"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שקע אוזניות ויציאת שמע דיגיטלי SPDIF"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "9 מצבי תמונה לבחירה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טלוויזיה חכמה של Konka בגודל 40 אינץ' ברזולוציית Full HD 1920 × 1080 עם תאורת LED ותמיכה ב-HDR10. הטלוויזיה פועלת על Google TV עם Wi-Fi מובנה, וכוללת טיונר DVB-T / T2 לקליטת עידן פלוס. מתאימה לחדר שינה, למטבח או לסלון קטן, למי שרוצה מסך חכם עם אפליקציות סטרימינג מובנות.",
+  "highlights": [
+   "מסך 40 אינץ' ברזולוציית Full HD 1920 × 1080",
+   "מערכת הפעלה Google TV עם Wi-Fi מובנה",
+   "טיונר DVB-T / T2 לקליטת עידן פלוס",
+   "תמיכה ב-HDR10",
+   "רמקולים בהספק 2 × 5 W"
+  ],
+  "goodFor": [
+   "חדר שינה או חדר ילדים שבו רוצים מסך חכם בגודל בינוני",
+   "צפייה בנטפליקס, יוטיוב ודיסני פלוס ישירות מהטלוויזיה בלי ממיר חיצוני",
+   "צפייה בערוצי עידן פלוס דרך אנטנה בלי מנוי לחברת כבלים",
+   "חיבור אוזניות או מערכת שמע חיצונית דרך יציאת SPDIF"
+  ],
+  "considerations": [
+   "לבדוק שהמקום המיועד מתאים לרוחב 892.2 מ״מ ולעומק 216 מ״מ כשהטלוויזיה עומדת על המעמד",
+   "לתליה על הקיר יש לתכנן מתקן תליה מתאים; עומק המסך ללא מעמד הוא 72 מ״מ",
+   "לקליטת עידן פלוס נדרשת אנטנה מחוברת לטלוויזיה",
+   "לשימוש באפליקציות נדרש חיבור Wi-Fi לרשת הביתית"
+  ],
+  "faq": [
+   {
+    "q": "האם הטלוויזיה קולטת עידן פלוס?",
+    "a": "כן, יש בה טיונר דיגיטלי DVB-T / T2 שמאפשר קליטת שידורי עידן פלוס דרך אנטנה.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "הטלוויזיה פועלת על Google TV, עם אפליקציות נטפליקס, יוטיוב ודיסני פלוס מובנות.",
+    "sources": []
+   },
+   {
+    "q": "מה הרזולוציה של המסך?",
+    "a": "Full HD ברזולוציה 1920 × 1080, עם תמיכה ב-HDR10.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הטלוויזיה עם המעמד?",
+    "a": "892.2 × 564.6 × 216 מ״מ (רוחב × גובה × עומק). ללא מעמד: 892.2 × 504.3 × 72 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלוויזיה?",
+    "a": "שנה, דרך היבואן המילטון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה Konka KDG40XR683ANT בגודל 40 אינץ', Full HD עם Google TV וטיונר לעידן פלוס. אחריות שנה ע״י המילטון. בחדד אלקטריק נהריה",
+  "keywords": [
+   "טלוויזיה קונקה 40 אינץ'",
+   "Konka KDG40XR683ANT",
+   "KDG40XR683ANT",
+   "טלוויזיה 40 אינץ' Google TV",
+   "טלוויזיה חכמה 40 אינץ'",
+   "טלוויזיה Full HD 40",
+   "טלוויזיה עם עידן פלוס",
+   "קונקה Google TV"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "40 אינץ' (אלכסוני)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "Full HD (1920x1080)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית תצוגה",
+   "catalogValue": "LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בהירות",
+   "catalogValue": "250 nits",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יחס ניגודיות",
+   "catalogValue": "5000:1",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זווית צפייה",
+   "catalogValue": "178 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "2x5W (סה\"כ 10W)",
+   "finding": "corrected",
+   "correctValue": "2x5W",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פענוח שמע",
+   "catalogValue": "Dolby Digital + DTS",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מעבד וזיכרון",
+   "catalogValue": "4 ליבות, 1.5GB RAM, 8GB אחסון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כניסות HDMI",
+   "catalogValue": "3 כניסות HDMI (תמיכה ב-eARC)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסות USB",
+   "catalogValue": "2 כניסות USB 2.0",
+   "finding": "corrected",
+   "correctValue": "2 כניסות USB",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi מובנה (802.11 b/g/n/ac)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אפליקציות",
+   "catalogValue": "Netflix, YouTube, Disney Plus, Prime Video",
+   "finding": "corrected",
+   "correctValue": "נטפליקס, יוטיוב, דיסני פלוס",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיונר",
+   "catalogValue": "טיונר דיגיטלי DVB-T/T2 לעידן פלוס",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "HDR",
+   "catalogValue": "HDR10",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "892.2x216.5x564.6 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "892.2 × 564.6 × 216 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "892.2x72.2x504.3 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "892.2 × 504.3 × 72 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "75W (מקסימום)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V~ 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-4.45 ק\"ג (כולל מעמד)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מוצא",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, דרך המילטון (היבואן הרשמי)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "בדפי המוכרים המידות מופיעות כ-564.6*216*892.2 ו-504.3*72*892.2 מ\"מ ללא סימון של סדר הערכים. הסדר רוחב × גובה × עומק בשורות הנגזר לפי הערכים (892.2 רוחב, 564.6 גובה עם מעמד, 216 עומק), ויש לאמת מול תרשים המידות של היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין עומק 216.5 ו-72.2 מ״מ; שלושת המוכרים שנבדקו מציינים 216 ו-72 מ״מ.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט שלא אומת",
+   "issue": "קצב רענון, בהירות, יחס ניגודיות, זווית צפייה, מעבד, זיכרון, Dolby Digital ו-DTS, משקל, צריכת חשמל ומתח עבודה לא נמצאו בדפים שנסרקו; הערכים נשארו בקטלוג בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "דפי המוכרים מציגים את המידות ללא סימון סדר הערכים; הסדר רוחב × גובה × עומק נגזר מהערכים. הקטלוג מציין עומק 216.5 ו-72.2 מ״מ לעומת 216 ו-72 מ״מ במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט שלא אומת",
+   "issue": "קצב רענון, בהירות, ניגודיות, זווית צפייה, מעבד וזיכרון, Dolby Digital/DTS, Bluetooth, Prime Video, משקל, צריכת חשמל ומתח עבודה מופיעים בקטלוג בלבד ולא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts and features are backed by ok quotes on Israeli retailer pages naming KDG40XR683ANT. Dimension order (W×H×D) is inferred from the values; flagged for a check."
+ }
+}

@@ -1,0 +1,401 @@
+{
+ "modelNumber": "RT102B",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RT102B",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בעמוד המוצר של בטרשופ (RT102B) ובדף EnergyLabelEU תחת השם RT-102B עם מספר רישום EPREL 1628364. לא נמצא עמוד יצרן רשמי לדגם באתר Hisense Israel. | QA: BetterSHOP (Israeli retailer) names RT102B with matching 752/528/224 L volumes and black stainless finish; EnergyLabelEU lists RT-102B with the same volumes. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bettershop.co.il/product/hisense_rt102b/",
+   "publisher": "BetterSHOP",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://energylabeleu.com/model/hisense-rt-102b",
+   "publisher": "EnergyLabelEU",
+   "kind": "other",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "net/gross not stated in quotes",
+     "label": "נפח כולל",
+     "value": "752 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "528 ליטר נטו"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "224 ליטר נטו"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "catalog says height 178",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "91.1 × 177 × 85.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "flagged: other listings show B",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "370 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "43 dB(A)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "נירוסטה מושחרת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יצרן קרח אוטומטי במגירת המקפיא בחיבור ישיר לרשת המים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון שבת וחג הלכתי מתוכנת לעבודה של 80 שעות רציפות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בר מים פנימי בחיבור ישיר לרשת המים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדחס אינוורטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת זרימת אוויר רב מוקדית Multi Air Flow"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "הוא כולל בר מים פנימי ויצרן קרח אוטומטי בחיבור ישיר לרשת המים, מנגנון שבת הלכתי ומדחס אינוורטר. מתאים למשפחה שצריכה נפח קירור גדול ומוכנה להכין חיבור מים ונישה ברוחב 91.1 ס״מ.",
+  "highlights": [
+   "נפח כולל 752 ליטר",
+   "תא קירור 528 ליטר נטו ותא הקפאה 224 ליטר נטו",
+   "בר מים פנימי ויצרן קרח אוטומטי בחיבור לרשת המים",
+   "מנגנון שבת וחג הלכתי ל-80 שעות רציפות"
+  ],
+  "goodFor": [
+   "משפחה שקונה בכמויות וצריכה תא קירור גדול",
+   "בית שומר שבת שזקוק למנגנון שבת הלכתי",
+   "מי שרוצה מים קרים וקרח בלי למלא מיכלים ידנית",
+   "מטבח עם נקודת מים סמוכה למקום המקרר"
+  ],
+  "considerations": [
+   "למדוד נישה: רוחב 91.1 ס״מ, גובה 177 ס״מ ועומק 85.5 ס״מ, ולהשאיר מרווח לפתיחת הדלתות",
+   "בר המים ויצרן הקרח דורשים חיבור ישיר לרשת המים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של תא הקירור ותא ההקפאה?",
+    "a": "תא הקירור 528 ליטר נטו ותא ההקפאה 224 ליטר נטו, בנפח כולל של 752 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מנגנון שבת?",
+    "a": "כן, מנגנון שבת וחג הלכתי מתוכנת לעבודה של 80 שעות רציפות.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך חיבור מים?",
+    "a": "כן, בר המים הפנימי ויצרן הקרח האוטומטי פועלים בחיבור ישיר לרשת המים.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 91.1 ס״מ, גובה 177 ס״מ ועומק 85.5 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Hisense RT102B",
+   "מקרר הייסנס 3 דלתות",
+   "מקרר מקפיא תחתון 752 ליטר",
+   "מקרר עם בר מים",
+   "מקרר עם יצרן קרח",
+   "מקרר נירוסטה מושחרת",
+   "מקרר עם מנגנון שבת",
+   "RT-102B"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כללי נטו",
+   "catalogValue": "752 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "528 ליטר נטו",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "224 ליטר נטו",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (גובה)",
+   "catalogValue": "178 ס״מ",
+   "finding": "corrected",
+   "correctValue": "177 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב)",
+   "catalogValue": "91.1 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (עומק)",
+   "catalogValue": "85.5 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "catalogValue": "370 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה מושחרת מוברשת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-135 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית קירור",
+   "catalogValue": "Total No-Frost",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח כולל",
+   "issue": "המקור של 752 ליטר אינו מפרט אם מדובר בנטו או ברוטו. חלק מהמוכרים מציינים 765 ליטר ברוטו, ומוכר אחד מציין 670 ליטר נטו. יש לבדוק את תווית האנרגיה או את מפרט היצרן לפני פרסום נפח כולל.",
+   "severity": "medium"
+  },
+  {
+   "field": "גובה",
+   "issue": "בטרשופ מציין גובה 177 ס״מ, וקטלוג החנות וחלק מהמוכרים מציינים 178 ס״מ. המקורות סותרים זה את זה.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "בטרשופ ו-EnergyLabelEU מציינים דירוג E, אך חלק מהמוכרים (למשל Payngo ו-Lior) מציינים דירוג B בדפים עם נפח של 765 ליטר. יש לאמת מול מספר הרישום EPREL 1628364 או מול תווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא עמוד יצרן רשמי או עמוד יבואן לדגם RT102B. דף הדגם באתר Hisense Israel לא החזיר תוצאות. דפי הדגם שנמצאו הם של מוכרים ישראליים ושל EnergyLabelEU, ולכן יבואן הדגם לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "לא נמצא מקור שמאשר את המשקל שבקטלוג (כ-135 ק״ג). לא פורסם משקל בשתי המקורות שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "תיאור המוצר",
+   "issue": "תיאור המוצר בבטרשופ מזכיר בטעות את הדגם RT102S. הדגם RT102S הוא דגם אחר ולא נבדק כאן.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "BetterSHOP ו-EnergyLabelEU מציינים E, אך לפי ממצאי המחקר מוכרים אחרים מציינים B. יש לאמת את הדירוג הישראלי מול תווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "גובה",
+   "issue": "הקטלוג מציין 178 ס״מ והמקור מציין 177 ס״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח כולל",
+   "issue": "המקורות לא מציינים אם 752 ליטר הוא נטו או ברוטו, ומוכרים אחרים מציינים נפחים שונים.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא עמוד יצרן או יבואן ישראלי לדגם.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל / Total No-Frost / מתח",
+   "issue": "ערכי הקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept. Total volume kept as 752 ליטר without net/gross qualifier. Height published as 177 ס״מ per BetterSHOP, which differs from the catalog's 178 ס״מ. Energy rating E is kept from both sources but flagged because other Israeli listings show B. | code guard removed: summary: \"מקרר Hisense RT102B בעל 3 דלתות ומקפיא תחתון, בנפח כולל של 752 ליטר: 528 ליטר נטו בתא הקירור ו-224 ליטר נטו בתא ההקפאה.\"; metaDescription: \"מקרר 3 דלתות Hisense RT102B, נפח 752 ליטר, בר מים ויצרן קרח בחיבור לרשת ומנגנון שבת הלכתי. נירוסטה מושחרת בחדד אלקטריק נהריה\"; highlight: \"מדחס אינוורטר, רמת רעש 43 dB(A)\"; consideration: \"צריכת חשמל שנתית מוצהרת של 370 קוט״ש\""
+ }
+}

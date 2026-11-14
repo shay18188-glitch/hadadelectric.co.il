@@ -1,0 +1,573 @@
+{
+ "modelNumber": "SJ-FSR920-BK",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "SJ-FSR920-BK",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "לא נמצא דף יצרן, מפרט יבואן או תווית אנרגיה רשמית בישראל. כל המקורות קמעונאיים. ראלקו מופיעה כיבואן הרשמי בסיטי דיל. | QA: Israeli retailers name SJ-FSR920-BK exactly with Ralco as importer; no manufacturer or importer spec page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-5-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-sharp-%D7%93%D7%92%D7%9D-sj-fsr920-bk-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/multi-doors-refrigerators/11399-sj-fsr920bk.html",
+   "publisher": "Zabilo",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1215351",
+   "publisher": "zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.electricshop.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-5-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-sharp-%D7%93%D7%92%D7%9D-sj-fsr920-bk",
+   "publisher": "ElectricShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "90.8 × 185 × 79.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "compartments 433+180+48 match; 668 reported elsewhere, flagged",
+     "label": "נפח אחסון נטו",
+     "value": "661 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא קירור (נטו)",
+     "value": "433 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא הקפאה (נטו)",
+     "value": "180 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נפח תא משתנה (נטו)",
+     "value": "48 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "J-Tech Inverter"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית שחורה"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תאורה",
+     "value": "48 נורות LED היקפיות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פאנל הפעלה",
+     "value": "צג מגע LCD חיצוני"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י ראלקו + 9 שנים על המדחס"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדחס J-Tech Inverter שמתאים את פעולתו לעומס"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "reworded to quote",
+   "text": "מערכת Plasmacluster Ion Pro המסייעת בהפחתת ריחות"
+  },
+  {
+   "sources": [
+    "s4",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת קירור ActiFresh Hybrid"
+  },
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "ice types count disputed, omitted",
+   "text": "יצרן קוביות קרח חשמלי"
+  },
+  {
+   "sources": [
+    "s1",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צג מגע LCD חיצוני ובקרת טמפרטורה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התראה קולית לדלת פתוחה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מצב חופשה (Vacation Mode)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית No-Frost"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "conflict",
+   "note": "conflicts with 95 cm minimum niche from Zabilo",
+   "text": "רוחב כולל בשרטוט ההתקנה עם מרווחי האוורור: 102.8 ס״מ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "conflict",
+   "note": "conflicts with Ralco drawing 102.8 cm",
+   "text": "רוחב נישה מינימלי נדרש: 95 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "מקרר Sharp SJ-FSR920-BK מרובה דלתות עם מקפיא תחתון וגימור זכוכית שחורה. המידות הן 90.8 × 185 × 79.6 ס״מ, עם מדחס J-Tech Inverter ודירוג אנרגטי E. מתאים למי שמחפש מקרר רחב עם תא נפרד בטמפרטורה משתנה.",
+  "highlights": [
+   "מדחס J-Tech Inverter ודירוג אנרגטי E",
+   "טכנולוגיית No-Frost ומערכת קירור ActiFresh Hybrid",
+   "אחריות: שנה ע״י ראלקו + 9 שנים על המדחס"
+  ],
+  "goodFor": [
+   "משפחה שזקוקה לנפח קירור והקפאה גדול",
+   "מי שרוצה תא נפרד בטמפרטורה משתנה לצד המקרר והמקפיא",
+   "מטבח שבו גימור זכוכית שחורה משתלב בעיצוב",
+   "מי שמעדיף יצרן קרח חשמלי מובנה"
+  ],
+  "considerations": [
+   "רוחב המקרר 90.8 ס״מ: יש למדוד את הנישה ולבדוק את מרווחי האוורור הנדרשים בשרטוט ההתקנה של היבואן",
+   "עומק המקרר 79.6 ס״מ: כדאי לבדוק בליטה מעבר לקו הארונות ופתיחת הדלתות",
+   "גובה המקרר 185 ס״מ: יש לוודא שאין ארון עליון נמוך מדי מעל הנישה",
+   "דירוג אנרגטי E: כדאי להשוות לדגמים אחרים לפני רכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 90.8 ס״מ, גובה 185 ס״מ ועומק 79.6 ס״מ. לפני ההתקנה יש לבדוק את מרווחי האוורור לפי שרטוט היבואן.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר No-Frost?",
+    "a": "כן, המקרר כולל טכנולוגיית No-Frost ומערכת קירור ActiFresh Hybrid.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "שנה ע״י ראלקו ועוד 9 שנים על המדחס.",
+    "sources": []
+   },
+   {
+    "q": "איזה מדחס יש במקרר?",
+    "a": "מדחס J-Tech Inverter שמתאים את פעולתו לעומס.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Sharp SJ-FSR920-BK",
+   "SJ-FSR920-BK",
+   "מקרר שארפ זכוכית שחורה",
+   "מקרר שארפ מקפיא תחתון",
+   "מקרר שארפ 661 ליטר",
+   "מקרר מרובה דלתות שארפ",
+   "מקרר No-Frost שארפ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "661 ליטר נטו כולל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תא קירור",
+   "catalogValue": "433 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תא הקפאה",
+   "catalogValue": "180 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תא משתנה",
+   "catalogValue": "48 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 90.8 ס״מ, גובה 185 ס״מ, עומק 79.6 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב נישה מינימלי נדרש",
+   "catalogValue": "95 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (דירוג חדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "catalogValue": "360 קוט\"ש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "זכוכית שחורה (Black Glass)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "48 נורות LED היקפיות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "מדחס J-Tech Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Plasmacluster",
+   "catalogValue": "טכנולוגיית Plasmacluster Ion Pro לניטרול בקטריות, חיידקים ועובש",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ActiFresh",
+   "catalogValue": "מערכת קירור ActiFresh Hybrid",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "יצרן קוביות קרח",
+   "catalogValue": "4 סוגי קרח",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תא אחסון גמיש טמפרטורה משתנה",
+   "catalogValue": "3+ עד 18- מעלות צלזיוס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצב חופשה",
+   "catalogValue": "Vacation Mode",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצב חיסכון",
+   "catalogValue": "ECO",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "התראה קולית לדלת פתוחה",
+   "catalogValue": "Voice Door Open Alert",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "No Frost",
+   "catalogValue": "טכנולוגיית No-Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פאנל הפעלה",
+   "catalogValue": "Touch LCD",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה ע\"י ראלקו + 9 על המדחס",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יבואן רשמי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "ראלקו",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח",
+   "issue": "הקטלוג וזבילו מציינים 661 ליטר נטו, וסיטי דיל מציין 668 ליטר. זאפ מציין 668 ליטר לדגם. יש לאמת את הנפח הנטו מול מפרט יבואן או תווית אנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב נישה מינימלי נדרש",
+   "issue": "זבילו מציין נישה מינימלית של 95 ס״מ, וסיטי דיל מציין רוחב כולל של 102.8 ס״מ עם מרווחי אוורור לפי שרטוט ההתקנה של ראלקו. יש לאמת לפני שמבטיחים ללקוח התאמה לנישה.",
+   "severity": "medium"
+  },
+  {
+   "field": "יצרן קוביות קרח",
+   "issue": "הקטלוג וזבילו מציינים 4 סוגי קרח, וסיטי דיל מציין קוביות בשני גדלים. יש לבדוק לפני פרסום.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "issue": "סיטי דיל מציין 360 קוט״ש לפי הקטלוג, אך לא נמצא מקור מאומת נוסף. הערך לא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "יצרן רשמי",
+   "issue": "לא נמצאו דף מפרט של Sharp Israel או של ראלקו, ולא נמצאה תווית אנרגיה או מדריך למק״ט זה. כל המקורות קמעונאיים, לכן ערכים בודדים עשויים לא להתפרסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח",
+   "issue": "זבילו והקטלוג מציינים 661 ליטר נטו, אך סיטי דיל וזאפ מציינים 668 ליטר. יש לאמת מול מפרט היבואן או תווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב נישה",
+   "issue": "זבילו מציין נישה מינימלית של 95 ס״מ, ושרטוט ההתקנה של ראלקו (לפי סיטי דיל) מציין 102.8 ס״מ עם מרווחי אוורור. לא פורסם; יש לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "יצרן קוביות קרח",
+   "issue": "הקטלוג וזבילו מציינים 4 סוגי קרח, וסיטי דיל מציין קוביות בשני גדלים.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "לא נמצא דף יצרן, מפרט יבואן או תווית אנרגיה; כל המקורות קמעונאיים.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Installation width items marked conflict: Zabilo minimum niche 95 cm vs Ralco installation drawing width with ventilation gaps 102.8 cm. Plasmacluster feature reworded to what the Israeli quote states. Zabilo kind left as retailer (English-language page). Net volume 661 L kept from ok quote; compartments sum to it, but retailers reportedly cite 668 L elsewhere — flagged. | code guard removed: summary: \"נפח האחסון הנטו הוא 661 ליטר, מתוכם 433 ליטר בתא הקירור, 180 ליטר בתא ההקפאה ו-48 ליטר בתא משתנה.\"; faq: \"מה הנפח של Sharp SJ-FSR920-BK?\"; metaDescription: \"מקרר Sharp SJ-FSR920-BK בגימור זכוכית שחורה, נפח נטו 661 ליטר ומדחס J-Tech Inverter, מידות 90.8 × 185 × 79.6 ס״מ. בחדד אלקטריק נהריה\"; highlight: \"נפח אחסון נטו של 661 ליטר\"; highlight: \"תא משתנה נפרד של 48 ליטר\""
+ }
+}

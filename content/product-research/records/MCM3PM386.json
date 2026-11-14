@@ -1,0 +1,534 @@
+{
+ "modelNumber": "MCM3PM386",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MCM3PM386",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם MultiTalent 3 Plus, מעבד מזון 900 W עם קערה 2.3 ליטר. דף היצרן ודף ה-spec sheet מזהים את הדגם MCM3PM386. ייבואן ישראלי לא אומת מדפי היצרן שנקראו. | QA: Bosch manufacturer page and spec sheet both name MCM3PM386 (MultiTalent 3 Plus, 900 W, 2.3 l bowl), matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/eg/en/mkt-product/kitchenmaschines/foodporcessors/multitalent-3/MCM3PM386",
+   "publisher": "Bosch Egypt product page",
+   "kind": "manufacturer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/fr-FR/MCM3PM386.pdf",
+   "publisher": "Bosch (BSH) spec sheet",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "900 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "2"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סיבוב מקסימלית",
+     "value": "17000 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר פונקציות",
+     "value": "למעלה מ-50 פונקציות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת קערה",
+     "value": "2.3 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כמות בצק מקסימלית בקערה",
+     "value": "0.8 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח שימושי בלנדר",
+     "value": "1 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר הקערה",
+     "value": "פלסטיק"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "source gives H×W×D 375x220x260 mm",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "22 × 37.5 × 26 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "3.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור עם נירוסטה מוברשת"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "120 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זיהוי אביזר אוטומטי",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רגליות יניקה מגומי",
+     "value": "כן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "זיהוי אביזר חכם: המכשיר קובע אוטומטית את המהירות המתאימה לכל אביזר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "SmartStorage: אחסון האביזרים בתוך הקערה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית פולס (Pulse)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון נעילה למכסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגליות יניקה מגומי ליציבות בזמן העבודה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "source says generally dishwasher-safe",
+   "text": "רוב האביזרים מתאימים לשטיפה במדיח כלים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed unclear 500g",
+   "text": "קערת ערבוב מפלסטיק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "attachment is a blender jug, not a blade",
+   "text": "בלנדר מפלסטיק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דיסק גירוד הפיך (גס/דק)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דיסק הקצפה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סכין אוניברסלית וקוצץ אוניברסלי"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מעבד מזון קומפקטי של בוש, עם מנוע 900 W וקערה של 2.3 ליטר שמתאימה ללישה של עד 0.8 ק״ג בצק. כולל בלנדר עם נפח שימושי של 1 ליטר, זיהוי אביזר אוטומטי שמכוון את המהירות, ואחסון האביזרים בתוך הקערה. מתאים למטבח ביתי שרוצה מכשיר אחד לגירוד, חיתוך, ערבוב ולישה בלי לתפוס הרבה מקום.",
+  "highlights": [
+   "מנוע 900 W",
+   "קערה 2.3 ליטר, לישה של עד 0.8 ק״ג בצק",
+   "בלנדר עם נפח שימושי 1 ליטר",
+   "זיהוי אביזר אוטומטי שקובע את המהירות",
+   "אחסון האביזרים בתוך הקערה (SmartStorage)"
+  ],
+  "goodFor": [
+   "מטבח קטן שבו חשוב מכשיר קומפקטי שהאביזרים שלו נשמרים בתוך הקערה",
+   "הכנה יומיומית של סלטים, גירוד ירקות וגבינות וחיתוך",
+   "לישת בצק בכמויות ביתיות קטנות",
+   "הכנת שייקים ורטבים בבלנדר המצורף"
+  ],
+  "considerations": [
+   "מידות המכשיר 22 × 37.5 × 26 ס״מ — כדאי לוודא שיש מקום על השיש או בארון, כולל מתחת לארונות עליונים",
+   "אורך הכבל 120 ס״מ — כדאי לבדוק שיש שקע קרוב למקום העבודה",
+   "הקערה מוגבלת ל-0.8 ק״ג בצק, למי שאופה בכמויות גדולות",
+   "יש 2 מהירויות ופולס בלבד, והמכשיר בוחר מהירות לפי האביזר"
+  ],
+  "faq": [
+   {
+    "q": "כמה בצק אפשר ללוש במעבד המזון?",
+    "a": "הקערה מתאימה לעד 0.8 ק״ג בצק.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בלנדר בערכה?",
+    "a": "כן, מצורף בלנדר מפלסטיק עם נפח שימושי של 1 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "איך בוחרים מהירות?",
+    "a": "למכשיר 2 מהירויות ופונקציית פולס, ומערכת זיהוי האביזר קובעת אוטומטית את המהירות המתאימה לכל אביזר.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את האביזרים במדיח?",
+    "a": "לפי היצרן, רוב האביזרים מתאימים לשטיפה במדיח כלים.",
+    "sources": []
+   },
+   {
+    "q": "איפה שומרים את האביזרים?",
+    "a": "בזכות SmartStorage אפשר לאחסן את האביזרים בתוך הקערה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מעבד מזון Bosch MCM3PM386: מנוע 900 W וקערה 2.3 ליטר עם בלנדר 1 ליטר וזיהוי אביזר אוטומטי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מעבד מזון בוש",
+   "Bosch MCM3PM386",
+   "MCM3PM386",
+   "מעבד מזון 900 וואט",
+   "מעבד מזון קומפקטי",
+   "מעבד מזון עם בלנדר",
+   "מעבד מזון בוש נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "900 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת קערה",
+   "catalogValue": "2.3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקסימום בצק",
+   "catalogValue": "0.8 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת בלנדר",
+   "catalogValue": "1.0 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "2 מהירויות + פונקציית פולס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר פונקציות",
+   "catalogValue": "למעלה מ-50 פונקציות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה 37.5 ס״מ, רוחב 22.0 ס״מ, עומק 26.0 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "3.5 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ברוטו",
+   "catalogValue": "4.3 ק״ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור משולב עם נירוסטה מוברשת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר הקערה והבלנדר",
+   "catalogValue": "פלסטיק איכותי ללא BPA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג סכין",
+   "catalogValue": "MultiLevel6 מנירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "120 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים במדיח",
+   "catalogValue": "אביזרים ניתנים לשטיפה במדיח כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון נעילה לקערה ולמכסה",
+   "catalogValue": "מנגנון נעילה בטיחותי לקערה ולמכסה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקסימום מהירות סיבוב",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "17000 rpm",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "גרמניה (תכנון); סלובניה (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "האחריות הרשמית בישראל לא אומתה: דף היצרן שנקרא הוא של בוש מצרים ומציין אחריות של שנתיים, והמידע הישראלי לא נקרא מדף מקור.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_status",
+   "issue": "בחלק מאתרי בוש במדינות אחרות הדגם מסומן כמוצא מהייצור, ולא נמצא מידע רשמי על זמינות הדגם בישראל. יש לבדוק שהדגם עדיין מיובא.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog_specs",
+   "issue": "מתח העבודה, משקל ברוטו, מדינת המקור וחומר הסכין בקטלוג לא נמצאו בדפי היצרן שנקראו בצורה שאפשר לצטט.",
+   "severity": "low"
+  },
+  {
+   "field": "identity.israeliImporter",
+   "issue": "ייבואן ישראלי ואחריות בישראל לא אומתו; המקורות הם דפי בוש מצרים וצרפת.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_status",
+   "issue": "לפי החוקר, בחלק מאתרי בוש הדגם מסומן כמוצא מהייצור; יש לוודא שהדגם עדיין מיובא.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog_specs",
+   "issue": "מתח עבודה, משקל ברוטו, מדינת מקור, BPA וסוג הסכין MultiLevel6 בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "inTheBox: removed the unclear '500g' from the mixing bowl item; 'plastic blender attachment' is a blender jug, not a blade (text corrected); 'beating disc' renamed to whipping disc. Feature on dishwasher-safe accessories reworded to 'most accessories'."
+ }
+}

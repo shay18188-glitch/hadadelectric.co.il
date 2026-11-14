@@ -1,0 +1,452 @@
+{
+ "modelNumber": "ND-6528B",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND-6528B",
+  "israeliImporter": "קלינטון סחר",
+  "matchConfidence": "high",
+  "notes": "The only page found that names this exact model is an Israeli retailer page (soferavi, written as ND6528B). The 4 searches found no manufacturer, importer, manual or EPREL page for it. The ND-6528SS (silver) page was seen but not used as evidence. | QA: Israeli retailer page names ND6528B in black, 60 cm standard dishwasher; matches catalog SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מדיח-כלים-רגיל-60-סמ-נורמנדה-nd6528b-שחור/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Normande"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "59.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "59.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "84.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "42 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "13.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות הדחה",
+     "value": "9"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "49 דציבל"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה דרך היבואן קלינטון סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 קומות כלים: תחתונה ועליונה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סלסלה עליונה מתכווננת בגובה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ייבוש באמצעות חום שיורי לחיסכון באנרגיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר השהייה לתזמון התחלה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מרכך מים פנימי כלול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה לדטרגנט עם פתיחה בהחלקה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיבור למים קרים בלבד"
+  }
+ ],
+ "content": {
+  "summary": "מדיח כלים רגיל ברוחב 59.8 ס״מ של Normande בגימור שחור, דגם ND-6528B. קיבולת של 13 מערכות כלים, צריכת מים של 13.5 ליטר למחזור ורמת רעש של 49 דציבל. מתאים למי שמחפש מדיח עומד עם 9 תוכניות הדחה ומרכך מים מובנה.",
+  "highlights": [
+   "קיבולת 13 מערכות כלים",
+   "צריכת מים 13.5 ליטר למחזור",
+   "רמת רעש 49 דציבל",
+   "9 תוכניות הדחה",
+   "סלסלה עליונה מתכווננת בגובה"
+  ],
+  "goodFor": [
+   "משפחה שמדיחה כמות גדולה של כלים בכל הפעלה",
+   "מטבח פתוח שבו חשוב מדיח שקט יחסית",
+   "מי שרוצה לתזמן את ההדחה לשעה נוחה בעזרת טיימר השהייה",
+   "מי שמחפש מדיח בגימור שחור"
+  ],
+  "considerations": [
+   "לוודא שהנישה מתאימה למידות 59.8 × 59.8 × 84.5 ס״מ (רוחב × עומק × גובה)",
+   "המדיח מתחבר למים קרים בלבד – יש לוודא נקודת מים מתאימה ושקע חשמל בקרבת המקום",
+   "משקל המכשיר 42 ק״ג – כדאי לתכנן את ההובלה וההצבה",
+   "האחריות לשנה דרך היבואן קלינטון סחר"
+  ],
+  "faq": [
+   {
+    "q": "כמה מערכות כלים נכנסות במדיח?",
+    "a": "קיבולת המדיח היא 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים המדיח צורך למחזור?",
+    "a": "צריכת המים היא 13.5 ליטר למחזור.",
+    "sources": []
+   },
+   {
+    "q": "עד כמה המדיח שקט?",
+    "a": "רמת הרעש בפעולה היא 49 דציבל.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך לחבר אותו למים חמים?",
+    "a": "לא, המדיח מתחבר למים קרים בלבד.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המדיח?",
+    "a": "אחריות לשנה דרך היבואן קלינטון סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים Normande ND-6528B שחור, 13 מערכות כלים ורמת רעש 49 דציבל, 9 תוכניות הדחה ומרכך מים מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מדיח כלים נורמנדה",
+   "Normande ND-6528B",
+   "ND6528B",
+   "מדיח כלים שחור",
+   "מדיח כלים 60 ס״מ",
+   "מדיח כלים 13 מערכות",
+   "מדיח כלים שקט",
+   "מדיח כלים נורמנדה שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "13 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "49 דציבלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים למחזור",
+   "catalogValue": "13.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות הדחה",
+   "catalogValue": "9 תוכניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "59.8 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "59.8 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "84.5 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "42 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "150 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך צינור יציאת מים",
+   "catalogValue": "170 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך צינור כניסת מים",
+   "catalogValue": "140 ס״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר תא פנימי",
+   "catalogValue": "פלסטיק עמיד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "טורקיה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מרכך מים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מרכך מים פנימי כלול",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבור למים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "קרים בלבד",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוג",
+   "issue": "The catalog name says רחב (wide), but the Israeli retailer calls this model a standard (רגיל) 60 cm dishwasher. Both describe 60 cm width; confirm the Hebrew label Normande uses.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "No manufacturer, importer, manual or EPREL page for this exact model was found. All facts come from one Israeli retailer page, which names the model as ND6528B without the hyphen. Check against the importer's spec sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח הפעלה",
+   "issue": "The retailer page gives the voltage as 220–240 with the unit וואט (watts), which is a unit error for volts. The voltage was not recorded as a fact.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "All facts come from a single Israeli retailer page (ND6528B without hyphen); no manufacturer or importer spec sheet found.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוג",
+   "issue": "Catalog name says רחב while the retailer calls it a standard (רגיל) 60 cm dishwasher; confirm wording.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts come from one Israeli retailer page naming ND6528B (black). Quotes consistent with catalog."
+ }
+}

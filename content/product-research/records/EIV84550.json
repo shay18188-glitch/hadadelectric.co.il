@@ -1,0 +1,360 @@
+{
+ "modelNumber": "EIV84550",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EIV84550",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "medium",
+  "notes": "דף היצרן הבריטי מזהה את הדגם ואת מק״ט היצרן 949599217. לא נמצא דף מוצר בעברית באתר היצרן הישראלי (חיפוש באתר electrolux.co.il לא החזיר מוצר). שם היבואן נלקח מרשימת מוכר בהשוואת מחירים בלבד. | QA: Only source is the Electrolux UK product page for EIV84550. Israeli variant (including the catalog's three-phase connection) not confirmed by a source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrolux.co.uk/kitchen/cooking/hobs/induction-hob/eiv84550/",
+   "publisher": "Electrolux UK",
+   "kind": "manufacturer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "removed UK PNC",
+     "label": "דגם",
+     "value": "EIV84550"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × עומק)",
+     "value": "780 × 520 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה",
+     "value": "רוחב 750 × עומק 490 × גובה 44 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "12.78 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק חשמלי מרבי כולל",
+     "value": "7350 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר אזורי בישול",
+     "value": "5 אזורי אינדוקציה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "label clarified to left-front zone",
+     "label": "אזור בישול קדמי שמאלי (הספק/קוטר)",
+     "value": "2300/3200 W, קוטר 210 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג אינדוקציה",
+     "value": "אינדוקציה מלאה (Full Induction)"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיבור חשמל",
+     "value": "חיבור קשיח בלבד (Hardwired)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "fixed translation",
+   "text": "Hob2Hood: שליטה בקולט האדים דרך הכיריים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "PowerBoost: חימום מיידי, הרתחת מים תוך פחות מ-90 שניות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית גישור: איחוד שני אזורי בישול לאזור אחד גדול לסירים בכל גודל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טיימר נפרד לכל אזור בישול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "השהיית בישול לשמירת ההגדרות בהפסקה קצרה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נעילת ילדים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "החיבור לחשמל הוא קשיח בלבד, ללא תקע"
+  }
+ ],
+ "content": {
+  "summary": "כיריים אינדוקציה מלאה של Electrolux ברוחב 780 מ״מ, עם 5 אזורי בישול והספק כולל של 7350 W. פונקציית גישור מאחדת שני אזורים לאזור אחד גדול, ו-PowerBoost מרתיח מים תוך פחות מ-90 שניות. מתאימות למטבח שמבשלים בו בכמה סירים במקביל ומחפשים משטח רחב.",
+  "highlights": [
+   "5 אזורי בישול באינדוקציה מלאה",
+   "הספק כולל 7350 W",
+   "PowerBoost: הרתחת מים תוך פחות מ-90 שניות",
+   "גישור שני אזורים לאזור בישול גדול",
+   "Hob2Hood לשליטה בקולט אדים תואם"
+  ],
+  "goodFor": [
+   "בישול במספר סירים ומחבתות במקביל",
+   "כלי בישול גדולים או מוארכים בזכות פונקציית הגישור",
+   "מטבח עם קולט אדים תואם Hob2Hood",
+   "בית עם ילדים בזכות נעילת ילדים"
+  ],
+  "considerations": [
+   "לוודא נישה ברוחב 750 מ״מ ובעומק 490 מ״מ, ועומק התקנה של 44 מ״מ",
+   "החיבור קשיח בלבד ללא תקע, ולכן נדרש חשמלאי להתקנה",
+   "לבדוק שהלוח החשמלי מתאים להספק כולל של 7350 W",
+   "Hob2Hood פועל רק עם קולט אדים תואם"
+  ],
+  "faq": [
+   {
+    "q": "מה גודל הנישה הנדרש להתקנה?",
+    "a": "רוחב 750 מ״מ, עומק 490 מ״מ וגובה 44 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם הכיריים מגיעות עם תקע?",
+    "a": "לא. החיבור לחשמל הוא קשיח בלבד ודורש התקנה על ידי חשמלאי.",
+    "sources": []
+   },
+   {
+    "q": "כמה אזורי בישול יש?",
+    "a": "5 אזורי בישול באינדוקציה מלאה, עם אפשרות לגשר בין שני אזורים לאזור אחד גדול.",
+    "sources": []
+   },
+   {
+    "q": "מה עושה PowerBoost?",
+    "a": "מעלה את החום מיידית ומאפשר הרתחת מים תוך פחות מ-90 שניות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים אינדוקציה Electrolux EIV84550 ברוחב 780 מ״מ: 5 אזורי בישול, PowerBoost וגישור אזורים. ייעוץ והזמנה בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים אינדוקציה 80 ס״מ",
+   "Electrolux EIV84550",
+   "כיריים אינדוקציה אלקטרולוקס",
+   "כיריים אינדוקציה 5 אזורים",
+   "כיריים Hob2Hood",
+   "כיריים אינדוקציה עם גישור",
+   "EIV84550"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות חיצוניות (רוחב × עומק)",
+   "catalogValue": "רוחב 780, עומק 520",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות התקנה/גומחה",
+   "catalogValue": "רוחב 750, עומק 490, גובה מינימלי 44",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מרבי כולל",
+   "catalogValue": "7350 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "12.78 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר אזורי בישול",
+   "catalogValue": "5 אזורי אינדוקציה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבור חשמל",
+   "catalogValue": "תלת-פאזי (Hardwired)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג משטח",
+   "catalogValue": "זכוכית קרמית עם מסגרת משופעת (Bevelled) בצד אחד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "PowerBoost",
+   "catalogValue": "הרתחת מים תוך פחות מ-90 שניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Heat Memory",
+   "catalogValue": "שמירת הגדרות הבישול ל-120 שניות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מק״ט יצרן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "949599217",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "חיבור חשמל",
+   "issue": "הקטלוג מציין חיבור תלת-פאזי. דף היצרן מציין רק חיבור קשיח ולא מספר פאזות. לבדוק במדריך המשתמש או מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן ישראלי",
+   "issue": "לא נמצא דף יצרן ישראלי למוצר. שם היבואן מופיע רק ברשימת מוכר באתר השוואת מחירים. לאמת מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "חיבור חשמל",
+   "issue": "הקטלוג מציין תלת-פאזי; דף היצרן הבריטי מציין חיבור קשיח בלבד ללא מספר פאזות. לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "זיהוי",
+   "issue": "המקור היחיד הוא דף היצרן בבריטניה; גרסה ישראלית לא אומתה.",
+   "severity": "low"
+  },
+  {
+   "field": "Heat Memory",
+   "issue": "שמירת הגדרות ל-120 שניות המופיעה בקטלוג לא אומתה במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 0: dropped UK manufacturer product number 949599217 (may differ for the Israeli unit), kept model code. Fact 6: label clarified as left-front zone. Feature 0: corrected translation of cooker hood (קולט אדים). Three-phase connection and Heat Memory 120s from catalog not verified."
+ }
+}

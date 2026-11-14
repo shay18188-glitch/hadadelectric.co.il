@@ -1,0 +1,339 @@
+{
+ "modelNumber": "60GL403 (6743)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "60GL403-B (6743)",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "The Midea Israel page names the exact SKU 60GL403-B(6743), black glass. The catalog omits the -B suffix. The CityDeal page (Israeli importer listing) names the same model with מק״ט 6743. | QA: Midea Israel page names 60GL403-B(6743), black glass, matching the catalog name and מק\"ט 6743. Catalog omits the -B suffix."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il-en/cooking-range/built-in-hob/midea-gas-hob-4-burner-60cm-60gl403",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D%2D%D7%92%D7%96%2D%34%2D%D7%9C%D7%94%D7%91%D7%95%D7%AA%2D%6D%69%64%65%61%2D%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA%2D%D7%9C%D7%91%D7%A0%D7%94%2D%D7%93%D7%92%D7%9D%2D%36%30%67%6C%34%30%33%2D%D7%99%D7%91%D7%95%D7%90%D7%9F%2D%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "60GL403-B (6743)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות מוצר (רוחב × עומק)",
+     "value": "60 × 51 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות חיתוך להתקנה (רוחב × עומק)",
+     "value": "56 × 48 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מבערים",
+     "value": "3.6 kW (טורבו כפול) + 1.75 kW × 2 + 1.0 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משטח",
+     "value": "זכוכית שחורה, עובי 8 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מיקום כפתורי בקרה",
+     "value": "בצד"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיישני בטיחות לניתוק גז",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "reworded",
+     "label": "אחריות",
+     "value": "שנתיים ע״י המילטון, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבערים איטלקיים מתוצרת SABAF"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הצתה אלקטרונית וחיישני בטיחות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תושבות סירים מאמאייל, נפרדות לכל מבער"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חובה לבצע התקנה וחיבור גז על ידי טכנאי גז מורשה בלבד"
+  }
+ ],
+ "content": {
+  "summary": "כיריים גז מובנות של Midea ברוחב 60 ס״מ עם משטח זכוכית שחורה בעובי 8 מ״מ וכפתורי בקרה בצד. 4 מבערים איטלקיים של SABAF, ביניהם מבער טורבו כפול בהספק 3.6 kW, עם הצתה אלקטרונית וחיישני בטיחות שמנתקים את הגז כשהלהבה כבה. מתאימות למטבח עם שיש סטנדרטי שמחפש כיריים גז בעיצוב זכוכית נקי.",
+  "highlights": [
+   "4 מבערים, כולל מבער טורבו כפול 3.6 kW",
+   "משטח זכוכית שחורה בעובי 8 מ״מ",
+   "חיישני בטיחות לניתוק אוטומטי של הגז",
+   "כפתורי בקרה בצד",
+   "מבערים איטלקיים מתוצרת SABAF"
+  ],
+  "goodFor": [
+   "בישול מהיר וטיגון בווק בזכות מבער הטורבו הכפול",
+   "מטבח שבו רוצים משטח זכוכית שחור ומראה נקי",
+   "החלפת כיריים גז קיימות ברוחב 60 ס״מ",
+   "בית שבו חשוב ניתוק גז אוטומטי כשהלהבה כבה"
+  ],
+  "considerations": [
+   "יש לוודא שפתח החיתוך בשיש הוא 56 × 48 ס״מ",
+   "ההתקנה וחיבור הגז חייבים להתבצע על ידי טכנאי גז מורשה",
+   "הצתה אלקטרונית דורשת שקע חשמל בקרבת הכיריים",
+   "מידות המוצר 60 × 51 ס״מ — כדאי לבדוק את עומק השיש"
+  ],
+  "faq": [
+   {
+    "q": "מה מידות החיתוך הנדרשות בשיש?",
+    "a": "פתח של 56 × 48 ס״מ (רוחב × עומק).",
+    "sources": []
+   },
+   {
+    "q": "מה הספק המבערים?",
+    "a": "מבער טורבו כפול 3.6 kW, שני מבערים של 1.75 kW ומבער קטן של 1.0 kW.",
+    "sources": []
+   },
+   {
+    "q": "האם יש ניתוק גז אוטומטי?",
+    "a": "כן, המבערים כוללים חיישני בטיחות שמנתקים את זרימת הגז כשהלהבה כבה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנתיים ע״י המילטון, היבואן הרשמי.",
+    "sources": []
+   },
+   {
+    "q": "מי מתקין את הכיריים?",
+    "a": "ההתקנה וחיבור הגז חייבים להתבצע על ידי טכנאי גז מורשה בלבד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Midea 60GL403 ברוחב 60 ס״מ, 4 מבערי SABAF עם טורבו כפול 3.6 kW ומשטח זכוכית שחורה 8 מ״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז מידאה",
+   "Midea 60GL403",
+   "כיריים גז 60 ס״מ זכוכית שחורה",
+   "כיריים גז 4 להבות",
+   "כיריים גז כפתורי צד",
+   "כיריים גז עם טורבו",
+   "כיריים גז מובנות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "רוחב",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עומק מוצר",
+   "catalogValue": "510 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיתוך",
+   "catalogValue": "560 × 480 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4 מבערים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער טורבו",
+   "catalogValue": "3.6kW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח",
+   "catalogValue": "זכוכית מחוסמת שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מיקום כפתורים",
+   "catalogValue": "כפתורי צד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Catalog model is 60GL403 (6743). The manufacturer page names the exact SKU 60GL403-B(6743), the black-glass variant. The catalog name says black glass, so the match looks right, but the suffix -B is missing from the catalog.",
+   "severity": "medium"
+  },
+  {
+   "field": "הגובה",
+   "issue": "The manufacturer page gives product height 110 mm, but no quotable line with the full W×D×H set was extracted, so the combined dimensions row is not published. Width and depth are confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Manufacturer names the SKU 60GL403-B(6743); catalog omits the -B suffix.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "CityDeal URL slug says white glass (זכוכית לבנה); confirm that page is the black 6743 listing. Facts taken from it are colour-independent and match the catalog.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept. Reworded warranty value to name the importer. The CityDeal URL slug reads 'זכוכית לבנה' (white glass), so that page may be a white sibling listing; the facts taken from it (dimensions, cutout, warranty, ignition, enamel supports, installation) match the catalog and are colour-independent, so kept but flagged."
+ }
+}

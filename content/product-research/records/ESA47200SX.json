@@ -1,0 +1,388 @@
+{
+ "modelNumber": "ESA47200SX",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "ESA47200SX",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Electrolux Israel site search lists ESA47200SX (13 place settings). The user manual covers ESA47200SW and ESA47200SX. Israeli retailer page bettershop.co.il gives the technical data; its page also shows 47 DB in a summary box versus 46 dB in the tech data, so the tech-data line is used. | QA: Manual covers ESA47200SW/ESA47200SX; Electrolux Israel site and an Israeli retailer list ESA47200SX with 13 place settings."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrolux.vn/globalassets/english.pdf",
+   "publisher": "Electrolux (manual, Vietnam site)",
+   "kind": "manual",
+   "market": "VN",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electrolux.co.il/?s=ESA47200SX",
+   "publisher": "Electrolux Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bettershop.co.il/product/electrolux-esa47200sx/",
+   "publisher": "Bettershop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.8 × 85 × 62.2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (תקן אירופי חדש)",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל לתוכנית Eco 50°C",
+     "value": "0.94 קוט״ש"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל במצב המתנה",
+     "value": "0.1 W"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים לתוכנית סטנדרטית",
+     "value": "9.9 ליטר"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משך תוכנית סטנדרטית (Eco 50°C)",
+     "value": "240 דקות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר הפעלה מאוחרת",
+     "value": "1-24 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240 V"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer summary box shows 47; tech-data line says 46.",
+     "label": "עוצמת רעש",
+     "value": "46 דציבל"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיבור מים",
+     "value": "מים קרים או חמים עד 60°C"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ייבוש משופר עם פתיחה אוטומטית של הדלת בסיום התוכנית (AirDry)"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישני SENSORCONTROL מזהים את רמת הלכלוך ומכווננים את כמות המים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Machine Care לניקוי המדיח עצמו"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית מקוצרת של 30 דקות ב-60 מעלות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סלסלה עליונה מתכווננת לגובה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הגנת Crystal Protection לכלי זכוכית וקריסטל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Electrolux ESA47200SX הוא מדיח כלים רחב עומד בגימור נירוסטה, בקיבולת של 13 מערכות כלים. הוא עובד ברמת רעש של 46 דציבל, צורך 9.9 ליטר מים בתוכנית הסטנדרטית ומשלב ייבוש AirDry עם פתיחה אוטומטית של הדלת. מתאים למשפחה שמדיחה כמות כלים גדולה ומעוניינת במדיח שקט יחסית.",
+  "highlights": [
+   "קיבולת של 13 מערכות כלים",
+   "עוצמת רעש של 46 דציבל",
+   "צריכת מים של 9.9 ליטר בתוכנית סטנדרטית",
+   "ייבוש AirDry עם פתיחה אוטומטית של הדלת",
+   "תוכנית מקוצרת של 30 דקות ב-60 מעלות"
+  ],
+  "goodFor": [
+   "משפחות שמפעילות מדיח מלא בקיבולת של 13 מערכות כלים",
+   "מטבח פתוח לסלון, בזכות עוצמת רעש של 46 דציבל",
+   "מי שרוצה להפעיל את המדיח בשעות הלילה בעזרת טיימר הפעלה מאוחרת של 1-24 שעות",
+   "מי שמדיח כוסות זכוכית וקריסטל, בזכות הגנת Crystal Protection"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה או המקום במטבח מתאימים למידות 59.8 × 85 × 62.2 ס״מ",
+   "המדיח מתחבר למים קרים או חמים עד 60°C – כדאי לבדוק את נקודת חיבור המים",
+   "התוכנית הסטנדרטית Eco 50°C נמשכת 240 דקות, ולשטיפה מהירה יש תוכנית של 30 דקות",
+   "יש לוודא שקע חשמל מתאים ליד מקום ההתקנה (מתח עבודה 220-240 V)"
+  ],
+  "faq": [
+   {
+    "q": "כמה כלים נכנסים למדיח Electrolux ESA47200SX?",
+    "a": "קיבולת המדיח היא 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "עד כמה המדיח שקט?",
+    "a": "עוצמת הרעש במהלך עבודה רגילה היא 46 דציבל.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים וחשמל הוא צורך?",
+    "a": "בתוכנית הסטנדרטית Eco 50°C הוא צורך 9.9 ליטר מים ו-0.94 קוט״ש, ודירוג האנרגיה שלו לפי התקן האירופי החדש הוא E.",
+    "sources": []
+   },
+   {
+    "q": "יש תוכנית מהירה?",
+    "a": "כן, יש תוכנית מקוצרת של 30 דקות בטמפרטורה של 60 מעלות.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המדיח?",
+    "a": "רוחב 59.8 ס״מ, גובה 85 ס״מ ועומק 62.2 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים רחב Electrolux ESA47200SX נירוסטה: 13 מערכות כלים, 46 דציבל וייבוש AirDry עם פתיחת דלת אוטומטית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux ESA47200SX",
+   "מדיח כלים אלקטרולוקס",
+   "מדיח כלים רחב נירוסטה",
+   "מדיח כלים 13 מערכות",
+   "מדיח כלים שקט",
+   "מדיח כלים AirDry",
+   "ESA47200SX מדיח"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "13 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "46 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צריכת מים לתוכנית Eco",
+   "catalogValue": "9.9 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צריכת חשמל למחזור",
+   "catalogValue": "0.94 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240 וולט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 85, רוחב 60, עומק 63 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "59.8 × 85 × 62.2 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-40.7 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "1950 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Catalog depth 63 cm vs manual 622 mm; retailers round to 63.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Weight and total power not found on exact-model pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "Retailer page shows 47 dB in a summary box and 46 dB in the technical data; 46 used.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog lists depth 63 cm and width 60 cm; manual gives 622 mm and 598 mm.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל / הספק",
+   "issue": "Catalog weight 40.7 kg and power 1950 W were not found on exact-model sources.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts and features backed by ok quotes on pages naming ESA47200SX. Dimensions converted mm to cm from the manual. Noise kept at 46 dB from the retailer tech-data line."
+ }
+}

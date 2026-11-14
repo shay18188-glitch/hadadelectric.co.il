@@ -1,0 +1,429 @@
+{
+ "modelNumber": "WW11BB5044AW",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW11BB5044AW",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "דף המוצר של ACE ודף Zabilo מזכירים את הדגם המדויק עם מפרט מלא. לא נמצא דף מוצר רשמי של סמסונג ישראל לדגם המדויק. דף ACE מציין יבואן רשמי ניופרו, בעוד תוצאות חיפוש אחרות מציינות סמסונג ישראל. | QA: Several Israeli retailer pages name the exact model WW11BB5044AW with 11 kg capacity. Importer unclear (ניופרו per BUG, סמליין per another retailer)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ace.co.il/4483103",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/front-loading-washing-machines/10945-ww11bb5044aw.html",
+   "publisher": "Zabilo",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/מכונת-כביסה-פתח-חזית-11-קג-samsung-5102200ww11bb5044aw",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.soferavi.co.il/מוצרים/מכונת-כביסה-פתח-חזית-סמסונג-ww11bb5044aw/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "11 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מקסימלית",
+     "value": "1400 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Zabilo and Avi Sofer ok quotes",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 61 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק כולל",
+     "value": "64 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Importer inconsistent across retailers",
+     "label": "אחריות יבואן",
+     "value": "12 חודשים (ניופרו)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פאנל פיקוד",
+     "value": "מסך תצוגה דיגיטלי LED לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "removed marketing wording",
+   "text": "טכנולוגיית AI Eco Bubble"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "זיהוי סוג הבגד ורמת הלכלוך, ושליטה באמצעות אפליקציה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שקילה אוטומטית רציפה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית מהירה של 15 דקות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Hygiene Steam לנטרול בקטריות ואלרגנים"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה באמצעות אפליקציית SmartThings"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר לסיום מושהה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיקוד אלקטרוני Fuzzy Logic"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תפריט הפעלה בעברית ובאנגלית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יש לוודא שההתקנה מבוצעת על ידי מתקין מורשה מטעם היבואן"
+  }
+ ],
+ "content": {
+  "summary": "Samsung WW11BB5044AW היא מכונת כביסה פתח חזית בקיבולת 11 ק״ג, עם מהירות סחיטה של עד 1400 סל״ד ודירוג אנרגטי A. המכונה כוללת טכנולוגיית AI Eco Bubble, תוכנית Hygiene Steam ושליטה דרך אפליקציית SmartThings. מתאימה למי שמכבס כמויות גדולות ורוצה מכונה חכמה ברוחב 60 ס״מ.",
+  "highlights": [
+   "קיבולת כביסה 11 ק״ג",
+   "סחיטה עד 1400 סל״ד",
+   "דירוג אנרגטי A",
+   "תוכנית מהירה של 15 דקות",
+   "שליטה באמצעות אפליקציית SmartThings"
+  ],
+  "goodFor": [
+   "משפחות שמכבסות כמויות גדולות של כביסה, כולל שמיכות ומצעים",
+   "מי שרוצה לשלוט במכונה ולעקוב אחרי הכביסה מהטלפון",
+   "מי שצריך לפעמים כביסה קצרה בתוכנית של 15 דקות",
+   "מי שמחפש תוכנית אדים לנטרול בקטריות ואלרגנים"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה: רוחב 60 ס״מ, גובה 85 ס״מ ועומק כולל של 64 ס״מ",
+   "יש להשאיר מקום לפתיחת הדלת בחזית המכונה",
+   "יש לוודא שההתקנה מבוצעת על ידי מתקין מורשה מטעם היבואן",
+   "לשליטה דרך האפליקציה נדרש חיבור לרשת האלחוטית בבית"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Samsung WW11BB5044AW?",
+    "a": "קיבולת הכביסה היא 11 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המקסימלית?",
+    "a": "מהירות הסחיטה המקסימלית היא 1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכונה?",
+    "a": "רוחב 60 ס״מ, גובה 85 ס״מ ועומק 61 ס״מ, ועומק כולל של 64 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט במכונה מהטלפון?",
+    "a": "כן, המכונה ניתנת לשליטה באמצעות אפליקציית SmartThings.",
+    "sources": []
+   },
+   {
+    "q": "יש תוכנית קצרה?",
+    "a": "כן, יש תוכנית מהירה של 15 דקות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Samsung WW11BB5044AW פתח חזית: קיבולת 11 ק״ג, סחיטה עד 1400 סל״ד, דירוג אנרגטי A ו-AI Eco Bubble. בחדד אלקטריק נהריה",
+  "keywords": [
+   "WW11BB5044AW",
+   "סמסונג WW11BB5044AW",
+   "מכונת כביסה סמסונג 11 קג",
+   "מכונת כביסה 11 קילו",
+   "מכונת כביסה פתח חזית סמסונג",
+   "מכונת כביסה 1400 סלד",
+   "מכונת כביסה Eco Bubble",
+   "מכונת כביסה חכמה SmartThings"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "11 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A (לפי התקן החדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות נטו (עומק)",
+   "catalogValue": "עומק 60 ס\"מ, עומק כולל 63 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "עומק 61 ס\"מ, עומק כולל 64 ס\"מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות נטו (רוחב, גובה)",
+   "catalogValue": "רוחב 60 ס\"מ, גובה 85 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה ל-100 מחזורים",
+   "catalogValue": "53 קוט\"ש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת מים למחזור",
+   "catalogValue": "54 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש מקסימלית (סחיטה)",
+   "catalogValue": "72 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "72 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "Digital Inverter BLDC ללא פחמים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "מיוצר בפולין (תוכנן בדרום קוריאה)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עומק",
+   "issue": "קטלוג: עומק 60 ס\"מ ועומק כולל 63 ס\"מ. שני אתרי הקמעונאים מציינים עומק 61 ס\"מ ועומק כולל 64 ס\"מ. יש לבדוק מול דף היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא דף מוצר רשמי של סמסונג ישראל או של היבואן לדגם המדויק. היבואן שמופיע בדף ACE הוא ניופרו, והמידע על סמסונג ישראל מגיע מתוצאות חיפוש בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "לא נמצא משקל נטו לדגם המדויק. הערך 72 ק\"ג שנמצא מגיע מדגם אחר באותה משפחה (WW11BB504DAWS1) ולכן לא נרשם.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת אנרגיה, מים, רעש",
+   "issue": "הערכים בקטלוג (53 קוט\"ש, 54 ליטר, 72 דציבל) לא נמצאו בדפים שנבדקו ולכן לא נרשמו. יש לאמת מול תווית האנרגיה של המוצר.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "BUG ואבי סופר מציינים אחריות של 12 חודשים (ניופרו/סמליין); ACE מציין תוספת על מנוע. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "בקטלוג עומק 60 ס״מ ועומק כולל 63 ס״מ, אך דפי קמעונאים לדגם מציינים עומק 61 ס״מ ועומק כולל 64 ס״מ. יש לעדכן או לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן ואחריות",
+   "issue": "היבואן אינו אחיד בין הקמעונאים (ניופרו לעומת סמליין). האחריות לא פורסמה עד לאימות מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת אנרגיה, מים, רעש, משקל",
+   "issue": "ערכי הקטלוג (53 קוט״ש, 54 ליטר, 72 דציבל, 72 ק״ג) לא אומתו במקורות. יש לבדוק מול תווית האנרגיה.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (fact 5): importer differs between Israeli retailers (ניופרו vs סמליין), needs importer confirmation. Dimensions kept on Zabilo/Avi Sofer ok quotes (depth 61, total depth 64), which contradict catalog 60/63."
+ }
+}

@@ -1,0 +1,470 @@
+{
+ "modelNumber": "V500",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "UWANT",
+  "exactModel": "V500",
+  "israeliImporter": "אס ג'י S.G אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "דגם V500 מופיע באתר היבואן, באתר ליאור מוצרי חשמל ובאתר זאפ. נתוני ההספק, זמן העבודה ונפח שקית האבק סותרים בין המקורות (ראו reviewFlags). | QA: Importer page and an Israeli retailer page both name UWANT V500 cordless vacuum with self-emptying dock."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A2%D7%9D-%D7%A2%D7%9E%D7%93%D7%AA-%D7%A0%D7%99%D7%A7%D7%95%D7%99-%D7%A2%D7%A6%D7%9E%D7%99-uwant-%D7%90%D7%95%D7%95%D7%90%D7%A0%D7%98/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.sge.co.il/%D7%9E%D7%95%D7%A6%D7%A8/10600/V500",
+   "publisher": "אס ג'י S.G אלקטרוניקה",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1252919",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Importer spec table reportedly lists 550W; only the retailer quote is ok.",
+     "label": "הספק מנוע",
+     "value": "350 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "25,000 Pa"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Importer page reportedly shows 60 and 40 minutes.",
+     "label": "זמן עבודה (מצב סטנדרט)",
+     "value": "עד 45 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת סינון",
+     "value": "5 שכבות + פילטר HEPA"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Importer value; retailer reportedly lists 2 L.",
+     "label": "נפח שקית אבק בעמדת הריקון",
+     "value": "2.5 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת סוללה",
+     "value": "2,000 mAh"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "1.7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "עד 76 dB"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote says smaller than A4, not A4-sized.",
+     "label": "שטח תחנת עגינה",
+     "value": "קטן מדף A4"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקופת אחריות",
+     "value": "שנה (היבואן הרשמי אס ג'י S.G אלקטרוניקה)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תחנת עגינה Dust-Hive לריקון וניקוי אוטומטיים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'after every use' - not in quote.",
+   "text": "טבעת ניקוי בפטנט של UWANT שמנקה הצטברויות שיער ולכלוך סביב הפילטר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת גומי בצורת V שמונעת הסתבכות שיער"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאורה ירוקה לאיתור אבק"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הנחיות קוליות ועדכונים בזמן אמת על מצב הסוללה ותוכנית הניקוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תחנת העגינה קטנה יותר מדף נייר A4 ומתאימה לדירות קומפקטיות"
+  }
+ ],
+ "content": {
+  "summary": "UWANT V500 הוא שואב אבק אלחוטי עם תחנת עגינה Dust-Hive שמרוקנת את הלכלוך לשקית בנפח 2.5 ליטר. עוצמת השאיבה היא 25,000 Pa, מערכת הסינון כוללת 5 שכבות ופילטר HEPA, והשואב שוקל 1.7 ק״ג. מתאים למי שרוצה שואב קל לניקוי יומיומי בלי לרוקן מיכל ידנית אחרי כל שימוש.",
+  "highlights": [
+   "תחנת ריקון אוטומטית עם שקית בנפח 2.5 ליטר",
+   "עוצמת שאיבה 25,000 Pa",
+   "סינון 5 שכבות + פילטר HEPA",
+   "משקל 1.7 ק״ג",
+   "מברשת גומי בצורת V שמונעת הסתבכות שיער"
+  ],
+  "goodFor": [
+   "בתים עם בעלי חיים או שיער ארוך, בזכות מברשת הגומי בצורת V וטבעת הניקוי סביב הפילטר",
+   "מי שרגיש לאבק ומעדיף ריקון אוטומטי לשקית וסינון HEPA",
+   "דירות קומפקטיות, כי תחנת העגינה קטנה יותר מדף A4"
+  ],
+  "considerations": [
+   "יש לתכנן מקום לתחנת העגינה ליד שקע חשמל",
+   "השקית בתחנה מתמלאת עם הזמן וצריך להחליף אותה",
+   "רמת הרעש מגיעה עד 76 dB"
+  ],
+  "faq": [
+   {
+    "q": "האם השואב מתרוקן לבד?",
+    "a": "כן. תחנת העגינה Dust-Hive מרוקנת את הלכלוך לשקית בנפח 2.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקל השואב?",
+    "a": "1.7 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "איזה סינון יש לשואב?",
+    "a": "מערכת סינון של 5 שכבות ופילטר HEPA.",
+    "sources": []
+   },
+   {
+    "q": "כמה מקום תופסת תחנת העגינה?",
+    "a": "התחנה קטנה יותר מדף נייר A4.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה מהיבואן הרשמי אס ג'י S.G אלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק אלחוטי UWANT V500 עם תחנת ריקון עצמית Dust-Hive, עוצמת שאיבה 25,000 Pa וסינון HEPA, משקל 1.7 ק״ג. להשיג בחדד אלקטריק נהריה",
+  "keywords": [
+   "UWANT V500",
+   "שואב אבק אלחוטי UWANT",
+   "שואב אלחוטי עם עמדת ריקון",
+   "שואב אבק עם תחנת ריקון עצמית",
+   "יואנט V500",
+   "שואב אבק אלחוטי HEPA",
+   "שואב אבק אלחוטי קל"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "350W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "25,000Pa",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "2,000mAh (7 תאים)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 45 דקות (במצב סטנדרטי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-3 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל אבק בשואב",
+   "catalogValue": "0.4 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח שקית אבק בעמדת הריקון",
+   "catalogValue": "2.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "עד 76dB",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "1.7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות השואב",
+   "catalogValue": "117.2x26x25.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שטח תחנת עגינה",
+   "catalogValue": "A4 (210x297 מ\"מ)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "מסך LED",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "5 שכבות כולל פילטר HEPA",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן/אפור",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תקופת אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק מנוע",
+   "issue": "טבלת המפרט של היבואן מציגה 550W, ואילו דף ליאור וזאפ מציגים 350W. יש לאמת את ההספק מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "דף היבואן מציג גם 'עד 60 דקות' בטבלה וגם 'עד 40 דקות' בטקסט, ודף ליאור מציג 45 דקות. מקורות סותרים.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח שקית אבק",
+   "issue": "דף היבואן מציג 2.5 ליטר, ודף ליאור מציג 2 ליטר בטבלת המפרט. מקורות סותרים.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות השואב",
+   "issue": "מידות 117.2x26x25.5 ס\"מ מופיעות בטבלת היבואן ללא מיפוי ברור לכל ערך, ולא נמצא משפט מאמת לשלושת המידות. יש לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "שטח תחנת עגינה",
+   "issue": "המידה 210x297 מ\"מ לא אומתה בדף שנבדק; נאמר רק שהתחנה קטנה מדף A4.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן טעינה",
+   "issue": "זמן הטעינה כ-3 שעות מופיע רק בטבלה ללא משפט מאמת.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח מיכל אבק",
+   "issue": "נפח מיכל 0.4 ליטר מופיע רק בטבלה ללא משפט מאמת.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מנוע",
+   "issue": "היבואן מציג 550W ואילו הקמעונאי וזאפ מציגים 350W; ערך הקטלוג 350W לא מאומת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "דף היבואן מציג 60 וגם 40 דקות, הקמעונאי מציג 45 דקות; ערך הקטלוג לא מאומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח שקית אבק",
+   "issue": "היבואן מציג 2.5 ליטר, הקמעונאי מציג 2 ליטר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות השואב / זמן טעינה / נפח מיכל",
+   "issue": "מידות 117.2×26×25.5 ס״מ, זמן טעינה ונפח מיכל 0.4 ליטר בקטלוג לא אומתו בציטוט.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Motor power (350W, retailer only) marked conflict: importer spec table reportedly shows 550W. Runtime (45 min, retailer) marked conflict: importer shows 60 and 40 minutes. Bag volume kept at 2.5 L from the importer page; retailer reportedly shows 2 L, flagged. Dock size value reworded to match the quote (smaller than A4). Filter-ring feature reworded to drop 'after every use', not in the quote."
+ }
+}

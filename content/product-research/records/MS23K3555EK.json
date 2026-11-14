@@ -1,0 +1,450 @@
+{
+ "modelNumber": "MS23K3555EK",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "MS23K3555EK",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף Samsung ישראל לדגם MS23K3555EK/LI (שחור). שם הדגם בכותרת הדף ובקוד המוצר תואמים לדגם הקטלוגי. | QA: Samsung Israel page for MS23K3555EK names the exact catalog model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/microwave-ovens/solo/microwave-oven-solo-ms23k3555ek/",
+   "publisher": "Samsung ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח פנימי",
+     "value": "23 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר החלל",
+     "value": "אמייל קרמי"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל (פלט)",
+     "value": "800 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל (מיקרוגל)",
+     "value": "1,150 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "489 × 275 × 374 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות חלל פנימי (רוחב × גובה × עומק)",
+     "value": "330 × 211 × 324 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות אריזה (רוחב × גובה × עומק)",
+     "value": "552 × 326 × 423 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "12 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל משלוח",
+     "value": "15 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "288 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "עומד חופשי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "reworded",
+   "text": "פונקציית קיטור בריא להכנת מזון מאודה עם כלי אידוי מזכוכית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפשרה אוטומטית שמחשבת את זמן ההפשרה ל-5 סוגי מזון נפוצים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית Keep Warm לשמירה על חום המזון ללא בישול יתר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "reworded",
+   "text": "ציפוי קרמי פנימי עמיד לשריטות ולחלודה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed standby claim",
+   "text": "מצב חיסכון שמפחית את צריכת החשמל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכנית סילוק ריחות מחלל הבישול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתכונים מקומיים מתוכנתים מראש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מיקרוגל עומד חופשי להצבה על משטח, לא מיועד להתקנה בנישה"
+  }
+ ],
+ "content": {
+  "summary": "מיקרוגל סולו דיגיטלי של Samsung בנפח 23 ליטר, בצבע שחור, עם הספק מיקרוגל של 800 W וחלל פנימי מצופה אמייל קרמי. המידות החיצוניות 489 × 275 × 374 מ״מ והוא מיועד להצבה חופשית על משטח. מתאים למי שמחפש מיקרוגל לחימום, הפשרה ובישול באדים במטבח הביתי.",
+  "highlights": [
+   "נפח 23 ליטר",
+   "הספק מיקרוגל 800 W",
+   "חלל פנימי מאמייל קרמי עמיד לשריטות ולחלודה",
+   "הפשרה אוטומטית ל-5 סוגי מזון נפוצים",
+   "פונקציית קיטור בריא ו-Keep Warm"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח הביתי",
+   "הכנת ירקות ומזון מאודה בעזרת פונקציית הקיטור",
+   "מי שרוצה חלל פנימי קרמי שקל לשמור עליו",
+   "הצבה על שיש או משטח עבודה ללא התקנה בנישה"
+  ],
+  "considerations": [
+   "ודאו שיש על המשטח מקום למידות 489 × 275 × 374 מ״מ ומרווח אוורור סביב המכשיר",
+   "זהו מיקרוגל עומד חופשי ולא דגם להתקנה בנישה",
+   "צריכת החשמל היא 1,150 W, כדאי לחבר לשקע שאינו עמוס במכשירים נוספים",
+   "קוטר הצלחת המסתובבת 288 מ״מ, בדקו שהכלים שלכם נכנסים"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המיקרוגל Samsung MS23K3555EK?",
+    "a": "הנפח הפנימי הוא 23 ליטר, ומידות החלל הפנימי הן 330 × 211 × 324 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המיקרוגל?",
+    "a": "הספק המיקרוגל (פלט) הוא 800 W, וצריכת החשמל במצב מיקרוגל היא 1,150 W.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להתקין אותו בנישה?",
+    "a": "לא, זהו מיקרוגל עומד חופשי שמיועד להצבה על משטח.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי החלל הפנימי?",
+    "a": "החלל מצופה אמייל קרמי, שלפי היצרן עמיד לשריטות ולחלודה.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקל המיקרוגל?",
+    "a": "משקל נטו 12 ק״ג.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי Samsung MS23K3555EK שחור, נפח 23 ליטר, הספק 800 W וחלל אמייל קרמי. מפרט ושאלות נפוצות בחדד אלקטריק נהריה",
+  "keywords": [
+   "MS23K3555EK",
+   "מיקרוגל סמסונג 23 ליטר",
+   "מיקרוגל סמסונג שחור",
+   "Samsung MS23K3555EK",
+   "מיקרוגל דיגיטלי 23 ליטר",
+   "מיקרוגל עם ציפוי קרמי",
+   "מיקרוגל סולו סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל (מוצא)",
+   "catalogValue": "800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל מקסימלית",
+   "catalogValue": "1150W-1250W",
+   "finding": "corrected",
+   "correctValue": "1,150 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דרגות עוצמה",
+   "catalogValue": "6",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "288 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר חלל פנימי",
+   "catalogValue": "אמייל קרמי (Ceramic Inside)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "489 x 275 x 374 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חלל פנימי",
+   "catalogValue": "330 x 211 x 324 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "12 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל משלוח",
+   "catalogValue": "15 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג דלת",
+   "catalogValue": "ידית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח פעולה",
+   "catalogValue": "230V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצב ECO",
+   "catalogValue": "מצב ECO לחיסכון באנרגיה במצב המתנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת TDS",
+   "catalogValue": "Triple Distribution System",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "נעילת בטיחות לילדים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "דרום קוריאה (מיוצר לרוב במלזיה או תאילנד)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צריכת חשמל מקסימלית",
+   "issue": "הקטלוג מציין 1150W-1250W, בעוד דף היצרן מציין צריכת חשמל של 1,150 W בלבד. נדרש לאשר את הערך לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר דרגות עוצמה",
+   "issue": "מספר דרגות העוצמה (6) לא אומת בדף היצרן הישראלי. נמצא רק מידע על 6 עוצמות בדף של משווה מחירים שאינו מזהה את הדגם המדויק כמקור מספיק.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח פעולה",
+   "issue": "מתח הפעולה 230V / 50Hz לא נמצא בדף היצרן. לא נרשם כעובדה.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת חשמל מקסימלית",
+   "issue": "הקטלוג מציין 1150W-1250W, דף היצרן מציין 1,150 W.",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר דרגות עוצמה / מתח / נעילת ילדים / TDS",
+   "issue": "ערכי קטלוג אלה לא אומתו בדף היצרן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on Samsung Israel page. Reworded feature 0 (steam with glass steamer, per quote), feature 3 (scratch and rust resistant coating), feature 4 (removed 'standby' claim not in quote). Catalog power consumption range 1150-1250W corrected to 1,150 W per manufacturer."
+ }
+}

@@ -1,0 +1,285 @@
+{
+ "modelNumber": "ME308827",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Moulinex",
+  "exactModel": "ME308827",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Exact model on Moulinex Middle East page, Tefal SA store and Israeli retailer electroeshed. Moulinex ME page lists 1600W as maximum blocked motor power and rated power 350 W, while the catalog says working power 600W. The catalog says 3 slicing cones, which no page confirms. | QA: Exact model ME308827 named on Moulinex Middle East, Tefal Saudi Arabia and Israeli retailer Electroeshed pages."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.moulinex-me.com/en/Food-Preparation/Meat-Mincers/HV3-5IN1-ME308/p/8010000955",
+   "publisher": "Moulinex Middle East",
+   "kind": "manufacturer",
+   "market": "ME",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.tefal.sa/en/moulinex-hv3-5in1-me308-me308827-meat-mincers-versatile-1600w.html",
+   "publisher": "Tefal Saudi Arabia",
+   "kind": "manufacturer",
+   "market": "SA",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://electroeshed.co.il/items/4879340-%D7%9E%D7%98%D7%97%D7%A0%D7%AA-%D7%91%D7%A9%D7%A8-1600W-ME308827-MOULINEX",
+   "publisher": "Electroeshed",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מנוע מרבי (חסום)",
+     "value": "1600 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב טחינה",
+     "value": "עד 1.9 ק״ג לדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 V"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "336 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "394 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך",
+     "value": "174 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "3.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli retailer page for exact model.",
+     "label": "אחריות",
+     "value": "שנה, דרך היבואן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב Reverse (הילוך אחורי) לשחרור חסימות בטחינת בשר קשה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "kebbe = קובה",
+   "text": "3 רשתות נירוסטה (עדינה, בינונית, גסה) ואביזרים להכנת קובה ונקניקיות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגש מתכת, ידית נשיאה ורגליות גומי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "kebbe = קובה",
+   "text": "3 רשתות טחינה (עדינה, בינונית, גסה), אביזר קובה ואביזר נקניקיות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מטחנת הבשר Moulinex HV3 ME308827 היא מטחנה חשמלית ביתית עם הספק מנוע מרבי (חסום) של 1600 W וקצב טחינה של עד 1.9 ק״ג לדקה. היא כוללת 3 רשתות נירוסטה בדרגות עדינה, בינונית וגסה, אביזרים להכנת קובה ונקניקיות ומצב Reverse לשחרור חסימות. מתאימה למי שטוחן בשר בבית באופן קבוע ורוצה לשלוט במרקם הטחינה.",
+  "highlights": [
+   "הספק מנוע מרבי (חסום) 1600 W",
+   "קצב טחינה של עד 1.9 ק״ג לדקה",
+   "3 רשתות נירוסטה: עדינה, בינונית וגסה",
+   "אביזרים להכנת קובה ונקניקיות",
+   "מצב Reverse לשחרור חסימות"
+  ],
+  "goodFor": [
+   "טחינת בשר בבית בכמויות, בזכות קצב טחינה של עד 1.9 ק״ג לדקה",
+   "הכנת קציצות, קובה ונקניקיות ביתיות עם האביזרים הייעודיים",
+   "מי שרוצה לבחור מרקם טחינה בין עדין, בינוני וגס",
+   "טחינת נתחי בשר קשים יותר, עם מצב Reverse לשחרור חסימות"
+  ],
+  "considerations": [
+   "מידות המכשיר 336 × 394 × 174 מ״מ – כדאי לבדוק מקום אחסון בארון או על השיש",
+   "משקל המכשיר 3.6 ק״ג; יש לו ידית נשיאה להעברה",
+   "הנתון 1600 W הוא הספק מנוע מרבי במצב חסום, ולא הספק העבודה הרגיל",
+   "האחריות היא לשנה דרך היבואן"
+  ],
+  "faq": [
+   {
+    "q": "כמה בשר המטחנה טוחנת בדקה?",
+    "a": "לפי היצרן, עד 1.9 ק״ג לדקה.",
+    "sources": []
+   },
+   {
+    "q": "אילו רשתות טחינה כלולות?",
+    "a": "3 רשתות נירוסטה בדרגות עדינה, בינונית וגסה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להכין בה קובה ונקניקיות?",
+    "a": "כן, היא מגיעה עם אביזר קובה ואביזר נקניקיות.",
+    "sources": []
+   },
+   {
+    "q": "מה קורה אם הבשר נתקע?",
+    "a": "יש מצב Reverse (הילוך אחורי) שמשחרר חסימות בטחינת בשר קשה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המטחנה?",
+    "a": "שנה, דרך היבואן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מטחנת בשר Moulinex HV3 ME308827: הספק מרבי 1600 W, טחינה של עד 1.9 ק״ג לדקה, 3 רשתות נירוסטה ואביזרי קובה ונקניקיות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מטחנת בשר מולינקס",
+   "Moulinex ME308827",
+   "מטחנת בשר HV3",
+   "מטחנת בשר חשמלית",
+   "ME308827",
+   "מטחנת בשר 1600W",
+   "מטחנת בשר עם אביזר קובה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "1600W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק עבודה נומינלי",
+   "catalogValue": "600W",
+   "finding": "contradicted",
+   "correctValue": "350 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב טחינה",
+   "catalogValue": "עד 1.9 ק\"ג לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "3 קונוסים לפריסה וגירור",
+   "catalogValue": "3 קונוסים",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין הספק עבודה 600W, היצרן מציין 350 W",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק עבודה",
+   "issue": "הקטלוג מציין הספק עבודה נומינלי 600W, ואילו דף היצרן מציין הספק נקוב 350 W",
+   "severity": "medium"
+  },
+  {
+   "field": "קונוסים לפריסה וגירור",
+   "issue": "הקטלוג מציין 3 קונוסים לפריסה וגירור; אף מקור לא אישר זאת",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against manufacturer pages naming ME308827. Catalog nominal working power 600W is contradicted by the manufacturer (350 W) and catalog '3 slicing cones' is not confirmed by any source; neither is published. Feature 1 wording corrected: 'kebbe' is קובה, not קבב."
+ }
+}

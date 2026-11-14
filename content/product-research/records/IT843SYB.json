@@ -1,0 +1,288 @@
+{
+ "modelNumber": "IT843SYB",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Gorenje",
+  "exactModel": "IT843SYB",
+  "israeliImporter": "קבוצת ח.י",
+  "matchConfidence": "high",
+  "notes": "לא נמצא עמוד יצרן. המפרט מבוסס על שני עמודי קמעונאים ישראליים לדגם המדויק; בעמוד אחד תוויות הגובה והעומק מוחלפות. | QA: Two Israeli retailer pages name the exact model IT843SYB; no manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%90%D7%99%D7%A0%D7%93%D7%95%D7%A7%D7%A6%D7%99%D7%94-gorenje-%D7%93%D7%92%D7%9D-it843syb-0",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/כיריים-אינדוקציה-גורניה-it843syb-זכוכית-שחור/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "10 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר אזורי בישול",
+     "value": "4 אזורי אינדוקציה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תשתית חשמל",
+     "value": "תלת-פאזי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "removed 'מקסימלי' not in quote",
+     "label": "אזור קדמי ימין",
+     "value": "קוטר 16 ס״מ, 1.4/1.85 קילוואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אזור קדמי שמאל",
+     "value": "קוטר 18 ס״מ, 1.4/2.1 קילוואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אזור אחורי ימין",
+     "value": "קוטר 21 ס״מ, 2.3/3 קילוואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אזור אחורי שמאל",
+     "value": "קוטר 18 ס״מ, 1.4/2.1 קילוואט"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית SoftMelt: המסה עדינה של שוקולד או חמאה בטמפרטורה קבועה של 42°C"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית StayWarm: שמירה על חום המזון בטמפרטורה קבועה של 70°C"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "BridgeZone: חיבור שני אזורי בישול לאזור בישול גדול אחד בלחיצה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "PowerBoost להאצת החימום"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בהתקנה בקו אפס עם השיש, עובי המשטח חייב להיות 4.5 ס״מ לפחות"
+  }
+ ],
+ "content": {
+  "summary": "כיריים אינדוקציה של Gorenje בדגם IT843SYB, עם 4 אזורי בישול על משטח זכוכית שחורה. האזור האחורי הימני בקוטר 21 ס״מ מגיע ל-3 קילוואט, ופונקציית BridgeZone מחברת שני אזורים לאזור בישול גדול אחד. הכיריים מיועדות לתשתית חשמל תלת-פאזית ומתאימות למי שמבשל בסירים ותבניות במגוון גדלים.",
+  "highlights": [
+   "4 אזורי בישול אינדוקציה",
+   "אזור אחורי ימני בקוטר 21 ס״מ, עד 3 קילוואט",
+   "BridgeZone לחיבור שני אזורים לאזור בישול גדול אחד",
+   "SoftMelt להמסה עדינה ב-42°C ו-StayWarm לשמירת חום ב-70°C",
+   "PowerBoost להאצת החימום"
+  ],
+  "goodFor": [
+   "בישול במקביל בכמה סירים בגדלים שונים",
+   "תבניות וסירים רחבים בעזרת BridgeZone",
+   "המסת שוקולד או חמאה ושמירה על חום המזון עד ההגשה",
+   "מטבחים עם תשתית חשמל תלת-פאזית"
+  ],
+  "considerations": [
+   "יש לוודא שבבית קיימת תשתית חשמל תלת-פאזית לכיריים",
+   "בהתקנה בקו אפס עם השיש, עובי המשטח חייב להיות 4.5 ס״מ לפחות",
+   "כיריים אינדוקציה פועלות עם כלי בישול המתאימים לאינדוקציה, כדאי לבדוק את הסירים הקיימים"
+  ],
+  "faq": [
+   {
+    "q": "כמה אזורי בישול יש בכיריים Gorenje IT843SYB?",
+    "a": "4 אזורי בישול אינדוקציה: שני אזורים בקוטר 18 ס״מ, אזור בקוטר 16 ס״מ ואזור בקוטר 21 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "איזו תשתית חשמל נדרשת?",
+    "a": "לפי עמוד המוצר נדרשת תשתית חשמל תלת-פאזית.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתקין את הכיריים בקו אפס עם השיש?",
+    "a": "כן, בתנאי שעובי משטח השיש הוא 4.5 ס״מ לפחות.",
+    "sources": []
+   },
+   {
+    "q": "מה עושה פונקציית BridgeZone?",
+    "a": "היא מחברת בלחיצה שני אזורי בישול לאזור בישול גדול אחד, לסירים ולתבניות רחבים.",
+    "sources": []
+   },
+   {
+    "q": "מהו האזור החזק ביותר בכיריים?",
+    "a": "האזור האחורי הימני, בקוטר 21 ס״מ, עם עוצמת חימום של 2.3/3 קילוואט.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים אינדוקציה Gorenje IT843SYB עם 4 אזורי בישול, אזור 21 ס״מ עד 3 קילוואט ו-BridgeZone, זכוכית שחורה, תלת-פאזי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Gorenje IT843SYB",
+   "כיריים אינדוקציה גורניה",
+   "כיריים אינדוקציה 80 ס״מ",
+   "כיריים אינדוקציה תלת פאזי",
+   "כיריים אינדוקציה 4 אזורים",
+   "כיריים אינדוקציה BridgeZone",
+   "כיריים אינדוקציה זכוכית שחורה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "משקל",
+   "catalogValue": "10 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אזורי בישול",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "7,200 ואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "79.5×5.4×52",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "לא נמצא עמוד יצרן או יבואן רשמי; המפרט מבוסס על שני קמעונאים ישראליים בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא עמוד יצרן או יבואן רשמי; המפרט מבוסס על שני קמעונאים ישראליים בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "ההספק הכולל (7,200 ואט), המידות ומידות הנישה בקטלוג לא אומתו באף מקור.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 4: removed the word 'מקסימלי' from the value, the quote says only 'קוטר 16 ס\"מ'. All other facts, features and installation kept as researched. Catalog total power 7,200 W and dimensions were not verified by any source."
+ }
+}

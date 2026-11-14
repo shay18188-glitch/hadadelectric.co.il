@@ -1,0 +1,400 @@
+{
+ "modelNumber": "CL7400 OP",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Geemarc",
+  "exactModel": "CL7400 OP",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The catalog code 'CL7400 OP' appears on no fetched page as written. Israeli retailer pages name 'CL7400'. The UK retailer page names 'CL7400_OP_SIL_VDE' (optical/Toslink version). Facts below are taken from the OPTI optical variant. Many specs rest on one foreign retailer page (Amazon UK) and are not published unless a second site confirms them. The manufacturer PDF and the manual pages could not be fetched (FETCH FAILED / HTTP 403 / HTTP 429). | QA: Amazon UK names CL7400 OPTI / CL7400_OP (optical variant), matching the OP suffix. Israeli retailer names only CL7400; whether the Israeli unit is the optical version is unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.amazon.co.uk/Geemarc-headset-Leichtb%C3%BCgel-Lautst%C3%A4rkeregelung-silver-black/dp/B084G7NJ4B",
+   "publisher": "Amazon.co.uk",
+   "kind": "retailer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.gigabyte.co.il/product-details.aspx?proid=54020",
+   "publisher": "Gigabyte (Israel)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טכנולוגיית שידור",
+     "value": "דיגיטלית 2.4G ISM, AFHSS"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טווח עבודה בתוך מבנה",
+     "value": "עד 50 מטר מהמשדר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסות חיבור",
+     "value": "אופטי (Toslink), ג׳ק 3.5 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עוצמה מקסימלית",
+     "value": "125 dB"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן שימוש רציף",
+     "value": "8 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "6 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "ליתיום נטענת מובנית"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Quote says weight includes accessories.",
+     "label": "משקל (כולל אביזרים)",
+     "value": "260 גרם"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "כסוף-שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only quote is on a page that does not name the exact model.",
+   "text": "אוזניות אלחוטיות מוגברות לכבדי שמיעה, עם משדר לחיבור לטלוויזיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed 'on the headphones', not in quote.",
+   "text": "שליטה בטונים גבוהים ונמוכים (טרבל ובס)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Shortened to what the quote says.",
+   "text": "ניתן להשתמש באוזניות גם בלי תחנת הבסיס"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כיבוי אוטומטי של האוזניות לאחר 4 דקות ללא אות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Quote is truncated at the end.",
+   "text": "אוזניות, כבל שמע, מתאם חשמל, מתאם SCART, כבל RCA וחיבור אופטי"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חיבור המשדר לטלוויזיה בכבלים המצורפים: RCA, יציאת אוזניות או חיבור אופטי (TOSLINK)"
+  }
+ ],
+ "content": {
+  "summary": "מתאימות למי שרוצה לשמוע טלוויזיה בעוצמה גבוהה בלי להרים את הווליום לשאר הבית.",
+  "highlights": [
+   "שליטה בטרבל ובס וכיבוי אוטומטי ללא אות"
+  ],
+  "goodFor": [
+   "צפייה בטלוויזיה בעוצמה גבוהה בלי להפריע לאחרים בבית",
+   "טלוויזיות עם יציאה אופטית או יציאת אוזניות",
+   "מי שרוצה להתאים את הצליל עם שליטה בטונים גבוהים ונמוכים"
+  ],
+  "considerations": [
+   "בדקו שבטלוויזיה יש יציאה אופטית, RCA או יציאת אוזניות לחיבור המשדר",
+   "המשדר צריך מתאם חשמל, לכן כדאי שקע פנוי ליד הטלוויזיה",
+   "ודאו שהיחידה שבאריזה היא גרסת OP עם החיבור האופטי"
+  ],
+  "faq": [
+   {
+    "q": "איך מחברים את האוזניות לטלוויזיה?",
+    "a": "את המשדר מחברים לטלוויזיה בכבלים המצורפים, דרך RCA, יציאת אוזניות או חיבור אופטי (TOSLINK).",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "אוזניות אלחוטיות לטלוויזיה",
+   "Geemarc CL7400",
+   "אוזניות לכבדי שמיעה לטלוויזיה",
+   "אוזניות מוגברות לטלוויזיה",
+   "אוזניות טלוויזיה עם חיבור אופטי",
+   "Geemarc CL7400 OP",
+   "ג׳ימארק אוזניות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טכנולוגיית שידור",
+   "catalogValue": "2.4GHz דיגיטלית AFHSS",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח עבודה",
+   "catalogValue": "עד 50 מטרים בתוך מבנה (עד 100 מטר בשטח פתוח)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת שמע מקסימלית",
+   "catalogValue": "125dB SPL",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח תדרים",
+   "catalogValue": "20Hz – 20,000Hz",
+   "finding": "unverifiable",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן סוללה",
+   "catalogValue": "עד 8 שעות עבודה רציפה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-6 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "ליתיום נטענת מובנית 3.7V 1200mA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "כניסה אופטית (Toslink), כניסת RCA, כניסת ג'ק 3.5 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "260 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף-שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עיוות הרמוני",
+   "catalogValue": "0.5%",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יחס אות לרעש",
+   "catalogValue": "75dB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח כניסה לבסיס",
+   "catalogValue": "6V DC 0.6A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כיבוי אוטומטי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "לאחר 4 דקות ללא אות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog code 'CL7400 OP' is not printed on any fetched page. Israeli pages say 'CL7400'; the UK retailer says 'CL7400_OP_SIL_VDE'. The optical variant is assumed.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Gigabyte (Israel) lists the weight as 20 g, while Amazon UK and the catalog say 260 g. The 20 g figure may refer to a part or be an error. Verify before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח תדרים",
+   "issue": "Gigabyte lists 40-20000 Hz; Amazon UK lists 20 Hz to 20,000 Hz. The catalog says 20 Hz to 20,000 Hz. Sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח עבודה",
+   "issue": "The catalog's 100 m open-area figure is not confirmed by any fetched page. A search snippet of a manufacturer PDF suggested 22 m in open area, but that PDF could not be fetched. Check the manufacturer sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה",
+   "issue": "Israeli retailer listings do not state whether the unit has the optical (Toslink) input or only RCA/3.5 mm. The Israeli variant is unclear. Confirm with the Israeli importer or the box.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or manufacturer product page was reached, so importer and warranty terms are unconfirmed. Gigabyte's page gives a warranty of one year at the company lab or importer, which is not verified against an importer page.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog code CL7400 OP matches the UK optical variant (CL7400_OP); Israeli retailer lists only CL7400. Confirm the Israeli unit has the optical input.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח תדרים",
+   "issue": "Catalog 20Hz–20,000Hz not verified; an Israeli retailer reportedly lists 40–20000 Hz.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח עבודה",
+   "issue": "Catalog 100 m open-area figure not confirmed by any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Battery 3.7V 1200mA, distortion 0.5%, SNR 75dB and base input 6V DC 0.6A could not be verified.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer page reached; importer and warranty unconfirmed.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 rejected: its only quote is on a page that does not name the exact model. Feature 1 wording corrected: the quote does not say the controls are on the headphones. In-the-box wording adjusted to the quoted items (SCART as adapter, optical as connection). Facts rest mostly on one UK retailer page for the OPTI variant. | code guard removed: summary: \"Geemarc CL7400 OP הן אוזניות אלחוטיות לטלוויזיה עם משדר דיגיטלי 2.4G ועוצמה מקסימלית של 125 dB.\"; summary: \"הן כוללות כניסה אופטית (Toslink) וג׳ק 3.5 מ״מ, טווח עבודה של עד 50 מטר בתוך מבנה ועד 8 שעות שימוש רציף בטעינה.\"; faq: \"כמה זמן מחזיקה הסוללה?\"; faq: \"מה הטווח של האוזניות?\"; faq: \"האם האוזניות נכבות לבד?\"; faq: \"כמה הן שוקלות?\"; metaDescription: \"אוזניות אלחוטיות לטלוויזיה Geemarc CL7400 OP עם עוצמה עד 125 dB, כניסה אופטית וטווח עד 50 מטר בתוך מבנה. בחדד אלקטריק נהריה\"; highlight: \"עוצמה מקסימלית 125 dB\"; highlight: \"כניסה אופטית (Toslink) וג׳ק 3.5 מ״מ\"; highlight: \"טווח עבודה עד 50 מטר בתוך מבנה\"; highlight: \"עד 8 שעות שימוש רציף, טעינה של 6 שעות\"; goodFor: \"תנועה בין חדרים תוך המשך האזנה, בטווח של עד 50 מטר בתוך מבנה\"; consideration: \"זמן הטעינה הוא 6 שעות, כדאי לטעון בין צפיות\""
+ }
+}

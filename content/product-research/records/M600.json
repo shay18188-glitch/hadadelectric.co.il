@@ -1,0 +1,395 @@
+{
+ "modelNumber": "M600",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "UWANT",
+  "exactModel": "M600",
+  "israeliImporter": "אס ג׳י S.G אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The Lior Electric page names the exact model M600 in its title and lists S.G as official importer. BuyWithUs and Zap also name M600. The UWANT Israel site could not be fetched (HTTP 429). | QA: Lior Electric, BuyWithUs and Zap all name UWANT M600. Importer from Lior page only."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.buywithus.org/96435/",
+   "publisher": "BuyWithUs",
+   "kind": "review",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1262943",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.lior-electric.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%9E%D7%96%D7%A8%D7%A0%D7%99%D7%9D-%D7%95%D7%A1%D7%A4%D7%95%D7%AA-%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99-uwant-%D7%93%D7%92%D7%9D-m600/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "500 W"
+    },
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "15,000 Pa"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב חבטות",
+     "value": "60,000 פעימות בדקה"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote attributes 45 cm to suction depth, not beating.",
+     "label": "עומק שאיבה",
+     "value": "עד 45 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורת ייבוש באוויר חם",
+     "value": "65°C"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "כ-1.7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Approximate range from one retailer; catalog and BuyWithUs say 4 m.",
+     "label": "אורך כבל",
+     "value": "4.5-5 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, יבואן רשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חבטה עוצמתית עם רולר מתכת שמשחרר אבק וקרדיות מעומק המזרן"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Ultrasound not in the ok quote; removed.",
+   "text": "חיטוי UV-C בזמן השאיבה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צג LED חכם המציג בזמן אמת את רמת הלכלוך"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב מכל כפול למניעת סתימות ושמירה על עוצמת שאיבה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "UWANT M600 הוא שואב אבק ייעודי למזרנים, מצעים, ספות ובדים רכים. הוא משלב מנוע בהספק 500 W ועוצמת שאיבה של 15,000 Pa עם רולר מתכת שחובט 60,000 פעימות בדקה, נורת UV-C לחיטוי בזמן השאיבה וייבוש באוויר חם ב-65°C. מתאים למי שרוצה לנקות אבק וקרדיות מהמיטה ומהספה באופן קבוע.",
+  "highlights": [
+   "עוצמת שאיבה של 15,000 Pa",
+   "רולר מתכת חובט 60,000 פעימות בדקה",
+   "חיטוי UV-C בזמן השאיבה",
+   "ייבוש באוויר חם ב-65°C",
+   "משקל של כ-1.7 ק״ג"
+  ],
+  "goodFor": [
+   "ניקוי תקופתי של מזרנים ומצעים מאבק וקרדיות",
+   "ניקוי ספות, כריות ובדים רכים בבית",
+   "משפחות עם רגישות לאבק שרוצות שגרת ניקוי למיטה",
+   "שימוש ידני קל בזכות משקל של כ-1.7 ק״ג"
+  ],
+  "considerations": [
+   "המכשיר עובד מחובר לחשמל, כדאי לוודא שקע קרוב למיטה או לספה",
+   "יש לרוקן ולנקות את המכל הכפול לאחר השימוש כדי לשמור על עוצמת השאיבה",
+   "האחריות לשנה ניתנת דרך היבואן הרשמי, כדאי לשמור את חשבונית הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "מה עוצמת השאיבה של UWANT M600?",
+    "a": "15,000 Pa, עם מנוע בהספק 500 W.",
+    "sources": []
+   },
+   {
+    "q": "האם השואב מחטא את המזרן?",
+    "a": "כן, נורת UV-C פועלת בזמן השאיבה, ובנוסף יש ייבוש באוויר חם ב-65°C.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקל המכשיר?",
+    "a": "כ-1.7 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה מהיבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב מזרנים UWANT M600 עם עוצמת שאיבה 15,000 Pa, רולר חובט 60,000 פעימות בדקה וחיטוי UV-C, לניקוי מצעים וספות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "שואב מזרנים",
+   "UWANT M600",
+   "שואב קרדית אבק",
+   "שואב אבק למזרן UV",
+   "שואב מזרנים UWANT",
+   "שואב לספות ובדים",
+   "שואב אבק UV-C",
+   "ניקוי מזרן מקרדית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "15000Pa",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "קצב חבטות",
+   "catalogValue": "60000 חבטות בדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מהירות סיבוב רולר",
+   "catalogValue": "4000 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית חיטוי",
+   "catalogValue": "UV-C בשילוב Ultrasonic",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טמפרטורת חימום",
+   "catalogValue": "65°C",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל אבק",
+   "catalogValue": "180 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "עד 66.5 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "4 מטרים",
+   "finding": "contradicted",
+   "correctValue": "כ-4.5-5 מטרים",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "1.7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "300x247x180 מ\"מ",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "UWANT",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, יבואן רשמי",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Catalog gives 300x247x180 mm. BuyWithUs gives the M600 width as 30 cm and the M500 width as 24.7 cm, so 247 may be the M500 figure. No fetched page gives depth or height. Check before publishing dimensions.",
+   "severity": "high"
+  },
+  {
+   "field": "אורך כבל",
+   "issue": "Lior says about 4.5-5 m. BuyWithUs says 4 m for both M500 and M600, and the catalog says 4 m. Sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "The catalog's 66.5 dB figure was not found on any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור ייצור",
+   "issue": "The catalog says origin China. No fetched page confirmed the country of origin.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The importer comes from the Lior page only. The UWANT Israel site could not be fetched (HTTP 429).",
+   "severity": "low"
+  },
+  {
+   "field": "אורך כבל",
+   "issue": "Catalog says 4 m, Lior says about 4.5-5 m, BuyWithUs reportedly 4 m. Not published; confirm with importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog 300x247x180 mm unverified; 247 may belong to the M500. Check before publishing dimensions.",
+   "severity": "high"
+  },
+  {
+   "field": "רמת רעש",
+   "issue": "Catalog 66.5 dB not found in any source.",
+   "severity": "medium"
+  },
+  {
+   "field": "טכנולוגיית חיטוי",
+   "issue": "Catalog mentions ultrasound alongside UV-C; no ok quote confirms ultrasound.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 3 relabelled: the 45 cm figure is stated for suction depth, not beating depth. Fact 6 (cable 4.5-5 m) rejected: approximate range from one retailer, contradicted by the catalog (4 m) and by BuyWithUs per the researcher. Feature 1 trimmed to UV-C only, since the ok quote does not mention ultrasound. Weight value kept as approximate per quote."
+ }
+}

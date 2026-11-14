@@ -1,0 +1,317 @@
+{
+ "modelNumber": "Boomix 82",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "DOME",
+  "exactModel": "BOOMIX-82",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "הקטלוג כותב Boomix 82; החנויות הישראליות כותבות BOOMIX-82 (אותו דגם). דפי היבואן, מדריך ו-EPREL לא נמצאו; דפי shekem-electric, netoneto ו-payngo חסומים (403). מידות ומשקל לא אומתו. | QA: Israeli retailer page names DOME BOOMIX-82, the same model as catalog Boomix 82, with 2 x 8 inch woofers, 2500W and 2 wireless microphones matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/search.aspx?keyword=BOOMIX-82",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://sel.co.il/product/boomix-82/",
+   "publisher": "סיריוס אלקטרוניקה",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "2500W PMPO"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "וופרים",
+     "value": "2 וופרים בקוטר 8 אינץ׳ עם DSP"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה על סוללה",
+     "value": "עד 8 שעות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקורות כוח",
+     "value": "סוללת ליתיום מובנית ושנאי חיצוני"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אפשרויות חיבור",
+     "value": "Micro SD, USB, AUX ו-Bluetooth"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רדיו",
+     "value": "FM עם טיונר דיגיטלי וסריקה אוטומטית"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיקרופונים",
+     "value": "2 מיקרופונים אלחוטיים וכניסת מיקרופון חוטי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיבור TWS אלחוטי של שני רמקולים לצליל סטריאופוני"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה דיגיטלית על בס וטרבל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת RGB על הוופר עם כפתור הפעלה/כיבוי ואפשרות לשינוי אפקטים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תצוגת לד גדולה המציגה את מצב הרמקול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "DOME Boomix 82 היא בידורית ניידת עם 2 וופרים בקוטר 8 אינץ׳ ומעבד DSP, בהספק מרבי של 2500W PMPO. היא מגיעה עם 2 מיקרופונים אלחוטיים לקריוקי, ופועלת על סוללה מובנית עד 8 שעות או על שנאי חיצוני. מתאימה למסיבות בבית, בחצר ובאירועים קטנים.",
+  "highlights": [
+   "2 וופרים בקוטר 8 אינץ׳ עם DSP",
+   "הספק מרבי 2500W PMPO",
+   "2 מיקרופונים אלחוטיים וכניסת מיקרופון חוטי",
+   "סוללה מובנית עד 8 שעות עבודה",
+   "Bluetooth, USB, Micro SD, AUX ורדיו FM"
+  ],
+  "goodFor": [
+   "ערבי קריוקי בבית עם המיקרופונים האלחוטיים",
+   "מסיבות בחצר או בפיקניק בזכות הסוללה המובנית וידית הנשיאה",
+   "הגדלת הצליל לסטריאו בחיבור TWS לרמקול נוסף"
+  ],
+  "considerations": [
+   "חיבור TWS לסטריאו דורש רמקול תואם נוסף",
+   "זמן העבודה על סוללה תלוי בעוצמת השמע",
+   "בדקו שיש מקום ונוח לשאת את הבידורית לפני רכישה, המידות והמשקל לא אומתו"
+  ],
+  "faq": [
+   {
+    "q": "האם הבידורית כוללת מיקרופונים?",
+    "a": "כן, היא כוללת 2 מיקרופונים אלחוטיים, ויש גם כניסה למיקרופון חוטי.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן היא עובדת על סוללה?",
+    "a": "עד 8 שעות, תלוי בעוצמת השמע. אפשר גם להפעיל אותה עם שנאי חיצוני.",
+    "sources": []
+   },
+   {
+    "q": "איך מחברים אליה טלפון?",
+    "a": "בבלוטות׳, וניתן גם לנגן מ-USB, מכרטיס Micro SD או דרך כניסת AUX.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר שתי בידוריות יחד?",
+    "a": "כן, בטכנולוגיית TWS ניתן לחבר אלחוטית שני רמקולים לקבלת צליל סטריאופוני.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בידורית DOME Boomix 82 עם 2 וופרים 8 אינץ׳, הספק 2500W PMPO ו-2 מיקרופונים אלחוטיים, סוללה עד 8 שעות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "DOME Boomix 82",
+   "BOOMIX-82",
+   "בידורית DOME",
+   "בידורית עם מיקרופונים אלחוטיים",
+   "רמקול קריוקי נייד",
+   "בידורית 2 וופרים 8 אינץ",
+   "רמקול בלוטוס עם סוללה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "2500W P.M.P.O",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "וופרים",
+   "catalogValue": "2 וופרים 8 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 8 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "Bluetooth 5.0, USB, Micro SD, AUX, מיקרופון חוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רדיו FM",
+   "catalogValue": "FM עם טיונר דיגיטלי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "28.6x28x60.3 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-7.5 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "7.4V / 3600mAh",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שחור",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות ומשקל",
+   "issue": "מידות, משקל, תדרים וקיבולת סוללה מהקטלוג לא אומתו בשום דף של הדגם המדויק.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקטלוג כותב Boomix 82 והחנויות BOOMIX-82; אותו דגם. היבואן לא אותר.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות, משקל, סוללה",
+   "issue": "מידות, משקל, קיבולת סוללה, טווח תדרים וגרסת Bluetooth מהקטלוג לא אומתו בשום דף של הדגם.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "היבואן הישראלי לא אותר.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Zap source is a search-results page, kept as kind other. Label wording of wired/wireless microphones and connections tidied. Dimensions, weight, battery capacity, frequency response and Bluetooth version from the catalog were not verified and are not published."
+ }
+}

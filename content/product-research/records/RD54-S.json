@@ -1,0 +1,491 @@
+{
+ "modelNumber": "RD54-S",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RD54-S",
+  "israeliImporter": "קבוצת ח.י.",
+  "matchConfidence": "medium",
+  "notes": "The only Israeli page found for this model (CityDeal) names it RD54S without the hyphen. The manufacturer and importer pages were not reachable in this run (cwc.co.il returned HTTP 403 and the Hisense Israel search returned nothing). Facts come from that one retailer page. | QA: Only source is CityDeal naming the model RD54S (no hyphen); very likely the same unit as catalog RD54-S, but no manufacturer or importer page confirms the suffix or spec."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/hisense-rd54s",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Contradicts catalog 381 L net; single retailer source, possible listing error.",
+     "label": "נפח נטו כולל",
+     "value": "375 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כללי (ברוטו)",
+     "value": "393 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Contradicts catalog 291 L; unverified.",
+     "label": "נפח תא קירור (נטו)",
+     "value": "286 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Contradicts catalog 90 L; unverified.",
+     "label": "נפח תא הקפאה (נטו)",
+     "value": "89 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר דלתות",
+     "value": "2 דלתות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "70 × 172 × 63.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "B"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדרג אקלים",
+     "value": "טרופי"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת הפשרה",
+     "value": "No-Frost (קירור יבש)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג כוכבי הקפאה",
+     "value": "4 כוכבים, כושר הקפאה מהיר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע וגימור",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ציפוי",
+     "value": "VCM דוחה טביעות אצבע"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Source page reportedly states conflicting warranty terms; confirm with importer.",
+     "label": "אחריות",
+     "value": "שנה מלאה + שנתיים אחריות נוספת מוגבלת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת אוורור Multi Air Flow לפיזור קור בתא הקירור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדף מגירה עליון נשלף לגישה נוחה (Easy Approach)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "4 מדפים שקופים בדלת, 2 מהם ניתנים לשינוי גובה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגירת אחסון שקופה גדולה לפירות וירקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת LED פנימית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידיות ארגונומיות מובנות בדלתות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי VCM דוחה טביעות אצבע"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גב חלק וישר לנוחות בהצמדה לקיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 גלגיליות בתחתית המקרר להזזה קלה"
+  }
+ ],
+ "content": {
+  "summary": "Hisense RD54-S הוא מקרר מקפיא עליון בעל 2 דלתות, בנפח כללי של 393 ליטר ברוטו וגימור נירוסטה עם ציפוי VCM דוחה טביעות אצבע. המקרר פועל בשיטת No-Frost, מדורג אנרגטית B ובמדרג אקלים טרופי, ותא ההקפאה מדורג 4 כוכבים. מידותיו 70 × 172 × 63.5 ס״מ, והוא מתאים למי שמחפש מקרר מקפיא עליון בגודל סטנדרטי בלי צורך בהפשרה ידנית.",
+  "highlights": [
+   "קירור יבש No-Frost ללא הפשרה ידנית",
+   "נפח כללי 393 ליטר ברוטו",
+   "מידות 70 × 172 × 63.5 ס״מ",
+   "מדרג אקלים טרופי",
+   "ציפוי VCM דוחה טביעות אצבע"
+  ],
+  "goodFor": [
+   "מטבח עם נישה ברוחב 70 ס״מ ומעלה",
+   "מי שמעדיף מקרר No-Frost שאינו דורש הפשרה ידנית",
+   "בית חם בקיץ, בזכות מדרג אקלים טרופי",
+   "מי שרוצה גימור נירוסטה שקל לשמור עליו נקי"
+  ],
+  "considerations": [
+   "מדדו את הנישה: המקרר ברוחב 70 ס״מ, גובה 172 ס״מ ועומק 63.5 ס״מ, והשאירו מרווח לאוורור",
+   "דירוג האנרגיה הוא B, כדאי להשוות לדגמים אחרים אם הצריכה חשובה לכם",
+   "ודאו בנקודת המכירה את הנפח נטו של כל תא ואת תנאי האחריות",
+   "בדקו שיש שקע חשמל זמין ליד מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "האם המקרר דורש הפשרה ידנית?",
+    "a": "לא. המקרר פועל בשיטת קירור יבש No-Frost.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 70 ס״מ, גובה 172 ס״מ ועומק 63.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה הנפח הכללי של המקרר?",
+    "a": "393 ליטר ברוטו.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מתאים לחום של הקיץ בישראל?",
+    "a": "המקרר מסווג במדרג אקלים טרופי.",
+    "sources": []
+   },
+   {
+    "q": "האם קל להזיז אותו לניקוי?",
+    "a": "כן, יש 2 גלגיליות בתחתית המקרר להזזה קלה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא עליון Hisense RD54-S בגימור נירוסטה: No-Frost, נפח 393 ליטר ברוטו, מדרג אקלים טרופי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Hisense RD54-S",
+   "מקרר הייסנס RD54S",
+   "מקרר מקפיא עליון הייסנס",
+   "מקרר No-Frost 70 ס״מ",
+   "מקרר מקפיא עליון נירוסטה",
+   "מקרר הייסנס 393 ליטר",
+   "מקרר מקפיא עליון בנהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר (נפח)",
+   "catalogValue": "381 ליטר",
+   "finding": "contradicted",
+   "correctValue": "375 ליטר נטו",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו",
+   "catalogValue": "381 ליטר נטו (393 ליטר ברוטו)",
+   "finding": "contradicted",
+   "correctValue": "375 ליטר נטו, 393 ליטר ברוטו",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "291 ליטר",
+   "finding": "contradicted",
+   "correctValue": "286 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "90 ליטר",
+   "finding": "contradicted",
+   "correctValue": "89 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "גובה 172 ס\"מ, רוחב 70 ס\"מ, עומק 63.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "B",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדרג אקלים",
+   "catalogValue": "טרופי (Tropical)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "No-Frost (קירור יבש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג כוכבי הקור",
+   "catalogValue": "4 כוכבים בעל כושר הקפאה מהיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה מוברשת (כסוף)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "LED פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת זרימת אוויר",
+   "catalogValue": "Multi Air Flow",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי",
+   "catalogValue": "VCM דוחה טביעות אצבע",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כיוון פתיחת דלת",
+   "catalogValue": "ימין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה מלאה + שנתיים אחריות נוספת מוגבלת",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model is RD54-S. The only Israeli page found names the model RD54S, without the hyphen. The facts are taken from that page and assumed to be the same model. Confirm the model number on the unit label.",
+   "severity": "high"
+  },
+  {
+   "field": "capacity",
+   "issue": "The catalog name says 381 liters, and the catalog says 381 liters net. CityDeal gives 375 liters net (286 fridge plus 89 freezer) and 393 liters gross. Another retailer page, not fetched in this run, shows 381 liters net. Verify the net capacity against the importer spec sheet before publishing the product name.",
+   "severity": "high"
+  },
+  {
+   "field": "warranty",
+   "issue": "The CityDeal page gives two warranty terms: one year full plus two years limited, and three full years. Confirm the warranty with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one retailer page was used. The manufacturer, importer, and manual pages were not reachable (cwc.co.il returned HTTP 403) and the Hisense Israel search found nothing for this model. Door opening side and country of origin are not confirmed by any page read.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The only source names the model RD54S, without the hyphen. Confirm it matches the catalog RD54-S on the unit label.",
+   "severity": "medium"
+  },
+  {
+   "field": "capacity",
+   "issue": "The catalog says 381 L net (291 L fridge, 90 L freezer). CityDeal says 375 L net (286 L fridge, 89 L freezer). Net capacities were left out. Check the importer spec sheet before using the capacity in the product name.",
+   "severity": "high"
+  },
+  {
+   "field": "warranty",
+   "issue": "The source page reportedly gives two different warranty terms. Confirm the warranty with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Facts come from one Israeli retailer page only. No manufacturer or importer page confirms them. Door opening side and country of origin are not verified.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected net capacities (facts 0, 2, 3): the only source (CityDeal) gives 375/286/89 L net while the catalog gives 381/291/90 L and another retailer reportedly shows 381 L; single retailer value may be a listing error, needs importer spec. Rejected warranty (fact 12): the same page reportedly states two different warranty terms. Kept gross volume 393 L (matches catalog), dimensions, energy, climate class, No-Frost, freezer stars, finish, features and installation notes."
+ }
+}

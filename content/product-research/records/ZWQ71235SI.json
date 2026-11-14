@@ -1,0 +1,433 @@
+{
+ "modelNumber": "ZWQ71235SI",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Zanussi",
+  "exactModel": "ZWQ71235SI",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "הדגם מופיע בדף היצרן של זנוסי הונג קונג (7KG Top Loading Washing Machine ZWQ71235SI). יבואן רשמי בישראל לא אומת, ולא נמצא דף יבואן או דף EPREL עם מפרט מאומת לדגם זה. עמודי החנויות הישראליות שנמצאו לא נפתחו בהצלחה. | QA: Exact model code on the Zanussi Hong Kong manufacturer page; Israeli variant and importer not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zanussi.com.hk/appliances/washing-machines/zwq71235si/",
+   "publisher": "Zanussi Hong Kong",
+   "kind": "manufacturer",
+   "market": "HK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "Zanussi ZWQ71235SI"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מכונת כביסה פתח עליון"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1200 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 89 cm",
+     "label": "גובה",
+     "value": "85 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "40 × 85 × 60 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תצוגת זמן",
+     "value": "צג LCD"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "השהיית סיום",
+     "value": "עד 20 שעות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דלת תוף רכה (Carboran Soft Door) הנפתחת בלחיצה קלה ושקטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מיקום תוף אוטומטי: פתח התוף פונה כלפי מעלה בסיום התוכנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכנית מהירה של 30 דקות ב-30 מעלות (30'@30°) לכביסה מלוכלכת קלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכנית רענון של 20 דקות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח עליון של Zanussi, דגם ZWQ71235SI, בקיבולת 7 ק״ג ובמהירות סחיטה של עד 1200 סל״ד. רוחבה 40 ס״מ בלבד (40 × 85 × 60 ס״מ), כך שהיא מתאימה לחללים צרים שבהם אין מקום למכונה פתח קדמי. כוללת תוכנית מהירה 30'@30°, תוכנית רענון והשהיית סיום עד 20 שעות.",
+  "highlights": [
+   "קיבולת כביסה 7 ק״ג",
+   "סחיטה עד 1200 סל״ד",
+   "רוחב 40 ס״מ, מידות 40 × 85 × 60 ס״מ",
+   "תוכנית מהירה של 30 דקות ב-30 מעלות",
+   "השהיית סיום עד 20 שעות"
+  ],
+  "goodFor": [
+   "מרפסת שירות או חדר כביסה צר, בזכות רוחב של 40 ס״מ",
+   "מי שמעדיף להעמיס כביסה מלמעלה בלי להתכופף",
+   "כביסה קלה ומהירה בתוכנית של 30 דקות ב-30 מעלות",
+   "תזמון סיום הכביסה לשעה נוחה עם השהיית סיום עד 20 שעות"
+  ],
+  "considerations": [
+   "יש למדוד את הנישה: נדרשים רוחב 40 ס״מ ועומק 60 ס״מ לפחות",
+   "בפתח עליון יש להשאיר מרווח מעל המכונה לפתיחת המכסה, ולכן לא ניתן להציב אותה מתחת למשטח",
+   "יש לוודא שקע חשמל וחיבור מים וניקוז קרובים למקום ההצבה",
+   "גובה המכונה לפי היצרן הוא 85 ס״מ – כדאי לבדוק מול מקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Zanussi ZWQ71235SI?",
+    "a": "קיבולת הכביסה היא 7 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המרבית?",
+    "a": "עד 1200 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכונה?",
+    "a": "לפי היצרן: רוחב 40 ס״מ, גובה 85 ס״מ ועומק 60 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "יש תוכנית כביסה מהירה?",
+    "a": "כן, תוכנית 30'@30° מכבסת כביסה מלוכלכת קלות ב-30 דקות ב-30 מעלות, ויש גם תוכנית רענון של 20 דקות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתזמן את סיום הכביסה?",
+    "a": "כן, ניתן להשהות את סיום התוכנית עד 20 שעות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה פתח עליון Zanussi ZWQ71235SI בקיבולת 7 ק״ג, סחיטה עד 1200 סל״ד ורוחב 40 ס״מ בלבד. מפרט מלא בחדד אלקטריק נהריה",
+  "keywords": [
+   "Zanussi ZWQ71235SI",
+   "זנוסי ZWQ71235SI",
+   "מכונת כביסה פתח עליון",
+   "מכונת כביסה פתח עליון 7 ק״ג",
+   "מכונת כביסה צרה 40 ס״מ",
+   "מכונת כביסה זנוסי פתח עליון",
+   "מכונת כביסה 1200 סל״ד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פתח עליון",
+   "catalogValue": "פתח עליון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1200 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "40 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "89 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "85 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג LCD",
+   "catalogValue": "צג LCD גדול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון פתיחה רכה (Soft Access)",
+   "catalogValue": "מנגנון פתיחה רכה (Soft Access) לדלתות התוף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מיקום תוף אוטומטי",
+   "catalogValue": "Drum Self-Positioning",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכנית 30'@30°",
+   "catalogValue": "תוכנית מהירה 30'@30°",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכנית רענון 20 דקות",
+   "catalogValue": "רענון 20 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שעת סיום מושהית",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 20 שעות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יעילות אנרגטית",
+   "catalogValue": "A+++",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2200W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת רעש (כביסה וסחיטה)",
+   "catalogValue": "58 דציבל / 78 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית Fuzzy Logic",
+   "catalogValue": "Fuzzy Logic",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "PowerJet",
+   "catalogValue": "PowerJet",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רגליות מתכווננות וגלגלים",
+   "catalogValue": "2 רגליות מתכווננות ו-2 גלגלים",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גובה",
+   "issue": "הקטלוג מציין גובה 89 ס״מ, ואילו דף היצרן מציין 850 מ״מ (85 ס״מ). יש לבדוק לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "יעילות אנרגטית",
+   "issue": "מקורות סותרים: הקטלוג A+++, חנות ישראלית A++, אתר צד שלישי F. לא נמצא רישום EPREL לדגם זה. יש לבדוק את תווית האנרגיה הרשמית לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "הקטלוג מציין 58 דציבל בכביסה ו-78 דציבל בסחיטה. מקורות אחרים מציינים 57 דציבל ו-78 דציבל, ולא אומת מקור יצרן לנתון זה.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "דף היצרן שנפתח הוא של זנוסי הונג קונג. יבואן רשמי בישראל לא אומת, ואין אישור שהמפרט תואם את הגרסה הישראלית.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "מספר הדגם ZWQ71235SI מופיע בדף היצרן של הונג קונג, ובדפי מודל של מספר אתרים. עם זאת, הדגם נראה לא בייצור (תוצאות חיפוש מציינות 'discontinued'), ולכן יש לוודא שהדגם עדיין נמכר ביבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "הערך 2200W לא אומת מדף יצרן או יבואן. יש לאמת מול תווית היצרן או מדריך המשתמש.",
+   "severity": "low"
+  },
+  {
+   "field": "גובה",
+   "issue": "הקטלוג מציין גובה 89 ס״מ, ואילו דף היצרן מציין 85 ס״מ.",
+   "severity": "high"
+  },
+  {
+   "field": "יעילות אנרגטית",
+   "issue": "דירוג A+++ שבקטלוג לא אומת ממקור יצרן או EPREL; מקורות אחרים סותרים.",
+   "severity": "high"
+  },
+  {
+   "field": "עוצמת רעש והספק",
+   "issue": "ערכי הרעש (58/78 דציבל) וההספק (2200W) שבקטלוג לא אומתו ממקור יצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "המקור היחיד הוא דף זנוסי הונג קונג; יבואן ישראלי ותאימות המפרט לגרסה הישראלית לא אומתו.",
+   "severity": "medium"
+  },
+  {
+   "field": "סטטוס דגם",
+   "issue": "ייתכן שהדגם הופסק לייצור לפי החוקר; יש לוודא מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכונות קטלוג",
+   "issue": "Fuzzy Logic, PowerJet, FinishIn, רגליות וגלגלים ומדינת ייצור לא אומתו ואינם מפורסמים.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against the Zanussi Hong Kong manufacturer page. Catalog height 89 cm contradicts manufacturer 85 cm (flagged). Energy class, power, noise and other catalog claims are unverified and not published."
+ }
+}

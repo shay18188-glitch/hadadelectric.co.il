@@ -1,0 +1,533 @@
+{
+ "modelNumber": "L75MB-APME (81306)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Xiaomi",
+  "exactModel": "L75MB-APME",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "הקטלוג: L75MB-APME (81306). העמוד הישראלי של באג ו-allware מציינים את אותו שם דגם. עמוד התמיכה הרשמי של Xiaomi מציין L75MB-APEU ולכן לא שימש כראיה לדגם זה. תיאור העמוד בבאג כולל טקסט תבנית של 43 אינץ', והנתונים לקוחים מהטבלה של דגם 75 אינץ'. | QA: עמוד באג מציין במפורש L75MB-APME עם אחריות יבואן רשמי המילטון; allware מציין את אותו דגם. עמוד התמיכה של Xiaomi מתייחס לגרסת APEU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/xiaomi/75/l75mb/apme",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://allware.com/product/xiaomi-l75mbapme/232333",
+   "publisher": "Allware",
+   "kind": "retailer",
+   "market": "AE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "75 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840 × 2160 (4K UHD)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג פאנל",
+     "value": "Quantum Dot"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "HDR",
+     "value": "HDR10+, HLG"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמקולים",
+     "value": "2 × 10 W (סה״כ 20 W)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טכנולוגיות סאונד",
+     "value": "Dolby Audio, DTS-X, DTS Virtual:X"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV עם תמיכה מלאה בעברית"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "2.4/5GHz 802.11 a/b/g/n/ac"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל",
+     "value": "210 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק, כולל מעמד)",
+     "value": "1668 × 1027 × 391 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל כולל מעמד",
+     "value": "19.1 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הכנה לתלייה (VESA)",
+     "value": "400 × 300 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים (יבואן רשמי: המילטון)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת הפעלה Google TV עם תמיכה מלאה בעברית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תמיכה ב-Apple AirPlay להזרמת סרטים, מוזיקה ותמונות מהאייפון, האייפד או המק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שיקוף מסך Chromecast ו-Miracast מובנה לשידור מהטלפון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Google Assistant לא מופיע בציטוט; הוסר מהנוסח",
+   "text": "שלט אלחוטי Bluetooth עם מיקרופון מובנה לחיפוש קולי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקלט דיגיטלי מובנה לשידורי עידן פלוס"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלט רחוק Bluetooth אלחוטי (דגם: ARP3)"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתקן לתלייה נמכר בנפרד"
+  }
+ ],
+ "content": {
+  "summary": "טלוויזיה חכמה של Xiaomi בגודל 75 אינץ׳ ברזולוציית 4K UHD עם פאנל Quantum Dot ותמיכה ב-HDR10+ ו-HLG. היא פועלת על Google TV עם תמיכה מלאה בעברית, כוללת מקלט מובנה לשידורי עידן פלוס ותומכת ב-AirPlay וב-Chromecast. מתאימה לסלון גדול ולמי שרוצה מסך גדול עם ממשק חכם בעברית.",
+  "highlights": [
+   "מסך 75 אינץ׳ ברזולוציית 3840 × 2160 (4K UHD)",
+   "פאנל Quantum Dot עם תמיכה ב-HDR10+ ו-HLG",
+   "Google TV עם תמיכה מלאה בעברית",
+   "מקלט דיגיטלי מובנה לשידורי עידן פלוס",
+   "אחריות שנתיים ע״י היבואן הרשמי המילטון"
+  ],
+  "goodFor": [
+   "סלון גדול שבו רוצים מסך 75 אינץ׳ לצפייה בסרטים וסדרות ב-4K",
+   "משפחות שרוצות ממשק Google TV בעברית ושידורי עידן פלוס בלי ממיר נוסף",
+   "בעלי אייפון או טלפון אנדרואיד שמזרימים תוכן דרך AirPlay או Chromecast"
+  ],
+  "considerations": [
+   "המידות כולל מעמד הן 1668 × 1027 × 391 מ״מ – כדאי לוודא שהרהיט רחב ועמוק מספיק",
+   "לתלייה על הקיר נדרש מתקן VESA 400 × 300 מ״מ שנמכר בנפרד",
+   "המשקל כולל מעמד הוא 19.1 ק״ג – יש לוודא שהקיר או הרהיט מתאימים",
+   "קצב הרענון הוא 60Hz, נתון שכדאי לקחת בחשבון אם המסך מיועד בעיקר לגיימינג"
+  ],
+  "faq": [
+   {
+    "q": "האם הטלוויזיה תומכת בעברית?",
+    "a": "כן, היא פועלת על Google TV עם תמיכה מלאה בעברית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לקלוט שידורי עידן פלוס בלי ממיר?",
+    "a": "כן, יש בטלוויזיה מקלט דיגיטלי מובנה לשידורי עידן פלוס.",
+    "sources": []
+   },
+   {
+    "q": "איזה מתקן תלייה מתאים?",
+    "a": "הטלוויזיה מוכנה לתלייה בתקן VESA 400 × 300 מ״מ. מתקן התלייה נמכר בנפרד.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להזרים תוכן מאייפון?",
+    "a": "כן, יש תמיכה ב-Apple AirPlay להזרמת סרטים, מוזיקה ותמונות, וגם שיקוף מסך Chromecast ו-Miracast.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלוויזיה?",
+    "a": "אחריות שנתיים ע״י היבואן הרשמי המילטון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה Xiaomi L75MB-APME בגודל 75 אינץ׳ 4K עם פאנל Quantum Dot ו-Google TV בעברית ומקלט עידן פלוס מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "טלוויזיה שיאומי 75 אינץ",
+   "Xiaomi L75MB-APME",
+   "Xiaomi TV A Pro 75",
+   "טלוויזיה 75 אינץ QLED",
+   "טלוויזיה 4K 75 אינץ Google TV",
+   "טלוויזיה שיאומי המילטון",
+   "טלוויזיה עם עידן פלוס מובנה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "75 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "3840x2160 (4K UHD)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג פאנל",
+   "catalogValue": "QLED - Quantum Dot",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון - 120Hz Game Boost",
+   "catalogValue": "120Hz Game Boost במזולוציית Full HD",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בהירות - HDR",
+   "catalogValue": "HDR10+, Filmmaker Mode ו-HLG",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שמע - רמקולים",
+   "catalogValue": "רמקולים סטריאופוניים 20W (2x10W)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שמע - טכנולוגיות סאונד",
+   "catalogValue": "Dolby Audio, DTS-X, DTS Virtual:X",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV עם תמיכה מלאה בעברית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות - Wi-Fi",
+   "catalogValue": "Wi-Fi 2.4GHz/5GHz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "210W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות כולל מעמד",
+   "catalogValue": "1668x391x1027 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל כולל מעמד",
+   "catalogValue": "19.1 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הכנה לתלייה",
+   "catalogValue": "VESA 400x300 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורים - HDMI 2.1",
+   "catalogValue": "HDMI 2.1 (eARC/ALLM) x1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורים - HDMI 2.0",
+   "catalogValue": "HDMI 2.0 x2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורים - USB",
+   "catalogValue": "USB 2.0 x2",
+   "finding": "corrected",
+   "correctValue": "USB 2.0 x1",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיונר דיגיטלי",
+   "catalogValue": "DVB-T2/C, DVB-S2 (עידן פלוס)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "Dark Grey (כהה)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים (יבואן רשמי: המילטון)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "עמוד התמיכה הרשמי של Xiaomi (https://www.mi.com/global/support/faq/details/KA-548462/) מציין את שם הדגם L75MB-APEU לאותו TV A Pro 75 2026, ואילו הקטלוג ועמודי הקמעונאים מציינים L75MB-APME. יש לוודא שמדובר באותו דגם או בגרסה אזורית שונה.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "הקטלוג מציין 120Hz Game Boost. בעמוד באג ובעמוד allware מופיע רק 60Hz עבור הדגם. אין אישור ל-120Hz מעמוד של הדגם הזה.",
+   "severity": "medium"
+  },
+  {
+   "field": "יחס ניגודיות",
+   "issue": "עמוד באג מציין יחס ניגודיות 5000:1, ועמוד התמיכה של Xiaomi (לגרסת APEU) מציין 6000:1. לא פורסם בדוח כי המקורות סותרים.",
+   "severity": "low"
+  },
+  {
+   "field": "חיבורים - USB",
+   "issue": "הקטלוג מציין USB 2.0 x2, ועמוד באג מציין USB 2.0 x1. עמוד התמיכה של Xiaomi לגרסת APEU מציין גם הוא יציאת USB אחת.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "עמוד התמיכה של Xiaomi מציין את הדגם L75MB-APEU, בעוד הקטלוג והקמעונאים מציינים L75MB-APME. יש לוודא שזו אותה יחידה בגרסה אזורית.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הקטלוג מציין 120Hz Game Boost, אך המקורות מאשרים רק 60Hz. יש לבדוק לפני פרסום הטענה.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הקטלוג מציין USB 2.0 x2, ועמוד באג מציין יציאת USB אחת. יש לבדוק ולתקן את הקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "תיאור העמוד בבאג כולל טקסט תבנית של דגם 43 אינץ׳; הנתונים נלקחו מטבלת הדגם בגודל 75 אינץ׳.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים מעמוד באג (קמעונאי ישראלי) ו-allware. המידות סודרו מחדש לרוחב × גובה × עומק בהתאם לציטוט 1668x391x1027."
+ }
+}

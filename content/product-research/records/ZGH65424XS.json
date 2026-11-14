@@ -1,0 +1,464 @@
+{
+ "modelNumber": "ZGH65424XS",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Zanussi",
+  "exactModel": "ZGH65424XS",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "כיריים גז בנויות בנירוסטה עם 4 אזורי בישול, הצתה אלקטרונית משולבת. דף היצרן בישראל ודף הקמעונאי מזהים את הדגם המדויק. | QA: Zanussi Israel page and an Israeli retailer page both name ZGH65424XS, 4-burner stainless gas hob, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zanussi.co.il/appliances/hobs/zgh65424xs/",
+   "publisher": "Zanussi Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-4-%D7%9C%D7%94%D7%91%D7%95%D7%AA-%D7%96%D7%A0%D7%95%D7%A1%D7%99-zanussi-%D7%93%D7%92%D7%9D-zgh65424xs-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות מוצר (רוחב × עומק)",
+     "value": "59.5 × 51 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × עומק × גובה)",
+     "value": "56 × 48 × 4 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר אזורי בישול",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Manufacturer marketing text says 4kW; retailer and catalog say 4000 W.",
+     "label": "הספק מבער ווק (קדמי שמאלי)",
+     "value": "3700 W (128 מ״מ)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Retailer and catalog say 2000 W.",
+     "label": "הספק מבער אחורי שמאלי",
+     "value": "1800 W (70 מ״מ)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Retailer and catalog say 2000 W.",
+     "label": "הספק מבער אחורי ימני",
+     "value": "1800 W (70 מ״מ)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מבער קדמי ימני (עזר)",
+     "value": "1000 W (54 מ״מ)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גז מקור (כיול מפעל)",
+     "value": "G20 (2H) 20 mbar"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קטגוריית גז",
+     "value": "II2H3+"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע עיקרי",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה מלאה, ראלקו – היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed 'עוצמתי'.",
+   "text": "מבער ווק לחימום מהיר של סירים ומחבתות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הצתה אלקטרונית משולבת באמצעות ידית ההפעלה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צמדים תרמיים לבטיחות גז: אספקת הגז נסגרת כשהלהבה נכבית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מסגרת משופעת שמונעת התפשטות נזילות לשטח הסמוך"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידיות הפעלה בצד הקדמי הימני"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת תומכת סירים מצופה אמייל"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote is a run-on spec list; does not clearly state the kit is supplied.",
+   "text": "ערכת המרת גז"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התקנה מובנית בתוך משטח העבודה"
+  }
+ ],
+ "content": {
+  "summary": "כיריים גז בנויות של Zanussi, דגם ZGH65424XS, בגימור נירוסטה עם 4 אזורי בישול, כולל מבער ווק לחימום מהיר. הכיריים כוללות הצתה אלקטרונית משולבת בידית וצמדים תרמיים שסוגרים את הגז כשהלהבה נכבית. מתאימות למטבח עם משטח עבודה שבו מבצעים חיתוך בגודל 56 × 48 ס״מ.",
+  "highlights": [
+   "4 אזורי בישול, כולל מבער ווק",
+   "הצתה אלקטרונית משולבת בידית ההפעלה",
+   "צמדים תרמיים לבטיחות גז",
+   "מסגרת משופעת שמונעת התפשטות נזילות",
+   "רשת תומכת סירים מצופה אמייל"
+  ],
+  "goodFor": [
+   "בישול בווק ובמחבתות שדורש חימום מהיר",
+   "מטבח שמחפש כיריים גז עם סגירת גז אוטומטית כשהלהבה נכבית"
+  ],
+  "considerations": [
+   "יש לוודא שמידות החיתוך במשטח הן 56 × 48 ס״מ ושעומק ההתקנה מאפשר 4 ס״מ",
+   "הכיריים מכוילות במפעל לגז G20; לגז בישול ביתי (גפ״מ) נדרשת התאמה על ידי מתקין גז מוסמך",
+   "הצתה אלקטרונית דורשת נקודת חשמל ליד מיקום הכיריים"
+  ],
+  "faq": [
+   {
+    "q": "מה גודל החיתוך הנדרש במשטח?",
+    "a": "מידות הנישה להתקנה הן 56 × 48 × 4 ס״מ (רוחב × עומק × גובה).",
+    "sources": []
+   },
+   {
+    "q": "האם יש בכיריים מנגנון בטיחות גז?",
+    "a": "כן, צמדים תרמיים מפסיקים את אספקת הגז כאשר הלהבה נכבית.",
+    "sources": []
+   },
+   {
+    "q": "איך מדליקים את המבערים?",
+    "a": "באמצעות הצתה אלקטרונית המשולבת בידית ההפעלה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הכיריים?",
+    "a": "שנה מלאה מטעם ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז בנויות Zanussi ZGH65424XS נירוסטה: 4 אזורי בישול עם מבער ווק, הצתה משולבת וצמדים תרמיים לבטיחות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Zanussi ZGH65424XS",
+   "כיריים גז זנוסי",
+   "כיריים גז 60 ס״מ נירוסטה",
+   "כיריים גז 4 להבות",
+   "כיריים גז עם מבער ווק",
+   "כיריים גז בנויות",
+   "כיריים זנוסי נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג הכיריים",
+   "catalogValue": "גז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מבער ווק (קדמי שמאלי)",
+   "catalogValue": "4000 וואט / 128 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "3700 W / 128 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מבער אחורי שמאלי",
+   "catalogValue": "2000 וואט / 70 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1800 W / 70 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מבער קדמי ימני",
+   "catalogValue": "1000 וואט / 54 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מבער אחורי ימני",
+   "catalogValue": "2000 וואט / 70 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1800 W / 70 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות (רוחב × עומק)",
+   "catalogValue": "59.5 × 51 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה (רוחב × עומק × גובה)",
+   "catalogValue": "56 × 48 × 4 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.1 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר המשטח",
+   "catalogValue": "פלדת אל-חלד (נירוסטה)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג תומכי סירים",
+   "catalogValue": "פלדה מצופה אמייל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג שליטה",
+   "catalogValue": "ידיות הפעלה מסתובבות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "origin_country",
+   "catalogValue": "איטליה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה מלאה (יבואן רשמי)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גז מקור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "G20 (2H) 20 mbar",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק מבער ווק",
+   "issue": "The manufacturer's spec table gives 3700 W for the front-left wok burner, but the manufacturer's marketing text says 4 kW and the Israeli retailer lists W4000. The catalog says 4000 W. Check the rating plate or user manual.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק מבערים אחוריים",
+   "issue": "The manufacturer's spec table gives 1800 W for both rear burners, but the Israeli retailer lists W2000 and the catalog says 2000 W. Check the rating plate or user manual.",
+   "severity": "high"
+  },
+  {
+   "field": "origin_country",
+   "issue": "The country of origin (Italy) does not appear on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "גובה מובנה",
+   "issue": "The retailer lists the built-in height as 510 mm, which does not match the manufacturer's cutout height of 40 mm. Likely a data error on the retailer page; not published.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מבערים",
+   "issue": "Manufacturer spec table gives 3700 W wok and 1800 W rear burners; manufacturer marketing text says 4kW wok; retailer and catalog say 4000 W and 2000 W. Check the rating plate or user manual (values may differ by gas type).",
+   "severity": "high"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Country of origin (Italy) is not confirmed by any source.",
+   "severity": "low"
+  },
+  {
+   "field": "inTheBox",
+   "issue": "Whether a gas conversion kit is supplied is unclear from the retailer page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Burner power facts 3-5 set to conflict: the manufacturer spec table (3700/1800 W) disagrees with the manufacturer's own marketing text (4kW wok) and the retailer/catalog (4000/2000 W). In-the-box gas conversion kit rejected: the quote is a run-on list and does not clearly state it is supplied. Feature 0 reworded without 'עוצמתי'. | code guard removed: goodFor: \"החלפת כיריים בנויות ברוחב 60 ס״מ במשטח קיים\""
+ }
+}

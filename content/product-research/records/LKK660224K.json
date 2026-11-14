@@ -1,0 +1,434 @@
+{
+ "modelNumber": "LKK660224K",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "LKK660224K",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "high",
+  "notes": "Israeli retailer listings for the exact model: CityDeal and Bug. Both name LKK660224K in the page title and spec table. | QA: Both Israeli retailer pages name LKK660224K; Bug warranty quote names מיני ליין as importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/תנור-משולב-כיריים-גז-4-להבות-electrolux-990456666081",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/electrolux-lkk660224k-%D7%AA%D7%A0%D7%95%D7%A8-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%92%D7%96-58-%D7%9C%D7%99%D7%98%D7%A8-%D7%A9%D7%97%D7%95%D7%A8-%D7%A2%D7%9D-4-%D7%9E%D7%91%D7%A2%D7%A8%D7%99%D7%9D",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "85–87 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "CityDeal reportedly lists 59.6 cm width; flagged",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "59.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח שמיש",
+     "value": "58 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג יעילות אנרגטית",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גז מרבי",
+     "value": "9000 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק חשמלי מרבי",
+     "value": "2510 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "label corrected",
+     "label": "מבער טורבו כפול קדמי שמאלי",
+     "value": "3200 W, קוטר 121 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "50–250 מעלות צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור (אמייל)"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ניתוק גז בכיבוי הלהבה",
+     "value": "ניתוק גז אוטומטי בכיבוי הלהבה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, באמצעות מיני ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טורבו אקטיבי SteamBake לאפייה אחידה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי Aqua Cleaning בסיוע אדים ב-90°C במשך כ-30 דקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא תנור עם 5 מפלסי אפייה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כולל מגש AirFry ייעודי"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגש אמייל לאפיית עוגות ומאפים"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "על פי חוק, ההתקנה חייבת להתבצע על-ידי טכנאי גז מוסמך"
+  }
+ ],
+ "content": {
+  "summary": "Electrolux LKK660224K הוא תנור משולב כיריים גז ברוחב 60 ס״מ בגימור אמייל שחור. תא התנור בנפח שמיש של 58 ליטר עם 5 מפלסי אפייה, טורבו אקטיבי SteamBake ומגש AirFry ייעודי, ובכיריים מבער טורבו כפול של 3200 W. מתאים למי שמחפש תנור וכיריים ביחידה אחת עם ניקוי אדים Aqua Cleaning ומנגנון ניתוק גז אוטומטי.",
+  "highlights": [
+   "נפח שמיש של 58 ליטר ו-5 מפלסי אפייה",
+   "מבער טורבו כפול 3200 W",
+   "טורבו אקטיבי SteamBake לאפייה אחידה",
+   "מגש AirFry ייעודי כלול",
+   "ניתוק גז אוטומטי בכיבוי הלהבה"
+  ],
+  "goodFor": [
+   "מטבח שבו רוצים תנור וכיריים גז ביחידה עומדת אחת ברוחב 60 ס״מ",
+   "אפייה בכמה מפלסים בבת אחת בזכות 5 מפלסי האפייה",
+   "מי שרוצה לטגן באוויר חם עם מגש AirFry בתוך התנור",
+   "בישול מהיר בסיר גדול על מבער הטורבו הכפול"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 60 ס״מ רוחב, 59.6 ס״מ עומק וגובה 85–87 ס״מ",
+   "ההתקנה מחייבת טכנאי גז מוסמך על פי חוק",
+   "יש לוודא נקודת חשמל זמינה לתנור, שהספקו החשמלי המרבי 2510 W",
+   "האחריות לשנה ניתנת באמצעות מיני ליין"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח תא התנור?",
+    "a": "הנפח השמיש של תא התנור הוא 58 ליטר, עם 5 מפלסי אפייה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בתנור פונקציית טיגון באוויר חם?",
+    "a": "כן, התנור מגיע עם מגש AirFry ייעודי.",
+    "sources": []
+   },
+   {
+    "q": "מי יכול להתקין את התנור?",
+    "a": "על פי חוק, ההתקנה חייבת להתבצע על-ידי טכנאי גז מוסמך.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את התנור?",
+    "a": "בעזרת Aqua Cleaning: ניקוי בסיוע אדים ב-90°C במשך כ-30 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות של התנור?",
+    "a": "50–250 מעלות צלזיוס.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור משולב גז Electrolux LKK660224K שחור 60 ס״מ: נפח 58 ליטר, מבער טורבו כפול 3200 W ומגש AirFry. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux LKK660224K",
+   "LKK660224K",
+   "תנור משולב גז אלקטרולוקס",
+   "תנור משולב כיריים גז 60 ס״מ",
+   "תנור משולב גז שחור",
+   "תנור משולב עם AirFry",
+   "תנור אלקטרולוקס SteamBake"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גובה",
+   "catalogValue": "85-87 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "59.6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא האפייה",
+   "catalogValue": "58 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גז מרבי",
+   "catalogValue": "9000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק חשמלי מרבי",
+   "catalogValue": "2510 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת גריל",
+   "catalogValue": "1650 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת גוף חימום תחתון",
+   "catalogValue": "1000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת טורבו אקטיבי",
+   "catalogValue": "1200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבער טורבו כפול",
+   "catalogValue": "3200W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50-250 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור אמייל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "שוודיה (עיצוב ופיתוח), אירופה (ייצור ברומניה/פולין)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "CityDeal lists width 59.6 cm and depth 60 cm, while Bug and the catalog list width 60 cm and depth 59.6 cm. Check the physical unit or the manufacturer spec before relying on either.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "CityDeal reportedly lists width 59.6 cm and depth 60 cm, swapped relative to Bug and the catalog. Confirm against the manufacturer spec.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "All facts come from Israeli retailer pages only; no manufacturer or manual source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Label of fact 7 corrected to 'מבער טורבו כפול קדמי שמאלי' to match the quote. Width/depth kept from Bug; CityDeal reportedly swaps them, flagged for review."
+ }
+}

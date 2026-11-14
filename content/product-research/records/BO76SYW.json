@@ -1,0 +1,333 @@
+{
+ "modelNumber": "BO76SYW",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Gorenje",
+  "exactModel": "BO76SYW",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Gorenje's own sites returned HTTP 403. Evidence from Israeli retailer Zabilo plus Slovak and Ukrainian retailers naming BO76SYW. Zabilo lists energy class A while Slovak and Ukrainian pages list A+; gross weight differs between Slovak sources (35.8 vs 38.1 kg), so gross weight and energy class are not published. | QA: Israeli retailer Zabilo plus Slovak and Ukrainian retailers all name BO76SYW; dimensions, power and capacity match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://zabilo.com/en/built-in-ovens/8443-bo76syw.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.e-spotrebice.sk/13647-gorenje-bo76syw.html",
+   "publisher": "e-spotrebice.sk",
+   "kind": "retailer",
+   "market": "SK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://gorenje.com.ua/duhovka-bo76syw/",
+   "publisher": "Gorenje brand store Ukraine",
+   "kind": "retailer",
+   "market": "UA",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "71 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שטח התבנית הגדולה ביותר",
+     "value": "1,316 סמ״ר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "זכוכית לבנה עם ידית כסופה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.7 × 59.5 × 54.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "33.8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "56-56.8 × 58.3-60 × 55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "3,300 W"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גריל",
+     "value": "2,700 W"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי מהיר של תא האפייה באמצעות אדים (AquaClean)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "זוכר את הטמפרטורה שנבחרה לכל תוכנית ומציע אותה בשימוש הבא"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בקרת מגע ותוכניות אפייה ובישול מגוונות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סגירה רכה של הדלת ללא טריקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נעילת בטיחות לילדים ומסילות טלסקופיות"
+  },
+  {
+   "sources": [
+    "s1",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Dropped '3 layers of glass': Ukrainian source reportedly says 2-glass CompactDoor.",
+   "text": "דלת וזכוכיות הניתנות לפירוק קל לניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת אוורור היקפית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Gorenje BO76SYW הוא תנור בנוי דיגיטלי בגימור זכוכית לבנה עם ידית כסופה. נפח תא האפייה 71 ליטר, הספק הגריל 2,700 W ויש ניקוי באדים AquaClean ומסילות טלסקופיות. מתאים למי שמחפש תנור בנוי לבן לנישה סטנדרטית עם תפעול במגע.",
+  "highlights": [
+   "נפח תא אפייה 71 ליטר",
+   "הספק גריל 2,700 W",
+   "ניקוי באדים AquaClean",
+   "סגירה רכה של הדלת",
+   "מסילות טלסקופיות ונעילת בטיחות לילדים"
+  ],
+  "goodFor": [
+   "מטבח בגוון לבן שבו התנור צריך להשתלב בעיצוב",
+   "אפייה בתבניות גדולות, עם תבנית בשטח 1,316 סמ״ר",
+   "בית עם ילדים, בזכות נעילת הבטיחות",
+   "מי שרוצה ניקוי פשוט של תא האפייה ושל הדלת"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח תא האפייה הוא 71 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את התנור?",
+    "a": "יש פונקציית ניקוי באדים AquaClean, והדלת והזכוכיות מתפרקות בקלות לניקוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Gorenje BO76SYW בזכוכית לבנה: נפח 71 ליטר, גריל 2,700 W, ניקוי באדים AquaClean ומסילות טלסקופיות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Gorenje BO76SYW",
+   "תנור בנוי גורניה",
+   "תנור בנוי לבן",
+   "תנור בנוי 71 ליטר",
+   "תנור גורניה לבן",
+   "תנור בנוי דיגיטלי",
+   "BO76SYW"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא אפייה",
+   "catalogValue": "71 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "59.7 × 59.5 × 54.7",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות נישה",
+   "catalogValue": "56-56.8 × 58.3-60 × 55",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "33.8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "3,300W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "contradicted",
+   "correctValue": "A+ לפי אתרים סלובקי ואוקראיני; A לפי Zabilo",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "energy_class",
+   "issue": "Sources conflict: A (Zabilo) vs A+ (Slovak/Ukrainian retailers).",
+   "severity": "medium"
+  },
+  {
+   "field": "door",
+   "issue": "Ukrainian page says CompactDoor 2 glass; catalog says 3-layer glass.",
+   "severity": "low"
+  },
+  {
+   "field": "energy_class",
+   "issue": "Sources conflict: A (Zabilo, Israel) vs A+ (Slovak/Ukrainian retailers); catalog says A.",
+   "severity": "medium"
+  },
+  {
+   "field": "door",
+   "issue": "Catalog and Zabilo say 3-layer glass door; Ukrainian page reportedly says CompactDoor with 2 glass panes.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer page could be fetched (HTTP 403); all facts rest on retailer pages.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 5 reworded to drop the 3-layer glass claim, since the Ukrainian page reportedly describes a 2-glass CompactDoor; the removable door for cleaning is kept. Energy class not published because sources conflict (A vs A+). | code guard removed: faq: \"איזו נישה צריך להתקנה?\"; faq: \"מה ההספק של התנור?\"; consideration: \"יש לוודא שמידות הנישה הן 56-56.8 × 58.3-60 ס״מ ועומק של 55 ס״מ לפחות\"; consideration: \"הספק כולל של 3,300 W מצריך נקודת חשמל מתאימה – כדאי לבדוק עם חשמלאי\"; consideration: \"משקל נטו של 33.8 ק״ג – כדאי להיערך להתקנה בשני אנשים\""
+ }
+}

@@ -1,0 +1,418 @@
+{
+ "modelNumber": "EQE5600BA",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EQE5600BA",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "high",
+  "notes": "הדגם EQE5600BA מופיע באתר Electrolux Israel ובשני אתרי קמעונאים ישראליים. כותרת אבי סופר מציינת בטעות 472 ליטר, בעוד מפרטו 572. לא נמצא דף מוצר, מדריך או EPREL לדגם המדויק. | QA: Exact model EQE5600BA on Electrolux Israel and two Israeli retailers; specs agree across sources."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrolux.co.il/?s=EQE5600BA",
+   "publisher": "Electrolux Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/מקרר-4-דלתות-572-ליטר-electrolux-957743453453",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/מוצרים/מקרר-מקפיא-תחתון-4-דלתות-אלקטרולוקס-eqe5600ba/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "572 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "414 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "158 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (תקן חדש)",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "314 קוט״ש בשנה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Depth per retailer spec; may exclude doors.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "90 × 179 × 65 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבר דלת מינימלי לאחר פירוק דלתות",
+     "value": "660 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "נירוסטה מושחרת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מקרר",
+     "value": "4 דלתות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, אחריות מלאה על ידי מיני ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "trimmed unquoted detail",
+   "text": "מדחס אינוורטר NutriFresh לשמירה על יציבות הטמפרטורה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "trimmed unquoted detail",
+   "text": "מערכת קירור EvenTemp לטמפרטורה אחידה ומדויקת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "removed unquoted benefit claim",
+   "text": "טכנולוגיית TasteLockAUTO בשילוב פילטר NutriPlus"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "quote does not name QuickChill",
+   "text": "קירור מהיר עם חזרה אוטומטית לקירור רגיל אחרי 90 דקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "QuickFreez להקפאה מהירה של כמות גדולה של פריטים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "DrinkChill עם טיימר של 20 עד 45 דקות לקירור מהיר של משקאות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 מגירות Deli לשמירה ב-0 מעלות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יצרן קרח טוויסט עם מגירה לקוביות קרח"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת LED בתא המזון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדפי FlexSpace לסידור גמיש של המדפים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגירות ירקות SpacePlus גדולות ושקופות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיקוד דיגיטלי בתא המזון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3 מדפי זכוכית בתא המקרר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידיות שקועות ארגונומיות לפתיחה קלה של הדלתות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 רגליות מתכווננות מקדימה ו-2 גלגלים קבועים"
+  }
+ ],
+ "content": {
+  "summary": "מקרר 4 דלתות של Electrolux בנפח כולל של 572 ליטר, עם תא קירור של 414 ליטר ותא הקפאה של 158 ליטר בגימור נירוסטה מושחרת. המקרר כולל מדחס אינוורטר NutriFresh, מערכת קירור EvenTemp ו-2 מגירות Deli לשמירה ב-0 מעלות. מתאים למשפחה שמחפשת מקרר רחב עם הרבה נפח אחסון ומקפיא תחתון גדול.",
+  "highlights": [
+   "נפח כולל 572 ליטר: 414 ליטר קירור ו-158 ליטר הקפאה",
+   "מדחס אינוורטר NutriFresh",
+   "2 מגירות Deli לשמירה ב-0 מעלות",
+   "DrinkChill עם טיימר של 20 עד 45 דקות לקירור משקאות",
+   "צריכת אנרגיה שנתית של 314 קוט״ש, דירוג E בתקן החדש"
+  ],
+  "goodFor": [
+   "משפחה שקונה מזון בכמויות וצריכה תא הקפאה גדול",
+   "מי ששומר בשר, דגים וגבינות ורוצה מגירות ייעודיות ב-0 מעלות",
+   "מטבח עם נישה רחבה למקרר 4 דלתות"
+  ],
+  "considerations": [
+   "ודאו שהנישה מתאימה למידות 90 × 179 × 65 ס״מ, ובדקו מול המפרט אם העומק כולל את הדלתות",
+   "בדקו שמעבר הדלתות בבית הוא לפחות 660 מ״מ, המעבר המינימלי לאחר פירוק דלתות",
+   "השאירו מקום לפתיחת 4 הדלתות והמגירות בחזית המקרר"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 572 ליטר: 414 ליטר בתא הקירור ו-158 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה דירוג האנרגיה וצריכת החשמל?",
+    "a": "דירוג אנרגטי E לפי התקן החדש, עם צריכת אנרגיה שנתית של 314 קוט״ש.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר ייכנס דרך דלת צרה?",
+    "a": "לאחר פירוק הדלתות נדרש מעבר מינימלי של 660 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן את האחריות?",
+    "a": "אחריות מלאה לשנה על ידי מיני ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר 4 דלתות Electrolux EQE5600BA בנפח 572 ליטר עם מקפיא 158 ליטר ומדחס אינוורטר, נירוסטה מושחרת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux EQE5600BA",
+   "מקרר 4 דלתות אלקטרולוקס",
+   "מקרר 572 ליטר",
+   "מקרר נירוסטה מושחרת",
+   "מקרר מקפיא תחתון 4 דלתות",
+   "מקרר אינוורטר אלקטרולוקס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "572 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "314 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "179×90×73 (עומק גוף 65)",
+   "finding": "corrected",
+   "correctValue": "עומק 65 ס\"מ לפי היצרן/קמעונאים",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "101 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "weight",
+   "issue": "משקל 101 ק״ג ועומק 73 ס״מ מהקטלוג לא נמצאו בדפים",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "קמעונאים מציינים עומק 65 ס״מ; בקטלוג מופיע עומק 73 ס״מ עם דלתות ו-65 ס״מ לגוף. יש לוודא איזה עומק מוצג",
+   "severity": "medium"
+  },
+  {
+   "field": "weight",
+   "issue": "משקל 101 ק״ג מהקטלוג לא אומת במקורות",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Reworded features 0, 1, 2 and 3 to match only what the quotes say. Dimension depth 65 cm is from retailer spec lists; catalog says 73 cm with doors and 65 cm body depth, so flagged for a check."
+ }
+}

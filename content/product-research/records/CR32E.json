@@ -1,0 +1,472 @@
+{
+ "modelNumber": "CR32E",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "MSI",
+  "exactModel": "CR32E",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בקמעונאים ישראליים כ-MSI MAG 31.5” HD TV Model: CR32E (מותג MAG). לא נמצא דף יצרן רשמי או מדריך למשתמש עבור הדגם, ולא נמצא שם יבואן בעמודים שנקראו. | QA: Three Israeli retailers list MSI MAG 31.5\" HD TV Model CR32E; no manufacturer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://white-tiger.co.il/product/mag_31-5_hd_tv_model_cr32e/",
+   "publisher": "White Tiger Technologies",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.goldtop.co.il/product-details.aspx?proid=82259",
+   "publisher": "Goldtop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.3digital.co.il/items/6614153-MAG-31-5-HD-TV-Model-CR32E",
+   "publisher": "3Digital",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "MSI"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "31.5 אינץ׳, יחס 16:9"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "1366 × 768"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "60 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בהירות",
+     "value": "200 cd/m² (±10%)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית תצוגה",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק רמקולים",
+     "value": "10 W + 10 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "F"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל מקסימלית",
+     "value": "עד 55 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח כניסה",
+     "value": "100–240 V AC, 50/60 Hz"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "reordered from source D×H×W",
+     "label": "מידות כולל מעמד (רוחב × גובה × עומק)",
+     "value": "728 × 469 × 200 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "reordered from source D×H×W",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "728 × 420 × 71 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "כ-3.56 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ברוטו",
+     "value": "כ-4.7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תקן תלייה (VESA)",
+     "value": "100 × 100 מ״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר כיבוי אוטומטי לאחר 4 שעות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "MSI MAG CR32E הוא מסך טלוויזיה LED בגודל 31.5 אינץ׳ ברזולוציית HD של 1366 × 768 וקצב רענון 60 Hz. הוא כולל רמקולים 10 W + 10 W ותומך בתלייה על הקיר בתקן VESA 100 × 100 מ״מ. מתאים לחדר שינה, למטבח, לחדר ילדים או למשרד שבהם נדרש מסך קומפקטי וקל.",
+  "highlights": [
+   "מסך LED בגודל 31.5 אינץ׳, יחס 16:9",
+   "רזולוציה 1366 × 768 בקצב רענון 60 Hz",
+   "רמקולים בהספק 10 W + 10 W",
+   "תקן תלייה VESA 100 × 100 מ״מ",
+   "משקל נטו כ-3.56 ק״ג"
+  ],
+  "goodFor": [
+   "חדר שינה או חדר ילדים שבו מספיק מסך קומפקטי",
+   "מטבח או משרד, עם אפשרות תלייה על הקיר בתקן VESA 100 × 100 מ״מ",
+   "מי שמחפש מסך קל להזזה, במשקל נטו של כ-3.56 ק״ג"
+  ],
+  "considerations": [
+   "הרזולוציה היא 1366 × 768 (HD), לא Full HD או 4K",
+   "דירוג האנרגיה הוא F וצריכת החשמל המקסימלית עד 55 W",
+   "לתלייה על הקיר יש לוודא זרוע או מתקן תואמי VESA 100 × 100 מ״מ",
+   "מידות כולל מעמד 728 × 469 × 200 מ״מ — כדאי למדוד את משטח ההנחה"
+  ],
+  "faq": [
+   {
+    "q": "מה הרזולוציה של MSI MAG CR32E?",
+    "a": "1366 × 768 בקצב רענון 60 Hz.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לתלות את המסך על הקיר?",
+    "a": "כן, המסך תומך בתקן תלייה VESA 100 × 100 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק הרמקולים?",
+    "a": "שני רמקולים בהספק 10 W + 10 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המסך ללא מעמד?",
+    "a": "728 × 420 × 71 מ״מ (רוחב × גובה × עומק).",
+    "sources": []
+   },
+   {
+    "q": "האם המסך נכבה אוטומטית?",
+    "a": "כן, יש טיימר שמכבה את המסך לאחר 4 שעות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה MSI MAG CR32E בגודל 31.5 אינץ׳ LED ברזולוציה 1366 × 768, רמקולים 10 W + 10 W ותלייה VESA 100 × 100 מ״מ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "MSI MAG CR32E",
+   "CR32E",
+   "טלוויזיה 32 אינץ׳ MSI",
+   "מסך MAG 31.5",
+   "טלוויזיה קטנה לחדר שינה",
+   "טלוויזיה HD 32 אינץ׳",
+   "מסך LED 32 אינץ׳"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "31.5 אינץ' (32 אינץ')",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "1366x768 (HD Ready)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בהירות",
+   "catalogValue": "200cd/m²",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יחס ניגודיות",
+   "catalogValue": "5000:1",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן תגובה",
+   "catalogValue": "8.5ms",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זווית צפייה",
+   "catalogValue": "176/176 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ממשקי HDMI",
+   "catalogValue": "2 כניסות HDMI",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "20W (2x10W)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח כניסה",
+   "catalogValue": "100-240V~ 50/60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת חשמל מקסימלית",
+   "catalogValue": "פחות מ-55W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "catalogValue": "100x100 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות כולל מעמד",
+   "catalogValue": "728x482x200 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "728 × 469 × 200 מ״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "728x430x93 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "728 × 420 × 71 מ״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "כ-3.63 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "כ-3.56 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טיימר כיבוי",
+   "catalogValue": "כיבוי אוטומטי לאחר 4 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל ברוטו",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כ-4.7 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציג 728x482x200 ו-728x430x93 מ״מ, בעוד שני קמעונאים (גולדטופ ו-3Digital) מציגים 469 ו-420 ו-71 מ״מ. הסדר הצירים בגולדטופ הפוך (עומק-גובה-רוחב), ולכן הערכים נכתבו לפי הסדר הסטנדרטי רוחב × גובה × עומק. יש לאמת על המוצר או במפרט היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציג 3.63 ק״ג נטו, בעוד שהקמעונאים מציגים כ-3.56 ק״ג נטו.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן תגובה",
+   "issue": "זמן התגובה 8.5ms בקטלוג לא אומת בעמודים שנקראו. תוצאות חיפוש מציגות 5 ms ופאנל TN, אך עמודים אלה לא נקראו ולכן לא נכללו כראיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "טלוויזיה חכמה",
+   "issue": "בעמוד 3Digital של הדגם מופיע תיאור של דגם Smart אחר (CRD32-SMART12). בעמודים שנקראו הדגם CR32E אינו מוגדר כחכם, ולכן לא נכללו פרטי Smart.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "לא נמצא דף יצרן רשמי או מדריך למשתמש עבור CR32E. כל הנתונים מקמעונאים ישראליים. שם הדגם 'CR' דומה לשמות צגי MSI, ולכן כדאי לוודא שמדובר בטלוויזיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציג 728x482x200 ו-728x430x93 מ״מ, בעוד הקמעונאי מציג 728 × 469 × 200 ו-728 × 420 × 71 מ״מ. יש לאמת מול המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "הקטלוג מציג כ-3.63 ק״ג, הקמעונאי כ-3.56 ק״ג.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "לא נמצא דף יצרן רשמי; כל הנתונים מקמעונאים ישראליים. זמן תגובה, ניגודיות וזווית צפייה בקטלוג לא אומתו.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept from Israeli retailer pages naming CR32E. Fact 10/11 reordered from Goldtop's D×H×W listing to W×H×D. Dimensions and weight differ from catalog; flagged."
+ }
+}

@@ -1,0 +1,484 @@
+{
+ "modelNumber": "BCS711PET Unlimited 7 ProAnimal",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "BCS711PET",
+  "israeliImporter": "BSH",
+  "matchConfidence": "high",
+  "notes": "Bosch model code BCS711PET (Unlimited 7 ProAnimal, Red) confirmed on the manufacturer spec sheet and the Israeli authorized-dealer page. | QA: Bosch spec sheet (ZA) and Israeli retailer page both name BCS711PET Unlimited 7 ProAnimal; spec sheet confirms red colour matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/en-ZA/BCS711PET.pdf",
+   "publisher": "Bosch",
+   "kind": "manufacturer",
+   "market": "ZA",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A0%D7%98%D7%A2%D7%9F-%D7%91%D7%95%D7%A9-bcs711pet/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "אדום"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוללה",
+     "value": "3.0 Ah נשלפת (Power For All)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן הפעלה מקסימלי",
+     "value": "עד 40 דקות (מצב Eco, עם אביזר לא חשמלי)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן הפעלה במצב Turbo",
+     "value": "עד 10 דקות (עם מברשת רצפה חשמלית)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote gives the count only.",
+     "label": "מצבי עוצמה",
+     "value": "3 מצבים"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל לאיסוף אבק",
+     "value": "0.3 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג איסוף",
+     "value": "ללא שקית"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "2.9 ק״ג (מוכן לפעולה, כולל צינור ואביזר)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "131.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "25.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק",
+     "value": "20.4 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Pure Air not in this quote.",
+     "label": "סינון",
+     "value": "99.9%"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "ZA-market guarantee; Israeli warranty terms not confirmed.",
+     "label": "אחריות מנוע",
+     "value": "10 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת רצפה ProAnimal עם תאורת LED"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מוט גמיש ב-90° לשאיבה במקומות בעלי גישה מוגבלת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת ProAnimal mini ממונעת נוספת לאיסוף שיער חיות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שחרור מברשת באמצעות הרגל למעבר מהיר לניקוי פינות צרות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב Auto שמתאים את עוצמת השאיבה לסוג המשטח"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסנן היגייני לכל החיים עם טכנולוגיית Pure Air"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת ProAnimal mini ממונעת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כבל טעינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote says 1 battery pack, not an extra one.",
+   "text": "סוללה נשלפת Power For All"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פיית מזרן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צינור הרחבה גמיש"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת 2 ב-1 לרהיטים וריפודים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פיית חריצים ארוכה וגמישה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תחנת עגינה לאחסון"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "הוא מגיע עם מברשת רצפה ProAnimal עם תאורת LED ומברשת ProAnimal mini ממונעת, וזמן הפעלה של עד 40 דקות במצב Eco. מתאים לבית עם בעלי חיים ולמי שרוצה שואב קל לאחסון בתחנת עגינה.",
+  "highlights": [
+   "סוללה נשלפת 3.0 Ah (Power For All)",
+   "עד 40 דקות במצב Eco עם אביזר לא חשמלי",
+   "מברשת ProAnimal עם תאורת LED ומברשת ProAnimal mini ממונעת",
+   "מוט גמיש ב-90° לשאיבה מתחת לרהיטים",
+   "סינון 99.9%, איסוף ללא שקית"
+  ],
+  "goodFor": [
+   "בית עם כלב או חתול ושיער על ספות וריפודים",
+   "שאיבה מתחת למיטות ורהיטים נמוכים בעזרת המוט הגמיש",
+   "ניקוי מזרנים ופינות צרות עם הפיות הנלוות"
+  ],
+  "considerations": [
+   "במצב Turbo עם מברשת חשמלית זמן ההפעלה עד 10 דקות בלבד",
+   "מיכל האבק בנפח 0.3 ליטר ודורש ריקון תכוף בבית עם הרבה שיער",
+   "גובה המכשיר 131.5 ס״מ — כדאי לבדוק מקום לתחנת העגינה ושקע חשמל סמוך",
+   "תנאי האחריות בישראל — לבדוק מול היבואן"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן הסוללה מחזיקה?",
+    "a": "עד 40 דקות במצב Eco עם אביזר לא חשמלי, ועד 10 דקות במצב Turbo עם מברשת רצפה חשמלית.",
+    "sources": []
+   },
+   {
+    "q": "האם הסוללה נשלפת?",
+    "a": "כן, זו סוללה נשלפת 3.0 Ah ממערכת Power For All.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מתאים לשיער של חיות מחמד?",
+    "a": "כן, הוא כולל מברשת רצפה ProAnimal ומברשת ProAnimal mini ממונעת לאיסוף שיער.",
+    "sources": []
+   },
+   {
+    "q": "כמה הוא שוקל?",
+    "a": "2.9 ק״ג מוכן לפעולה, כולל צינור ואביזר.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך שקיות?",
+    "a": "לא, האיסוף ללא שקית למיכל בנפח 0.3 ליטר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "BCS711PET",
+   "בוש Unlimited 7 ProAnimal",
+   "שואב אבק אלחוטי בוש",
+   "שואב אבק לשיער חיות",
+   "שואב אבק נטען Bosch",
+   "Bosch Unlimited 7",
+   "שואב אבק אלחוטי עם סוללה נשלפת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מתח סוללה",
+   "catalogValue": "18V",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "3.0Ah",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 40 דקות במצב Eco, עד 10 דקות במצב Turbo",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "5 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "TurboSpin דיגיטלי עוצמתי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "2.9 ק\"ג (כולל אביזרים)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמות שאיבה",
+   "catalogValue": "3 דרגות (Eco, Auto, Turbo)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מכל איסוף",
+   "catalogValue": "0.3 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיטת סינון",
+   "catalogValue": "מערכת פילטרים היגיינית עם 99.9% סינון אבק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות מנוע",
+   "catalogValue": "10 שנות אחריות (בכפוף לרישום)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "גרמניה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "זמן טעינה",
+   "issue": "Catalog gives a 5-hour charge time; no fetched page confirms it.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור",
+   "issue": "Catalog says origin Germany; the pages only say the motor technology is made in Germany, not the whole appliance.",
+   "severity": "low"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "Sources describe the appliance inconsistently (cordless handstick vs upright); the Israeli retailer page is the main Hebrew source and the Bosch spec sheet is the ZA-market version of the same model code.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות מנוע",
+   "issue": "Catalog and ZA spec sheet state a 10-year motor guarantee; Israeli importer terms not confirmed, so the fact was not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן טעינה",
+   "issue": "Catalog charge time of 5 hours is not confirmed by any source.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור",
+   "issue": "Catalog origin Germany is not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 4 value trimmed to the 3 modes count (quote does not list the mode names). Fact 11 value trimmed to 99.9% (Pure Air not in that quote). Fact 12 (10-year motor guarantee) rejected: source is the South African spec sheet and warranty terms in Israel depend on the importer. inTheBox 1 reworded to charging cable, inTheBox 2 corrected (quote says 1 battery pack, not an extra one), inTheBox 4 reworded to flexible extension hose. | code guard removed: summary: \"Bosch Unlimited 7 ProAnimal (BCS711PET) הוא שואב אבק אלחוטי בצבע אדום עם סוללה נשלפת 3.0 Ah ממערכת Power For All.\"; metaDescription: \"שואב אבק אלחוטי Bosch Unlimited 7 ProAnimal BCS711PET: סוללה נשלפת 3.0 Ah, עד 40 דקות במצב Eco ומברשות לשיער חיות. בחדד אלקטריק נהריה\""
+ }
+}

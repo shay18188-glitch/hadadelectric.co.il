@@ -1,0 +1,485 @@
+{
+ "modelNumber": "MS6CB61V5",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MS6CB61V5",
+  "israeliImporter": "B/S/H",
+  "matchConfidence": "high",
+  "notes": "בלנדר מוט ErgoMixx, 1000 וואט, עם מערכת ואקום. המפרט הטכני אומת מול דפי היצרן במלזיה (en-MY). דף החנות bettershop מציין שהיבואן הרשמי בישראל הוא B/S/H. לא נמצא דף יצרן ישראלי שמזכיר את הדגם. | QA: Bosch manufacturer pages and spec sheet name MS6CB61V5 exactly; an Israeli retailer page names the same model and B/S/H as the official importer. Manufacturer data is from the Malaysian market."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com.my/en/mkt-product/food-preparation/hand-blenders/ergomixx/MS6CB61V5",
+   "publisher": "Bosch Malaysia",
+   "kind": "manufacturer",
+   "market": "MY",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://media3.bsh-group.com/Documents/specsheet/en-MY/MS6CB61V5.pdf",
+   "publisher": "BSH spec sheet",
+   "kind": "manufacturer",
+   "market": "MY",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bettershop.co.il/product/bosch_ms6cb61v5_2/",
+   "publisher": "BetterShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירויות",
+     "value": "12 מהירויות ומצב טורבו"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "From Israeli retailer page only",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "5.5 × 39.3 × 6.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "2.3 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "140 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רגלית",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Decimal comma normalized",
+     "label": "מיכל ואקום",
+     "value": "1.2 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Supported by the spec sheet item sequence",
+     "label": "שקיות ואקום לשימוש חוזר",
+     "value": "3 גדולות ו-3 קטנות"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומרים במגע עם מזון",
+     "value": "ללא BPA"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer page states warranty by importer B/S/H",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed unsupported claim",
+   "text": "מנוע בהספק 1000 וואט"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת ואקום כלולה לשמירה על טריות המזון לאורך זמן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed AntiSplash, not in quote",
+   "text": "להב QuattroBlade לחיתוך יעיל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "12 מהירויות ופונקציית טורבו"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed soft touch, not in quote",
+   "text": "גוף ארגונומי וקל לאחיזה נוחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגלית נשלפת בקליק לניקוי קל"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote does not specify which parts or exclusions",
+   "text": "חלקים בטוחים לניקוי במדיח כלים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "2 מכסים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כוס מדידה וערבוב"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגל ערבוב מנירוסטה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מקצף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קוצץ אוניברסלי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מיכל ואקום מלבני 1.2 ליטר ומשאבת ואקום"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שקיות ואקום לשימוש חוזר"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Bosch MS6CB61V5 הוא בלנדר מוט ErgoMixx בהספק 1000 וואט עם 12 מהירויות ומצב טורבו, רגלית נירוסטה נשלפת בקליק ולהב QuattroBlade. הערכה כוללת מערכת ואקום עם משאבה, מיכל ואקום 1.2 ליטר ושקיות לשימוש חוזר, וגם קוצץ, מקצף וכוס מדידה. מתאים למי שרוצה בלנדר מוט עם אביזרים לקיצוץ, הקצפה ושמירת מזון בוואקום.",
+  "highlights": [
+   "מנוע בהספק 1000 וואט",
+   "12 מהירויות ומצב טורבו",
+   "מערכת ואקום עם משאבה ומיכל 1.2 ליטר",
+   "רגלית נירוסטה נשלפת בקליק",
+   "אחריות שנתיים מהיבואן B/S/H"
+  ],
+  "goodFor": [
+   "הכנת מרקים, רטבים ושייקים ישירות בסיר או בכוס",
+   "קיצוץ והקצפה בעזרת הקוצץ והמקצף הכלולים",
+   "שמירת מזון בוואקום במיכל ובשקיות לשימוש חוזר"
+  ],
+  "considerations": [
+   "יש לוודא בהוראות היצרן אילו חלקים מתאימים לשטיפה במדיח כלים",
+   "אורך הכבל 140 ס״מ, כדאי לבדוק שיש שקע קרוב למשטח העבודה",
+   "הערכה כוללת אביזרים רבים, כדאי לתכנן מקום אחסון במגירה או בארון"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "ההספק הוא 1000 וואט.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש?",
+    "a": "יש 12 מהירויות ומצב טורבו.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל הוואקום?",
+    "a": "מיכל הוואקום הכלול הוא בנפח 1.2 ליטר, ויש גם שקיות ואקום לשימוש חוזר, 3 גדולות ו-3 קטנות.",
+    "sources": []
+   },
+   {
+    "q": "האם החלקים במגע עם מזון ללא BPA?",
+    "a": "כן, לפי היצרן כל חלקי הפלסטיק שבמגע עם מזון הם ללא BPA.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות שנתיים מהיבואן הרשמי B/S/H.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Bosch MS6CB61V5 בהספק 1000 וואט עם 12 מהירויות וטורבו, מערכת ואקום ומיכל 1.2 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט בוש",
+   "Bosch MS6CB61V5",
+   "MS6CB61V5",
+   "בלנדר מוט 1000 וואט",
+   "בלנדר מוט עם ואקום",
+   "Bosch ErgoMixx",
+   "בלנדר מוט עם קוצץ ומקצף"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "12 דרגות עוצמה בתוספת מצב טורבו",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 39.3 ס״מ, רוחב 5.5 ס״מ, עומק 6.2 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "2.3 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "140 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מיכל ואקום",
+   "catalogValue": "מיכל ואקום בנפח 1.2 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שקיות ואקום",
+   "catalogValue": "3 בנפח 1.2 ליטר ו-3 בנפח 3.8 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כוס מדידה",
+   "catalogValue": "כוס מדידה בנפח 600 מ״ל עם מכסה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חלקי פלסטיק במגע עם מזון",
+   "catalogValue": "הינם ללא BPA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוי במדיח",
+   "catalogValue": "אביזרים ניתנים לשטיפה במדיח כלים (פרט לחלקי המנוע והתמסורת)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סטטוס",
+   "issue": "דף היצרן במלזיה מציין שהמוצר הוצא מהמכירה, ולכן הדגם כנראה כבר לא מיוצר",
+   "severity": "medium"
+  },
+  {
+   "field": "מיכל ואקום",
+   "issue": "מפרט היצרן מציין מיכל של 1,2 ליטר, ודף החנות bettershop מציין מיכל של 1 ליטר. יש לבדוק איזה נתון נכון לגרסה הישראלית",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "המפרט מקורו בדפי היצרן במלזיה (en-MY). לא נמצא דף יצרן ישראלי שמזכיר את הדגם, ולכן אין אימות ישיר של הגרסה המיובאת לישראל",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אחריות של שנתיים מקורה רק בדף קמעונאי ישראלי ולא בדף היבואן",
+   "severity": "low"
+  },
+  {
+   "field": "סטטוס",
+   "issue": "דף היצרן במלזיה מציין שהדגם הוצא מהמכירה",
+   "severity": "medium"
+  },
+  {
+   "field": "מיכל ואקום",
+   "issue": "מפרט היצרן מציין 1.2 ליטר, ולפי החוקר דף bettershop מציין 1 ליטר; לבדוק לגרסה הישראלית",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "נתוני היצרן מגיעים מדפי מלזיה; אין דף יבואן ישראלי לאימות",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות מגיעות רק מדף קמעונאי ישראלי ותואמות את טקסט הקטלוג",
+   "severity": "low"
+  },
+  {
+   "field": "כוס מדידה ושקיות",
+   "issue": "נפח כוס המדידה (600 מ״ל) ונפחי השקיות בקטלוג לא אומתו במקורות",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Reworded features 0, 2, 4, 6 to remove claims not in the quotes (hard ingredients, AntiSplash, soft touch, motor/pump exclusion). Normalized vacuum container to 1.2 ליטר. Reworded in-the-box items to clearer Hebrew. Bag count relies on the spec sheet sequence '3 x vacuum zipper bag large, 3 x vacuum zipper bag small'."
+ }
+}

@@ -1,0 +1,520 @@
+{
+ "modelNumber": "EW6C5752CM",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EW6C5752CM",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Electrolux Israel product page names EW6C5752CM (condenser tumble dryer, PERFECTCARE 600 series). Lior Electric page names Mini Line as official importer for the 1-year warranty; the importer name is not written as a fact. | QA: Electrolux Israel page and two Israeli retailers name EW6C5752CM, 7 kg condenser dryer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%A0%D7%A7%D7%99%D7%95%D7%9F_%D7%95%D7%9B%D7%91%D7%99%D7%A1%D7%94/%D7%9E%D7%99%D7%99%D7%91%D7%A9_%D7%9B%D7%91%D7%99%D7%A1%D7%94/%D7%9E%D7%99%D7%99%D7%91%D7%A9_%D7%9B%D7%91%D7%99%D7%A1%D7%94_electrolux_ew6c5752cm_%E2%80%8F7_%E2%80%8F%D7%A7%D7%92_%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1",
+   "publisher": "Traklin Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-7-%D7%A7%D7%92-%D7%9B%D7%95%D7%9C%D7%9C-%D7%9E%D7%A2%D7%91%D7%94-electrolux-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1-2/",
+   "publisher": "Lior Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.electrolux.co.il/product/laundry/condenser-tumble-dryers/%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A7%D7%95%D7%A0%D7%93%D7%A0%D7%A1%D7%95%D7%A8-7-%D7%A7%D7%92/",
+   "publisher": "Electrolux Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "פולין"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת ייבוש",
+     "value": "עד 7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיטת ייבוש",
+     "value": "מעבה (קונדנסור) עם גוף חימום"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "66 דציבל"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל מי העיבוי",
+     "value": "4.66 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "B"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Source writes Kw; energy per cycle is kWh.",
+     "label": "צריכת אנרגיה למחזור כותנה (1000 סל״ד)",
+     "value": "4.23 קוט״ש"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משך ייבוש למחזור כותנה (1000 סל״ד)",
+     "value": "129 דקות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "mm to cm.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 57.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק כולל",
+     "value": "59.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "השהיית הפעלה",
+     "value": "עד 20 שעות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית אל קמט מוגבר",
+     "value": "עד 120 דקות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "התוף מסתובב בשני כיוונים למניעת קמטים ולקיצור זמן הגיהוץ"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית SensiCare מתאימה את זמן הייבוש למשקל הכביסה ומונעת ייבוש יתר"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע אסינכרוני ללא פחמים ומברשות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מחווני התראה לקונדנסור, למסנן ולמיכל מי העיבוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניתן לשנות את כיוון פתיחת הדלת בתוספת תשלום במעמד ההתקנה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צינור ניקוז ישיר נמכר בנפרד"
+  }
+ ],
+ "content": {
+  "summary": "מייבש כביסה קונדנסור של Electrolux, דגם EW6C5752CM, בקיבולת ייבוש של עד 7 ק״ג. המייבש עובד עם גוף חימום וקונדנסור, ומי העיבוי נאספים במיכל של 4.66 ליטר, כך שאין צורך בפתח אוורור החוצה. טכנולוגיית SensiCare מתאימה את זמן הייבוש למשקל הכביסה, ודירוגו האנרגטי B. מתאים למי שמחפש מייבש בגודל סטנדרטי לחדר כביסה או מרפסת סגורה.",
+  "highlights": [
+   "קיבולת ייבוש עד 7 ק״ג",
+   "ייבוש בקונדנסור עם מיכל מי עיבוי של 4.66 ליטר",
+   "SensiCare: התאמת זמן הייבוש למשקל הכביסה",
+   "תוף בתנועה דו-כיוונית למניעת קמטים",
+   "השהיית הפעלה עד 20 שעות"
+  ],
+  "goodFor": [
+   "בית שאין בו אפשרות לצינור פליטת אוויר חם החוצה, בזכות ייבוש בקונדנסור",
+   "מי שרוצה להפעיל את המייבש בשעה מאוחרת יותר בעזרת השהיית הפעלה עד 20 שעות",
+   "מי שמעדיף פחות קמטים ופחות גיהוץ, בזכות התוף הדו-כיווני ותוכנית אל קמט מוגבר עד 120 דקות"
+  ],
+  "considerations": [
+   "ודאו שהנישה מתאימה למידות 60 × 85 ס״מ ולעומק כולל של 59.5 ס״מ",
+   "מיכל מי העיבוי (4.66 ליטר) דורש ריקון; לניקוז ישיר נדרש צינור ניקוז שנמכר בנפרד",
+   "שינוי כיוון פתיחת הדלת אפשרי בתוספת תשלום במעמד ההתקנה",
+   "עוצמת הרעש היא 66 דציבל, שווה לקחת בחשבון אם המייבש עומד ליד חדרי שינה"
+  ],
+  "faq": [
+   {
+    "q": "האם המייבש צריך יציאת אוויר החוצה?",
+    "a": "לא. זהו מייבש קונדנסור עם גוף חימום, ומי העיבוי נאספים במיכל של 4.66 ליטר. ניתן גם לרכוש בנפרד צינור ניקוז ישיר.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח מחזור כותנה?",
+    "a": "לפי היצרן, מחזור כותנה שנסחט ב-1000 סל״ד נמשך 129 דקות וצורך 4.23 קוט״ש.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המייבש?",
+    "a": "רוחב 60 ס״מ, גובה 85 ס״מ, עומק 57.5 ס״מ ועומק כולל של 59.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשנות את כיוון פתיחת הדלת?",
+    "a": "כן, בתוספת תשלום במעמד ההתקנה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות יבואן לשנה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש כביסה קונדנסור Electrolux EW6C5752CM, קיבולת עד 7 ק״ג וטכנולוגיית SensiCare להתאמת זמן הייבוש למשקל הכביסה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש כביסה אלקטרולוקס",
+   "EW6C5752CM",
+   "מייבש כביסה קונדנסור 7 קג",
+   "מייבש כביסה Electrolux 7 קג",
+   "מייבש כביסה ללא יציאת אוויר",
+   "מייבש קונדנסור אלקטרולוקס",
+   "מייבש כביסה נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת ייבוש 7 ק״ג",
+   "catalogValue": "7 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "שיטת ייבוש קונדנסור",
+   "catalogValue": "מעבה (קונדנסור)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2800 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "B",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "66 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גובה 85 ס״מ",
+   "catalogValue": "85 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "רוחב 60 ס״מ",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עומק 57.5 ס״מ",
+   "catalogValue": "57.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עומק כולל 59.5 ס״מ",
+   "catalogValue": "59.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מסך LCD",
+   "catalogValue": "מסך LCD",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מיכל מי עיבוי 4.66 ליטר",
+   "catalogValue": "4.66 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "סוג תוף Silk Drum מנירוסטה",
+   "catalogValue": "Silk Drum מנירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנוע אסינכרוני ללא פחמים",
+   "catalogValue": "מנוע אסינכרוני חדיש ללא פחמים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה למחזור כותנה 1000 סל״ד",
+   "catalogValue": "4.23 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משך ייבוש למחזור כותנה 1000 סל״ד",
+   "catalogValue": "129 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "השהיית הפעלה עד 20 שעות",
+   "catalogValue": "עד 20 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכנית אל קמט מוגבר עד 120 דקות",
+   "catalogValue": "עד 120 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "נעילת ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אפשרות שינוי כיוון פתיחת הדלת",
+   "catalogValue": "אפשרות לשינוי כיוון פתיחת הדלת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "פולין (מתוכנן בשוודיה)",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "ארץ ייצור",
+   "issue": "The catalog says designed in Sweden and made in Poland. The retailer pages say only Made in Poland (Manufacturing origin). The Sweden part is not on any page read.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "The manufacturer's dimension line has a label in a different order from its numbers (850X600X575/595). The values were matched with the retailer's height 85, width 60, depth 57.5 and total depth 59.5.",
+   "severity": "low"
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "issue": "The manufacturer writes the unit as Kw. The value is recorded as kWh, the energy unit for cycle consumption.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says 'עם דלת אטומה' (sealed door). None of the pages read says this. Check the name.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says 'עם דלת אטומה'; no source page states this.",
+   "severity": "low"
+  },
+  {
+   "field": "ארץ ייצור",
+   "issue": "Catalog adds 'designed in Sweden'; sources confirm only Poland.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג תוף",
+   "issue": "Catalog 'Silk Drum מנירוסטה' not found on any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified by ok quotes on pages naming the model. Energy unit written as Kw on the manufacturer page; published as kWh (קוט״ש). Dimensions read from mm line 850X600X575/595 converted to cm."
+ }
+}

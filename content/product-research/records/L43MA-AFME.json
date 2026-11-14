@@ -1,0 +1,689 @@
+{
+ "modelNumber": "L43MA-AFME",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Xiaomi",
+  "exactModel": "L43MA-AFME",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "medium",
+  "notes": "דף הקמעונאי e-zone מציג את הדגם בשם Xiaomi TV A 43 L43MA-AFME 2025, עם מק״ט L43MAAFME. לא נמצא דף יצרן או יבואן רשמי עם מפרט לדגם זה. | QA: Only source is an Israeli retailer page naming Xiaomi TV A 43 L43MA-AFME 2025. No manufacturer or importer spec page; several values contradict the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.e-zone.co.il/product/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-xiaomi-tv-a-43-l43ma-afme-2025-full-hd-43-%D7%90%D7%99%D7%A0%D7%98%D7%A9-%D7%A9%D7%99%D7%90%D7%95%D7%9E%D7%99/",
+   "publisher": "Ezone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "43 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "1920×1080 (Full HD)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב ריענון",
+     "value": "60Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זווית צפייה",
+     "value": "178° אופקית ואנכית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק צבע",
+     "value": "1.07 מיליארד צבעים (8bit+FRC)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית פאנל",
+     "value": "DLED עם תאורה אחורית דינאמית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משרעת צבעים",
+     "value": "DCI-P3 75% (טיפוסי)"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק שמע",
+     "value": "16W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמקולים",
+     "value": "2 רמקולים סטריאופוניים (2×8W)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת שמע",
+     "value": "Dolby Audio, DTS:X, DTS Virtual:X"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "dropped marketing wording; page also mentions Android TV, flagged",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיקוף מסך",
+     "value": "Chromecast ו-Miracast מובנים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוזרת קולית",
+     "value": "Google Assistant"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "2.4/5GHz 802.11 a/b/g/n"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "contradicts catalog (3 HDMI with eARC); flagged",
+     "label": "HDMI",
+     "value": "2 × HDMI 1.4 (CEC)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "contradicts catalog; flagged",
+     "label": "USB",
+     "value": "2 × USB 2.0"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "relabelled",
+     "label": "מקלט וחיבורים נוספים",
+     "value": "DVB-T2/C, DVB-S2, כניסת אנטנה RF, כניסת A/V (Composite), חריץ CI+"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת הספק",
+     "value": "75W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quote not on page; quote checks: quote-not-on-page",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "95.4 × 59.6 × 20.9 ס״מ (כולל בסיס)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "contradicts catalog 6.0 kg; flagged",
+     "label": "משקל (כולל בסיס, ללא אריזה)",
+     "value": "5.35 ק״ג ±0.5"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "contradicts catalog 200x100; flagged",
+     "label": "תאימות לתלייה (VESA)",
+     "value": "200×200 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "ambiguous retailer wording, likely store-specific warranty",
+     "label": "אחריות",
+     "value": "3 שנות אחריות מלאה, שנתיים ע״י המילטון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלט רחוק עם חיפוש קולי ו-Google"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפליקציות מובנות כמו Netflix ו-YouTube"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קישוריות Wi-Fi ו-Bluetooth"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Xiaomi TV A 43 (דגם L43MA-AFME) היא טלוויזיה חכמה בגודל 43 אינץ' ברזולוציית Full HD וקצב ריענון 60Hz, עם מערכת Google TV ו-Google Assistant. היא כוללת Chromecast מובנה, שמע 16W עם Dolby Audio ו-DTS:X, ומקלט DVB-T2/C ו-DVB-S2. מתאימה לחדר שינה, לחדר ילדים או לסלון קטן, למי שצופה בעיקר בסטרימינג.",
+  "highlights": [
+   "מסך 43 אינץ' ברזולוציית Full HD (1920×1080)",
+   "Google TV עם Google Assistant ו-Chromecast מובנה",
+   "שמע 16W (2×8W) עם Dolby Audio ו-DTS:X",
+   "Wi-Fi בתדרי 2.4/5GHz ו-Bluetooth",
+   "הכנה לתלייה VESA 200×200 מ״מ"
+  ],
+  "goodFor": [
+   "צפייה ב-Netflix ו-YouTube ישירות מהטלוויזיה בלי ממיר חיצוני",
+   "הזרמת תוכן מהטלפון באמצעות Chromecast",
+   "חדר שינה או חדר ילדים שבו מסך 43 אינץ' מספיק",
+   "תלייה על הקיר עם זרוע בתקן VESA 200×200"
+  ],
+  "considerations": [
+   "יש 2 כניסות HDMI 1.4 בלבד; כדאי לספור כמה מכשירים (ממיר, קונסולה, מקרן קול) יחוברו",
+   "לתלייה יש לבחור זרוע התומכת ב-VESA 200×200 מ״מ",
+   "קצב הריענון 60Hz, שיקול למי שמחפש מסך לגיימינג מהיר"
+  ],
+  "faq": [
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "Google TV, עם Google Assistant לחיפוש קולי ו-Chromecast מובנה.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI ו-USB יש?",
+    "a": "2 כניסות HDMI 1.4 עם CEC ו-2 כניסות USB 2.0.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתלות את הטלוויזיה על הקיר?",
+    "a": "כן, היא מוכנה לתלייה בתקן VESA 200×200 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מקלט דיגיטלי מובנה?",
+    "a": "כן, מקלט DVB-T2/C ו-DVB-S2, כניסת אנטנה RF וחריץ CI+.",
+    "sources": []
+   },
+   {
+    "q": "מה הספק השמע?",
+    "a": "16W משני רמקולים של 8W, עם Dolby Audio, DTS:X ו-DTS Virtual:X.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה Xiaomi TV A 43 L43MA-AFME, מסך 43 אינץ' Full HD עם Google TV ו-Chromecast מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Xiaomi L43MA-AFME",
+   "Xiaomi TV A 43",
+   "טלוויזיה שיאומי 43 אינץ'",
+   "טלוויזיה 43 אינץ' Google TV",
+   "טלוויזיה חכמה 43 Full HD",
+   "שיאומי TV A 2025",
+   "טלוויזיה 43 אינץ' נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "43 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "1920x1080 (Full HD)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב ריענון",
+   "catalogValue": "60Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זווית צפייה",
+   "catalogValue": "178° (אופקי ואנכי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק צבע",
+   "catalogValue": "1.07 מיליארד צבעים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "Quad-core A55",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מעבד גרפי",
+   "catalogValue": "Mali G31 MP2",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זיכרון RAM",
+   "catalogValue": "1.5GB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיכרון פנימי (ROM)",
+   "catalogValue": "8GB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "16W (2x8W)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות כולל מעמד",
+   "catalogValue": "957.4 × 209.6 × 598.4 מ״מ",
+   "finding": "corrected",
+   "correctValue": "957.4 × 598.4 × 209.6 מ״מ (רוחב × גובה × עומק, כולל בסיס)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "957.4 × 81.3 × 562.2 מ״מ",
+   "finding": "contradicted",
+   "correctValue": "גובה ללא בסיס 55.1 ס״מ, עומק ללא בסיס 8.1 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל כולל מעמד",
+   "catalogValue": "6.0 ק״ג",
+   "finding": "contradicted",
+   "correctValue": "5.35 ק״ג ±0.5 (ללא אריזה, כולל בסיס)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "catalogValue": "5.9 ק״ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "75W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V ~ 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאימות לתלייה (VESA)",
+   "catalogValue": "200x100 מ״מ",
+   "finding": "contradicted",
+   "correctValue": "200x200 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת שמע",
+   "catalogValue": "Dolby Audio, DTS:X, DTS Virtual:X",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיקוף מסך",
+   "catalogValue": "Chromecast מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שלט רחוק",
+   "catalogValue": "Bluetooth 360 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "2.4GHz/5GHz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "5.0",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDMI",
+   "catalogValue": "3 כניסות HDMI (אחת תומכת ב-eARC)",
+   "finding": "contradicted",
+   "correctValue": "2 x HDMI 1.4 (CEC)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "USB",
+   "catalogValue": "כניסת USB 2.0 אחת",
+   "finding": "contradicted",
+   "correctValue": "2 x USB 2.0",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Ethernet",
+   "catalogValue": "חיבור רשת Ethernet (LAN)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Composite (AV)",
+   "catalogValue": "כניסת Composite (AV)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יציאת שמע אופטית דיגיטלית",
+   "catalogValue": "יציאת שמע אופטית דיגיטלית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חריץ CI+",
+   "catalogValue": "חריץ CI+",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנות אחריות מלאה, שנתיים ע״י המילטון",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקלט דיגיטלי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "DVB-T2/C, DVB-S2 (עידן פלוס)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "HDMI",
+   "issue": "הקטלוג מציין 3 כניסות HDMI (אחת eARC) ודף החנות מציין 2 x HDMI 1.4 (CEC). יש לבדוק את מספר הכניסות לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "USB",
+   "issue": "הקטלוג מציין כניסת USB 2.0 אחת ודף החנות מציין 2 x USB 2.0.",
+   "severity": "high"
+  },
+  {
+   "field": "תאימות לתלייה (VESA)",
+   "issue": "הקטלוג מציין 200x100 מ״מ ודף החנות מציין 200x200 מ״מ.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "issue": "גובה ללא בסיס בדף החנות הוא 55.1 ס״מ, לעומת 562.2 מ״מ בקטלוג. כדאי לבדוק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל כולל מעמד",
+   "issue": "הקטלוג מציין 6.0 ק״ג כולל מעמד; דף החנות מציין 5.35 ק״ג ±0.5 ללא אריזה כולל בסיס. ההבדל גדול מהסטייה המצוינת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת הפעלה",
+   "issue": "דף החנות מזכיר גם Google TV וגם Android TV בתיאור המוצר. יש לוודא מערכת ההפעלה בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף החנות כותב '3 שנות אחריות מלאה שנתיים ע״י המילטון'. לא ברור אם התקופה היא 3 שנים או 2 שנים דרך היבואן. לא נמצא דף יבואן רשמי שמאשר.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא דף יצרן או יבואן רשמי עם מפרט למספר הדגם המדויק. כל העובדות מבוססות על דף קמעונאי ישראלי אחד (e-zone). מומלץ לאמת מול אתר היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "HDMI",
+   "issue": "הקטלוג מציין 3 כניסות HDMI (אחת eARC); דף החנות מציין 2 × HDMI 1.4 (CEC). יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "USB",
+   "issue": "הקטלוג מציין כניסת USB אחת; דף החנות מציין 2 × USB 2.0.",
+   "severity": "medium"
+  },
+  {
+   "field": "VESA",
+   "issue": "הקטלוג מציין 200x100 מ״מ; דף החנות מציין 200×200 מ״מ.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 6.0 ק״ג כולל מעמד; דף החנות מציין 5.35 ק״ג ±0.5.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות לא אומתו (הציטוט לא נמצא בדף); מידות הקטלוג לא נבדקו.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת הפעלה",
+   "issue": "דף החנות מזכיר גם Google TV וגם Android TV.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "נוסח האחריות בדף החנות אינו ברור (3 שנים / שנתיים ע״י המילטון); לא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "כל העובדות מבוססות על דף קמעונאי ישראלי אחד; לא נמצא דף יצרן או יבואן.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected dimensions (id 18, quote not on page) and warranty (id 21, ambiguous wording mixing 3 years and 2 years via importer, store-specific). Simplified OS value to Google TV. Relabelled id 16 as receiver and inputs. All facts rest on a single Israeli retailer page (e-zone); HDMI, USB, VESA and weight contradict the catalog and need a check against the importer. | code guard removed: consideration: \"הרזולוציה Full HD ולא 4K, כך שתוכן 4K יוצג ב-1080p\""
+ }
+}

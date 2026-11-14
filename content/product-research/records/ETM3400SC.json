@@ -1,0 +1,446 @@
+{
+ "modelNumber": "ETM3400SC",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "ETM3400SC",
+  "israeliImporter": "מיניליין (Miniline)",
+  "matchConfidence": "high",
+  "notes": "הדגם ETM3400SC בגימור כסוף (Arctic Silver). הגימור השחור הוא דגם ETM3400BC. לא נמצאו נתוני רעש (dB) ו-kWh לדגם זה בדפים שנבדקו. | QA: Importer and Electrolux Israel pages name ETM3400SC exactly. Finish in the catalog name (נירוסטה מושחרת) contradicts the importer (Arctic Silver); the black version is ETM3400BC."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://miniline.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-etm3400sc/",
+   "publisher": "Miniline (יבואן רשמי)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electrolux.co.il/?s=ETM3400SC",
+   "publisher": "Electrolux Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://zabilo.com/en/2-door-refrigerators/13011-etm3400bc-etm3400sc.html",
+   "publisher": "Zabilo",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1257321",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח כולל (ברוטו)",
+     "value": "344 ליטר"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "retailer page shared by BC/SC; consistent with catalog",
+     "label": "נפח תא קירור",
+     "value": "269 ליטר"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "retailer page shared by BC/SC; consistent with catalog",
+     "label": "נפח תא הקפאה",
+     "value": "75 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "converted from mm",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 176.5 × 65 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מעבר דלת מינימלי",
+     "value": "61 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית קירור",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "מדחס אינוורטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "single retailer source",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "contradicts catalog name",
+     "label": "צבע",
+     "value": "נירוסטה כסופה (Arctic Silver)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "importer quote carries an asterisk (conditions)",
+     "label": "אחריות",
+     "value": "שנה מלאה לפי דין + 9 שנות אחריות על מדחס האינוורטר"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "certification quote failed; only built-in Shabbat mode verified",
+     "label": "מצב שבת",
+     "value": "מצב שבת מובנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Cooling 360° – מערכת קירור היקפית לטמפרטורה אחידה בתא המזון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגירת אפס ExtraChill לשמירה על מעדנים, דגים ובשר טרי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "humidity claim not in quote",
+   "text": "מגירת ירקות ופירות GreenZone"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Fresh Air Deodorizer לנטרול ומניעה של ריחות במקרר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאורת LED בתא המזון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אייס מייקר Twist&Serve בתא ההקפאה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידיות נסתרות לעיצוב עכשווי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "הוא מבוסס על קירור No Frost ומדחס אינוורטר, ומגיע בגימור נירוסטה כסופה (Arctic Silver) ברוחב 60 ס״מ. מתאים למי שמחפש מקרר מקפיא עליון סטנדרטי עם מצב שבת מובנה.",
+  "highlights": [
+   "קירור No Frost ומדחס אינוורטר",
+   "מידות 60 × 176.5 × 65 ס״מ",
+   "מצב שבת מובנה",
+   "אחריות: שנה מלאה לפי דין + 9 שנות אחריות על מדחס האינוורטר"
+  ],
+  "goodFor": [
+   "מטבח עם נישה סטנדרטית ברוחב 60 ס״מ",
+   "מי ששומר שבת ורוצה מצב שבת מובנה במקרר",
+   "מי שמעדיף קירור No Frost שלא מצריך הפשרה ידנית",
+   "שמירה על בשר, דגים ומעדנים במגירת ExtraChill"
+  ],
+  "considerations": [
+   "לוודא שהנישה מתאימה למידות 60 × 176.5 × 65 ס״מ עם מרווח אוורור",
+   "הדגם ETM3400SC הוא בגימור כסוף (Arctic Silver), יש לוודא שזה הגימור הרצוי",
+   "דירוג האנרגיה הוא E, כדאי להשוות לדגמים אחרים לפני הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "האם המקרר No Frost?",
+    "a": "כן, טכנולוגיית הקירור היא No Frost.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, למקרר מצב שבת מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "שנה מלאה לפי דין + 9 שנות אחריות על מדחס האינוורטר, לפי היבואן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא עליון Electrolux ETM3400SC בנפח 344 ליטר, קירור No Frost ומדחס אינוורטר, גימור נירוסטה כסופה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux ETM3400SC",
+   "ETM3400SC",
+   "מקרר אלקטרולוקס מקפיא עליון",
+   "מקרר מקפיא עליון 344 ליטר",
+   "מקרר No Frost רוחב 60",
+   "מקרר אלקטרולוקס עם מצב שבת",
+   "מקרר מקפיא עליון אינוורטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל ברוטו",
+   "catalogValue": "344 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח אחסון תא קירור",
+   "catalogValue": "269 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נפח אחסון תא הקפאה",
+   "catalogValue": "75 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (לפי תקן חדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טכנולוגיית קירור",
+   "catalogValue": "No Frost (אל-כפור)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "NutriFresh Inverter שקט וחסכוני",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות במ״מ",
+   "catalogValue": "גובה 1765, רוחב 600, עומק 650",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבר דלת מינימלי",
+   "catalogValue": "610 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה מושחרת (בשם המוצר)",
+   "finding": "contradicted",
+   "correctValue": "נירוסטה כסופה (Arctic Silver)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת שבת מהדרין",
+   "catalogValue": "מערכת שבת מהדרין מובנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "שוודיה (עיצוב), מיוצר בתאילנד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה מלאה לפי דין + 9 שנות אחריות על המדחס",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג מציין נירוסטה מושחרת, אבל ETM3400SC הוא הגימור הכסוף (Arctic Silver). הגימור השחור הוא ETM3400BC. יש לתקן את שם המוצר או את הדגם.",
+   "severity": "high"
+  },
+  {
+   "field": "origin_country",
+   "issue": "ארץ הייצור (תאילנד) לא אומתה בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "דירוג E אומת רק בדף קמעונאי אחד. כדאי לבדוק מול תווית האנרגיה הרשמית.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג מציין נירוסטה מושחרת, אך לפי היבואן ETM3400SC הוא בגימור כסוף (Arctic Silver); הגימור השחור הוא ETM3400BC. יש לבדוק את התאמת השם לדגם.",
+   "severity": "high"
+  },
+  {
+   "field": "מצב שבת",
+   "issue": "אישור המכון המדעי הטכנולוגי להלכה לא אומת (הציטוט לא נמצא בדף); פורסם רק מצב שבת מובנה.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "דירוג E אומת רק בדף קמעונאי אחד המשותף לשני הגימורים. כדאי לבדוק מול תווית האנרגיה.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "ארץ הייצור לא אומתה במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Shabbat fact reworded to the ok quote only (built-in Shabbat mode); the certification claim's quote failed verification and was dropped. Dimensions converted mm to cm from the importer quote. Zabilo page covers both ETM3400BC and ETM3400SC, kept as retailer. Catalog name says blackened stainless but SC is the silver finish. | code guard removed: summary: \"Electrolux ETM3400SC הוא מקרר מקפיא עליון בנפח 344 ליטר, עם 269 ליטר בתא הקירור ו-75 ליטר בתא ההקפאה.\"; faq: \"מה הנפח של Electrolux ETM3400SC?\"; faq: \"מה מידות המקרר?\"; highlight: \"נפח כולל 344 ליטר: 269 ליטר קירור ו-75 ליטר הקפאה\"; consideration: \"לבדוק שמעברי הדלתות בבית רחבים לפחות 61 ס״מ\""
+ }
+}

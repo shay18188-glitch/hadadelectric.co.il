@@ -1,0 +1,380 @@
+{
+ "modelNumber": "EWF1141R9SB",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EWF1141R9SB",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "high",
+  "notes": "Model code appears on the Electrolux Thailand product page and on two Israeli retailer pages (bug.co.il, citydeal.co.il), which give the same specs. Sibling EWF1141R9WB was not used as evidence. | QA: Exact model code EWF1141R9SB on two Israeli retailer pages and the Electrolux Thailand page; Israeli warranty by Mini Line."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מכונת-כביסה-פתח-חזית-11-קג-electrolux-9572454",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-11-%D7%A7%D7%99%D7%9C%D7%95-electrolux-ewf1141r9sb-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "11 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מקסימלית",
+     "value": "1400 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים בתוכנית כותנה אקו 40-60°C (עומס 11 ק״ג)",
+     "value": "72 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל בתוכנית כותנה אקו 40-60°C (עומס 11 ק״ג)",
+     "value": "0.85 קוט״ש"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משך תוכנית כותנה אקו 40-60°C (עומס 11 ק״ג)",
+     "value": "כ-239 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג יעילות אנרגטית (תקן חדש)",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת רעש בסחיטה",
+     "value": "75 dB"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Converted from 850x600x636 mm",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 63.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק כולל דלת",
+     "value": "66 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, באמצעות מיני ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיבור Wi-Fi להפעלה מרחוק באמצעות אפליקציה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'by laundry weight' - not in quote",
+   "text": "AutoDose: מינון אוטומטי של חומר ניקוי ומרכך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "SensorWash: מערכת חישה AI להסרת 49 סוגי כתמים קשים ללא טיפול מוקדם"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "4 רגליות מתכווננות לאיזון המכונה"
+  }
+ ],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של Electrolux מדגם EWF1141R9SB בקיבולת 11 ק״ג, עם סחיטה עד 1400 סל״ד ודירוג אנרגטי A. המכונה כוללת מינון אוטומטי AutoDose של חומר ניקוי ומרכך, מערכת SensorWash ושליטה מרחוק ב-Wi-Fi. מתאימה למשפחות שמכבסות עומסים גדולים ורוצות מכונה חכמה וחסכונית.",
+  "highlights": [
+   "קיבולת כביסה 11 ק״ג",
+   "סחיטה עד 1400 סל״ד",
+   "דירוג יעילות אנרגטית A",
+   "מינון אוטומטי AutoDose של חומר ניקוי ומרכך",
+   "שליטה מרחוק דרך Wi-Fi ואפליקציה"
+  ],
+  "goodFor": [
+   "משפחות עם כמויות כביסה גדולות, בזכות קיבולת של 11 ק״ג",
+   "מי שרוצה לחסוך בחומרי כביסה עם מינון אוטומטי",
+   "מי שרוצה להפעיל ולעקוב אחרי הכביסה מהטלפון",
+   "כביסה עם כתמים קשים בעזרת SensorWash"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 60 × 85 ס״מ ולעומק 66 ס״מ כולל הדלת",
+   "עוצמת הרעש בסחיטה היא 75 dB – כדאי לקחת זאת בחשבון אם המכונה ממוקמת ליד חדרי שינה",
+   "תוכנית כותנה אקו בעומס מלא נמשכת כ-239 דקות",
+   "יש לאזן את המכונה בעזרת 4 הרגליות המתכווננות בזמן ההתקנה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Electrolux EWF1141R9SB?",
+    "a": "קיבולת הכביסה היא 11 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המרבית?",
+    "a": "עד 1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים וחשמל צורכת תוכנית אקו?",
+    "a": "בתוכנית כותנה אקו 40-60°C בעומס של 11 ק״ג המכונה צורכת 72 ליטר מים ו-0.85 קוט״ש.",
+    "sources": []
+   },
+   {
+    "q": "מה העומק של המכונה?",
+    "a": "עומק הגוף 63.6 ס״מ, והעומק כולל הדלת 66 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט במכונה מהטלפון?",
+    "a": "כן, המכונה כוללת Wi-Fi להפעלה מרחוק באמצעות אפליקציה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Electrolux EWF1141R9SB בקיבולת 11 ק״ג, סחיטה 1400 סל״ד ומינון אוטומטי AutoDose. מפרט מלא ושאלות נפוצות בחדד אלקטריק נהריה",
+  "keywords": [
+   "EWF1141R9SB",
+   "אלקטרולוקס EWF1141R9SB",
+   "מכונת כביסה אלקטרולוקס 11 קג",
+   "מכונת כביסה 11 קילו",
+   "מכונת כביסה 1400 סלד",
+   "מכונת כביסה עם Wi-Fi",
+   "מכונת כביסה AutoDose",
+   "Electrolux UltimateCare 900"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "11 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים לתוכנית אקו",
+   "catalogValue": "כ-72 ליטר למחזור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "85 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "עומק כולל 65.9 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "עומק 63.6 ס״מ, עומק כולל דלתות 66 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור אוניקס (Onyx Black)",
+   "finding": "contradicted",
+   "correctValue": "נירוסטה מושחרת",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "תאילנד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "פאנל בקרה LCD עם לחצני מגע ובורר תוכניות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רעש בסחיטה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "75 דציבל",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_status",
+   "issue": "The Electrolux Thailand page marks EWF1141R9SB as discontinued, while Israeli retailer pages still carry the model. Confirm the model is current for the Israeli market before relying on it.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "Catalog gives total depth 65.9 cm; Israeli retailer pages give body depth 63.6 cm and depth with doors 66 cm. Check the depth figure in the catalog.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog says Onyx Black; the Israeli retailer page describes blackened stainless steel (נירוסטה מושחרת). Confirm the color.",
+   "severity": "low"
+  },
+  {
+   "field": "model_status",
+   "issue": "Electrolux Thailand page marks EWF1141R9SB as discontinued, while Israeli retailers still list it. Confirm the model is current in Israel.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "Catalog total depth 65.9 cm; sources give body depth 63.6 cm and 66 cm with door. Update the catalog depth.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog says Onyx Black; an Israeli retailer describes blackened stainless steel. Confirm the finish.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1 (AutoDose) reworded: the quote does not say dosing is by laundry weight. Dimensions kept (mm converted to cm). Sources: two Israeli retailers naming the exact model plus Electrolux Thailand."
+ }
+}

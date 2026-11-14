@@ -1,0 +1,461 @@
+{
+ "modelNumber": "EOH6221V",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EOH6221V",
+  "israeliImporter": "Miniline (מיניליין)",
+  "matchConfidence": "high",
+  "notes": "Official Israeli importer Miniline lists the model as a 71 L multifunction built-in oven, white glass (V), with black (K) and stainless (X) siblings. | QA: Importer, Israeli retailer and Zabilo all name EOH6221V, white glass, 71 L."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://miniline.co.il/product-category/electrolux/ovens/built-in-ovens/",
+   "publisher": "Miniline",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/built-in-ovens/14247-eoh6221v.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%AA%D7%A0%D7%95%D7%A8-%D7%90%D7%A4%D7%99%D7%94-%D7%91%D7%99%D7%9C%D7%93-%D7%90%D7%99%D7%9F-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1-%E2%81%A6eoh6221v%E2%81%A9-%D7%96%D7%9B%D7%95/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר דגם",
+     "value": "EOH6221V"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "גרמניה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא אפייה שמיש",
+     "value": "71 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "label order fixed to H×W×D per source",
+     "label": "מידות (גובה × רוחב × עומק)",
+     "value": "594 × 594 × 567 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "added axis order",
+     "label": "מידות נישה להתקנה (גובה × רוחב × עומק)",
+     "value": "589 × 560 × 550 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מקסימלי",
+     "value": "3.5 kW"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "50°C – 275°C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות עבודה",
+     "value": "9"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Soferavi spec table reportedly shows A; flagged",
+     "label": "דירוג אנרגטי",
+     "value": "A+"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל בתוכנית קונבנציונלית",
+     "value": "0.99 kWh"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל בתוכנית טורבו",
+     "value": "0.69 kWh"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "זכוכית לבנה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן רשמי",
+     "value": "שנה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "from importer category page",
+     "label": "הרחבת אחריות יבואן",
+     "value": "עד 5 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תנור רב-תכליתי עם טורבו אקטיבי ומערכת SurroundCook לבישול ואפייה במספר תבניות בו זמנית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא אפייה InfiSpace גדול ב-20% מתא תנור סטנדרטי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חימום מהיר אוטומטי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי בסיוע אדים Aqua Cleaning – 90°C במשך 30 דקות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא אפייה עם אמייל Clear’n Clean לניקוי קל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 סטים של מסילות טלסקופיות לשליפה נוחה של תבניות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסילות טלסקופיות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Electrolux EOH6221V הוא תנור בנוי רב-תכליתי בגימור זכוכית לבנה, עם תא אפייה שמיש של 71 ליטר ו-9 תוכניות עבודה, כולל טורבו אקטיבי ו-Pizza/AirFry. התנור מדורג A+ באנרגיה, מגיע עם 2 סטים של מסילות טלסקופיות וכולל ניקוי בסיוע אדים Aqua Cleaning. מתאים למי שמחפש תנור בנוי בגימור לבן לאפייה במספר תבניות בו זמנית.",
+  "highlights": [
+   "נפח תא אפייה שמיש 71 ליטר",
+   "9 תוכניות עבודה כולל טורבו אקטיבי",
+   "דירוג אנרגטי A+",
+   "2 סטים של מסילות טלסקופיות",
+   "ניקוי בסיוע אדים Aqua Cleaning"
+  ],
+  "goodFor": [
+   "אפייה ובישול במספר תבניות בו זמנית בזכות SurroundCook",
+   "מטבח בעיצוב בהיר שמתאים לו תנור בזכוכית לבנה",
+   "מי שרוצה לשלוף תבניות בנוחות בעזרת מסילות טלסקופיות",
+   "מי שמעדיף ניקוי פשוט באדים ובאמייל Clear’n Clean"
+  ],
+  "considerations": [
+   "יש לוודא שמידות הנישה במטבח מתאימות: 589 × 560 × 550 מ״מ (גובה × רוחב × עומק)",
+   "ההספק המקסימלי הוא 3.5 kW – כדאי לוודא שקו החשמל לתנור מתאים",
+   "מידות התנור עצמו 594 × 594 × 567 מ״מ – כדאי לבדוק מרווח לפתיחת הדלת",
+   "האחריות היא לשנה דרך מיני ליין, עם אפשרות הרחבה עד 5 שנים"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח תא האפייה של Electrolux EOH6221V?",
+    "a": "נפח תא האפייה השמיש הוא 71 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו מידות נישה נדרשות להתקנה?",
+    "a": "מידות הנישה הן 589 × 560 × 550 מ״מ (גובה × רוחב × עומק).",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות עבודה יש בתנור?",
+    "a": "יש 9 תוכניות עבודה, ביניהן טורבו אקטיבי, Pizza/AirFry, גריל, טורבו גריל, הפשרה ואפייה עם לחות.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות של התנור?",
+    "a": "טווח הטמפרטורות הוא 50°C עד 275°C.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על התנור?",
+    "a": "אחריות לשנה על ידי היבואן מיני ליין, עם אפשרות להרחיב אחריות יבואן עד 5 שנים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Electrolux EOH6221V בזכוכית לבנה: נפח 71 ליטר, 9 תוכניות ודירוג אנרגטי A+, עם מסילות טלסקופיות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux EOH6221V",
+   "תנור בנוי אלקטרולוקס",
+   "תנור בנוי לבן",
+   "תנור בנוי 71 ליטר",
+   "תנור אלקטרולוקס זכוכית לבנה",
+   "תנור בנוי עם מסילות טלסקופיות",
+   "תנור רב תכליתי בנוי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "71 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A+",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "3500W",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50°C - 275°C",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "594x594x567 מ\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מידות גומחה",
+   "catalogValue": "589x560x550 מ\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "זכוכית לבנה",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "9",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מערכת ניקוי",
+   "catalogValue": "Aqua Cleaning (ניקוי באדים)",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מסילות טלסקופיות",
+   "catalogValue": "2 סטים",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "גרמניה",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "סוג דלת",
+   "catalogValue": "CoolDoor Plus עם 3 שכבות זכוכית רפלקטור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג תאורה",
+   "catalogValue": "הלוגן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחריות יבואן רשמי, ניתן להרחיב ל-5 שנים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Soferavi's spec table shows energy class A while its header and Zabilo state A+. The model's A+ rating is consistent across most sources but should be checked against the EU fiche or EPREL.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג דלת",
+   "issue": "The CoolDoor Plus door and the halogen lighting could not be confirmed on any fetched page; the Electrolux official Israel site failed to load.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Soferavi's spec table reportedly shows energy class A while other sources state A+; confirm against EPREL or the EU energy label.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג דלת / תאורה / מתח",
+   "issue": "Catalog's CoolDoor Plus door, halogen lighting and 230V were not confirmed on any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Corrected dimension labels to height × width × depth order as stated in the source. All facts have ok quotes on pages naming the model."
+ }
+}

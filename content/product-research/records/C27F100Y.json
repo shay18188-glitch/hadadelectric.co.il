@@ -1,0 +1,455 @@
+{
+ "modelNumber": "C27F100Y",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "MSI",
+  "exactModel": "C27F100Y",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "MAG is the MSI gaming brand; the white-tiger listing names MSI as manufacturer. The official importer is only described as יבואן רשמי on the retailer pages, not named. No manufacturer or importer page for this exact model was reachable (msi.com spec URLs returned 404). All evidence is from Israeli retailer pages that name C27F100Y. | QA: Three Israeli retailer pages name MAG C27F100Y 27 inch curved FHD VA 100Hz, matching the catalog. Manufacturer (MSI) page not available and importer not named."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.cls.co.il/products/item/366644",
+   "publisher": "CLS (cls.co.il)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://white-tiger.co.il/product/mag_27_curved_led_monitor_100hz_c27f100y/",
+   "publisher": "White Tiger (white-tiger.co.il)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://938.co.il/product/%D7%9E%D7%A1%D7%9A-%D7%9E%D7%97%D7%A9%D7%91-%D7%A7%D7%A2%D7%95%D7%A8-mag-c27f100y-fhd-va-27-100hz-%D7%A6%D7%91%D7%A2-%D7%A9%D7%97%D7%95%D7%A8/",
+   "publisher": "938 Computers (938.co.il)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "27 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג פאנל",
+     "value": "LED VA"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עקמומיות מסך",
+     "value": "1800R"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "1920 × 1080 (Full HD)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בהירות",
+     "value": "250 cd/m²"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר גוונים",
+     "value": "16.7M"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב רענון",
+     "value": "100Hz"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Flagged: other sources differ.",
+     "label": "זמן תגובה",
+     "value": "13ms / 5ms (עם OD)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source does not say whether stand included; numbers match catalog with-stand.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "611 × 434 × 158 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבורים",
+     "value": "VGA, HDMI, Audio"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific warranty term, not a product fact.",
+     "label": "אחריות",
+     "value": "3 שנים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פאנל VA קעור בעקמומיות 1800R"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כבל HDMI"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "MAG C27F100Y הוא מסך מחשב קעור בגודל 27 אינץ' עם פאנל VA ועקמומיות 1800R. מתאים לעבודה משרדית, לצפייה ולמשחקים קלילים ליד שולחן המחשב.",
+  "highlights": [
+   "מסך 27 אינץ' קעור בעקמומיות 1800R",
+   "פאנל LED VA ברזולוציית Full HD",
+   "קצב רענון 100Hz",
+   "בהירות 250 cd/m²",
+   "חיבורי VGA ו-HDMI ויציאת Audio"
+  ],
+  "goodFor": [
+   "עמדת עבודה ביתית או משרדית שצריכה מסך רחב",
+   "משחקים קלילים וצפייה בווידאו בזכות קצב רענון 100Hz",
+   "חיבור למחשב ישן עם יציאת VGA או למחשב חדש דרך HDMI"
+  ],
+  "considerations": [
+   "ודאו שעומק השולחן מתאים: המידות הן 611 × 434 × 158 מ״מ",
+   "בדקו שלמחשב יש יציאת HDMI או VGA, כי אין במסך חיבור DisplayPort ברשימת החיבורים",
+   "רזולוציית Full HD במסך 27 אינץ' מציגה פיקסלים גדולים יותר מאשר במסך קטן יותר"
+  ],
+  "faq": [
+   {
+    "q": "מה קצב הרענון של המסך?",
+    "a": "קצב הרענון הוא 100Hz.",
+    "sources": []
+   },
+   {
+    "q": "אילו חיבורים יש במסך?",
+    "a": "יש חיבורי VGA ו-HDMI ויציאת Audio.",
+    "sources": []
+   },
+   {
+    "q": "האם יש כבל באריזה?",
+    "a": "כן, כבל HDMI מגיע באריזה.",
+    "sources": []
+   },
+   {
+    "q": "מה סוג הפאנל?",
+    "a": "פאנל LED VA קעור בעקמומיות 1800R.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מסך מחשב קעור MAG C27F100Y בגודל 27 אינץ', פאנל VA ברזולוציית Full HD וקצב רענון 100Hz, עם HDMI ו-VGA. בחדד אלקטריק נהריה",
+  "keywords": [
+   "MAG C27F100Y",
+   "מסך מחשב קעור 27 אינץ'",
+   "מסך 27 אינץ' 100Hz",
+   "מסך VA קעור",
+   "מסך MSI MAG 27",
+   "מסך מחשב Full HD 27"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "27 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג פאנל",
+   "catalogValue": "VA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "1920x1080 Full HD",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "100Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן תגובה",
+   "catalogValue": "5ms (עם OD) / 1ms (MPRT)",
+   "finding": "contradicted",
+   "correctValue": "13ms / 5ms (עם OD)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בהירות",
+   "catalogValue": "250cd/m²",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "יחס ניגודיות",
+   "catalogValue": "4000:1",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יחס תצוגה",
+   "catalogValue": "16:9",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיעור מסך",
+   "catalogValue": "1800R",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "HDMI, VGA, יציאת אוזניות (3.5 מ\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "רמקולים מובנים",
+   "catalogValue": "2x2W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תמיכה בתקן VESA",
+   "catalogValue": "75x75 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "22W במצב פעולה, 0.5W במצב המתנה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מתח כניסה",
+   "catalogValue": "100V-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות כולל מעמד",
+   "catalogValue": "611x434x158 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "611x359x69 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-4.8 ק\"ג (ברוטו)",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "זמן תגובה",
+   "issue": "Sources conflict. cls.co.il lists 5ms, while white-tiger.co.il lists 13ms /5ms with OD. The catalog's 1ms (MPRT) figure appears on no fetched page.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Sources conflict. cls.co.il lists 3.6 kg, while 938.co.il lists 4.8kg (approximate). The catalog gives 4.8 kg gross. Weight is left out of the facts until checked.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Only one retailer gives 611x434x158 mm, with no note on whether it includes the stand. The catalog's separate without-stand dimensions (611x359x69) were not found.",
+   "severity": "medium"
+  },
+  {
+   "field": "category",
+   "issue": "The catalog lists this monitor under the category טלוויזיות (TVs). It is a computer monitor.",
+   "severity": "low"
+  },
+  {
+   "field": "manufacturer",
+   "issue": "No manufacturer (MSI) or official importer page for C27F100Y was reachable. The Israeli importer is not named on the retailer pages. Confirm the importer and the warranty terms.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן תגובה",
+   "issue": "white-tiger lists 13ms / 5ms with OD, CLS lists 5ms, catalog lists 1ms MPRT which no source confirms. Verify against MSI spec.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Retailers disagree (3.6 kg vs about 4.8 kg); weight not published.",
+   "severity": "low"
+  },
+  {
+   "field": "category",
+   "issue": "Listed under טלוויזיות but the product is a computer monitor.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "No MSI or importer page available; Israeli importer and warranty terms unconfirmed.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (3 years is a single retailer's own term, not a product fact; the store's warranty may differ). Response time kept as quoted on white-tiger but flagged because CLS lists 5ms and the catalog lists 1ms MPRT. Dimensions kept without asserting whether they include the stand. | code guard removed: summary: \"הרזולוציה היא Full HD ‏(1920 × 1080) וקצב הרענון 100Hz, לתנועה חלקה יותר ממסך 60Hz רגיל.\""
+ }
+}

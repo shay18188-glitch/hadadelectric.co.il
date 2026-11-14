@@ -1,0 +1,347 @@
+{
+ "modelNumber": "ES2710AB",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "VTech",
+  "exactModel": "ES2710AB",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם שחור (שם שיווקי בישראל: Alcor). לא נמצא דף יצרן או יבואן; העובדות מבוססות על דפי קמעונאים והשוואת מחירים. גרסה לבנה ES2710AW אינה כלולה. | QA: Zap and Shufersal name VTech Alcor ES2710AB (black). Shufersal cites warranty via Samicom; importer not confirmed by an importer source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-telephone&productid=1064795",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1064795",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.shufersal.co.il/online/en/categories/הקניון-הכל-לבית/אלקטרוניקה-וסלולר/סלולאר,-שעונים-,טאבלטים-ומצלמות/טלפונים-ביתיים/טל'-דק-שחור-דגם-Alcor/p/P_4897027123234",
+   "publisher": "Shufersal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מכשיר",
+     "value": "טלפון אלחוטי"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיה",
+     "value": "DECT דיגיטלית"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח קליטה בשטח פתוח",
+     "value": "עד כ-300 מטר"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog blue backlight",
+     "label": "מסך",
+     "value": "מסך מואר בכתום"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ספר טלפונים",
+     "value": "עד 20 שמות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן שיחה / המתנה",
+     "value": "עד 10 שעות שיחה / 100 שעות המתנה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה (סמיקום)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית DECT לצלילות דיגיטלית"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסך מואר בכתום"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "דיבורית בשפורפרת"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ספר טלפונים עד 20 שמות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "VTech ES2710AB (Alcor) הוא טלפון ביתי אלחוטי בטכנולוגיית DECT דיגיטלית, עם דיבורית בשפורפרת ומסך מואר. הסוללה מספקת עד 10 שעות שיחה ו-100 שעות המתנה, וטווח הקליטה בשטח פתוח מגיע עד כ-300 מטר. מתאים למי שמחפש טלפון קווי אלחוטי פשוט לבית או למשרד.",
+  "highlights": [
+   "טכנולוגיית DECT דיגיטלית",
+   "עד 10 שעות שיחה / 100 שעות המתנה",
+   "טווח קליטה בשטח פתוח עד כ-300 מטר",
+   "ספר טלפונים עד 20 שמות",
+   "דיבורית בשפורפרת"
+  ],
+  "goodFor": [
+   "בית או משרד קטן עם קו טלפון קווי",
+   "מי שמנהל שיחות ארוכות ורוצה דיבורית בשפורפרת",
+   "מי שזז בין חדרים במהלך שיחה"
+  ],
+  "considerations": [
+   "נדרש קו טלפון קווי ושקע חשמל ליד הבסיס",
+   "ספר הטלפונים מוגבל ל-20 שמות",
+   "הטווח בתוך הבית קצר מהטווח בשטח פתוח בגלל קירות"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "עד 10 שעות שיחה ועד 100 שעות המתנה.",
+    "sources": []
+   },
+   {
+    "q": "יש לטלפון דיבורית?",
+    "a": "כן, יש דיבורית בשפורפרת.",
+    "sources": []
+   },
+   {
+    "q": "כמה אנשי קשר אפשר לשמור?",
+    "a": "ספר הטלפונים שומר עד 20 שמות.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הקליטה?",
+    "a": "עד כ-300 מטר בשטח פתוח; בתוך הבית הטווח קצר יותר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון אלחוטי VTech ES2710AB בטכנולוגיית DECT: עד 10 שעות שיחה, טווח עד כ-300 מ׳ בשטח פתוח ודיבורית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "VTech ES2710AB",
+   "טלפון אלחוטי VTech",
+   "VTech Alcor",
+   "טלפון ביתי אלחוטי",
+   "טלפון DECT",
+   "טלפון אלחוטי עם דיבורית",
+   "טלפון קווי אלחוטי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "DECT דיגיטלית",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מסך",
+   "catalogValue": "LCD בגודל 1.8 אינץ' עם תאורה אחורית כחולה",
+   "finding": "contradicted",
+   "correctValue": "מסך מואר בכתום",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ספר טלפונים",
+   "catalogValue": "עד 20 שמות ומספרים",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "זמן דיבור והמתנה",
+   "catalogValue": "עד 10 שעות דיבור ועד 100 שעות המתנה",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "דיבורית",
+   "catalogValue": "מובנית (Speakerphone) באיכות גבוהה",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "זיהוי שיחה",
+   "catalogValue": "זיכרון ל-10 שיחות נכנסות אחרונות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאימות GAP",
+   "catalogValue": "עד 4 שלוחות לבסיס אחד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצב ECO",
+   "catalogValue": "מצב ECO לחיסכון באנרגיה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיוג חוזר",
+   "catalogValue": "5 מספרים אחרונים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוגי צלצולים",
+   "catalogValue": "10 סוגי צלצולים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "display",
+   "issue": "הקטלוג מציין תאורה אחורית כחולה, אך דפי הקמעונאים לדגם מציינים מסך מואר בכתום",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף יצרן, יבואן או מדריך למשתמש לדגם ES2710AB; העובדות מבוססות על דפי קמעונאים והשוואת מחירים",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "דף שופרסל מציין אחריות שנה דרך חברת סמיקום; היבואן הרשמי לא אומת מול מקור יבואן",
+   "severity": "low"
+  },
+  {
+   "field": "variant",
+   "issue": "קיימת גרסה לבנה (ES2710AW) שלא נכללה; מומלץ לוודא שהמוצר בקטלוג הוא השחור",
+   "severity": "low"
+  },
+  {
+   "field": "מסך",
+   "issue": "הקטלוג מציין תאורה אחורית כחולה ומסך 1.8 אינץ', אך דף שופרסל וזאפ מציינים מסך מואר בכתום",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "זיהוי שיחה ל-10 שיחות, תאימות GAP עד 4 שלוחות, מצב ECO, חיוג חוזר ו-10 צלצולים לא אומתו במקור",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "אין דף יצרן או יבואן; העובדות מבוססות על דף קמעונאי ישראלי ואתרי השוואה",
+   "severity": "low"
+  },
+  {
+   "field": "variant",
+   "issue": "קיימת גרסה לבנה ES2710AW; לוודא שהמוצר בקטלוג הוא השחור",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Display fact kept as retailer states (orange-lit screen), which contradicts the catalog's blue backlight; flagged. Catalog claims on caller ID memory, GAP handsets, ECO, redial and ringtones are unverified and not published."
+ }
+}

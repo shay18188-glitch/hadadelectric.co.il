@@ -1,0 +1,425 @@
+{
+ "modelNumber": "MSM6M8X1 ErgoMaster",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MSM6M8X1",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The Bosch Israel product page and the Bosch German spec sheet both name MSM6M8X1 exactly. The spec sheet gives dimensions as H x B x T = 395x60x78 mm, so the combined row is written width x height x depth. | QA: Bosch Israel page and Bosch spec sheet both name MSM6M8X1 ErgoMaster Series 6, 1200 W."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.co.il/he/mkt-product/food-preparation/hand-blenders/ergomaster-series6/MSM6M8X1",
+   "publisher": "Bosch Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/de-DE/MSM6M8X1.pdf",
+   "publisher": "Bosch spec sheet (DE)",
+   "kind": "manufacturer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Axis order not stated in the kept quote; published without order.",
+     "label": "מידות",
+     "value": "395 × 60 × 78 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "3.9 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "140 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1200 וואט"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קירור מנוע",
+     "value": "קירור אוויר"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Decimal comma normalized.",
+     "label": "נפח מעבד מזון",
+     "value": "1.25 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח קוצץ",
+     "value": "500 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות על המנוע",
+     "value": "10 שנים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע עיקרי",
+     "value": "נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע עם קירור אוויר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Reworded to match the quote.",
+   "text": "בקרת מהירות דינמית להפעלה אינטואיטיבית ביד אחת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיבור (צימוד) קרמי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סכין QuattroBlade Pro עם 4 להבים ומגבירי זרימה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית AntiSplash למניעת התזות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "החלפת אביזרים במנגנון קליק"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מוט ערבוב נירוסטה, מטרפה, מגרסה אוניברסלית, כלי בצק מפלסטיק וחותך קוביות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אביזר מעבד מזון, תוסף חיתוך קובייה 9 מ״מ, מכשיר לניקוי רשת וכוס ערבוב/מדידה עם פיה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר מוט Bosch ErgoMaster (MSM6M8X1) בהספק 1200 וואט, עם מנוע מקורר אוויר ו-10 שנות אחריות על המנוע. הערכה כוללת מעבד מזון בנפח 1.25 ליטר, קוצץ בנפח 500 מ״ל, מטרפה, כלי בצק וחותך קוביות 9 מ״מ. מתאים למי שרוצה מכשיר אחד לערבול, קיצוץ, לישה וחיתוך לקוביות.",
+  "highlights": [
+   "הספק 1200 וואט",
+   "מנוע מקורר אוויר עם 10 שנות אחריות על המנוע",
+   "מעבד מזון 1.25 ליטר וקוצץ 500 מ״ל",
+   "חותך קוביות 9 מ״מ בערכה",
+   "סכין QuattroBlade Pro עם 4 להבים"
+  ],
+  "goodFor": [
+   "הכנת מרקים, רטבים ושייקים עם מוט הערבוב מנירוסטה",
+   "חיתוך ירקות לקוביות עם תוסף החיתוך של 9 מ״מ",
+   "לישת בצק קל בעזרת כלי הבצק המצורף",
+   "מטבח שרוצה ערכה אחת במקום כמה מכשירים נפרדים"
+  ],
+  "considerations": [
+   "משקל הערכה נטו 3.9 ק״ג, כדאי לתכנן מקום אחסון לכל האביזרים",
+   "אורך כבל החשמל 140 ס״מ, כדאי לבדוק מרחק לשקע",
+   "נפח מעבד המזון 1.25 ליטר, יש לבדוק שהוא מתאים לכמויות שאתם מכינים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "1200 וואט.",
+    "sources": []
+   },
+   {
+    "q": "כמה שנות אחריות יש על המנוע?",
+    "a": "10 שנות אחריות על המנוע, לפי היצרן.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא חותך לקוביות?",
+    "a": "כן, הערכה כוללת חותך קוביות ותוסף חיתוך קובייה 9 מ״מ למעבד המזון.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מעבד המזון והקוצץ?",
+    "a": "מעבד המזון 1.25 ליטר והקוצץ 500 מ״ל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Bosch ErgoMaster MSM6M8X1 בהספק 1200 וואט, עם מעבד מזון 1.25 ליטר, קוצץ 500 מ״ל וחותך קוביות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט בוש",
+   "Bosch MSM6M8X1",
+   "ErgoMaster Series 6",
+   "בלנדר מוט 1200 וואט",
+   "בלנדר מוט עם חותך קוביות",
+   "בלנדר מוט עם מעבד מזון",
+   "בוש ארגומאסטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע עם מערכת קירור אוויר",
+   "catalogValue": "מנוע עוצמתי עם מערכת קירור אוויר למניעת התחממות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בקרת מהירות דינמית",
+   "catalogValue": "בקרת מהירות דינמית (Dynamic Speed Control) המופעלת באמצעות עוצמת הלחיצה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיבור קרמי",
+   "catalogValue": "חיבור קרמי (Ceramic Connect) עמיד לאורך זמן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "רגלית נירוסטה עם טכנולוגיית QuattroBlade Pro ו-4 להבים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון מניעת יניקה",
+   "catalogValue": "מנגנון Anti-Suction למניעת התזות ויניקה",
+   "finding": "corrected",
+   "correctValue": "טכנולוגיית AntiSplash למניעת התזות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "3.9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "39.5x6x7.8 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "1.4 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מעבד מזון",
+   "catalogValue": "1.25 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח קוצץ",
+   "catalogValue": "500 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כוס מדידה עם מכסה",
+   "catalogValue": "כוס מדידה עם מכסה בנפח 600 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף",
+   "catalogValue": "גוף עשוי נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות על המנוע",
+   "catalogValue": "אחריות ל-10 שנים על המנוע (בכפוף לתקנון היצרן)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מוט מערבל ניתן לפירוק",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גוף",
+   "issue": "The Bosch Israel page describes the body as plastic with stainless steel (חומר הגוף פלסטיק עם פלדת אל-חלד), while the German spec sheet says a high-quality stainless steel housing. Check the wording before publishing the body material.",
+   "severity": "low"
+  },
+  {
+   "field": "כוס מדידה עם מכסה",
+   "issue": "The 600 ml measuring cup volume in the catalog is not on either source page. The 600 ml figure is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Bosch gives the dimensions as H x B x T = 395x60x78 mm. The catalog lists 39.5x6x7.8 cm without an order, and the combined row here is width x height x depth. Confirm the order in the catalog.",
+   "severity": "low"
+  },
+  {
+   "field": "גוף",
+   "issue": "Bosch Israel describes the body as plastic with stainless steel while the German spec sheet says stainless steel housing; body material not published.",
+   "severity": "low"
+  },
+  {
+   "field": "כוס מדידה",
+   "issue": "Catalog 600 ml measuring cup volume not found in sources.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Sources give 395x60x78 mm; the spec sheet order is height x width x depth. Confirm catalog dimension order.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions relabeled without axis order (Israeli quote gives 395x60x78 mm with no order). Food processor volume decimal normalized to 1.25. Dynamic speed control feature reworded to match the quote (no claim about press pressure). Spec sheet source kind changed to manufacturer. 600 ml measuring cup volume and body material not published."
+ }
+}

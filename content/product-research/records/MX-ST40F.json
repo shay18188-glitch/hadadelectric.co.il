@@ -1,0 +1,524 @@
+{
+ "modelNumber": "MX-ST40F",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "MX-ST40F",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "All fetched pages are for the US variant MX-ST40F/ZA. No Israeli product page for this model was found (Samsung Israel search returned no product). Weight and Israeli plug/voltage not verified. | QA: Sources name MX-ST40F/ZA, the US variant. Same model code, but the Israeli variant, plug and voltage are not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/us/audio-devices/sound-tower/sound-tower-speaker-sku-mx-st40f-za/",
+   "publisher": "Samsung US",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://videoandaudiocenter.com/samsung-st40f-sound-tower-portable-party-speaker-with-built-in-battery-bluetooth-ipx4-splash-resistant-directional-sound-up-to-12-hours-battery-life-mx-st40f-za/",
+   "publisher": "Video and Audio Center",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.abt.com/Samsung-MX-ST40F-ZA-Sound-Tower-Portable-Party-Speaker-with-Built-In-Battery-MXST40FZA/p/230440.html",
+   "publisher": "Abt",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מוצר",
+     "value": "רמקול מסיבות נייד (Sound Tower) עם סוללה מובנית"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "From a US retailer page title only.",
+     "label": "הספק",
+     "value": "160 W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "וופרים",
+     "value": "שני וופרים, 5.25 אינץ׳"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טוויטרים",
+     "value": "שני טוויטרים, 3/4 אינץ׳"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote names only Punch mode.",
+     "label": "מצבי בס",
+     "value": "Punch, Deep, Gentle"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן סוללה",
+     "value": "עד 12 שעות (עם תאורה כבויה)"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עמידות למים",
+     "value": "IPX4 – עמידות לנתזים ולגשם קל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Inches only; no metric source.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "11.93 × 24.41 × 12.20 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "Bluetooth Multi Connection"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסות מיקרופון/גיטרה",
+     "value": "2 (מיקרופון, מיקרופון/גיטרה)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "USB",
+     "value": "כניסת USB מובנית"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "פורמטים נתמכים",
+     "value": "AAC, MP3, WAV, FLAC, WMA"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Auracast not in quote; removed.",
+     "label": "חיבור רמקולים נוספים",
+     "value": "תאימות לעד 10 רמקולי Sound Tower של סמסונג מסדרת 2025"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Party Lights+ name not in quote.",
+     "label": "תאורה",
+     "value": "תאורה המסונכרנת לקצב המוזיקה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סוללה מובנית לשימוש ללא חיבור לחשמל"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפקטי DJ מיוחדים דרך אפליקציית Sound Tower"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית Waveguide לשיפור פיזור הצליל"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מיועד להפוך מסיבה לסשן נגינה (Jam Session)"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Beach/pool quote failed check; dropped that part.",
+   "text": "עמידות לנתזים ולגשם קל לפי תקן IPX4"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Auracast not in quote.",
+   "text": "תאימות לחיבור עד 10 רמקולי Sound Tower של סמסונג מסדרת 2025"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "סמסונג MX-ST40F הוא רמקול מסיבות נייד מסדרת Sound Tower עם סוללה מובנית. מתאים למי שמחפש רמקול למסיבות בבית ובחצר, עם כניסות למיקרופון ולגיטרה.",
+  "highlights": [
+   "עד 12 שעות ניגון מהסוללה (עם תאורה כבויה)",
+   "תאורה המסונכרנת לקצב המוזיקה"
+  ],
+  "goodFor": [
+   "מסיבות בבית או בחצר בלי תלות בשקע חשמל",
+   "קריוקי ונגינה עם מיקרופון או גיטרה",
+   "השמעה מהטלפון דרך Bluetooth או מקובץ ב-USB"
+  ],
+  "considerations": [
+   "זמן הסוללה המוצהר נמדד עם תאורה כבויה, ועם תאורה דולקת הוא עשוי להיות קצר יותר"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן הרמקול עובד על סוללה?",
+    "a": "עד 12 שעות, לפי בדיקה עם תאורה כבויה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "סמסונג MX-ST40F",
+   "Samsung Sound Tower MX-ST40F",
+   "רמקול מסיבות נייד",
+   "רמקול בידורית סמסונג",
+   "רמקול עם סוללה וכניסת מיקרופון",
+   "רמקול Bluetooth למסיבות",
+   "Sound Tower סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "160 וואט (בחיבור לחשמל AC)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק במצב סוללה",
+   "catalogValue": "80 וואט (במצב סוללה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "כ-62 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-12.7 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "תקן IPX4 (עמידות בפני נתזים)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "שימוש בטוח ליד בריכה או בחוץ",
+   "catalogValue": "עמידות למים לשימוש בטוח ליד בריכה או בחוץ",
+   "finding": "contradicted",
+   "correctValue": "עמידות לנתזים בלבד לפי IPX4; לא מומלץ לשימוש בחוף או בבריכה",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חיי סוללה",
+   "catalogValue": "עד 12 שעות עבודה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Bluetooth Multi Connection",
+   "catalogValue": "חיבור שני מכשירים במקביל",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "USB Host",
+   "catalogValue": "USB Host",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כניסת AUX 3.5mm",
+   "catalogValue": "כניסת AUX 3.5mm",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כניסות מיקרופון/גיטרה",
+   "catalogValue": "כניסת מיקרופון/גיטרה עם שליטה על עוצמת הקול",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Auracast",
+   "catalogValue": "תמיכה בטכנולוגיית Auracast",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "TWS (True Wireless Stereo)",
+   "catalogValue": "תמיכה בטכנולוגיית TWS לחיבור רמקולים נוספים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פורמטים נתמכים",
+   "catalogValue": "MP3, WAV, FLAC",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מצבי בס",
+   "catalogValue": "3 מצבי בס: Deep, Punchy, Gentle",
+   "finding": "corrected",
+   "correctValue": "3 מצבי בס: Punch, Deep, Gentle",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור ייצור",
+   "catalogValue": "קוריאה הדרומית (עיצוב), וייטנאם (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורת מסיבות LED מסונכרנת למוזיקה",
+   "catalogValue": "תאורת מסיבות LED דינמית המסתנכרנת עם קצב המוזיקה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "שליטה באפליקציית Samsung Sound Tower",
+   "catalogValue": "שליטה מלאה באפקטי תאורה וסאונד באמצעות אפליקציית Samsung Sound Tower",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ידית נשיאה",
+   "catalogValue": "ידית נשיאה מובנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שני רמקולים זהים במצב סטריאו",
+   "catalogValue": "מצב סטריאו אלחוטי בחיבור לרמקול זהה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גרסת Bluetooth",
+   "catalogValue": "Bluetooth",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "israeli_variant",
+   "issue": "All pages found are for the US variant MX-ST40F/ZA. No Israeli Samsung product page or Israeli importer listing was found, so the Israeli variant, plug and voltage are unconfirmed.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק מקסימלי",
+   "issue": "The 160 W figure appears only in one US retailer page title. Samsung and Abt pages do not state it, so the fact may not be publishable on its own. The 80 W battery-mode figure is not on any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "IPX",
+   "issue": "Sources conflict. The Abt listing and its footnote say IPX4. A Samsung US AI-generated review summary says IPX5. The IPX5 mention is not a manufacturer specification, so IPX4 is used.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "No fetched page gave the weight, so the catalog value of about 12.7 kg is unverified. Do not publish a weight without a source.",
+   "severity": "medium"
+  },
+  {
+   "field": "גובה",
+   "issue": "Dimensions are published only in inches (24.41 in tall). The catalog's about 62 cm was not verified in centimetres. Height in cm should be checked against a metric source before publishing.",
+   "severity": "low"
+  },
+  {
+   "field": "מצבי בס",
+   "issue": "The catalog names the bass mode Punchy. The Abt listing says Punch. The corrected value follows the page.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "All sources describe the US variant MX-ST40F/ZA; Israeli variant, plug and voltage unconfirmed.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "160 W appears only in one US retailer page title; the catalog's 80 W battery-mode figure is unsourced.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog says safe for use by the pool; Abt says IPX4 splash resistance and not advised for beach or pool use.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight of about 12.7 kg is not on any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "גובה",
+   "issue": "Catalog name says 62 cm; sources give height only in inches (24.41 in). Check against a metric source.",
+   "severity": "low"
+  },
+  {
+   "field": "מצבי בס",
+   "issue": "Only Punch mode is confirmed by a quote; catalog lists Punchy, Deep, Gentle.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 4 (bass modes): the quote names only Punch mode, Deep and Gentle are not in an ok quote. Reworded fact 12 and feature 5 to drop Auracast, which the quote does not mention. Reworded fact 13 to drop the Party Lights+ name not in the quote. Feature 4 reworded to the IPX4 splash wording only, since the beach/pool quote failed its check. Feature 3 reworded closer to the quote. Dimensions kept in inches as published; no conversion to cm. | code guard removed: fact 2 QA value \"2 × 5.25 אינץ׳\" not supported by quotes; kept \"שני וופרים, 5.25 אינץ׳\"; fact 3 QA value \"2 × 3/4 אינץ׳\" not supported by quotes; kept \"שני טוויטרים, 3/4 אינץ׳\"; summary: \"הוא מספק הספק של 160 W, עד 12 שעות ניגון מהסוללה עם תאורה כבויה, ועמידות לנתזים לפי IPX4.\"; faq: \"אפשר להשתמש בו בחוץ כשיורד גשם?\"; faq: \"אפשר לחבר אליו מיקרופון או גיטרה?\"; faq: \"אילו קבצים הוא מנגן מ-USB?\"; faq: \"אפשר לחבר כמה רמקולים יחד?\"; metaDescription: \"רמקול מסיבות נייד Samsung Sound Tower MX-ST40F: הספק 160 W, עד 12 שעות סוללה ועמידות לנתזים IPX4. בחדד אלקטריק נהריה\"; highlight: \"הספק 160 W\"; highlight: \"עמידות לנתזים ולגשם קל – IPX4\"; highlight: \"2 כניסות: מיקרופון ומיקרופון/גיטרה\"; goodFor: \"מי שכבר מחזיק רמקולי Sound Tower של סמסונג מסדרת 2025 ורוצה לחבר אותם יחד\"; consideration: \"העמידות היא לנתזים ולגשם קל בלבד (IPX4), לא לטבילה במים\"; consideration: \"המידות פורסמו באינצ׳ים (גובה 24.41 אינץ׳) – כדאי לוודא את המקום המיועד לרמקול\"; consideration: \"חיבור רמקולים נוספים נתמך עם רמקולי Sound Tower של סמסונג מסדרת 2025\""
+ }
+}

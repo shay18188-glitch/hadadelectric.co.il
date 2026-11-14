@@ -1,0 +1,309 @@
+{
+ "modelNumber": "PHS5263",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "PHS5263",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "דף היצרן הגרמני לדגם PHS5263 מציין שהמוצר כבר אינו זמין. דף רוסי של קטלוג עם שם הדגם Quattro-Ion PHS5263 Black ומק״ט היצרן PHS5263 מכיל את המפרט המספרי. לא נמצא דף יבואן ישראלי עם מפרט לדגם. נמצאו גם דף מק״ט נוסף ב-mcgrp.ru ודף מדריך ב-manua.ls לדגם BrilliantCare Quattro-Ion PHS5263; אין דף יבואן ישראלי. | QA: Manufacturer page and manual name PHS5263 exactly; no Israeli importer page found, Israeli variant unclear; manufacturer page says the product is no longer available."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://mcgrp.ru/manual/bosch/quattro-ion-phs5263-black",
+   "publisher": "mcgrp.ru",
+   "kind": "other",
+   "market": "RU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://mcgrp.ru/manual/bosch/quattro-ion-phs5263",
+   "publisher": "mcgrp.ru",
+   "kind": "other",
+   "market": "RU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.manua.ls/bosch/brilliantcare-quattro-ion-phs5263/manual",
+   "publisher": "manua.ls",
+   "kind": "manual",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק מקסימלי",
+     "value": "55 W"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "two sources agree",
+     "label": "דרגות טמפרטורה",
+     "value": "140 / 170 / 200 °C"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיווי יינון",
+     "value": "יש"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך לוחות",
+     "value": "100 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רוחב לוחות",
+     "value": "25 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "450 גרם"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "decimal separator normalized",
+     "label": "אורך כבל חשמל",
+     "value": "1.8 מטר"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "יש"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "פונקציית יינון עם נורית חיווי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "יש בו שלוש דרגות טמפרטורה של 140, 170 ו-200 °C, פונקציית יינון עם חיווי וכיבוי אוטומטי. מתאים למי שמחפש מחליק עם בחירת חום לפי סוג השיער.",
+  "highlights": [
+   "שלוש דרגות טמפרטורה: 140 / 170 / 200 °C",
+   "יינון עם נורית חיווי",
+   "כיבוי אוטומטי"
+  ],
+  "goodFor": [
+   "שיער דק, רגיל או עבה, בזכות בחירת דרגת חום מתאימה",
+   "מי שרוצה שקט נפשי עם כיבוי אוטומטי"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "אילו דרגות טמפרטורה יש במחליק?",
+    "a": "שלוש דרגות: 140 °C, 170 °C ו-200 °C. לפי המדריך, 140 °C לשיער דק, 170 °C לשיער רגיל ו-200 °C לשיער עבה.",
+    "sources": []
+   },
+   {
+    "q": "האם המחליק כבה לבד?",
+    "a": "כן, יש בו כיבוי אוטומטי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מחליק שיער בוש",
+   "Bosch PHS5263",
+   "מחליק שיער Quattro-Ion",
+   "PHS5263",
+   "מחליק שיער עם יינון",
+   "מחליק שיער כיבוי אוטומטי",
+   "מחליק שיער Bosch"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "55 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור/כסוף",
+   "finding": "corrected",
+   "correctValue": "שחור",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "140°C, 170°C, 200°C (3 דרגות הגדרה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "כ-30 שניות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פלטות",
+   "catalogValue": "רחבות במיוחד (Extra Wide) עם ציפוי קרמי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כבל חשמל",
+   "catalogValue": "מסתובב ב-360 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רוחב לוחות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "25 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "450 גרם",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_status",
+   "issue": "דף היצרן הגרמני לדגם PHS5263 מציין: המוצר כבר אינו זמין. ייתכן שהדגם הופסק.",
+   "severity": "medium"
+  },
+  {
+   "field": "רוחב לוחות",
+   "issue": "הקטלוג מתאר פלטות רחבות במיוחד (Extra Wide). המקור היחיד עם מידה מספרית מציין רוחב לוחות של 25 מ״מ. יש לבדוק את הניסוח מול היבואן או המדריך הרשמי.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "לא נמצא דף יבואן ישראלי או מדריך רשמי עם מפרט לדגם PHS5263. המפרט מבוסס על מקור יחיד באתר רוסי. עבור הפריטים שסומנו כלא ניתנים לאימות אין מקור.",
+   "severity": "high"
+  },
+  {
+   "field": "model_status",
+   "issue": "דף היצרן הגרמני מציין שהמוצר כבר אינו זמין; ייתכן שהדגם הופסק.",
+   "severity": "medium"
+  },
+  {
+   "field": "פלטות",
+   "issue": "הקטלוג מתאר פלטות רחבות במיוחד (Extra Wide), אך המקור המספרי מציין רוחב 25 מ״מ. יש לבדוק את ניסוח הקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין שחור/כסוף, המקור מציין שחור.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "לא נמצא יבואן ישראלי; רוב המפרט ממקור קטלוג רוסי יחיד. גרסה ישראלית לא ודאית.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Cable length value reworded from 1,8 to 1.8 מטר. Temperature settings confirmed by two sources (spec catalog and manual). All other facts come from a single Russian spec catalog page naming the exact model; kept. Feature text reworded. | code guard removed: summary: \"מחליק שיער של Bosch מסדרת Quattro-Ion, דגם PHS5263, עם לוחות באורך 100 מ״מ וברוחב 25 מ״מ.\"; faq: \"מה גודל הלוחות?\"; faq: \"מה אורך הכבל?\"; metaDescription: \"מחליק שיער Bosch PHS5263 Quattro-Ion עם 3 דרגות חום 140/170/200 °C, יינון וכיבוי אוטומטי. לוחות 100 × 25 מ״מ. בחדד אלקטריק נהריה\"; highlight: \"לוחות 100 × 25 מ״מ\"; highlight: \"כבל חשמל באורך 1.8 מטר\"; goodFor: \"עבודה ליד מראה כשהשקע מעט רחוק, עם כבל של 1.8 מטר\"; consideration: \"רוחב הלוחות 25 מ״מ, כדאי לבדוק שזה מתאים לאורך ולעובי השיער\"; consideration: \"בדקו שיש שקע חשמל בטווח של 1.8 מטר מעמדת העיצוב\"; consideration: \"משקל המכשיר 450 גרם, כדאי להחזיק אותו ביד לפני הקנייה אם עיצוב ארוך\""
+ }
+}

@@ -1,0 +1,584 @@
+{
+ "modelNumber": "ESA47200SW",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "ESA47200SW",
+  "israeliImporter": "מיניליין בע\"מ",
+  "matchConfidence": "high",
+  "notes": "דף היבואן הישראלי מזכיר את הדגם ESA47200SW בתוצאות החיפוש. דף Frontum הבריטי מפרט את הדגם עם נתוני מידה ורעש. | QA: Israeli importer page and Frontum both name ESA47200SW; capacity and freestanding 60 cm type match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrolux.co.il/?s=ESA47200SW",
+   "publisher": "Electrolux Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://frontum.co.uk/dishwashers/electrolux-esa47200sw",
+   "publisher": "Frontum",
+   "kind": "other",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "13 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "46 dB"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג אנרגטי (תקן אירופי)",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "9.9 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר תוכניות הדחה",
+     "value": "8"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תוכנית הדחה מהירה",
+     "value": "30 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הפעלה מאוחרת",
+     "value": "עד 24 שעות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תוכנית היגיינה",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תוכנית עדינה",
+     "value": "לא"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טמפרטורת הדחה מרבית",
+     "value": "70°C"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "דיגיטלית"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מסך מגע",
+     "value": "לא"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "לא"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיישן עומס",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הגנה מפני הצפה",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "נעילת ילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "עומד חופשי, רוחב 60 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך צינור הזנת מים",
+     "value": "1.5 מ׳"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "1.5 מ׳"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיבור למים חמים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סל עליון",
+     "value": "מתכוונן בגובה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מרכך מים",
+     "value": "מתכוונן"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "40.2 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "AirDry: פתיחת דלת אוטומטית בסיום ההדחה לייבוש טבעי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ExtraHygiene: חיטוי הכלים בטמפרטורה מעל 60°C"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למשפחה שמחפשת מדיח מלא בגודל עם ייבוש AirDry ותוכנית היגיינה.",
+  "highlights": [
+   "קיבולת 13 מערכות כלים",
+   "ייבוש AirDry בפתיחת דלת אוטומטית"
+  ],
+  "goodFor": [
+   "משפחות שמדיחות כמות גדולה של כלים בכל מחזור",
+   "מטבח פתוח שבו חשוב מדיח שקט יחסית",
+   "מי שרוצה לתזמן הדחה לשעות הלילה בעזרת הפעלה מאוחרת",
+   "בתים עם ילדים קטנים, בזכות נעילת ילדים"
+  ],
+  "considerations": [
+   "אין במדיח Wi-Fi או תוכנית עדינה ייעודית"
+  ],
+  "faq": [
+   {
+    "q": "כמה כלים נכנסים במדיח?",
+    "a": "המדיח מכיל 13 מערכות כלים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר את המדיח למים חמים?",
+    "a": "כן, המדיח תומך בחיבור למים חמים.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במדיח Wi-Fi?",
+    "a": "לא, אין במדיח חיבור Wi-Fi.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "ESA47200SW",
+   "מדיח כלים אלקטרולוקס",
+   "Electrolux ESA47200SW",
+   "מדיח כלים 13 מערכות",
+   "מדיח כלים עומד 60 ס״מ",
+   "מדיח כלים שקט",
+   "מדיח כלים לבן",
+   "מדיח AirDry"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "13 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "46 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (לפי תקן אירופאי חדש) / A++ (לפי תקן קודם)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת מים למחזור חסכוני (Eco)",
+   "catalogValue": "9.9 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "850 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "598 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "622 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "40.2 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר תוכניות הדחה",
+   "catalogValue": "8",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכנית הדחה מהירה של 30 דקות",
+   "catalogValue": "30 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הפעלה מאוחרת (Delay Start)",
+   "catalogValue": "1 עד 24 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "LED דיגיטלית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך צינור ניקוז",
+   "catalogValue": "1.5 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "1950 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240 וולט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר טמפרטורות",
+   "catalogValue": "4",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "AirDry",
+   "catalogValue": "פתיחת דלת אוטומטית ב-10 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ExtraHygiene",
+   "catalogValue": "הסרת 99.99% מהבקטריות והנגיפים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "AutoSense / QuickLift / ExtraPower / MachineCare",
+   "catalogValue": "תכונות שיווק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הגנה מפני הצפה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "לא",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכנית עדינה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "לא",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "מידות (רוחב 59.8 ס״מ, עומק 62.2 ס״מ, גובה 85 ס״מ) מופיעות רק באתר Frontum הבריטי, בשורות נפרדות ללא ציטוט בשורה אחת; לא נכללו כשורת מידות משולבת. נדרש אימות מול דף היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "אין נתוני מידות, הספק, מתח או ניקוז מאתר היבואן או היצרן. דף הקטלוג מציין 1950 וואט, 220-240 וולט ו-1.5 מטר צינור ניקוז ללא מקור מאומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "energy",
+   "issue": "הקטלוג מציין גם דירוג A++ לפי התקן הקודם. לא נמצא מקור שמאשר זאת לדגם הזה.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "דף manualshive של הדגם חסום לסריקה (בדיקת Anubis). קובץ EPREL שנמצא מתייחס לדגם ESA47300SW ולכן לא שימש כראיה.",
+   "severity": "low"
+  },
+  {
+   "field": "energy",
+   "issue": "הקטלוג מציין גם A++ לפי התקן הקודם; רק דירוג E אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "specifications",
+   "issue": "מידות, הספק, מתח ואורך צינור ניקוז שבקטלוג לא אומתו בציטוט.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Frontum is a UK spec-comparison site, relabelled from review to other. All facts verified by ok quotes on pages naming the model; kept. Minor label wording tweaks. | code guard removed: summary: \"Electrolux ESA47200SW הוא מדיח כלים עומד חופשי ברוחב 60 ס״מ בצבע לבן, עם קיבולת של 13 מערכות כלים.\"; summary: \"רמת הרעש היא 46 dB וצריכת המים למחזור היא 9.9 ליטר, ויש בו 8 תוכניות הדחה כולל תוכנית מהירה של 30 דקות.\"; faq: \"כמה רועש המדיח?\"; faq: \"יש תוכנית מהירה?\"; metaDescription: \"מדיח כלים Electrolux ESA47200SW עומד חופשי לבן: 13 מערכות כלים, רמת רעש 46 dB וייבוש AirDry. ייעוץ והזמנה בחדד אלקטריק נהריה\"; highlight: \"רמת רעש 46 dB\"; highlight: \"8 תוכניות הדחה כולל תוכנית מהירה של 30 דקות\"; highlight: \"הפעלה מאוחרת עד 24 שעות\"; consideration: \"זהו מדיח עומד חופשי ברוחב 60 ס״מ, לא לשילוב מלא מאחורי חזית ארון\"; consideration: \"אורך צינור הזנת המים ואורך כבל החשמל הם 1.5 מ׳ - כדאי לוודא שברז ושקע נמצאים בטווח\"; consideration: \"המשקל הוא 40.2 ק״ג, כדאי לתכנן את ההובלה וההצבה\""
+ }
+}

@@ -1,0 +1,364 @@
+{
+ "modelNumber": "75GP503-W (6753)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "75GP503-W",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "מק\"ט 6753 לפי אתר היבואן (מק\"ט מוצר 6753). הדגם מופיע באתר היבואן הרשמי בשם 75GP503-W. | QA: דגם 75GP503-W מופיע באתר Midea ישראל בדגם זהה, 75 ס״מ, 5 להבות, זכוכית לבנה."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.co.il/product/75gp503w",
+   "publisher": "Midea Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מוצר",
+     "value": "כיריים גז"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × עומק)",
+     "value": "750 × 510 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה",
+     "value": "560 × 480 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "5 להבות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מבער טורבו (להבה כפולה)",
+     "value": "3.6 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מבער גדול",
+     "value": "3 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מבערים בינוניים",
+     "value": "2 מבערים, 1.75 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מבער קטן",
+     "value": "1 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "אלקטרונית"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיישני בטיחות",
+     "value": "ניתוק אוטומטי של אספקת הגז בכיבוי הלהבה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג משטח",
+     "value": "זכוכית מחוסמת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית לבנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ברז מבער לשליטה מדויקת על עוצמת הלהבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבערים איטלקיים מתוצרת DEFENDI"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "trimmed unsupported benefit claim",
+   "text": "תושבות סירים מברזל יצוק"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נדרשת גומחה בשיש בגודל 560 × 480 מ״מ"
+  }
+ ],
+ "content": {
+  "summary": "כיריים גז בנויות של Midea ברוחב 750 מ״מ, עם משטח זכוכית מחוסמת בגימור לבן. חמש להבות, כולל מבער טורבו בלהבה כפולה בהספק 3.6 kW, הצתה אלקטרונית וחיישני בטיחות שמנתקים את הגז כשהלהבה נכבית. מתאימות למטבח שמחפש משטח בישול רחב בעיצוב לבן.",
+  "highlights": [
+   "5 להבות, כולל מבער טורבו בלהבה כפולה 3.6 kW",
+   "משטח זכוכית מחוסמת בגימור לבן",
+   "חיישני בטיחות לניתוק אוטומטי של הגז בכיבוי הלהבה",
+   "הצתה אלקטרונית",
+   "תושבות סירים מברזל יצוק ומבערי DEFENDI"
+  ],
+  "goodFor": [
+   "בישול במקביל על כמה סירים בזכות חמש להבות",
+   "בישול בווק ובחום גבוה בעזרת מבער הטורבו בלהבה כפולה",
+   "מטבח בעיצוב בהיר שמתאים לו משטח זכוכית לבנה"
+  ],
+  "considerations": [
+   "יש לוודא שהחיתוך בשיש הוא 560 × 480 מ״מ",
+   "מידות הכיריים 750 × 510 מ״מ, כדאי לבדוק שהן מתאימות לרוחב השיש",
+   "התקנת כיריים גז מחייבת חיבור לגז על ידי מתקין גז מוסמך",
+   "הצתה אלקטרונית מצריכה נקודת חשמל בקרבת הכיריים"
+  ],
+  "faq": [
+   {
+    "q": "מה מידות החיתוך בשיש לכיריים 75GP503-W?",
+    "a": "מידות הגומחה להתקנה הן 560 × 480 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה להבות יש בכיריים ומה ההספקים?",
+    "a": "יש 5 להבות: מבער טורבו בלהבה כפולה 3.6 kW, מבער גדול 3 kW, שני מבערים בינוניים 1.75 kW ומבער קטן 1 kW.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בכיריים הגנת בטיחות?",
+    "a": "כן, חיישני בטיחות מנתקים אוטומטית את אספקת הגז במקרה שהלהבה נכבית.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי המשטח?",
+    "a": "המשטח עשוי זכוכית מחוסמת בגימור לבן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Midea ברוחב 750 מ״מ, זכוכית מחוסמת לבנה, 5 להבות עם מבער טורבו 3.6 kW וחיישני בטיחות לניתוק הגז. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז 75 ס\"מ",
+   "כיריים גז זכוכית לבנה",
+   "Midea 75GP503-W",
+   "כיריים מידאה",
+   "כיריים גז 5 להבות",
+   "כיריים גז עם מבער טורבו",
+   "כיריים גז בנויות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Midea (מידאה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דגם",
+   "catalogValue": "75GP503-W (מק\"ט 6753)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג המשטח",
+   "catalogValue": "זכוכית מחוסמת בגימור לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "5 להבות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספקי מבערים",
+   "catalogValue": "טורבו כפול 3.6KW, גדול 3KW, שני בינוניים 1.75KW, קטן 1KW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "רוחב 750 מ\"מ, עומק 510 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה להתקנה",
+   "catalogValue": "רוחב 560 מ\"מ, עומק 480 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג הצתה",
+   "catalogValue": "מערכת הצתה אלקטרונית לכל מבער",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תושבות סירים",
+   "catalogValue": "ברזל יצוק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מבערים",
+   "catalogValue": "מבערים איטלקיים מתוצרת DEFENDI",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים בכפוף לתעודת אחריות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "warranty",
+   "issue": "אתר היבואן מציין אחריות שנתיים בכפוף לתעודת אחריות, ואילו קמעונאי ישראלי מציין אחריות מלאה לשנה. יש לאמת את תקופת האחריות לפני מתן הבטחה ללקוח.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "תקופת האחריות לא אומתה בציטוט; המחקר מציין פער בין אתר היבואן לקמעונאי. יש לאמת לפני הצגה ללקוח.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 2 trimmed to what the quote supports (cast iron pan supports; stability/heat-distribution claim not in quote). Source kind changed to importer (midea.co.il is the Israeli importer's brand site)."
+ }
+}

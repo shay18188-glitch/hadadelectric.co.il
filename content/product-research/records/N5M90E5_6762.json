@@ -1,0 +1,356 @@
+{
+ "modelNumber": "N5M90E5 (6762)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "N5M90E5",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The Midea Israel page names N5M90E5-B and N5M90E5-E11J09B(6762) and lists the colour as black. Israeli sellers list the 6762 code as white (N5M90E5-W 6762 / N5M90E5-6762 לבן) and the black model as N5M90E5-B. Colour and suffix must be confirmed before publishing. | QA: Same model N5M90E5 (6762). Manufacturer Israel page names N5M90E5-B and N5M90E5-E11J09B(6762) as black; catalog says white. Colour suffix must be confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il/cooking-range/built-in-oven/midea-built-in-oven-70l-n5m90e5.n5m90e5-e11j09b-6762-",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/תנור-בנוי-70-ליטר-כולל-מסילות-טלסקופיות-midea-9019055190",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא האפייה",
+     "value": "70 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "3000 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli retailer page for exact model",
+     "label": "טווח טמפרטורות",
+     "value": "50–250 מעלות צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 60 × 59.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "56 × 57.5 × 57 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר תוכניות בישול ואפייה",
+     "value": "9"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר כיבוי אוטומטי",
+     "value": "עד 9 שעות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דלת",
+     "value": "טריקה שקטה, זכוכית תלת־שכבתית"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת אפייה טורבו אקטיבית לאפייה אחידה בכל חלל התנור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לוח פיקוד חכם עם מנגנון בקרה דיגיטלי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שכבת זכוכית פנימית נשלפת לניקוי קל"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תבנית אחת, רשת אחת וזוג מסילות טלסקופיות"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאים להתקנה בנישה במידות סטנדרטיות"
+  }
+ ],
+ "content": {
+  "summary": "תנור בנוי דיגיטלי של Midea, דגם N5M90E5, עם תא אפייה בנפח 70 ליטר והספק מרבי של 3000 W. התנור מציע 9 תוכניות בישול ואפייה, כולל טורבו אקטיבי לאפייה אחידה, וטיימר כיבוי אוטומטי עד 9 שעות. מתאים למי שמחפש תנור בנוי מרווח עם דלת טריקה שקטה וזכוכית פנימית נשלפת לניקוי.",
+  "highlights": [
+   "תא אפייה בנפח 70 ליטר",
+   "9 תוכניות בישול ואפייה כולל טורבו אקטיבי",
+   "טיימר כיבוי אוטומטי עד 9 שעות",
+   "דלת טריקה שקטה עם זכוכית תלת־שכבתית",
+   "כולל זוג מסילות טלסקופיות, תבנית ורשת"
+  ],
+  "goodFor": [
+   "אפייה של כמה תבניות במקביל בזכות תא של 70 ליטר ומערכת טורבו אקטיבית",
+   "מי שרוצה לכבות את התנור אוטומטית בעזרת טיימר עד 9 שעות",
+   "מטבח שבו חשובים ניקוי קל ודלת שנסגרת בשקט"
+  ],
+  "considerations": [
+   "יש לוודא שמידות הנישה הן 56 × 57.5 × 57 ס״מ (רוחב × גובה × עומק)",
+   "הספק מרבי של 3000 W – כדאי לבדוק שקו החשמל והשקע מתאימים לתנור",
+   "יש לוודא את הצבע הרצוי מול החנות לפני ההזמנה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח תא האפייה הוא 70 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הנישה הנדרשות להתקנה?",
+    "a": "רוחב 56 ס״מ, גובה 57.5 ס״מ ועומק 57 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות יש בתנור?",
+    "a": "9 תוכניות בישול ואפייה, כולל הפשרה, גריל וטורבו אקטיבי.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "תבנית אחת, רשת אחת וזוג מסילות טלסקופיות.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "מ־50 עד 250 מעלות צלזיוס.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Midea N5M90E5 בנפח 70 ליטר עם 9 תוכניות אפייה וטורבו אקטיבי, הספק 3000 W וטיימר עד 9 שעות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור בנוי Midea",
+   "Midea N5M90E5",
+   "תנור בנוי 70 ליטר",
+   "תנור בנוי דיגיטלי",
+   "תנור מידאה בנוי",
+   "תנור בנוי עם מסילות טלסקופיות",
+   "תנור בנוי טורבו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא האפייה",
+   "catalogValue": "70 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "3000 וואט",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50-250 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "רוחב 59.5 ס״מ, גובה 59.5 ס״מ, עומק 57.5 ס״מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 59.5 ס״מ, גובה 60 ס״מ, עומק 59.5 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות התקנה (נישה)",
+   "catalogValue": "רוחב 56 ס״מ, גובה 56 ס״מ, עומק 57 ס״מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 56 ס״מ, גובה 57.5 ס״מ, עומק 57 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "תבנית אחת, רשת אחת ושתי מסילות טלסקופיות (חצי פתיחה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "contradicted",
+   "correctValue": "שחור",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 9 שעות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "The catalog says white (לבן) but the manufacturer page for the 6762 code says black (שחור). Israeli sellers list the 6762 code as white and the black model as N5M90E5-B. Confirm the colour before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The manufacturer page names N5M90E5-B and N5M90E5-E11J09B(6762). Israeli sellers also list an N5M90E5-W 6762 white variant. Confirm which colour suffix the store stocks under this catalog code.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog's product dimensions have height 59.5 and depth 57.5, while the manufacturer gives height 60 and depth 59.5. The installation niche height is 57.5, not 56. Corrected in catalogCheck.",
+   "severity": "medium"
+  },
+  {
+   "field": "אביזרים כלולים",
+   "issue": "The manufacturer and BUG list the telescopic rails (זוג מסילות טלסקופיות). The BUG listing also says גריל מסתובב (rotating grill) is included, and the manufacturer does not mention it.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "The catalog says white, but the manufacturer Israel page for the 6762 code lists black (N5M90E5-B / N5M90E5-E11J09B(6762)). Confirm the colour of the stocked unit.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Colour suffix (-B vs -W) for catalog code 6762 is unclear between manufacturer and Israeli sellers.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog product and niche dimensions differ from the manufacturer (product height 60, depth 59.5; niche height 57.5). Update the catalog specifications.",
+   "severity": "medium"
+  },
+  {
+   "field": "אביזרים כלולים",
+   "issue": "BUG listing also mentions a rotating grill not stated by the manufacturer; not published.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against ok quotes on pages naming the model. Identity set to medium because the manufacturer page lists the 6762 code as black while the catalog and Israeli sellers say white; specs are shared across colour variants. Catalog dimensions corrected per manufacturer (height 60, depth 59.5; niche height 57.5). Installation line kept with generic wording."
+ }
+}

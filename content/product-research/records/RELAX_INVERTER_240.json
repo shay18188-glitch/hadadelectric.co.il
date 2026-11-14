@@ -1,0 +1,428 @@
+{
+ "modelNumber": "RELAX INVERTER 240",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electra",
+  "exactModel": "RELAX INVERTER 240",
+  "israeliImporter": "אלקטרה מוצרי צריכה (1951) בע\"מ",
+  "matchConfidence": "high",
+  "notes": "דף הקמעונאי ACE נושא את השם RELAX INVERTER 240. רשימות זאפ מציינות את אותו דגם כ-RELAX INV 240 (ולעיתים RELAX INV-240) ו-2.0 כ\"ס. לא נטען דף היצרן הרשמי של אלקטרה, ולכן כל העובדות מבוססות על דפי קמעונאים. | QA: The ACE page names RELAX INVERTER 240 and its specs match the catalog. Zap lists the same model as RELAX INV 240 at 2 hp, which contradicts the 2.4 hp in the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ace.co.il/4475236",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1261044",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת קירור נומינלית",
+     "value": "18,356 BTU/h"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת חימום נומינלית",
+     "value": "16,241 BTU/h"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות בקירור (SEER)",
+     "value": "6.41"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקדם יעילות בחימום (SCOP)",
+     "value": "4.8"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Unit typo CPM corrected to CFM",
+     "label": "ספיקת אוויר",
+     "value": "500 CFM / 840 m³/h"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A++"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק נצרך בקירור",
+     "value": "1,749 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח הזנה",
+     "value": "230V / 50Hz / 1Ph"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבורי צנרת",
+     "value": "1/4 × 1/2 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "The order of height and length is ambiguous; it looks like a possible listing error",
+     "label": "צנרת מרבית (גובה / אורך)",
+     "value": "30 מטר / 20 מטר"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "3 שנות אחריות מלאות מטעם היבואן הרשמי, בכפוף לתקנון ולאקטיבציה עד 30 יום"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "8 מהירויות למפוח המאייד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי עצמי של הסוללה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי הידרופילי מוזהב למניעת קורוזיה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Electra RELAX INVERTER 240 הוא מזגן עילי אינוורטר לקירור וחימום. תפוקת הקירור הנומינלית היא 18,356 BTU/h ותפוקת החימום 16,241 BTU/h, עם דירוג אנרגטי A++ ומקדם יעילות בקירור SEER 6.41. הוא מתאים למי שמחפש מזגן לחדר גדול או לסלון עם ניקוי עצמי של הסוללה.",
+  "highlights": [
+   "תפוקת קירור נומינלית 18,356 BTU/h",
+   "דירוג אנרגטי A++",
+   "מקדם יעילות SEER 6.41 בקירור ו-SCOP 4.8 בחימום",
+   "8 מהירויות למפוח המאייד",
+   "ניקוי עצמי של הסוללה"
+  ],
+  "goodFor": [
+   "קירור וחימום של סלון או חדר גדול לאורך כל השנה",
+   "מי שמחפש מזגן אינוורטר עם דירוג אנרגטי A++",
+   "מי שרוצה כוונון עדין של זרימת האוויר עם 8 מהירויות מפוח"
+  ],
+  "considerations": [
+   "המזגן פועל על מתח 230V / 50Hz / 1Ph ומחייב נקודת חשמל מתאימה למזגן",
+   "ההתקנה מחייבת מתקין מזגנים וחיבורי צנרת 1/4 × 1/2 אינץ׳",
+   "יש לבדוק את מיקום היחידה החיצונית ואת אורך הצנרת הנדרש מול המתקין",
+   "האחריות של 3 שנים מותנית באקטיבציה עד 30 יום"
+  ],
+  "faq": [
+   {
+    "q": "מה תפוקת הקירור של Electra RELAX INVERTER 240?",
+    "a": "תפוקת הקירור הנומינלית היא 18,356 BTU/h, ותפוקת החימום הנומינלית היא 16,241 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי של המזגן?",
+    "a": "דירוג אנרגטי A++, עם מקדם יעילות SEER 6.41 בקירור ו-SCOP 4.8 בחימום.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל המזגן צורך בקירור?",
+    "a": "ההספק הנצרך בקירור הוא 1,749 W.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המזגן?",
+    "a": "3 שנות אחריות מלאות מטעם היבואן הרשמי, בכפוף לתקנון ולאקטיבציה עד 30 יום.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן עילי אינוורטר Electra RELAX INVERTER 240: תפוקת קירור 18,356 BTU/h ודירוג אנרגטי A++. קירור וחימום לחדר גדול, בחדד אלקטריק נהריה",
+  "keywords": [
+   "אלקטרה RELAX INVERTER 240",
+   "electra relax inverter 240",
+   "מזגן אלקטרה רילקס",
+   "מזגן עילי אינוורטר אלקטרה",
+   "relax inv 240",
+   "מזגן לסלון אלקטרה",
+   "מזגן A++ אינוורטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר (כוח סוס)",
+   "catalogValue": "מזגן 2.4 כ\"ס",
+   "finding": "contradicted",
+   "correctValue": "2 כ\"ס",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "18,356 BTU/h (טווח: 5,200-21,058)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "16,241 BTU/h (טווח: 5,300-20,700)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בקירור (SEER)",
+   "catalogValue": "6.41",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בחימום (SCOP)",
+   "catalogValue": "4.8",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A++",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק נצרך בקירור",
+   "catalogValue": "1,749W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק נצרך בחימום",
+   "catalogValue": "1,752W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זרם עבודה בקירור",
+   "catalogValue": "5A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זרם עבודה בחימום",
+   "catalogValue": "6A",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח זינה",
+   "catalogValue": "230V/50Hz/1Ph",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ספיקת אוויר",
+   "catalogValue": "500 CFM / 840 M3/h",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורי צנרת",
+   "catalogValue": "1/4 x 1/2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות יחידה פנימית",
+   "catalogValue": "957x302x213 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות יחידה חיצונית",
+   "catalogValue": "805x554x330 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "ישראל (תכנון ופיתוח) / סין (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Wi-Fi מובנה / שליטה באפליקציה",
+   "catalogValue": "Wi-Fi מובנה, Smart Home",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצב שבת מובנה",
+   "catalogValue": "מצב שבת מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנות אחריות מלאות מטעם היבואן הרשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג כולל 2.4 כ\"ס, אך דף זאפ מציין 2.0 כ\"ס לאותו דגם, ותפוקת הקירור 18,356 BTU/h תואמת בערך 2 כ\"ס. יש לבדוק את שם המוצר.",
+   "severity": "high"
+  },
+  {
+   "field": "model_naming",
+   "issue": "הדגם מופיע כ-RELAX INVERTER 240 בדף ACE וכ-RELAX INV 240 בדפי זאפ. לא נטען דף היצרן או היבואן הרשמי, ולכן לא אומת שמדובר באותו מוצר בתוכנית היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "heating_input_current",
+   "issue": "הספק נצרך בחימום 1,752W וזרמי העבודה 5A/6A לא אומתו בדפים שנטענו.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג הוא 2.4 כ\"ס, אך זאפ מציין 2 כ\"ס לאותו דגם. יש לבדוק את הכוח סוס בשם המוצר מול היצרן.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "כל העובדות מבוססות על דף קמעונאי אחד (ACE). לא נטען דף היצרן או היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog.technical_specifications",
+   "issue": "הספק נצרך בחימום 1,752W וזרמי העבודה 5A/6A לא אומתו. גם נתוני הצנרת המרבית (30/20 מטר) בדף ACE אינם ברורים ונדחו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 4: corrected the unit typo CPM to CFM. Fact 5: rating written as A++. Fact 9 (pipe height/length 30/20) rejected: the order of the values is ambiguous and looks like a possible listing error. All facts rest on a single Israeli retailer page (ACE); no manufacturer page was loaded."
+ }
+}

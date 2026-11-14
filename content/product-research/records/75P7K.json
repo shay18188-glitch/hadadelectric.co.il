@@ -1,0 +1,692 @@
+{
+ "modelNumber": "75P7K",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "TCL",
+  "exactModel": "75P7K",
+  "israeliImporter": "C-DATA",
+  "matchConfidence": "high",
+  "notes": "דף הקמעונאי הישראלי citydeal.co.il מציג את הדגם 75P7K בשם המלא ומציין יבואן רשמי C-DATA. שורת מידות משולבת (רוחב × גובה × עומק) לא הופיעה בשורה אחת בדף, ולכן נרשמו המידות בשורות נפרדות. דף bug.co.il שנמצא בחיפוש החזיר 404 ולא נעשה בו שימוש. | QA: Israeli retailer page names TCL 75P7K, 75 inch QLED Google TV, official importer C-DATA. AU spec sheet for the same code differs in some values (120Hz, VESA), so regional variant differences remain possible."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-75-%D7%90%D7%99%D7%A0%D7%A5-%D7%93%D7%92%D7%9D-qled-4k-%D7%A1%D7%93%D7%A8%D7%94-tcl-75p7k-%D7%A2%D7%9D-google-tv",
+   "publisher": "citydeal.co.il",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "75 אינץ׳"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציה",
+     "value": "3840×2160 (4K UHD)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית פאנל",
+     "value": "QLED Quantum Dot"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "AU sheet lists 120Hz; Israeli page and catalog native rate say 60Hz",
+     "label": "קצב רענון",
+     "value": "60Hz עם VRR"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פורמטי HDR",
+     "value": "Dolby Vision, HDR10+, HLG, HDR"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זווית צפייה",
+     "value": "פאנל HVA, עד 178 מעלות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כיסוי צבעים",
+     "value": "93% DCI-P3"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "matches catalog",
+     "label": "הספק רמקולים",
+     "value": "30W סך הכול"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת סאונד",
+     "value": "ONKYO 2.0"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סאונד מרחבי",
+     "value": "Dolby Atmos"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Google TV"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שירותי טלוויזיה בישראל",
+     "value": "yes+, פרטנר TV, HOT, סלקום TV"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיקוף מסך (AirPlay 2)",
+     "value": "Apple AirPlay 2"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיקוף מסך (Miracast)",
+     "value": "Miracast"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "unverified retail marketing claim, not in catalog or manufacturer data",
+     "label": "פיצול מסך",
+     "value": "עד 4 מסכים"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 × HDMI 2.1 (ARC/eARC)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "Wi-Fi 5"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "5.4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יציאת USB",
+     "value": "USB 3.0"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקלט טלוויזיה",
+     "value": "DVB-T/T2 מובנה (עידן+)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "166.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה ללא מעמד",
+     "value": "95.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה עם מעמד",
+     "value": "103.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "22.9 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל עם מעמד",
+     "value": "23.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "catalog and AU spec sheet say 400×400; likely retailer listing error",
+     "label": "תקן תלייה (VESA)",
+     "value": "400×300 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "3 שנים ע״י היבואן הרשמי C-DATA"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעבד תמונה חכם AiPQ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תפריט Game Bar לצפייה והתאמה של הגדרות המשחק בזמן אמת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ALLM לזמן תגובה מהיר במשחקים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טלוויזיה חכמה TCL 75P7K בגודל 75 אינץ׳ עם פאנל QLED Quantum Dot ברזולוציית 4K UHD ומערכת Google TV. היא תומכת ב-Dolby Vision ו-HDR10+, כוללת 3 כניסות HDMI 2.1 עם eARC וסאונד ONKYO בהספק 30W עם Dolby Atmos. מתאימה לסלון גדול, לצפייה בשירותי הטלוויזיה הישראליים ולמשחקי קונסולה.",
+  "highlights": [
+   "מסך QLED בגודל 75 אינץ׳ ברזולוציית 3840×2160",
+   "תמיכה ב-Dolby Vision, HDR10+ ו-HLG",
+   "3 כניסות HDMI 2.1 עם ARC/eARC",
+   "סאונד ONKYO בהספק 30W עם Dolby Atmos",
+   "אחריות 3 שנים ע״י היבואן הרשמי C-DATA"
+  ],
+  "goodFor": [
+   "סלון מרווח שבו רוצים מסך גדול לצפייה בסרטים ובספורט",
+   "מנויי yes+, HOT, פרטנר TV או סלקום TV שרוצים לצפות ישירות מהטלוויזיה",
+   "גיימרים עם קונסולה שמתחברת ב-HDMI 2.1 ונהנים מ-ALLM ו-VRR",
+   "משתמשי iPhone שרוצים לשקף תוכן באמצעות AirPlay 2"
+  ],
+  "considerations": [
+   "רוחב המסך 166.6 ס״מ – כדאי למדוד את הקיר או את שידת הטלוויזיה לפני הרכישה",
+   "קצב הרענון הוא 60Hz עם VRR – מי שמחפש משחק בקצב רענון גבוה יותר צריך לקחת זאת בחשבון",
+   "לתלייה על הקיר יש לוודא מול היבואן את תקן ה-VESA ולבחור זרוע שמתאימה למשקל של 22.9 ק״ג",
+   "לקליטת ערוצי עידן+ דרך המקלט המובנה נדרשת אנטנה, שאינה כלולה"
+  ],
+  "faq": [
+   {
+    "q": "האם הטלוויזיה תומכת באפליקציות של yes ו-HOT?",
+    "a": "כן, לפי פרטי המוצר בישראל יש תמיכה ב-yes+, HOT, פרטנר TV וסלקום TV במערכת Google TV.",
+    "sources": []
+   },
+   {
+    "q": "אילו פורמטי HDR נתמכים?",
+    "a": "Dolby Vision, HDR10+, HLG ו-HDR.",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש?",
+    "a": "3 כניסות HDMI 2.1, עם תמיכה ב-ARC/eARC לחיבור מקרן קול.",
+    "sources": []
+   },
+   {
+    "q": "מה המשקל והגובה עם המעמד?",
+    "a": "הגובה עם המעמד הוא 103.5 ס״מ והמשקל עם המעמד 23.2 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "3 שנות אחריות ע״י היבואן הרשמי C-DATA.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה TCL 75P7K בגודל 75 אינץ׳ QLED 4K עם Google TV ו-3 כניסות HDMI 2.1, תמיכה ב-Dolby Vision ו-Dolby Atmos. בחדד אלקטריק נהריה",
+  "keywords": [
+   "TCL 75P7K",
+   "טלוויזיה TCL 75 אינץ",
+   "טלוויזיה 75 אינץ QLED",
+   "TCL P7K",
+   "טלוויזיה Google TV 75",
+   "טלוויזיה 4K 75 אינץ",
+   "טלוויזיה TCL נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "75' QLED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "3840x2160 (4K UHD)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פאנל",
+   "catalogValue": "QLED בטכנולוגיית Quantum Dot",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz (תמיכה ב-120Hz DLG ו-VRR)",
+   "finding": "corrected",
+   "correctValue": "60Hz VRR",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פורמטי HDR",
+   "catalogValue": "Dolby Vision, HDR10+, HLG",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד תמונה",
+   "catalogValue": "AiPQ Processor",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Google TV",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיכרון RAM",
+   "catalogValue": "2GB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח אחסון",
+   "catalogValue": "16GB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק רמקולים",
+   "catalogValue": "30W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חלוקת רמקולים",
+   "catalogValue": "2x15W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סאונד מרחבי",
+   "catalogValue": "Dolby Atmos ו-DTS Virtual:X",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסות HDMI",
+   "catalogValue": "3 כניסות HDMI 2.1 (eARC/ARC, ALLM)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi 5",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth 5.4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "USB",
+   "catalogValue": "1 כניסת USB 3.0",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1666x958x69.5 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1666x1035x347 מ״מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "catalogValue": "22.9 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "23.2 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "catalogValue": "400x400 מ״מ",
+   "finding": "corrected",
+   "correctValue": "400×300 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100V-240V 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל במצב המתנה",
+   "catalogValue": "<0.5W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "מטאלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "AirPlay",
+   "catalogValue": "Apple AirPlay 2",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Chromecast מובנה",
+   "catalogValue": "Chromecast מובנה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Game Master",
+   "catalogValue": "מצב Game Master",
+   "finding": "corrected",
+   "correctValue": "Game Bar",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יבואן ואחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "יבואן רשמי C-DATA, 3 שנים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פיצול מסך",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 4 מסכים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקלט DVB-T/T2",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מובנה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג וזווית צפייה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "HVA, עד 178 מעלות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שירותי טלוויזיה בישראל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "yes+, פרטנר TV, HOT, סלקום TV",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "קצב רענון",
+   "issue": "הקטלוג מציין תמיכה ב-120Hz DLG, אך דף הקמעונאי הישראלי מציין VRR 60Hz בלבד, ומפרט של משווק באוסטרליה לאותו קוד מציין 120Hz. יש לבדוק את הגרסה הישראלית.",
+   "severity": "high"
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "issue": "הקטלוג מציין 400×400 מ״מ, ודף הקמעונאי הישראלי מציין 400×300 מ״מ. נרשם הערך הישראלי; יש לאמת לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק רמקולים",
+   "issue": "הקטלוג מציין 30W (2x15W). דף הקמעונאי הישראלי מציין 30W סך הכול ו-ONKYO 2.0, ובאחד המקומות בדף מופיע 'עד 20W'. יש לוודא את המספר הרשמי.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה אזורית",
+   "issue": "מפרט משווק באוסטרליה לאותו קוד דגם 75P7K שונה בחלק מהנתונים (120Hz, 2x15W, VESA 400×400). ייתכן שהגרסה האוסטרלית שונה מהישראלית, ולכן לא נרשמו ממנה עובדות.",
+   "severity": "low"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "הקטלוג מציין תמיכה ב-120Hz DLG, דף הקמעונאי הישראלי מציין VRR 60Hz ומפרט אוסטרלי לאותו קוד מציין 120Hz. יש לאמת מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "issue": "הקטלוג ומפרט אוסטרלי מציינים 400×400 מ״מ, הקמעונאי הישראלי מציין 400×300 מ״מ. הערך לא פורסם; יש לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק רמקולים",
+   "issue": "בדף הקמעונאי מופיע גם 'עד 20W' לצד 30W. פורסם 30W בהתאם לקטלוג; כדאי לאמת.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור יחיד",
+   "issue": "כל העובדות מבוססות על דף קמעונאי ישראלי אחד, ללא דף יצרן או יבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from a single Israeli retailer page (citydeal.co.il) naming 75P7K with importer C-DATA. Rejected VESA 400×300 (catalog and the AU TCL spec sheet both say 400×400; likely listing error). Rejected 'split screen up to 4' as an unverified retail marketing claim. Tidied HDR wording and refresh-rate wording."
+ }
+}

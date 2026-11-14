@@ -1,0 +1,468 @@
+{
+ "modelNumber": "BRB38G705DWW",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "BRB38G705DWW",
+  "israeliImporter": "סמסונג ישראל",
+  "matchConfidence": "high",
+  "notes": "The EU energy label names model identifier BRB38G705DWW. Samsung Italy lists the SKU as BRB38G705DWWEF (EU suffix). The Israeli retailer Kreizman sells the BRB38G705DWWEF variant. Zap lists both codes. | QA: The Samsung EU energy label and Samsung Italia name BRB38G705DWW / BRB38G705DWWEF with 389 L total volume and 69x193.5x55 cm dimensions matching the catalog. Kreizman (Israeli retailer) sells the BRB38G705DWWEF variant."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/it/refrigerators/built-in-bottom-mount-freezer/brb6500d-382l-white-brb38g705dwwef/",
+   "publisher": "Samsung Italia",
+   "kind": "manufacturer",
+   "market": "IT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://images.samsung.com/is/content/samsung/p6/common/energylabel/common-energylabel-brb38g705dwwef-productfiche.pdf",
+   "publisher": "Samsung EU energy label (product information sheet)",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1263382",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://kreizman.co.il/product/brb38g705dwwef-samsung/",
+   "publisher": "קרייזמן מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "690 x 1935 x 550 mm converted to cm",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "69 × 193.5 × 55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "389 ליטר"
+    },
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "289 ליטר"
+    },
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "100 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "From the manufacturer's EU energy label",
+     "label": "דירוג אנרגטי (תקן אירופאי)",
+     "value": "D"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "206 קוט״ש לשנה"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "35 dB"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "da Incasso = built-in",
+     "label": "סוג התקנה",
+     "value": "אינטגרלי (להתקנה בתוך ארון מטבח)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "humidity claim removed",
+   "text": "מערכת Twin Cooling Plus עם שתי מערכות קירור נפרדות לתא הקירור ולתא ההקפאה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "temperature claim removed",
+   "text": "מגירת Optimal Fresh+ המיועדת לאחסון בשר ודגים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית No Frost למניעת הצטברות קרח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תמיכה באפליקציית SmartThings ומצב AI Energy Mode לחיסכון באנרגיה של עד 10%"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות להפוך את כיוון פתיחת הדלתות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Slide Hinge not in quote, removed",
+   "text": "מקרר אינטגרלי להתקנה בתוך ארון מטבח"
+  }
+ ],
+ "content": {
+  "summary": "Samsung BRB38G705DWW הוא מקרר אינטגרלי עם מקפיא תחתון, להתקנה בתוך ארון מטבח. נפחו הכולל 389 ליטר, מתוכם 289 ליטר לתא הקירור ו-100 ליטר לתא ההקפאה, ומידותיו 69 × 193.5 × 55 ס״מ. הוא מתאים למי שמתכנן מטבח עם חזית ארונות אחידה ומחפש מקרר No Frost שקט עם עוצמת רעש של 35 dB.",
+  "highlights": [
+   "נפח כולל 389 ליטר: 289 ליטר קירור ו-100 ליטר הקפאה",
+   "מידות 69 × 193.5 × 55 ס״מ להתקנה אינטגרלית",
+   "עוצמת רעש 35 dB",
+   "צריכת אנרגיה שנתית 206 קוט״ש, דירוג D לפי התקן האירופאי",
+   "No Frost ומערכת Twin Cooling Plus עם שתי מערכות קירור נפרדות"
+  ],
+  "goodFor": [
+   "מטבח מתוכנן שבו המקרר מוסתר מאחורי חזית ארון",
+   "מטבח פתוח לסלון, בזכות עוצמת רעש של 35 dB",
+   "מי שרוצה תא הקפאה נפרד בנפח 100 ליטר בתחתית המקרר",
+   "מי שמעוניין לנהל את המקרר מהטלפון באפליקציית SmartThings"
+  ],
+  "considerations": [
+   "יש לוודא שנישת הארון מתאימה למידות המקרר 69 × 193.5 × 55 ס״מ ולהוראות ההתקנה של היצרן",
+   "המקרר אינטגרלי ודורש חזית ארון ונגר או מתקין להרכבה",
+   "כדאי לבדוק מראש את כיוון פתיחת הדלת הנדרש במטבח, הדלתות ניתנות להפיכה",
+   "יש לוודא שקע חשמל זמין בתוך הנישה או בסמוך לה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 389 ליטר: 289 ליטר בתא הקירור ו-100 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 69 ס״מ, גובה 193.5 ס״מ ועומק 55 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר שקט?",
+    "a": "עוצמת הרעש לפי תווית האנרגיה של היצרן היא 35 dB.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל המקרר צורך?",
+    "a": "צריכת האנרגיה השנתית היא 206 קוט״ש, בדירוג אנרגטי D לפי התקן האירופאי.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להפוך את כיוון פתיחת הדלת?",
+    "a": "כן, הדלתות ניתנות להפיכה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר אינטגרלי Samsung BRB38G705DWW עם מקפיא תחתון, נפח 389 ליטר ומידות 69 × 193.5 × 55 ס״מ, No Frost. בחדד אלקטריק נהריה",
+  "keywords": [
+   "BRB38G705DWW",
+   "מקרר אינטגרלי סמסונג",
+   "סמסונג BRB38G705DWW",
+   "מקרר אינטגרלי מקפיא תחתון",
+   "מקרר אינטגרלי 389 ליטר",
+   "מקרר אינטגרלי רוחב 69",
+   "BRB38G705DWWEF",
+   "מקרר סמסונג No Frost אינטגרלי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "389 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "69 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "193.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "55 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "78 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "92 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "D",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "206 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "35 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "Twin Cooling Plus",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "Digital Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "סוג התקנה",
+   "catalogValue": "אינטגרלי עם ציר החלקה (Slide Hinge)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "289 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "100 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "אפשרות להיפוך כיוון פתיחת הדלת",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "תמיכה באפליקציית SmartThings",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ללא שבת",
+   "catalogValue": "ללא שבת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח ותדירות",
+   "catalogValue": "220-240V, 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סיווג אקלים",
+   "catalogValue": "SN-T",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג תאורה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "LED",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Zap lists this model with energy class E, while the Samsung EU energy label and Kreizman both say D. The manufacturer label (D) is used.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Samsung and Kreizman use the suffix BRB38G705DWWEF for the same product line. The catalog code BRB38G705DWW appears on the EU energy label and in Zap listings. Confirm which Israeli SKU is stocked.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "Catalog net weight is 78 kg. Samsung Italia lists net weight 92 kg. Check the catalog value.",
+   "severity": "medium"
+  },
+  {
+   "field": "ללא שבת",
+   "issue": "No page confirmed a Shabbat mode for this exact model. A Zap listing for the BRB38G705DWWM variant mentions one, which is a different model code.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Samsung Italia and Kreizman use the suffix BRB38G705DWWEF; the catalog code is BRB38G705DWW. Confirm the Israeli SKU stocked.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "Catalog lists 78 kg net weight; research reports Samsung Italia lists 92 kg. Check the catalog value.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Zap reportedly lists energy class E while the Samsung EU energy label says D.",
+   "severity": "low"
+  },
+  {
+   "field": "ללא שבת",
+   "issue": "Catalog name says no Shabbat mode; no source confirmed either way for this model code.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0: removed the humidity claim, which the quote does not support. Feature 1: removed the 'lower temperature' claim, which the quote does not state. Installation 0: removed the Slide Hinge mention, which the quote does not support. All facts kept."
+ }
+}

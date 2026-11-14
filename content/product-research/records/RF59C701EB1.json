@@ -1,0 +1,398 @@
+{
+ "modelNumber": "RF59C701EB1",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RF59C701EB1",
+  "israeliImporter": "ניופרו (Newpharm)",
+  "matchConfidence": "high",
+  "notes": "נמצאו דפי קמעונאים ישראליים לדגם המדויק; אין דף יצרן עם מפרט. | QA: כמה קמעונאים ישראליים מציגים את הדגם המדויק RF59C701EB1 עם נפחים ומידות זהים לקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-4-דלתות-649-ליטר-samsung-5102203rf59c701eb1",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/product.aspx?id=21921",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/מוצרים/מקרר-מקפיא-תחתון-4-דלתות-סמסונג-⁦rf59c701eb1⁩/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.electromenager-compare.com/refrigerateur-SAMRF59C701EB1-SAMSUNG-RF59C701EB1.htm",
+   "publisher": "Electromenager-Compare",
+   "kind": "review",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s5",
+   "url": "https://underdog.shop/pages/modeles/refrigerateur-americain-samsung-rf59c701eb1",
+   "publisher": "Underdog",
+   "kind": "retailer",
+   "market": "FR",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s6",
+   "url": "https://www.citydeal.co.il/product/samsung-rf59c701eb1",
+   "publisher": "City Deal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "649 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "390 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "259 ליטר"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת קנקן מים",
+     "value": "1.4 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "91.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "177.9 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "72.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק גוף ללא דלתות",
+     "value": "61 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבר דלת מינימלי לאחר פירוק דלתות",
+     "value": "64 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "362 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תפוקת יצרן קרח",
+     "value": "1.2 ק״ג ליום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מדחס",
+     "value": "Digital Inverter"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות על המדחס",
+     "value": "10 שנים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "הקטלוג אומר שחור מט",
+     "label": "צבע",
+     "value": "נירוסטה מושחרת"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s4",
+      "s5"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "36 dB"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s6"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית SpaceMax לניצול חכם של החלל הפנימי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קירור היקפי All Around Cooling בתא הקירור ובתא ההקפאה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יצרן קרח אוטומטי במקפיא השמאלי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "SmartThings לא מופיע בציטוט",
+   "text": "בקרה והתראות דרך הטלפון החכם ודרך המקרר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סימן T – מתאים לאקלים טרופי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר סמסונג RF59C701EB1 עם מקפיא תחתון ונפח כולל של 649 ליטר – 390 ליטר בתא הקירור ו-259 ליטר בתא ההקפאה. כולל יצרן קרח אוטומטי בתפוקה של 1.2 ק״ג ליום וקנקן מים במילוי אוטומטי של 1.4 ליטר, ומדחס Digital Inverter עם אחריות של 10 שנים. מתאים למי שמחפש מקרר רחב בנפח גדול עם קרח ומים קרים בלי חיבור לברז שתייה חיצוני.",
+  "highlights": [
+   "נפח כולל 649 ליטר: 390 ליטר קירור ו-259 ליטר הקפאה",
+   "יצרן קרח אוטומטי – 1.2 ק״ג קרח ליום",
+   "קנקן מים במילוי אוטומטי בנפח 1.4 ליטר",
+   "מדחס Digital Inverter עם אחריות 10 שנים למדחס",
+   "רמת רעש 36 dB"
+  ],
+  "goodFor": [
+   "משפחות שצריכות נפח אחסון גדול גם בקירור וגם בהקפאה",
+   "מי שרוצה קרח זמין כל הזמן בלי למלא תבניות",
+   "מטבח פתוח שבו רמת רעש נמוכה (36 dB) חשובה",
+   "אקלים חם – המקרר נושא סימן T לאקלים טרופי"
+  ],
+  "considerations": [
+   "יש לוודא נישה ברוחב 91.2 ס״מ ובגובה 177.9 ס״מ לפחות, עם מרווח אוורור",
+   "העומק הכולל 72.3 ס״מ (61 ס״מ גוף ללא דלתות) – כדאי לבדוק בליטה מעבר למשטח העבודה",
+   "יש למדוד את מעברי הדלתות בבית: נדרש מעבר מינימלי של 64 ס״מ לאחר פירוק דלתות",
+   "הגימור מופיע אצל קמעונאים כנירוסטה מושחרת – כדאי לראות את הגוון בחנות"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל 649 ליטר: 390 ליטר בתא הקירור ו-259 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "כמה קרח מייצר יצרן הקרח?",
+    "a": "יצרן הקרח האוטומטי מותקן במקפיא השמאלי ומייצר עד 1.2 ק״ג קרח ליום.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 91.2 ס״מ, גובה 177.9 ס״מ ועומק 72.3 ס״מ; עומק הגוף ללא דלתות 61 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל?",
+    "a": "דירוג אנרגטי E וצריכה שנתית של 362 קוט״ש, עם מדחס Digital Inverter.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר ייכנס דרך דלת הכניסה?",
+    "a": "לאחר פירוק הדלתות נדרש מעבר מינימלי של 64 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר סמסונג RF59C701EB1 עם מקפיא תחתון בנפח 649 ליטר עם יצרן קרח אוטומטי 1.2 ק״ג ליום וקנקן מים במילוי אוטומטי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "RF59C701EB1",
+   "מקרר סמסונג 4 דלתות",
+   "מקרר סמסונג 649 ליטר",
+   "מקרר 4 דלתות עם יצרן קרח",
+   "מקרר מקפיא תחתון סמסונג",
+   "מקרר סמסונג שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "649 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "91.2×177.9×72.3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "finish",
+   "issue": "הקטלוג אומר שחור מט; קמעונאים ישראליים מציינים נירוסטה מושחרת / Black Elegant",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין שחור מט, טרקלין מציין נירוסטה מושחרת – לאמת את הגימור",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "תכונה 3: הוסר השם SmartThings שאינו מופיע בציטוט, נוסח מחדש לבקרה דרך הטלפון החכם. צבע: טרקלין מציין נירוסטה מושחרת לעומת שחור מט בקטלוג — נשמר לפי המקור וסומן לבדיקה."
+ }
+}

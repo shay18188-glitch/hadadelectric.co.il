@@ -1,0 +1,439 @@
+{
+ "modelNumber": "NV68A1140BS",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "NV68A1140BS",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "דף סמסונג ישראל מציג את הדגם כ-NV68A1140BS/EF. | QA: Samsung Israel page names NV68A1140BS (listed as NV68A1140BS/EF), 68 liters, catalytic, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/cooking-appliances/ovens/nv68a1140-nv68a1140bs-ef",
+   "publisher": "Samsung ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://zax.co.il/samsung-nv68a1140bs/",
+   "publisher": "Zax",
+   "kind": "review",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bettershop.co.il/product/samsung-nv68a1140bs/",
+   "publisher": "בטרשופ",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "NV68A1140BS"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "68 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "595 × 595 × 570 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "560 × 578 × 549 מ״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "31.4 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2600 W (230 V) – 2800 W (240 V)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיטת ניקוי",
+     "value": "קטליטי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific warranty offer; sources disagree on terms.",
+     "label": "אחריות",
+     "value": "3 שנים: שנה מלאה חינם ושנתיים נוספות בהרחבה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית True Convection עם מאוורר מחומם לפיזור חום אחיד בכל חלל התנור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניקוי קטליטי: הציפוי בחלק האחורי של החלל סופח שומן שניתז במהלך הבישול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קיבולת של 68 ליטר לבישול מנות רבות וגדולות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הגנה מפני גלי מתח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נדרשת גומחה בגודל 560 × 578 × 549 מ״מ (רוחב × גובה × עומק)"
+  }
+ ],
+ "content": {
+  "summary": "Samsung NV68A1140BS הוא תנור בנוי חשמלי עם תא אפייה של 68 ליטר וטכנולוגיית True Convection, שבה מאוורר מחומם מפזר את החום באופן אחיד בכל חלל התנור. הדופן האחורית מצופה בציפוי קטליטי שסופח שומן שניתז בזמן הבישול, והתנור מדורג A באנרגיה. מתאים למי שמחפש תנור בנוי במידה סטנדרטית של 595 × 595 מ״מ עם תא גדול ותחזוקה נוחה.",
+  "highlights": [
+   "תא אפייה בנפח 68 ליטר",
+   "True Convection: מאוורר מחומם לפיזור חום אחיד",
+   "ניקוי קטליטי בדופן האחורית",
+   "דירוג אנרגטי A",
+   "הגנה מפני גלי מתח"
+  ],
+  "goodFor": [
+   "בישול מנות גדולות או כמה מנות במקביל בזכות תא של 68 ליטר",
+   "מי שרוצה אפייה אחידה בכל פינות התנור עם מאוורר מחומם",
+   "מי שמעדיף לצמצם ניקוי ידני של הדופן האחורית בזכות הציפוי הקטליטי",
+   "החלפת תנור בנוי קיים בנישה סטנדרטית"
+  ],
+  "considerations": [
+   "יש לוודא שמידות הגומחה במטבח מתאימות ל-560 × 578 × 549 מ״מ",
+   "הספק התנור 2600 W – 2800 W, ולכן כדאי לבדוק עם חשמלאי שהשקע והקו מתאימים",
+   "משקל התנור 31.4 ק״ג, ולכן ההתקנה בגומחה נעשית בדרך כלל בשני אנשים",
+   "הציפוי הקטליטי נמצא בחלק האחורי של החלל, ושאר הדפנות עדיין דורשות ניקוי רגיל"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "תא האפייה של Samsung NV68A1140BS בנפח 68 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "איזו גומחה נדרשת להתקנה?",
+    "a": "לפי סמסונג, מידות הגומחה הן 560 × 578 × 549 מ״מ (רוחב × גובה × עומק). המידות החיצוניות של התנור הן 595 × 595 × 570 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "איך עובד הניקוי בתנור?",
+    "a": "התנור כולל ציפוי קטליטי בחלק האחורי של החלל, שסופח שומן שניתז ומטפטף בזמן הבישול.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של התנור?",
+    "a": "ההספק הוא 2600 W במתח 230 V ועד 2800 W במתח 240 V.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי?",
+    "a": "התנור מדורג A באנרגיה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Samsung NV68A1140BS בנפח 68 ליטר עם True Convection וניקוי קטליטי, דירוג אנרגטי A. מפרט מלא ומידות גומחה בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung NV68A1140BS",
+   "NV68A1140BS",
+   "תנור בנוי סמסונג",
+   "תנור בנוי 68 ליטר",
+   "תנור קטליטי סמסונג",
+   "תנור בנוי נירוסטה",
+   "תנור בנוי דיגיטלי",
+   "מידות גומחה תנור סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Samsung",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "68 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "59.5 × 59.5 × 57 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות נישה להתקנה",
+   "catalogValue": "56 × 57.8 × 54.9 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "31.4 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "2600W-2800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק טורבו",
+   "catalogValue": "1800W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק גריל עליון",
+   "catalogValue": "1600W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50°C-250°C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "230V-240V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שיטת ניקוי",
+   "catalogValue": "ניקוי קטליטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה פנימית",
+   "catalogValue": "הלוגן 25W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג דלת",
+   "catalogValue": "זכוכית משולשת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "אמייל קרמי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "תאילנד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים: שנה מלאה חינם ושנתיים נוספות בהרחבה",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "identity",
+   "issue": "דף סמסונג ישראל מציג את הדגם כ-NV68A1140BS/EF. לוודא שהגרסה הנמכרת בחנות תואמת לסיומת הזו.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "מקורות סותרים על תקופת האחריות: בטרשופ מציין 3 שנים דרך היבואן ניופרו, וזקס מציין שנה מלאה מסמסונג ישראל והרחבה ל-4 שנים נוספות. לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "זקס מציין גובה חיצוני 596 מ״מ וגובה גומחה 579 מ״מ; דף סמסונג ישראל מציין 595 ו-578 מ״מ. לבדוק במדידה לפני התקנה.",
+   "severity": "low"
+  },
+  {
+   "field": "origin",
+   "issue": "מדינת הייצור (תאילנד) שבקטלוג לא אומתה במקורות שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "דף סמסונג ישראל מציג את הדגם כ-NV68A1140BS/EF; לוודא שהגרסה הנמכרת תואמת לסיומת זו.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "תנאי האחריות לא פורסמו: מקורות קמעונאיים מציינים תנאים שונים. לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "מקור ביקורת מציין גובה 596 מ״מ וגובה גומחה 579 מ״מ, לעומת 595 ו-578 מ״מ בדף סמסונג. כדאי למדוד לפני התקנה.",
+   "severity": "low"
+  },
+  {
+   "field": "catalog",
+   "issue": "טווח טמפרטורות, הספק גריל וטורבו, תאורה, דלת משולשת, ציפוי אמייל ומדינת ייצור בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact 8: it is a retailer-specific offer (one free year plus a two-year extension) and another source states different terms; warranty should be confirmed with the importer."
+ }
+}

@@ -1,0 +1,488 @@
+{
+ "modelNumber": "GN1406222GW",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Beko",
+  "exactModel": "GN1406222GW",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "high",
+  "notes": "Official Israeli importer Minilin per the retailer listings. No manufacturer, importer or manual page was reached; facts come from Israeli retailer pages that name this exact model. | QA: Both Israeli retailer pages name GN1406222GW, 4 doors, white glass, 572 L, matching the catalog. No manufacturer or importer page reached."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bettershop.co.il/product/beko_gn1406222gw/",
+   "publisher": "BetterShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ace.co.il/4484103",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "182 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "90.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "70.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק ללא דלתות",
+     "value": "62 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote does not say gross; label fixed.",
+     "label": "נפח כולל",
+     "value": "572 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא מזון טרי וקירור",
+     "value": "376 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "196 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת הקפאה יומית",
+     "value": "4.6 ק״ג ליום"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן שימור בהפסקת חשמל",
+     "value": "10 שעות"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דרגת יעילות אנרגטית",
+     "value": "F"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "413.86 קוט״ש לשנה"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "39 dBA"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "זכוכית לבנה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote says front top trim, not on the door.",
+     "label": "לוח פיקוד",
+     "value": "תצוגה אלקטרונית במסגרת העליונה הקדמית (Touch)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, יבואן רשמי מיני ליין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote does not mention two separate systems.",
+   "text": "טכנולוגיית הקירור NeoFrost של Beko"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "No Frost (קירור יבש)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Multi Air Flow: מערכת זרימת אוויר אחידה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ממיר מתח למדחס ProSmart"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מאושר לשימוש בשבת ובחג על ידי מכון צ.מ.ת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכונת קרח: מגש קרח סובב והגש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר מרובה דלתות של Beko, דגם GN1406222GW, בגימור זכוכית לבנה ובנפח כולל של 572 ליטר: 376 ליטר לתא המזון הטרי ו-196 ליטר לתא ההקפאה. המידות 182×90.8×70.5 ס״מ, והוא פועל בקירור No Frost עם טכנולוגיית NeoFrost ומדחס ProSmart, ברמת רעש של 39 dBA. מתאים למי שמחפש מקרר רחב עם תא הקפאה גדול ואישור לשימוש בשבת.",
+  "highlights": [
+   "נפח כולל 572 ליטר, מתוכם 196 ליטר הקפאה",
+   "קירור No Frost עם טכנולוגיית NeoFrost",
+   "רמת רעש 39 dBA",
+   "מאושר לשימוש בשבת ובחג על ידי מכון צ.מ.ת",
+   "מגש קרח סובב והגש"
+  ],
+  "goodFor": [
+   "משפחה שמקפיאה הרבה, בזכות תא הקפאה של 196 ליטר",
+   "בית שומר שבת, בזכות אישור מכון צ.מ.ת",
+   "מטבח פתוח, בזכות רמת רעש של 39 dBA"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה לרוחב 90.8 ס״מ ולגובה 182 ס״מ",
+   "העומק עם הדלתות הוא 70.5 ס״מ, וללא הדלתות 62 ס״מ, כדאי למדוד את מעבר הדלתות בכניסה למטבח",
+   "דרגת היעילות האנרגטית היא F וצריכת האנרגיה השנתית 413.86 קוט״ש",
+   "יש לוודא שקע חשמל זמין בקרבת הנישה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 572 ליטר: 376 ליטר לתא המזון הטרי ו-196 ליטר לתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "גובה 182 ס״מ, רוחב 90.8 ס״מ ועומק 70.5 ס״מ. ללא הדלתות העומק הוא 62 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר מתאים לשבת?",
+    "a": "כן, הוא מאושר לשימוש בשבת ובחג על ידי מכון צ.מ.ת.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן המקרר שומר על הקור בהפסקת חשמל?",
+    "a": "זמן השימור בהפסקת חשמל הוא 10 שעות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "שנה, באחריות היבואן הרשמי מיני ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מרובה דלתות Beko GN1406222GW בזכוכית לבנה, 572 ליטר עם 196 ליטר הקפאה, No Frost ורמת רעש 39 dBA. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Beko GN1406222GW",
+   "מקרר בקו 4 דלתות",
+   "מקרר 4 דלתות לבן",
+   "מקרר 572 ליטר",
+   "מקרר בקו זכוכית לבנה",
+   "מקרר No Frost 4 דלתות",
+   "מקרר 4 דלתות מאושר לשבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "572 ליטר (נפח ברוטו: 626 ליטר)",
+   "finding": "corrected",
+   "correctValue": "572 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח אחסון תא הקפאה",
+   "catalogValue": "165-196 ליטר",
+   "finding": "corrected",
+   "correctValue": "196 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח אחסון תא מקרר",
+   "catalogValue": "376 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 182 ס\"מ, רוחב 90.8 ס\"מ, עומק 70.5 ס\"מ (עומק ללא דלתות: 62 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "ProSmart Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "39 dBA",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת קירור",
+   "catalogValue": "No Frost כפול (NeoFrost Dual Cooling)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לוח פיקוד דיגיטלי",
+   "catalogValue": "Touch על גבי הדלת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שבת",
+   "catalogValue": "מאושר לשימוש בשבת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "HarvestFresh",
+   "catalogValue": "טכנולוגיית HarvestFresh",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "IonGuard",
+   "catalogValue": "מערכת IonGuard",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "MultiZone",
+   "catalogValue": "תא MultiZone",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורת LED",
+   "catalogValue": "תאורת LED היקפית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתקן קרח",
+   "catalogValue": "מתקן קרח ידני מסוג Twist & Serve",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת אנרגיה שנתית",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "413.86 קוט״ש לשנה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח כולל",
+   "issue": "Capacity conflicts across sources. BetterShop lists 580 L gross, 535 L net, 377 L fresh and 158 L freezer. ACE lists 572 L with 376 L fresh and 196 L freezer. The catalog says 626 L gross. Check the manufacturer data sheet before publishing the capacity.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty terms differ. ACE lists one year through the importer. BetterShop lists one year plus 9 years on the compressor for an extra 199 fee.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No manufacturer, importer or user manual page was reached, so the Israeli variant is confirmed only by retailer pages. Confirm with Minilin or the EU energy label.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "A search snippet from one listing showed energy class B, and another listing showed a 91.5 cm width. Neither page was fetched. Confirm the energy class and width on the EU label or data sheet.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח כולל",
+   "issue": "The researcher reported different capacity figures on BetterShop (580 L gross, 535 L net, 377 L fresh, 158 L freezer) than on ACE (572/376/196), and the catalog lists 626 L gross and a 165-196 L freezer range. The published figures come from ACE. Confirm against the manufacturer data sheet or EU label.",
+   "severity": "high"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "An unfetched search snippet reportedly showed energy class B and another listing a 91.5 cm width. Confirm energy class and width on the EU label.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Only Israeli retailer pages were reached; no manufacturer or importer page confirms the Israeli variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog mentions HarvestFresh, IonGuard, MultiZone and LED lighting, none of which were verified in the sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 4 label changed from 'נפח כולל (ברוטו)' to 'נפח כולל' (the quote does not say gross). Fact 13 value corrected to match the quote (display on the front top trim, not 'on the door'). Feature 0 reworded: the quote does not mention two separate cooling systems. Warranty value reworded to name the importer. Capacity figures kept from ACE (376 + 196 = 572 is internally consistent) but flagged because the researcher reported different BetterShop figures that were not quoted."
+ }
+}

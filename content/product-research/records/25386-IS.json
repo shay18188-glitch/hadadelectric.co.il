@@ -1,0 +1,468 @@
+{
+ "modelNumber": "25386-IS",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "25386-IS",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Four Israeli retailer pages (Lior, Avi Sofer, Sol, E-zone) name model 25386-IS and give the same specifications. No manufacturer or importer page for this exact model was found in search. | QA: Four Israeli retailer pages name model 25386-IS with matching specifications; importer named on two pages. Catalog brand misspelled (Hemilton)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/25386-is",
+   "publisher": "Sol",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.e-zone.co.il/product/%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%9C%D7%97%D7%99%D7%A6%D7%94-hamilton-beach-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F-%D7%91%D7%99%D7%A5-25386-is",
+   "publisher": "E-zone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.lior-electric.co.il/product/%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%92%D7%A8%D7%99%D7%9C-%D7%95%D7%95%D7%A4%D7%9C-%D7%91%D7%9C%D7%92%D7%99-hamilton-beach-%D7%93%D7%92%D7%9D-25386-is/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%9C%D7%97%D7%99%D7%A6%D7%94-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F-%D7%91%D7%99%D7%A5-25386-is/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טרמוסטט",
+     "value": "אוטומטי ומדויק"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "35.5 × 16.5 × 35 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משטח עבודה במצב סגור",
+     "value": "29 × 23 ס״מ"
+    },
+    {
+     "sources": [
+      "s1",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משטח עבודה במצב פתוח (180°)",
+     "value": "29 × 46 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג פלטות",
+     "value": "נשלפות ומתחלפות (גריל / וופל בלגי)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ציפוי פלטות",
+     "value": "Non-Stick (מניעת הידבקות)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בקרת גובה",
+     "value": "5 מצבים ונעילה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote does not say removable; reworded.",
+     "label": "מגש איסוף שומן",
+     "value": "יש, לריקון וניקוי אחרי כל שימוש"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "קבוע או עד 30 דקות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "מלאה לשנה ע״י שאוליאן סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טוסטר לחיצה, גריל ומכין וופל בלגי במכשיר אחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נפתח ל-180 מעלות למצב ברביקיו"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removable not stated in quote.",
+   "text": "מגש לאיסוף שומן שמרוקנים ומנקים אחרי כל שימוש"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ידית הפעלה במגע קל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טוסטר לחיצה של Hamilton Beach, דגם 25386-IS, שמשלב טוסטר, גריל ומכין וופל בלגי עם פלטות נשלפות ומתחלפות. ההספק 2200 W, משטח העבודה 29 × 23 ס״מ במצב סגור, והמכשיר נפתח ל-180 מעלות למשטח של 29 × 46 ס״מ. מתאים למי שרוצה מכשיר אחד לטוסטים, צלייה ווופלים.",
+  "highlights": [
+   "הספק 2200 W",
+   "פלטות נשלפות ומתחלפות: גריל או וופל בלגי",
+   "נפתח ל-180 מעלות למשטח 29 × 46 ס״מ",
+   "בקרת גובה ב-5 מצבים ונעילה",
+   "טיימר עד 30 דקות או הפעלה קבועה"
+  ],
+  "goodFor": [
+   "מי שרוצה להכין טוסטים וגם וופל בלגי באותו מכשיר",
+   "צלייה על משטח פתוח בסגנון ברביקיו",
+   "מזון בעוביים שונים בזכות בקרת הגובה",
+   "מי שמעדיף פלטות שאפשר לשלוף לניקוי"
+  ],
+  "considerations": [
+   "המידות 35.5 × 16.5 × 35 ס״מ: כדאי לבדוק מקום על השיש ובאחסון",
+   "הספק 2200 W: עדיף שקע נפרד ולא מפצל עמוס",
+   "במצב פתוח המשטח מגיע ל-29 × 46 ס״מ, כך שנדרש מקום פנוי סביב המכשיר",
+   "את מגש איסוף השומן צריך לרוקן ולנקות אחרי כל שימוש"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להכין בו וופל בלגי?",
+    "a": "כן, המכשיר מגיע עם פלטות נשלפות ומתחלפות של גריל ושל וופל בלגי.",
+    "sources": []
+   },
+   {
+    "q": "מה גודל משטח העבודה?",
+    "a": "29 × 23 ס״מ במצב סגור, ו-29 × 46 ס״מ כשהוא פתוח ל-180 מעלות.",
+    "sources": []
+   },
+   {
+    "q": "יש בו טיימר?",
+    "a": "כן, טיימר עד 30 דקות או מצב הפעלה קבוע.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להתאים אותו לכריכים עבים?",
+    "a": "כן, יש בקרת גובה ב-5 מצבים עם אפשרות נעילה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות מלאה לשנה ע״י שאוליאן סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר לחיצה גריל ווופל בלגי Hamilton Beach 25386-IS, הספק 2200 W ופלטות נשלפות ומתחלפות, נפתח ל-180 מעלות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר לחיצה המילטון ביץ'",
+   "Hamilton Beach 25386-IS",
+   "טוסטר וופל בלגי",
+   "טוסטר גריל פלטות נשלפות",
+   "טוסטר לחיצה 2200 וואט",
+   "מכשיר וופל בלגי וטוסט",
+   "גריל לחיצה חשמלי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "35.5 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "35 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "16.5 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משטח עבודה במצב סגור",
+   "catalogValue": "29X23 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח עבודה במצב פתוח",
+   "catalogValue": "29X46 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג פלטות",
+   "catalogValue": "נשלפות ומתחלפות (גריל + וופל בלגי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי פלטות",
+   "catalogValue": "Non-Stick (מניעת הידבקות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרת גובה",
+   "catalogValue": "5 מצבים ואפשרות נעילה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 30 דקות או מצב הפעלה קבוע",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טרמוסטט",
+   "catalogValue": "אוטומטי ומדויק",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מגש איסוף",
+   "catalogValue": "מגש נשלף לאיסוף נוזלים ושומנים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית",
+   "catalogValue": "מגע קל וארגונומית",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "חומר חיצוני",
+   "catalogValue": "נירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נוריות חיווי",
+   "catalogValue": "ירוק (פעולה), אדום (חימום)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גופי חימום",
+   "catalogValue": "נסתרים בתוך גוף משטחי הצלייה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Hemilton Beach",
+   "finding": "corrected",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "ארה״ב (עיצוב) / סין (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אחריות מלאה לשנה ע”י שאוליאן סחר",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "The catalog brand is spelled Hemilton Beach; the Israeli retailer pages and the product name say Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer or user manual page naming model 25386-IS was found. All facts rest on Israeli retailer pages, which agree with each other.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "The catalog origin (design in USA, manufacturing in China) is not stated on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand is spelled Hemilton Beach; sources say Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on Israeli retailer pages; no manufacturer or importer page for 25386-IS was found.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog claims stainless steel exterior, indicator light colors, hidden heating elements and removable grease tray are not confirmed by any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 9 value reworded: the quote confirms a grease collection tray that is emptied and cleaned, not that it is removable. Feature 2 reworded the same way. Warranty value names the importer as in the quote."
+ }
+}

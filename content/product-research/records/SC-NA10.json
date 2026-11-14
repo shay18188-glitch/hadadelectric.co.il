@@ -1,0 +1,381 @@
+{
+ "modelNumber": "SC-NA10",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "SC-NA10",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם משנת השקה 2013 (לפי הודעת העיתונות של פנסוניק). לא נמצא דף יבואן ישראלי או קמעונאי ישראלי לדגם זה. מידות המפורסמות כוללות את הכיסוי; ללא כיסוי: 200 mm k 99 mm k 29 mm. | QA: הודעת העיתונות של פנסוניק, חוברת ההוראות SC-NA30/SC-NA10 והביקורות מתייחסים לדגם SC-NA10 עצמו. לא נמצא יבואן ישראלי."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://marine.manualsonline.com/manuals/mfg/panasonic/scna30scna10.html?p=17",
+   "publisher": "ManualsOnline (Panasonic SC-NA30/SC-NA10 manual)",
+   "kind": "manual",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://prnewswire.com/news-releases/panasonic-announces-new-portable-speaker-systems-designed-with-industry-leading-playback-time-231428501.html",
+   "publisher": "Panasonic Consumer Electronics (PR Newswire)",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.aptx.com/products/panasonic-sc-na10-bluetoothr-speaker-system",
+   "publisher": "aptX (Qualcomm)",
+   "kind": "other",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.whathifi.com/panasonic/sc-na10/review",
+   "publisher": "What Hi-Fi?",
+   "kind": "review",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s5",
+   "url": "https://frontum.co.uk/portable-speakers/panasonic-sc-na10",
+   "publisher": "Frontum",
+   "kind": "review",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "204 × 105 × 41 מ״מ (כולל הכיסוי)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל",
+     "value": "כ-12 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוללה מובנית",
+     "value": "ליתיום-יון, 7.4 V, ‏1240 mAh"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "נתון מרבי; לפי הסוקרים במצב חיסכון LP",
+     "label": "זמן ניגון מהסוללה",
+     "value": "עד 20 שעות"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s4",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיבור אלחוטי",
+     "value": "Bluetooth ו-NFC"
+    },
+    {
+     "sources": [
+      "s5",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קודק שמע",
+     "value": "aptX Low Latency"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דיבורית מובנית: מיקרופון מאפשר לנהל שיחות טלפון דרך הרמקול"
+  },
+  {
+   "sources": [
+    "s2",
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טעינת סמארטפון או טאבלט דרך כבל USB, גם בזמן ניגון"
+  },
+  {
+   "sources": [
+    "s2",
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הכיסוי משמש גם כמעמד לרמקול"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שני רמקולים קדמיים ורדיאטור פסיבי לשיפור הבאס"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Panasonic SC-NA10 הוא רמקול Bluetooth נייד עם כיסוי מגן שנפתח ומשמש כמעמד. הוא מציע עד 20 שעות ניגון מהסוללה, חיבור בנגיעה ב-NFC ותמיכה בקודק aptX Low Latency. מתאים למי שמחפש רמקול קומפקטי לבית ולדרכים, שיכול גם לטעון את הטלפון ולשמש כדיבורית.",
+  "highlights": [
+   "עד 20 שעות ניגון מהסוללה",
+   "חיבור Bluetooth וצימוד בנגיעה ב-NFC",
+   "תמיכה בקודק aptX Low Latency",
+   "טעינת טלפון דרך USB גם בזמן ניגון",
+   "דיבורית מובנית עם מיקרופון"
+  ],
+  "goodFor": [
+   "האזנה למוזיקה מחוץ לבית, הודות לסוללה מובנית וכיסוי מגן",
+   "טעינת הטלפון בדרכים כשאין שקע זמין",
+   "שיחות טלפון בדיבורית מהשולחן, כשהכיסוי משמש כמעמד",
+   "צפייה בווידאו מטלפון שתומך ב-aptX Low Latency"
+  ],
+  "considerations": [
+   "זמן הניגון של עד 20 שעות הוא נתון מרבי; בשימוש רגיל הוא קצר יותר",
+   "כדאי לבדוק שהטלפון תומך ב-aptX כדי ליהנות מהקודק",
+   "צימוד בנגיעה דורש טלפון עם NFC; אחרת מתחברים ב-Bluetooth רגיל",
+   "המידות 204 × 105 × 41 מ״מ כוללות את הכיסוי"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן הרמקול מנגן על סוללה?",
+    "a": "לפי פנסוניק עד 20 שעות ניגון מהסוללה המובנית.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לטעון את הטלפון מהרמקול?",
+    "a": "כן, דרך כבל USB, גם בזמן שהמוזיקה מתנגנת.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לדבר בטלפון דרך הרמקול?",
+    "a": "כן, יש מיקרופון מובנה והרמקול משמש כדיבורית.",
+    "sources": []
+   },
+   {
+    "q": "איך מתחברים לרמקול?",
+    "a": "ב-Bluetooth, או בנגיעה בטלפון שתומך ב-NFC.",
+    "sources": []
+   },
+   {
+    "q": "באיזה קודק הוא תומך?",
+    "a": "הרמקול תומך ב-aptX Low Latency.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "רמקול Bluetooth נייד Panasonic SC-NA10 עם עד 20 שעות ניגון, NFC ו-aptX Low Latency, כיסוי שמשמש כמעמד וטעינת טלפון ב-USB. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Panasonic SC-NA10",
+   "רמקול פנסוניק נייד",
+   "רמקול בלוטוס נייד",
+   "רמקול בלוטוס עם NFC",
+   "רמקול aptX",
+   "רמקול נייד עם דיבורית",
+   "רמקול נייד עם טעינת טלפון",
+   "SC-NA10"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "204 x 105 x 41 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-513 גרם כולל נרטיק",
+   "finding": "contradicted",
+   "correctValue": "415 גרם (ללא כיסוי)",
+   "sources": [
+    "s5"
+   ]
+  },
+  {
+   "field": "טכנולוגיית NFC",
+   "catalogValue": "חיבור בנגיעה אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "כניסות",
+   "catalogValue": "כניסת AUX (3.5 מ\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s5"
+   ]
+  },
+  {
+   "field": "קודקים",
+   "catalogValue": "Bluetooth Ver 3.0 עם תמיכה ב-aptX ו-AAC",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "עד 20 שעות (במצב Long Play) או 10 שעות (במצב רגיל)",
+   "finding": "unverifiable",
+   "sources": [
+    "s5"
+   ]
+  },
+  {
+   "field": "הספק פלט",
+   "catalogValue": "10 וואט (5W x 2)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת רמקולים",
+   "catalogValue": "2 רמקולים בטווח מלא (4 ס\"מ) ורדיאטור פסיבי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כ-12 W",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "המודל SC-NA10 מופיע בהודעת העיתונות של פנסוניק, בחוברת ההוראות ובביקורות, אך לא נמצא דף של יבואן ישראלי או קמעונאי ישראלי לדגם זה. הגרסה הישראלית לא ברורה.",
+   "severity": "high"
+  },
+  {
+   "field": "סטטוס",
+   "issue": "נראה שהדגם הופסק: הדגם הושק ב-2013 ודפי חלוקה של פנסוניק מציינים אותו כמוצר שהופסק (דף UK של המוצר בגרסת EB, דרך תוצאות חיפוש בלבד ולא נפתח). יש לבדוק זמינות לפני מכירה.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין כ-513 גרם כולל נרטיק, ואתר ההשוואה Frontum מציין 415 גרם. ייתכן שההבדל נובע מהכיסוי; יש לאמת מול מפרט היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק פלט",
+   "issue": "הקטלוג מציין 10 וואט (5W x 2). Frontum מציין 10 W, אך בסיכומו מציין 8 W RMS על סוללה ו-10 W דרך מתאם AC. מפרט היצרן לא נפתח ולא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן ניגון",
+   "issue": "20 שעות מתקבלות רק במצב LP (Long Play), לפי ביקורת What Hi-Fi. במצב רגיל מצוין כ-11 שעות ב-Frontum, והקטלוג מציין 10 שעות. יש להציג את שני המצבים.",
+   "severity": "medium"
+  },
+  {
+   "field": "Bluetooth",
+   "issue": "Frontum מציין Bluetooth 3.0 בטבלת המפרט ו-Bluetooth 4.0 בסיכום. הקטלוג מציין 3.0. לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "קודקים",
+   "issue": "תמיכת AAC שבקטלוג לא אומתה בשום עמוד שנפתח.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות 204 × 105 × 41 mm הן עם הכיסוי. ללא הכיסוי: 200 × 99 × 29 mm.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "לא נמצא יבואן או קמעונאי ישראלי לדגם; הגרסה הישראלית לא ברורה.",
+   "severity": "medium"
+  },
+  {
+   "field": "סטטוס",
+   "issue": "הדגם הושק ב-2013 וייתכן שהופסק.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין כ-513 גרם כולל נרטיק ו-Frontum מציין 415 גרם; לא אומת מול היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן ניגון",
+   "issue": "20 שעות במצב LP בלבד לפי הסוקרים; הקטלוג מציין 10 שעות במצב רגיל ו-Frontum כ-11 שעות. לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "קודקים/Bluetooth",
+   "issue": "תמיכת AAC וגרסת Bluetooth שבקטלוג לא אומתו.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק פלט",
+   "issue": "10 W (5W x 2) שבקטלוג לא אומת מול מפרט היצרן.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים מדפים שמציינים את הדגם. זמן הניגון של עד 20 שעות הוא הנתון המרבי (לפי הסוקרים במצב חיסכון LP); הוספתי ניסוח 'עד' והערה. מקור aptX (Qualcomm) סווג כ-other. אין מקור ישראלי; הדגם משנת 2013 וייתכן שהופסק."
+ }
+}

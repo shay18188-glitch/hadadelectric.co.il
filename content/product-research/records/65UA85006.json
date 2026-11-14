@@ -1,0 +1,384 @@
+{
+ "modelNumber": "65UA85006",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "65UA85006LA",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The store's model number 65UA85006 is the LG code without its LA suffix. LG Israel's page for the set and the Israeli retailer Bug both name 65UA85006LA. Specs below are from that model. | QA: 65UA85006 is the LG code without the LA suffix. LG Israel and Bug both sell 65UA85006LA, which is the Israeli unit."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lg.com/il/tv/lg-65ua85006la",
+   "publisher": "LG Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/טלוויזיה-חכמה-65-lg-4k-uhd-9689745151",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.tvsfaq.com/en/specifications/lg-65ua85006la",
+   "publisher": "TVsFaq",
+   "kind": "other",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1455 × 841 × 67.9 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "1455 × 904 × 269 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "65 אינץ'"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "alpha 7 AI Gen8"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "The quote says HDR 10, not HDR10 Pro",
+     "label": "תמיכה ב-HDR",
+     "value": "HDR10, HLG"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "The quote does not mention VRR or say this is a maximum refresh rate",
+     "label": "קצב רענון במשחקים (VRR)",
+     "value": "עד 60Hz"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סאונד היקפי וירטואלי",
+     "value": "9.1.2 ערוצים וירטואליים"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "webOS 25"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 כניסות (תומכות ב-eARC ו-ALLM)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Stated by retailer Bug, not by LG",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט AI Magic Remote עם לחצן AI, שליטה קולית ופונקציות גרירה ושחרור"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "LG 65UA85006 היא טלוויזיה חכמה בגודל 65 אינץ' עם מעבד alpha 7 AI Gen8 ומערכת webOS 25. היא תומכת ב-HDR10 וב-HLG, ויש לה 3 כניסות HDMI עם eARC ו-ALLM. מתאימה לסלון שמחפש מסך גדול לצפייה בסטרימינג ובשידורים.",
+  "highlights": [
+   "מסך 65 אינץ'",
+   "מעבד תמונה alpha 7 AI Gen8",
+   "מערכת הפעלה webOS 25",
+   "3 כניסות HDMI עם eARC ו-ALLM",
+   "סאונד היקפי וירטואלי 9.1.2"
+  ],
+  "goodFor": [
+   "סלון שבו רוצים מסך גדול של 65 אינץ'",
+   "צפייה באפליקציות סטרימינג דרך webOS 25",
+   "חיבור מקרן קול דרך HDMI eARC",
+   "חיבור קונסולה עם ALLM"
+  ],
+  "considerations": [
+   "בדקו שרוחב הקיר או המזנון מתאים לרוחב של 1455 מ״מ",
+   "בעמידה על המעמד העומק הוא 269 מ״מ, ודאו שהמזנון עמוק מספיק",
+   "לתלייה על הקיר העומק ללא מעמד הוא 67.9 מ״מ, ותצטרכו זרוע מתאימה",
+   "יש 3 כניסות HDMI, ספרו כמה מכשירים תחברו"
+  ],
+  "faq": [
+   {
+    "q": "מה המידות של הטלוויזיה ללא מעמד?",
+    "a": "1455 × 841 × 67.9 מ״מ (רוחב × גובה × עומק).",
+    "sources": []
+   },
+   {
+    "q": "מה המידות עם המעמד?",
+    "a": "1455 × 904 × 269 מ״מ (רוחב × גובה × עומק).",
+    "sources": []
+   },
+   {
+    "q": "כמה כניסות HDMI יש?",
+    "a": "3 כניסות HDMI, עם תמיכה ב-eARC ו-ALLM.",
+    "sources": []
+   },
+   {
+    "q": "איזו מערכת הפעלה יש בטלוויזיה?",
+    "a": "webOS 25.",
+    "sources": []
+   },
+   {
+    "q": "באילו פורמטי HDR היא תומכת?",
+    "a": "HDR10 ו-HLG.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה חכמה LG 65UA85006 בגודל 65 אינץ' עם מעבד alpha 7 AI Gen8 ומערכת webOS 25, ו-3 כניסות HDMI עם eARC. בחדד אלקטריק נהריה",
+  "keywords": [
+   "LG 65UA85006",
+   "65UA85006LA",
+   "טלוויזיה LG 65 אינץ'",
+   "טלוויזיה חכמה 65 אינץ'",
+   "LG UA8500",
+   "טלוויזיה 4K LG",
+   "webOS 25"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך 65 אינץ'",
+   "catalogValue": "65 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב ללא מעמד",
+   "catalogValue": "145.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה ללא מעמד",
+   "catalogValue": "83.0 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "84.1 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק ללא מעמד",
+   "catalogValue": "5.8 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "6.79 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה עם מעמד",
+   "catalogValue": "89.0 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "90.4 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק עם מעמד",
+   "catalogValue": "27.0 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "26.9 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-16.5 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "HDMI 2.0",
+   "catalogValue": "HDMI 2.0",
+   "finding": "contradicted",
+   "correctValue": "HDMI 2.1",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Wi-Fi 5",
+   "catalogValue": "Wi-Fi 5 מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "9.1.2 סאונד",
+   "catalogValue": "9.1.2 ערוצים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "webOS",
+   "catalogValue": "webOS 25",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Bluetooth 5.1",
+   "catalogValue": "Bluetooth 5.1",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The store's model number 65UA85006 appears on no page. LG and the Israeli retailer name 65UA85006LA, a variant with the LA suffix. Specs were taken from 65UA85006LA.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog's height (83.0 ס״מ), depth (5.8 ס״מ) and stand dimensions (89.0 ס״מ, 27.0 ס״מ) differ from the LG Israel and TVsFaq figures. Check before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "HDMI",
+   "issue": "The catalog says HDMI 2.0. TVsFaq lists HDMI version 2.1. The sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The catalog code 65UA85006 lacks the LA suffix that LG Israel and Bug use (65UA85006LA).",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog height and depth, with and without the stand (83.0, 5.8, 89.0 and 27.0 ס״מ), differ from LG Israel (841 × 67.9 and 904 × 269 מ״מ).",
+   "severity": "high"
+  },
+  {
+   "field": "HDMI",
+   "issue": "The catalog says HDMI 2.0 but TVsFaq lists 2.1. The HDMI version was not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "HDR",
+   "issue": "The catalog says HDR10 Pro but the verified source says only HDR 10.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 4 corrected to HDR10 and HLG, because the quote says HDR 10 and not HDR10 Pro. Fact 5 (VRR up to 60Hz) rejected: the quote does not name VRR. Fact 9 relabelled as a general warranty because Bug states it, not LG."
+ }
+}

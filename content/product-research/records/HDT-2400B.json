@@ -1,0 +1,402 @@
+{
+ "modelNumber": "HDT-2400B",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hyundai",
+  "exactModel": "HDT-2400B",
+  "israeliImporter": "סמיקום",
+  "matchConfidence": "high",
+  "notes": "דגם HDT-2400B (ללא סיומת /W) מופיע בדפי קמעונאים ישראלים כטלפון חוטי שחור. דף זאפ לדגם HDT-2400B/W מציג גם וריאנט לבן ומסמן טכנולוגיית DECT, שאינה מאומתת לדגם השחור. | QA: Ivory and Shazar pages name Hyundai HDT-2400B in black as a corded phone; Shazar names Semicom as official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.ivory.co.il/catalog.php?id=9166",
+   "publisher": "Ivory",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.shazartech.co.il/product/%D7%98%D7%9C%D7%A4%D7%95%D7%9F-%D7%A9%D7%95%D7%9C%D7%97%D7%A0%D7%99-%D7%A9%D7%97%D7%95%D7%A8-hyundai-hdt-2400b/",
+   "publisher": "Shazar",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=850824",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Hyundai"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "HDT-2400B"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מכשיר",
+     "value": "טלפון חוטי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים על ידי סמיקום, היבואן הרשמי"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת חיוג",
+     "value": "פולסים וטונים (P/T)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיוג חוזר",
+     "value": "למספר האחרון"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "בקרת עוצמת צלצול",
+     "value": "יש"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "השתקת מיקרופון בזמן שיחה (Mute)"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בקרת עוצמת צלצול"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "נורית מאירה בזמן צלצול"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיוג חוזר למספר האחרון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיוג פולסים וטונים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אפשרות לתלייה על הקיר"
+  }
+ ],
+ "content": {
+  "summary": "Hyundai HDT-2400B הוא טלפון ביתי חוטי בצבע שחור. הוא תומך בחיוג פולסים וטונים, כולל חיוג חוזר למספר האחרון, השתקת מיקרופון בזמן שיחה ובקרת עוצמת צלצול, וניתן לתלות אותו על הקיר. מתאים לבית או למשרד שמחפשים טלפון קווי פשוט, עם אחריות יבואן רשמי.",
+  "highlights": [
+   "טלפון חוטי בצבע שחור",
+   "חיוג פולסים וטונים (P/T)",
+   "חיוג חוזר למספר האחרון והשתקת מיקרופון (Mute)",
+   "בקרת עוצמת צלצול ונורית מאירה בזמן צלצול",
+   "אחריות 12 חודשים על ידי סמיקום, היבואן הרשמי"
+  ],
+  "goodFor": [
+   "קו טלפון ביתי שצריך מכשיר קווי פשוט",
+   "תלייה על קיר במטבח או במסדרון",
+   "מי שרוצה לראות נורית כשהטלפון מצלצל",
+   "עמדת משרד שבה משתיקים את המיקרופון במהלך שיחה"
+  ],
+  "considerations": [
+   "ודאו שיש שקע קו טלפון ליד המקום שבו יוצב או ייתלה המכשיר",
+   "לתלייה על הקיר בדקו שיש מקום מתאים ליד השקע",
+   "בדקו אם הקו שלכם עובד בחיוג טונים או פולסים וכוונו את המכשיר בהתאם"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר לתלות את Hyundai HDT-2400B על הקיר?",
+    "a": "כן, לטלפון יש אפשרות לתלייה על הקיר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש חיוג חוזר?",
+    "a": "כן, הטלפון כולל חיוג חוזר למספר האחרון.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשנות את עוצמת הצלצול?",
+    "a": "כן, יש בקרת עוצמת צלצול, ונורית מאירה בזמן צלצול.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלפון?",
+    "a": "12 חודשים על ידי סמיקום, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון ביתי חוטי Hyundai HDT-2400B שחור: חיוג פולסים וטונים, חיוג חוזר, השתקה ובקרת עוצמת צלצול, ניתן לתלייה על הקיר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Hyundai HDT-2400B",
+   "טלפון ביתי חוטי",
+   "טלפון חוטי שחור",
+   "טלפון שולחני Hyundai",
+   "טלפון קווי לבית",
+   "טלפון לתלייה על הקיר",
+   "טלפון יונדאי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Hyundai",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג",
+   "catalogValue": "טלפון חוטי שולחני",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תכונות שמע",
+   "catalogValue": "צליל צלול וחזק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בקרת עוצמת צלצול",
+   "catalogValue": "בקרת עוצמת צלצול",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "בקרת עוצמת צלצול (גבוה/נמוך)",
+   "catalogValue": "גבוה/נמוך",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיוג חוזר",
+   "catalogValue": "חיוג חוזר למספר אחרון (Redial)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיוג P/T",
+   "catalogValue": "חיוג פולסים וטונים (P/T)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "לחצן Flash",
+   "catalogValue": "לחצן Flash (ניתוק זמני)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורית LED",
+   "catalogValue": "נורית LED הנדלקת בזמן צלצול",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תלייה על הקיר",
+   "catalogValue": "אפשרות לתלייה על הקיר או הצבה על שולחן",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "12 חודשים על ידי היבואן הרשמי (סמיקום לקסיס)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תכולת אריזה",
+   "catalogValue": "מכשיר טלפון, שפופרת, כבל מסולסל, כבל קו טלפון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "סמיקום",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "טכנולוגיה / סוג חיבור",
+   "issue": "דף זאפ לדגם HDT-2400B/W מסמן טכנולוגיית DECT, וזאפ מציג בעמוד גם 'טלפון DECT חוטי Hyundai HDT-2400B - צבע שחור'. דפי אייבורי ושזר מתארים טלפון חוטי בלי לציין DECT. יש לאמת מול היבואן לפני פרסום סוג החיבור.",
+   "severity": "high"
+  },
+  {
+   "field": "source_authority",
+   "issue": "לא נמצא מדריך משתמש או דף יצרן/יבואן לדגם HDT-2400B. כל העובדות מבוססות על דפי קמעונאים ועל זאפ, ולכן כדאי לאשר מול סמיקום.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "הקטלוג מציין 'סמיקום לקסיס', ודף שזר מציין רק 'סמיקום יבואן רשמי'. לא נמצא מקור לשם 'לקסיס'.",
+   "severity": "low"
+  },
+  {
+   "field": "מידע על תצוגה",
+   "issue": "בדפי זאפ מופיעים 'תצוגה מוארת' ו'דיבורית' בתיאור של דגם HDT-2400 B אחר, שלא ניתן לייחס לדגם זה; לא נכללו.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג חיבור",
+   "issue": "Zap mentions DECT for a related HDT-2400B/W listing while Ivory and Shazar describe a corded phone; confirm with the importer that the black HDT-2400B is a plain corded phone.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Catalog says 'סמיקום לקסיס'; sources only name 'סמיקום'.",
+   "severity": "low"
+  },
+  {
+   "field": "תכונות לא מאומתות",
+   "issue": "Catalog claims Flash button, high/low ring volume, box contents and line-powered operation; none verified by sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Zap relabelled from review to other (price-comparison aggregator, not a review). Kept all facts; each has an ok quote on a page naming HDT-2400B. DECT question left as a review flag; no connection-type fact published."
+ }
+}

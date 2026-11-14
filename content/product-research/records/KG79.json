@@ -1,0 +1,418 @@
+{
+ "modelNumber": "KG79",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "DeLonghi",
+  "exactModel": "KG79",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Found on an EU retailer page (cremashop.eu, mpn KG79, EAN 8004399324541) and a UK retailer page (John Lewis). No manufacturer, importer or Israeli page for KG79 could be read. | QA: Both pages name DeLonghi KG79 exactly and match the catalog (110 W, 16 settings, up to 12 cups). No Israeli importer or Israeli retailer page, so the Israeli variant is unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.cremashop.eu/en/products/delonghi/kg79",
+   "publisher": "Crema",
+   "kind": "retailer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.johnlewis.com/de-longhi-kg79-coffee-grinder/p507144",
+   "publisher": "John Lewis",
+   "kind": "retailer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "UK retailer lists different dimensions; flagged",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "13.0 × 26.0 × 16.0 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "1.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "110 וואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מתח ותדר",
+     "value": "220/240 וולט, 50/60 הרץ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כמות כוסות מקסימלית",
+     "value": "עד 12 כוסות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מספר דרגות טחינה",
+     "value": "16 דרגות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Removed 'burr/blades' wording not in the quote",
+   "text": "טחינה ללא התחממות, השומרת על ארומת הקפה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מערכת בטיחות כפולה: גלגלי הטחינה נעצרים בעת הסרת מיכל הפולים או מיכל הקפה הטחון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מיכל פולים שקוף המאפשר לעקוב אחר הטחינה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גלגל טחינה עליון נשלף לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "בחירת דרגת טחינה מדק ועד גס"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מקום לאחסון כבל החשמל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "רגליות גומי למניעת החלקה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מברשת ניקוי"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מתאימה למי שקונה פולים שלמים ורוצה לטחון טרי לפי סוג המשקה.",
+  "highlights": [
+   "בורר כמות עד 12 כוסות",
+   "מערכת בטיחות כפולה שעוצרת את הטחינה בהסרת מיכל",
+   "גלגל טחינה עליון נשלף לניקוי"
+  ],
+  "goodFor": [
+   "מי שמכין סוגי קפה שונים וצריך לשנות את עובי הטחינה",
+   "טחינת כמות לפי מספר הכוסות שמכינים, עד 12 כוסות",
+   "מטבח עם משטח עבודה מוגבל, בזכות מקום לאחסון כבל החשמל"
+  ],
+  "considerations": [
+   "לניקוי שוטף יש לשלוף את גלגל הטחינה העליון ולהשתמש במברשת הניקוי המצורפת"
+  ],
+  "faq": [
+   {
+    "q": "לכמה כוסות קפה אפשר לטחון בבת אחת?",
+    "a": "בורר הכמות מאפשר לטחון עד 12 כוסות.",
+    "sources": []
+   },
+   {
+    "q": "האם המטחנה נעצרת אם מסירים את המיכל?",
+    "a": "כן, מערכת הבטיחות הכפולה עוצרת את גלגלי הטחינה כשמסירים את מיכל הפולים או את מיכל הקפה הטחון.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את המטחנה?",
+    "a": "גלגל הטחינה העליון נשלף לניקוי, ובאריזה מצורפת מברשת ניקוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מטחנת קפה דלונגי",
+   "DeLonghi KG79",
+   "מטחנת קפה KG79",
+   "מטחנת קפה חשמלית",
+   "מטחנת פולי קפה",
+   "מטחנת קפה 16 דרגות",
+   "מטחנת קפה לבית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "110 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240 וולט, 50/60 הרץ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 13.0 ס\"מ, עומק 16.0 ס\"מ, גובה 26.0 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "1.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל פולי קפה",
+   "catalogValue": "120 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מיכל קפה טחון",
+   "catalogValue": "150 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר גוף המכשיר",
+   "catalogValue": "פלסטיק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר סכיני הטחינה",
+   "catalogValue": "פלדת אל-חלד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר דרגות טחינה",
+   "catalogValue": "16 רמות (מדק ועד גס)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר כמות כוסות",
+   "catalogValue": "עד 12 כוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת בטיחות כפולה",
+   "catalogValue": "כיבוי אוטומטי בעת הסרת מיכל הפולים או מיכל הקפה הטחון",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקום לאחסון כבל החשמל",
+   "catalogValue": "מקום לאחסון כבל החשמל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רגליות גומי",
+   "catalogValue": "רגליות גומי למניעת החלקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גלגל טחינה עליון",
+   "catalogValue": "גלגל טחינה עליון נשלף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מיכלים שקופים",
+   "catalogValue": "מיכל פולים ומיכל קפה טחון שקופים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג טחינה",
+   "catalogValue": "שתי דיסקיות טחינה (Burr)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מברשת ניקוי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מברשת ניקוי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "israeli_variant",
+   "issue": "No Israeli importer, manufacturer or Israeli retailer page for KG79 could be read: searches and fetches were blocked or the fetch budget ran out. The only pages read are an EU retailer and a UK retailer, so the Israeli variant and its Hebrew-market specs are unconfirmed. The EU page lists a 230V-style plug.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "The UK retailer lists H30 x W18 x D15 cm, which conflicts with 13.0 x 26.0 x 16.0 cm on the EU retailer page. Check the manufacturer dimensions before publishing the dimension row.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "A US listing seen only in search results gives 170 W, which conflicts with 110 W on the EU retailer page. Confirm the power against the manufacturer or importer sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_lifecycle",
+   "issue": "A UK retailer page marks the KG79 with a discontinued product status. Check whether this model is still current in the Israeli range.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Colour black in the catalog is not confirmed by any page that was read.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "Only EU and UK retailer pages were read; no Israeli importer or Israeli retailer page confirms the Israeli variant.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "UK retailer lists H30 × W18 × D15 cm, conflicting with 13.0 × 26.0 × 16.0 cm on the EU retailer page (possibly box size). Confirm against the manufacturer sheet.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "A US listing seen only in search results gives 170 W versus 110 W on the EU page. Confirm against the manufacturer or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_lifecycle",
+   "issue": "A UK retailer marks the KG79 as discontinued; check whether it is still current in the Israeli range.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog_specs",
+   "issue": "Catalog bean/ground container capacities (120 g / 150 g), stainless-steel blades, black colour and 'burr' grinding are not confirmed by any page read.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 reworded: the quote says the grinder works without overheating and preserves aroma, but does not say 'burr' (and 'להבים' would mean blades), so the burr wording was removed. Cup-count wording kept as 'עד 12 כוסות' (one source says 2–12). Dimensions kept from the EU retailer page; UK retailer figures conflict and are flagged. | code guard removed: summary: \"DeLonghi KG79 היא מטחנת קפה חשמלית בהספק 110 וואט לטחינת פולים בבית.\"; summary: \"יש בה 16 דרגות טחינה מדק ועד גס ובורר כמות של עד 12 כוסות, והיא טוחנת ללא התחממות כדי לשמור על ארומת הקפה.\"; faq: \"כמה דרגות טחינה יש במטחנה DeLonghi KG79?\"; metaDescription: \"מטחנת קפה DeLonghi KG79 בהספק 110 וואט עם 16 דרגות טחינה ובורר כמות עד 12 כוסות. מיכל פולים שקוף וגלגל טחינה נשלף, בחדד אלקטריק נהריה\"; highlight: \"16 דרגות טחינה מדק ועד גס\"; highlight: \"הספק 110 וואט\"; consideration: \"בדקו מקום על השיש: מידות המכשיר 13.0 × 26.0 × 16.0 ס״מ (רוחב × גובה × עומק)\"; consideration: \"המכשיר מיועד למתח 220/240 וולט, ודאו התאמה לשקע הביתי\""
+ }
+}

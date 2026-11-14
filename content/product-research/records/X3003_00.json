@@ -1,0 +1,447 @@
+{
+ "modelNumber": "X3003/00",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "X3003/00",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דגם Shaver 3000X Series מכונת גילוח חשמלית לשימוש יבש ורטוב. דף פיליפס ישראל מציין את המק״ט X3003/00. לא נמצא שם היבואן הרשמי בדפים שנבדקו. | QA: Philips Israel and Philips UK pages name X3003/00, Shaver 3000X Series wet & dry."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.philips.co.il/c-p/X3003_00/shaver-3000x-series-wet-dry-electric-shaver",
+   "publisher": "Philips Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.philips.co.uk/shop/UK_Garment_Care_Essentials/personal-care/face-shavers/shaver-3000x-series-wet-dry-electric-shaver/p/X3003_00",
+   "publisher": "Philips UK",
+   "kind": "manufacturer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.philips.co.uk/c-p/X3003_00/shaver-3000x-series-wet-dry-electric-shaver/support",
+   "publisher": "Philips UK",
+   "kind": "manufacturer",
+   "market": "UK",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "להבים",
+     "value": "27 להבי PowerCut בעלי השחזה עצמית"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות חיתוך",
+     "value": "55.000 חיתוכים לדקה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "NiMH"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן עבודה ללא חוט",
+     "value": "40 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "שעה אחת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טעינה מהירה",
+     "value": "5 דקות לגילוח אחד"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "quote says about 13",
+     "label": "מספר גילוחים בטעינה מלאה",
+     "value": "כ-13"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עמידות למים",
+     "value": "IPX7"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טבילה במים",
+     "value": "עד 30 דקות בעומק מטר אחד"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מחוון סוללה",
+     "value": "מציין סוללה נמוכה, ריקה וטעינה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "finish of Israeli unit to verify",
+     "label": "צבע",
+     "value": "Celestial Blue (כחול)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ידית",
+     "value": "ארגונומית עם גומי, אחיזה בטוחה גם כשהיא רטובה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "UK warranty; Israeli warranty depends on importer",
+     "label": "אחריות",
+     "value": "2 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "27 להבי PowerCut בעלי השחזה עצמית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "text": "ראשים צפים שנעים ב-4 כיוונים לשמירה על מגע אחיד עם העור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טרימר נשלף לעיצוב שפם ופאות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש המכונה נפתח בלחיצת כפתור לשטיפה תחת מים זורמים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שימוש רטוב ויבש, כולל גילוח במקלחת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת גילוח חשמלית Philips X3003/00 לשימוש רטוב ויבש, עם 27 להבי PowerCut בעלי השחזה עצמית וראשים צפים. סוללת NiMH מספקת 40 דקות גילוח אלחוטי מטעינה של שעה, ותקן IPX7 מאפשר גילוח במקלחת. מתאימה למי שמחפש מכונה פשוטה לגילוח יומיומי עם טרימר נשלף לעיצוב שפם ופאות.",
+  "highlights": [
+   "27 להבי PowerCut בעלי השחזה עצמית",
+   "40 דקות גילוח אלחוטי מטעינה של שעה",
+   "טעינה מהירה של 5 דקות לגילוח אחד",
+   "עמידות למים בתקן IPX7, שימוש רטוב ויבש",
+   "טרימר נשלף לשפם ופאות"
+  ],
+  "goodFor": [
+   "גילוח במקלחת או עם קצף וג׳ל, בזכות תקן IPX7",
+   "מי ששוכח לטעון: טעינה מהירה של 5 דקות מספיקה לגילוח אחד",
+   "נסיעות קצרות, עם כ-13 גילוחים בטעינה מלאה",
+   "עיצוב שפם ופאות עם הטרימר הנשלף"
+  ],
+  "considerations": [
+   "המכונה פועלת עם סוללת NiMH, וטעינה מלאה נמשכת שעה",
+   "ניקוי נעשה בשטיפה תחת מים זורמים לאחר פתיחת הראש בלחיצת כפתור",
+   "כדאי לוודא את הגוון של היחידה הנמכרת בישראל"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להתגלח עם Philips X3003/00 במקלחת?",
+    "a": "כן. המכונה מתאימה לשימוש רטוב ויבש ובעלת תקן IPX7, ולפי פיליפס ניתן לטבול אותה במים בעומק מטר אחד עד 30 דקות.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "40 דקות של גילוח אלחוטי מטעינה מלאה של שעה, כ-13 גילוחים.",
+    "sources": []
+   },
+   {
+    "q": "מה עושים אם הסוללה ריקה לפני גילוח?",
+    "a": "טעינה מהירה של 5 דקות מספיקה לגילוח אחד.",
+    "sources": []
+   },
+   {
+    "q": "יש במכונה טרימר?",
+    "a": "כן, טרימר נשלף לעיצוב שפם ופאות.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את המכונה?",
+    "a": "ראש המכונה נפתח בלחיצת כפתור ושוטפים אותו תחת מים זורמים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת גילוח חשמלית Philips X3003/00 לשימוש רטוב ויבש: 27 להבי PowerCut ו-40 דקות גילוח אלחוטי מטעינה של שעה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Philips X3003/00",
+   "מכונת גילוח פיליפס",
+   "פיליפס 3000X",
+   "מכונת גילוח רטוב יבש",
+   "מכונת גילוח חשמלית לגבר",
+   "Philips Shaver 3000X",
+   "X3003"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מערכת גילוח",
+   "catalogValue": "להבי PowerCut בעלי 27 להבים המושחזים מעצמם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת מעקב מתארים",
+   "catalogValue": "ראשי 4D Flex הנעים ב-4 כיוונים עצמאיים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "40 דקות של שימוש אלחוטי רציף",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טעינה",
+   "catalogValue": "טעינה מלאה תוך שעה אחת; פונקציית טעינה מהירה של 5 דקות המספיקה לגילוח אחד מלא",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "מחוון סוללה בעל רמה אחת (Level 1)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "NiMH",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "עמידות מלאה בתקן IPX7, מתאים לשימוש רטוב (עם קצף או ג'ל) או יבש",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "מכסה הגנה ליחידת הראש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שיטת ניקוי",
+   "catalogValue": "פתיחה בנגיעה אחת לשטיפה קלה תחת הברז",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין (תכנון הולנדי)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוצץ",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "טרימר נשלף (Pop-up trimmer)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "2 שנים",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "דפי פיליפס מציינים Celestial Blue. אתרי מסחר אחרים מציינים כחול/שחור או כסף. יש לאמת את הגימור של היחידה הנמכרת בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "לא נמצאו מידות או משקל בדפים רשמיים שנבדקו. מקורות חיצוניים נותנים משקל 337 גרם ומידות 100 × 80 × 190 מ״מ, אך לא נבדקו כראיה. יש להשלים מהמפרט הרשמי.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף פיליפס ישראל מציין אחריות לשנתיים, וכך גם דף פיליפס בריטניה. הציטוט המספרי מופיע בדף הבריטי בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "מחוון סוללה",
+   "issue": "הקטלוג מציין מחוון בעל רמה אחת (Level 1). דף פיליפס מתאר מחוון שמציג סוללה נמוכה, ריקה וטעינה, ולא נמצא אישור ל-Level 1.",
+   "severity": "low"
+  },
+  {
+   "field": "מכסה הגנה ליחידת הראש",
+   "issue": "אביזר זה לא אומת בדפים שנבדקו ולכן לא נוסף לרשימת התוכן.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "דפי פיליפס מציינים Celestial Blue; יש לאמת את הגימור של היחידה הנמכרת בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "האחריות של שנתיים מצוטטת מדף פיליפס בריטניה בלבד; יש לאמת את תנאי האחריות של היבואן בישראל.",
+   "severity": "low"
+  },
+  {
+   "field": "מחוון סוללה",
+   "issue": "הקטלוג מציין מחוון Level 1; דף פיליפס מתאר מחוון סוללה נמוכה, ריקה וטעינה, ולא אושר Level 1.",
+   "severity": "low"
+  },
+  {
+   "field": "אביזרים כלולים",
+   "issue": "מכסה הגנה לראש המכונה שבקטלוג לא אומת במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "לא נמצאו מידות ומשקל במקורות רשמיים שנבדקו.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (UK page warranty does not establish the Israeli importer warranty). Rephrased feature 1 to state the four directions from the quote. Color kept from manufacturer page but flagged for Israeli finish check."
+ }
+}

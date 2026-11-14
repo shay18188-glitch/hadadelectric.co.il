@@ -1,0 +1,441 @@
+{
+ "modelNumber": "WW90DG6U95LX",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW90DG6U95LX",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "No manufacturer, EPREL or manual page naming this exact model was reachable; all facts come from Israeli retailer pages that name WW90DG6U95LX. The retailers agree on height, width, capacity, spin, energy class, water use and weight, but disagree on depth (59.5 vs 61 cm). | QA: Three Israeli retailer pages name WW90DG6U95LX; no manufacturer or EPREL page. Importer differs between retailers (Samsung Israel vs Newpro)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.petcom.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-9-%D7%A7%D7%92-%D7%93%D7%92%D7%9D-samsung-ww90dg6u95lx-%D7%91%D7%A6%D7%91%D7%A2-%D7%A9%D7%97/",
+   "publisher": "פטקום אלקטריק אילת",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.smart-deal.co.il/items/8871176-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-SAMSUNG-WW90DG6U95LX-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92",
+   "publisher": "סמארט דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.bug.co.il/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-9-%D7%A7%D7%92-samsung-5102200ww90dg6u95lx",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מקסימלית",
+     "value": "1,400 סל״ד"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says ~49; retailer says 35.",
+     "label": "צריכת אנרגיה ל-100 מחזורים",
+     "value": "35 קוט״ש"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "50 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רעש בסחיטה",
+     "value": "72 dB"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "85 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two retailers agree; a third lists 61 cm (flagged).",
+     "label": "עומק",
+     "value": "59.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 75 kg.",
+     "label": "משקל נטו",
+     "value": "65 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "A washing machine has no compressor; listing error, and warranty/importer differs between retailers.",
+     "label": "אחריות יבואן",
+     "value": "שנה + 10 שנות על המדחס"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת מינון אוטומטי (Auto Dispense) לחומר כביסה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Wi-Fi מובנה ושליטה מאפליקציית SmartThings"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב AI Energy באפליקציית SmartThings"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע Digital Inverter"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של סמסונג, דגם WW90DG6U95LX, בקיבולת 9 ק״ג ובמהירות סחיטה של עד 1,400 סל״ד. המכונה בדירוג אנרגטי A, עם צריכה של 35 קוט״ש ל-100 מחזורים ו-50 ליטר מים למחזור. מערכת מינון אוטומטי וחיבור Wi-Fi ל-SmartThings מתאימים למי שרוצה כביסה פשוטה ונשלטת מהטלפון.",
+  "highlights": [
+   "קיבולת כביסה 9 ק״ג",
+   "סחיטה עד 1,400 סל״ד",
+   "דירוג אנרגטי A, 35 קוט״ש ל-100 מחזורים",
+   "מינון אוטומטי של חומר כביסה",
+   "Wi-Fi ושליטה באפליקציית SmartThings"
+  ],
+  "goodFor": [
+   "משפחות שמכבסות כמויות גדולות ורוצות תוף של 9 ק״ג",
+   "מי שרוצה לחסוך במינון ידני של חומר כביסה",
+   "מי שמעדיף לעקוב אחרי הכביסה ולהפעיל אותה מהטלפון",
+   "משקי בית שמחפשים צריכת חשמל ומים נמוכה יחסית"
+  ],
+  "considerations": [
+   "לוודא שהנישה מתאימה למידות 60 × 59.5 × 85 ס״מ (רוחב × עומק × גובה), ולהשאיר מרווח לצינורות ולדלת",
+   "משקל נטו של 65 ק״ג – כדאי לתכנן הובלה והתקנה על רצפה יציבה",
+   "רעש סחיטה של 72 dB – רלוונטי אם המכונה מותקנת ליד חדרי שינה",
+   "לחיבור SmartThings נדרשת רשת Wi-Fi ביתית שמגיעה לאזור המכונה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Samsung WW90DG6U95LX?",
+    "a": "קיבולת הכביסה היא 9 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המקסימלית?",
+    "a": "עד 1,400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה חשמל ומים המכונה צורכת?",
+    "a": "35 קוט״ש ל-100 מחזורים ו-50 ליטר מים למחזור, בדירוג אנרגטי A.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכונה?",
+    "a": "רוחב 60 ס״מ, עומק 59.5 ס״מ וגובה 85 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט במכונה מהטלפון?",
+    "a": "כן, יש Wi-Fi מובנה ותמיכה באפליקציית SmartThings, כולל מצב AI Energy.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Samsung WW90DG6U95LX בקיבולת 9 ק״ג, סחיטה עד 1,400 סל״ד, מינון אוטומטי ו-Wi-Fi. מפרט מלא ומידות בחדד אלקטריק נהריה",
+  "keywords": [
+   "WW90DG6U95LX",
+   "סמסונג WW90DG6U95LX",
+   "מכונת כביסה סמסונג 9 קג",
+   "מכונת כביסה עם מינון אוטומטי",
+   "מכונת כביסה 1400 סלד",
+   "מכונת כביסה Wi-Fi SmartThings",
+   "מכונת כביסה פתח חזית 9 קג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A (תקן אירופי חדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "catalogValue": "כ-49 קוט\"ש ל-100 מחזורים",
+   "finding": "corrected",
+   "correctValue": "35 kWh ל-100 מחזורים",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "50 ליטר למחזור",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "60 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "85 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "60 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "59.5 ס״מ",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "75 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "65 ק״ג נטו",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "Digital Inverter BLDC",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה מושחרת (Black Stainless)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "קוריאה (עיצוב), פולין (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פאנל תצוגה",
+   "catalogValue": "מסך LED עם בקרת AI ותמיכה מלאה בעברית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רעש בסחיטה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "72 dB",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עומק",
+   "issue": "עומק: הקטלוג 60 ס״מ, באג וסמארט דיל מציינים 59.5 ס״מ, ופטקום מציין 61 ס״מ (64 ס״מ כולל). לבדוק מול מידות מדויקות מהיצרן לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "issue": "הקטלוג מציין כ-49 קוט״ש ל-100 מחזורים, אבל שני אתרי קמעונאים ישראליים מציינים 35 kWh. לאמת מול תווית האנרגיה (EPREL).",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 75 ק״ג משקל נקי, ושני אתרים מציינים 65 ק״ג נטו. לאמת מול דף היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "פטקום מציין אחריות מלאה של סמסונג ישראל (שנה), ובאג וסמארט דיל מציינים יבואן ניופרו (שנה + 10 שנות על המדחס). היבואן הרשמי לא ברור.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור יצרן",
+   "issue": "לא נמצא דף יצרן, מפרט יבואן או EPREL שמזכיר את הדגם המדויק WW90DG6U95LX. כל העובדות מקורן באתרי קמעונאים ישראליים.",
+   "severity": "low"
+  },
+  {
+   "field": "עומק",
+   "issue": "שני אתרים מציינים 59.5 ס״מ, אתר שלישי מציין 61 ס״מ, והקטלוג 60 ס״מ. לאמת מול נתוני היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת אנרגיה",
+   "issue": "הקטלוג מציין כ-49 קוט״ש ל-100 מחזורים, אך אתר קמעונאי מציין 35. לאמת מול תווית האנרגיה.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין 75 ק״ג, אך אתר קמעונאי מציין 65 ק״ג נטו. לעדכן את הקטלוג לאחר אימות.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות/יבואן",
+   "issue": "האתרים חלוקים לגבי היבואן (סמסונג ישראל או ניופרו), ונוסח האחריות מזכיר מדחס שאינו קיים במכונת כביסה. לא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "לא נמצא דף יצרן או EPREL לדגם המדויק; כל הנתונים מאתרי קמעונאים ישראליים.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact (10-year compressor warranty does not apply to a washing machine; looks like a listing error, and importer/warranty differ between retailers). Kept depth 59.5 cm from two ok quotes but flagged a third retailer listing 61 cm. Catalog energy (49 kWh) and weight (75 kg) contradicted by retailer data (35 kWh, 65 kg)."
+ }
+}

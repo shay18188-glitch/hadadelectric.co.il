@@ -1,0 +1,177 @@
+{
+ "modelNumber": "UE32T5300AD",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "UE32T5300AD",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Exact model found on Samsung Israel support page (UE32T5300ADXSQ, e-manual and Hebrew e-manual listed) and on manua.ls. Samsung's energy-label file name for this model hints at 1366 resolution, conflicting with the catalog's Full HD, so resolution is not published. | QA: Exact model code UE32T5300AD named on the source page; Israeli variant (XSQ) reported by researcher but not evidenced in the payload sources. Resolution of the Israeli unit unclear (Full HD vs HD)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.manua.ls/samsung/ue32t5300ad/manual",
+   "publisher": "Manua.ls",
+   "kind": "other",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "32 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תאורה אחורית",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טכנולוגיית שמע",
+     "value": "Dolby Digital Plus"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "Wi-Fi מובנה",
+     "value": "כן"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "היא כוללת Wi-Fi מובנה לחיבור לרשת הביתית ללא כבל, ושמע בטכנולוגיית Dolby Digital Plus. מתאימה למי שמחפש מסך קומפקטי לחדר שינה, למטבח או לחדר ילדים.",
+  "highlights": [
+   "תאורה אחורית LED",
+   "Wi-Fi מובנה",
+   "שמע Dolby Digital Plus"
+  ],
+  "goodFor": [
+   "חדר שינה או חדר ילדים שבו נדרש מסך קומפקטי",
+   "מטבח או פינת עבודה עם מקום מוגבל",
+   "חיבור לרשת האלחוטית בבית ללא כבל רשת"
+  ],
+  "considerations": [
+   "ודאו את רזולוציית המסך בדגם הנמכר בישראל לפני הרכישה",
+   "בדקו שיש קליטת Wi-Fi טובה במקום שבו תוצב הטלוויזיה",
+   "אם מתכננים תלייה על הקיר, ודאו התאמה של זרוע תלייה לדגם"
+  ],
+  "faq": [
+   {
+    "q": "האם יש לטלוויזיה Wi-Fi מובנה?",
+    "a": "כן, הטלוויזיה כוללת Wi-Fi מובנה.",
+    "sources": []
+   },
+   {
+    "q": "באיזו טכנולוגיית שמע הטלוויזיה תומכת?",
+    "a": "הטלוויזיה תומכת בשמע Dolby Digital Plus.",
+    "sources": []
+   },
+   {
+    "q": "איזו תאורה אחורית יש למסך?",
+    "a": "המסך משתמש בתאורה אחורית LED.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "UE32T5300AD",
+   "סמסונג UE32T5300AD",
+   "טלוויזיה 32 אינץ' סמסונג",
+   "טלוויזיה 32 אינץ'",
+   "טלוויזיה חכמה 32 סמסונג",
+   "Samsung T5300 32",
+   "טלוויזיה קטנה לחדר שינה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "32 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi מובנה",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "Full HD (1,920 x 1,080)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "737.4 x 465.4 x 150.5 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "resolution",
+   "issue": "Samsung energy label file for UE32T5300ADXTK has 1366 in its title, suggesting HD 1366x768, while catalog says Full HD. Check the label.",
+   "severity": "high"
+  },
+  {
+   "field": "resolution",
+   "issue": "Catalog says Full HD 1920x1080, but a Samsung energy-label filename for this model suggests 1366 (HD) resolution. Verify the resolution of the unit sold before stating it.",
+   "severity": "high"
+  },
+  {
+   "field": "sources",
+   "issue": "Only source is a manual aggregator (manua.ls); no manufacturer or Israeli page in the evidence. Catalog dimensions, power and connectivity remain unverified.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Only source is manua.ls, a manual aggregator whose descriptive text is not the manufacturer's; relabelled as other. Kept size, LED, Dolby Digital Plus and built-in Wi-Fi. Resolution deliberately not published: the manua.ls text says Full HD but the researcher found a Samsung energy-label filename suggesting 1366 resolution. | code guard removed: summary: \"Samsung UE32T5300AD היא טלוויזיה בגודל 32 אינץ' עם תאורה אחורית LED.\"; faq: \"מה גודל המסך של Samsung UE32T5300AD?\"; metaDescription: \"טלוויזיה Samsung UE32T5300AD בגודל 32 אינץ' עם תאורת LED, Wi-Fi מובנה ושמע Dolby Digital Plus. מסך קומפקטי לחדר שינה ולמטבח, בחדד אלקטריק נהריה\"; highlight: \"מסך בגודל 32 אינץ'\""
+ }
+}

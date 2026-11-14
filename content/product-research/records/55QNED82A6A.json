@@ -1,0 +1,447 @@
+{
+ "modelNumber": "55QNED82A6A",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "LG",
+  "exactModel": "55QNED82A6A",
+  "israeliImporter": "ברימאג",
+  "matchConfidence": "high",
+  "notes": "LG Israel product page names the model 55QNED82A6A. Its dimension and weight lines print no unit, and several values differ from the catalog. | QA: LG Israel product page names the exact model 55QNED82A6A."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lg.com/il/tv/lg-55qned82a6a",
+   "publisher": "LG Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Unit not printed on the page; mm added. Differs from catalog depth 49.9.",
+     "label": "מידות ללא מעמד (רוחב × גובה × עומק)",
+     "value": "1236 × 716 × 29.7 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Unit not printed on the page; mm added.",
+     "label": "מידות עם מעמד (רוחב × גובה × עומק)",
+     "value": "1236 × 783 × 257 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רזולוציית תצוגה",
+     "value": "4K Ultra HD (3,840 × 2,160)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבד תמונה",
+     "value": "מעבד α7 AI 4K דור 8"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 כניסות (תומך ב-eARC ו-ALLM)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כניסות USB",
+     "value": "1 (גרסה 2.0)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת חשמל במצב המתנה",
+     "value": "מתחת ל-0.5 וואט"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טכנולוגיית הצבע Dynamic QNED Color של LG, המחליפה את Quantum Dot"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Dropped unsupported 'performance improvements' wording.",
+   "text": "מעבד בינה מלאכותית alpha 7 AI Gen8"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שדרוג תמונה ל-4K באיכות גבוהה (4K Super Upscaling)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט AI Magic Remote עם לחצן AI ייעודי ובקרה קולית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תוכנית webOS Re:New לשדרוגי מערכת ל-5 שנים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "היא כוללת 3 כניסות HDMI עם תמיכה ב-eARC ו-ALLM ותוכנית webOS Re:New לשדרוגי מערכת ל-5 שנים. מתאימה למי שמחפש מסך 4K לסלון עם חיבור נוח למקרן קול ולקונסולה.",
+  "highlights": [
+   "רזולוציית 4K Ultra HD (3,840 × 2,160)",
+   "טכנולוגיית צבע Dynamic QNED Color",
+   "מעבד α7 AI 4K דור 8 עם 4K Super Upscaling",
+   "3 כניסות HDMI עם eARC ו-ALLM",
+   "שדרוגי webOS Re:New ל-5 שנים"
+  ],
+  "goodFor": [
+   "צפייה בתכני 4K ושדרוג תכנים ברזולוציה נמוכה יותר בעזרת 4K Super Upscaling",
+   "חיבור מקרן קול דרך eARC",
+   "משחק בקונסולה עם מצב השהיה נמוכה אוטומטי (ALLM)",
+   "מי שרוצה שדרוגי מערכת הפעלה לאורך זמן דרך webOS Re:New"
+  ],
+  "considerations": [
+   "מדדו את הנישה או המזנון: מידות ללא מעמד 1236 × 716 × 29.7 מ״מ, ועם מעמד 1236 × 783 × 257 מ״מ",
+   "בתלייה על הקיר ודאו מול היבואן את תקן ה-VESA ובחרו זרוע מתאימה",
+   "יש כניסת USB אחת בלבד (גרסה 2.0), כדאי לתכנן את חיבור הכוננים והאביזרים"
+  ],
+  "faq": [
+   {
+    "q": "כמה כניסות HDMI יש בטלוויזיה?",
+    "a": "3 כניסות HDMI, עם תמיכה ב-eARC ו-ALLM.",
+    "sources": []
+   },
+   {
+    "q": "האם הטלוויזיה תקבל עדכוני מערכת?",
+    "a": "לפי LG, הדגם נכלל בתוכנית webOS Re:New עם שדרוגים ל-5 שנים.",
+    "sources": []
+   },
+   {
+    "q": "מה עומק המסך ללא מעמד?",
+    "a": "לפי אתר LG ישראל המידות ללא מעמד הן 1236 × 716 × 29.7 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "איזה מעבד יש בטלוויזיה?",
+    "a": "מעבד α7 AI 4K דור 8, הכולל שדרוג תמונה 4K Super Upscaling.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "LG 55QNED82A6A",
+   "טלוויזיה LG 55 אינץ׳ QNED",
+   "LG QNED82 55",
+   "טלוויזיה 4K 55 אינץ׳",
+   "טלוויזיה חכמה LG webOS",
+   "55QNED82"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג פאנל",
+   "catalogValue": "4K QNED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציית מסך",
+   "catalogValue": "3840x2160 (4K Ultra HD)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "60Hz Native",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד תמונה",
+   "catalogValue": "α7 AI Processor 4K Gen8",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית תאורה אחורית",
+   "catalogValue": "Edge LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תמיכה ב-HDR",
+   "catalogValue": "HDR10 / HLG",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עוצמת שמע",
+   "catalogValue": "20W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת רמקולים",
+   "catalogValue": "2.0 ערוצים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כניסות HDMI",
+   "catalogValue": "3 כניסות (eARC, ALLM)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסות USB",
+   "catalogValue": "USB 2.0 אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Wi-Fi",
+   "catalogValue": "Wi-Fi 5",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Bluetooth",
+   "catalogValue": "Bluetooth 5.0",
+   "finding": "corrected",
+   "correctValue": "Bluetooth 5.1",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1237x717x49.9 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1236 x 716 x 29.7",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1237x784x257 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "1236 x 783 x 257",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "catalogValue": "15.7 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "14.9",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "16.1 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "15.3",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "catalogValue": "300x200 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "300 x 300",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל במצב המתנה",
+   "catalogValue": "פחות מ-0.5W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "webOS 25",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב Filmmaker",
+   "catalogValue": "Filmmaker Mode",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח חשמל",
+   "catalogValue": "AC 100~240V 50-60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Ethernet (LAN)",
+   "catalogValue": "כן",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תמיכה ב-Apple AirPlay 2 ו-Apple Home",
+   "catalogValue": "כן",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות ומשקל",
+   "issue": "Catalog dimensions and weight differ from the LG Israel page (catalog 1237x717x49.9 mm and 15.7 kg; LG IL 1236 x 716 x 29.7 and 14.9, with no unit printed). The depth of 29.7 against 49.9 needs a person to check the unit and value before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "issue": "Catalog VESA 300x200 differs from the LG Israel page, which shows 300 x 300. A Levant LG page shows 300 x 200, so the regional sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "Bluetooth",
+   "issue": "Catalog says Bluetooth 5.0; the LG Israel page says 5.1.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Other retailers list sibling suffixes 55QNED82A6B and 55QNED82AUA for other regions. The LG Israel page names 55QNED82A6A; check the suffix on the box or invoice.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions (1237x717x49.9 mm) differ from LG Israel (1236 x 716 x 29.7, no unit printed). Confirm the depth and unit before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weights 15.7/16.1 kg differ from LG Israel 14.9/15.3 (no unit printed).",
+   "severity": "medium"
+  },
+  {
+   "field": "תקן תלייה VESA",
+   "issue": "Catalog says 300x200; LG Israel page shows 300 x 300; a Levant LG page reportedly shows 300 x 200. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "Bluetooth",
+   "issue": "Catalog says Bluetooth 5.0; LG Israel page says 5.1.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sibling suffixes (55QNED82A6B, 55QNED82AUA) exist for other regions; confirm the suffix on the box or invoice.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features come from the LG Israel page for 55QNED82A6A. Added the unit מ״מ to the two dimension facts (the page prints no unit; values are clearly millimetres for a 55-inch TV) and flagged them for a check against the catalog. Light wording fixes to labels and features. Catalog dimensions, weight, VESA and Bluetooth differ from LG Israel and are flagged. | code guard removed: summary: \"LG 55QNED82A6A היא טלוויזיה חכמה בגודל 55 אינץ׳ ברזולוציית 4K Ultra HD, עם טכנולוגיית הצבע Dynamic QNED Color ומעבד α7 AI 4K דור 8.\"; metaDescription: \"טלוויזיה LG 55QNED82A6A בגודל 55 אינץ׳, 4K Ultra HD עם Dynamic QNED Color ומעבד α7 AI דור 8, 3 כניסות HDMI. בחדד אלקטריק נהריה\""
+ }
+}

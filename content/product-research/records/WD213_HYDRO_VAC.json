@@ -1,0 +1,375 @@
+{
+ "modelNumber": "WD213 HYDRO VAC",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Shark",
+  "exactModel": "WD213",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "medium",
+  "notes": "דגם WD213 (HYDRO VAC) מופיע בשם המוצר בדפי הקמעונאים הישראליים בשם 'שואב שוטף אלחוטי 3 ב 1 WD213 Hydro Vac'. הקטלוג מכנה אותו 'WD213 HydroVac Cordless Pro XL' - השם Pro XL לא מופיע בדפים הישראליים שנבדקו. | QA: Israeli retailers list Shark WD213 Hydro Vac; the catalog's 'Pro XL' naming does not appear on Israeli pages."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/shark/wd213/hydro/vac",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://salonyam.co.il/en/%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A9%D7%90%D7%A8%D7%A7-3-%D7%91-1-shark-hydro-vac-wd213/",
+   "publisher": "סלון ירושלים",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://zabilo.com/en/mop-vacuum-cleaner/9938-shark-3-in-1-hydro-vac-vacuum-washer-cleaner-all-types-of-surfaces-smart-digital-screen-wd213.html",
+   "publisher": "זבילו",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.soferavi.co.il/מוצרים/שואב-שוטף-שארק-wd213/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיכל מים נקיים",
+     "value": "500 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיכל מים מלוכלכים",
+     "value": "360 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנתיים ע״י שריג אלקטריק"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Single retailer, conflicts with importer warranty on bug.co.il; likely store offer",
+     "label": "אחריות מורחבת",
+     "value": "5 שנים על השואב ושנתיים על הסוללה (מוגבלת)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two IL retailers agree; catalog says 4.8",
+     "label": "משקל",
+     "value": "3.8 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3 פעולות במכשיר אחד – שאיבה, שטיפה וניקוי עצמי"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס טעינה עם מערכת לניקוי עצמי לאחר כל ניקוי"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת אנטי־מיקרוביאלית למניעת ריחות רעים וחיידקים"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נוזל ניקוי בטכנולוגיית Odour Anti"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסך דיגיטלי לבקרה על מצב הסוללה, עוצמת השאיבה ובחירת סוג המשטח"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורת לדים להארת אזור השאיבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "wording softened",
+   "text": "ייבוש מהיר של הרצפה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "duplicate of feature 3",
+   "text": "נוזל ניקוי Anti Odour מצורף"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "יש לו מיכל מים נקיים של 500 מ״ל ומיכל מים מלוכלכים של 360 מ״ל, ומשקלו 3.8 ק״ג. מתאים למי שרוצה לשאוב ולשטוף רצפות קשות במעבר אחד, עם אחריות יבואן של שנתיים ע״י שריג אלקטריק.",
+  "highlights": [
+   "שאיבה, שטיפה וניקוי עצמי במכשיר אחד",
+   "מיכל מים נקיים 500 מ״ל ומיכל מים מלוכלכים 360 מ״ל",
+   "בסיס טעינה עם ניקוי עצמי לאחר כל ניקוי",
+   "מסך דיגיטלי לבקרה על מצב הסוללה ועוצמת השאיבה",
+   "משקל 3.8 ק״ג"
+  ],
+  "goodFor": [
+   "בתים עם רצפות קשות שרוצים לשאוב ולשטוף במעבר אחד",
+   "מי שמעדיף שהמברשת תנוקה אוטומטית בבסיס במקום ידנית",
+   "ניקוי פינות ואזורים חשוכים בעזרת תאורת הלדים"
+  ],
+  "considerations": [
+   "לתכנן מקום ליד שקע חשמל עבור בסיס הטעינה והניקוי העצמי",
+   "מיכל המים הנקיים מכיל 500 מ״ל – בשטח גדול ייתכן שיידרש מילוי חוזר",
+   "לרוקן את מיכל המים המלוכלכים (360 מ״ל) לאחר כל שימוש",
+   "משקל המכשיר 3.8 ק״ג – כדאי לבדוק נוחות אחיזה לפני הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "האם השואב יודע לשאוב ולשטוף בו־זמנית?",
+    "a": "כן, WD213 משלב שאיבה, שטיפה וניקוי עצמי במכשיר אחד.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח המיכלים?",
+    "a": "מיכל המים הנקיים מכיל 500 מ״ל ומיכל המים המלוכלכים מכיל 360 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקל השואב?",
+    "a": "לפי דפי קמעונאים בישראל משקלו 3.8 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות של שנתיים ע״י היבואן שריג אלקטריק.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את המברשת?",
+    "a": "בסיס הטעינה כולל מערכת לניקוי עצמי שפועלת לאחר כל ניקוי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Shark WD213",
+   "שארק הידרו ואק",
+   "Shark Hydro Vac",
+   "שואב שוטף אלחוטי",
+   "שואב שוטף שארק",
+   "שואב שוטף 3 ב 1",
+   "WD213 Hydro Vac"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Shark",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-4.8 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "3.8 ק\"ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מכשיר",
+   "catalogValue": "שואב-שוטף אלחוטי נטען 3 ב-1",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מיכלים",
+   "catalogValue": "מערכת דו-מיכלית להפרדה מוחלטת בין מים נקיים למים מלוכלכים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסך",
+   "catalogValue": "מסך LED חכם המציג את רמת הסוללה, מצב הניקוי והתראות תחזוקה",
+   "finding": "corrected",
+   "correctValue": "מסך דיגיטלי חכם לבקרה על מצב הסוללה, עוצמת השאיבה ובחירת סוג המשטח (לא מצוין מסך התראות תחזוקה)",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מברשת",
+   "catalogValue": "מברשת אנטי-מיקרוביאלית המסתובבת במהירות גבוהה",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "נטרול ריחות",
+   "catalogValue": "טכנולוגיית נטרול ריחות (Odor Neutralizer)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "פנסי LED מובנים בקדמת השואב",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "זמן עבודה רציף",
+   "catalogValue": "עד כ-25 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "ארצות הברית (תכנון ופיתוח), ייצור בסין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין כ-4.8 ק\"ג, בעוד שני דפי קמעונאים ישראליים מציינים 3.8 ק\"ג. נדרש אימות מול מפרט היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "השם 'Pro XL' שבקטלוג לא מופיע בדפים הישראליים שנבדקו, שם בהם 'WD213 Hydro Vac'. לבדוק אם זה אותו דגם.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "זמן העבודה הרציף (כ-25 דקות) לא נמצא בדפים הישראליים שנבדקו ולא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין כ־4.8 ק״ג, שני קמעונאים ישראליים מציינים 3.8 ק״ג. לעדכן את הקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "המפרט בקטלוג מכנה את הדגם 'HydroVac Cordless Pro XL', שם שאינו מופיע בדפים הישראליים (WD213 Hydro Vac). לוודא שזה אותו דגם.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "קמעונאי אחד מציין אחריות מורחבת של 5 שנים, בעוד דף אחר מציין שנתיים ע״י שריג אלקטריק. לאמת מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "זמן עבודה של כ־25 דקות שבקטלוג לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 4 (5-year extended warranty from a single retailer page, contradicts the 2-year importer warranty on bug.co.il; likely a store-specific offer). Rejected feature 7 as a duplicate of feature 3. Softened feature 6 wording. Weight 3.8 kg kept from two IL retailer pages; catalog says 4.8 kg. | code guard removed: summary: \"Shark WD213 Hydro Vac הוא שואב שוטף אלחוטי 3 ב־1 שמשלב שאיבה, שטיפה וניקוי עצמי בבסיס הטעינה.\"; metaDescription: \"שואב שוטף אלחוטי Shark WD213 Hydro Vac 3 ב־1 – שאיבה, שטיפה וניקוי עצמי, מיכל מים נקיים 500 מ״ל ומשקל 3.8 ק״ג. בחדד אלקטריק נהריה\""
+ }
+}

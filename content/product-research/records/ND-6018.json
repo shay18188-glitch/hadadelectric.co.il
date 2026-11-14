@@ -1,0 +1,470 @@
+{
+ "modelNumber": "ND-6018",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND-6018",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן ל-ND 6018 ודף החיפוש של היצרן מציינים את הדגם. לא נמצא שם היבואן הישראלי. דף הקמעונאי לב החשמל מכיל את אותם מפרטים. | QA: Normande's Israeli site and an Israeli retailer both name ND-6018 as a 15-place-setting fully integrated dishwasher, which matches the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://normande.co.il/product/nd-6018/",
+   "publisher": "Normande Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://lev-electric.com/product/%D7%9E%D7%93%D7%99%D7%97-%D7%9B%D7%9C%D7%99%D7%9D-%D7%90%D7%99%D7%A0%D7%98%D7%92%D7%A8%D7%9C%D7%99-nd-6018-%D7%A0%D7%95%D7%A8%D7%9E%D7%A0%D7%93%D7%94-normande/",
+   "publisher": "לב החשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "נורמנדה (Normande)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ND-6018"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "mm to cm",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 81.5 × 56 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "36 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל ברוטו",
+     "value": "41 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "15 מערכות כלים"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "B"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "10 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "source writes 49/46",
+     "label": "רמת רעש",
+     "value": "46–49 dB"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "quote says BLDC, no explicit inverter wording",
+     "label": "מנוע",
+     "value": "BLDC"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות הדחה עיקריות",
+     "value": "היגיינית 70°C, אינטנסיבית 65°C, מהירה 29 דקות, ECO 50°C, ניקוי עצמי (Machine Care)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תא פנימי",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג התקנה",
+     "value": "אינטגרלי מלא (Built-in)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיטוי UV להשמדת חיידקים ומניעת ריחות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ייבוש בזרימת אוויר חם ופתיחת דלת אוטומטית בסיום התוכנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שטיפה מפוצלת (Dual Wash) לסירים וכלים עדינים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed unsupported '3 wash levels'",
+   "text": "3 סלסלות, עם התאמה לגובה הסל העליון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מרכך מים מובנה למניעת אבנית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית חצי כמות (1/2 Load) לחיסכון במים ובחשמל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיימר השהיה עד 24 שעות ונעילת ילדים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התקנה מובנית מלאה, משתלבת מאחורי דלת ארון המטבח"
+  }
+ ],
+ "content": {
+  "summary": "נורמנדה ND-6018 הוא מדיח כלים אינטגרלי מלא ברוחב 60 ס״מ, שמשתלב מאחורי דלת ארון המטבח. הוא מכיל 15 מערכות כלים ב-3 סלסלות, צורך 10 ליטר מים למחזור ופועל ברמת רעש של 46–49 dB עם מנוע BLDC. מתאים למי שמחפש מדיח מובנה בגודל מלא עם חיטוי UV ופתיחת דלת אוטומטית לייבוש.",
+  "highlights": [
+   "קיבולת 15 מערכות כלים ב-3 סלסלות",
+   "צריכת מים של 10 ליטר למחזור",
+   "רמת רעש 46–49 dB ומנוע BLDC",
+   "חיטוי UV ופתיחת דלת אוטומטית בסיום התוכנית",
+   "תוכנית היגיינית 70°C ותוכנית מהירה 29 דקות"
+  ],
+  "goodFor": [
+   "מטבח שבו רוצים שהמדיח יוסתר מאחורי חזית ארון",
+   "משפחה שמדיחה כמות גדולה של כלים בכל הפעלה",
+   "מטבח פתוח לסלון, שבו רמת הרעש חשובה",
+   "מי שמדיח מדי פעם כמות קטנה ורוצה תוכנית חצי כמות"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה במטבח מתאימה למידות 60 × 81.5 × 56 ס״מ",
+   "כמדיח אינטגרלי מלא נדרשת חזית ארון תואמת שתותקן על הדלת",
+   "יש לתכנן נקודת מים, ניקוז ושקע חשמל ליד הנישה",
+   "דירוג האנרגיה הוא B, כדאי להשוות לדגמים אחרים אם הצריכה חשובה לכם"
+  ],
+  "faq": [
+   {
+    "q": "כמה כלים נכנסים למדיח נורמנדה ND-6018?",
+    "a": "המדיח מכיל 15 מערכות כלים, ב-3 סלסלות עם התאמה לגובה הסל העליון.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של ND-6018?",
+    "a": "רוחב 60 ס״מ, גובה 81.5 ס״מ ועומק 56 ס״מ, להתקנה אינטגרלית מלאה מאחורי דלת ארון.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המדיח?",
+    "a": "רמת הרעש היא 46–49 dB, והוא מצויד במנוע BLDC.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים הוא צורך?",
+    "a": "10 ליטר למחזור, ויש גם תוכנית חצי כמות לחיסכון במים ובחשמל.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תוכנית מהירה?",
+    "a": "כן, יש תוכנית מהירה של 29 דקות, לצד תוכנית היגיינית 70°C, אינטנסיבית 65°C ו-ECO 50°C.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מדיח כלים אינטגרלי מלא נורמנדה ND-6018: קיבולת 15 מערכות כלים, 3 סלסלות וצריכת מים של 10 ליטר למחזור. בחדד אלקטריק נהריה",
+  "keywords": [
+   "נורמנדה ND-6018",
+   "מדיח כלים נורמנדה",
+   "מדיח כלים אינטגרלי מלא",
+   "מדיח כלים 15 מערכות",
+   "מדיח כלים 3 סלסלות",
+   "מדיח כלים אינטגרלי 60 ס״מ",
+   "Normande ND-6018"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "15 מערכות כלים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "B",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "46-49 דציבל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "BLDC (אינוורטר)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים למחזור",
+   "catalogValue": "10 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס\"מ, עומק 56 ס\"מ, גובה 81.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "36 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ברוטו",
+   "catalogValue": "41 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תא פנימי",
+   "catalogValue": "נירוסטה מלאה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכניות הדחה (היגיינית 70°C, אינטנסיבית 65°C, מהירה 29 דקות, ECO 50°C, ניקוי עצמי)",
+   "catalogValue": "היגיינית 70°C, אינטנסיבית 65°C, מהירה 29 דקות, ECO 50°C, ניקוי עצמי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר תוכניות הדחה",
+   "catalogValue": "8",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות חסכונית 40°C ורגילה 60°C",
+   "catalogValue": "חסכונית 40°C, רגילה 60°C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מרכך מים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מרכך מים מובנה למניעת אבנית",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא שם היבואן הישראלי בדף היצרן או בדף הקמעונאי. נדרשת בדיקה מול נורמנדה ישראל.",
+   "severity": "low"
+  },
+  {
+   "field": "מספר תוכניות הדחה",
+   "issue": "מספר התוכניות (8) ותוכניות 40°C ו-60° C אינם מופיעים בדפים שנבדקו. יש לאמת מול מדריך המשתמש.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא שם היבואן הישראלי במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "תוכניות הדחה",
+   "issue": "מספר התוכניות בקטלוג (8), התוכניות 40°C ו-60°C ומתח העבודה 220-240V לא אומתו במקורות ולא פורסמו.",
+   "severity": "low"
+  },
+  {
+   "field": "שם הקטלוג",
+   "issue": "שם הקטלוג אומר 'רחב'; המקורות מציינים רוחב 60 ס״מ, שהוא רוחב סטנדרטי למדיח מלא.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 3 reworded: the quote supports 3 baskets with upper-basket height adjustment, not '3 wash levels'. Noise value kept as the range 46–49 dB given on the manufacturer page as 49/46. Catalog program count (8), 40°C/60°C programs and 220–240V are not verified and are not published."
+ }
+}

@@ -1,0 +1,403 @@
+{
+ "modelNumber": "75GP503-B (6738)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "75GP503-B(6738)",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן של Midea ישראל מזהה את הדגם במדויק. הדף מציין גם צבע לבן בתיאור וגם פאנל זכוכית שחורה במפרט; נדרשת בדיקה. | QA: Midea Israel manufacturer page names 75GP503-B(6738) exactly."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il-en/cooking-range/built-in-hob/midea-gas-hob-5-burner-75-cm-defendi.75gp503-b-6738-",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Midea"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "75GP503-B(6738)"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "75 × 9.7 × 51 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות חיתוך להתקנה",
+     "value": "56 × 48 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote also says white glass; only the burner count is used.",
+     "label": "מספר מבערים",
+     "value": "5 להבות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says 3.6 kW for turbo; manufacturer says 3.8 kW.",
+     "label": "הספק המבערים",
+     "value": "3.8 kW, 3.0 kW, 1.75 kW (×2), 1.0 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג מבערים",
+     "value": "מבערי Defendi עם מבער טבעת משולשת"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג גז",
+     "value": "גז טבעי (NG) וגז בישול (LPG)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Description on same page says white glass; flagged.",
+     "label": "משטח",
+     "value": "זכוכית שחורה בעובי 8 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מיקום בקרה",
+     "value": "בקרה קדמית"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כפתורי בקרה",
+     "value": "כפתורי פלסטיק PK15"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תושבות סירים",
+     "value": "חצובות ברזל יצוק"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "5 להבות בישול בעוצמות שונות, כולל להבת טורבו כפולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבערים איטלקיים מתוצרת DEFENDI"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote does not identify which part has the metal base; attributing it to pan supports is unsupported.",
+   "text": "תושבות סירים עם בסיס מתכתי, בעלות עמידות אש גבוהה יותר מבסיס פלסטיק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת לכיוונון מדויק של הלהבה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נדרש חיתוך בשיש בגודל 56 × 48 ס״מ"
+  }
+ ],
+ "content": {
+  "summary": "כיריים גז בילט-אין של Midea ברוחב 75 ס״מ עם 5 מבערים איטלקיים מתוצרת DEFENDI ומשטח זכוכית שחורה בעובי 8 מ״מ. המבער החזק מגיע ל-3.8 kW עם טבעת משולשת, והסירים נשענים על חצובות ברזל יצוק. מתאימות למטבח שמבשלים בו כמה סירים במקביל ולמי שמחפש להבה חזקה לווק ולהקפצה.",
+  "highlights": [
+   "5 מבערים: 3.8 kW, 3.0 kW, 1.75 kW (×2) ו-1.0 kW",
+   "מבערי DEFENDI איטלקיים עם מבער טבעת משולשת",
+   "משטח זכוכית שחורה בעובי 8 מ״מ",
+   "חצובות ברזל יצוק",
+   "חיתוך התקנה בשיש: 56 × 48 ס״מ"
+  ],
+  "goodFor": [
+   "בישול של כמה סירים ומחבתות בו-זמנית",
+   "הקפצה בווק וטיגון מהיר על מבער הטבעת המשולשת",
+   "מטבח עם שיש שמתאים לחיתוך של 56 × 48 ס״מ",
+   "בתים עם גז טבעי או גז בישול (LPG)"
+  ],
+  "considerations": [
+   "יש לוודא שהחיתוך בשיש הוא 56 × 48 ס״מ ושיש מקום לרוחב חיצוני של 75 ס״מ",
+   "החיבור לגז והתאמת סוג הגז (NG או LPG) נעשים על ידי מתקין גז מוסמך",
+   "הכפתורים עשויים פלסטיק ונמצאים בחזית הכיריים",
+   "כדאי לוודא את צבע הזכוכית בפועל לפני ההזמנה"
+  ],
+  "faq": [
+   {
+    "q": "מה גודל החיתוך בשיש שנדרש להתקנה?",
+    "a": "לפי היצרן מידות ההתקנה הן 56 × 48 ס״מ, והמידות החיצוניות של הכיריים הן 75 × 51 ס״מ בגובה 9.7 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המבערים?",
+    "a": "המבערים בהספקים 3.8 kW, 3.0 kW, שני מבערים של 1.75 kW ומבער של 1.0 kW.",
+    "sources": []
+   },
+   {
+    "q": "האם הכיריים מתאימות לגז טבעי?",
+    "a": "כן, היצרן מציין התאמה לגז טבעי (NG) ולגז בישול (LPG). ההתאמה נעשית על ידי מתקין גז.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויות החצובות?",
+    "a": "החצובות עשויות ברזל יצוק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Midea 75GP503-B ברוחב 75 ס״מ: 5 מבערי DEFENDI עד 3.8 kW, זכוכית שחורה 8 מ״מ וחצובות ברזל יצוק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז 75 ס״מ",
+   "כיריים גז Midea",
+   "Midea 75GP503-B",
+   "כיריים 5 להבות",
+   "כיריים גז זכוכית שחורה",
+   "כיריים DEFENDI",
+   "כיריים גז בילט אין"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "5",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער טורבו כפול",
+   "catalogValue": "3.6kW",
+   "finding": "corrected",
+   "correctValue": "3.8 kW",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער גדול",
+   "catalogValue": "3.0kW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שני מבערים בינוניים",
+   "catalogValue": "1.75kW כל אחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער קטן",
+   "catalogValue": "1.0kW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 75 ס\"מ, עומק 51 ס\"מ, גובה 9.7 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיתוך להבניה",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 48 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבערים איטלקיים מתוצרת DEFENDI",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חצובות ברזל יצוק",
+   "catalogValue": "חצובות מברזל יצוק (Cast Iron)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח זכוכית שחורה",
+   "catalogValue": "זכוכית מחוסמת בגימור שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישני FFD",
+   "catalogValue": "חיישנים תרמיים (FFD)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הצתה אלקטרונית",
+   "catalogValue": "הצתה אלקטרונית מובנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גז",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "גז טבעי (NG) ו-LPG",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "panel_color",
+   "issue": "שם הקטלוג והמפרט בדף היצרן מציינים זכוכית שחורה (8 מ״מ), אך תיאור המוצר בדף היצרן מציין 'white glass finish'. יש לאמת את צבע הפאנל מול היבואן או המוצר בפועל.",
+   "severity": "high"
+  },
+  {
+   "field": "burner_power",
+   "issue": "הקטלוג מציין מבער טורבו כפול 3.6kW, ואילו דף היצרן מציין 3.8kW.",
+   "severity": "medium"
+  },
+  {
+   "field": "panel_color",
+   "issue": "דף היצרן מציין במפרט זכוכית שחורה 8 מ״מ אך בתיאור 'white glass finish'. יש לאמת את צבע הזכוכית.",
+   "severity": "medium"
+  },
+  {
+   "field": "burner_power",
+   "issue": "הקטלוג מציין מבער טורבו 3.6kW, דף היצרן מציין 3.8kW. יש לעדכן את מפרט הקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog_specs",
+   "issue": "חיישני FFD והצתה אלקטרונית שבקטלוג לא אומתו בדף היצרן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 2 (metal base quote does not say it refers to the pan supports). Burner power corrected vs catalog (3.8 kW not 3.6 kW). Manufacturer page description says white glass finish while spec says 8mm black glass panel; flagged."
+ }
+}

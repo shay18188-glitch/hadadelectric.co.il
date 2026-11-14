@@ -1,0 +1,321 @@
+{
+ "modelNumber": "SE-947",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Selmor",
+  "exactModel": "SE-947",
+  "israeliImporter": "סלמור",
+  "matchConfidence": "high",
+  "notes": "The Israeli retailer page topdeal.co.il writes the model as SE947 (no hyphen). The manufacturer page selmor.co.il was rate-limited (HTTP 429) and was not read. | QA: Retailer page writes SE947 without hyphen; same Selmor 3-burner stainless gas stove."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.topdeal.co.il/product/selmor-se947/",
+   "publisher": "טופדיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "3 מבערי טורבו (להבה כפולה)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "לחץ גז נומינלי",
+     "value": "30 מיליבר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג גז",
+     "value": "גפ״מ (LPG)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג הצתה",
+     "value": "פייזואלקטרית"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיישן בטיחות",
+     "value": "FFD"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר גוף",
+     "value": "נירוסטה, מבערים מיציקת אלומיניום"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "height includes closed lid per quote",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "כ-71 × 15 × 37 ס״מ (גובה כולל מכסה סגור)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer-stated",
+     "label": "תקופת אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3 מבערי גז טורבו עם להבה כפולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ווסתים לשליטה על עוצמת הלהבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה מובנה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתאימה לשימוש בשטח או בתוך המבנה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כירת גז שולחנית של סלמור, דגם SE-947, עם 3 מבערי טורבו בלהבה כפולה וגוף נירוסטה. הכירה פועלת בגפ״מ בלחץ 30 מיליבר, כוללת הצתה פייזואלקטרית וחיישן בטיחות FFD. מתאימה כפתרון בישול נוסף בבית, במרפסת או בשטח.",
+  "highlights": [
+   "3 מבערי גז טורבו עם להבה כפולה",
+   "חיישן בטיחות FFD",
+   "הצתה פייזואלקטרית ללא מצית או גפרורים",
+   "גוף נירוסטה ומבערים מיציקת אלומיניום",
+   "מכסה מובנה"
+  ],
+  "goodFor": [
+   "בישול נוסף בחגים לצד הכירה הקבועה",
+   "מרפסת או חצר עם חיבור לבלון גפ״מ",
+   "קמפינג ושימוש בשטח",
+   "יחידת דיור ללא כיריים מובנות"
+  ],
+  "considerations": [
+   "ודאו שיש משטח פנוי ברוחב של כ-71 ס״מ ובעומק של כ-37 ס״מ",
+   "הכירה מיועדת לגפ״מ – יש לחבר לווסת בלחץ 30 מיליבר",
+   "מומלץ לבצע חיבור לגז על ידי מתקין גז מוסמך"
+  ],
+  "faq": [
+   {
+    "q": "באיזה סוג גז הכירה עובדת?",
+    "a": "בגפ״מ (LPG), בלחץ גז נומינלי של 30 מיליבר.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך מצית כדי להדליק?",
+    "a": "לא, לכירה מערכת הצתה פייזואלקטרית מובנית.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מנגנון בטיחות?",
+    "a": "כן, חיישן בטיחות FFD.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הכירה?",
+    "a": "כ-71 × 15 × 37 ס״מ (רוחב × גובה × עומק), הגובה כולל מכסה סגור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כירת גז שולחנית Selmor SE-947 נירוסטה עם 3 מבערי טורבו בלהבה כפולה, הצתה פייזואלקטרית וחיישן FFD. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כירת גז 3 להבות",
+   "סלמור SE-947",
+   "Selmor SE947",
+   "כירת גז שולחנית נירוסטה",
+   "כירת גז לקמפינג",
+   "כירת גז לפסח",
+   "כירת גז גפ״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "3 מבערי גז טורבו (להבה כפולה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג הצתה",
+   "catalogValue": "מערכת הצתה פייזואלקטרית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון בטיחות",
+   "catalogValue": "חיישן FFD",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גז",
+   "catalogValue": "גפ״מ (LPG)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ גז נומינלי",
+   "catalogValue": "30 מיליבר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב כ-71 ס״מ, עומק כ-37 ס״מ, גובה כ-15 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק כולל",
+   "catalogValue": "11,560 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "The catalog gives a total power of 11,560 W. The Israeli retailer attribute table lists 930W for this model. The two sources conflict and were not reconciled; check the rating label on the unit.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "The retailer page writes the model as SE947 without the hyphen. Other pages found in search use SE-947. Confirm the exact model number on the label.",
+   "severity": "medium"
+  },
+  {
+   "field": "ארץ ייצור",
+   "issue": "The manufacturer site selmor.co.il returned HTTP 429 and was not read. The origin country and the importer details rest on the retailer page only.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog states total power 11,560 W; retailer attribute table lists 930W. Unverified, not published; check rating label.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Retailer writes SE947 without hyphen; confirm model code on label.",
+   "severity": "low"
+  },
+  {
+   "field": "ארץ ייצור",
+   "issue": "Manufacturer site not read; origin country unverified.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts rest on one Israeli retailer page (topdeal.co.il) naming SE947. Dimensions label corrected to note the height includes the closed lid. Total power not published: catalog 11,560 W vs retailer 930W, unverified."
+ }
+}

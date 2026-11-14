@@ -1,0 +1,463 @@
+{
+ "modelNumber": "WW90CGC045AE",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW90CGC045AE",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "היבואן הרשמי לפי דף ליאור מוצרי חשמל. לא נמצא דף מפרט רשמי של סמסונג ישראל לדגם זה בחיפוש או בחיפוש באתר סמסונג. | QA: Both Israeli retailer pages name WW90CGC045AE exactly; importer from Lior page only. No manufacturer spec page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bettershop.co.il/product/samsung-ww90cgc045ae/",
+   "publisher": "BetterShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://lior-electric.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-9-%D7%A7%D7%92-samsung-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-ww90cgc045ae-%D7%A0%D7%99/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "9 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר פתח הטענה",
+     "value": "כ-33 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1,400 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "Digital Inverter BLDC"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "קרמי"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שקילה אוטומטית",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Conflicts with catalog (55) and BetterShop (63.5); single retailer, unverified against manufacturer",
+     "label": "עומק (גוף המכונה)",
+     "value": "59.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Depth figures conflict across sources; needs manufacturer check",
+     "label": "עומק כולל דלת",
+     "value": "כ-62 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "גוף לבן, דלת שחורה"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "דיגיטלית LED"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית מהירה",
+     "value": "15 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית ניקוי תוף",
+     "value": "Drum Clean"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Wi-Fi",
+     "value": "כן, תמיכה בחיבור לאפליקציית SmartThings"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילת ילדים",
+     "value": "כן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed claims not in quote",
+   "text": "טכנולוגיית AI EcoBubble, מנוע Digital Inverter ותוכנית Hygiene Steam"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Matched quote wording",
+   "text": "תוכנית Bubble Soak לסיוע בהסרת כתמים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגירת חומרי ניקוי StayClean"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של סמסונג בקיבולת 9 ק״ג, עם מהירות סחיטה מרבית של 1,400 סל״ד ודירוג אנרגטי A. המכונה כוללת מנוע Digital Inverter BLDC, טכנולוגיית AI EcoBubble וחיבור Wi-Fi לאפליקציית SmartThings. מתאימה למשפחה שמכבסת כמויות גדולות ורוצה שליטה מהטלפון.",
+  "highlights": [
+   "קיבולת כביסה 9 ק״ג",
+   "מהירות סחיטה מרבית 1,400 סל״ד",
+   "דירוג אנרגטי A",
+   "מנוע Digital Inverter BLDC",
+   "Wi-Fi עם אפליקציית SmartThings"
+  ],
+  "goodFor": [
+   "משפחות שמכבסות כמויות גדולות של כביסה בכל מחזור",
+   "מי שרוצה כביסה מהירה בתוכנית של 15 דקות",
+   "מי שרוצה לשלוט במכונה ולעקוב אחריה מהאפליקציה",
+   "בית עם ילדים קטנים, בזכות נעילת הילדים"
+  ],
+  "considerations": [
+   "מדדו את עומק הנישה מול מפרט היצרן לפני ההזמנה, כולל מקום לפתיחת הדלת",
+   "ודאו שקיימת רשת Wi-Fi באזור המכונה כדי להשתמש באפליקציית SmartThings",
+   "ודאו שקיימים חיבור מים, ניקוז ושקע חשמל מתאים במקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Samsung WW90CGC045AE?",
+    "a": "קיבולת הכביסה היא 9 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המרבית?",
+    "a": "מהירות הסחיטה המרבית היא 1,400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט במכונה מהטלפון?",
+    "a": "כן, למכונה יש Wi-Fi עם תמיכה בחיבור לאפליקציית SmartThings.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תוכנית כביסה מהירה?",
+    "a": "כן, יש תוכנית מהירה של 15 דקות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תוכנית לניקוי התוף?",
+    "a": "כן, תוכנית Drum Clean לניקוי תוף המכונה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Samsung WW90CGC045AE בקיבולת 9 ק״ג, סחיטה עד 1,400 סל״ד, דירוג אנרגטי A ו-Wi-Fi עם SmartThings. בחדד אלקטריק נהריה",
+  "keywords": [
+   "WW90CGC045AE",
+   "סמסונג WW90CGC045AE",
+   "מכונת כביסה סמסונג 9 קג",
+   "מכונת כביסה 9 קג פתח חזית",
+   "מכונת כביסה 1400 סלד",
+   "מכונת כביסה עם wifi",
+   "מכונת כביסה AI EcoBubble"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "9 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1400 סל״ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "Digital Inverter BLDC",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "קרמי להפחתת הצטברות אבנית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס״מ, גובה 85 ס״מ, עומק 55 ס״מ (עומק כולל דלת 62 ס״מ)",
+   "finding": "corrected",
+   "correctValue": "רוחב 60 ס״מ, גובה 85 ס״מ, עומק גוף 59.5 ס״מ (עומק כולל דלת כ-62 ס״מ)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "65 ק״ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "מסך LED דיגיטלי לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פתח הטענה",
+   "catalogValue": "גדול במיוחד (33 ס״מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "גוף לבן, דלת שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכנית מהירה",
+   "catalogValue": "תוכנית מהירה 15 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מגירת StayClean",
+   "catalogValue": "מגירת StayClean",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שקילה אוטומטית",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "כן",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Bubble Soak",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "להסרת כתמים קשים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עומק",
+   "issue": "הקטלוג מציין עומק 55 ס״מ. ליאור מוצרי חשמל: עומק גוף 59.5 ס״מ, כולל דלת כ-62 ס״מ. בטרשופ: עומק 63.5 ס״מ. המקורות סותרים זה את זה, יש לבדוק במפרט היצרן לפני פרסום",
+   "severity": "high"
+  },
+  {
+   "field": "manufacturer_spec",
+   "issue": "לא נמצא דף מפרט רשמי של סמסונג ישראל לדגם WW90CGC045AE. כל הנתונים מבוססים על קמעונאים ישראליים",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל נטו 65 ק״ג מופיע בבטרשופ, אך לא נשמר כעובדה כי הציטוט לא נמצא בשורה בודדת בדף",
+   "severity": "low"
+  },
+  {
+   "field": "עומק",
+   "issue": "הקטלוג מציין עומק 55 ס״מ, ליאור מוצרי חשמל 59.5 ס״מ (כולל דלת כ-62), ובטרשופ 63.5 ס״מ. יש לאמת מול מפרט היצרן ולתקן את הקטלוג",
+   "severity": "high"
+  },
+  {
+   "field": "manufacturer_spec",
+   "issue": "לא נמצא דף מפרט רשמי של היצרן; כל הנתונים מבוססים על קמעונאים ישראליים",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל נטו 65 ק״ג בקטלוג לא אומת",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected body depth (59.5) and total depth (62) because the sources and the catalog disagree (catalog 55, Lior 59.5/62, BetterShop reportedly 63.5). Reworded feature 0 and 1 to match the quotes exactly (no unquoted claims about low temperatures, steam or hard stains)."
+ }
+}

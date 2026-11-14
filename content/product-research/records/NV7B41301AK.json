@@ -1,0 +1,433 @@
+{
+ "modelNumber": "NV7B41301AK",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "NV7B41301AK",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף המוצר של סמסונג ישראל מציג את הדגם כ-NV7B41301AK/U3 ומציין תנור פירוליטי בצבע שחור. | QA: Samsung Israel page for NV7B41301AK/U3, black pyrolytic built-in oven, 76 L - matches catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.samsung.com/il/cooking-appliances/ovens/nv7000b-4series-single-fan-4series-single-fan-nv7b41301ak-u3/",
+   "publisher": "Samsung ישראל",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "595 × 596 × 570 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "36.9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × גובה × עומק)",
+     "value": "560 × 579 × 549 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא",
+     "value": "76 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "3500 W (230 V) – 3850 W (240 V)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "30–250 מעלות צלזיוס (במצב גריל 100–270)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח ותדר",
+     "value": "230–240 V, 50 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תאורה פנימית",
+     "value": "הלוגן, 25 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A+"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חיבור Wi-Fi",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיטת ניקוי",
+     "value": "פירוליטי (Pyrolytic Cleaning)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניקוי פירוליטי (Pyrolytic Cleaning) שמחמם את חלל התנור ושורף שומן ושאריות בישול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "reworded to match quote",
+   "text": "מצב Eco Convection המאפשר להשתמש בכל חלל התנור ביעילות אנרגטית A+"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "telescopic rail not in quote",
+   "text": "מדף הנשלף בקלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תמיכה באפליקציית SmartThings Food לתכנון הבישול"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נדרשת נישה בגודל 560 × 579 × 549 מ״מ (רוחב × גובה × עומק)"
+  }
+ ],
+ "content": {
+  "summary": "Samsung NV7B41301AK הוא תנור בנוי בצבע שחור עם תא בנפח 76 ליטר וניקוי פירוליטי ששורף שומן ושאריות בישול. התנור מגיע לטווח של 30–250 מעלות (בגריל עד 270), מדורג A+ באנרגיה ומתחבר ל-Wi-Fi לשליטה דרך SmartThings. מתאים למי שמבשל מנות גדולות ורוצה לחסוך בקרצוף התנור.",
+  "highlights": [
+   "נפח תא של 76 ליטר",
+   "ניקוי פירוליטי",
+   "דירוג אנרגטי A+ ומצב Eco Convection",
+   "חיבור Wi-Fi ותמיכה ב-SmartThings Food",
+   "טמפרטורה עד 250 מעלות, בגריל עד 270"
+  ],
+  "goodFor": [
+   "בישול ואפייה של מנות גדולות בתא של 76 ליטר",
+   "מי שמעדיף ניקוי פירוליטי על פני קרצוף ידני",
+   "מטבח חכם שבו רוצים לשלוט בתנור מהאפליקציה",
+   "מי שמחפש תנור בנוי שחור בדירוג A+"
+  ],
+  "considerations": [
+   "ודאו שהנישה במטבח מתאימה למידות 560 × 579 × 549 מ״מ",
+   "ההספק המרבי מגיע ל-3500 W ב-230 V – כדאי לוודא שקו החשמל מתאים",
+   "משקל התנור 36.9 ק״ג נטו – מומלץ להתקין בשני אנשים",
+   "לשליטה מהאפליקציה נדרשת רשת Wi-Fi במטבח"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח התא הוא 76 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "איזה גודל נישה צריך להתקנה?",
+    "a": "נישה של 560 × 579 × 549 מ״מ (רוחב × גובה × עומק). מידות התנור עצמו 595 × 596 × 570 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את התנור?",
+    "a": "התנור כולל ניקוי פירוליטי שמחמם את החלל ושורף שומן ושאריות בישול.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשלוט בתנור מהטלפון?",
+    "a": "כן, לתנור יש חיבור Wi-Fi ותמיכה באפליקציית SmartThings Food.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורה?",
+    "a": "30–250 מעלות צלזיוס, ובמצב גריל 100–270 מעלות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Samsung NV7B41301AK שחור: נפח 76 ליטר, ניקוי פירוליטי, דירוג A+ וחיבור Wi-Fi. מידות, נישה ומפרט מלא בחדד אלקטריק נהריה",
+  "keywords": [
+   "NV7B41301AK",
+   "תנור בנוי סמסונג",
+   "תנור פירוליטי סמסונג",
+   "תנור בנוי שחור 76 ליטר",
+   "Samsung NV7B41301AK",
+   "תנור בנוי Wi-Fi",
+   "תנור סמסונג SmartThings"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "76 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 59.5 ס\"מ, גובה 59.6 ס\"מ, עומק 57 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה",
+   "catalogValue": "רוחב 56 ס\"מ, גובה 57.9 ס\"מ, עומק 54.9 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-35 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "36.9 ק״ג (נטו)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "3500W-3850W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "catalogValue": "30-250 מעלות צלזיוס (במצב גריל 100-270 מעלות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A+",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה פנימית",
+   "catalogValue": "הלוגן (25W)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסך",
+   "catalogValue": "LCD Mono בגודל 2.25 אינץ׳",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ניקוי אדים (Add Steam)",
+   "catalogValue": "טכנולוגיית Add Steam",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות אוטומטיות",
+   "catalogValue": "20 תוכניות בישול ואפייה אוטומטיות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוי פירוליטי",
+   "catalogValue": "ניקוי פירוליטי המגיע ל-500 מעלות צלזיוס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "SmartThings / Wi-Fi",
+   "catalogValue": "קישוריות Wi-Fi ותמיכה באפליקציית SmartThings",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין כ-35 ק״ג, ודף סמסונג ישראל מציין 36.9 ק״ג נטו (ברוטו 41.4 ק״ג). מומלץ לעדכן.",
+   "severity": "medium"
+  },
+  {
+   "field": "ניקוי אדים",
+   "issue": "דף סמסונג ישראל מציין ניקוי אדים: כן וגם Steam Type: לא. הקטלוג מציין Add Steam. יש לבדוק מה הפונקציה בדגם הישראלי.",
+   "severity": "medium"
+  },
+  {
+   "field": "מסך",
+   "issue": "הקטלוג מציין 2.25 אינץ׳, ואתר ביקורת מציין 2.2 אינץ׳. לא אומת מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "ניקוי פירוליטי",
+   "issue": "טמפרטורת 500 מעלות צלזיוס לא נמצאה בדף סמסונג ישראל שנקרא. נדרש אימות.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "דף סמסונג ישראל מציג את הדגם כ-NV7B41301AK/U3. הקטלוג מציין NV7B41301AK ללא הסיומת /U3.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "הקטלוג מציין כ-35 ק״ג, ודף סמסונג ישראל מציין 36.9 ק״ג נטו.",
+   "severity": "medium"
+  },
+  {
+   "field": "Add Steam",
+   "issue": "הקטלוג מציין Add Steam, ולא נמצא אישור בדף היצרן. יש לבדוק בדגם הישראלי.",
+   "severity": "medium"
+  },
+  {
+   "field": "ניקוי פירוליטי",
+   "issue": "טמפרטורת 500 מעלות שבקטלוג לא אומתה מול דף היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "מסך",
+   "issue": "גודל מסך 2.25 אינץ׳ שבקטלוג לא אומת.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 1 reworded to match the quote (use of the full cavity in Eco Convection). Feature 2 'telescopic rail' wording removed, quote only says easily sliding shelf. Feature 3 trimmed to SmartThings Food as quoted. Catalog weight 35 kg differs from manufacturer 36.9 kg net."
+ }
+}

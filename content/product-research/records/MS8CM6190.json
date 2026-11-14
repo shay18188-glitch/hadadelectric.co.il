@@ -1,0 +1,389 @@
+{
+ "modelNumber": "MS8CM6190",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MS8CM6190",
+  "israeliImporter": "בי.אס.אייץ מכשירים ביתיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "Bosch MaxoMixx hand blender (sold as ErgoMixx Style in some markets). Manufacturer pages are regional (NE, SG); Israeli warranty and dimensions come from an Israeli retailer page that names the model. | QA: Bosch MaxoMixx MS8CM6190 hand blender set; model code matches catalog exactly and an Israeli retailer page names the same model with the official importer warranty."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bosch-home.com/ne/en/mkt-product/MS8CM6190",
+   "publisher": "Bosch",
+   "kind": "manufacturer",
+   "market": "NE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/bosch_ms8cm6190/",
+   "publisher": "BetterSHOP",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "12"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "להב",
+     "value": "4 כנפיים, Anti-Suction"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "6.3 × 40.2 × 6.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "2.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח קערת מעבד המזון",
+     "value": "1.25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע ראשי",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ניקוי",
+     "value": "רגלית ואביזרים במדיח כלים (למעט המנוע והתמסורות)"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "140 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים מהיבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע של 1000 וואט"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "12 מהירויות ופונקציית טורבו"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מעבד מזון כלול לקיצוץ, גירוד, פריסה ולישת בצק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון קליק להסרת הרגלית לניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוף נירוסטה עם ידית SoftTouch ארגונומית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "2 מכסים, סכין לכתישת קרח, כוס מדידה וערבוב ורגלית ערבוב מנירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מקצף, קוצץ אוניברסלי, כלי לישת בצק ומעבד מזון"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Bosch MS8CM6190 הוא בלנדר מוט בהספק 1000 וואט עם 12 מהירויות ופונקציית טורבו, המגיע כערכה עם מעבד מזון בקערה של 1.25 ליטר, מקצף וסכין לכתישת קרח. הלהב בעל 4 כנפיים עם מנגנון Anti-Suction, והגוף מנירוסטה עם ידית SoftTouch. מתאים למי שרוצה מכשיר אחד לטחינת מרקים, הקצפה, קיצוץ ולישת בצק.",
+  "highlights": [
+   "מנוע 1000 וואט",
+   "12 מהירויות ופונקציית טורבו",
+   "מעבד מזון עם קערה של 1.25 ליטר",
+   "להב 4 כנפיים עם Anti-Suction",
+   "רגלית ואביזרים מתאימים למדיח כלים"
+  ],
+  "goodFor": [
+   "טחינת מרקים ורטבים ישירות בסיר בעזרת הרגלית מנירוסטה",
+   "קיצוץ, פריסה וגירוד ירקות במעבד המזון הכלול",
+   "הקצפת שמנת וחלבונים עם המקצף",
+   "לישת בצק בכמויות קטנות עם כלי הלישה"
+  ],
+  "considerations": [
+   "אורך הכבל 140 ס״מ, כדאי לוודא שקע קרוב למשטח העבודה",
+   "הערכה כוללת אביזרים רבים, כדאי לתכנן מקום אחסון במגירה או בארון",
+   "המנוע והתמסורות אינם מתאימים למדיח כלים ויש לנגבם ביד"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Bosch MS8CM6190?",
+    "a": "ההספק הוא 1000 וואט, עם 12 מהירויות ופונקציית טורבו.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח קערת מעבד המזון?",
+    "a": "קערת מעבד המזון בנפח 1.25 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "מעבד מזון, מקצף, קוצץ אוניברסלי, סכין לכתישת קרח, כלי לישת בצק, כוס מדידה וערבוב ו-2 מכסים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את החלקים במדיח?",
+    "a": "כן, הרגלית והאביזרים מתאימים למדיח כלים, למעט המנוע והתמסורות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות שנתיים מהיבואן הרשמי בישראל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Bosch MS8CM6190 בהספק 1000 וואט עם 12 מהירויות ומעבד מזון בקערה של 1.25 ליטר, מקצף וסכין לקרח. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט בוש",
+   "Bosch MS8CM6190",
+   "MS8CM6190",
+   "בלנדר מוט 1000 וואט",
+   "בלנדר מוט עם מעבד מזון",
+   "Bosch MaxoMixx",
+   "מוט בלנדר נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "12 דרגות עבודה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סכינים",
+   "catalogValue": "QuattroBlade Pro עם 4 סכינים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר גוף",
+   "catalogValue": "פלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "1.4 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "2.6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "402x63x63 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ניקוי במדיח",
+   "catalogValue": "חלקים ניתנים לשטיפה במדיח",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "BPA-Free",
+   "catalogValue": "חלקי פלסטיק במגע עם מזון ללא BPA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סלובניה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "status",
+   "issue": "Bosch's own product page for MS8CM6190 describes the model as no longer offered, so it looks discontinued. Check that the model is still current before relying on these facts.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Manufacturer pages are the Nepal and Singapore regional sites; the Israeli facts rely on one Israeli retailer page. The values agree, but an Israeli Bosch spec sheet would be a stronger source.",
+   "severity": "low"
+  },
+  {
+   "field": "status",
+   "issue": "Bosch's product page describes the model as no longer offered; confirm the model is still current.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Dimensions, bowl capacity and warranty rest on a single Israeli retailer page; manufacturer pages are regional (NE, SG).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts verified by ok quotes on pages naming MS8CM6190; Bosch manufacturer pages plus one Israeli retailer page for dimensions, bowl capacity and warranty."
+ }
+}
