@@ -16,6 +16,9 @@ import { ProductGallery } from "@/components/ProductGallery";
 import { ExpertNote } from "@/components/ExpertNote";
 import { productHeading, localizedBrandLabel } from "@/lib/seo/productNaming";
 import { allBrandAliases } from "@/lib/seo/brandNames";
+import { KeyFacts } from "@/components/ProductDetails";
+import { ProductMoreDetails } from "@/components/ProductMoreDetails";
+import { keyFacts } from "@/lib/productLayout";
 
 type UiLocale = Exclude<Locale, "he">;
 
@@ -27,8 +30,7 @@ const CATALOG_TEXT: Record<UiLocale, {
   productsCount: (n: number) => string;
   model: string;
   origin: string;
-  specs: string;
-  capabilities: string;
+  keyFacts: string;
   related: string;
   sameBrand: (brand: string) => string;
   notice: string;
@@ -46,8 +48,7 @@ const CATALOG_TEXT: Record<UiLocale, {
     productsCount: (n) => `${n} products`,
     model: "Model",
     origin: "Country of origin",
-    specs: "Technical specifications",
-    capabilities: "Features",
+    keyFacts: "Key figures",
     related: "More products in this category",
     sameBrand: (brand) => `More products by ${brand}`,
     notice: "The site shows general information only, without prices. Stock availability is subject to store confirmation.",
@@ -65,8 +66,7 @@ const CATALOG_TEXT: Record<UiLocale, {
     productsCount: (n) => `Товаров: ${n}`,
     model: "Модель",
     origin: "Страна производства",
-    specs: "Технические характеристики",
-    capabilities: "Возможности",
+    keyFacts: "Главные параметры",
     related: "Ещё товары из этой категории",
     sameBrand: (brand) => `Ещё товары ${brand}`,
     notice: "Сайт содержит только общую информацию, без цен. Наличие товара подтверждается магазином.",
@@ -185,6 +185,9 @@ export function LocaleProductDetailPage({
   const t = CATALOG_TEXT[locale];
   const localized = localizeProduct(product, locale);
   const whatsappMessage = buildWhatsAppProductMessage(localized, locale);
+  // Spec labels and values are Hebrew on every locale, so the tiles render
+  // RTL; only the model and origin tiles carry translated labels.
+  const facts = keyFacts(product, 5);
 
   return (
     <div lang={LOCALE_HTML_LANG[locale]} dir="ltr">
@@ -242,6 +245,9 @@ export function LocaleProductDetailPage({
                 </div>
               )}
             </dl>
+            <div lang="he" dir="rtl">
+              <KeyFacts facts={facts} ariaLabel={t.keyFacts} className="mt-4" />
+            </div>
 
             <p className="mt-4 text-[15px] leading-relaxed text-graphite-soft/90 md:mt-5 md:text-base">
               {localized.description}
@@ -270,52 +276,13 @@ export function LocaleProductDetailPage({
             page's markup, which must describe the page in its own language. */}
         <ExpertNote note={localized.expertNote} modelNumber={localized.modelNumber} locale={locale} />
 
-        {localized.specs.length > 0 && (
-          <section className="mt-10 md:mt-14" aria-labelledby="specs-heading">
-            <h2 id="specs-heading" className="text-lg font-bold text-graphite md:text-2xl">
-              {t.specs}
-            </h2>
-            {/* Spec labels/values come from the Hebrew catalog feed — rendered RTL. */}
-            <div className="mt-3 overflow-hidden rounded-2xl border border-line md:mt-4" lang="he" dir="rtl">
-              <table className="w-full text-[13px] md:text-sm">
-                <tbody>
-                  {localized.specs.map((spec, index) => (
-                    <tr key={index} className={index % 2 === 0 ? "bg-white" : "bg-surface"}>
-                      {spec.label ? (
-                        <>
-                          <th scope="row" className="w-2/5 px-3 py-2.5 text-start font-medium text-graphite-soft/70 md:w-1/3 md:px-4 md:py-3">
-                            {spec.label}
-                          </th>
-                          <td className="px-3 py-2.5 text-graphite md:px-4 md:py-3">{spec.value}</td>
-                        </>
-                      ) : (
-                        <td colSpan={2} className="px-3 py-2.5 text-graphite md:px-4 md:py-3">
-                          {spec.value}
-                        </td>
-                      )}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
-        )}
-
-        {localized.capabilities.length > 0 && (
-          <section className="mt-8 md:mt-10" aria-labelledby="capabilities-heading">
-            <h2 id="capabilities-heading" className="text-lg font-bold text-graphite md:text-2xl">
-              {t.capabilities}
-            </h2>
-            <ul className="mt-3 grid gap-2 sm:grid-cols-2 md:mt-4" lang="he" dir="rtl">
-              {localized.capabilities.map((capability, index) => (
-                <li key={index} className="flex items-start gap-2 text-sm text-graphite-soft/90">
-                  <span aria-hidden="true" className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-blue" />
-                  {capability}
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
+        <ProductMoreDetails
+          product={localized}
+          research={null}
+          locale={locale}
+          modelNumber={localized.modelNumber}
+          keyFactCount={facts.length}
+        />
 
         {related.length > 0 && (
           <section className="mt-10 md:mt-14" aria-labelledby="related-heading">

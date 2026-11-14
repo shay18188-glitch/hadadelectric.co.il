@@ -29,13 +29,10 @@ import { getDiscontinued } from "@/lib/seo/discontinued";
 import { DiscontinuedProductPage } from "@/components/DiscontinuedProductPage";
 import { getPublishedResearch } from "@/lib/research/published";
 import { shownModel } from "@/types/product";
-import {
-  BoxAndInstallation,
-  FitAndConsiderations,
-  GroupedSpecs,
-  ProductFaq,
-  ProductHighlights,
-} from "@/components/ProductResearch";
+import { FitAndConsiderations, ProductFaq, ProductHighlights } from "@/components/ProductResearch";
+import { KeyFacts } from "@/components/ProductDetails";
+import { ProductMoreDetails } from "@/components/ProductMoreDetails";
+import { keyFacts } from "@/lib/productLayout";
 import { faqJsonLd } from "@/lib/schema/jsonld";
 import { researchWeightKg } from "@/lib/research/facts";
 
@@ -111,6 +108,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
   // Present only for models whose record passed research and QA; every
   // section that reads it renders nothing without it.
   const research = getPublishedResearch(product.modelNumber);
+  // The numbers a buyer of this kind of product compares on, in the order
+  // that matters for it (see lib/productLayout.ts). The model code leads so
+  // a reader can check it against the box or a quote.
+  const facts = keyFacts(product, 5);
+  const tiles = [
+    { label: "מק״ט / דגם", value: shownModel(product) },
+    ...facts,
+    ...(product.originCountry && facts.length < 5 ? [{ label: "ארץ ייצור", value: product.originCountry }] : []),
+  ];
 
   return (
     <>
@@ -173,18 +179,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               {product.category && <span className="text-sm text-graphite-soft/70">{product.category}</span>}
             </div>
 
-            <dl className="mt-5 grid grid-cols-2 gap-3 text-sm">
-              <div className="rounded-xl bg-surface/80 px-3.5 py-3">
-                <dt className="text-graphite-soft/60">מק״ט / דגם</dt>
-                <dd className="font-medium text-graphite">{shownModel(product)}</dd>
-              </div>
-              {product.originCountry && (
-                <div className="rounded-xl bg-surface/80 px-3.5 py-3">
-                  <dt className="text-graphite-soft/60">ארץ ייצור</dt>
-                  <dd className="font-medium text-graphite">{product.originCountry}</dd>
-                </div>
-              )}
-            </dl>
+            <KeyFacts facts={tiles} ariaLabel="הנתונים החשובים" className="mt-5" />
 
             <p className="mt-5 text-[15px] leading-relaxed text-graphite-soft/85 md:text-base">
               {product.description}
@@ -254,61 +249,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
         {research && <FitAndConsiderations research={research} />}
 
-        {research ? (
-          <GroupedSpecs research={research} modelNumber={shownModel(product)} />
-        ) : product.specs.length > 0 && (
-          <section className="mt-12 md:mt-16" aria-labelledby="specs-heading">
-            <p className="section-kicker">כל הפרטים</p>
-            <h2 id="specs-heading" className="mt-2 text-2xl font-black text-graphite md:text-3xl">
-              מפרט טכני
-            </h2>
-            <div className="surface-card mt-5 overflow-hidden rounded-[1.5rem]">
-              <table className="w-full text-[13px] md:text-sm">
-                <tbody>
-                  {product.specs.map((spec, index) => (
-                    <tr key={index} className={index % 2 === 0 ? "bg-white" : "bg-surface/65"}>
-                      {spec.label ? (
-                        <>
-                          <th scope="row" className="w-2/5 px-3 py-2.5 text-start font-medium text-graphite-soft/70 md:w-1/3 md:px-4 md:py-3">
-                            {spec.label}
-                          </th>
-                          <td className="px-3 py-2.5 text-graphite md:px-4 md:py-3">{spec.value}</td>
-                        </>
-                      ) : (
-                        <td colSpan={2} className="px-3 py-2.5 text-graphite md:px-4 md:py-3">
-                          {spec.value}
-                        </td>
-                      )}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
-        )}
+        <ProductMoreDetails
+          product={product}
+          research={research}
+          locale="he"
+          modelNumber={shownModel(product)}
+          keyFactCount={facts.length}
+        />
 
-        {product.capabilities.length > 0 && (
-          <section className="mt-10 rounded-[1.75rem] bg-[#071a2c] p-6 text-white md:mt-12 md:p-9" aria-labelledby="capabilities-heading">
-            <h2 id="capabilities-heading" className="text-xl font-black md:text-2xl">
-              יכולות ומאפיינים
-            </h2>
-            <ul className="mt-5 grid gap-3 sm:grid-cols-2">
-              {product.capabilities.map((capability, index) => (
-                <li key={index} className="flex items-start gap-2.5 text-sm leading-relaxed text-white/75">
-                  <span aria-hidden="true" className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-gold" />
-                  {capability}
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {research && (
-          <>
-            <BoxAndInstallation research={research} />
-            <ProductFaq research={research} modelNumber={shownModel(product)} />
-          </>
-        )}
+        {research && <ProductFaq research={research} modelNumber={shownModel(product)} />}
 
         {related.length > 0 && (
           <section className="mt-10 md:mt-14" aria-labelledby="related-heading">
