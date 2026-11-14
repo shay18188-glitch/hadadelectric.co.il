@@ -1,0 +1,382 @@
+{
+ "modelNumber": "BT1230/18",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "BT1230/18",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן ההודי ומוכר ישראלי אחד מזהים את הדגם המדויק BT1230/18. נמצאו בישראל דפים שמזכירים רק BT1230 בלי הסיומת /18, ולכן לא נעשה בהם שימוש. לא נמצא מקור ישראלי רשמי (יבואן) לדגם המדויק. | QA: Philips India page and an Israeli retailer page both name BT1230/18 exactly. No Israeli importer found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://mall4all.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA-philips-bt1230-18-%D7%A4%D7%99%D7%9C%D7%99%D7%A4%D7%A1/",
+   "publisher": "Mall4All",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.philips.co.in/c-p/BT1230_18/beardtrimmer-series-1000-beard-trimmer/overview",
+   "publisher": "Philips India",
+   "kind": "manufacturer",
+   "market": "IN",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה אלחוטי",
+     "value": "עד 30 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "8 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli retailer; catalog's 0.5 mm not confirmed",
+     "label": "טווח אורכי חיתוך",
+     "value": "1–5 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מרווח בין דרגות המסרקים",
+     "value": "2 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote says steel, not stainless",
+     "label": "חומר להבים",
+     "value": "פלדה, בהשחזה עצמית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Indian market warranty only; not valid evidence for Israel",
+     "label": "אחריות",
+     "value": "2 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להבי פלדה בהשחזה עצמית ששומרים על חדות לאורך זמן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מסרק SkinProtect לחיתוך עדין לעור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להבים עם קצוות מעוגלים למניעת שריטות וגירויים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורה לחיווי מצב הסוללה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ראש נתיק לניקוי קל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טעינה של 8 שעות מספקת עד 30 דקות עבודה אלחוטית, וטווח אורכי החיתוך הוא 1–5 מ״מ עם מסרקים בדרגות של 2 מ״מ. מתאים למי שמחפש קוצץ פשוט לתחזוקת זקן קצר עם להבים עדינים לעור.",
+  "highlights": [
+   "עד 30 דקות עבודה אלחוטית",
+   "טווח אורכי חיתוך 1–5 מ״מ",
+   "להבי פלדה בהשחזה עצמית",
+   "מסרק SkinProtect ולהבים עם קצוות מעוגלים",
+   "ראש נתיק לניקוי קל"
+  ],
+  "goodFor": [
+   "תחזוקה של זקן קצר וזיפים",
+   "עור רגיש, בזכות להבים עם קצוות מעוגלים ומסרק SkinProtect",
+   "שימוש אלחוטי בלי כבל בזמן הקיצוץ"
+  ],
+  "considerations": [
+   "זמן הטעינה ארוך יחסית לזמן העבודה, כדאי לטעון מראש לפני השימוש",
+   "טווח האורכים מגיע עד 5 מ״מ, ולכן פחות מתאים לזקן ארוך",
+   "כדאי לבדוק בקופסה את סוג כבל הטעינה והמטען המצורפים"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובד הקוצץ על טעינה אחת?",
+    "a": "עד 30 דקות עבודה אלחוטית לאחר טעינה של 8 שעות.",
+    "sources": []
+   },
+   {
+    "q": "אילו אורכי חיתוך אפשר לקבל?",
+    "a": "טווח אורכי החיתוך הוא 1–5 מ״מ, עם מסרקים מתחברים בדרגות של 2 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך להשחיז את הלהבים?",
+    "a": "לא, הלהבים עשויים פלדה בהשחזה עצמית ושומרים על חדותם.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את הקוצץ?",
+    "a": "הראש נתיק, כך שאפשר להסיר אותו ולנקות בקלות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קוצץ זקן Philips BT1230/18: עד 30 דקות עבודה אלחוטית וטווח חיתוך 1–5 מ״מ, להבי פלדה בהשחזה עצמית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קוצץ זקן פיליפס",
+   "Philips BT1230/18",
+   "BT1230",
+   "קוצץ זקן נטען",
+   "פיליפס סדרה 1000 קוצץ זקן",
+   "מכונת תספורת לזקן",
+   "קוצץ זקן אלחוטי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "זמן עבודה אלחוטי",
+   "catalogValue": "30 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "8 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת טעינה",
+   "catalogValue": "USB-A (כבל כלול, ללא מתאם קיר)",
+   "finding": "contradicted",
+   "correctValue": "מטען מיקרו USB",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב להב",
+   "catalogValue": "32 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר להבים",
+   "catalogValue": "פלדת אל-חלד בהשחזה עצמית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הגדרות אורך",
+   "catalogValue": "4 דרגות אורך (0.5 מ\"מ ללא מסרק, 1 מ\"מ ו-5 מ\"מ עם מסרקים)",
+   "finding": "corrected",
+   "correctValue": "דרגות אורך 1–5 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דיוק",
+   "catalogValue": "שלבים של 1 מ\"מ",
+   "finding": "contradicted",
+   "correctValue": "מסרקים מתחברים בשלבים של 2 מ״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "NiMH",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח כניסה",
+   "catalogValue": "5V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח אוטומטי",
+   "catalogValue": "100-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת נסיעה (Travel lock)",
+   "catalogValue": "נעילת נסיעה למניעת הפעלה מקרית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מסרק SkinProtect",
+   "catalogValue": "מסרק SkinProtect להגנה נוספת על העור",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ראש נתיק",
+   "catalogValue": "ראש נתיק לשטיפה קלה תחת ברז מים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מחוון טעינה",
+   "catalogValue": "מחוון טעינה (נורית חיווי) על גבי הידית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית DuraPower (חיי סוללה פי 4)",
+   "catalogValue": "אורך חיי סוללה ארוך פי 4 על ידי הפחתת חיכוך",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "2 שנים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שיטת טעינה",
+   "issue": "הקטלוג כותב USB-A עם כבל כלול, אך מוכר ישראלי שמזכיר את הדגם המדויק כותב מטען מיקרו USB. יש לבדוק את המוצר בקופסה לפני עדכון הקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "הגדרות אורך",
+   "issue": "הקטלוג מציין 0.5 מ״מ ללא מסרק, והמוכר הישראלי מציין 1–5 מ״מ בלבד. מקור אחר (מוכר הודי) מציין 0.5–7 מ״מ. מומלץ לאמת מול דף היצרן הישראלי או מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות של 2 שנים מופיעה בדף יצרן הודי בלבד. לא נמצא מקור ישראלי לדגם המדויק, ויש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "סטטוס דגם",
+   "issue": "בדף היצרן ההודי מופיעה המילה Discontinued בתפריט הסינון, ולא ברור אם מדובר בסטטוס של הדגם או בטקסט ניווט. יש לבדוק אם הדגם עדיין מיובא לישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרטים שלא אומתו",
+   "issue": "מידות, משקל, רוחב להב 32 מ״מ, מתח כניסה, מתח אוטומטי, סוג סוללה NiMH ונעילת נסיעה לא נמצאו בדף יצרן או בדף מוכר ישראלי לדגם המדויק. לא נעשה בהם שימוש.",
+   "severity": "medium"
+  },
+  {
+   "field": "שיטת טעינה",
+   "issue": "הקטלוג כותב USB-A עם כבל כלול, והמוכר הישראלי מציין מטען מיקרו USB. יש לבדוק בקופסה.",
+   "severity": "high"
+  },
+  {
+   "field": "הגדרות אורך",
+   "issue": "הקטלוג מציין 0.5 מ״מ ללא מסרק ושלבים של 1 מ״מ; המקורות מציינים 1–5 מ״מ ומסרקים בשלבים של 2 מ״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "אחריות 2 שנים מופיעה רק בדף היצרן ההודי ולא פורסמה; יש לאמת את האחריות בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "סטטוס דגם",
+   "issue": "בדף היצרן ההודי ייתכן שהדגם מסומן כ-Discontinued; יש לבדוק שהדגם עדיין מיובא.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרטים שלא אומתו",
+   "issue": "רוחב להב, סוג סוללה, מתח ונעילת נסיעה מהקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 (2-year warranty): it comes only from the Indian Philips page and does not establish the Israeli warranty. Relabelled fact 2 as a length range and fact 3 as the comb step size. All features kept. | code guard removed: summary: \"קוצץ הזקן Philips BT1230/18 הוא קוצץ נטען מסדרת Beardtrimmer 1000 לעיצוב וקיצור זקן.\""
+ }
+}

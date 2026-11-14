@@ -1,0 +1,396 @@
+{
+ "modelNumber": "190S-1",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Braun",
+  "exactModel": "190S-1",
+  "israeliImporter": "מ. ברוכים",
+  "matchConfidence": "high",
+  "notes": "The Israeli retailer page (Lior Electric, SKU 731768) names the exact model Series 1 190s-1. No Israeli Braun page was found. Spec tables come from manua.ls and coolblue.de. | QA: All three sources name Braun Series 1 190s-1; the Israeli retailer lists warranty by M. Brukim. Israeli variant not confirmed by a Braun page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%92%D7%99%D7%9C%D7%95%D7%97-%D7%A0%D7%98%D7%A2%D7%A0%D7%AA-%D7%91%D7%A8%D7%90%D7%95%D7%9F-braun-%D7%93%D7%92%D7%9D-190s/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.manua.ls/braun/series-1-190s-1/manual",
+   "publisher": "Manua.ls",
+   "kind": "manual",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.coolblue.de/en/product/484543/braun-series-1-190s-1.html",
+   "publisher": "Coolblue",
+   "kind": "retailer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיטת גילוח",
+     "value": "רשת (Foil) עם טכנולוגיית SmartFoil"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "Ni-MH נטענת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "supported by manua.ls quote",
+     "label": "זמן טעינה מלאה",
+     "value": "1 שעה"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "manua.ls reportedly lists 40 min; flagged",
+     "label": "זמן עבודה אלחוטי",
+     "value": "עד 30 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טעינה מהירה",
+     "value": "5 דקות לגילוח אחד"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "single retailer claim, its water claims contradicted by other sources",
+     "label": "דירוג הגנה מפני מים ואבק",
+     "value": "IPX7"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ניקוי",
+     "value": "ניתן לשטיפה מתחת למים זורמים"
+    },
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוצץ",
+     "value": "קוצץ דיוק נשלף"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli warranty per IL retailer",
+     "label": "תקופת אחריות",
+     "value": "שנה (מ. ברוכים)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3",
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראש גילוח FreeFloat צף שמתאים את עצמו לקווי הפנים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכונת גילוח Series 1 190s-1"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת ניקוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מטען"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Braun Series 1 190s-1 היא מכונת גילוח חשמלית עם ראש רשת וטכנולוגיית SmartFoil, ומערכת FreeFloat שמתאימה את הרשת לקווי הפנים. סוללת Ni-MH נטענת מספקת עד 30 דקות עבודה אלחוטית, טעינה מלאה נמשכת שעה, ו־5 דקות טעינה מהירה מספיקות לגילוח אחד. מתאימה למי שמחפש מכונת גילוח יבש פשוטה לשימוש יומיומי, עם קוצץ נשלף לפאות ושפם.",
+  "highlights": [
+   "טכנולוגיית SmartFoil עם ראש FreeFloat צף",
+   "עד 30 דקות עבודה אלחוטית",
+   "טעינה מלאה בשעה, 5 דקות טעינה מהירה לגילוח אחד",
+   "קוצץ דיוק נשלף לפאות ולשפם",
+   "ניתנת לשטיפה מתחת למים זורמים"
+  ],
+  "goodFor": [
+   "גילוח יבש יומיומי של הזקן",
+   "עיצוב פאות ושפם עם הקוצץ הנשלף",
+   "מי ששוכח לטעון ורוצה טעינה מהירה לפני יציאה מהבית",
+   "ניקוי קל של הראש בשטיפה במים"
+  ],
+  "considerations": [
+   "המכונה מיועדת לגילוח יבש; שטיפה במים מיועדת לניקוי בלבד",
+   "זמן העבודה האלחוטי הוא עד 30 דקות, כדאי לתכנן טעינה סדירה",
+   "האחריות בישראל היא לשנה דרך מ. ברוכים; שמרו את חשבונית הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן לוקח לטעון את Braun 190s-1?",
+    "a": "טעינה מלאה נמשכת שעה, ו־5 דקות טעינה מהירה מספיקות לגילוח אחד.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן היא עובדת בלי חוט?",
+    "a": "עד 30 דקות עבודה אלחוטית על סוללת Ni-MH נטענת.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשטוף אותה במים?",
+    "a": "כן, ניתן לשטוף אותה מתחת למים זורמים לצורך ניקוי.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בה קוצץ?",
+    "a": "כן, יש קוצץ דיוק נשלף לעיצוב פאות ושפם.",
+    "sources": []
+   },
+   {
+    "q": "מה יש באריזה?",
+    "a": "מכונת הגילוח, מגן, מברשת ניקוי ומטען.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת גילוח רשת Braun Series 1 190s-1 עם SmartFoil, עד 30 דקות עבודה אלחוטית וטעינה מהירה של 5 דקות לגילוח. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בראון 190s-1",
+   "Braun Series 1 190s",
+   "מכונת גילוח בראון",
+   "מכונת גילוח ראש רשת",
+   "מכונת גילוח נטענת",
+   "מכונת גילוח לגבר",
+   "Braun 190s-1"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שיטת גילוח",
+   "catalogValue": "מערכת FreeFloat עם רשת צפה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "סוללת Ni-MH נטענת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "טעינה מלאה תוך 60 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן עבודה אלחוטי",
+   "catalogValue": "עד 30 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טעינה מהירה",
+   "catalogValue": "5 דקות לגילוח אחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "IPX7",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "100V-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיווי",
+   "catalogValue": "נורית LED למצב טעינה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוצץ",
+   "catalogValue": "קוצץ נשלף (Pop-up)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "ניקוי",
+   "catalogValue": "עמידות מלאה לשטיפה תחת מים זורמים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "זמן עבודה",
+   "issue": "Israeli and German retailer pages say 30 minutes of runtime, while the manua.ls spec table says Shaving time 40 min. Sources conflict; the published value uses the retailer figure of 30 minutes.",
+   "severity": "medium"
+  },
+  {
+   "field": "שימוש רטוב",
+   "issue": "The Israeli retailer page's product description claims wet and dry use with 100% water resistance. Coolblue says the shaver can only be used dry, and manua.ls lists Wet & Dry as No. The wet-use claim is not published; confirm before telling buyers it can be used wet.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The Israeli retailer page says a one-year warranty, while coolblue.de lists a 2-year warranty. Confirm warranty terms for Israel with the importer before quoting.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "No Israeli Braun manufacturer page was found. The Israeli retailer page names the exact model 190s-1, but the detailed spec tables come from German and third-party sources. The Israeli variant is not confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן עבודה אלחוטי",
+   "issue": "Retailer pages say 30 minutes while manua.ls reportedly lists 40 min shaving time; published 30 minutes, confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "עמידות למים / IPX7",
+   "issue": "The catalog and the Israeli retailer claim IPX7 and wet use, but Coolblue says dry use only and manua.ls lists Wet & Dry as No. IPX7 was not published; confirm before stating it.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Israeli retailer says one-year warranty by M. Brukim; Coolblue lists 2 years for Germany. Confirm Israeli warranty terms.",
+   "severity": "low"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "No Braun Israel page found; detailed specs come from manual and foreign retailer sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 (IPX7): only the Israeli retailer page states it, and the same page's water claims (wet use) are contradicted by Coolblue and manua.ls, so the rating is not reliable enough to publish. Fact 2 kept on the manua.ls quote (Lior quote failed the check). Source kind for manua.ls set to manual."
+ }
+}

@@ -1,0 +1,458 @@
+{
+ "modelNumber": "DSM5650",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "DAVO",
+  "exactModel": "DSM5650",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "שמות הדגם בדפי הקמעונאים הישראליים: DAVO PRO DSM5650. דף אחד מציג סיומת 20260 בשם הדף. דפי הקמעונאים מציינים יבואן רשמי בלי שם יבואן מפורש בקטע שנקרא. | QA: Three Israeli retailer pages name DAVO PRO DSM5650; the Traklin page is the black colour version, catalog item is white. One page has suffix 20260 in its URL."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%97%D7%A9%D7%9E%D7%9C_%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%9E%D7%99%D7%A7%D7%A1%D7%A8%D7%99%D7%9D/%D7%9E%D7%99%D7%A7%D7%A1%D7%A8_davo_pro_%D7%93%D7%92%D7%9D_dsm5650_%D7%93%D7%90%D7%91%D7%95_%D7%A9%D7%97%D7%95%D7%A8",
+   "publisher": "Traklin Hashmal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/%D7%9E%D7%99%D7%A7%D7%A1%D7%A8-davo-pro-dsm5650-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99",
+   "publisher": "Citydeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%99%D7%A7%D7%A1%D7%A8-%D7%93%D7%90%D7%91%D7%95-dsm5650-20260/",
+   "publisher": "Sofer Avi",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "DAVO"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "DSM5650"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Axis order not stated on page; label made neutral.",
+     "label": "מידות",
+     "value": "35.5 × 19.2 × 39.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "8.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח קערה",
+     "value": "6 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כמות לישה מקסימלית",
+     "value": "עד 2.5 ק״ג בצק"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two pages agree.",
+     "label": "הספק מנוע DC",
+     "value": "800W–1400W (MAX POWER)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירויות",
+     "value": "9 מהירויות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה רציף",
+     "value": "עד 60 דקות"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "55 דציבל במהירות מינימלית, 69 דציבל במהירות מקסימלית"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה מלאה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Researcher saw another page saying 4 years; flagged.",
+     "label": "אחריות על המנוע",
+     "value": "5 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קערה גדולה מנירוסטה עם ידיות אחיזה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע DC"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סיבוב פלנטרי לערבוב אחיד"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בלון הקצפה, וו לישה מנירוסטה, וו גיטרה מנירוסטה ומגן התזה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מיקסר עומד DAVO PRO DSM5650 עם קערת נירוסטה בנפח 6 ליטר ומנוע DC בהספק 800W–1400W. המיקסר מציע 9 מהירויות, סיבוב פלנטרי לערבוב אחיד ולישה של עד 2.5 ק״ג בצק. מתאים למי שאופה בצקים, עוגות והקצפות בבית באופן קבוע.",
+  "highlights": [
+   "קערת נירוסטה 6 ליטר עם ידיות אחיזה",
+   "מנוע DC בהספק 800W–1400W",
+   "9 מהירויות וסיבוב פלנטרי",
+   "לישה של עד 2.5 ק״ג בצק",
+   "כולל בלון הקצפה, וו לישה, וו גיטרה ומגן התזה"
+  ],
+  "goodFor": [
+   "לישת בצקי לחם ופיצה בכמויות של עד 2.5 ק״ג בצק",
+   "הקצפות וערבול בלילות עוגה בעזרת בלון ההקצפה ווו הגיטרה",
+   "מטבח ביתי שמחפש מיקסר עם רמת רעש של 55 דציבל במהירות מינימלית"
+  ],
+  "considerations": [
+   "בדקו שיש על השיש מקום למידות 35.5 × 19.2 × 39.2 ס״מ, כולל מרווח להרמת הראש",
+   "משקל המיקסר 8.6 ק״ג, כדאי למצוא לו מקום קבוע על השיש",
+   "זמן העבודה הרציף הוא עד 60 דקות",
+   "ודאו את תנאי האחריות על המנוע בתעודת האחריות"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הקערה של DAVO DSM5650?",
+    "a": "הקערה עשויה נירוסטה ונפחה 6 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה בצק אפשר ללוש במיקסר?",
+    "a": "לפי דף המוצר, עד 2.5 ק״ג בצק.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש למיקסר?",
+    "a": "למיקסר 9 מהירויות.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "בלון הקצפה, וו לישה מנירוסטה, וו גיטרה מנירוסטה ומגן התזה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה מלאה, ו-5 שנים על המנוע לפי דף הקמעונאי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקסר עומד DAVO PRO DSM5650 עם קערת נירוסטה 6 ליטר ומנוע DC בהספק 800W–1400W, 9 מהירויות ולישה עד 2.5 ק״ג בצק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקסר DAVO DSM5650",
+   "מיקסר דאבו",
+   "DAVO PRO DSM5650",
+   "מיקסר עומד 6 ליטר",
+   "מיקסר מנוע DC",
+   "מיקסר פלנטרי",
+   "מיקסר ללישת בצק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "1200W",
+   "finding": "corrected",
+   "correctValue": "800W-1400W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "11 דרגות מהירות",
+   "finding": "corrected",
+   "correctValue": "9 מהירויות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כמות לישה",
+   "catalogValue": "עד 2 ק״ג קמח (3 ק״ג בצק)",
+   "finding": "corrected",
+   "correctValue": "2.5 ק״ג בצק",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-10.5 ק״ג",
+   "finding": "corrected",
+   "correctValue": "8.6 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "מסך LCD דיגיטלי הכולל טיימר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח קערה",
+   "catalogValue": "קערת נירוסטה בנפח 6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים",
+   "catalogValue": "וו לישה, אביזר גיטרה (בוחש), מקצף ומגן התזה שקוף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "מנוע DC",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "פעולה שקטה במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מוצא",
+   "catalogValue": "סין (China)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "35.5 × 19.2 × 39.2 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה מלאה, 5 שנים על המנוע (ראו reviewFlags)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "דף אחד מציין 800W-1400W, ודף אחר מציין 1400 וואט בכותרת. הערך 1200W בקטלוג לא נתמך.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות מנוע",
+   "issue": "שני דפים מציינים 5 שנים על המנוע, ודף שלישי מציין 4 שנים על המנוע בנוסף לשנה מלאה. יש לבדוק בתעודת האחריות של היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג והדף של Citydeal מציינים לבן מט, ודף Traklin בשם המוצר מציין שחור. יש לוודא את הגרסה הנמכרת.",
+   "severity": "medium"
+  },
+  {
+   "field": "כמות לישה",
+   "issue": "הקטלוג מציין 2 ק״ג קמח ו-3 ק״ג בצק. דף Citydeal ודף Traklin (בתיאור) מציינים 2.5 ק״ג בצק או 1 ק״ג קמח. הערכים אינם עקביים.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הדפים מציינים 35.5X19.2X39.2 ס״מ בלי סימון צירים. סדר רוחב, גובה ועומק אינו מאושר בדף מפורש. יש לאשר מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "מטחנת בשר",
+   "issue": "דף אחד מציין שלא ניתן לחבר מטחנת בשר, ודף אחר מציין מטחנת בשר כאביזר אופציונלי. לא נכלל במפרט הנקרא.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "הדגם DSM5650 מופיע בדפי הקמעונאים בשם מלא. דף אחד מציין סיומת 20260. דגמים דומים DSM5750 ו-DSM5740 נמצאו בתוצאות חיפוש ואינם הדגם הנבדק.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק מנוע",
+   "issue": "הקטלוג מציין 1200W, הדפים מציינים 800W-1400W MAX POWER. יש לעדכן את מפרט הקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "מהירויות / משקל / כמות לישה",
+   "issue": "הקטלוג מציין 11 מהירויות, כ-10.5 ק״ג ו-2 ק״ג קמח (3 ק״ג בצק); הדפים מציינים 9 מהירויות, 8.6 ק״ג ו-2.5 ק״ג בצק.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות מנוע",
+   "issue": "החוקר דיווח על דף נוסף שמציין 4 שנים על המנוע. יש לאשר מול תעודת האחריות של היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "דף Traklin מתאר גרסה בצבע שחור, הקטלוג מציין לבן. יש לוודא שהמפרט זהה לגרסה הלבנה.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "סדר הצירים במידות 35.5X19.2X39.2 אינו מצוין בדף.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions label changed to plain 'מידות' because the page gives no axis order. Motor power kept as the quoted 800W-1400W range (catalog 1200W not supported). Catalog 11 speeds, 10.5 kg and 2 kg flour / 3 kg dough contradicted by retailer pages (9 speeds, 8.6 kg, 2.5 kg dough). Traklin page title describes a black unit while the catalog is white; specs treated as shared."
+ }
+}

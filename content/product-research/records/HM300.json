@@ -1,0 +1,190 @@
+{
+ "modelNumber": "HM300",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "HM300",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "high",
+  "notes": "מקור יחיד: דף Bug (קמעונאי ישראלי) לדגם המדויק. | QA: Bug page for Sauter HM300 matches catalog: 300W, 5 speeds, 2.5 L rotating bowl, two beaters, transparent bowl cover."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/sauter/hm300",
+   "publisher": "Bug",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "300W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירויות עבודה",
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח קערה",
+     "value": "2.5 ליטר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קערה מסתובבת נגד כיוון הפעלת המיקסר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כפתור לשחרור מהיר של המקצפים בלחיצה אחת"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שני מקצפים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כיסוי קערה שקוף"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Sauter HM300 הוא מיקסר יד המגיע עם קערה בנפח 2.5 ליטר שמסתובבת נגד כיוון הפעלת המיקסר. הוא מציע הספק של 300W ו־5 מהירויות עבודה, וכולל שני מקצפים וכיסוי קערה שקוף. מתאים למי שמקציף ומערבב בלילות בבית ומחפש מכשיר פשוט עם קערה משלו.",
+  "highlights": [
+   "הספק 300W",
+   "5 מהירויות עבודה",
+   "קערה בנפח 2.5 ליטר המסתובבת נגד כיוון המיקסר",
+   "כפתור לשחרור מהיר של המקצפים בלחיצה אחת",
+   "כיסוי קערה שקוף ושני מקצפים באריזה"
+  ],
+  "goodFor": [
+   "הקצפת חלבונים וקצפות בקערה המסתובבת",
+   "ערבוב בלילות לעוגות בכמויות ביתיות",
+   "מי שרוצה מיקסר יד שמגיע עם קערה ייעודית"
+  ],
+  "considerations": [
+   "נפח הקערה הוא 2.5 ליטר – כדאי לוודא שהוא מספיק לכמויות שאתם מכינים בדרך כלל",
+   "האביזרים הכלולים הם שני מקצפים – בדקו אם אתם צריכים אביזרים נוספים",
+   "ודאו שיש מקום על השיש לקערה ולמכשיר"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Sauter HM300?",
+    "a": "הספק המיקסר הוא 300W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש למיקסר?",
+    "a": "יש לו 5 מהירויות עבודה.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח הקערה?",
+    "a": "הקערה בנפח 2.5 ליטר ומסתובבת נגד כיוון הפעלת המיקסר.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "שני מקצפים וכיסוי קערה שקוף.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקסר יד עם קערה Sauter HM300: הספק 300W, 5 מהירויות וקערה מסתובבת בנפח 2.5 ליטר עם כיסוי שקוף ושני מקצפים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sauter HM300",
+   "מיקסר יד סאוטר",
+   "מיקסר יד עם קערה",
+   "מיקסר Sauter",
+   "HM300 מיקסר",
+   "מיקסר יד 300W",
+   "מיקסר עם קערה מסתובבת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "300 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח קערה",
+   "catalogValue": "2.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר מהירויות",
+   "catalogValue": "5 דרגות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts confirmed by a single Israeli retailer page (Bug) for the exact model. Voltage from catalog not verifiable and not published."
+ }
+}

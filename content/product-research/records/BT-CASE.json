@@ -1,0 +1,213 @@
+{
+ "modelNumber": "BT-CASE",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Pure Acoustics",
+  "exactModel": "BT-CASE",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצא עמוד קמעונאי ישראלי אחד (prec.co.il) לדגם BT CASE / BTCASE. הטקסט העברי בעמוד נשמר עם תווים משובשים, לכן צוטטו רק שורות עם ערכים לטיניים. | QA: Single Israeli retailer page (prec.co.il) names BT CASE; brand Pure Acoustics not confirmed in any readable quote and Hebrew text on the page is garbled."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.prec.co.il/product/%D7%9E%D7%92%D7%91%D7%A8-%D7%91%D7%9C%D7%95%D7%98%D7%95%D7%A1-%D7%A1%D7%9E%D7%95%D7%99-%D7%9C%D7%96%D7%95%D7%92-%D7%A8%D7%9E%D7%A7%D7%95%D7%9C%D7%99%D7%9D-bt-case",
+   "publisher": "Prec",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח תדרים",
+     "value": "20Hz – 20kHz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עיוות הרמוני (THD)",
+     "value": "0.03%"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Reworded value; numbers from quote",
+     "label": "מתח הפעלה",
+     "value": "100-240V AC, ספק כוח ל-15V"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Version not confirmed",
+     "label": "קישוריות אלחוטית",
+     "value": "Bluetooth"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote failed check (quote-too-short); garbled labels prevent mapping axes; quote checks: quote-too-short",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "8.5 × 2.3 × 4.5 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מגבר Bluetooth קומפקטי סמוי מבית Pure Acoustics, דגם BT-CASE, להפיכת זוג רמקולים פסיביים למערכת שמע אלחוטית. טווח התדרים הוא 20Hz – 20kHz ועיוות הרמוני של 0.03%, והוא מוזן מרשת 100-240V AC דרך ספק כוח ל-15V. מתאים למי שרוצה להשמיע מוזיקה מהסמארטפון דרך רמקולים קיימים בלי מגבר גלוי.",
+  "highlights": [
+   "חיבור אלחוטי ב-Bluetooth",
+   "טווח תדרים 20Hz – 20kHz",
+   "עיוות הרמוני (THD) של 0.03%",
+   "הזנה 100-240V AC עם ספק כוח ל-15V"
+  ],
+  "goodFor": [
+   "השמעת מוזיקה מהסמארטפון דרך זוג רמקולים פסיביים קיימים",
+   "התקנה נסתרת כשלא רוצים מגבר גלוי בחדר"
+  ],
+  "considerations": [
+   "יש לוודא שקע חשמל בקרבת מקום ההתקנה עבור ספק הכוח",
+   "כדאי לבדוק מול החנות את הספק היציאה ואת התאמת העכבה לרמקולים שלכם"
+  ],
+  "faq": [
+   {
+    "q": "איך מחברים את המגבר לטלפון?",
+    "a": "המגבר מתחבר אלחוטית ב-Bluetooth.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח התדרים של המגבר?",
+    "a": "20Hz – 20kHz.",
+    "sources": []
+   },
+   {
+    "q": "איך המגבר מקבל חשמל?",
+    "a": "דרך ספק כוח שמתחבר לרשת 100-240V AC ומספק 15V.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגבר Bluetooth סמוי Pure Acoustics BT-CASE לזוג רמקולים פסיביים: טווח תדרים 20Hz – 20kHz ו-THD של 0.03%. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מגבר בלוטוס סמוי",
+   "BT-CASE",
+   "Pure Acoustics BT-CASE",
+   "מגבר בלוטוס לרמקולים פסיביים",
+   "מגבר קומפקטי לתקרה",
+   "מגבר בלוטוס להתקנה בתקרה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טווח תדרים",
+   "catalogValue": "20Hz - 20kHz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עיוות הרמוני (THD)",
+   "catalogValue": "0.03%",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "100-240V AC (כולל שנאי ל-15V DC)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 2.3 ס\"מ, רוחב 8.5 ס\"מ, עומק 4.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות אלחוטית",
+   "catalogValue": "Bluetooth 5.0",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק יציאה",
+   "catalogValue": "2x15W (קיימות גרסאות עד 2x50W)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "power",
+   "issue": "חנויות אחרות מציינות 2x50W לעומת 15W×2 בעמוד שנמצא; יש לבדוק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק יציאה",
+   "issue": "הספק היציאה לא אומת; הקטלוג מציין 2x15W וגם גרסאות עד 2x50W - יש לבדוק מול היבואן איזו גרסה נמכרת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מותג",
+   "issue": "המותג Pure Acoustics לא אומת במקור קריא; העמוד היחיד הוא של קמעונאי ישראלי עם טקסט עברי משובש.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות לא אומתו (ציטוט לא עבר בדיקה).",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected dimensions (quote failed check: quote-too-short; garbled Hebrew also hides which number is width/height/depth). Kept frequency range, THD, operating voltage and Bluetooth from the single prec.co.il page; Hebrew labels on that page are garbled so attribute mapping relies on the Latin values. Power output, Bluetooth version and range remain unverified."
+ }
+}

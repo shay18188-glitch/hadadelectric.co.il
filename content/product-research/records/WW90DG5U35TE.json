@@ -1,0 +1,302 @@
+{
+ "modelNumber": "WW90DG5U35TE",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW90DG5U35TE",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Exact model named on an Israeli retailer page (BUG). Manufacturer-site and EU/manual pages for this exact model were not found in search. Spin speed, Wi-Fi, Digital Inverter and Hygiene Steam could not be verified for this exact model. | QA: Exact model WW90DG5U35TE named on an Israeli retailer page (BUG) with 9 kg front-loading capacity matching the catalog. No manufacturer or manual page for this exact model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מכונת-כביסה-פתח-חזית-9-קג-samsung-5102200ww90dg5u35te",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "WW90DG5U35TE"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "9 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 85 × 59.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "65 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Washing machines have no compressor; likely a retailer template error. Warranty terms need human confirmation.",
+     "label": "אחריות",
+     "value": "שנה + 10 שנות אחריות על המדחס"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית בועות שמסירה 24% יותר לכלוך גם בכביסה במים קרים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יעילות אנרגטית העולה על דרישות המינימום לדירוג A בשיעור של עד 10%"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של Samsung, דגם WW90DG5U35TE, בקיבולת 9 ק״ג ובצבע לבן. המכונה מדורגת A באנרגיה, ולפי המידע היא עולה על דרישות המינימום לדירוג זה בשיעור של עד 10%. טכנולוגיית הבועות מסייעת להסיר לכלוך גם בכביסה במים קרים. מתאימה למי שמחפש מכונה בקיבולת גדולה במידות סטנדרטיות של 60 × 85 × 59.5 ס״מ.",
+  "highlights": [
+   "קיבולת כביסה של 9 ק״ג",
+   "דירוג אנרגטי A",
+   "טכנולוגיית בועות שמסירה 24% יותר לכלוך גם במים קרים",
+   "מידות 60 × 85 × 59.5 ס״מ (רוחב × גובה × עומק)"
+  ],
+  "goodFor": [
+   "משקי בית עם כמויות כביסה גדולות, בזכות קיבולת של 9 ק״ג",
+   "מי שמעדיף לכבס במים קרים כדי לחסוך באנרגיה",
+   "מי שמחפש מכונה בדירוג אנרגטי A"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 60 × 85 × 59.5 ס״מ ולהשאיר מרווח לצנרת ולפתיחת הדלת",
+   "משקל המכונה 65 ק״ג – כדאי לתכנן את ההובלה וההצבה בהתאם",
+   "יש לוודא נקודת מים, ניקוז ושקע חשמל ליד מקום ההתקנה",
+   "את תנאי האחריות יש לבדוק מול החנות לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של מכונת הכביסה Samsung WW90DG5U35TE?",
+    "a": "קיבולת הכביסה היא 9 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי של המכונה?",
+    "a": "המכונה מדורגת A, ולפי המידע עולה על דרישות המינימום לדירוג זה בשיעור של עד 10%.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכונה?",
+    "a": "רוחב 60 ס״מ, גובה 85 ס״מ ועומק 59.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לכבס במים קרים?",
+    "a": "כן, טכנולוגיית הבועות מסירה 24% יותר לכלוך גם במים קרים.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקלת המכונה?",
+    "a": "משקל המכונה 65 ק״ג.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה פתח חזית Samsung WW90DG5U35TE בקיבולת 9 ק״ג, דירוג אנרגטי A וטכנולוגיית בועות לכביסה במים קרים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung WW90DG5U35TE",
+   "מכונת כביסה סמסונג 9 קג",
+   "מכונת כביסה פתח חזית 9 קג",
+   "WW90DG5U35TE",
+   "מכונת כביסה סמסונג לבנה",
+   "מכונת כביסה דירוג אנרגטי A",
+   "מכונת כביסה סמסונג נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "9 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "רוחב 60 ס\"מ, גובה 85 ס\"מ, עומק 60 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 60 ס\"מ, גובה 85 ס\"מ, עומק 59.5 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים ממוצעת למחזור",
+   "catalogValue": "כ-50 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן מלא",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "Digital Inverter",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "פאנל LED דיגיטלי מתקדם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "פולין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "issue": "No page for this exact model states the spin speed. Catalog value 1400 rpm is only seen on sibling models.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכונות",
+   "issue": "Wi-Fi, Digital Inverter, Hygiene Steam, SpaceMax, Super Speed and Drum Clean+ could not be confirmed for this exact model. Samsung's own pages found cover sibling models (WW90DG5U34AE family, WW90DG5U35AE/AEKJ), not this model.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "Catalog depth is 60 cm; the BUG page gives 59.5 cm.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The BUG page names the warranty provider as Niopro but does not name the official importer. Israeli importer left null.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "The BUG page lists a 10-year compressor warranty, which does not fit a washing machine; actual warranty terms need confirmation.",
+   "severity": "medium"
+  },
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "issue": "Catalog 1400 rpm not verified for this exact model.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכונות",
+   "issue": "Wi-Fi, Digital Inverter, Hygiene Steam, SpaceMax, Super Speed, Drum Clean+ and AI Energy in the catalog were not verified for this exact model.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "Catalog depth is 60 cm; the retailer page gives 59.5 cm.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Official Israeli importer not identified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 (warranty): '10 years on the compressor' does not fit a washing machine (no compressor) and looks like a retailer template error. Reworded features 0 and 1 lightly. All other facts kept from the BUG page for the exact model."
+ }
+}

@@ -1,0 +1,449 @@
+{
+ "modelNumber": "MT-102PLUS",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "LEXUS",
+  "exactModel": "MT-102PLUS",
+  "israeliImporter": "סיריוס אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The only page found that names MT-102PLUS is an Israeli retailer product page (CityDeal), which states the official importer. A 2022 Walla review covers a different model (MBC-155) and was not used. No manufacturer or importer page for this exact model was found. | QA: CityDeal page names MT-102PLUS by LEXUS and states Sirius Electronics as official importer. Single source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/%d7%a2%d7%a8%d7%9b%d7%aa-%d7%98%d7%99%d7%a4%d7%95%d7%97-%d7%a0%d7%98%d7%a2%d7%a0%d7%aa-%d7%9c%d7%92%d7%91%d7%a8-%d7%93%d7%92%d7%9d-mt-102plus-%d7%9e%d7%91%d7%99%d7%aa-lexus-%d7%99%d7%91%d7%95%d7%90",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "LEXUS"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "ערכת טיפוח רב-שימושית"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח כניסה",
+     "value": "230-240V, 50Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח יציאה מהמתאם",
+     "value": "3.0V 250mA"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוללות",
+     "value": "2 סוללות נטענות Ni-Cd 600mAh"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "שעה אחת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "page reportedly also mentions up to 50 minutes; flagged",
+     "label": "זמן עבודה אלחוטית",
+     "value": "כ-45 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בורר דרגות להב ראשי",
+     "value": "0.6, 0.8, 1.0 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "quote does not name the T-blade explicitly; label made generic",
+     "label": "מסרקי הגבהה לשיער הפנים",
+     "value": "3, 6, 9, 12 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י סיריוס אלקטרוניקה, יבואן רשמי"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סביבת שימוש",
+     "value": "בתוך מבנה בלבד"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ערכת טיפוח ועיצוב הכוללת 10 חלקים שונים במכשיר אחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ראש גילוח רשת לגילוח מלא וחלק של שיער הפנים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ראש להב U לסידור קו הזקן, עם מסרק לכוונון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קוצץ שיערות אף ואוזניים עם ראש טרימר עגול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מבנה ארגונומי, מכונה קומפקטית וקלת משקל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עמידה למים, ניתנת לשטיפה וניקוי קל"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "5 מסרקים לעיצוב השיער והזיפים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ראש להב T עם 4 מסרקים באורכים שונים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת ניקוי ושמן לניקוי ושימון המכונה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעמד קבוע לטעינה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "LEXUS MT-102PLUS היא ערכת טיפוח נטענת לגבר הכוללת 10 חלקים שונים במכשיר אחד: ראש תספורת, ראש גילוח רשת, ראש להב U לקו הזקן וקוצץ שיערות אף ואוזניים. היא פועלת על 2 סוללות נטענות Ni-Cd 600mAh, נטענת בשעה אחת ומאפשרת כ-45 דקות עבודה אלחוטית. מתאימה למי שרוצה מכשיר אחד לתספורת, לזקן ולגילוח בבית.",
+  "highlights": [
+   "10 חלקים שונים במכשיר אחד",
+   "טעינה בשעה אחת, כ-45 דקות עבודה אלחוטית",
+   "בורר להב ראשי: 0.6, 0.8, 1.0 מ״מ",
+   "עמידה למים לשטיפה וניקוי קל",
+   "אחריות שנה ע״י סיריוס אלקטרוניקה"
+  ],
+  "goodFor": [
+   "טיפוח זקן וסידור קו הזקן עם ראש להב U",
+   "גילוח חלק של שיער הפנים בעזרת ראש גילוח רשת",
+   "קיצוץ שיערות אף ואוזניים באותו מכשיר",
+   "שימוש אלחוטי בבית בלי כבל מפריע"
+  ],
+  "considerations": [
+   "המכשיר מיועד לשימוש בתוך מבנה בלבד",
+   "זמן העבודה האלחוטית הוא כ-45 דקות, כדאי לטעון לפני תספורת ארוכה",
+   "מומלץ לנקות ולשמן את הלהבים עם המברשת והשמן המצורפים",
+   "כדאי לשמור מקום ליד שקע עבור מעמד הטעינה"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן לוקח לטעון את LEXUS MT-102PLUS?",
+    "a": "זמן הטעינה הוא שעה אחת, והיא מאפשרת כ-45 דקות עבודה אלחוטית.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את המכשיר במים?",
+    "a": "כן, לפי פרטי המוצר הוא עמיד למים ומאפשר שטיפה וניקוי קל.",
+    "sources": []
+   },
+   {
+    "q": "אילו אורכי חיתוך יש?",
+    "a": "לבורר הלהב הראשי יש דרגות 0.6, 0.8 ו-1.0 מ״מ, ולשיער הפנים יש מסרקי הגבהה של 3, 6, 9 ו-12 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה ע״י סיריוס אלקטרוניקה, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "ערכת טיפוח נטענת לגבר LEXUS MT-102PLUS: 10 חלקים במכשיר אחד, טעינה בשעה וכ-45 דקות עבודה אלחוטית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "LEXUS MT-102PLUS",
+   "ערכת טיפוח לגבר",
+   "מכונת תספורת נטענת",
+   "ערכת טיפוח נטענת LEXUS",
+   "מכונת תספורת לזקן",
+   "קוצץ שיער אף ואוזניים",
+   "מכונת גילוח וטיפוח לגבר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מתח כניסה",
+   "catalogValue": "230-240V ~ 50Hz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח יציאה מהשנאי",
+   "catalogValue": "3.0V DC 250mA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק עבודה",
+   "catalogValue": "3 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "2 סוללות נטענות Ni-Cd 600mAh",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "שעה אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה אלחוטית",
+   "catalogValue": "כ-45 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר דרגות להב ראשי",
+   "catalogValue": "0.6, 0.8, 1.0 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסרקי הגבהה לראש T",
+   "catalogValue": "3, 6, 9, 12 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "5 מסרקי עיצוב, מעמד טעינה, מברשת ניקוי ובקבוק שמן",
+   "finding": "corrected",
+   "correctValue": "5 מסרקי עיצוב, מעמד קבוע לטעינה, מברשת ניקוי ושמן",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "LEXUS",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר חלקים",
+   "catalogValue": "10 ב-1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "עמיד למים, ניתן לשטיפה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה ע״י סיריוס אלקטרוניקה יבואן רשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "זמן עבודה",
+   "issue": "The retailer page gives about 45 minutes of continuous use after a one-hour charge, but its spec list also says up to 50 minutes without charging. Only the 45-minute figure was published; a person should confirm against the manufacturer or importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "The catalog name says 'מכונת תספורת' (hair clipper), but the retailer page describes a multi-purpose grooming kit with a shaver foil head, a T-blade, a U-blade, a nose and ear trimmer and a sideburn trimmer. The name is not changed here.",
+   "severity": "low"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only one Israeli retailer page names this exact model. No manufacturer, importer or user-manual page was found, so the facts rest on that single source.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן עבודה אלחוטית",
+   "issue": "Retailer page reportedly gives about 45 minutes in one place and up to 50 minutes in another; 45 published. Confirm with importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "All facts rest on a single Israeli retailer page; no manufacturer, importer or manual source found.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "Catalog name says hair clipper while the source describes a multi-purpose grooming kit with shaver foil and trimmers.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק עבודה",
+   "issue": "Catalog value of 3 W could not be verified in any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 8 relabelled: the quote gives comb heights 3, 6, 9, 12 mm for facial hair and moustache area without naming the T-blade explicitly, so the label is made generic. Fact 6 kept as about 45 minutes; the page reportedly also mentions up to 50 minutes elsewhere, flagged for review. All facts rest on one Israeli retailer page."
+ }
+}

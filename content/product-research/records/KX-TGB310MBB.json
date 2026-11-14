@@ -1,0 +1,445 @@
+{
+ "modelNumber": "KX-TGB310MBB",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "KX-TGB310MBB",
+  "israeliImporter": "ברימאג דיגיטל",
+  "matchConfidence": "high",
+  "notes": "The importer product page lists item code KX-TGB310MBB. Shopelectrons and Traklin list the same model with matching specs. No exact-model page with dimensions or weight was found. | QA: Official Israeli importer page lists the exact model KX-TGB310MBB; two Israeli retailers list the same model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.brimag.co.il/%D7%98%D7%9C%D7%A4%D7%95%D7%9F-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A4%D7%A0%D7%A1%D7%95%D7%A0%D7%99%D7%A7-panasonic-%D7%93%D7%92%D7%9D-kxtgb310mbb",
+   "publisher": "Brimag",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%A0%D7%99%D7%A7%D7%94/%D7%98%D7%9C%D7%A4%D7%95%D7%A0%D7%99%D7%9D_%D7%91%D7%99%D7%AA%D7%99%D7%99%D7%9D/%D7%98%D7%9C%D7%A4%D7%95%D7%9F_%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99_panasonic_%D7%93%D7%92%D7%9D_kx-tgb310mbb_%D7%A4%D7%A0%D7%A1%D7%95%D7%A0%D7%99%D7%A7",
+   "publisher": "Traklin",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.shopelectrons.co.il/product/%D7%98%D7%9C%D7%A4%D7%95%D7%9F-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A4%D7%A0%D7%A1%D7%95%D7%A0%D7%99%D7%A7-panasonic-kx-tgb310mbb/",
+   "publisher": "Shop Electrons",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "LCD type not in quote; removed",
+     "label": "מסך",
+     "value": "צג מואר 1.4 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוללות",
+     "value": "2 סוללות AAA, כלולות באריזה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "כ-7 שעות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "quote says work hours",
+     "label": "זמן עבודה",
+     "value": "עד 18 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן המתנה",
+     "value": "עד 200 שעות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ספר טלפונים",
+     "value": "עד 50 שמות ומספרים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זיכרון חיוג חוזר",
+     "value": "10 מספרים אחרונים"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מנגינות צלצול",
+     "value": "20 מנגינות פוליפוניות"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיחה מזוהה",
+     "value": "כן, כולל שיחה ממתינה מזוהה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חסימת שיחות",
+     "value": "בלחיצה על מקש"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים, ברימאג דיגיטל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לחצנים גדולים ונוחים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תצוגת תאריך, שעה ומשך זמן שיחה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כיוון עוצמת צלצול"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "2 סוללות AAA"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Panasonic KX-TGB310MBB הוא טלפון ביתי אלחוטי בצבע שחור עם צג מואר בגודל 1.4 אינץ׳ ולחצנים גדולים ונוחים. הוא מציג שיחה מזוהה וגם שיחה ממתינה מזוהה, וכולל חסימת שיחות בלחיצה על מקש. מתאים למי שמחפש טלפון בית פשוט לשימוש יומיומי עם ספר טלפונים של עד 50 שמות ומספרים.",
+  "highlights": [
+   "צג מואר 1.4 אינץ׳",
+   "שיחה מזוהה ושיחה ממתינה מזוהה",
+   "חסימת שיחות בלחיצה על מקש",
+   "עד 18 שעות עבודה ועד 200 שעות המתנה",
+   "ספר טלפונים עד 50 שמות ומספרים"
+  ],
+  "goodFor": [
+   "מי שרוצה לראות מי מתקשר לפני שעונים, גם בזמן שיחה אחרת",
+   "משתמשים שמעדיפים לחצנים גדולים ונוחים",
+   "מי שרוצה לחסום שיחות לא רצויות בלחיצה על מקש"
+  ],
+  "considerations": [
+   "תצוגת שיחה מזוהה ושיחה ממתינה דורשת שהשירות פעיל אצל ספק הטלפון שלכם",
+   "הטלפון פועל עם 2 סוללות AAA, וטעינה מלאה נמשכת כ-7 שעות",
+   "יש לוודא שקע חשמל ונקודת קו טלפון סמוכים למקום ההצבה של הבסיס"
+  ],
+  "faq": [
+   {
+    "q": "האם הטלפון מציג שיחה מזוהה?",
+    "a": "כן, הוא מציג שיחה מזוהה וגם שיחה ממתינה מזוהה.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "עד 18 שעות עבודה ועד 200 שעות המתנה, וטעינה מלאה נמשכת כ-7 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם הסוללות כלולות באריזה?",
+    "a": "כן, באריזה כלולות 2 סוללות AAA.",
+    "sources": []
+   },
+   {
+    "q": "כמה אנשי קשר אפשר לשמור?",
+    "a": "ספר הטלפונים שומר עד 50 שמות ומספרים, וזיכרון החיוג החוזר שומר 10 מספרים אחרונים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנתיים אחריות של ברימאג דיגיטל, היבואן הרשמי של Panasonic בישראל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון ביתי אלחוטי Panasonic KX-TGB310MBB עם צג מואר 1.4 אינץ׳, שיחה מזוהה וחסימת שיחות בלחיצת מקש. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Panasonic KX-TGB310MBB",
+   "KX-TGB310",
+   "טלפון אלחוטי פנסוניק",
+   "טלפון ביתי אלחוטי",
+   "טלפון אלחוטי עם שיחה מזוהה",
+   "טלפון אלחוטי עם חסימת שיחות",
+   "טלפון בית פנסוניק שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "מסך LCD בגודל 1.4 אינץ' (3.5 ס\"מ) עם תאורה אחורית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה אחורית ענבר",
+   "catalogValue": "תאורה אחורית בגוון ענבר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללות",
+   "catalogValue": "2 סוללות נטענות מסוג AAA (Ni-MH)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 18 שעות דיבור רצופות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן המתנה",
+   "catalogValue": "עד 200 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-7 שעות לטעינה מלאה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ספר טלפונים",
+   "catalogValue": "עד 50 שמות ומספרים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיכרון חיוג חוזר",
+   "catalogValue": "10 מספרים אחרונים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגינות",
+   "catalogValue": "20 סוגי מנגינות פוליפוניות לבחירה בשלוחה האלחוטית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיחה מזוהה ושיחה ממתינה",
+   "catalogValue": "תמיכה בשירות שיחה מזוהה ושיחה ממתינה (בכפוף לספק השירות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חסימת שיחות מטרידות",
+   "catalogValue": "חסימת שיחות מטרידות עד 50 מספרים באמצעות לחצן ייעודי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית שידור",
+   "catalogValue": "DECT אלחוטית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצב Eco",
+   "catalogValue": "מצב Eco לחיסכון באנרגיה והפחתת עוצמת השידור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "השתקת מיקרופון",
+   "catalogValue": "אפשרות להשתקת מיקרופון (Mute)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שעון מעורר",
+   "catalogValue": "שעון מעורר מתקדם עם אפשרות לנודניק (Snooze)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שחור",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "No exact-model page with dimensions or weight was found, so none are recorded. A Panasonic sibling region manual (KX-TGB310C) was not used.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכונות",
+   "issue": "Eco mode, microphone mute, snooze alarm, DECT technology, amber backlight and the 50-number call block could not be confirmed on an exact-model page. Confirm with the manufacturer's spec sheet before publishing.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "No dimensions or weight found on an exact-model page.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט קטלוג",
+   "issue": "Catalog mentions DECT, amber backlight, 50-number nuisance call block, Eco mode, mute and snooze alarm; none confirmed on an exact-model page. Verify against the manufacturer spec sheet.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on the importer page (Brimag) naming the exact model. Fact 2 relabelled from talk time to work time, matching the quote wording. Catalog claims for DECT, amber backlight, 50-number block, Eco mode, mute and snooze remain unverified and are not used in content."
+ }
+}

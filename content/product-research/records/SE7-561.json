@@ -1,0 +1,509 @@
+{
+ "modelNumber": "SE7-561",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Braun",
+  "exactModel": "SE7-561",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "הדגם מופיע בחנויות בישראל כ-Braun Silk Epil 7 7561 (מק\"ט של הקמעונאי 737126). קודי SE7-561 ו-7561 מתאימים לאותו מכשיר לפי תיאור המוצר, אך לא נמצא עמוד יבואן רשמי עם הקוד SE7-561. | QA: SE7-561 is confirmed by B.TECH, sonioo and Amazon.sa pages. Israeli retailer and Braun UK list it as 7561; likely the same unit but the Israeli variant code is not confirmed by an importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://btech.com/en/p/a4fb3df1-56f4-4fe5-94c6-f1f5a727cbdc",
+   "publisher": "B.TECH",
+   "kind": "retailer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://sonioo.com/en/product/braun-silk-epil-7-epilator-wet-dry-white-se7-561/",
+   "publisher": "sonioo",
+   "kind": "retailer",
+   "market": "EG",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%A1%D7%99%D7%A8-%D7%A9%D7%99%D7%A2%D7%A8-%D7%91%D7%A8%D7%90%D7%95%D7%9F-%D7%93%D7%92%D7%9D-braun-silk-epil-7-7561/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.braunshop.co.uk/p/epilators/7561-silk-epil-7-epilator/11190685/",
+   "publisher": "Braun Official Store UK",
+   "kind": "manufacturer",
+   "market": "UK",
+   "exactModel": false,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s5",
+   "url": "https://www.amazon.sa/-/en/Braun-Silk-epil-Cordless-Epilator-Including/dp/B00R9HOINC",
+   "publisher": "Amazon.sa",
+   "kind": "retailer",
+   "market": "SA",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Braun"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר דגם",
+     "value": "SE7-561"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדינת ייצור",
+     "value": "גרמניה"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only from a page not naming SE7-561; sonioo (names model) says 1 Speed.; quote checks: ok",
+     "label": "מהירויות",
+     "value": "2 מהירויות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name SE7-561.; quote checks: ok",
+     "label": "זמן הפעלה אלחוטי",
+     "value": "עד 40 דקות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name SE7-561; contradicts 40 minutes on the same page.; quote checks: ok",
+     "label": "זמן טעינה",
+     "value": "שעה (כ-45 דקות שימוש)"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name SE7-561; contradicts catalog 100-240V.; quote checks: ok",
+     "label": "מתח עבודה",
+     "value": "110-220 V"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 11, from a page not naming the model.; quote checks: ok",
+     "label": "אורך שיער מינימלי הנתפס",
+     "value": "כ-0.5 מ״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only from braunshop page listing 7561, not SE7-561.; quote checks: ok",
+     "label": "מספר פינצטות",
+     "value": "40 פינצטות (Close-Grip)"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Amazon.sa names the model.",
+     "label": "אורך שיער מינימלי להסרה",
+     "value": "0.5 מ״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name SE7-561.; quote checks: ok",
+     "label": "משך תוצאות",
+     "value": "עד 4 שבועות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Page does not name SE7-561.; quote checks: ok",
+     "label": "ראש גמיש",
+     "value": "מסתובב עד 15 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שימוש",
+     "value": "רטוב ויבש (Wet & Dry)"
+    },
+    {
+     "sources": [
+      "s5"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Amazon.sa names the model.",
+     "label": "עמידות למים",
+     "value": "עמיד במים 100%"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "טכנולוגיית Close-Grip לתפיסת שיער קצר במיוחד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "גוף אטום למים, לשימוש באמבטיה או במקלחת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ראש גמיש המסתגל לקווי הגוף"
+  },
+  {
+   "sources": [
+    "s5"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Amazon.sa names the model.",
+   "text": "תאורת Smartlight לחשיפת שערות דקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "כולל טרימר לאזור הביקיני"
+  },
+  {
+   "sources": [
+    "s5"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 2.",
+   "text": "ראש גמיש (Pivoting head) העוקב אחר קווי הגוף"
+  },
+  {
+   "sources": [
+    "s5"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 3.",
+   "text": "תאורת Smartlight חושפת שערות דקות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only from braunshop page not naming SE7-561.",
+   "text": "ראש גילוח"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only from braunshop page not naming SE7-561.",
+   "text": "מכסה טרימר"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מכשיר אפילציה של Braun, דגם SE7-561, עמיד במים לשימוש רטוב ויבש – גם באמבטיה או במקלחת. מתאים למי שמחפשת אפילציה ביתית עם ראש גמיש ומכסה טרימר לאזור הביקיני.",
+  "highlights": [
+   "עמיד במים לשימוש רטוב ויבש",
+   "תאורת Smartlight לחשיפת שערות דקות",
+   "ראש גמיש המסתגל לקווי הגוף",
+   "כולל טרימר לאזור הביקיני"
+  ],
+  "goodFor": [
+   "אפילציה במקלחת או באמבטיה, הודות לגוף העמיד במים",
+   "הסרת שיער קצר שקשה לתפוס בפינצטה",
+   "טיפול באזורים מעוגלים בזכות הראש הגמיש",
+   "עיצוב אזור הביקיני עם הטרימר הכלול"
+  ],
+  "considerations": [
+   "בדקו את מספר דרגות המהירות בדגם המשווק בישראל, שכן המקורות אינם אחידים",
+   "בדקו את זמן הפעלת הסוללה ואת זמן הטעינה מול היבואן",
+   "ודאו אילו מכסים ותוספות כלולים באריזה הישראלית"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להשתמש במכשיר במקלחת?",
+    "a": "כן, ה-SE7-561 עמיד במים ומיועד לשימוש רטוב ויבש, גם באמבטיה או במקלחת.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תאורה במכשיר?",
+    "a": "כן, תאורת Smartlight חושפת שערות דקות לאפילציה יסודית יותר.",
+    "sources": []
+   },
+   {
+    "q": "האם המכשיר מתאים לאזור הביקיני?",
+    "a": "כן, הוא כולל טרימר לאזור הביקיני.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מכשיר אפילציה בראון",
+   "Braun SE7-561",
+   "בראון סילק אפיל",
+   "Braun Silk-épil epilator",
+   "מכשיר אפילציה עמיד במים",
+   "אפילציה רטוב יבש",
+   "מכשיר להסרת שיער בראון"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר דגם",
+   "catalogValue": "SE7-561",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Braun",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "גרמניה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V",
+   "finding": "corrected",
+   "correctValue": "110-220 V",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "2 דרגות מהירות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "זמן הפעלה",
+   "catalogValue": "כ-40 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "טעינה",
+   "catalogValue": "טעינה מלאה של שעה אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אורך שיער מינימלי",
+   "catalogValue": "עד 0.5 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "עמידות במים",
+   "catalogValue": "עמיד במים ב-100% (Wet & Dry)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ראש גמיש",
+   "catalogValue": "Pivoting Head",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תאורת Smartlight",
+   "catalogValue": "Smartlight",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "40 פינצטות Close-Grip",
+   "catalogValue": "40 פינצטות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "6 תוספות",
+   "catalogValue": "6 תוספות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקוד SE7-561 מופיע בעמודי B.TECH ו-sonioo ובאתרים בחו\"ל, אך בעמוד הקמעונאי הישראלי הדגם מופיע כ-7561 בלבד. לא נמצא עמוד יבואן ישראלי עם הקוד SE7-561. יש לוודא שהמכשיר המשווק בישראל הוא אותו דגם.",
+   "severity": "medium"
+  },
+  {
+   "field": "מהירויות",
+   "issue": "הקמעונאי הישראלי מציין שתי מהירויות (מהירות 1 ומהירות 2), בעוד שעמודי B.TECH ו-sonioo מציינים מהירות אחת (1 Speed). יש לבדוק את מספר המהירויות בדגם הישראלי.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "הקטלוג מציין 100-240V, והקמעונאי הישראלי מציין 110-220V (שנאי בינלאומי). יש לאמת מול מפרט היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן טעינה",
+   "issue": "הקטלוג מציין כ-40 דקות שימוש לטעינה מלאה של שעה, והקמעונאי הישראלי מציין כ-45 דקות שימוש לשעת טעינה. שני הערכים מופיעים באותו עמוד ישראלי, ולכן יש לבדוק איזה מהם נכון.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "לא נמצא יבואן רשמי בישראל עם עמוד מוצר שמזהה את הדגם SE7-561. פרטי היבואן לא אומתו.",
+   "severity": "low"
+  },
+  {
+   "field": "identity",
+   "issue": "הקוד SE7-561 מאומת רק בעמודי קמעונאים בחו\"ל; בישראל ובאתר Braun UK הדגם מופיע כ-7561. יש לוודא שזהו אותו דגם המשווק בישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מהירויות",
+   "issue": "הקטלוג והקמעונאי הישראלי מציינים 2 מהירויות, ועמוד sonioo מציין מהירות אחת. לא פורסם; יש לבדוק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "הקטלוג מציין 100-240V והקמעונאי הישראלי 110-220V. לא פורסם; יש לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן הפעלה/טעינה",
+   "issue": "עמוד הקמעונאי הישראלי מציין גם 40 וגם 45 דקות שימוש לשעת טעינה. לא פורסם; יש לאמת.",
+   "severity": "low"
+  },
+  {
+   "field": "תכולת אריזה",
+   "issue": "הקטלוג מציין 6 תוספות, אך רק ראש גילוח ומכסה טרימר מופיעים במקור, ובעמוד שאינו מזכיר את SE7-561. יש לאמת את תכולת האריזה.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected facts 3,4,5,6,7,8,10,12 and inTheBox 0,1: their only evidence is from pages that do not name SE7-561 (lior-electric and braunshop.co.uk list 7561). Fact 5 (45 min) also contradicts fact 4 (40 min) on the same page; fact 6 voltage contradicts the catalog. Features 5 and 6 rejected as duplicates of features 2 and 3. Sonioo lists '1 Speed' while the Israeli retailer and catalog say 2 speeds, so speed count is not published. | code guard removed: summary: \"טכנולוגיית Close-Grip מסירה שיער קצר עד 0.5 מ״מ, ותאורת Smartlight חושפת שערות דקות.\"; faq: \"מאיזה אורך שיער המכשיר מסיר?\"; metaDescription: \"מכשיר אפילציה Braun SE7-561 עמיד במים לשימוש רטוב ויבש, עם טכנולוגיית Close-Grip להסרת שיער קצר עד 0.5 מ״מ. להשיג בחדד אלקטריק נהריה\"; highlight: \"טכנולוגיית Close-Grip להסרת שיער קצר עד 0.5 מ״מ\""
+ }
+}

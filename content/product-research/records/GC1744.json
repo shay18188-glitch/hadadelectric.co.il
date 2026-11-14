@@ -1,0 +1,404 @@
+{
+ "modelNumber": "GC1744",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "GC1744/20",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "GC1744/20 הוא הדגם בישראל לפי קמעונאים ישראלים; בקטלוג חסרה הסיומת. עמוד Philips דרום אפריקה מציג את אותו דגם GC1744/20. | QA: The Israeli retailers and Philips ZA name GC1744/20. The catalog has no suffix, and a GC1744/26 variant exists."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מגהץ-אדים-philips-2000w-9198545746",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/מגהץ-אדים-פיליפס-gc1744-20/",
+   "publisher": "Avi Super (אבי סופר)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.manua.ls/philips/easyspeed-gc1744/manual",
+   "publisher": "Manua.ls (Philips manual and specs)",
+   "kind": "manual",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.philips.co.za/c-p/GC1744_20/easyspeed-steam-iron",
+   "publisher": "Philips South Africa",
+   "kind": "manufacturer",
+   "market": "ZA",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 וואט"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "also confirmed by manual",
+     "label": "תפוקת אדים רציפה",
+     "value": "25 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן חימום",
+     "value": "30 שניות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "duplicate of fact 1",
+     "label": "תפוקת אדים רציפה (מפרט יצרן)",
+     "value": "25 g/min"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מכת אדים",
+     "value": "עד 90 גרם"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מצב ECO",
+     "value": "יש"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "also confirmed by Philips",
+     "label": "נפח מיכל מים",
+     "value": "220 מ״ל"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "duplicate of fact 3",
+     "label": "נפח מיכל מים (מפרט יצרן)",
+     "value": "220 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הגדרות אדים",
+     "value": "4 הגדרות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "1.9 מ׳"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג תחתית",
+     "value": "Non-stick"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "a regular steam iron, so the retailer wording misleads",
+   "text": "מגהץ אדים אנכי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מתז מים עדין לריכוך הבד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תחתית רחבה במיוחד המצופה טפלון"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית Calc Clean לניקוי אבנית"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פתח מילוי מים רחב"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Philips GC1744 הוא מגהץ אדים מסדרת EasySpeed בהספק 2000 וואט. הוא מספק תפוקת אדים רציפה של 25 גרם לדקה ומכת אדים של עד 90 גרם, ויש לו מיכל מים של 220 מ״ל. הוא מתאים לגיהוץ ביתי שוטף ומוכן לפעולה תוך 30 שניות.",
+  "highlights": [
+   "הספק 2000 וואט",
+   "תפוקת אדים רציפה של 25 גרם לדקה",
+   "מכת אדים של עד 90 גרם",
+   "מיכל מים 220 מ״ל עם פתח מילוי רחב",
+   "תחתית Non-stick ופונקציית Calc Clean לניקוי אבנית"
+  ],
+  "goodFor": [
+   "גיהוץ ביתי שוטף של בגדים יומיומיים",
+   "מי שרוצה להתחיל לגהץ מהר, כי המגהץ מוכן תוך 30 שניות",
+   "בדים שונים, עם 4 הגדרות אדים ומצב ECO",
+   "קמטים עקשניים, בעזרת מכת אדים ומתז מים"
+  ],
+  "considerations": [
+   "כבל החשמל באורך 1.9 מ׳, אז כדאי לבדוק את המרחק בין קרש הגיהוץ לשקע",
+   "מיכל המים בנפח 220 מ״ל, ולכן בגיהוץ ארוך צריך למלא אותו שוב",
+   "כדאי להפעיל את Calc Clean באופן קבוע כדי לשמור על ביצועי האדים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Philips GC1744?",
+    "a": "2000 וואט.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים נכנסים למיכל?",
+    "a": "מיכל המים מכיל 220 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח למגהץ להתחמם?",
+    "a": "המגהץ מוכן לפעולה תוך 30 שניות.",
+    "sources": []
+   },
+   {
+    "q": "יש במגהץ מכת אדים?",
+    "a": "כן, מכת אדים של עד 90 גרם, בנוסף לתפוקת אדים רציפה של 25 גרם לדקה.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים אבנית?",
+    "a": "במגהץ יש פונקציית Calc Clean מובנית לניקוי אבנית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ אדים Philips GC1744 בהספק 2000 וואט, עם תפוקת אדים של 25 גרם לדקה ומכת אדים של עד 90 גרם. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מגהץ אדים פיליפס",
+   "Philips GC1744",
+   "GC1744/20",
+   "מגהץ אדים 2000 וואט",
+   "Philips EasySpeed",
+   "מגהץ פיליפס",
+   "מגהץ אדים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק המרבי",
+   "catalogValue": "2000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת אדים רציפה",
+   "catalogValue": "עד 25 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מכת אדים (Steam Boost)",
+   "catalogValue": "עד 90 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מכל מים",
+   "catalogValue": "220 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג תחתית",
+   "catalogValue": "Non-stick",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן חימום למצב מוכן",
+   "catalogValue": "30 שניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.9 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הגדרות אדים",
+   "catalogValue": "4 דרגות עוצמה (כולל מצב ECO)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פתח מילוי מים",
+   "catalogValue": "רחב במיוחד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתז מים (Spray)",
+   "catalogValue": "פונקציית התזת מים מובנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גיהוץ אנכי",
+   "catalogValue": "יכולת גיהוץ אנכית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog number is GC1744, but the Israeli pages name GC1744/20 and no fetched page names plain GC1744. A UK variant GC1744/26 also exists. Confirm the exact suffix on the box before relying on these facts.",
+   "severity": "high"
+  },
+  {
+   "field": "warranty",
+   "issue": "Sources conflict on warranty. Bug says two years subject to the warranty certificate, while Avi Super says one year (full warranty by Electra). No warranty fact was published.",
+   "severity": "high"
+  },
+  {
+   "field": "steam boost, cord length, EcoMode, filler opening, Calc-clean",
+   "issue": "Not verified: the Philips spec PDF returned 404, the Icecat page was blocked by a bot check, and the Homecenter page returned 429. Cord length 1.9 m and the 90 g steam boost are catalog claims only.",
+   "severity": "medium"
+  },
+  {
+   "field": "availability",
+   "issue": "A search snippet (not fetched) suggested the model may be outdated or discontinued. Check the importer before relying on the model being current.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The catalog has no suffix. The sources name GC1744/20, and a GC1744/26 variant exists. Confirm the suffix on the box.",
+   "severity": "medium"
+  },
+  {
+   "field": "warranty",
+   "issue": "The retailers disagree on warranty: Bug says two years and Avi Super says one year through Electra. Check with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "status",
+   "issue": "There is an unverified hint that the model may be discontinued.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 and fact 7 as duplicates of facts 1 and 3. Rejected feature 0: the retailer phrase 'vertical steam iron' misdescribes a regular steam iron. Kept 9 facts and 4 features. | code guard removed: consideration: \"כדאי לבדוק על האריזה שסיומת הדגם היא GC1744/20\""
+ }
+}

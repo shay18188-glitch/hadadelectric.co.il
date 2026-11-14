@@ -1,0 +1,183 @@
+{
+ "modelNumber": "SP-GT2055",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "S.A.P",
+  "exactModel": "SP-GT2055",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only Israeli retailer text (via Zap listing) names the exact model; no manufacturer, importer or manual page found. | QA: Exact model code appears only on a Zap search listing; no manufacturer, importer or manual page. Capacity (2 vs 4 slices) uncertain."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/search.aspx?keyword=SP-GT2055",
+   "publisher": "Zap",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בקרת חום",
+     "value": "תרמוסטט לבחירת טמפרטורה"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "wording aligned to quote",
+     "label": "חיווי",
+     "value": "2 נורות לד לחיווי הפעלה/כיבוי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ציפוי פלטות",
+     "value": "ציפוי טפלון לניקוי קל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "משטחי צלייה גדולים ונשלפים לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נפתח ל-180 מעלות ומשמש כפלאנצ'ה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "SP-GT2055 של S.A.P הוא טוסטר לחיצה וגריל חשמלי עם משטחי צלייה נשלפים בציפוי טפלון לניקוי קל. המכשיר נפתח ל-180 מעלות ומשמש גם כפלאנצ'ה, ותרמוסטט מאפשר לבחור את הטמפרטורה במהלך הבישול. מתאים למי שרוצה מכשיר אחד לטוסטים ולצליית בשר, דגים וירקות.",
+  "highlights": [
+   "נפתח ל-180 מעלות ומשמש כפלאנצ'ה",
+   "משטחי צלייה נשלפים לניקוי קל",
+   "ציפוי טפלון",
+   "תרמוסטט לבחירת טמפרטורה",
+   "2 נורות לד לחיווי הפעלה/כיבוי"
+  ],
+  "goodFor": [
+   "הכנת טוסטים לחוצים בבית",
+   "צלייה על משטח פתוח במצב פלאנצ'ה",
+   "מי שמעדיף משטחים נשלפים שקל לשטוף"
+  ],
+  "considerations": [
+   "לוודא שיש מקום על השיש לפתיחה מלאה של המכשיר במצב פלאנצ'ה",
+   "לבדוק מול המוכר את מספר הפרוסות וההספק לפני הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להשתמש בו כגריל פתוח?",
+    "a": "כן, הוא נפתח ל-180 מעלות ומשמש כפלאנצ'ה.",
+    "sources": []
+   },
+   {
+    "q": "האם הפלטות נשלפות?",
+    "a": "כן, משטחי הצלייה נשלפים לניקוי קל, ויש להם ציפוי טפלון.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט בטמפרטורה?",
+    "a": "כן, יש תרמוסטט לבחירה ושליטה על הטמפרטורה במהלך הבישול.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר לחיצה וגריל S.A.P SP-GT2055: נפתח ל-180 מעלות כפלאנצ'ה, משטחים נשלפים בציפוי טפלון ותרמוסטט. בחדד אלקטריק נהריה",
+  "keywords": [
+   "SP-GT2055",
+   "טוסטר לחיצה S.A.P",
+   "טוסטר גריל פלטות נשלפות",
+   "טוסטר פלאנצ'ה 180 מעלות",
+   "גריל לחיצה חשמלי",
+   "טוסטר לחיצה תרמוסטט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "בקרת חום",
+   "catalogValue": "תרמוסטט מתכוונן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "4 פרוסות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "No manufacturer or importer page names SP-GT2055; wattage and capacity unverified (a retailer card suggested 2 slices vs 4 in catalog).",
+   "severity": "high"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "Catalog says 4 slices; a card on the Zap search page suggested 2 slices. Not verified.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "2000W in catalog is not confirmed by any source.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only source is a Zap search results page; no manufacturer or importer page names the model.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only source is a Zap search results page (Israeli price-comparison listing) naming SP-GT2055. Kept the three small facts and two features that match the catalog description; reworded the LED indicator value. Wattage and slice capacity remain unverified; a card on the search page suggested 2 slices vs 4 in the catalog."
+ }
+}

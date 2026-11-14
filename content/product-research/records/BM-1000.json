@@ -1,0 +1,286 @@
+{
+ "modelNumber": "BM-1000",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "VTech",
+  "exactModel": "BM1000",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Catalog writes BM-1000 with a hyphen; the zap.co.il listing and the Amazon.ae listing write BM1000. Found no Israeli importer page. Dimensions, weight, frequency and the 14-hour figure were not confirmed on a fetched page. | QA: Catalog BM-1000 vs sources BM1000 (hyphen notation only). Zap IL lists the model; range and battery details come from Amazon.ae, so the Israeli variant is not confirmed and no importer page was found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=878058",
+   "publisher": "Zap (price comparison, IL)",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.amazon.ae/VTech-Rechargeable-Transmission-Crystal-Clear-Indicator/dp/B00W0YKYUU",
+   "publisher": "Amazon.ae",
+   "kind": "retailer",
+   "market": "AE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "VTech"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית שידור",
+     "value": "DECT דיגיטלית"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Amazon.ae only; environment (open area) not stated",
+     "label": "טווח קליטה",
+     "value": "עד 300 מטר"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמות עוצמת קול",
+     "value": "5 רמות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיווי רמת רעש",
+     "value": "חמש נוריות LED ביחידת ההורה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוללות ליחידת ההורה",
+     "value": "2 סוללות AAA נטענות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "reworded to match quotes",
+   "text": "חיווי קולי כשהסוללות מתרוקנות וכשנמצאים מחוץ לטווח הקליטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "ניתן לחבר את יחידת ההורה לחגורה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "מחוון עוצמת קול ויזואלי שפועל גם כשיחידת ההורה מושתקת"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "2 סוללות AAA נטענות ליחידת ההורה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "חמש נוריות LED ביחידת ההורה מציגות את רמת הרעש בחדר התינוק גם כשהשמע מושתק. מתאים להורים שמחפשים מוניטור שמע פשוט שאפשר לשאת על החגורה ברחבי הבית.",
+  "highlights": [
+   "טכנולוגיית DECT דיגיטלית",
+   "חמש נוריות LED לחיווי רמת הרעש"
+  ],
+  "goodFor": [
+   "הורים שמסתובבים בבית ובחצר ורוצים את יחידת ההורה על החגורה",
+   "מי שרוצה לעקוב אחרי התינוק במצב שקט בעזרת נוריות הרעש בלי להשמיע קול",
+   "מי שמחפש מוניטור שמע בלבד בלי מצלמה"
+  ],
+  "considerations": [
+   "זהו מוניטור שמע בלבד, ללא וידאו",
+   "כדאי לוודא שהדגם המשווק בישראל זהה לגרסה המתוארת"
+  ],
+  "faq": [
+   {
+    "q": "האם האינטרקום מתריע כשהסוללה נחלשת?",
+    "a": "כן, יש חיווי קולי כשהסוללות מתרוקנות, וגם חיווי קולי כשנמצאים מחוץ לטווח הקליטה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לדעת אם התינוק בוכה כשהשמע מושתק?",
+    "a": "כן, חמש נוריות LED ביחידת ההורה מציגות את רמת הרעש בחדר גם כשיחידת ההורה מושתקת.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "אינטרקום לתינוק",
+   "VTech BM1000",
+   "מוניטור לתינוק",
+   "אינטרקום לתינוק DECT",
+   "בייבי מוניטור שמע",
+   "אינטרקום לתינוק VTech"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טכנולוגיית שידור",
+   "catalogValue": "DECT דיגיטלית בתדר 1.8GHz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טווח קליטה",
+   "catalogValue": "עד 300 מטר בשטח פתוח ועד 50 מטר בתוך מבנה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בקרת עוצמת קול",
+   "catalogValue": "5 רמות שמע שונות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיוויים",
+   "catalogValue": "התראת סוללה חלשה, התראת יציאה מטווח קליטה ונורית בקרה להפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללות יחידת הורה",
+   "catalogValue": "סוללות נטענות (NiMH) המספקות עד 14 שעות ניטור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יחידת תינוק",
+   "catalogValue": "פועלת בחיבור ישיר לחשמל (AC)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "הונג קונג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיווי רמת רעש",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "חמש נוריות LED על יחידת ההורה",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקטלוג כותב BM-1000 עם מקף. היצרן והחנויות שנמצאו כותבים BM1000 בלי מקף, ולא נמצא עמוד שמכיל BM-1000. נדרש אישור שזה אותו דגם.",
+   "severity": "high"
+  },
+  {
+   "field": "טווח קליטה",
+   "issue": "300 מטר מופיע רק בעמוד Amazon.ae בלי ציון סביבה. 50 מטר בתוך מבנה לא נמצא בשום עמוד שנקרא.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא עמוד יבואן ישראלי לדגם. צריך לברר אם המוצר מיובא רשמית לישראל.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקטלוג כותב BM-1000 והמקורות כותבים BM1000. נראה כהבדל כתיב בלבד, אבל כדאי לאשר.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "בקטלוג מופיעים תדר 1.8GHz, 50 מטר בתוך מבנה, סוללות NiMH ל-14 שעות והצפנה, ואף אחד מהם לא אומת במקורות.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "לא נמצא יבואן ישראלי, ופרטי הטווח והסוללות מגיעים מגרסה שנמכרת באיחוד האמירויות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept with ok quotes on pages naming BM1000. Feature 0 reworded to match the Zap quotes (audio alert for low battery and for being out of range). Source kinds kept: Zap is a price-comparison site (other), Amazon.ae is a foreign retailer. Catalog claims not verified: 1.8GHz, 50 m indoors, NiMH 14 hours, AC-powered baby unit, encryption, origin country. | code guard removed: summary: \"VTech BM1000 הוא אינטרקום שמע לתינוק בטכנולוגיית DECT דיגיטלית, עם טווח קליטה של עד 300 מטר ו-5 רמות עוצמת קול.\"; faq: \"איזו טכנולוגיית שידור יש לו?\"; faq: \"אילו סוללות יש ביחידת ההורה?\"; metaDescription: \"אינטרקום לתינוק VTech BM1000 בטכנולוגיית DECT דיגיטלית, טווח קליטה עד 300 מטר ו-5 רמות עוצמת קול. בחדד אלקטריק נהריה\"; highlight: \"טווח קליטה של עד 300 מטר\"; highlight: \"5 רמות עוצמת קול\"; highlight: \"יחידת הורה עם 2 סוללות AAA נטענות ותפס לחגורה\"; consideration: \"יחידת ההורה פועלת על 2 סוללות AAA נטענות, כדאי לוודא מקום לטעינה ליד המיטה\"; consideration: \"טווח של עד 300 מטר נמדד בתנאים אידיאליים, קירות ותקרות מקצרים אותו\""
+ }
+}

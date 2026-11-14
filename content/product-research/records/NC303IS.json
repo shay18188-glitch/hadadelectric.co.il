@@ -1,0 +1,191 @@
+{
+ "modelNumber": "NC303IS",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "NC303IS",
+  "israeliImporter": "שריג",
+  "matchConfidence": "high",
+  "notes": "Only an Israeli retailer page (hipertronics.co.il) names NC303IS exactly; other pages cover NC303. | QA: Israeli retailer page names NC303IS exactly and states official importer Sarig; specs match catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://hipertronics.co.il/product/ninja-creami-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%92%D7%9C%D7%99%D7%93%D7%94-1-4-%D7%9C%D7%99%D7%98%D7%A8-nc303is/",
+   "publisher": "היפרטרוניקס",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "800 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כוללת",
+     "value": "1.4 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיכלים",
+     "value": "3 מיכלים עם מכסים, 470 מ״ל כל אחד"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "20 × 41 × 30 ס״מ (הרוחב כולל ידיות)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "7 תוכניות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "24 חודשים מהיבואן הרשמי שריג"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Ninja CREAMi NC303IS היא מכונת גלידה ביתית בהספק 800 W, עם 7 תוכניות בלחיצה אחת. היא מגיעה עם 3 מיכלים עם מכסים בנפח 470 מ״ל כל אחד, כך שאפשר להכין כמה טעמים ולשמור אותם בהקפאה. מתאימה למי שרוצה להכין גלידה, סורבה וקינוחים קפואים בבית לפי המתכון שלו.",
+  "highlights": [
+   "הספק 800 W",
+   "7 תוכניות בלחיצה אחת",
+   "3 מיכלים עם מכסים, 470 מ״ל כל אחד",
+   "קיבולת כוללת 1.4 ליטר",
+   "אחריות 24 חודשים מהיבואן הרשמי שריג"
+  ],
+  "goodFor": [
+   "הכנת כמה טעמים במקביל בזכות המיכלים הנפרדים עם המכסים",
+   "מי שרוצה לשלוט ברכיבים ולהכין קינוחים קפואים לפי טעמו",
+   "שימוש ביתי עם תוכניות מוכנות שחוסכות כיוונים ידניים"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש: המכונה בגובה 41 ס״מ, רוחב 20 ס״מ ועומק 30 ס״מ",
+   "יש לבדוק שיש מקום במקפיא למיכלים, כי התערובת מוקפאת בהם מראש",
+   "האחריות ניתנת דרך היבואן הרשמי שריג, כדאי לשמור את חשבונית הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "כמה תוכניות יש במכונה?",
+    "a": "במכונה 7 תוכניות שמופעלות בלחיצה אחת.",
+    "sources": []
+   },
+   {
+    "q": "כמה מיכלים מגיעים עם המכונה ומה נפחם?",
+    "a": "מגיעים 3 מיכלים עם מכסים, בנפח 470 מ״ל כל אחד, ובסך הכול קיבולת של 1.4 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המכונה?",
+    "a": "ההספק הוא 800 W.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "אחריות 24 חודשים מהיבואן הרשמי שריג.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת גלידה ביתית Ninja CREAMi NC303IS בהספק 800 W עם 7 תוכניות ו-3 מיכלים של 470 מ״ל. אחריות שריג. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Ninja CREAMi NC303IS",
+   "נינג'ה קרימי",
+   "מכונת גלידה ביתית",
+   "מכונת גלידה נינג'ה",
+   "NC303IS",
+   "מכונת גלידה Ninja",
+   "מכונה להכנת גלידה בבית",
+   "מכונת סורבה ביתית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "800 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 41, רוחב 20, עומק 30 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-6.4 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All six facts are supported by ok quotes on an Israeli retailer page naming NC303IS. Weight in catalog remains unverified and is not published."
+ }
+}

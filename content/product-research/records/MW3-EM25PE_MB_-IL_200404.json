@@ -1,0 +1,437 @@
+{
+ "modelNumber": "MW3-EM25PE(MB)-IL (200404)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Toshiba",
+  "exactModel": "MW3-EM25PE(MB)-IL",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "The exact model name appears on the Hemilton product page, which is the official importer. Netoneto returned HTTP 403, so its page was not used. Sibling variants (BK, WH, EI suffixes) were not used as evidence. | QA: Importer page names the exact catalog model including the -IL suffix, 25 liters, black."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/mw3em25pembil-black",
+   "publisher": "המילטון (היבואן הרשמי)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל מרבי",
+     "value": "900 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיה",
+     "value": "Inverter"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות עוצמה",
+     "value": "10"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בישול מהיר",
+     "value": "6 זמנים (1–6 דקות)"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי משקל המזון או לפי זמן נבחר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר בישול",
+     "value": "עד 99:99 דקות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג בקרה",
+     "value": "דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog says height 28.0 / depth 37.8; importer value used.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "47.2 × 29.5 × 37.7 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר צלחת",
+     "value": "270 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גימור",
+     "value": "שחור, דלת זכוכית מראה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נעילת בטיחות",
+     "value": "נעילת בטיחות לילדים"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Per importer page.",
+     "label": "אחריות",
+     "value": "36 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תא פנימי בציפוי EaseMax Clean לניקוי קל ומהיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צליל התראה בסיום פעולה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיקרוגל דיגיטלי של Toshiba בנפח 25 ליטר, בגימור שחור עם דלת זכוכית מראה. הוא פועל בטכנולוגיית Inverter עם הספק מיקרוגל מרבי של 900 W ו-10 דרגות עוצמה, ומציע הפשרה לפי משקל או לפי זמן. מתאים למטבח ביתי שמחפש מיקרוגל משיש לחימום, הפשרה ובישול מהיר.",
+  "highlights": [
+   "נפח 25 ליטר",
+   "טכנולוגיית Inverter והספק מרבי 900 W",
+   "10 דרגות עוצמה",
+   "6 זמני בישול מהיר בין 1 ל-6 דקות",
+   "תא פנימי בציפוי EaseMax Clean לניקוי קל"
+  ],
+  "goodFor": [
+   "חימום והפשרה יומיומיים במטבח הביתי",
+   "מי שרוצה הפשרה לפי משקל המזון או לפי זמן",
+   "בתים עם ילדים, בזכות נעילת הבטיחות",
+   "מטבח בגוונים כהים, בזכות הגימור השחור ודלת המראה"
+  ],
+  "considerations": [
+   "ודאו שיש על השיש מקום למידות 47.2 × 29.5 × 37.7 ס״מ, וזכרו להשאיר מרווח אוורור",
+   "בדקו שיש שקע חשמל זמין ליד מקום ההצבה",
+   "מדובר בדגם משיש עם צלחת מסתובבת בקוטר 270 מ״מ, כדאי לוודא שהכלים שלכם נכנסים"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המיקרוגל?",
+    "a": "נפח התא הוא 25 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם המיקרוגל עובד בטכנולוגיית Inverter?",
+    "a": "כן, לפי היבואן הוא פועל בטכנולוגיית Inverter עם הספק מיקרוגל מרבי של 900 W.",
+    "sources": []
+   },
+   {
+    "q": "איך מפשירים בו?",
+    "a": "אפשר להפשיר לפי משקל המזון או לפי זמן נבחר.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המיקרוגל?",
+    "a": "רוחב 47.2 ס״מ, גובה 29.5 ס״מ ועומק 37.7 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המיקרוגל?",
+    "a": "לפי היבואן, האחריות היא 36 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי Toshiba MW3-EM25PE(MB)-IL בנפח 25 ליטר, טכנולוגיית Inverter והספק 900 W, גימור שחור ודלת מראה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל טושיבה 25 ליטר",
+   "Toshiba MW3-EM25PE",
+   "MW3-EM25PE(MB)-IL",
+   "מיקרוגל אינוורטר",
+   "מיקרוגל שחור דלת מראה",
+   "מיקרוגל דיגיטלי 25 ליטר",
+   "מיקרוגל טושיבה שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "25 ליטר",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "900W",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית הפעלה",
+   "catalogValue": "Inverter",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "קוטר צלחת זכוכית",
+   "catalogValue": "270 מ\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "47.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "28.0 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "29.5 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "37.8 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "37.7 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "כ-8.4 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דרגות עוצמה",
+   "catalogValue": "10",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "תפריטי בישול אוטומטיים",
+   "catalogValue": "8",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "לחצני קיצור",
+   "catalogValue": "6 לחצני קיצור בין דקה ל-6 דקות",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "הפשרה",
+   "catalogValue": "לפי משקל או זמן",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "כן",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 99:99 דקות",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "EaseMax Clean",
+   "finding": "confirmed",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "36 חודשים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צליל התראה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "צליל התראה לסיום פעולה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גובה",
+   "issue": "The catalog height of 28.0 cm conflicts with the importer's 29.5 cm. Check the device label or box before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "The catalog depth of 37.8 cm differs from the importer's 37.7 cm.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו",
+   "issue": "The 8.4 kg net weight is not confirmed for the exact model on any fetched page. Sibling Toshiba listings give 8.4 kg, but those pages are for other suffixes.",
+   "severity": "medium"
+  },
+  {
+   "field": "תפריטי בישול אוטומטיים",
+   "issue": "The catalog says 8 auto menus, but the importer page does not state a count. Sibling listings give 7 auto programs and 11 power levels, which conflicts with the catalog's 10 power levels.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "The voltage is not on any fetched page for the exact model.",
+   "severity": "low"
+  },
+  {
+   "field": "research-coverage",
+   "issue": "Search budget was used up after 4 searches. Netoneto returned HTTP 403, so only the importer page was used as evidence. Facts from one importer page publish on their own, but a manufacturer or EPREL page would strengthen weight and voltage.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog lists height 28.0 cm and depth 37.8 cm; importer page gives 29.5 cm and 37.7 cm. Update catalog specs.",
+   "severity": "medium"
+  },
+  {
+   "field": "תפריטי בישול אוטומטיים",
+   "issue": "Catalog claims 8 auto menus; not stated on the importer page.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל נטו / מתח",
+   "issue": "Net weight 8.4 kg and 230V/50Hz in catalog are not confirmed by any fetched page for this model.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts come from the official importer page (Hamilton) that names the exact model MW3-EM25PE(MB)-IL. Catalog height (28.0 cm) and depth (37.8 cm) differ from the importer page; importer values kept."
+ }
+}

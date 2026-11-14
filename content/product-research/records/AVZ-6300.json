@@ -1,0 +1,271 @@
+{
+ "modelNumber": "AVZ-6300",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Pure Acoustics",
+  "exactModel": "AVZ-6300",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "עמוד היצרן ועמוד חנות ישראלית מציגים את הדגם. עמוד היצרן מציג 4Ω-8Ω בלבד ואינו מזכיר 70V/100V. | QA: Manufacturer page and an Israeli retailer page both name AVZ-6300."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.pure-acoustics.com/product/avz-6300/",
+   "publisher": "Pure Acoustics",
+   "kind": "manufacturer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://vsale.co.il/סטריאו-והגברה/מגברי-כריזה/מגבר-6-איזורים-דגם-avz-6300",
+   "publisher": "VSale",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר אזורים",
+     "value": "6 אזורים עם בקרת עוצמה נפרדת"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק כולל",
+     "value": "300W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק פלט",
+     "value": "6 × 50W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תגובת תדר",
+     "value": "40Hz-20kHz ± 3dB"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "התנגדות רמקולים",
+     "value": "4Ω-8Ω"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "35.05 × 9.65 × 19.81 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "Bluetooth",
+     "value": "מובנה, הזרמת מוזיקה אלחוטית"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רדיו FM",
+     "value": "טיונר דיגיטלי עם סריקה אוטומטית, עד 40 תחנות שמורות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "תצוגת LED גדולה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כניסות מיקרופון 6.3 מ״מ עם בקרת הד ועוצמה עצמאית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Pure Acoustics AVZ-6300 הוא מגבר 6 אזורים עם בקרת עוצמה נפרדת לכל אזור, המיועד למוזיקת רקע וכריזה בבתי עסק, מסעדות ומשרדים. הספק הפלט הוא 6 × 50W, והמגבר כולל Bluetooth מובנה, רדיו FM דיגיטלי וכניסות מיקרופון 6.3 מ״מ עם בקרת הד. מתאים למי שרוצה לנהל שמע במספר חללים ממכשיר אחד.",
+  "highlights": [
+   "6 אזורים עם בקרת עוצמה נפרדת",
+   "הספק פלט 6 × 50W",
+   "Bluetooth מובנה להזרמת מוזיקה",
+   "רדיו FM עם עד 40 תחנות שמורות",
+   "כניסות מיקרופון 6.3 מ״מ עם בקרת הד ועוצמה"
+  ],
+  "goodFor": [
+   "מסעדות ובתי קפה שרוצים מוזיקת רקע בעוצמה שונה בכל חלל",
+   "משרדים וחנויות עם מספר חדרים או אזורים",
+   "הכרזות במיקרופון לצד השמעת מוזיקה"
+  ],
+  "considerations": [
+   "יש לבדוק מקום התקנה למכשיר במידות 35.05 × 9.65 × 19.81 ס״מ",
+   "כדאי לתכנן את חיווט הרמקולים לכל אזור מראש"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר לשלוט בעוצמה בכל אזור בנפרד?",
+    "a": "כן, המגבר תומך ב-6 אזורים עם בקרת עוצמה נפרדת לכל אזור.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להזרים מוזיקה מהטלפון?",
+    "a": "כן, יש Bluetooth מובנה להזרמת מוזיקה אלחוטית.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר מיקרופון?",
+    "a": "כן, יש כניסות מיקרופון 6.3 מ״מ עם בקרת הד ועוצמה עצמאית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגבר 6 אזורים Pure Acoustics AVZ-6300: הספק 6 × 50W, Bluetooth מובנה ורדיו FM, למוזיקת רקע וכריזה בעסקים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מגבר 6 אזורים",
+   "Pure Acoustics AVZ-6300",
+   "AVZ-6300",
+   "מגבר כריזה",
+   "מגבר מוזיקת רקע לעסק",
+   "מגבר רב אזורי",
+   "מגבר עם בלוטות'"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "300W RMS",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר אזורי שמע",
+   "catalogValue": "6 אזורים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יציאות רמקולים",
+   "catalogValue": "70V/100V וגם 4-16 Ohm",
+   "finding": "corrected",
+   "correctValue": "4Ω-8Ω",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קישוריות אלחוטית",
+   "catalogValue": "Bluetooth מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "יציאות רמקולים",
+   "issue": "הקטלוג מציין 70V/100V ו-4-16 Ohm; היצרן מציין 4Ω-8Ω בלבד.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "עמוד היצרן מציין גם 4 Zone Stereo Amplifier 300W וגם 6 אזורים; יש סתירה פנימית.",
+   "severity": "medium"
+  },
+  {
+   "field": "יציאות רמקולים",
+   "issue": "הקטלוג מציין 70V/100V ו-4-16 Ohm; היצרן מציין 4Ω-8Ω בלבד ואינו מזכיר 70V/100V.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "לפי החוקר, עמוד היצרן מזכיר גם 4 Zone Stereo Amplifier 300W לצד 6 אזורים; יש לבדוק את העמוד.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 300W RMS; המקורות מציינים 300W / 6×50W ללא ציון RMS.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified against ok quotes. Catalog speaker output claim (70V/100V, 4-16 Ohm) not supported; manufacturer lists 4Ω-8Ω only. Label of fact 1 clarified. | code guard removed: faq: \"האם המגבר תומך ברמקולים של 70V/100V?\"; consideration: \"יש לוודא שהרמקולים בהתנגדות 4Ω-8Ω; היצרן אינו מציין תמיכה בקווי 70V/100V\""
+ }
+}

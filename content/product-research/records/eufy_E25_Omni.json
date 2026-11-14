@@ -1,0 +1,473 @@
+{
+ "modelNumber": "eufy E25 Omni",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Anker (eufy)",
+  "exactModel": "eufy E25 Omni",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בשם eufy Robot Vacuum Omni E25 בדפי היבואן. דף היצרן שנמצא הוא של אירלנד; הנתונים המקומיים נלקחו מדף הקמעונאי הישראלי ומתאימים לאותו דגם. | QA: Manufacturer page (eufy IE, robot-vacuum-e25) and Israeli retailer CityDeal both describe the eufy E25 Omni; the retailer names Hamilton as official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.eufy.com/ie/robot-vacuum-e25",
+   "publisher": "eufy",
+   "kind": "manufacturer",
+   "market": "IE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/anker-eufy-e25-omni-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99-%D7%95%D7%A9%D7%95%D7%98%D7%A3-%D7%93%D7%92%D7%9D-e25-omni-%D7%90%D7%A0%D7%A7%D7%A8",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "20,000 Pa"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן פעולה (שאיבה בלבד)",
+     "value": "עד 216 דקות (מצב סטנדרטי)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן פעולה (שאיבה ושטיפה)",
+     "value": "עד 125 דקות (מצב סטנדרטי)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הרמת מטליות על שטיחים",
+     "value": "10.5 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות הרובוט",
+     "value": "346×327×111 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל הרובוט",
+     "value": "5.2 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות התחנה",
+     "value": "369×461×436 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל התחנה",
+     "value": "7.22 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מיכל מים נקיים בתחנה",
+     "value": "2.5 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מיכל מים מלוכלכים בתחנה",
+     "value": "1.8 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שקית אבק בתחנה",
+     "value": "3 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיכל אבק ברובוט",
+     "value": "180 מ״ל"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיכל מים ברובוט",
+     "value": "120 מ״ל"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוללה",
+     "value": "ליתיום-יון 5200mAh"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ניווט וחישה",
+     "value": "LiDAR + מצלמת RGB"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זיהוי חפצים",
+     "value": "מעל 200 אובייקטים ביתיים"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Matter confirmed by manufacturer; voice assistants from IL retailer.",
+     "label": "שליטה ותאימות",
+     "value": "אפליקציה, Matter, Apple Siri, Amazon Alexa, Google Assistant"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים למכשיר, שנה לסוללה (המילטון חשמל ואלקטרוניקה)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת HydroJet™ לניקוי המברשות 360 פעמים בדקה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תחנת All-in-One: ריקון עצמי, שטיפה עצמית, ייבוש חם, מילוי מים והוספת דטרגנט אוטומטיים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "זרוע CornerRover™ עם מברשת צד לניקוי לאורך קירות ובפינות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדריך למשתמש וכתב אחריות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "eufy E25 Omni הוא שואב רובוטי ששואב ושוטף, עם תחנת All-in-One שמרוקנת אבק, שוטפת ומייבשת את המטליות וממלאת מים ודטרגנט אוטומטית. הוא מגיע לעוצמת שאיבה של 20,000 Pa, מנווט בעזרת LiDAR ומצלמת RGB ומזהה מעל 200 אובייקטים ביתיים. מתאים למי שרוצה ניקוי יומיומי של רצפות ושטיחים כמעט בלי התערבות ידנית.",
+  "highlights": [
+   "עוצמת שאיבה 20,000 Pa",
+   "תחנה עם ריקון עצמי, שטיפה וייבוש חם של המטליות",
+   "ניווט LiDAR ומצלמת RGB, זיהוי מעל 200 אובייקטים",
+   "הרמת מטליות של 10.5 מ״מ על שטיחים",
+   "עד 216 דקות שאיבה במצב סטנדרטי"
+  ],
+  "goodFor": [
+   "בית עם שילוב של רצפות ושטיחים, בזכות הרמת המטליות על שטיחים",
+   "מי שלא רוצה לרוקן מיכל אבק או לשטוף מטליות בעצמו",
+   "בית עם חפצים על הרצפה, בזכות זיהוי האובייקטים והמצלמה",
+   "בית חכם עם Matter, Alexa, Google Assistant או Siri"
+  ],
+  "considerations": [
+   "התחנה במידות 369×461×436 מ״מ ושוקלת 7.22 ק״ג, כדאי לתכנן לה מקום קבוע ליד שקע חשמל",
+   "גובה הרובוט 111 מ״מ לפי המידות שפורסמו, כדאי למדוד את המרווח מתחת לספות ולמיטות",
+   "מיכל המים הנקיים בתחנה הוא 2.5 ליטר, יש למלא אותו מדי פעם ולרוקן את מיכל המים המלוכלכים",
+   "שקית האבק בתחנה היא 3 ליטר ומתחלפת כשהיא מתמלאת"
+  ],
+  "faq": [
+   {
+    "q": "מה קורה כשהרובוט מגיע לשטיח?",
+    "a": "הוא מרים את המטליות לגובה 10.5 מ״מ כדי לא להרטיב את השטיח.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן הוא עובד על סוללה?",
+    "a": "לפי היצרן, עד 216 דקות בשאיבה בלבד ועד 125 דקות בשאיבה ושטיפה במצב סטנדרטי. הסוללה היא 5200mAh.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשלוט בו בקול?",
+    "a": "כן, הוא נשלט דרך אפליקציה ותומך ב-Matter, Apple Siri, Amazon Alexa ו-Google Assistant.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנתיים למכשיר ושנה לסוללה דרך היבואן הרשמי המילטון חשמל ואלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב רובוטי שוטף eufy E25 Omni עם עוצמת שאיבה 20,000 Pa ותחנה לריקון עצמי ושטיפת מטליות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "eufy E25 Omni",
+   "שואב רובוטי eufy",
+   "שואב רובוטי שוטף",
+   "אנקר E25 Omni",
+   "שואב רובוטי עם תחנת ריקון",
+   "eufy Omni E25",
+   "שואב שוטף רובוטי עם ייבוש חם"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "8,000Pa",
+   "finding": "corrected",
+   "correctValue": "20,000 Pa",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת ניווט",
+   "catalogValue": "לייזר iPath LiDAR",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "5,200mAh",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מיכל אבק ברובוט",
+   "catalogValue": "250 מ\"ל",
+   "finding": "corrected",
+   "correctValue": "180 מ״ל",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים ברובוט",
+   "catalogValue": "80 מ\"ל",
+   "finding": "corrected",
+   "correctValue": "120 מ״ל",
+   "sources": []
+  },
+  {
+   "field": "מיכלי מים בתחנה",
+   "catalogValue": "3 ליטר מים נקיים / 2.7 ליטר מים משומשים",
+   "finding": "corrected",
+   "correctValue": "2.5L נקיים / 1.8L משומשים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת שקית אבק בתחנה",
+   "catalogValue": "2.5 ליטר",
+   "finding": "corrected",
+   "correctValue": "3L",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה הרמת מטליות אוטומטית",
+   "catalogValue": "12 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "10.5 מ״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "יכולת טיפוס מעל מכשולים",
+   "catalogValue": "20 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זיהוי חפצים (AI.See)",
+   "catalogValue": "מעל 100 חפצים",
+   "finding": "corrected",
+   "correctValue": "מעל 200 אובייקטים",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ייבוש באוויר חם",
+   "catalogValue": "45°C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "MopMaster 2.0",
+   "catalogValue": "MopMaster 2.0",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שליטה באפליקציה וקול",
+   "catalogValue": "שליטה דרך אפליקציה, פקודות קוליות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "זמן ריצה",
+   "issue": "דף היצרן (אירלנד) נותן 216 דקות לשאיבה בלבד ו-125 דקות לשאיבה ושטיפה; דף הקמעונאי הישראלי נותן 126 דקות במצב רגיל לשתי הפעולות. יש לוודא מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מיכל מים ברובוט",
+   "issue": "הקטלוג מציין 80 מ״ל ואילו דף הקמעונאי הישראלי מציין 120 מ״ל למיכל המים הפנימי. נדרש אימות מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות הרובוט",
+   "issue": "דף הקמעונאי מציג 346×327×111 מ״מ בלי לציין איזה ערך הוא רוחב, גובה או עומק; לכן לא נכתבה שורת מידות משולבת.",
+   "severity": "low"
+  },
+  {
+   "field": "ייבוש חם",
+   "issue": "דף הקמעונאי הישראלי מציין 35–50°C ואילו דף היצרן מציין 30-50°C; הקטלוג מציין 45°C. לא נכתב ערך מאומת.",
+   "severity": "low"
+  },
+  {
+   "field": "יכולת טיפוס מעל מכשולים",
+   "issue": "לא נמצא בדפים שנקראו ערך לטיפוס מעל מכשולים; ערך הקטלוג (20 מ״מ) לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט בקטלוג",
+   "issue": "הקטלוג מציין 8,000Pa, מיכל אבק 250 מ״ל, מיכל מים 80 מ״ל, מיכלי תחנה 3/2.7 ליטר, שקית 2.5 ליטר, הרמת מטליות 12 מ״מ וזיהוי מעל 100 חפצים; המקורות מציינים 20,000 Pa, 180 מ״ל, 120 מ״ל, 2.5/1.8 ליטר, 3 ליטר, 10.5 מ״מ ומעל 200 אובייקטים. יש לעדכן את הקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "זמן פעולה",
+   "issue": "לפי ממצאי החוקר, דף הקמעונאי הישראלי נותן ערך שונה (126 דקות) מדף היצרן האירי (216/125 דקות). כדאי לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "ייבוש חם / MopMaster 2.0 / טיפוס מכשולים",
+   "issue": "ערכי הקטלוג (45°C, MopMaster 2.0, טיפוס עד 20 מ״מ) לא אומתו במקורות ולא פורסמו.",
+   "severity": "low"
+  },
+  {
+   "field": "גרסה ישראלית",
+   "issue": "דף היצרן הוא של אירלנד; נתוני המיכלים וזמני הפעולה נלקחו ממנו. כדאי לוודא שהגרסה הישראלית זהה.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts have ok quotes on pages naming the model and were kept with minor wording fixes. Catalog specs differ from sources (suction, tanks, dust bag, mop lift, object recognition) and are flagged for the catalog to be corrected; catalog claims for 45°C drying, MopMaster 2.0 and 20 mm obstacle climbing were not verified and are not published. | code guard removed: faq: \"האם ה-E25 Omni גם שוטף?\""
+ }
+}

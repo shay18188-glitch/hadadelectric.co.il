@@ -1,0 +1,261 @@
+{
+ "modelNumber": "RD-37",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Pure Acoustics",
+  "exactModel": "RD-37",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Evidence is a single Israeli retailer page (Sirius Electronics) for RD-37 WHITE; the green variant was not fetched. Manufacturer site has no RD-37 page. | QA: Retailer page is for RD-37 WHITE; color variant of catalog SKU unclear. No manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sel.co.il/product/rd-37-white/",
+   "publisher": "סיריוס אלקטרוניקה",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח FM",
+     "value": "87.0–108 MHz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "catalog says 1710kHz",
+     "label": "טווח AM",
+     "value": "520–1620 kHz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "2.7–4.2 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "פאנל סולארי",
+     "value": "0.15W / 30mAh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה ב-USB",
+     "value": "עד 2 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק פנס LED",
+     "value": "1.5W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "catalog says 1200mAh - flagged",
+     "label": "קיבולת סוללה",
+     "value": "4000 mAh"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "quote does not mention lights and sound",
+   "text": "אזעקת SOS לשידור אות מצוקה במקרה חירום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טעינה סולארית וטעינה ידנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות להטעין טלפון נייד מהסוללה המובנית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כבל USB"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "רדיו חירום נייד של Pure Acoustics עם פנס LED, טעינה סולארית וטעינה ידנית. המכשיר קולט FM בטווח 87.0–108 MHz ו-AM בטווח 520–1620 kHz, וכולל סוללה בקיבולת 4000 mAh שמאפשרת גם להטעין טלפון נייד. מתאים להפסקות חשמל, לטיולים ולערכת חירום ביתית.",
+  "highlights": [
+   "קליטת FM ו-AM",
+   "סוללה מובנית בקיבולת 4000 mAh",
+   "טעינה סולארית וטעינה ידנית",
+   "פנס LED בהספק 1.5W",
+   "אזעקת SOS"
+  ],
+  "goodFor": [
+   "ערכת חירום ביתית להפסקות חשמל",
+   "טיולים וקמפינג ללא גישה לחשמל",
+   "הטענת טלפון נייד בשעת חירום"
+  ],
+  "considerations": [
+   "הפאנל הסולארי בהספק 0.15W מתאים לטעינה משלימה; לטעינה מלאה עדיף USB",
+   "כדאי להטעין את הסוללה מראש ולשמור את כבל ה-USB יחד עם המכשיר",
+   "בדקו שהתחנות שאתם רוצים לשמוע משדרות ב-FM או ב-AM"
+  ],
+  "faq": [
+   {
+    "q": "אילו תדרים הרדיו קולט?",
+    "a": "FM בטווח 87.0–108 MHz ו-AM בטווח 520–1620 kHz.",
+    "sources": []
+   },
+   {
+    "q": "איך מטעינים את המכשיר?",
+    "a": "באמצעות כבל USB (כלול), בפאנל הסולארי או בטעינה ידנית. טעינה ב-USB לוקחת עד 2 שעות.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להטעין ממנו טלפון?",
+    "a": "כן, הסוללה המובנית בקיבולת 4000 mAh מאפשרת להטעין טלפון נייד.",
+    "sources": []
+   },
+   {
+    "q": "יש בו פנס?",
+    "a": "כן, פנס LED בהספק 1.5W, וגם אזעקת SOS.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "רדיו חירום נטען Pure Acoustics RD-37 עם פנס LED, טעינה סולארית וידנית וסוללה 4000 mAh להטענת טלפון. בחדד אלקטריק נהריה",
+  "keywords": [
+   "רדיו חירום",
+   "רדיו נטען עם פנס",
+   "Pure Acoustics RD-37",
+   "RD-37",
+   "רדיו סולארי",
+   "רדיו דינמו",
+   "רדיו לחירום עם פאוור בנק",
+   "רדיו FM AM נייד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טווח תדרים AM",
+   "catalogValue": "AM: 520-1710KHz",
+   "finding": "corrected",
+   "correctValue": "520-1620kHz",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה פנימית",
+   "catalogValue": "ליתיום נטענת בקיבולת 1200mAh",
+   "finding": "corrected",
+   "correctValue": "4000mAh",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח FM",
+   "catalogValue": "FM: 87-108MHz",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "SW 7-19MHz",
+   "catalogValue": "SW: 7-19MHz",
+   "finding": "contradicted",
+   "correctValue": "הדף מציין FM/AM/WB",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוללה פנימית",
+   "issue": "Catalog says 1200mAh; Israeli retailer page for RD-37 WHITE says 4000mAh.",
+   "severity": "high"
+  },
+  {
+   "field": "טווח תדרים",
+   "issue": "Catalog lists SW band and AM up to 1710kHz; retailer lists FM/AM/WB and AM up to 1620kHz.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוללה פנימית",
+   "issue": "Catalog says 1200mAh; Israeli retailer page (RD-37 WHITE) says 4000mAh.",
+   "severity": "high"
+  },
+  {
+   "field": "טווח תדרים",
+   "issue": "Catalog lists SW 7-19MHz and AM up to 1710kHz; retailer lists AM 520-1620kHz and no SW.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "Only source is the white variant on one retailer page; confirm catalog color/variant.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Single Israeli retailer page (RD-37 WHITE). Kept all retailer specs; flagged catalog contradictions on battery capacity (1200 vs 4000mAh), AM range and SW band. Reworded LED and charge-time labels slightly."
+ }
+}

@@ -1,0 +1,620 @@
+{
+ "modelNumber": "UE75M80H",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "UE75M80H",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "הדגם בישראל נמכר בקוד UE75M80HAUXIL (מק\"ט 510.2023). הקוד UE75M80H הוא הבסיס של הסדרה; העמוד הישראלי היחיד שנמצא מציין את קוד ה-IL. | QA: Bug page is for UE75M80HAUXIL, the Israeli variant of catalog code UE75M80H, 75 inch Mini LED 4K, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/%D7%98%D7%9C%D7%95%D7%95%D7%99%D7%96%D7%99%D7%94-%D7%97%D7%9B%D7%9E%D7%94-75-4k-mini-led-samsung-5102023ue75m80hauxil",
+   "publisher": "Bug (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Model code with IL suffix, not an importer SKU",
+     "label": "דגם ישראלי",
+     "value": "UE75M80HAUXIL"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סדרה",
+     "value": "M80H"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב ללא מעמד",
+     "value": "166.81 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה ללא מעמד",
+     "value": "95.78 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב מעמד שולחני",
+     "value": "125 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ללא מעמד",
+     "value": "22.1 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל כולל מעמד",
+     "value": "22.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "75 אינץ'"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רזולוציית מסך",
+     "value": "3840 × 2160"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית מסך",
+     "value": "Mini LED"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer says native; manufacturer spec for series may list 100Hz native with 144Hz VRR, so label kept neutral and flagged",
+     "label": "קצב רענון מרבי",
+     "value": "144 Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תמיכה ב-HDR",
+     "value": "HDR10+"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Marketing motion figure, unclear meaning; DLG not in quote",
+     "label": "שיפור תנועה",
+     "value": "עד 240Hz"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבד",
+     "value": "NQ4 AI Gen2 Processor"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סנכרון תנועה (VRR)",
+     "value": "AMD FreeSync Premium"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק שמע",
+     "value": "20 W, 2 ערוצים"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות HDMI",
+     "value": "3 כניסות, תמיכה ב-4K 144Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כניסות USB-A",
+     "value": "כניסה אחת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "Ethernet LAN",
+     "value": "כניסה אחת"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיבור אלחוטי",
+     "value": "Wi-Fi ו-Bluetooth"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מערכת הפעלה",
+     "value": "Samsung Tizen"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תמיכה בשירותים",
+     "value": "SmartThings, Apple AirPlay, Google Cast"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "D"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור טיטאני"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer's own warranty term; store warranty may differ",
+     "label": "אחריות",
+     "value": "שנה אחת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Supreme Mini LED Dimming – עמעום תאורה מקומי לניגודיות טובה יותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Motion Xcelerator 144Hz להצגת תנועה חלקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "AI Picture שמתאים את הגדרות התמונה אוטומטית לפי התוכן"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תמיכה ב-HGIG להתאמת תמונת HDR במשחקים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ALLM Game Mode שמתאים את המסך למשחקים אוטומטית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "OTS Lite – סאונד שעוקב אחרי התנועה על המסך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Q-Symphony – רמקולי הטלוויזיה וסאונד בר של Samsung פועלים יחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב Metal Stream עם מסגרת מתכת דקה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "טלוויזיה חכמה של Samsung בגודל 75 אינץ' בטכנולוגיית Mini LED ורזולוציית 4K, מסדרת M80H. היא כוללת מעבד NQ4 AI Gen2, קצב רענון של עד 144 Hz, תמיכה ב-HDR10+ ו-AMD FreeSync Premium, ומערכת Tizen עם AirPlay ו-Google Cast. מתאימה לסלון גדול, לצפייה בסרטים ולגיימרים עם קונסולה עדכנית.",
+  "highlights": [
+   "מסך Mini LED בגודל 75 אינץ' ברזולוציית 4K",
+   "קצב רענון של עד 144 Hz ותמיכה ב-AMD FreeSync Premium",
+   "מעבד NQ4 AI Gen2 ותמיכה ב-HDR10+",
+   "3 כניסות HDMI עם תמיכה ב-4K 144Hz",
+   "מערכת Samsung Tizen עם Apple AirPlay ו-Google Cast"
+  ],
+  "goodFor": [
+   "סלון מרווח שבו מסך גדול מתאים למרחק הצפייה",
+   "גיימינג בקונסולה או במחשב, בזכות תמיכה ב-144Hz, ALLM ו-FreeSync Premium",
+   "צפייה בסרטים ובסדרות בתוכן HDR10+",
+   "משתמשי אייפון או אנדרואיד שרוצים לשדר למסך עם AirPlay או Google Cast"
+  ],
+  "considerations": [
+   "רוחב המסך ללא מעמד הוא 166.81 ס״מ – כדאי למדוד את הקיר או את המזנון מראש",
+   "רוחב המעמד השולחני הוא 125 ס״מ, ולכן המזנון צריך להיות רחב מספיק",
+   "משקל המסך ללא מעמד הוא 22.1 ק״ג – בתלייה על הקיר יש לוודא קיר וזרוע מתאימים",
+   "דירוג האנרגיה הוא D"
+  ],
+  "faq": [
+   {
+    "q": "מה גודל המסך והרזולוציה?",
+    "a": "75 אינץ', ברזולוציית 3840 × 2160 (4K) בטכנולוגיית Mini LED.",
+    "sources": []
+   },
+   {
+    "q": "האם הטלוויזיה מתאימה למשחקים?",
+    "a": "כן. היא תומכת בקצב רענון של עד 144 Hz, ב-AMD FreeSync Premium, ב-ALLM וב-HGIG, וכוללת 3 כניסות HDMI עם תמיכה ב-4K 144Hz.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשדר מהטלפון?",
+    "a": "כן, יש תמיכה ב-Apple AirPlay וב-Google Cast, וגם ב-SmartThings.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות והמשקל?",
+    "a": "ללא מעמד: רוחב 166.81 ס״מ וגובה 95.78 ס״מ, משקל 22.1 ק״ג. עם מעמד המשקל הוא 22.5 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "איזה הספק שמע יש?",
+    "a": "20 W ב-2 ערוצים, עם OTS Lite ותמיכה ב-Q-Symphony עם סאונד בר של Samsung.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלוויזיה Samsung UE75M80H בגודל 75 אינץ' Mini LED 4K, עם קצב רענון עד 144 Hz ומעבד NQ4 AI Gen2. לפרטים בחדד אלקטריק נהריה",
+  "keywords": [
+   "טלוויזיה סמסונג 75 אינץ'",
+   "Samsung UE75M80H",
+   "UE75M80HAUXIL",
+   "טלוויזיה Mini LED 75",
+   "Samsung M80H",
+   "טלוויזיה 4K 75 אינץ'",
+   "טלוויזיה 144Hz לגיימינג",
+   "טלוויזיה חכמה סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "גודל מסך",
+   "catalogValue": "75 אינץ' (74.5 אינץ' בפועל)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רזולוציה",
+   "catalogValue": "3840x2160 (4K Ultra HD)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית מסך",
+   "catalogValue": "Mini LED",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב רענון",
+   "catalogValue": "144Hz (תמיכה ב-VRR)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבד",
+   "catalogValue": "NQ4 AI Gen2 Processor",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תמיכה ב-HDR",
+   "catalogValue": "HDR10+, HLG",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "Tizen",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורים",
+   "catalogValue": "3x HDMI 2.1 (כולל eARC), 1x USB-A, Ethernet, Wi-Fi, Bluetooth",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "HDMI 2.1",
+   "catalogValue": "3x HDMI 2.1",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמקולים",
+   "catalogValue": "2x 10W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות ללא מעמד",
+   "catalogValue": "1668x958x77 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות עם מעמד",
+   "catalogValue": "1668x1008x280 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל ללא מעמד",
+   "catalogValue": "22.1 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל עם מעמד",
+   "catalogValue": "22.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תמיכה ב-VESA",
+   "catalogValue": "400x300 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "D",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחת",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הדגם בישראל הוא UE75M80HAUXIL, והקוד בקטלוג UE75M80H הוא הבסיס שלו. העמוד הישראלי (באג) מציין את קוד ה-IL, ולכן נשען עליו. יש לוודא שזה המק\"ט שנמכר בחנות.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "באג מציין 144Hz כקצב רענון טבעי, ואילו מפרט היצרן של Samsung לסדרה (עמוד UK, וריאנט אחר) מציין 144 Hz VRR עם 100 Hz טבעי. המפרט הישראלי בקטלוג אינו מבחין בין השניים. יש לאמת מול יבואן Samsung הישראלי.",
+   "severity": "medium"
+  },
+  {
+   "field": "גודל מסך",
+   "issue": "הקטלוג מציין 74.5 אינץ' בפועל. העמוד הישראלי מציין 75 אינץ' בלבד, ולא נמצא מקור ישראלי או יצרן מאשר את 74.5.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן רשמי",
+   "issue": "העמוד הישראלי מציין 'יבואן רשמי: כן' בלי לנקוב בשם היבואן, ולכן שם היבואן נשאר ריק.",
+   "severity": "low"
+  },
+  {
+   "field": "עומק ללא מעמד",
+   "issue": "העומק בעמוד הישראלי (7.7 ס\"מ) לא נכלל כציטוט מילולי בשל אורך השורה, ולכן לא נשמר כעובדה; הערך 77 מ\"מ בקטלוג לא אומת מעמוד ישראלי.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "המקור היחיד מתאר את UE75M80HAUXIL; יש לוודא שזה הקוד הנמכר בחנות תחת UE75M80H.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב רענון",
+   "issue": "באג מציין 144Hz כקצב טבעי, אך ייתכן שהיצרן מציין 100Hz טבעי ו-144Hz ב-VRR. פורסם כ'קצב רענון מרבי'; יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל העובדות נשענות על עמוד קמעונאי ישראלי אחד בלבד, ללא אישור מיצרן או יבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "שם בקטלוג",
+   "issue": "שם הקטלוג כולל '(אמטל)' – אין במקורות אישור לזהות היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט קטלוג",
+   "issue": "74.5 אינץ' בפועל, HLG, HDMI 2.1, 2x10W ו-VESA 400x300 בקטלוג לא אומתו במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Single Israeli retailer source (Bug) naming UE75M80HAUXIL. Rejected fact 12 (240Hz motion claim, marketing figure whose meaning is unclear and conflicts with a 144Hz panel) and fact 24 (warranty is the retailer's own term, not necessarily the store's). Relabelled fact 0 (Israeli model code, not importer SKU) and fact 10 (maximum refresh rate, native rate disputed). | code guard removed: fact 8 QA value \"3840 × 2160 (4K)\" not supported by quotes; kept \"3840 × 2160\""
+ }
+}

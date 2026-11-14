@@ -1,0 +1,339 @@
+{
+ "modelNumber": "PUFF-215W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "ProView",
+  "exactModel": "PUFF-215W",
+  "israeliImporter": "אמטל",
+  "matchConfidence": "high",
+  "notes": "מפרט מהיבואן (PDF) ומליאור מוצרי חשמל; נפח נטו 155 ל' ולא 174 ל' כבקטלוג. | QA: Importer spec sheet and Israeli retailer both name PUFF-215W with the same EAN."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/מקפיא-7-מגירות-proview-דגם-puff-215w/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://d3m9l0v76dty0.cloudfront.net/system/photos/19269813/original/a725aaee1cb60345c6bfdc3f9d470767.pdf",
+   "publisher": "אמטל (יבואן) - דף מפרט",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח נטו",
+     "value": "155 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer only; differs from catalog",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "50 × 142.1 × 57.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג הפשרה",
+     "value": "Frost Free (הפשרה אוטומטית)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גז קירור",
+     "value": "R600a (44 גרם)"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק הפשרה",
+     "value": "120 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צריכת זרם",
+     "value": "0.8 A"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח ותדר",
+     "value": "220-240V / 50Hz"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "PDF text garbled; unit implied",
+     "label": "רמת רעש",
+     "value": "40 dB"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quote failed check; quote checks: quote-too-short",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד (EAN)",
+     "value": "6001889063913"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "ProView PUFF-215W הוא מקפיא עומד מסוג Frost Free עם נפח נטו של 155 ליטר, כך שאין צורך בהפשרה ידנית. מידותיו 50 × 142.1 × 57.5 ס״מ, דירוג האנרגיה שלו E ורמת הרעש לפי היבואן 40 dB. מתאים למי שמחפש מקפיא נפרד ושקט יחסית לאחסון מזון קפוא בבית.",
+  "highlights": [
+   "נפח נטו 155 ליטר",
+   "Frost Free – ללא הפשרה ידנית",
+   "רמת רעש 40 dB",
+   "דירוג אנרגטי E",
+   "גז קירור R600a"
+  ],
+  "goodFor": [
+   "משפחה שרוצה מקפיא נוסף לצד המקרר הקיים",
+   "מי שמעדיף לא להתעסק בהפשרה ידנית של קרח",
+   "הצבה בחלל סמוך לאזור מגורים, הודות לרמת רעש של 40 dB"
+  ],
+  "considerations": [
+   "מדדו את הנישה: המקפיא ברוחב 50 ס״מ, גובה 142.1 ס״מ ועומק 57.5 ס״מ, והשאירו מרווח לאוורור",
+   "ודאו שקע חשמל תקני 220-240V בקרבת מקום ההצבה",
+   "בדקו שנפח נטו של 155 ליטר מספיק לכמות המזון שאתם מקפיאים"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך להפשיר את המקפיא ידנית?",
+    "a": "לא. זהו מקפיא Frost Free עם הפשרה אוטומטית.",
+    "sources": []
+   },
+   {
+    "q": "מה הנפח השימושי של המקפיא?",
+    "a": "לפי מפרט היבואן, הנפח הנטו הוא 155 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקפיא?",
+    "a": "רוחב 50 ס״מ, גובה 142.1 ס״מ ועומק 57.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש המקפיא?",
+    "a": "לפי היבואן, רמת הרעש היא 40 dB.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקפיא ProView PUFF-215W מסוג Frost Free, נפח נטו 155 ליטר ורמת רעש 40 dB, דירוג אנרגטי E. לפרטים בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקפיא ProView PUFF-215W",
+   "PUFF-215W",
+   "מקפיא מגירות פרוויו",
+   "מקפיא נו פרוסט 155 ליטר",
+   "מקפיא עומד Frost Free",
+   "מקפיא ProView",
+   "מקפיא מגירות שקט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח נטו",
+   "catalogValue": "174 ליטר",
+   "finding": "corrected",
+   "correctValue": "155 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח כולל",
+   "catalogValue": "195 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "גובה 143 ס\"מ, רוחב 54.5 ס\"מ, עומק 59.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "גובה 142.1, רוחב 50, עומק 57.5 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (תקן חדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "No-Frost (אל כפור)",
+   "finding": "confirmed",
+   "correctValue": "Frost Free",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מגירות",
+   "catalogValue": "6 מגירות אחסון שקופות",
+   "finding": "contradicted",
+   "correctValue": "הדף של ליאור מציין 7 מגירות בשם המוצר; מפרט היבואן מציין 6 תאים",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גז קירור",
+   "catalogValue": "R600a",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "פעולה שקטה",
+   "finding": "missing-added",
+   "correctValue": "40 dB",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח",
+   "issue": "הקטלוג מציין 174 ל' נטו ו-195 ל' כולל; היבואן ואתר ליאור מציינים 155 ל' נטו",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג (143×54.5×59.5) שונות ממפרט היבואן (142.1×50×57.5)",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר מגירות",
+   "issue": "הדף של ליאור מציין 7 מגירות, מפרט היבואן 6 תאים",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח",
+   "issue": "הקטלוג מציין 174 ליטר נטו ו-195 ליטר כולל; היבואן והקמעונאי מציינים 155 ליטר נטו. שם המוצר בקטלוג כולל את הנפח השגוי.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג (143×54.5×59.5) שונות מהמידות בדף הקמעונאי (142.1×50×57.5)",
+   "severity": "medium"
+  },
+  {
+   "field": "מספר מגירות",
+   "issue": "דף הקמעונאי מציין 7 מגירות, הקטלוג ומפרט היבואן 6 – לא אומת",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected colour (quote failed check). Noise kept: importer spec shows 40 next to the noise-level label; unit dB implied. Catalog net volume (174 L) and dimensions contradicted by importer and retailer."
+ }
+}

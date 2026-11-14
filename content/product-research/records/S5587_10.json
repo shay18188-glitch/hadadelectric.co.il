@@ -1,0 +1,489 @@
+{
+ "modelNumber": "S5587/10",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "S5587/10",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בדף התמיכה של Philips באירלנד ובמפרט היצרן כ-S5587/10 (סדרה 5000, Wet & Dry). בדף התמיכה מסומן כ-Discontinued. היבואן הישראלי לא אומת. | QA: Philips leaflet and Philips Ireland support page name S5587/10 (Series 5000 Wet & Dry); Israeli retailer page names the same model. Marked discontinued on the Irish support page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.documents.philips.com/assets/20220421/0bd4c954dde74cf2a9a9ae7e013e7362.pdf",
+   "publisher": "Philips",
+   "kind": "manufacturer",
+   "market": "INT",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://ycelectric.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%92%D7%99%D7%9C%D7%95%D7%97-philips-s5587-10-%D7%A4%D7%99%D7%9C%D7%99%D7%A4%D7%A1/",
+   "publisher": "ELECTRO.Y (י.כהן אלקטרוניקה)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.praillet.expert.be/fr/pr/philips-rasoir-s558710/product-sheet",
+   "publisher": "Maison Praillet",
+   "kind": "retailer",
+   "market": "BE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת גילוח",
+     "value": "להבי SteelPrecision"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מקסימלי",
+     "value": "9 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שימוש",
+     "value": "רטוב ויבש"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג סוללה",
+     "value": "Li-Ion"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן עבודה (אלחוטי)",
+     "value": "60 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "1 שעה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טעינה מהירה",
+     "value": "5 דקות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Removed 'מסך LED' - not in quote",
+     "label": "תצוגה",
+     "value": "מחוון עוצמת סוללה, נעילת נסיעה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "Carbon Grey (אפור)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחיזה",
+     "value": "ידית עם אחיזת גומי"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ניקוי",
+     "value": "פתיחה בלחיצה אחת, שטיף לחלוטין במים"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli retailer page",
+     "label": "אחריות",
+     "value": "24 חודשים"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Implausible for shaver body; likely packaging dimensions; single foreign retailer",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "162 × 245 × 92 מ״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישן Power Adapt (טכנולוגיית SkinIQ) קורא את צפיפות השיער 125 פעמים בשנייה ומתאים את עוצמת החיתוך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ראשי גילוח גמישים 360-D שעוקבים אחר קווי הפנים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טרימר מובנה פופ-אפ בגב המכונה לסידור פאות ושפם"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טרימר לאף כלול באריזה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ניתן לגלח אלחוטית מהסוללה, או לחבר לחשמל לשימוש רציף"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת ניקוי וכיסוי מגן"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Philips S5587/10 היא מכונת גילוח לשימוש רטוב ויבש, עם להבי SteelPrecision וראשי גילוח גמישים. סוללת Li-Ion מספקת 60 דקות גילוח אלחוטי, טעינה מלאה בשעה וטעינה מהירה של 5 דקות. מתאימה למי שמחפש מכונה יומיומית עם טרימר מובנה וניקוי פשוט במים.",
+  "highlights": [
+   "60 דקות גילוח אלחוטי מסוללת Li-Ion",
+   "טעינה מלאה בשעה, טעינה מהירה של 5 דקות",
+   "שימוש רטוב ויבש, שטיפה מלאה במים",
+   "חיישן Power Adapt קורא את צפיפות השיער 125 פעמים בשנייה",
+   "טרימר פופ-אפ מובנה וטרימר לאף כלול"
+  ],
+  "goodFor": [
+   "גילוח במקלחת או עם קצף וג׳ל, בזכות שימוש רטוב ויבש",
+   "נסיעות, עם נעילת נסיעה וטעינה מהירה של 5 דקות",
+   "מי שמסדר גם פאות ושפם, בזכות הטרימר המובנה",
+   "מי שרוצה ניקוי מהיר תחת הברז בפתיחה בלחיצה אחת"
+  ],
+  "considerations": [
+   "הדגם מסומן כהופסק בדף התמיכה של Philips באירופה, כדאי לוודא זמינות ראשי החלפה",
+   "לניקוי נכללת מברשת בלבד, ללא תחנת ניקוי",
+   "האחריות לפי דף קמעונאי ישראלי היא 24 חודשים, כדאי לוודא מול המוכר"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "עד 60 דקות של גילוח אלחוטי, וטעינה מלאה לוקחת שעה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לגלח במקלחת?",
+    "a": "כן, המכונה מיועדת לשימוש רטוב ויבש וניתנת לשטיפה מלאה במים.",
+    "sources": []
+   },
+   {
+    "q": "יש טעינה מהירה?",
+    "a": "כן, טעינה של 5 דקות מספיקה לגילוח אחד.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "מברשת ניקוי, כיסוי מגן וטרימר לאף.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בה כשהיא מחוברת לחשמל?",
+    "a": "כן, אפשר לחבר אותה לחשמל לשימוש רציף.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת גילוח Philips S5587/10 לשימוש רטוב ויבש: 60 דקות גילוח אלחוטי וטעינה מהירה של 5 דקות, עם טרימר מובנה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Philips S5587/10",
+   "S5587",
+   "מכונת גילוח פיליפס סדרה 5000",
+   "מכונת גילוח רטוב ויבש",
+   "מכונת גילוח פיליפס",
+   "Philips Series 5000 shaver",
+   "מכונת גילוח חשמלית לגבר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מערכת גילוח",
+   "catalogValue": "להבי SteelPrecision עם עד 90,000 פעולות חיתוך בדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעקב קווי מתאר",
+   "catalogValue": "ראשי 360-D גמישים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "Li-ion עוצמתית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "60 דקות של גילוח אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "טעינה מלאה תוך שעה אחת וטעינה מהירה של 5 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה - נעילת נסיעה ומחוון סוללה",
+   "catalogValue": "מסך LED הכולל חיווי עוצמת סוללה, נעילת נסיעה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה - 3 רמות סוללה וחיווי ניקוי והחלפת ראשים",
+   "catalogValue": "חיווי עוצמת סוללה (3 רמות), חיווי ניקוי, חיווי החלפת ראשים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "התאמה אוטומטית למתח 100-240 וולט",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תוצרת",
+   "catalogValue": "הולנד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית SkinIQ וחיישן Power Adapt",
+   "catalogValue": "חיישן מתאים את עוצמת החיתוך לצפיפות השיער 125 פעמים בשנייה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שימוש רטוב ויבש",
+   "catalogValue": "שימוש רטוב ויבש (Wet & Dry)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוצץ (Trimmer) מובנה",
+   "catalogValue": "קוצץ מובנה נפתח",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ידית אחיזה",
+   "catalogValue": "ידית אחיזה ארגונומית עם גומי למניעת החלקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ניקוי בלחיצה אחת",
+   "catalogValue": "פתיחה קלה בלחיצה אחת לניקוי מהיר תחת ברז המים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "24 חודשים",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק מקסימלי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "9 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "162 × 245 × 92 מ״מ",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "status",
+   "issue": "דף התמיכה של Philips באירלנד מסמן את הדגם S5587/10 כ-Discontinued (הופסק). יש לבדוק אם הדגם עדיין מיובא לישראל ולהחליט על המשך מכירתו.",
+   "severity": "high"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "היבואן הישראלי של Philips לדגם לא אומת בדפים שנאספו.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות נמצאו רק באתר קמעונאי בלגי אחד; לא נמצא מקור שני. המשקל לא נשמר: מקורות שונים נותנים 370 גרם ו-575 גרם (משקל אריזה).",
+   "severity": "medium"
+  },
+  {
+   "field": "תצוגה",
+   "issue": "מספר רמות מחוון הסוללה (3), חיווי הניקוי וחיווי החלפת הראשים מופיעים בקטלוג אך לא אומתו בדף היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "status",
+   "issue": "דף התמיכה של Philips באירלנד מסמן את הדגם כ-Discontinued; יש לבדוק אם הדגם עדיין מיובא לישראל.",
+   "severity": "high"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "היבואן הישראלי לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות מאתר קמעונאי בלגי (162×245×92 מ״מ) נדחו - נראות כמידות אריזה.",
+   "severity": "low"
+  },
+  {
+   "field": "תצוגה",
+   "issue": "בקטלוג מופיעים מסך LED, 3 רמות סוללה, חיווי ניקוי וחיווי החלפת ראשים שלא אומתו במקור היצרן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected dimensions (162×245×92 mm from a Belgian retailer is far too large for a shaver body; almost certainly packaging). Display value trimmed to what the quote says (removed 'מסך LED'). Handle label clarified."
+ }
+}

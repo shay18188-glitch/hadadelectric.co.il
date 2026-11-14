@@ -1,0 +1,463 @@
+{
+ "modelNumber": "V15 Detect Absolute New SV47",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Dyson",
+  "exactModel": "SV47",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Israeli retailers list this unit as V15 Detect Absolute (SV47) and as V15 Detect Absolute New SV47. A Cyprus retailer lists a region and colour variant (SV 47 YLNKL EU/IL) with different suction figures; it was not used as evidence. | QA: Both Israeli retailer pages name V15 Detect Absolute / SV47. The 'New' listing is described by one retailer as repackaged by Dyson; flagged for review."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://cellfi.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A2%D7%95%D7%9E%D7%93-dyson-v15-detect-absolute-new-sv47-%D7%93%D7%99%D7%99%D7%A1%D7%95%D7%9F/",
+   "publisher": "CELLFI",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%99%D7%99%D7%A1%D7%95%D7%9F-dyson-%D7%93%D7%92%D7%9D-v15-detect-absolute/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "240AW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות מנוע",
+     "value": "עד 125,000 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 60 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "4.5 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Relabelled",
+     "label": "מערכת ציקלונים",
+     "value": "14 ציקלונים, כוח צנטריפוגלי עד 100,000G"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 0.1 micron; source says 0.3",
+     "label": "סינון",
+     "value": "לוכד 99.99% מהחלקיקים עד 0.3 מיקרון"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי עבודה",
+     "value": "Eco, Auto, Boost"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Axis order not labelled on source",
+     "label": "מידות",
+     "value": "26.6 × 126 × 25 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מסך",
+     "value": "LCD"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer-specific importer warranty; may not apply to store's unit",
+     "label": "תקופת אחריות",
+     "value": "24 חודשים על השואב והמנוע, 12 חודשים על הסוללה והמטען"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת מאירה Fluffy Optic שחושפת חלקיקי אבק בלתי נראים על רצפות ופרקטים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישן Piezo שסופר את חלקיקי האבק ומגביר את עוצמת השאיבה לפי הצורך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צג LCD שמציג את כמות וסוג החלקיקים שנשאבו ואת זמן העבודה שנותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת Digital Motorbar עם טכנולוגיית De-Tangle שמונעת הסתבכות שיער וחודרת לעומק השטיח"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סוללה נשלפת עם עד 60 דקות עבודה רציפה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת מאירה לרצפות ופרקטים (Fluffy Optic)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת Digital Motorbar עם טכנולוגיית De-Tangle"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אביזר לפינות ומסילות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תחנת עגינה וטעינה לקיר"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "הסוללה נשלפת ומספקת עד 60 דקות עבודה, וזמן הטעינה 4.5 שעות. מברשת מאירה וחיישן Piezo חושפים וסופרים אבק, ומתאימים לבית עם רצפות קשות, שטיחים ושיער.",
+  "highlights": [
+   "עוצמת שאיבה 240AW",
+   "עד 60 דקות עבודה עם סוללה נשלפת",
+   "מברשת מאירה Fluffy Optic לרצפות ופרקטים",
+   "חיישן Piezo וצג LCD שמציג את החלקיקים שנשאבו",
+   "סינון הלוכד 99.99% מהחלקיקים עד 0.3 מיקרון"
+  ],
+  "goodFor": [
+   "בית עם רצפות קשות ופרקטים שבו קשה לראות אבק דק",
+   "בית עם שיער ארוך או חיות מחמד, בזכות מברשת De-Tangle",
+   "מי שסובל מאלרגיות ורוצה סינון של חלקיקים זעירים",
+   "ניקיון יסודי של כל הבית בסבב אחד בזכות זמן עבודה ארוך במצב Eco"
+  ],
+  "considerations": [
+   "תחנת העגינה נתלית על הקיר – כדאי לתכנן מקום ליד שקע חשמל",
+   "טעינה מלאה נמשכת 4.5 שעות, כך שכדאי להחזיר את השואב לתחנה אחרי כל שימוש",
+   "זמן העבודה הארוך מתקבל במצב Eco; מצב Boost מיועד לניקיון אינטנסיבי",
+   "גובה השואב כ-126 ס״מ – כדאי לבדוק את מקום האחסון"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובדת הסוללה?",
+    "a": "עד 60 דקות עבודה רציפה, והסוללה נשלפת.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לטעון את השואב?",
+    "a": "זמן הטעינה הוא 4.5 שעות.",
+    "sources": []
+   },
+   {
+    "q": "אילו מצבי עבודה יש לשואב?",
+    "a": "Eco לזמן עבודה ארוך, Auto שמתאים את העוצמה אוטומטית, ו-Boost לניקיון אינטנסיבי.",
+    "sources": []
+   },
+   {
+    "q": "מה מציג המסך?",
+    "a": "צג LCD מציג את כמות וסוג החלקיקים שנשאבו ואת זמן העבודה שנותר.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים מגיעים באריזה?",
+    "a": "מברשת מאירה Fluffy Optic, מברשת Digital Motorbar עם De-Tangle, אביזר לפינות ומסילות ותחנת עגינה וטעינה לקיר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "דייסון V15",
+   "Dyson V15 Detect Absolute",
+   "SV47",
+   "שואב אבק אלחוטי דייסון",
+   "דייסון V15 דטקט",
+   "שואב אלחוטי עם מברשת מאירה",
+   "שואב אבק נטען",
+   "Dyson SV47"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "240AW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "Dyson Hyperdymium המסתובב במהירות של עד 125,000 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 60 דקות של שאיבה עוצמתית (במצב Eco)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מכל האבק",
+   "catalogValue": "0.77 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סינון HEPA",
+   "catalogValue": "סינון HEPA מלא",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גודל חלקיק מסונן",
+   "catalogValue": "עד גודל של 0.1 מיקרון",
+   "finding": "corrected",
+   "correctValue": "עד 0.3 מיקרון",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "4.5 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "3.1 ק\"ג",
+   "finding": "contradicted",
+   "correctValue": "3 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצבי עבודה",
+   "catalogValue": "Eco, Auto, Boost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיישן Piezo",
+   "catalogValue": "חיישן Piezo מודד וסופר את חלקיקי האבק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "26.6 × 126 × 25 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "24 חודשים על השואב והמנוע, 12 חודשים על הסוללה והמטען",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציקלונים",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "14 ציקלונים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "variant",
+   "issue": "The catalog name says New SV47, and an Israeli retailer's listing for the New SV47 variant describes it as a product repackaged by Dyson (מוצר חדש שנארז מחדש ע\"י דייסון). Confirm the store's unit is the factory-sealed model and that the warranty terms apply to it.",
+   "severity": "high"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Importer and warranty conflict: cellfi names סלפי מובייל as importer with 24 months on the vacuum; lior-electric says two years through the official importer. Confirm the Israeli importer and the warranty term.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog says 3.1 kg; the Israeli retailer page says 3 ק״ג. No manufacturer page for this model was verified.",
+   "severity": "medium"
+  },
+  {
+   "field": "manufacturer_source",
+   "issue": "No Dyson or Israeli importer page naming this model was fetched. Facts rest on two Israeli retailer pages (cellfi and lior-electric), which carry the model name.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The retailer gives 26.6 × 126 × 25 ס״מ without axis labels. Check the order before showing it as width × height × depth.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח מכל האבק",
+   "issue": "The retailer spec table shows 0.77 ליטר, but the line could not be quoted cleanly, so it is not published as a fact. Catalog value is confirmed by the table only.",
+   "severity": "low"
+  },
+  {
+   "field": "variant",
+   "issue": "One Israeli retailer describes the 'New SV47' listing as repackaged by Dyson. Confirm the store's unit is factory-sealed and which warranty applies.",
+   "severity": "high"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Importer and warranty differ between retailers; warranty was not published. Confirm the Israeli importer and warranty term for the store's unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "סינון",
+   "issue": "Catalog says 0.1 micron and full HEPA; the retailer page says 0.3 micron. Catalog spec text should be corrected.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog says 3.1 kg; a retailer page says 3 kg. Not published; check against the manufacturer.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimensions are given without axis labels; check order before showing as width × height × depth.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 9 (warranty): the term is quoted from one retailer that names its own importer, so it may not apply to the unit sold here. Relabelled fact 6 and clarified fact 8 wording. All other facts and items rest on ok quotes from Israeli retailer pages naming the model. | code guard removed: summary: \"Dyson V15 Detect Absolute (SV47) הוא שואב אבק אלחוטי נטען עם עוצמת שאיבה של 240AW ומנוע שמסתובב עד 125,000 סל״ד.\"; metaDescription: \"שואב אבק אלחוטי Dyson V15 Detect Absolute SV47: עוצמת שאיבה 240AW ועד 60 דקות עבודה עם סוללה נשלפת. בחדד אלקטריק נהריה\""
+ }
+}

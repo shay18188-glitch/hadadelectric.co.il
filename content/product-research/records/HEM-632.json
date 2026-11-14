@@ -1,0 +1,357 @@
+{
+ "modelNumber": "HEM-632",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-632",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "דף היבואן הרשמי מציין את הדגם HEM-632 ואת המאפיינים העיקריים. הספק, מתח וצבע לא נמצאו בדפים שנבדקו. קמעונאי ישראלי מציין את אותו מוצר כ-HEM632 (ללא מקף). | QA: Importer page names HEM-632; Israeli retailer lists the same fan as HEM632."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem632",
+   "publisher": "המילטון חשמל ואלקטרוניקה",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%90%D7%95%D7%95%D7%A8%D7%A8-%D7%A2%D7%9E%D7%95%D7%93-20-5-%D7%9C%D7%94%D7%91%D7%99%D7%9D-hemilton-%D7%93%D7%92%D7%9D-hem632/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירויות",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "עד 120 דקות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר המאוורר",
+     "value": "20 אינץ'"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות אריזה (רוחב × גובה × עומק)",
+     "value": "56 × 14 × 69 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer lists it next to packing dimensions; may include packaging.",
+     "label": "משקל",
+     "value": "כ-8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים, באחריות היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Blade type not in quote.",
+   "text": "5 כנפיים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גובה וזווית הטיה ניתנים לכיוון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote does not state direction.",
+   "text": "צידוד לפיזור האוויר"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס עגול ליציבות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מאוורר עמוד של Hemilton, דגם HEM-632, בקוטר 20 אינץ' עם 5 כנפיים. יש לו 3 מהירויות, טיימר עד 120 דקות, צידוד, וגובה וזווית הטיה שניתנים לכיוון. מתאים למי שמחפש מאוורר עומד לסלון, לחדר שינה או למשרד.",
+  "highlights": [
+   "קוטר 20 אינץ' עם 5 כנפיים",
+   "3 מהירויות",
+   "טיימר עד 120 דקות",
+   "גובה וזווית הטיה מתכווננים, עם צידוד",
+   "אחריות 12 חודשים של היבואן הרשמי"
+  ],
+  "goodFor": [
+   "קירור סלון או משרד עם מאוורר עומד שמפזר אוויר בצידוד",
+   "שינה עם כיבוי אוטומטי בעזרת הטיימר",
+   "התאמת גובה וזווית לפי מיקום הישיבה או המיטה"
+  ],
+  "considerations": [
+   "בדקו שיש שקע חשמל קרוב למקום שבו יעמוד המאוורר",
+   "משקל המוצר כ-8 ק״ג, ייתכן שכולל אריזה",
+   "מידות האריזה 56 × 14 × 69 ס״מ, כדאי לוודא מקום להובלה"
+  ],
+  "faq": [
+   {
+    "q": "כמה מהירויות יש למאוורר?",
+    "a": "3 מהירויות לבחירה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיימר?",
+    "a": "כן, טיימר עד 120 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה קוטר המאוורר?",
+    "a": "20 אינץ'.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לשנות את הגובה והזווית?",
+    "a": "כן, הגובה וזווית ההטיה ניתנים לכיוון, ויש גם צידוד.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "12 חודשים, באחריות היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר עמוד Hemilton HEM-632 בקוטר 20 אינץ' עם 5 כנפיים, 3 מהירויות וטיימר עד 120 דקות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר עמוד",
+   "מאוורר עמוד 20 אינץ'",
+   "HEM-632",
+   "המילטון HEM632",
+   "מאוורר Hemilton",
+   "מאוורר 5 כנפיים",
+   "מאוורר עומד עם טיימר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "דגם",
+   "catalogValue": "HEM-632",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "90W-100W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קוטר",
+   "catalogValue": "20 אינץ' (כ-51 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר כנפיים",
+   "catalogValue": "5 להבי קרן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "3 דרגות עוצמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "מכני עד 120 דקות (שעתיים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "מתכוונן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זווית הטיה",
+   "catalogValue": "מתכווננת אנכית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צידוד",
+   "catalogValue": "אופקי (ימינה-שמאלה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס עגול כבד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה / מראה מתכתי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V/50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות אריזה",
+   "catalogValue": "56x14x69 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים, באחריות היבואן הרשמי",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הספק 90W-100W שבקטלוג לא נמצא באף עמוד שנבדק, לא ביבואן ולא בקמעונאי. יש לאמת מול תווית המוצר או מדריך המשתמש.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות המוצר עצמו (רוחב × גובה × עומק). המידות היחידות שנמצאו הן מידות אריזה מעמוד קמעונאי, והמשקל ככל הנראה כולל את האריזה.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקטלוג ודף היבואן כותבים HEM-632, וקמעונאי כותב HEM632 (ללא מקף) לאותו מוצר. הדגם מאומת.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "ההספק 90W-100W שבקטלוג לא נמצא באף מקור. יש לאמת מול תווית המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "נמצאו רק מידות אריזה; המשקל כנראה כולל אריזה.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע / מתח",
+   "issue": "צבע ומתח שבקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 reworded: the quote confirms 5 blades but not the 'horn blade' type. Warranty value trimmed to 12 months with importer wording kept (importer quote has no numbers but the 12-month quote is ok on the same page)."
+ }
+}

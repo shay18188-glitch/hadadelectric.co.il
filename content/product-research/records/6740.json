@@ -1,0 +1,315 @@
+{
+ "modelNumber": "6740",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Elta",
+  "exactModel": "6740",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The manual cover names MODELL: 6740 (portable radio with built-in DVD player and 7 inch TFT screen, dated 2006). Amazon.de lists the same product as Elta 6740 with Model Number 6740DVBT, a DVB-T variant that is a sibling and is not used as evidence for 6740. No Israeli importer or Israeli retailer page for this model was found. | QA: Manual names MODELL 6740 (portable radio with DVD player and 7 inch TFT screen). Amazon.de listing is the 6740DVBT variant. No Israeli importer or retailer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.manualsbase.com/manual/372157/portable_radio/elta/6740/",
+   "publisher": "ManualsBase (copy of Elta 6740 user manual)",
+   "kind": "manual",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.amazon.de/Elta-tragbares-integriertem-DVD-Player-TFT-Bildschirm/dp/B0015PYNRU",
+   "publisher": "Amazon.de",
+   "kind": "retailer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גודל מסך",
+     "value": "7 אינץ' TFT"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נגן",
+     "value": "נגן DVD מובנה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפעלה בסוללות",
+     "value": "8 סוללות מסוג UM2 או C"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only evidence is the Amazon listing for the 6740DVBT variant.",
+     "label": "רמקולים",
+     "value": "זוג רמקולים סטריאו מובנים"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manual describes connecting to the TV video input.",
+     "label": "יציאת וידאו",
+     "value": "יציאת AV לחיבור לכניסת הווידאו בטלוויזיה"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manual confirms MIC sockets (plural).",
+     "label": "כניסות מיקרופון",
+     "value": "שקעי מיקרופון (MIC) לקריוקי"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only evidence is the Amazon listing for the 6740DVBT variant.",
+   "text": "שלט רחוק רב-תכליתי"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שתי רגליות הצבה המתחברות לתחתית המכשיר"
+  }
+ ],
+ "content": {
+  "summary": "Elta 6740 הוא רדיו נייד עם נגן DVD מובנה ומסך TFT בגודל 7 אינץ', כך שאפשר לצפות בסרטים בלי מסך חיצוני. המכשיר יכול לפעול גם על 8 סוללות מסוג UM2 או C, וכולל יציאת AV לחיבור לטלוויזיה ושקעי מיקרופון לקריוקי. מתאים למי שמחפש נגן נייד לצפייה ולשירה בבית או מחוצה לו.",
+  "highlights": [
+   "מסך TFT בגודל 7 אינץ'",
+   "נגן DVD מובנה",
+   "הפעלה על 8 סוללות UM2 או C",
+   "יציאת AV לחיבור לטלוויזיה",
+   "שקעי מיקרופון לקריוקי"
+  ],
+  "goodFor": [
+   "צפייה בסרטי DVD במקום שאין בו טלוויזיה",
+   "שימוש נייד על סוללות, למשל בטיולים",
+   "ערבי קריוקי בבית עם מיקרופון",
+   "הקרנת DVD על מסך הטלוויזיה דרך יציאת AV"
+  ],
+  "considerations": [
+   "לשימוש נייד יש להצטייד ב-8 סוללות מסוג UM2 או C",
+   "המיקרופון לקריוקי אינו מוזכר כחלק מהאריזה, יש לבדוק אם צריך לרכוש בנפרד",
+   "לחיבור לטלוויזיה נדרשת כניסת וידאו (AV) בטלוויזיה"
+  ],
+  "faq": [
+   {
+    "q": "מה גודל המסך של Elta 6740?",
+    "a": "המסך הוא TFT בגודל 7 אינץ'.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להפעיל אותו על סוללות?",
+    "a": "כן, המכשיר פועל עם 8 סוללות מסוג UM2 או C.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר אותו לטלוויזיה?",
+    "a": "כן, יש יציאת AV לחיבור לכניסת הווידאו של הטלוויזיה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בו קריוקי?",
+    "a": "יש בו שקעי מיקרופון (MIC) לחיבור מיקרופון לשירה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "רדיו נייד Elta 6740 עם נגן DVD מובנה ומסך TFT בגודל 7 אינץ', פועל גם על 8 סוללות UM2 או C, עם שקעי מיקרופון לקריוקי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Elta 6740",
+   "אלטה 6740",
+   "רדיו DVD נייד",
+   "נגן DVD נייד עם מסך",
+   "רדיו עם מסך 7 אינץ'",
+   "נגן DVD קריוקי",
+   "רדיו נייד על סוללות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מסך",
+   "catalogValue": "7 אינץ' TFT LCD צבעוני",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רדיו",
+   "catalogValue": "טיונר FM מובנה",
+   "finding": "corrected",
+   "correctValue": "רדיו UKW/MW",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כונן תקליטורים",
+   "catalogValue": "תמיכה ב-DVD, DVD-R/RW, CD, CD-R/RW, VCD",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כניסות/יציאות",
+   "catalogValue": "כניסת USB, חריץ לכרטיס זיכרון SD/MMC, יציאת אוזניות 3.5 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יציאת AV Out",
+   "catalogValue": "יציאת AV Out לחיבור לטלוויזיה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שמע",
+   "catalogValue": "זוג רמקולים סטריאופוניים מובנים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אספקת כוח",
+   "catalogValue": "חיבור לחשמל 220V או באמצעות סוללות (לא כלולות)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אספקת כוח - סוללות",
+   "catalogValue": "סוללות (לא כלולות)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Elta",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Amazon.de lists this product as Model Number 6740DVBT with DVB-T tuner. The manual names only 6740 and describes an FM/MW radio. Check that the store's unit is the 6740 and not the DVB-T variant; DVB-T facts are not recorded here.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Israeli retailer page for model 6740 was found. Whether an Israeli variant exists is unclear.",
+   "severity": "medium"
+  },
+  {
+   "field": "אספקת כוח",
+   "issue": "The catalog's 220V mains power could not be verified on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "שנת דגם",
+   "issue": "The manual is dated 12/1/06, so the model is old and may be discontinued. Check it is still sold before listing.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Amazon.de lists this product as 6740DVBT (DVB-T variant). Confirm the store's unit is the 6740 and not the DVB-T variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "רדיו",
+   "issue": "Catalog says FM tuner; the research found UKW/MW only on the Amazon listing of the DVB-T variant. Radio bands not verified for 6740.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or Israeli retailer page found; Israeli variant unclear.",
+   "severity": "medium"
+  },
+  {
+   "field": "שנת דגם",
+   "issue": "Manual dated 2006; model may be discontinued.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog USB, SD/MMC, headphone jack, 220V and disc format claims were not verified on any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected speakers fact and remote-control box item: their only evidence is the Amazon.de listing, whose model number is 6740DVBT (DVB-T sibling), so they are not confirmed for 6740. Kept facts confirmed by the 6740 manual. Reworded mic and AV values to match the manual."
+ }
+}

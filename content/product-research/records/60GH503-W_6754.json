@@ -1,0 +1,301 @@
+{
+ "modelNumber": "60GH503-W (6754)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "60GH503-W(6754)",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף היצרן של Midea ישראל מזהה את הדגם 60GH503-W(6754) כהכיריים מזכוכית לבנה ברוחב 60 ס״מ עם 4 מבערים. לא נמצא שם היבואן בדף. | QA: Midea Israel manufacturer page names 60GH503-W(6754), white glass, 60 cm, 4 burners, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il-en/cooking-range/built-in-hob/midea-gas-hob-4-burner-60cm-60gh503.60gh503-w-6754-",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "600×515×90 mm W×D×H",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "60 × 9 × 51.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות נישה להתקנה (רוחב × עומק)",
+     "value": "56 × 48 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג גז נתמך",
+     "value": "גז טבעי (NG) / גז בישול (LPG)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספקי מבערים",
+     "value": "3.6 kW, 1.75 kW × 2, 1.0 kW"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משטח זכוכית",
+     "value": "זכוכית לבנה בעובי 8 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תושבות סירים",
+     "value": "ברזל יצוק (Cast Iron)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "4 להבות בעוצמות שונות, כולל להבת טורבו כפולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבערים איטלקיים מתוצרת SABAF"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Inconsistent with 'double turbo flame' on the same page",
+   "text": "מבער Sabaf משולש טבעת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תושבות סירים רציפות מברזל יצוק לתמיכה יציבה בסירים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז Midea 60GH503-W ברוחב 60 ס״מ עם משטח זכוכית לבנה בעובי 8 מ״מ ו-4 מבערים איטלקיים מתוצרת SABAF. המבער החזק כולל להבת טורבו כפולה בהספק 3.6 kW, לצד שני מבערים של 1.75 kW ומבער קטן של 1.0 kW. הכיריים מתאימות למי שמחפש כיריים גז מובנות בעיצוב לבן עם תושבות ברזל יצוק.",
+  "highlights": [
+   "4 מבערים מתוצרת SABAF האיטלקית",
+   "מבער טורבו להבה כפולה בהספק 3.6 kW",
+   "משטח זכוכית לבנה בעובי 8 מ״מ",
+   "תושבות סירים רציפות מברזל יצוק",
+   "מתאימות לגז טבעי (NG) ולגז בישול (LPG)"
+  ],
+  "goodFor": [
+   "מטבח בעיצוב לבן או בהיר שבו משטח זכוכית לבנה משתלב בסגנון",
+   "בישול מהיר בחום גבוה, כמו הקפצה בווק, בזכות מבער הטורבו",
+   "בישול עם סירים כבדים, הודות לתושבות הרציפות מברזל יצוק"
+  ],
+  "considerations": [
+   "יש לוודא שפתח הנישה במשטח העבודה הוא 56 × 48 ס״מ",
+   "החיבור לגז והתאמת סוג הגז (NG או LPG) צריכים להתבצע על ידי מתקין גז מוסמך",
+   "יש לבדוק שעומק המשטח מאפשר את מידות הכיריים 60 × 51.5 ס״מ"
+  ],
+  "faq": [
+   {
+    "q": "כמה מבערים יש בכיריים?",
+    "a": "4 מבערים מתוצרת SABAF: מבער טורבו בהספק 3.6 kW, שני מבערים של 1.75 kW ומבער של 1.0 kW.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הנישה הנדרשות להתקנה?",
+    "a": "מידות פתח ההתקנה הן 56 × 48 ס״מ (רוחב × עומק).",
+    "sources": []
+   },
+   {
+    "q": "האם הכיריים מתאימות לגז בבלון?",
+    "a": "כן, היצרן מציין התאמה לגז טבעי (NG) ולגז בישול (LPG). ההתאמה והחיבור צריכים להתבצע על ידי מתקין גז מוסמך.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי המשטח?",
+    "a": "המשטח עשוי זכוכית לבנה בעובי 8 מ״מ, ותושבות הסירים עשויות ברזל יצוק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Midea 60GH503-W ברוחב 60 ס״מ עם משטח זכוכית לבנה, 4 מבערים איטלקיים מתוצרת SABAF ומבער טורבו להבה כפולה 3.6 kW. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז מידאה",
+   "Midea 60GH503-W",
+   "כיריים גז זכוכית לבנה",
+   "כיריים גז 60 ס״מ",
+   "כיריים גז 4 מבערים",
+   "כיריים מבערי SABAF",
+   "כיריים גז מובנות לבנות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות חיצוניות (רוחב × עומק)",
+   "catalogValue": "רוחב 60 ס\"מ, עומק 51.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות גומחה להתקנה",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 48 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4 מבערים מתוצרת SABAF האיטלקית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספקי מבערים",
+   "catalogValue": "מבער טורבו להבה כפולה (3.6KW), שני מבערים בינוניים (1.75KW כל אחד), מבער קטן (1KW)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר המשטח",
+   "catalogValue": "זכוכית מחוסמת לבנה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תושבות סירים",
+   "catalogValue": "ברזל יצוק (Cast Iron)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הצתה",
+   "catalogValue": "מערכת הצתה אלקטרונית מובנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בטיחות",
+   "catalogValue": "חיישני בטיחות לניתוק אספקת הגז בעת כיבוי הלהבה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מוצא",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גז נתמך",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "NG / LPG",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "israeliImporter",
+   "issue": "דף היצרן אינו מציין את שם היבואן בישראל",
+   "severity": "low"
+  },
+  {
+   "field": "features",
+   "issue": "דף היצרן מתאר גם 'מבער משולש טבעת' וגם 'להבת טורבו כפולה' — יש לוודא את סוג המבער הראשי",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הצתה אלקטרונית, חיישני בטיחות (FFD) וזכוכית מחוסמת שבקטלוג לא אומתו במקור",
+   "severity": "low"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "שם היבואן בישראל אינו מופיע בדף היצרן",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 2 (Sabaf triple ring burner): the same page describes the main burner as a double turbo flame, so the burner type wording is inconsistent. Changed the surface label to the more precise 'משטח זכוכית'. All other facts verified against the Midea Israel page."
+ }
+}

@@ -1,0 +1,367 @@
+{
+ "modelNumber": "Blast Max BC251EU",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "BC251EU",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "The only exact-model Israeli page found is the Multi Store listing (דגם BC251EU). Manufacturer, manual and Spanish pages returned 403 or sibling codes only. | QA: Israeli retailer page names model BC251EU and the official importer Sarig. Sibling codes BC251EUNV/SL/GY are colour variants."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://multistore.co.il/product/%D7%A9%D7%99%D7%99%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A0%D7%99%D7%A0%D7%92%D7%94-ninja-blast-max-%D7%93%D7%92%D7%9D-bc251eu/",
+   "publisher": "Multi Store (מולטי סטור)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "30.99 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר",
+     "value": "9.09 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "1.11 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog name says 0.65 L; flagged.",
+     "label": "נפח המכל",
+     "value": "570 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה מלאה",
+     "value": "כ-3 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog gives 25-44; flagged.",
+     "label": "חיי סוללה",
+     "value": "עד 15-20 הפעלות לטעינה מלאה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות",
+     "value": "3 תוכניות Auto-iQ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים (שריג, היבואן הרשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קל וקומפקטי, עם ידית סיליקון לנשיאה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלקים בטוחים למדיח כלים, עשוי חומרים ללא BPA"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Vague claim; battery life given as uses per charge instead.",
+   "text": "סוללה נטענת, זמן פעולה יום שלם"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Ninja Blast Max BC251EU הוא בלנדר שייקר אלחוטי עם סוללה נטענת ומכל של 570 מ״ל. טעינה מלאה נמשכת כ-3 שעות ומספיקה לעד 15-20 הפעלות, ויש בו 3 תוכניות Auto-iQ. מתאים למי שמכין שייק אישי בבית, במשרד או בדרך.",
+  "highlights": [
+   "מכל בנפח 570 מ״ל",
+   "עד 15-20 הפעלות לטעינה מלאה",
+   "3 תוכניות Auto-iQ",
+   "משקל 1.11 ק״ג וגובה 30.99 ס״מ",
+   "אחריות 12 חודשים מהיבואן הרשמי שריג"
+  ],
+  "goodFor": [
+   "הכנת שייק אישי בלי חיבור לשקע",
+   "לקיחה לעבודה, לחדר כושר או לטיול בזכות ידית הנשיאה",
+   "מטבח קטן עם מעט מקום על השיש"
+  ],
+  "considerations": [
+   "נפח המכל 570 מ״ל, כך שהוא מתאים למנה אישית ולא להכנה לכמה אנשים",
+   "יש לתכנן טעינה של כ-3 שעות כשהסוללה מתרוקנת",
+   "כדאי לבדוק שגובה 30.99 ס״מ נכנס למדף או לתיק שבו תרצו לאחסן אותו"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן לוקח לטעון את Ninja Blast Max?",
+    "a": "טעינה מלאה נמשכת כ-3 שעות.",
+    "sources": []
+   },
+   {
+    "q": "כמה פעמים אפשר להפעיל אותו בטעינה אחת?",
+    "a": "לפי הנתונים, עד 15-20 הפעלות לטעינה מלאה.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח המכל?",
+    "a": "נפח המכל הוא 570 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף אותו במדיח?",
+    "a": "כן, החלקים בטוחים לשימוש במדיח כלים ועשויים חומרים ללא BPA.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "12 חודשים דרך שריג, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר שייקר אלחוטי Ninja Blast Max BC251EU: מכל 570 מ״ל ועד 15-20 הפעלות לטעינה מלאה, 3 תוכניות Auto-iQ. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Ninja Blast Max",
+   "BC251EU",
+   "בלנדר אלחוטי נינג׳ה",
+   "שייקר אלחוטי",
+   "בלנדר נייד נטען",
+   "בלנדר שייק אישי",
+   "נינג׳ה בלאסט מקס"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "0.65 ליטר (650 מ\"ל)",
+   "finding": "corrected",
+   "correctValue": "נפח המכל 570 מ״ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מילוי מקסימלי",
+   "catalogValue": "כ-570 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-1.1 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "1.11 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "11.1V-13.3V DC",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "כ-3 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיי סוללה",
+   "catalogValue": "עד 25-44 מחזורי ערבול לטעינה",
+   "finding": "corrected",
+   "correctValue": "עד 15-20 הפעלות לטעינה מלאה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "31 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "30.99 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "9.1 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "11.8 ס\"מ",
+   "finding": "contradicted",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות Auto-iQ",
+   "catalogValue": "3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומרים",
+   "catalogValue": "פלסטיק נטול BPA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג סכינים",
+   "catalogValue": "להבי CrushBlade מפלדת אל-חלד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבור טעינה",
+   "catalogValue": "USB-C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "The catalog gives width 9.1 cm and depth 11.8 cm. The only exact-model page gives a diameter of 9.09 cm and no depth, which suggests a round base. Check the depth and width before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "נפח",
+   "issue": "The catalog name says 0.65 litres, while the exact-model page gives a 570 ml container. Check the name against the manufacturer.",
+   "severity": "medium"
+  },
+  {
+   "field": "חיי סוללה",
+   "issue": "The catalog gives 25-44 mixing cycles per charge. The exact-model page gives 15-20 full-charge uses. The sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "Only one exact-model Israeli retailer page was readable. The manufacturer, manual and EU pages returned 403 or listed sibling codes (BC251EUNV, BC251EUSL, BC251EUGY). A Spanish listing gives 700 ml for BC251EU, which conflicts with the 570 ml figure. Facts rest on a single il-retailer source.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר / נפח",
+   "issue": "Catalog name says 0.65 L; the exact-model Israeli page gives a 570 ml container, and a Spanish listing reportedly gives 700 ml. Verify against the manufacturer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog width 9.1 cm and depth 11.8 cm are not confirmed; the source gives height and a 9.09 cm diameter only.",
+   "severity": "medium"
+  },
+  {
+   "field": "חיי סוללה",
+   "issue": "Catalog says 25-44 blending cycles per charge; the retailer page says up to 15-20 uses. Verify.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "All facts rest on a single Israeli retailer page; manufacturer pages were not readable.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 2 (battery lasts 'a full day'): vague marketing claim that does not fit the quoted 15-20 uses per charge. Diameter label kept; catalog width/depth not confirmed. Catalog name volume (0.65 L) differs from the retailer's 570 ml container figure."
+ }
+}

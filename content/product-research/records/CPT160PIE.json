@@ -1,0 +1,355 @@
+{
+ "modelNumber": "CPT160PIE",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Cuisinart",
+  "exactModel": "CPT160PIE",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The Cuisinart manual (CPT160PIE/GE/SE with CPT180PIE/GE/SE) names this exact code. The 900 W rating, weight and dimensions come only from a Romanian retailer page that names the same code. No Israeli importer or Israeli retailer page for this code was found. | QA: Cuisinart EU manual covers CPT160PIE/GE/SE (2-slot) and CPT180 (4-slot); facts used are the CPT160 ones. Romanian retailer page names the same code in rose color."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.cuisinart.it/on/demandware.static/-/Sites-it-cuisinart-Library/default/dwe2205365/information-booklets/EU/CPT160-180_PIE_GE_SE - Notice.pdf",
+   "publisher": "Cuisinart (manual, EU)",
+   "kind": "manual",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://eu-webstoredev.suku.tronn.ro/en/toaster-with-2-slots-900-w-rose-cuisinart",
+   "publisher": "KitchenShop (Romania)",
+   "kind": "retailer",
+   "market": "RO",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "2 פרוסות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב חריצים",
+     "value": "36 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר דרגות קלייה",
+     "value": "6"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single non-Israeli retailer page; matches catalog.",
+     "label": "הספק",
+     "value": "900 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Single non-Israeli retailer page.",
+     "label": "משקל",
+     "value": "1.65 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed bread-type claim not in quote.",
+   "text": "חריצי קלייה רחבים במיוחד (36 מ״מ)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Reworded to match quote.",
+   "text": "מצב בייגל: מוסיף זמן למחזור הקלייה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב הפשרה: מפשיר וקולה את הפרוסות במחזור אחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב חימום מחדש: מחמם לחם בלי להשחים אותו יתר על המידה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לחצן ביטול: עוצר את הקלייה ומקפיץ את הפרוסות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הרמה אוטומטית של הפרוסות בסוף מחזור הקלייה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגש פירורים נשלף לניקוי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מצנם Cuisinart CPT160PIE לשתי פרוסות בגוון ורוד מטאלי. יש לו חריצי קלייה רחבים של 36 מ״מ ו-6 דרגות קלייה, לצד מצבי בייגל, הפשרה וחימום מחדש. מתאים למי שמחפש מצנם לשתי פרוסות עם חריצים רחבים ומצבי עבודה נוספים.",
+  "highlights": [
+   "קלייה של 2 פרוסות",
+   "חריצים ברוחב 36 מ״מ",
+   "6 דרגות קלייה",
+   "מצבי בייגל, הפשרה וחימום מחדש",
+   "מגש פירורים נשלף"
+  ],
+  "goodFor": [
+   "קלייה של לחם קפוא ישירות מהמקפיא בעזרת מצב ההפשרה",
+   "חימום פרוסות שהתקררו בלי להשחים אותן יתר על המידה",
+   "בייגלים בעזרת מצב הבייגל שמאריך את זמן הקלייה"
+  ],
+  "considerations": [
+   "המצנם מיועד לשתי פרוסות בכל מחזור",
+   "כדאי לוודא שיש מקום פנוי על השיש ושקע חשמל זמין קרוב",
+   "יש לרוקן את מגש הפירורים מדי פעם"
+  ],
+  "faq": [
+   {
+    "q": "כמה פרוסות אפשר לקלות בבת אחת?",
+    "a": "המצנם קולה 2 פרוסות בכל מחזור.",
+    "sources": []
+   },
+   {
+    "q": "כמה רחבים החריצים?",
+    "a": "החריצים ברוחב 36 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות קלייה יש?",
+    "a": "יש 6 דרגות קלייה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לקלות לחם קפוא?",
+    "a": "כן, מצב ההפשרה מפשיר וקולה את הפרוסות במחזור אחד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מצנם Cuisinart CPT160PIE לשתי פרוסות בוורוד מטאלי, חריצים רחבים 36 מ״מ ו-6 דרגות קלייה. מצבי בייגל והפשרה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מצנם קוויזינארט",
+   "Cuisinart CPT160PIE",
+   "מצנם ורוד",
+   "מצנם 2 פרוסות",
+   "מצנם נירוסטה",
+   "מצנם עם חריצים רחבים",
+   "מצנם רטרו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "900W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "2 פרוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דרגות קלייה",
+   "catalogValue": "6 רמות השחמה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר",
+   "catalogValue": "נירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "ורוד מטאלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 18.5 ס\"מ, רוחב 18 ס\"מ, עומק 24 ס\"מ",
+   "finding": "contradicted",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-1.7 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "1.65 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצבי פעולה",
+   "catalogValue": "קלייה, חימום חוזר, הפשרה, ובייגל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחצן ביטול",
+   "catalogValue": "לחצן ביטול (Cancel)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מגש פירורים נשלף",
+   "catalogValue": "מגש פירורים נשלף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נוריות בקרה מסוג LED",
+   "catalogValue": "נוריות LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כיבוי אוטומטי",
+   "catalogValue": "מנגנון כיבוי אוטומטי",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "Catalog depth is 24 cm and height 18.5 cm. The only page with dimensions for this code (Romanian retailer) gives 27,5 x 18,5 x 18 cm with no axis labels, so the 27,5 figure conflicts with the catalog depth. Measure the unit before publishing these dimensions.",
+   "severity": "medium"
+  },
+  {
+   "field": "voltage",
+   "issue": "The 230V voltage and the 900 W rating are not on the manufacturer manual, which gives no electrical ratings. Check the rating label on the unit before sale.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "No Israeli importer or Israeli retailer page for CPT160PIE was found. The manufacturer manual is a combined CPT160PIE/GE/SE and CPT180PIE/GE/SE document, so the Israeli variant and its rating are unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "power",
+   "issue": "The 900 W rating, weight and dimensions rest on one non-Israeli retailer page, so they are not published without a second site.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Catalog dimensions (depth 24 cm) conflict with the only source (27.5 x 18.5 x 18 cm, axes unlabeled). Measure the unit.",
+   "severity": "medium"
+  },
+  {
+   "field": "power/weight",
+   "issue": "900 W and 1.65 kg come only from one Romanian retailer page on what looks like a development webstore host; confirm against the unit's rating label.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_variant",
+   "issue": "No Israeli importer or retailer page for CPT160PIE was found; voltage 230V unverified.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 trimmed to what the quote says (36 mm slots; bread types not in quote). Feature 1 reworded to the quote (bagel mode adds time to the cycle). Romanian retailer source host looks like a development webstore; 900 W and 1.65 kg kept since the quote names the model and 900 W matches the catalog, but they rest on that one non-Israeli page."
+ }
+}

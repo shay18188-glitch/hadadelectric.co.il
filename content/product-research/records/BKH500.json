@@ -1,0 +1,271 @@
+{
+ "modelNumber": "BKH500",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Brookstone",
+  "exactModel": "BKH500",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצאו שני דפי השוואת מחירים ישראליים שמזכירים את הדגם BKH500 במפורש. דפי היבואן והיצרן לא נטענו (חסומים). מפרטי הסוללה והטעינה ומחברי תחנת העגינה בקטלוג לא אומתו. דפי השוואה מציגים גם גרסת Bluetooth 5.0, שסותרת את חיבור ה-RF. חיפוש נוסף: אתרי קמעונאים זרים (Staples, Best Buy, Walmart, Belk) נחסמו (403); דפי lpcomputers ו-printerdeal אינם מציגים את הדגם. | QA: Both pages name BKH500 explicitly; RF vs Bluetooth 5.0 variant ambiguity and no manufacturer/importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1092747",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=e-headphone&productid=1092747",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח קליטה",
+     "value": "עד 30 מטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Same pages also mention Bluetooth 5.0; flagged.",
+     "label": "טכנולוגיית חיבור",
+     "value": "RF"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן שימוש על טעינה",
+     "value": "עד 10 שעות"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Marketing wording, no measurable value; kept as feature only.",
+     "label": "טעינה",
+     "value": "טעינה מהירה במיוחד"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיבור אלחוטי לטלוויזיה בטכנולוגיית RF"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed superlative wording.",
+   "text": "טעינה מהירה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Brookstone BKH500 הן אוזניות אלחוטיות לטלוויזיה בטכנולוגיית RF, להאזנה פרטית לתוכן מהטלוויזיה. טווח הקליטה הוא עד 30 מטר וזמן השימוש הוא עד 10 שעות על טעינה אחת. מתאימות למי שרוצה לצפות בטלוויזיה בלי להפריע לאחרים בבית.",
+  "highlights": [
+   "חיבור אלחוטי לטלוויזיה בטכנולוגיית RF",
+   "טווח קליטה של עד 30 מטר",
+   "עד 10 שעות שימוש על טעינה אחת",
+   "טעינה מהירה"
+  ],
+  "goodFor": [
+   "צפייה בטלוויזיה בשעות הלילה בלי להעיר את בני הבית",
+   "תנועה בין חדרים תוך המשך האזנה לטלוויזיה, בזכות טווח קליטה של עד 30 מטר",
+   "צפייה ממושכת בסרטים או בספורט, עם עד 10 שעות שימוש על טעינה אחת"
+  ],
+  "considerations": [
+   "כדאי לבדוק אילו יציאות שמע יש בטלוויזיה שלכם ולוודא תאימות לתחנת השידור לפני הרכישה",
+   "טווח הקליטה של עד 30 מטר תלוי בתנאי הסביבה, וקירות ומכשולים עשויים לקצר אותו",
+   "יש לוודא מול המוכר שמדובר בגרסת ה-RF ולא בגרסת Bluetooth, לפי מה שמתאים לטלוויזיה שלכם"
+  ],
+  "faq": [
+   {
+    "q": "באיזו טכנולוגיה האוזניות מתחברות לטלוויזיה?",
+    "a": "האוזניות מתחברות לטלוויזיה באופן אלחוטי בטכנולוגיית RF.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן אפשר להשתמש באוזניות על טעינה אחת?",
+    "a": "עד 10 שעות שימוש על טעינה אחת.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הקליטה של האוזניות?",
+    "a": "טווח הקליטה הוא עד 30 מטר מהמשדר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "אוזניות אלחוטיות לטלוויזיה Brookstone BKH500 בטכנולוגיית RF, טווח קליטה עד 30 מטר ועד 10 שעות על טעינה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Brookstone BKH500",
+   "אוזניות אלחוטיות לטלוויזיה",
+   "אוזניות לטלוויזיה RF",
+   "אוזניות ברוקסטון",
+   "אוזניות טלוויזיה אלחוטיות למבוגרים",
+   "אוזניות לטלוויזיה עם טווח ארוך"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טווח קליטה",
+   "catalogValue": "עד 30 מטרים (כ-100 רגל) ללא מכשולים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיי סוללה",
+   "catalogValue": "עד 10 שעות שימוש רציף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית שידור",
+   "catalogValue": "2.4GHz Digital Wireless (אלחוטי דיגיטלי)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג סוללה",
+   "catalogValue": "ליתיום נטענת מובנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "כ-3-4 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבורי תחנת עגינה (כניסות שמע)",
+   "catalogValue": "אופטי (TOSLINK), RCA (אדום/לבן), ו-3.5 מ\"מ (AUX)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מבנה אוזנייה",
+   "catalogValue": "Over-Ear עם כריות מרופדות וקשת מתכווננת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רגישות",
+   "catalogValue": "מעל 75dB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור המותג",
+   "catalogValue": "ארצות הברית (מותג אמריקאי)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית חיבור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "RF",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "connectivity",
+   "issue": "דפי השוואת מחירים ישראליים מציגים גרסת Bluetooth 5.0 לדגם, בניגוד לחיבור RF שמופיע באותם דפים. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "שידור",
+   "issue": "הקטלוג מציין 2.4GHz ולא נמצא לכך אימות בדפים שנטענו. יש לאמת מול תיעוד היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "סוללה וטעינה",
+   "issue": "סוג הסוללה (ליתיום), זמן הטעינה (3-4 שעות) ומחברי תחנת העגינה בקטלוג לא אומתו. דפי היבואן והיצרן חסומים לקריאה (HTTP 403).",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "שני המקורות הישראליים הם דפי השוואת מחירים משותפים לאותה קבוצה (zap ו-wisebuy). אין דף יצרן או יבואן שנקרא בהצלחה.",
+   "severity": "medium"
+  },
+  {
+   "field": "connectivity",
+   "issue": "דפי ההשוואה מציגים גם גרסת Bluetooth 5.0 לדגם לצד חיבור RF. יש לאמת מול היבואן איזו גרסה נמכרת.",
+   "severity": "medium"
+  },
+  {
+   "field": "טכנולוגיית שידור",
+   "issue": "הקטלוג מציין 2.4GHz Digital Wireless ולא נמצא אימות בדפים שנקראו.",
+   "severity": "low"
+  },
+  {
+   "field": "סוללה וטעינה",
+   "issue": "סוג הסוללה, זמן הטעינה המלאה (3-4 שעות), מחברי תחנת העגינה ורגישות לא אומתו במקורות.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "שני המקורות הם אתרי השוואת מחירים מאותה קבוצה; לא נקרא דף יצרן או יבואן.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 3 (טעינה מהירה במיוחד) rejected as a fact: vague marketing wording without a measurable value, kept only as a feature. Sources are Israeli price-comparison pages (Zap, Wisebuy, same group), kept as 'other'. Identity medium: model named explicitly but the same pages also list a Bluetooth 5.0 variant, and no manufacturer or importer page was read."
+ }
+}

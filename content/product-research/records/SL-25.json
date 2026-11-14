@@ -1,0 +1,288 @@
+{
+ "modelNumber": "SL-25",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "SOL",
+  "exactModel": "SL-25L",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "medium",
+  "notes": "The importer's site names the model SL-25L; the catalog says SL-25. Treated as the same 25-liter SOL toaster oven (the L is the liter suffix). The importer page lists the oven as black-front or similar; catalog says silver - color not verified. | QA: Sources name SL-25L (25-liter SOL toaster oven); catalog says SL-25. Specs match catalog; likely the same unit, but suffix and silver color not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-25l",
+   "publisher": "Sol (Shaoulian Trading)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://refaeli.co.il/items/4947730-Sol-SL-25L",
+   "publisher": "Refaeli",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1500W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גופי חימום",
+     "value": "4 גופי חימום"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "100-250 מעלות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Removed continuous-operation claim, not in quote",
+     "label": "טיימר",
+     "value": "עד 60 דקות עם צלצול לסוף פעולה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב חיצוני",
+     "value": "47.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה חיצוני",
+     "value": "30 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק חיצוני",
+     "value": "29 ס״מ (34 ס״מ כולל ידית)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not say internal; ambiguous",
+     "label": "מידות פנימיות (רוחב)",
+     "value": "32.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה מהיבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית טורבו לפיזור יעיל של אוויר חם"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "quote-too-short",
+   "text": "3 תבניות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "quote-too-short",
+   "text": "רשת אחת"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "טוסטר אובן של SOL עם תא אפייה בנפח 25 ליטר והספק 1500W. כולל 4 גופי חימום, טווח טמפרטורות של 100-250 מעלות ותוכנית טורבו לפיזור אוויר חם. מתאים למי שמחפש תנור שולחני לאפייה, צלייה וחימום במטבח.",
+  "highlights": [
+   "נפח תא אפייה 25 ליטר",
+   "הספק 1500W",
+   "4 גופי חימום",
+   "טווח טמפרטורות 100-250 מעלות",
+   "טיימר עד 60 דקות עם צלצול לסוף פעולה"
+  ],
+  "goodFor": [
+   "אפייה וצלייה על השיש בלי להדליק תנור גדול",
+   "חימום מזון עם פיזור אוויר חם בתוכנית טורבו",
+   "מטבח שבו רוצים טיימר עם צלצול בסיום"
+  ],
+  "considerations": [
+   "ודאו מקום על השיש: רוחב 47.5 ס״מ, גובה 30 ס״מ ועומק 34 ס״מ כולל ידית",
+   "הספק 1500W – כדאי לחבר לשקע שאינו עמוס במכשירים נוספים",
+   "השאירו מרווח סביב המכשיר לאוורור בזמן פעולה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התא?",
+    "a": "נפח תא האפייה הוא 25 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "ניתן לכוון בין 100 ל-250 מעלות.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכשיר?",
+    "a": "רוחב 47.5 ס״מ, גובה 30 ס״מ ועומק 29 ס״מ (34 ס״מ כולל ידית).",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה מהיבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר אובן SOL SL-25 בנפח 25 ליטר, הספק 1500W ו-4 גופי חימום עם תוכנית טורבו. לאפייה וצלייה על השיש. בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר אובן 25 ליטר",
+   "טוסטר אובן SOL",
+   "SOL SL-25",
+   "SL-25L",
+   "טוסטר אובן טורבו",
+   "טוסטר אובן 1500W",
+   "תנור שולחני 25 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא אפייה",
+   "catalogValue": "25 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1500W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "47.5×30×34 כולל ידית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Catalog says SL-25, all pages say SL-25L.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog says SL-25; importer and retailer pages say SL-25L.",
+   "severity": "high"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog says silver; color not verified on sources.",
+   "severity": "medium"
+  },
+  {
+   "field": "inTheBox",
+   "issue": "Accessories (3 trays, rack) not verified by quote; confirm before publishing.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 3 trimmed: continuous-operation mode not in the quote. Fact 8 rejected: quote does not state it is an internal dimension. inTheBox items rejected (quotes too short). Catalog SL-25 vs sources SL-25L; color not verified."
+ }
+}

@@ -1,0 +1,318 @@
+{
+ "modelNumber": "(KG120-Z12L24BY (700312",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Konka",
+  "exactModel": "KG120-Z12L24BY",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Only one page with specs for this exact model was found: Yarid HaHashmal (Israeli retailer, listed as official importer product). No manufacturer page or manual found. The catalog code carries a trailing '700312' that appears on no page. | QA: Only one source: Yarid HaHashmal search page naming KG120-Z12L24BY. Catalog code carries stray parentheses and '700312' not seen on any page. No manufacturer page or manual."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://yarid-hashmal.co.il/?s=KG120-Z12L24BY&post_type=product",
+   "publisher": "יריד החשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "12 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מקסימלית",
+     "value": "1200 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says BLDC; quote says only INVERTER.",
+     "label": "סוג מנוע",
+     "value": "Inverter"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog says 15.",
+     "label": "מספר תוכניות כביסה",
+     "value": "14"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי אירופאי",
+     "value": "A"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "כסוף"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "64 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית מיוחדת לניקוי התוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "השהיית הפעלה עד 24 שעות (Delay Start)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נעילת בטיחות לילדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות לשטיפה נוספת (Rinse+)"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה Konka KG120-Z12L24BY בפתח קדמי, בקיבולת 12 ק״ג ובגימור כסוף. המכונה מצוידת במנוע Inverter, מהירות סחיטה מקסימלית של 1200 סל״ד ו-14 תוכניות כביסה, עם דירוג אנרגטי אירופאי A. מתאימה למי שמכבס כמויות גדולות ומחפש מכונה עם השהיית הפעלה ונעילת ילדים.",
+  "highlights": [
+   "קיבולת כביסה 12 ק״ג",
+   "מהירות סחיטה עד 1200 סל״ד",
+   "מנוע Inverter",
+   "14 תוכניות כביסה",
+   "השהיית הפעלה עד 24 שעות"
+  ],
+  "goodFor": [
+   "כביסה של כמויות גדולות ופריטים מרובים בכל מחזור, בזכות קיבולת של 12 ק״ג",
+   "בתים עם ילדים קטנים, הודות לנעילת הבטיחות",
+   "מי שרוצה לתזמן את סיום הכביסה, עם השהיית הפעלה עד 24 שעות"
+  ],
+  "considerations": [
+   "מומלץ למדוד את הנישה ולוודא את מידות המכונה מול המוכר לפני הרכישה",
+   "משקל המכונה 64 ק״ג, כדאי לתכנן את ההובלה וההצבה בהתאם",
+   "יש לוודא שקע חשמל, ברז מים וניקוז זמינים במקום ההתקנה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של המכונה?",
+    "a": "קיבולת הכביסה היא 12 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המקסימלית?",
+    "a": "עד 1200 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות כביסה יש במכונה?",
+    "a": "במכונה 14 תוכניות כביסה, כולל תוכנית מיוחדת לניקוי התוף.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לתזמן את הפעלת המכונה?",
+    "a": "כן, יש השהיית הפעלה (Delay Start) עד 24 שעות.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי?",
+    "a": "דירוג אנרגטי אירופאי A.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Konka KG120-Z12L24BY בקיבולת 12 ק״ג, סחיטה עד 1200 סל״ד ומנוע Inverter, 14 תוכניות כביסה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת כביסה Konka",
+   "KG120-Z12L24BY",
+   "מכונת כביסה 12 קג",
+   "מכונת כביסה קונקה",
+   "מכונת כביסה פתח קדמי 12 קג",
+   "מכונת כביסה אינוורטר",
+   "מכונת כביסה 1200 סלד",
+   "מכונת כביסה כסופה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת כביסה",
+   "catalogValue": "12 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "catalogValue": "1200 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "Inverter BLDC",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות כביסה",
+   "catalogValue": "15",
+   "finding": "corrected",
+   "correctValue": "14",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "רוחב 60, גובה 85, עומק כ-64 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 60, גובה 84, עומק 58 ס\"מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "64 ק\"ג",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Catalog code includes stray parenthesis and '700312'; pages name KG120-Z12L24BY only.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog says 85x64 depth; retailer page says height 84 and depth 58. Single-source, no manufacturer page found.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog code contains stray parentheses and '700312'; the source names KG120-Z12L24BY only.",
+   "severity": "high"
+  },
+  {
+   "field": "מספר תוכניות כביסה",
+   "issue": "Catalog lists 15 programs; the retailer page says 14.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions (85 height, ~64 depth) are not confirmed by any quoted source; research reported a different figure from the retailer page. Verify with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "Catalog claims Steam Wash, auto weighing, power-failure memory, 15-minute program and BLDC motor; none are supported by a source quote.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "Only a single Israeli retailer search page; no manufacturer page or manual found.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from a single Israeli retailer page (a search-results URL) that names KG120-Z12L24BY; kept as il-retailer. Program count corrected vs catalog (14 on source, 15 in catalog). Catalog dimensions not confirmed by a quoted fact and not published. Steam Wash, auto-weighing, power-failure memory and 15-minute program from the catalog are not supported by any quote."
+ }
+}

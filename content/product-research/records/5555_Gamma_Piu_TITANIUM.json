@@ -1,0 +1,249 @@
+{
+ "modelNumber": "5555 Gamma Piu TITANIUM",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gamma Più",
+  "exactModel": "5555",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The catalog model 5555 Gamma Piu TITANIUM does not appear on any fetched page. The manufacturer page for the 5555 line (code PAGAMMA55IT) lists no Titanium variant. A search result showed a different barber model named 5555 Barber Titanium (code GP5555BT, 2000 W, marked no longer sold); it is a sibling and was not used as evidence. Facts below come from the manufacturer's 5555 line page only. | QA: Manufacturer page describes the Gamma Più 5555 line; body length 223 mm matches the catalog, but no TITANIUM variant is listed and the catalog's 2500 W differs from the page's 2000-2400 W, so the exact variant is unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://gammapiu.it/en/products/5555",
+   "publisher": "Gamma Più S.r.l",
+   "kind": "manufacturer",
+   "market": "IT",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך גוף המכשיר",
+     "value": "223 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Contradicts catalog 2500 W; Titanium variant not on the page, so wattage may differ by variant.",
+     "label": "הספק",
+     "value": "2000-2400 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח",
+     "value": "220-240 V"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "reworded",
+   "text": "סורג מצופה טורמלין המיינן את האוויר ומעניק לשיער חיוניות וברק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "reworded to match quote",
+   "text": "Cold barrel: בידוד מיוחד של גוף החימום שומר על גוף המייבש קר יותר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פיה צרה במיוחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "גוף חימום בעל גל כפול לטמפרטורת אוויר גבוהה וקבועה לכל אורך פתח היציאה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתאים לייבוש במהלך טיפולי קרטין"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מייבש שיער מקצועי של Gamma Più מסדרת 5555, עם סורג מצופה טורמלין המיינן את האוויר וגוף חימום בעל גל כפול השומר על אוויר חם ואחיד. הבידוד של גוף החימום (Cold barrel) שומר על גוף המייבש קר יותר, והמייבש מתאים לייבוש במהלך טיפולי קרטין. מתאים למי שמחפש מייבש בסגנון מספרה לשימוש ביתי או מקצועי.",
+  "highlights": [
+   "סורג מצופה טורמלין המיינן את האוויר",
+   "גוף חימום בעל גל כפול לאוויר חם וקבוע",
+   "בידוד Cold barrel של גוף החימום",
+   "פיה צרה במיוחד",
+   "אורך גוף 223 מ״מ"
+  ],
+  "goodFor": [
+   "ייבוש לאחר או במהלך טיפולי קרטין",
+   "מי שרוצה שיער מבריק יותר בעזרת ייננון טורמלין",
+   "עיצוב והחלקה בעזרת פיה צרה במיוחד"
+  ],
+  "considerations": [
+   "ודאו מול המוכר את גרסת ה-TITANIUM ואת ההספק המדויק שלה",
+   "המכשיר מיועד למתח 220-240 V, המתאים לרשת החשמל בישראל",
+   "אורך הגוף 223 מ״מ – כדאי לבדוק נוחות אחיזה לפני הקנייה"
+  ],
+  "faq": [
+   {
+    "q": "האם המייבש מתאים לטיפולי קרטין?",
+    "a": "כן, היצרן מציין שהוא מתאים לייבוש במהלך טיפולי קרטין.",
+    "sources": []
+   },
+   {
+    "q": "האם המייבש מתאים לחשמל בישראל?",
+    "a": "כן, מתח העבודה הוא 220-240 V.",
+    "sources": []
+   },
+   {
+    "q": "מה עושה הטורמלין במייבש?",
+    "a": "הסורג מצופה טורמלין המיינן את האוויר ומעניק לשיער חיוניות וברק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש שיער Gamma Più 5555 TITANIUM עם סורג טורמלין מיינן וגוף חימום בעל גל כפול, מתאים לטיפולי קרטין. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש שיער גמה פיו",
+   "Gamma Piu 5555",
+   "מייבש שיער מקצועי",
+   "מייבש שיער טורמלין",
+   "מייבש שיער לקרטין",
+   "גמה פיו 5555 טיטניום"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2500 וואט",
+   "finding": "contradicted",
+   "correctValue": "2000-2400 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך גוף המכשיר",
+   "catalogValue": "223 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "550 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "catalogValue": "180 מעלות צלזיוס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "70-71 דציבל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כבל חשמל",
+   "catalogValue": "3 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model 5555 Gamma Piu TITANIUM appears on no fetched page. The manufacturer's 5555 page has no Titanium variant (code PAGAMMA55IT). The only Titanium 5555 found is a 2000 W barber model (code GP5555BT) that is a sibling. Confirm the exact model with Gamma Più Israel before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says 2500 W. The manufacturer's 5555 page says 2000-2400 W. Some foreign retailers list 1875 W or 2100-2500 W, which conflict with each other.",
+   "severity": "high"
+  },
+  {
+   "field": "model",
+   "issue": "A search snippet for the Titanium barber 5555 said it is no longer sold. This was not verified on a fetched page, so check whether the catalog model is discontinued.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Weight 550 g and noise 70-71 dB appear only on retailer listings that were not fetched or are not Israeli. Not published.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "No fetched page names a 5555 TITANIUM variant; the manufacturer's 5555 page (code PAGAMMA55IT) lists none. Confirm the exact model with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says 2500 W; manufacturer's 5555 page says 2000-2400 W. Wattage not published until the variant is confirmed.",
+   "severity": "high"
+  },
+  {
+   "field": "model",
+   "issue": "A related 5555 Barber Titanium was reported as no longer sold (not verified); check whether this model is discontinued.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected wattage (2000-2400 W from the manufacturer's 5555 line page contradicts the catalog's 2500 W and the Titanium variant is not on the page, so the figure may belong to a different variant). Reworded features 0 and 1 to match the quotes (cold barrel quote only mentions insulation of the heating element). Kept length, voltage and four other features."
+ }
+}

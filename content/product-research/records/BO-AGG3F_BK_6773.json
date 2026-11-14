@@ -1,0 +1,465 @@
+{
+ "modelNumber": "BO-AGG3F(BK) (6773)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "BO-AGG3F(BK) (6773)",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "היצרן מציין את הדגם כ-BO-AGG3F(BK)(6773). האתר הקמעונאי מציין BO-AGG3F(BK) עם מק״ט 6773. מידות והספק לפי דף הקמעונאי; נתוני הכמות והתוכניות לפי דף היצרן. | QA: Midea Israel page names BO-AGG3F(BK)(6773); CityDeal page names BO-AGG3F(BK) and Hamilton as official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il-en/cooking-range/built-in-oven/midea-built-in-oven-72l-13programs.bo-agg3f-bk--6773-",
+   "publisher": "Midea",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://citydeal.co.il/product/midea-bo-agg3fbk-72-13",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Midea"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא האפייה",
+     "value": "72 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.5 × 59.5 × 56.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב נישה להתקנה",
+     "value": "56 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה ועומק מינימלי של הנישה",
+     "value": "גובה 59 ס״מ, עומק מינימלי 55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מרבי",
+     "value": "3200 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורה מרבית",
+     "value": "250°C"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תוכניות בישול ואפייה",
+     "value": "13"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer only; flagged",
+     "label": "דירוג אנרגטי",
+     "value": "A++ (אירופאי)"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer only; flagged",
+     "label": "קישוריות",
+     "value": "Wi-Fi לתפעול באפליקציית Midea"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "wording aligned to quote",
+     "label": "אחריות",
+     "value": "שנה, עם אפשרות להרחבה לשנתיים נוספות בתשלום"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תא אפייה מרווח בנפח 72 ליטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת טורבו לאפייה אחידה בכל תא האפייה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פנל הפעלה דיגיטלי עם בורר סיבובי רב־תפקודי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית ניקוי AQUA ותא אפייה בציפוי קרמי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פרוב למדידת טמפרטורה במזון"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פרוב למדידת טמפרטורה, תבנית עמוקה ורשת"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לפני הכנת הנישה והתקנת התנור יש לפעול לפי שרטוט ההתקנה של הדגם"
+  }
+ ],
+ "content": {
+  "summary": "תנור בנוי של Midea, דגם BO-AGG3F(BK), עם תא אפייה בנפח 72 ליטר ו־13 תוכניות בישול ואפייה. התנור כולל מערכת טורבו לאפייה אחידה, פרוב למדידת טמפרטורה במזון ותוכנית ניקוי AQUA. מתאים למי שמחפש תנור בנוי מרווח עם שליטה דיגיטלית ומדידת חום פנימית.",
+  "highlights": [
+   "תא אפייה בנפח 72 ליטר",
+   "13 תוכניות בישול ואפייה",
+   "פרוב למדידת טמפרטורה במזון",
+   "הספק מרבי 3200 W",
+   "תוכנית ניקוי AQUA ותא בציפוי קרמי"
+  ],
+  "goodFor": [
+   "מי שצולה בשר ורוצה לבדוק את מידת העשייה עם פרוב",
+   "אפייה של כמה תבניות במקביל בזכות מערכת הטורבו ותא מרווח",
+   "מי שמעדיף ניקוי נוח של תא האפייה"
+  ],
+  "considerations": [
+   "לבדוק שהנישה ברוחב 56 ס״מ, גובה 59 ס״מ ועומק מינימלי 55 ס״מ",
+   "הספק מרבי 3200 W — לוודא נקודת חשמל מתאימה עם חשמלאי",
+   "לפעול לפי שרטוט ההתקנה של הדגם לפני הכנת הנישה"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח התנור?",
+    "a": "נפח תא האפייה הוא 72 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות יש לתנור?",
+    "a": "לתנור 13 תוכניות בישול ואפייה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש פרוב למדידת טמפרטורה?",
+    "a": "כן, פרוב למדידת טמפרטורה כלול באריזה יחד עם תבנית עמוקה ורשת.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הנישה הנדרשות?",
+    "a": "רוחב 56 ס״מ, גובה 59 ס״מ ועומק מינימלי 55 ס״מ, לפי שרטוט ההתקנה.",
+    "sources": []
+   },
+   {
+    "q": "עד איזו טמפרטורה התנור מגיע?",
+    "a": "עד 250°C, בהתאם למצב ההפעלה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור בנוי Midea BO-AGG3F(BK) בנפח 72 ליטר עם 13 תוכניות ופרוב למדידת טמפרטורה במזון. מערכת טורבו וניקוי AQUA בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור בנוי Midea",
+   "BO-AGG3F",
+   "תנור בנוי 72 ליטר",
+   "תנור בנוי עם פרוב",
+   "תנור מידאה שחור",
+   "תנור בנוי טורבו",
+   "תנור בנוי דיגיטלי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר: נפח 70 ליטר",
+   "catalogValue": "70 ליטר",
+   "finding": "corrected",
+   "correctValue": "72 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "corrected",
+   "correctValue": "A++ (אירופאי)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "3000W",
+   "finding": "corrected",
+   "correctValue": "3200 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות בישול",
+   "catalogValue": "9 תוכניות",
+   "finding": "corrected",
+   "correctValue": "13 תוכניות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המוצר: רוחב 59.5 ס\"מ, גובה 59.5 ס\"מ",
+   "catalogValue": "רוחב 59.5 ס\"מ, גובה 59.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות המוצר: עומק",
+   "catalogValue": "עומק 57.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "56.6 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות גומחה (נישה)",
+   "catalogValue": "רוחב 56 ס\"מ, גובה 60 ס\"מ, עומק 57 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 56 ס״מ, גובה 59 ס״מ, עומק מינימלי 55 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מד חום",
+   "catalogValue": "מד חום פנימי (Meat Probe)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "50-250 מעלות צלזיוס",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קישוריות Wi-Fi",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "Wi-Fi לתפעול באפליקציית Midea",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכנית ניקוי AQUA",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "תוכנית ניקוי AQUA וציפוי קרמי",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "capacity",
+   "issue": "שם המוצר בקטלוג מציין 70 ליטר; היצרן והקמעונאי מציינים 72 ליטר.",
+   "severity": "high"
+  },
+  {
+   "field": "energy",
+   "issue": "הקטלוג מציין דירוג אנרגטי A; הקמעונאי מציין A++ אירופאי. יש לוודא מול תווית האנרגיה.",
+   "severity": "high"
+  },
+  {
+   "field": "power",
+   "issue": "הקטלוג מציין 3000W; היצרן מציין הספק מרבי 3200W.",
+   "severity": "medium"
+  },
+  {
+   "field": "programs",
+   "issue": "הקטלוג מציין 9 תוכניות; היצרן מציין 13 תוכניות בישול ואפייה.",
+   "severity": "medium"
+  },
+  {
+   "field": "installation",
+   "issue": "עומק המוצר והנישה בקטלוג שונים מהנתונים בדף הקמעונאי. יש לבדוק את שרטוט ההתקנה לפני הזמנה.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "לא נמצא מדריך משתמש או תווית אנרגיה (EPREL) לדגם המדויק BO-AGG3F(BK). מידות ודירוג אנרגטי מבוססים על דף קמעונאי ישראלי בלבד.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג מציין 70 ליטר; היצרן מציין 72 ליטר.",
+   "severity": "high"
+  },
+  {
+   "field": "energy",
+   "issue": "הקטלוג מציין דירוג A; דף קמעונאי ישראלי מציין A++ אירופאי. יש לאמת מול תווית האנרגיה.",
+   "severity": "high"
+  },
+  {
+   "field": "specs",
+   "issue": "הקטלוג מציין 3000W ו־9 תוכניות; היצרן מציין 3200W ו־13 תוכניות.",
+   "severity": "medium"
+  },
+  {
+   "field": "installation",
+   "issue": "עומק המוצר ומידות הנישה בקטלוג שונים מדף הקמעונאי; לבדוק מול שרטוט ההתקנה.",
+   "severity": "medium"
+  },
+  {
+   "field": "connectivity",
+   "issue": "Wi-Fi מופיע רק בדף הקמעונאי ולא נמצא בדף היצרן; יש לוודא.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept; Wi-Fi, energy rating, dimensions, niche and warranty rest on a single Israeli retailer page and are flagged for checking. Catalog capacity (70L), power (3000W), programs (9), energy (A) and depth differ from sources."
+ }
+}

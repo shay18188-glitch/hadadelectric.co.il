@@ -1,0 +1,403 @@
+{
+ "modelNumber": "86152-IS",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "86152-IS",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The Israeli Hamilton Beach page, Sol, Traklin and Dragon Electric all name the exact model 86152-IS. The US model 86152 (26 lb/day, US plug) is a region sibling and was not used as evidence. Importer is unclear: the official page footer names ט.ל.ח., while retailer warranty text names שאוליאן סחר. | QA: Hamilton Beach Israel page and three Israeli retailers name exact model 86152-IS. Importer unclear (ט.ל.ח. vs שאוליאן סחר)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hamiltonbeach.co.il/products/86152-is",
+   "publisher": "Hamilton Beach Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.dragon-electric.co.il/items/6831548-%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%A7%D7%A8%D7%97-Hamilton-Beach-86152-IS",
+   "publisher": "Dragon Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "105 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוביות לכל מחזור",
+     "value": "כ-12 קוביות, מחזור של כ-9 דקות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כושר ייצור",
+     "value": "16 ק״ג ב-24 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Importer page; some retailers list 1.7 L, flagged.",
+     "label": "נפח מיכל מים",
+     "value": "2.2 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "40 dB"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Height/depth labels conflict across sources (42 vs 45).",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "31 ס״מ × 42 ס״מ × 45 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מיכל פנימי מנירוסטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מסך LED להפעלה פשוטה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בחירה בין שני גדלים של קוביות קרח: קטן וגדול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה עליון שקוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נורית Add Water מתריעה על מחסור במים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נורית Ice Full מציינת שהסלסלה מלאה ועוצרת את הייצור"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין צורך בחיבור לניקוז"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין צורך בהתקנה מיוחדת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "יש למלא במי שתייה בלבד עד סימן MAX ולהשאיר מרווח אוורור של יותר מ-15 ס״מ סביב המכונה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אם המכונה הונחה על צדה, יש להעמידה זקוף לפחות שעתיים לפני ההפעלה"
+  }
+ ],
+ "content": {
+  "summary": "מכונת קרח ביתית של Hamilton Beach, דגם 86152-IS, עם מיכל פנימי מנירוסטה ומכסה עליון שקוף. המכונה מייצרת עד 16 ק״ג קרח ב-24 שעות, כ-12 קוביות בכל מחזור של כ-9 דקות, ומאפשרת בחירה בין קוביות קטנות לגדולות. אין צורך בחיבור לניקוז או בהתקנה מיוחדת, ולכן היא מתאימה למטבח, למשרד ולאירוח.",
+  "highlights": [
+   "עד 16 ק״ג קרח ב-24 שעות",
+   "כ-12 קוביות בכל מחזור של כ-9 דקות",
+   "שני גדלי קוביות: קטן וגדול",
+   "מיכל מים 2.2 ליטר במילוי ידני",
+   "רמת רעש 40 dB"
+  ],
+  "goodFor": [
+   "אירוח ומסיבות בבית, כשצריך קרח באופן שוטף",
+   "משרד או מטבחון בלי חיבור לניקוז",
+   "מי שרוצה לבחור בין קוביות קטנות לגדולות"
+  ],
+  "considerations": [
+   "יש להשאיר מרווח אוורור של יותר מ-15 ס״מ סביב המכונה, כדאי למדוד את המקום על השיש",
+   "המילוי ידני במי שתייה בלבד עד סימן MAX",
+   "אם המכונה הובלה על צדה, יש להעמידה זקוף לפחות שעתיים לפני ההפעלה",
+   "צריך שקע חשמל זמין בקרבת מקום"
+  ],
+  "faq": [
+   {
+    "q": "כמה קרח המכונה מייצרת?",
+    "a": "עד 16 ק״ג קרח ב-24 שעות, כ-12 קוביות בכל מחזור של כ-9 דקות.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך לחבר את המכונה לברז או לניקוז?",
+    "a": "לא. אין צורך בחיבור לניקוז או בהתקנה מיוחדת; ממלאים את מיכל המים ידנית במי שתייה עד סימן MAX.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים שצריך להוסיף מים?",
+    "a": "נורית Add Water מתריעה על מחסור במים, ונורית Ice Full מציינת שהסלסלה מלאה ועוצרת את הייצור.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לבחור את גודל הקוביות?",
+    "a": "כן, יש בחירה בין שני גדלים: קטן וגדול.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קרח Hamilton Beach 86152-IS: עד 16 ק״ג קרח ב-24 שעות, שני גדלי קוביות ומיכל פנימי מנירוסטה, ללא חיבור לניקוז. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מכונת קרח",
+   "מכונת קרח ביתית",
+   "Hamilton Beach 86152-IS",
+   "מכונת קרח המילטון ביץ'",
+   "מכין קרח",
+   "מכונת קוביות קרח",
+   "מכונת קרח נירוסטה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Hemilton Beach",
+   "finding": "corrected",
+   "correctValue": "Hamilton Beach",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "105W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כושר ייצור",
+   "catalogValue": "עד 16 ק\"ג קרח ביממה (24 שעות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב עבודה",
+   "catalogValue": "כ-12 קוביות בכל מחזור של כ-9 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "1.7-2.2 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "40dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר מיכל פנימי",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 31 ס\"מ, עומק 45 ס\"מ, גובה 42 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "מסך LED עם לחצני הפעלה פשוטים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כסוף/נירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "כף לאיסוף קרח וסלסלת קרח נשלפת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מכסה עליון שקוף",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מכסה עליון שקוף",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח מיכל מים",
+   "issue": "The official Hamilton Beach Israel page and Sol say 2.2 liters, while Traklin, Dragon Electric and Zap list 1.7 liters. The catalog range 1.7-2.2 is not resolved; confirm with the importer before publishing the tank size.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Dimension labels conflict. The official page says width 31 and length 42. Dragon Electric says depth 45 and height 42. Traklin says height 45 and length 42. The published combined row follows Dragon Electric, so check which of 42 or 45 is the height.",
+   "severity": "medium"
+  },
+  {
+   "field": "כושר ייצור",
+   "issue": "Traklin and Dragon Electric say 33 liters of ice in 24 hours, while the official page and Sol say 16 kg in 24 hours. The published fact uses the official 16 kg figure.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty is not published. Dragon Electric says two years and Traklin says one year, both through Shaulian. Check the warranty term with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The importer is unclear. The official page footer names ט.ל.ח., and retailers name שאוליאן סחר for warranty service. Confirm the official importer.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "Catalog brand is spelled Hemilton Beach; the manufacturer is Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח מיכל מים",
+   "issue": "Importer page and Sol say 2.2 L; Traklin, Dragon Electric and Zap list 1.7 L. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Sources conflict on which of 42/45 cm is height vs depth; dimensions not published. Confirm with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "כושר ייצור",
+   "issue": "Some retailers state 33 liters of ice per 24 hours instead of the official 16 kg.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty term differs between retailers (one vs two years); not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Importer unclear: official page footer names ט.ל.ח., retailers name שאוליאן סחר.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the combined dimensions row: sources disagree on which of 42/45 cm is height vs depth/length, so it cannot be published reliably. Kept the 2.2 L tank from the importer page while flagging that some retailers list 1.7 L. Brand spelling in catalog is Hemilton; correct is Hamilton Beach."
+ }
+}

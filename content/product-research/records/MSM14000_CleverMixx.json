@@ -1,0 +1,441 @@
+{
+ "modelNumber": "MSM14000 CleverMixx",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Bosch",
+  "exactModel": "MSM14000",
+  "israeliImporter": "BSH",
+  "matchConfidence": "high",
+  "notes": "The Polish spec sheet names MSM14000 with EAN 4242002917238. Two Israeli shops (Rozenfeld, Lior) list the same EAN and model and state a 2-year warranty by BSH, the official importer. | QA: Bosch spec sheet and two Israeli retailer pages name MSM14000 CleverMixx 400 W with the same EAN."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://media3.bosch-home.com/Documents/specsheet/pl-PL/MSM14000.pdf",
+   "publisher": "Bosch Home spec sheet",
+   "kind": "manufacturer",
+   "market": "PL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%9E%D7%95%D7%98-400w-%D7%9E%D7%91%D7%99%D7%AA-bosch-%D7%91%D7%95%D7%A9-%D7%93%D7%92%D7%9D-msm14000/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.rozenfeld.co.il/product/ap/ka/bl-ap/%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%9E%D7%95%D7%98-bosch-msm14000-%D7%91%D7%95%D7%A9/",
+   "publisher": "רוזנפלד",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד (EAN)",
+     "value": "4242002917238"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "400 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תדר",
+     "value": "50/60 Hz"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Axis order not labelled in source.",
+     "label": "מידות המכשיר",
+     "value": "375 × 60 × 60 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "0.6 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "120 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote does not state a colour.",
+     "label": "צבע",
+     "value": "לבן ואדום עמוק"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "סלובניה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חלקי מגע עם מזון",
+     "value": "ללא BPA"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "2 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגלית עם סכין QuattroBlade בעלת ארבעה להבים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מבנה ארגונומי, קל ונוח לתפעול"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פעולה שקטה וללא רעידות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלה בלחיצת כפתור אחד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגלית נשלפת בקלות בעזרת לחצן שחרור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגלית מפלסטיק עמיד בחום עם להבים מנירוסטה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מבנה רגלית שנועד למנוע התזות"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בלנדר מוט (רגלית מפלסטיק)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר מוט CleverMixx MSM14000 של בוש עם מנוע בהספק 400 W ורגלית בעלת סכין QuattroBlade עם ארבעה להבים. המכשיר שוקל 0.6 ק״ג, מופעל בלחיצת כפתור אחד ופועל בשקט וללא רעידות. מתאים למי שמחפש בלנדר מוט פשוט וקל להכנת מחיות, רטבים ושייקים.",
+  "highlights": [
+   "מנוע בהספק 400 W",
+   "סכין QuattroBlade עם ארבעה להבים",
+   "משקל 0.6 ק״ג",
+   "רגלית נשלפת בלחצן שחרור",
+   "חלקי מגע עם מזון ללא BPA"
+  ],
+  "goodFor": [
+   "הכנה מהירה של מחיות, רטבים ומרקים טחונים",
+   "מי שמעדיף מכשיר קל ונוח לאחיזה",
+   "מטבח שבו חשוב תפעול שקט",
+   "ערבול ישירות בסיר בזכות רגלית עמידה בחום"
+  ],
+  "considerations": [
+   "אורך הכבל 120 ס״מ — כדאי לוודא שקע קרוב לאזור העבודה",
+   "המכשיר מופעל בכפתור אחד, ללא בחירת מהירויות מתועדת",
+   "באריזה מתועד בלנדר מוט בלבד, ללא כלי ערבול או אביזרים נוספים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של בלנדר המוט Bosch MSM14000?",
+    "a": "ההספק הוא 400 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה שוקל המכשיר?",
+    "a": "המשקל הוא 0.6 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "האם הרגלית נשלפת?",
+    "a": "כן, הרגלית נשלפת בקלות בעזרת לחצן שחרור.",
+    "sources": []
+   },
+   {
+    "q": "האם החלקים שבמגע עם מזון ללא BPA?",
+    "a": "כן, חלקי הפלסטיק שבמגע עם מזון הם ללא BPA.",
+    "sources": []
+   },
+   {
+    "q": "מה תקופת האחריות?",
+    "a": "האחריות היא ל-2 שנים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Bosch CleverMixx MSM14000 בהספק 400 W עם סכין QuattroBlade בעלת ארבעה להבים ומשקל 0.6 ק״ג. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט בוש",
+   "Bosch MSM14000",
+   "בלנדר מוט CleverMixx",
+   "בלנדר מוט 400 וואט",
+   "MSM14000 CleverMixx",
+   "בלנדר ידני בוש"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "400 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות",
+   "catalogValue": "רמה אחת קבועה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "סכין QuattroBlade עם 4 להבים חדים מפלדת אל-חלד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר גוף המכשיר",
+   "catalogValue": "פלסטיק איכותי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג רגל",
+   "catalogValue": "רגל פלסטיק עמידה בחום הניתנת להסרה בסיבוב",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "כ-0.6 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.2 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תקני בטיחות",
+   "catalogValue": "BPA-free עבור חלקי פלסטיק במגע עם מזון",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מוצא",
+   "catalogValue": "סלובניה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שטיפה במדיח",
+   "catalogValue": "חלקים (למעט יחידת המנוע) ניתנים לשטיפה במדיח",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ברקוד (EAN)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "4242002917238",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מהירות",
+   "issue": "Sources conflict on speed levels: one Israeli shop lists 1 level, another lists none. The catalog says one fixed speed. Check the manual before relying on it.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The Bosch spec sheet gives 375x60x60 mm without labelling the axes, so the width, height and depth order is unconfirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "The Bosch sheet gives the colours as white and deep red (Polish: Biały, Głęboka czerwień), so the Hebrew colour name is a translation. Confirm the colour variant sold in Israel.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג רגל",
+   "issue": "The catalog says the leg detaches by rotation; the Israeli retailer page says it releases with an eject button. Check the unit.",
+   "severity": "low"
+  },
+  {
+   "field": "מהירות",
+   "issue": "Sources do not confirm the catalog's single fixed speed; check the manual.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "Colour not verified by an ok quote; one Israeli retailer lists white finish. Confirm the variant sold in Israel.",
+   "severity": "low"
+  },
+  {
+   "field": "שטיפה במדיח",
+   "issue": "Catalog claim that parts are dishwasher-safe is not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 7 (colour): the quoted line does not mention colour. All other facts are supported by ok quotes on pages naming MSM14000. Catalog says the leg detaches by rotation, the Israeli retailer says by an eject button; flagged."
+ }
+}

@@ -1,0 +1,399 @@
+{
+ "modelNumber": "ND-1214W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Normande",
+  "exactModel": "ND-1214W",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף המוצר של ליאור מוצרי חשמל נושא את הדגם ND-1214W במלואו ומציג טבלת מפרט מלאה. דפי מוצר אחרים מציגים את אותה מכונה כ-ND-1214 (לפעמים בצבע כסוף), ולכן יש לוודא את הצבע והדגם המדויק לפני פרסום. | QA: דף ליאור מוצרי חשמל נושא את הדגם ND-1214W והצבע הלבן, כמו בקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-12-%D7%A7%D7%92-normande-%D7%A0%D7%95%D7%A8%D7%9E%D7%A0%D7%93%D7%94-nd-1214w-%D7%9C%D7%91/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "12 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תוף",
+     "value": "72 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מרבית",
+     "value": "1400 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק גוף חימום",
+     "value": "1850 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורות כביסה לבחירה",
+     "value": "20°, 40°, 60°, 90° צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות כביסה",
+     "value": "14"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "76 dB"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "50 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "59.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "85 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "64 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "76 ק״ג"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "removed superlative",
+   "text": "קיבולת של 12 ק״ג, מתאימה לנפחי כביסה גבוהים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע BLDC Inverter, שקט וחסכוני"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת חכמה לזיהוי עומס, קצף וחוסר איזון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית מהירה של 15 דקות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "דלת רחבה בקוטר 52 ס״מ עם פתיחה של 150°"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת כביסה פתח חזית של Normande בקיבולת 12 ק״ג ובצבע לבן, עם נפח תוף של 72 ליטר ומהירות סחיטה מרבית של 1400 סל״ד. המכונה מציעה 14 תוכניות כביסה, מנוע BLDC Inverter ודירוג אנרגטי A. מתאימה למי שמכבס כמויות גדולות ורוצה להכניס גם שמיכות וכביסה כבדה בכל מחזור.",
+  "highlights": [
+   "קיבולת כביסה של 12 ק״ג ונפח תוף של 72 ליטר",
+   "מהירות סחיטה מרבית של 1400 סל״ד",
+   "14 תוכניות כביסה",
+   "דירוג אנרגטי A וצריכת מים של 50 ליטר למחזור",
+   "מנוע BLDC Inverter"
+  ],
+  "goodFor": [
+   "משפחות שמכבסות כמויות גדולות של כביסה",
+   "כביסת פריטים גדולים כמו שמיכות ומצעים",
+   "מי שמחפש סחיטה חזקה של 1400 סל״ד לקיצור זמן הייבוש"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה מתאימה למידות 85 × 59.5 × 64 ס״מ (גובה × רוחב × עומק), כולל מרווח לצינורות",
+   "משקל המכונה 76 ק״ג, כדאי לתכנן את ההובלה וההכנסה למקום",
+   "רמת הרעש היא 76 dB, כדאי לקחת זאת בחשבון אם המכונה מוצבת ליד חדרי שינה",
+   "גוף החימום בהספק 1850 W, יש לחבר לשקע תקני ומוארק"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של מכונת הכביסה Normande ND-1214W?",
+    "a": "קיבולת הכביסה היא 12 ק״ג ונפח התוף 72 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה של המכונה?",
+    "a": "מהירות הסחיטה המרבית היא 1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכונה?",
+    "a": "גובה 85 ס״מ, רוחב 59.5 ס״מ ועומק 64 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות כביסה יש במכונה?",
+    "a": "יש 14 תוכניות כביסה, וטמפרטורות לבחירה של 20°, 40°, 60° ו-90° צלזיוס.",
+    "sources": []
+   },
+   {
+    "q": "מה הדירוג האנרגטי וצריכת המים?",
+    "a": "הדירוג האנרגטי הוא A וצריכת המים היא 50 ליטר למחזור.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Normande ND-1214W לבנה בקיבולת 12 ק״ג, סחיטה עד 1400 סל״ד ו-14 תוכניות כביסה. מפרט מלא ומידות בחדד אלקטריק נהריה",
+  "keywords": [
+   "Normande ND-1214W",
+   "נורמנדה ND-1214W",
+   "מכונת כביסה 12 ק״ג",
+   "מכונת כביסה נורמנדה",
+   "מכונת כביסה פתח חזית 1400 סל״ד",
+   "מכונת כביסה לבנה 12 קילו",
+   "ND-1214W מפרט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "12 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מרבית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A (עם חיסכון של 30%)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תוכניות",
+   "catalogValue": "14 תוכניות כביסה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים למחזור",
+   "catalogValue": "50 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "76dB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גוף חימום",
+   "catalogValue": "1850W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תוף",
+   "catalogValue": "72 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טמפרטורות לבחירה",
+   "catalogValue": "20°, 40°, 60°, 90° צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (גובה × רוחב × עומק)",
+   "catalogValue": "גובה 85 ס\"מ, רוחב 59.5 ס\"מ, עומק 64 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "76 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "טורקיה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "דף ליאור מוצרי חשמל נושא את ND-1214W במלואו. דפים אחרים מציגים את אותה מכונה כ-ND-1214, ו-hashmaleculam מציג גרסה כסופה, לכן יש לוודא שהצבע הלבן הוא הדגם המדויק.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "לא נמצא דף יבואן, דף היצרן, מדריך למשתמש או רשומת EPREL לדגם ND-1214W. כל המפרט מבוסס על דף קמעונאי ישראלי אחד.",
+   "severity": "medium"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "מדינת הייצור בקטלוג (טורקיה) לא אומתה בדף שנמצא.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור",
+   "issue": "כל המפרט מבוסס על דף קמעונאי ישראלי אחד; לא נמצא דף יצרן, יבואן או מדריך.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All 13 facts kept from one Israeli retailer page naming ND-1214W. Feature 0 reworded to drop 'במיוחד'. Country of origin not verified."
+ }
+}

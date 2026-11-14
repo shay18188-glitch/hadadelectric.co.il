@@ -1,0 +1,325 @@
+{
+ "modelNumber": "BP4750",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Ufesa",
+  "exactModel": "BP4750",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "מפרט מדף חנות ישראלית לדגם המדויק (מק״ט BP4750) ומדף PCBox ספרד. | QA: Israeli retailer page and Spanish retailer page both name Ufesa BP4750 (Titanium XL / Vario 1400 XL), 1400 W, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.virtualchashmal.co.il/product/%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%9E%D7%95%D7%98-ufesa-%D7%99%D7%95%D7%A4%D7%A1%D7%94-titanium-xl-bp4750/",
+   "publisher": "וירטואל שופס",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.pcbox.com/bp4750-vario-1400-xl-batidora-de-mano-ufesa-bp4750-vario-1400-xl-1400-w/p",
+   "publisher": "PCBox",
+   "kind": "retailer",
+   "market": "ES",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1400 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "20 מהירויות, כולל מצב טורבו"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "להבים",
+     "value": "סכין Titanium עם 4 להבים"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר המוט",
+     "value": "נירוסטה, מתפרק"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר וצבע",
+     "value": "נירוסטה ושחור"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "48.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "10.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "10.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Subjective marketing claim without a measured noise level.",
+     "label": "הפעלה",
+     "value": "שקטה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "אחריות יבואן רשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כיפת הגנה למניעת התזות בזמן העבודה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אביזרים ניתנים לשטיפה במדיח כלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "20 מהירויות ופונקציית טורבו"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כוס מדידה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ufesa BP4750 הוא בלנדר מוט בהספק 1400 W עם 20 מהירויות ולחצן טורבו. הסכין עשויה Titanium עם 4 להבים, והמוט מנירוסטה ומתפרק לניקוי. מתאים למי שמכין שייקים, מרקים ורטבים ישירות בסיר או בכוס ורוצה שליטה במרקם.",
+  "highlights": [
+   "הספק 1400 W",
+   "20 מהירויות כולל מצב טורבו",
+   "סכין Titanium עם 4 להבים",
+   "מוט נירוסטה מתפרק",
+   "כיפת הגנה למניעת התזות"
+  ],
+  "goodFor": [
+   "טחינת מרקים ישירות בסיר בזכות מוט הנירוסטה",
+   "הכנת שייקים ורטבים בכוס המדידה הכלולה",
+   "מי שרוצה לכוונן את המרקם בין 20 מהירויות",
+   "ניקוי מהיר: המוט מתפרק והאביזרים מתאימים למדיח"
+  ],
+  "considerations": [
+   "גובה המכשיר 48.5 ס״מ – כדאי לוודא מקום אחסון במגירה או בארון",
+   "בלנדר מוט ולא בלנדר עם קנקן – העבודה נעשית בכלי שלכם",
+   "האחריות היא אחריות יבואן רשמי – כדאי לשמור את החשבונית"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Ufesa BP4750?",
+    "a": "ההספק הוא 1400 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש לבלנדר?",
+    "a": "יש 20 מהירויות, וגם לחצן למצב טורבו.",
+    "sources": []
+   },
+   {
+    "q": "האם המוט מתפרק לניקוי?",
+    "a": "כן, המוט עשוי נירוסטה ומתפרק בקלות, והאביזרים ניתנים לשטיפה במדיח.",
+    "sources": []
+   },
+   {
+    "q": "מה כלול באריזה?",
+    "a": "הבלנדר מגיע עם כוס מדידה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המכשיר?",
+    "a": "גובה 48.5 ס״מ, רוחב 10.5 ס״מ ועומק 10.5 ס״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Ufesa BP4750 בהספק 1400 W עם 20 מהירויות וטורבו, סכין Titanium עם 4 להבים ומוט נירוסטה מתפרק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט Ufesa",
+   "Ufesa BP4750",
+   "בלנדר מוט 1400 וואט",
+   "יופסה בלנדר מוט",
+   "בלנדר מוט נירוסטה",
+   "Ufesa Titanium XL",
+   "בלנדר מוט 20 מהירויות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1400 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בורר מהירויות",
+   "catalogValue": "20 דרגות מהירות משתנות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "4 להבי טיטניום XL",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר המוט",
+   "catalogValue": "נירוסטה מתפרקת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 48.5, רוחב 10.5, עומק 10.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-1.2 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "כוס מדידה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "משקל לא נמצא בדף קריא",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight (about 1.2 kg) and 240V were not found on any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 7 (quiet operation): subjective marketing claim, not a measurable spec. Warranty kept as importer warranty wording only."
+ }
+}

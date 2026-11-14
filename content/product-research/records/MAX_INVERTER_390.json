@@ -1,0 +1,402 @@
+{
+ "modelNumber": "MAX INVERTER 390",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Electra",
+  "exactModel": "MAX INVERTER 390",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "medium",
+  "notes": "Electra's 2026 technical guide names ELECTRA MAX INVERTER 390 (model code MAX INV 390). Zabilo lists it as MAX INV 390 with 5 years warranty via the official importer. Israeli listings found in search (not fetched as evidence) disagree on HP (2.5 vs 3.5) and warranty (3 vs 5 years). Sibling models (A INVERTER 390, CLASSIC INVERTER 390, MAGIC TOUCH INVERTER 390) are not used as evidence. | QA: Electra's 2026 guide and X-PRESS name MAX INVERTER 390. Catalog name says 3.2 כ״ס while 29,000 BTU/h and other listings suggest a different horsepower; mounting type (wall vs ceiling) also unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://digitaler.cld.bz/electra-air11",
+   "publisher": "Electra Israel technical guide 2026",
+   "kind": "manual",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.x-press.co.il/product/%D7%9E%D7%96%D7%92%D7%9F-%D7%A2%D7%99%D7%9C%D7%99-electra-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%94-%D7%93%D7%92%D7%9D-max-inverter-390",
+   "publisher": "X-PRESS",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://zabilo.com/en/air-conditioners-3-hp-and-up/12195-max-inv-390.html",
+   "publisher": "Zabilo",
+   "kind": "retailer",
+   "market": "international",
+   "exactModel": false,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Electra guide and X-PRESS",
+     "label": "תפוקת קירור",
+     "value": "29,000 BTU/h"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Electra guide",
+     "label": "תפוקת חימום",
+     "value": "28,000 BTU/h"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only on a page that does not name the model; quote checks: ok",
+     "label": "הספק נצרך בקירור",
+     "value": "2,700 W"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only on a page that does not name the model; quote checks: ok",
+     "label": "דירוג אנרגטי",
+     "value": "A++"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Axis order not stated in quote; label made order-neutral",
+     "label": "מידות יחידה פנימית",
+     "value": "1,259 × 369 × 283 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Axis order not stated in quote; label made order-neutral",
+     "label": "מידות יחידה חיצונית",
+     "value": "890 × 342 × 673 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Only on a page that does not name the model; quote checks: ok",
+     "label": "חיבורי צנרת",
+     "value": "3/8 ו-5/8 אינץ׳"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מצב שבת מובנה וניקוי עצמי של הסוללה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only on a page that does not name the model",
+   "text": "טכנולוגיית Inverter"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Only on a page that does not name the model",
+   "text": "ניקוי עצמי ופיזור אוויר 4D"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Electra MAX INVERTER 390 הוא מזגן של אלקטרה עם תפוקת קירור של 29,000 BTU/h ותפוקת חימום של 28,000 BTU/h. המזגן כולל מצב שבת מובנה וניקוי עצמי של הסוללה. מתאים למי שמחפש מזגן בתפוקה גבוהה לקירור ולחימום של חלל גדול.",
+  "highlights": [
+   "תפוקת קירור 29,000 BTU/h",
+   "תפוקת חימום 28,000 BTU/h",
+   "מצב שבת מובנה",
+   "ניקוי עצמי של הסוללה"
+  ],
+  "goodFor": [
+   "קירור וחימום של חלל גדול הדורש תפוקה גבוהה",
+   "בית שומר שבת, בזכות מצב שבת מובנה",
+   "מי שמעדיף תחזוקה פשוטה יותר בזכות ניקוי עצמי של הסוללה"
+  ],
+  "considerations": [
+   "יש לוודא מקום ליחידה הפנימית במידות 1,259 × 369 × 283 מ״מ",
+   "יש לוודא מקום ליחידה החיצונית במידות 890 × 342 × 673 מ״מ, כולל מרווח לאוורור",
+   "התקנה על ידי מתקין מזגנים מוסמך ובדיקת התאמת החיבור החשמלי לתפוקת המזגן"
+  ],
+  "faq": [
+   {
+    "q": "מה תפוקת הקירור של Electra MAX INVERTER 390?",
+    "a": "תפוקת הקירור היא 29,000 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "מה תפוקת החימום?",
+    "a": "תפוקת החימום היא 28,000 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במזגן מצב שבת?",
+    "a": "כן, המזגן כולל מצב שבת מובנה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות היחידה הפנימית?",
+    "a": "מידות היחידה הפנימית הן 1,259 × 369 × 283 מ״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן Electra MAX INVERTER 390: תפוקת קירור 29,000 BTU/h וחימום 28,000 BTU/h, מצב שבת מובנה וניקוי עצמי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "אלקטרה MAX INVERTER 390",
+   "Electra MAX INV 390",
+   "מזגן אלקטרה מקס אינוורטר",
+   "מזגן 29000 BTU",
+   "מזגן אלקטרה מצב שבת",
+   "מזגן אינוורטר אלקטרה",
+   "MAX INVERTER 390"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "תפוקת קירור",
+   "catalogValue": "28,320 BTU/h",
+   "finding": "corrected",
+   "correctValue": "29,000 BTU/h",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תפוקת חימום",
+   "catalogValue": "28,660 BTU/h",
+   "finding": "corrected",
+   "correctValue": "28,000 BTU/h",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקדם יעילות בקירור (COP)",
+   "catalogValue": "3.81",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "corrected",
+   "correctValue": "A++",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "הספק נצרך (קירור)",
+   "catalogValue": "2,180 וואט",
+   "finding": "contradicted",
+   "correctValue": "2,700 W",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "זרם עבודה (קירור)",
+   "catalogValue": "9.8 אמפר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ספיקת אוויר",
+   "catalogValue": "850 CFM",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבורי צנרת",
+   "catalogValue": "3/8 & 5/8 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות יחידה פנימית (ר/ג/ע)",
+   "catalogValue": "1250/350/253 מ\"מ",
+   "finding": "contradicted",
+   "correctValue": "1,259 × 369 × 283 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות יחידה חיצונית (ר/ג/ע)",
+   "catalogValue": "900/860/315 מ\"מ",
+   "finding": "contradicted",
+   "correctValue": "890 × 342 × 673 מ״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית Inverter",
+   "catalogValue": "טכנולוגיית Inverter מלאה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מצב שבת",
+   "catalogValue": "מצב שבת מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חיבור Wi-Fi",
+   "catalogValue": "אפשרות חיבור לרשת Wi-Fi",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ניקוי עצמי ופיזור אוויר 4D",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "Self-cleaning | 4D air distribution",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "mounting",
+   "issue": "Zabilo calls this a Ceiling Air Conditioner, while Israeli listings sell it as עילי (wall-mounted). The mounting type must be checked.",
+   "severity": "high"
+  },
+  {
+   "field": "הספק נצרך (קירור)",
+   "issue": "Catalog 2,180 W conflicts with zabilo 2,700 W. Only one foreign retailer states it.",
+   "severity": "medium"
+  },
+  {
+   "field": "תפוקת קירור / חימום",
+   "issue": "Catalog 28,320 and 28,660 BTU/h differ from the 29,000 and 28,000 BTU/h on zabilo and X-PRESS. X-PRESS does not label which BTU figure is heating and which is cooling, so the mapping rests on zabilo.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty is not stated as a fact. Zabilo says 5 years, and Israeli listings found in search disagree (3 years, 5 years, 36 months). Check with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Catalog says A, zabilo and the Electra guide series say A++. Confirm against the EU energy label or EPREL.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Israeli listings write MAX INV 390 and the Electra 2026 guide writes ELECTRA MAX INVERTER 390. The name variant matches the same model, not a close code.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק (כ״ס)",
+   "issue": "Some Israeli listings found in search say 2.5 כ״ס, others 3.5 HP. Zabilo says 3.5 HP and 29,000 BTU/h, which fits 3.5 HP. Confirm capacity on the product label.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Electra's 2026 technical guide gives indoor 1,259x369x283 and outdoor 890x342x673 mm, matching the outdoor size on Zabilo; catalog values differ.",
+   "severity": "high"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 3.2 כ״ס; sources give 29,000 BTU/h and other listings say 2.5 or 3.5 HP. Confirm horsepower on the product label.",
+   "severity": "medium"
+  },
+  {
+   "field": "mounting",
+   "issue": "Zabilo calls it a ceiling unit while X-PRESS sells it as wall-mounted (עילי). Confirm mounting type.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog BTU values, energy rating A, 2,180 W and both unit dimensions differ from the Electra 2026 guide and Zabilo. Update the catalog spec text.",
+   "severity": "high"
+  },
+  {
+   "field": "dimensions",
+   "issue": "The guide gives dimensions without axis order; outdoor 890 × 342 × 673 likely is width × depth × height. Confirm before stating width/height/depth.",
+   "severity": "medium"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "Energy rating not verified on a page naming the model (catalog A, Zabilo A++). Check the energy label.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept cooling and heating capacity, indoor and outdoor dimensions and the Sabbath mode / self-cleaning feature from the Electra 2026 technical guide (names the model, corroborated by X-PRESS). Rejected power consumption, A++ rating, pipe connections, the Inverter and 4D features: their only ok quotes are on the Zabilo page, which does not name the model. Dimension labels changed to drop the width/height/depth order, since the outdoor figures (890 × 342 × 673) do not read as W×H×D."
+ }
+}

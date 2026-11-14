@@ -1,0 +1,353 @@
+{
+ "modelNumber": "AS7101",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Uniden",
+  "exactModel": "AS7101",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Exact model AS7101 named on an Israeli retailer page (Chiko) and on two foreign pages (Ozark, US; USTEL, Hong Kong distributor). No manufacturer or Israeli importer page found within the fetch budget. Only one Israeli page, so Israeli-specific facts rest on that retailer. | QA: Exact model AS7101 named on an Israeli retailer page and three foreign retailer pages; no manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.chiko.co.il/items/585864-טלפון-חוטי-Uniden-AS7101-יונידן",
+   "publisher": "Chiko",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ustel.com.hk/Uniden-AS7101-White",
+   "publisher": "USTEL",
+   "kind": "retailer",
+   "market": "HK",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.getozark.com/uniden-as7101-basic-corded-phone/",
+   "publisher": "Ozark",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.hopsford.com/Uniden-AS7101-White",
+   "publisher": "Hopsford",
+   "kind": "retailer",
+   "market": "HK",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "quote says desk phone; wall mounting in fact 5",
+     "label": "סוג מכשיר",
+     "value": "טלפון חוטי שולחני"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן איתות Flash לבחירה",
+     "value": "100 / 300 / 600ms"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חיוג חוזר",
+     "value": "Redial"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת צלצול",
+     "value": "כיוון עוצמה, כולל כיבוי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s4",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבעים זמינים",
+     "value": "שחור / לבן"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s4",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תלייה על הקיר",
+     "value": "ניתן לתלייה על הקיר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "חיוג חוזר (Redial)"
+  },
+  {
+   "sources": [
+    "s2",
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית Flash עם זמן איתות לבחירה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "quote supports on/off only",
+   "text": "הפעלה וכיבוי של הצלצול"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אפשרות תלייה על הקיר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניתן לתלות את הטלפון על הקיר או להניח אותו על שולחן"
+  }
+ ],
+ "content": {
+  "summary": "Uniden AS7101 הוא טלפון ביתי חוטי ובסיסי שאפשר להניח על שולחן או לתלות על הקיר. הוא כולל חיוג חוזר, לחצן Flash עם זמן איתות לבחירה וכיוון עוצמת צלצול כולל כיבוי. מתאים למי שמחפש טלפון קווי פשוט לבית או למשרד.",
+  "highlights": [
+   "טלפון חוטי שולחני עם אפשרות תלייה על הקיר",
+   "חיוג חוזר (Redial)",
+   "לחצן Flash עם זמן איתות לבחירה",
+   "כיוון עוצמת צלצול, כולל כיבוי",
+   "זמין בשחור או בלבן"
+  ],
+  "goodFor": [
+   "מטבח או מסדרון שבהם נוח לתלות טלפון על הקיר",
+   "שולחן עבודה בבית או במשרד שזקוק לטלפון קווי פשוט",
+   "חיבור לקו שמחובר למרכזיה ודורש לחצן Flash",
+   "חדר שינה, שבו אפשר לכבות את הצלצול"
+  ],
+  "considerations": [
+   "ודאו שיש נקודת קו טלפון קרובה למקום ההצבה או התלייה",
+   "לתלייה על הקיר בדקו מראש את מיקום השקע ואת גובה התלייה הנוח",
+   "אם הקו מחובר למרכזיה, בדקו איזה זמן Flash המרכזיה דורשת"
+  ],
+  "faq": [
+   {
+    "q": "אפשר לתלות את Uniden AS7101 על הקיר?",
+    "a": "כן, הטלפון ניתן לתלייה על הקיר או להצבה על שולחן.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לכבות את הצלצול?",
+    "a": "כן, יש כיוון עוצמת צלצול שכולל אפשרות כיבוי.",
+    "sources": []
+   },
+   {
+    "q": "האם יש לחצן Flash למרכזיה?",
+    "a": "כן, יש לחצן Flash עם זמן איתות לבחירה: 100, 300 או 600ms.",
+    "sources": []
+   },
+   {
+    "q": "באילו צבעים הדגם מגיע?",
+    "a": "הדגם מופיע בשחור ובלבן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון חוטי Uniden AS7101 לבית ולמשרד: הצבה על שולחן או תלייה על הקיר, חיוג חוזר ולחצן Flash לבחירה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Uniden AS7101",
+   "טלפון חוטי יונידן",
+   "טלפון ביתי חוטי",
+   "טלפון קווי לקיר",
+   "טלפון שולחני חוטי",
+   "טלפון חוטי למשרד",
+   "יונידן AS7101"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "יצרן (מותג)",
+   "catalogValue": "Uniden",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מכשיר",
+   "catalogValue": "טלפון חוטי שולחני/קיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיוג חוזר (Redial)",
+   "catalogValue": "לחצן חיוג חוזר (Redial)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "חיוגי Tone ו-Pulse",
+   "catalogValue": "תמיכה בשיטות חיוג Tone ו-Pulse",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Flash",
+   "catalogValue": "לחצן Flash עם זמן תגובה ניתן לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת צלצול",
+   "catalogValue": "בורר עוצמת צלצול (2 מצבים: גבוה/נמוך)",
+   "finding": "corrected",
+   "correctValue": "כיוון עוצמת צלצול, כולל כיבוי",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצורה פיזית (תלייה על הקיר)",
+   "catalogValue": "אפשרות לתלייה על הקיר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "מוזן מקו הטלפון (Line Powered), אין צורך בחשמל או בסוללות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "סין (מותג יפני)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "עוצמת צלצול",
+   "issue": "Catalog says a 2-mode high/low ringer selector. The Israeli retailer page and the US retailer page both describe ringer volume adjustment with an on/off option, not 2 modes. Check the manual before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "The catalog says line-powered with no mains or battery needed. No fetched page confirms this. Verify before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Country of origin is not on any fetched page. The catalog text is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or manufacturer page found for AS7101. Israeli evidence is a single retailer page.",
+   "severity": "medium"
+  },
+  {
+   "field": "עוצמת צלצול",
+   "issue": "Catalog describes a 2-mode high/low ringer selector; the Israeli retailer page describes volume adjustment including off. Check the manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says line-powered with no mains or batteries; no fetched page confirms this.",
+   "severity": "medium"
+  },
+  {
+   "field": "Tone/Pulse",
+   "issue": "Catalog claims Tone and Pulse dialing support; not confirmed by any source.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or manufacturer page found; Israeli evidence is one retailer page.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 0 value narrowed to desk phone (the quote only says desk; wall mounting is covered by fact 5). Feature 2 reworded to ringer on/off, since its only quote does not mention volume adjustment."
+ }
+}

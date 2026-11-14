@@ -1,0 +1,539 @@
+{
+ "modelNumber": "MF100T80B/W-IL (6442)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "MF100T80B/W-IL",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "מק\"ט באג 9174535243. הקטלוג מוסיף (6442) למספר הדגם, והדפים מזכירים את הדגם בלי הסיומת. | QA: דף Midea Israel ודף באג מציגים את MF100T80B/W-IL, מכונת כביסה פתח עליון 8 ק״ג. הסיומת (6442) בקטלוג היא קוד פנימי."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il-en/laundry/top-load-washer/midea-top-load-washer.mf100t80b-w-il",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-8-%D7%A7%D7%92-midea-9174535243",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Midea"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "MF100T80B/W-IL"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מכונת כביסה פתח עליון"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "8 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "לפי החוקר דף היצרן מציין גם 1300 סל״ד במפרט; אין ציטוט תקין לכך. סומן לבדיקה.",
+     "label": "מהירות סחיטה מירבית",
+     "value": "1200 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים",
+     "value": "48 ליטר למחזור כביסה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות כביסה",
+     "value": "15"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפעלה מאוחרת",
+     "value": "עד 24 שעות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "ספרתית"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילת בטיחות לילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זיכרון בהפסקת חשמל",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר התוף",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "40 × 87.5 × 61 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "56 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "לפי דף באג",
+     "label": "אחריות",
+     "value": "3 שנים, המילטון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפעלה מאוחרת (Delay Start) של עד 24 שעות מראש"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "הוסר 'חדשני'",
+   "text": "בורר תוכניות דיגיטלי סיבובי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "המשך אוטומטי מאותה נקודה שבה נעצרה הפעולה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון נעילה לבטיחות ילדים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית ייעודית לניקוי התוף"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Midea MF100T80B/W-IL היא מכונת כביסה פתח עליון בקיבולת 8 ק״ג, ברוחב 40 ס״מ בלבד. היא מגיעה עם מהירות סחיטה של עד 1200 סל״ד, דירוג אנרגטי A ו-15 תוכניות כביסה. מתאימה למי שצריך מכונה צרה לחדר כביסה או לפינה קטנה.",
+  "highlights": [
+   "קיבולת כביסה 8 ק״ג",
+   "רוחב 40 ס״מ, מידות 40 × 87.5 × 61 ס״מ",
+   "מהירות סחיטה עד 1200 סל״ד",
+   "15 תוכניות כביסה ותוכנית לניקוי התוף",
+   "הפעלה מאוחרת עד 24 שעות ונעילת בטיחות לילדים"
+  ],
+  "goodFor": [
+   "חדר כביסה צר או פינה שבה אין מקום למכונה רחבה",
+   "מי שמעדיף לטעון כביסה מלמעלה בלי להתכופף",
+   "בית עם ילדים, בזכות מנגנון הנעילה",
+   "מי שרוצה לתזמן כביסה מראש עם הפעלה מאוחרת"
+  ],
+  "considerations": [
+   "מכונה פתח עליון צריכה מרווח פנוי מעליה לפתיחת המכסה; ודאו שאין מדף או משטח מעליה",
+   "בדקו שהנישה מתאימה למידות 40 × 87.5 × 61 ס״מ",
+   "משקל המכונה 56 ק״ג; תכננו את ההובלה וההצבה בהתאם",
+   "האחריות היא 3 שנים דרך המילטון, לפי תעודת האחריות"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Midea MF100T80B/W-IL?",
+    "a": "קיבולת הכביסה היא 8 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה הרוחב של המכונה?",
+    "a": "רוחב 40 ס״מ, גובה 87.5 ס״מ ועומק 61 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה?",
+    "a": "מהירות הסחיטה המירבית היא 1200 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים המכונה צורכת?",
+    "a": "צריכת המים היא 48 ליטר למחזור כביסה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "3 שנים בכפוף לתעודת אחריות של המילטון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה פתח עליון Midea MF100T80B/W-IL בקיבולת 8 ק״ג, רוחב 40 ס״מ וסחיטה עד 1200 סל״ד. פרטים ומפרט מלא בחדד אלקטריק נהריה",
+  "keywords": [
+   "Midea MF100T80B/W-IL",
+   "מכונת כביסה פתח עליון 8 קג",
+   "מכונת כביסה פתח עליון מידאה",
+   "מכונת כביסה צרה 40 סמ",
+   "מכונת כביסה Midea",
+   "MF100T80B",
+   "מכונת כביסה פתח עליון"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Midea",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מירבית",
+   "catalogValue": "1200 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר תוכניות כביסה",
+   "catalogValue": "15",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צריכת מים",
+   "catalogValue": "48 ליטר למחזור כביסה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 40 ס\"מ, עומק 61 ס\"מ, גובה 87.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "56 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר התוף",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכנית Lunar / סדרה",
+   "catalogValue": "סדרת Lunar בעיצוב Slim צר במיוחד (40 ס\"מ)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון Soft Open",
+   "catalogValue": "מנגנון Soft Open לפתיחה רכה של דלת התוף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "תצוגה ספרתית LED רחבה ובורר תוכניות דיגיטלי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות",
+   "catalogValue": "כביסה באדים, תוכנית מהירה 15 דקות, תוכנית מהירה 45 דקות, כביסה היגיינית ב-90 מעלות, תוכנית חסכונית (Eco), כביסה עדינה, תוכנית לניקוי תוף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Delay Start",
+   "catalogValue": "עד 24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זיכרון חכם",
+   "catalogValue": "להמשך פעולה אוטומטי לאחר הפסקת חשמל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "מנגנון נעילה לבטיחות ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הגנה מפני הצפה",
+   "catalogValue": "מערכת הגנה מפני הצפה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג מכונה",
+   "catalogValue": "מכונות כביסה",
+   "finding": "missing-added",
+   "correctValue": "מכונת כביסה פתח עליון",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מהירות סחיטה מירבית",
+   "issue": "אתר היבואן/היצרן מציין במפרט הטכני מהירות סחיטה מירבית של 1300 סל\"ד, אבל בסקירה באותו דף מופיע 1200 סל\"ד. חנות באג מציינת 1200 סל\"ד. הערך 1200 סל\"ד נשמר לפי המקור הישראלי, צריך אימות.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם סדרה",
+   "issue": "שם הסדרה Lunar ומאפייני ה-Slim (40 ס\"מ) והתוכניות המפורטות בקטלוג לא נמצאו בדפים שנסרקו. בדקו מול תיאור היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקטלוג כולל את הסיומת (6442), שהיא קוד מוכר בחנויות ישראליות, והדפים מזכירים את MF100T80B/W-IL בלי הסיומת. הדגם עצמו מופיע בדפים.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן (המילטון) מופיע רק בדף של חנות באג, שמציין יבואן רשמי ואחריות של 3 שנים דרך המילטון. כדאי לאמת מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "מהירות סחיטה מירבית",
+   "issue": "לפי החוקר דף היצרן מציין 1300 סל״ד במפרט ו-1200 סל״ד בסקירה; פורסם 1200 סל״ד לפי באג. יש לאמת מול היצרן או היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "סדרת Lunar, Soft Open, הגנה מפני הצפה ופירוט התוכניות בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים מדף היצרן ודף באג על הדגם המדויק. מהירות הסחיטה 1200 סל״ד נשמרה לפי באג, אך לפי החוקר דף היצרן מציין גם 1300 סל״ד במפרט; סומן לבדיקה. התווית של מידות נשארה רוחב × גובה × עומק."
+ }
+}

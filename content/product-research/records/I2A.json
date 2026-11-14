@@ -1,0 +1,265 @@
+{
+ "modelNumber": "I2A",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "I2A i2A",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "דף Midea ישראל מציג את הדגם I2A. נתוני הקטלוג (4000Pa, 2600mAh, 250 מ״ל) שונים מהמפרט הרשמי. | QA: Midea Israel page names i2A, but the catalog's specs differ widely from it, and the black color is not confirmed by the quotes."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.com/il/vacuum-cleaner/robot-vacuum-cleaner/midea-robot-vacuum-cleaner-i2a",
+   "publisher": "Midea Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "1200Pa"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן הפעלה מרבי",
+     "value": "110 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חציית מכשולים",
+     "value": "סף בגובה עד 15 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוללה",
+     "value": "14.4V / 2000mAh"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת מיכל האבק",
+     "value": "200 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מיכל מים",
+     "value": "230 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל",
+     "value": "2.5 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "7.4 ס״מ"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שלט רחוק, עמדת טעינה, מטלית, 2 מברשות צד, מברשת ניקוי"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Midea i2A הוא שואב אבק רובוטי עם מיכל מים לניגוב, בגובה 7.4 ס״מ המאפשר ניקוי מתחת לרהיטים. עוצמת השאיבה היא 1200Pa וזמן ההפעלה המרבי הוא 110 דקות. מתאים לניקוי שוטף של רצפות קשות בבית.",
+  "highlights": [
+   "גובה 7.4 ס״מ לניקוי מתחת לרהיטים",
+   "זמן הפעלה מרבי של 110 דקות",
+   "מיכל מים 230 מ״ל לניגוב",
+   "חוצה ספים בגובה עד 15 מ״מ",
+   "כולל שלט רחוק ועמדת טעינה"
+  ],
+  "goodFor": [
+   "ניקוי מתחת לספות ומיטות נמוכות",
+   "שאיבה וניגוב שוטפים של רצפות קשות",
+   "בית עם ספים נמוכים בין החדרים"
+  ],
+  "considerations": [
+   "בדקו שהמרווח מתחת לרהיטים גבוה מ־7.4 ס״מ",
+   "ודאו שהספים בבית אינם גבוהים מ־15 מ״מ",
+   "מיכל האבק בנפח 200 מ״ל ידרוש ריקון תכוף",
+   "יש למקם את עמדת הטעינה ליד שקע חשמל"
+  ],
+  "faq": [
+   {
+    "q": "האם Midea i2A גם מנגב?",
+    "a": "כן, יש לו מיכל מים בנפח 230 מ״ל ומטלית כלולה באריזה.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן הוא עובד בטעינה?",
+    "a": "זמן ההפעלה המרבי לפי היצרן הוא 110 דקות.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא נכנס מתחת לרהיטים?",
+    "a": "גובה הרובוט 7.4 ס״מ, כך שהוא נכנס מתחת לרהיטים עם מרווח גדול מזה.",
+    "sources": []
+   },
+   {
+    "q": "מה עוצמת השאיבה?",
+    "a": "1200Pa לפי מפרט היצרן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק רובוטי מנגב Midea i2A: גובה 7.4 ס״מ לניקוי מתחת לרהיטים וזמן הפעלה עד 110 דקות. מפרט מלא וייעוץ בחדד אלקטריק נהריה",
+  "keywords": [
+   "Midea i2A",
+   "שואב אבק רובוטי Midea",
+   "שואב רובוטי מנגב",
+   "מידאה i2A",
+   "שואב אבק רובוטי שוטף",
+   "רובוט שואב ושוטף מידאה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "4000Pa",
+   "finding": "corrected",
+   "correctValue": "1200Pa",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "2600mAh",
+   "finding": "corrected",
+   "correctValue": "2000mAh",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 120 דקות",
+   "finding": "corrected",
+   "correctValue": "110 דקות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מיכל אבק",
+   "catalogValue": "450 מ''ל",
+   "finding": "corrected",
+   "correctValue": "200 מ״ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מיכל מים",
+   "catalogValue": "250 מ''ל",
+   "finding": "corrected",
+   "correctValue": "230 מ״ל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "7.8 ס''מ",
+   "finding": "corrected",
+   "correctValue": "7.4 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "catalog_specs",
+   "issue": "מפרט הקטלוג שונה ממפרט היצרן בכמה נתונים",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "מפרט הקטלוג (4000Pa, 2600mAh, 120 דקות, 450/250 מ״ל, 7.8 ס״מ) סותר את דף היצרן (1200Pa, 2000mAh, 110 דקות, 200/230 מ״ל, 7.4 ס״מ)",
+   "severity": "high"
+  },
+  {
+   "field": "name",
+   "issue": "הצבע השחור בשם הקטלוג לא אומת במקור",
+   "severity": "low"
+  },
+  {
+   "field": "product_capabilities",
+   "issue": "יכולות בקטלוג (אפליקציה, Alexa, Google Assistant, Wi-Fi, HEPA) לא אומתו בדף היצרן",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts come from the Midea Israel product page for i2A and are kept. Catalog specs (4000Pa, 2600mAh, 120 min, 450/250 ml, 7.8 cm) contradict the manufacturer page and should be corrected. In-the-box wording clarified to 'עמדת טעינה'."
+ }
+}

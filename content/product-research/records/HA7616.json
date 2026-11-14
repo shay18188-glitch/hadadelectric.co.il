@@ -1,0 +1,429 @@
+{
+ "modelNumber": "HA7616",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Ufesa",
+  "exactModel": "HA7616",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "Ufesa Activa electric kettle, 1.7 L, 2200 W. The official Ufesa Israel site lists 'קומקום חשמלי HA7616' (items page). Specs come from a Lebanese retailer and a Tunisian retailer, both naming HA7616. Manufacturer manual pages (Shopify PDF, notice-facile, ManualsLib) and BigBuy returned HTTP 403 and were not usable. | QA: Both retailer pages and the Ufesa Israel site name HA7616, 1.7 L, 2200 W. Israeli variant details (color accents, a stainless-steel listing mentioned in a snippet) and importer are unconfirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://ayoubcomputers.com/ufesa-activa-electric-kettle-1-7l-2200w-white-red-ha7616",
+   "publisher": "Ayoub Computers",
+   "kind": "retailer",
+   "market": "LB",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://spacenet.tn/bouilloire/42241-bouilloire-ufesa-17l-2200w-blanc-ha7616.html",
+   "publisher": "SpaceNet Tunisie",
+   "kind": "retailer",
+   "market": "TN",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Single retailer, axis order unknown, 12 cm side implausible, contradicts catalog.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "21.5 × 12 × 22.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Approximate per retailer.",
+     "label": "משקל",
+     "value": "1.02 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "חומר ייצור",
+     "value": "פלסטיק נטול BPA"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Catalog and Tunisian listing say white only; accent color may differ by market.",
+     "label": "צבע",
+     "value": "לבן עם פרטים אדומים"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מנגנוני בטיחות",
+     "value": "כיבוי אוטומטי ברתיחה, הגנה מפני הפעלה ללא מים, כיבוי בעת הרמת הקומקום מהבסיס"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Tunisian retailer warranty, not applicable to Israel.",
+     "label": "אחריות",
+     "value": "1 שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מסנן אבנית נשלף"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס מסתובב ב-360 מעלות, ללא כבל מחובר לקומקום"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מחוון מפלס מים משני הצדדים"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מפסק הפעלה מואר עם נורית חיווי"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום נסתר"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתיחת מכסה קלה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אחסון כבל בתוך הבסיס"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי של Ufesa, דגם HA7616, בקיבולת 1.7 ליטר ובהספק 2200 W, עשוי פלסטיק נטול BPA. הקומקום כולל גוף חימום נסתר, מסנן אבנית נשלף ובסיס מסתובב ב-360 מעלות. מתאים לשימוש יומיומי במטבח הביתי למי שמחפש קומקום פשוט עם מנגנוני בטיחות בסיסיים.",
+  "highlights": [
+   "הספק 2200 W",
+   "קיבולת 1.7 ליטר",
+   "בסיס מסתובב ב-360 מעלות",
+   "כיבוי אוטומטי ברתיחה, בהרמה מהבסיס והגנה מפני הפעלה ללא מים",
+   "מסנן אבנית נשלף"
+  ],
+  "goodFor": [
+   "הרתחת מים לכמה כוסות בבת אחת, הודות לקיבולת של 1.7 ליטר",
+   "שימוש נוח ליד ימין וליד שמאל בזכות הבסיס המסתובב והמחוון משני הצדדים",
+   "אזורים עם מים קשים, בזכות מסנן האבנית הנשלף"
+  ],
+  "considerations": [
+   "ודאו שקיים שקע חשמל זמין ליד משטח העבודה, הקומקום צורך 2200 W",
+   "בדקו את הצבע בפועל של הדגם הנמכר בישראל",
+   "יש לנקות את מסנן האבנית מעת לעת כדי לשמור על זרימה תקינה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של הקומקום?",
+    "a": "הקומקום מכיל עד 1.7 ליטר מים.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה לבד?",
+    "a": "כן, הוא נכבה אוטומטית ברתיחה ובעת הרמה מהבסיס, ויש בו הגנה מפני הפעלה ללא מים.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי הקומקום?",
+    "a": "הגוף עשוי פלסטיק נטול BPA, וגוף החימום נסתר.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להוציא את מסנן האבנית?",
+    "a": "כן, מסנן האבנית נשלף.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי Ufesa HA7616 בקיבולת 1.7 ליטר והספק 2200 W, בסיס מסתובב ב-360 מעלות ומסנן אבנית נשלף. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי Ufesa",
+   "Ufesa HA7616",
+   "קומקום HA7616",
+   "קומקום 1.7 ליטר",
+   "קומקום חשמלי 2200W",
+   "קומקום חשמלי לבן",
+   "קומקום פלסטיק נטול BPA"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "205x170x220 מ\"מ",
+   "finding": "contradicted",
+   "correctValue": "21.5 × 12 × 22.5 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר ייצור",
+   "catalogValue": "פלסטיק איכותי ללא BPA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "מסנן אבנית נשלף ורחיץ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר (נירוסטה) מסוג Strix",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנוני בטיחות",
+   "catalogValue": "כיבוי אוטומטי ברתיחה, הגנה מפני הפעלה ללא מים, וכיבוי אוטומטי בעת הרמת הקומקום מהבסיס",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "סיבובי 360 מעלות אלחוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיווי מפלס מים",
+   "catalogValue": "חלון שקוף עם מד ליטרים משני צידי המכשיר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "מפסק הפעלה/כיבוי מואר (נורית חיווי)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "ספרד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1 שנה",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1.02 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Catalog gives 205x170x220 mm; the only dimension source (Lebanese retailer) gives 21.5 x 12 x 22.5 cm with no axis labels, so the width/height/depth order is unverified. Confirm from the Ufesa spec sheet before publishing dimensions.",
+   "severity": "high"
+  },
+  {
+   "field": "גוף חימום",
+   "issue": "Strix heater and stainless-steel element are not on any fetched page. A search snippet from an Israeli price-comparison listing describes a stainless-steel version, which conflicts with the plastic-body listings. Confirm the exact Israeli variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Only the Tunisian retailer states warranty (1 year). An unfetched manual-aggregator snippet mentioned 2 years. Confirm the Israeli warranty term with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "The official Ufesa Israel site lists 'קומקום חשמלי HA7616' but no spec page was readable and the importer name is unknown. Confirm the Israeli variant and importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "פילטר",
+   "issue": "Catalog says the filter is washable (רחיץ); no fetched page confirms washability, only that it is removable.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog 205×170×220 mm vs Lebanese retailer 21.5×12×22.5 cm (unlabeled, likely listing error). Dimensions not published; confirm from Ufesa spec sheet.",
+   "severity": "high"
+  },
+  {
+   "field": "צבע",
+   "issue": "Lebanese listing says white with red accents; catalog says white. Confirm the Israeli unit's color.",
+   "severity": "medium"
+  },
+  {
+   "field": "גוף חימום",
+   "issue": "Catalog claims Strix stainless-steel element; no fetched page confirms. A snippet mentions a stainless-steel version, so confirm the Israeli variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Only a Tunisian retailer states 1 year; Israeli warranty term unknown. Confirm with importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Ufesa Israel site lists HA7616 but importer name unknown.",
+   "severity": "low"
+  },
+  {
+   "field": "פילטר",
+   "issue": "Catalog says filter is washable; sources confirm only removable.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected dimensions (21.5 × 12 × 22.5 cm from a single Lebanese retailer, unlabeled axes, a 12 cm side is implausible for a 1.7 L kettle and contradicts catalog 205×170×220 mm). Rejected warranty (1 year is the Tunisian retailer's own term, not the Israeli warranty). Color marked conflict: Lebanese listing says white with red accents, catalog and Tunisian listing title say white."
+ }
+}

@@ -1,0 +1,400 @@
+{
+ "modelNumber": "F6GWWT-446",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "F6GWWT-446",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Both Sol's Israeli site and an Israeli retailer page name F6GWWT-446 as a 4-burner tempered glass gas hob."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products-categories-copy/kyryym-yndvqtsyh",
+   "publisher": "Sol",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-%D7%A1%D7%95%D7%9C-f6gwwt-446-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9C%D7%91%D7%A0%D7%94/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבערים",
+     "value": "Sabaf"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer table label 'מבער גד'; catalog says 3500W turbo — flagged.",
+     "label": "מבער גדול (הספק מרבי)",
+     "value": "3 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote does not state count of medium burners; label trimmed.",
+     "label": "מבער בינוני (הספק מרבי)",
+     "value": "1.75 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער קטן (הספק מרבי)",
+     "value": "1 kW"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "58 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer labels it 'אורך'; matches catalog outer depth.",
+     "label": "עומק",
+     "value": "52 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב חיתוך להתקנה",
+     "value": "56 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer labels it 'אורך'.",
+     "label": "עומק חיתוך להתקנה",
+     "value": "49 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משטח",
+     "value": "זכוכית מחוסמת ללא מסגרת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Single retailer statement.",
+     "label": "אחריות",
+     "value": "שנה מלאה על ידי שאוליאן סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הצתה אלקטרונית לכל מבער בנפרד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישן בטיחות למניעת דליפת גז בכל מבער"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Dropped 'עוצמתי' as marketing wording.",
+   "text": "מבער טורבו לשימוש רציף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כפתורי הפעלה עמידים ונוחים לשליטה מדויקת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ההתקנה מתבצעת על ידי טכנאי גז מורשה בלבד"
+  }
+ ],
+ "content": {
+  "summary": "כיריים גז מובנות של Sol עם 4 מבערי Sabaf ומשטח זכוכית מחוסמת לבנה ללא מסגרת. המבער הגדול מגיע להספק של 3 kW, ולצדו מבערים בינוניים של 1.75 kW ומבער קטן של 1 kW. לכל מבער הצתה אלקטרונית וחיישן בטיחות נגד דליפת גז. מתאימות למטבח ביתי שמחפש כיריים בגוון לבן עם ניקוי קל.",
+  "highlights": [
+   "4 מבערי גז Sabaf",
+   "מבער גדול בהספק 3 kW",
+   "משטח זכוכית מחוסמת ללא מסגרת",
+   "חיישן בטיחות נגד דליפת גז בכל מבער",
+   "הצתה אלקטרונית לכל מבער"
+  ],
+  "goodFor": [
+   "מטבח בעיצוב בהיר שמתאים לו משטח זכוכית לבן",
+   "בישול במקביל על כמה סירים בגדלים שונים",
+   "מי שמעדיף חיישני בטיחות לכל מבער",
+   "הקפצה ובישול מהיר על מבער הטורבו"
+  ],
+  "considerations": [
+   "יש לוודא שפתח החיתוך במשטח הוא 56×49 ס״מ",
+   "המידות החיצוניות הן 58×52 ס״מ – כדאי לבדוק מרווח סביב הכיריים",
+   "ההתקנה והחיבור לגז נעשים על ידי טכנאי גז מורשה בלבד",
+   "להצתה האלקטרונית נדרש שקע חשמל בארון מתחת לכיריים"
+  ],
+  "faq": [
+   {
+    "q": "כמה מבערים יש בכיריים?",
+    "a": "יש 4 מבערי גז מתוצרת Sabaf: מבער גדול של 3 kW, מבער בינוני של 1.75 kW ומבער קטן של 1 kW.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך להתקנה?",
+    "a": "רוחב חיתוך של 56 ס״מ ועומק חיתוך של 49 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני דליפת גז?",
+    "a": "כן, לכל מבער יש חיישן בטיחות למניעת דליפת גז.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשוי המשטח?",
+    "a": "המשטח עשוי זכוכית מחוסמת ללא מסגרת.",
+    "sources": []
+   },
+   {
+    "q": "מי מתקין את הכיריים?",
+    "a": "ההתקנה מתבצעת על ידי טכנאי גז מורשה בלבד.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Sol F6GWWT-446 מזכוכית מחוסמת לבנה, 4 מבערי Sabaf ומבער גדול של 3 kW עם חיישן בטיחות לכל מבער. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז סול",
+   "Sol F6GWWT-446",
+   "כיריים זכוכית לבנה",
+   "כיריים גז 4 מבערים",
+   "כיריים Sabaf",
+   "כיריים גז זכוכית מחוסמת",
+   "כיריים גז מובנות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מבער טורבו",
+   "catalogValue": "3500W",
+   "finding": "corrected",
+   "correctValue": "3 kW",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שני מבערים בינוניים",
+   "catalogValue": "1750W כל אחד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבער קטן",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4 מבערי גז Sabaf",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב חיצוני",
+   "catalogValue": "58 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עומק חיצוני",
+   "catalogValue": "52 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות גומחה",
+   "catalogValue": "56 ס\"מ × 49 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גובה (עומק פנימי)",
+   "catalogValue": "5.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משטח",
+   "catalogValue": "זכוכית לבנה מחוסמת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הצתה",
+   "catalogValue": "הצתה אלקטרונית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיישני בטיחות",
+   "catalogValue": "תרמוקופל לכל מבער",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקור הייצור",
+   "catalogValue": "מיוצר בטורקיה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה מלאה (אחריות יבואן רשמי)",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מבער טורבו",
+   "issue": "הקטלוג מציין מבער טורבו בהספק 3500W, ואתר אבי סופר מציין 3 kW לאותו מבער (בטבלה מופיע כ'מבער גד'). יש לבדוק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מגדיר עומק חיצוני 52 ס\"מ וגובה 5.5 ס\"מ. אתר אבי סופר מסמן 52 כ'אורך' ו-5.5 כ'עומק'. יש לאמת את הכיוון מול מדריך המשתמש או היבואן לפני פרסום מידות החזית.",
+   "severity": "medium"
+  },
+  {
+   "field": "מבער טורבו",
+   "issue": "הקטלוג מציין מבער טורבו 3500W, ואילו דף הקמעונאי מציין 3 kW למבער הגדול. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקמעונאי מסמן את 52 ואת 49 כ'אורך'; פורסמו כעומק בהתאם לקטלוג. הגובה 5.5 ס״מ לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "מקור הייצור",
+   "issue": "ייצור בטורקיה לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Turbo/large burner relabeled 'מבער גדול' (retailer table says 'מבער גד', 3 kW) — conflicts with catalog 3500W, flagged. 'אורך' relabeled as depth (עומק) for outer and niche dimensions per catalog orientation. Warranty value reworded to cite importer."
+ }
+}

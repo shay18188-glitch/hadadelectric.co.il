@@ -1,0 +1,372 @@
+{
+ "modelNumber": "F6GGW-859",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "SOL",
+  "exactModel": "F6GGW-859",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "דף היצרן של SOL מציג את הדגם F6GGW-859 בשם כיריים 4 להבות זכוכית 60 ס״מ. דף הקמעונאי טרקלין חשמל מציין את היבואן שאוליאן סחר. | QA: Manufacturer page sol.co.il names F6GGW-859 as a 60 cm 4-burner glass gas hob; Israeli retailer Traklin names the same model in grey glass."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%91%D7%99%D7%A9%D7%95%D7%9C_%D7%95%D7%90%D7%A4%D7%99%D7%99%D7%94/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D_%D7%92%D7%96/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D_%D7%92%D7%96_4_%D7%9C%D7%94%D7%91%D7%95%D7%AA_sol_%D7%93%D7%92%D7%9D_f6ggw-859_%D7%A1%D7%95%D7%9C_%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA_%D7%90%D7%A4%D7%95%D7%A8%D7%94",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.sol.co.il/products/f6ggw-859",
+   "publisher": "SOL Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "F6GGW-859"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "61 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך (עומק)",
+     "value": "51 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "relabelled to match manufacturer wording",
+     "label": "מידות חיתוך (רוחב × אורך)",
+     "value": "56 × 48-49 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערי גז",
+     "value": "4 מבערי גז SABAF"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספקי מבערים",
+     "value": "מבער קטן 1000 W; שני מבערים בינוניים 1750 W; מבער טורבו 3800 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג משטח",
+     "value": "זכוכית מחוסמת מוגנת חום ללא מסגרת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "אפור"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רשתות",
+     "value": "ברזל יצוק"
+    }
+   ]
+  },
+  {
+   "id": "smart",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "אלקטרונית לכל מבער בנפרד"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בטיחות",
+     "value": "חיישן בטיחות למניעת דליפת גז לכל מבער"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "generic warranty line on retailer page, not product-specific; verify with importer",
+     "label": "אחריות",
+     "value": "שנה מהיבואן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבער טורבו עוצמתי לשימוש רציף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "trimmed unquoted part about flame precision",
+   "text": "כפתורי הפעלה עמידים ונוחים לשימוש"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז SOL דגם F6GGW-859 ברוחב 61 ס״מ, עם משטח זכוכית מחוסמת אפורה ללא מסגרת ו-4 מבערי SABAF. המבערים כוללים מבער טורבו בהספק 3800 W, שני מבערים בינוניים של 1750 W ומבער קטן של 1000 W, עם הצתה אלקטרונית וחיישן בטיחות למניעת דליפת גז בכל מבער. מתאימות למטבח ביתי שמחפש כיריים גז מובנות במראה זכוכית נקי.",
+  "highlights": [
+   "4 מבערי גז SABAF",
+   "מבער טורבו בהספק 3800 W",
+   "משטח זכוכית מחוסמת אפורה ללא מסגרת",
+   "רשתות ברזל יצוק",
+   "חיישן בטיחות למניעת דליפת גז לכל מבער"
+  ],
+  "goodFor": [
+   "בישול מהיר בסירים גדולים על מבער הטורבו",
+   "מטבח שמעוניין במראה זכוכית אפורה ללא מסגרת",
+   "בישול במקביל על כמה מבערים בהספקים שונים",
+   "משפחה שמחשיבה חיישן בטיחות בכל מבער"
+  ],
+  "considerations": [
+   "יש לוודא שפתח החיתוך במשטח הוא 56 × 48-49 ס״מ",
+   "ההתקנה והחיבור לגז צריכים להתבצע על ידי מתקין גז מוסמך",
+   "ההצתה אלקטרונית, ולכן כדאי לוודא שקע חשמל ליד מקום ההתקנה",
+   "יש לבדוק שהמשטח במטבח מתאים לרוחב חיצוני של 61 ס״מ ואורך של 51 ס״מ"
+  ],
+  "faq": [
+   {
+    "q": "כמה מבערים יש בכיריים?",
+    "a": "4 מבערי גז SABAF: מבער קטן של 1000 W, שני מבערים בינוניים של 1750 W ומבער טורבו של 3800 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך להתקנה?",
+    "a": "רוחב 56 ס״מ ואורך 48-49 ס״מ, לפי היצרן.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני דליפת גז?",
+    "a": "כן, בכל מבער יש חיישן בטיחות למניעת דליפת גז.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויים המשטח והרשתות?",
+    "a": "המשטח מזכוכית מחוסמת מוגנת חום ללא מסגרת, והרשתות מברזל יצוק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז SOL F6GGW-859 בזכוכית מחוסמת אפורה: 4 מבערי SABAF עם מבער טורבו 3800 W וחיישן בטיחות לכל מבער. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז SOL",
+   "F6GGW-859",
+   "כיריים גז זכוכית אפורה",
+   "כיריים גז 60 ס\"מ",
+   "כיריים 4 להבות זכוכית",
+   "כיריים גז מבער טורבו",
+   "כיריים SOL זכוכית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "brand",
+   "catalogValue": "Sol exlusive",
+   "finding": "corrected",
+   "correctValue": "SOL",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר מבערי גז",
+   "catalogValue": "4 מבערי SABAF",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספקי מבערים",
+   "catalogValue": "1000W, 1750W, 3800W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 61 ס\"מ, אורך (עומק) 51 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גובה/עומק",
+   "catalogValue": "2 ס\"מ (מידה חיצונית)",
+   "finding": "contradicted",
+   "correctValue": "עומק 2 ס״מ מופיע תחת מידות חיתוך",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיתוך",
+   "catalogValue": "רוחב 56 ס\"מ, אורך 48-49 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רשתות",
+   "catalogValue": "ברזל יצוק",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הצתה",
+   "catalogValue": "אלקטרונית לכל מבער",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חיישני בטיחות",
+   "catalogValue": "חיישני טרמוקופל בכל מבער",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V (עבור ההצתה)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "גובה/עומק",
+   "issue": "הקטלוג מציג עומק 2 ס״מ כמידה חיצונית, אבל דף היצרן מציג 2 ס״מ תחת מידות חיתוך. יש לבדוק את המידה החיצונית האמיתית.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "שורת האחריות בדף הקמעונאי טרקלין חשמל מופיעה ככלל לכמה מוצרים ולא בטבלת המוצר. יש לאמת את תקופת האחריות מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "שם המותג בקטלוג 'Sol exlusive' שונה מהשם בדף היצרן SOL.",
+   "severity": "low"
+  },
+  {
+   "field": "גובה/עומק",
+   "issue": "הקטלוג מציג 2 ס״מ כמידה חיצונית, אבל דף היצרן מציג 2 ס״מ תחת מידות חיתוך. יש לבדוק את המידה החיצונית האמיתית.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות לא פורסמה: שורת האחריות בדף הקמעונאי כללית ולא ייעודית למוצר. יש לאמת מול היבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact (fact 11): the retailer warranty line appears as a generic line for several products rather than in this product's spec table. Relabelled cut-out dimensions fact. Catalog brand spelling 'Sol exlusive' differs from manufacturer 'SOL'. Catalog lists 2 cm as an external height, but the manufacturer page places 2 cm under cut-out dimensions; not published."
+ }
+}

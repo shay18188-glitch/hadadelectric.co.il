@@ -1,0 +1,328 @@
+{
+ "modelNumber": "ESE155",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sassonic",
+  "exactModel": "ESE155",
+  "israeliImporter": "אליאס",
+  "matchConfidence": "high",
+  "notes": "לא נמצא דף יצרן או יבואן. הנתונים מעמודי קמעונאים ישראליים בלבד. בעמוד אחד השם מופיע כ-ESE-155, ובעמוד אחר כ-ese155. | QA: Retailer pages name Sassonic ESE-155 / ese155, a body groomer matching the catalog name. No manufacturer or importer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://ndbarber.com/product/sassonic-ese-155/",
+   "publisher": "ברבר הום 154 - Barber Home",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Sassonic"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה חיתוך הסכין",
+     "value": "0.2 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורכי קיצוץ במסרקים",
+     "value": "3,6,9,12 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עמידות למים",
+     "value": "IPX7"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צג",
+     "value": "צג דיגיטלי לחיווי מצב הסוללה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מיועד ל",
+     "value": "גברים ונשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סכין קרמית עדינה לעבודה באזורים עדינים ואינטימיים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עמידה במים לשימוש במקלחת תחת מים זורמים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעמד טעינה המסופק עם המכשיר"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "wording",
+   "text": "זוג מסרקי הגבהה לקיצוץ באורכים 3, 6, 9, 12 מ״מ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מעמד טעינה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Sassonic ESE155 היא מכונת תספורת וקיצוץ לשיער הגוף, המיועדת לגברים ונשים. מתאימה למי שמחפש מכונה אחת לטיפוח הגוף, יבש או במקלחת.",
+  "highlights": [
+   "סכין קרמית עדינה לאזורים רגישים",
+   "עמידות למים IPX7 – שימוש במקלחת תחת מים זורמים",
+   "צג דיגיטלי לחיווי מצב הסוללה",
+   "מעמד טעינה כלול"
+  ],
+  "goodFor": [
+   "קיצוץ שיער גוף באזורים עדינים ואינטימיים",
+   "מי שמעדיף לבצע טיפוח במקלחת",
+   "בית שבו גבר ואישה משתמשים באותה מכונה",
+   "מי שרוצה לשלוט באורך השיער בעזרת מסרקים"
+  ],
+  "considerations": [
+   "המכונה נטענת על מעמד טעינה – כדאי לתכנן מקום קבוע למעמד ליד שקע",
+   "גובה החיתוך של הסכין הוא 0.2 מ״מ, כך שהיא מיועדת לקיצוץ קצר ולא לגילוח חלק לגמרי",
+   "יש לוודא מול המוכר את תקופת האחריות, שכן המידע בחנויות שונות אינו אחיד"
+  ],
+  "faq": [
+   {
+    "q": "אפשר להשתמש במכונה במקלחת?",
+    "a": "כן. המכונה עמידה למים בתקן IPX7 וניתן להשתמש בה במקלחת תחת מים זורמים.",
+    "sources": []
+   },
+   {
+    "q": "האם היא מתאימה לאזורים אינטימיים?",
+    "a": "כן. היא כוללת סכין קרמית עדינה המיועדת לעבודה באזורים עדינים ואינטימיים.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים מתי צריך לטעון?",
+    "a": "במכונה צג דיגיטלי המציג את מצב הסוללה, והטעינה נעשית על מעמד הטעינה המסופק.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת תספורת לגוף Sassonic ESE155 עם סכין קרמית עדינה ועמידות למים IPX7 לשימוש במקלחת, לגברים ונשים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sassonic ESE155",
+   "ססוניק ESE-155",
+   "מכונת תספורת לגוף",
+   "מכונת קיצוץ לגוף עמידה במים",
+   "מכונת גילוח לאזורים אינטימיים",
+   "מכונת תספורת לגוף לנשים",
+   "בודי גרומר ססוניק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Sassonic",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "להב",
+   "catalogValue": "להב קרמי עדין",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמידות למים",
+   "catalogValue": "IPX7",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג",
+   "catalogValue": "צג דיגיטלי (LCD) לחיווי מצב הסוללה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמדת טעינה",
+   "catalogValue": "עמדת טעינה ייעודית (Dock)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסרקים",
+   "catalogValue": "שני מסרקי הגבהה דו-צדדיים במידות 3 מ\"מ, 6 מ\"מ, 9 מ\"מ ו-12 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "סוללת ליתיום נטענת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שימוש רטוב",
+   "catalogValue": "עבודה במצב רטוב (Wet & Dry)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אזורי שימוש",
+   "catalogValue": "חזה, גב, בית השחי ומפשעה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יבואן רשמי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "אליאס",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אחריות",
+   "issue": "עמודי הקמעונאים סותרים: שופ אלקטרונז כותב שנתיים אחריות, וברבר הום כותב שנה אחריות. לא נרשם ערך אחריות בעובדות.",
+   "severity": "high"
+  },
+  {
+   "field": "מקור",
+   "issue": "לא נמצא דף יצרן, יבואן או מדריך למשתמש. כל העובדות מקורן בעמודי קמעונאים ישראליים.",
+   "severity": "medium"
+  },
+  {
+   "field": "צג",
+   "issue": "הקטלוג מציין צג LCD, והעמודים מציינים רק צג דיגיטלי ללא סוג הצג.",
+   "severity": "low"
+  },
+  {
+   "field": "מסרקים",
+   "issue": "הקטלוג מציין מסרקים דו-צדדיים, ואף עמוד שנבדק לא מציין זאת.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות או משקל של המכשיר בעמודים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "קמעונאים ישראליים סותרים לגבי תקופת האחריות; לא פורסם ערך.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "כל העובדות מבוססות על עמוד קמעונאי ישראלי אחד; לא נמצא דף יצרן או יבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "קטלוג",
+   "issue": "הקטלוג מציין צג LCD, מסרקים דו-צדדיים וסוללת ליתיום – לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts rest on a single Israeli retailer page (ndbarber.com) naming ESE-155. Minor wording fixes in the box items. Warranty conflict between retailers left unpublished. | code guard removed: fact 2 QA value \"3, 6, 9, 12 מ״מ\" not supported by quotes; kept \"3,6,9,12 מ״מ\"; summary: \"יש לה סכין קרמית עדינה לעבודה באזורים עדינים ואינטימיים, עמידות למים בתקן IPX7 לשימוש במקלחת, וזוג מסרקי הגבהה לקיצוץ באורכים 3, 6, 9 ו-12 מ״מ.\"; faq: \"אילו אורכי קיצוץ אפשר לקבל?\"; highlight: \"מסרקים לאורכי קיצוץ 3, 6, 9, 12 מ״מ\""
+ }
+}

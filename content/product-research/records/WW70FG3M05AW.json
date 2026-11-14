@@ -1,0 +1,492 @@
+{
+ "modelNumber": "WW70FG3M05AW",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "WW70FG3M05AW",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "הדגם WW70FG3M05AW מופיע בתווית האנרגיה של האיחוד האירופי כ-Model identifier. מוכרים ישראלים מציגים את אותו דגם עם הסיומת LE (WW70FG3M05AWLE). | QA: Soferavi names WW70FG3M05AW directly; CityDeal sells WW70FG3M05AWLE (Israeli suffix) and the EU energy sheet is WW70FG3M05AWLF, same base model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%9B%D7%91%D7%99%D7%A1%D7%94-%D7%A4%D7%AA%D7%97-%D7%97%D7%96%D7%99%D7%AA-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-%E2%81%A6ww70fg3m05aw%E2%81%A9/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/samsung-ww70fg3m05awle",
+   "publisher": "סיטי דיל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://images.samsung.com/is/content/samsung/p6/common/energylabel/common-energylabel-ww70fg3m05awlf-productfiche.pdf",
+   "publisher": "Samsung EU energy label (product information sheet)",
+   "kind": "regulator",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Depth dropped pending check: sources reportedly disagree (45.5 vs 49.5 cm)",
+     "label": "מידות (רוחב × גובה)",
+     "value": "59.5 × 85 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "57 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת כביסה",
+     "value": "7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות סחיטה מקסימלית",
+     "value": "1400 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "Digital Inverter Motor"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת מים למחזור",
+     "value": "45 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תוכניות",
+     "value": "12"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית היגיינה (קיטור)",
+     "value": "Hygiene Steam לחיטוי 99.9% מחיידקים"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכנית כביסה מהירה",
+     "value": "15 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סיום מושהה",
+     "value": "עד 24 שעות קדימה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Conditional on purchase date per source; not safe to publish unconditionally",
+     "label": "אחריות מנוע אינוורטר",
+     "value": "10 שנים"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנת אחריות יבואן רשמי + 3 שנות שירות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תצוגה",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רעש בזמן סחיטה",
+     "value": "76 dB"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שקילה אוטומטית רציפה על ידי מנוע דיגיטל אינוורטר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית Drum Clean לניקוי התוף והדוד של המכונה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יש להתקין את המכונה עם מרווח מהקיר האחורי"
+  }
+ ],
+ "content": {
+  "summary": "מכונת כביסה פתח קדמי של Samsung, דגם WW70FG3M05AW, בקיבולת 7 ק״ג ובצבע לבן. היא סוחטת עד 1400 סל״ד, מדורגת A בדירוג האנרגטי ומשתמשת במנוע Digital Inverter. מתאימה למי שמחפש מכונה בקיבולת בינונית עם תוכנית קיטור Hygiene Steam ותוכנית מהירה של 15 דקות.",
+  "highlights": [
+   "קיבולת כביסה 7 ק״ג",
+   "סחיטה עד 1400 סל״ד",
+   "דירוג אנרגטי A",
+   "תוכנית Hygiene Steam לחיטוי 99.9% מחיידקים",
+   "תוכנית כביסה מהירה של 15 דקות"
+  ],
+  "goodFor": [
+   "מי שרוצה לחטא מצעים ובגדים בעזרת תוכנית קיטור",
+   "כביסה קלה ומהירה של פריטים בודדים בתוכנית של 15 דקות",
+   "מי שרוצה לתזמן את סיום הכביסה עד 24 שעות קדימה",
+   "מי שמחפש סחיטה חזקה לייבוש מהיר יותר של הכביסה"
+  ],
+  "considerations": [
+   "רוחב המכונה 59.5 ס״מ וגובהה 85 ס״מ; כדאי למדוד את הנישה ולוודא את העומק מול היבואן לפני הרכישה",
+   "יש להשאיר מרווח בין גב המכונה לקיר האחורי",
+   "משקל המכונה 57 ק״ג, כדאי לתכנן את ההובלה וההצבה בהתאם",
+   "רמת הרעש בזמן סחיטה היא 76 dB, שווה לקחת זאת בחשבון אם המכונה מוצבת ליד חדרי שינה"
+  ],
+  "faq": [
+   {
+    "q": "מה הקיבולת של Samsung WW70FG3M05AW?",
+    "a": "קיבולת הכביסה היא 7 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "מה מהירות הסחיטה המקסימלית?",
+    "a": "המכונה סוחטת עד 1400 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים המכונה צורכת למחזור?",
+    "a": "צריכת המים היא 45 ליטר למחזור כביסה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש תוכנית קצרה?",
+    "a": "כן, יש תוכנית כביסה מהירה של 15 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "שנת אחריות יבואן רשמי ועוד 3 שנות שירות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת כביסה Samsung WW70FG3M05AW בקיבולת 7 ק״ג, סחיטה עד 1400 סל״ד ודירוג אנרגטי A, עם תוכנית קיטור Hygiene Steam. בחדד אלקטריק נהריה",
+  "keywords": [
+   "WW70FG3M05AW",
+   "סמסונג WW70FG3M05AW",
+   "מכונת כביסה סמסונג 7 קג",
+   "מכונת כביסה 7 קג 1400 סלד",
+   "מכונת כביסה פתח קדמי סמסונג",
+   "מכונת כביסה עם קיטור",
+   "WW70FG3M05AWLE"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות סחיטה מקסימלית",
+   "catalogValue": "1400 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A (לפי תקן אירופאי חדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "LED",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות (רוחב x גובה x עומק)",
+   "catalogValue": "595 x 850 x 455 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נקי",
+   "catalogValue": "57 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "Digital Inverter Motor",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת מים למחזור",
+   "catalogValue": "כ-45 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכנית Hygiene Steam",
+   "catalogValue": "99.9% מהבקטריות והאלרגנים",
+   "finding": "corrected",
+   "correctValue": "99.9% מחיידקים",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכנית כביסה מהירה",
+   "catalogValue": "15 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סיום מושהה (Delay End)",
+   "catalogValue": "קביעת זמן סיום הכביסה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוף Diamond Drum",
+   "catalogValue": "מונע שחיקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תדר",
+   "catalogValue": "50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "מנגנון נעילת ילדים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שקילה אוטומטית",
+   "catalogValue": "מערכת שקילה אוטומטית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "מוכרים ישראלים (סיטי דיל) מציגים את הדגם כ-WW70FG3M05AWLE עם סיומת LE. תווית האנרגיה של האיחוד האירופי מציגה את WW70FG3M05AW. יש לוודא שהיחידה שהיבואן מייבא היא אותו דגם.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "סיטי דיל מציג עומק של 495 מ\"מ, ואילו אבי סופר מציג 45.5 ס\"מ (מתאים לקטלוג 455 מ\"מ). יש לבדוק את המידה לפני התקנה בנישה.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות מנוע",
+   "issue": "סיטי דיל מציין שאחריות 10 השנים על מנוע האינוורטר חלה רק על מכונות שנרכשו החל מ-4 בינואר 2026. יש לוודא את תנאי האחריות מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "עומק",
+   "issue": "לפי החוקר, סיטי דיל מציג עומק 495 מ״מ ואבי סופר 45.5 ס״מ (כמו בקטלוג). העומק לא פורסם; יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "מוכרים ישראלים מציגים את הדגם עם הסיומת LE (WW70FG3M05AWLE); יש לוודא שזו היחידה שהיבואן מייבא.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות מנוע",
+   "issue": "אחריות 10 שנים על המנוע לפי המקור חלה רק ממועד רכישה מסוים, ולכן לא פורסמה; יש לאמת מול היבואן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions published as width × height only because the researcher reports another Israeli retailer lists a different depth (495 vs 455 mm); depth needs a human check. Rejected the 10-year inverter motor warranty because the source says it applies only to units bought from a specific date. Sources kept as il-retailer and regulator."
+ }
+}

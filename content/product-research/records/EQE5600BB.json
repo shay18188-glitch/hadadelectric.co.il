@@ -1,0 +1,575 @@
+{
+ "modelNumber": "EQE5600BB",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EQE5600BB",
+  "israeliImporter": "מיניליין",
+  "matchConfidence": "high",
+  "notes": "מקרר 4 דלתות, מקפיא תחתון, דגם ישראלי 572 ליטר. גרסאות הודיות EQE5600B-B/B-S בנפח 564 ליטר אינן עדות לדגם זה. | QA: Both the Electrolux Israel page and an Israeli retailer page name EQE5600BB, 4 doors, bottom freezer, 572 liters, matching the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.one-shop.co.il/items/7997641-%D7%9E%D7%A7%D7%A8%D7%A8-4-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-Electrolux-EQE5600BB-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-572-%D7%9C%D7%99%D7%98%D7%A8-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%9E%D7%95%D7%A9%D7%97%D7%A8%D7%AA-%D7%9E%D7%94%D7%93%D7%A8%D7%99%D7%9F-%D7%A9%D7%91%D7%AA",
+   "publisher": "One Shop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electrolux.co.il/product/kitchen/cooling/%D7%9E%D7%A7%D7%A8%D7%A8-4-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-eventemp-%D7%9E%D7%A1%D7%93%D7%A8%D7%AA-ultimatetaste-700-%D7%93%D7%92%D7%9D-eqe5600bb/",
+   "publisher": "Electrolux Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג",
+     "value": "מקרר 4 דלתות, מקפיא תחתון"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "ok quote from One Shop; manufacturer quote shows 414+158",
+     "label": "נפח כולל",
+     "value": "572 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "414 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "158 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "from 1790x900x730 mm; extra 650 figure unexplained",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "90 × 179 × 73 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מעבר דלת מינימלי לאחר פירוק הדלת",
+     "value": "66 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דירוג אנרגטי (לפי התקן החדש)",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת אנרגיה שנתית",
+     "value": "314 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "נירוסטה מושחרת מוברשת"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מדחס",
+     "value": "אינוורטר NutriFresh"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י מיניליין היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed vegetable-life claim",
+   "text": "מדחס אינוורטר NutriFresh לשמירה על טמפרטורה יציבה בתא המזון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת קירור EvenTemp לטמפרטורה אחידה בכל תא ובכל מדף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת שבת מהדרין מובנית, באישור המכון המדעי הטכנולוגי להלכה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "humidity control not in quote",
+   "text": "2 מגירות פירות וירקות TasteLockAUTO"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגירות ירקות SpacePlus גדולות ושקופות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "auto-return not in quote",
+   "text": "פונקציית QuickChill לקירור מהיר של מזון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית QuickFreeze להקפאה מהירה של כמות גדולה של פריטים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית DrinkChill לקירור מהיר של משקאות, עם טיימר 20 עד 45 דקות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מדפים גמישים FlexSpace לסידור לפי הצורך"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פיקוד דיגיטלי בתא המזון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאי אחסון מודולריים בדלת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידיות ארגונומיות שקועות לפתיחה קלה של הדלתות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "2 רגליות מתכווננות מלפנים ו־2 גלגלים קבועים"
+  }
+ ],
+ "content": {
+  "summary": "Electrolux EQE5600BB הוא מקרר 4 דלתות עם מקפיא תחתון בנפח כולל של 572 ליטר, מהם 414 ליטר בתא הקירור ו־158 ליטר בתא ההקפאה. הוא מגיע בגימור נירוסטה מושחרת מוברשת, עם מדחס אינוורטר NutriFresh ומערכת שבת מהדרין מובנית. מתאים למי שמחפש מקרר רחב עם תא הקפאה נפרד גדול ומצב שבת.",
+  "highlights": [
+   "נפח כולל 572 ליטר: 414 ליטר קירור ו־158 ליטר הקפאה",
+   "מערכת שבת מהדרין מובנית",
+   "מדחס אינוורטר NutriFresh",
+   "צריכת אנרגיה שנתית 314 קוט״ש",
+   "מידות 90 × 179 × 73 ס״מ"
+  ],
+  "goodFor": [
+   "משפחות שמאחסנות כמות גדולה של מזון קפוא, בזכות תא הקפאה של 158 ליטר",
+   "בתים שומרי שבת, בזכות מערכת שבת מהדרין מובנית",
+   "מי שקונה הרבה פירות וירקות, עם 2 מגירות TasteLockAUTO ומגירות SpacePlus שקופות"
+  ],
+  "considerations": [
+   "יש לוודא שהנישה במטבח מתאימה לרוחב 90 ס״מ, גובה 179 ס״מ ועומק 73 ס״מ",
+   "יש למדוד את פתחי הדלתות בדרך למטבח: מעבר מינימלי של 66 ס״מ לאחר פירוק הדלת",
+   "דירוג האנרגיה לפי התקן החדש הוא E, עם צריכה שנתית של 314 קוט״ש"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 572 ליטר: 414 ליטר בתא הקירור ו־158 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, יש מערכת שבת מהדרין מובנית באישור המכון המדעי הטכנולוגי להלכה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 90 ס״מ, גובה 179 ס״מ ועומק 73 ס״מ. מעבר הדלת המינימלי לאחר פירוק הדלת הוא 66 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל?",
+    "a": "צריכת האנרגיה השנתית היא 314 קוט״ש, ודירוג האנרגיה לפי התקן החדש הוא E.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה, ע״י מיניליין היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר 4 דלתות Electrolux EQE5600BB, 572 ליטר עם מקפיא תחתון של 158 ליטר ומערכת שבת מהדרין, נירוסטה מושחרת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Electrolux EQE5600BB",
+   "מקרר אלקטרולוקס 4 דלתות",
+   "מקרר 4 דלתות מקפיא תחתון",
+   "מקרר נירוסטה מושחרת",
+   "מקרר 572 ליטר",
+   "מקרר שבת מהדרין 4 דלתות",
+   "EQE5600BB"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "נפח ברוטו כולל: 634 ליטר; נפח נטו כולל: 564 ליטר",
+   "finding": "contradicted",
+   "correctValue": "572 ליטר נפח כולל",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "179.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "179 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "89.6 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "90 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "72.6 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "73 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "contradicted",
+   "correctValue": "E",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שם המוצר (572 ליטר)",
+   "catalogValue": "מקרר 4 דלתות 572 ליטר 2 מגירות נירוסטה מושחרת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה מושחרת (Matte Black)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דלתות",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "NutriFresh Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מצב שבת מובנה",
+   "catalogValue": "מצב שבת מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת קירור EvenTemp",
+   "catalogValue": "EvenTemp לפיזור אוויר אחיד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מגירות TasteLockAuto",
+   "catalogValue": "מגירות TasteLockAuto עם בקרת לחות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "לוח בקרה דיגיטלי",
+   "catalogValue": "לוח בקרה דיגיטלי חיצוני עם לחצני מגע",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "101 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח ותדר",
+   "catalogValue": "220-240V; 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R600a",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת NoFrost",
+   "catalogValue": "מערכת NoFrost למניעת הצטברות קרח",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מסנן TasteGuard",
+   "catalogValue": "מסנן TasteGuard מבוסס פחם לנטרול ריחות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורת LED פנימית",
+   "catalogValue": "תאורת LED פנימית היקפית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "158 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "414 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה (יבואן רשמי)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מעבר דלת מינימלי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "66 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח",
+   "issue": "הקטלוג מציין נפח ברוטו 634 ליטר ונטו 564 ליטר, שהם נתוני גרסה הודית EQE5600B-B. הדגם הישראלי EQE5600BB מצוין כ-572 ליטר נפח כולל אצל היצרן ובאתר הישראלי.",
+   "severity": "high"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין A, בעוד שהיצרן והמשווק הישראלי מציינים E לפי התקן החדש.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג (179.5 / 89.6 / 72.6 ס״מ) אינו תואם למידות היצרן (1790 × 900 × 730 מ״מ). בעמוד מופיע גם עומק נוסף של 650 מ״מ ללא הסבר, ייתכן עומק ללא ידיות או ללא דלתות; יש לבדוק לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל, מתח, גז קירור, רעש",
+   "issue": "לא נמצא דף אימות לדגם המדויק EQE5600BB עבור משקל, מתח, סוג גז קירור ורמת רעש. המקורות שנמצאו (משקל 101 ק״ג, רעש 42 dB) מתייחסים לגרסאות הודיות EQE5600B-B/B-S, ולכן לא נכללו כעובדות.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה",
+   "issue": "קיימות גרסאות הודיות בשם דומה (EQE5600B-B, EQE5600B-S) בנפח 564 ליטר. יש לוודא את הסיומת על המדבקה של היחידה לפני מכירה.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח",
+   "issue": "הקטלוג מציין ברוטו 634 ונטו 564 ליטר, בעוד היצרן והמשווק הישראלי מציינים 572 ליטר (414+158). יש לעדכן את המפרט בקטלוג.",
+   "severity": "high"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "הקטלוג מציין A, היצרן מציין E לפי התקן החדש.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "בעמוד המשווק מופיע ערך נוסף של 650 מ״מ ללא הסבר (אולי עומק ללא ידיות). המידות בקטלוג (179.5 / 89.6 / 72.6) שונות מעט מ־1790 × 900 × 730 מ״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסה",
+   "issue": "קיימות גרסאות זרות בשם דומה (EQE5600B-B, EQE5600B-S) בנפח אחר; משקל, מתח, גז קירור, NoFrost, TasteGuard ותאורת LED בקטלוג לא אומתו לדגם הישראלי.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 1 kept on the One Shop quote (the manufacturer quote failed the number check). Energy label clarified as the new-standard rating. Warranty value reworded to name the importer. Features 0, 3 and 5 trimmed to what the quotes actually say (removed vegetable-life claim, humidity-control claim and automatic return to normal cooling). Dimensions kept from the 1790x900x730 figures; the extra 650 mm figure is unexplained and flagged."
+ }
+}

@@ -1,0 +1,501 @@
+{
+ "modelNumber": "R-709W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "R-709W",
+  "israeliImporter": "ראלקו ישראל",
+  "matchConfidence": "high",
+  "notes": "דף היבואן הרשמי מציין את הדגם R-709W. אתר של מוכר (zabilo.com) מציין דגם R-709WH ורוחב 51.5 ס״מ, ולכן נא לאמת את סיומת הדגם והמידות מול היבואן. | QA: Official Sharp Israel importer page for R-709W, matching the catalog's 25 L white microwave-grill."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sharp-israel.co.il/shop/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C%D7%99%D7%9D/r-709w/",
+   "publisher": "שארפ ישראל (ראלקו)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח",
+     "value": "25 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "900 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק גריל עליון",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות עוצמה",
+     "value": "11 עוצמות חום"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "31.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "51.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "31 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק",
+     "value": "40 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Importer page also lists 3 combined programs; count unclear.",
+     "label": "תכניות בישול משולב",
+     "value": "2 תכניות לבישול משולב"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי משקל ולפי זמן"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote supports Hebrew panel only.",
+     "label": "לוח פיקוד",
+     "value": "פאנל הפעלה בעברית"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן בשילוב שחור"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Opening method not in this quote; covered by feature 5.",
+     "label": "דלת",
+     "value": "זכוכית בצבע לבן"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed 'quartz' — not in quote.",
+   "text": "מיקרוגל משולב גריל עם 11 עוצמות חום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "עוצמת OP להפגת ריחות – המאוורר פועל ללא גופי חימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תכניות אוטומטיות להכנת פופקורן, תפוח אדמה, ירקות קפואים, חימום משקאות, מנת ארוחת ערב ואפיית פיצה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed 'even heating' claim not in quote.",
+   "text": "גלי מיקרו ממורכזים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פאנל הפעלה בעברית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פתיחת דלת בלחיצת כפתור"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דורש אוורור – לא ניתן להתקין בנישה סגורה"
+  }
+ ],
+ "content": {
+  "summary": "Sharp R-709W הוא מיקרוגל משולב גריל בנפח 25 ליטר, בצבע לבן בשילוב שחור. הספק המיקרוגל 900 W והגריל העליון 1000 W, עם 11 עוצמות חום ופאנל הפעלה בעברית. מתאים למי שרוצה לחמם, להפשיר ולהשחים במכשיר אחד שעומד על השיש.",
+  "highlights": [
+   "נפח 25 ליטר",
+   "הספק מיקרוגל 900 W וגריל עליון 1000 W",
+   "11 עוצמות חום",
+   "צלחת מסתובבת בקוטר 31.5 ס״מ",
+   "פאנל הפעלה בעברית"
+  ],
+  "goodFor": [
+   "מטבח שבו רוצים מיקרוגל וגריל במכשיר אחד להשחמה",
+   "הפשרה מהירה לפי משקל או לפי זמן",
+   "מי שמעדיף ממשק הפעלה בעברית",
+   "הכנה מהירה של פופקורן, פיצה וירקות קפואים בתכניות אוטומטיות"
+  ],
+  "considerations": [
+   "מידות המכשיר 51.3×31×40 ס״מ – כדאי למדוד את המקום על השיש",
+   "לא ניתן להתקין בנישה סגורה – יש להשאיר מרווח אוורור סביב המכשיר",
+   "יש לוודא שקע חשמל זמין קרוב למקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Sharp R-709W?",
+    "a": "נפח המיקרוגל הוא 25 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בו גריל?",
+    "a": "כן, זהו מיקרוגל משולב גריל עליון בהספק 1000 W, לצד הספק מיקרוגל של 900 W.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להכניס אותו לנישה?",
+    "a": "לא לנישה סגורה. המכשיר חייב אוורור.",
+    "sources": []
+   },
+   {
+    "q": "האם הפאנל בעברית?",
+    "a": "כן, פאנל ההפעלה בעברית.",
+    "sources": []
+   },
+   {
+    "q": "אילו אפשרויות הפשרה יש?",
+    "a": "הפשרה לפי משקל והפשרה לפי זמן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל משולב גריל Sharp R-709W בנפח 25 ליטר, הספק מיקרוגל 900 W וגריל עליון 1000 W, 11 עוצמות חום ופאנל בעברית. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sharp R-709W",
+   "מיקרוגל שארפ R-709W",
+   "מיקרוגל משולב גריל 25 ליטר",
+   "מיקרוגל שארפ לבן",
+   "מיקרוגל עם גריל",
+   "מיקרוגל דיגיטלי 25 ליטר",
+   "מיקרוגל פאנל עברית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "25 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "900W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גריל",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות עוצמה",
+   "catalogValue": "11 רמות חום לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "31.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לוח פיקוד",
+   "catalogValue": "דיגיטלי עם פאנל הפעלה בעברית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "צג LCD חיצוני",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "51.3 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "30.6 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "31 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "39.8 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "40 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פתיחת דלת",
+   "catalogValue": "באמצעות לחצן (Push)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר תכניות אוטומטיות",
+   "catalogValue": "8 תוכניות בישול אוטומטיות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תכניות בישול משולבות",
+   "catalogValue": "2 תוכניות בישול משולבות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הפשרה",
+   "catalogValue": "הפשרה אוטומטית לפי זמן או משקל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פונקציית OP",
+   "catalogValue": "הפגת ריחות באמצעות מאוורר ללא חימום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "נעילת בטיחות לילדים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר ושעון",
+   "catalogValue": "טיימר ושעון דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית גלי מיקרו",
+   "catalogValue": "מגנטרון וגלי מיקרו ממורכזים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן (בשם המוצר)",
+   "finding": "missing-added",
+   "correctValue": "לבן בשילוב שחור",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "אתר המוכר zabilo.com מציין רוחב 51.5 ס״מ ודגם R-709WH, בעוד דף היבואן מציין רוחב 51.3 ס״מ ודגם R-709W. יש לאמת את המידה ואת סיומת הדגם לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "גובה ועומק בקטלוג",
+   "issue": "הקטלוג מציין גובה 30.6 ס״מ ועומק 39.8 ס״מ; דף היבואן מציין 31 ס״מ ו-40 ס״מ. יש לעדכן את שדות המידות בקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכניות",
+   "issue": "דף היבואן סותר את עצמו: בתיאור מופיעות 2 תכניות לבישול משולב, ברשימת המאפיינים מופיעות 3 תכניות משולבות ו-3 תכניות הפשרה אוטומטיות. מספר התכניות האוטומטיות בקטלוג (8) לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מדינת ייצור",
+   "issue": "לא נמצא מקור לאישור מדינת הייצור (סין) בדפים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "אתר מוכר אחר מציין רוחב 51.5 ס״מ ודגם R-709WH, בעוד דף היבואן מציין 51.3 ס״מ ו-R-709W. יש לאמת סיומת דגם ומידה.",
+   "severity": "medium"
+  },
+  {
+   "field": "גובה ועומק בקטלוג",
+   "issue": "הקטלוג מציין גובה 30.6 ס״מ ועומק 39.8 ס״מ; דף היבואן מציין 31 ס״מ ו-40 ס״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "תכניות",
+   "issue": "דף היבואן סותר את עצמו לגבי מספר תכניות הבישול המשולב (2 מול 3). מספר התכניות האוטומטיות בקטלוג (8) לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "נעילת ילדים / טיימר / מדינת ייצור",
+   "issue": "נעילת בטיחות לילדים, טיימר ושעון ומדינת הייצור שבקטלוג לא אומתו במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 8 (2 combined programs): the importer page reportedly also lists 3 combined programs, so the count is self-contradictory. Fact 12 trimmed to the white glass door (push-button opening kept as a feature). Feature 0 reworded: the quote does not say quartz."
+ }
+}

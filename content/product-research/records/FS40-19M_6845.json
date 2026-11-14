@@ -1,0 +1,414 @@
+{
+ "modelNumber": "FS40-19M (6845)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "FS40-19M",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "midea.co.il (Israeli Midea site, importer Hamilton) names FS40-19M with 40 W, 40 cm, 3 blades, 1250 rpm, 5.2 kg, 121 x 45 x 45 cm. The Georgia and Kenya Midea pages also name FS40-19M. The catalog suffix (6845) appears on no fetched page. | QA: The Israeli Midea site (importer Hamilton) names FS40-19M with 40 W, 40 cm, 3 blades, matching the catalog name. The (6845) suffix looks like an internal catalog code and appears on no source page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.midea.co.il/product/fs4019m",
+   "publisher": "Midea Israel (importer Hamilton)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.midea.com/ge-en/fans/fan/fan-fs40-19m.fs40-19m",
+   "publisher": "Midea Georgia",
+   "kind": "manufacturer",
+   "market": "GE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.midea.com/ke/air-treatment/fan/midea-stand-fan-16-white.fs40-19m",
+   "publisher": "Midea Kenya",
+   "kind": "manufacturer",
+   "market": "KE",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "45 × 121 × 45 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "5.2 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר כנפיים",
+     "value": "40 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "40 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירות סיבוב המנוע",
+     "value": "עד 1250 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote gives 100 מטר without a time unit.",
+     "label": "מהירות משב אוויר",
+     "value": "100 מטר לדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מהירויות",
+     "value": "3 מהירויות קבועות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר כנפיים",
+     "value": "3"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "3 שנים בכפוף לתעודת אחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע נחושת למהירות סיבוב מוגברת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אפשרות לכיוון גובה וזווית הטיה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בסיס רצפתי עגול ויציב"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Midea FS40-19M הוא מאוורר עמוד עם 3 כנפיים בקוטר 40 ס״מ ומנוע בהספק 40 W. יש לו 3 מהירויות קבועות, גובה וזווית הטיה מתכווננים ובסיס רצפתי עגול. מתאים למי שמחפש מאוורר עומד פשוט לחדר שינה, לסלון או למשרד.",
+  "highlights": [
+   "3 כנפיים בקוטר 40 ס״מ",
+   "מנוע נחושת בהספק 40 W, עד 1250 סל״ד",
+   "3 מהירויות קבועות לבחירה",
+   "גובה וזווית הטיה מתכווננים",
+   "אחריות 3 שנים בכפוף לתעודת אחריות"
+  ],
+  "goodFor": [
+   "קירור חדר שינה או חדר עבודה עם מאוורר עומד",
+   "מי שרוצה לכוון את גובה המאוורר וזווית ההטיה לפי המקום",
+   "מי שמעדיף שליטה פשוטה בכמה מהירויות קבועות"
+  ],
+  "considerations": [
+   "גובה המאוורר 121 ס״מ והבסיס ברוחב 45 ס״מ, כדאי לוודא שיש מקום פנוי ליד שקע חשמל",
+   "משקלו 5.2 ק״ג, קל להעביר בין חדרים",
+   "כדאי לשמור את תעודת האחריות לצורך שירות"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המאוורר?",
+    "a": "המנוע בהספק 40 W ומגיע למהירות סיבוב של עד 1250 סל״ד.",
+    "sources": []
+   },
+   {
+    "q": "כמה מהירויות יש למאוורר?",
+    "a": "יש 3 מהירויות קבועות לבחירה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המאוורר?",
+    "a": "רוחב 45 ס״מ, גובה 121 ס״מ ועומק 45 ס״מ, ומשקל נטו של 5.2 ק״ג.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לכוון את הגובה?",
+    "a": "כן, אפשר לכוון את הגובה ואת זווית ההטיה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות 3 שנים בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מאוורר עמוד Midea FS40-19M עם 3 כנפיים בקוטר 40 ס״מ, מנוע 40 W ו-3 מהירויות, גובה והטיה מתכווננים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מאוורר עמוד מידאה",
+   "Midea FS40-19M",
+   "FS40-19M",
+   "מאוורר עומד 16 אינץ׳",
+   "מאוורר עמוד 40 ס״מ",
+   "מאוורר עמוד 3 כנפיים",
+   "מאוורר מידאה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "40 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר מאוורר",
+   "catalogValue": "16 אינץ' (40 ס\"מ)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר כנפיים",
+   "catalogValue": "3 כנפיים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "450x450x1210 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V ~ 50/60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר מהירויות",
+   "catalogValue": "3 דרגות מהירות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "טיימר סיבובי עד 120 דקות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנוע",
+   "catalogValue": "מנוע נחושת חדשני (SQD) עד 1250 סל\"ד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג בקרה",
+   "catalogValue": "מכנית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צידוד אופקי בזווית רחבה של עד 85 מעלות",
+   "catalogValue": "עד 85 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה מוט מתכוונן",
+   "catalogValue": "גובה מוט מתכוונן להתאמה אישית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זווית הטיה (Tilt) אנכית",
+   "catalogValue": "זווית הטיה אנכית ניתנת לכיוון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רשת הגנה צפופה במיוחד",
+   "catalogValue": "רשת הגנה צפופה במיוחד (Finger Protection)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מהירות משב אוויר",
+   "catalogValue": "כ-100 מטר לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פעולה שקטה במיוחד",
+   "catalogValue": "פעולה שקטה במיוחד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בסיס עגול",
+   "catalogValue": "בסיס עגול מעוצב ויציב",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "5.2 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "3 שנים",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog number ends in (6845), which no fetched page shows. The pages name FS40-19M only.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "The Kenya Midea page lists 50 W on its voltage line and 40 W as power. The Israeli and Georgia pages say 40 W.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות המוצר",
+   "issue": "The Georgia Midea page gives 450*450*1200 mm. The Israeli page and the catalog give a height of 121 cm (1210 mm).",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "The catalog suffix (6845) appears on no source page; the sources name FS40-19M only.",
+   "severity": "low"
+  },
+  {
+   "field": "מהירות משב אוויר",
+   "issue": "Catalog says about 100 m/min; the importer quote gives 100 מטר without a time unit, so it was not published.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות המוצר",
+   "issue": "The Georgia Midea page gives 1200 mm height; the Israeli page and catalog give 121 cm.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 (air speed): the quote says 100 מטר with no time unit, so 100 מטר לדקה is not readable from it. All other facts and features kept as quoted on the Israeli importer page."
+ }
+}

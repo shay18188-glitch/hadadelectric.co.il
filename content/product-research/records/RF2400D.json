@@ -1,0 +1,342 @@
+{
+ "modelNumber": "RF2400D",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "RF2400D",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The manufacturer page (Panasonic Australia) and the Israeli retailer listing name the model as RF-2400D (with a hyphen). No Israeli importer page was found. Sibling-model check: none needed, the page names RF-2400D. | QA: Panasonic Australia page and SKL Israeli listing both name RF-2400D, same model as catalog RF2400D (hyphen only)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.skl.co.il/items/6294651-%D7%A8%D7%93%D7%99%D7%95-%D7%A9%D7%95%D7%9C%D7%97%D7%A0%D7%99-%D7%A0%D7%99%D7%99%D7%93-%D7%A4%D7%A0%D7%A1%D7%95%D7%A0%D7%99%D7%A7-RF-2400D-",
+   "publisher": "SKL",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.panasonic.com/au/consumer/home-entertainment/radios/rf-2400d.html",
+   "publisher": "Panasonic Australia",
+   "kind": "manufacturer",
+   "market": "AU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer only; matches catalog. Retailer's other dimensions are inconsistent.",
+     "label": "רוחב",
+     "value": "234 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "122 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עומק",
+     "value": "82 מ״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Manufacturer figure; catalog says about 670 g.",
+     "label": "משקל",
+     "value": "690 גרם"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מוצא",
+     "value": "0.77 וואט RMS"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמקול",
+     "value": "10 ס״מ, טווח מלא"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יציאת אוזניות",
+     "value": "מונו (אוזניות לא כלולות)"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Batteries not included.",
+     "label": "הפעלה",
+     "value": "חשמל רשת או 4 סוללות AA"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer figure.",
+     "label": "משך הפעלה על סוללות",
+     "value": "42 שעות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קליטת FM ו-AM"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "אנטנה טלסקופית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Panasonic RF2400D הוא רדיו נייד לקליטת FM ו-AM עם רמקול טווח מלא בקוטר 10 ס״מ ואנטנה טלסקופית. ניתן להפעיל אותו מחשמל רשת או מ-4 סוללות AA, עם משך הפעלה של עד 42 שעות על סוללות. מתאים למי שמחפש רדיו פשוט לבית, למטבח או לשימוש בזמן הפסקות חשמל.",
+  "highlights": [
+   "קליטת FM ו-AM",
+   "רמקול טווח מלא 10 ס״מ",
+   "הפעלה מחשמל רשת או 4 סוללות AA",
+   "עד 42 שעות האזנה על סוללות",
+   "יציאת אוזניות להאזנה אישית"
+  ],
+  "goodFor": [
+   "האזנה לרדיו במטבח או בחדר",
+   "גיבוי בזמן הפסקת חשמל בזכות הפעלה על סוללות",
+   "האזנה שקטה עם אוזניות"
+  ],
+  "considerations": [
+   "הסוללות אינן כלולות באריזה",
+   "יציאת האוזניות היא מונו והאוזניות אינן כלולות",
+   "המידות 234×122×82 מ״מ – כדאי לוודא שיש מקום על המדף"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להפעיל את הרדיו בלי חשמל?",
+    "a": "כן, הוא פועל גם על 4 סוללות AA (לא כלולות), עם משך הפעלה של עד 42 שעות.",
+    "sources": []
+   },
+   {
+    "q": "אילו תחנות הוא קולט?",
+    "a": "הרדיו קולט שידורי FM ו-AM, ויש לו אנטנה טלסקופית.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לחבר אוזניות?",
+    "a": "כן, יש יציאת אוזניות מונו. האוזניות אינן כלולות באריזה.",
+    "sources": []
+   },
+   {
+    "q": "כמה הוא שוקל?",
+    "a": "לפי היצרן המשקל הוא 690 גרם.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "רדיו נייד FM-AM של Panasonic דגם RF2400D, רמקול 10 ס״מ והפעלה מחשמל או 4 סוללות AA עד 42 שעות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "פנסוניק RF2400D",
+   "Panasonic RF-2400D",
+   "רדיו נייד",
+   "רדיו FM AM",
+   "רדיו על סוללות",
+   "רדיו לחירום",
+   "רדיו פנסוניק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "טווח תדרים",
+   "catalogValue": "FM 87 - 108MHz, AM 520 - 1730kHz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גודל רמקול",
+   "catalogValue": "10 ס\"מ (טווח מלא)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק מוצא",
+   "catalogValue": "770mW (RMS)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור כוח",
+   "catalogValue": "זרם חילופין (AC) במתח 230V, 50Hz או הפעלה באמצעות 4 סוללות AA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "3W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יציאת שמע",
+   "catalogValue": "שקע אוזניות 3.5 מ\"מ (מונו)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אנטנה",
+   "catalogValue": "טלסקופית ל-FM, מוט פריט מובנה ל-AM",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 234 מ\"מ, גובה 122 מ\"מ, עומק 82 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-670 גרם (ללא סוללות)",
+   "finding": "corrected",
+   "correctValue": "690 גרם",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "אינדונזיה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "The manufacturer page gives 690 g, the Israeli retailer gives 0.67 kg. The catalog says about 670 g. Check which figure to publish.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The Israeli retailer lists height 182 mm and depth 122 mm, which contradicts the manufacturer's 122 mm height and 82 mm depth. The manufacturer figures are used.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח תדרים",
+   "issue": "The catalog's AM range (520-1730 kHz) and FM range are not on any fetched page. A search snippet showed AM 520-1610 kHz, but that page was not fetched, so it is not evidence.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "The catalog model RF2400D appears on the pages as RF-2400D (with a hyphen). It is the same model, but the hyphen differs.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג מכשיר",
+   "issue": "Search snippets describe the radio as analog on some Israeli listings and as digital with AFC on an Amazon page. Not confirmed on a fetched page; check before describing the tuner.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer page for Panasonic RF-2400D was found, so the importer is left null.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Manufacturer gives 690 g; catalog says about 670 g and the Israeli retailer reportedly 0.67 kg.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Width 234 mm comes only from the Israeli retailer, whose height and depth figures contradict the manufacturer. Confirm width.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח תדרים",
+   "issue": "Catalog frequency ranges (FM 87-108 MHz, AM 520-1730 kHz) not confirmed on any fetched page.",
+   "severity": "medium"
+  },
+  {
+   "field": "צריכת חשמל",
+   "issue": "Catalog 3W and 230V mains spec not confirmed on a fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept. Width comes only from the SKL page, whose other dimensions (height 182, depth 122) contradict the manufacturer; width is kept because it matches the catalog, but flagged. Weight 690 g from manufacturer replaces catalog 670 g; flagged. Headphone jack label clarified."
+ }
+}

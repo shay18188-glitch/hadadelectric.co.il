@@ -1,0 +1,306 @@
+{
+ "modelNumber": "STH3000/20",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "STH3000/20",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "דף Philips ישראל מציין שהמוצר הופסק. עמוד ה-PDF הרשמי של Philips ועמוד Philips הודו נקראו; אין בהם טבלת מידות ומשקל, ולכן אלה לא אומתו. | QA: Philips leaflet, Philips India and Philips Israel pages all name STH3000/20. Philips Israel marks the model as discontinued."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.documents.philips.com/assets/20220301/7b480ec1dc474d92b4fcae4b0100282a.pdf",
+   "publisher": "Philips",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.philips.co.in/c-p/STH3000_20/3000-series-handheld-steamer/overview",
+   "publisher": "Philips India",
+   "kind": "manufacturer",
+   "market": "IN",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.philips.co.il/c-p/STH3000_20/handheld-steamer",
+   "publisher": "Philips Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קצב יציאת אדים רציף",
+     "value": "עד 20 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן חימום",
+     "value": "מוכן לשימוש תוך 30 שניות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מכל מים",
+     "value": "100 מ״ל, נשלף"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Indian market page; Israeli warranty terms not confirmed.",
+     "label": "אחריות יצרן",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Manufacturer claim carries an asterisk.",
+   "text": "לפי Philips, האדים הורגים עד 99.9% מהחיידקים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אין צורך בקרש גיהוץ"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קומפקטי, מתקפל וקל משקל"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Philips STH3000/20 הוא מגהץ אדים ידני של Philips, קומפקטי ומתקפל, לגיהוץ בגדים תלויים בלי קרש גיהוץ. הוא מגיע להספק של 1000 W, מפיק אדים רציפים עד 20 גרם לדקה ומוכן לשימוש תוך 30 שניות. מתאים למי שרוצה לרענן בגדים במהירות בבית או לקחת מכשיר קטן לנסיעות.",
+  "highlights": [
+   "הספק 1000 W",
+   "אדים רציפים עד 20 גרם לדקה",
+   "מוכן לשימוש תוך 30 שניות",
+   "מכל מים נשלף של 100 מ״ל",
+   "מתקפל וקומפקטי, בלי צורך בקרש גיהוץ"
+  ],
+  "goodFor": [
+   "יישור מהיר של חולצה או שמלה לפני יציאה מהבית",
+   "נסיעות ונופש, בזכות המבנה המתקפל והקומפקטי",
+   "מי שאין לו מקום לקרש גיהוץ"
+  ],
+  "considerations": [
+   "המכל הוא 100 מ״ל, כך שבגיהוץ ארוך צריך למלא אותו שוב; הוא נשלף ולכן המילוי פשוט",
+   "זה מגהץ אדים ידני לבגדים תלויים, לא מגהץ עם משטח לגיהוץ על קרש",
+   "Philips ישראל מציינת שהדגם הופסק, כדאי לברר מול החנות לגבי אחריות ושירות"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן לוקח למכשיר להתחמם?",
+    "a": "לפי Philips הוא מוכן לשימוש תוך 30 שניות.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מכל המים?",
+    "a": "100 מ״ל, והמכל נשלף כדי למלא אותו בקלות.",
+    "sources": []
+   },
+   {
+    "q": "צריך קרש גיהוץ?",
+    "a": "לא. זה מגהץ אדים ידני שעובד על בגדים תלויים.",
+    "sources": []
+   },
+   {
+    "q": "מה עוצמת האדים?",
+    "a": "הספק 1000 W ואדים רציפים עד 20 גרם לדקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ אדים ידני Philips STH3000/20 מתקפל: הספק 1000 W ומוכן לשימוש תוך 30 שניות, בלי צורך בקרש גיהוץ. זמין בחדד אלקטריק נהריה",
+  "keywords": [
+   "Philips STH3000/20",
+   "STH3000",
+   "מגהץ אדים ידני פיליפס",
+   "מגהץ אדים נייד",
+   "מגהץ אדים מתקפל",
+   "מגהץ קיטור לבגדים",
+   "מגהץ אדים לנסיעות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב יציאת אדים רציף",
+   "catalogValue": "עד 20 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן חימום מהיר",
+   "catalogValue": "30 שניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מכל מים",
+   "catalogValue": "100 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הרג חיידקים",
+   "catalogValue": "עד 99.9% מהחיידקים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "2 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל המכשיר",
+   "catalogValue": "כ-0.77 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "230x124x134 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "כחול (Reno Blue)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_status",
+   "issue": "דף Philips ישראל מציין שהמוצר הופסק. יש לבדוק אם עדיין כדאי למכור אותו.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג מתאר מגהץ אדים אנכי, ואילו Philips מתארת מגהץ אדים נייד ומתקפל. יש לוודא שסוג המוצר נכון.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל ומידות",
+   "issue": "מקורות שונים נותנים משקל ומידות שונים, ולכן הם לא פורסמו. יש לוודא מול האריזה.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_status",
+   "issue": "Philips ישראל מציינת שהדגם הופסק.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג אומר 'מגהץ אדים אנכי', ו-Philips מתארת מגהץ אדים ידני (handheld) ומתקפל. יש לוודא את תיאור סוג המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות אומתה רק בדף Philips הודו; תנאי האחריות בישראל לא אומתו.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל, מידות, כבל, צבע",
+   "issue": "ערכי הקטלוג לא אומתו במקורות; יש לבדוק מול האריזה.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty (id 4): the 2-year figure comes from the Philips India page, and Israeli warranty terms may differ. Kept power, steam rate, heat-up time, water tank and three features from the official Philips leaflet and Philips Israel page."
+ }
+}

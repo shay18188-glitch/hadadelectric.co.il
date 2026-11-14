@@ -1,0 +1,540 @@
+{
+ "modelNumber": "RT47CG6006S9",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "RT47CG6006S9",
+  "israeliImporter": "ניופרו",
+  "matchConfidence": "high",
+  "notes": "לא נמצא דף היבואן או היצרן עצמו. הפרטים מבוססים על דפי מוכרים ישראליים ועל אתר השוואה. יבואן: שני דפים מציינים ניופרו, ודף אחד של e-zone מציין סמליין. אחריות הגוף כ-שנה ואחריות המדחס כ-10 שנים. | QA: קוד הדגם המלא RT47CG6006S9 מופיע בכל דפי המוכרים הישראליים. היבואן אינו חד-משמעי (ניופרו מול סמליין) ולכן לא צוין."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://kreizman.co.il/product/rt47cg6006s9-samsung/",
+   "publisher": "Kreizman",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.e-zone.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%E2%80%8F%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-samsung-rt47cg6006s9-%E2%80%8F470-%E2%80%8F%D7%9C%D7%99%D7%98%D7%A8-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92",
+   "publisher": "e-zone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1200642",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.ace.co.il/4483123",
+   "publisher": "ACE",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "שני מוכרים; הקטלוג מציין 465 נטו",
+     "label": "נפח כולל",
+     "value": "470 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור",
+     "value": "361 ליטר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "109 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (תקן חדש)",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "255 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "לפי Zap; הקטלוג מציין עומק 71.7",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "70 × 182.5 × 72 ס״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק גוף",
+     "value": "63.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מעבר דלת מינימלי לאחר פירוק הדלתות",
+     "value": "65 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "הקטלוג מציין נירוסטה",
+     "label": "צבע",
+     "value": "פלטינום מט מוברש"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות מדחס",
+     "value": "10 שנים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "תוקן לפי הציטוט",
+   "text": "מדחס אינוורטר BLDC ללא פחמים לחיסכון בצריכת החשמל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קירור אחיד בכל חלקי המקרר (All-Around Cooling)"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת פיזור אוויר Multi Flow עם מספר פתחי קירור"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקפיא עליון No Frost ללא הצטברות קרח"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פונקציית שבת מובנית באישור המכון המדעי הטכנולוגי להלכה"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגירת Optimal Fresh+ לשמירה על טריות המזון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב Pure Flat עם ידיות מוסתרות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יש לוודא שההתקנה מבוצעת על ידי מתקין מורשה מטעם היבואן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יש לוודא שמעבר הדלת בבית הוא לפחות 65 ס״מ (לאחר פירוק הדלתות)"
+  }
+ ],
+ "content": {
+  "summary": "Samsung RT47CG6006S9 הוא מקרר מקפיא עליון בנפח 470 ליטר, עם תא קירור של 361 ליטר ותא הקפאה של 109 ליטר בטכנולוגיית No Frost. מתאים למי שמחפש מקרר מקפיא עליון מרווח בגימור פלטינום מט מוברש.",
+  "highlights": [
+   "נפח 470 ליטר: 361 ליטר קירור ו-109 ליטר הקפאה",
+   "מקפיא עליון No Frost ללא הצטברות קרח",
+   "מדחס אינוורטר BLDC עם 10 שנות אחריות על המדחס",
+   "פונקציית שבת מובנית באישור המכון המדעי הטכנולוגי להלכה",
+   "דירוג אנרגטי E וצריכה שנתית של 255 קוט״ש"
+  ],
+  "goodFor": [
+   "משפחות שצריכות נפח קירור גדול במקרר מקפיא עליון",
+   "בתים שומרי שבת, בזכות פונקציית שבת מובנית",
+   "מי שרוצה מקפיא ללא צורך בהפשרה ידנית"
+  ],
+  "considerations": [
+   "לוודא שמעבר הדלת בבית הוא לפחות 65 ס״מ לאחר פירוק הדלתות",
+   "הגימור הוא פלטינום מט מוברש, כדאי לראות את הגוון בחנות",
+   "לתאם התקנה על ידי מתקין מורשה מטעם היבואן"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "470 ליטר, מתוכם 361 ליטר בתא הקירור ו-109 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מצב שבת?",
+    "a": "כן, יש פונקציית שבת מובנית באישור המכון המדעי הטכנולוגי להלכה.",
+    "sources": []
+   },
+   {
+    "q": "האם המקפיא צריך הפשרה?",
+    "a": "לא, המקפיא העליון פועל בטכנולוגיית No Frost שמונעת הצטברות קרח.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המדחס?",
+    "a": "10 שנות אחריות על המדחס.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא עליון Samsung RT47CG6006S9 בנפח 470 ליטר, No Frost, מדחס אינוורטר ופונקציית שבת מובנית. לפרטים ורכישה בחדד אלקטריק נהריה",
+  "keywords": [
+   "סמסונג RT47CG6006S9",
+   "RT47CG6006S9",
+   "מקרר סמסונג מקפיא עליון",
+   "מקרר 470 ליטר",
+   "מקרר מקפיא עליון No Frost",
+   "מקרר עם מצב שבת",
+   "מקרר סמסונג פלטינום",
+   "מקרר רוחב 70 ס״מ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח אחסון כולל",
+   "catalogValue": "465 ליטר נטו",
+   "finding": "contradicted",
+   "correctValue": "470 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תא קירור",
+   "catalogValue": "357 ליטר",
+   "finding": "contradicted",
+   "correctValue": "361 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תא הקפאה",
+   "catalogValue": "108 ליטר",
+   "finding": "contradicted",
+   "correctValue": "109 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "70 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "182.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "71.7 ס\"מ",
+   "finding": "contradicted",
+   "correctValue": "72 ס\"מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "70.5 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "39 dBA",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "נירוסטה (Refined Inox)",
+   "finding": "contradicted",
+   "correctValue": "פלטינום מט מוברש",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R600a",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית קירור",
+   "catalogValue": "Mono Cooling עם Multi Flow",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדחס",
+   "catalogValue": "Digital Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "No Frost",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Optimal Fresh+",
+   "catalogValue": "מגירת Optimal Fresh+",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "Power Cool",
+   "catalogValue": "קירור מהיר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "SpaceMax",
+   "catalogValue": "SpaceMax",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורת LED",
+   "catalogValue": "תאורת LED פנימית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "תאילנד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מעבר דלת מינימלי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "65 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות מדחס",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "10 שנים",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "פונקציית שבת",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "מובנית",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח",
+   "issue": "שם המוצר בקטלוג אומר 470 ליטר ונטו 465 ליטר. שני דפים ישראליים (e-zone, Kreizman) מציינים 470 ליטר כולל, 361 קירור ו-109 הקפאה, ודף ACE מציין 465 נטו, 357 קירור ו-108 הקפאה. יש לבדוק מול היבואן לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "גימור",
+   "issue": "הקטלוג מציין נירוסטה, e-zone מציין פלטינום מט מוברש ו-ACE מציין פלטינום מט מוברש, אך Kreizman מציין נירוסטה בדף. יש לוודא את הגימור המדויק.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק",
+   "issue": "רוב הדפים מציינים עומק 72 ס״מ, ו-ACE וגם הקטלוג מציינים 71.7 ס״מ. ההבדל קטן, אך מדובר בערכים שונים.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Kreizman ו-ACE מציינים את ניופרו כשירות ואחריות היבואן, ודף e-zone מציין סמליין בטקסט האחריות. יש לוודא מי היבואן הרשמי לדגם זה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור מידע",
+   "issue": "לא נמצא דף של סמסונג ישראל או של היבואן עבור הדגם המדויק. כל הנתונים מבוססים על דפי מוכרים ישראליים ועל אתר השוואה. תעודת האנרגיה הרשמית שנמצאה שייכת לגרסה טורקית (RT47CG6006S9TR) ולא נעשה בה שימוש.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל נטו 70.5 ק״ג, רמת רעש 39 dBA, גז R600a, תאורת LED, SpaceMax ו-Mono Cooling לא נמצאו בדפים שנבדקו. יש לאמת מול דף היצרן או היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח",
+   "issue": "הקטלוג מציין 465 ליטר נטו (357 קירור, 108 הקפאה) ודף ACE מציין אותם ערכים, בעוד e-zone ו-Kreizman מציינים 470/361/109 (כנראה ברוטו). יש לוודא מול היבואן איזה ערך לפרסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "גימור",
+   "issue": "הקטלוג מציין נירוסטה (Refined Inox), אך e-zone ו-ACE מציינים פלטינום מט מוברש. יש לוודא את הגימור ואת שם המוצר בקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Kreizman ו-ACE מציינים ניופרו, e-zone מציין סמליין. יש לוודא את היבואן הרשמי.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקורות",
+   "issue": "אין דף יצרן או יבואן; כל הנתונים מדפי מוכרים ישראליים ואתר השוואה. משקל, רעש, גז, SpaceMax, Power Cool ותאורת LED שבקטלוג לא אומתו.",
+   "severity": "low"
+  },
+  {
+   "field": "עומק",
+   "issue": "Zap מציין עומק 72 ס״מ, הקטלוג ו-ACE 71.7 ס״מ.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "תוקן נוסח מאפיין המדחס (המקור מציין אינוורטר BLDC ולא Digital Inverter). כל הנתונים מבוססים על דפי מוכרים ישראליים ואתר השוואה; אין דף יצרן/יבואן. נפח 470/361/109 ליטר נשמר לפי שני מוכרים (כנראה ברוטו), הקטלוג מציין 465/357/108 נטו. צבע פלטינום מט מוברש מול נירוסטה בקטלוג. | code guard removed: summary: \"המקרר ברוחב 70 ס״מ וגובה 182.5 ס״מ, כולל מדחס אינוורטר עם 10 שנות אחריות ופונקציית שבת מובנית.\"; faq: \"מה המידות של המקרר?\"; goodFor: \"מטבחים עם נישה ברוחב 70 ס״מ\"; consideration: \"למדוד את הנישה: רוחב 70 ס״מ, גובה 182.5 ס״מ ועומק 72 ס״מ\""
+ }
+}

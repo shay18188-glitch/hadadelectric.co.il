@@ -1,0 +1,314 @@
+{
+ "modelNumber": "ATL-260",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-260",
+  "israeliImporter": "גולד ליין (יוסף חיים)",
+  "matchConfidence": "high",
+  "notes": "Mandarin page spells the model ATL260 (no hyphen). Importer named by Mandarin page. | QA: Bug, AgElec, Mandarin and Zap all name Gold Line ATL-260; Mandarin spells it ATL260."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מכשיר-להכנת-וופל-בלגי-gold-line-90604607",
+   "publisher": "Bug (bug.co.il)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=773134",
+   "publisher": "Zap (zap.co.il)",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.agelec.co.il/items/6022296-%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%9C%D7%94%D7%9B%D7%A0%D7%AA-%D7%95%D7%95%D7%A4%D7%9C-%D7%91%D7%9C%D7%92%D7%99-Gold-Line-%D7%92%D7%95%D7%9C%D7%93-%D7%9C%D7%99%D7%99%D7%9F-ATL-260",
+   "publisher": "AgElec",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://mandarin-e.co.il/product/%D7%9E%D7%9B%D7%A9%D7%99%D7%A8-%D7%9C%D7%94%D7%9B%D7%A0%D7%AA-%D7%95%D7%95%D7%A4%D7%9C-%D7%91%D7%9C%D7%92%D7%99-gold-line-%D7%92%D7%95%D7%9C%D7%93-%D7%9C%D7%99%D7%99%D7%9F-%D7%9E%D7%93%D7%92%D7%9Datl/",
+   "publisher": "Mandarin Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Gold Line"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "גולד ליין יוסף חיים"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "בקרת טמפרטורה",
+     "value": "תרמוסטט מתכוונן"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל החשמל",
+     "value": "70 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (אורך × רוחב × גובה במצב סגור)",
+     "value": "39 × 19 × 19 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "סיבוב המכשיר ב-360 מעלות באמצעות ידית מתקפלת להכנה אחידה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תרמוסטט מתכוונן לבחירת רמת החום הרצויה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "שתי נורות ביקורת לבקרה על טמפרטורת המכשיר"
+  },
+  {
+   "sources": [
+    "s1",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תבנית נשלפת לריכוז הפסולת ולניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כולל מתכונים להכנה ראשונית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "המכשיר מסתובב ב-360 מעלות בעזרת ידית מתקפלת לפיזור אחיד של הבלילה, וכולל תרמוסטט מתכוונן ושתי נורות ביקורת. מתאים למי שרוצה להכין וופל בלגי בבית לארוחות בוקר וקינוחים.",
+  "highlights": [
+   "סיבוב 360 מעלות בעזרת ידית מתקפלת",
+   "תרמוסטט מתכוונן לרמת החום הרצויה",
+   "שתי נורות ביקורת לבקרת הטמפרטורה",
+   "תבנית נשלפת לריכוז הפסולת"
+  ],
+  "goodFor": [
+   "הכנת וופל בלגי בבית לארוחות בוקר וקינוחים",
+   "מי שרוצה שליטה ברמת החום בעזרת תרמוסטט מתכוונן",
+   "מי שמעדיף ניקוי פשוט בעזרת תבנית נשלפת לפסולת"
+  ],
+  "considerations": [
+   "מידות המכשיר 39 × 19 × 19 ס״מ במצב סגור – כדאי לוודא מקום על השיש ובארון לאחסון",
+   "אורך כבל החשמל 70 ס״מ – כדאי למקם את המכשיר קרוב לשקע",
+   "יש להשאיר מרווח סביב המכשיר לסיבוב בעזרת הידית"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר לשלוט בחום?",
+    "a": "כן, המכשיר כולל תרמוסטט מתכוונן לרמת החום הרצויה ושתי נורות ביקורת.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המכשיר?",
+    "a": "אורך 39 ס״מ, רוחב 19 ס״מ וגובה 19 ס״מ במצב סגור.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות ומי היבואן?",
+    "a": "אחריות לשנה על ידי היבואן הרשמי גולד ליין יוסף חיים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "מכשיר וופל בלגי",
+   "Gold Line ATL-260",
+   "ATL-260",
+   "מכונת וופל גולד ליין",
+   "וופל בלגי מסתובב",
+   "מכשיר להכנת וופל",
+   "גולד ליין וופל"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תרמוסטט מתכוונן",
+   "catalogValue": "תרמוסטט מתכוונן לבחירת רמת החום הרצויה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורות ביקורת",
+   "catalogValue": "שתי נורות ביקורת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תבנית נשלפת",
+   "catalogValue": "תבנית נשלפת בתחתית לריכוז שאריות ופירורים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סיבוב 360 מעלות",
+   "catalogValue": "יכולת סיבוב של 360 מעלות בעזרת ידית מתקפלת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חוברת מתכונים",
+   "catalogValue": "כולל חוברת מתכונים להכנה ראשונית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "אורך 39 ס\"מ, רוחב 19 ס\"מ, גובה (במצב סגור) 19 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "אורך כבל החשמל",
+   "catalogValue": "כ-70 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  }
+ ],
+ "reviewFlags": [],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features have ok quotes on Israeli pages naming ATL-260. Power confirmed by Zap (Mandarin quote too short). Zap kept as other (price-comparison site). | code guard removed: summary: \"מכשיר להכנת וופל בלגי של Gold Line, דגם ATL-260, בהספק 1000 W.\"; faq: \"מה ההספק של Gold Line ATL-260?\"; metaDescription: \"מכשיר להכנת וופל בלגי Gold Line ATL-260 בהספק 1000 W, עם סיבוב 360 מעלות ותרמוסטט מתכוונן. בחדד אלקטריק נהריה\"; highlight: \"הספק 1000 W\""
+ }
+}

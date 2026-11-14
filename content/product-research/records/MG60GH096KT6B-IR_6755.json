@@ -1,0 +1,417 @@
+{
+ "modelNumber": "MG60GH096KT6B-IR (6755)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "MG60GH096KT6B-IR",
+  "israeliImporter": "המילטון",
+  "matchConfidence": "high",
+  "notes": "The manufacturer's page names MG60GH096KT6B-IR(6755). The Israeli site names MG60GH096KT6BIR with product code 6755 (same product). The retailer page names MG60GH096KT6B-IR. | QA: Midea Israel page, Midea IL page and Israeli retailer all name MG60GH096KT6B-IR / code 6755."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electro-buy.co.il/items/7550344-%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-Midea-MG60GH096KT6B-IR-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A9%D7%97%D7%95%D7%A8%D7%94-%D7%9E%D7%99%D7%93%D7%90%D7%94",
+   "publisher": "Electro-Buy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.midea.co.il/product/mg60gh096kt6bir",
+   "publisher": "Midea Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.midea.com/il/cooking-range/built-in-hob/midea-gas-hob-4-burner-60cm-volcano-flame.mg60gh096kt6b-ir-6755-",
+   "publisher": "Midea",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "MG60GH096KT6B-IR"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יבואן רשמי",
+     "value": "המילטון"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מבער טורבו וולקנו",
+     "value": "5 KW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מבערים בינוניים (2)",
+     "value": "1.75 KW"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Height conflicts with global page (90 mm); flagged.",
+     "label": "מידות (רוחב × עומק × גובה)",
+     "value": "600 × 515 × 100 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות גומחה להתקנה",
+     "value": "560 × 480 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר משטח",
+     "value": "זכוכית שחורה מחוסמת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר רשתות",
+     "value": "יציקת ברזל"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הצתה",
+     "value": "הצתה אלקטרונית"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת בטיחות",
+     "value": "ניתוק אספקת הגז במקרה של כיבוי הלהבה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבער נחושת טורבו וולקנו לטיגון ובישול בעוצמה גבוהה."
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רשת סירים עם טבעת חכמה במבער הקטן, המאפשרת בישול גם בסירים קטנים מאוד."
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת בטיחות לניתוק אספקת הגז אם הלהבה נכבית."
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "זכוכית שחורה מחוסמת קלה לניקוי."
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "התקנת כיריים גז מתבצעת על ידי טכנאי גז מורשה בלבד ובתשלום."
+  }
+ ],
+ "content": {
+  "summary": "כיריים גז מובנות של Midea ברוחב 60 ס״מ עם 4 מבערים ומשטח זכוכית שחורה מחוסמת. המבער המרכזי הוא מבער טורבו וולקנו בהספק 5 KW, לצד שני מבערים בינוניים של 1.75 KW, רשתות מיציקת ברזל, הצתה אלקטרונית ומערכת לניתוק הגז בכיבוי להבה. מתאימות למי שמבשל הרבה ומחפש עוצמה גבוהה לטיגון ולווק.",
+  "highlights": [
+   "מבער טורבו וולקנו בהספק 5 KW",
+   "4 מבערים, מהם 2 בינוניים של 1.75 KW",
+   "משטח זכוכית שחורה מחוסמת קלה לניקוי",
+   "רשתות סירים מיציקת ברזל",
+   "ניתוק אספקת הגז במקרה של כיבוי הלהבה"
+  ],
+  "goodFor": [
+   "טיגון ובישול בווק שדורשים להבה חזקה",
+   "בישול במקביל בכמה סירים בגדלים שונים",
+   "מטבח בעיצוב שחור עם משטח זכוכית",
+   "בישול בסירים קטנים בזכות הטבעת במבער הקטן"
+  ],
+  "considerations": [
+   "יש לוודא שמידות הגומחה במשטח הן 560 × 480 מ״מ",
+   "ההתקנה מתבצעת על ידי טכנאי גז מורשה בלבד ובתשלום",
+   "יש לבדוק את גובה המוצר מתחת למשטח מול המגירה או התנור שמתחת"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המבער החזק?",
+    "a": "מבער הטורבו וולקנו מגיע להספק של 5 KW.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הגומחה הנדרשות להתקנה?",
+    "a": "560 × 480 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש מערכת בטיחות?",
+    "a": "כן, מערכת לניתוק אספקת הגז במקרה של כיבוי הלהבה.",
+    "sources": []
+   },
+   {
+    "q": "מי מתקין את הכיריים?",
+    "a": "טכנאי גז מורשה בלבד, וההתקנה בתשלום.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות שנתיים בכפוף לתעודת אחריות, דרך היבואן הרשמי המילטון.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Midea MG60GH096KT6B-IR ברוחב 60 ס״מ, 4 מבערים עם מבער טורבו וולקנו 5 KW וזכוכית שחורה מחוסמת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז מידאה",
+   "Midea MG60GH096KT6B-IR",
+   "כיריים גז 60 ס״מ זכוכית שחורה",
+   "כיריים גז טורבו וולקנו",
+   "כיריים גז 4 מבערים",
+   "כיריים גז מובנות",
+   "כיריים מידאה וולקנו"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4 להבות בישול בעוצמות שונות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "הספק מבערים",
+   "catalogValue": "מבער טורבו וולקנו 5KW, שני מבערים בינוניים 1.75KW, מבער קטן 1KW",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "רוחב 600 מ\"מ, עומק 515 מ\"מ, גובה 100 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות גומחה (להתקנה)",
+   "catalogValue": "רוחב 560 מ\"מ, עומק 480 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר משטח",
+   "catalogValue": "זכוכית שחורה מחוסמת (Tempered Glass)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר רשתות",
+   "catalogValue": "יציקת ברזל (Cast Iron) איכותית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג חיבור חשמל",
+   "catalogValue": "חד פאזי (עבור מערכת ההצתה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מערכת בטיחות FFD",
+   "catalogValue": "מערכת בטיחות FFD לניתוק אוטומטי של אספקת הגז",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות המוצר (גובה)",
+   "issue": "The manufacturer's global page gives product dimensions 600*515*90 mm (height 90 mm). The Israeli Midea page and the Israeli retailer give 600x515x100 mm (height 100 mm). The sources conflict on height; the value above uses the Israeli figure of 100 mm. Check before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות המוצר (סדר ממדים)",
+   "issue": "The manufacturer's global page labels the dimension order as width x depth x height (ר×ע×ג), while the row label used here is width x depth x height to match that order.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג מוצר",
+   "issue": "Israeli Midea page names the model as MG60GH096KT6BIR (no hyphen) with product code 6755, not the exact hyphenated string. Same product per the global page and retailer page.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות המוצר (גובה)",
+   "issue": "Midea global IL page lists height 90 mm while the Israeli importer page and retailer list 100 mm; published 100 mm. Verify.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק מבערים",
+   "issue": "Catalog lists a small burner of 1KW; not confirmed by a quote, so not published as a fact.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג חיבור חשמל / FFD",
+   "issue": "Catalog's single-phase connection and FFD naming were not verifiable from sources.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified by ok quotes on pages naming the model. Height conflict (90 vs 100 mm) between Midea global page and Israeli sources flagged; kept Israeli importer figure of 100 mm. Small burner 1KW from catalog not evidenced as a fact. Adjusted safety fact label wording slightly."
+ }
+}

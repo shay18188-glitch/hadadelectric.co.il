@@ -1,0 +1,402 @@
+{
+ "modelNumber": "CHP61.000WH",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Kenwood",
+  "exactModel": "CHP61.000WH",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Brimag Online (Israeli shop page naming CHP61.000WH) gives power, capacity, speeds, blades, safety lock, dishwasher note and dimensions. Amazon.nl gives weight and dimensions with the model number on the page. Importer status not confirmed on a fetched page. No warranty period found on any fetched page. Israeli listings for the sibling CHP61.100WH were seen in search but not used. | QA: Brimag Online (Israeli shop) and Amazon NL/DE pages all name CHP61.000WH; specs consistent. Importer not confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.brimag-online.co.il/p/KENWOOD_%D7%A7%D7%95%D7%A6%D7%A5_%D7%9E%D7%99%D7%A0%D7%99_%D7%97%D7%A9%D7%9E%D7%9C%D7%99%C2%A0%D7%93%D7%92%D7%9D_CHP61_000WH",
+   "publisher": "Brimag Online",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.amazon.nl/Kenwood-CHP61-000WH-Elektrische-Drukbediening-Vaatwasmachinebestendig/dp/B0BMGCDFJX",
+   "publisher": "Amazon.nl",
+   "kind": "retailer",
+   "market": "NL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.amazon.de/Kenwood-CHP61-000WH-Vier-Klingen-Zerkleiner-Geschwindigkeiten-sp%C3%BClmaschinenfest/dp/B0BMGCDFJX",
+   "publisher": "Amazon.de",
+   "kind": "retailer",
+   "market": "DE",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מהירויות",
+     "value": "2 מהירויות"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Duplicate of fact 0",
+     "label": "הספק",
+     "value": "500 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל",
+     "value": "0.5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "13.9 × 26.4 × 13.9 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מקום לאחסון כבל",
+     "value": "יש"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ארץ ייצור",
+     "value": "סין"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון נעילת בטיחות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ארבעה להבי נירוסטה במערך QUAD BLADE לקיצוץ מהיר ומדויק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניתן לשטוף במדיח כלים"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קוצץ ירקות חשמלי קומפקטי של Kenwood, דגם CHP61.000WH, עם מנוע בהספק 500 W וקערה בנפח 0.5 ליטר. מערך QUAD BLADE של ארבעה להבי נירוסטה ו־2 מהירויות מאפשרים קיצוץ מהיר של ירקות, עשבי תיבול ואגוזים. מתאים למי שמחפש קוצץ קטן לשימוש יומיומי שתופס מעט מקום על השיש.",
+  "highlights": [
+   "מנוע בהספק 500 W",
+   "קערה בנפח 0.5 ליטר",
+   "ארבעה להבי נירוסטה במערך QUAD BLADE",
+   "2 מהירויות עבודה",
+   "ניתן לשטוף במדיח כלים"
+  ],
+  "goodFor": [
+   "קיצוץ מהיר של כמויות קטנות של ירקות ועשבי תיבול",
+   "מטבחים קטנים עם מעט מקום על השיש",
+   "מי שמעדיף ניקוי נוח במדיח הכלים"
+  ],
+  "considerations": [
+   "נפח הקערה הוא 0.5 ליטר – לכמויות גדולות יידרש עיבוד במנות",
+   "מידות המכשיר 13.9 × 26.4 × 13.9 ס״מ – כדאי לוודא מקום אחסון בארון",
+   "נדרש שקע חשמל סמוך למשטח העבודה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הקוצץ?",
+    "a": "הקוצץ מגיע עם מנוע בהספק 500 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה נכנס בקערה?",
+    "a": "נפח הקערה הוא 0.5 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשטוף את הקוצץ במדיח?",
+    "a": "כן, לפי היצרן ניתן לשטוף במדיח כלים.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת בטיחות?",
+    "a": "כן, לקוצץ יש מנגנון נעילת בטיחות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קוצץ ירקות חשמלי Kenwood CHP61.000WH עם מנוע 500 W, קערה 0.5 ליטר וארבעה להבי נירוסטה QUAD BLADE. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קוצץ ירקות Kenwood",
+   "Kenwood CHP61.000WH",
+   "CHP61.000WH",
+   "קוצץ חשמלי קנווד",
+   "קוצץ ירקות חשמלי",
+   "מיני קוצץ קנווד",
+   "קוצץ 500 וואט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "500 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת עבודה",
+   "catalogValue": "0.5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירויות",
+   "catalogValue": "2 דרגות מהירות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת להבים",
+   "catalogValue": "Quad Blade - 4 להבי נירוסטה בשני מפלסים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 26.4 ס״מ, רוחב 13.85 ס״מ, עומק 13.85 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "1.1 ק״ג",
+   "finding": "contradicted",
+   "correctValue": "1.39 ק״ג",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן בשילוב כסף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומרי מבנה",
+   "catalogValue": "קערת פלסטיק עמידה (BPA Free)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כתישת קרח",
+   "catalogValue": "כתישת קרח והכנת רטבים וממרחים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מיונז ביתי",
+   "catalogValue": "אביזר ייעודי להכנת מיונז ביתי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מנגנון נעילה",
+   "catalogValue": "מנגנון נעילה אינטרלוק",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדיח כלים",
+   "catalogValue": "חלקי המכשיר ניתנים לשטיפה במדיח",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טבעת נגד החלקה",
+   "catalogValue": "טבעת בסיס מונעת החלקה (Anti-slip ring)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הפעלה ביד אחת",
+   "catalogValue": "הפעלה ביד אחת באמצעות לחיצה ארגונומית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מחזיק כבל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Brimag gives only a diameter of 13.85 cm and a height of 26.4 cm for this chopper. The width and depth are both taken as 13.85 cm. Check the width and depth on the box or manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Amazon.nl lists the item weight as 1.39 kg, while the catalog says 1.1 kg. Only one foreign retailer gives this figure, so no weight fact was published. Check the weight.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "No warranty period was found on any fetched page for this model. The catalog has no warranty value and none was added.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "The silver accent in the catalog colour was not found on any page. Brimag and Amazon both say white.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "A sibling model, CHP61.100WH, has near-identical specs and Israeli listings mix the two model numbers. The facts here apply to CHP61.000WH only where the cited pages name that exact model.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog says 1.1 kg; Amazon.nl lists 1.39 kg. Weight not published; verify.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog gives 13.85 cm width/depth; Amazon gives 13.9 cm. Check box or manual.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog says white with silver; sources say white only.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sibling CHP61.100WH has similar specs and Israeli listings mix the two model numbers.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "No warranty period found on any source.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 4 as a duplicate of fact 0 (same power value). All other facts and features kept."
+ }
+}

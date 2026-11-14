@@ -1,0 +1,420 @@
+{
+ "modelNumber": "ATL-8812B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line (גולדליין)",
+  "exactModel": "ATL-8812B",
+  "israeliImporter": "יוסף חיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "דף גולדליין (goldline.co.il) וחשמל דבי (deby-electric.co.il) מציגים את הדגם ATL-8812B במפורש. דף גולדליין מציין את יוסף חיים בע\"מ כגורם האחריות; היבואן עצמו לא צוין במפורש. באתר Zap מופיע גם דגם ATL8812 עם 500W המחמם חלב, וגם ATL-8812C בצבע קרם - אלה דגמים אחרים ולא נעשה בהם שימוש. | QA: Gold Line page and Deby Electric page both name ATL-8812B, black. Yosef Haim Ltd is named only as warranty provider."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%D7%9E%D7%A7%D7%A6%D7%99%D7%A3-%D7%94%D7%A4%D7%9C%D7%90-2-%D7%91-1/",
+   "publisher": "Gold Line Israel (גולדליין)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.deby-electric.co.il/product/%D7%9E%D7%A7%D7%A6%D7%99%D7%A3-%D7%94%D7%A4%D7%9C%D7%90-2-%D7%91-1-%D7%92%D7%95%D7%9C%D7%93%D7%9C%D7%99%D7%99%D7%9F-%D7%93%D7%92%D7%9D-atl8812b/",
+   "publisher": "חשמל דבי",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "reworded to quote",
+     "label": "סוג מכשיר",
+     "value": "מקציף 2 ב-1 (הקצפה וערבול)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-8812B"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד",
+     "value": "7290019406563"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה המכשיר",
+     "value": "23.4 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר המכשיר",
+     "value": "4 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה כולל מעמד",
+     "value": "25 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קוטר כולל מעמד",
+     "value": "6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מקור כוח",
+     "value": "2 סוללות AA"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוללות כלולות",
+     "value": "לא, אינן כלולות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר מוט ההקצפה",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י יוסף חיים בע״מ"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הקצפה מידית של חלב, קפה ועוד."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ערבול ביצים להכנת חביתות, פנקייק ועוד."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לחצן הפעלה נוח לפעולה מיידית."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קפיץ הקצפה גמיש ומערבל ייחודי."
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבנה קומפקטי שאינו תופס מקום רב."
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "reworded to quote",
+   "text": "סט אביזרים נשלפים לניקוי."
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתקן מותאם להעמדת המוצר ואביזריו"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מקציף חלב ידני 2 ב-1 של Gold Line, דגם ATL-8812B בצבע שחור, להקצפת חלב וקפה ולערבול ביצים. הוא פועל על 2 סוללות AA, עם מוט הקצפה מנירוסטה ומתקן העמדה למכשיר ולאביזרים. מתאים למי שרוצה קצף לקפה בבית בלי מכונה גדולה על השיש.",
+  "highlights": [
+   "2 ב-1: קפיץ הקצפה גמיש וראש מערבל",
+   "פועל על 2 סוללות AA, ללא חוט",
+   "מוט הקצפה מנירוסטה",
+   "גובה 23.4 ס״מ וקוטר 4 ס״מ",
+   "כולל מתקן העמדה למכשיר ולאביזרים"
+  ],
+  "goodFor": [
+   "הכנת קצף חלב לקפה בבית",
+   "ערבול ביצים לחביתה או לבלילת פנקייק",
+   "מטבח קטן שבו רוצים מכשיר קומפקטי",
+   "שימוש בלי שקע חשמל קרוב, כי הוא פועל על סוללות"
+  ],
+  "considerations": [
+   "הסוללות אינן כלולות, יש להצטייד ב-2 סוללות AA",
+   "גובה עם המתקן 25 ס״מ, כדאי לוודא מקום על השיש או במדף",
+   "ההפעלה בלחצן והמכשיר ידני, כך שמחזיקים אותו ביד בזמן ההקצפה"
+  ],
+  "faq": [
+   {
+    "q": "איך מפעילים את המקציף?",
+    "a": "הוא פועל על 2 סוללות AA שאינן כלולות באריזה, ומופעל בלחצן הפעלה.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לערבל בו ביצים?",
+    "a": "כן, יש לו ראש מערבל לערבול ביצים להכנת חביתות, פנקייק ועוד, בנוסף לקפיץ ההקצפה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות שלו?",
+    "a": "גובה המכשיר 23.4 ס״מ וקוטרו 4 ס״מ. עם המתקן הגובה 25 ס״מ והקוטר 6 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם האביזרים נשלפים לניקוי?",
+    "a": "כן, סט האביזרים נשלף לניקוי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה ע״י יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקציף חלב ידני 2 ב-1 של Gold Line, דגם ATL-8812B בשחור: פועל על 2 סוללות AA, עם מוט הקצפה מנירוסטה ומתקן העמדה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקציף חלב ידני",
+   "מקציף חלב גולדליין",
+   "ATL-8812B",
+   "מקציף הפלא 2 ב-1",
+   "מקציף חלב על סוללות",
+   "Gold Line מקציף חלב",
+   "מקציף חלב שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "דגם",
+   "catalogValue": "ATL-8812B",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מכשיר",
+   "catalogValue": "מקציף ומערבל ידני 2 ב-1",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור כוח",
+   "catalogValue": "2 סוללות AA (אינן כלולות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר מוט ההקצפה",
+   "catalogValue": "נירוסטה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "גובה 23.4 ס\"מ, קוטר 4 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות כולל מעמד",
+   "catalogValue": "גובה 25 ס\"מ, קוטר 6 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור מט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוספים",
+   "catalogValue": "מעמד שולחני ייעודי, ראש מקצף קפיצי, ראש מערבל ייחודי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחצן הפעלה",
+   "catalogValue": "לחצן הפעלה בראש המכשיר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ראשי ההקצפה נשלפים לניקוי",
+   "catalogValue": "ראשי ההקצפה נשלפים לניקוי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברקוד",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "7290019406563",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין 'שחור מט'. דף גולדליין מציג 'קרם, שחור' כאפשרויות צבע, וכותרת המוצר היא 'שחור' בלבד. המילה 'מט' לא נמצאה באף דף.",
+   "severity": "medium"
+  },
+  {
+   "field": "identity",
+   "issue": "דף חשמל דבי נושא כותרת עם 'ATL8812B' ללא מקף, אך גם מציין 'דגם: ATL-8812B' בתיאור. נבדק הדגם המדויק עם המקף.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן",
+   "issue": "דף גולדליין מציין את יוסף חיים בע\"מ כגורם האחריות בלבד, ולא כיבואן במפורש.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "הקטלוג מציין 'שחור מט'; המקורות מציינים 'שחור' בלבד.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 0 value reworded to match the quote (2 ב-1, הקצפה וערבול). Color kept as שחור only; 'מט' from the catalog is not on any page."
+ }
+}

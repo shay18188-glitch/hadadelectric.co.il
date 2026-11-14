@@ -1,0 +1,393 @@
+{
+ "modelNumber": "TL330D11",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Tefal",
+  "exactModel": "TL330D11",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The manufacturer's global page names TL330D11 as the EQUINOX 2-long-slot, 4-slice stainless steel toaster. No Israeli importer or Israeli retailer page for this exact model was found in the fetched sources. The Tefal Israel site search could not be fetched. | QA: Manufacturer page names TL330D11 as the Equinox 4-slice, 2 long slot stainless steel toaster, matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.tefal.com/Breakfast/Toasters/Equinox/EQUINOX---TL330D11/p/8000035851",
+   "publisher": "Tefal",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.syphax-trade.com/produit/cuisine/cuisson-electrique/grille-pain-tefal-equinox-tl330d11-1400w-inox/",
+   "publisher": "Syphax Trade",
+   "kind": "retailer",
+   "market": "TN",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.luckys.co.za/shop/appliances/kitchen-appliances/toasters-fryers/tefal-equinox-4-slice-toaster-stainless-steel-tl330d11/",
+   "publisher": "Luckys Discount Centre",
+   "kind": "retailer",
+   "market": "ZA",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר פרוסות",
+     "value": "4 פרוסות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר פתחים",
+     "value": "2 פתחים ארוכים"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות השחמה",
+     "value": "6 רמות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר המעטפת",
+     "value": "נירוסטה מוברשת"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s3",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two retailer pages naming the model.",
+     "label": "הספק מרבי",
+     "value": "1400 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240 V"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגש פירורים נשלף לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Quote does not mention small slices.",
+   "text": "ידית הרמה גבוהה (High-Lift) להוצאה נוחה של הפרוסות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כפתור לביטול מחזור הקלייה בכל רגע"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Source does not say narrow.",
+   "text": "מידות קטנות לאחסון קל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "אחסון כבל מובנה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Tefal Equinox TL330D11 הוא מצנם עם 2 פתחים ארוכים שקולה עד 4 פרוסות בו-זמנית, במעטפת נירוסטה מוברשת. יש בו 6 דרגות השחמה, ידית הרמה גבוהה ומגש פירורים נשלף. מתאים למשפחה שרוצה לקלות כמה פרוסות בבת אחת במצנם שקל לאחסן.",
+  "highlights": [
+   "קלייה של עד 4 פרוסות ב-2 פתחים ארוכים",
+   "6 דרגות השחמה",
+   "מעטפת נירוסטה מוברשת",
+   "הספק 1400 W",
+   "מגש פירורים נשלף ואחסון כבל מובנה"
+  ],
+  "goodFor": [
+   "בית שבו קולים כמה פרוסות בבוקר בבת אחת",
+   "לחם ארוך או פרוסות רחבות שמתאימות לפתחים ארוכים",
+   "מטבח שבו רוצים מצנם קטן שקל להכניס לארון"
+  ],
+  "considerations": [
+   "המצנם בנוי בפתחים ארוכים ולא ב-4 פתחים נפרדים, כדאי לבדוק שזה מתאים לסוג הלחם שלכם",
+   "הספק 1400 W, כדאי לחבר לשקע שאינו עמוס במכשירים נוספים",
+   "כדאי למדוד את המקום על השיש לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "כמה פרוסות אפשר לקלות בבת אחת?",
+    "a": "עד 4 פרוסות, בשני פתחים ארוכים.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות השחמה יש?",
+    "a": "6 דרגות השחמה לבחירה.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויה המעטפת?",
+    "a": "מנירוסטה מוברשת.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את הפירורים?",
+    "a": "יש מגש פירורים נשלף שמוציאים ומרוקנים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לעצור את הקלייה באמצע?",
+    "a": "כן, יש כפתור לביטול מחזור הקלייה בכל רגע.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מצנם Tefal Equinox TL330D11 עם 2 פתחים ארוכים לקלייה של עד 4 פרוסות, 6 דרגות השחמה ומעטפת נירוסטה מוברשת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מצנם טפאל",
+   "Tefal TL330D11",
+   "מצנם 4 פרוסות",
+   "מצנם פתחים ארוכים",
+   "Tefal Equinox מצנם",
+   "מצנם נירוסטה",
+   "טוסטר טפאל"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "דגם",
+   "catalogValue": "TL330D11",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Tefal",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "1400W",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מספר פרוסות",
+   "catalogValue": "4 פרוסות בו-זמנית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר פתחים",
+   "catalogValue": "2 פתחים ארוכים במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות השחמה",
+   "catalogValue": "6 רמות קלייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר המעטפת",
+   "catalogValue": "נירוסטה מוברשת (Full Stainless Steel)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "גובה 18.4 ס\"מ, רוחב 15.6 ס\"מ, עומק 38 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "1.27 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "סין (מיוצר בסין, עוצב בצרפת)",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "שם המוצר - צבע כסוף",
+   "catalogValue": "כסוף",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מיכול פירורים נשלף",
+   "catalogValue": "מגש פירורים נשלף",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כפתור Stop/Eject",
+   "catalogValue": "לחצן Stop/Eject להפסקת הקלייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מרכוז אוטומטי",
+   "catalogValue": "מרכוז אוטומטי של הפרוסות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בורר אלקטרוני",
+   "catalogValue": "בורר אלקטרוני לדרגות השחמה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "The catalog gives 15.6 cm wide and 18.4 cm high. The Luckys page gives 16 × 18 × 38 cm with no axis labels, so the width figure differs. No manufacturer or Israeli dimension page was found. Verify the dimensions before publishing.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "The catalog name says silver (כסוף). The manufacturer page says full brushed stainless steel, and the Luckys page lists stainless steel/black. Verify the colour sold in Israel.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "The manufacturer page lists 1400 W and also a 1200-1400 W range on another line. Only one foreign retailer quote shows 1400 W as a single value. Check the nameplate rating.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן ישראלי",
+   "issue": "No Israeli importer or Israeli retailer page for TL330D11 was found. The Israeli variant and its voltage (220-240V) are unconfirmed.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog name says silver; manufacturer says brushed stainless steel and one retailer lists stainless steel/black. Verify the finish sold in Israel.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions (15.6 cm wide, 18.4 cm high) are not confirmed by any ok quote; one retailer lists 16 × 18 × 38 cm. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "1400 W comes from two foreign retailers; the manufacturer page reportedly also shows a 1200-1400 W range. Check the nameplate.",
+   "severity": "low"
+  },
+  {
+   "field": "יבואן ישראלי",
+   "issue": "No Israeli importer or Israeli retailer page found; Israeli variant unconfirmed.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 3 reworded: the source says small size / easy to store, not narrow. Power 1400 W kept from two retailer pages naming the model; manufacturer reportedly also lists a 1200-1400 W range, flagged."
+ }
+}

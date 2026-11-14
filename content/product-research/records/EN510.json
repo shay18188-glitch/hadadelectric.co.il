@@ -1,0 +1,251 @@
+{
+ "modelNumber": "EN510",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "De'Longhi",
+  "exactModel": "EN510",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "הדגם EN510 קיים בגרסאות צבע (EN510.B שחור, EN510.W לבן); בקטלוג צבע לבן. דפי היצרן הם של EN510.B/EN510.W. | QA: דפי היצרן מתייחסים ל-EN510.W (לבן) ו-EN510.B; הקטלוג בצבע לבן. דף TopDeal ישראלי מתייחס ל-Lattissima One EN510."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.topdeal.co.il/product/nesspresso-lattissima-one-en510/",
+   "publisher": "TopDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://shs.fust.ch/pd/10723595.pdf",
+   "publisher": "Fust",
+   "kind": "retailer",
+   "market": "CH",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.delonghi.com/en-gb/p/lattissima-one-en510.w-lattissima-one-nespresso-coffee-machine/EN510.W.html?pid=0132193466",
+   "publisher": "De'Longhi GB",
+   "kind": "manufacturer",
+   "market": "GB",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "1 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל חלב",
+     "value": "165 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת מיכל קפסולות משומשות",
+     "value": "10 קפסולות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "לחץ משאבה",
+     "value": "19 בר"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1450 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן חימום עד מוכנות",
+     "value": "25 שניות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "משקל נטו",
+     "label": "משקל",
+     "value": "4.2 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "לאחר 2 דקות"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מכונת קפה קפסולות Lattissima One של דהלונגי לקפסולות נספרסו, עם מיכל חלב אישי של 165 מ״ל להכנת משקאות חלב. המכונה כוללת משאבה בלחץ 19 בר, הספק 1450 W ומיכל מים של 1 ליטר, ומוכנה לשימוש תוך 25 שניות. מתאימה למי שרוצה קפה ומשקאות חלב במכונה קומפקטית.",
+  "highlights": [
+   "משאבה בלחץ 19 בר",
+   "מיכל חלב אישי של 165 מ״ל",
+   "מיכל מים של 1 ליטר",
+   "מוכנה לשימוש תוך 25 שניות",
+   "כיבוי אוטומטי לאחר 2 דקות"
+  ],
+  "goodFor": [
+   "מי ששותה קפוצ׳ינו או לאטה במנה אישית ומעדיף מיכל חלב קטן",
+   "בוקר עמוס שבו חשוב שהמכונה תהיה מוכנה תוך 25 שניות",
+   "מטבח שבו רוצים מכונה שנכבית לבד לאחר 2 דקות"
+  ],
+  "considerations": [
+   "מיכל החלב מכיל 165 מ״ל – מתאים למנה אחת בכל פעם",
+   "מיכל המים הוא 1 ליטר, כך שבשימוש רב יש למלא אותו לעיתים קרובות",
+   "מיכל הקפסולות המשומשות מכיל 10 קפסולות ויש לרוקן אותו בהתאם",
+   "המכונה עובדת עם קפסולות נספרסו בלבד"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "מיכל המים מכיל 1 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה חלב נכנס למיכל החלב?",
+    "a": "מיכל החלב מכיל 165 מ״ל, מיועד למנה אישית.",
+    "sources": []
+   },
+   {
+    "q": "תוך כמה זמן המכונה מוכנה?",
+    "a": "המכונה מוכנה לשימוש תוך 25 שניות.",
+    "sources": []
+   },
+   {
+    "q": "האם המכונה נכבית לבד?",
+    "a": "כן, היא נכבית אוטומטית לאחר 2 דקות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת קפה קפסולות DeLonghi Lattissima One EN510 לבנה עם מיכל חלב 165 מ״ל ולחץ 19 בר, מוכנה תוך 25 שניות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "לטיסימה וואן",
+   "DeLonghi EN510",
+   "Lattissima One",
+   "מכונת קפה נספרסו עם מקציף חלב",
+   "מכונת קפסולות דהלונגי",
+   "EN510 לבנה",
+   "מכונת קפה לטיסימה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "לחץ משאבה",
+   "catalogValue": "19 בר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1450 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 15.4, עומק 32.4, גובה 25.6 ס״מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 14.4 ס״מ, עומק 32.4, גובה 25.6",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "4.2 ק״ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "רוחב בקטלוג 15.4 ס״מ, במפרט Fust 14.4 ס״מ; לא נרשם כעובדה כי המקור זר ויחיד",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "רוחב בקטלוג 15.4 ס״מ, במפרט Fust 14.4 ס״מ – יש לבדוק מול היצרן",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "קטלוג מציין 8-10 קפסולות משומשות; המקור הישראלי מציין 10",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות אומתו מציטוטים תקינים. הבהרתי את תווית זמן החימום. מידות לא פורסמו בשל סתירה ברוחב בין הקטלוג (15.4 ס״מ) ל-Fust (14.4 ס״מ)."
+ }
+}

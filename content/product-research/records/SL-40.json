@@ -1,0 +1,434 @@
+{
+ "modelNumber": "SL-40",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "SL-40",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "היצרן ואתרי הקמעונאים מציינים את הדגם כ-SL-40L (עם סיומת L). הקטלוג מציין SL-40. כל העובדות כאן נלקחו מדפים שמציינים את SL-40L, והמוצר תואם בנפח, בהספק ובצבע. | QA: היצרן Sol והקמעונאים הישראליים מציינים SL-40L, 40 ליטר; תואם את פריט הקטלוג SL-40 טוסטר אובן 40 ליטר שחור."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-40l",
+   "publisher": "Sol",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.rozenfeld.co.il/product/ap/ka/tostar-oven/%D7%98%D7%95%D7%A1%D7%98%D7%A8-%D7%90%D7%95%D7%91%D7%9F-sol-sl-40l-%E2%80%8F40-%E2%80%8F%D7%9C%D7%99%D7%98%D7%A8/",
+   "publisher": "Rozenfeld",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://refaeli.co.il/items/5983540-SL-40L",
+   "publisher": "Refaeli",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "לפי היצרן; קמעונאים אחרים מציינים גובה 36 ס״מ",
+     "label": "מידות חיצוניות (רוחב × גובה × עומק)",
+     "value": "54 × 37 × 34 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות פנימיות (רוחב × גובה × עומק)",
+     "value": "43 × 30 × 33 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח תא אפייה",
+     "value": "40 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "100–250 מעלות צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "עד 60 דקות, עם צלצול בסיום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הפעלה רציפה",
+     "value": "אפשרות לעבודה רצופה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "כותרת דף היצרן אומרת אפור כהה",
+     "label": "צבע",
+     "value": "שחור פחם"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "הוסרו תיאורים שיווקיים",
+   "text": "4 גופי חימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ציפוי ניקוי עצמי קטליטי רב־שכבתי"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תוכנית טורבו"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורה פנימית"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רשת צלייה (1 יחידה)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "טוסטר אובן Sol SL-40 בנפח 40 ליטר ובהספק 1500 W, עם טווח טמפרטורות של 100–250 מעלות צלזיוס וטיימר עד 60 דקות. הוא כולל 4 גופי חימום, תוכנית טורבו, תאורה פנימית וציפוי ניקוי עצמי קטליטי. מתאים למי שמחפש טוסטר אובן גדול לאפייה, צלייה וחימום על השיש.",
+  "highlights": [
+   "נפח תא אפייה 40 ליטר",
+   "הספק 1500 W",
+   "טווח טמפרטורות 100–250 מעלות צלזיוס",
+   "טיימר עד 60 דקות ואפשרות לעבודה רצופה",
+   "ציפוי ניקוי עצמי קטליטי רב־שכבתי"
+  ],
+  "goodFor": [
+   "אפייה וצלייה בתא של 40 ליטר כתחליף לתנור גדול בבישולים קטנים",
+   "מטבח שבו רוצים לעקוב אחרי האפייה בזכות התאורה הפנימית",
+   "מי שמעדיף ניקוי קל יותר בזכות הציפוי הקטליטי",
+   "בישולים ארוכים בזכות אפשרות העבודה הרצופה"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי על השיש במידות 54 × 37 × 34 ס״מ, וכן מרווח אוורור סביב המכשיר",
+   "מידות התא הפנימי הן 43 × 30 × 33 ס״מ: כדאי לבדוק שהתבניות שלכם נכנסות",
+   "הספק 1500 W: מומלץ לחבר לשקע ייעודי ולא למפצל עמוס",
+   "גוון הצבע מתואר כשחור פחם; כדאי לראות את המכשיר בחנות"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של טוסטר האובן Sol SL-40?",
+    "a": "נפח תא האפייה הוא 40 ליטר, ומידות התא הפנימי הן 43 × 30 × 33 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורות?",
+    "a": "ניתן לכוון בין 100 ל-250 מעלות צלזיוס.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיימר?",
+    "a": "כן, טיימר עד 60 דקות עם צלצול בסיום, וגם אפשרות לעבודה רצופה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות החיצוניות?",
+    "a": "לפי היצרן: רוחב 54 ס״מ, גובה 37 ס״מ ועומק 34 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "אחריות לשנה ע״י היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טוסטר אובן Sol SL-40 בנפח 40 ליטר והספק 1500 W, עם טורבו, תאורה פנימית וטיימר עד 60 דקות. לרכישה בחדד אלקטריק נהריה",
+  "keywords": [
+   "טוסטר אובן 40 ליטר",
+   "Sol SL-40",
+   "SL-40L",
+   "טוסטר אובן סול",
+   "טוסטר אובן שחור",
+   "טוסטר אובן עם טורבו",
+   "טוסטר אובן גדול"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "40 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "1500W-1600W",
+   "finding": "corrected",
+   "correctValue": "1500 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "catalogValue": "100-250 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 60 דקות כולל פונקציית פעולה קבועה (Stay On) וזמזם התראה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גופי חימום",
+   "catalogValue": "4 גופי חימום עשויים פלדת אל-חלד (Stainless Steel)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "בורר מצבי עבודה",
+   "catalogValue": "4 מצבים (עליון, תחתון, משולב, טורבו)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דלת",
+   "catalogValue": "זכוכית כפולה (Double Glass)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורית ביקורת",
+   "catalogValue": "קיימת",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תוכנית טורבו",
+   "catalogValue": "Turbo/Convection",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "תאורה פנימית",
+   "catalogValue": "תאורה פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "54 × 37 × 34 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות פנימיות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "43 × 30 × 33 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי ניקוי עצמי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "ציפוי ניקוי עצמי קטליטי רב שכבתי",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה ע״י היבואן הרשמי",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הקטלוג מציין SL-40, והיצרן ואתרי הקמעונאים מציינים SL-40L. העובדות נלקחו מדפי SL-40L. יש לוודא שזה אותו מוצר לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "אתר היצרן נותן גובה חיצוני 37 ס״מ, ואילו רוזנפלד ו-Electrica נותנים 36 ס״מ. נשאר 37 לפי היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "כותרת דף היצרן אומרת 'אפור כהה', ואילו מפרט דף היצרן והקטלוג אומרים שחור פחם / שחור. הערך שנרשם הוא שחור פחם.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "שם המותג בקטלוג הוא 'Sol exlusive' (שגיאת כתיב). היצרן מציין Sol.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "הקטלוג מציין SL-40, היצרן והקמעונאים מציינים SL-40L; ככל הנראה אותו מוצר (L = ליטר), יש לאשר.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "גובה חיצוני 37 ס״מ לפי היצרן, קמעונאים מציינים 36 ס״מ.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "כותרת דף היצרן אומרת אפור כהה, המפרט אומר שחור פחם.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "שם המותג בקטלוג 'Sol exlusive' כתוב בשגיאה; היצרן מציין Sol.",
+   "severity": "low"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "בקטלוג הספק 1500W-1600W; היצרן מציין 1500W. בנוסף, זכוכית כפולה, 4 מצבי עבודה ונורית ביקורת לא אומתו.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "הסיומת L בדפי היצרן והקמעונאים (SL-40L) מציינת כנראה ליטר; הנפח, הצבע והמותג תואמים לקטלוג. הספק בקטלוג (1500W-1600W) תוקן ל-1500 W לפי היצרן. אחריות נוסחה מחדש ללא שם היבואן. פרטי קטלוג שלא אומתו (זכוכית כפולה, 4 מצבים, נורית ביקורת, גופי חימום מנירוסטה) לא פורסמו."
+ }
+}

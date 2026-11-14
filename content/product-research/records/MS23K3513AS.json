@@ -1,0 +1,455 @@
+{
+ "modelNumber": "MS23K3513AS",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Samsung",
+  "exactModel": "MS23K3513AS",
+  "israeliImporter": "ניו פרו",
+  "matchConfidence": "high",
+  "notes": "מיקרוגל דיגיטלי 23 ליטר, צבע כסוף עם זכוכית שחורה. הדף של electrica והדף של bettershop מזכירים את הדגם המלא. | QA: שני קמעונאים ישראליים מציינים את הדגם המלא MS23K3513AS, ואחד מהם מזכיר את ניו פרו כיבואן הרשמי."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=985488",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/samsung_ms23k3513as/",
+   "publisher": "BetterShop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.electrica.co.il/items/4027692-%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-Samsung-MS23K3513AS-23-%D7%9C%D7%99%D7%98%D7%A8-%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92",
+   "publisher": "Electrica",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "48.9 × 27.5 × 39.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "12 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "29 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "23 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "800W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר דרגות עוצמה",
+     "value": "6"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות הפשרה מהירה",
+     "value": "5 תוכניות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות שף להמסה וריכוך",
+     "value": "4 תוכניות"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן בישול מקסימלי",
+     "value": "99 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נטרול ריחות בתא הבישול",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג תצוגה",
+     "value": "LED"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "כסוף (זכוכית שחורה, ידית שחור פחם, גוף כסוף)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ציפוי פנימי",
+     "value": "אמייל קרמי כחול אנטיבקטריאלי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, ע״י ניו פרו היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת TDS תלת מוקדית לפיזור אנרגיה שווה בתא"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתיחה קלה בעזרת ידית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Samsung MS23K3513AS הוא מיקרוגל דיגיטלי בנפח 23 ליטר עם הספק מיקרוגל של 800W ו-6 דרגות עוצמה. הוא כולל 5 תוכניות הפשרה מהירה, ציפוי פנימי אמייל קרמי כחול אנטיבקטריאלי ותצוגת LED. מתאים למטבח ביתי לחימום, הפשרה ובישול יומיומי.",
+  "highlights": [
+   "נפח 23 ליטר והספק מיקרוגל 800W",
+   "5 תוכניות הפשרה מהירה: בשר, דגים, עוף, ירקות, לחמים ועוגות",
+   "ציפוי פנימי אמייל קרמי כחול אנטיבקטריאלי",
+   "תוכנית לנטרול ריחות בתא הבישול",
+   "אחריות שנה ע״י ניו פרו היבואן הרשמי"
+  ],
+  "goodFor": [
+   "הפשרה מהירה של בשר, עוף, דגים ולחמים",
+   "המסה וריכוך של חמאה ושוקולד בעזרת תוכניות השף",
+   "חימום יומיומי של מנות במטבח ביתי"
+  ],
+  "considerations": [
+   "צריך שקע חשמל זמין בסמוך למקום ההצבה",
+   "יש לבדוק שהצלחות והכלים נכנסים על צלחת מסתובבת בקוטר 29 ס״מ"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח וההספק של המיקרוגל?",
+    "a": "נפח 23 ליטר והספק מיקרוגל 800W, עם 6 דרגות עוצמה.",
+    "sources": []
+   },
+   {
+    "q": "אילו תוכניות הפשרה יש בו?",
+    "a": "5 תוכניות הפשרה מהירה: בשר, דגים, עוף, ירקות, לחמים ועוגות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המיקרוגל?",
+    "a": "שנה אחריות מלאה ע״י ניו פרו, היבואן הרשמי.",
+    "sources": []
+   },
+   {
+    "q": "מה זמן הבישול המקסימלי?",
+    "a": "ניתן לכוון זמן בישול של עד 99 דקות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי Samsung MS23K3513AS בנפח 23 ליטר, הספק 800W ו-5 תוכניות הפשרה מהירה, ציפוי אמייל קרמי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Samsung MS23K3513AS",
+   "מיקרוגל סמסונג 23 ליטר",
+   "מיקרוגל דיגיטלי סמסונג",
+   "MS23K3513AS",
+   "מיקרוגל 800W",
+   "מיקרוגל כסוף סמסונג"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "23 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "800W",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר דרגות עוצמה",
+   "catalogValue": "6",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 48.9 ס\"מ, גובה 27.5 ס\"מ, עומק כולל ידית 39.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-12 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "catalogValue": "288-290 מ\"מ",
+   "finding": "confirmed",
+   "correctValue": "29 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ציפוי פנימי",
+   "catalogValue": "אמייל קרמי כחול אנטיבקטריאלי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "LED כחול (Ice Blue)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "Quick Defrost",
+   "catalogValue": "5 תוכניות הפשרה מהירה",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "Deodorization",
+   "catalogValue": "פונקציית נטרול ריחות בתא הבישול",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות שף",
+   "catalogValue": "תוכניות שף להמסה וריכוך (חמאה, שוקולד, סוכר)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פיקוד",
+   "catalogValue": "פיקוד אלקטרוני Easytronic",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פתיחה",
+   "catalogValue": "פתיחה באמצעות ידית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור-כסף (מהשם)",
+   "finding": "corrected",
+   "correctValue": "כסוף (זכוכית שחורה, ידית שחור פחם, גוף כסוף)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח כניסה",
+   "catalogValue": "230V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל מרבית",
+   "catalogValue": "1150W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ECO",
+   "catalogValue": "מצב ECO",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "מלזיה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "השם בקטלוג אומר שחור-כסף, ואילו דפי היבואן והקמעונאים מתארים גוף כסוף עם זכוכית שחורה. כדאי לבדוק את תיאור הצבע בקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "issue": "בקטלוג מופיע טווח 288-290 מ\"מ, והדפים מציינים 29 ס״מ בלבד. ערך ההשוואה נמצא, אבל הטווח עצמו לא מאושר בדף.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "issue": "שורת המידות המשולבת מגיעה רק מדף zap, שמכיל מודעה של מוכר יד שנייה. רוחב, גובה ועומק מופיעים בדפי electrica ו-bettershop בשורות נפרדות.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "שם הקטלוג אומר שחור-כסף, והקמעונאים מתארים גוף כסוף עם זכוכית שחורה וידית שחור פחם.",
+   "severity": "low"
+  },
+  {
+   "field": "קוטר צלחת מסתובבת",
+   "issue": "בקטלוג מופיע טווח 288-290 מ״מ, והמקור מציין 29 ס״מ.",
+   "severity": "low"
+  },
+  {
+   "field": "סוג תצוגה",
+   "issue": "הקטלוג מציין LED כחול (Ice Blue), והמקור מאשר LED בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "issue": "שורת המידות המשולבת מגיעה רק מדף zap.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נשמרו. תווית התצוגה נשארה LED בלבד (הצבע Ice Blue לא אומת). המידות מגיעות רק מדף zap. | code guard removed: faq: \"מה המידות של Samsung MS23K3513AS?\"; consideration: \"יש לוודא שבמקום ההצבה יש רוחב של 48.9 ס״מ ועומק של 39.2 ס״מ לפחות, ולהשאיר מרווח לאוורור\""
+ }
+}

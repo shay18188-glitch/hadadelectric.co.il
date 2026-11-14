@@ -1,0 +1,405 @@
+{
+ "modelNumber": "ATL-773W EASY FILLING",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-773W",
+  "israeliImporter": "יוסף חיים בע\"מ",
+  "matchConfidence": "high",
+  "notes": "The Gold Line Israel product page names the exact model ATL-773W (title, SKU and model line). Sibling models ATL-773B (black, EASY FILLING) and ATL-755W were seen in search results and are not evidence for this model. | QA: Gold Line Israel page title names 'קומקום זכוכית EASY FILLING לבן / ATL-773W', matching the catalog model, color and EASY FILLING variant."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%A0%D7%A9%D7%9C%D7%A3-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-easy-filling-%D7%9C%D7%91%D7%9F-atl-773w/",
+   "publisher": "Gold Line Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ATL-773W"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2000 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Packaging dimensions per the page, not device dimensions.",
+     "label": "מידות אריזה (רוחב × גובה × עומק)",
+     "value": "22.5 × 23.5 × 16.7 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י יוסף חיים בע״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגנה מפני הרתחה ביבש",
+     "value": "ניתוק אוטומטי בהעדר מים"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תאורת LED",
+     "value": "כחולה והיקפית, נדלקת בעת ההפעלה"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "בסיס",
+     "value": "מסתובב 360 מעלות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן עם זכוכית שקופה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר המיכל",
+     "value": "זכוכית, עם בידוד כפול בחלק התחתון"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון EASY FILLING למילוי מים מהיר ללא צורך בפתיחת המכסה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed superlative.",
+   "text": "גוף חימום נסתר ושטוח, להגנה מפני אבנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מסננת נירוסטה צפופה המסייעת במניעת מעבר של לכלוך גס וחלקי אבנית גדולים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידית אחיזה שקופה ומבודדת חום"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי מזכוכית בגוון לבן של Gold Line, דגם ATL-773W EASY FILLING, בנפח 1.7 ליטר ובהספק 2000 W. מנגנון EASY FILLING מאפשר למלא מים בלי לפתוח את המכסה, והבסיס מסתובב 360 מעלות. מתאים למי שמחפש קומקום זכוכית עם תאורת LED כחולה וניתוק אוטומטי בהעדר מים.",
+  "highlights": [
+   "הספק 2000 W",
+   "נפח 1.7 ליטר",
+   "מילוי מים ללא פתיחת המכסה (EASY FILLING)",
+   "בסיס מסתובב 360 מעלות",
+   "ניתוק אוטומטי בהעדר מים"
+  ],
+  "goodFor": [
+   "מטבח ביתי שבו מרתיחים מים לכמה כוסות בבת אחת, בזכות נפח של 1.7 ליטר",
+   "מי שרוצה למלא מים במהירות בלי להתעסק עם פתיחת המכסה",
+   "מטבח בגוונים בהירים שמתאים לו קומקום זכוכית שקופה בגוון לבן",
+   "שימוש יומיומי עם הנחה ושליפה מכל זווית על בסיס מסתובב"
+  ],
+  "considerations": [
+   "קומקום בהספק 2000 W – כדאי לחבר לשקע שאינו עמוס במכשירים חזקים נוספים",
+   "המידות המפורסמות על ידי היצרן הן מידות אריזה (22.5 × 23.5 × 16.7 ס״מ) ולא מידות המכשיר עצמו",
+   "מיכל זכוכית – כדאי לוודא שיש מקום יציב על השיש ולהקפיד על ניקוי אבנית מעת לעת"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הקומקום?",
+    "a": "נפח המיכל הוא 1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של הקומקום?",
+    "a": "ההספק הוא 2000 W.",
+    "sources": []
+   },
+   {
+    "q": "איך עובד מנגנון EASY FILLING?",
+    "a": "המנגנון מאפשר מילוי מים מהיר ללא צורך בפתיחת המכסה.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה כשאין בו מים?",
+    "a": "כן, מערכת הגנה מובנית מנתקת אוטומטית את המכשיר בהעדר מים במיכל.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "אחריות לשנה ע״י היבואן יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי זכוכית לבן Gold Line ATL-773W EASY FILLING, נפח 1.7 ליטר והספק 2000 W, מילוי ללא פתיחת מכסה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום זכוכית גולד ליין",
+   "Gold Line ATL-773W",
+   "ATL-773W EASY FILLING",
+   "קומקום חשמלי זכוכית לבן",
+   "קומקום 1.7 ליטר",
+   "קומקום גולדליין לבן",
+   "קומקום חשמלי 2000W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות המכשיר",
+   "catalogValue": "רוחב 22.5 ס\"מ, עומק 16.7 ס\"מ, גובה 23.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומרי מבנה",
+   "catalogValue": "זכוכית Borosilicate עמידה בחום בשילוב רכיבי פלסטיק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר ושטוח העשוי נירוסטה איכותית",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס 360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנה בהיעדר מים",
+   "catalogValue": "Dry-Boil Protection",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בידוד מיכל",
+   "catalogValue": "בידוד כפול בחלקו התחתון של המיכל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסננת",
+   "catalogValue": "מסננת נירוסטה צפופה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה",
+   "catalogValue": "תאורת LED היקפית בגוון כחול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון מילוי מים",
+   "catalogValue": "מילוי מים ישירות דרך המכסה ללא פתיחתו",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברקוד",
+   "catalogValue": "7290020071194",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה ע\"י יבואן רשמי יוסף חיים בע\"מ",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "The manufacturer page gives packaging dimensions (מידות אריזה), not product dimensions. The catalog's 22.5 × 23.5 × 16.7 figures match the packaging, so the catalog label 'מידות המכשיר' may be wrong. Check before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "material",
+   "issue": "The manufacturer page does not mention Borosilicate glass, plastic parts, or stainless steel heating body. These catalog claims are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "origin_country",
+   "issue": "The manufacturer page does not state the country of origin. The catalog's Chinese origin claim is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "power",
+   "issue": "A search summary mentioned a 2200W rating on one retailer listing. That listing was not fetched and is not evidence. The manufacturer page says 2000W.",
+   "severity": "low"
+  },
+  {
+   "field": "dimensions",
+   "issue": "Catalog lists 22.5 × 23.5 × 16.7 ס״מ as device dimensions; the manufacturer page gives these as packaging dimensions.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog claims borosilicate glass, plastic parts and a stainless-steel heating element; the manufacturer page does not confirm these.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Country of origin (China) is not stated on the manufacturer page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts quoted from the Gold Line Israel product page for ATL-773W (EASY FILLING, white). Dimensions kept only as packaging dimensions, as the page states; the catalog labels them as device dimensions. Catalog claims of borosilicate glass, stainless heating element and Chinese origin are not supported and were not published. Heating-element wording trimmed of the marketing superlative."
+ }
+}

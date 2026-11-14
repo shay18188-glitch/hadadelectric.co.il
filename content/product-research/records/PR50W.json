@@ -1,0 +1,448 @@
+{
+ "modelNumber": "PR50W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PR50W",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "bug.co.il lists the model as PR50W on the page title and the spec line 'דגם PR50W'. traklin.co.il writes it as PR-50W. The importer is named only in warranty text ('אס גי אלקטרוניקה'), so it is left null. | QA: Both pages name the exact model (PR50W on bug.co.il, PR-50W on traklin.co.il), 50 L total, white, with freezer compartment, matching the catalog. Importer not confirmed by an importer or manufacturer page."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מקרר-משרדי-כולל-תא-הקפאה-50-ליטר-premier-926352548",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקררים/מקרר_קובייה_premier_נפח_כולל_50_ליטר_דגם_pr-50w_לבן",
+   "publisher": "Traklin Hashmal (טרקלין חשמל)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "50 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח אחסון תא קירור",
+     "value": "41 ליטר"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Two pages agree; traklin spec table 41 L looks like a copy error.",
+     "label": "נפח אחסון תא הקפאה",
+     "value": "5 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Added Hebrew explanation.",
+     "label": "שיטת קירור",
+     "value": "De Frost (הפשרה ידנית)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מדחס",
+     "value": "ANUODAN HL35Y"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גז קירור",
+     "value": "R600a/16g"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי (אירופאי)",
+     "value": "F"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "48 × 49 × 44 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת אחריות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'מקסימלי'.",
+   "text": "תא קירור עם מדף אמצעי לניצול שטח האחסון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טמפרטורה ניתנת לכיוון בהתאם לצורך"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'במיוחד'.",
+   "text": "מדחס שקט"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגליות מתכווננות ליציבות ואיזון"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תאורה פנימית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Fixed source typo.",
+   "text": "ידית דלת מוסתרת למראה נקי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "למדוד היטב את כל הפתחים שהמוצר יעבור דרכם לפני ההזמנה"
+  }
+ ],
+ "content": {
+  "summary": "Premier PR50W הוא מקרר קובייה קומפקטי בצבע לבן, בנפח כולל של 50 ליטר, עם תא קירור של 41 ליטר ותא הקפאה של 5 ליטר. מידותיו 48 × 49 × 44 ס״מ, שיטת הקירור De Frost (הפשרה ידנית) ודירוג האנרגיה האירופאי שלו F. מתאים למשרד, לחדר אירוח או לחדר סטודנט שבהם נדרש מקרר קטן ושקט.",
+  "highlights": [
+   "נפח כולל 50 ליטר: תא קירור 41 ליטר ותא הקפאה 5 ליטר",
+   "מידות קומפקטיות: 48 × 49 × 44 ס״מ",
+   "טמפרטורה ניתנת לכיוון",
+   "מדחס שקט ותאורה פנימית",
+   "רגליות מתכווננות לאיזון"
+  ],
+  "goodFor": [
+   "משרד או חדר ישיבות שצריך מקום לשתייה ולארוחות קלות",
+   "חדר אירוח או יחידת דיור קטנה",
+   "חדר סטודנט, בזכות המדחס השקט והמידות הקומפקטיות",
+   "מי שצריך תא הקפאה קטן לקרח או למוצרים קפואים לטווח קצר"
+  ],
+  "considerations": [
+   "לוודא שהמקום המיועד מתאים למידות 48 × 49 × 44 ס״מ, עם מרווח לאוורור",
+   "שיטת De Frost מחייבת הפשרה ידנית מעת לעת",
+   "תא ההקפאה בנפח 5 ליטר מתאים לאחסון קטן ולא להקפאה של כמויות",
+   "דירוג האנרגיה האירופאי הוא F",
+   "למדוד את הפתחים שדרכם יעבור המקרר לפני ההזמנה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Premier PR50W?",
+    "a": "הנפח הכולל הוא 50 ליטר: 41 ליטר בתא הקירור ו-5 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 48 ס״מ, גובה 49 ס״מ ועומק 44 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך להפשיר את המקרר?",
+    "a": "כן. שיטת הקירור היא De Frost, כלומר הפשרה ידנית.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לכוון את הטמפרטורה?",
+    "a": "כן, הטמפרטורה ניתנת לכיוון בהתאם לצורך.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "שנה אחריות, בכפוף לתעודת אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר קובייה Premier PR50W לבן: נפח 50 ליטר עם תא הקפאה 5 ליטר, מידות 48 × 49 × 44 ס״מ, טמפרטורה מתכווננת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Premier PR50W",
+   "מקרר משרדי 50 ליטר",
+   "מקרר קובייה פרמייר",
+   "מקרר קטן עם תא הקפאה",
+   "מקרר לחדר סטודנט",
+   "מקרר משרדי לבן",
+   "PR-50W",
+   "מקרר קטן למשרד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח כולל",
+   "catalogValue": "50 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח אחסון תא קירור",
+   "catalogValue": "41 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח אחסון תא הקפאה",
+   "catalogValue": "5 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "De-Frost (הפשרה ידנית)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "F (לפי התקן האירופאי החדש)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג מדחס",
+   "catalogValue": "ANUODAN HL35Y",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גז קירור",
+   "catalogValue": "R600a/16g",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות המוצר",
+   "catalogValue": "גובה 49 ס\"מ, רוחב 48 ס\"מ, עומק 44 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "13 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שם המוצר: מיני בר",
+   "catalogValue": "מיני בר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדף",
+   "catalogValue": "מדף רשת פנימי הניתן להסרה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רגליות מתכווננות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח מקפיא",
+   "issue": "The traklin.co.il spec table gives freezer net volume as 41 L, while bug.co.il and the traklin.co.il description give 5 L. The catalog's 5 L matches two pages and was kept.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "The traklin.co.il dimension table gives 488, 442 and 475 (unit ס״מ), which conflicts with bug.co.il's 48, 49 and 44 ס״מ. The traklin figures look like a typo and were not used.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "The catalog name says מיני בר, but both retailer pages call it a מקרר משרדי or מקרר קובייה with a freezer compartment. No page says mini bar. Check the category and name.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "bug.co.il writes the model as PR50W and traklin.co.il writes it as PR-50W. Both match the catalog number once the hyphen is ignored.",
+   "severity": "low"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "The warranty text names אס גי אלקטרוניקה as the warranty handler. No manufacturer or importer page confirmed the importer, so it was left null.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says מיני בר; both retailer pages describe it as מקרר משרדי / מקרר קובייה with a freezer compartment. Check name and category wording.",
+   "severity": "medium"
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "issue": "traklin.co.il spec table lists freezer volume 41 L, contradicting 5 L on both pages' descriptions; 5 L was kept.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "traklin.co.il dimension table shows 488/442/475 ס״מ, apparently a listing error; bug.co.il values were used.",
+   "severity": "low"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "Warranty text mentions אס גי אלקטרוניקה but importer not confirmed; left empty.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל / מדף",
+   "issue": "Catalog weight 13 ק״ג and removable wire shelf were not verified by a quote and are not published.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts are supported by ok quotes on two Israeli retailer pages naming PR50W / PR-50W. Cooling method value reworded to include manual defrost meaning. Feature 5 typo in source ('הסתרת') published as 'מוסתרת'. Traklin spec-table freezer 41 L and dimension figures 488/442/475 were not used (likely listing errors). Catalog weight 13 kg and removable wire shelf were not offered as facts and are not published."
+ }
+}

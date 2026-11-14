@@ -1,0 +1,396 @@
+{
+ "modelNumber": "LUXE CAFE ES603",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "ES603",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "The BUG page names the model as Luxe Café ES603 and states that the importer is Sarig. Sarig's own product pages returned HTTP 403, and a Costco page returned HTTP 429, so they were not read. The 2 L water tank, 15 bar pump and 250 g bean hopper from the catalog were not found on any Israeli or manufacturer page reached. | QA: BUG names the Ninja Luxe Café ES603 and says Sarig is the importer. Zap also lists an ES603EU under the name Luxe Essential, so the Israeli variant's name should be confirmed."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/ninja/luxe/caf/es603",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1262788",
+   "publisher": "Zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מכונה",
+     "value": "מכונת אספרסו חצי אוטומטית"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1650 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "The catalog says 30.",
+     "label": "דרגות טחינה",
+     "value": "25"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Differs from the catalog and from Multistore. Flagged.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "36 × 37 × 35 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "17 ק״ג (כולל האריזה)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Another Israeli retailer reportedly gives 12 months. Confirm with the importer.",
+     "label": "אחריות",
+     "value": "שנתיים (מותנה ברישום)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכונה משולבת 3 ב-1: אספרסו, קפה פילטר וחליטה קרה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Reworded to match the quote.",
+   "text": "טכנולוגיית Barista Assist להתאמת ההכנה לכל משקה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שקילה אוטומטית של כמות הקפה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'כפולה'.",
+   "text": "4 תוכניות הקצפה מובנות לחלב רגיל או צמחי, חם או קר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed 'בלחיצת כפתור'.",
+   "text": "הכנת קולד ברו וחליטה קרה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קפה פילטר בנפח 170 עד 500 מ״ל"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חוברת הדרכה ומתכונים בעברית"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ninja Luxe Café ES603 היא מכונת אספרסו חצי אוטומטית 3 ב-1 שמכינה אספרסו, קפה פילטר וחליטה קרה. יש בה מטחנה מובנית עם 25 דרגות טחינה, שקילה אוטומטית של כמות הקפה ו-4 תוכניות הקצפה לחלב רגיל או צמחי. היא מתאימה למי שרוצה לטחון ולהכין קפה בבית בלי לנחש מינונים.",
+  "highlights": [
+   "מטחנה מובנית עם 25 דרגות טחינה",
+   "שקילה אוטומטית של כמות הקפה",
+   "4 תוכניות הקצפה לחלב רגיל או צמחי, חם או קר",
+   "קפה פילטר בנפח 170 עד 500 מ״ל"
+  ],
+  "goodFor": [
+   "מי שרוצה אספרסו, קפה פילטר וקולד ברו ממכשיר אחד",
+   "מי ששותה משקאות חלב, כולל חלב צמחי",
+   "מי שטוחן פולים טריים ורוצה מינון מדויק בלי למדוד ידנית"
+  ],
+  "considerations": [
+   "מדדו את המקום על השיש: מידות המכונה הן 36 × 37 × 35 ס״מ (רוחב × גובה × עומק)",
+   "המשקל עם האריזה הוא 17 ק״ג, כך שכדאי לתכנן מראש איפה המכונה תעמוד"
+  ],
+  "faq": [
+   {
+    "q": "אילו סוגי קפה אפשר להכין במכונה?",
+    "a": "אספרסו, קפה פילטר וקולד ברו (חליטה קרה).",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות טחינה יש במטחנה?",
+    "a": "25 דרגות טחינה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להקציף חלב צמחי?",
+    "a": "כן. יש 4 תוכניות הקצפה מובנות לחלב רגיל או צמחי, חם או קר.",
+    "sources": []
+   },
+   {
+    "q": "באיזה נפח אפשר להכין קפה פילטר?",
+    "a": "מ-170 עד 500 מ״ל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת אספרסו Ninja Luxe Café ES603 3 ב-1 עם מטחנה מובנית של 25 דרגות טחינה ושקילה אוטומטית של הקפה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Ninja Luxe Café ES603",
+   "נינג׳ה ES603",
+   "מכונת קפה נינג׳ה",
+   "מכונת אספרסו עם מטחנה",
+   "מכונת קפה עם מקציף חלב",
+   "מכונת קפה קולד ברו",
+   "Ninja ES603"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "כ-1500-1750 וואט",
+   "finding": "corrected",
+   "correctValue": "1650 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מטחנה - דרגות טחינה",
+   "catalogValue": "30 דרגות טחינה שונות",
+   "finding": "contradicted",
+   "correctValue": "25 דרגות טחינה",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 37 ס\"מ, רוחב 33 ס\"מ, עומק 33.5 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "36 × 37 × 35 ס״מ (רוחב × גובה × עומק)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל מובנה: חיישני משקל",
+   "catalogValue": "חיישני משקל לדיוק מירבי במינון הקפה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קולד ברו (Cold Brew)",
+   "catalogValue": "פונקציית Cold Brew לחליטה קרה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Barista Assist",
+   "catalogValue": "טכנולוגיית Barista Assist",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לחץ משאבה",
+   "catalogValue": "15 בר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מיכל מים",
+   "catalogValue": "2 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קיבולת מכל פולים",
+   "catalogValue": "250 גרם",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת חימום",
+   "catalogValue": "Dual Thermoblock",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מטחנה מפלדת אל-חלד",
+   "catalogValue": "מטחנת קפה קונית מפלדת אל-חלד",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מספר תוכניות הקצפה",
+   "catalogValue": "4 רמות שונות של מרקם הקצף",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ארץ מקור",
+   "catalogValue": "ארה\"ב (תכנון ופיתוח), ייצור בסין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים (מותנה ברישום)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שריג אלקטריק",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "Israeli retailers disagree. BUG gives 36 × 37 × 35 cm (width × height × depth). Multistore gives 33.6 × 37.2 × 34.4 cm. The catalog gives 33 × 37 × 33.5 cm. Check the importer spec sheet before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "BUG says two years, conditional on registration with Sarig. Multistore says 12 months from the importer, with an optional extension that must be activated through My Sarig within 28 days of purchase. Confirm the warranty with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "מטחנה - דרגות טחינה",
+   "issue": "The catalog says 30 grind settings. Both BUG and Zap say 25. Correct the catalog.",
+   "severity": "high"
+  },
+  {
+   "field": "לחץ משאבה, מיכל מים, מכל פולים",
+   "issue": "No Israeli or manufacturer page reached states 15 bar, 2 L or 250 g. The only sources found are non-Israeli reviews and spec pages for the Premier or ES600 series, which give 2 L and 12 oz (about 340 g) and pump pressures that conflict. Check the owner's manual for the ES603.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסת יבואן",
+   "issue": "Zap also lists the Sarig-imported ES603EU as the Luxe Essential, which is a different name from the catalog's Luxe Café. Confirm which name matches the Israeli variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "BUG gives 36 × 37 × 35 cm. Multistore reportedly gives 33.6 × 37.2 × 34.4 cm, and the catalog gives 33 × 37 × 33.5 cm. Check the importer's spec sheet.",
+   "severity": "high"
+  },
+  {
+   "field": "אחריות",
+   "issue": "BUG says two years, conditional on registration with Sarig. Another retailer reportedly says 12 months with an optional extension. Not published. Confirm with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "דרגות טחינה",
+   "issue": "The catalog says 30 grind settings, but BUG and Zap both say 25.",
+   "severity": "high"
+  },
+  {
+   "field": "לחץ משאבה, מיכל מים, מכל פולים",
+   "issue": "No source reached confirms the catalog's 15 bar, 2 L or 250 g. Check the ES603 owner's manual.",
+   "severity": "medium"
+  },
+  {
+   "field": "גרסת יבואן",
+   "issue": "Zap lists the Sarig-imported ES603EU as the Luxe Essential, while the catalog and BUG say Luxe Café. Confirm the Israeli variant.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the warranty fact because another Israeli retailer reportedly states 12 months, which conflicts with BUG's two years. Rewrote features 1, 3 and 4 so they say only what the quotes support: removed the grind, weight and temperature claim from Barista Assist, removed 'כפולה' from frothing and removed 'בלחיצת כפתור' from cold brew. Kept the dimensions from BUG, but they differ from the catalog and from Multistore, so they are flagged. Set the Zap source kind to other because Zap is a price-comparison site. | code guard removed: highlight: \"הספק 1650 W\"; consideration: \"בדקו שיש שקע זמין ליד מקום ההצבה. ההספק הוא 1650 W\""
+ }
+}

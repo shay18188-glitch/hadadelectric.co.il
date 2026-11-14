@@ -1,0 +1,355 @@
+{
+ "modelNumber": "RS24W",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hisense",
+  "exactModel": "RS24W",
+  "israeliImporter": "קבוצת ח.י.",
+  "matchConfidence": "high",
+  "notes": "כל המקורות בישראל הם דפי קמעונאים לדגם RS24W המציינים יבואן רשמי. לא נמצא דף יצרן ישיר לדגם. חלק מדפי ההשוואה מציגים את הדגם הקרוב RS24WC. | QA: Both Israeli retailer pages name RS24W explicitly; capacity, drawers and colour match the catalog name."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://citydeal.co.il/product/hisense-rs24w-%d7%9e%d7%a7%d7%a4%d7%99%d7%90-nofrost-%d7%a2%d7%9d-6-%d7%9e%d7%92%d7%99%d7%a8%d7%95%d7%aa-194-%d7%9c%d7%99%d7%98%d7%a8-%d7%9c%d7%91%d7%9f-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9",
+   "publisher": "Citydeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/מקררים_ומקפיאים/מקפיאים/מקפיא_6_מגירות_hisense_דגם_rs24w_לבן",
+   "publisher": "Traklin Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "55 × 169 × 55 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה",
+     "value": "194 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר תאים",
+     "value": "6 תאי אחסון: תא אחד עם מכסה פתוח + 5 מגירות אטומות נשלפות"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיטת הפשרה",
+     "value": "No Frost"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מדד אקלים",
+     "value": "טרופי"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "D"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "לבן, ציפוי VCM דוחה טביעות אצבע"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כיוון פתיחת הדלת",
+     "value": "לימין"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "From one retailer page; confirm with importer.",
+     "label": "אחריות יבואן",
+     "value": "שנה מלאה + 2 שנים נוספות מוגבלות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת Multi Air Flow מפזרת אוויר קר באופן שווה בכל חלל המקפיא"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Hisense RS24W הוא מקפיא עומד בצבע לבן עם נפח של 194 ליטר ושיטת No Frost, כך שאין צורך בהפשרה ידנית. הנפח מחולק ל-6 תאי אחסון: תא עליון עם מכסה ו-5 מגירות אטומות נשלפות, ומערכת Multi Air Flow מפזרת את האוויר הקר באופן שווה. מתאים למי שמחפש מקפיא נפרד לאחסון כמויות גדולות של מזון קפוא לצד המקרר.",
+  "highlights": [
+   "נפח תא הקפאה 194 ליטר",
+   "No Frost – ללא הפשרה ידנית",
+   "6 תאי אחסון: תא עם מכסה + 5 מגירות אטומות נשלפות",
+   "מערכת Multi Air Flow לפיזור אוויר קר אחיד",
+   "מדד אקלים טרופי"
+  ],
+  "goodFor": [
+   "משפחות שמקפיאות כמויות גדולות של בשר, לחם ומנות מבושלות",
+   "מי שרוצה מקפיא נפרד לצד מקרר קיים",
+   "מטבחים או מרפסות שירות חמים, בזכות מדד אקלים טרופי",
+   "מי שמעדיף לא להתעסק בהפשרה ידנית"
+  ],
+  "considerations": [
+   "יש לוודא נישה ברוחב 55 ס״מ, עומק 55 ס״מ וגובה 169 ס״מ, עם מרווח לאוורור",
+   "הדלת נפתחת לימין – כדאי לבדוק שהכיוון מתאים למיקום במטבח",
+   "דירוג אנרגטי D – כדאי לקחת בחשבון את צריכת החשמל לאורך זמן",
+   "יש לוודא שקע חשמל זמין במיקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקפיא Hisense RS24W?",
+    "a": "נפח תא ההקפאה הוא 194 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם צריך להפשיר את המקפיא?",
+    "a": "לא. המקפיא עובד בשיטת No Frost, ללא צורך בהפשרה ידנית.",
+    "sources": []
+   },
+   {
+    "q": "כמה מגירות יש במקפיא?",
+    "a": "יש 6 תאי אחסון: תא אחד עם מכסה ו-5 מגירות אטומות נשלפות.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקפיא?",
+    "a": "רוחב 55 ס״מ, גובה 169 ס״מ ועומק 55 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "לאיזה כיוון נפתחת הדלת?",
+    "a": "הדלת נפתחת לימין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקפיא Hisense RS24W לבן: נפח 194 ליטר, No Frost ללא הפשרה ידנית ו-6 תאי אחסון עם מגירות נשלפות. מידע ומפרט מלא בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקפיא Hisense RS24W",
+   "RS24W",
+   "מקפיא 6 מגירות",
+   "מקפיא נו פרוסט",
+   "מקפיא 194 ליטר",
+   "מקפיא הייסנס",
+   "מקפיא עומד לבן",
+   "מקפיא מגירות No Frost"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "194 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "גובה 169 ס״מ, רוחב 55 ס״מ, עומק 55 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "D",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "דירוג אקלים",
+   "catalogValue": "טרופי (Tropical - T)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג הקפאה",
+   "catalogValue": "4 כוכבים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כיוון פתיחת דלת",
+   "catalogValue": "ימני",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מספר תאי אחסון",
+   "catalogValue": "6 (תא עליון עם מכסה מתרומם ו-5 מגירות אטומות נשלפות)",
+   "finding": "corrected",
+   "correctValue": "6 תאי אחסון: תא עליון עם מכסה פתוח + 5 מגירות אטומות נשלפות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "פנימי עליון עם תצוגת טמפרטורה דיגיטלית ונורית חיווי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "קבוצת ח.י. (יבואנית רשמית)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף יצרן או יבואן רשמי לדגם RS24W. כל העובדות מבוססות על שני דפי קמעונאים ישראלים שמזכירים את הדגם במפורש. מומלץ לאמת מול אתר Hisense Israel או מדבקת הדגם.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "חלק מדפי ההשוואה מציגים את הדגם RS24WC עם מפרטים דומים. העובדות כאן נשענות על דפים שמזכירים את RS24W במפורש.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on two Israeli retailer pages; no manufacturer or importer page was found for RS24W.",
+   "severity": "low"
+  },
+  {
+   "field": "warranty",
+   "issue": "Warranty terms come from a single retailer page; confirm with the importer.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "A close sibling RS24WC appears on some comparison pages; facts here come only from pages naming RS24W.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts verified by ok quotes on two Israeli retailer pages naming RS24W. Warranty terms come from one retailer page; kept but flagged for confirmation."
+ }
+}

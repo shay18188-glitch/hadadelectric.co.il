@@ -1,0 +1,424 @@
+{
+ "modelNumber": "40308 IS-RD",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hamilton Beach",
+  "exactModel": "40308-IS-RD",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Israeli pages name the model 40308-IS-RD or 40308-IS RD, the same as the catalog's 40308 IS-RD. The catalog brand reads Hemilton Beach. No manufacturer page or manual for this Israeli variant was found. | QA: Two Israeli retailer pages and Zap name 40308-IS-RD (red). Catalog brand misspelled Hemilton Beach."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electro-buy.co.il/items/5990447-%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D-%D7%9E%D7%A2%D7%95%D7%A6%D7%91-Hamilton-Beach-40308-IS-RD-%D7%90%D7%93%D7%95%D7%9D-%D7%9E%D7%91%D7%A8%D7%99%D7%A7-%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F-%D7%91%D7%99%D7%A5-",
+   "publisher": "Electro-Buy",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%97%D7%A9%D7%9E%D7%9C_%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D_%D7%97%D7%A9%D7%9E%D7%9C%D7%99_%D7%95%D7%9E%D7%99%D7%97%D7%9D_%D7%9C%D7%A9%D7%91%D7%AA/%D7%A7%D7%95%D7%9E%D7%A7%D7%95%D7%9D_%D7%90%D7%93%D7%95%D7%9D_%D7%9E%D7%91%D7%A8%D7%99%D7%A7_hamilton_beach_%D7%93%D7%92%D7%9D_40308-is-rd_%D7%94%D7%9E%D7%99%D7%9C%D7%98%D7%95%D7%9F_%D7%91%D7%99%D7%A5",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.zap.co.il/compmodels.aspx?modelid=1205395",
+   "publisher": "זאפ",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog 3000 W is contradicted",
+     "label": "הספק",
+     "value": "2200 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תכולה",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "25.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "20.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote does not say diameter; relabelled",
+     "label": "בסיס",
+     "value": "17 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י היבואן שאוליאן סחר"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחסון כבל",
+     "value": "כבל חשמל מאוחסן בגוף הקומקום"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "גוף חימום נסתר"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "כיבוי אוטומטי לאחר רתיחה",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הגנה ממצב חוסר מים",
+     "value": "כיבוי אוטומטי במצב של חוסר מים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פילטר אבנית נשלף לניקוי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה בטיחותי עם נעילה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בסיס 360 מעלות, נוח לימניים ולשמאליים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גוף חימום Strix תוצרת אנגליה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנגנון הפעלה תוצרת STRIX"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלון שקוף ומד מים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מפסק הפעלה וכיבוי מואר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3 מצבי בטיחות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of fact 7",
+   "text": "גוף חימום נסתר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי בעיצוב פירמידה בצבע אדום מבית Hamilton Beach, דגם 40308-IS-RD. הספק 2200 W ותכולה של 1.7 ליטר, עם גוף חימום נסתר ומנגנון STRIX. כולל כיבוי אוטומטי לאחר רתיחה ובמצב של חוסר מים, ומתאים למי שמחפש קומקום מעוצב לשימוש יומיומי במטבח.",
+  "highlights": [
+   "הספק 2200 W",
+   "תכולה 1.7 ליטר",
+   "גוף חימום נסתר ומנגנון STRIX",
+   "כיבוי אוטומטי לאחר רתיחה ובחוסר מים",
+   "בסיס 360 מעלות ופילטר אבנית נשלף"
+  ],
+  "goodFor": [
+   "מטבח שבו רוצים קומקום מעוצב בצבע אדום על השיש",
+   "שימוש יומיומי להרתחת מים לשתייה חמה, עם תכולה של 1.7 ליטר",
+   "אזורים עם מים קשים, בזכות פילטר אבנית נשלף וגוף חימום נסתר",
+   "בית עם משתמשים ימניים ושמאליים, בזכות בסיס 360 מעלות"
+  ],
+  "considerations": [
+   "גובה הקומקום 25.5 ס״מ – כדאי לוודא שיש מספיק מקום מתחת לארונות העליונים",
+   "הקומקום צורך 2200 W – עדיף לחבר לשקע שאינו משותף למכשירים חזקים נוספים",
+   "יש לנקות את פילטר האבנית הנשלף מדי פעם",
+   "כדאי לוודא את הצבע בחנות, מאחר שמקורות שונים מציינים צבעים שונים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הקומקום?",
+    "a": "הספק הקומקום הוא 2200 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים נכנסים בקומקום?",
+    "a": "תכולת הקומקום היא 1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם הקומקום נכבה לבד?",
+    "a": "כן, הקומקום נכבה אוטומטית לאחר הרתיחה וגם במצב של חוסר מים.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות הקומקום?",
+    "a": "גובה 25.5 ס״מ, רוחב 20.5 ס״מ ובסיס של 17 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנה אחריות ע״י היבואן שאוליאן סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי פירמידה אדום Hamilton Beach 40308-IS-RD, הספק 2200 W ותכולה 1.7 ליטר, גוף חימום נסתר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום Hamilton Beach",
+   "קומקום המילטון ביץ׳ אדום",
+   "40308-IS-RD",
+   "קומקום פירמידה",
+   "קומקום חשמלי אדום",
+   "קומקום רטרו",
+   "קומקום 1.7 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "3000 וואט",
+   "finding": "corrected",
+   "correctValue": "2200 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גוף חימום",
+   "catalogValue": "נסתר מנירוסטה למניעת הצטברות אבנית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "בסיס",
+   "catalogValue": "בסיס 360 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חלון מפלס מים",
+   "catalogValue": "ממוקם בגוף הקומקום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנה",
+   "catalogValue": "הגנה מפני הפעלה ללא מים וכיבוי אוטומטי ברתיחה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פילטר",
+   "catalogValue": "מסנן אבנית נשלף ורחיץ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נורית בקרה",
+   "catalogValue": "דולקת בזמן הפעולה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חומר גוף הקומקום",
+   "catalogValue": "נירוסטה איכותית צבועה בתנור",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה ע״י היבואן שאוליאן סחר",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "Catalog says 3000 W; Israeli retailer pages for this model say 2200 W.",
+   "severity": "high"
+  },
+  {
+   "field": "צבע",
+   "issue": "Traklin's spec table says matte black while its title and Electro-Buy say glossy red. Sources conflict; check the unit.",
+   "severity": "high"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog spells Hemilton Beach; pages spell Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog says 3000 W; Israeli retailer page for this model says 2200 W.",
+   "severity": "high"
+  },
+  {
+   "field": "צבע",
+   "issue": "Traklin's spec table reportedly says matte black while its title and Electro-Buy say red. Check the unit.",
+   "severity": "high"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog spells Hemilton Beach; sources spell Hamilton Beach.",
+   "severity": "medium"
+  },
+  {
+   "field": "נורית בקרה / חומר גוף",
+   "issue": "Catalog claims about indicator light and oven-painted stainless body were not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Relabelled fact 4 from 'קוטר בסיס' to 'בסיס' since the quote does not say diameter. Rejected feature 8 as a duplicate of fact 7 (hidden heating element). Catalog power 3000 W contradicted by Israeli retailer (2200 W). Color conflict on Traklin spec table flagged."
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "modelNumber": "V11 SV28",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Dyson",
+  "exactModel": "SV28",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "הדגם SV28 מופיע בזאפ בשם Dyson V11 Absolute Extra Red (צבע אדום/ניקל). לא נמצא דף יצרן או יבואן ישראלי שמציין את SV28; דף דייסון ישראל החזיר 403. נוספו דפי Microless ו-manual.nz (האחרון אינו מציין SV28). | QA: SV28 is the Dyson V11 Absolute Extra model form; Zap lists it as V11 Absolute Extra Red, Microless as Blue/Nickel. Exact Israeli colour/variant not confirmed by manufacturer or importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1181406",
+   "publisher": "zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://global.microless.com/product/dyson-sv28-v11-absolute-extra-cordless-vacuum-3-cleaning-modes-lcd-screen-senses-and-adapts-60-minutes-fade-free-power-washable-filter-blue-nickel-v11-absolute-extra/",
+   "publisher": "Microless",
+   "kind": "retailer",
+   "market": "INTL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "185 AW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן עבודה במצב Eco",
+     "value": "עד 60 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן עבודה במצב Auto",
+     "value": "עד 40 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן עבודה במצב Boost",
+     "value": "עד 10 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סיבובי מנוע",
+     "value": "125,000 סל״ד"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "4.5 שעות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "Microless page names SV28",
+     "label": "נפח מיכל איסוף",
+     "value": "0.76 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "3 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "מסך LCD"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "אורך כבל המטען",
+     "value": "1.8 מ׳"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מתאים למי שמחפש שואב אלחוטי לניקוי שוטף של הבית בלי כבל חשמל.",
+  "highlights": [
+   "מסך LCD"
+  ],
+  "goodFor": [
+   "ניקוי לכלוך עיקש במצב Boost לפרקי זמן קצרים",
+   "מי שמעדיף לעקוב אחרי מצב העבודה על מסך LCD"
+  ],
+  "considerations": [],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "דייסון V11",
+   "Dyson V11 SV28",
+   "שואב אבק אלחוטי דייסון",
+   "Dyson V11 Absolute Extra",
+   "שואב אלחוטי 185AW",
+   "דייסון SV28",
+   "שואב אבק אלחוטי עם מסך LCD"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "185 AW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 60 דקות (במצב Eco)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "4.5 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל כולל",
+   "catalogValue": "3 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצבי עבודה",
+   "catalogValue": "3 מצבים (Eco, Auto/Med, Boost)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מיכל איסוף",
+   "catalogValue": "0.76 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "פילטר HEPA הלוכד 99.99% עד 0.3 מיקרון",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "7 תאים ליתיום-יון (Lilon)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "המקור היחיד שנבדק הוא השוואת מחירים (זאפ) שמציין SV28 בשם Dyson V11 Absolute Extra Red. לא נמצא דף יצרן, יבואן ישראלי או מדריך למשתמש שמציין SV28 במפורש. דף דייסון ישראל החזיר 403, ולכן המפרט אינו מאומת מול היצרן.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "שם המוצר בקטלוג הוא 'שואב אבק אלחוטי עם אביזרים' ואינו מציין את דגם V11 או את הגרסה (Absolute / Extra). יש לוודא את הגרסה ואת הצבע מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "בקטלוג מצוין 99.99% מחלקיקים עד 0.3 מיקרון, ואילו דף ישראלי של גרסה אחרת (V11 Absolute Extra Gold) מציין 99.97%. אין מקור ליצרן לדגם זה, ולכן הערך לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "SV28 מאומת רק מזאפ (V11 Absolute Extra Red) וממשווק בינלאומי (Blue/Nickel). לא נמצא דף יצרן או יבואן ישראלי; יש לוודא גרסה וצבע.",
+   "severity": "medium"
+  },
+  {
+   "field": "מערכת סינון",
+   "issue": "הקטלוג מציין HEPA 99.99% עד 0.3 מיקרון, ללא מקור לדגם זה; דף של גרסה אחרת מציין 99.97%. לא פורסם.",
+   "severity": "medium"
+  },
+  {
+   "field": "סוללה",
+   "issue": "מספר תאי הסוללה ומצבי העבודה בקטלוג לא אומתו במקור.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Kept 10 facts from Zap and Microless pages naming SV28 (V11 Absolute Extra). Normalised value wording (185AW, rpm, LCD). Catalog filter (HEPA 99.99%), battery cells and modes unverified and not published. Zap is a price-comparison site, kept as other. | code guard removed: summary: \"שואב אבק אלחוטי מסדרת Dyson V11 (דגם SV28) עם עוצמת שאיבה של 185 AW ומסך LCD.\"; summary: \"זמן העבודה מגיע עד 60 דקות במצב Eco, עד 40 דקות במצב Auto ועד 10 דקות במצב Boost, והטעינה המלאה נמשכת 4.5 שעות.\"; faq: \"כמה זמן עובד השואב על טעינה אחת?\"; faq: \"כמה זמן לוקח לטעון את הסוללה?\"; faq: \"מה נפח מיכל האבק?\"; faq: \"כמה שוקל השואב?\"; metaDescription: \"שואב אבק אלחוטי Dyson V11 דגם SV28: עוצמת שאיבה 185 AW ועד 60 דקות עבודה במצב Eco, עם מסך LCD. בחדד אלקטריק נהריה\"; highlight: \"עוצמת שאיבה 185 AW\"; highlight: \"עד 60 דקות עבודה במצב Eco\"; highlight: \"מיכל איסוף בנפח 0.76 ליטר\"; highlight: \"משקל 3 ק״ג\"; goodFor: \"ניקוי שוטף של הבית בלי לחפש שקע בכל חדר, עם עד 60 דקות במצב Eco\"; consideration: \"במצב Boost זמן העבודה מתקצר עד 10 דקות, כדאי לתכנן את הניקוי בהתאם\"; consideration: \"טעינה מלאה נמשכת 4.5 שעות, כדאי למקם את המטען ליד שקע זמין\"; consideration: \"כבל המטען באורך 1.8 מ׳, יש לוודא שקע קרוב למקום האחסון\"; consideration: \"מיכל האיסוף בנפח 0.76 ליטר ודורש ריקון בבתים עם הרבה לכלוך\""
+ }
+}

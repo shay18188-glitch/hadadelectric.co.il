@@ -1,0 +1,482 @@
+{
+ "modelNumber": "TRB66MFT",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "SOL",
+  "exactModel": "TRB66MFT",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "דגם TRB66MFT מופיע בדף סול ישראל ובדף טרקלין. דף שאוליאן סחר לא נטען (HTTP 429). נתוני הנפח סותרים בין המקורות. | QA: דף סול ישראל ודף טרקלין מתארים את TRB66MFT, תנור משולב גז 60 ס״מ בשחור, תואם לקטלוג. זהות היבואן לא סופית (שאוליאן סחר לפי טרקלין, ט.ל.ח. לפי הערות אתר סול)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/trb66mft",
+   "publisher": "Sol Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/%D7%91%D7%99%D7%A9%D7%95%D7%9C_%D7%95%D7%90%D7%A4%D7%99%D7%99%D7%94/%D7%AA%D7%A0%D7%95%D7%A8%D7%99%D7%9D/%D7%AA%D7%A0%D7%95%D7%A8_%D7%9E%D7%A9%D7%95%D7%9C%D7%91_%D7%A9%D7%97%D7%95%D7%A8_sol_%D7%93%D7%92%D7%9D_trb66mft_%D7%A1%D7%95%D7%9C",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת מבערים",
+     "value": "SABAF, תוצרת איטליה"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "60 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גובה",
+     "value": "85-90 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "סתירה בין מקורות: סול 62 ליטר לפי החוקר, טרקלין 66, קטלוג כ-65. לא מפורסם עד אימות מול היבואן.",
+     "label": "נפח תא האפייה",
+     "value": "66 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מבער טורבו",
+     "value": "4200 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מבער בינוני",
+     "value": "1650 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מבער קטן",
+     "value": "0.9 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טמפרטורה מקסימלית",
+     "value": "250 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות אפייה",
+     "value": "10 תוכניות, כולל טורבו אקטיבי"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור מט"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "לפי טרקלין בלבד",
+     "label": "אחריות",
+     "value": "שנה, ע״י שאוליאן סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת מבערי גז של SABAF, תוצרת איטליה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הצתה אלקטרונית לכל מבער בנפרד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיישני בטיחות למניעת דליפת גז"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מולטיסיסטם: הפשרה, אפייה, גריל, בישול וטורבו"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "הוסר 'לאפייה אחידה' שאינו בציטוט",
+   "text": "טורבו אקטיבי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "אוורור היקפי לשמירת סביבת עבודה קרירה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "דלת עם שתי שכבות זכוכית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה עליון מזכוכית מחוסמת שניתן לשליפה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טיימר מכני עם אפשרות עבודה קבועה ללא טיימר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תא אחסון בתחתית התנור"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "רגליות מתכווננות, ניתן להתקין משולב במטבח"
+  }
+ ],
+ "content": {
+  "summary": "SOL TRB66MFT הוא תנור משולב כיריים גז ברוחב 60 ס״מ בצבע שחור מט, עם מערכת מבערים של SABAF תוצרת איטליה. הכיריים כוללות מבער טורבו של 4200 W, הצתה אלקטרונית לכל מבער וחיישני בטיחות למניעת דליפת גז. התנור מציע 10 תוכניות אפייה כולל טורבו אקטיבי, וטמפרטורה מקסימלית של 250 מעלות. מתאים למטבח שמחפש יחידה משולבת אחת לבישול על גז ולאפייה.",
+  "highlights": [
+   "מבערי SABAF תוצרת איטליה",
+   "מבער טורבו 4200 W",
+   "10 תוכניות אפייה כולל טורבו אקטיבי",
+   "חיישני בטיחות למניעת דליפת גז",
+   "גובה מתכוונן 85-90 ס״מ ברגליות"
+  ],
+  "goodFor": [
+   "בישול בווק או בסירים גדולים על מבער הטורבו",
+   "מטבח עם חלל ברוחב 60 ס״מ ליחידה משולבת",
+   "מי שרוצה אפייה וגריל באותו מכשיר עם הכיריים",
+   "מי שמעדיף טיימר מכני פשוט ותא אחסון לתבניות"
+  ],
+  "considerations": [
+   "יש לוודא חיבור לגז והתקנה על ידי מתקין גז מוסמך",
+   "יש למדוד שהחלל במטבח מתאים לרוחב 60 ס״מ ולגובה 85-90 ס״מ",
+   "התנור חשמלי ודורש שקע חשמל בקרבת מקום ההתקנה",
+   "נפח תא האפייה מופיע אחרת במקורות שונים, כדאי לברר מול הצוות"
+  ],
+  "faq": [
+   {
+    "q": "אילו מבערים יש בכיריים?",
+    "a": "מערכת מבערים של SABAF תוצרת איטליה, כולל מבער טורבו של 4200 W, מבער בינוני של 1650 W ומבער קטן של 0.9 kW.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני דליפת גז?",
+    "a": "כן, הכיריים כוללות חיישני בטיחות למניעת דליפת גז, והצתה אלקטרונית לכל מבער בנפרד.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות אפייה יש בתנור?",
+    "a": "10 תוכניות אפייה כולל טורבו אקטיבי, עם טמפרטורה מקסימלית של 250 מעלות.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לכוונן את הגובה?",
+    "a": "כן, לתנור רגליות מתכווננות בגובה 85-90 ס״מ, וניתן להתקין אותו משולב במטבח.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על התנור?",
+    "a": "אחריות לשנה ע״י שאוליאן סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "תנור משולב גז SOL TRB66MFT ברוחב 60 ס״מ בשחור מט: מבערי SABAF תוצרת איטליה ו-10 תוכניות אפייה עם טורבו אקטיבי. בחדד אלקטריק נהריה",
+  "keywords": [
+   "תנור משולב גז",
+   "SOL TRB66MFT",
+   "תנור משולב 60 ס״מ",
+   "תנור משולב שחור",
+   "תנור סול משולב",
+   "תנור משולב כיריים גז",
+   "TRB66MFT"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 60 ס״מ, עומק 60 ס״מ, גובה מתכוונן 85-90 ס״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא",
+   "catalogValue": "כ-65 ליטר",
+   "finding": "corrected",
+   "correctValue": "66 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מבערי גז",
+   "catalogValue": "4 מבערי גז בעלי הספקים משתנים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הצתה",
+   "catalogValue": "הצתה אלקטרונית מובנית בכפתורי הגז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בטיחות גז",
+   "catalogValue": "חיישני בטיחות (Termocouple) למניעת דליפת גז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי תא האפייה",
+   "catalogValue": "אמייל מסוג 'Easy to Clean'",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דלת",
+   "catalogValue": "זכוכית כפולה לבידוד תרמי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רשתות סירים",
+   "catalogValue": "רשתות מסיביות מיציקת ברזל (Cast Iron)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טורבו אקטיבי",
+   "catalogValue": "טורבו אקטיבי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שעון",
+   "catalogValue": "שעון אנלוגי/טיימר מכני",
+   "finding": "corrected",
+   "correctValue": "טיימר מכני",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "איטליה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טמפרטורה מקסימלית",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "250 מעלות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח תא",
+   "issue": "המקורות סותרים: אתר סול מציין 62 ליטר, טרקלין מציין 66 ליטר, והקטלוג מציין כ-65 ליטר. נדרש אימות מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "אתר סול מציין שהחברה אינה אחראית לטעויות במידות ובדגמים ומפנה לאימות מול מרכז השירות של היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן אינו ברור: טרקלין מציין את שאוליאן סחר כמשווק, ואתר סול מציין את ט.ל.ח. בהערות המשפטיות.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "שם המותג בקטלוג כתוב 'Sol exlusive' (שגיאת איות). האתרים מציגים SOL / סול.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "האחריות נמצאה רק באתר טרקלין ולא אומתה מול היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "נפח תא",
+   "issue": "סתירה בנפח תא האפייה: סול 62 ליטר, טרקלין 66 ליטר, קטלוג כ-65 ליטר. לא פורסם; נדרש אימות מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "היבואן לא ברור: טרקלין מציין שאוליאן סחר, אתר סול מציין ט.ל.ח. בהערות המשפטיות.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "שם המותג בקטלוג 'Sol exlusive' עם שגיאת איות; המקורות מציגים SOL.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "נפח תא האפייה (66 ליטר) נדחה: נמצא רק בטרקלין, והחוקר דיווח שאתר סול מציין 62 ליטר והקטלוג כ-65 ליטר. שאר הנתונים אומתו מדף סול ישראל ומדף טרקלין לדגם המדויק."
+ }
+}

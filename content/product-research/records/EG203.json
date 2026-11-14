@@ -1,0 +1,415 @@
+{
+ "modelNumber": "EG203",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "EG203",
+  "israeliImporter": "שריג אלקטריק",
+  "matchConfidence": "high",
+  "notes": "גריל חשמלי ביתי עם פאנל תצוגה בעברית (דגם ישראלי, לפי דפי הקמעונאים). הדף של באג והדף של אבי סופר מזכירים את הדגם בשמו. | QA: Two Israeli retailer pages name Ninja EG203 with a Hebrew display panel and the same specs as the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/brand/ninja/eg203",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/גריל-חשמלי-נינגה-eg203/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1760 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טמפרטורה מקסימלית",
+     "value": "265 מעלות צלזיוס"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת צ'יפס בטיגון באוויר חם",
+     "value": "900 גרם"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח סיר בישול",
+     "value": "5.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות בישול",
+     "value": "6 תוכניות: גריל, צלייה, אפייה, טיגון באוויר חם, השחמה וייבוש מזון"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Quote says only (בלעדי); dropped the Israeli-model wording.",
+     "label": "פאנל תצוגה",
+     "value": "בעברית"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "36 × 28 × 43.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות פלטת גריל",
+     "value": "25 × 25 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Second retailer states different warranty terms; needs a person to confirm.",
+     "label": "אחריות יבואן",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית CYCLONIC GRILLING לצלייה מכל הכיוונים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote lists only MAX; removed the other level names.",
+   "text": "4 דרגות צלייה בגריל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגן התזה נשלף הניתן לשטיפה במדיח כלים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ציפוי NONSTICK קרמי ללא PFOA/PTFE"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פלטת גריל יצוקה 25 × 25 ס״מ"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צלחת טיגון באוויר חם"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגן התזה נשלף"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת ניקוי ייעודית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חוברת מתכונים כשרים"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ninja EG203 הוא גריל חשמלי ביתי בהספק 1760 W עם סיר בישול בנפח 5.7 ליטר ו-6 תוכניות: גריל, צלייה, אפייה, טיגון באוויר חם, השחמה וייבוש מזון. הוא מגיע לטמפרטורה של 265 מעלות צלזיוס, כולל פלטת גריל יצוקה בגודל 25 × 25 ס״מ ופאנל תצוגה בעברית. מתאים למי שרוצה מכשיר אחד על השיש לצלייה ולטיגון באוויר חם.",
+  "highlights": [
+   "הספק 1760 W",
+   "סיר בישול בנפח 5.7 ליטר",
+   "6 תוכניות בישול כולל טיגון באוויר חם וייבוש מזון",
+   "טמפרטורה של עד 265 מעלות צלזיוס",
+   "פאנל תצוגה בעברית"
+  ],
+  "goodFor": [
+   "צליית בשר וירקות בתוך הבית על פלטת גריל יצוקה",
+   "הכנת צ'יפס בטיגון באוויר חם, עד 900 גרם בפעם",
+   "מי שמחפש מכשיר אחד לצלייה, אפייה, טיגון באוויר חם וייבוש מזון",
+   "מי שמעדיף ממשק בעברית"
+  ],
+  "considerations": [
+   "מידות המכשיר 36 × 28 × 43.5 ס״מ (רוחב × גובה × עומק) – כדאי לוודא שיש מקום פנוי על השיש ומתחת לארונות",
+   "בהספק 1760 W עדיף לחבר לשקע נפרד ולא למפצל יחד עם מכשירים חזקים נוספים",
+   "את תנאי האחריות של היבואן כדאי לברר בעת הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "אילו תוכניות בישול יש ב-Ninja EG203?",
+    "a": "יש בו 6 תוכניות: גריל, צלייה, אפייה, טיגון באוויר חם, השחמה וייבוש מזון.",
+    "sources": []
+   },
+   {
+    "q": "כמה צ'יפס אפשר להכין בטיגון באוויר חם?",
+    "a": "לפי היבואן אפשר להכין עד 900 גרם צ'יפס בפעם אחת.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח הסיר?",
+    "a": "נפח סיר הבישול הוא 5.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם החלקים נשטפים במדיח?",
+    "a": "מגן ההתזה נשלף וניתן לשטיפה במדיח כלים, והמכשיר מגיע עם מברשת ניקוי ייעודית.",
+    "sources": []
+   },
+   {
+    "q": "האם התצוגה בעברית?",
+    "a": "כן, לדגם יש פאנל תצוגה בעברית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "גריל חשמלי Ninja EG203 בהספק 1760 W עם סיר 5.7 ליטר ו-6 תוכניות בישול כולל טיגון באוויר חם. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Ninja EG203",
+   "גריל חשמלי נינג'ה",
+   "נינג'ה גריל EG203",
+   "גריל חשמלי עם טיגון באוויר חם",
+   "גריל ביתי חשמלי",
+   "Ninja Foodi Grill",
+   "גריל חשמלי לבית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1760W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "גובה 28 ס\"מ, רוחב 36 ס\"מ, עומק 43.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "9.1 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח סיר בישול",
+   "catalogValue": "5.7 ליטר (מתאים לצלייה של 1.3 ק\"ג בשר)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח צלחת טיגון באוויר חם",
+   "catalogValue": "מתאים ל-900 גרם צ'יפס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות פלטת גריל",
+   "catalogValue": "25X25 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טמפרטורת עבודה מקסימלית",
+   "catalogValue": "265 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ציפוי",
+   "catalogValue": "קרמי NONSTICK ללא PFOA/PTFE",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "6 תוכניות בישול",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "פאנל תצוגה",
+   "catalogValue": "פאנל תצוגה בעברית (בלעדי לדגם הישראלי)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור ייצור",
+   "catalogValue": "ארה\"ב (עיצוב ופיתוח), סין (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג \"סיר גריל קטן\" אינו תואם את הדגם: לפי הדפים זהו גריל חשמלי ביתי עם תוכניות צלייה, אפייה וטיגון באוויר חם, ולא סיר בלבד. כמו כן, המילה \"קטן\" אינה נתמכת על ידי הדפים. נדרשת בדיקה אנושית של השם והקטגוריה.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "באג מציין שנתיים אחריות על ידי שריג אלקטריק, ואבי סופר מציין שנה אחריות מלאה ועוד שנתיים אחריות מוגבלת בכפוף לרישום באתר היבואן. התנאים סותרים זה את זה ברמת הפירוט.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל המוצר (9.1 ק\"ג) ומתח העבודה (220-240V) בקטלוג לא אומתו בדפים שנשלפו.",
+   "severity": "low"
+  },
+  {
+   "field": "שם המוצר",
+   "issue": "שם הקטלוג \"סיר גריל קטן\" אינו מתאר במדויק את המוצר: לפי דפי הקמעונאים זהו גריל חשמלי עם תוכניות צלייה, אפייה וטיגון באוויר חם, והמילה \"קטן\" אינה נתמכת.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "באג מציין שנתיים אחריות ע\"י שריג אלקטריק, ואבי סופר מציין שנה אחריות מלאה ועוד הרחבה מוגבלת בכפוף לרישום. יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל ומתח",
+   "issue": "המשקל (9.1 ק\"ג) ומתח העבודה (220-240V) שבקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected the warranty fact: the second Israeli retailer describes different warranty terms (one year full plus limited extension subject to registration). Trimmed the grill-levels feature to the count, since the quote names only MAX. Shortened the display value to what the quote says."
+ }
+}

@@ -1,0 +1,330 @@
+{
+ "modelNumber": "ATL-234",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-234",
+  "israeliImporter": "יוסף חיים יבוא ושיווק בע\"מ",
+  "matchConfidence": "high",
+  "notes": "מחבת חשמלית עגולה \"שף מאסטר\" של Gold Line. דף היבואן ודפי הקמעונאים מזהים את הדגם ATL-234. הספק ומידות בדפי הקמעונאים שונים מהקטלוג (קטלוג: 1500W, 30 ס\"מ). | QA: דף היבואן ודפי קמעונאים בישראל מזהים את מחבת שף מאסטר דגם ATL-234 של Gold Line."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.technoshlomo.co.il/items/2613393--%D7%9E%D7%97%D7%91%D7%AA-%D7%97%D7%A9%D7%9E%D7%9C%D7%99%D7%AA-%D7%A9%D7%A3-%D7%9E%D7%90%D7%A1%D7%98%D7%A8-1200W-%D7%93%D7%92%D7%9D-ATL-234-GOLD-LINE",
+   "publisher": "טכנו שלמה",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.zap.co.il/model.aspx?modelid=919077",
+   "publisher": "זאפ השוואת מחירים",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.wisebuy.co.il/product.aspx?category=h-pan&productid=919077",
+   "publisher": "Wisebuy",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.goldline.co.il/product/%D7%9E%D7%97%D7%91%D7%AA-%D7%A2%D7%92%D7%95%D7%9C%D7%94-%D7%A9%D7%A3-%D7%9E%D7%90%D7%A1%D7%98%D7%A8/",
+   "publisher": "גולדליין (יוסף חיים יבוא ושיווק)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "קמעונאי ישראלי; סותר את הקטלוג (1500W)",
+     "label": "הספק",
+     "value": "1200 W"
+    },
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח טמפרטורה",
+     "value": "0–190 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "סותר את הקטלוג (30 ס״מ)",
+     "label": "קוטר",
+     "value": "36 ס״מ"
+    },
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "ייתכן שאלו מידות אריזה",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "49 × 15 × 44 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה אחת, ע״י יוסף חיים בע״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ציפוי",
+     "value": "טפלון (Non-Stick)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תרמוסטט נשלף ומתכוונן לעוצמת החום הרצויה"
+  },
+  {
+   "sources": [
+    "s4"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תבנית נשלפת לניקוי קל"
+  },
+  {
+   "sources": [
+    "s2",
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכסה זכוכית"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מחבת חשמלית עגולה \"שף מאסטר\" של Gold Line, דגם ATL-234, בקוטר 36 ס״מ ובהספק 1200 W. ציפוי טפלון מונע הידבקות, תרמוסטט נשלף עם טווח חום של 0–190 מעלות ומכסה זכוכית. מתאימה למי שמבשל ומטגן על משטח עבודה ורוצה להגיש ישר לשולחן.",
+  "highlights": [
+   "קוטר 36 ס״מ",
+   "הספק 1200 W",
+   "ציפוי טפלון (Non-Stick)",
+   "תרמוסטט נשלף, 0–190 מעלות",
+   "אחריות לשנה ע״י יוסף חיים בע״מ"
+  ],
+  "goodFor": [
+   "בישול וטיגון בכמויות גדולות במחבת רחבה",
+   "בישול על השיש כשהכיריים תפוסות",
+   "הגשה לשולחן לאחר שליפת התרמוסטט"
+  ],
+  "considerations": [
+   "לבדוק מקום אחסון: המידות שפורסמו הן 49 × 15 × 44 ס״מ",
+   "לוודא שקע חשמל זמין ליד משטח העבודה",
+   "להשתמש בכלים שאינם שורטים כדי לשמור על ציפוי הטפלון"
+  ],
+  "faq": [
+   {
+    "q": "מה קוטר המחבת?",
+    "a": "לפי המקורות, קוטר המחבת הוא 36 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה טווח הטמפרטורה?",
+    "a": "התרמוסטט הנשלף מאפשר ויסות חום בטווח 0–190 מעלות.",
+    "sources": []
+   },
+   {
+    "q": "האם קל לנקות אותה?",
+    "a": "כן, יש לה ציפוי טפלון מונע הידבקות ותבנית נשלפת לניקוי.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "שנה אחת ע״י יוסף חיים בע״מ, היבואן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מחבת חשמלית Gold Line שף מאסטר ATL-234 בקוטר 36 ס״מ, הספק 1200 W, ציפוי טפלון ותרמוסטט נשלף. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מחבת חשמלית",
+   "מחבת חשמלית גולד ליין",
+   "ATL-234",
+   "שף מאסטר גולד ליין",
+   "מחבת חשמלית 36 ס״מ",
+   "Gold Line ATL-234",
+   "מחבת חשמלית עגולה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1500W",
+   "finding": "corrected",
+   "correctValue": "1200 W",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "קוטר המחבת",
+   "catalogValue": "30 ס\"מ",
+   "finding": "contradicted",
+   "correctValue": "36 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ציפוי",
+   "catalogValue": "טפלון (Non-Stick)",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "ווסת טמפרטורה",
+   "catalogValue": "טרמוסטט מתכוונן בעל 5 דרגות חום שונות, הניתן לניתוק מהיר מהמכשיר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "עומק פנימי",
+   "catalogValue": "כ-4 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מכסה",
+   "catalogValue": "זכוכית מחוסמת שקופה עם פתח מובנה ליציאת אדים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "ידיות",
+   "catalogValue": "ידיות אחיזה מבודדות חום (Cool-Touch)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מותג",
+   "catalogValue": "Gold Line",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה אחת",
+   "sources": [
+    "s4"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 1500W, דף היבואן ודפי הקמעונאים מציינים 1200W. דף אחד של קמעונאי (payngo) מציין 1500W, כך שהמקורות לא תואמים לגמרי. לבדוק על התווית או המדבקה של המכשיר.",
+   "severity": "high"
+  },
+  {
+   "field": "קוטר המחבת",
+   "issue": "הקטלוג מציין קוטר 30 ס\"מ. שני דפי השוואת מחירים (זאפ ו-Wisebuy) מציינים 36 ס\"מ, ודף היבואן לא מציין קוטר כלל. לאמת את הקוטר מול המחבת או הקרטון.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "דף היבואן מציין רוחב 49, עומק 44 וגובה 15 ס\"מ, ייתכן שמדובר במידות האריזה ולא של המחבת. לאמת.",
+   "severity": "medium"
+  },
+  {
+   "field": "עומק פנימי",
+   "issue": "הקטלוג מציין עומק פנימי כ-4 ס\"מ, לא נמצא מקור לאימות.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "הקטלוג מציין 1500W, דף קמעונאי מציין 1200W, ולפי החוקר קמעונאי אחר מציין 1500W. לבדוק על תווית המכשיר.",
+   "severity": "high"
+  },
+  {
+   "field": "קוטר",
+   "issue": "הקטלוג מציין 30 ס״מ, אתרי השוואת מחירים מציינים 36 ס״מ. לאמת מול המחבת או הקרטון.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "המידות 49 × 15 × 44 ס״מ מדף היבואן עשויות להיות מידות אריזה.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "ההספק (1200W) והקוטר (36 ס״מ) שבמקורות סותרים את הקטלוג (1500W, 30 ס״מ); נשמרו ערכי המקורות וסומנו לבדיקה. המידות מדף היבואן עשויות להיות מידות האריזה."
+ }
+}

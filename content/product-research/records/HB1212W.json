@@ -1,0 +1,289 @@
+{
+ "modelNumber": "HB1212W",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "HB1212W",
+  "israeliImporter": "אלקטרה מוצרי צריכה",
+  "matchConfidence": "high",
+  "notes": "דף היצרן הישראלי של Sauter נותן את הדגם HB1212W. הדף מציג צבע לבן | נירוסטה; אין דף יבואן נפרד. | QA: The Sauter Israel page and an Israeli retailer page both name HB1212W; specs match the catalog (1200W, 600 ml cup, 800 ml chopper)."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sauter.co.il/?s=HB1212W&post_type=product",
+   "publisher": "Sauter Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.deby-electric.co.il/product/%D7%9E%D7%95%D7%98-%D7%91%D7%9C%D7%A0%D7%93%D7%A8-%D7%A1%D7%90%D7%95%D7%98%D7%A8-%D7%9E%D7%A9%D7%95%D7%9C%D7%91-%D7%9B%D7%95%D7%9C%D7%9C-%D7%A1%D7%98%D7%A0%D7%93-hb1212w/",
+   "publisher": "חשמל דבי",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1200 W"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח כוס ערבול ומדידה",
+     "value": "600 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח קוצץ",
+     "value": "800 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Quote too short to verify.; quote checks: quote-too-short",
+     "label": "מק״ט יצרן",
+     "value": "9001539"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "אחריות היבואן הרשמי אלקטרה מוצרי צריכה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מהירות משתנה בלחיצה על ההדק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "להב מתכת משונן מאל חלד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed intensifier.",
+   "text": "מנוע שקט ועוצמתי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתאים לשימוש במרקים חמים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote too short.",
+   "text": "מקציף"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כוס ערבול ומדידה 600 מ״ל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קוצץ לעיבוד מזון 800 מ״ל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote too short.",
+   "text": "מקציף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סטנד לאחסון אביזרים"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר מוט של Sauter בהספק 1200 W, עם מהירות משתנה בלחיצה על ההדק ולהב מתכת משונן מאל חלד. בערכה כוס ערבול ומדידה 600 מ״ל, קוצץ לעיבוד מזון 800 מ״ל וסטנד לאחסון האביזרים. מתאים למי שמכין מרקים חמים, רטבים ושייקים וצריך גם קיצוץ מהיר.",
+  "highlights": [
+   "הספק 1200 W",
+   "כוס ערבול ומדידה 600 מ״ל",
+   "קוצץ לעיבוד מזון 800 מ״ל",
+   "מהירות משתנה בלחיצה על ההדק",
+   "סטנד לאחסון אביזרים"
+  ],
+  "goodFor": [
+   "טחינת מרקים חמים ישירות בסיר",
+   "קיצוץ ירקות, אגוזים ועשבי תיבול בקוצץ",
+   "הכנת שייקים ורטבים בכוס הערבול"
+  ],
+  "considerations": [
+   "יש לוודא מקום על השיש לסטנד עם האביזרים",
+   "יש לוודא את הגימור המדויק (לבן או לבן ונירוסטה) מול הדגם בחנות",
+   "האחריות ניתנת על ידי היבואן הרשמי אלקטרה מוצרי צריכה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של הבלנדר?",
+    "a": "1200 W.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "כוס ערבול ומדידה 600 מ״ל, קוצץ לעיבוד מזון 800 מ״ל וסטנד לאחסון אביזרים.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשתמש בו במרקים חמים?",
+    "a": "כן, היצרן מציין שהוא מתאים לשימוש במרקים חמים.",
+    "sources": []
+   },
+   {
+    "q": "מי נותן אחריות?",
+    "a": "היבואן הרשמי, אלקטרה מוצרי צריכה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Sauter HB1212W בהספק 1200 W, עם קוצץ 800 מ״ל וכוס ערבול 600 מ״ל, מהירות משתנה וסטנד לאביזרים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט Sauter",
+   "Sauter HB1212W",
+   "בלנדר מוט 1200 וואט",
+   "בלנדר מוט עם קוצץ",
+   "בלנדר מוט לבן",
+   "בלנדר מוט עם סטנד",
+   "סאוטר בלנדר מוט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1200 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כוס ערבול",
+   "catalogValue": "600 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוצץ",
+   "catalogValue": "800 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקציף וסטנד",
+   "catalogValue": "כלולים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "צבע",
+   "issue": "דף היצרן מציג את הדגם בצבע לבן | נירוסטה; יש לוודא את הגימור.",
+   "severity": "low"
+  },
+  {
+   "field": "צבע",
+   "issue": "דף היצרן מציג צבע לבן | נירוסטה; יש לוודא את הגימור מול שם הקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "אביזרים",
+   "issue": "המקציף מופיע בקטלוג אך הציטוט שלו קצר מדי לאימות; יש לוודא שהוא כלול.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 3 (manufacturer SKU, quote too short) and the whisk entries in features (4) and inTheBox (2) because their quotes are too short to verify. Feature 2 reworded slightly to remove intensifier."
+ }
+}

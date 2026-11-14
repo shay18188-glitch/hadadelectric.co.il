@@ -1,0 +1,519 @@
+{
+ "modelNumber": "PSG7040/10",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "PSG7040/10",
+  "israeliImporter": "אלקטרה",
+  "matchConfidence": "high",
+  "notes": "PerfectCare 7000 Series steam generator iron. Philips Australia support page lists the model as Discontinued. Philips spec sheet gives the Max 2100 W and 8.0 bar figures. Steam boost 600 g per Philips spec sheet and CityDeal. | QA: Philips PerfectCare 7000 Series PSG7040/10 steam generator; spec sheet and Israeli retailer name the exact model."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.citydeal.co.il/product/%D7%9E%D7%92%D7%94%D7%A5-%D7%A7%D7%99%D7%98%D7%95%D7%A8-philips-psg704010-%D7%A2%D7%9D-%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%99%D7%AA-optimaltemp-%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.documents.philips.com/assets/20210930/d11e291130f74da48895adb3008cc6a2.pdf",
+   "publisher": "Philips",
+   "kind": "manufacturer",
+   "market": "global",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.wasserman.eu/en/p/philips-iron-perfectcare-7000-series-psg7040-10-steam-generator-2100-w-water-tank-capacity-1800-ml-continuous-steam-120-g-min-867369",
+   "publisher": "Wasserman.eu",
+   "kind": "retailer",
+   "market": "PL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "PSG7040/10"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "2100 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "לחץ קיטור מרבי",
+     "value": "8.0 בר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיטור רציף",
+     "value": "עד 120 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מטח קיטור",
+     "value": "עד 600 גרם"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן חימום",
+     "value": "2 דקות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "220-240 וולט"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל מים",
+     "value": "1.8 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Source order is WxHxL.",
+     "label": "מידות (רוחב × גובה × אורך)",
+     "value": "24 × 27.5 × 42 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל המגהץ",
+     "value": "0.8 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל מגהץ + בסיס",
+     "value": "3.85 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך צינור קיטור",
+     "value": "1.7 מטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך כבל חשמל",
+     "value": "1.65 מטר"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "כיבוי אוטומטי",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוליה",
+     "value": "SteamGlide Elite"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טכנולוגיית טמפרטורה",
+     "value": "OptimalTEMP ללא כיוון טמפרטורה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Philips spec sheet and CityDeal (Electra) agree.",
+     "label": "אחריות",
+     "value": "שנתיים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית OptimalTEMP מאפשרת לעבור בין סוגי בדים שונים בלי למיין מראש"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מיכל מים נשלף בנפח 1.8 ליטר שמספק עד כשעתיים של עבודה רצופה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Philips PSG7040/10 הוא מגהץ קיטור עם בסיס (מחולל קיטור) מסדרת PerfectCare של Philips. הוא מגיע עם הספק 2100 W, לחץ קיטור של עד 8.0 בר וקיטור רציף של עד 120 גרם לדקה, ומיכל מים נשלף בנפח 1.8 ליטר. טכנולוגיית OptimalTEMP מאפשרת לגהץ סוגי בדים שונים בלי לכוון טמפרטורה, ולכן הוא מתאים למי שמגהץ כמויות כביסה גדולות בבית.",
+  "highlights": [
+   "לחץ קיטור עד 8.0 בר וקיטור רציף עד 120 גרם לדקה",
+   "מטח קיטור עד 600 גרם לקמטים עקשניים",
+   "מיכל מים נשלף בנפח 1.8 ליטר",
+   "OptimalTEMP – גיהוץ ללא כיוון טמפרטורה",
+   "סוליית SteamGlide Elite וכיבוי אוטומטי"
+  ],
+  "goodFor": [
+   "גיהוץ ערימות כביסה גדולות בלי למלא מים לעתים קרובות",
+   "גיהוץ בדים מעורבים בלי למיין לפי סוג בד",
+   "מי שרוצה מוכנות מהירה – זמן חימום של 2 דקות",
+   "בית שבו המגהץ נשאר לעתים דלוק – כיבוי אוטומטי"
+  ],
+  "considerations": [
+   "יש לפנות מקום לבסיס במידות 24 × 27.5 × 42 ס״מ על שולחן הגיהוץ או לידו",
+   "המשקל הכולל של המגהץ והבסיס הוא 3.85 ק״ג – כדאי לקחת בחשבון בהזזה ואחסון",
+   "אורך כבל החשמל 1.65 מטר – ודאו שיש שקע קרוב לעמדת הגיהוץ",
+   "אורך צינור הקיטור 1.7 מטר, ומשקל המגהץ עצמו 0.8 ק״ג"
+  ],
+  "faq": [
+   {
+    "q": "האם צריך לכוון טמפרטורה לפי סוג הבד?",
+    "a": "לא. טכנולוגיית OptimalTEMP מאפשרת לעבור בין סוגי בדים שונים בלי למיין ובלי לכוון טמפרטורה.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכל המים?",
+    "a": "מיכל המים נשלף ונפחו 1.8 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח למגהץ להתחמם?",
+    "a": "זמן החימום הוא 2 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המגהץ?",
+    "a": "אחריות לשנתיים.",
+    "sources": []
+   },
+   {
+    "q": "האם המגהץ נכבה לבד?",
+    "a": "כן, יש כיבוי אוטומטי כשהמגהץ נשאר ללא השגחה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ קיטור עם בסיס Philips PSG7040/10 מסדרת PerfectCare: לחץ קיטור עד 8.0 בר ומיכל מים נשלף 1.8 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Philips PSG7040/10",
+   "PSG7040",
+   "מגהץ קיטור פיליפס",
+   "PerfectCare 7000",
+   "מחולל קיטור פיליפס",
+   "מגהץ עם בסיס קיטור",
+   "מגהץ OptimalTEMP",
+   "מגהץ קיטור 8 בר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק מרבי",
+   "catalogValue": "2100 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "לחץ קיטור",
+   "catalogValue": "עד 8 בר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת קיטור רציפה",
+   "catalogValue": "עד 120 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מטח קיטור",
+   "catalogValue": "עד 600 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים",
+   "catalogValue": "1.8 ליטר (מיכל נשלף ושקוף)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן חימום",
+   "catalogValue": "2 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך צינור קיטור",
+   "catalogValue": "1.7 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.65 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל המגהץ",
+   "catalogValue": "כ-0.8 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל כולל (עם הבסיס)",
+   "catalogValue": "כ-3.85 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240 וולט",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "אינדונזיה (מיוצר במפעלי Philips באינדונזיה)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טכנולוגיית OptimalTEMP",
+   "catalogValue": "גיהוץ כל סוגי הבדים ללא כוון טמפרטורה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוליית SteamGlide Elite",
+   "catalogValue": "סוליית פרימיום להחלקה מיטבית",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת Easy De-Calc",
+   "catalogValue": "הסרת אבנית קלה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "כיבוי אוטומטי",
+   "catalogValue": "כיבוי עצמי בטיחותי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתאים לשימוש במי ברז",
+   "catalogValue": "מתאים לשימוש במי ברז",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "נעילת נשיאה (Carry Lock)",
+   "catalogValue": "נעילה בטיחותית של המגהץ לבסיס לנשיאה קלה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנתיים",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "24 × 27.5 × 42 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_status",
+   "issue": "The Philips Australia support page marks PSG7040/10 as Discontinued, and Coolblue NL shows it as no longer offered. The model may be discontinued.",
+   "severity": "high"
+  },
+  {
+   "field": "steam_boost",
+   "issue": "Wasserman.eu (PL) lists steam boost performance as 120 g/min, while the Philips spec sheet and CityDeal give 600 g. The Philips figure is used.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "The catalog name says מקצועי (professional). Philips and CityDeal present this as a home PerfectCare 7000 series model.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "The origin country (Indonesia) appears on none of the pages read.",
+   "severity": "low"
+  },
+  {
+   "field": "model_status",
+   "issue": "Philips Australia support page marks PSG7040/10 as discontinued; confirm the model is still current.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says מקצועי (professional); Philips presents it as a home PerfectCare 7000 series steam generator.",
+   "severity": "low"
+  },
+  {
+   "field": "origin_country",
+   "issue": "Origin country (Indonesia) in the catalog is not confirmed by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts backed by ok quotes from the Philips spec sheet for PSG7040/10; warranty also confirmed by CityDeal (Electra, official importer)."
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "modelNumber": "BXHBA1501E",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Black+Decker",
+  "exactModel": "BXHBA1501E",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only foreign retailer pages naming the exact model were fetchable; no manufacturer or Israeli importer page found. Facts published via two independent sites. | QA: Both pages name BXHBA1501E with the same EAN 8432406160170, 1500 W immersion blender matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.dagimarket.com/en/mixers/606449-black-decker-bxhba1501e-immersion-blender-1500-w-black-transparent-8432406160170.html",
+   "publisher": "Dagimarket",
+   "kind": "retailer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.trippodo.com/en/frullatori/225036-black-decker-bxhba1501e-immersion-blender-1500-w-black-transparent-8432406160170.html",
+   "publisher": "Trippodo",
+   "kind": "retailer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1500 W"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "wording",
+     "label": "בקרת מהירות",
+     "value": "רציפה (ללא דרגות)"
+    },
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר הלהבים",
+     "value": "נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בקרת מהירות רציפה בלחיצה על כפתור השליטה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "להבי נירוסטה לערבול יעיל גם של מרכיבים קשים או גדולים"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב ארגונומי עם אחיזה רכה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב מגן התזות לשמירה על ניקיון משטחי העבודה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מקצף להקצפת ביצים, שמנת או בלילה קלה"
+  },
+  {
+   "sources": [
+    "s1",
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קוצץ לקיצוץ ירקות, בשר, אגוזים ועוד"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "בלנדר מוט של Black+Decker, דגם BXHBA1501E, בהספק 1500 W עם בקרת מהירות רציפה ולהבי נירוסטה. בערכה מקצף להקצפת ביצים ושמנת וקוצץ לירקות, בשר ואגוזים. מתאים למי שמכין מרקים, רטבים ושייקים וצריך גם קיצוץ והקצפה בכלי אחד.",
+  "highlights": [
+   "הספק 1500 W",
+   "בקרת מהירות רציפה בלחיצה על כפתור",
+   "להבי נירוסטה",
+   "מגן התזות",
+   "כולל מקצף וקוצץ"
+  ],
+  "goodFor": [
+   "טחינת מרקים ורטבים ישירות בסיר",
+   "קיצוץ ירקות, בשר ואגוזים עם הקוצץ המצורף",
+   "הקצפת שמנת וביצים עם המקצף",
+   "מי שרוצה שליטה עדינה במהירות במהלך העבודה"
+  ],
+  "considerations": [
+   "ודאו שהאביזרים המצורפים (מקצף וקוצץ) מספיקים לכם, ושאין צורך בכוס ערבול נוספת",
+   "בעבודה בסיר חם מומלץ להרחיק את הסיר מהאש ולטבול את המוט לפני ההפעלה",
+   "בדקו מקום אחסון לבלנדר ולאביזרים ליד שקע חשמל במטבח"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של BXHBA1501E?",
+    "a": "ההספק הוא 1500 W.",
+    "sources": []
+   },
+   {
+    "q": "איך שולטים במהירות?",
+    "a": "לבלנדר בקרת מהירות רציפה: המהירות נקבעת לפי הלחיצה על כפתור השליטה.",
+    "sources": []
+   },
+   {
+    "q": "אילו אביזרים כלולים?",
+    "a": "מקצף להקצפת ביצים, שמנת או בלילה קלה, וקוצץ לירקות, בשר ואגוזים.",
+    "sources": []
+   },
+   {
+    "q": "ממה עשויים הלהבים?",
+    "a": "הלהבים עשויים נירוסטה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "בלנדר מוט Black+Decker BXHBA1501E בהספק 1500 W, בקרת מהירות רציפה, כולל מקצף וקוצץ. להבי נירוסטה ומגן התזות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "בלנדר מוט Black+Decker",
+   "BXHBA1501E",
+   "בלנדר מוט 1500 וואט",
+   "בלנדר מוט עם קוצץ",
+   "בלנדר מוט עם מקצף",
+   "בלאק אנד דקר בלנדר מוט",
+   "מוט ערבול למרקים"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1500 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להבים",
+   "catalogValue": "4 להבי נירוסטה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח כוס מדידה",
+   "catalogValue": "800 מ\"ל",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "No manufacturer or Israeli importer page found; facts rest on two EU retailer pages.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog claims 4 blades, 800 ml measuring beaker, 600 ml chopper and stainless-steel body/shaft; none verified. Source URLs label the unit black/transparent, which may contradict the stainless body claim.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer or Israeli importer page found; facts rest on two EU retailer pages.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and accessories confirmed by ok quotes on two EU retailer pages naming the exact model and EAN. Minor wording tidy on speed control label. Catalog claims of 4 blades, 800 ml beaker, 600 ml chopper and stainless body are not verified; source URLs describe a black/transparent unit, which may contradict the catalog's stainless-steel body claim."
+ }
+}

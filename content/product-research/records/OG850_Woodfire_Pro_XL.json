@@ -1,0 +1,138 @@
+{
+ "modelNumber": "OG850 Woodfire Pro XL",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Ninja",
+  "exactModel": "OG850",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "דפי היצרן והדפים הישראליים שנמצאו מתייחסים ל-OG853 או OG850UK; רק דף קמעונאי אמריקאי אחד נושא את OG850 במדויק. דפי יצרן (אוסטרליה, בריטניה, ניו זילנד) נחסמו לאחזור. | QA: US retailer page names OG850 Woodfire Pro XL; Israeli market reportedly sells OG853, so Israeli suffix/variant unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.buydig.com/shop/product/NJOG850/Ninja-OG850-Grill-Smoker-Outdoor-Woodfire-Pro-XL",
+   "publisher": "BuyDig",
+   "kind": "retailer",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "סוג דלק לעישון",
+     "value": "פתיתי עץ (Wood pellets), תואם לפתיתי Ninja Woodfire"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "note": "Box contents per US listing; Israeli variant may differ.",
+   "text": "שתי חבילות פתיתי עץ להתחלה (Robust ו-All-Purpose)"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Ninja OG850 Woodfire Pro XL הוא גריל ומעשנה חשמליים מסדרת Woodfire, שמשתמשים בפתיתי עץ להוספת טעם עישון. באריזה מגיעות שתי חבילות פתיתי עץ להתחלה, Robust ו-All-Purpose. מתאים למי שרוצה טעם עישון על בסיס חשמלי.",
+  "highlights": [
+   "עישון באמצעות פתיתי עץ (Wood pellets)",
+   "תואם לפתיתי Ninja Woodfire",
+   "שתי חבילות פתיתי עץ להתחלה באריזה: Robust ו-All-Purpose"
+  ],
+  "goodFor": [
+   "מי שרוצה טעם עישון בגריל חשמלי",
+   "מי שמעדיף להתחיל לעשן מיד עם הפתיתים שבאריזה"
+  ],
+  "considerations": [
+   "לוודא זמינות של פתיתי Ninja Woodfire להמשך שימוש",
+   "לוודא מול המוכר איזו גרסה של הדגם נמכרת בישראל ומה תכולת האריזה שלה"
+  ],
+  "faq": [
+   {
+    "q": "באיזה דלק משתמשים לעישון?",
+    "a": "בפתיתי עץ (Wood pellets), והמכשיר תואם לפתיתי Ninja Woodfire.",
+    "sources": []
+   },
+   {
+    "q": "האם מגיעים פתיתים באריזה?",
+    "a": "כן, באריזה מגיעות שתי חבילות פתיתי עץ להתחלה: Robust ו-All-Purpose.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "גריל ומעשנה חשמליים Ninja OG850 Woodfire Pro XL: עישון בפתיתי עץ, שתי חבילות פתיתים להתחלה באריזה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Ninja OG850",
+   "Ninja Woodfire Pro XL",
+   "גריל מעשנה חשמלי נינג׳ה",
+   "מעשנה חשמלית",
+   "גריל חשמלי לחוץ",
+   "פתיתי עץ לעישון Ninja"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק חשמלי",
+   "catalogValue": "1760 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "40.2×56.6×50.9 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-18 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "עד 260 מעלות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "בישראל נמכר הדגם OG853 (בוג, סיטידיל, טרקלין); הקוד OG850 מופיע רק בגרסאות ארה״ב/בריטניה/אוסטרליה. יש לוודא מול היבואן.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "בישראל נמכר לפי המחקר הדגם OG853; OG850 מופיע רק בדף קמעונאי אמריקאי. יש לוודא מול היבואן את הדגם והגרסה.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "הספק 1760 וואט, מידות, משקל וטמפרטורה עד 260 מעלות בקטלוג לא אומתו בשום מקור.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Only one source (US retailer BuyDig) for OG850; two items verifiable (fuel type, starter pellets in box). Catalog specs (1760W, dimensions, weight, 260°C) unverified and not published. Israeli variant appears to be OG853 per researcher notes."
+ }
+}

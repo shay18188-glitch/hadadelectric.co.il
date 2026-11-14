@@ -1,0 +1,355 @@
+{
+ "modelNumber": "ESE-559",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sassonic",
+  "exactModel": "ESE-559",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Two Israeli retailer pages name the exact model (HairFix and Shop Electrons). No manufacturer or importer page was reached. The importer's name is not shown on the fetched pages. Charging time conflicts between the two sources. | QA: Two Israeli retailer pages name Sassonic ESE-559 as a rechargeable hair clipper matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://hairfix.co.il/shop/580/desc/sassonic",
+   "publisher": "HairFix",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.shopelectrons.co.il/product/%D7%9E%D7%9B%D7%95%D7%A0%D7%AA-%D7%AA%D7%A1%D7%A4%D7%95%D7%A8%D7%AA-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%AA-sassonic-ese-559/",
+   "publisher": "Shop Electrons",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Sassonic"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "ESE-559"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "כ-90 דקות רצופות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Lithium not in this quote; dropped from value.",
+     "label": "סוללות",
+     "value": "2 סוללות נשלפות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טווח חיתוך",
+     "value": "0.8 עד 2.0 מ״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר הלהב",
+     "value": "טיטניום"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים (יבואן)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכונת תספורת חשמלית ונטענת עם סוללות ליתיום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "להב טיטניום חד"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע DC מהיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפעלה שקטה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ארבעה מסרקי הגבהה: 3, 6, 9, 12 מ״מ"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תיק נשיאה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Sassonic ESE-559 היא מכונת תספורת נטענת עם סוללות ליתיום ולהב טיטניום. היא מגיעה עם 2 סוללות נשלפות, זמן עבודה של כ-90 דקות רצופות לאחר טעינה וטווח חיתוך של 0.8 עד 2.0 מ״מ. מתאימה לתספורת בבית למי שמחפש מכונה אלחוטית עם מסרקי הגבהה.",
+  "highlights": [
+   "כ-90 דקות עבודה רצופה לאחר טעינה",
+   "2 סוללות נשלפות",
+   "להב טיטניום חד",
+   "טווח חיתוך 0.8 עד 2.0 מ״מ",
+   "ארבעה מסרקי הגבהה: 3, 6, 9, 12 מ״מ"
+  ],
+  "goodFor": [
+   "תספורת ביתית בלי חוט מפריע",
+   "מי שרוצה להחליף סוללה ולהמשיך לעבוד",
+   "קיצור שיער באורכים שונים בעזרת מסרקי ההגבהה"
+  ],
+  "considerations": [
+   "זמן הטעינה המדויק לא אומת – כדאי לבדוק מול היבואן",
+   "מסרקי ההגבהה הכלולים מגיעים עד 12 מ״מ; לשיער ארוך יותר נדרש מסרק אחר",
+   "האחריות היא אחריות יבואן ל-12 חודשים – כדאי לשמור את החשבונית"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן אפשר לעבוד עם המכונה בטעינה אחת?",
+    "a": "כ-90 דקות עבודה רצופה לאחר טעינה.",
+    "sources": []
+   },
+   {
+    "q": "כמה סוללות יש במכונה?",
+    "a": "המכונה מגיעה עם 2 סוללות נשלפות.",
+    "sources": []
+   },
+   {
+    "q": "אילו מסרקי הגבהה כלולים?",
+    "a": "ארבעה מסרקים: 3, 6, 9 ו-12 מ״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכונה?",
+    "a": "12 חודשי אחריות יבואן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מכונת תספורת נטענת Sassonic ESE-559 עם 2 סוללות נשלפות וכ-90 דקות עבודה רצופה, להב טיטניום ומסרקי הגבהה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sassonic ESE-559",
+   "ססוניק ESE-559",
+   "מכונת תספורת ססוניק",
+   "מכונת תספורת נטענת",
+   "מכונת תספורת אלחוטית",
+   "מכונת תספורת עם 2 סוללות",
+   "מכונת תספורת להב טיטניום"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Sassonic",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דגם",
+   "catalogValue": "ESE-559",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "כ-90 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-2.5 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוג בטריה",
+   "catalogValue": "2 סוללות ליתיום נשלפות ונטענות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח חיתוך",
+   "catalogValue": "0.8 עד 2.0 מ״מ (בורר רב-דרגות)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסרקי הגבהה",
+   "catalogValue": "3, 6, 9, 12 מ״מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג להב",
+   "catalogValue": "טיטניום בשילוב סכין קרמית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "11W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח סוללה",
+   "catalogValue": "2.4V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "4 מסרקים, מטען, סוללה רזרבית, בקבוק שמן, מברשת ניקוי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים (יבואן)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "זמן טעינה",
+   "issue": "Sources conflict. HairFix says charging takes two and a half hours (זמן טעינה : שעתיים וחצי). Shop Electrons says about 8 hours (זמן הטעינה כ-8 שעות). The catalog says about 2.5 hours. Confirm with the importer before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "איכות היבואן",
+   "issue": "The Israeli importer's name is not shown on the fetched pages. HairFix says 12 months warranty from the importer, and Shop Electrons says one year. Confirm the importer and the warranty terms.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק ומתח",
+   "issue": "Power (11W), battery voltage (2.4V), transformer voltage and the ceramic blade claim in the catalog were not found on any fetched page. Verify them against the manufacturer or importer.",
+   "severity": "low"
+  },
+  {
+   "field": "אביזרים נלווים",
+   "issue": "The catalog lists a spare battery, oil bottle and cleaning brush. Fetched pages mention only the combs and a carry bag, so the accessory list is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "זמן טעינה",
+   "issue": "Sources conflict: HairFix says about 2.5 hours, Shop Electrons says about 8 hours. Not published; confirm with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "Israeli importer not named on any fetched page; confirm importer and warranty terms.",
+   "severity": "low"
+  },
+  {
+   "field": "מפרט טכני",
+   "issue": "Catalog power (11W), battery voltage (2.4V), ceramic blade and accessory list (spare battery, oil, brush) were not found on fetched pages; carry bag is mentioned by a retailer but not in the catalog.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Battery fact reworded to what the quote supports (2 removable batteries; lithium is stated in the feature quote). Cutting range value reformatted. Charging time not published due to source conflict."
+ }
+}

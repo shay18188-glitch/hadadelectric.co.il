@@ -1,0 +1,489 @@
+{
+ "modelNumber": "DVBT-2 H.264 X-TUNER",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Vision LED",
+  "exactModel": "X-TUNER",
+  "israeliImporter": "סיריוס אלקטרוניקה",
+  "matchConfidence": "medium",
+  "notes": "הדפים מזהים את הדגם כ-X-TUNER בלבד. הכתובת המלאה DVBT-2 H.264 X-TUNER לא מופיעה באף דף. הקטלוג מציג את המותג כ-LEXUS, והדפים מציגים את LEXUS כמותג והיצרן כ-VISION LED. | QA: Sources name the model X-TUNER by Vision LED (brand LEXUS on Bug). The full catalog code with H.264 is not confirmed; the importer page describes H.265 and RCA outputs whereas the catalog lists H.264 and SCART, so the importer page may describe a different revision."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://sel.co.il/product/x-tuner/",
+   "publisher": "סיריוס אלקטרוניקה (יבואן)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bug.co.il/brand/lexus/vision/led/h/264/dvbt/2",
+   "publisher": "באג",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "X-TUNER"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Vision LED"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Source gives no axis order; label generalised.",
+     "label": "מידות",
+     "value": "16.8 × 9 × 3.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "250 גרם"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תקני שידור נתמכים",
+     "value": "DVB-T2 / DVB-T / DVB-C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מקלט שידור",
+     "value": "DVB-T2 / DVB-C ברגישות גבוהה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "conflict",
+     "note": "Importer says H.265; catalog name and Bug page say H.264.",
+     "label": "קידוד וידאו",
+     "value": "H.265 HEVC"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רזולוציית וידאו",
+     "value": "Full HD 1080p"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Catalog lists SCART instead of RCA; flagged.",
+     "label": "חיבורים",
+     "value": "HDMI, RCA (AV), USB 2.0"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח חשמל",
+     "value": "240V, 50/60Hz"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הקלטת תוכניות (PVR) דרך USB"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "פונקציית Time-Shift לעצירה והמשך של שידור חי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סריקת ערוצים אוטומטית וידנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ממשק משתמש בעברית"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שליטה הורית באמצעות נעילת ערוצים בקוד אישי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote does not name עידן פלוס explicitly; wording trimmed.",
+   "text": "צפייה חופשית ללא דמי מנוי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הפעלת סרטים, מוזיקה ותמונות ישירות מהממיר דרך USB"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Quote is a product title, not box contents.",
+   "text": "ממיר DVB-T2 H.264"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "ממיר דיגיטלי X-TUNER של Vision LED לקליטת שידורי DVB-T2 בצפייה חופשית ללא דמי מנוי. הממיר מוציא וידאו ב-Full HD 1080p דרך HDMI, ומאפשר הקלטת תוכניות ו-Time-Shift על גבי זיכרון USB. מתאים למי שרוצה לקלוט ערוצים פתוחים בטלוויזיה ללא מקלט מובנה מתאים, עם ממשק בעברית.",
+  "highlights": [
+   "קליטת DVB-T2 / DVB-T / DVB-C",
+   "יציאת וידאו Full HD 1080p",
+   "הקלטת תוכניות (PVR) ו-Time-Shift דרך USB",
+   "ממשק משתמש בעברית",
+   "נעילת ערוצים בקוד אישי"
+  ],
+  "goodFor": [
+   "טלוויזיה ישנה או מסך ללא מקלט DVB-T2 מובנה",
+   "מי שרוצה צפייה חופשית בערוצים פתוחים ללא דמי מנוי",
+   "הקלטת תוכניות לצפייה מאוחרת על זיכרון USB",
+   "משפחות עם ילדים שצריכות נעילת ערוצים"
+  ],
+  "considerations": [
+   "ודאו שלטלוויזיה יש כניסת HDMI או כניסת RCA (AV) פנויה",
+   "נדרשת אנטנה לקליטת שידורים דיגיטליים",
+   "להקלטה ו-Time-Shift יש לחבר זיכרון USB חיצוני"
+  ],
+  "faq": [
+   {
+    "q": "האם יש דמי מנוי לצפייה בממיר?",
+    "a": "לא, הממיר מיועד לצפייה חופשית ללא דמי מנוי.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להקליט תוכניות עם הממיר?",
+    "a": "כן, הממיר תומך בהקלטת תוכניות (PVR) על זיכרון USB וגם בפונקציית Time-Shift.",
+    "sources": []
+   },
+   {
+    "q": "איך מחברים את הממיר לטלוויזיה?",
+    "a": "החיבורים הם HDMI ו-RCA (AV), וקיימת גם יציאת USB 2.0 להקלטה ולנגן מדיה.",
+    "sources": []
+   },
+   {
+    "q": "האם התפריט בעברית?",
+    "a": "כן, ממשק המשתמש של הממיר בעברית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "ממיר דיגיטלי Vision LED X-TUNER לקליטת DVB-T2 ללא דמי מנוי, Full HD 1080p והקלטה ו-Time-Shift דרך USB. בחדד אלקטריק נהריה",
+  "keywords": [
+   "ממיר עידן פלוס",
+   "ממיר DVB-T2",
+   "X-TUNER",
+   "ממיר דיגיטלי לטלוויזיה",
+   "ממיר עם הקלטה",
+   "ממיר Vision LED",
+   "ממיר LEXUS"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "LEXUS",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תקן שידור",
+   "catalogValue": "DVB-T2 / DVB-T (עידן פלוס)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דחיסת וידאו",
+   "catalogValue": "MPEG-4 AVC/H.264 HP@L4",
+   "finding": "contradicted",
+   "correctValue": "H.265 HEVC",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רזולוציית פלט",
+   "catalogValue": "1080p, 1080i, 720p, 576p, 576i, 480p, 480i",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "יחס תצוגה",
+   "catalogValue": "4:3 / 16:9 / Auto",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "חיבורים (HDMI, USB)",
+   "catalogValue": "HDMI, USB 2.0 קדמית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיבורים (SCART, RF IN, Loop Out)",
+   "catalogValue": "SCART (חיבור 21 פינים), RF IN, Loop Out",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "100-240V AC",
+   "finding": "corrected",
+   "correctValue": "240V, 50/60Hz",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תמיכה במערכת קבצים",
+   "catalogValue": "FAT32, NTFS",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נגן מדיה",
+   "catalogValue": "MKV, AVI, MP3, JPEG",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "לוח שידורים אלקטרוני (EPG)",
+   "catalogValue": "בעברית מלאה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תפריט משתמש",
+   "catalogValue": "רב-לשוני הכולל עברית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הקלטת תוכניות (PVR)",
+   "catalogValue": "הקלטה על גבי זיכרון נייד חיצוני",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "Time Shift",
+   "catalogValue": "עצירה והרצה של שידורים חיים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נעילת הורים",
+   "catalogValue": "נעילת הורים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ללא דמי מנוי",
+   "catalogValue": "קליטת ערוצי עידן פלוס ללא דמי מנוי",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "250 גרם",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "16.8 × 9 × 3.5 ס״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "יבואן רשמי",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "סיריוס אלקטרוניקה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "המספר DVBT-2 H.264 X-TUNER לא מופיע באף דף. דף היבואן ודף באג מזהים את הדגם כ-X-TUNER מבית VISION LED. העובדות נשענות על התאמה לשם הדגם הקרוב, ולכן יש לאמת שזה הדגם המדויק.",
+   "severity": "high"
+  },
+  {
+   "field": "דחיסת וידאו",
+   "issue": "יבואן סיריוס כותב קידוד H.265 HEVC, ואילו דף באג וכותרת הקטלוג כותבים H.264. יש לאמת מול הקופסה או המדריך לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "דף באג מציין 16.8*9*3.5 ס״מ בלי תוויות של רוחב, גובה ועומק. הסדר בשורה המשולבת הוא הנחה. המידות והמשקל מופיעים רק בדף קמעונאי, ולא בדף היבואן. יש לאמת מול מפרט היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "הקטלוג מציג את המותג כ-LEXUS, ואילו היצרן בדפים הוא VISION LED. יש לוודא שהמותג בקטלוג הוא המותג הנכון.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "המחרוזת המלאה DVBT-2 H.264 X-TUNER לא מופיעה בדפים; הדפים מזהים X-TUNER בלבד. יש לאמת שזה אותו דגם.",
+   "severity": "high"
+  },
+  {
+   "field": "קידוד וידאו",
+   "issue": "דף היבואן כותב H.265 HEVC, ואילו שם הקטלוג ודף באג כותבים H.264. יש לבדוק מול הקופסה.",
+   "severity": "high"
+  },
+  {
+   "field": "חיבורים",
+   "issue": "דף היבואן מציין RCA (AV), והקטלוג מציין SCART, RF IN ו-Loop Out. ייתכן שמדובר בגרסה אחרת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מתח עבודה",
+   "issue": "הקטלוג כותב 100-240V AC, דף היבואן כותב 240V, 50/60Hz.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "הקטלוג מציג LEXUS כמותג, והיצרן בדפים הוא Vision LED.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 6 (H.265 HEVC) marked conflict: importer page says H.265 while the catalog name and the Bug page say H.264. Dimensions relabelled without W×H×D order since the source gives no axis labels. inTheBox item rejected: the quote is a product title, not a box-contents list. | code guard removed: consideration: \"יש לבדוק על הקופסה את תקן הדחיסה (H.264 או H.265) מול הדגם שבחנות\""
+ }
+}

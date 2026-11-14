@@ -1,0 +1,356 @@
+{
+ "modelNumber": "FP-J30H-B",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "FP-J30H-B",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "העמודים הישראליים מציינים את הדגם המדויק. לא נמצא עמוד יצרן או יבואן עם המפרט המלא. | QA: שני עמודי מפיצים ישראליים מציינים את הדגם FP-J30H-B ושטח כיסוי של עד 23 מ״ר, תואם לשם בקטלוג. HTZone מציין את ראלקו כיבואן הרשמי."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.htzone.co.il/item/154030/%D7%9E%D7%98%D7%94%D7%A8-%D7%90%D7%95%D7%99%D7%A8-%D7%A9%D7%90%D7%A8%D7%A4-%D7%93%D7%92%D7%9D-FP-J30H-B-%D7%9C%D7%98%D7%99%D7%94%D7%95%D7%A8-%D7%97%D7%93%D7%A8%D7%99%D7%9D-%D7%A7%D7%98%D7%A0%D7%99%D7%9D-%D7%A2%D7%93-23-%D7%9E_%D7%A8/",
+   "publisher": "HTZone",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.lior-electric.co.il/product/%D7%9E%D7%98%D7%94%D7%A8-%D7%90%D7%95%D7%95%D7%99%D7%A8-%D7%A9%D7%90%D7%A8%D7%A4-sharp-%D7%93%D7%92%D7%9D-fp-j30h-b-%D7%9C%D7%91%D7%9F/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שטח כיסוי מומלץ",
+     "value": "עד 23 מ״ר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1",
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "שני מקורות תואמים; הקטלוג הפך רוחב וגובה",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "431 × 411 × 211 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אורך כבל",
+     "value": "2 מטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יעילות מסנן HEPA",
+     "value": "99.97% לחלקיקים בגודל עד 0.3 מיקרון"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "מקסימום, מינימום ומצב שינה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר כיבוי אוטומטי",
+     "value": "4 או 8 שעות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "מקור יחיד; הסיומת -B מרמזת לרוב על גרסה שחורה, ייתכן טעות רישום",
+     "label": "צבע",
+     "value": "לבן"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה, על ידי ראלקו היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "טענת שיווק",
+   "text": "טכנולוגיית Plasmacluster לטיהור אוויר, שלפי היצרן מנטרלת עד 99% מהווירוסים והמזהמים השונים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טיהור האוויר בחללים של עד 23 מ״ר תוך פחות משעה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "קדם מסנן רחיץ שלוכד חלקיקי אבק בגודל מעל 240 מיקרון"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sharp FP-J30H-B הוא מטהר אוויר קומפקטי לחדרים של עד 23 מ״ר, המשלב טכנולוגיית Plasmacluster עם מסנן HEPA הלוכד 99.97% מהחלקיקים בגודל עד 0.3 מיקרון. יש לו שלושה מצבי עבודה, כולל מצב שינה, וטיימר כיבוי של 4 או 8 שעות. מתאים לחדר שינה, חדר ילדים או חדר עבודה.",
+  "highlights": [
+   "שטח כיסוי מומלץ עד 23 מ״ר",
+   "מסנן HEPA הלוכד 99.97% מהחלקיקים בגודל עד 0.3 מיקרון",
+   "קדם מסנן רחיץ לחלקיקי אבק גדולים",
+   "מצב שינה וטיימר כיבוי של 4 או 8 שעות",
+   "שנה אחריות על ידי ראלקו היבואן הרשמי"
+  ],
+  "goodFor": [
+   "חדר שינה, בזכות מצב שינה וטיימר כיבוי אוטומטי",
+   "חדר ילדים או חדר עבודה בשטח של עד 23 מ״ר",
+   "בני בית הרגישים לאבק ולחלקיקים קטנים באוויר"
+  ],
+  "considerations": [
+   "בדקו ששטח החדר אינו עולה על 23 מ״ר",
+   "ודאו מקום פנוי למכשיר במידות 431 × 411 × 211 מ״מ",
+   "אורך הכבל 2 מטר, כדאי למקם את המכשיר קרוב לשקע",
+   "קדם המסנן רחיץ ויש לנקות אותו מדי פעם"
+  ],
+  "faq": [
+   {
+    "q": "לאיזה גודל חדר מתאים המטהר?",
+    "a": "שטח הכיסוי המומלץ הוא עד 23 מ״ר.",
+    "sources": []
+   },
+   {
+    "q": "איזה מסנן יש במכשיר?",
+    "a": "מסנן HEPA הלוכד 99.97% מהחלקיקים בגודל עד 0.3 מיקרון, וקדם מסנן רחיץ לחלקיקי אבק בגודל מעל 240 מיקרון.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להשאיר אותו פועל בלילה?",
+    "a": "כן, יש מצב שינה וטיימר לכיבוי אוטומטי אחרי 4 או 8 שעות.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המכשיר?",
+    "a": "שנה אחריות על ידי ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מטהר אוויר Sharp FP-J30H-B לחדרים עד 23 מ״ר, מסנן HEPA הלוכד 99.97% מהחלקיקים וטכנולוגיית Plasmacluster. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מטהר אוויר שארפ",
+   "Sharp FP-J30H-B",
+   "FP-J30H-B",
+   "מטהר אוויר HEPA",
+   "מטהר אוויר לחדר שינה",
+   "מטהר אוויר Plasmacluster",
+   "מטהר אוויר לחדר קטן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שטח כיסוי",
+   "catalogValue": "עד 23 מ\"ר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 411 מ\"מ, גובה 431 מ\"מ, עומק 211 מ\"מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 431 מ״מ, גובה 411 מ״מ, עומק 211 מ״מ",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-4 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סינון HEPA",
+   "catalogValue": "יעילות 99.97% לחלקיקים עד 0.3 מיקרון",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית טיהור",
+   "catalogValue": "Plasmacluster Ion",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צפיפות יונים",
+   "catalogValue": "7000 יונים/סמ\"ק",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "2.0 מטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר כיבוי",
+   "catalogValue": "4 או 8 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצבי הפעלה",
+   "catalogValue": "3 מהירויות מאוורר ומצב HAZE",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "23dB עד 44dB",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צריכת חשמל",
+   "catalogValue": "13W עד 50W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נורת חיווי להחלפת מסנן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "נורת חיווי להחלפת מסנן",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין רוחב 411 וגובה 431 מ״מ, ואילו שני המפיצים הישראליים מציינים רוחב 431 וגובה 411 מ״מ. כדאי לבדוק לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "לא נמצא עמוד יצרן או יבואן עם המפרט המלא. העובדות מבוססות על שני מפיצים ישראליים בלבד.",
+   "severity": "low"
+  },
+  {
+   "field": "רעש והספק",
+   "issue": "ערכי רעש (dB) והספק לא אומתו, כי טבלת המפרט בעמוד המפיץ לא נקראה בצורה מלאה.",
+   "severity": "low"
+  },
+  {
+   "field": "מצב HAZE",
+   "issue": "מצב HAZE מופיע בקטלוג בלבד ולא נמצא בעמודים שנקראו.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות",
+   "issue": "הקטלוג מציין רוחב 411 וגובה 431 מ״מ, ושני המפיצים מציינים רוחב 431 וגובה 411 מ״מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "צבע",
+   "issue": "ליאור מציין צבע לבן, אך הסיומת -B מרמזת לרוב על גרסה שחורה. יש לבדוק את צבע היחידה בפועל.",
+   "severity": "medium"
+  },
+  {
+   "field": "מפרט קטלוג",
+   "issue": "רמת רעש, צריכת חשמל, צפיפות יונים, משקל ומצב HAZE בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "צבע (id 6) נדחה: מקור יחיד, והסיומת -B בדגמי Sharp מציינת לרוב גרסה שחורה, כך שייתכן שמדובר בטעות רישום. שאר העובדות אומתו מול עמודי מפיצים ישראליים שמציינים את הדגם המדויק. מידות הקטלוג (רוחב 411, גובה 431) סותרות את שני המקורות (רוחב 431, גובה 411)."
+ }
+}

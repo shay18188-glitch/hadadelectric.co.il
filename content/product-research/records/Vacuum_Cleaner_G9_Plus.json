@@ -1,0 +1,532 @@
+{
+ "modelNumber": "Vacuum Cleaner G9 Plus",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Xiaomi",
+  "exactModel": "Vacuum Cleaner G9 Plus",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "מספר דגם יצרן B206 לפי Xiaomi Malaysia. מק״ט ישראלי 6934177788611 לפי באג. סופר אבי מציין יבואן רשמי, אך לא נמצא דף יבואן לאימות. | QA: Xiaomi Malaysia spec page and two Israeli retailer pages name Xiaomi Vacuum Cleaner G9 Plus; manufacturer model B206."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.mi.com/my/product/xiaomi-vacuum-cleaner-g9-plus/specs",
+   "publisher": "Xiaomi Malaysia",
+   "kind": "manufacturer",
+   "market": "MY",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/מוצרים/שואב-אבק-נטען-שיאומי-cleaner-g9-plus/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר דגם יצרן",
+     "value": "B206"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "120 AW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "unit casing fixed",
+     "label": "לחץ שאיבה",
+     "value": "20,000 Pa"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מהירות מנוע",
+     "value": "עד 100,000 סל״ד"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "400 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "25.2 V"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "יעילות סינון",
+     "value": "99.9%"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מערכת סינון",
+     "value": "5 שלבים"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קיבולת סוללה",
+     "value": "2500 mAh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "maximum figure; applies to economy mode per flag",
+     "label": "זמן עבודה מרבי",
+     "value": "עד 60 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "כ-3.5 שעות"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל אבק",
+     "value": "0.6 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "כ-3.4 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי עבודה",
+     "value": "שלושה: חסכוני, רגיל ועוצמתי"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Israeli retailer only",
+     "label": "עוצמת רעש",
+     "value": "72 dB(A) במצב רגיל"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת גלילית בעיצוב המונע הסתבכות שיער"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת חשמלית להסרת קרדית אבק ממזרנים וספות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת הפרדה ציקלונית עם 12 קונוסים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "סוללה נשלפת להחלפה בלחיצה אחת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנוע דיגיטלי במהירות גבוהה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צינור דק וגמיש לפתחים צרים ולאזורים צפופים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "שואב אבק Xiaomi G9 Plus ×1"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת רצפה בעלת מומנט גבוה ×1"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת חשמלית קטנה ×1"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מעמד אחסון ×1"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "translation fixed",
+   "text": "אביזר 2 ב-1 ×1"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "צינור הארכה ×1"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מתאם חשמל ×1"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Xiaomi Vacuum Cleaner G9 Plus הוא שואב אבק אלחוטי נטען עם עוצמת שאיבה של 120 AW ומנוע של עד 100,000 סל״ד. הסוללה הנשלפת בקיבולת 2500 mAh מספקת עד 60 דקות עבודה, ומערכת הסינון בת 5 השלבים מגיעה ליעילות של 99.9%. מתאים למי שמחפש שואב אלחוטי לניקוי שוטף של הבית, כולל מזרנים וספות.",
+  "highlights": [
+   "עוצמת שאיבה 120 AW",
+   "זמן עבודה מרבי של עד 60 דקות",
+   "סוללה נשלפת 2500 mAh להחלפה בלחיצה אחת",
+   "סינון ב-5 שלבים ביעילות 99.9%",
+   "מיכל אבק בנפח 0.6 ליטר"
+  ],
+  "goodFor": [
+   "ניקוי שוטף של רצפות בלי כבל חשמל",
+   "בתים עם בעלי חיים או שיער ארוך, בזכות מברשת המונעת הסתבכות שיער",
+   "ניקוי מזרנים וספות עם המברשת החשמלית להסרת קרדית אבק",
+   "הגעה לפינות ולפתחים צרים עם הצינור הדק"
+  ],
+  "considerations": [
+   "זמן העבודה המרבי של 60 דקות מתייחס למצב החסכוני, ובמצב העוצמתי זמן העבודה קצר משמעותית",
+   "זמן הטעינה הוא כ-3.5 שעות, כדאי לתכנן טעינה מראש",
+   "מיכל האבק בנפח 0.6 ליטר ידרוש ריקון בתדירות קבועה",
+   "משקל השואב כ-3.4 ק״ג, כדאי לבדוק נוחות אחיזה בניקוי ממושך"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובד השואב על סוללה אחת?",
+    "a": "עד 60 דקות במצב החסכוני. במצבים עוצמתיים יותר זמן העבודה קצר יותר.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח לטעון את הסוללה?",
+    "a": "כ-3.5 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להחליף את הסוללה?",
+    "a": "כן, הסוללה נשלפת וניתנת להחלפה בלחיצה אחת.",
+    "sources": []
+   },
+   {
+    "q": "כמה רועש השואב?",
+    "a": "לפי נתוני קמעונאי ישראלי, כ-72 dB(A) במצב רגיל.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב אבק אלחוטי Xiaomi Vacuum Cleaner G9 Plus עם עוצמת שאיבה 120 AW ועד 60 דקות עבודה על סוללה נשלפת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "שואב אבק אלחוטי שיאומי",
+   "Xiaomi G9 Plus",
+   "שיאומי G9 Plus",
+   "Xiaomi Vacuum Cleaner G9 Plus",
+   "שואב אבק נטען שיאומי",
+   "שואב אבק אלחוטי עם סוללה נשלפת",
+   "B206 שיאומי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה מקסימלית",
+   "catalogValue": "120AW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מהירות מנוע",
+   "catalogValue": "עד 100,000 סל״ד",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "25.2V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "400W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "2500mAh (7 תאים)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-3.5 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל אבק",
+   "catalogValue": "0.6 ליטר (נשלף)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת סינון",
+   "catalogValue": "5 שלבים ביעילות של 99.9%",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצבי עבודה",
+   "catalogValue": "3 מצבים (Eco, Standard, High Power)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-3.4 ק״ג (ליחידה הראשית)",
+   "finding": "corrected",
+   "correctValue": "כ-3.4 ק״ג (כולל אביזרים)",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עד 60 דקות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "שדה הדגם בקטלוג הוא שם המוצר. מספר הדגם של היצרן הוא B206 לפי Xiaomi Malaysia, והמק״ט הישראלי הוא 6934177788611 לפי באג.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Xiaomi Malaysia מציין 1286mm × 214mm × 256mm, ודפי הקמעונאים הישראליים מציינים 1286x256x214 בלי תוויות. סדר הממדים לא ברור, ולכן לא פורסמה שורת מידות משולבת.",
+   "severity": "high"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "60 דקות מתייחס למצב חסכוני עם מברשת 2 ב-1. סופר אבי ובאג מציינים כ-7 דקות במצב MAX.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "סופר אבי מציין יבואן רשמי ואחריות דרך המילטון, אך לא נמצא דף היבואן לאימות. היבואן לא פורסם.",
+   "severity": "low"
+  },
+  {
+   "field": "מותג",
+   "issue": "סופר אבי מציג גם תגית MIDEA בדף המוצר, בניגוד למותג Xiaomi שמופיע בשאר הדף.",
+   "severity": "low"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "רמת הרעש 72 dB(A) מופיעה רק בדפי קמעונאים ישראליים, ולא בדף היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "שדה הדגם בקטלוג הוא שם המוצר; מספר הדגם של היצרן הוא B206.",
+   "severity": "medium"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "60 דקות הוא המקסימום במצב חסכוני; קמעונאים ישראליים מציינים זמן קצר בהרבה במצב MAX.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "סדר הממדים במקורות לא ברור ולכן לא פורסמה שורת מידות.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "היבואן הרשמי בישראל לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "עוצמת רעש",
+   "issue": "רמת הרעש מופיעה רק אצל קמעונאי ישראלי ולא בדף היצרן.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Minor wording fixes: suction pressure unit written as Pa; runtime kept as maximum ('עד 60 דקות') with a flag that it applies to the economy mode; 'Two-in-one wand' translated as 2 in 1 accessory rather than 'brush'. | code guard removed: faq: \"מה נכלל באריזה?\""
+ }
+}

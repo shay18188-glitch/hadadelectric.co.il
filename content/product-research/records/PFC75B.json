@@ -1,0 +1,380 @@
+{
+ "modelNumber": "PFC75B",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Fratelli",
+  "exactModel": "PFC75B",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "היצרן מוכר את הדגם כ-FRS-PFC75B (דף המוצר של Fratelli). דף zabilo מציין Model: PFC75B, צבע שחור. היבואן לא אומת בדפים שנטענו. | QA: דף היצרן FRS-PFC75B ודף zabilo מציין Model: PFC75B בצבע שחור. היבואן לא אומת."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://zabilo.com/en/gas-cooktops/8269-fratelli-gas-cooktop-75-cm-variety-of-colors-5-burners-pfc75.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://fratelli.co.il/product/frs-pfc75b/",
+   "publisher": "Fratelli Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "הקטלוג מציין 56 × 49; המקור מציין 56.5 × 49",
+     "label": "מידות חיתוך להתקנה",
+     "value": "56.5 × 49 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "5"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מבער טורבו (Ring Triple)",
+     "value": "3.50 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק להבה גדולה",
+     "value": "3.00 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק להבה בינונית (כל אחת)",
+     "value": "1.75 kW"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק להבה קטנה",
+     "value": "1.00 kW"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מבער טורבו Ring Triple בהספק 3.50 kW"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הצתה אלקטרונית אוטומטית מתחת למתג"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "התקן הגנה מפני כיבוי להבה (FFD)"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תושבות סירים יצוקות מברזל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "הדגם קיים גם בצבע לבן"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז מובנות של Fratelli, דגם PFC75B, עם 5 מבערים ומבער טורבו Ring Triple בהספק 3.50 kW. הכיריים כוללות הצתה אוטומטית מתחת למתג, התקן הגנה מפני כיבוי להבה ותושבות סירים מברזל יצוק. מתאימות למי שמבשל הרבה ורוצה מבער חזק לצד מבערים קטנים לבישול עדין.",
+  "highlights": [
+   "5 מבערי גז",
+   "מבער טורבו Ring Triple בהספק 3.50 kW",
+   "התקן הגנה מפני כיבוי להבה (FFD)",
+   "הצתה אוטומטית מתחת למתג",
+   "תושבות סירים מברזל יצוק"
+  ],
+  "goodFor": [
+   "בישול בכמה סירים ומחבתות במקביל על 5 מבערים",
+   "הקפצה ובישול מהיר על מבער הטורבו בהספק 3.50 kW",
+   "בישול עדין והרתחה איטית על הלהבה הקטנה בהספק 1.00 kW",
+   "מטבח שבו חשובה הגנה מפני כיבוי להבה"
+  ],
+  "considerations": [
+   "יש לוודא שמידות החיתוך בשיש מתאימות ל-56.5 × 49 ס״מ לפי שרטוט ההתקנה",
+   "חיבור הכיריים לגז צריך להתבצע על ידי מתקין גז מוסמך",
+   "יש לוודא נקודת חשמל בארון מתחת לכיריים עבור ההצתה האלקטרונית"
+  ],
+  "faq": [
+   {
+    "q": "כמה מבערים יש בכיריים?",
+    "a": "בכיריים יש 5 מבערי גז, כולל מבער טורבו Ring Triple.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של מבער הטורבו?",
+    "a": "מבער הטורבו Ring Triple מגיע להספק של 3.50 kW. הלהבה הגדולה בהספק 3.00 kW, כל להבה בינונית בהספק 1.75 kW והלהבה הקטנה בהספק 1.00 kW.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה במקרה שהלהבה כבתה?",
+    "a": "כן, הכיריים כוללות התקן הגנה מפני כיבוי להבה (FFD).",
+    "sources": []
+   },
+   {
+    "q": "מהן מידות החיתוך בשיש?",
+    "a": "לפי המקור מידות החיתוך הן 56.5 × 49 ס״מ. מומלץ לאמת מול שרטוט ההתקנה לפני חיתוך השיש.",
+    "sources": []
+   },
+   {
+    "q": "באילו צבעים הדגם קיים?",
+    "a": "הדגם בצבע שחור, ולפי היצרן קיים גם בצבע לבן.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Fratelli PFC75B עם 5 מבערים ומבער טורבו Ring Triple בהספק 3.50 kW, הצתה אוטומטית והגנה מפני כיבוי להבה. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז Fratelli",
+   "Fratelli PFC75B",
+   "PFC75B",
+   "כיריים גז 5 מבערים",
+   "כיריים גז זכוכית שחורה",
+   "כיריים גז מבער טורבו",
+   "כיריים גז פרטלי",
+   "כיריים גז מובנות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר - גודל 70 ס\"מ",
+   "catalogValue": "70 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר להבות",
+   "catalogValue": "5 להבות גז",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "להבת טורבו",
+   "catalogValue": "3.50kW",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "להבה גדולה",
+   "catalogValue": "3.00kW",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שתי להבות בינוניות",
+   "catalogValue": "1.75kW כל אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "להבה קטנה",
+   "catalogValue": "1.00kW",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "חומר המשטח",
+   "catalogValue": "זכוכית קריסטל שחורה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נושאי סירים",
+   "catalogValue": "יציקת ברזל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת הצתה",
+   "catalogValue": "הצתה אלקטרונית אוטומטית מובנית בכפתורי ההפעלה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת בטיחות",
+   "catalogValue": "חיישני FFD לניתוק אספקת הגז",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 70 ס\"מ, עומק 51 ס\"מ, גובה 5.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיתוך (נישה)",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 49 ס\"מ",
+   "finding": "corrected",
+   "correctValue": "56.5 × 49 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדינת מקור",
+   "catalogValue": "איטליה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידה שיווקית (product_capabilities)",
+   "catalogValue": "75 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שחור; קיים גם בצבע לבן",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "dimensions",
+   "issue": "שם המוצר בקטלוג ו-zabilo מציינים 70 ס״מ חיצוני, ותיאור המוצר בקטלוג מציין 75 ס״מ כמידה שיווקית. יש לבחור איזה מספר יוצג ולוודא שאין בלבול בשם.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "zabilo מציין מידות חיצוניות 70x51x5.5 ללא תוויות צירים, ולכן הסדר רוחב/עומק/גובה לא אומת. דף היצרן לא מציג מידות.",
+   "severity": "low"
+  },
+  {
+   "field": "cutout",
+   "issue": "zabilo מציין חיתוך 56.5 × 49 ס״מ, והקטלוג מציין 56 × 49 ס״מ. יש לבדוק את שרטוט ההתקנה לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "היצרן מוכר את הדגם כ-FRS-PFC75B. zabilo מציין Model: PFC75B. תוצאות חיפוש הציגו גם קוד PFC75TNNG לאותו כיריים 70 ס״מ בקריסטל, ולא נבדק בדפים שנטענו.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "היבואן, האחריות ומדינת הייצור לא אומתו בדפים שנטענו. דף היצרן לא מציג מידות ומשקל, ונמצא מקור קמעונאי אחד בלבד למידות.",
+   "severity": "medium"
+  },
+  {
+   "field": "cutout",
+   "issue": "הקטלוג מציין מידות חיתוך 56 × 49 ס״מ, ו-zabilo מציין 56.5 × 49 ס״מ. יש לבדוק בשרטוט ההתקנה של היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "שם המוצר בקטלוג מציין 70 ס״מ, ותיאור היכולות ו-zabilo מציינים 75 ס״מ. הרוחב לא אומת בציטוט תקין; יש לוודא את המידה המוצגת.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "המידות החיצוניות בקטלוג (70 × 51 × 5.5) לא אומתו מול דף היצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "surface",
+   "issue": "חומר המשטח (זכוכית קריסטל שחורה) ומדינת המקור לא אומתו במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "היצרן מציג את הדגם כ-FRS-PFC75B; היבואן לא אומת.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "כל העובדות נתמכות בציטוטים תקינים. תוקנה תווית מידות החיתוך. zabilo סווג מחדש כ-il-retailer (חנות ישראלית, הדף מציין Model: PFC75B). מידות החיתוך בקטלוג (56 × 49) שונות מהמקור (56.5 × 49). מידות חיצוניות ורוחב 70/75 ס״מ לא אומתו ולא פורסמו."
+ }
+}

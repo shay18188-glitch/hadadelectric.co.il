@@ -1,0 +1,444 @@
+{
+ "modelNumber": "SJ-FSRN87V-WH",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "SJ-FSRN87V-WH",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "Official Israeli importer warranty is named on the retailer pages. No manufacturer or importer page for this exact model was found; the facts come from two Israeli retailer pages that name the exact model. Some listings show SJ-FSRN87V or SJ-FSRN87WH without the -WH suffix; those were not used as evidence. | QA: Both Israeli retailer pages name SJ-FSRN87V-WH (Avi Sofer as SJ-FSRN87VWH) with matching 611 L capacity and white glass finish. No manufacturer or importer page found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electroclick.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-4-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%A0%D7%A4%D7%97-611-%D7%9C%D7%99%D7%98%D7%A8-sharp-sj-fsrn87v-wh-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9C%D7%91%D7%A0%D7%94",
+   "publisher": "אלקטרו קליק",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-4-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%A9%D7%A8%D7%A4-sj-fsrn87vwh-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9C/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Sharp"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "SJ-FSRN87V-WH"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "89.2 × 183 × 77 ס״מ"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "From a different retailer than the 9 cm clearance; flagged.",
+     "label": "רוחב נדרש מינימלי לנישה",
+     "value": "93 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח כולל (נטו)",
+     "value": "611 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור (נטו)",
+     "value": "395 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה (נטו)",
+     "value": "216 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "J-Tech Inverter"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "335 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית לבנה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מרווח בהתקנה בקו ארונות ישר",
+     "value": "9 ס״מ מכל צד"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Reworded to match quote.",
+     "label": "אחריות",
+     "value": "שנה אחריות מלאה מטעם ראלקו"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מנוע J-Tech Inverter"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "טכנולוגיית קירור היברידי"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מפרק חיידקים אקטיבי Plasmacluster Ion"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מגירת Extra Cool"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "יצרן קוביות קרח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sharp SJ-FSRN87V-WH הוא מקרר בגימור זכוכית לבנה עם נפח נטו כולל של 611 ליטר: 395 ליטר בתא הקירור ו-216 ליטר בתא ההקפאה. המקרר מצויד במנוע J-Tech Inverter, קירור היברידי ומפרק חיידקים Plasmacluster Ion. מתאים למי שמחפש מקרר גדול עם תא הקפאה מרווח ומראה זכוכית לבן במטבח.",
+  "highlights": [
+   "נפח נטו כולל 611 ליטר",
+   "תא הקפאה של 216 ליטר נטו",
+   "מנוע J-Tech Inverter",
+   "מפרק חיידקים אקטיבי Plasmacluster Ion",
+   "יצרן קוביות קרח ומגירת Extra Cool"
+  ],
+  "goodFor": [
+   "משפחות שקונות בכמויות וזקוקות לנפח אחסון גדול",
+   "מי שמקפיא הרבה מזון ורוצה תא הקפאה מרווח",
+   "מטבח בעיצוב בהיר שמתאים לחזית זכוכית לבנה"
+  ],
+  "considerations": [
+   "רוחב המקרר 89.2 ס״מ, עומקו 77 ס״מ וגובהו 183 ס״מ — כדאי למדוד את הנישה ואת מעברי הדלתות בבית",
+   "בהתקנה בקו ארונות ישר נדרש מרווח של 9 ס״מ מכל צד",
+   "דירוג האנרגיה הוא E וצריכת החשמל השנתית 335 קוט״ש"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Sharp SJ-FSRN87V-WH?",
+    "a": "נפח נטו כולל של 611 ליטר: 395 ליטר בתא הקירור ו-216 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 89.2 ס״מ, גובה 183 ס״מ ועומק 77 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "כמה מרווח צריך להשאיר בהתקנה?",
+    "a": "בהתקנה בקו ארונות ישר נדרש מרווח של 9 ס״מ מכל צד.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל של המקרר?",
+    "a": "דירוג אנרגטי E וצריכת חשמל שנתית של 335 קוט״ש, עם מנוע J-Tech Inverter.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "שנה אחריות מלאה מטעם ראלקו.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר Sharp SJ-FSRN87V-WH בגימור זכוכית לבנה: נפח 611 ליטר נטו, תא הקפאה של 216 ליטר ומנוע J-Tech Inverter. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Sharp SJ-FSRN87V-WH",
+   "SJ-FSRN87V-WH",
+   "מקרר שארפ 4 דלתות",
+   "מקרר 4 דלתות זכוכית לבנה",
+   "מקרר 611 ליטר",
+   "מקרר שארפ זכוכית לבנה",
+   "מקרר מקפיא תחתון 4 דלתות"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח אחסון נטו כולל",
+   "catalogValue": "611 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא קירור",
+   "catalogValue": "395 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח תא הקפאה",
+   "catalogValue": "216 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "89.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "183 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "77 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "catalogValue": "335 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גימור",
+   "catalogValue": "זכוכית לבנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מנוע",
+   "catalogValue": "J-Tech Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מרווח נישה להתקנה",
+   "catalogValue": "9 ס\"מ מכל צד בקו ארונות ישר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-103 ק\"ג",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "משקל",
+   "issue": "The catalog gives about 103 kg. No fetched page gives a weight for this model, so it is unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "מרווח נישה להתקנה",
+   "issue": "The catalog gives only the 9 cm side clearance for a flush cabinet run. The same retailer page also gives 5 cm per side where the fridge doors project past the cabinet line. Check which applies before publishing installation advice.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "The catalog voltage (220-240V) was not found on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sources name SJ-FSRN87V-WH, but several retailers list SJ-FSRN87V or SJ-FSRN87WH. No manufacturer or importer page for this exact model was found, so the facts rest on two Israeli retailer pages.",
+   "severity": "low"
+  },
+  {
+   "field": "רוחב נדרש מינימלי לנישה",
+   "issue": "Avi Sofer gives a 93 cm minimum niche width, while Electro Click gives 9 cm clearance per side in a flush cabinet line (which implies a wider niche). Confirm the correct installation requirement with the importer.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight (about 103 kg) not found on any source.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "Catalog voltage (220-240V) not found on any source.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "No manufacturer or importer page found; facts rest on two Israeli retailer pages.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features have ok quotes on Israeli retailer pages naming the exact model. Kept all; reworded the warranty value. Flagged the 93 cm minimum niche width (Avi Sofer) versus the 9 cm per-side clearance (Electro Click), which come from different retailers and imply different niche sizes. Weight and voltage from the catalog remain unverified."
+ }
+}

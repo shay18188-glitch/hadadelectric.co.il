@@ -1,0 +1,521 @@
+{
+ "modelNumber": "EMG30D22BM",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Electrolux",
+  "exactModel": "EMG30D22BM",
+  "israeliImporter": "מיני ליין",
+  "matchConfidence": "medium",
+  "notes": "Electrolux Israel site search for the model returned no product. Importer name comes from Israeli retailer warranty text. Thailand and Vietnam manufacturer pages name the exact model. | QA: Exact model code on Electrolux Thailand page and two Israeli retailer pages. Israeli variant (built-in with frame vs freestanding) and importer not confirmed on Electrolux Israel."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.electrolux.co.th/en-th/appliances/microwave-ovens/emg30d22bm/",
+   "publisher": "Electrolux Thailand",
+   "kind": "manufacturer",
+   "market": "TH",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.dragon-electric.co.il/items/8790077-%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-Electrolux-EMG30D22BM-30-%D7%9C%D7%99%D7%98%D7%A8-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1",
+   "publisher": "Dragon Electric",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C-%D7%91%D7%A0%D7%95%D7%99-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9C%D7%95%D7%A7%D7%A1-emg30d22bm/",
+   "publisher": "Avi Super",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג המוצר",
+     "value": "מיקרוגל משולב גריל"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא",
+     "value": "30 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "950 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק גריל",
+     "value": "1100 W"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Reduced to width only; height/depth order ambiguous between sources.",
+     "label": "רוחב",
+     "value": "538 מ״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Thai manufacturer page; Vietnam page differs (flagged).",
+     "label": "משקל",
+     "value": "16.4 ק״ג"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קוטר צלחת מסתובבת",
+     "value": "31.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות בישול אוטומטיות",
+     "value": "12 תוכניות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמות עוצמה",
+     "value": "5 דרגות חימום"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "10 שניות עד 60 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור פנינה"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Israeli retailers sell it as built-in with frame; Israeli variant installation unclear.",
+     "label": "סוג התקנה (לפי היצרן)",
+     "value": "עומד חופשי"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "שנה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "CombiGrill – שילוב גריל ומיקרוגל בתוכנית אחת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "Crispy Reheat – חימום חוזר ששומר על פריכות"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "Favorite – שמירת 3 תוכניות בישול מועדפות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "נעילת בטיחות מפני ילדים"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "הפשרה אוטומטית לפי משקל או לפי זמן"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תא אמייל לניקוי קל ומהיר"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מגש זכוכית, טבעת תמיכה לצלחת, ציר צלחת, רשת גריל גבוהה ורשת גריל נמוכה"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מיקרוגל דיגיטלי משולב גריל של Electrolux בנפח 30 ליטר, בצבע שחור פנינה. הספק המיקרוגל 950 W והספק הגריל 1100 W, עם CombiGrill לשילוב שניהם בתוכנית אחת ו-12 תוכניות בישול אוטומטיות. מתאים למי שרוצה מעבר לחימום גם הזהבה ופריכות, ותא אמייל שקל לנקות.",
+  "highlights": [
+   "נפח תא 30 ליטר וצלחת מסתובבת בקוטר 31.5 ס״מ",
+   "הספק מיקרוגל 950 W והספק גריל 1100 W",
+   "12 תוכניות בישול אוטומטיות",
+   "Crispy Reheat לחימום חוזר ששומר על פריכות",
+   "תא אמייל לניקוי קל ומהיר"
+  ],
+  "goodFor": [
+   "חימום חוזר של מאפים ומטוגנים בלי שיתרככו, בעזרת Crispy Reheat",
+   "צלייה והזהבה בעזרת הגריל ושילוב CombiGrill",
+   "צלחות ומגשים גדולים, הודות לצלחת מסתובבת בקוטר 31.5 ס״מ",
+   "בית עם ילדים, בזכות נעילת הבטיחות"
+  ],
+  "considerations": [
+   "רוחב המכשיר 538 מ״מ – כדאי למדוד את המקום המיועד לפני הרכישה",
+   "משקל המכשיר 16.4 ק״ג – כדאי לוודא שהמשטח או המדף יציבים",
+   "יש לבדק מול המוכר אם הדגם מיועד להנחה על משטח או להתקנה בנישה עם מסגרת",
+   "האחריות היא שנה על ידי היבואן מיני ליין"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח המיקרוגל?",
+    "a": "נפח התא הוא 30 ליטר, עם צלחת מסתובבת בקוטר 31.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש בו גריל?",
+    "a": "כן. הספק הגריל 1100 W, ופונקציית CombiGrill משלבת גריל ומיקרוגל בתוכנית אחת.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות אוטומטיות יש?",
+    "a": "יש 12 תוכניות בישול אוטומטיות, ואפשר לשמור 3 תוכניות מועדפות בפונקציית Favorite.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע באריזה?",
+    "a": "מגש זכוכית, טבעת תמיכה לצלחת, ציר צלחת, רשת גריל גבוהה ורשת גריל נמוכה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה על ידי היבואן מיני ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל משולב גריל Electrolux EMG30D22BM בנפח 30 ליטר, הספק מיקרוגל 950 W וגריל 1100 W, 12 תוכניות אוטומטיות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל אלקטרולוקס",
+   "Electrolux EMG30D22BM",
+   "EMG30D22BM",
+   "מיקרוגל עם גריל 30 ליטר",
+   "מיקרוגל שחור",
+   "מיקרוגל דיגיטלי עם גריל",
+   "מיקרוגל 30 ליטר"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מותג",
+   "catalogValue": "Electrolux",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סדרה",
+   "catalogValue": "UltimateTaste 500",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח תא",
+   "catalogValue": "30 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "950W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק גריל",
+   "catalogValue": "1100W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 538, גובה 300, עומק 410 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קוטר צלחת זכוכית מסתובבת",
+   "catalogValue": "315 מ\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "5 דרגות חימום",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "סוג תצוגה",
+   "catalogValue": "LED דיגיטלית",
+   "finding": "unverifiable",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות בישול אוטומטיות",
+   "catalogValue": "12 תוכניות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "דיגיטלי עד 60 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נעילת בטיחות מפני ילדים",
+   "catalogValue": "נעילת בטיחות מפני ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "תאורה פנימית",
+   "catalogValue": "תאורה פנימית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "פנים התא",
+   "catalogValue": "ציפוי אמייל לניקוי קל",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "Quick Start",
+   "catalogValue": "30 שניות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "16.4 ק״ג",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג התקנה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "עומד חופשי (לפי היצרן; ראו reviewFlags)",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות יבואן",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "installation",
+   "issue": "מיקרוגל זה מופיע באתר היצרן בתאילנד כעומד חופשי (Freestanding), אך שני קמעונאים ישראליים (דרגון אלקטריק ואבי סופר) מסווגים אותו כ'מיקרוגל בנוי'. יש לאמת את סוג ההתקנה לפני פרסום.",
+   "severity": "high"
+  },
+  {
+   "field": "dimensions",
+   "issue": "דף היצרן בווייטנאם לאותו קוד דגם מציין 510 × 382.5 × 303 מ״מ ומשקל 15.1 ק״ג, ולא את הערכים מתאילנד ומהקטלוג (538 × 300 × 410 מ״מ). שורת המידות של דרגון מופיעה בסדר לא ברור (גxרxע). יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "שם היבואן מיני ליין מופיע רק בטקסט אחריות של קמעונאי (אבי סופר). חיפוש באתר אלקטרולוקס ישראל לא החזיר מוצר לדגם זה, ולכן הגרסה הישראלית וערכי המתח (220 V מדף וייטנאם) לא אומתו.",
+   "severity": "medium"
+  },
+  {
+   "field": "installation",
+   "issue": "דף היצרן בתאילנד מציין Freestanding, אך קמעונאים ישראליים מסווגים את הדגם כמיקרוגל בנוי, ודרגון מציין מידות 'כולל מסגרת'. יש לאמת את סוג ההתקנה של הגרסה הישראלית.",
+   "severity": "high"
+  },
+  {
+   "field": "dimensions",
+   "issue": "סדר המידות בדרגון (גxרxע 410x538x300) סותר את הקטלוג (רוחב 538, גובה 300, עומק 410), ודף וייטנאם לאותו דגם מציין מידות ומשקל אחרים. פורסם רוחב בלבד; יש לאמת גובה ועומק מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeliImporter",
+   "issue": "שם היבואן מיני ליין מופיע רק בטקסט האחריות של קמעונאי; הדגם לא נמצא באתר אלקטרולוקס ישראל.",
+   "severity": "medium"
+  },
+  {
+   "field": "catalog",
+   "issue": "תצוגת LED ותאורה פנימית בקטלוג לא אומתו במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Dimensions triple rejected: Dragon quote orders values as גxרxע 410x538x300, which contradicts the catalog order (W538 H300 D410), the Thai quote only gives width, and a Vietnam page lists different dimensions; kept width 538 mm only (in both Thai and Dragon quotes). Installation type (Freestanding per Thai page) rejected because Israeli retailers list it as built-in and Dragon quotes dimensions 'including frame'; flagged for checking. Other facts kept as-is."
+ }
+}

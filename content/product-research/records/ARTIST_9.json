@@ -1,0 +1,481 @@
+{
+ "modelNumber": "ARTIST 9",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Tineco",
+  "exactModel": "S9 Artist",
+  "israeliImporter": "יוניקו (Unico)",
+  "matchConfidence": "medium",
+  "notes": "The catalog model number ARTIST 9 appears on no fetched page. The closest match sold in Israel is the Tineco S9 Artist (Floor One S9 Artist, SKU 502TINCS9AR at soferavi.co.il). Catalog values for runtime, power, battery, dimensions and weight do not match the Israeli listings for this model. | QA: Catalog code ARTIST 9 is read as Tineco Floor One S9 Artist; catalog capabilities (22,000Pa, 12.85 cm, FlashDry 85°C 5 min, 78dB, 1.0/0.75 L tanks) match the Israeli pages. Not confirmed whether the store item is S9 Artist or S9 Artist II."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://electric-home.co.il/product/%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-tineco-s9-artist-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99-%D7%99%D7%95%D7%A0%D7%99%D7%A7%D7%95/",
+   "publisher": "Electric Home",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%98%D7%99%D7%A0%D7%A7%D7%95-tineco-s9-artist/",
+   "publisher": "Avi Sofer",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://tineco.co.il/product/tineco-s9-artist/",
+   "publisher": "Tineco Israel",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s4",
+   "url": "https://multistore.co.il/product/%D7%A9%D7%95%D7%98%D7%A3-%D7%95%D7%A9%D7%95%D7%90%D7%91-%D7%A8%D7%A6%D7%A4%D7%95%D7%AA-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%97%D7%9B%D7%9D-%D7%98%D7%99%D7%A0%D7%A7%D7%95-tineco-s9-artist/",
+   "publisher": "Multistore",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "22,000 Pa"
+    },
+    {
+     "sources": [
+      "s3",
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זמן עבודה",
+     "value": "עד 50 דקות בטעינה מלאה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים נקיים",
+     "value": "1 ליטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים מלוכלכים",
+     "value": "0.75 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "78 dB"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s4"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Retailer marks it as an estimate; conflicts with catalog 5.3 kg.",
+     "label": "משקל",
+     "value": "4.5 ק״ג (משוער)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Quote describes the body lying flat, not head rotation.",
+     "label": "שכיבה שטוחה",
+     "value": "עד 180 מעלות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה מינימלי לניקוי מתחת לרהיטים",
+     "value": "12.85 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ייבוש עצמי FlashDry",
+     "value": "אוויר חם 85°C למשך 5 דקות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "LED צבעוני"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות יבואן",
+     "value": "24 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote does not mention water amount.",
+   "text": "חיישן חכם iLoop שמזהה בזמן אמת את רמת הלכלוך ומתאים אוטומטית את עוצמת השאיבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת DualBlock למניעת הסתבכות שיער במברשת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מברשת השאיבה נשטפת עד 450 פעמים בדקה במהלך העבודה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ניקוי קצוות דו־צדדי"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "עיצוב שטוח וגמיש שנכנס מתחת לרהיטים נמוכים, עם ראש שמסתובב 180 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Trimmed to the quote.",
+   "text": "מערכת ניקוי עצמי FlashDry"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שואב, עמדת טעינה, מסנן, מברשת, כבל, נוזל ניקוי ומדריך למשתמש"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Tineco S9 Artist הוא שואב שוטף אלחוטי שמנקה רצפות קשות בשאיבה ושטיפה במעבר אחד. הוא מספק עוצמת שאיבה של 22,000 Pa, עד 50 דקות עבודה בטעינה מלאה, ונשכב שטוח עד 180 מעלות כדי להגיע מתחת לרהיטים בגובה 12.85 ס״מ. מתאים למי שרוצה לשטוף רצפות בלי דלי ומגב ולחסוך את ניקוי המברשת בזכות ייבוש FlashDry.",
+  "highlights": [
+   "עוצמת שאיבה 22,000 Pa",
+   "עד 50 דקות עבודה בטעינה מלאה",
+   "נשכב שטוח עד 180 מעלות, מגיע מתחת לרהיטים בגובה 12.85 ס״מ",
+   "ניקוי עצמי וייבוש FlashDry באוויר חם 85°C למשך 5 דקות",
+   "מיכל מים נקיים 1 ליטר ומיכל מים מלוכלכים 0.75 ליטר"
+  ],
+  "goodFor": [
+   "בתים עם רצפות קשות שרוצים לשאוב ולשטוף במעבר אחד",
+   "ניקוי מתחת לספות ומיטות נמוכות בזכות העיצוב השטוח",
+   "בתים עם בעלי חיים או שיער ארוך, בזכות מערכת DualBlock נגד הסתבכות שיער",
+   "מי שלא רוצה לנקות את המברשת ידנית אחרי כל שימוש"
+  ],
+  "considerations": [
+   "ודאו שיש שקע חשמל ליד המקום שבו תעמוד עמדת הטעינה",
+   "בדקו שזמן העבודה של עד 50 דקות מספיק לשטח הבית בטעינה אחת",
+   "מדדו את הגובה מתחת לרהיטים — השואב מגיע לגובה מינימלי של 12.85 ס״מ"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן עובד ה־Tineco S9 Artist בטעינה אחת?",
+    "a": "עד 50 דקות עבודה בטעינה מלאה.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא נכנס מתחת לרהיטים?",
+    "a": "כן. הוא נשכב שטוח עד 180 מעלות ומגיע לגובה מינימלי של 12.85 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "איך מנקים את המברשת?",
+    "a": "מערכת FlashDry שוטפת את המברשת ומייבשת אותה באוויר חם של 85°C למשך 5 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכלי המים?",
+    "a": "מיכל מים נקיים של 1 ליטר ומיכל מים מלוכלכים של 0.75 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות יבואן של 24 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב שוטף אלחוטי Tineco S9 Artist לרצפות קשות: עוצמת שאיבה 22,000 Pa ועד 50 דקות עבודה בטעינה, ייבוש עצמי FlashDry. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Tineco S9 Artist",
+   "שואב שוטף טינקו",
+   "טינקו S9 ארטיסט",
+   "שואב שוטף אלחוטי",
+   "Tineco Floor One S9 Artist",
+   "שואב שוטף לרצפות",
+   "שואב שוטף עם ניקוי עצמי"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "230W",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "25.2V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "6250mAh (Pouch Cell)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 75 דקות",
+   "finding": "corrected",
+   "correctValue": "עד 50 דקות בטעינה מלאה",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-3.5 שעות",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נפח מכל מים נקיים",
+   "catalogValue": "1.0 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מכל מים מלוכלכים",
+   "catalogValue": "0.75 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "22,000PA",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "5.3 ק\"ג",
+   "finding": "corrected",
+   "correctValue": "4.5 ק״ג (משוער)",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "רמת רעש",
+   "catalogValue": "78dB",
+   "finding": "confirmed",
+   "sources": [
+    "s4"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "26.7x22x110 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אפשרויות צבע",
+   "catalogValue": "שחור/לבן עם דפוסי גרפיקה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "גובה שכיבה מתחת לרהיטים",
+   "catalogValue": "עד גובה 12.85 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ייבוש FlashDry",
+   "catalogValue": "85 מעלות צלזיוס ב-5 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "24 חודשים (יבואן יוניקו)",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The catalog model number ARTIST 9 appears on no fetched page. Research relied on the close match Tineco S9 Artist (SKU 502TINCS9AR on soferavi.co.il). Confirm this is the same product before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "Catalog says up to 75 minutes. The manufacturer and two Israeli retailers say up to 50 minutes on full charge. A 75-minute figure appears only in foreign or review pages for other S9 variants (Steam or Pro).",
+   "severity": "high"
+  },
+  {
+   "field": "הספק",
+   "issue": "Catalog power 230W, battery 25.2V 6250mAh, dimensions 26.7x22x110 cm and charge time 3.5 h are not on any fetched Israeli or manufacturer page. They may belong to a different S9 variant. Check against the manufacturer spec for this exact SKU.",
+   "severity": "high"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog weight 5.3 kg conflicts with the Israeli retailer's 4.5 kg, which is marked as an estimate. Sources conflict.",
+   "severity": "medium"
+  },
+  {
+   "field": "variant",
+   "issue": "Tineco Israel sells several S9 variants (S9 Artist, S9 Artist II, Steam, Pro). Facts here are for the non-steam S9 Artist. Confirm the store item is that variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Catalog code ARTIST 9 appears on no source; matched to Tineco S9 Artist. Confirm the store item is S9 Artist and not S9 Artist II or another S9 variant.",
+   "severity": "high"
+  },
+  {
+   "field": "זמן עבודה",
+   "issue": "Catalog says up to 75 minutes; importer and Israeli retailers say up to 50 minutes.",
+   "severity": "high"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog power 230W, 25.2V 6250mAh battery, 3.5 h charge time and dimensions 26.7×22×110 cm are not on any source; may belong to a different S9 variant.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "Catalog 5.3 kg vs retailer estimate 4.5 kg; not published.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 5 (weight 4.5 kg is marked as an estimate by the retailer and conflicts with the catalog's 5.3 kg). Relabelled fact 6: the quote describes the body lying flat to 180 degrees, not head rotation. Feature 0 trimmed to suction adjustment (quote does not mention water amount). Feature 5 trimmed to what the quote says. tineco.co.il relabelled as importer site. | code guard removed: consideration: \"ודאו שהדגם בחנות הוא S9 Artist ולא גרסה אחרת בסדרת S9\""
+ }
+}

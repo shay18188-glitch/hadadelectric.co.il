@@ -1,0 +1,390 @@
+{
+ "modelNumber": "R-328FH(BS)",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "R-328FH(BS)",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "Both Israeli retail pages name the exact model R-328FH(BS). The catalog name says 34 liters, but the manufacturer-style spec on the retail pages says 32 liters. | QA: Both Israeli retailer pages name the exact model R-328FH(BS); Ralco named as official importer."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99_%D7%97%D7%A9%D7%9E%D7%9C_%D7%9C%D7%9E%D7%98%D7%91%D7%97/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C_%D7%95%D7%98%D7%95%D7%A1%D7%98%D7%A8_%D7%90%D7%95%D7%91%D7%9F/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%92%D7%9C_%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99_max_space_%D7%A0%D7%A4%D7%97_32_%D7%9C%D7%99%D7%98%D7%A8_%D7%9E%D7%A0%D7%95%D7%A2_%D7%90%D7%99%D7%A0%D7%95%D7%95%D7%A8%D7%98%D7%A8_%D7%91%D7%A2%D7%95%D7%A6%D7%9E%D7%94_sharp_1200w_%D7%93%D7%92%D7%9D_r-328fhbs_%D7%A9%D7%90%D7%A8%D7%A4",
+   "publisher": "Traklin Hashmal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.bettershop.co.il/product/sharp-r-328fhbs/",
+   "publisher": "Better Shop",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דגם",
+     "value": "R-328FH(BS)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2",
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח",
+     "value": "32 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "52 × 32.5 × 41 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "11.7 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מיקרוגל",
+     "value": "1200 W"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיה",
+     "value": "מנוע אינוורטר (Inverter)"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמות עוצמה",
+     "value": "11"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תוכניות בישול אוטומטיות",
+     "value": "23"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הפשרה",
+     "value": "לפי משקל וזמן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיישן לחות",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נעילת בטיחות מפני ילדים",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג בסיס",
+     "value": "שטוח ללא צלחת מסתובבת"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer-stated warranty",
+     "label": "אחריות",
+     "value": "שנה מלאה ע״י ראלקו, היבואן הרשמי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חלל פנימי ללא צלחת מסתובבת, שמאפשר להכניס כלים גדולים ולחמם שתי מנות במקביל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פתיחת דלת בלחיצת כפתור"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיקרוגל דיגיטלי של Sharp מסדרת SPACE MAX, עם בסיס שטוח ללא צלחת מסתובבת ונפח של 32 ליטר. מנוע אינוורטר בהספק 1200 W, לצד 23 תוכניות בישול אוטומטיות ו-11 רמות עוצמה. מתאים למי שמחמם כלים גדולים או מרובעים ורוצה ניקוי פשוט של תחתית התא.",
+  "highlights": [
+   "נפח 32 ליטר עם בסיס שטוח ללא צלחת מסתובבת",
+   "מנוע אינוורטר בהספק 1200 W",
+   "23 תוכניות בישול אוטומטיות ו-11 רמות עוצמה",
+   "חיישן לחות והפשרה לפי משקל וזמן",
+   "נעילת בטיחות מפני ילדים"
+  ],
+  "goodFor": [
+   "חימום בכלים גדולים או מרובעים שלא מסתובבים בצלחת רגילה",
+   "חימום שתי מנות במקביל",
+   "בית עם ילדים, בזכות נעילת הבטיחות",
+   "מי שמעדיף ניקוי מהיר של תחתית שטוחה במקום שטיפת צלחת"
+  ],
+  "considerations": [
+   "יש לוודא שהמשטח או הנישה מתאימים למידות 52 × 32.5 × 41 ס״מ, ולהשאיר מרווח אוורור",
+   "המשקל 11.7 ק״ג – כדאי לבדוק שהמדף או המשטח יציבים מספיק",
+   "יש לוודא שקע חשמל זמין קרוב למיקום המיועד"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של Sharp R-328FH(BS)?",
+    "a": "נפח התא הוא 32 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במיקרוגל צלחת מסתובבת?",
+    "a": "לא. הבסיס שטוח ללא צלחת מסתובבת, כך שאפשר להכניס כלים גדולים ולנקות את התחתית בקלות.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המיקרוגל?",
+    "a": "הספק המיקרוגל הוא 1200 W, עם מנוע אינוורטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה תוכניות אוטומטיות יש?",
+    "a": "יש 23 תוכניות בישול אוטומטיות ו-11 רמות עוצמה, וגם הפשרה לפי משקל וזמן.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המוצר?",
+    "a": "שנה מלאה ע״י ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיקרוגל דיגיטלי Sharp R-328FH(BS) מסדרת SPACE MAX, נפח 32 ליטר, בסיס שטוח ללא צלחת ומנוע אינוורטר 1200 W. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיקרוגל שארפ R-328FH",
+   "Sharp R-328FH(BS)",
+   "מיקרוגל ללא צלחת",
+   "מיקרוגל SPACE MAX",
+   "מיקרוגל אינוורטר 1200W",
+   "מיקרוגל שטוח 32 ליטר",
+   "מיקרוגל דיגיטלי שחור"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח תא הבישול",
+   "catalogValue": "32 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שם המוצר (נפח)",
+   "catalogValue": "34 ליטר",
+   "finding": "contradicted",
+   "correctValue": "32 ליטר",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "הספק מיקרוגל",
+   "catalogValue": "1200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 52 ס\"מ, גובה 32.5 ס\"מ, עומק 41 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "11.7 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות עוצמה",
+   "catalogValue": "11 רמות חום",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "23 תוכניות בישול",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "אינוורטר (Inverter)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "צג LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "230V/50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "לוח בקרה",
+   "catalogValue": "דיגיטלי עם פאנל הפעלה בעברית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "יפן (מותג), מיוצר בסין",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "capacity",
+   "issue": "The catalog product name says 34 liters, but the catalog spec and both Israeli retail pages say 32 liters for this model. The name should be checked by a person.",
+   "severity": "high"
+  },
+  {
+   "field": "origin",
+   "issue": "The catalog origin text (Japan brand, made in China) was not verified on any fetched page.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says 34 liters, but the catalog spec and both Israeli retailer pages say 32 liters for R-328FH(BS).",
+   "severity": "high"
+  },
+  {
+   "field": "origin",
+   "issue": "Origin text (Japan brand, made in China) not verified on any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on two Israeli retailer pages naming R-328FH(BS). Warranty value reworded to include importer. Catalog name says 34 liters but sources and catalog spec say 32 liters - flagged."
+ }
+}

@@ -1,0 +1,414 @@
+{
+ "modelNumber": "60GL403-W (6742)",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Midea",
+  "exactModel": "60GL403-W",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "הדגם 60GL403-W מופיע בדף המוצר של מספר1 (מק\"ט יצרן 60GL403-W) ובדף טרקלין. שני קודי מוצר נוספים מופיעים באתרים: 6742 (קוד מוצר בחנויות) ו-60GL403/6742 (ללא סיומת -W). קיים גם דגם צבע שחור 60GL403-B. | QA: Both מספר1 and טרקלין pages name Midea 60GL403-W white glass, product code 6742, matching the catalog SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.traklin.co.il/%D7%91%D7%99%D7%A9%D7%95%D7%9C_%D7%95%D7%90%D7%A4%D7%99%D7%99%D7%94/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D_%D7%92%D7%96/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D_%D7%92%D7%96_4_%D7%9C%D7%94%D7%91%D7%95%D7%AA_6742_%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA_%D7%9C%D7%91%D7%A0%D7%94_60_%D7%A1%D7%9E_midea_%D7%93%D7%92%D7%9D_60gl403-w_%D7%9E%D7%99%D7%93%D7%90%D7%94",
+   "publisher": "טרקלין חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.mispar1.co.il/product/%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%92%D7%96-4-%D7%9C%D7%94%D7%91%D7%95%D7%AA-midea-%D7%9E%D7%99%D7%93%D7%90%D7%94-60gl403-w-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%9C%D7%91%D7%A0%D7%94",
+   "publisher": "מספר1 - החשמל לצרכן",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות המוצר (רוחב × עומק)",
+     "value": "60 × 51 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות חיתוך להתקנה (רוחב × עומק)",
+     "value": "56 × 48 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מספר מבערים",
+     "value": "4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מבער טורבו (להבה כפולה)",
+     "value": "3.6 kW"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מבערים בינוניים",
+     "value": "1.75 kW (2 מבערים)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מבער קטן",
+     "value": "1 kW"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג המשטח",
+     "value": "זכוכית מחוסמת"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גימור",
+     "value": "זכוכית לבנה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Same page shows a generic two-year banner; flagged for verification.",
+     "label": "אחריות יבואן רשמי",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "removed adjective",
+   "text": "מבערים איטלקיים מתוצרת SABAF"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ברז נפרד לכל מבער לשליטה מדויקת בעוצמת הלהבה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת הצתה אלקטרונית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חיישני בטיחות לניתוק אוטומטי של אספקת הגז במקרה של כיבוי הלהבה"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תושבות סירים מאמייל לכל מבער בנפרד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "כפתורי שליטה בצד המשטח"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כיריים גז Midea 60GL403-W ברוחב 60 ס״מ עם משטח זכוכית מחוסמת בגימור לבן וכפתורי שליטה בצד. ארבעה מבערים מתוצרת SABAF, כולל מבער טורבו בלהבה כפולה בהספק 3.6 kW, עם הצתה אלקטרונית וחיישני בטיחות שמנתקים את הגז בכיבוי להבה. מתאימות למטבח שמחפש כיריים גז בעיצוב בהיר עם מבער חזק לווק ולבישול מהיר.",
+  "highlights": [
+   "מבער טורבו בלהבה כפולה בהספק 3.6 kW",
+   "4 מבערים בהספקים שונים, מתוצרת SABAF",
+   "משטח זכוכית מחוסמת בגימור לבן",
+   "חיישני בטיחות לניתוק הגז בכיבוי הלהבה",
+   "מידות חיתוך להתקנה 56 × 48 ס״מ"
+  ],
+  "goodFor": [
+   "בישול בווק או הרתחה מהירה על מבער הטורבו",
+   "מטבח בגוונים בהירים שמתאים לו משטח זכוכית לבן",
+   "בישול של כמה סירים במקביל בעוצמות שונות",
+   "משפחות שחשובה להן הגנה מפני דליפת גז בכיבוי להבה"
+  ],
+  "considerations": [
+   "יש לוודא שחיתוך השיש מתאים למידות 56 × 48 ס״מ",
+   "התקנה וחיבור לגז על ידי מתקין גז מוסמך",
+   "נדרש שקע חשמל סמוך עבור ההצתה האלקטרונית",
+   "כפתורי השליטה בצד המשטח — כדאי לבדוק שהמיקום נוח במטבח"
+  ],
+  "faq": [
+   {
+    "q": "מה הספק המבער החזק?",
+    "a": "מבער הטורבו בלהבה כפולה מגיע להספק של 3.6 kW.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות החיתוך בשיש?",
+    "a": "מידות החיתוך להתקנה הן 56 × 48 ס״מ (רוחב × עומק), והמוצר עצמו 60 × 51 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם יש הגנה מפני דליפת גז?",
+    "a": "כן, חיישני בטיחות מנתקים אוטומטית את אספקת הגז אם הלהבה כבתה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "לפי דף המוצר, 12 חודשים אחריות על ידי היבואן הרשמי המילטון חשמל ואלקטרוניקה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כיריים גז Midea 60GL403-W זכוכית לבנה 60 ס״מ: 4 מבערי SABAF, טורבו בלהבה כפולה 3.6 kW וחיישני בטיחות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כיריים גז מידאה",
+   "Midea 60GL403-W",
+   "כיריים גז זכוכית לבנה",
+   "כיריים גז 60 ס״מ",
+   "כיריים גז 4 להבות",
+   "כיריים גז עם מבער טורבו",
+   "כיריים גז כפתורים בצד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "4 להבות בישול בעוצמות שונות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער טורבו",
+   "catalogValue": "3.6kW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שני מבערים בינוניים",
+   "catalogValue": "1.75kW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבער קטן",
+   "catalogValue": "1kW",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב 60 ס\"מ, עומק 51 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיתוך להתקנה",
+   "catalogValue": "רוחב 56 ס\"מ, עומק 48 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר המשטח",
+   "catalogValue": "זכוכית מחוסמת",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "לבן",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V / 50-60Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תושבות סירים",
+   "catalogValue": "ברזל יצוק או אמאייל בהתאם לגרסת היבואן המקומית",
+   "finding": "corrected",
+   "correctValue": "תושבות סירים מאמייל לכל מבער בנפרד",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מערכת הצתה אלקטרונית",
+   "catalogValue": "מובנית בכפתורים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיישני בטיחות",
+   "catalogValue": "לניתוק אוטומטי של הגז בכיבוי הלהבה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ברז לכל מבער",
+   "catalogValue": "ברז לכל מבער לשליטה מדויקת על עוצמת הלהבה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מבערים איטלקיים",
+   "catalogValue": "מבערים איטלקיים איכותיים מתוצרת SABAF",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח זכוכית חלק וקל לניקוי",
+   "catalogValue": "משטח זכוכית חלק וקל לניקוי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "12 חודשים (יבואן רשמי)",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אחריות",
+   "issue": "דף טרקלין מציין 12 חודשים מהיבואן, אך באותו דף מופיע באנר כללי של שנתיים אחריות לכיריים גז. יש לאמת מול היבואן המילטון לפני פרסום.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות המוצר",
+   "issue": "לא נמצא גובה המוצר בדפים שנבדקו; נרשם רק רוחב ועומק.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "קוד 6742 ו-60GL403/6742 מופיעים בחנויות בלי הסיומת -W בחלק מהדפים; קיים גם דגם צבע שחור 60GL403-B. נבדק מספר הדגם 60GL403-W בדפי מספר1 וטרקלין.",
+   "severity": "low"
+  },
+  {
+   "field": "תושבות סירים",
+   "issue": "הקטלוג מציין ברזל יצוק או אמאייל לפי היבואן; דפי החנויות מציינים אמאייל.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף טרקלין מציין 12 חודשים מהיבואן, אך באותו דף מופיע באנר כללי של שנתיים אחריות לכיריים גז; יש לאמת מול היבואן.",
+   "severity": "medium"
+  },
+  {
+   "field": "תושבות סירים",
+   "issue": "הקטלוג מציין ברזל יצוק או אמאייל; דף מספר1 מציין אמאייל. יש לעדכן את הקטלוג אם נכון.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "נתון המתח בקטלוג (220-240V / 50-60Hz) לא אומת במקורות.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts and features verified against two Israeli retailer pages naming 60GL403-W. Warranty kept as stated by the retailer (12 months by importer) but flagged because the same page shows a generic two-year banner. Feature wording lightly edited."
+ }
+}

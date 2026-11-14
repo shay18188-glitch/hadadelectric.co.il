@@ -1,0 +1,470 @@
+{
+ "modelNumber": "SC-NT10",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "SC-NT10",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "דגם רמקול נייד עמיד (Tough) שהושק ב-2013. המקורות שנקראו הם סקירות בלבד (WiseBuy הישראלי ו-ecoustics האמריקאי). לא נקרא דף מפרט רשמי של פנסוניק שמציג את הדגם. סקירת WiseBuy מציינת את Eurocom כיבואן הרשמי, ללא אימות לדגם זה. | QA: שני המקורות הם סקירות שמציינות את הדגם SC-NT10 במפורש. אין דף יצרן או יבואן; היבואן בישראל לא אומת."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.wisebuy.co.il/proreview.aspx?productid=873708",
+   "publisher": "WiseBuy",
+   "kind": "review",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.ecoustics.com/products/panasonic-sc-nt10-portable-bluetooth-speaker/",
+   "publisher": "ecoustics",
+   "kind": "review",
+   "market": "US",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "note": "במקור RMA, שגיאת הקלדה",
+     "label": "הספק",
+     "value": "4 W RMS"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "רמקולים",
+     "value": "שני רמקולים בטווח מלא ורדיאטור פסיבי"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מצב Boost",
+     "value": "כן"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "גרסת Bluetooth",
+     "value": "3.0 עם A2DP"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "NFC",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "כניסת AUX",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "שקע טעינה",
+     "value": "Micro-USB"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דיבורית",
+     "value": "כן, עם מיקרופון מובנה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת סוללה",
+     "value": "1500 mAh"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "זמן נגינה",
+     "value": "עד 8 שעות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "משקל",
+     "value": "330 גרם"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "סותר את מידות הקטלוג; 12 ס״מ הוא כנראה הקוטר",
+     "label": "עובי",
+     "value": "12 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "דירוג הגנה",
+     "value": "IPX4"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "עמידות לנפילה",
+     "value": "מגובה 76 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "טווח טמפרטורות הפעלה",
+     "value": "מינוס 10 עד 50 מעלות צלזיוס"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "מקור אמריקאי; הצבעים בישראל לא ידועים",
+     "label": "צבעים",
+     "value": "כתום/שחור, כחול/שחור"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2",
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "הוסר אבק, לא מופיע בציטוט",
+   "text": "רמקול נייד עגול ומוקשח לשימוש בחוץ, עם הגנה מפני התזות מים ונפילות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "low",
+   "status": "verified",
+   "text": "צימוד Bluetooth מהיר באמצעות NFC עם טלפון או טאבלט"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Panasonic SC-NT10 הוא רמקול Bluetooth נייד ומוקשח לשימוש בחוץ. מתאים למי שמחפש רמקול קטן וקל לטיולים, לחצר ולבריכה.",
+  "highlights": [
+   "דיבורית עם מיקרופון מובנה"
+  ],
+  "goodFor": [
+   "ליד הבריכה או בחצר, בזכות הגנה מפני התזות מים",
+   "סביבה חיצונית רועשת, עם מצב Boost",
+   "מכשירים ללא Bluetooth, דרך כניסת AUX"
+  ],
+  "considerations": [
+   "הטעינה היא דרך שקע Micro-USB, כדאי לוודא שיש כבל מתאים",
+   "צימוד NFC עובד רק עם טלפון שתומך ב-NFC"
+  ],
+  "faq": [
+   {
+    "q": "אפשר לחבר אליו מכשיר בכבל?",
+    "a": "כן, יש כניסת AUX.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לדבר בטלפון דרך הרמקול?",
+    "a": "כן, יש מיקרופון מובנה לשיחות בדיבורית.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Panasonic SC-NT10",
+   "רמקול פנסוניק SC-NT10",
+   "רמקול בלוטוס נייד",
+   "רמקול עמיד למים",
+   "רמקול מוקשח לטיולים",
+   "רמקול NFC",
+   "רמקול נייד פנסוניק"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק יציאה כולל",
+   "catalogValue": "4W (RMS)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמקולים",
+   "catalogValue": "2 רמקולים בטווח מלא (Full Range)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קוטר רמקולים",
+   "catalogValue": "3.5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רדיאטור פסיבי",
+   "catalogValue": "קוטר 5 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "קישוריות",
+   "catalogValue": "Bluetooth גרסה 3.0 עם NFC",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "סוללת ליתיום-יון נטענת מובנית",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "זמן עבודה",
+   "catalogValue": "עד 8 שעות נגינה רציפה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "כניסת AUX",
+   "catalogValue": "3.5 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "כניסת Micro-USB לטעינה",
+   "catalogValue": "Micro-USB",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-330 גרם",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "120 * 53.8 * 120 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג הגנה",
+   "catalogValue": "IPX4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמידות לנפילה",
+   "catalogValue": "נפילה מגובה 76 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טמפרטורות",
+   "catalogValue": "עד מינוס 10 מעלות צלזיוס",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עמידות לאבק",
+   "catalogValue": "עמידות לאבק",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מיקרופון לדיבורית",
+   "catalogValue": "מיקרופון מובנה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "טכנולוגיית Boost",
+   "catalogValue": "טכנולוגיית 'Boost'",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "קיבולת סוללה",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "1500 mAh",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "discontinued",
+   "issue": "הדגם הושק ב-2013 וכל המקורות שנקראו הם סקירות משנים אלה. לא נמצא דף יבואן או מפרט רשמי נגיש לדגם, וזמינותו בישראל לא אומתה. ייתכן שהדגם הופסק.",
+   "severity": "high"
+  },
+  {
+   "field": "סוללה",
+   "issue": "הקטלוג כותב סוללת ליתיום-יון. לא נמצא בדפים שנקראו ציון לסוג הסוללה. תוצאות חיפוש מציינות סוג אחר (NiMH) ממקור שלא נקרא. יש לבדוק.",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_importer",
+   "issue": "סקירת WiseBuy כותבת שיורוקום היא היבואן הרשמי וש\"המוצר נמסר לבדיקה\" ממנה. לא אומת שזה היבואן של דגם זה.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג 120 × 53.8 × 120 מ\"מ לא אומתו בדפים שנקראו. נמצא רק עובי של 12 ס\"מ.",
+   "severity": "medium"
+  },
+  {
+   "field": "רמקולים",
+   "issue": "קוטר הרמקולים והרדיאטור מופיע באינץ' במקור. לא הומר, ולכן הקטלוג לא אומת לגבי הקוטרים.",
+   "severity": "low"
+  },
+  {
+   "field": "discontinued",
+   "issue": "הדגם ישן ומבוסס על סקירות בלבד; אין דף יצרן או יבואן. ייתכן שהדגם הופסק.",
+   "severity": "high"
+  },
+  {
+   "field": "סוללה",
+   "issue": "הקטלוג כותב ליתיום-יון, סוג הסוללה לא אומת במקורות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "מידות הקטלוג לא אומתו; הסקירה כותבת עובי 12 ס״מ שסותר אותן (כנראה קוטר).",
+   "severity": "medium"
+  },
+  {
+   "field": "israeli_importer",
+   "issue": "יבואן בישראל לא אומת (הסקירה מזכירה את יורוקום).",
+   "severity": "medium"
+  },
+  {
+   "field": "עמידות לאבק",
+   "issue": "עמידות לאבק בקטלוג לא מופיעה בציטוט שנבדק.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "נדחה עובי 12 ס״מ (סותר את מידות הקטלוג 120×53.8×120 מ״מ, ככל הנראה קוטר ולא עובי). נדחו צבעים (מקור אמריקאי, צבעי הגרסה בישראל לא ידועים). תוקן ניסוח טווח הטמפרטורות. | code guard removed: summary: \"הוא עומד בתקן IPX4 נגד התזות מים, שורד נפילות מגובה 76 ס״מ ומספק עד 8 שעות נגינה.\"; faq: \"האם הרמקול עמיד במים?\"; faq: \"כמה זמן מחזיקה הסוללה?\"; faq: \"באילו טמפרטורות הוא עובד?\"; metaDescription: \"רמקול Bluetooth נייד Panasonic SC-NT10 מוקשח בתקן IPX4, עד 8 שעות נגינה ועמידות לנפילה מגובה 76 ס״מ. בחדד אלקטריק נהריה\"; highlight: \"תקן IPX4 – הגנה מפני התזות מים\"; highlight: \"עמידות לנפילה מגובה 76 ס״מ\"; highlight: \"עד 8 שעות נגינה בסוללה מובנית של 1500 mAh\"; highlight: \"Bluetooth 3.0 עם צימוד NFC\"; goodFor: \"טיולים וקמפינג, בזכות עמידות לנפילות ומשקל של 330 גרם\"; consideration: \"תקן IPX4 מגן מפני התזות בלבד ולא מפני טבילה במים\"; consideration: \"ההספק הוא 4 W RMS, מתאים להאזנה אישית ולא למסיבה גדולה\""
+ }
+}

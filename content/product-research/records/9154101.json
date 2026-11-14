@@ -1,0 +1,101 @@
+{
+ "modelNumber": "9154101",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Carrera",
+  "exactModel": "9154101",
+  "israeliImporter": null,
+  "matchConfidence": "low",
+  "notes": "הדגם 9154101 מופיע רק בתיאור המטא של עמוד שופ אלקטרונז, שהוא עמוד של דגם 3 ב-1 (מק״ט 9154071). אין עמוד יצרן או יבואן. נתונים שלא סותרים את הקטלוג בלבד. | QA: העמוד מתאר מסיר שיער 3 ב-1 ולא את דגם 4 ב-1 שבקטלוג."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.shopelectrons.co.il/product/%D7%9E%D7%A1%D7%99%D7%A8-%D7%A9%D7%99%D7%A2%D7%A8-%D7%94%D7%90%D7%A3-%D7%95%D7%94%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%99%D7%9D-3-%D7%91-1/",
+   "publisher": "שופ אלקטרונז",
+   "kind": "retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "מעמוד של דגם אח 3 ב-1",
+     "label": "מקור כוח",
+     "value": "סוללות AA"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "מעמוד של דגם אח 3 ב-1",
+     "label": "חומר להבים",
+     "value": "פלדת אל-חלד"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "",
+  "highlights": [],
+  "goodFor": [],
+  "considerations": [],
+  "faq": []
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": []
+ },
+ "catalogCheck": [
+  {
+   "field": "סוללה",
+   "catalogValue": "סוללת AA אלקליין אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מערכת חיתוך 4 ב-1",
+   "catalogValue": "ארבעה ראשים נשלפים",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "הדגם 9154101 מופיע רק בתיאור המטא של עמוד קמעונאי ישראלי שהוא דגם 3 ב-1 (3 ראשים, מק״ט 9154071). ייתכן ערבוב בין וריאנטים 3 ב-1 ו-4 ב-1; יש לבדוק את מספר הראשים בחבילה.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "לא נמצא מקור לדגם 9154101; המקור היחיד מתאר דגם 3 ב-1 (9154071). יש לבדוק מול האריזה את מספר הראשים ואת המק״ט.",
+   "severity": "high"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "fail",
+  "notes": "המקור היחיד הוא עמוד של דגם אח 3 ב-1 (מק״ט 9154071); המק״ט 9154101 מופיע רק בתיאור המטא. לא ניתן לאמת שהנתונים שייכים לדגם 4 ב-1 שבקטלוג."
+ }
+}

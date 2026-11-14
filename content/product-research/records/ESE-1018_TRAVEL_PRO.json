@@ -1,0 +1,240 @@
+{
+ "modelNumber": "ESE-1018 TRAVEL PRO",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sassonic",
+  "exactModel": "ESE-1018 TRAVEL PRO",
+  "israeliImporter": "אליאס ששון אלקטרוניקה בע״מ",
+  "matchConfidence": "high",
+  "notes": "הדגם מופיע בדפי קמעונאים ישראלים כ-ESE-1018 / ESE1018; באחד הדפים (זאפ) בשם Travel PRO ESE-1018. לא נמצא דף יצרן או יבואן עם מפרט מלא, ולא נמצאו מידות. תקופת האחריות סותרת בין מקורות (שנה / שנתיים). | QA: HairFix names Sassonic ESE-1018 folding travel dryer; Zap lists it as Travel PRO ESE-1018. Same unit as the catalog SKU."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://hairfix.co.il/shop/1648/desc/sassonic",
+   "publisher": "HairFix",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.electrosomar.co.il/items/8521622-%D7%9E%D7%99%D7%99%D7%91%D7%A9-%D7%A9%D7%99%D7%A2%D7%A8-%D7%A7%D7%95%D7%9E%D7%A4%D7%A7%D7%98%D7%99-%D7%9B%D7%95%D7%9C%D7%9C-%D7%93%D7%99%D7%A4%D7%99%D7%95%D7%96%D7%A8-Sassonic-%D7%A1%D7%A1%D7%95%D7%A0%D7%99%D7%A7-ESE-1018",
+   "publisher": "Electrosomar",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": false,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1000 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח עבודה",
+     "value": "110~220 V (מתח כפול)"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Warranty term differs between Israeli shops (12 months vs two years); retailer-specific.",
+     "label": "אחריות יבואן",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "פיה צרה, דיפיוזר ונרתיק בד לנסיעות"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מייבש שיער קומפקטי לנסיעות של Sassonic, דגם ESE-1018 TRAVEL PRO, בהספק 1000 W. המייבש עובד במתח כפול 110~220 V, כך שאפשר להשתמש בו גם בחו״ל. בערכה פיה צרה, דיפיוזר ונרתיק בד, והוא מתאים למי שטס או מטייל ורוצה מייבש משלו בתיק.",
+  "highlights": [
+   "הספק 1000 W",
+   "מתח כפול 110~220 V לשימוש בחו״ל",
+   "כולל פיה צרה ודיפיוזר",
+   "נרתיק בד לנשיאה בנסיעות"
+  ],
+  "goodFor": [
+   "טיסות וחופשות במדינות עם מתח 110 V או 220 V",
+   "מי שרוצה מייבש נוסף לתיק או למזוודה",
+   "עיצוב שיער מתולתל בעזרת הדיפיוזר גם בנסיעה"
+  ],
+  "considerations": [
+   "בדקו את בורר המתח לפני חיבור לשקע בחו״ל",
+   "ייתכן שיידרש מתאם תקע לשקעים במדינת היעד",
+   "הספק 1000 W נמוך ממייבש ביתי מלא, וכדאי לקחת זאת בחשבון בשיער ארוך ועבה"
+  ],
+  "faq": [
+   {
+    "q": "האם אפשר להשתמש במייבש בארה״ב?",
+    "a": "כן, המייבש עובד במתח כפול 110~220 V. יש לוודא שבורר המתח מכוון נכון ולהשתמש במתאם תקע מתאים.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של המייבש?",
+    "a": "ההספק הוא 1000 W.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בקופסה?",
+    "a": "פיה צרה, דיפיוזר ונרתיק בד לנסיעות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מייבש שיער לנסיעות Sassonic ESE-1018 TRAVEL PRO בהספק 1000 W ומתח כפול 110~220 V, כולל דיפיוזר ונרתיק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מייבש שיער לנסיעות",
+   "מייבש שיער מתקפל",
+   "ססוניק ESE-1018",
+   "Sassonic ESE-1018",
+   "מייבש שיער מתח כפול",
+   "מייבש שיער לטיולים",
+   "מייבש שיער 110 וולט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1000W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "מתח כפול (Dual Voltage) 110V-220V",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגדרות",
+   "catalogValue": "2 דרגות עוצמה/חום",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל",
+   "catalogValue": "כ-190 גרם (290 גרם כולל הכבל)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "אביזרים נלווים",
+   "catalogValue": "פיה צרה לריכוז האוויר, דיפיוזר ונרתיק נשיאה מבד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עיצוב",
+   "catalogValue": "ידית מתקפלת לחיסכון במקום",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שם",
+   "catalogValue": "מייבש שיער מיני לטיולים 220 וואט",
+   "finding": "contradicted",
+   "correctValue": "1000 W, מתח משתנה 110~220 V",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יצרן",
+   "catalogValue": "Sassonic",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "שם",
+   "issue": "שם הקטלוג כולל '220 וואט', אבל המוצר מופיע כ-1000 W עם מתח משתנה 110~220 V. שם המוצר לא שונה כאן; כדאי לבדוק את השם בקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "לא נמצאו מידות (רוחב × גובה × עומק) בדפי מקור תקינים; מידות שמופיעות באחד הדפים אינן עקביות ולכן לא נרשמו. נדרש בדיקה ידנית מול היבואן או מול המוצר.",
+   "severity": "medium"
+  },
+  {
+   "field": "משקל",
+   "issue": "המשקל 190 גרם מופיע רק בדף השוואת מחירים אחד מאומת; הערך 290 גרם כולל כבל מופיע בדף קמעונאי. יש לאשר את המשקל מול דף היבואן.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות סותרת: 12 חודשים בחנות אחת, שנתיים בחנות אחרת.",
+   "severity": "low"
+  },
+  {
+   "field": "שם",
+   "issue": "שם הקטלוג כולל '220 וואט' בעוד שהמקור מציין הספק 1000 W ומתח 110~220 V; כדאי לבדוק את שם המוצר בקטלוג.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "תקופת האחריות סותרת בין חנויות (12 חודשים מול שנתיים); לא פורסמה.",
+   "severity": "low"
+  },
+  {
+   "field": "משקל",
+   "issue": "משקל ומידות לא אומתו בדף שמציין את הדגם.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected warranty fact (12 months): retailer-specific and contradicted by another shop listing two years. Source kinds: Zap and Wisebuy relabelled as other (price comparison)."
+ }
+}

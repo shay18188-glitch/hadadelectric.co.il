@@ -1,0 +1,329 @@
+{
+ "modelNumber": "ATL-48",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-48",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "Only Israeli retailer page BUG (bug.co.il) names ATL-48 and was readable. Payngo and HomeCenter pages returned 403/429 and were not used. No manufacturer, importer or manual page was reached. Power, dimensions and voltage are not verified; 950 W appears only on sibling ATL-88 pages. | QA: BUG page title names Gold Line בראשית ATL-48, 20 cups, stainless steel, matching the catalog name. Only one source."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מיחם-נירוסטה-20-כוסות-gold-line-977848293",
+   "publisher": "BUG (באג)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מותג",
+     "value": "Gold Line"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "20 כוסות"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה (בכפוף לתעודת אחריות של גולד ליין)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חומר",
+     "value": "נירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי הפעלה",
+     "value": "כבוי, הרתחה ושמירת חום (שבת)"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נורות ביקורת",
+     "value": "שתי נורות ביקורת"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "ללא תרמוסטט: שני גופי חימום נפרדים, להרתחה ולשמירת חום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "גופי חימום נסתרים המאפשרים ניקוי קל ושמירה מפני אבנית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מדיד מים חיצוני, נפרד ושקוף"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Removed superlative",
+   "text": "מכסה עם נעילה כפולה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מאושר לשימוש בשבת ע״י מכון צ.מ.ת"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מיחם חשמלי של Gold Line, דגם ATL-48, בקיבולת 20 כוסות עם מיכל נירוסטה. המיחם פועל ללא תרמוסטט עם שני גופי חימום נפרדים, להרתחה ולשמירת חום, ומאושר לשימוש בשבת ע״י מכון צ.מ.ת. מתאים למשפחה שרוצה מים חמים לאורך השבת והחגים.",
+  "highlights": [
+   "קיבולת 20 כוסות",
+   "מאושר לשימוש בשבת ע״י מכון צ.מ.ת",
+   "שני גופי חימום נפרדים, ללא תרמוסטט",
+   "מיכל נירוסטה וגופי חימום נסתרים",
+   "מדיד מים חיצוני ושקוף"
+  ],
+  "goodFor": [
+   "שמירת מים חמים לשתייה חמה בשבת ובחג",
+   "בית שמקפיד על מכשירים עם אישור מכון צ.מ.ת",
+   "מי שרוצה לראות בקלות כמה מים נשארו במיחם"
+  ],
+  "considerations": [
+   "יש לוודא שקיבולת של 20 כוסות מספיקה לכמות האורחים בשבת",
+   "כדאי לתכנן שקע חשמל קרוב למקום הצבת המיחם על השיש",
+   "יש לבחור את מצב ההפעלה (הרתחה או שמירת חום) לפני כניסת השבת"
+  ],
+  "faq": [
+   {
+    "q": "האם המיחם מתאים לשבת?",
+    "a": "כן, המיחם מאושר לשימוש בשבת ע״י מכון צ.מ.ת ויש לו מצב שמירת חום לשבת.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במיחם תרמוסטט?",
+    "a": "לא, המיחם פועל ללא תרמוסטט עם שני גופי חימום נפרדים, אחד להרתחה ואחד לשמירת חום.",
+    "sources": []
+   },
+   {
+    "q": "כמה כוסות המיחם מכיל?",
+    "a": "קיבולת המיחם היא 20 כוסות.",
+    "sources": []
+   },
+   {
+    "q": "איך יודעים כמה מים נשארו?",
+    "a": "במיחם יש מדיד מים חיצוני, נפרד ושקוף שמראה את כמות המים.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המיחם?",
+    "a": "אחריות לשנה, בכפוף לתעודת אחריות של גולד ליין.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מיחם נירוסטה Gold Line ATL-48 ל-20 כוסות, ללא תרמוסטט ומאושר לשבת ע״י מכון צ.מ.ת. שני גופי חימום נפרדים. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מיחם לשבת",
+   "מיחם 20 כוסות",
+   "Gold Line ATL-48",
+   "מיחם גולד ליין",
+   "מיחם נירוסטה",
+   "מיחם ללא תרמוסטט",
+   "מיחם מאושר צומת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "קיבולת",
+   "catalogValue": "כ-20 כוסות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת",
+   "catalogValue": "כ-4 ליטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מצבי הפעלה",
+   "catalogValue": "3 מצבים (כבוי, הרתחה, שמירת חום)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נורות ביקורת",
+   "catalogValue": "2 נורות חיווי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חומר",
+   "catalogValue": "נירוסטה איכותית ועבה במיוחד",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הגנות בטיחות",
+   "catalogValue": "מכסה עם נעילה כפולה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "950 וואט",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 25 ס\"מ, גובה 37 ס\"מ, עומק 25 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "230V",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "950 W is not verified for ATL-48. Only the sibling ATL-88 pages were found showing 950 W. Check the rating label on the unit or the importer's spec sheet.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Width, height and depth are not verified for ATL-48. The only dimension source found (Payngo) was blocked, and it listed packaging size rather than unit size.",
+   "severity": "medium"
+  },
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer, manual or regulator page was reached. Only one Israeli retailer page (BUG) names the exact model. Search budget was spent, and the Payngo and HomeCenter pages returned 403 and 429.",
+   "severity": "medium"
+  },
+  {
+   "field": "הספק",
+   "issue": "950 W in the catalog is not verified for ATL-48; only sibling ATL-88 pages showed it.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog dimensions (25×37×25 cm) and 230V are not verified by any source.",
+   "severity": "medium"
+  },
+  {
+   "field": "קיבולת",
+   "issue": "Catalog litre capacity (about 4 L) is not verified; only 20 cups is confirmed.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "Only one Israeli retailer page confirms the data; no manufacturer, importer or manual source.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts and features are supported by ok quotes on the BUG page that names ATL-48. Power, dimensions, voltage and litre capacity were not researched as facts and remain unverified (flagged)."
+ }
+}

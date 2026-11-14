@@ -1,0 +1,429 @@
+{
+ "modelNumber": "SL-6655",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "SL-6655",
+  "israeliImporter": "שאוליאן סחר",
+  "matchConfidence": "high",
+  "notes": "Sol Israel product page and an Israeli retailer page both name SL-6655 as a 2-zone ceramic cooktop with 3500W. The catalog name says 'Sol exlusive' (typo for Sol). | QA: Sol Israel product page and an Israeli retailer page both name SL-6655 as a 2-zone ceramic countertop cooktop. Catalog brand 'Sol exlusive' is a typo for Sol."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-6655",
+   "publisher": "Sol Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/countertop-electric-cooktops/7042-sol-ceramic-cooktop-2-zone-3500w-digital-sl-6655.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג",
+     "value": "כירה קרמית כפולה"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אזורי בישול",
+     "value": "2 אזורי בישול"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "3500 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טמפרטורה מקסימלית",
+     "value": "550°C"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות חום",
+     "value": "9 דרגות חום"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "טיימר דיגיטלי עד 90 דקות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "תצוגה",
+     "value": "צג דיגיטלי"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Retailer lists length 35.5 cm, read as depth.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "59.9 × 7.5 × 35.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משטח",
+     "value": "משטח קרמי שחור"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נעילת ילדים",
+     "value": "כן"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נורית חום שיורי",
+     "value": "נורית בקרה למצב חם"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מערכת הפעלה מובנית בגוף הכירה, ללא פיצול, לניקוי קל"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רגליות גומי למניעת החלקה ומנגנון קירור עצמי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Sol SL-6655 היא כירה חשמלית קרמית כפולה שמונחת על השיש, עם 2 אזורי בישול והספק של 3500 W. יש לה צג דיגיטלי, 9 דרגות חום וטיימר דיגיטלי עד 90 דקות, ומשטח קרמי שחור שמתאים לכל סוגי הסירים והמחבתות. מתאימה למי שמחפש כירה ניידת לבית בלי גז, לדירה שכורה או כפתרון בישול נוסף.",
+  "highlights": [
+   "2 אזורי בישול על משטח קרמי שחור",
+   "הספק 3500 W",
+   "9 דרגות חום וטיימר דיגיטלי עד 90 דקות",
+   "נעילת ילדים ונורית בקרה למצב חם",
+   "מידות 59.9 × 7.5 × 35.5 ס״מ"
+  ],
+  "goodFor": [
+   "בית או דירה ללא חיבור גז",
+   "פתרון בישול נוסף לצד כיריים קיימות, למשל בחגים",
+   "משפחה עם ילדים קטנים, בזכות נעילת הילדים ונורית החום",
+   "מטבח קטן שבו רוצים להניח כירה על השיש ולפנות אותה אחרי השימוש"
+  ],
+  "considerations": [
+   "ההספק הוא 3500 W, לכן כדאי לחבר אותה לשקע נפרד ותקין ולא למפצל יחד עם מכשירים חזקים נוספים",
+   "יש לוודא שעל השיש יש מקום פנוי למידות 59.9 × 35.5 ס״מ",
+   "המשטח נשאר חם גם אחרי הכיבוי, ויש לשים לב לנורית הבקרה למצב חם לפני ניקוי"
+  ],
+  "faq": [
+   {
+    "q": "כמה אזורי בישול יש בכירה?",
+    "a": "יש 2 אזורי בישול על משטח קרמי שחור.",
+    "sources": []
+   },
+   {
+    "q": "מה ההספק של Sol SL-6655?",
+    "a": "לפי היצרן ההספק הוא 3500 W.",
+    "sources": []
+   },
+   {
+    "q": "האם יש טיימר?",
+    "a": "כן, טיימר דיגיטלי עד 90 דקות.",
+    "sources": []
+   },
+   {
+    "q": "אילו סירים מתאימים לכירה?",
+    "a": "לפי דף המוצר המשטח הקרמי מתאים לכל סוגי הסירים והמחבתות.",
+    "sources": []
+   },
+   {
+    "q": "האם יש נעילת ילדים?",
+    "a": "כן, יש מערכת נעילה בטיחותית להגנת ילדים ונורית בקרה למצב חם.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כירה קרמית כפולה Sol SL-6655 עם 2 אזורי בישול, הספק 3500 W וטיימר דיגיטלי עד 90 דקות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כירה קרמית כפולה",
+   "Sol SL-6655",
+   "כירה חשמלית זוגית",
+   "כירה קרמית סול",
+   "כיריים חשמליות ניידות",
+   "כירה חשמלית לשיש",
+   "SL-6655"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "2800W (1400W לכל גוף חימום)",
+   "finding": "corrected",
+   "correctValue": "3500 W",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220V-240V / 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "משטח בישול",
+   "catalogValue": "זכוכית קריסטלית שחורה",
+   "finding": "corrected",
+   "correctValue": "משטח קרמי שחור",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג שליטה",
+   "catalogValue": "לוח בקרה דיגיטלי (Touch) עם צג LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 180 דקות",
+   "finding": "corrected",
+   "correctValue": "עד 90 דקות",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "catalogValue": "60°C עד 240°C",
+   "finding": "corrected",
+   "correctValue": "מקסימום 550°C",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "רוחב כ-60 ס״מ, עומק כ-36 ס״מ, גובה כ-6.5 ס״מ",
+   "finding": "corrected",
+   "correctValue": "רוחב 59.9 ס״מ, עומק 35.5 ס״מ, גובה 7.5 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות עוצמה",
+   "catalogValue": "10 רמות עוצמה משתנות לכל בוער",
+   "finding": "corrected",
+   "correctValue": "9 דרגות חום",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיה",
+   "catalogValue": "טכנולוגיית אינפרא-אדום",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת בטיחות לילדים",
+   "catalogValue": "נעילת בטיחות לילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משטח קל לניקוי",
+   "catalogValue": "משטח קל לניקוי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עיצוב",
+   "catalogValue": "עיצוב 'סלים' (Slim)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מנגנון הגנה מפני התחממות יתר",
+   "catalogValue": "מנגנון הגנה מפני התחממות יתר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אזורי בישול",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "2 אזורי בישול",
+   "sources": [
+    "s2"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "הספק",
+   "issue": "The catalog says 2800W, but both the Sol Israel page and the Israeli retailer page say 3500W. Check the catalog value before relying on it.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog dimensions (about 60 x 36 x 6.5 cm) differ from the manufacturer's 59.9 x 35.5 x 7.5 cm. Check the cutout and the catalog record.",
+   "severity": "medium"
+  },
+  {
+   "field": "טווח טמפרטורה",
+   "issue": "The catalog gives a range of 60 to 240 C. The manufacturer page gives a maximum of 550 C. Check which is correct.",
+   "severity": "medium"
+  },
+  {
+   "field": "טכנולוגיה",
+   "issue": "The catalog says infrared technology, which no fetched page confirms. The manufacturer page only says 'black ceramic surface' and 'powerful heating element'. Check the heating type before listing it.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "The catalog brand is 'Sol exlusive' (typo). The manufacturer name is Sol.",
+   "severity": "low"
+  },
+  {
+   "field": "הספק",
+   "issue": "The catalog says 2800W (1400W per zone); the Sol Israel page and the Israeli retailer say 3500W.",
+   "severity": "high"
+  },
+  {
+   "field": "טיימר / טמפרטורה / רמות עוצמה",
+   "issue": "The catalog says timer up to 180 min, 60-240C and 10 levels; the manufacturer says 90 min, 550C max and 9 levels.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The catalog dimensions (about 60 x 36 x 6.5 cm) differ from the retailer's 59.9 x 35.5 x 7.5 cm.",
+   "severity": "medium"
+  },
+  {
+   "field": "טכנולוגיה",
+   "issue": "The catalog says infrared technology; no source confirms the heating type.",
+   "severity": "medium"
+  },
+  {
+   "field": "brand",
+   "issue": "The catalog brand 'Sol exlusive' is a typo; the manufacturer is Sol.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts verified on the Sol Israel page or the Zabilo page naming SL-6655. Catalog specs (2800W, 180 min timer, 60-240C, 10 levels, dimensions) contradicted by sources; flagged. Infrared technology not confirmed."
+ }
+}

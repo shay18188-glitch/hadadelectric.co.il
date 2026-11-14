@@ -1,0 +1,391 @@
+{
+ "modelNumber": "HDT-2600B",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hyundai",
+  "exactModel": "HDT-2600B",
+  "israeliImporter": "סמיקום",
+  "matchConfidence": "high",
+  "notes": "דף היבואן (Semicom) מזהה את הדגם כ-SKU HDT-2600B. דפי קמעונאים ישראליים מתארים טלפון משרדי שחור דקורטיבי. לא נמצאו מידות או משקל לדגם. | QA: Importer page and two Israeli retailer pages name HDT-2600B."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lior-electric.co.il/product/%D7%98%D7%9C%D7%A4%D7%95%D7%9F-%D7%9E%D7%A9%D7%A8%D7%93%D7%99-%D7%A9%D7%97%D7%95%D7%A8-%D7%99%D7%95%D7%A0%D7%93%D7%90%D7%99-hyundai-%D7%93%D7%92%D7%9D-hdt-2600b/",
+   "publisher": "ליאור מוצרי חשמל",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.semicom.co.il/catalogue/product/9935",
+   "publisher": "Semicom (יבואן)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.ivory.co.il/catalog.php?id=80702",
+   "publisher": "אייבורי מחשבים וסלולר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צג",
+     "value": "LCD בעל 16 ספרות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תצוגת שיחות נכנסות",
+     "value": "מספר, שעה ותאריך"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זיכרון שיחות נכנסות",
+     "value": "עד 50 שיחות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זיכרון שיחות יוצאות",
+     "value": "עד 10 שיחות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ספר טלפונים",
+     "value": "עד 50 אנשי קשר"
+    }
+   ]
+  },
+  {
+   "id": "connectivity",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "זיהוי שיחה מזוהה",
+     "value": "FSK / DTMF"
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דיבורית",
+     "value": "מובנית"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דרגות עוצמת שמע בדיבורית",
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "removed time/date not in quote",
+   "text": "צג LCD עם תצוגת מספרים ושמות לניהול שיחות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיוג חוזר למספר האחרון"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "חיווי לשיחה חדשה ולשיחה נכנסת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לחצני פלאש, השתקה, שיחת ועידה, חיוג חוזר ופונקציית השהייה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "נורית לד לחיווי שיחה נכנסת"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "טלפון שולחני עם צג, ספר טלפונים וזיכרון לשיחות נכנסות ויוצאות"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "Hyundai HDT-2600B הוא טלפון שולחני חוטי עם צג LCD בעל 16 ספרות וזיהוי שיחה מזוהה בשיטות FSK / DTMF. הוא שומר עד 50 שיחות נכנסות ועד 10 שיחות יוצאות, כולל ספר טלפונים לעד 50 אנשי קשר ודיבורית מובנית. מתאים למשרד או לבית שמחפשים טלפון קווי פשוט עם צג.",
+  "highlights": [
+   "צג LCD בעל 16 ספרות",
+   "זיכרון לעד 50 שיחות נכנסות ועד 10 שיחות יוצאות",
+   "ספר טלפונים לעד 50 אנשי קשר",
+   "דיבורית מובנית עם 4 דרגות עוצמת שמע",
+   "לחצני פלאש, השתקה, שיחת ועידה וחיוג חוזר"
+  ],
+  "goodFor": [
+   "עמדת קבלה או שולחן משרדי שצריך לראות מי מתקשר",
+   "מי שרוצה לדבר בלי להחזיק שפופרת בזכות הדיבורית המובנית",
+   "בית עם קו טלפון קווי שצריך ספר טלפונים ויומן שיחות"
+  ],
+  "considerations": [
+   "ודאו שיש לכם קו טלפון קווי ושקע טלפון ליד מקום ההצבה",
+   "זיהוי השיחה עובד בשיטות FSK / DTMF, כדאי לוודא שהשירות מופעל אצל ספק הקו",
+   "הזיכרון מוגבל לעד 50 אנשי קשר בספר הטלפונים"
+  ],
+  "faq": [
+   {
+    "q": "האם יש לטלפון דיבורית?",
+    "a": "כן, יש דיבורית מובנית עם 4 דרגות עוצמת שמע.",
+    "sources": []
+   },
+   {
+    "q": "כמה שיחות נשמרות בזיכרון?",
+    "a": "עד 50 שיחות נכנסות ועד 10 שיחות יוצאות.",
+    "sources": []
+   },
+   {
+    "q": "כמה אנשי קשר אפשר לשמור?",
+    "a": "ספר הטלפונים שומר עד 50 אנשי קשר.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הטלפון?",
+    "a": "12 חודשי אחריות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון שולחני Hyundai HDT-2600B עם צג LCD בעל 16 ספרות, זיהוי שיחה מזוהה ודיבורית מובנית. זיכרון ל-50 שיחות נכנסות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Hyundai HDT-2600B",
+   "טלפון משרדי עם צג",
+   "טלפון שולחני יונדאי",
+   "טלפון קווי עם זיהוי שיחה",
+   "טלפון עם דיבורית",
+   "טלפון חוטי למשרד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "סוג",
+   "catalogValue": "טלפון משרדי חוטי",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "שחור",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "צג",
+   "catalogValue": "צג LCD בעל 16 ספרות המציג שם, מספר, שעון, תאריך, חודש ושנה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיכרון שיחות",
+   "catalogValue": "50 שיחות נכנסות ו-10 שיחות יוצאות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "ספר טלפונים",
+   "catalogValue": "עד 50 שמות ומספרים",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "פונקציות מקלדת",
+   "catalogValue": "פלאש, השתקה, חיוג חוזר, השהייה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "חיווי",
+   "catalogValue": "נורית LED המתריעה על שיחה נכנסת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיהוי שיחות",
+   "catalogValue": "FSK ו-DTMF",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיחות ועידה",
+   "catalogValue": "נתמך",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "הזנה מקו הטלפון (ייתכן צורך בסוללות עבור רכיב ה-LCD)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מק\"ט",
+   "catalogValue": "7291044055276",
+   "finding": "unverifiable",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מקור",
+   "catalogValue": "קוריאה הדרומית (מותג) / סין (ייצור)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "שלוחה נוספת",
+   "catalogValue": "אפשרות לחיבור שלוחה נוספת",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סוג",
+   "issue": "דפי קמעונאים מתארים את הדגם כטלפון חוטי/שולחני קווי (אייבורי, ליאור), אבל חלק מהכותרות באתרי השוואה מתארות אותו כטלפון DECT חוטי. יש לוודא את סוג הטלפון מול הקופסה או מדריך היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מק\"ט",
+   "issue": "הקוד 7291044055276 מופיע בדף ליאור כ'ברקוד' ולא כמק\"ט של היצרן. המק\"ט של היבואן לדגם הוא HDT-2600B.",
+   "severity": "low"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "לא נמצאו מידות או משקל לדגם HDT-2600B בדפי היבואן או הקמעונאים שנבדקו. לא הוזנו עובדות מידות.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח ומקור",
+   "issue": "לא נמצא אישור לדרישות המתח (הזנה מקו הטלפון, סוללות ל-LCD) או לארץ הייצור בדפי היבואן או הקמעונאים שנבדקו.",
+   "severity": "low"
+  },
+  {
+   "field": "מק\"ט",
+   "issue": "7291044055276 מופיע אצל קמעונאי כברקוד ולא כמק\"ט יצרן.",
+   "severity": "low"
+  },
+  {
+   "field": "מתח",
+   "issue": "לא נמצא אישור להזנה מקו הטלפון או לצורך בסוללות לצג.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 reworded: its quote mentions numbers and names only, not time/date. All facts kept from importer and Israeli retailer pages naming the model."
+ }
+}

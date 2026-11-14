@@ -1,0 +1,293 @@
+{
+ "modelNumber": "HEM-1764",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Hemilton",
+  "exactModel": "HEM-1764",
+  "israeliImporter": "המילטון חשמל ואלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "The importer's page lists the model as 1764-HEM (SKU 1764); Bug lists HEM-1764 and 1764-HEM. | QA: Importer page lists the same unit as 1764-HEM; Bug lists HEM-1764. Same 1.7 L digital kettle."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.hemilton.co.il/product/hem1764",
+   "publisher": "המילטון (היבואן הרשמי)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח מיכל",
+     "value": "1.7 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1850-2200 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "note": "Reworded to match quote",
+     "label": "שמירת טמפרטורה",
+     "value": "40-100 מעלות, במשך שעתיים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "גוף חימום",
+     "value": "נסתר מנירוסטה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגדרה לתחליפי חלב לתינוקות",
+     "value": "40 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "חומר פנים",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דופן",
+     "value": "דופן חיצונית כפולה, קרה למגע ברתיחה"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הגנה מהפעלה ללא מים",
+     "value": "יש"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "12 חודשים"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "בסיס אלחוטי 360 מעלות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "לחצני מגע בעברית"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מסנן בפיית המזיגה"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "קומקום חשמלי דיגיטלי של Hemilton בנפח 1.7 ליטר, עם בחירת טמפרטורה ושמירת חום בטווח 40-100 מעלות במשך שעתיים. הפנים וגוף החימום הנסתר עשויים נירוסטה, והדופן החיצונית הכפולה נשארת קרה למגע ברתיחה. מתאים למי שמכין תה וקפה בטמפרטורות שונות ולהורים שמכינים תחליפי חלב בהגדרת 40 מעלות.",
+  "highlights": [
+   "נפח 1.7 ליטר",
+   "שמירת טמפרטורה 40-100 מעלות במשך שעתיים",
+   "הגדרת 40 מעלות לתחליפי חלב לתינוקות",
+   "דופן חיצונית כפולה, קרה למגע ברתיחה",
+   "גוף חימום נסתר ופנים מנירוסטה"
+  ],
+  "goodFor": [
+   "הורים שמכינים תחליפי חלב בהגדרת 40 מעלות",
+   "שותי תה ירוק או קפה פילטר שצריכים מים בטמפרטורה מדויקת",
+   "בית עם ילדים, בזכות דופן חיצונית קרה למגע",
+   "מי שרוצה שהמים יישארו חמים במשך שעתיים"
+  ],
+  "considerations": [
+   "הספק של 1850-2200 W, כדאי לחבר לשקע ייעודי ולא למפצל עמוס",
+   "הבסיס האלחוטי 360 מעלות דורש משטח יציב ליד שקע",
+   "אחריות 12 חודשים, שמרו את החשבונית"
+  ],
+  "faq": [
+   {
+    "q": "מה נפח הקומקום?",
+    "a": "1.7 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "אפשר להכין בו מים לתחליף חלב?",
+    "a": "כן, יש הגדרת שמירת טמפרטורה של 40 מעלות המותאמת להכנת תחליפי חלב לתינוקות.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן הקומקום שומר על חום המים?",
+    "a": "הוא שומר על טמפרטורה בטווח 40-100 מעלות במשך שעתיים.",
+    "sources": []
+   },
+   {
+    "q": "האם הגוף החיצוני מתחמם?",
+    "a": "לקומקום דופן חיצונית כפולה שנשארת קרה למגע ברתיחה.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "12 חודשים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "קומקום חשמלי דיגיטלי Hemilton HEM-1764 בנפח 1.7 ליטר, שמירת טמפרטורה 40-100 מעלות ודופן כפולה קרה למגע. בחדד אלקטריק נהריה",
+  "keywords": [
+   "קומקום חשמלי דיגיטלי",
+   "Hemilton HEM-1764",
+   "קומקום המילטון 1764",
+   "קומקום שומר חום",
+   "קומקום עם בחירת טמפרטורה",
+   "קומקום לתחליפי חלב",
+   "קומקום 1.7 ליטר",
+   "קומקום דופן כפולה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1850-2200W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קיבולת מיכל",
+   "catalogValue": "1.7 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טמפרטורה",
+   "catalogValue": "40-100 מעלות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מסנן",
+   "catalogValue": "מסנן בפיית המזיגה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג LED",
+   "catalogValue": "צג LED דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נירוסטה 304",
+   "catalogValue": "נירוסטה 304",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "The importer page names the model 1764-HEM (SKU 1764), not HEM-1764; Bug names both forms.",
+   "severity": "low"
+  },
+  {
+   "field": "model_number",
+   "issue": "The importer page names the model 1764-HEM (SKU 1764); Bug names both forms.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says black; no source confirms the colour. LED display and 304 steel grade are also unverified.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Fact 2 reworded from 'עד שעתיים' to 'במשך שעתיים' to match the importer quote; label clarified. Catalog colour (black), LED display and 304 grade are not confirmed by the sources."
+ }
+}

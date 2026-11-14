@@ -1,0 +1,252 @@
+{
+ "modelNumber": "ATL-2702",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Gold Line",
+  "exactModel": "ATL-2702",
+  "israeliImporter": "יוסף חיים בע״מ",
+  "matchConfidence": "high",
+  "notes": "Official Gold Line Israel product page names ATL-2702 exactly. | QA: Official Gold Line Israel page names ATL-2702 and its specs match the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.goldline.co.il/product/%d7%9e%d7%97%d7%91%d7%aa-%d7%a2%d7%92%d7%95%d7%9c%d7%94-%d7%a9%d7%a3-%d7%9e%d7%90%d7%a1%d7%98%d7%a8-3/",
+   "publisher": "Gold Line Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1450 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מספר דרגות חום",
+     "value": "5 דרגות"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות חיצוניות כולל מכסה וידית (רוחב × אורך × גובה)",
+     "value": "50 × 33.5 × 20 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות התבנית (רוחב × אורך × עומק)",
+     "value": "42 × 33 × 4.5 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י יוסף חיים בע״מ"
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "ברקוד",
+     "value": "7290015062169"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תבנית נשלפת המופרדת מגוף החימום, להגשה נוחה וניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תרמוסטט נשלף לכיוון עוצמת החום והטמפרטורה"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מכסה זכוכית RESISTANT חסין עומסי חום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "ידיות אינטגרליות מבודדות חום"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מחבת חשמלית מלבנית \"שף מאסטר\" של Gold Line, דגם ATL-2702, בהספק 1450 W עם תרמוסטט נשלף בעל 5 דרגות חום. התבנית במידות 42 × 33 ס״מ ובעומק 4.5 ס״מ נשלפת מגוף החימום, כך שאפשר להגיש בה לשולחן ולנקות אותה בנפרד. מתאימה למי שמבשל כמויות גדולות ורוצה משטח בישול נוסף מחוץ לכיריים.",
+  "highlights": [
+   "הספק 1450 W",
+   "תרמוסטט נשלף עם 5 דרגות חום",
+   "תבנית נשלפת במידות 42 × 33 × 4.5 ס״מ",
+   "מכסה זכוכית חסין חום וידיות מבודדות",
+   "אחריות שנה ע״י יוסף חיים בע״מ"
+  ],
+  "goodFor": [
+   "בישול וטיגון של כמויות גדולות בתבנית רחבה ועמוקה",
+   "הגשה ישירה לשולחן בתבנית הנשלפת",
+   "מעקב אחר הבישול דרך מכסה הזכוכית בלי להרים אותו",
+   "משטח בישול נוסף כשהכיריים תפוסות, למשל בארוחות חג"
+  ],
+  "considerations": [
+   "מידות המחבת כולל מכסה וידיות הן 50 × 33.5 × 20 ס״מ, כדאי לוודא מקום על השיש ובארון לאחסון",
+   "בהספק 1450 W עדיף לחבר לשקע נפרד ולא למפצל יחד עם מכשירים חזקים אחרים",
+   "התרמוסטט נשלף, ויש לנתק אותו לפני ניקוי התבנית"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של המחבת?",
+    "a": "ההספק הוא 1450 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות חום יש?",
+    "a": "יש 5 דרגות חום בתרמוסטט נשלף.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות התבנית?",
+    "a": "התבנית ברוחב 42 ס״מ, באורך 33 ס״מ ובעומק 4.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר להגיש בתבנית לשולחן?",
+    "a": "כן, התבנית נשלפת ומופרדת מגוף החימום, להגשה נוחה וניקוי קל.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות?",
+    "a": "אחריות לשנה ע״י יוסף חיים בע״מ.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מחבת חשמלית מלבנית Gold Line שף מאסטר ATL-2702, הספק 1450 W ותבנית נשלפת 42 × 33 ס״מ עם 5 דרגות חום. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מחבת חשמלית",
+   "מחבת חשמלית מלבנית",
+   "גולד ליין שף מאסטר",
+   "Gold Line ATL-2702",
+   "ATL-2702",
+   "מחבת חשמלית גדולה",
+   "מחבת חשמלית עם מכסה זכוכית"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1450W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דרגות חום",
+   "catalogValue": "5 דרגות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "50×33.5×20 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות התבנית",
+   "catalogValue": "42×33×4.5 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אורך כבל",
+   "catalogValue": "75 ס\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "אפור כהה",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "The Gold Line page URL slug says round pan (מחבת עגולה שף מאסטר 3) while the catalog name and quoted pan dimensions describe a rectangular pan; confirm the page is the rectangular ATL-2702.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass",
+  "notes": "All facts and features are backed by ok quotes from the Gold Line Israel page that names ATL-2702. The page URL slug says round pan (עגולה), but the quoted pan dimensions 42 × 33 ס״מ match the rectangular catalog name."
+ }
+}

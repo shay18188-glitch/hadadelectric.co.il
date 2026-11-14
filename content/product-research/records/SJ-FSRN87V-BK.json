@@ -1,0 +1,446 @@
+{
+ "modelNumber": "SJ-FSRN87V-BK",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sharp",
+  "exactModel": "SJ-FSRN87V-BK",
+  "israeliImporter": "ראלקו",
+  "matchConfidence": "high",
+  "notes": "The exact model number appears on two Israeli retailer product pages (Avi Super and CityDeal). No manufacturer, importer or EPREL page for this exact model was found within the search budget. | QA: Both Israeli retailer pages name SJ-FSRN87V-BK with 611 L, 4 doors, black glass, matching the catalog. No manufacturer or importer page was found."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/מוצרים/מקרר-מקפיא-תחתון-4-דלתות-שרפ-⁦sj-fsrn87v-bk⁩-זכו/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.citydeal.co.il/product/sharp-sj-fsrn87v-bk-%D7%9E%D7%A7%D7%A8%D7%A8-%D7%A9%D7%90%D7%A8%D7%A4-4-%D7%93%D7%9C%D7%AA%D7%95%D7%AA-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%AA%D7%97%D7%AA%D7%95%D7%9F-611-%D7%9C%D7%99%D7%98%D7%A8-%D7%96%D7%9B%D7%95%D7%9B%D7%99%D7%AA-%D7%A9%D7%97%D7%95%D7%A8%D7%94-%D7%90%D7%A1%D7%A4%D7%A7%D7%94-%D7%9E%D7%94%D7%99%D7%A8%D7%94",
+   "publisher": "CityDeal",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יצרן",
+     "value": "Sharp"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח אחסון נטו כולל",
+     "value": "611 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח נטו בתא הקירור",
+     "value": "395 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח נטו בתא ההקפאה",
+     "value": "216 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "89.2 × 183 × 77 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "89.2 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "183 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "77 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב נישה מינימלי נדרש",
+     "value": "93 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "E"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית",
+     "value": "335 קוט״ש"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג מנוע",
+     "value": "J-Tech Inverter"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית קירור",
+     "value": "היברידית (Hybrid Cooling)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צבע",
+     "value": "זכוכית שחורה"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Per retailer page",
+     "label": "אחריות",
+     "value": "שנה, ע״י ראלקו (היבואן הרשמי)"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote mentions bacteria only; dropped mold claim",
+   "text": "טכנולוגיית היונים Plasmacluster של Sharp, שנועדה לסייע בטיפול בבקטריות בחלל המקרר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "Quote does not state even distribution",
+   "text": "מאוורר כפול חכם"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "בהתקנה בקו ארונות ישר יש להשאיר מרווח של 9 ס״מ מכל צד"
+  }
+ ],
+ "content": {
+  "summary": "מקרר Sharp SJ-FSRN87V-BK עם מקפיא תחתון, בגימור זכוכית שחורה ובנפח נטו כולל של 611 ליטר: 395 ליטר בתא הקירור ו-216 ליטר בתא ההקפאה. המקרר מצויד במנוע J-Tech Inverter, בטכנולוגיית קירור היברידית ובמאוורר כפול חכם. מתאים למשפחה שמחפשת מקרר גדול עם תא הקפאה מרווח ומראה כהה ומודרני למטבח.",
+  "highlights": [
+   "נפח נטו כולל 611 ליטר",
+   "תא קירור 395 ליטר ותא הקפאה 216 ליטר",
+   "מנוע J-Tech Inverter",
+   "טכנולוגיית קירור היברידית וטכנולוגיית Plasmacluster",
+   "גימור זכוכית שחורה"
+  ],
+  "goodFor": [
+   "משפחות שקונות מזון בכמויות ומחזיקות הרבה מוצרים קפואים, בזכות תא הקפאה של 216 ליטר",
+   "מטבחים בעיצוב כהה שמתאימים לגימור זכוכית שחורה",
+   "מי שמחליף מקרר גדול וזקוק לנפח כולל של 611 ליטר"
+  ],
+  "considerations": [
+   "מדדו את הנישה: רוחב המקרר 89.2 ס״מ ורוחב הנישה המינימלי הנדרש הוא 93 ס״מ",
+   "בקו ארונות ישר יש להשאיר מרווח של 9 ס״מ מכל צד",
+   "ודאו שיש מספיק מקום לעומק של 77 ס״מ ולגובה של 183 ס״מ, כולל מעבר בדלתות הבית",
+   "דירוג האנרגיה הוא E עם צריכה שנתית של 335 קוט״ש"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של מקרר Sharp SJ-FSRN87V-BK?",
+    "a": "הנפח הנטו הכולל הוא 611 ליטר, מתוכם 395 ליטר בתא הקירור ו-216 ליטר בתא ההקפאה.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המקרר?",
+    "a": "רוחב 89.2 ס״מ, גובה 183 ס״מ ועומק 77 ס״מ. רוחב הנישה המינימלי הנדרש הוא 93 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל של המקרר?",
+    "a": "דירוג האנרגיה הוא E וצריכת החשמל השנתית היא 335 קוט״ש.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על המקרר?",
+    "a": "אחריות לשנה ע״י ראלקו, היבואן הרשמי.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר Sharp SJ-FSRN87V-BK בגימור זכוכית שחורה, נפח נטו 611 ליטר ותא הקפאה 216 ליטר, מנוע J-Tech Inverter. פרטים מלאים בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר שארפ 4 דלתות",
+   "SJ-FSRN87V-BK",
+   "מקרר Sharp 611 ליטר",
+   "מקרר זכוכית שחורה",
+   "מקרר מקפיא תחתון 4 דלתות",
+   "מקרר שארפ זכוכית שחורה",
+   "מקרר אינוורטר שארפ"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח אחסון נטו כולל",
+   "catalogValue": "611 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו בתא הקירור",
+   "catalogValue": "395 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו בתא ההקפאה",
+   "catalogValue": "216 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "catalogValue": "335 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "גובה",
+   "catalogValue": "183 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב",
+   "catalogValue": "89.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עומק",
+   "catalogValue": "77 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רוחב נדרש מינימלי",
+   "catalogValue": "93 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג מדחס",
+   "catalogValue": "J-Tech Inverter",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית קירור",
+   "catalogValue": "Hybrid Cooling",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מספר דלתות",
+   "catalogValue": "4",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "זכוכית שחורה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "שיטת הפשרה",
+   "catalogValue": "No-Frost",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורת LED פנימית",
+   "catalogValue": "LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מיקום צג הפעלה",
+   "catalogValue": "פנימי",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "No manufacturer, importer, manual or EPREL page for the exact model SJ-FSRN87V-BK was found. Facts rest on two Israeli retailer pages that name this exact model. Confirm against the Sharp or Ralco spec sheet before relying on them.",
+   "severity": "medium"
+  },
+  {
+   "field": "שיטת הפשרה",
+   "issue": "The store catalog says No-Frost; the retailer pages fetched did not quote the defrost method, so it was left unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "All facts rest on two Israeli retailer pages; no Sharp or Ralco spec sheet was found. Confirm key specs against the importer sheet.",
+   "severity": "low"
+  },
+  {
+   "field": "שיטת הפשרה",
+   "issue": "Catalog lists No-Frost but no source quoted the defrost method.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass",
+  "notes": "All facts are backed by ok quotes from two Israeli retailer pages naming the exact model. Dimension fact 0/4 duplicates the separate width/height/depth facts but is consistent."
+ }
+}

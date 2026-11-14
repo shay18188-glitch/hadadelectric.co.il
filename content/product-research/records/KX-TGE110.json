@@ -1,0 +1,284 @@
+{
+ "modelNumber": "KX-TGE110",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Panasonic",
+  "exactModel": "KX-TGE110",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The Israeli page (Brimag) is titled KX-TGE110 but its spec block names the colour variant KX-TGE110MBB; the Panasonic Italy page lists KX-TGE110 with variant code KX-TGE110JTB. Dimensions, weight and DECT band not found on a readable page. | QA: Both sources name KX-TGE110; Brimag spec block names colour variant KX-TGE110MBB and Panasonic Italy lists KX-TGE110JTB. Same base model, exact suffix sold here unclear."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.brimag.co.il/%D7%98%D7%9C%D7%A4%D7%95%D7%9F-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A2%D7%9D-%D7%9E%D7%A7%D7%A9%D7%99%D7%9D-%D7%92%D7%93%D7%95%D7%9C%D7%99%D7%9D-%D7%95%D7%A9%D7%9E%D7%A2-%D7%9E%D7%95%D7%92%D7%91",
+   "publisher": "Brimag",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.panasonic.com/it/consumer/telefonia/cordless/cordless-senza-segreteria-telefonica/kx-tge110.html",
+   "publisher": "Panasonic Italia",
+   "kind": "manufacturer",
+   "market": "EU",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צג",
+     "value": "צג מואר 1.8 אינץ׳"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "ספר טלפונים",
+     "value": "50 זיכרונות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "חיוג חוזר",
+     "value": "10 מספרים אחרונים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שיחות מזוהות",
+     "value": "20 שיחות (שם ומספר)"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Redundant with fact 3; 'over 10' wording differs from '10 hours' on same page.",
+     "label": "זמן דיבור",
+     "value": "מעל 10 שעות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה, עבודה והמתנה",
+     "value": "כ-7 שעות טעינה מלאה, 10 שעות עבודה, 200 שעות המתנה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוללות",
+     "value": "2 סוללות AAA"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "תאימות למכשירי שמיעה",
+     "value": "HAC"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לחצן צדדי להגברת השמע"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "3 מקשי חיוג מהיר ייעודיים"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "2 סוללות AAA"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "Panasonic KX-TGE110 הוא טלפון ביתי אלחוטי עם צג מואר 1.8 אינץ׳, לחצן צדדי להגברת השמע ותאימות למכשירי שמיעה (HAC). הוא כולל 3 מקשי חיוג מהיר ייעודיים וספר טלפונים של 50 זיכרונות. מתאים למי שמחפש טלפון ביתי פשוט עם שמע חזק וחיוג מהיר.",
+  "highlights": [
+   "צג מואר 1.8 אינץ׳",
+   "לחצן צדדי להגברת השמע ותאימות HAC למכשירי שמיעה",
+   "3 מקשי חיוג מהיר ייעודיים",
+   "ספר טלפונים של 50 זיכרונות",
+   "10 שעות עבודה ו-200 שעות המתנה"
+  ],
+  "goodFor": [
+   "משתמשים עם מכשירי שמיעה, בזכות תאימות HAC",
+   "מי שמתקשה לשמוע בטלפון ורוצה הגברת שמע בלחיצה",
+   "מי שמתקשר לעיתים קרובות לאותם אנשים, בעזרת מקשי חיוג מהיר"
+  ],
+  "considerations": [
+   "יש לוודא קו טלפון ביתי ושקע חשמל ליד מיקום הבסיס",
+   "הצגת שיחות מזוהות מותנית בשירות זיהוי מספר מספק הקו",
+   "הסוללות מסוג AAA נטענות ויש להחליפן בסוללות מאותו סוג"
+  ],
+  "faq": [
+   {
+    "q": "האם הטלפון מתאים למכשירי שמיעה?",
+    "a": "כן, הדגם תומך בתאימות HAC למכשירי שמיעה ויש בו לחצן צדדי להגברת השמע.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן מחזיקה הסוללה?",
+    "a": "לפי היצרן והמשווק, כ-10 שעות עבודה ו-200 שעות המתנה, וטעינה מלאה נמשכת כ-7 שעות.",
+    "sources": []
+   },
+   {
+    "q": "כמה מספרים אפשר לשמור?",
+    "a": "ספר הטלפונים מכיל 50 זיכרונות, ויש גם 3 מקשי חיוג מהיר ייעודיים.",
+    "sources": []
+   },
+   {
+    "q": "האם הסוללות כלולות?",
+    "a": "כן, 2 סוללות AAA כלולות באריזה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "טלפון אלחוטי Panasonic KX-TGE110 עם לחצן הגברת שמע, תאימות HAC ו-3 מקשי חיוג מהיר. צג מואר 1.8 אינץ׳. בחדד אלקטריק נהריה",
+  "keywords": [
+   "Panasonic KX-TGE110",
+   "KX-TGE110",
+   "טלפון אלחוטי פנסוניק",
+   "טלפון ביתי אלחוטי",
+   "טלפון למבוגרים מקשים גדולים",
+   "טלפון עם הגברת שמע",
+   "טלפון תואם מכשירי שמיעה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "צג",
+   "catalogValue": "1.8 אינץ'",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן דיבור",
+   "catalogValue": "עד 10 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן המתנה",
+   "catalogValue": "עד 200 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה",
+   "catalogValue": "כ-7 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ספר טלפונים",
+   "catalogValue": "50",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "60x113x101",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Israeli page spec block names KX-TGE110MBB; Italy names KX-TGE110JTB. Exact KX-TGE110 variant unclear.",
+   "severity": "high"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sources name colour/regional variants KX-TGE110MBB (Brimag) and KX-TGE110JTB (Panasonic Italy); confirm which suffix is sold.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog dimensions, weight and DECT band were not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 2 (talk time 'over 10 hours') as redundant with fact 3 from the same page, which states 10 hours of operation; the two wordings disagree slightly ('over 10' vs '10'). All other facts kept from the Brimag page and Panasonic Italy page."
+ }
+}

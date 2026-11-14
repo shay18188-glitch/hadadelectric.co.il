@@ -1,0 +1,390 @@
+{
+ "modelNumber": "SL-7766I",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "SL-7766I",
+  "israeliImporter": "שאולייאן סחר",
+  "matchConfidence": "high",
+  "notes": "Sol pages write the model as SL-7766i; the catalog writes SL-7766I. Same model. Catalog brand 'Sol exlusive' is spelled 'Sol' on the manufacturer site. | QA: Sol Israel page and two Israeli retailers name SL-7766i / SL7766I; same single-burner induction unit as the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/sl-7766i",
+   "publisher": "Sol Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://zabilo.com/en/induction-cooktops/3948-sol-cooktop-induction-1800w-one-burner-sl-7766i.html",
+   "publisher": "Zabilo",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.electrica.co.il/items/7513577--%D7%9B%D7%99%D7%A8%D7%99%D7%99%D7%9D-%D7%90%D7%99%D7%A0%D7%93%D7%95%D7%A7%D7%A6%D7%99%D7%94-Sol-SL7766I-%D7%A1%D7%95%D7%9C",
+   "publisher": "Electrica",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק מדורג",
+     "value": "1800 W כולל בוסטר"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמות חום",
+     "value": "10 דרגות עוצמה"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טיימר דיגיטלי",
+     "value": "עד 180 דקות"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משטח",
+     "value": "זכוכית קריסטלית עמידה לטמפרטורות גבוהות"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עיצוב",
+     "value": "גוף דק ונוח לאחסון"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נעילת ילדים",
+     "value": "מערכת נעילה בטיחותית להגנת ילדים"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "קירור עצמי",
+     "value": "מנגנון קירור עצמי"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "אורך",
+     "value": "36 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "29.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "4.2 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "אחריות",
+     "value": "שנה ע״י היבואן הרשמי שאולייאן סחר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מערכת נעילה בטיחותית להגנת ילדים"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "משטח ללא פיצול לניקוי קל"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מנגנון קירור עצמי"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "כירת אינדוקציה בודדת של Sol, דגם SL-7766I, בהספק מדורג של 1800 W כולל בוסטר. יש לה 10 דרגות עוצמה, טיימר דיגיטלי עד 180 דקות ומשטח זכוכית קריסטלית עמידה לטמפרטורות גבוהות. גוף דק ונוח לאחסון ונעילת ילדים מתאימים למי שמחפש כירה נוספת או כירה ניידת לשיש.",
+  "highlights": [
+   "הספק מדורג 1800 W כולל בוסטר",
+   "10 דרגות עוצמה",
+   "טיימר דיגיטלי עד 180 דקות",
+   "נעילת ילדים ומנגנון קירור עצמי",
+   "מידות 36 × 29.5 × 4.2 ס״מ"
+  ],
+  "goodFor": [
+   "תוספת מבער לשיש בזמן אירוח או בישול גדול",
+   "מטבח קטן או דירה שכורה ללא כיריים קבועות",
+   "מי שצריך לאחסן את הכירה בארון בין שימושים, בזכות הגוף הדק",
+   "בית עם ילדים, בזכות נעילת הילדים"
+  ],
+  "considerations": [
+   "כירת אינדוקציה דורשת סירים ומחבתות המתאימים לאינדוקציה",
+   "ודאו שיש על השיש מקום פנוי של 36 × 29.5 ס״מ ושקע חשמל קרוב",
+   "בהספק 1800 W עדיף לחבר לשקע נפרד ולא למפצל עם מכשירים נוספים"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של כירת Sol SL-7766I?",
+    "a": "הספק מדורג של 1800 W כולל מצב בוסטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה דרגות חום יש בכירה?",
+    "a": "10 דרגות עוצמה.",
+    "sources": []
+   },
+   {
+    "q": "יש בכירה טיימר?",
+    "a": "כן, טיימר דיגיטלי עד 180 דקות.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של הכירה?",
+    "a": "אורך 36 ס״מ, רוחב 29.5 ס״מ וגובה 4.2 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה האחריות על הכירה?",
+    "a": "שנה, ע״י היבואן הרשמי שאולייאן סחר.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "כירת אינדוקציה בודדת Sol SL-7766I בהספק 1800 W כולל בוסטר, 10 דרגות עוצמה וטיימר עד 180 דקות. בחדד אלקטריק נהריה",
+  "keywords": [
+   "כירת אינדוקציה בודדת",
+   "Sol SL-7766I",
+   "כירת אינדוקציה ניידת",
+   "כירה חשמלית בודדת",
+   "כירת אינדוקציה סול",
+   "SL-7766I",
+   "כירת אינדוקציה 1800W"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1800W (כולל מצב בוסטר)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג משטח",
+   "catalogValue": "זכוכית קריסטלית עמידה לטמפרטורות גבוהות",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "מספר מבערים",
+   "catalogValue": "1 (כירה בודדת)",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "תצוגה",
+   "catalogValue": "צג LED דיגיטלי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מערכת הפעלה",
+   "catalogValue": "לחצני מגע (Touch Control)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "דיגיטלי עד 180 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות חום",
+   "catalogValue": "10 דרגות עוצמה משתנות",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "אורך 36 ס\"מ, רוחב 29.5 ס\"מ, גובה 4.2 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "סוג חיבור",
+   "catalogValue": "חד-פאזי סטנדרטי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מדינת ייצור",
+   "catalogValue": "סין",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "נעילת ילדים",
+   "catalogValue": "נעילת ילדים",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זיהוי אוטומטי של סירים",
+   "catalogValue": "זיהוי אוטומטי של סירים",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, דרך היבואן הרשמי שאולייאן סחר",
+   "sources": [
+    "s3"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "brand",
+   "issue": "The catalog brand reads 'Sol exlusive'; the manufacturer site and retailers name the brand 'Sol'. Check the brand field spelling.",
+   "severity": "medium"
+  },
+  {
+   "field": "dimensions",
+   "issue": "The pages give אורך (length) 36, רוחב 29.5 and גובה 4.2 but not depth (עומק). Confirm which dimension is depth before a combined width × height × depth row is written.",
+   "severity": "low"
+  },
+  {
+   "field": "display",
+   "issue": "No fetched page mentions an LED display; the catalog's 'צג LED דיגיטלי' is unverified.",
+   "severity": "low"
+  },
+  {
+   "field": "brand",
+   "issue": "Catalog brand 'Sol exlusive' (misspelled); manufacturer and retailers use 'Sol'.",
+   "severity": "medium"
+  },
+  {
+   "field": "technical_specifications",
+   "issue": "Catalog claims LED display, single-phase connection and automatic pot detection are not confirmed by any fetched page.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts kept; label wording tidied (heat levels value given unit). Catalog claims of LED display, single-phase connection and automatic pot detection are unverified and not published."
+ }
+}

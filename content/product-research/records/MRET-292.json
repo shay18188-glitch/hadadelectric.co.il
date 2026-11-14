@@ -1,0 +1,247 @@
+{
+ "modelNumber": "MRET-292",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sirius Living",
+  "exactModel": "MRET-292",
+  "israeliImporter": null,
+  "matchConfidence": "high",
+  "notes": "The Israeli retailer page names MRET-292BK (black colour code), which appears to be the same black retro unit as catalog MRET-292; no page names MRET-292 without the BK suffix. | QA: Israeli retailer pages name MRET-292BK; BK is the black colour code and the catalog item is the black retro unit, with matching volumes, dimensions, power and weight."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.soferavi.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A9%D7%A8%D7%93%D7%99-%D7%A1%D7%99%D7%A8%D7%99%D7%95%D7%A1-mret-292bk/",
+   "publisher": "אבי סופר",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח ברוטו",
+     "value": "90 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא קירור נטו",
+     "value": "54 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא הקפאה נטו",
+     "value": "26 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "52.5 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "85 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "45.6 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נקי",
+     "value": "23 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "78 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג גז קירור",
+     "value": "R600a"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אקלים",
+     "value": "Class T"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רמת רעש",
+     "value": "41 dB"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר משרדי קטן של Sirius בעיצוב רטרו שחור, עם תא קירור נטו של 54 ליטר ותא הקפאה נטו של 26 ליטר. מידותיו 85×52.5×45.6 ס״מ (גובה×רוחב×עומק) ורמת הרעש המוצהרת היא 41 dB. מתאים למשרד, לחדר עבודה או לחדר שינה שבו צריך מקרר קומפקטי ושקט יחסית.",
+  "highlights": [
+   "תא קירור נטו 54 ליטר",
+   "תא הקפאה נטו 26 ליטר",
+   "מידות 85×52.5×45.6 ס״מ",
+   "רמת רעש 41 dB",
+   "דירוג אקלים Class T"
+  ],
+  "goodFor": [
+   "משרד או חדר ישיבות שצריך מקום לשתייה ולארוחות קלות",
+   "חדר שינה או חדר עבודה, שבהם רמת רעש של 41 dB חשובה",
+   "מקום צר שבו רוחב של 52.5 ס״מ נכנס",
+   "מי שצריך גם תא הקפאה נפרד לקרח ולמזון קפוא בכמות קטנה"
+  ],
+  "considerations": [
+   "מדדו את הנישה: נדרשים לפחות 52.5 ס״מ רוחב, 45.6 ס״מ עומק ו-85 ס״מ גובה, בתוספת מרווח לאוורור",
+   "תא ההקפאה נטו הוא 26 ליטר, כך שהוא מתאים לכמויות קטנות בלבד",
+   "המשקל הנקי הוא 23 ק״ג, כדאי לתכנן את ההובלה וההצבה בהתאם",
+   "ודאו שיש שקע חשמל זמין קרוב למקום ההצבה"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח ברוטו הוא 90 ליטר, עם תא קירור נטו של 54 ליטר ותא הקפאה נטו של 26 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של MRET-292?",
+    "a": "גובה 85 ס״מ, רוחב 52.5 ס״מ ועומק 45.6 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר שקט?",
+    "a": "רמת הרעש המוצהרת היא 41 dB.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מתאים לאקלים בישראל?",
+    "a": "המקרר מדורג Class T, דירוג אקלים המיועד לסביבה חמה.",
+    "sources": []
+   },
+   {
+    "q": "איזה גז קירור יש במקרר?",
+    "a": "המקרר עובד עם גז קירור R600a, וההספק שלו 78 W.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר משרדי Sirius MRET-292 בעיצוב רטרו שחור: תא קירור 54 ליטר ותא הקפאה 26 ליטר, רמת רעש 41 dB. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר משרדי",
+   "מקרר רטרו שחור",
+   "Sirius MRET-292",
+   "MRET-292BK",
+   "מקרר קטן עם מקפיא",
+   "מקרר משרדי סיריוס",
+   "מקרר רטרו קטן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "נפח כולל ברוטו: 90 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "78W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "model_number",
+   "issue": "Catalog model MRET-292 appears on no page without the BK suffix; facts come from MRET-292BK pages (black retro). Confirm the model code with the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "name",
+   "issue": "Catalog name says NF (No Frost), but the catalog's own technical specifications list manual defrost (De-Frost). Confirm the defrost type before publishing the name.",
+   "severity": "medium"
+  },
+  {
+   "field": "model_number",
+   "issue": "Sources name MRET-292BK (black colour code); catalog uses MRET-292 without the suffix. Confirm the model code.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "All 11 facts kept from the Avi Sofer page for MRET-292BK (black colour code, matches the black retro catalog item). Flagged the catalog name's NF (No Frost) claim against the catalog's own manual defrost spec."
+ }
+}

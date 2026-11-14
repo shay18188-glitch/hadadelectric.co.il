@@ -1,0 +1,336 @@
+{
+ "modelNumber": "MAX-RDNH630DAID",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "MAXWELL",
+  "exactModel": "MAX-RDNH630DAID",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "The exact model name appears on the Mall4All product page (title and body). The brand name MAXWELL is not printed on that page; it comes from the catalog record and was not verified on a fetched page. A Zap search snippet (not fetched) listed the same model number under Normande, which conflicts with the catalog brand. | QA: Mall4All names the exact model code MAX-RDNH630DAID, but its capacity and dimensions contradict the catalog name (520 L) and the brand MAXWELL is not printed on the page; an unfetched snippet attributed the model to Normande."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://mall4all.co.il/product/%D7%9E%D7%A7%D7%A8%D7%A8-%D7%9E%D7%A7%D7%A4%D7%99%D7%90-%D7%A2%D7%9C%D7%99%D7%95%D7%9F-650-%D7%9C%D7%99%D7%98%D7%A8-%D7%A0%D7%99%D7%A8%D7%95%D7%A1%D7%98%D7%94-%D7%9E%D7%95%D7%A9%D7%97%D7%A8%D7%AA-no-f",
+   "publisher": "Mall4All",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog 80×184×72; flagged.",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "84 × 187 × 73 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Contradicts catalog name 520 L; flagged.",
+     "label": "נפח ברוטו",
+     "value": "650 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא המקרר",
+     "value": "487 ליטר"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח תא המקפיא",
+     "value": "145 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טכנולוגיית קירור",
+     "value": "No Frost"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Catalog also lists brushed stainless; page shows blackened stainless variant.",
+     "label": "צבע",
+     "value": "נירוסטה מושחרת"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צג",
+     "value": "דיגיטלי"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "תצוגה דיגיטלית לניהול נוח של הטמפרטורות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "5 מדפי אחסון בדלת המקרר ו-2 מדפי אחסון בדלת המקפיא"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מכונת קרח שמספקת קרח לפי הצורך"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "מקרר מקפיא עליון בטכנולוגיית No Frost, בנפח ברוטו של 650 ליטר: 487 ליטר בתא המקרר ו-145 ליטר בתא המקפיא. המקרר כולל מכונת קרח, תצוגה דיגיטלית לשליטה בטמפרטורות וגימור נירוסטה מושחרת. מתאים למשפחות שצריכות נפח אחסון גדול ומעדיפות מקפיא עליון.",
+  "highlights": [
+   "נפח ברוטו 650 ליטר",
+   "487 ליטר מקרר ו-145 ליטר מקפיא",
+   "טכנולוגיית No Frost",
+   "מכונת קרח מובנית",
+   "תצוגה דיגיטלית לטמפרטורות"
+  ],
+  "goodFor": [
+   "משפחות שקונות מזון בכמויות וצריכות תא מקרר גדול",
+   "מי שמעדיף מקרר ללא הצטברות קרח בזכות No Frost",
+   "מי שרוצה קרח זמין בבית בלי תבניות"
+  ],
+  "considerations": [
+   "מדדו את הנישה: המידות הן 84 × 187 × 73 ס״מ, והשאירו מרווח לאוורור ולפתיחת הדלתות",
+   "בדקו שיש שקע חשמל זמין ליד מיקום המקרר",
+   "ודאו שהגוון נירוסטה מושחרת מתאים למטבח"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "נפח ברוטו של 650 ליטר, מתוכם 487 ליטר בתא המקרר ו-145 ליטר בתא המקפיא.",
+    "sources": []
+   },
+   {
+    "q": "האם המקרר No Frost?",
+    "a": "כן, המקרר פועל בטכנולוגיית No Frost.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "84 ס״מ רוחב, 187 ס״מ גובה ו-73 ס״מ עומק.",
+    "sources": []
+   },
+   {
+    "q": "האם יש במקרר מכונת קרח?",
+    "a": "כן, יש מכונת קרח שמספקת קרח לפי הצורך.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר מקפיא עליון MAXWELL דגם MAX-RDNH630DAID, נפח ברוטו 650 ליטר, No Frost ומכונת קרח, בגימור נירוסטה מושחרת. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר מקפיא עליון",
+   "MAX-RDNH630DAID",
+   "מקרר MAXWELL",
+   "מקרר 650 ליטר",
+   "מקרר No Frost",
+   "מקרר עם מכונת קרח",
+   "מקרר נירוסטה מושחרת"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "שם המוצר (נפח)",
+   "catalogValue": "520 ליטר",
+   "finding": "contradicted",
+   "correctValue": "650 ליטר ברוטו",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח ברוטו",
+   "catalogValue": "550 ליטר",
+   "finding": "contradicted",
+   "correctValue": "650 ליטר",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח נטו",
+   "catalogValue": "כ-514 ליטר",
+   "finding": "contradicted",
+   "correctValue": "487 ליטר מקרר, 145 ליטר במקפיא",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "catalogValue": "80 × 184 × 72 ס״מ",
+   "finding": "contradicted",
+   "correctValue": "84 ס״מ × 187 ס״מ × 73 ס״מ",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טכנולוגיית קירור",
+   "catalogValue": "No Frost",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צבע",
+   "catalogValue": "נירוסטה מושחרת או נירוסטה מוברשת",
+   "finding": "corrected",
+   "correctValue": "נירוסטה מושחרת",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צג דיגיטלי חיצוני",
+   "catalogValue": "צג דיגיטלי חיצוני לבקרת טמפרטורות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יצרן קרח",
+   "catalogValue": "יצרן קרח ידני (Twist Ice Maker) בתא ההקפאה",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "E (לפי תקן חדש)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תאורה פנימית",
+   "catalogValue": "LED",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "נפח",
+   "issue": "The catalog name says 520 liters, the catalog gross volume says 550 liters and net 514 liters. The Mall4All page says 650 liters gross, 487 liters fridge and 145 liters freezer. The page split adds to 632, not 650, so the sources need checking against the manufacturer.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות (רוחב × גובה × עומק)",
+   "issue": "The catalog gives 80 × 184 × 72 cm. The Mall4All page gives 84 × 187 × 73 cm. The difference is larger than a rounding error, so verify the dimensions before publishing.",
+   "severity": "high"
+  },
+  {
+   "field": "שם המוצר (מותג)",
+   "issue": "The catalog brand is MAXWELL. A Zap search snippet (not fetched) listed the same model number under Normande, and a Lev-Electric listing did not name a brand. No manufacturer or importer page for this model was found, so the brand and the Israeli importer are unverified.",
+   "severity": "high"
+  },
+  {
+   "field": "יבואן",
+   "issue": "No Israeli importer or manufacturer spec sheet was found for this exact model. The Mall4All importer tab was not readable. Warranty, energy label, noise, and the Israeli variant are unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם המוצר (נפח)",
+   "issue": "The catalog name says 520 L and catalog specs say 550 L gross / 514 L net, while the retailer page for this exact model says 650 L gross (487 L fridge + 145 L freezer). Check the product name and specs against the importer.",
+   "severity": "high"
+  },
+  {
+   "field": "מידות",
+   "issue": "Catalog gives 80×184×72 cm; retailer page gives 84×187×73 cm. Verify before relying on it for niche fit.",
+   "severity": "high"
+  },
+  {
+   "field": "מותג",
+   "issue": "Brand MAXWELL is not printed on any fetched page; an unfetched search snippet listed the same model code under Normande. Confirm the brand and Israeli importer.",
+   "severity": "high"
+  },
+  {
+   "field": "צבע",
+   "issue": "Catalog lists blackened or brushed stainless; only the blackened stainless variant is confirmed for this model code.",
+   "severity": "low"
+  },
+  {
+   "field": "קיוסק מים",
+   "issue": "Catalog name mentions a water kiosk; no fetched source confirms it.",
+   "severity": "medium"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "All facts rest on one Israeli retailer page (Mall4All) that names the exact model code. Kept capacity and dimensions from that page: gross 650 L with a 487+145 L net split (632 L net is consistent with a 650 L gross figure and with the 630 in the model code). These contradict the catalog name (520 L) and catalog specs (550/514 L, 80×184×72 cm), which look like a catalog error, so flagged for human check. Brand MAXWELL not confirmed on any fetched page. Corrected the color/variant only by flagging; content written only from kept facts."
+ }
+}

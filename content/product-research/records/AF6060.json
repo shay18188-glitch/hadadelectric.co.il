@@ -1,0 +1,182 @@
+{
+ "modelNumber": "AF6060",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Sauter",
+  "exactModel": "AF6060",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצא דף מוצר בשם הדגם המדויק באתר השוואת מחירים (זאפ). לא נמצא דף יצרן או יבואן רשמי, ולא אושר היבואן. חיפוש באתר היבואן sauter.co.il ובאג לא הניב דף לדגם. | QA: Only source is a Zap price-comparison page naming Sauter AF6060; no manufacturer or importer page confirms the unit."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.zap.co.il/model.aspx?modelid=1097674",
+   "publisher": "zap",
+   "kind": "other",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "קיבולת",
+     "value": "6 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1,800 W"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "Catalog says plastic body with stainless finish; listing value likely oversimplified.",
+     "label": "חומר",
+     "value": "נירוסטה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "verified",
+     "label": "מיכל",
+     "value": "מיכל נשלף"
+    }
+   ]
+  }
+ ],
+ "features": [],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "המיכל נשלף, כך שקל להוציא את המזון ולנקות. מתאים למי שמחפש סיר טיגון באוויר בנפח גדול למנות משפחתיות.",
+  "highlights": [
+   "מיכל נשלף"
+  ],
+  "goodFor": [
+   "מי שרוצה ניקוי נוח בזכות מיכל נשלף"
+  ],
+  "considerations": [],
+  "faq": [
+   {
+    "q": "האם המיכל נשלף?",
+    "a": "כן, המיכל נשלף.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "",
+  "keywords": [
+   "Sauter AF6060",
+   "סיר טיגון באוויר Sauter",
+   "סיר טיגון באוויר 6 ליטר",
+   "אייר פרייר 6 ליטר",
+   "סאוטר אייר פרייר",
+   "סיר טיגון ללא שמן"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1800W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל",
+   "catalogValue": "6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג צג",
+   "catalogValue": "דיגיטלי LED עם לחצני מגע (Touch)",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "80°C עד 200°C",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "עד 60 דקות עם כיבוי אוטומטי",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח עבודה",
+   "catalogValue": "220-240V ~ 50Hz",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "תוכניות בישול",
+   "catalogValue": "8 תוכניות בישול קבועות",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "יבואן",
+   "issue": "לא אושר יבואן רשמי בדף יצרן או יבואן. הנתונים מבוססים על דף השוואת מחירים בלבד, ולכן מפרטי הדגם צריכים אימות מול היבואן או דף היצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "לא נמצא דף יצרן, מדריך למשתמש או EPREL לדגם AF6060, ולכן רוב המפרט (סוג צג, טמפרטורה, טיימר, מתח, תוכניות) לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "מקור",
+   "issue": "המקור היחיד הוא דף השוואת מחירים; לא נמצא דף יצרן או יבואן לדגם, ורוב המפרט בקטלוג (צג, טמפרטורות, טיימר, תוכניות) לא אומת.",
+   "severity": "medium"
+  },
+  {
+   "field": "חומר",
+   "issue": "דף ההשוואה מציין חומר נירוסטה, בעוד הקטלוג מתאר פלסטיק קשיח עם גימור נירוסטה – יש לבדוק.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 2 (material: stainless steel): the catalog describes a hard plastic body with a stainless finish, and a price-comparison listing saying only 'נירוסטה' may oversimplify. Capacity, power and removable basket kept. Only source is a Zap price-comparison page. | code guard removed: summary: \"סיר לטיגון באוויר חם של Sauter, דגם AF6060, עם מיכל בקיבולת 6 ליטר והספק של 1,800 W.\"; faq: \"מה הקיבולת של Sauter AF6060?\"; faq: \"מה ההספק של הסיר?\"; metaDescription: \"סיר לטיגון באוויר חם Sauter AF6060 בקיבולת 6 ליטר והספק 1,800 W, עם מיכל נשלף לניקוי נוח. בחדד אלקטריק נהריה\"; highlight: \"קיבולת 6 ליטר\"; highlight: \"הספק 1,800 W\"; goodFor: \"הכנת מנות גדולות בבת אחת בזכות קיבולת של 6 ליטר\"; consideration: \"הספק של 1,800 W – כדאי לחבר לשקע שאינו עמוס במכשירים נוספים\"; consideration: \"מכשיר בנפח 6 ליטר תופס מקום על השיש – כדאי לוודא שיש מקום פנוי ליד שקע\""
+ }
+}

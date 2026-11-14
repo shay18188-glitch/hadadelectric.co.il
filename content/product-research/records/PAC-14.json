@@ -1,0 +1,583 @@
+{
+ "modelNumber": "PAC-14",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Premier",
+  "exactModel": "PAC-14",
+  "israeliImporter": null,
+  "matchConfidence": "medium",
+  "notes": "נמצא דף מוצר של קמעונאי ישראלי הנושא את הדגם PAC-14 במפורש. לא נמצא דף יבואן או דף יצרן. | QA: Only one Israeli retailer page (bug.co.il) names Premier PAC-14; no manufacturer/importer page. Specs match the catalog closely, but the retailer image file is named PAC-12, so a sibling-model mix-up cannot be fully excluded."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/מזגן-נייד-כולל-שלט-רחוק-premier-9498564876",
+   "publisher": "באג (bug.co.il)",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק קירור",
+     "value": "10,000 BTU/h (3000W)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק חימום",
+     "value": "9,000 BTU/h (2600W)"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קצב הסרת לחות",
+     "value": "1.4 ליטר/שעה"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "דירוג אנרגטי",
+     "value": "A בקירור וגם בחימום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יעילות קירור (EER)",
+     "value": "2.6"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "יעילות חימום (COP)",
+     "value": "2.3"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "צריכת חשמל שנתית (קירור)",
+     "value": "591 קוט״ש לשנה"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק כניסה",
+     "value": "1120W בקירור, 1130W בחימום"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "65 dB"
+    }
+   ]
+  },
+  {
+   "id": "installation",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "סוג גז קירור",
+     "value": "R410A"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מתח חשמלי",
+     "value": "220-240V, חד פאזי, 50Hz"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "low",
+     "status": "unverified",
+     "note": "quote failed check (quote-too-short); quote checks: quote-too-short",
+     "label": "נתיך",
+     "value": "A10"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "רוחב",
+     "value": "32.8 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "31.3 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "גובה",
+     "value": "70 ס״מ"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל נטו",
+     "value": "23.5 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל ברוטו",
+     "value": "25.5 ק״ג"
+    }
+   ]
+  },
+  {
+   "id": "warranty",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "retailer-stated warranty",
+     "label": "אחריות",
+     "value": "שנה, בכפוף לתעודת אחריות"
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "שליטה",
+     "value": "שלט רחוק ופנל מגע"
+    }
+   ]
+  },
+  {
+   "id": "programs",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "מצבי פעולה",
+     "value": "חמישה: אוטומטי, קירור, ייבוש, אוורור וחימום"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "טיימר",
+     "value": "24 שעות"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "חמישה מצבי פעולה: אוטומטי, קירור, ייבוש, אוורור וחימום"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "לוח בקרה במגע בראש המכשיר"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מצב שינה להתאמת הטמפרטורה לאורך הלילה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלט רחוק"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צינור פליטה גמיש"
+  }
+ ],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "צינור פליטה גמיש להתקנה נוחה"
+  }
+ ],
+ "content": {
+  "summary": "Premier PAC-14 הוא מזגן נייד לקירור וחימום, בהספק קירור של 10,000 BTU/h והספק חימום של 9,000 BTU/h, עם דירוג אנרגטי A בשני המצבים. הוא כולל חמישה מצבי פעולה, ביניהם ייבוש לחות, טיימר 24 שעות ושליטה בשלט רחוק או בפנל מגע. מתאים למי שמחפש פתרון מיזוג ללא התקנה קבועה, עם צינור פליטה גמיש.",
+  "highlights": [
+   "הספק קירור 10,000 BTU/h והספק חימום 9,000 BTU/h",
+   "דירוג אנרגטי A בקירור וגם בחימום",
+   "הסרת לחות בקצב 1.4 ליטר/שעה",
+   "טיימר 24 שעות ומצב שינה",
+   "שליטה בשלט רחוק ובפנל מגע"
+  ],
+  "goodFor": [
+   "חדר שבו לא ניתן או לא רוצים להתקין מזגן מפוצל קבוע",
+   "שימוש בקיץ ובחורף, הודות לקירור ולחימום באותו מכשיר",
+   "חללים לחים שבהם מצב הייבוש שימושי",
+   "מעבר בין חדרים לפי הצורך"
+  ],
+  "considerations": [
+   "יש לוודא חלון או פתח קרוב להוצאת צינור הפליטה הגמיש",
+   "משקל נטו של 23.5 ק״ג, יש לקחת בחשבון בהזזה בין חדרים",
+   "עוצמת רעש של 65 dB, כדאי לשקול בחדר שינה",
+   "נדרש שקע חשמל רגיל 220-240V חד פאזי"
+  ],
+  "faq": [
+   {
+    "q": "האם המזגן מחמם גם בחורף?",
+    "a": "כן, יש לו מצב חימום בהספק של 9,000 BTU/h, לצד קירור בהספק 10,000 BTU/h.",
+    "sources": []
+   },
+   {
+    "q": "מה המידות של המזגן?",
+    "a": "רוחב 32.8 ס״מ, עומק 31.3 ס״מ וגובה 70 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מייבש לחות?",
+    "a": "כן, יש מצב ייבוש עם קצב הסרת לחות של 1.4 ליטר/שעה.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בקופסה?",
+    "a": "המזגן מגיע עם שלט רחוק וצינור פליטה גמיש.",
+    "sources": []
+   },
+   {
+    "q": "מה צריכת החשמל השנתית?",
+    "a": "צריכת החשמל השנתית בקירור היא 591 קוט״ש לשנה, עם דירוג אנרגטי A.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מזגן נייד Premier PAC-14 בהספק קירור 10,000 BTU/h וחימום 9,000 BTU/h, דירוג אנרגטי A, טיימר 24 שעות ושלט רחוק. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מזגן נייד Premier",
+   "PAC-14",
+   "פרמייר PAC-14",
+   "מזגן נייד 10000 BTU",
+   "מזגן נייד קירור וחימום",
+   "מזגן נייד עם שלט רחוק",
+   "מזגן נייד דירוג אנרגטי A"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק קירור",
+   "catalogValue": "10,000 BTU/h (3000W)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק חימום",
+   "catalogValue": "9,000 BTU/h (2600W)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "A (בקירור ובחימום)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יעילות קירור (EER)",
+   "catalogValue": "2.6",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "יעילות חימום (COP)",
+   "catalogValue": "2.3",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק כניסה",
+   "catalogValue": "1120W (קירור), 1130W (חימום)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צריכת חשמל שנתית",
+   "catalogValue": "591 קוט\"ש",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב הסרת לחות",
+   "catalogValue": "1.4 ליטר/שעה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R410A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "65 dB(A)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "ספיקת אוויר (מצב גבוה)",
+   "catalogValue": "425 מק\"ש",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מתח",
+   "catalogValue": "220-240V, 50Hz, חד פאזי",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נתיך",
+   "catalogValue": "10A",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "רוחב 32.8 ס\"מ, עומק 31.3 ס\"מ, גובה 70 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "23.5 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצבי פעולה",
+   "catalogValue": "5 פונקציות פעולה שונות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טיימר",
+   "catalogValue": "פונקציית טיימר ל-24 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מצב שינה",
+   "catalogValue": "מצב שינה (Sleep Mode) להתאמת טמפרטורה בלילה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "צינור פליטה",
+   "catalogValue": "צינור פליטה גמיש להתקנה נוחה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "אחריות",
+   "catalogValue": "",
+   "finding": "missing-added",
+   "correctValue": "שנה, בכפוף לתעודת אחריות",
+   "sources": [
+    "s1"
+   ]
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "sources",
+   "issue": "לא נמצא דף יבואן, יצרן או תעודת EPREL לדגם PAC-14. כל העובדות מבוססות על דף קמעונאי ישראלי אחד, ולכן אין מקור שני לאימות.",
+   "severity": "medium"
+  },
+  {
+   "field": "ספיקת אוויר",
+   "issue": "בדף הקמעונאי יחידת ספיקת האוויר מודפסת כ-\"h/3m\" ולא מ\"ק\"ש, ולכן הערך 425 לא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "name",
+   "issue": "הערך \"1.1 כ\"ס\" בשם הקטלוג אינו מופיע בדף הקמעונאי ולא אומת.",
+   "severity": "low"
+  },
+  {
+   "field": "תמונה",
+   "issue": "שם קובץ התמונה בדף הקמעונאי הוא PAC-12.jpg, כלומר ייתכן שהתמונה שייכת לדגם אחר. יש לוודא את תמונת המוצר.",
+   "severity": "low"
+  },
+  {
+   "field": "sources",
+   "issue": "כל העובדות מבוססות על דף קמעונאי ישראלי יחיד (bug.co.il); לא נמצא דף יבואן או יצרן.",
+   "severity": "medium"
+  },
+  {
+   "field": "image",
+   "issue": "שם קובץ התמונה בדף הקמעונאי הוא PAC-12.jpg; יש לוודא שהתמונה והנתונים שייכים ל-PAC-14 ולא לדגם אחר.",
+   "severity": "medium"
+  },
+  {
+   "field": "name",
+   "issue": "הערך 1.1 כ״ס בשם הקטלוג לא אומת במקורות.",
+   "severity": "low"
+  },
+  {
+   "field": "נתיך",
+   "issue": "ערך הנתיך 10A לא אומת (הציטוט נכשל בבדיקה).",
+   "severity": "low"
+  },
+  {
+   "field": "ספיקת אוויר",
+   "issue": "ערך ספיקת האוויר 425 בקטלוג לא אומת.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected fact 11 (fuse 10A): quote failed the check (quote-too-short). All other facts kept from a single Israeli retailer page naming PAC-14. Light label/value wording fixes (W units, dB(A)). | code guard removed: fact 11 QA value \"10A\" not supported by quotes; kept \"A10\""
+ }
+}

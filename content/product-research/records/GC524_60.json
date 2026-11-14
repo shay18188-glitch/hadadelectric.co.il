@@ -1,0 +1,338 @@
+{
+ "modelNumber": "GC524/60",
+ "researchedAt": "2026-11-13",
+ "identity": {
+  "manufacturer": "Philips",
+  "exactModel": "GC524/60",
+  "israeliImporter": "אלקטרה סחר",
+  "matchConfidence": "high",
+  "notes": "Philips EasyTouch Plus upright garment steamer. Philips Israel page marks the model as discontinued (הופסק). Both the Philips Israel page and the LastPrice page name GC524/60. | QA: Philips Israel and LastPrice pages both name GC524/60 (EasyTouch Plus upright garment steamer). Philips Israel marks it discontinued."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.lastprice.co.il/p/19593484/%D7%9E%D7%92%D7%94%D7%A5-%D7%90%D7%A0%D7%9B%D7%99-Philips/Philips-GC524*/*60",
+   "publisher": "LastPrice",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.philips.co.il/c-p/GC524_60/easytouch-plus-garment-steamer",
+   "publisher": "Philips Israel",
+   "kind": "manufacturer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.manua.ls/philips/easytouch-plus-gc524/manual?p=2",
+   "publisher": "Philips user manual (Manua.ls)",
+   "kind": "manual",
+   "market": "other",
+   "exactModel": true,
+   "accessed": "2026-11-13"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק",
+     "value": "1600 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "Same retailer page reportedly also mentions 25 g/min in description; flagged.",
+     "label": "קצב יציאת אדים רציף",
+     "value": "32 גרם לדקה"
+    },
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "רמות עוצמת אדים",
+     "value": "5 רמות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן מוכנות לשימוש",
+     "value": "פחות מדקה"
+    },
+    {
+     "sources": [
+      "s3"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מתח הפעלה",
+     "value": "220-240 V"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים (נשלף)",
+     "value": "1.6 ליטר"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Footnoted comparative marketing claim without a stated baseline.",
+   "text": "מכסה שטח גיהוץ גדול ב-25% במעבר אחד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מוט מובנה מתכוונן לגיהוץ בגדים בתלייה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "low",
+   "status": "unverified",
+   "note": "Duplicate of feature 1.",
+   "text": "מוט מתכוונן מובנה"
+  }
+ ],
+ "inTheBox": [
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "כפפת הגנה"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "קולב"
+  },
+  {
+   "sources": [
+    "s3"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "מברשת ואביזר ליצירת קפלים"
+  }
+ ],
+ "installation": [],
+ "content": {
+  "summary": "מגהץ קיטור אנכי של Philips מסדרת EasyTouch Plus, דגם GC524/60, לגיהוץ בגדים בתלייה על מוט מובנה מתכוונן. הספק 1600 W, תפוקת אדים רציפה של 32 גרם לדקה ו-5 רמות עוצמת קיטור, עם מיכל מים נשלף של 1.6 ליטר. מתאים למי שרוצה לרענן ולהחליק בגדים מהר בלי קרש גיהוץ.",
+  "highlights": [
+   "הספק 1600 W",
+   "תפוקת אדים רציפה 32 גרם לדקה",
+   "5 רמות עוצמת קיטור",
+   "מיכל מים נשלף 1.6 ליטר",
+   "מוכן לשימוש תוך פחות מדקה"
+  ],
+  "goodFor": [
+   "גיהוץ בגדים בתלייה בלי קרש גיהוץ, בזכות המוט המובנה המתכוונן",
+   "ריענון מהיר של בגד לפני יציאה, עם זמן חימום של פחות מדקה",
+   "התאמת עוצמת הקיטור לסוג הבד בעזרת רמות הקיטור",
+   "סשן גיהוץ ארוך יותר בזכות מיכל מים גדול ונשלף"
+  ],
+  "considerations": [
+   "יש לוודא מקום אחסון למכשיר עומד עם מוט",
+   "נדרש שקע חשמל סמוך למקום הגיהוץ",
+   "הדגם מסומן אצל Philips ישראל כדגם שהופסק, כדאי לברר זמינות אביזרים ושירות",
+   "כדאי לברר מול היבואן את תנאי האחריות לפני הרכישה"
+  ],
+  "faq": [
+   {
+    "q": "מה ההספק של Philips GC524/60?",
+    "a": "ההספק הוא 1600 W.",
+    "sources": []
+   },
+   {
+    "q": "כמה מים נכנסים למיכל?",
+    "a": "המיכל נשלף ונפחו 1.6 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "כמה זמן לוקח למכשיר להתחמם?",
+    "a": "המכשיר מוכן לשימוש תוך פחות מדקה.",
+    "sources": []
+   },
+   {
+    "q": "אפשר לשנות את עוצמת הקיטור?",
+    "a": "כן, יש 5 רמות עוצמת קיטור, ותפוקת האדים הרציפה מגיעה ל-32 גרם לדקה.",
+    "sources": []
+   },
+   {
+    "q": "מה מגיע בקופסה?",
+    "a": "כפפת הגנה, קולב, ומברשת ואביזר ליצירת קפלים.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מגהץ קיטור אנכי Philips GC524/60 EasyTouch Plus: הספק 1600 W, תפוקת אדים 32 גרם לדקה ומיכל נשלף 1.6 ליטר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מגהץ קיטור אנכי",
+   "Philips GC524/60",
+   "GC524",
+   "פיליפס EasyTouch Plus",
+   "מגהץ אדים אנכי פיליפס",
+   "מגהץ קיטור עומד",
+   "מגהץ אנכי 1600 וואט"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "הספק",
+   "catalogValue": "1600 וואט",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "קצב יציאת אדים רציף",
+   "catalogValue": "32 גרם לדקה",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "רמות עוצמת אדים",
+   "catalogValue": "5 רמות עוצמת אדים משתנות לבחירה",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים נשלף",
+   "catalogValue": "1.6 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן מוכנות לשימוש",
+   "catalogValue": "פחות מדקה אחת",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מתח הפעלה",
+   "catalogValue": "220-240 וולט",
+   "finding": "confirmed",
+   "sources": [
+    "s3"
+   ]
+  },
+  {
+   "field": "אורך צינור אדים",
+   "catalogValue": "1.3 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אורך כבל חשמל",
+   "catalogValue": "1.6 מטר",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "אביזרים כלולים",
+   "catalogValue": "מוט טלסקופי מתכוונן, קולב בגדים, כפפת הגנה, מברשת לבדים עבים ואביזר לקפלים",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "סטטוס מוצר",
+   "issue": "Philips Israel marks GC524/60 as discontinued (הופסק), so the model may be out of production.",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב יציאת אדים רציף",
+   "issue": "Sources conflict: LastPrice gives 32 g/min in the spec table but also says 25 g/min steam in the description. Philips Israel also gives 32 g/min.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty conflict: Philips Israel says 2 years (אחריות לשנתיים), while LastPrice says one year by the importer (Electra Trade). Not published as a fact; check before stating a warranty.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות ומשקל",
+   "issue": "Dimensions and weight were not found on the pages checked. Not recorded.",
+   "severity": "low"
+  },
+  {
+   "field": "סטטוס מוצר",
+   "issue": "Philips Israel marks GC524/60 as discontinued (הופסק).",
+   "severity": "medium"
+  },
+  {
+   "field": "קצב יציאת אדים רציף",
+   "issue": "LastPrice spec table gives 32 g/min but its description reportedly mentions 25 g/min; confirm 32 g/min.",
+   "severity": "medium"
+  },
+  {
+   "field": "אחריות",
+   "issue": "Warranty conflict: Philips Israel says 2 years, LastPrice says one year via the importer. Not published.",
+   "severity": "medium"
+  },
+  {
+   "field": "אורך צינור וכבל",
+   "issue": "Catalog hose 1.3 m and cord 1.6 m lengths were not verified by any source.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-13",
+  "verdict": "pass-with-fixes",
+  "notes": "Rejected feature 0 (25% larger area claim is a footnoted comparison with no stated baseline). Rejected feature 2 as a duplicate of feature 1. Steam rate kept from the LastPrice spec table; researcher noted the same page also mentions 25 g/min in its description, flagged for review."
+ }
+}

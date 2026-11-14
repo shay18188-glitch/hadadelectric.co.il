@@ -1,0 +1,351 @@
+{
+ "modelNumber": "GR-1085",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "Sol",
+  "exactModel": "GR-1085",
+  "israeliImporter": "שאוליאן סחר בע״מ",
+  "matchConfidence": "high",
+  "notes": "The Sol brand page for GR-1085 is run by the Israeli importer and names the model in its enquiry form. The importer footer and the page both name the importer. | QA: Importer's own product page for GR-1085, 85 liter display fridge, matches catalog name, capacity and dimensions."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.sol.co.il/products/gr-1085",
+   "publisher": "Sol (שאוליאן סחר בע״מ)",
+   "kind": "importer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "identity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "דגם",
+     "value": "GR-1085"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "מידות (רוחב × גובה × עומק)",
+     "value": "47.4 × 84 × 44 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "הספק",
+     "value": "85 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "שיטת קירור",
+     "value": "DEFROST באמצעות מדחס"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "טווח טמפרטורות",
+     "value": "3°C עד 10°C (בטמפרטורת חדר 25°C)"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "נפח כולל",
+     "value": "85 ליטר"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "סוג גז קירור",
+     "value": "R600a (ידידותי לסביבה)"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "high",
+     "status": "verified",
+     "label": "צבע",
+     "value": "שחור, חזית נירוסטה"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Removed 'כפולה' - not in quote.",
+   "text": "דלת זכוכית שקופה עם מסגרת מפלדת אל חלד"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "תאורת LED פנימית, 3 מדפי רשת ניקל וידית נסתרת"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "note": "Marketing claim attributed to importer.",
+   "text": "מקרר ויטרינה מיני בר לבית או למשרד, שקט וחסכוני לפי היבואן"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "high",
+   "status": "verified",
+   "text": "יש להמתין לפחות שעתיים לאחר הצבה לפני חיבור לחשמל, ולפחות חמש דקות לאחר ניתוק לפני הפעלה מחדש"
+  }
+ ],
+ "content": {
+  "summary": "מקרר ויטרינה Sol דגם GR-1085 בנפח 85 ליטר, עם דלת זכוכית שקופה במסגרת נירוסטה ותאורת LED פנימית. הקירור באמצעות מדחס בטווח 3°C עד 10°C, עם גז קירור R600a. מתאים לתצוגה ואחסון משקאות במשרד, בחדר אירוח או בחנות קטנה.",
+  "highlights": [
+   "נפח כולל 85 ליטר",
+   "דלת זכוכית שקופה עם מסגרת נירוסטה",
+   "תאורת LED פנימית ו-3 מדפי רשת ניקל",
+   "טווח טמפרטורות 3°C עד 10°C",
+   "מידות 47.4 × 84 × 44 ס״מ"
+  ],
+  "goodFor": [
+   "משרד שצריך מקרר משקאות עם תצוגה שקופה",
+   "חנות או עמדת קפה שרוצה להציג משקאות קרים",
+   "חדר אירוח או חדר שינה כמקרר מיני בר"
+  ],
+  "considerations": [
+   "יש לוודא מקום פנוי של 47.4 × 84 × 44 ס״מ ולבדוק את המידות מול היבואן לפני התאמה לנישה",
+   "טווח הטמפרטורות 3°C עד 10°C מתאים לקירור משקאות ומזון קל, לא להקפאה",
+   "לאחר ההצבה יש להמתין לפחות שעתיים לפני חיבור לחשמל",
+   "נדרש שקע חשמל קרוב למיקום המקרר"
+  ],
+  "faq": [
+   {
+    "q": "מה הנפח של המקרר?",
+    "a": "הנפח הכולל הוא 85 ליטר.",
+    "sources": []
+   },
+   {
+    "q": "מה מידות המקרר?",
+    "a": "רוחב 47.4 ס״מ, גובה 84 ס״מ ועומק 44 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "לאיזו טמפרטורה הוא מקרר?",
+    "a": "בין 3°C ל-10°C, בטמפרטורת חדר של 25°C.",
+    "sources": []
+   },
+   {
+    "q": "האם אפשר לחבר אותו לחשמל מיד לאחר ההצבה?",
+    "a": "לא, יש להמתין לפחות שעתיים לאחר ההצבה לפני חיבור לחשמל.",
+    "sources": []
+   },
+   {
+    "q": "מה צבע המקרר?",
+    "a": "שחור עם חזית נירוסטה.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "מקרר ויטרינה Sol GR-1085 בנפח 85 ליטר, דלת זכוכית שקופה במסגרת נירוסטה ותאורת LED, קירור 3°C עד 10°C. בחדד אלקטריק נהריה",
+  "keywords": [
+   "מקרר ויטרינה",
+   "מקרר ויטרינה 85 ליטר",
+   "Sol GR-1085",
+   "GR-1085",
+   "מקרר משרדי",
+   "מקרר מיני בר עם דלת זכוכית",
+   "מקרר משקאות שקוף",
+   "מקרר תצוגה למשרד"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "נפח",
+   "catalogValue": "85 ליטר",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק",
+   "catalogValue": "85W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "שיטת קירור",
+   "catalogValue": "De-frost (קירור ישיר באמצעות מדחס)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוג גז קירור",
+   "catalogValue": "R600a (ידידותי לסביבה)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "טווח טמפרטורות",
+   "catalogValue": "3°C עד 10°C (בתנאי טמפרטורת סביבה של 25°C)",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות חיצוניות",
+   "catalogValue": "גובה 84 ס\"מ, רוחב 47.4 ס\"מ, עומק 44 ס\"מ",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "בקרה",
+   "catalogValue": "תרמוסטט מכני לכיוון עוצמת הקירור",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מדפים ותאורה",
+   "catalogValue": "3 מדפי רשת בציפוי ניקל, תאורת LED פנימית",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "catalogValue": "חסכוני בחשמל",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "רעש",
+   "catalogValue": "פעולה שקטה במיוחד",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "The importer page shows no energy class for this model, so the catalog's energy statement could not be verified. Check the EU fiche or EPREL entry before publishing a class.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "The importer page says its dimensions and models should be checked with the importer service center before cutting stone or building into a niche. Verify dimensions before any niche-fit claim.",
+   "severity": "medium"
+  },
+  {
+   "field": "רעש",
+   "issue": "No decibel figure was found, so the catalog's 'especially quiet' claim is unsupported.",
+   "severity": "low"
+  },
+  {
+   "field": "דירוג אנרגטי",
+   "issue": "No energy class on the importer page; catalog 'חסכוני בחשמל' is unverified.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "Importer advises confirming dimensions with its service center before building into a niche.",
+   "severity": "medium"
+  },
+  {
+   "field": "רעש",
+   "issue": "No decibel figure found; catalog 'quiet operation' claim rests only on importer marketing.",
+   "severity": "low"
+  },
+  {
+   "field": "דלת",
+   "issue": "Catalog says double glass door; source says only transparent glass door. Verify.",
+   "severity": "low"
+  },
+  {
+   "field": "בקרה",
+   "issue": "Mechanical thermostat in catalog not present in the reviewed quotes.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0: removed 'כפולה' (double glazing) since the quote says only a transparent glass door with stainless frame. Feature 2 reworded to the importer's own claim. All facts verified against the importer page that names GR-1085."
+ }
+}

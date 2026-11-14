@@ -1,0 +1,404 @@
+{
+ "modelNumber": "D500",
+ "researchedAt": "2026-11-14",
+ "identity": {
+  "manufacturer": "UWANT",
+  "exactModel": "D500",
+  "israeliImporter": "אס.ג'י. אלקטרוניקה",
+  "matchConfidence": "high",
+  "notes": "דגם UWANT D500 לבן, שואב שוטף אלחוטי עם תחנת עגינה. שני דפי חנויות ישראליות מזכירים את הדגם בשמו. | QA: Two Israeli retailer pages name UWANT D500 (white) with specs matching the catalog."
+ },
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.bug.co.il/שואב-שוטף-ידני-אלחוטי-uwant-978745354",
+   "publisher": "BUG",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.traklin.co.il/נקיון_וכביסה/שואב_אבק/שואב_אבק_שוטף_uwant_דגם_d500_לבן",
+   "publisher": "טרקלין חשמל מוצרי צריכה",
+   "kind": "il-retailer",
+   "market": "IL",
+   "exactModel": true,
+   "accessed": "2026-11-14"
+  }
+ ],
+ "specGroups": [
+  {
+   "id": "performance",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת שאיבה",
+     "value": "17000 Pa"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "הספק מנוע",
+     "value": "230 W"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן פעולה",
+     "value": "עד 35 דקות"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "זמן טעינה",
+     "value": "6 שעות"
+    }
+   ]
+  },
+  {
+   "id": "noise",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עוצמת רעש",
+     "value": "עד 80 dB"
+    }
+   ]
+  },
+  {
+   "id": "capacity",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים נקיים",
+     "value": "650 מ״ל"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "נפח מיכל מים מלוכלכים",
+     "value": "700 מ״ל"
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "קיבולת סוללה",
+     "value": "2600 mAh"
+    }
+   ]
+  },
+  {
+   "id": "dimensions",
+   "rows": [
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "משקל",
+     "value": "4.19 ק״ג"
+    },
+    {
+     "sources": [
+      "s1"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "label": "עומק",
+     "value": "25.6 ס״מ"
+    }
+   ]
+  },
+  {
+   "id": "design",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "label clarified",
+     "label": "ניקוי מתחת לרהיטים נמוכים",
+     "value": "עד 13.5 ס״מ, בהשטחה של 180 מעלות"
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "rows": [
+    {
+     "sources": [
+      "s2"
+     ],
+     "confidence": "medium",
+     "status": "verified",
+     "note": "quote says rating applies to roller head unit",
+     "label": "עמידות למים (ראש הרולר)",
+     "value": "IPX6"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "note": "reworded to match quote",
+   "text": "תחנת עגינה עם ניקוי עצמי במים חמים ב-65 מעלות צלזיוס"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "רולר תלת-צידי לניקוי עד שפת הקיר (0 מ״מ), כולל פינות קשות"
+  },
+  {
+   "sources": [
+    "s1"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "שלוש תוכניות ניקוי מותאמות ללכלוך יומיומי, כתמים עקשניים ושלוליות"
+  },
+  {
+   "sources": [
+    "s2"
+   ],
+   "confidence": "medium",
+   "status": "verified",
+   "text": "מניעת הסתבכות שיער ברולר"
+  }
+ ],
+ "inTheBox": [],
+ "installation": [],
+ "content": {
+  "summary": "UWANT D500 הוא שואב שוטף אלחוטי עם תחנת עגינה, שמנקה רצפות קשות בשאיבה ושטיפה במעבר אחד. עוצמת השאיבה 17000 Pa, זמן הפעולה עד 35 דקות, ומיכל המים הנקיים מכיל 650 מ״ל. מתאים למי שרוצה לשטוף רצפה בלי דלי ומגב, כולל מתחת לרהיטים נמוכים ולאורך שפת הקיר.",
+  "highlights": [
+   "עוצמת שאיבה 17000 Pa",
+   "זמן פעולה עד 35 דקות מסוללה של 2600 mAh",
+   "מיכל מים נקיים 650 מ״ל ומיכל מים מלוכלכים 700 מ״ל",
+   "השטחה של 180 מעלות לניקוי מתחת לרהיטים עד 13.5 ס״מ",
+   "ניקוי עצמי של הרולר במים חמים ב-65 מעלות צלזיוס בתחנה"
+  ],
+  "goodFor": [
+   "בית עם רצפות קשות שצריך שטיפה יומיומית בלי דלי ומגב",
+   "ניקוי מתחת לספות ומיטות נמוכות בזכות ההשטחה של 180 מעלות",
+   "בית עם בעלי חיים או שיער ארוך, בזכות מניעת הסתבכות שיער ברולר",
+   "ניקוי שלוליות וכתמים עקשניים עם תוכניות ניקוי ייעודיות"
+  ],
+  "considerations": [
+   "המשקל 4.19 ק״ג, כדאי לבדוק שנוח לכם לתמרן אותו",
+   "זמן הטעינה 6 שעות, כך שכדאי להשאיר אותו בתחנה בין שימושים",
+   "יש לתכנן מקום ליד שקע חשמל עבור תחנת העגינה",
+   "עוצמת הרעש עד 80 dB, שווה לקחת בחשבון בשעות שקטות"
+  ],
+  "faq": [
+   {
+    "q": "כמה זמן אפשר לעבוד בטעינה אחת?",
+    "a": "זמן הפעולה הוא עד 35 דקות, והטעינה המלאה נמשכת 6 שעות.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא נכנס מתחת לרהיטים?",
+    "a": "כן, הגוף משתטח ב-180 מעלות ומאפשר ניקוי מתחת לרהיטים נמוכים עד 13.5 ס״מ.",
+    "sources": []
+   },
+   {
+    "q": "מה נפח מיכלי המים?",
+    "a": "מיכל המים הנקיים מכיל 650 מ״ל ומיכל המים המלוכלכים 700 מ״ל.",
+    "sources": []
+   },
+   {
+    "q": "האם הרולר מנקה את עצמו?",
+    "a": "כן, בתחנת העגינה מתבצע ניקוי עצמי במים חמים ב-65 מעלות צלזיוס.",
+    "sources": []
+   },
+   {
+    "q": "האם הוא מנקה עד שפת הקיר?",
+    "a": "הרולר התלת-צידי מנקה עד שפת הקיר (0 מ״מ), כולל פינות קשות.",
+    "sources": []
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": "שואב שוטף אלחוטי UWANT D500 עם תחנת עגינה: עוצמת שאיבה 17000 Pa וזמן פעולה עד 35 דקות, כולל ניקוי עצמי של הרולר. בחדד אלקטריק נהריה",
+  "keywords": [
+   "UWANT D500",
+   "שואב שוטף UWANT",
+   "שואב שוטף אלחוטי",
+   "שואב שוטף עם תחנת ניקוי עצמי",
+   "UWANT D500 לבן",
+   "שואב שוטף לרצפות",
+   "שואב שוטף נהריה"
+  ]
+ },
+ "catalogCheck": [
+  {
+   "field": "עוצמת שאיבה",
+   "catalogValue": "17,000Pa",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "הספק מנוע",
+   "catalogValue": "230W",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "סוללה",
+   "catalogValue": "Li-ion 2600mAh",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן עבודה מקסימלי",
+   "catalogValue": "עד 35 דקות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "זמן טעינה מלאה",
+   "catalogValue": "כ-6 שעות",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים נקיים",
+   "catalogValue": "650 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "נפח מיכל מים מלוכלכים",
+   "catalogValue": "700 מ\"ל",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "עוצמת רעש",
+   "catalogValue": "כ-80dB",
+   "finding": "confirmed",
+   "sources": [
+    "s2"
+   ]
+  },
+  {
+   "field": "משקל נטו",
+   "catalogValue": "4.19 ק\"ג",
+   "finding": "confirmed",
+   "sources": [
+    "s1"
+   ]
+  },
+  {
+   "field": "מידות",
+   "catalogValue": "235x256x1125 מ\"מ",
+   "finding": "unverifiable",
+   "sources": []
+  },
+  {
+   "field": "מהירות מנוע",
+   "catalogValue": "119,200 סל\"ד",
+   "finding": "unverifiable",
+   "sources": []
+  }
+ ],
+ "reviewFlags": [
+  {
+   "field": "אחריות",
+   "issue": "דף BUG מציין שנתיים של אחריות, ודף טרקלין מציין שנה אחת. המקורות סותרים, ולכן לא פורסמה עובדת אחריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "אין דף שנמצא בו רוחב וגובה מלאים לדגם, ולכן לא נרשמה שורת מידות משולבת. עומק 25.6 ס״מ מתאים ל-256 מ״מ בקטלוג, אבל רוחב וגובה לא אומתו.",
+   "severity": "medium"
+  },
+  {
+   "field": "שם מוצר",
+   "issue": "חיפוש הציג גרסה בשם D500 Pro עם 18,000Pa, לא נפתחה ואינה ראיה לדגם הזה. יש לוודא שהדגם בקטלוג הוא D500 הרגיל.",
+   "severity": "low"
+  },
+  {
+   "field": "אחריות",
+   "issue": "דף BUG ודף טרקלין מציינים תקופות אחריות שונות; לא פורסמה עובדת אחריות.",
+   "severity": "medium"
+  },
+  {
+   "field": "מידות",
+   "issue": "רוחב וגובה (235 ו-1125 מ״מ בקטלוג) לא אומתו; רק עומק 25.6 ס״מ אומת. גם מהירות מנוע 119,200 סל״ד לא אומתה.",
+   "severity": "medium"
+  },
+  {
+   "field": "תחנת עגינה",
+   "issue": "הקטלוג מציין ייבוש באוויר חם ב-65°C, המקור מציין ניקוי עצמי במים חמים ב-65°C. יש לוודא את הניסוח בקטלוג.",
+   "severity": "low"
+  },
+  {
+   "field": "דגם",
+   "issue": "קיימת גרסה בשם D500 Pro עם נתונים שונים; יש לוודא שהקטלוג מתייחס ל-D500 הרגיל.",
+   "severity": "low"
+  }
+ ],
+ "qa": {
+  "reviewedAt": "2026-11-14",
+  "verdict": "pass-with-fixes",
+  "notes": "Feature 0 reworded to match the quote (self-cleaning with hot water at 65°C; quote does not mention hot-air drying at 65°C). Fact 10 and 11 labels clarified (low furniture height; IPX6 applies to roller head unit). All facts sourced from Israeli retailer pages naming D500."
+ }
+}
