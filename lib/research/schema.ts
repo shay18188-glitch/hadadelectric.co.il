@@ -192,6 +192,8 @@ export function isPublishable(fact: ResearchFact, sources: Map<string, z.infer<t
 export interface PublishedResearch {
   modelNumber: string;
   researchedAt: string;
+  /** When the published facts last changed (YYYY-MM-DD); the sitemap's <lastmod>. */
+  updatedAt: string;
   manufacturer: string;
   israeliImporter: string | null;
   specGroups: { id: SpecGroupId; title: string; rows: { label: string; value: string }[] }[];

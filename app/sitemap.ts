@@ -10,6 +10,7 @@ import { getSeoBrandCategoryCombos } from "@/lib/seo/brandCategoryCombos";
 import { RECOMMENDATION_PAGES } from "@/content/recommendationPages";
 import { categoryImageFor } from "@/lib/categoryVisuals";
 import { NAHARIYA_BUYING_PAGES } from "@/content/nahariyaBuyingPages";
+import { getPublishedResearch } from "@/lib/research/published";
 
 export const revalidate = 10800; // 3 hours
 
@@ -177,11 +178,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     images: [`${SITE_URL}${categoryImageFor(page.categorySlug)}`],
   }));
 
+  // A researched product carries the date its published facts last changed
+  // (`updatedAt`, kept by scripts/compile-research.mts), which is a truthful
+  // per-URL <lastmod> and tells Google which product pages are worth
+  // recrawling. Unresearched products and translated variants still have no
+  // honest date, so they keep none.
+  //
   // Same rule as guides: 90 of the products have no translation entry yet and
   // would render Hebrew under an /en or /ru URL. Those variants are noindexed,
   // so they do not belong in the sitemap either.
-  const productEntries: MetadataRoute.Sitemap = products.flatMap((product) =>
-    ([
+  const productEntries: MetadataRoute.Sitemap = products.flatMap((product) => {
+    const updatedAt = getPublishedResearch(product.modelNumber)?.updatedAt;
+    return ([
       ["", "he"],
       ["/en", "en"],
       ["/ru", "ru"],
@@ -189,10 +197,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       .filter(([, locale]) => hasProductTranslation(product.modelNumber, locale))
       .map(([prefix]) => ({
         url: `${SITE_URL}${prefix}/products/${encodeURIComponent(product.slug)}`,
+        // Only the Hebrew page renders the research; /en and /ru come from
+        // the translation store, which this date says nothing about.
+        ...(updatedAt && prefix === "" ? { lastModified: new Date(updatedAt) } : {}),
         changeFrequency: "weekly" as const,
         priority: prefix === "" ? 0.5 : 0.4,
-      }))
-  );
+      }));
+  });
 
   return [
     ...staticEntries,

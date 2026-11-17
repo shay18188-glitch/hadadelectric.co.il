@@ -2,6 +2,7 @@
  "6230": {
   "modelNumber": "6230",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ankarsrum",
   "israeliImporter": null,
   "specGroups": [
@@ -109,6 +110,7 @@
  "6740": {
   "modelNumber": "6740",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Elta",
   "israeliImporter": null,
   "specGroups": [
@@ -204,6 +206,7 @@
  "48182": {
   "modelNumber": "48182",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Morphy Richards",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -310,6 +313,7 @@
  "9154071": {
   "modelNumber": "9154071",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Carrera",
   "israeliImporter": null,
   "specGroups": [
@@ -404,6 +408,7 @@
  "14326-IS Q12": {
   "modelNumber": "14326-IS Q12",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "ט.ל.ח.",
   "specGroups": [
@@ -488,6 +493,7 @@
  "190S-1": {
   "modelNumber": "190S-1",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Braun",
   "israeliImporter": "מ. ברוכים",
   "specGroups": [
@@ -598,6 +604,7 @@
  "24DMS4G113-W (6727)": {
   "modelNumber": "24DMS4G113-W (6727)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -720,6 +727,7 @@
  "25386-IS": {
   "modelNumber": "25386-IS",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -859,6 +867,7 @@
  "32P400": {
   "modelNumber": "32P400",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Premier",
   "israeliImporter": null,
   "specGroups": [
@@ -1016,6 +1025,7 @@
  "35014-IS": {
   "modelNumber": "35014-IS",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "שאוליאן סחר בע״מ",
   "specGroups": [
@@ -1117,6 +1127,7 @@
  "35036-IS": {
   "modelNumber": "35036-IS",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -1261,6 +1272,7 @@
  "35052-IS": {
   "modelNumber": "35052-IS",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": null,
   "specGroups": [
@@ -1372,6 +1384,7 @@
  "40308 IS-RD": {
   "modelNumber": "40308 IS-RD",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -1507,6 +1520,7 @@
  "40309 IS-SS": {
   "modelNumber": "40309 IS-SS",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -1614,6 +1628,7 @@
  "41303-IS BM": {
   "modelNumber": "41303-IS BM",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "שאוליאן",
   "specGroups": [
@@ -1699,6 +1714,7 @@
  "43NU850B6LA": {
   "modelNumber": "43NU850B6LA",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "LG",
   "israeliImporter": "ח.י. סחר בישראל",
   "specGroups": [
@@ -1840,6 +1856,7 @@
  "43R45": {
   "modelNumber": "43R45",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "ROWA",
   "israeliImporter": "ב.ט.י אלקטרוניקה",
   "specGroups": [
@@ -1958,6 +1975,7 @@
  "5555 GAMMA PIU GOLD": {
   "modelNumber": "5555 Gamma Piu GOLD",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gamma Più",
   "israeliImporter": null,
   "specGroups": [
@@ -2112,6 +2130,7 @@
  "55Q6C": {
   "modelNumber": "55Q6C",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "TCL",
   "israeliImporter": "C-DATA",
   "specGroups": [
@@ -2306,6 +2325,7 @@
  "55QNED82A6A": {
   "modelNumber": "55QNED82A6A",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "LG",
   "israeliImporter": "ברימאג",
   "specGroups": [
@@ -2419,6 +2439,7 @@
  "55QNED84B6T": {
   "modelNumber": "55QNED84B6T",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "LG",
   "israeliImporter": "קבוצת ח.י",
   "specGroups": [
@@ -2562,6 +2583,7 @@
  "55R55": {
   "modelNumber": "55R55",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "ROWA",
   "israeliImporter": "ב.ט.י אלקטרוניקה",
   "specGroups": [
@@ -2715,6 +2737,7 @@
  "55UA73006": {
   "modelNumber": "55UA73006",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "LG",
   "israeliImporter": null,
   "specGroups": [
@@ -2891,6 +2914,7 @@
  "5KEKL2221SOB": {
   "modelNumber": "5KEKL2221SOB",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "KitchenAid",
   "israeliImporter": "ניופאן",
   "specGroups": [
@@ -3006,6 +3030,7 @@
  "60GH503-W (6754)": {
   "modelNumber": "60GH503-W (6754)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": null,
   "specGroups": [
@@ -3110,6 +3135,7 @@
  "60GH503B (6737)": {
   "modelNumber": "60GH503B (6737)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -3232,6 +3258,7 @@
  "60GL403-W (6742)": {
   "modelNumber": "60GL403-W (6742)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -3349,6 +3376,7 @@
  "60GL403 (6743)": {
   "modelNumber": "60GL403 (6743)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -3487,6 +3515,7 @@
  "60SJ401 (6740)": {
   "modelNumber": "60SJ401 (6740)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -3630,6 +3659,7 @@
  "65DME30004WH (6772)": {
   "modelNumber": "65DME30004WH (6772)",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Midea",
   "israeliImporter": "קבוצת המילטון",
   "specGroups": [
@@ -3800,6 +3830,7 @@
  "65M90M1 (6695)": {
   "modelNumber": "65M90M1 (6695)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -3945,6 +3976,7 @@
  "65NU850B6LA": {
   "modelNumber": "65NU850B6LA",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "LG",
   "israeliImporter": "ח.י. סחר",
   "specGroups": [
@@ -4079,6 +4111,7 @@
  "65R55": {
   "modelNumber": "65R55",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "TCL",
   "israeliImporter": "ב.ט.י אלקטרוניקה",
   "specGroups": [
@@ -4217,6 +4250,7 @@
  "66336-IS": {
   "modelNumber": "66336-IS",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "שאוליאן סחר בע״מ",
   "specGroups": [
@@ -4322,6 +4356,7 @@
  "70826-IS": {
   "modelNumber": "70826-IS",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -4479,6 +4514,7 @@
  "75GP095 (6752)": {
   "modelNumber": "75GP095 (6752)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -4613,6 +4649,7 @@
  "75GP503-B (6738)": {
   "modelNumber": "75GP503-B (6738)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": null,
   "specGroups": [
@@ -4753,6 +4790,7 @@
  "75GP503-W (6753)": {
   "modelNumber": "75GP503-W (6753)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -4886,6 +4924,7 @@
  "75NU830B6LA": {
   "modelNumber": "75NU830B6LA",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "LG Electronics",
   "israeliImporter": "קבוצת ח.י. (ח.י. סחר) — לפי קמעונאים ישראליים",
   "specGroups": [
@@ -5207,6 +5246,7 @@
  "75NU850B6LA": {
   "modelNumber": "75NU850B6LA",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "LG",
   "israeliImporter": "ח.י. סחר בישראל",
   "specGroups": [
@@ -5357,6 +5397,7 @@
  "75P7K": {
   "modelNumber": "75P7K",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "TCL",
   "israeliImporter": "C-DATA",
   "specGroups": [
@@ -5551,6 +5592,7 @@
  "75R55": {
   "modelNumber": "75R55",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "ROWA",
   "israeliImporter": "ב.ט.י אלקטרוניקה",
   "specGroups": [
@@ -5674,6 +5716,7 @@
  "85NU840B6LA": {
   "modelNumber": "85NU840B6LA",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "LG",
   "israeliImporter": "LG Israel",
   "specGroups": [
@@ -5802,6 +5845,7 @@
  "85P7K": {
   "modelNumber": "85P7K",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "TCL",
   "israeliImporter": "C-DATA",
   "specGroups": [
@@ -5979,6 +6023,7 @@
  "85QNED84B6T": {
   "modelNumber": "85QNED84B6T",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "LG",
   "israeliImporter": null,
   "specGroups": [
@@ -6057,6 +6102,7 @@
  "86152-IS": {
   "modelNumber": "86152-IS",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hamilton Beach",
   "israeliImporter": null,
   "specGroups": [
@@ -6156,6 +6202,7 @@
  "AF183": {
   "modelNumber": "AF183",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -6267,6 +6314,7 @@
  "AHY-904": {
   "modelNumber": "AHY-904",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Luxor",
   "israeliImporter": "A.H.Y DIGITAL MARKETIG & TRADE LTD",
   "specGroups": [
@@ -6349,6 +6397,7 @@
  "ALPHA PRO INVERTER 240NG": {
   "modelNumber": "ALPHA PRO INVERTER 240NG",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Tadiran (תדיראן)",
   "israeliImporter": "תדיראן",
   "specGroups": [
@@ -6634,6 +6683,7 @@
  "AM720C2AT (6566)": {
   "modelNumber": "AM720C2AT (6566)",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Midea",
   "israeliImporter": null,
   "specGroups": [
@@ -6761,6 +6811,7 @@
  "AS6550": {
   "modelNumber": "AS6550",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "BaByliss",
   "israeliImporter": "ברימאג",
   "specGroups": [
@@ -6876,6 +6927,7 @@
  "AS7101": {
   "modelNumber": "AS7101",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Uniden",
   "israeliImporter": null,
   "specGroups": [
@@ -6980,6 +7032,7 @@
  "ATL-0011": {
   "modelNumber": "ATL-0011",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -7019,6 +7072,7 @@
  "ATL-050": {
   "modelNumber": "ATL-050",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע״מ",
   "specGroups": [
@@ -7128,6 +7182,7 @@
  "ATL-066": {
   "modelNumber": "ATL-066",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -7223,6 +7278,7 @@
  "ATL-1068": {
   "modelNumber": "ATL-1068",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -7356,6 +7412,7 @@
  "ATL-136": {
   "modelNumber": "ATL-136",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -7481,6 +7538,7 @@
  "ATL-138CW": {
   "modelNumber": "ATL-138CW",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "Gold Line",
   "specGroups": [
@@ -7596,6 +7654,7 @@
  "ATL-1606": {
   "modelNumber": "ATL-1606",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -7724,6 +7783,7 @@
  "ATL-186": {
   "modelNumber": "ATL-186",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -7863,6 +7923,7 @@
  "ATL-189": {
   "modelNumber": "ATL-189",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -7949,6 +8010,7 @@
  "ATL-1906WRC": {
   "modelNumber": "ATL-1906WRC",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים יבוא ושיווק בע\"מ",
   "specGroups": [
@@ -8079,6 +8141,7 @@
  "ATL-218": {
   "modelNumber": "ATL-218",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע״מ",
   "specGroups": [
@@ -8185,6 +8248,7 @@
  "ATL-227": {
   "modelNumber": "ATL-227",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "גולד ליין",
   "specGroups": [
@@ -8298,6 +8362,7 @@
  "ATL-234": {
   "modelNumber": "ATL-234",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים יבוא ושיווק בע\"מ",
   "specGroups": [
@@ -8398,6 +8463,7 @@
  "ATL-246": {
   "modelNumber": "ATL-246",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -8456,6 +8522,7 @@
  "ATL-260": {
   "modelNumber": "ATL-260",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gold Line",
   "israeliImporter": "גולד ליין (יוסף חיים)",
   "specGroups": [
@@ -8552,6 +8619,7 @@
  "ATL-2702": {
   "modelNumber": "ATL-2702",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע״מ",
   "specGroups": [
@@ -8658,6 +8726,7 @@
  "ATL-2705": {
   "modelNumber": "ATL-2705",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -8748,6 +8817,7 @@
  "ATL-2777": {
   "modelNumber": "ATL-2777",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -8844,6 +8914,7 @@
  "ATL-2790": {
   "modelNumber": "ATL-2790",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים יבוא ושיווק בע\"מ",
   "specGroups": [
@@ -8944,6 +9015,7 @@
  "ATL-400": {
   "modelNumber": "ATL-400",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -9072,6 +9144,7 @@
  "ATL-414": {
   "modelNumber": "ATL-414",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -9172,6 +9245,7 @@
  "ATL-48": {
   "modelNumber": "ATL-48",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -9290,6 +9364,7 @@
  "ATL-556": {
   "modelNumber": "ATL-556",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -9356,6 +9431,7 @@
  "ATL-6111": {
   "modelNumber": "ATL-6111",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -9455,6 +9531,7 @@
  "ATL-616": {
   "modelNumber": "ATL-616",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים יבוא ושיווק בע״מ",
   "specGroups": [
@@ -9539,6 +9616,7 @@
  "ATL-773W EASY FILLING": {
   "modelNumber": "ATL-773W EASY FILLING",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -9685,6 +9763,7 @@
  "ATL-783C": {
   "modelNumber": "ATL-783C",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע״מ",
   "specGroups": [
@@ -9785,6 +9864,7 @@
  "ATL-8040": {
   "modelNumber": "ATL-8040",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -9896,6 +9976,7 @@
  "ATL-8040B": {
   "modelNumber": "ATL-8040B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -10002,6 +10083,7 @@
  "ATL-8812B": {
   "modelNumber": "ATL-8812B",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gold Line (גולדליין)",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -10142,6 +10224,7 @@
  "ATL-8812C": {
   "modelNumber": "ATL-8812C",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים יבוא ושיווק בע״מ",
   "specGroups": [
@@ -10220,6 +10303,7 @@
  "ATL-930": {
   "modelNumber": "ATL-930",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים יבוא ושיווק בע\"מ",
   "specGroups": [
@@ -10342,6 +10426,7 @@
  "ATL-9914": {
   "modelNumber": "ATL-9914",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": "יוסף חיים בע\"מ",
   "specGroups": [
@@ -10455,6 +10540,7 @@
  "AV-105-BT": {
   "modelNumber": "AV-105-BT",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Pure Acoustics",
   "israeliImporter": null,
   "specGroups": [
@@ -10517,6 +10603,7 @@
  "AVZ-6300": {
   "modelNumber": "AVZ-6300",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Pure Acoustics",
   "israeliImporter": null,
   "specGroups": [
@@ -10634,6 +10721,7 @@
  "A  INVERTER  240": {
   "modelNumber": "A  INVERTER  240",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Electra",
   "israeliImporter": "אלקטרה מוצרי צריכה (1951) בע\"מ",
   "specGroups": [
@@ -10752,6 +10840,7 @@
  "AEROCCINO 3": {
   "modelNumber": "Aeroccino 3",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Nespresso",
   "israeliImporter": null,
   "specGroups": [
@@ -10870,6 +10959,7 @@
  "B50": {
   "modelNumber": "B50",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Arylic",
   "israeliImporter": null,
   "specGroups": [
@@ -10941,6 +11031,7 @@
  "BB8107UM": {
   "modelNumber": "BB8107UM",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -11043,6 +11134,7 @@
  "BBS1041GQC": {
   "modelNumber": "BBS1041GQC",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": "BSH",
   "specGroups": [
@@ -11187,6 +11279,7 @@
  "BCS711PET UNLIMITED 7 PROANIMAL": {
   "modelNumber": "BCS711PET Unlimited 7 ProAnimal",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": "BSH",
   "specGroups": [
@@ -11334,6 +11427,7 @@
  "BGS7POW1": {
   "modelNumber": "BGS7POW1",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": "B/S/H",
   "specGroups": [
@@ -11473,6 +11567,7 @@
  "BHD274/00": {
   "modelNumber": "BHD274/00",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -11540,6 +11635,7 @@
  "BHS375/00": {
   "modelNumber": "BHS375/00",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -11651,6 +11747,7 @@
  "BKH500": {
   "modelNumber": "BKH500",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Brookstone",
   "israeliImporter": null,
   "specGroups": [
@@ -11721,6 +11818,7 @@
  "BM235SYB": {
   "modelNumber": "BM235SYB",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gorenje",
   "israeliImporter": null,
   "specGroups": [
@@ -11840,6 +11938,7 @@
  "BMS913": {
   "modelNumber": "BMS913",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -11954,6 +12053,7 @@
  "BO-AGG3F(BK) (6773)": {
   "modelNumber": "BO-AGG3F(BK) (6773)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -12114,6 +12214,7 @@
  "BO76SYW": {
   "modelNumber": "BO76SYW",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gorenje",
   "israeliImporter": null,
   "specGroups": [
@@ -12203,6 +12304,7 @@
  "BP4750": {
   "modelNumber": "BP4750",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ufesa",
   "israeliImporter": null,
   "specGroups": [
@@ -12318,6 +12420,7 @@
  "BRB38G705DWW": {
   "modelNumber": "BRB38G705DWW",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "סמסונג ישראל",
   "specGroups": [
@@ -12442,6 +12545,7 @@
  "BRB80F26CEF0ML": {
   "modelNumber": "BRB80F26CEF0ML",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -12579,6 +12683,7 @@
  "BRB80F30AEF0": {
   "modelNumber": "BRB80F30AEF0",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -12713,6 +12818,7 @@
  "BT-4612": {
   "modelNumber": "BT-4612",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Benaton",
   "israeliImporter": null,
   "specGroups": [
@@ -12777,6 +12883,7 @@
  "BT-CASE": {
   "modelNumber": "BT-CASE",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Pure Acoustics",
   "israeliImporter": null,
   "specGroups": [
@@ -12852,6 +12959,7 @@
  "BT1230/18": {
   "modelNumber": "BT1230/18",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -12938,6 +13046,7 @@
  "BT6102W": {
   "modelNumber": "BT6102W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -13061,6 +13170,7 @@
  "BT682W": {
   "modelNumber": "BT682W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": null,
   "specGroups": [
@@ -13166,6 +13276,7 @@
  "BT6992W": {
   "modelNumber": "BT6992W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -13274,6 +13385,7 @@
  "BXCG150E": {
   "modelNumber": "BXCG150E",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Black+Decker",
   "israeliImporter": "סיריוס אלקטרוניקה",
   "specGroups": [
@@ -13370,6 +13482,7 @@
  "BXHBA1501E": {
   "modelNumber": "BXHBA1501E",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Black+Decker",
   "israeliImporter": null,
   "specGroups": [
@@ -13445,6 +13558,7 @@
  "BLAST MAX BC251EU": {
   "modelNumber": "Blast Max BC251EU",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -13562,6 +13676,7 @@
  "BOOMIX 82": {
   "modelNumber": "Boomix 82",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "DOME",
   "israeliImporter": null,
   "specGroups": [
@@ -13677,6 +13792,7 @@
  "C27F100Y": {
   "modelNumber": "C27F100Y",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "MSI",
   "israeliImporter": null,
   "specGroups": [
@@ -13803,6 +13919,7 @@
  "CF-206": {
   "modelNumber": "CF-206",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון",
   "specGroups": [
@@ -13898,6 +14015,7 @@
  "CH-38-DANI-BK": {
   "modelNumber": "CH-38-DANI-BK",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Comfort4u",
   "israeliImporter": null,
   "specGroups": [
@@ -14000,6 +14118,7 @@
  "CHP1909": {
   "modelNumber": "CHP1909",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -14093,6 +14212,7 @@
  "CHP61.000WH": {
   "modelNumber": "CHP61.000WH",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Kenwood",
   "israeliImporter": null,
   "specGroups": [
@@ -14203,6 +14323,7 @@
  "CK-5545": {
   "modelNumber": "CK-5545",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "LEXUS",
   "israeliImporter": null,
   "specGroups": [
@@ -14297,6 +14418,7 @@
  "CM9120BI": {
   "modelNumber": "CM9120BI",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Beko",
   "israeliImporter": "מיניליין",
   "specGroups": [
@@ -14448,6 +14570,7 @@
  "CPT160PIE": {
   "modelNumber": "CPT160PIE",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Cuisinart",
   "israeliImporter": null,
   "specGroups": [
@@ -14528,6 +14651,7 @@
  "CR32E": {
   "modelNumber": "CR32E",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "MSI",
   "israeliImporter": null,
   "specGroups": [
@@ -14679,6 +14803,7 @@
  "CRD40FHD": {
   "modelNumber": "CRD40FHD",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "MAG",
   "israeliImporter": null,
   "specGroups": [
@@ -14819,6 +14944,7 @@
  "CUBE 100": {
   "modelNumber": "CUBE 100",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -14932,6 +15058,7 @@
  "COMBI 12-IN-1 SFP700": {
   "modelNumber": "Combi 12-in-1 SFP700",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Ninja",
   "israeliImporter": null,
   "specGroups": [
@@ -15007,6 +15134,7 @@
  "CROSSWAVE OMNIFORCE EDGE PRO 4000N": {
   "modelNumber": "Crosswave Omniforce Edge Pro 4000N",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Bissell",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -15108,6 +15236,7 @@
  "D500": {
   "modelNumber": "D500",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "UWANT",
   "israeliImporter": "אס.ג'י. אלקטרוניקה",
   "specGroups": [
@@ -15257,6 +15386,7 @@
  "D7 SLIM LINE PRO": {
   "modelNumber": "D7 Slim line Pro",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Andis",
   "israeliImporter": "אליאס אלקטרוניקה",
   "specGroups": [
@@ -15344,6 +15474,7 @@
  "DF-288L": {
   "modelNumber": "DF-288L",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון",
   "specGroups": [
@@ -15439,6 +15570,7 @@
  "DL2330": {
   "modelNumber": "DL2330",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "DeLonghi",
   "israeliImporter": "ברימאג",
   "specGroups": [
@@ -15572,6 +15704,7 @@
  "DPA144": {
   "modelNumber": "DPA144",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Moulinex",
   "israeliImporter": "ניופאן",
   "specGroups": [
@@ -15693,6 +15826,7 @@
  "DSM5650": {
   "modelNumber": "DSM5650",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "DAVO",
   "israeliImporter": null,
   "specGroups": [
@@ -15836,6 +15970,7 @@
  "DT1020G0": {
   "modelNumber": "DT1020G0",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Tefal",
   "israeliImporter": "ניופאן",
   "specGroups": [
@@ -15952,6 +16087,7 @@
  "DT8230": {
   "modelNumber": "DT8230",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Tefal",
   "israeliImporter": "ניופאן",
   "specGroups": [
@@ -16057,6 +16193,7 @@
  "DV80CGC030AE": {
   "modelNumber": "DV80CGC030AE",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -16189,6 +16326,7 @@
  "DW60BS7300SL": {
   "modelNumber": "DW60BS7300SL",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "סמליין",
   "specGroups": [
@@ -16275,6 +16413,7 @@
  "DW60BS7503BI": {
   "modelNumber": "DW60BS7503BI",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -16392,6 +16531,7 @@
  "DW80H72YBFF": {
   "modelNumber": "DW80H72YBFF",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -16517,6 +16657,7 @@
  "E702YTE": {
   "modelNumber": "E702YTE",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "BaByliss",
   "israeliImporter": null,
   "specGroups": [
@@ -16608,6 +16749,7 @@
  "E90TEW2J82 (6526)": {
   "modelNumber": "E90TEW2J82 (6526)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": null,
   "specGroups": [
@@ -16710,6 +16852,7 @@
  "EC6A5HB90Y": {
   "modelNumber": "EC6A5HB90Y",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Siemens",
   "israeliImporter": "BSH Israel",
   "specGroups": [
@@ -16845,6 +16988,7 @@
  "EDH6283BM": {
   "modelNumber": "EDH6283BM",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Electrolux",
   "israeliImporter": "Miniline (מיני ליין)",
   "specGroups": [
@@ -16941,6 +17085,7 @@
  "EDH6284BM": {
   "modelNumber": "EDH6284BM",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Electrolux",
   "israeliImporter": "Electrolux Israel",
   "specGroups": [
@@ -17011,6 +17156,7 @@
  "EEQ47200L": {
   "modelNumber": "EEQ47200L",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": null,
   "specGroups": [
@@ -17164,6 +17310,7 @@
  "EF-1094": {
   "modelNumber": "EF-1094",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sachs (זקש)",
   "israeliImporter": "זקש",
   "specGroups": [
@@ -17257,6 +17404,7 @@
  "EF-1186": {
   "modelNumber": "EF-1186",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sachs",
   "israeliImporter": "זקש",
   "specGroups": [
@@ -17397,6 +17545,7 @@
  "EF-160": {
   "modelNumber": "EF-160",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "זק\"ש (Sachs)",
   "israeliImporter": null,
   "specGroups": [
@@ -17520,6 +17669,7 @@
  "EF-936": {
   "modelNumber": "EF-936",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sachs (זקש)",
   "israeliImporter": null,
   "specGroups": [
@@ -17606,6 +17756,7 @@
  "EF-94A": {
   "modelNumber": "EF-94A",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sachs (זק\"ש)",
   "israeliImporter": null,
   "specGroups": [
@@ -17645,6 +17796,7 @@
  "EG203": {
   "modelNumber": "EG203",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -17771,6 +17923,7 @@
  "EIS62450": {
   "modelNumber": "EIS62450",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיניליין",
   "specGroups": [
@@ -17903,6 +18056,7 @@
  "EIV84550": {
   "modelNumber": "EIV84550",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -18022,6 +18176,7 @@
  "EM823A2GU-B (6564)": {
   "modelNumber": "EM823A2GU-B (6564)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": null,
   "specGroups": [
@@ -18142,6 +18297,7 @@
  "EM823A2GU-S (6567)": {
   "modelNumber": "EM823A2GU-S (6567)",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -18298,6 +18454,7 @@
  "EM823A2GU-W (6563)": {
   "modelNumber": "EM823A2GU-W (6563)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": null,
   "specGroups": [
@@ -18441,6 +18598,7 @@
  "EMG30D22BM": {
   "modelNumber": "EMG30D22BM",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -18594,6 +18752,7 @@
  "EN510": {
   "modelNumber": "EN510",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "De'Longhi",
   "israeliImporter": null,
   "specGroups": [
@@ -18689,6 +18848,7 @@
  "EOH5211G": {
   "modelNumber": "EOH5211G",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": null,
   "specGroups": [
@@ -18803,6 +18963,7 @@
  "EOH6221K": {
   "modelNumber": "EOH6221K",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיניליין (Mini Line)",
   "specGroups": [
@@ -18960,6 +19121,7 @@
  "EOH6221V": {
   "modelNumber": "EOH6221V",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "Miniline (מיניליין)",
   "specGroups": [
@@ -19133,6 +19295,7 @@
  "EOH6221X": {
   "modelNumber": "EOH6221X",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Electrolux",
   "israeliImporter": "Miniline (מיניליין)",
   "specGroups": [
@@ -19284,6 +19447,7 @@
  "EOH7425X": {
   "modelNumber": "EOH7425X",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיניליין",
   "specGroups": [
@@ -19435,6 +19599,7 @@
  "EOP7422X": {
   "modelNumber": "EOP7422X",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -19577,6 +19742,7 @@
  "EQE5600BA": {
   "modelNumber": "EQE5600BA",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -19718,6 +19884,7 @@
  "EQE5600BB": {
   "modelNumber": "EQE5600BB",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיניליין",
   "specGroups": [
@@ -19871,6 +20038,7 @@
  "ES-ED20": {
   "modelNumber": "ES-ED20",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Panasonic",
   "israeliImporter": null,
   "specGroups": [
@@ -19952,6 +20120,7 @@
  "ES2710AB": {
   "modelNumber": "ES2710AB",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "VTech",
   "israeliImporter": null,
   "specGroups": [
@@ -20069,6 +20238,7 @@
  "ESA47200SW": {
   "modelNumber": "ESA47200SW",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיניליין בע\"מ",
   "specGroups": [
@@ -20121,6 +20291,7 @@
  "ESA47200SX": {
   "modelNumber": "ESA47200SX",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": null,
   "specGroups": [
@@ -20262,6 +20433,7 @@
  "ESE-1018 TRAVEL PRO": {
   "modelNumber": "ESE-1018 TRAVEL PRO",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sassonic",
   "israeliImporter": "אליאס ששון אלקטרוניקה בע״מ",
   "specGroups": [
@@ -20321,6 +20493,7 @@
  "ESE-559": {
   "modelNumber": "ESE-559",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sassonic",
   "israeliImporter": null,
   "specGroups": [
@@ -20429,6 +20602,7 @@
  "ESE-7000": {
   "modelNumber": "ESE-7000",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sassonic",
   "israeliImporter": null,
   "specGroups": [
@@ -20530,6 +20704,7 @@
  "ESE155": {
   "modelNumber": "ESE155",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sassonic",
   "israeliImporter": "אליאס",
   "specGroups": [
@@ -20634,6 +20809,7 @@
  "ESE770": {
   "modelNumber": "ESE770",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sassonic",
   "israeliImporter": "אליאס",
   "specGroups": [
@@ -20734,6 +20910,7 @@
  "ESE790 PRESTIGE ZEROCUT": {
   "modelNumber": "ESE790 Prestige ZeroCut",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sassonic",
   "israeliImporter": "אליאס אלקטרוניקה",
   "specGroups": [
@@ -20838,6 +21015,7 @@
  "ETM3400SC": {
   "modelNumber": "ETM3400SC",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיניליין (Miniline)",
   "specGroups": [
@@ -20944,6 +21122,7 @@
  "EW6C4853CM": {
   "modelNumber": "EW6C4853CM",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": null,
   "specGroups": [
@@ -21081,6 +21260,7 @@
  "EW6C5752CM": {
   "modelNumber": "EW6C5752CM",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": null,
   "specGroups": [
@@ -21236,6 +21416,7 @@
  "EW6D99BGE": {
   "modelNumber": "EW6D99BGE",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Electrolux",
   "israeliImporter": null,
   "specGroups": [
@@ -21360,6 +21541,7 @@
  "EW6T3603AM": {
   "modelNumber": "EW6T3603AM",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "Electrolux Israel",
   "specGroups": [
@@ -21495,6 +21677,7 @@
  "EW6T837E": {
   "modelNumber": "EW6T837E",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Electrolux",
   "israeliImporter": null,
   "specGroups": [
@@ -21838,6 +22021,7 @@
  "EWF1141R9SB": {
   "modelNumber": "EWF1141R9SB",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -21974,6 +22158,7 @@
  "ESSENZA MINI EN85.B": {
   "modelNumber": "Essenza Mini EN85.B",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "De'Longhi (Nespresso)",
   "israeliImporter": null,
   "specGroups": [
@@ -22088,6 +22273,7 @@
  "ESSENZA MINI EN85.L": {
   "modelNumber": "Essenza Mini EN85.L",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "De'Longhi",
   "israeliImporter": null,
   "specGroups": [
@@ -22208,6 +22394,7 @@
  "F6GGW-859": {
   "modelNumber": "F6GGW-859",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "SOL",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -22347,6 +22534,7 @@
  "F6GWWT-446": {
   "modelNumber": "F6GWWT-446",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sol",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -22476,6 +22664,7 @@
  "FJ-CHRT91B": {
   "modelNumber": "FJ-CHRT91B",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Fujicom",
   "israeliImporter": "פוג'יקום ישראל",
   "specGroups": [
@@ -22607,6 +22796,7 @@
  "FJC6B": {
   "modelNumber": "FJC6B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -22715,6 +22905,7 @@
  "FLEXIS BLACK 16": {
   "modelNumber": "FLEXIS BLACK 16",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Haier",
   "israeliImporter": null,
   "specGroups": [
@@ -22857,6 +23048,7 @@
  "FLIP 7": {
   "modelNumber": "FLIP 7",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "JBL",
   "israeliImporter": null,
   "specGroups": [
@@ -22981,6 +23173,7 @@
  "FN101EUGY CRISPI": {
   "modelNumber": "FN101EUGY CRISPI",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג",
   "specGroups": [
@@ -23092,6 +23285,7 @@
  "FN103IS CRISPI": {
   "modelNumber": "FN103IS CRISPI",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Ninja (SharkNinja)",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -23257,6 +23451,7 @@
  "FNE1533P": {
   "modelNumber": "FNE1533P",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -23378,6 +23573,7 @@
  "FNF385IX": {
   "modelNumber": "FNF385IX",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Frigidaire",
   "israeliImporter": "מיניליין",
   "specGroups": [
@@ -23490,6 +23686,7 @@
  "FNT7008W": {
   "modelNumber": "FNT7008W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": null,
   "specGroups": [
@@ -23631,6 +23828,7 @@
  "FP-J30H-B": {
   "modelNumber": "FP-J30H-B",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sharp",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -23742,6 +23940,7 @@
  "FQE600GWG": {
   "modelNumber": "FQE600GWG",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "FRIGIDAIRE",
   "israeliImporter": "Miniline",
   "specGroups": [
@@ -23865,6 +24064,7 @@
  "FQE905BX": {
   "modelNumber": "FQE905BX",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Frigidaire",
   "israeliImporter": "מיניליין",
   "specGroups": [
@@ -23967,6 +24167,7 @@
  "FQF620GBG": {
   "modelNumber": "FQF620GBG",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Frigidaire",
   "israeliImporter": null,
   "specGroups": [
@@ -24007,6 +24208,7 @@
  "FRS-905S100N": {
   "modelNumber": "FRS-905S100N",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Fratelli",
   "israeliImporter": null,
   "specGroups": [
@@ -24109,6 +24311,7 @@
  "FS40-19M (6845)": {
   "modelNumber": "FS40-19M (6845)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -24221,6 +24424,7 @@
  "FV1713": {
   "modelNumber": "FV1713",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Tefal",
   "israeliImporter": "ש.א. מוצרי פרימיום",
   "specGroups": [
@@ -24322,6 +24526,7 @@
  "FV6870": {
   "modelNumber": "FV6870",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Tefal",
   "israeliImporter": null,
   "specGroups": [
@@ -24455,6 +24660,7 @@
  "FZ10-16AR (6812)": {
   "modelNumber": "FZ10-16AR (6812)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -24610,6 +24816,7 @@
  "FOODI STAYSHARP K32006": {
   "modelNumber": "Foodi StaySharp K32006",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Ninja",
   "israeliImporter": null,
   "specGroups": [
@@ -24675,6 +24882,7 @@
  "FROZIX-700": {
   "modelNumber": "Frozix-700",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sirius",
   "israeliImporter": null,
   "specGroups": [
@@ -24795,6 +25003,7 @@
  "GC524/60": {
   "modelNumber": "GC524/60",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Philips",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -24891,6 +25100,7 @@
  "GEN92424E": {
   "modelNumber": "GEN92424E",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו (Ralco)",
   "specGroups": [
@@ -25080,6 +25290,7 @@
  "GIEI838980INH": {
   "modelNumber": "GIEI838980INH",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Grundig",
   "israeliImporter": null,
   "specGroups": [
@@ -25200,6 +25411,7 @@
  "GN1406222GW": {
   "modelNumber": "GN1406222GW",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Beko",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -25362,6 +25574,7 @@
  "GR-1085": {
   "modelNumber": "GR-1085",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sol",
   "israeliImporter": "שאוליאן סחר בע״מ",
   "specGroups": [
@@ -25489,6 +25702,7 @@
  "GV642E90": {
   "modelNumber": "GV642E90",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gorenje",
   "israeliImporter": null,
   "specGroups": [
@@ -25903,6 +26117,7 @@
  "GV9550": {
   "modelNumber": "GV9550",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Tefal",
   "israeliImporter": "ניופאן",
   "specGroups": [
@@ -26009,6 +26224,7 @@
  "GV9821E0": {
   "modelNumber": "GV9821E0",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Tefal",
   "israeliImporter": null,
   "specGroups": [
@@ -26127,6 +26343,7 @@
  "GW67IL": {
   "modelNumber": "GW67IL",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gorenje",
   "israeliImporter": "ח.י (H.Y)",
   "specGroups": [
@@ -26255,6 +26472,7 @@
  "H65S80EUX": {
   "modelNumber": "H65S80EUX",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Haier",
   "israeliImporter": "ניופאן",
   "specGroups": [
@@ -26425,6 +26643,7 @@
  "HA7616": {
   "modelNumber": "HA7616",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ufesa",
   "israeliImporter": null,
   "specGroups": [
@@ -26510,6 +26729,7 @@
  "HATO-300B": {
   "modelNumber": "HATO-300B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hyundai",
   "israeliImporter": null,
   "specGroups": [
@@ -26616,6 +26836,7 @@
  "HB-B500": {
   "modelNumber": "HB-B500",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון סחר בע\"מ",
   "specGroups": [
@@ -26734,6 +26955,7 @@
  "HB1000": {
   "modelNumber": "HB1000",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -26837,6 +27059,7 @@
  "HB1212B": {
   "modelNumber": "HB1212B",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sauter",
   "israeliImporter": "Electra (לפי תיאור זאפ: יבואן רשמי)",
   "specGroups": [
@@ -26921,6 +27144,7 @@
  "HB1212W": {
   "modelNumber": "HB1212W",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה מוצרי צריכה",
   "specGroups": [
@@ -27012,6 +27236,7 @@
  "HDT-1200B": {
   "modelNumber": "HDT-1200B",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hyundai",
   "israeliImporter": "סמיקום לקסיס בע״מ",
   "specGroups": [
@@ -27113,6 +27338,7 @@
  "HDT-2400B": {
   "modelNumber": "HDT-2400B",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hyundai",
   "israeliImporter": "סמיקום",
   "specGroups": [
@@ -27218,6 +27444,7 @@
  "HDT-2600B": {
   "modelNumber": "HDT-2600B",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hyundai",
   "israeliImporter": "סמיקום",
   "specGroups": [
@@ -27339,6 +27566,7 @@
  "HEM-108": {
   "modelNumber": "HEM-108",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -27445,6 +27673,7 @@
  "HEM-1165": {
   "modelNumber": "HEM-1165",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -27573,6 +27802,7 @@
  "HEM-1361": {
   "modelNumber": "HEM-1361",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -27681,6 +27911,7 @@
  "HEM-1370": {
   "modelNumber": "HEM-1370",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -27796,6 +28027,7 @@
  "HEM-1762": {
   "modelNumber": "HEM-1762",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -27914,6 +28146,7 @@
  "HEM-1764": {
   "modelNumber": "HEM-1764",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -28043,6 +28276,7 @@
  "HEM-189": {
   "modelNumber": "HEM-189",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -28168,6 +28402,7 @@
  "HEM-192": {
   "modelNumber": "HEM-192",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -28289,6 +28524,7 @@
  "HEM-2127": {
   "modelNumber": "HEM-2127",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -28382,6 +28618,7 @@
  "HEM-213": {
   "modelNumber": "HEM-213",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -28499,6 +28736,7 @@
  "HEM-2163": {
   "modelNumber": "HEM-2163",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -28574,6 +28812,7 @@
  "HEM-2168": {
   "modelNumber": "HEM-2168",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -28668,6 +28907,7 @@
  "HEM-233": {
   "modelNumber": "HEM-233",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": null,
   "specGroups": [
@@ -28777,6 +29017,7 @@
  "HEM-2616": {
   "modelNumber": "HEM-2616",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -28864,6 +29105,7 @@
  "HEM-269": {
   "modelNumber": "HEM-269",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -28987,6 +29229,7 @@
  "HEM-607": {
   "modelNumber": "HEM-607",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": null,
   "specGroups": [
@@ -29072,6 +29315,7 @@
  "HEM-632": {
   "modelNumber": "HEM-632",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -29177,6 +29421,7 @@
  "HEM-7013": {
   "modelNumber": "HEM-7013",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -29258,6 +29503,7 @@
  "HEM-840": {
   "modelNumber": "HEM-840",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": null,
   "specGroups": [
@@ -29328,6 +29574,7 @@
  "HEM-952": {
   "modelNumber": "HEM-952",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -29428,6 +29675,7 @@
  "HEM-958": {
   "modelNumber": "HEM-958",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -29549,6 +29797,7 @@
  "HEM-968": {
   "modelNumber": "HEM-968",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -29658,6 +29907,7 @@
  "HEM-975": {
   "modelNumber": "HEM-975",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -29759,6 +30009,7 @@
  "HEM -193": {
   "modelNumber": "HEM -193",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hemilton",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -29860,6 +30111,7 @@
  "HF-42": {
   "modelNumber": "HF-42",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Homex",
   "israeliImporter": "סיריוס אלקטרוניקה בע\"מ",
   "specGroups": [
@@ -30004,6 +30256,7 @@
  "HGN8335W": {
   "modelNumber": "HGN8335W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": null,
   "specGroups": [
@@ -30099,6 +30352,7 @@
  "HILW75222SW": {
   "modelNumber": "HILW75222SW",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Beko",
   "israeliImporter": "מיניליין",
   "specGroups": [
@@ -30216,6 +30470,7 @@
  "HM300": {
   "modelNumber": "HM300",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה",
   "specGroups": [
@@ -30294,6 +30549,7 @@
  "HRT-8": {
   "modelNumber": "HRT-8",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Harper",
   "israeliImporter": null,
   "specGroups": [
@@ -30424,6 +30680,7 @@
  "HS08": {
   "modelNumber": "HS08",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Dyson",
   "israeliImporter": "ב.נ.ז.כ",
   "specGroups": [
@@ -30532,6 +30789,7 @@
  "HYK-1738AB": {
   "modelNumber": "HYK-1738AB",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Eco Euro",
   "israeliImporter": null,
   "specGroups": [
@@ -30600,6 +30858,7 @@
  "I2A": {
   "modelNumber": "I2A",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": null,
   "specGroups": [
@@ -30707,6 +30966,7 @@
  "IK-201": {
   "modelNumber": "IK-201",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Bush",
   "israeliImporter": null,
   "specGroups": [
@@ -30772,6 +31032,7 @@
  "IRON KORNER": {
   "modelNumber": "IRON KORNER",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gamma Piu",
   "israeliImporter": null,
   "specGroups": [
@@ -30867,6 +31128,7 @@
  "IT843SYB": {
   "modelNumber": "IT843SYB",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Gorenje",
   "israeliImporter": "קבוצת ח.י",
   "specGroups": [
@@ -30989,6 +31251,7 @@
  "JE95": {
   "modelNumber": "JE95",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Breville",
   "israeliImporter": "אלקטרה מוצרי צריכה (1951) בע״מ",
   "specGroups": [
@@ -31112,6 +31375,7 @@
  "JK9544": {
   "modelNumber": "JK9544",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Graetz",
   "israeliImporter": null,
   "specGroups": [
@@ -31199,6 +31463,7 @@
  "K6510IL": {
   "modelNumber": "K6510IL",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Beko",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -31305,6 +31570,7 @@
  "KDG40XR683ANT (700140)": {
   "modelNumber": "KDG40XR683ANT (700140)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Konka",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -31455,6 +31721,7 @@
  "KG79": {
   "modelNumber": "KG79",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "DeLonghi",
   "israeliImporter": null,
   "specGroups": [
@@ -31505,6 +31772,7 @@
  "KGG6437K": {
   "modelNumber": "KGG6437K",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -31670,6 +31938,7 @@
  "KL-5000": {
   "modelNumber": "KL-5000",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -31786,6 +32055,7 @@
  "KMD7150BL": {
   "modelNumber": "KMD7150BL",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -31886,6 +32156,7 @@
  "KMD7150W": {
   "modelNumber": "KMD7150W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -31989,6 +32260,7 @@
  "KND3958XPP": {
   "modelNumber": "KND3958XPP",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -32130,6 +32402,7 @@
  "KND3968EXBRP": {
   "modelNumber": "KND3968EXBRP",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": null,
   "specGroups": [
@@ -32250,6 +32523,7 @@
  "KRF-431WPW (700129)": {
   "modelNumber": "KRF-431WPW (700129)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Konka",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -32388,6 +32662,7 @@
  "KX-TG1612": {
   "modelNumber": "KX-TG1612",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Panasonic",
   "israeliImporter": null,
   "specGroups": [
@@ -32565,6 +32840,7 @@
  "KX-TGB310MBB": {
   "modelNumber": "KX-TGB310MBB",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Panasonic",
   "israeliImporter": "ברימאג דיגיטל",
   "specGroups": [
@@ -32719,6 +32995,7 @@
  "KX-TGC252": {
   "modelNumber": "KX-TGC252",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Panasonic",
   "israeliImporter": null,
   "specGroups": [
@@ -32782,6 +33059,7 @@
  "KX-TGD313": {
   "modelNumber": "KX-TGD313",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Panasonic",
   "israeliImporter": "ברימאג דיגיטל",
   "specGroups": [
@@ -32963,6 +33241,7 @@
  "L43MA-AFME": {
   "modelNumber": "L43MA-AFME",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Xiaomi",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -33142,6 +33421,7 @@
  "L75MB-APME (81306)": {
   "modelNumber": "L75MB-APME (81306)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Xiaomi",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -33305,6 +33585,7 @@
  "LDF30210W": {
   "modelNumber": "LDF30210W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -33435,6 +33716,7 @@
  "LDF30210X": {
   "modelNumber": "LDF30210X",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -33562,6 +33844,7 @@
  "LDF30212B": {
   "modelNumber": "LDF30212B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו מוצרי צריכה",
   "specGroups": [
@@ -33689,6 +33972,7 @@
  "LFC319X": {
   "modelNumber": "LFC319X",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": null,
   "specGroups": [
@@ -33814,6 +34098,7 @@
  "LKK660224K": {
   "modelNumber": "LKK660224K",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electrolux",
   "israeliImporter": "מיני ליין",
   "specGroups": [
@@ -33967,6 +34252,7 @@
  "LUMINATOR ULTRA-50": {
   "modelNumber": "LUMINATOR ULTRA-50",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Packard Bell",
   "israeliImporter": "סיריוס אלקטרוניקה בע״מ",
   "specGroups": [
@@ -34156,6 +34442,7 @@
  "LUXE CAFE ES603": {
   "modelNumber": "LUXE CAFE ES603",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -34245,6 +34532,7 @@
  "M600": {
   "modelNumber": "M600",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "UWANT",
   "israeliImporter": "אס ג׳י S.G אלקטרוניקה",
   "specGroups": [
@@ -34345,6 +34633,7 @@
  "MAF671B1": {
   "modelNumber": "MAF671B1",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -34509,6 +34798,7 @@
  "MAX-RDNH440X": {
   "modelNumber": "MAX-RDNH440X",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Maxwell",
   "israeliImporter": null,
   "specGroups": [
@@ -34574,6 +34864,7 @@
  "MAX-RDNH630DAID": {
   "modelNumber": "MAX-RDNH630DAID",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "MAXWELL",
   "israeliImporter": null,
   "specGroups": [
@@ -34684,6 +34975,7 @@
  "MAX INVERTER 140": {
   "modelNumber": "MAX INVERTER 140",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electra",
   "israeliImporter": null,
   "specGroups": [
@@ -34805,6 +35097,7 @@
  "MAX INVERTER 390": {
   "modelNumber": "MAX INVERTER 390",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electra",
   "israeliImporter": "אלקטרה",
   "specGroups": [
@@ -34882,6 +35175,7 @@
  "MAX PRO AG653": {
   "modelNumber": "MAX PRO AG653",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -34997,6 +35291,7 @@
  "MC-IF3554BJ1A (67001)": {
   "modelNumber": "MC-IF3554BJ1A (67001)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -35189,6 +35484,7 @@
  "MC-W810-W": {
   "modelNumber": "MC-W810-W",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "CHiQ",
   "israeliImporter": null,
   "specGroups": [
@@ -35305,6 +35601,7 @@
  "MC708": {
   "modelNumber": "MC708",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -35411,6 +35708,7 @@
  "MC812M814": {
   "modelNumber": "MC812M814",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": "BSH",
   "specGroups": [
@@ -35541,6 +35839,7 @@
  "MCM3PM386": {
   "modelNumber": "MCM3PM386",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -35707,6 +36006,7 @@
  "ME308827": {
   "modelNumber": "ME308827",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Moulinex",
   "israeliImporter": null,
   "specGroups": [
@@ -35817,6 +36117,7 @@
  "ME682832": {
   "modelNumber": "ME682832",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Moulinex",
   "israeliImporter": "ניופאן",
   "specGroups": [
@@ -35897,6 +36198,7 @@
  "MF100T80B/W-IL (6442)": {
   "modelNumber": "MF100T80B/W-IL (6442)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -36087,6 +36389,7 @@
  "MFW3X10W": {
   "modelNumber": "MFW3X10W",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Bosch",
   "israeliImporter": "BSH",
   "specGroups": [
@@ -36197,6 +36500,7 @@
  "MG3945/15": {
   "modelNumber": "MG3945/15",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -36309,6 +36613,7 @@
  "MG60GH096KT6B-IR (6755)": {
   "modelNumber": "MG60GH096KT6B-IR (6755)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -36463,6 +36768,7 @@
  "MG7940/15": {
   "modelNumber": "MG7940/15",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -36568,6 +36874,7 @@
  "MGC-2": {
   "modelNumber": "MGC-2",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Gold Line",
   "israeliImporter": null,
   "specGroups": [
@@ -36687,6 +36994,7 @@
  "MIC123M": {
   "modelNumber": "MIC123M",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -36790,6 +37098,7 @@
  "MK-17D19A2 (6216)": {
   "modelNumber": "MK-17D19A2 (6216)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": null,
   "specGroups": [
@@ -36905,6 +37214,7 @@
  "MK-8805": {
   "modelNumber": "MK-8805",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון",
   "specGroups": [
@@ -37004,6 +37314,7 @@
  "MM8P022KG-B (65007)": {
   "modelNumber": "MM8P022KG-B (65007)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -37132,6 +37443,7 @@
  "MM9P022KG-S (65008)": {
   "modelNumber": "MM9P022KG-S (65008)",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -37242,6 +37554,7 @@
  "MMB2111S": {
   "modelNumber": "MMB2111S",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -37386,6 +37699,7 @@
  "MMB6176B/01": {
   "modelNumber": "MMB6176B/01",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -37473,6 +37787,7 @@
  "MQ100-SOUP": {
   "modelNumber": "MQ100-SOUP",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Braun",
   "israeliImporter": null,
   "specGroups": [
@@ -37538,6 +37853,7 @@
  "MQ100 CURRY": {
   "modelNumber": "MQ100 CURRY",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Braun",
   "israeliImporter": "ברימאג דיגיטל",
   "specGroups": [
@@ -37605,6 +37921,7 @@
  "MS23K3513AK": {
   "modelNumber": "MS23K3513AK",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -37737,6 +38054,7 @@
  "MS23K3513AS": {
   "modelNumber": "MS23K3513AS",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניו פרו",
   "specGroups": [
@@ -37881,6 +38199,7 @@
  "MS23K3555EK": {
   "modelNumber": "MS23K3555EK",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -38019,6 +38338,7 @@
  "MS23K3555ES": {
   "modelNumber": "MS23K3555ES",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -38144,6 +38464,7 @@
  "MS2535GIS": {
   "modelNumber": "MS2535GIS",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "LG",
   "israeliImporter": "ברימאג דיגיטל",
   "specGroups": [
@@ -38245,6 +38566,7 @@
  "MS32DG4504AGLI": {
   "modelNumber": "MS32DG4504AGLI",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -38327,6 +38649,7 @@
  "MS6CB61V5": {
   "modelNumber": "MS6CB61V5",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": "B/S/H",
   "specGroups": [
@@ -38471,6 +38794,7 @@
  "MS8CM6190": {
   "modelNumber": "MS8CM6190",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": "בי.אס.אייץ מכשירים ביתיים בע\"מ",
   "specGroups": [
@@ -38609,6 +38933,7 @@
  "MSM14000 CLEVERMIXX": {
   "modelNumber": "MSM14000 CleverMixx",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": "BSH",
   "specGroups": [
@@ -38754,6 +39079,7 @@
  "MSM2650B CLEVERMIXX": {
   "modelNumber": "MSM2650B CleverMixx",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -38893,6 +39219,7 @@
  "MSM4B624": {
   "modelNumber": "MSM4B624",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": "בי.אס.אייץ מכשירים ביתיים בע״מ",
   "specGroups": [
@@ -39004,6 +39331,7 @@
  "MSM6M8X1 ERGOMASTER": {
   "modelNumber": "MSM6M8X1 ErgoMaster",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -39129,6 +39457,7 @@
  "MT-102PLUS": {
   "modelNumber": "MT-102PLUS",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "LEXUS",
   "israeliImporter": "סיריוס אלקטרוניקה",
   "specGroups": [
@@ -39277,6 +39606,7 @@
  "MUM59N26CB": {
   "modelNumber": "MUM59N26CB",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": "BSH",
   "specGroups": [
@@ -39422,6 +39752,7 @@
  "MUMS6ZS00": {
   "modelNumber": "MUMS6ZS00",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -39591,6 +39922,7 @@
  "MUMS8ZS18": {
   "modelNumber": "MUMS8ZS18",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": "בי.אס.אייץ מכשירים ביתיים בע״מ",
   "specGroups": [
@@ -39743,6 +40075,7 @@
  "MW3-EM25PE(MB)-IL (200404)": {
   "modelNumber": "MW3-EM25PE(MB)-IL (200404)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Toshiba",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -39899,6 +40232,7 @@
  "MW6623B": {
   "modelNumber": "MW6623B",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה",
   "specGroups": [
@@ -40038,6 +40372,7 @@
  "MWS4020B": {
   "modelNumber": "MWS4020B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -40148,6 +40483,7 @@
  "MWS4020S": {
   "modelNumber": "MWS4020S",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -40243,6 +40579,7 @@
  "MWS4020W": {
   "modelNumber": "MWS4020W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה מוצרי צריכה",
   "specGroups": [
@@ -40355,6 +40692,7 @@
  "MX-L60-3.7V": {
   "modelNumber": "MX-L60-3.7V",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Omega",
   "israeliImporter": null,
   "specGroups": [
@@ -40461,6 +40799,7 @@
  "MX-ST40F": {
   "modelNumber": "MX-ST40F",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -40514,6 +40853,7 @@
  "MX-ST50F": {
   "modelNumber": "MX-ST50F",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -40638,6 +40978,7 @@
  "MINIPIMER 1 MQ10.001MWH": {
   "modelNumber": "Minipimer 1 MQ10.001MWH",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Braun",
   "israeliImporter": "ברימאג",
   "specGroups": [
@@ -40743,6 +41084,7 @@
  "MULTIQUICK 3 MQ3020 PESTO": {
   "modelNumber": "MultiQuick 3 MQ3020 Pesto",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Braun",
   "israeliImporter": null,
   "specGroups": [
@@ -40812,6 +41154,7 @@
  "NC-DK1": {
   "modelNumber": "NC-DK1",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Panasonic",
   "israeliImporter": null,
   "specGroups": [
@@ -40912,6 +41255,7 @@
  "NC303IS": {
   "modelNumber": "NC303IS",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג",
   "specGroups": [
@@ -41014,6 +41358,7 @@
  "NC701": {
   "modelNumber": "NC701",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -41096,6 +41441,7 @@
  "ND-1214W": {
   "modelNumber": "ND-1214W",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -41243,6 +41589,7 @@
  "ND-2070": {
   "modelNumber": "ND-2070",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון סחר בע״מ",
   "specGroups": [
@@ -41405,6 +41752,7 @@
  "ND-237W": {
   "modelNumber": "ND-237W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון",
   "specGroups": [
@@ -41504,6 +41852,7 @@
  "ND-4500": {
   "modelNumber": "ND-4500",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -41612,6 +41961,7 @@
  "ND-6000": {
   "modelNumber": "ND-6000",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -41753,6 +42103,7 @@
  "ND-6018": {
   "modelNumber": "ND-6018",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -41923,6 +42274,7 @@
  "ND-6464B": {
   "modelNumber": "ND-6464B",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -42074,6 +42426,7 @@
  "ND-6528B": {
   "modelNumber": "ND-6528B",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון סחר",
   "specGroups": [
@@ -42219,6 +42572,7 @@
  "ND-70100W": {
   "modelNumber": "ND-70100W",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון סחר",
   "specGroups": [
@@ -42377,6 +42731,7 @@
  "ND-9066": {
   "modelNumber": "ND-9066",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -42516,6 +42871,7 @@
  "ND777": {
   "modelNumber": "ND777",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון סחר",
   "specGroups": [
@@ -42597,6 +42953,7 @@
  "NI 6550": {
   "modelNumber": "NI 6550",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Normande",
   "israeliImporter": null,
   "specGroups": [
@@ -42730,6 +43087,7 @@
  "NQ5B5763DBK": {
   "modelNumber": "NQ5B5763DBK",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -42856,6 +43214,7 @@
  "NV68A1140BS": {
   "modelNumber": "NV68A1140BS",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -42985,6 +43344,7 @@
  "NV7B41301AK": {
   "modelNumber": "NV7B41301AK",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -43142,6 +43502,7 @@
  "NZ64B5067YH": {
   "modelNumber": "NZ64B5067YH",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -43346,6 +43707,7 @@
  "NZ84C6058FK": {
   "modelNumber": "NZ84C6058FK",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -43460,6 +43822,7 @@
  "OLED55C66LA": {
   "modelNumber": "OLED55C66LA",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "LG",
   "israeliImporter": "קבוצת ח.י",
   "specGroups": [
@@ -43595,6 +43958,7 @@
  "OLED83C66LA": {
   "modelNumber": "OLED83C66LA",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "LG",
   "israeliImporter": "קבוצת ח.י",
   "specGroups": [
@@ -43723,6 +44087,7 @@
  "OM-KITCH-DISPLAY8": {
   "modelNumber": "OM-KITCH-DISPLAY8",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Omega",
   "israeliImporter": null,
   "specGroups": [
@@ -43859,6 +44224,7 @@
  "OP84BG": {
   "modelNumber": "OP84BG",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Gorenje",
   "israeliImporter": "Synodan",
   "specGroups": [
@@ -43948,6 +44314,7 @@
  "OW210130": {
   "modelNumber": "OW210130",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Moulinex",
   "israeliImporter": null,
   "specGroups": [
@@ -43996,6 +44363,7 @@
  "PAC-12": {
   "modelNumber": "PAC-12",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Premier",
   "israeliImporter": null,
   "specGroups": [
@@ -44171,6 +44539,7 @@
  "PAC-14": {
   "modelNumber": "PAC-14",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Premier",
   "israeliImporter": null,
   "specGroups": [
@@ -44362,6 +44731,7 @@
  "PFC75B": {
   "modelNumber": "PFC75B",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Fratelli",
   "israeliImporter": null,
   "specGroups": [
@@ -44457,6 +44827,7 @@
  "PG6045": {
   "modelNumber": "PG6045",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Remington",
   "israeliImporter": null,
   "specGroups": [
@@ -44509,6 +44880,7 @@
  "PIE611BB5E": {
   "modelNumber": "PIE611BB5E",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": "B/S/H",
   "specGroups": [
@@ -44612,6 +44984,7 @@
  "PKF631BB2E": {
   "modelNumber": "PKF631BB2E",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -44745,6 +45118,7 @@
  "PR-80WL1V": {
   "modelNumber": "PR-80WL1V",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Peerless",
   "israeliImporter": null,
   "specGroups": [
@@ -44896,6 +45270,7 @@
  "PR50B": {
   "modelNumber": "PR50B",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Premier",
   "israeliImporter": "אס.ג'י. אלקטרוניקה",
   "specGroups": [
@@ -45018,6 +45393,7 @@
  "PR50W": {
   "modelNumber": "PR50W",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Premier",
   "israeliImporter": null,
   "specGroups": [
@@ -45158,6 +45534,7 @@
  "PR56VB": {
   "modelNumber": "PR56VB",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Premier",
   "israeliImporter": "אס גי אלקטרוניקה",
   "specGroups": [
@@ -45263,6 +45640,7 @@
  "PR93B": {
   "modelNumber": "PR93B",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Premier",
   "israeliImporter": null,
   "specGroups": [
@@ -45350,6 +45728,7 @@
  "PR93CR": {
   "modelNumber": "PR93CR",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Premier",
   "israeliImporter": "אס.ג'י. אלקטרוניקה",
   "specGroups": [
@@ -45471,6 +45850,7 @@
  "PR96VB": {
   "modelNumber": "PR96VB",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Premier",
   "israeliImporter": "אס.ג'י. אלקטרוניקה",
   "specGroups": [
@@ -45604,6 +45984,7 @@
  "PUFF-215W": {
   "modelNumber": "PUFF-215W",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "ProView",
   "israeliImporter": "אמטל",
   "specGroups": [
@@ -45728,6 +46109,7 @@
  "PVBI60-BK": {
   "modelNumber": "PVBI60-BK",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "ProView",
   "israeliImporter": "אמטל",
   "specGroups": [
@@ -45877,6 +46259,7 @@
  "PVBI60-NB": {
   "modelNumber": "PVBI60-NB",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "ProView",
   "israeliImporter": null,
   "specGroups": [
@@ -45990,6 +46373,7 @@
  "PVHC4F-BK": {
   "modelNumber": "PVHC4F-BK",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "ProView",
   "israeliImporter": null,
   "specGroups": [
@@ -46048,6 +46432,7 @@
  "PVNF244-W": {
   "modelNumber": "PVNF244-W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "ProView",
   "israeliImporter": "אמטל מחשבים בע\"מ",
   "specGroups": [
@@ -46145,6 +46530,7 @@
  "PVR2D335-BK": {
   "modelNumber": "PVR2D335-BK",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "ProView",
   "israeliImporter": null,
   "specGroups": [
@@ -46301,6 +46687,7 @@
  "PVR2D335-WH": {
   "modelNumber": "PVR2D335-WH",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "ProView",
   "israeliImporter": "אמטל",
   "specGroups": [
@@ -46466,6 +46853,7 @@
  "PVR2D518-WH": {
   "modelNumber": "PVR2D518-WH",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "ProView",
   "israeliImporter": null,
   "specGroups": [
@@ -46584,6 +46972,7 @@
  "PVWM7KQ7": {
   "modelNumber": "PVWM7KQ7",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "ProView",
   "israeliImporter": "אמטל מחשבים בע\"מ",
   "specGroups": [
@@ -46771,6 +47160,7 @@
  "PX-465": {
   "modelNumber": "PX-465",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Pure Acoustics",
   "israeliImporter": null,
   "specGroups": [
@@ -46879,6 +47269,7 @@
  "PURE ONE AIR PET": {
   "modelNumber": "Pure One Air Pet",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Tineco",
   "israeliImporter": null,
   "specGroups": [
@@ -46980,6 +47371,7 @@
  "QE55Q6FAAUXIL": {
   "modelNumber": "QE55Q6FAAUXIL",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -47165,6 +47557,7 @@
  "QP2724/10 ONEBLADE": {
   "modelNumber": "QP2724/10 OneBlade",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -47255,6 +47648,7 @@
  "R-328FH(BS)": {
   "modelNumber": "R-328FH(BS)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sharp",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -47411,6 +47805,7 @@
  "R-709W": {
   "modelNumber": "R-709W",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sharp",
   "israeliImporter": "ראלקו ישראל",
   "specGroups": [
@@ -47557,6 +47952,7 @@
  "RB53DG703CS9": {
   "modelNumber": "RB53DG703CS9",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -47626,6 +48022,7 @@
  "RB70BKI": {
   "modelNumber": "RB70BKI",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hisense",
   "israeliImporter": null,
   "specGroups": [
@@ -47786,6 +48183,7 @@
  "RB70SKI": {
   "modelNumber": "RB70SKI",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hisense",
   "israeliImporter": "קבוצת ח.י.",
   "specGroups": [
@@ -47928,6 +48326,7 @@
  "RD-37": {
   "modelNumber": "RD-37",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Pure Acoustics",
   "israeliImporter": null,
   "specGroups": [
@@ -48022,6 +48421,7 @@
  "RD67EBK": {
   "modelNumber": "RD67EBK",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hisense",
   "israeliImporter": "קבוצת ח.י.",
   "specGroups": [
@@ -48090,6 +48490,7 @@
  "RD75SLK": {
   "modelNumber": "RD75SLK",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hisense",
   "israeliImporter": "קבוצת ח.י. (סינודן בע״מ)",
   "specGroups": [
@@ -48359,6 +48760,7 @@
  "RELAX INVERTER 170": {
   "modelNumber": "RELAX INVERTER 170",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electra",
   "israeliImporter": null,
   "specGroups": [
@@ -48487,6 +48889,7 @@
  "RELAX INVERTER 240": {
   "modelNumber": "RELAX INVERTER 240",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electra",
   "israeliImporter": "אלקטרה מוצרי צריכה (1951) בע\"מ",
   "specGroups": [
@@ -48604,6 +49007,7 @@
  "RELAX INVERTER 340": {
   "modelNumber": "RELAX INVERTER 340",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Electra",
   "israeliImporter": null,
   "specGroups": [
@@ -48735,6 +49139,7 @@
  "RF-45PICE": {
   "modelNumber": "RF-45PICE",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "FAYNAMELI",
   "israeliImporter": null,
   "specGroups": [
@@ -48879,6 +49284,7 @@
  "RF2400D": {
   "modelNumber": "RF2400D",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Panasonic",
   "israeliImporter": null,
   "specGroups": [
@@ -48990,6 +49396,7 @@
  "RF59C701EB1": {
   "modelNumber": "RF59C701EB1",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו (Newpharm)",
   "specGroups": [
@@ -49156,6 +49563,7 @@
  "RF72DG9620B1": {
   "modelNumber": "RF72DG9620B1",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -49290,6 +49698,7 @@
  "RF82DG9621SR": {
   "modelNumber": "RF82DG9621SR",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -49429,6 +49838,7 @@
  "RM70F63REB": {
   "modelNumber": "RM70F63REB",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו (מקבוצת ניופאן)",
   "specGroups": [
@@ -49620,6 +50030,7 @@
  "ROEN8005BIL": {
   "modelNumber": "ROEN8005BIL",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Blomberg",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -49745,6 +50156,7 @@
  "RQ57S": {
   "modelNumber": "RQ57S",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Hisense",
   "israeliImporter": null,
   "specGroups": [
@@ -49850,6 +50262,7 @@
  "RQ84": {
   "modelNumber": "RQ84",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Hisense",
   "israeliImporter": "קבוצת ח.י",
   "specGroups": [
@@ -49926,6 +50339,7 @@
  "RS24W": {
   "modelNumber": "RS24W",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hisense",
   "israeliImporter": "קבוצת ח.י.",
   "specGroups": [
@@ -50054,6 +50468,7 @@
  "RS70F64KET": {
   "modelNumber": "RS70F64KET",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -50202,6 +50617,7 @@
  "RT102B": {
   "modelNumber": "RT102B",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Hisense",
   "israeliImporter": null,
   "specGroups": [
@@ -50309,6 +50725,7 @@
  "RT42CG6004WW": {
   "modelNumber": "RT42CG6004WW",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -50419,6 +50836,7 @@
  "RT47CG6006S9": {
   "modelNumber": "RT47CG6006S9",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -50544,6 +50962,7 @@
  "RT48CB6626BK": {
   "modelNumber": "RT48CB6626BK",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -50668,6 +51087,7 @@
  "RT48CB6626WH": {
   "modelNumber": "RT48CB6626WH",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -50793,6 +51213,7 @@
  "RT62K7044SL": {
   "modelNumber": "RT62K7044SL",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -50970,6 +51391,7 @@
  "S45TR": {
   "modelNumber": "S45TR",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "LG",
   "israeliImporter": "קבוצת ח.י.",
   "specGroups": [
@@ -51087,6 +51509,7 @@
  "S5587/10": {
   "modelNumber": "S5587/10",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -51226,6 +51649,7 @@
  "S6800/90 NORELCO": {
   "modelNumber": "S6800/90 Norelco",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -51312,6 +51736,7 @@
  "SC4540": {
   "modelNumber": "SC4540",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -51416,6 +51841,7 @@
  "SDF300": {
   "modelNumber": "SDF300",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -51512,6 +51938,7 @@
  "SE-299": {
   "modelNumber": "SE-299",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Selmor",
   "israeliImporter": "Selmor (סלמור)",
   "specGroups": [
@@ -51613,6 +52040,7 @@
  "SE-376": {
   "modelNumber": "SE-376",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Selmor",
   "israeliImporter": "סלמור",
   "specGroups": [
@@ -51745,6 +52173,7 @@
  "SE-413": {
   "modelNumber": "SE-413",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Selmor",
   "israeliImporter": "סלמור",
   "specGroups": [
@@ -51846,6 +52275,7 @@
  "SE-612": {
   "modelNumber": "SE-612",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Selmor",
   "israeliImporter": "סלמור בע\"מ",
   "specGroups": [
@@ -51955,6 +52385,7 @@
  "SE-6858": {
   "modelNumber": "SE-6858",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Selmor",
   "israeliImporter": "סלמור",
   "specGroups": [
@@ -52055,6 +52486,7 @@
  "SE-787": {
   "modelNumber": "SE-787",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Selmor",
   "israeliImporter": "Selmor",
   "specGroups": [
@@ -52146,6 +52578,7 @@
  "SE-947": {
   "modelNumber": "SE-947",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Selmor",
   "israeliImporter": "סלמור",
   "specGroups": [
@@ -52262,6 +52695,7 @@
  "SE7-561": {
   "modelNumber": "SE7-561",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Braun",
   "israeliImporter": null,
   "specGroups": [
@@ -52320,6 +52754,7 @@
  "SIERRA-48": {
   "modelNumber": "SIERRA-48",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "TAIYO",
   "israeliImporter": "סיריוס אלקטרוניקה בע״מ",
   "specGroups": [
@@ -52491,6 +52926,7 @@
  "SJ-FP910-BS": {
   "modelNumber": "SJ-FP910-BS",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sharp",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -52646,6 +53082,7 @@
  "SJ-FSR920-BK": {
   "modelNumber": "SJ-FSR920-BK",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sharp",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -52761,6 +53198,7 @@
  "SJ-FSRN87V-BK": {
   "modelNumber": "SJ-FSRN87V-BK",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sharp",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -52923,6 +53361,7 @@
  "SJ-FSRN87V-WH": {
   "modelNumber": "SJ-FSRN87V-WH",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sharp",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -53081,6 +53520,7 @@
  "SJ-SERN75D-SL": {
   "modelNumber": "SJ-SERN75D-SL",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sharp",
   "israeliImporter": null,
   "specGroups": [
@@ -53236,6 +53676,7 @@
  "SL-1016": {
   "modelNumber": "SL-1016",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sol",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -53339,6 +53780,7 @@
  "SL-4141": {
   "modelNumber": "SL-4141",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sol",
   "israeliImporter": "שאוליאן",
   "specGroups": [
@@ -53471,6 +53913,7 @@
  "SL-5301 METAL": {
   "modelNumber": "SL-5301 Metal",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "SOL (סול)",
   "israeliImporter": "שאוליאן סחר בע״מ",
   "specGroups": [
@@ -53592,6 +54035,7 @@
  "SL-5303": {
   "modelNumber": "SL-5303",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sol",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -53701,6 +54145,7 @@
  "SL-5314": {
   "modelNumber": "SL-5314",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "SOL",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -53842,6 +54287,7 @@
  "SL-6633": {
   "modelNumber": "SL-6633",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "SOL",
   "israeliImporter": null,
   "specGroups": [
@@ -53960,6 +54406,7 @@
  "SL-6655": {
   "modelNumber": "SL-6655",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sol",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -54108,6 +54555,7 @@
  "SL-7005": {
   "modelNumber": "SL-7005",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "SOL",
   "israeliImporter": "שאוליאן סחר בע״מ",
   "specGroups": [
@@ -54252,6 +54700,7 @@
  "SL-7006": {
   "modelNumber": "SL-7006",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "SOL (סול)",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -54364,6 +54813,7 @@
  "SL-7007": {
   "modelNumber": "SL-7007",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sol",
   "israeliImporter": "שאוליין סחר",
   "specGroups": [
@@ -54528,6 +54978,7 @@
  "SL-7008": {
   "modelNumber": "SL-7008",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "SOL",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -54647,6 +55098,7 @@
  "SL-7204": {
   "modelNumber": "SL-7204",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "SOL",
   "israeliImporter": null,
   "specGroups": [
@@ -54701,6 +55153,7 @@
  "SL-7205": {
   "modelNumber": "SL-7205",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sol Exclusive",
   "israeliImporter": null,
   "specGroups": [
@@ -54809,6 +55262,7 @@
  "SL-7766I": {
   "modelNumber": "SL-7766I",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sol",
   "israeliImporter": "שאולייאן סחר",
   "specGroups": [
@@ -54946,6 +55400,7 @@
  "SL-8822I": {
   "modelNumber": "SL-8822I",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "SOL (סול)",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -55052,6 +55507,7 @@
  "SMF600": {
   "modelNumber": "SMF600",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -55146,6 +55602,7 @@
  "SMS2ITW09E": {
   "modelNumber": "SMS2ITW09E",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -55326,6 +55783,7 @@
  "SMV4HAX07E": {
   "modelNumber": "SMV4HAX07E",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": "B/S/H",
   "specGroups": [
@@ -55510,6 +55968,7 @@
  "SOLO INV 140NG": {
   "modelNumber": "SOLO INV 140NG",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Tadiran",
   "israeliImporter": "Tadiran",
   "specGroups": [
@@ -55666,6 +56125,7 @@
  "SP-GT2055": {
   "modelNumber": "SP-GT2055",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "S.A.P",
   "israeliImporter": null,
   "specGroups": [
@@ -55742,6 +56202,7 @@
  "SPIDER-FORMULA": {
   "modelNumber": "SPIDER-FORMULA",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Spider",
   "israeliImporter": "סיריוס אלקטרוניקה בע״מ",
   "specGroups": [
@@ -55870,6 +56331,7 @@
  "SQC1": {
   "modelNumber": "SQC1",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "LG",
   "israeliImporter": "קבוצת ח.י",
   "specGroups": [
@@ -55993,6 +56455,7 @@
  "SW-221": {
   "modelNumber": "SW-221",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Normande",
   "israeliImporter": "קלינטון",
   "specGroups": [
@@ -56098,6 +56561,7 @@
  "SAROS 10R": {
   "modelNumber": "Saros 10R",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Roborock",
   "israeliImporter": "באג מולטיסיסטם בע\"מ",
   "specGroups": [
@@ -56215,6 +56679,7 @@
  "SIGNA S2": {
   "modelNumber": "Signa S2",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Polk Audio",
   "israeliImporter": null,
   "specGroups": [
@@ -56336,6 +56801,7 @@
  "TAT3M121": {
   "modelNumber": "TAT3M121",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Bosch",
   "israeliImporter": "BSH",
   "specGroups": [
@@ -56454,6 +56920,7 @@
  "TB303 DETECT": {
   "modelNumber": "TB303 DETECT",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Ninja",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -56574,6 +57041,7 @@
  "TC034B2U (6603)": {
   "modelNumber": "TC034B2U (6603)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -56750,6 +57218,7 @@
  "TCG3323": {
   "modelNumber": "TCG3323",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -56863,6 +57332,7 @@
  "TF301E19 EQ300": {
   "modelNumber": "TF301E19 EQ300",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Siemens",
   "israeliImporter": "BSH מכשירים ביתיים בע\"מ",
   "specGroups": [
@@ -57011,6 +57481,7 @@
  "TL330D11": {
   "modelNumber": "TL330D11",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Tefal",
   "israeliImporter": null,
   "specGroups": [
@@ -57116,6 +57587,7 @@
  "TMF7262NHW": {
   "modelNumber": "TMF7262NHW",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Amcor",
   "israeliImporter": null,
   "specGroups": [
@@ -57263,6 +57735,7 @@
  "TO2319B": {
   "modelNumber": "TO2319B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -57392,6 +57865,7 @@
  "TO2323B": {
   "modelNumber": "TO2323B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה",
   "specGroups": [
@@ -57543,6 +58017,7 @@
  "TP-808": {
   "modelNumber": "TP-808",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Topson",
   "israeliImporter": "Topson",
   "specGroups": [
@@ -57674,6 +58149,7 @@
  "TP-892B": {
   "modelNumber": "TP-892B",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Topson (טופסון)",
   "israeliImporter": null,
   "specGroups": [
@@ -57844,6 +58320,7 @@
  "TRB66MFT": {
   "modelNumber": "TRB66MFT",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "SOL",
   "israeliImporter": "שאוליאן סחר",
   "specGroups": [
@@ -57987,6 +58464,7 @@
  "TSM6A011W": {
   "modelNumber": "TSM6A011W",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -58152,6 +58630,7 @@
  "TSM6A013B": {
   "modelNumber": "TSM6A013B",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Bosch",
   "israeliImporter": "B/S/H",
   "specGroups": [
@@ -58292,6 +58771,7 @@
  "TT740B": {
   "modelNumber": "TT740B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -58374,6 +58854,7 @@
  "TT9000": {
   "modelNumber": "TT9000",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -58449,6 +58930,7 @@
  "TTD-800DS": {
   "modelNumber": "TTD-800DS",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "TELEFUNKEN",
   "israeliImporter": null,
   "specGroups": [
@@ -58690,6 +59172,7 @@
  "TX10": {
   "modelNumber": "TX10",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "S.A.P",
   "israeliImporter": "ס.א.פ חשמל שיווק בע\"מ",
   "specGroups": [
@@ -58794,6 +59277,7 @@
  "TX20": {
   "modelNumber": "TX20",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "S.A.P",
   "israeliImporter": null,
   "specGroups": [
@@ -58833,6 +59317,7 @@
  "TURBOCUT DIAMOND ESE9000": {
   "modelNumber": "TurboCut Diamond ESE9000",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Sassonic",
   "israeliImporter": null,
   "specGroups": [
@@ -58937,6 +59422,7 @@
  "TWISTI CB153": {
   "modelNumber": "Twisti CB153",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Shark Ninja",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -59074,6 +59560,7 @@
  "U300 V25": {
   "modelNumber": "U300 V25",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "UWANT",
   "israeliImporter": "אס ג׳י אלקטרוניקה",
   "specGroups": [
@@ -59227,6 +59714,7 @@
  "UE43U8000F": {
   "modelNumber": "UE43U8000F",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -59419,6 +59907,7 @@
  "UE50U8000H": {
   "modelNumber": "UE50U8000H",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -59541,6 +60030,7 @@
  "UE55U8000F": {
   "modelNumber": "UE55U8000F",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": "סמסונג ישראל",
   "specGroups": [
@@ -59691,6 +60181,7 @@
  "UE65M70H": {
   "modelNumber": "UE65M70H",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -59876,6 +60367,7 @@
  "UE65U8000H": {
   "modelNumber": "UE65U8000H",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -60017,6 +60509,7 @@
  "UE75M80H": {
   "modelNumber": "UE75M80H",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -60226,6 +60719,7 @@
  "UE75U8000H": {
   "modelNumber": "UE75U8000H",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו (Newpro) — לפי קמעונאים ישראליים",
   "specGroups": [
@@ -60581,6 +61075,7 @@
  "V12 DETECT SLIM ABSOLUTE": {
   "modelNumber": "V12 Detect Slim Absolute",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Dyson",
   "israeliImporter": null,
   "specGroups": [
@@ -60672,6 +61167,7 @@
  "V15 DETECT ABSOLUTE NEW SV47": {
   "modelNumber": "V15 Detect Absolute New SV47",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Dyson",
   "israeliImporter": null,
   "specGroups": [
@@ -60797,6 +61293,7 @@
  "V15S DETECT SUBMARINE": {
   "modelNumber": "V15s Detect Submarine",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Dyson",
   "israeliImporter": "קבוצת פוקס טק",
   "specGroups": [
@@ -60922,6 +61419,7 @@
  "V16 PISTON ANIMAL": {
   "modelNumber": "V16 Piston Animal",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Dyson",
   "israeliImporter": "פוקס טק גרופ ש.מ. (היבואן הרשמי של Dyson בישראל)",
   "specGroups": [
@@ -61148,6 +61646,7 @@
  "V500": {
   "modelNumber": "V500",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "UWANT",
   "israeliImporter": "אס ג'י S.G אלקטרוניקה",
   "specGroups": [
@@ -61286,6 +61785,7 @@
  "VS15A60AGR5": {
   "modelNumber": "VS15A60AGR5",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו (קבוצת ניופאן)",
   "specGroups": [
@@ -61443,6 +61943,7 @@
  "VACUUM CLEANER G20 MAX": {
   "modelNumber": "Vacuum Cleaner G20 Max",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Xiaomi",
   "israeliImporter": null,
   "specGroups": [
@@ -61584,6 +62085,7 @@
  "VACUUM CLEANER G9 PLUS": {
   "modelNumber": "Vacuum Cleaner G9 Plus",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Xiaomi",
   "israeliImporter": null,
   "specGroups": [
@@ -61750,6 +62252,7 @@
  "VOLCANO PLUS": {
   "modelNumber": "Volcano Plus",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Lumitec",
   "israeliImporter": null,
   "specGroups": [
@@ -61841,6 +62344,7 @@
  "WAN24009II": {
   "modelNumber": "WAN24009II",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -61985,6 +62489,7 @@
  "WAN28218IT": {
   "modelNumber": "WAN28218IT",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -62130,6 +62635,7 @@
  "WAN28221IL": {
   "modelNumber": "WAN28221IL",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": "BSH Israel",
   "specGroups": [
@@ -62248,6 +62754,7 @@
  "WB1230CR": {
   "modelNumber": "WB1230CR",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -62358,6 +62865,7 @@
  "WB1260B": {
   "modelNumber": "WB1260B",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה מוצרי צריכה",
   "specGroups": [
@@ -62485,6 +62993,7 @@
  "WB1260CR": {
   "modelNumber": "WB1260CR",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sauter",
   "israeliImporter": null,
   "specGroups": [
@@ -62598,6 +63107,7 @@
  "WCR-45": {
   "modelNumber": "WCR-45",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Sirius Living",
   "israeliImporter": "סיריוס אלקטרוניקה בע\"מ",
   "specGroups": [
@@ -62719,6 +63229,7 @@
  "WD213 HYDRO VAC": {
   "modelNumber": "WD213 HYDRO VAC",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Shark",
   "israeliImporter": "שריג אלקטריק",
   "specGroups": [
@@ -62814,6 +63325,7 @@
  "WK150W": {
   "modelNumber": "WK150W",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Sauter",
   "israeliImporter": "אלקטרה סחר",
   "specGroups": [
@@ -62888,6 +63400,7 @@
  "WKACMX-1002": {
   "modelNumber": "WKACMX-1002",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Westinghouse",
   "israeliImporter": null,
   "specGroups": [
@@ -62963,6 +63476,7 @@
  "WKCMX-02": {
   "modelNumber": "WKCMX-02",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Westinghouse",
   "israeliImporter": "Selmor (Extra Fun)",
   "specGroups": [
@@ -63003,6 +63517,7 @@
  "WKFW601": {
   "modelNumber": "WKFW601",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Westinghouse",
   "israeliImporter": "סלמור",
   "specGroups": [
@@ -63145,6 +63660,7 @@
  "WKWK695-SV": {
   "modelNumber": "WKWK695-SV",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Westinghouse",
   "israeliImporter": "סלמור",
   "specGroups": [
@@ -63262,6 +63778,7 @@
  "WKWK695-WH": {
   "modelNumber": "WKWK695-WH",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Westinghouse",
   "israeliImporter": "סלמור",
   "specGroups": [
@@ -63352,6 +63869,7 @@
  "WQG233D1BY": {
   "modelNumber": "WQG233D1BY",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": null,
   "specGroups": [
@@ -63479,6 +63997,7 @@
  "WQP14-W7633C-W (6466)": {
   "modelNumber": "WQP14-W7633C-W (6466)",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Midea",
   "israeliImporter": "המילטון",
   "specGroups": [
@@ -63638,6 +64157,7 @@
  "WTH85208II": {
   "modelNumber": "WTH85208II",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Bosch",
   "israeliImporter": "MA ASPEC",
   "specGroups": [
@@ -63767,6 +64287,7 @@
  "WW11BB5044AW": {
   "modelNumber": "WW11BB5044AW",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -63886,6 +64407,7 @@
  "WW11BB9445GB": {
   "modelNumber": "WW11BB9445GB",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -64011,6 +64533,7 @@
  "WW70FG3M05AW": {
   "modelNumber": "WW70FG3M05AW",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -64184,6 +64707,7 @@
  "WW80FG5L32AB": {
   "modelNumber": "WW80FG5L32AB",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו (Newpro)",
   "specGroups": [
@@ -64359,6 +64883,7 @@
  "WW8ST4043CE": {
   "modelNumber": "WW8ST4043CE",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "מיניליין",
   "specGroups": [
@@ -64485,6 +65010,7 @@
  "WW8STA046AH": {
   "modelNumber": "WW8STA046AH",
   "researchedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו (מקבוצת ניופאן)",
   "specGroups": [
@@ -64625,6 +65151,7 @@
  "WW90CGC045AE": {
   "modelNumber": "WW90CGC045AE",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -64782,6 +65309,7 @@
  "WW90DG5U35AE": {
   "modelNumber": "WW90DG5U35AE",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -64929,6 +65457,7 @@
  "WW90DG5U35TE": {
   "modelNumber": "WW90DG5U35TE",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": null,
   "specGroups": [
@@ -65028,6 +65557,7 @@
  "WW90DG6U95LX": {
   "modelNumber": "WW90DG6U95LX",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Samsung",
   "israeliImporter": "ניופרו",
   "specGroups": [
@@ -65157,6 +65687,7 @@
  "X3003/00": {
   "modelNumber": "X3003/00",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Philips",
   "israeliImporter": null,
   "specGroups": [
@@ -65293,6 +65824,7 @@
  "X50B ULTRA": {
   "modelNumber": "X50B Ultra",
   "researchedAt": "2026-11-10",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Dreame",
   "israeliImporter": "קריסטלינו בע״מ (Cristallino)",
   "specGroups": [
@@ -65652,6 +66184,7 @@
  "X9002/10": {
   "modelNumber": "X9002/10",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Philips",
   "israeliImporter": "אלקטרה",
   "specGroups": [
@@ -65796,6 +66329,7 @@
  "X9F-6": {
   "modelNumber": "X9F-6",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "STEEL",
   "israeliImporter": "א.ברפמן",
   "specGroups": [
@@ -65936,6 +66470,7 @@
  "XA142ZQTWQT1 (700350)": {
   "modelNumber": "XA142ZQTWQT1 (700350)",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Konka",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [
@@ -66071,6 +66606,7 @@
  "ZGH65424XS": {
   "modelNumber": "ZGH65424XS",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Zanussi",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -66189,6 +66725,7 @@
  "ZOHKD4X1A": {
   "modelNumber": "ZOHKD4X1A",
   "researchedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "manufacturer": "Zanussi",
   "israeliImporter": null,
   "specGroups": [
@@ -66287,6 +66824,7 @@
  "ZVENM7K1": {
   "modelNumber": "ZVENM7K1",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Zanussi",
   "israeliImporter": "ראלקו",
   "specGroups": [
@@ -66416,6 +66954,7 @@
  "ZWQ71235SI": {
   "modelNumber": "ZWQ71235SI",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Zanussi",
   "israeliImporter": null,
   "specGroups": [
@@ -66543,6 +67082,7 @@
  "EUFY E25 OMNI": {
   "modelNumber": "eufy E25 Omni",
   "researchedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
   "manufacturer": "Anker (eufy)",
   "israeliImporter": "המילטון חשמל ואלקטרוניקה",
   "specGroups": [

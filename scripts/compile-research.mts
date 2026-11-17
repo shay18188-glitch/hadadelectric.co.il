@@ -140,6 +140,7 @@ function publish(record: ResearchRecord, withheld: Withheld[]): PublishedResearc
   return bidiSafeAll({
     modelNumber: model,
     researchedAt: record.researchedAt,
+    updatedAt: record.researchedAt,
     manufacturer: record.identity.manufacturer,
     israeliImporter: record.identity.israeliImporter,
     specGroups,
@@ -153,6 +154,12 @@ function publish(record: ResearchRecord, withheld: Withheld[]): PublishedResearc
     faq: record.content.faq.map(({ q, a }) => ({ q, a })),
     metaDescription: record.seo.metaDescription,
   });
+}
+
+/** Equal published content, ignoring the dates themselves. */
+function sameFacts(a: PublishedResearch, b: PublishedResearch): boolean {
+  const strip = ({ updatedAt: _u, ...rest }: PublishedResearch) => rest;
+  return JSON.stringify(strip(a)) === JSON.stringify(strip(b));
 }
 
 function bidiSafeAll(research: PublishedResearch): PublishedResearch {
@@ -181,6 +188,12 @@ async function main() {
         .map((f) => resolve(recordsDir, f));
 
   const published: Record<string, PublishedResearch> = {};
+  // The previous output decides `updatedAt`: an entry whose published facts are
+  // unchanged keeps its date, a new or changed one gets today. That date is
+  // what the sitemap sends as <lastmod>, so it must move only when the page a
+  // visitor (or Google) sees actually changes — not on every compile.
+  const previous = JSON.parse(await readFile(outPath, "utf8").catch(() => "{}")) as Record<string, PublishedResearch>;
+  const today = new Date().toISOString().slice(0, 10);
   const withheld: Withheld[] = [];
   const errors: string[] = [];
 
@@ -206,7 +219,12 @@ async function main() {
       continue;
     }
     const result = publish(record, withheld);
-    if (result) published[record.modelNumber.trim().toUpperCase()] = result;
+    if (result) {
+      const key = record.modelNumber.trim().toUpperCase();
+      const before = previous[key];
+      const same = before && sameFacts(before, result);
+      published[key] = { ...result, updatedAt: (same && before.updatedAt) || today };
+    }
   }
 
   if (errors.length) {
