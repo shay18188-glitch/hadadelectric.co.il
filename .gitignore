@@ -43,3 +43,6 @@ next-env.d.ts
 
 # product research run cache (fetched pages, drafts, usage)
 /.research-cache/
+
+# build-time Base44 catalog snapshot (scripts/generate-search-catalog.mts)
+/content/.generated/

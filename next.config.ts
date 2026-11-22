@@ -66,6 +66,12 @@ const nextConfig: NextConfig = {
   },
   // Never expose the framework version banner.
   poweredByHeader: false,
+  // The build-time Base44 snapshot that request-time renders fall back on
+  // when the live feed fails (lib/base44/catalog.ts). It is read with fs, so
+  // the tracer cannot see it on its own.
+  outputFileTracingIncludes: {
+    "/**": ["./content/.generated/catalog-snapshot.json"],
+  },
   async redirects() {
     return [
       // www duplicates the entire site. Vercel serves www with a 200 and an

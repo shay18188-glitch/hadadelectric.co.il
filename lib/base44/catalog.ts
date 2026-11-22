@@ -1,5 +1,8 @@
 import "server-only";
 
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
+
 import {
   Base44CatalogResponseSchema,
   type Base44Product,
@@ -46,7 +49,35 @@ const CATALOG_ENDPOINT = `${BASE44_APP_BASE_URL}/functions/getProductCatalog`;
  * with 429s.
  */
 const CATALOG_MEMO_TTL_MS = 5 * 60 * 1000;
-const CATALOG_FETCH_ATTEMPTS = 3;
+/**
+ * A build retries, because a failed fetch there fails the deploy. A request
+ * does not: it already has the process memo or the build snapshot below to
+ * stand on, and every retry is seconds a crawler spends waiting.
+ */
+const CATALOG_FETCH_ATTEMPTS = process.env.NEXT_PHASE === "phase-production-build" ? 3 : 1;
+
+/**
+ * A hung Base44 request must not hang the page. Without a timeout a slow feed
+ * kept the function open until Googlebot gave up, which Search Console counts
+ * as a server connectivity failure for the whole host.
+ */
+const CATALOG_FETCH_TIMEOUT_MS = 8_000;
+
+/**
+ * The raw feed as Base44 sent it during this deployment's build, written by
+ * scripts/generate-search-catalog.mts and traced into every server function
+ * (outputFileTracingIncludes in next.config.ts).
+ *
+ * Category pages, /products and other request-time renders have no ISR copy
+ * to fall back on, so a Base44 outage or 429 — and every build hammers the
+ * same per-app quota — used to turn them into 500s for whoever was crawling.
+ * This snapshot is real data, hours old at most, which is exactly the
+ * staleness the process memo already accepts. It is not the mock.
+ */
+const CATALOG_SNAPSHOT_PATH = join(process.cwd(), "content/.generated/catalog-snapshot.json");
+
+/** After serving the snapshot, ask Base44 again this soon rather than in 5 min. */
+const SNAPSHOT_MEMO_TTL_MS = 60 * 1000;
 
 /** Only ever forward these two safe filter params to Base44. */
 function buildQueryString(params?: CatalogFetchParams): string {
@@ -60,15 +91,50 @@ function buildQueryString(params?: CatalogFetchParams): string {
   return qs ? `?${qs}` : "";
 }
 
-async function fetchRawCatalog(
-  params?: CatalogFetchParams
-): Promise<{ ok: true; data: Base44Product[] } | { ok: false; error: string }> {
+type RawCatalogResult = { ok: true; data: Base44Product[] } | { ok: false; error: string };
+
+/** Validates a catalog payload, from the live feed or from the build snapshot. */
+function parseCatalogJson(json: unknown): RawCatalogResult {
+  const parsed = Base44CatalogResponseSchema.safeParse(json);
+
+  if (!parsed.success) {
+    console.error("[base44] catalog response failed validation", parsed.error.issues);
+    return { ok: false, error: "invalid_response" };
+  }
+  if (!parsed.data.success) {
+    console.error("[base44] catalog response success=false", parsed.data.error);
+    return { ok: false, error: parsed.data.error || "unknown_error" };
+  }
+
+  // Records the per-product schema could not salvage. Dropping them keeps
+  // the other 900-odd pages alive, but it is never silent — a feed quietly
+  // shedding products is exactly the failure that goes unnoticed for weeks.
+  const products = parsed.data.data.filter((product) => product !== null);
+  const dropped = parsed.data.data.length - products.length;
+  if (dropped > 0) {
+    console.error(`[base44] dropped ${dropped} unparseable product record(s) of ${parsed.data.data.length}`);
+  }
+
+  // An empty list from a response that claims success is not a catalog, it
+  // is an outage wearing a 200. The mock is the better answer.
+  if (products.length === 0) {
+    console.error("[base44] catalog response contained no usable products");
+    return { ok: false, error: "empty_catalog" };
+  }
+
+  return { ok: true, data: products };
+}
+
+async function fetchRawCatalog(params?: CatalogFetchParams): Promise<RawCatalogResult> {
   const url = `${CATALOG_ENDPOINT}${buildQueryString(params)}`;
 
   try {
     // No cache options on purpose: see CATALOG_MEMO_TTL_MS. Left unconfigured,
     // the fetch neither reads the data cache nor forces the route dynamic.
-    const res = await fetch(url, { headers: { Accept: "application/json" } });
+    const res = await fetch(url, {
+      headers: { Accept: "application/json" },
+      signal: AbortSignal.timeout(CATALOG_FETCH_TIMEOUT_MS),
+    });
 
     if (res.status === 429) {
       console.error("[base44] rate limited (429) fetching catalog");
@@ -83,38 +149,21 @@ async function fetchRawCatalog(
       return { ok: false, error: `http_${res.status}` };
     }
 
-    const json = await res.json();
-    const parsed = Base44CatalogResponseSchema.safeParse(json);
-
-    if (!parsed.success) {
-      console.error("[base44] catalog response failed validation", parsed.error.issues);
-      return { ok: false, error: "invalid_response" };
-    }
-    if (!parsed.data.success) {
-      console.error("[base44] catalog response success=false", parsed.data.error);
-      return { ok: false, error: parsed.data.error || "unknown_error" };
-    }
-
-    // Records the per-product schema could not salvage. Dropping them keeps
-    // the other 900-odd pages alive, but it is never silent — a feed quietly
-    // shedding products is exactly the failure that goes unnoticed for weeks.
-    const products = parsed.data.data.filter((product) => product !== null);
-    const dropped = parsed.data.data.length - products.length;
-    if (dropped > 0) {
-      console.error(`[base44] dropped ${dropped} unparseable product record(s) of ${parsed.data.data.length}`);
-    }
-
-    // An empty list from a response that claims success is not a catalog, it
-    // is an outage wearing a 200. The mock is the better answer.
-    if (products.length === 0) {
-      console.error("[base44] catalog response contained no usable products");
-      return { ok: false, error: "empty_catalog" };
-    }
-
-    return { ok: true, data: products };
+    return parseCatalogJson(await res.json());
   } catch (err) {
-    console.error("[base44] network error fetching catalog", err);
-    return { ok: false, error: "network_error" };
+    const timedOut = err instanceof Error && err.name === "TimeoutError";
+    console.error(`[base44] ${timedOut ? "timed out" : "network error"} fetching catalog`, timedOut ? "" : err);
+    return { ok: false, error: timedOut ? "timeout" : "network_error" };
+  }
+}
+
+/** The build-time snapshot, or null when this deployment has none. */
+async function readCatalogSnapshot(): Promise<Base44Product[] | null> {
+  try {
+    const result = parseCatalogJson(JSON.parse(await readFile(CATALOG_SNAPSHOT_PATH, "utf8")));
+    return result.ok ? result.data : null;
+  } catch {
+    return null;
   }
 }
 
@@ -135,7 +184,7 @@ function applyImageOverrides(products: Product[]): Product[] {
 }
 
 const catalogMemo = new Map<string, { fetchedAt: number; data: Base44Product[] }>();
-const catalogInFlight = new Map<string, Promise<{ ok: true; data: Base44Product[] } | { ok: false; error: string }>>();
+const catalogInFlight = new Map<string, Promise<RawCatalogResult>>();
 
 async function fetchRawCatalogWithRetry(params?: CatalogFetchParams) {
   let result = await fetchRawCatalog(params);
@@ -170,6 +219,15 @@ async function loadRawCatalog(params?: CatalogFetchParams) {
   if (memo) {
     console.error(`[base44] serving the catalog fetched ${Math.round((Date.now() - memo.fetchedAt) / 60000)} min ago (reason: ${result.error})`);
     return { ok: true as const, data: memo.data };
+  }
+  // The snapshot is the unfiltered feed, so it only stands in for that call.
+  if (!key) {
+    const snapshot = await readCatalogSnapshot();
+    if (snapshot) {
+      console.error(`[base44] serving the build-time catalog snapshot (reason: ${result.error})`);
+      catalogMemo.set(key, { fetchedAt: Date.now() - CATALOG_MEMO_TTL_MS + SNAPSHOT_MEMO_TTL_MS, data: snapshot });
+      return { ok: true as const, data: snapshot };
+    }
   }
   return result;
 }

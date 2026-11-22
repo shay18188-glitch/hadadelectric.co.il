@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { Base44CatalogResponseSchema } from "../types/api";
 import { normalizeProduct } from "../lib/normalize";
@@ -10,6 +10,11 @@ const appId = process.env.NEXT_PUBLIC_BASE44_APP_ID || DEFAULT_APP_ID;
 const baseUrl = process.env.BASE44_APP_BASE_URL || `https://base44.app/api/apps/${appId}`;
 const endpoint = `${baseUrl}/functions/getProductCatalog`;
 const outputPath = resolve(process.cwd(), "content/search-catalog.json");
+// The raw feed exactly as Base44 sent it, kept for request-time renders to
+// fall back on when Base44 is down or rate-limited (see lib/base44/catalog.ts).
+// Generated on every build, never committed.
+const snapshotDir = resolve(process.cwd(), "content/.generated");
+const snapshotPath = resolve(snapshotDir, "catalog-snapshot.json");
 const imageStorePath = resolve(process.cwd(), "content/product-images.json");
 
 async function existingSeedIsAvailable(): Promise<boolean> {
@@ -29,10 +34,13 @@ async function main() {
     });
     if (!response.ok) throw new Error(`catalog returned HTTP ${response.status}`);
 
-    const parsed = Base44CatalogResponseSchema.safeParse(await response.json());
+    const rawJson: unknown = await response.json();
+    const parsed = Base44CatalogResponseSchema.safeParse(rawJson);
     if (!parsed.success || !parsed.data.success || parsed.data.data.length === 0) {
       throw new Error("catalog response was empty or invalid");
     }
+    await mkdir(snapshotDir, { recursive: true });
+    await writeFile(snapshotPath, JSON.stringify(rawJson), "utf8");
 
     const imageStore = JSON.parse(await readFile(imageStorePath, "utf8")) as {
       images?: Record<string, { url?: string }>;
