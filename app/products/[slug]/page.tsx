@@ -133,7 +133,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
           imageUrl: product.imageUrl,
           images: product.images,
           originCountry: product.originCountry,
-          availability: product.availability,
           specs: product.specs,
           dimensionsCm: measured?.body ?? null,
           weightKg: research ? researchWeightKg(research) : null,

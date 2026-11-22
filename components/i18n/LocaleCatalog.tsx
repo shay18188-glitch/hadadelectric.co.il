@@ -203,7 +203,6 @@ export function LocaleProductDetailPage({
           imageUrl: localized.imageUrl,
           images: localized.images,
           originCountry: localized.originCountry,
-          availability: localized.availability,
           // Specs stay untranslated in the supplier feed, and this component
           // only ever renders en/ru. Emitting Hebrew name/value pairs on an
           // English page would misrepresent its language to a crawler, so the

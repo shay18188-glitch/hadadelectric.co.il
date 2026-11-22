@@ -161,44 +161,31 @@ export function breadcrumbJsonLd(items: BreadcrumbItem[]) {
   };
 }
 
-// NOTE: We intentionally do NOT emit `Product` structured data on product
-/// ─── Why product pages carry `Product` and not a rich-result-safe stand-in ───
+/// ─── Why product pages carry `ProductModel` with no `offers` ───
 //
-// The earlier decision here was to emit `ItemPage` and skip `Product`
-// entirely: this is a catalog with no prices, no checkout and no on-site
-// reviews, so `offers.price` cannot be supplied truthfully and Search
-// Console's *Merchant listings* report will flag every item with
-// "Missing field 'price'".
+// This is a quote-based catalog: no prices, no checkout, no on-site reviews.
+// Google validates anything typed `Product` against its product rich results:
 //
-// That trade is now the wrong way round. `ItemPage` tells a crawler that a URL
-// exists; it says nothing about which manufacturer, which model number, or
-// which specifications the page describes. Answer engines resolving "who sells
-// the Aiwa AI16000 in Israel" read exactly those properties, and Search
-// Console already records live *Product snippet* impressions for this site —
-// an experience that stays eligible as long as `offers` is present, with or
-// without a price.
+//   - `Product` + `offers` without a price → *Product snippets* critical error
+//     "price or priceSpecification.price must be specified", and *Merchant
+//     listings* critical errors plus shipping / returns / category warnings.
+//     (Shipped this way Aug 21 – Nov 22 2026; every product page was invalid.)
+//   - `Product` without `offers` → critical error "Either offers, review or
+//     aggregateRating should be specified" (the Jul 2026 attempt).
 //
-// So: emit the full entity, keep `offers` for availability, and accept the
-// Merchant-listings warning as the correct outcome for a quote-based store.
-// Do not "fix" that warning by inventing a price.
+// None of those can be satisfied truthfully, and a placeholder price would be
+// false. Checked in the Rich Results Test on 2026-11-22: a `ProductModel`
+// (schema.org's "datasheet or vendor specification of a product" — exactly
+// what these pages are) with no `offers` is detected by neither report, so
+// no item is invalid, while every identity property (brand, mpn, sku, specs,
+// typed dimensions, weight) stays valid schema.org, because ProductModel is a
+// subtype of Product. That entity data is what answer engines read.
+//
+// Do not add `offers` back, and do not change the type to `Product`, unless
+// the store starts publishing real prices.
 //
 // Product pages also expose BreadcrumbList via <Breadcrumbs>.
 
-/**
- * Product entity for a catalog page.
- *
- * Replaces the previous generic `ItemPage`, which told Google and answer
- * engines that a URL existed but never that it described a specific model
- * from a specific manufacturer. Everything here is machine-checkable fact
- * taken from the catalog record — nothing is inferred.
- *
- * Deliberately no `price` / `priceCurrency`: this store quotes personally and
- * publishes no prices, so inventing one would be false. Search Console will
- * report "Missing field price" as a non-critical warning on these items. That
- * warning is the correct outcome and must not be "fixed" with a placeholder —
- * the entity data (brand, mpn, specs, availability, seller) is what earns
- * citations in AI answers and what makes a model-number query resolvable.
- */
 /**
  * A self-contained reference to the store.
  *
@@ -229,7 +216,6 @@ export function productJsonLd(params: {
   /** The full gallery, lead shot first. Falls back to `imageUrl` alone. */
   images?: string[];
   originCountry?: string | null;
-  availability: "in_stock" | "out_of_stock" | "unknown";
   specs?: { label: string; value: string }[];
   /** Parsed physical dimensions in centimetres, when the feed supplies them. */
   dimensionsCm?: { widthCm: number; heightCm: number; heightMaxCm?: number; depthCm: number } | null;
@@ -244,15 +230,6 @@ export function productJsonLd(params: {
   expertNote?: string | null;
 }) {
   const url = absoluteUrl(params.path);
-  // "unknown" gets no availability at all. LimitedAvailability asserts that
-  // stock is limited, which is a different claim from not knowing.
-  const availability =
-    params.availability === "in_stock"
-      ? "https://schema.org/InStock"
-      : params.availability === "out_of_stock"
-        ? "https://schema.org/OutOfStock"
-        : null;
-
   // Every distinct shot, lead first. A product with a gallery gives an image
   // search and a shopping surface more than one crop to choose from, and the
   // single-image case is unchanged because dedupe leaves it a one-element list.
@@ -275,7 +252,7 @@ export function productJsonLd(params: {
 
   return {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "ProductModel",
     "@id": `${url}#product`,
     name: params.name,
     description,
@@ -343,15 +320,6 @@ export function productJsonLd(params: {
         }
       : {}),
     ...(params.weightKg ? { weight: { "@type": "QuantitativeValue", value: params.weightKg, unitCode: "KGM" } } : {}),
-    offers: {
-      "@type": "Offer",
-      url,
-      ...(availability ? { availability } : {}),
-      itemCondition: "https://schema.org/NewCondition",
-      businessFunction: "http://purl.org/goodrelations/v1#Sell",
-      seller: storeReference(),
-      areaServed: { "@type": "AdministrativeArea", name: "צפון ישראל" },
-    },
   };
 }
 
