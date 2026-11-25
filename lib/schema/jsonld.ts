@@ -99,7 +99,10 @@ export function websiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": WEBSITE_ID,
+    // Google's site-name system reads name + alternateName from the home
+    // page's WebSite markup; without them it falls back to the bare domain.
     name: BUSINESS.nameHe,
+    alternateName: ["חדד אלקטריק", BUSINESS.nameEn],
     url: absoluteUrl("/"),
     inLanguage: "he-IL",
     publisher: { "@id": ORGANIZATION_ID },
