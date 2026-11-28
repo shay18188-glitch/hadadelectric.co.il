@@ -2,6 +2,9 @@ import { NextResponse } from "next/server";
 import { recordEvents, isTrackedEvent, isBarPlacement, sanitizePagePath, storePing, type IncomingEvent } from "@/lib/analytics/events";
 import { isLandingType, isTrafficSource } from "@/lib/analytics/landing";
 import { isStoreConfigured, getStoreEnvStatus } from "@/lib/analytics/store";
+import { parseSearchLogInput, recordSearchLogs, type SearchLogInput } from "@/lib/analytics/searchLog";
+import { hitRateLimit } from "@/lib/analytics/events";
+import { clientIp } from "@/lib/http/security";
 
 // Fire-and-forget collector. Clients call this with navigator.sendBeacon, so
 // its latency never affects the page. Runs on the Node.js runtime because the
@@ -22,7 +25,7 @@ export async function GET() {
 export async function POST(req: Request) {
   try {
     const data = (await req.json().catch(() => null)) as
-      | { events?: unknown[]; event?: unknown; slug?: unknown; category?: unknown }
+      | { events?: unknown[]; event?: unknown; slug?: unknown; category?: unknown; searches?: unknown[] }
       | null;
     if (!data) return new NextResponse(null, { status: 204 });
 
@@ -52,6 +55,15 @@ export async function POST(req: Request) {
       });
     }
     if (events.length > 0) await recordEvents(events);
+
+    // Site-search log (query text + outcome, never who searched). Throttled
+    // per IP so the list cannot be flooded; the IP itself is not stored.
+    const searches: SearchLogInput[] = Array.isArray(data.searches)
+      ? data.searches.slice(0, 5).map(parseSearchLogInput).filter((x): x is SearchLogInput => x !== null)
+      : [];
+    if (searches.length > 0 && !(await hitRateLimit("search_log", clientIp(req), 40, 60))) {
+      await recordSearchLogs(searches);
+    }
   } catch {
     // Never surface tracking errors.
   }

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { getBrands, getCategories, getProducts } from "@/lib/base44/catalog";
-import { createFuseIndex, searchProducts } from "@/lib/search/fuse";
-import { matchCategories } from "@/lib/search/categorySearch";
+import { getSearchEngine, type SearchOutcome } from "@/lib/search/engine";
+import type { Category } from "@/types/category";
 import { ProductGrid } from "@/components/ProductGrid";
 import { Filters } from "@/components/Filters";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -17,6 +17,8 @@ import {
   parseFacetSelections,
 } from "@/lib/search/productFacets";
 import { sortProducts } from "@/lib/search/productSorting";
+import { SearchResultsLogger } from "@/components/SearchResultsLogger";
+import { buildWhatsAppUrl } from "@/lib/whatsapp/messages";
 
 export const revalidate = 10800; // 3 hours
 
@@ -75,15 +77,27 @@ export default async function ProductsPage({
   const facetSelections = parseFacetSelections(params);
   let filtered = scopedProducts;
 
-  let categorySuggestions: ReturnType<typeof matchCategories> = [];
+  let categorySuggestions: Category[] = [];
+  let searchOutcome: SearchOutcome | null = null;
 
   if (params.q) {
-    const fuse = createFuseIndex(filtered);
-    filtered = searchProducts(fuse, params.q, 200, filtered);
+    // One engine over the whole catalog (cached per catalog), scoped to the
+    // page's category/brand/stock filters through `allowed`.
+    const engine = getSearchEngine(allProducts);
+    searchOutcome = engine.search(params.q, {
+      limit: 200,
+      allowed: new Set(scopedProducts.map((product) => product.modelNumber)),
+    });
+    filtered = searchOutcome.products;
     // Only surface category suggestions when the user typed a free-text
     // query — never for category/brand filter selections, so this stays a
     // progressive-enhancement layer on top of the existing filter UX.
-    categorySuggestions = matchCategories(categories, params.q, 4);
+    categorySuggestions = engine.matchCategories(searchOutcome, categories, 4);
+    if (categorySuggestions.length === 0 && filtered.length === 0) {
+      // Nothing in stock matched: offer the categories the query points at
+      // across the whole catalog, so the page is never a dead end.
+      categorySuggestions = engine.matchCategories(engine.search(params.q, { limit: 60 }), categories, 4);
+    }
   } else {
     filtered = sortProducts(filtered, params.sort);
   }
@@ -129,7 +143,45 @@ export default async function ProductsPage({
           </div>
         )}
 
+        {params.q && searchOutcome && (
+          <SearchResultsLogger query={params.q} count={filtered.length} corrected={searchOutcome.correctedQuery} />
+        )}
+        {params.q && searchOutcome?.correctedQuery && filtered.length > 0 && (
+          <p className="mt-4 text-sm text-graphite-soft/80" role="status">
+            מציגים תוצאות עבור <span className="font-bold text-graphite">{searchOutcome.correctedQuery}</span>
+            {" "}(חיפשתם &quot;{params.q}&quot;)
+          </p>
+        )}
+
         <p className="mt-4 text-sm text-graphite-soft/70">{filtered.length} מוצרים</p>
+
+        {params.q && filtered.length === 0 && (
+          <div className="surface-card mt-4 rounded-[1.5rem] p-5 text-graphite md:p-6" role="status">
+            <h2 className="text-lg font-bold">לא מצאנו מוצרים עבור &quot;{params.q}&quot;</h2>
+            <p className="mt-2 text-sm text-graphite-soft/80">
+              נסו מילה אחרת, שם מותג או מק״ט{params.inStock !== "false" ? ", או הציגו גם מוצרים שאזלו מהמלאי" : ""}. אם
+              המוצר לא באתר — שלחו לנו ונבדוק אם אפשר להזמין אותו בשבילכם.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {params.inStock !== "false" && (
+                <a
+                  href={`/products?q=${encodeURIComponent(params.q)}&inStock=false`}
+                  className="tap-target inline-flex items-center rounded-full border border-line bg-white px-4 py-2 text-sm font-bold text-brand-blue hover:border-brand-blue/40"
+                >
+                  חיפוש גם במוצרים שאזלו
+                </a>
+              )}
+              <a
+                href={buildWhatsAppUrl(`שלום, חיפשתי באתר "${params.q}" ולא מצאתי. אפשר לבדוק בשבילי?`)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="tap-target inline-flex items-center rounded-full bg-[#1f9d55] px-4 py-2 text-sm font-bold text-white hover:bg-[#178246]"
+              >
+                שאלו אותנו בוואטסאפ
+              </a>
+            </div>
+          </div>
+        )}
 
         <div className="mt-3 md:mt-4">
           <ProductGrid products={filtered} />

@@ -3,7 +3,8 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { trackEvent } from "@/lib/analytics";
+import { logSearch, trackEvent } from "@/lib/analytics";
+import { buildWhatsAppUrl } from "@/lib/whatsapp/messages";
 import { cx } from "@/lib/utils";
 import type { CategorySuggestionItem } from "@/components/CategorySuggestions";
 import { ProductImage } from "@/components/ProductImage";
@@ -29,6 +30,27 @@ interface SearchPayload {
   categories: CategorySuggestionItem[];
   brands: BrandSuggestion[];
   quickFilters: QuickSearchFilter[];
+  /** "Showing results for" text when the engine fixed a typo or layout. */
+  correctedQuery?: string | null;
+  /** Products matched in all (the dropdown shows at most 8). */
+  total?: number;
+}
+
+/** What the box last showed, waiting to be logged as a click or an abandon. */
+interface PendingSearch {
+  q: string;
+  n: number;
+  c: string | null;
+}
+
+function flushPendingSearch(ref: { current: PendingSearch | null }, source: "header" | "bottom_bar") {
+  const pending = ref.current;
+  ref.current = null;
+  if (pending) logSearch({ q: pending.q, n: pending.n, o: "abandon", s: source, c: pending.c });
+}
+
+function shownCount(data: SearchPayload): number {
+  return (data.total ?? data.results.length) + data.categories.length + data.brands.length;
 }
 
 const SEARCH_CACHE_TTL_MS = 10 * 60 * 1000;
@@ -65,6 +87,7 @@ export function SearchBar({
   const [categorySuggestions, setCategorySuggestions] = useState<CategorySuggestionItem[]>([]);
   const [brandSuggestions, setBrandSuggestions] = useState<BrandSuggestion[]>([]);
   const [quickFilters, setQuickFilters] = useState<QuickSearchFilter[]>([]);
+  const [correctedQuery, setCorrectedQuery] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
@@ -72,6 +95,20 @@ export function SearchBar({
   const suggestionsId = useId();
   const containerRef = useRef<HTMLDivElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pendingRef = useRef<PendingSearch | null>(null);
+  const source = trackPlacement === "bottom_bar" ? "bottom_bar" : "header";
+
+  // Logs the search the shopper walked away from (closed the box, left the
+  // page) without choosing anything — the queries search most needs to fix.
+  const flushAbandon = () => flushPendingSearch(pendingRef, source);
+  useEffect(() => {
+    const onPageHide = () => flushPendingSearch(pendingRef, source);
+    window.addEventListener("pagehide", onPageHide);
+    return () => {
+      window.removeEventListener("pagehide", onPageHide);
+      flushPendingSearch(pendingRef, source);
+    };
+  }, [source]);
 
   const productStartIndex = categorySuggestions.length + brandSuggestions.length;
   const submitIndex = productStartIndex + suggestions.length;
@@ -104,6 +141,8 @@ export function SearchBar({
           categories: json.categories ?? [],
           brands: json.brands ?? [],
           quickFilters: json.quickFilters ?? [],
+          correctedQuery: json.correctedQuery ?? null,
+          total: json.total,
         };
         if (searchResultCache.size >= 80) {
           searchResultCache.delete(searchResultCache.keys().next().value ?? "");
@@ -113,6 +152,8 @@ export function SearchBar({
         setCategorySuggestions(data.categories);
         setBrandSuggestions(data.brands);
         setQuickFilters(data.quickFilters);
+        setCorrectedQuery(data.correctedQuery ?? null);
+        pendingRef.current = { q: query, n: shownCount(data), c: data.correctedQuery ?? null };
         setOpen(true);
       } catch {
         // Search suggestions are a progressive enhancement; fail silently.
@@ -131,15 +172,19 @@ export function SearchBar({
     function handleClick(e: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setOpen(false);
+        flushPendingSearch(pendingRef, source);
       }
     }
     document.addEventListener("click", handleClick);
     return () => document.removeEventListener("click", handleClick);
-  }, []);
+  }, [source]);
 
-  function closeAndNavigate() {
+  function closeAndNavigate(kind: "product" | "category" | "brand" | "filter") {
     // Every suggestion (category, brand, product, quick filter) leaves through here.
     trackEvent("search_result_click", { placement: trackPlacement });
+    const pending = pendingRef.current;
+    pendingRef.current = null;
+    if (pending) logSearch({ q: pending.q, n: pending.n, o: "click", k: kind, s: source, c: pending.c });
     setOpen(false);
     onNavigate?.();
   }
@@ -154,6 +199,7 @@ export function SearchBar({
       setCategorySuggestions([]);
       setBrandSuggestions([]);
       setQuickFilters([]);
+      setCorrectedQuery(null);
       setLoading(false);
       setOpen(false);
       return;
@@ -165,6 +211,8 @@ export function SearchBar({
       setCategorySuggestions(cached.data.categories);
       setBrandSuggestions(cached.data.brands);
       setQuickFilters(cached.data.quickFilters);
+      setCorrectedQuery(cached.data.correctedQuery ?? null);
+      pendingRef.current = { q: query, n: shownCount(cached.data), c: cached.data.correctedQuery ?? null };
       setLoading(false);
       setOpen(true);
       return;
@@ -176,6 +224,7 @@ export function SearchBar({
     setCategorySuggestions([]);
     setBrandSuggestions([]);
     setQuickFilters([]);
+    setCorrectedQuery(null);
     setLoading(true);
     setOpen(true);
   }
@@ -183,6 +232,8 @@ export function SearchBar({
   function submitSearch(query: string) {
     const trimmed = query.trim();
     trackEvent("search_query", { query: trimmed, placement: trackPlacement });
+    // The results page logs this query itself, with its real result count.
+    pendingRef.current = null;
     setOpen(false);
     onNavigate?.();
     router.push(`/products?q=${encodeURIComponent(trimmed)}`);
@@ -211,15 +262,15 @@ export function SearchBar({
       e.preventDefault();
       if (activeIndex >= 0 && activeIndex < categorySuggestions.length) {
         router.push(`/categories/${encodeURIComponent(categorySuggestions[activeIndex].slug)}`);
-        closeAndNavigate();
+        closeAndNavigate("category");
       } else if (activeIndex >= categorySuggestions.length && activeIndex < productStartIndex) {
         const brand = brandSuggestions[activeIndex - categorySuggestions.length];
         router.push(`/brands/${encodeURIComponent(brand.slug)}`);
-        closeAndNavigate();
+        closeAndNavigate("brand");
       } else if (activeIndex >= productStartIndex && activeIndex < submitIndex) {
         const product = suggestions[activeIndex - productStartIndex];
         router.push(`/products/${encodeURIComponent(product.slug)}`);
-        closeAndNavigate();
+        closeAndNavigate("product");
       } else {
         submitSearch(value);
       }
@@ -228,6 +279,7 @@ export function SearchBar({
 
     if (e.key === "Escape") {
       setOpen(false);
+      flushAbandon();
     }
   }
 
@@ -308,6 +360,35 @@ export function SearchBar({
               מחפש מוצרים והתאמות…
             </div>
           )}
+          {correctedQuery && !loading && (
+            <p className="border-b border-line px-4 py-2.5 text-xs text-graphite-soft/75" role="status">
+              מציגים תוצאות עבור <span className="font-bold text-graphite">{correctedQuery}</span>
+            </p>
+          )}
+          {!loading &&
+            value.trim().length >= 2 &&
+            suggestions.length === 0 &&
+            categorySuggestions.length === 0 &&
+            brandSuggestions.length === 0 && (
+              <div className="border-b border-line px-4 py-4 text-sm text-graphite-soft/80" role="status">
+                <p>
+                  לא מצאנו התאמה ל־<span className="font-bold text-graphite">&quot;{value.trim()}&quot;</span>. נסו
+                  שם אחר, מותג או מק״ט — או שלחו לנו ונבדוק אם אפשר להזמין.
+                </p>
+                <a
+                  href={buildWhatsAppUrl(`שלום, חיפשתי באתר "${value.trim()}" ולא מצאתי. אפשר לבדוק בשבילי?`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => {
+                    trackEvent("whatsapp_click_header", { placement: trackPlacement });
+                    flushAbandon();
+                  }}
+                  className="tap-target mt-3 inline-flex items-center rounded-full bg-[#1f9d55] px-4 py-2 text-sm font-bold text-white hover:bg-[#178246]"
+                >
+                  שאלו אותנו בוואטסאפ
+                </a>
+              </div>
+            )}
           {categorySuggestions.length > 0 && (
             <div className="border-b border-line px-3 py-3">
               <p className="px-1.5 pb-2 text-xs font-semibold text-graphite-soft/60">קטגוריות שמתאימות לחיפוש שלך</p>
@@ -316,7 +397,7 @@ export function SearchBar({
                   <Link
                     key={category.slug}
                     href={`/categories/${category.slug}`}
-                    onClick={closeAndNavigate}
+                    onClick={() => closeAndNavigate("category")}
                     className={`tap-target inline-flex shrink-0 items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-semibold transition-colors ${
                       activeIndex === index
                         ? "bg-brand-blue text-white"
@@ -338,7 +419,7 @@ export function SearchBar({
                   <Link
                     key={`${filter.categorySlug}-${filter.query}`}
                     href={`/products?category=${encodeURIComponent(filter.categorySlug)}&q=${encodeURIComponent(filter.query)}`}
-                    onClick={closeAndNavigate}
+                    onClick={() => closeAndNavigate("filter")}
                     className="tap-target inline-flex shrink-0 items-center gap-1.5 rounded-full border border-brand-gold/30 bg-[#fffaf0] px-3.5 py-2 text-sm font-bold text-graphite transition-colors hover:border-brand-gold hover:bg-brand-gold/12"
                   >
                     {filter.label}
@@ -359,7 +440,7 @@ export function SearchBar({
                     <Link
                       key={brand.slug}
                       href={`/brands/${brand.slug}`}
-                      onClick={closeAndNavigate}
+                      onClick={() => closeAndNavigate("brand")}
                       className={cx(
                         "tap-target inline-flex shrink-0 items-center rounded-full border px-3.5 py-2 text-sm font-bold transition-colors",
                         activeIndex === idx
@@ -387,7 +468,7 @@ export function SearchBar({
                   <li key={s.slug} role="option" aria-selected={idx === activeIndex}>
                     <Link
                       href={`/products/${encodeURIComponent(s.slug)}`}
-                      onClick={closeAndNavigate}
+                      onClick={() => closeAndNavigate("product")}
                       className={`flex items-center gap-3 px-4 py-3 text-sm hover:bg-surface ${
                         idx === activeIndex ? "bg-surface" : ""
                       }`}

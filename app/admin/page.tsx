@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { ADMIN_COOKIE, verifyToken, isAdminConfigured } from "@/lib/analytics/auth";
 import { getDashboardData, storePing } from "@/lib/analytics/events";
 import { getLeads } from "@/lib/analytics/leads";
+import { getSearchLogSummary } from "@/lib/analytics/searchLog";
 import { getStoreEnvStatus } from "@/lib/analytics/store";
 import { getCategories, getBrands, getProducts } from "@/lib/base44/catalog";
 import { GUIDES } from "@/content/guides";
@@ -27,13 +28,14 @@ export default async function AdminPage() {
     return <AdminLogin configured={configured} />;
   }
 
-  const [data, leadsResult, connected, categories, brands, products] = await Promise.all([
+  const [data, leadsResult, connected, categories, brands, products, searchLog] = await Promise.all([
     getDashboardData(30),
     getLeads(200),
     storePing(),
     getCategories(),
     getBrands(),
     getProducts(),
+    getSearchLogSummary(40),
   ]);
 
   const categoryNames = Object.fromEntries(categories.map((c) => [c.slug, c.name]));
@@ -58,6 +60,7 @@ export default async function AdminPage() {
       brandNames={brandNames}
       productNames={productNames}
       pageNames={pageNames}
+      searchLog={searchLog}
     />
   );
 }

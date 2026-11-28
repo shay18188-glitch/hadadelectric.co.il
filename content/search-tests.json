@@ -1,0 +1,1292 @@
+{
+ "about": "Search regression cases, run by `npm run search:check` (scripts/search-check.mts) against content/search-catalog.json. Each case: q, and any of category (slug every top-3 result must have), brand (slug every top-3 result must have), model (model number that must be in the top 5), corrected (expected 'showing results for' text), minResults (default 1), empty (true = must find nothing). The weekly search review adds a case for every real query it fixes.",
+ "cases": [
+  {
+   "q": "נינגה",
+   "brand": "ninja",
+   "note": "owner's original complaint"
+  },
+  {
+   "q": "נינג'ה",
+   "brand": "ninja"
+  },
+  {
+   "q": "נינג’ה",
+   "brand": "ninja",
+   "note": "iPhone smart apostrophe"
+  },
+  {
+   "q": "נינג׳ה",
+   "brand": "ninja"
+  },
+  {
+   "q": "ninja",
+   "brand": "ninja"
+  },
+  {
+   "q": "נינזה",
+   "brand": "ninja"
+  },
+  {
+   "q": "נינג'ה פודי",
+   "brand": "ninja"
+  },
+  {
+   "q": "קרימי",
+   "brand": "ninja",
+   "category": "ice-cream-makers"
+  },
+  {
+   "q": "סמסונג",
+   "brand": "samsung"
+  },
+  {
+   "q": "סאמסונג",
+   "brand": "samsung"
+  },
+  {
+   "q": "sumsung",
+   "brand": "samsung"
+  },
+  {
+   "q": "samsong",
+   "brand": "samsung"
+  },
+  {
+   "q": "דשצדומע",
+   "brand": "samsung",
+   "note": "samsung typed on the Hebrew layout"
+  },
+  {
+   "q": "סמסונג מקרר",
+   "brand": "samsung",
+   "category": "refrigerators"
+  },
+  {
+   "q": "מקרר סמסונג 4 דלתות שחור",
+   "brand": "samsung",
+   "category": "refrigerators"
+  },
+  {
+   "q": "lg מקרר",
+   "brand": "lg",
+   "category": "refrigerators"
+  },
+  {
+   "q": "אל ג'י מקרר",
+   "brand": "lg",
+   "category": "refrigerators"
+  },
+  {
+   "q": "בוש",
+   "brand": "bosch"
+  },
+  {
+   "q": "בושש",
+   "brand": "bosch"
+  },
+  {
+   "q": "דיסון",
+   "brand": "dyson"
+  },
+  {
+   "q": "דייסון",
+   "brand": "dyson"
+  },
+  {
+   "q": "בייביליס",
+   "brand": "babyliss"
+  },
+  {
+   "q": "קנווד",
+   "brand": "kenwood"
+  },
+  {
+   "q": "קיטשנאייד",
+   "brand": "kitchenaid"
+  },
+  {
+   "q": "קיטשן אייד",
+   "brand": "kitchenaid"
+  },
+  {
+   "q": "דלונגי",
+   "brand": "delonghi"
+  },
+  {
+   "q": "פיליפס",
+   "brand": "philips"
+  },
+  {
+   "q": "פיליפס מגהץ",
+   "brand": "philips",
+   "category": "irons"
+  },
+  {
+   "q": "מידאה",
+   "brand": "midea"
+  },
+  {
+   "q": "אלקטרולוקס",
+   "brand": "electrolux"
+  },
+  {
+   "q": "מקרר",
+   "category": "refrigerators"
+  },
+  {
+   "q": "מקררים",
+   "category": "refrigerators"
+  },
+  {
+   "q": "המקררים",
+   "category": "refrigerators"
+  },
+  {
+   "q": "למקרר",
+   "minResults": 5,
+   "note": "freezer names say \"למקרר\" (pairs with a fridge), so freezers may lead"
+  },
+  {
+   "q": "פריג'ידר",
+   "category": "refrigerators"
+  },
+  {
+   "q": "холодильник",
+   "category": "refrigerators"
+  },
+  {
+   "q": "ثلاجة",
+   "category": "refrigerators"
+  },
+  {
+   "q": "nerr",
+   "category": "refrigerators",
+   "note": "מקרר typed on the English layout"
+  },
+  {
+   "q": "פריזר",
+   "category": "freezers"
+  },
+  {
+   "q": "אייר פרייר",
+   "category": "air-fryers"
+  },
+  {
+   "q": "איירפרייר",
+   "category": "air-fryers"
+  },
+  {
+   "q": "airfryer",
+   "category": "air-fryers"
+  },
+  {
+   "q": "סיר טיגון ללא שמן",
+   "category": "air-fryers"
+  },
+  {
+   "q": "פן",
+   "category": "hair-dryers"
+  },
+  {
+   "q": "פלאטה של שבת",
+   "category": "shabbat-hot-plates"
+  },
+  {
+   "q": "פלטה",
+   "category": "shabbat-hot-plates"
+  },
+  {
+   "q": "רדיאטור",
+   "category": "heaters"
+  },
+  {
+   "q": "נוטריבולט",
+   "category": "blenders"
+  },
+  {
+   "q": "נספרסו",
+   "category": "coffee-machines"
+  },
+  {
+   "q": "מכונת קפה",
+   "category": "coffee-machines"
+  },
+  {
+   "q": "קומקום",
+   "category": "kettles"
+  },
+  {
+   "q": "קומקון",
+   "category": "kettles",
+   "corrected": "קומקום"
+  },
+  {
+   "q": "מיקרוגל",
+   "category": "microwaves"
+  },
+  {
+   "q": "מיקרוגאל",
+   "corrected": "מיקרוגל"
+  },
+  {
+   "q": "מיקרו",
+   "category": "microwaves"
+  },
+  {
+   "q": "טלויזה",
+   "category": "tvs"
+  },
+  {
+   "q": "טלביזיה 55",
+   "category": "tvs"
+  },
+  {
+   "q": "טלויזיה סמסונג 65",
+   "category": "tvs",
+   "brand": "samsung"
+  },
+  {
+   "q": "שואב אבק",
+   "category": "vacuum-cleaners"
+  },
+  {
+   "q": "רובוט שואב",
+   "category": "robot-vacuums"
+  },
+  {
+   "q": "שואב רובוטי",
+   "category": "robot-vacuums"
+  },
+  {
+   "q": "מכונת כביסה",
+   "category": "washing-machines"
+  },
+  {
+   "q": "מכונות כביסה",
+   "category": "washing-machines"
+  },
+  {
+   "q": "מכונת כביסה 8 קג",
+   "category": "washing-machines"
+  },
+  {
+   "q": "מייבש כביסה",
+   "category": "dryers"
+  },
+  {
+   "q": "מדיח",
+   "category": "dishwashers"
+  },
+  {
+   "q": "דישוושר",
+   "category": "dishwashers"
+  },
+  {
+   "q": "מזגן",
+   "category": "air-conditioners"
+  },
+  {
+   "q": "מזגן 1 כס",
+   "category": "air-conditioners"
+  },
+  {
+   "q": "מזגנים",
+   "category": "air-conditioners"
+  },
+  {
+   "q": "תנור בילט אין",
+   "category": "ovens"
+  },
+  {
+   "q": "תנור בנוי",
+   "category": "ovens"
+  },
+  {
+   "q": "תנורים",
+   "category": "ovens"
+  },
+  {
+   "q": "כיריים גז",
+   "category": "cooktops"
+  },
+  {
+   "q": "כיריים אינדוקציה",
+   "category": "cooktops"
+  },
+  {
+   "q": "קולט אדים",
+   "category": "range-hoods"
+  },
+  {
+   "q": "מנדף",
+   "category": "range-hoods"
+  },
+  {
+   "q": "מגהץ",
+   "category": "irons"
+  },
+  {
+   "q": "מגהצים",
+   "category": "irons"
+  },
+  {
+   "q": "מטחנת בשר",
+   "category": "meat-grinders"
+  },
+  {
+   "q": "מיחם",
+   "category": "humidifiers"
+  },
+  {
+   "q": "מסחטת מיצים",
+   "category": "juicers"
+  },
+  {
+   "q": "מאוורר תקרה",
+   "category": "fans"
+  },
+  {
+   "q": "מכונת תספורת",
+   "category": "hair-clippers"
+  },
+  {
+   "q": "מכונת גילוח",
+   "category": "shavers"
+  },
+  {
+   "q": "מייבש שיער",
+   "category": "hair-dryers"
+  },
+  {
+   "q": "טוסטר לחיצה",
+   "category": "panini-grills"
+  },
+  {
+   "q": "מכונת קרח",
+   "category": "ice-makers"
+  },
+  {
+   "q": "EDH6284",
+   "model": "EDH6284BM"
+  },
+  {
+   "q": "edh6284bm",
+   "model": "EDH6284BM"
+  },
+  {
+   "q": "6284",
+   "model": "EDH6284BM"
+  },
+  {
+   "q": "הוברבורד",
+   "empty": true,
+   "note": "not sold; must not return random products"
+  },
+  {
+   "q": "אופניים חשמליים",
+   "empty": true
+  },
+  {
+   "q": "גודל כיריים סטנדרטי",
+   "category": "cooktops",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות כיריים סטנדרטיות",
+   "category": "cooktops",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות כיריים",
+   "category": "cooktops",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גודל כיריים",
+   "category": "cooktops",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "כיריים סטנדרט מידות",
+   "category": "cooktops",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות גז סטנדרטי",
+   "category": "cooktops",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות תנור סטנדרטי",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גודל תנור סטנדרטי",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "רוחב תנור סטנדרטי",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "תנור סטנדרטי מידות",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות תנור",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "תנור מידות",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "רוחב תנור",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גודל תנור",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "עומק תנור",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גובה תנור",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות תנור בילד אין סטנדרטי",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "תנור בילד אין מידות סטנדרטיות",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות סטנדרטיות של תנור בילד אין",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גודל סטנדרטי של תנור בילד אין",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "תנור בילד אין גודל סטנדרטי",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "איך לבחור תנור בילד אין?",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "איך לבחור תנור",
+   "category": "ovens",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "רוחב מכונת כביסה סטנדרטי",
+   "category": "washing-machines",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מכונת כביסה מידות סטנדרט",
+   "category": "washing-machines",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גובה מכונת כביסה סטנדרטי",
+   "category": "washing-machines",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "איך לבחור מכונת כביסה",
+   "category": "washing-machines",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות מדיח סטנדרטי",
+   "category": "dishwashers",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גודל מדיח סטנדרטי",
+   "category": "dishwashers",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "רוחב מדיח סטנדרטי",
+   "category": "dishwashers",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מידות של מדיח כלים סטנדרטי",
+   "category": "dishwashers",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מדיח סטנדרטי מידות",
+   "category": "dishwashers",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גובה מדיח סטנדרטי",
+   "category": "dishwashers",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "where to buy dishwasher",
+   "category": "dishwashers",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "עומק מקרר סטנדרטי",
+   "category": "refrigerators",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "רוחב מקרר סטנדרטי",
+   "category": "refrigerators",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "גובה מקרר סטנדרטי",
+   "category": "refrigerators",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "איך לבחור מקרר",
+   "category": "refrigerators",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "how much does a fridge cost",
+   "category": "refrigerators",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מה האורך של טלוויזיה 65 אינץ",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מה הרוחב של טלוויזיה 75 אינץ",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "65 inch tv dimensions in cm",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "65 дюймов в см",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "65дюймов в см",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "65 діагональ в см",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "діагональ 65 дюймів в см",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "65 инчен тv дименизии во cm",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "экран 65 дюймов в см",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מה הרוחב של טלוויזיה 55 אינץ",
+   "category": "tvs",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "how do i choose the right size led television for my living room in israel?",
+   "category": "tvs",
+   "minResults": 5,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "כיריים",
+   "category": "cooktops",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "כיריים אינדוקציה מומלצות",
+   "category": "cooktops",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "איך לבחור כיריים אינדוקציה פרימיום",
+   "category": "cooktops",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "плита",
+   "category": "cooktops",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "газовая плита купить в израиле",
+   "category": "cooktops",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "индукционная плита купить в израиле",
+   "category": "cooktops",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "индукционная плита или газовая",
+   "category": "cooktops",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "stove dimensions in cm",
+   "category": "cooktops",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "כיריים אלקטרולוקס",
+   "category": "cooktops",
+   "brand": "electrolux",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "אינדוקציה",
+   "category": "cooktops",
+   "note": "cooktop aliases no longer give every hob the word"
+  },
+  {
+   "q": "oven israel",
+   "category": "ovens",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "купить духовку в израиле",
+   "category": "ovens",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "духовой шкаф купить в израиле",
+   "category": "ovens",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "dryer",
+   "category": "dryers",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "dryers",
+   "category": "dryers",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "dryer machine",
+   "category": "dryers",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "electric dryer",
+   "category": "dryers",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "laundry dryer",
+   "category": "dryers",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "dryer machine israel",
+   "category": "dryers",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "sinolink dryer",
+   "category": "dryers",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "hair dryer",
+   "category": "hair-dryers",
+   "note": "GSC audit 2026-11: must stay hair dryers after the dryer phrase"
+  },
+  {
+   "q": "mini hair dryer",
+   "category": "hair-dryers",
+   "note": "GSC audit 2026-11: must stay hair dryers after the dryer phrase"
+  },
+  {
+   "q": "built in washing machine",
+   "category": "washing-machines",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "fridge freezers",
+   "category": "refrigerators",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "small fridge",
+   "category": "refrigerators",
+   "model": "ND-50W",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "white washing machine",
+   "category": "washing-machines",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "white dishwasher",
+   "category": "dishwashers",
+   "minResults": 3,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "стиральные машины с верхней загрузкой в израиле",
+   "category": "washing-machines",
+   "model": "EW6T837E",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "top loader",
+   "category": "washing-machines",
+   "model": "EW6T837E",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "כמה חשמל צורך מזגן",
+   "category": "air-conditioners",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "כמה כוח סוס למזגן",
+   "category": "air-conditioners",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "כמה עולה חשמל למזגן",
+   "category": "air-conditioners",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "כמה עולה להפעיל מזגן",
+   "category": "air-conditioners",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "עלות חשמל מזגן",
+   "category": "air-conditioners",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "עלות הפעלת מזגן",
+   "category": "air-conditioners",
+   "minResults": 10,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מזגן 1 כ ס",
+   "category": "air-conditioners",
+   "model": "SOLO INV 140NG",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מזגן אינוורטר 1 כ ס",
+   "category": "air-conditioners",
+   "minResults": 5,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מזגן 2.5 כ ס",
+   "category": "air-conditioners",
+   "model": "SFERA INV 29",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מוצרי חשמל סמסונג",
+   "brand": "samsung",
+   "minResults": 20,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "טלוויזיה אל גי",
+   "category": "tvs",
+   "brand": "lg",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "media fridge",
+   "category": "refrigerators",
+   "brand": "midea",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מיני מצנן אישי נייד",
+   "category": "air-coolers",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מצנן אוויר לחדר שינה",
+   "category": "air-coolers",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "צ'ילר נייד",
+   "category": "air-coolers",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "מכשיר וופל בלגי",
+   "category": "waffle-makers",
+   "model": "ATL-260",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "купить кофемолку в израиле",
+   "category": "coffee-grinders",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "люстра вентилятор с пультом купить в израиле",
+   "category": "fans",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "black stainless steel dishwasher",
+   "category": "dishwashers",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "купить морозильную камеру в израиле",
+   "category": "freezers",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "купить микроволновку в израиле",
+   "category": "microwaves",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "microwave",
+   "category": "microwaves",
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "how do i choose the best cheap version of a 4k smart television for my living room in israel?",
+   "category": "tvs",
+   "minResults": 5,
+   "note": "fixed in GSC audit 2026-11"
+  },
+  {
+   "q": "תנור גז",
+   "category": "ovens",
+   "note": "GSC audit 2026-11: guard"
+  },
+  {
+   "q": "כירה ניידת",
+   "category": "hot-plates",
+   "note": "GSC audit 2026-11: guard, phrase after alias removal"
+  },
+  {
+   "q": "כירת אינדוקציה",
+   "category": "hot-plates",
+   "note": "GSC audit 2026-11: guard, phrase after alias removal"
+  },
+  {
+   "q": "כיריים ניידות",
+   "category": "hot-plates",
+   "note": "GSC audit 2026-11: guard, phrase after alias removal"
+  },
+  {
+   "q": "תנור עם כיריים",
+   "category": "ovens",
+   "note": "GSC audit 2026-11: guard, phrase after alias removal"
+  },
+  {
+   "q": "תנור קטן",
+   "category": "toaster-ovens",
+   "note": "GSC audit 2026-11: guard, phrase after alias removal"
+  },
+  {
+   "q": "מיני תנור",
+   "category": "toaster-ovens",
+   "note": "GSC audit 2026-11: guard, phrase after alias removal"
+  },
+  {
+   "q": "תנור טוסטר",
+   "category": "toaster-ovens",
+   "note": "GSC audit 2026-11: guard"
+  },
+  {
+   "q": "תנור מיקרוגל",
+   "category": "microwaves",
+   "note": "GSC audit 2026-11: guard, phrase after alias removal"
+  },
+  {
+   "q": "תנור חימום",
+   "category": "heaters",
+   "note": "GSC audit 2026-11: guard"
+  },
+  {
+   "q": "תנור קרמי",
+   "category": "heaters",
+   "note": "GSC audit 2026-11: guard"
+  },
+  {
+   "q": "microwave oven",
+   "category": "microwaves",
+   "note": "GSC audit 2026-11: guard"
+  },
+  {
+   "q": "toaster oven",
+   "category": "toaster-ovens",
+   "note": "GSC audit 2026-11: guard"
+  },
+  {
+   "q": "מיקרוגל משולב תנור",
+   "category": "microwave-ovens",
+   "note": "GSC audit 2026-11: guard"
+  },
+  {
+   "q": "BC-50 WHITE",
+   "model": "BC-50 WHITE",
+   "note": "GSC audit 2026-11: guard for the white→לבן rewrite"
+  },
+  {
+   "q": "מצנן אוויר",
+   "category": "air-coolers",
+   "note": "GSC audit 2026-11: guard"
+  },
+  {
+   "q": "ai16000",
+   "model": "AI16000",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "נינגה גריל",
+   "brand": "ninja",
+   "category": "grill-pans",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "ninja grill",
+   "brand": "ninja",
+   "category": "grill-pans",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "טלוויזיה 65 אינץ",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מידות טלוויזיה 65 אינץ",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "телевизор 65 дюймов размеры в см",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מידות טלוויזיה 75 אינץ",
+   "category": "tvs",
+   "minResults": 15,
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "טלוויזיה lg",
+   "category": "tvs",
+   "brand": "lg",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "lg tv",
+   "category": "tvs",
+   "brand": "lg",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מקרר 4 דלתות מומלץ",
+   "category": "refrigerators",
+   "model": "GN1406222GW",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מקרר מקפיא תחתון",
+   "category": "refrigerators",
+   "model": "PVR2D335-WH",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "גובה מכונת כביסה",
+   "category": "washing-machines",
+   "minResults": 20,
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מכונת כביסה 9 קילו",
+   "category": "washing-machines",
+   "model": "CM9120BI",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "10kg washing machine",
+   "category": "washing-machines",
+   "model": "WGG254Z6II",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מכונת כביסה אלקטרולוקס",
+   "category": "washing-machines",
+   "brand": "electrolux",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "bosch washing machines",
+   "category": "washing-machines",
+   "brand": "bosch",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "שואב אבק רובוטי מומלץ",
+   "category": "robot-vacuums",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "שואב אבק דייסון",
+   "category": "vacuum-cleaners",
+   "brand": "dyson",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מוט בלנדר בראון",
+   "category": "blenders",
+   "brand": "braun",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מיקרוגל שארפ",
+   "category": "microwaves",
+   "brand": "sharp",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "сушилка для белья электрическая в израиле",
+   "category": "dryers",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "купить холодильник хайфа",
+   "category": "refrigerators",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "хлебопечка купить в израиле",
+   "category": "avpy-lchm",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מצנן אוויר קטן",
+   "category": "air-coolers",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מדיח כלים מידות",
+   "category": "dishwashers",
+   "minResults": 20,
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "fqf675ggm",
+   "model": "FQF675GGM",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "75qned72b",
+   "model": "75QNED72B",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "kettle electric",
+   "category": "kettles",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מכונת קפה דלונגי",
+   "category": "coffee-machines",
+   "brand": "delonghi",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מקרן חום מוגן מים",
+   "category": "heaters",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "מאוורר עמוד 16",
+   "category": "fans",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "dishwashers",
+   "category": "dishwashers",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "tumble dryer",
+   "category": "dryers",
+   "note": "GSC audit 2026-11: top Google query, already right"
+  },
+  {
+   "q": "טכנאי מקררים בצפת",
+   "category": "refrigerators",
+   "note": "GSC audit 2026-11: service query, fridges are still the useful answer"
+  },
+  {
+   "q": "bosch 800 series dishwasher",
+   "category": "dishwashers",
+   "brand": "bosch"
+  },
+  {
+   "q": "цены на стиральные машины в израиле",
+   "category": "washing-machines"
+  },
+  {
+   "q": "תנור",
+   "category": "ovens",
+   "note": "ovens before heaters (תנורי חימום) and combos"
+  },
+  {
+   "q": "65дюймов",
+   "category": "tvs"
+  },
+  {
+   "q": "where to buy fridge",
+   "category": "refrigerators",
+   "note": "'where' must not sound-match אוויר"
+  },
+  {
+   "q": "מקרר 2 דלתות",
+   "category": "refrigerators"
+  },
+  {
+   "q": "tcl",
+   "brand": "tcl"
+  }
+ ]
+}

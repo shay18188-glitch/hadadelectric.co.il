@@ -1,10 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { buildBrands, buildCategories } from "@/lib/base44/catalog";
-import { createFuseIndex, productSearchBlob, searchProducts } from "@/lib/search/fuse";
-import { matchCategories } from "@/lib/search/categorySearch";
-import { findBrandIntent, matchBrands } from "@/lib/search/brandSearch";
+import { getSearchEngine, type SearchEngine } from "@/lib/search/engine";
 import { getQuickFilters } from "@/lib/search/quickFilters";
-import { normalizeHebrewSearch, SEARCH_SYNONYMS } from "@/lib/search/normalizeHebrew";
+import { filterProductsByFacets, inferFacetSelectionsFromQuery } from "@/lib/search/productFacets";
 import { prioritizeProductsWithImages } from "@/lib/search/productSorting";
 import { clientIp } from "@/lib/http/security";
 import type { Product } from "@/types/product";
@@ -21,7 +19,7 @@ type SearchIndex = {
   products: Product[];
   categories: Category[];
   brands: Brand[];
-  fuse: ReturnType<typeof createFuseIndex>;
+  engine: SearchEngine;
   expiresAt: number;
 };
 
@@ -38,7 +36,7 @@ function getSearchIndex(): SearchIndex {
     products,
     categories: buildCategories(products),
     brands: buildBrands(products),
-    fuse: createFuseIndex(products, searchCatalog.fuseIndex),
+    engine: getSearchEngine(products),
     expiresAt: Date.now() + SEARCH_INDEX_TTL_MS,
   };
   return searchIndex;
@@ -87,47 +85,16 @@ export async function GET(request: NextRequest) {
   }
 
   const startedAt = performance.now();
-  const { products, categories, brands, fuse } = getSearchIndex();
+  const { products, categories, brands, engine } = getSearchIndex();
 
-  const normalizedQuery = normalizeHebrewSearch(q);
-  const categoryMatches = matchCategories(categories, q, 4);
-  const hasCategoryIntent = SEARCH_SYNONYMS.some((group) =>
-    group.map(normalizeHebrewSearch).some((term) => normalizedQuery.includes(term))
-  );
-  const matchedCategorySlugs = new Set(categoryMatches.map((category) => category.slug));
-  const brandIntentMatches = findBrandIntent(brands, q);
-  const matchedBrandSlugs = new Set(brandIntentMatches.map((brand) => brand.slug));
+  const outcome = engine.search(q, { limit: 40 });
+  // "מקרר שחור 4 דלתות" also implies facet filters; use them when they leave
+  // something to show.
+  const facetFocused = filterProductsByFacets(outcome.products, inferFacetSelectionsFromQuery(q));
+  const rankedProducts = facetFocused.length > 0 ? facetFocused : outcome.products;
+  const categoryMatches = engine.matchCategories(outcome, categories, 4);
 
-  const productMatches = searchProducts(fuse, q, 20, products);
-  const focusedProducts = productMatches.filter((product) => {
-    const categoryMatch = !hasCategoryIntent || matchedCategorySlugs.size === 0 ||
-      Boolean(product.categorySlug && matchedCategorySlugs.has(product.categorySlug));
-    const brandMatch = matchedBrandSlugs.size === 0 ||
-      Boolean(product.brandSlug && matchedBrandSlugs.has(product.brandSlug));
-    return categoryMatch && brandMatch;
-  });
-  const intentMeasurements = normalizedQuery.match(/\d+(?:\.\d+)?\s+(?:אינצ|קג)/g) ?? [];
-  const hasStructuredIntent = hasCategoryIntent || matchedBrandSlugs.size > 0 || intentMeasurements.length > 0;
-  const structuredFallback = hasStructuredIntent
-    ? products.filter((product) => {
-        const categoryMatch = !hasCategoryIntent || matchedCategorySlugs.size === 0 ||
-          Boolean(product.categorySlug && matchedCategorySlugs.has(product.categorySlug));
-        const brandMatch = matchedBrandSlugs.size === 0 ||
-          Boolean(product.brandSlug && matchedBrandSlugs.has(product.brandSlug));
-        const productText = productSearchBlob(product);
-        const measurementMatch = intentMeasurements.every((measurement) => productText.includes(measurement));
-        return categoryMatch && brandMatch && measurementMatch;
-      })
-    : [];
-  const rankedProducts = [...focusedProducts];
-  for (const product of structuredFallback) {
-    if (rankedProducts.length >= 8) break;
-    if (!rankedProducts.some((candidate) => candidate.modelNumber === product.modelNumber)) {
-      rankedProducts.push(product);
-    }
-  }
-
-  const results = prioritizeProductsWithImages(rankedProducts).slice(0, 8).map((p) => ({
+  const results = prioritizeProductsWithImages(rankedProducts.slice(0, 8)).map((p) => ({
     name: p.name,
     slug: p.slug,
     brand: p.brand,
@@ -142,7 +109,7 @@ export async function GET(request: NextRequest) {
     productCount: c.productCount,
   }));
 
-  const matchedBrands = matchBrands(brands, q, 4).map((brand) => ({
+  const matchedBrands = engine.matchBrands(outcome, brands, 4).map((brand) => ({
     name: brand.name,
     slug: brand.slug,
     productCount: brand.productCount,
@@ -155,7 +122,10 @@ export async function GET(request: NextRequest) {
       categories: matchedCategories,
       brands: matchedBrands,
       quickFilters,
-      normalizedQuery,
+      normalizedQuery: outcome.normalizedQuery,
+      correctedQuery: outcome.correctedQuery,
+      partial: outcome.partial,
+      total: outcome.products.length,
     },
     {
       headers: {

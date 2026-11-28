@@ -31,8 +31,16 @@ const COMMON_SPELLINGS: Record<string, string> = {
 };
 
 function normalizeBase(text: string): string {
-  let result = text.toLowerCase().trim();
+  // Phones type typographic quotes (’ ” ‘ “ ״ ׳) for the plain ' and ".
+  let result = text.toLowerCase().trim().replace(/[\u2018\u2019\u201b\u0060\u00b4]/g, "'").replace(/[\u201c\u201d\u201f]/g, '"');
   result = result.replace(/[\u0591-\u05c7]/g, "");
+  // Russian ё → е; Arabic: drop harakat, fold alef/taa-marbuta/alef-maqsura forms.
+  result = result
+    .replace(/ё/g, "е")
+    .replace(/[\u064b-\u0652\u0640]/g, "")
+    .replace(/[أإآ]/g, "ا")
+    .replace(/ة/g, "ه")
+    .replace(/ى/g, "ي");
   result = result.replace(/[ךםןףץ]/g, (letter) => FINAL_LETTERS[letter] ?? letter);
   // Keep common Hebrew measurement abbreviations as one searchable token
   // before quote punctuation is stripped (ק״ג → קג, ס״מ → סמ, כ״ס → כס).
@@ -50,7 +58,18 @@ function normalizeBase(text: string): string {
   // unit before punctuation is removed so a size is not confused with Hz,
   // dimensions or a model number elsewhere in the product specification.
   result = result.replace(/(\d+(?:\.\d+)?)\s*["'׳״]/g, "$1 אינצ ");
-  result = result.replace(/["'׳״.,\-_/\\]+/g, " ");
+  // A geresh inside a Hebrew word is part of the letter (ג׳ = J, צ׳ = CH),
+  // not a word break: "נינג'ה" must stay one token, "נינגה".
+  result = result.replace(/([\u05d0-\u05ea])["'׳״]+/g, "$1");
+  // Units glued to numbers: "8kg", "55אינץ", "20ל" → "8 קג", "55 אינצ", "20 ליטר".
+  result = result
+    .replace(/(\d)(?=(?:kg|קג|ליטר|ל|lt|ltr|וואט|w|cm|סמ|אינצ|אינץ|inch|כס|hz|дюймов|дюйма|дюйм|см|кг|литров|л)(?:[\s.,]|$))/g, "$1 ")
+    .replace(/(^|\s)(\d+(?:[.,]\d+)?) (?:kg)(?=\s|$)/g, "$1$2 קג")
+    .replace(/(^|\s)(\d+(?:[.,]\d+)?) (?:ל|lt|ltr)(?=\s|$)/g, "$1$2 ליטר")
+    .replace(/(^|\s)(\d+(?:[.,]\d+)?) (?:w)(?=\s|$)/g, "$1$2 וואט")
+    .replace(/(^|\s)(\d+(?:[.,]\d+)?) (?:cm)(?=\s|$)/g, "$1$2 סמ")
+    .replace(/(^|\s)(\d+(?:[.,]\d+)?) (?:inch|אינץ)(?=\s|$)/g, "$1$2 אינצ");
+  result = result.replace(/["'׳״.,\-_/\\+()[\]{}!?:;*&|~^%$#@=<>]+/g, " ");
   return result.replace(/¤/g, ".").replace(/\s+/g, " ").trim();
 }
 
@@ -109,6 +128,51 @@ export const SEARCH_STOP_WORDS = new Set([
   "שומר",
   "מומלץ",
   "מומלצת",
+  "מומלצים",
+  // Shopping intent and filler words: they say what the shopper wants to do,
+  // not which product, so they must never be required in a result.
+  "מחיר",
+  "מחירים",
+  "זול",
+  "זולה",
+  "זולים",
+  "הכי",
+  "טוב",
+  "טובה",
+  "טובים",
+  "מבצע",
+  "מבצעים",
+  "חדש",
+  "חדשה",
+  "חדשים",
+  "לקנות",
+  "קנייה",
+  "למכירה",
+  "מכירה",
+  "חנות",
+  "נהריה",
+  "בנהריה",
+  "את",
+  "על",
+  "או",
+  "גם",
+  "יש",
+  "לי",
+  "זה",
+  "איזה",
+  "איפה",
+  "כמה",
+  "אצלכם",
+  "שלכם",
+  "במלאי",
+  "זמין",
+  "the",
+  "for",
+  "and",
+  "price",
+  "buy",
+  "cheap",
+  "best",
 ].map(normalizeHebrewSearch));
 
 /**

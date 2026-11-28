@@ -142,3 +142,37 @@ export function trackEvent(event: AnalyticsEvent, params: Record<string, unknown
   }
   sendServerBeacon(event, params);
 }
+
+export interface SearchLogPayload {
+  /** What the shopper typed. */
+  q: string;
+  /** How many results they were shown. */
+  n: number;
+  /** click = chose a suggestion; results_page = saw the full results page; abandon = left without choosing. */
+  o: "click" | "results_page" | "abandon";
+  k?: "product" | "category" | "brand" | "filter" | "shortcut";
+  s?: "header" | "bottom_bar" | "results_page" | "other";
+  /** The engine's "showing results for" correction, if any. */
+  c?: string | null;
+}
+
+/**
+ * Records one site search (text, result count, outcome) so search can be
+ * improved from real queries. Nothing identifying is sent: no visitor id,
+ * no page path, no referrer. Fire-and-forget like every other beacon.
+ */
+export function logSearch(payload: SearchLogPayload): void {
+  if (typeof window === "undefined") return;
+  const q = payload.q.trim();
+  if (q.length < 2) return;
+  try {
+    const body = JSON.stringify({ searches: [{ ...payload, q, c: payload.c ?? undefined }] });
+    if (typeof navigator !== "undefined" && typeof navigator.sendBeacon === "function") {
+      navigator.sendBeacon("/api/track", new Blob([body], { type: "application/json" }));
+    } else {
+      void fetch("/api/track", { method: "POST", body, keepalive: true, headers: { "Content-Type": "application/json" } });
+    }
+  } catch {
+    // Tracking must never break the UX.
+  }
+}

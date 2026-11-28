@@ -1,4 +1,5 @@
 import type { DashboardData, RankedEntry } from "@/lib/analytics/events";
+import type { SearchLogSummary } from "@/lib/analytics/searchLog";
 import type { Lead } from "@/lib/analytics/leads";
 import { LogoutButton } from "@/components/admin/LogoutButton";
 import { LeadsPanel } from "@/components/admin/LeadsPanel";
@@ -12,6 +13,7 @@ interface Props {
   brandNames: Record<string, string>;
   productNames: Record<string, string>;
   pageNames: Record<string, string>;
+  searchLog: SearchLogSummary | null;
 }
 
 function n(x: number | undefined): string {
@@ -163,7 +165,59 @@ function BottomBarPanel({ bar, searchPages, contactPages, pageNames }: {
   );
 }
 
-export function AdminDashboard({ data, leads, connected, envStatus, categoryNames, brandNames, productNames, pageNames }: Props) {
+const OUTCOME_LABEL: Record<string, string> = { click: "בחר תוצאה", results_page: "עמוד תוצאות", abandon: "עזב בלי לבחור" };
+
+/** What shoppers typed into the site search, and which searches failed them. */
+function SearchLogPanel({ log }: { log: SearchLogSummary | null }) {
+  if (!log) return null;
+  const toRanked = (rows: { query: string; count: number }[]) => rows.map((row) => ({ slug: row.query, count: row.count }));
+  return (
+    <section className="mt-10">
+      <h2 className="text-lg font-bold text-graphite md:text-2xl">חיפושים באתר</h2>
+      <p className="mt-1 text-sm text-graphite-soft/60">
+        מה גולשים הקלידו בחיפוש השבוע ({log.week}). חיפושים בלי תוצאות או שננטשו הם מה שצריך לתקן — סקירה שבועית
+        אוטומטית עוברת עליהם. לא נשמר מי חיפש, רק הטקסט.
+      </p>
+      <div className="mt-4 grid gap-3 md:grid-cols-3">
+        <RankedList title="החיפושים הנפוצים" entries={toRanked(log.top)} suffix="חיפושים" />
+        <RankedList title="חיפושים בלי תוצאות" entries={toRanked(log.zero)} suffix="פעמים" />
+        <RankedList title="חיפושים שננטשו" entries={toRanked(log.abandoned)} suffix="פעמים" />
+      </div>
+      {log.recent.length > 0 && (
+        <div className="mt-3 overflow-x-auto rounded-2xl border border-line bg-white p-4 md:p-5">
+          <h3 className="text-sm font-bold text-graphite">חיפושים אחרונים</h3>
+          <table className="mt-3 w-full text-sm">
+            <thead className="text-start text-xs text-graphite-soft/60">
+              <tr>
+                <th className="py-1.5 text-start font-semibold">מתי</th>
+                <th className="py-1.5 text-start font-semibold">חיפוש</th>
+                <th className="py-1.5 text-start font-semibold">תוצאות</th>
+                <th className="py-1.5 text-start font-semibold">מה קרה</th>
+              </tr>
+            </thead>
+            <tbody>
+              {log.recent.map((entry, index) => (
+                <tr key={`${entry.t}-${index}`} className="border-t border-line">
+                  <td className="whitespace-nowrap py-1.5 pe-3 text-graphite-soft/70">
+                    {new Date(entry.t).toLocaleString("he-IL", { timeZone: "Asia/Jerusalem", dateStyle: "short", timeStyle: "short" })}
+                  </td>
+                  <td className="py-1.5 pe-3 font-medium text-graphite">
+                    {entry.q}
+                    {entry.c && <span className="ms-2 text-xs text-graphite-soft/60">→ {entry.c}</span>}
+                  </td>
+                  <td className={entry.n === 0 ? "py-1.5 pe-3 font-bold text-red-700" : "py-1.5 pe-3 text-graphite"}>{n(entry.n)}</td>
+                  <td className="py-1.5 text-graphite-soft/80">{OUTCOME_LABEL[entry.o] ?? entry.o}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </section>
+  );
+}
+
+export function AdminDashboard({ data, leads, connected, envStatus, categoryNames, brandNames, productNames, pageNames, searchLog }: Props) {
   const t = data.totals;
   const waTotal =
     (t.whatsapp_click_header ?? 0) +
@@ -238,6 +292,8 @@ export function AdminDashboard({ data, leads, connected, envStatus, categoryName
       <section className="mt-10">
         <LeadsPanel leads={leads} />
       </section>
+
+      <SearchLogPanel log={searchLog} />
 
       <BottomBarPanel
         bar={data.bar}

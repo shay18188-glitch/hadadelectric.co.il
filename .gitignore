@@ -46,3 +46,7 @@ next-env.d.ts
 
 # build-time Base44 catalog snapshot (scripts/generate-search-catalog.mts)
 /content/.generated/
+
+# Weekly search review (scripts/search-log-report.mts)
+/.search-review/
+.env.search-review

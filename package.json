@@ -16,7 +16,9 @@
     "research:fetch": "tsx --env-file-if-exists=.env.research scripts/research/research.mts",
     "research:qa": "tsx --env-file-if-exists=.env.research scripts/research/qa.mts",
     "research:compare": "tsx scripts/research/compare.mts",
-    "indexnow": "tsx scripts/indexnow.mts"
+    "indexnow": "tsx scripts/indexnow.mts",
+    "search:check": "tsx scripts/search-check.mts",
+    "search:report": "tsx --env-file-if-exists=.env.search-review scripts/search-log-report.mts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

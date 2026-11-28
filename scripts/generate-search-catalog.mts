@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 import { Base44CatalogResponseSchema } from "../types/api";
 import { normalizeProduct } from "../lib/normalize";
 import type { Product } from "../types/product";
-import { serializeFuseIndex, toSearchableProducts } from "../lib/search/fuse";
+import { toSearchableProducts } from "../lib/search/searchBlob";
 
 const DEFAULT_APP_ID = "697dbf6bdde569f5ea050a4e";
 const appId = process.env.NEXT_PUBLIC_BASE44_APP_ID || DEFAULT_APP_ID;
@@ -78,8 +78,9 @@ async function main() {
       searchBlob: product.searchBlob,
     }));
 
-    const fuseIndex = serializeFuseIndex(searchableProducts as Product[]);
-    const nextContents = `${JSON.stringify({ products: searchableProducts, fuseIndex })}\n`;
+    // The engine (lib/search/engine.ts) builds its own token index at
+    // start-up in a few milliseconds, so no serialized index is shipped.
+    const nextContents = `${JSON.stringify({ products: searchableProducts })}\n`;
     const previousContents = await readFile(outputPath, "utf8").catch(() => "");
     if (previousContents !== nextContents) {
       await writeFile(outputPath, nextContents, "utf8");
